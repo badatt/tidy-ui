@@ -54,8 +54,11 @@ jobs:
       - name: Spellcheck
         run: yarn spellcheck
 
+      - name: Build
+        run: yarn build
+
       - name: Publish to Npm registry
         run: |
-          yarn release
+          npm publish --access public --non-interactive
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
