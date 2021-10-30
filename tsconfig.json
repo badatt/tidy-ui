@@ -1,17 +1,29 @@
 {
   "compilerOptions": {
-    "declaration": true,
-    "declarationDir": "build",
-    "module": "esnext",
-    "target": "es5",
-    "lib": ["es6", "dom", "es2016", "es2017"],
-    "sourceMap": true,
-    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "geist-ui": ["components/index.tsx"]
+    },
+    "strictNullChecks": true,
     "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "baseUrl": "./src"
+    "experimentalDecorators": true,
+    "jsx": "preserve",
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "target": "es6",
+    "lib": ["dom", "es2017"],
+    "skipLibCheck": true,
+    "allowJs": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "module": "esnext",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "typeRoots": ["node_modules/@types", "./typings"]
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "build", "**/tests", "**/*.test.js", "**/*.spec.tsx", "**/*.stories.tsx"]
+  "exclude": ["node_modules", "es", "examples", "dist"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "lib/**/*.tsx", "src/**/*.tsx"]
 }

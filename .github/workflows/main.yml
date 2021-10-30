@@ -27,11 +27,8 @@ jobs:
       - name: Spellcheck
         run: yarn spellcheck
 
-      - name: Build
-        run: yarn build
-
       - name: Publish to Github
-        run: yarn publish
+        run: yarn release
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -42,6 +39,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
           scope: '@badatt'
 
-      - run: npm publish --access public
+      - name: Publish to Npm registry
+        run: yarn release
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

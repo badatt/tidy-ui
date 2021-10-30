@@ -1,23 +1,111 @@
 import commonjs from '@rollup/plugin-commonjs';
-import resolve from '@rollup/plugin-node-resolve';
-import peerDepsExternal from 'rollup-plugin-peer-deps-external';
-import typescript from 'rollup-plugin-typescript2';
+import nodeResolve from '@rollup/plugin-node-resolve';
+import localResolve from 'rollup-plugin-local-resolve';
+import babel from 'rollup-plugin-babel';
+import fs from 'fs-extra';
+import path from 'path';
+const sourcePath = path.join(__dirname, 'src');
+const distPath = path.join(__dirname, 'dist');
 
-import packageJson from './package.json';
+const extensions = ['.js', '.jsx', '.ts', '.tsx'];
 
-export default {
-  input: './src/index.ts',
-  output: [
-    {
-      file: packageJson.main,
-      format: 'cjs',
-      sourcemap: true,
-    },
-    {
-      file: packageJson.module,
-      format: 'esm',
-      sourcemap: true,
-    },
-  ],
-  plugins: [peerDepsExternal(), resolve(), commonjs(), typescript()],
+const plugins = [
+  babel({
+    exclude: 'node_modules/**',
+    extensions,
+    presets: ['@babel/preset-env', '@babel/preset-react', '@babel/preset-typescript'],
+  }),
+  localResolve(),
+  nodeResolve({
+    browser: true,
+    extensions,
+  }),
+  commonjs(),
+];
+
+const globals = {
+  react: 'React',
+  'react-dom': 'ReactDOM',
 };
+
+const external = (id) => /^react|react-dom|next\/link/.test(id);
+
+const cjsOutput = {
+  format: 'cjs',
+  exports: 'named',
+  entryFileNames: '[name]/index.js',
+  dir: 'dist',
+  globals,
+};
+
+export default (async () => {
+  await fs.remove(distPath);
+  const files = await fs.readdir(sourcePath);
+
+  const components = await Promise.all(
+    files.map(async (name) => {
+      const comPath = path.join(sourcePath, name);
+      const entry = path.join(comPath, 'index.ts');
+
+      const stat = await fs.stat(comPath);
+      if (!stat.isDirectory()) return null;
+
+      const hasFile = await fs.pathExists(entry);
+      if (!hasFile) return null;
+
+      return { name, url: entry };
+    }),
+  );
+
+  const makeConfig = (name, url) => ({
+    input: { [name]: url },
+    output: [
+      {
+        // file: 'dist/index.js',
+        format: 'cjs',
+        exports: 'named',
+        entryFileNames: '[name]/index.js',
+        dir: 'dist',
+        globals,
+      },
+      // {
+      //   // file: 'dist/index.es.js',
+      //   format: 'es',
+      //   exports: 'named',
+      //   dir: 'dist',
+      //   globals,
+      // },
+      // {
+      //   file: pkg.browser,
+      //   format: 'umd',
+      //   exports: 'named',
+      //   globals,
+      //   name: 'GeistUI',
+      // },
+    ],
+    external,
+    plugins,
+  });
+
+  return [
+    ...components
+      .filter((r) => r)
+      .map(({ name, url }) => ({
+        input: { [name]: url },
+        output: [cjsOutput],
+        external,
+        plugins,
+      })),
+    {
+      input: { index: path.join(sourcePath, 'index.ts') },
+      output: [
+        {
+          ...cjsOutput,
+          entryFileNames: 'index.js',
+        },
+      ],
+      external,
+      plugins,
+    },
+  ];
+})();

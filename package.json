@@ -34,6 +34,8 @@
     "jest": "26.4.2",
     "prettier": "2.1.2",
     "rollup": "2.28.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-local-resolve": "^1.0.7",
     "rollup-plugin-peer-deps-external": "2.2.3",
     "rollup-plugin-typescript2": "0.27.3",
     "spellchecker-cli": "4.4.0",
@@ -50,15 +52,20 @@
     "react-dom": "16.13.1"
   },
   "scripts": {
+    "clear": "rm -rf ./dist",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "spellcheck": "spellchecker -f src/**/*.md README.md -d .spelling -l en-GB",
     "do-rollup": "rollup -c",
     "lint": "eslint 'src/**/*.{js,ts,tsx}' --quiet --fix",
-    "build": "yarn spellcheck && yarn lint && yarn do-rollup",
-    "test": "jest"
+    "build": "yarn clear && yarn spellcheck && yarn lint && yarn do-rollup",
+    "test": "jest",
+    "release": "yarn build && yarn publish --access public --non-interactive"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
-  }
+  },
+  "files": [
+    "/dist"
+  ]
 }
