@@ -1,0 +1,34 @@
+{
+  "name": "@tidy-ui/core",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "Balu Praveen Datty <dev.badatt@gmail.com>",
+  "homepage": "https://github.com/badatt/tidy-ui#readme",
+  "license": "MIT",
+  "main": "src/index.js",
+  "files": [
+    "src/",
+    "dist/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badatt/tidy-ui.git"
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "version": "yarn build"
+  },
+  "bugs": {
+    "url": "https://github.com/badatt/tidy-ui/issues"
+  },
+  "peerDependencies": {
+    "tailwindcss": ">=2.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "clean-css": "^5.1.2",
+    "postcss": "^8.3.4",
+    "postcss-import": "^14.0.2",
+    "tailwindcss": "^2.2.4"
+  }
+}
