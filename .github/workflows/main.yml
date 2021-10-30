@@ -9,6 +9,8 @@ jobs:
   github-package-release:
     name: Github package release
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: Check out the code
@@ -27,12 +29,12 @@ jobs:
       - name: Publish to Github
         run: |
           yarn release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   npm-package-release:
     name: Npm package release
     runs-on: ubuntu-latest
+    env:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
     steps:
       - name: Check out the code
@@ -54,5 +56,3 @@ jobs:
       - name: Publish to Npm registry
         run: |
           yarn release
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
