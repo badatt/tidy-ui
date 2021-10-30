@@ -18,7 +18,6 @@ jobs:
         uses: actions/setup-node@v2.1.5
         with:
           node-version: '12.x'
-          registry-url: 'https://npm.pkg.github.com'
           scope: '@badatt'
 
       - name: Install Dependencies
@@ -28,18 +27,15 @@ jobs:
         run: yarn spellcheck
 
       - name: Publish to Github
-        run: yarn release
+        run: |
+          npm config set //npm.pkg.github.com/:_authToken ${GIT_PUBLISH_TOKEN}
+          yarn release
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Set up Node
-        uses: actions/setup-node@v2.1.5
-        with:
-          node-version: '12.x'
-          registry-url: 'https://registry.npmjs.org'
-          scope: '@badatt'
+          GIT_PUBLISH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish to Npm registry
-        run: yarn release
+        run: |
+          npm config set //registry.npmjs.org/:_authToken ${NODE_AUTH_TOKEN}
+          yarn release
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
