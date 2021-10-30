@@ -1,6 +1,6 @@
-import { ReactChild, ReactPortal, Children, ReactText } from "react";
+import { ReactChild, ReactPortal, Children, ReactText } from 'react';
 
-type Children = ReactChild | Array<Children> | ReactPortal | Boolean;
+type Children = ReactChild | Array<Children> | ReactPortal | boolean;
 
 export interface IElementProps {
   className?: string;

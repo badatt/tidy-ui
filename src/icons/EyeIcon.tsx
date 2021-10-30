@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import { IElementProps } from 'types';
 
-export default (props: IElementProps): JSX.Element => (
+const EyeIcon = (props: IElementProps): JSX.Element => (
   <svg xmlns="http://www.w3.org/2000/svg" className={clsx(props.className)} viewBox="0 0 20 20" fill="currentColor">
     <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
     <path
@@ -12,3 +12,5 @@ export default (props: IElementProps): JSX.Element => (
     />
   </svg>
 );
+
+export default EyeIcon;

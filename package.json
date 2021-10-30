@@ -36,6 +36,7 @@
     "rollup": "2.28.2",
     "rollup-plugin-peer-deps-external": "2.2.3",
     "rollup-plugin-typescript2": "0.27.3",
+    "spellchecker-cli": "4.4.0",
     "ts-jest": "26.4.0",
     "ts-loader": "8.0.4",
     "typescript": "4.0.3"
@@ -51,8 +52,10 @@
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "build": "rollup -c",
+    "spellcheck": "spellchecker -f src/**/*.md README.md -d .spelling -l en-GB",
+    "do-rollup": "rollup -c",
     "lint": "eslint 'src/**/*.{js,ts,tsx}' --quiet --fix",
+    "build": "yarn spellcheck && yarn lint && yarn do-rollup",
     "test": "jest"
   },
   "publishConfig": {

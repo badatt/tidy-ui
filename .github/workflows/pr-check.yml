@@ -1,0 +1,27 @@
+name: Pull Request Lint
+
+on:
+  pull_request:
+    branches:
+      - main
+      - develop
+      - 'release/**'
+
+jobs:
+  build:
+    name: Lint
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v2
+
+      - name: Set up Node
+        uses: actions/setup-node@v2.1.5
+        id: node
+
+      - name: Install Dependencies
+        run: yarn
+
+      - name: Spellcheck
+        run: yarn spellcheck

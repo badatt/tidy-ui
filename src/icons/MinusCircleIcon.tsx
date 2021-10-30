@@ -1,14 +1,14 @@
 import React from 'react';
 import { IElementProps } from 'types';
 
-const ChevronUpIcon = (props: IElementProps): JSX.Element => (
+const MinusCircleIcon = (props: IElementProps): JSX.Element => (
   <svg xmlns="http://www.w3.org/2000/svg" className={props.className} viewBox="0 0 20 20" fill="currentColor">
     <path
       fillRule="evenodd"
-      d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
+      d="M10 18a8 8 0 100-16 8 8 0 000 16zM7 9a1 1 0 000 2h6a1 1 0 100-2H7z"
       clipRule="evenodd"
     />
   </svg>
 );
 
-export default ChevronUpIcon;
+export default MinusCircleIcon;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { IElementProps } from 'types';
 
-export default (props: IElementProps): JSX.Element => (
+const RotatingCircleIcon = (props: IElementProps): JSX.Element => (
   <svg
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
@@ -29,3 +29,5 @@ export default (props: IElementProps): JSX.Element => (
     </path>
   </svg>
 );
+
+export default RotatingCircleIcon;
