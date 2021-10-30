@@ -1,4 +1,15 @@
-# --Name of the repository--
---Description--
+# 🚀 Welcome to your new awesome project!
 
---Instructions--
+This project has been created using **webpack-cli**, you can now run
+
+```
+npm run build
+```
+
+or
+
+```
+yarn build
+```
+
+to bundle your application
