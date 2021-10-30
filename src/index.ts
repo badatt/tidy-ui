@@ -1,1 +1,1 @@
-console.log("Hello World!");
+export { default as HelloWorld } from './hello-world';
