@@ -6,36 +6,10 @@ on:
       - main
 
 jobs:
-  github-package-release:
-    name: Github package release
-    runs-on: ubuntu-latest
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-    steps:
-      - name: Check out the code
-        uses: actions/checkout@v2
-
-      - name: Set up Node
-        uses: actions/setup-node@v2.1.5
-        with:
-          node-version: "12.x"
-          registry-url: "https://npm.pkg.github.com"
-          scope: "@badatt"
-
-      - name: Install Dependencies
-        run: yarn
-
-      - name: Publish to Github
-        run: |
-          yarn release
-
   npm-package-release:
     name: Npm package release
     runs-on: ubuntu-latest
     env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
     steps:
