@@ -17,15 +17,12 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v2.1.5
         with:
-          node-version: '12.x'
-          registry-url: 'https://npm.pkg.github.com'
-          scope: '@badatt'
+          node-version: "12.x"
+          registry-url: "https://npm.pkg.github.com"
+          scope: "@badatt"
 
       - name: Install Dependencies
         run: yarn
-
-      - name: Spellcheck
-        run: yarn spellcheck
 
       - name: Publish to Github
         run: |
@@ -44,21 +41,18 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v2.1.5
         with:
-          node-version: '12.x'
+          node-version: "12.x"
           registry-url: https://registry.npmjs.org/
-          scope: '@badatt'
+          scope: "@badatt"
 
       - name: Install Dependencies
         run: yarn
-
-      - name: Spellcheck
-        run: yarn spellcheck
 
       - name: Build
         run: yarn build
 
       - name: Publish to Npm registry
         run: |
-          npm publish --access public --non-interactive
+          yarn release
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
