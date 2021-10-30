@@ -6,8 +6,8 @@ on:
       - main
 
 jobs:
-  release:
-    name: Release
+  github-package-release:
+    name: Github package release
     runs-on: ubuntu-latest
 
     steps:
@@ -32,6 +32,26 @@ jobs:
           yarn release
         env:
           GIT_PUBLISH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  npm-package-release:
+    name: Npm package release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v2
+
+      - name: Set up Node
+        uses: actions/setup-node@v2.1.5
+        with:
+          node-version: '12.x'
+          scope: '@badatt'
+
+      - name: Install Dependencies
+        run: yarn
+
+      - name: Spellcheck
+        run: yarn spellcheck
 
       - name: Publish to Npm registry
         run: |
