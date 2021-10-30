@@ -6,7 +6,7 @@ const Component = styled.div`
 `;
 
 const Box = () => {
-  return <Component>Hello</Component>;
+  return <Component>Hello World</Component>;
 };
 
 export default Box;
