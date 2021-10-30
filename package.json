@@ -40,6 +40,10 @@
     "ts-loader": "8.0.4",
     "typescript": "4.0.3"
   },
+  "dependencies": {
+    "@emotion/react": "11.5.0",
+    "@emotion/styled": "11.3.0"
+  },
   "peerDependencies": {
     "react": "16.13.1",
     "react-dom": "16.13.1"
@@ -50,5 +54,8 @@
     "build": "rollup -c",
     "lint": "eslint 'src/**/*.{js,ts,tsx}' --quiet --fix",
     "test": "jest"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
