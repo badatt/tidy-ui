@@ -35,6 +35,10 @@
     "**/react-dom": "17.0.2"
   },
   "author": "Balu Praveen Datty <dev.badatt@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/badatt/tidy-ui.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "7.14.5",

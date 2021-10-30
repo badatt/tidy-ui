@@ -16,6 +16,10 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/badatt/tidy-ui.git"
+  },
   "publishConfig": {
     "access": "public"
   },
