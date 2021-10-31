@@ -10,7 +10,7 @@ jobs:
     name: Npm package release
     runs-on: ubuntu-latest
     env:
-      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
     steps:
       - name: Check out the code
@@ -21,7 +21,6 @@ jobs:
         with:
           node-version: "12.x"
           registry-url: https://registry.npmjs.org/
-          scope: "@badatt"
 
       - name: Install Dependencies
         run: yarn
@@ -30,5 +29,4 @@ jobs:
         run: yarn build
 
       - name: Publish to Npm registry
-        run: |
-          yarn release
+        run: yarn release
