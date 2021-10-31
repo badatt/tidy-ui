@@ -1,6 +1,6 @@
 {
   "name": "tidy-ui",
-  "private": true,
+  "private": false,
   "version": "0.0.1",
   "description": "A tiny UI component library",
   "author": "badatt",
