@@ -1,7 +1,6 @@
 {
   "name": "@tidy-ui/react",
   "version": "0.0.1",
-  "preview": false,
   "description": "A tiny UI component library for react",
   "author": "badatt",
   "license": "MIT",
@@ -59,6 +58,7 @@
     "typescript": "^3.7.5"
   },
   "files": [
-    "dist"
+    "src/",
+    "dist/"
   ]
 }
