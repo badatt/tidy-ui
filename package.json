@@ -1,14 +1,19 @@
 {
-  "name": "tidy-ui",
+  "name": "@tidy-ui/design-system",
   "private": true,
+  "main": "index.js",
   "scripts": {
+    "release": "yarn vet && yarn build && yarn test && changeset publish",
+    "bootstrap": "lerna bootstrap",
     "build": "yarn clean && lerna exec --parallel -- yarn build",
     "clean": "lerna exec --parallel -- yarn clean",
     "dev": "start-storybook -p 5555",
     "generate": "plop --plopfile internals/generators/index.js",
     "test": "jest --coverage",
     "unit": "jest",
-    "yalc-publish": "lerna exec --parallel -- yarn yalc-publish"
+    "vet": "echo //TODO Vet",
+    "yalc:publish": "lerna exec --parallel -- yarn yalc:publish",
+    "yalc:push": "lerna exec --parallel -- yarn yalc:push"
   },
   "workspaces": [
     "packages/*"
@@ -19,6 +24,7 @@
     "@babel/preset-env": "^7.16.0",
     "@babel/preset-react": "^7.16.0",
     "@babel/preset-typescript": "^7.16.0",
+    "@changesets/cli": "^2.17.0",
     "@storybook/addon-docs": "^6.3.12",
     "@storybook/preset-create-react-app": "^3.2.0",
     "@storybook/react": "^6.3.12",

@@ -1,11 +1,11 @@
 import React from "react";
 import renderer from "react-test-renderer";
 import "jest-styled-components";
-import Card from "../Card";
+import { Button } from "../src";
 
-describe("Card", () => {
-  test("renders correctly", () => {
-    const tree = renderer.create(<Card />).toJSON();
+describe("Button", () => {
+  test("Renders correctly", () => {
+    const tree = renderer.create(<Button />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

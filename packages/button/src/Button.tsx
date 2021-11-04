@@ -1,7 +1,16 @@
 import React from "react";
 
-const Button = (): JSX.Element => {
-  return <button>hello world</button>;
-};
+export interface IButtonProps extends React.HTMLAttributes<HTMLButtonElement> {}
+
+const Button = React.forwardRef<HTMLButtonElement, IButtonProps>(
+  (props, ref) => {
+    const { className, children, ...rest } = props;
+    return (
+      <button ref={ref} {...rest} className={className}>
+        {children}
+      </button>
+    );
+  }
+);
 
 export { Button };

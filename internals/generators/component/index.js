@@ -43,6 +43,12 @@ module.exports = {
       },
       {
         type: "add",
+        path: "../../packages/{{properCase name}}/index.ts",
+        templateFile: "./component/template/index.ts.hbs",
+        abortOnFail: true,
+      },
+      {
+        type: "add",
         path: "../../packages/{{properCase name}}/src/index.ts",
         templateFile: "./component/template/src/index.ts.hbs",
         abortOnFail: true,
@@ -56,16 +62,15 @@ module.exports = {
       {
         type: "add",
         path:
-          "../../packages/{{properCase name}}/src/{{properCase name}}.stories.tsx",
-        templateFile: "./component/template/src/Component.stories.tsx.hbs",
+          "../../packages/{{properCase name}}/stories/{{properCase name}}.stories.tsx",
+        templateFile: "./component/template/stories/Component.stories.tsx.hbs",
         abortOnFail: true,
       },
       {
         type: "add",
         path:
-          "../../packages/{{properCase name}}/src/__test__/{{properCase name}}.spec.tsx",
-        templateFile:
-          "./component/template/src/__test__/Component.spec.tsx.hbs",
+          "../../packages/{{properCase name}}/test/{{properCase name}}.spec.tsx",
+        templateFile: "./component/template/test/Component.spec.tsx.hbs",
         abortOnFail: true,
       },
     ];

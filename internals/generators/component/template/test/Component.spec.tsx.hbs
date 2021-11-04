@@ -1,10 +1,10 @@
 import React from "react";
 import renderer from "react-test-renderer";
 import "jest-styled-components";
-import {{ properCase name }} from "../{{ properCase name }}";
+import { {{ properCase name }} } from "../src";
 
 describe("{{ properCase name }}", () => {
-  test("renders correctly", () => {
+  test("Renders correctly", () => {
     const tree = renderer.create(<{{ properCase name }} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
