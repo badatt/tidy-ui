@@ -1,5 +1,6 @@
 {
   "name": "@tidy-ui/design-system",
+  "version": "0.0.1",
   "private": true,
   "main": "index.js",
   "scripts": {
@@ -12,9 +13,7 @@
     "unit": "jest",
     "vet": "echo //TODO Vet",
     "yalc:publish": "lerna exec --parallel -- yarn yalc:publish",
-    "yalc:push": "lerna exec --parallel -- yarn yalc:push",
-    "version": "changeset version",
-    "release": "yarn vet && yarn build && yarn test && changeset publish"
+    "yalc:push": "lerna exec --parallel -- yarn yalc:push"
   },
   "workspaces": [
     "packages/*"
@@ -25,7 +24,6 @@
     "@babel/preset-env": "^7.16.0",
     "@babel/preset-react": "^7.16.0",
     "@babel/preset-typescript": "^7.16.0",
-    "@changesets/cli": "^2.17.0",
     "@storybook/addon-docs": "^6.3.12",
     "@storybook/preset-create-react-app": "^3.2.0",
     "@storybook/react": "^6.3.12",
@@ -49,6 +47,5 @@
     "typescript": "^4.4.4",
     "webpack": "^5.61.0",
     "yalc": "^1.0.0-pre.53"
-  },
-  "version": "0.0.0"
+  }
 }
