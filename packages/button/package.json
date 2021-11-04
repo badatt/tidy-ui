@@ -1,0 +1,23 @@
+{
+  "name": "@tidy-ui/button",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "module": "src/index.ts",
+  "scripts": {
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "build": "tsc -b",
+    "clean": "tsc --build --clean",
+    "yalc-publish": "yalc publish"
+  },
+  "dependencies": {
+    "styled-components": "^5.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
+  "devDependencies": {
+    "react": "^16.0.0",
+    "typescript": "^4.4.4",
+    "@types/react": "^17.0.34"
+  }
+}
