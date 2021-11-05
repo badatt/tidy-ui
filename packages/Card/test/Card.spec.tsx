@@ -5,7 +5,7 @@ import { Card } from "../src";
 
 describe("Card", () => {
   test("Renders correctly", () => {
-    const tree = renderer.create(<Card>This is a simple card</Card>).toJSON();
+    const tree = renderer.create(<Card>Hello</Card>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

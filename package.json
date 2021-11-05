@@ -13,7 +13,8 @@
     "unit": "jest",
     "vet": "echo //TODO Vet",
     "yalc:publish": "lerna exec --parallel -- yarn yalc:publish",
-    "yalc:push": "lerna exec --parallel -- yarn yalc:push"
+    "yalc:push": "lerna exec --parallel -- yarn yalc:push",
+    "prepare": "husky install"
   },
   "workspaces": [
     "packages/*"
@@ -36,7 +37,7 @@
     "babel-jest": "^27.3.1",
     "babel-loader": "^8.2.3",
     "babel-plugin-styled-components": "^1.13.3",
-    "husky": "^7.0.4",
+    "husky": "^7.0.0",
     "jest": "^27.3.1",
     "jest-haste-map": "^27.3.1",
     "jest-resolve": "^27.3.1",
