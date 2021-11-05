@@ -9,7 +9,7 @@
     "clean": "lerna exec --parallel -- yarn clean",
     "dev": "start-storybook -p 5555",
     "generate": "plop --plopfile internals/generators/index.js",
-    "semantic-release": "semantic-release",
+    "publish": "yarn lerna publish",
     "test": "jest --coverage",
     "unit": "jest",
     "vet": "echo //TODO Vet",
@@ -38,7 +38,6 @@
     "babel-jest": "^27.3.1",
     "babel-loader": "^8.2.3",
     "babel-plugin-styled-components": "^1.13.3",
-    "commitizen": "^4.2.4",
     "husky": "^7.0.0",
     "jest": "^27.3.1",
     "jest-haste-map": "^27.3.1",
@@ -49,10 +48,10 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-test-renderer": "^17.0.2",
-    "semantic-release": "^18.0.0",
     "styled-components": "^5.3.3",
     "typescript": "^4.4.4",
     "webpack": "^5.61.0",
     "yalc": "^1.0.0-pre.53"
-  }
+  },
+  "dependencies": {}
 }
