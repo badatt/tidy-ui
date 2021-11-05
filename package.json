@@ -13,8 +13,7 @@
     "unit": "jest",
     "vet": "echo //TODO Vet",
     "yalc:publish": "lerna exec --parallel -- yarn yalc:publish",
-    "yalc:push": "lerna exec --parallel -- yarn yalc:push",
-    "prepare": "husky install"
+    "yalc:push": "lerna exec --parallel -- yarn yalc:push"
   },
   "workspaces": [
     "packages/*"
@@ -27,6 +26,7 @@
     "@babel/preset-typescript": "^7.16.0",
     "@commitlint/cli": "^14.1.0",
     "@commitlint/config-conventional": "^14.1.0",
+    "@commitlint/config-lerna-scopes": "^14.0.0",
     "@storybook/addon-docs": "^6.3.12",
     "@storybook/preset-create-react-app": "^3.2.0",
     "@storybook/react": "^6.3.12",
