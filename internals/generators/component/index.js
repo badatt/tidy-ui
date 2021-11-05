@@ -31,45 +31,43 @@ module.exports = {
     const actions = [
       {
         type: "add",
-        path: "../../packages/{{properCase name}}/tsconfig.json",
+        path: "../../packages/{{name}}/tsconfig.json",
         templateFile: "./component/template/tsconfig.json.hbs",
         abortOnFail: true,
       },
       {
         type: "add",
-        path: "../../packages/{{properCase name}}/package.json",
+        path: "../../packages/{{name}}/package.json",
         templateFile: "./component/template/package.json.hbs",
         abortOnFail: true,
       },
       {
         type: "add",
-        path: "../../packages/{{properCase name}}/index.ts",
+        path: "../../packages/{{name}}/index.ts",
         templateFile: "./component/template/index.ts.hbs",
         abortOnFail: true,
       },
       {
         type: "add",
-        path: "../../packages/{{properCase name}}/src/index.ts",
+        path: "../../packages/{{name}}/src/index.ts",
         templateFile: "./component/template/src/index.ts.hbs",
         abortOnFail: true,
       },
       {
         type: "add",
-        path: "../../packages/{{properCase name}}/src/{{properCase name}}.tsx",
+        path: "../../packages/{{name}}/src/{{properCase name}}.tsx",
         templateFile: "./component/template/src/Component.tsx.hbs",
         abortOnFail: true,
       },
       {
         type: "add",
-        path:
-          "../../packages/{{properCase name}}/stories/{{properCase name}}.stories.tsx",
+        path: "../../packages/{{name}}/stories/{{properCase name}}.stories.tsx",
         templateFile: "./component/template/stories/Component.stories.tsx.hbs",
         abortOnFail: true,
       },
       {
         type: "add",
-        path:
-          "../../packages/{{properCase name}}/test/{{properCase name}}.spec.tsx",
+        path: "../../packages/{{name}}/test/{{properCase name}}.spec.tsx",
         templateFile: "./component/template/test/Component.spec.tsx.hbs",
         abortOnFail: true,
       },
