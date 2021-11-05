@@ -9,9 +9,10 @@
     "clean": "lerna exec --parallel -- yarn clean",
     "dev": "start-storybook -p 5555",
     "generate": "plop --plopfile internals/generators/index.js",
-    "publish": "yarn lerna publish",
+    "lerna:publish": "yarn lerna publish",
     "test": "jest --coverage",
     "unit": "jest",
+    "lerna:version": "yarn lerna version",
     "vet": "echo //TODO Vet",
     "yalc:publish": "lerna exec --parallel -- yarn yalc:publish",
     "yalc:push": "lerna exec --parallel -- yarn yalc:push"
