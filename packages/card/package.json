@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/card",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "bootstrap": "lerna bootstrap --use-workspaces",
     "build": "yarn clean && tsc -b",
@@ -16,9 +16,9 @@
     "react": "^16.0.0"
   },
   "devDependencies": {
+    "@types/react": "^17.0.34",
     "react": "^16.0.0",
-    "typescript": "^4.4.4",
-    "@types/react": "^17.0.34"
+    "typescript": "^4.4.4"
   },
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
