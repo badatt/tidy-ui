@@ -7,4 +7,4 @@ export default {
   title: "Card",
 };
 
-export const basic = () => <Card />;
+export const basic = () => <Card>Hello</Card>;
