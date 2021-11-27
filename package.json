@@ -15,6 +15,7 @@
     "lerna:clean": "lerna clean",
     "lerna:install": "lerna install",
     "lerna:link": "lerna link",
+    "lint-fix": "lerna exec --parallel -- yarn lint-fix",
     "test": "lerna exec --parallel -- yarn test",
     "vet": "lerna exec --parallel -- yarn vet",
     "yalc:publish": "lerna exec --parallel -- yarn yalc:publish",
