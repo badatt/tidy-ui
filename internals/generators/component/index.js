@@ -35,6 +35,18 @@ module.exports = {
       },
       {
         type: 'add',
+        path: '../../packages/{{name}}/.eslintignore',
+        templateFile: './component/template/.eslintignore.hbs',
+        abortOnFail: true,
+      },
+      {
+        type: 'add',
+        path: '../../packages/{{name}}/.eslintrc',
+        templateFile: './component/template/.eslintrc.hbs',
+        abortOnFail: true,
+      },
+      {
+        type: 'add',
         path: '../../packages/{{name}}/tsconfig.json',
         templateFile: './component/template/tsconfig.json.hbs',
         abortOnFail: true,
