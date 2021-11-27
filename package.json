@@ -14,8 +14,6 @@
     "lerna:clean": "lerna clean",
     "lerna:install": "lerna install",
     "lerna:link": "lerna link",
-    "lerna:publish": "yarn lerna publish",
-    "lerna:version": "yarn lerna version",
     "test": "jest --coverage",
     "unit": "jest",
     "vet": "echo //TODO Vet",
