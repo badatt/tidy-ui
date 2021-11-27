@@ -1,21 +1,21 @@
-name: Publish types package
+name: Publish {{ name }} package
 
 on:
   push:
     branches:
       - main
     paths:
-      - 'packages/types/**'
+      - 'packages/{{ name }}/**'
 
 jobs:
   publish:
-    name: Publish package to NPM repository
+    name: Publish to NPM repository
     runs-on: ubuntu-latest
 
     defaults:
       run:
         shell: bash
-        working-directory: packages/types
+        working-directory: packages/{{ name }}
 
     steps:
       - name: Check out the code

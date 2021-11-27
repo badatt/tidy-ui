@@ -18,7 +18,7 @@
   "typings": "dist/index.d.ts",
   "types": "dist/index.d.ts",
   "license": "MIT",
-  "description": "Tidy UI's 'types' module component library",
+  "description": "tidy-ui react component library; 'types' package",
   "publishConfig": {
     "access": "public"
   },
