@@ -12,7 +12,7 @@
     "test": "is-ci \"test:coverage\" \"test:watch\"",
     "test:coverage": "jest --bail --coverage --passWithNoTests",
     "test:watch": "jest --watchAll --verbose",
-    "vet": "yarn lint && yarn lint-fix && yarn test:coverage",
+    "vet": "yarn lint && yarn test:coverage",
     "yalc:publish": "yarn build && yalc publish",
     "yalc:push": "yarn build && yalc push"
   },
