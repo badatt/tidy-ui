@@ -1,5 +1,5 @@
 {
-  "name": "@tidy-ui/{{ name }}",
+  "name": "@tidy-ui/card",
   "version": "0.0.0",
   "scripts": {
     "bootstrap": "lerna bootstrap --use-workspaces",
@@ -24,6 +24,7 @@
     "react": "^16.0.0"
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.16.0",
     "@types/react": "^17.0.34",
     "@types/styled-components": "^5.1.15",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
@@ -37,7 +38,7 @@
   "typings": "dist/index.d.ts",
   "types": "dist/index.d.ts",
   "license": "MIT",
-  "description": "tidy-ui react component library; '{{ name }}' package",
+  "description": "tidy-ui react component library; 'card' package",
   "publishConfig": {
     "access": "public"
   },

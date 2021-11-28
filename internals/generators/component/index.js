@@ -35,6 +35,12 @@ module.exports = {
       },
       {
         type: 'add',
+        path: '../../packages/{{name}}/babel.config.js',
+        templateFile: './component/template/babel.config.js.hbs',
+        abortOnFail: true,
+      },
+      {
+        type: 'add',
         path: '../../packages/{{name}}/.eslintignore',
         templateFile: './component/template/.eslintignore.hbs',
         abortOnFail: true,

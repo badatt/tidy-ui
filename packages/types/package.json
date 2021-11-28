@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/types",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "bootstrap": "lerna bootstrap --use-workspaces",
     "build": "yarn clean && tsc -b",
@@ -11,8 +11,9 @@
     "postinstall": "rm -rf node_modules/@types/react-native",
     "test": "is-ci \"test:coverage\" \"test:watch\"",
     "test:coverage": "jest --bail --coverage --passWithNoTests",
+    "test:update": "jest --bail --coverage --passWithNoTests -u",
     "test:watch": "jest --watchAll --verbose",
-    "vet": "yarn lint && yarn test:coverage",
+    "vet": "yarn lint-fix && yarn test:coverage",
     "yalc:publish": "yarn build && yalc publish",
     "yalc:push": "yarn build && yalc push"
   },
