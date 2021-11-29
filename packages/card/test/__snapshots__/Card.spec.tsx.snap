@@ -2,6 +2,6 @@
 
 exports[`Card Renders correctly 1`] = `
 <div
-  className="Card__CardRoot-sc-y3bcgy-3 gsxrm"
+  className="Card__CardRoot-sc-y3bcgy-3 ebDNao"
 />
 `;

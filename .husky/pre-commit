@@ -4,4 +4,4 @@
 yarn format
 yarn lint-fix
 yarn vet
-git add
+git add .
