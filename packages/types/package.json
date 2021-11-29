@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/types",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "bootstrap": "lerna bootstrap --use-workspaces",
     "build": "yarn clean && tsc -b",
@@ -33,6 +33,6 @@
     "access": "public"
   },
   "files": [
-    "dist"
+    "dist/"
   ]
 }
