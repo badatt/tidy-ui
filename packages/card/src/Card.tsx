@@ -57,7 +57,7 @@ const CardRoot = sc.div<ICardProps>`
     border-radius: 0.25rem;
     box-shadow: rgb(44 51 73 / 10%) 0px 0.5rem 1rem 0px;
     color: rgb(34, 43, 69);
-    margin-bottom: 1.875rem;
+    margin-bottom: 1rem;
   `}
 `;
 
