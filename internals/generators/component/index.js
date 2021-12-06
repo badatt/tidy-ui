@@ -65,6 +65,12 @@ module.exports = {
       },
       {
         type: 'add',
+        path: '../../packages/{{name}}/jest.config.js',
+        templateFile: './component/template/jest.config.js.hbs',
+        abortOnFail: true,
+      },
+      {
+        type: 'add',
         path: '../../packages/{{name}}/index.ts',
         templateFile: './component/template/index.ts.hbs',
         abortOnFail: true,
@@ -89,8 +95,8 @@ module.exports = {
       },
       {
         type: 'add',
-        path: '../../packages/{{name}}/test/{{properCase name}}.spec.tsx',
-        templateFile: './component/template/test/Component.spec.tsx.hbs',
+        path: '../../packages/{{name}}/__tests__/{{properCase name}}.spec.tsx',
+        templateFile: './component/template/__tests__/Component.spec.tsx.hbs',
         abortOnFail: true,
       },
     ];
