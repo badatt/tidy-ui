@@ -1,0 +1,14 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "declarationDir": "build/dist",
+    "outDir": "build/dist",
+    "rootDirs": ["src"],
+    "paths": {
+      "@tidy-ui/types": ["../types/src"]
+    }
+  },
+  "references": [{ "path": "../types" }],
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "build", "test", "stories"]
+}

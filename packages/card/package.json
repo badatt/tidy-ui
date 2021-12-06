@@ -1,6 +1,6 @@
 {
-  "name": "@tidy-ui/{{ name }}",
-  "version": "0.0.0",
+  "name": "@tidy-ui/card",
+  "version": "0.0.1",
   "scripts": {
     "build": "yarn clean && tsc -b tsconfig.json",
     "clean": "tsc --build --clean",
@@ -20,6 +20,7 @@
     "styled-components": "5.0.0"
   },
   "peerDependencies": {
+    "@tidy-ui/types": "0.0.1",
     "react": "^16.0.0"
   },
   "devDependencies": {
@@ -36,7 +37,7 @@
   "typings": "build/dist/index.d.ts",
   "types": "build/dist/index.d.ts",
   "license": "MIT",
-  "description": "tidy-ui react component library; '{{ name }}' package",
+  "description": "tidy-ui react component library; 'card' package",
   "publishConfig": {
     "access": "public"
   },

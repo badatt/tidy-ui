@@ -1,0 +1,36 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    /* Language and Environment */
+    "lib": ["dom", "es2015"],
+    "emitDecoratorMetadata": true,
+    "jsx": "react",
+    "target": "es5",
+    /* Modules */
+    "resolveJsonModule": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    /* Interop Constraints */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    /* Emit */
+    "declaration": true,
+    "declarationMap": true,
+    "noEmit": false,
+    "sourceMap": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    /* Projects */
+    "composite": true,
+    /* JavaScript Support */
+    "allowJs": true,
+    /* Completeness */
+    "skipLibCheck": true,
+    /* Type Checking */
+    "strict": true,
+    "noImplicitAny": true
+  },
+  "exclude": ["node_modules", "dist", "stories", "test"]
+}

@@ -1,6 +1,6 @@
 {
-  "name": "@tidy-ui/{{ name }}",
-  "version": "0.0.0",
+  "name": "@tidy-ui/types",
+  "version": "0.0.1",
   "scripts": {
     "build": "yarn clean && tsc -b tsconfig.json",
     "clean": "tsc --build --clean",
@@ -36,7 +36,7 @@
   "typings": "build/dist/index.d.ts",
   "types": "build/dist/index.d.ts",
   "license": "MIT",
-  "description": "tidy-ui react component library; '{{ name }}' package",
+  "description": "tidy-ui react component library; 'types' package",
   "publishConfig": {
     "access": "public"
   },
