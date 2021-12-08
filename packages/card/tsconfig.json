@@ -5,10 +5,11 @@
     "outDir": "build/dist",
     "rootDirs": ["src"],
     "paths": {
-      "@tidy-ui/types": ["../types/src"]
+      "@tidy-ui/types": ["../types/src"],
+      "@tidy-ui/theme": ["../theme/src"]
     }
   },
-  "references": [{ "path": "../types" }],
+  "references": [{ "path": "../types" }, { "path": "../theme" }],
   "include": ["src/**/*"],
   "exclude": ["node_modules", "build", "__tests__", "stories"]
 }

@@ -1,3 +1,8 @@
+import { addDecorator } from '@storybook/react';
+import { withThemesProvider } from 'storybook-addon-styled-component-theme';
+import { ThemeProvider } from 'styled-components';
+import { orchidLight, orchidDark } from '../packages/theme';
+
 export const parameters = {
   backgrounds: {
     default: 'light',
@@ -13,3 +18,6 @@ export const parameters = {
     ],
   },
 };
+
+const themes = [orchidLight, orchidDark];
+addDecorator(withThemesProvider(themes), ThemeProvider);
