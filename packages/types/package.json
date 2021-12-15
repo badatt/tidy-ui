@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/types",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "build": "yarn clean && tsc -b tsconfig.json",
     "clean": "tsc --build --clean",
