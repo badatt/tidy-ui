@@ -2,6 +2,7 @@ import { DefaultTheme } from 'styled-components';
 
 export interface ITidyUIBaseTheme extends DefaultTheme {
   breakpoints?: IBreakpoints;
+  layout?: ILayout;
   typography?: ITypography;
 }
 
@@ -11,6 +12,11 @@ interface IBreakpoints {
   md?: number;
   lg?: number;
   xl?: number;
+}
+
+interface ILayout {
+  radius?: string;
+  shadow?: string;
 }
 
 interface ITypography {

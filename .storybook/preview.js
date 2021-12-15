@@ -9,11 +9,11 @@ export const parameters = {
     values: [
       {
         name: 'light',
-        value: '#edf1f7',
+        value: '#f8fafc',
       },
       {
         name: 'dark',
-        value: '#151a30',
+        value: '#0f172a',
       },
     ],
   },

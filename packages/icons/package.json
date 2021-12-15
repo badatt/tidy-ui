@@ -1,5 +1,5 @@
 {
-  "name": "@tidy-ui/card",
+  "name": "@tidy-ui/icons",
   "version": "0.0.2",
   "scripts": {
     "build": "yarn clean && tsc -b tsconfig.json",
@@ -17,11 +17,7 @@
     "yalc:publish": "yarn build && yalc publish",
     "yalc:push": "yarn build && yalc push"
   },
-  "dependencies": {
-    "@tidy-ui/icons": "^0.0.2",
-    "@tidy-ui/types": "^0.0.2",
-    "@tidy-ui/theme": "^0.0.2"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "react": "^16.0.0",
     "styled-components": "^5.3.3"
@@ -40,7 +36,7 @@
   "typings": "build/dist/index.d.ts",
   "types": "build/dist/index.d.ts",
   "license": "MIT",
-  "description": "tidy-ui react component library; 'card' package",
+  "description": "tidy-ui react component library; 'icons' package",
   "publishConfig": {
     "access": "public"
   },

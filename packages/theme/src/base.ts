@@ -8,6 +8,11 @@ export const defaultBase: ITidyUIBaseTheme = {
     lg: 1200,
     xl: 1536,
   },
+  layout: {
+    radius: '0.5rem',
+    shadow:
+      'rgb(255, 255, 255) 0px 0px 0px 0px, rgba(15, 23, 42, 0.05) 0px 0px 0px 1px, rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.1) 0px 8px 10px -6px',
+  },
   typography: {
     fontSize: 14,
     fontWeightLight: 200,
