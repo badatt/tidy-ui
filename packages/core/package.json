@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/core",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "scripts": {
     "build": "yarn clean && tsc -b tsconfig.json",
     "clean": "tsc --build --clean",
@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@tidy-ui/card": "^0.0.3",
-    "@tidy-ui/paper": "^0.0.10"
+    "@tidy-ui/paper": "^0.0.11"
   },
   "peerDependencies": {
     "react": "^16.0.0",
