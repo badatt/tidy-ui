@@ -1,0 +1,15 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "declarationDir": "build/dist",
+    "outDir": "build/dist",
+    "rootDirs": ["src"],
+    "paths": {
+      "@tidy-ui/card": ["../card/src"],
+      "@tidy-ui/paper": ["../paper/src"]
+    }
+  },
+  "references": [{ "path": "../card" }, { "path": "../paper" }],
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "build", "__tests__", "stories"]
+}

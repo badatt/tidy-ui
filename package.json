@@ -57,9 +57,7 @@
     "webpack": "^5.61.0",
     "yalc": "^1.0.0-pre.53"
   },
-  "peerDependencies": {
-    "@tidy-ui/card": "0.0.1"
-  },
+  "peerDependencies": {},
   "workspaces": [
     "packages/*"
   ]

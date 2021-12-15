@@ -1,0 +1,44 @@
+name: Publish 'core' package
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'packages/core/**'
+
+jobs:
+  publish:
+    name: Publish to NPM repository
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        shell: bash
+        working-directory: packages/core
+
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14.18.x'
+          registry-url: https://registry.npmjs.org/
+
+      - name: Install Dependencies
+        run: yarn
+
+      - name: Vet
+        run: yarn vet
+
+      - name: Build
+        run: yarn build
+
+      - name: Publish
+        run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
