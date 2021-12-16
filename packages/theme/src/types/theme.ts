@@ -2,36 +2,37 @@ import { ITidyUIBaseTheme } from './base';
 
 export interface ITidyUITheme extends ITidyUIBaseTheme {
   name: string;
-  palette?: IPalette;
+  palette: IPalette;
 }
 
 interface IPalette {
-  primary?: IColor;
-  secondary?: IColor;
-  info?: IColor;
-  success?: IColor;
-  warning?: IColor;
-  error?: IColor;
-  text?: ITextColor;
-  background?: IBackgroundColor;
-  divider?: string;
+  primary: IColor;
+  secondary: IColor;
+  neutral: IColor;
+  info: IColor;
+  success: IColor;
+  warning: IColor;
+  danger: IColor;
+  text: ITextColor;
+  background: IBackgroundColor;
+  divider: string;
 }
 
 interface IBackgroundColor {
-  paper?: string;
-  card?: string;
-  default?: string;
+  paper: string;
+  card: string;
+  default: string;
 }
 
 interface ITextColor {
-  primary?: string;
-  secondary?: string;
-  disabled?: string;
+  primary: string;
+  secondary: string;
+  disabled: string;
 }
 
 interface IColor {
-  main?: string;
-  light?: string;
-  dark?: string;
-  contrastText?: string;
+  main: string;
+  light: string;
+  dark: string;
+  contrastText: string;
 }

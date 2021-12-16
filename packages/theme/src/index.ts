@@ -1,4 +1,4 @@
-import baseStyled, { ThemedStyledInterface } from 'styled-components';
+import baseStyled, { css as baseCss, ThemedStyledInterface, ThemedCssFunction } from 'styled-components';
 
 import { ITidyUIBaseTheme as IITidyUIBaseTheme } from './types/base';
 export type ITidyUIBaseTheme = IITidyUIBaseTheme;
@@ -11,3 +11,4 @@ export { theme as orchidLight } from './orchid-light';
 export { theme as orchidDark } from './orchid-dark';
 
 export const styled = baseStyled as ThemedStyledInterface<ITidyUITheme>;
+export const css = baseCss as ThemedCssFunction<ITidyUITheme>;

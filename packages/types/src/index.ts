@@ -1,7 +1,7 @@
 export type Size = 'xxs' | 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl';
 
-export type Status = 'info' | 'success' | 'warning' | 'error';
+export type Status = 'info' | 'success' | 'warning' | 'danger';
 
-export type Type = 'primary' | 'secondary' | 'basic' | 'disabled';
+export type Variant = 'primary' | 'secondary' | 'neutral';
 
-export type Appearance = 'filled' | 'outlined' | 'hero';
+export type Appearance = 'filled' | 'outlined' | 'hero' | 'basic';

@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Button Basic neutral button 1`] = `
+<button
+  className=""
+  disabled={false}
+  kind="neutral"
+  role="button"
+>
+  neutral
+</button>
+`;
+
+exports[`Render Button Button with icon and text 1`] = `
+<button
+  className=""
+  disabled={false}
+  role="button"
+>
+  <i
+    className=""
+  >
+    <svg
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+      />
+      <path
+        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+      />
+    </svg>
+  </i>
+  Settings
+</button>
+`;
+
+exports[`Render Button Filled button 1`] = `
+<button
+  className=""
+  disabled={false}
+  kind="primary"
+  role="button"
+>
+  primary
+</button>
+`;
+
+exports[`Render Button Filled disabled button 1`] = `
+<button
+  className=""
+  disabled={true}
+  kind="info"
+  role="button"
+>
+  info
+</button>
+`;
+
+exports[`Render Button Filled loading button 1`] = `
+<button
+  className=""
+  disabled={true}
+  kind="primary"
+  role="button"
+>
+  <i
+    className=""
+  >
+    <svg
+      enableBackground="new 0 0 0 0"
+      version="1.1"
+      viewBox="0 0 100 100"
+      x="0px"
+      xlinkHref="http://www.w3.org/1999/xlink"
+      xmlSpace="preserve"
+      xmlns="http://www.w3.org/2000/svg"
+      y="0px"
+    >
+      <path
+        d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50"
+        fill="currentColor"
+      >
+        <animateTransform
+          attributeName="transform"
+          attributeType="XML"
+          dur="1s"
+          from="0 50 50"
+          repeatCount="indefinite"
+          to="360 50 50"
+          type="rotate"
+        />
+      </path>
+    </svg>
+  </i>
+  primary
+</button>
+`;
+
+exports[`Render Button Filled uppercase button 1`] = `
+<button
+  className=""
+  disabled={false}
+  kind="danger"
+  role="button"
+>
+  danger
+</button>
+`;
+
+exports[`Render Button Hero button 1`] = `
+<button
+  className=""
+  disabled={false}
+  kind="secondary"
+  role="button"
+>
+  hero
+</button>
+`;
+
+exports[`Render Button Hero neutral button 1`] = `
+<button
+  className=""
+  disabled={false}
+  role="button"
+>
+  hero
+</button>
+`;
+
+exports[`Render Button Neutral button 1`] = `
+<button
+  className=""
+  disabled={false}
+  role="button"
+>
+  neutral
+</button>
+`;
+
+exports[`Render Button Outlined button 1`] = `
+<button
+  className=""
+  disabled={false}
+  kind="secondary"
+  role="button"
+>
+  secondary
+</button>
+`;
+
+exports[`Render Button Outlined full width button 1`] = `
+<button
+  className=""
+  disabled={false}
+  kind="warning"
+  role="button"
+>
+  warning
+</button>
+`;
+
+exports[`Render Button Outlined neutral button 1`] = `
+<button
+  className=""
+  disabled={false}
+  role="button"
+>
+  secondary
+</button>
+`;
+
+exports[`Render Button Renders with no styles 1`] = `
+<button
+  className=""
+  disabled={false}
+  role="button"
+>
+  
+</button>
+`;

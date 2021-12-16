@@ -1,0 +1,51 @@
+export const sizeStyles = {
+  xxs: {
+    padding: '0.125rem 0.125rem',
+    borderRadius: '0.125rem',
+    fontSize: '0.5rem',
+    lineHeight: '',
+    iconSize: '0.5rem',
+  },
+  xs: {
+    padding: '0.125rem 0.25rem',
+    borderRadius: '0.125rem',
+    fontSize: '.625rem',
+    lineHeight: '.875rem',
+    iconSize: '0.875rem',
+  },
+  sm: {
+    padding: '0.25rem 0.5rem',
+    borderRadius: '0.125rem',
+    fontSize: '.75rem',
+    lineHeight: '1rem',
+    iconSize: '1rem',
+  },
+  md: {
+    padding: '0.25rem 0.625rem',
+    borderRadius: '0.25rem',
+    fontSize: '.875rem',
+    lineHeight: '1.25rem',
+    iconSize: '1.25rem',
+  },
+  lg: {
+    padding: '0.375rem 0.75rem',
+    borderRadius: '0.375rem',
+    fontSize: '1.125rem',
+    lineHeight: '1.75rem',
+    iconSize: '1.75rem',
+  },
+  xl: {
+    padding: '0.5rem 1rem',
+    borderRadius: '0.375rem',
+    fontSize: '1.5rem',
+    lineHeight: '2rem',
+    iconSize: '2rem',
+  },
+  xxl: {
+    padding: '0.75rem 1.125rem',
+    borderRadius: '0.5rem',
+    fontSize: '2rem',
+    lineHeight: '2.125rem',
+    iconSize: '2.125rem',
+  },
+};

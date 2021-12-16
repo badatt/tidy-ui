@@ -3561,6 +3561,18 @@
     resolve-from "^5.0.0"
     store2 "^2.12.0"
 
+"@tidy-ui/theme@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@tidy-ui/theme/-/theme-0.0.3.tgz#169eab015543d5a3b2bd59aaacedbe907ee780da"
+  integrity sha512-HB6ZqvLphnVeLngY/Ie3/PwQbKqXnfsAhE8f5zp5c93eODuyDHxcAwArLbsRiEtavfTeqIpsva8uK3CMaSCAIw==
+  dependencies:
+    "@tidy-ui/types" "^0.0.3"
+
+"@tidy-ui/types@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@tidy-ui/types/-/types-0.0.3.tgz#562afceb269129374ceab0ebe082e94ebe5cb44f"
+  integrity sha512-vCDjpJWcNax7kkYmdsl+KYlx60NTJNdiboy9isIaJdvxPwpvzeJF818wDauaWaqXvPG9wN0e2mBvBZFIfaD1yA==
+
 "@tootallnate/once@1":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"

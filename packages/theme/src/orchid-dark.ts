@@ -11,6 +11,12 @@ export const theme: ITidyUITheme = {
       default: '#0f172a',
     },
     divider: '#64748b',
+    /**
+     * colors taken from tailwind css https://tailwindcss.com/docs/customizing-colors
+     * main = 600
+     * light = 400
+     * dark = 800
+     */
     primary: {
       main: 'hsl(239, 84%, 67%)',
       light: 'hsl(230, 94%, 82%)',
@@ -21,6 +27,36 @@ export const theme: ITidyUITheme = {
       main: 'hsl(330, 81%, 60%)',
       light: 'hsl(327, 87%, 82%)',
       dark: 'hsl(335, 78%, 42%)',
+      contrastText: 'hsl(0, 0%, 100%)',
+    },
+    neutral: {
+      main: 'hsl(330, 81%, 60%)',
+      light: 'hsl(327, 87%, 82%)',
+      dark: 'hsl(335, 78%, 42%)',
+      contrastText: 'hsl(0, 0%, 100%)',
+    },
+    info: {
+      main: 'hsl(239, 84%, 67%)',
+      light: 'hsl(230, 94%, 82%)',
+      dark: 'hsl(245, 58%, 51%)',
+      contrastText: 'hsl(0, 0%, 100%)',
+    },
+    success: {
+      main: 'hsl(239, 84%, 67%)',
+      light: 'hsl(230, 94%, 82%)',
+      dark: 'hsl(245, 58%, 51%)',
+      contrastText: 'hsl(0, 0%, 100%)',
+    },
+    warning: {
+      main: 'hsl(239, 84%, 67%)',
+      light: 'hsl(230, 94%, 82%)',
+      dark: 'hsl(245, 58%, 51%)',
+      contrastText: 'hsl(0, 0%, 100%)',
+    },
+    danger: {
+      main: 'hsl(239, 84%, 67%)',
+      light: 'hsl(230, 94%, 82%)',
+      dark: 'hsl(245, 58%, 51%)',
       contrastText: 'hsl(0, 0%, 100%)',
     },
     text: {
