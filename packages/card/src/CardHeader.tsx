@@ -1,7 +1,7 @@
 import { css } from 'styled-components';
 import { styled } from '@tidy-ui/theme';
 
-export interface ICardHeaderProps extends React.HTMLAttributes<HTMLDivElement> {
+interface ICardHeaderProps extends React.HTMLAttributes<HTMLDivElement> {
   separated?: boolean;
 }
 

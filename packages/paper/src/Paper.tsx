@@ -1,7 +1,7 @@
 import React from 'react';
 import { styled } from '@tidy-ui/theme';
 
-export interface IPaperProps extends React.HTMLAttributes<HTMLDivElement> {
+interface IPaperProps extends React.HTMLAttributes<HTMLDivElement> {
   rounded?: boolean;
 }
 

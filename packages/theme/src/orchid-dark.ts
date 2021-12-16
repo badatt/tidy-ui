@@ -6,11 +6,11 @@ export const theme: ITidyUITheme = {
   ...defaultBase,
   palette: {
     background: {
-      card: 'hsl(215, 28%, 17%)',
-      paper: 'hsl(215, 28%, 17%)',
-      default: 'hsl(221, 39%, 11%)',
+      card: '#1e293b',
+      paper: '#1e293b',
+      default: '#0f172a',
     },
-    divider: 'hsl(0, 0%, 88%)',
+    divider: '#64748b',
     primary: {
       main: 'hsl(239, 84%, 67%)',
       light: 'hsl(230, 94%, 82%)',
@@ -24,7 +24,7 @@ export const theme: ITidyUITheme = {
       contrastText: 'hsl(0, 0%, 100%)',
     },
     text: {
-      primary: 'hsl(0, 0%, 100%)',
+      primary: '#f1f5f9',
       secondary: 'hsla(0, 0%, 100%, 0.7)',
       disabled: 'hsla(0, 0%, 100%, 0.5)',
     },

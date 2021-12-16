@@ -2,7 +2,7 @@ import React from 'react';
 import { styled } from '@tidy-ui/theme';
 import { Status } from '@tidy-ui/types';
 
-export interface ICardProps extends React.HTMLAttributes<HTMLDivElement> {
+interface ICardProps extends React.HTMLAttributes<HTMLDivElement> {
   accent?: Status;
   rounded?: boolean;
 }
