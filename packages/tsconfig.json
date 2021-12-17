@@ -25,5 +25,5 @@
     /* Completeness */
     "skipLibCheck": true
   },
-  "exclude": ["node_modules", "dist", "stories", "test"]
+  "exclude": ["node_modules", "dist", "stories", "__test__"]
 }
