@@ -1,6 +1,6 @@
 import React from 'react';
 import { styled } from '@tidy-ui/theme';
-import { GearIcon } from '@tidy-ui/icons';
+import { GearIcon, EyeIcon } from '@tidy-ui/icons';
 
 import { Button } from '../src';
 
@@ -118,5 +118,6 @@ export const others = () => (
     <Button text="disabled" appearance="filled" kind="secondary" disabled />
     <Button text="full width" appearance="outlined" kind="primary" fullWidth />
     <Button text="Settings" appearance="filled" icon={<GearIcon />} />
+    <Button appearance="filled" kind="primary" icon={<EyeIcon />} />
   </Container>
 );

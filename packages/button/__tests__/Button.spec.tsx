@@ -137,4 +137,14 @@ describe('Render Button', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
+  it('Only icon button', () => {
+    const tree = renderer
+      .create(
+        <ThemeProvider theme={orchidLight}>
+          <Button appearance="filled" kind="primary" icon={<GearIcon />} />
+        </ThemeProvider>,
+      )
+      .toJSON();
+    expect(tree).toMatchSnapshot();
+  });
 });

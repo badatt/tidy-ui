@@ -40,6 +40,7 @@ const filled = css<IButtonProps>`
 const outlined = css<IButtonProps>`
   ${({ theme, kind }) => css`
     color: ${theme.palette[kind || 'neutral'].main};
+    background-color: transparent;
     border: 1px solid ${theme.palette[kind || 'neutral'].light};
   `}
 `;
@@ -97,20 +98,26 @@ const Icon = styled.i<IButtonProps>`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 0.25rem;
-  ${({ size }) => css`
+  ${({ size, text }) => css`
     height: ${sizeStyles[size || 'md'].iconSize};
     width: ${sizeStyles[size || 'md'].iconSize};
+    ${text === ''
+      ? css`
+          margin-right: 0em;
+        `
+      : css`
+          margin-right: 0.25em;
+        `};
   `}
 `;
 
 const Button = React.forwardRef<HTMLButtonElement, IButtonProps>((props, ref) => {
-  const { className, children, loading, icon, text, disabled, size, ...rest } = props;
+  const { className, children, loading, icon, text, disabled, ...rest } = props;
   return (
-    <ButtonRoot role="button" ref={ref} {...rest} className={className} size={size} disabled={disabled || loading}>
-      {icon && <Icon size={size}>{icon}</Icon>}
+    <ButtonRoot role="button" {...rest} disabled={disabled || loading}>
+      {icon && <Icon {...props}>{icon}</Icon>}
       {loading && (
-        <Icon size={size}>
+        <Icon {...props}>
           <RotatingCircleIcon />
         </Icon>
       )}
