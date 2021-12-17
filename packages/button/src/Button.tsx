@@ -112,9 +112,9 @@ const Icon = styled.i<IButtonProps>`
 `;
 
 const Button = React.forwardRef<HTMLButtonElement, IButtonProps>((props, ref) => {
-  const { className, children, loading, icon, text, disabled, ...rest } = props;
+  const { children, loading, icon, text, disabled, ...rest } = props;
   return (
-    <ButtonRoot role="button" {...rest} disabled={disabled || loading}>
+    <ButtonRoot role="button" ref={ref} {...rest} disabled={disabled || loading}>
       {icon && <Icon {...props}>{icon}</Icon>}
       {loading && (
         <Icon {...props}>
