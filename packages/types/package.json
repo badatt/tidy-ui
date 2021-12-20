@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/types",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "scripts": {
     "build": "yarn clean && tsc -b tsconfig.json",
     "clean": "tsc --build --clean && rimraf -rf build/dist",
@@ -17,7 +17,6 @@
     "yalc:publish": "yarn build && yalc publish",
     "yalc:push": "yarn build && yalc push"
   },
-  "dependencies": {},
   "peerDependencies": {
     "react": "^16.0.0"
   },

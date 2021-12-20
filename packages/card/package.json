@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/card",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "scripts": {
     "build": "yarn clean && tsc -b tsconfig.json",
     "clean": "tsc --build --clean && rimraf -rf build/dist",
@@ -18,9 +18,9 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/icons": "^0.0.3",
-    "@tidy-ui/types": "^0.0.3",
-    "@tidy-ui/theme": "^0.0.3"
+    "@tidy-ui/icons": "^0.0.4",
+    "@tidy-ui/theme": "^0.0.3",
+    "@tidy-ui/types": "^0.0.3"
   },
   "peerDependencies": {
     "react": "^16.0.0",
