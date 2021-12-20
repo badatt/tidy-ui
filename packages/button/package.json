@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "scripts": {
     "build": "yarn clean && tsc -b tsconfig.json",
-    "clean": "tsc --build --clean",
+    "clean": "tsc --build --clean && rimraf -rf build/dist",
     "format": "prettier \"**/*.{js,jsx,json,yml,yaml,css,less,scss,ts,tsx,md,graphql,mdx}\" --write",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src",
     "lint-fix": "eslint --ext .js,.jsx,.ts,.tsx src --fix",
