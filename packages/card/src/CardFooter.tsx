@@ -1,9 +1,6 @@
 import { css } from 'styled-components';
 import { styled } from '@tidy-ui/theme';
-
-interface ICardFooterProps extends React.HTMLAttributes<HTMLDivElement> {
-  separated?: boolean;
-}
+import { ICardFooterProps } from './types';
 
 const CardFooter = styled.footer<ICardFooterProps>`
   display: flex;

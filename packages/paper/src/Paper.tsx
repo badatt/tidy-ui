@@ -1,9 +1,6 @@
 import React from 'react';
 import { styled } from '@tidy-ui/theme';
-
-interface IPaperProps extends React.HTMLAttributes<HTMLDivElement> {
-  rounded?: boolean;
-}
+import { IPaperProps } from './types';
 
 const PaperRoot = styled.section<IPaperProps>`
   display: flex;

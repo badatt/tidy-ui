@@ -1,20 +1,8 @@
 import React from 'react';
 import { styled, css } from '@tidy-ui/theme';
 import { RotatingCircleIcon } from '@tidy-ui/icons';
-import { Size, Variant, Status, Appearance } from '@tidy-ui/types';
 import { sizeStyles } from './style';
-
-interface IButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
-  size?: Size;
-  kind?: Variant | Status;
-  appearance?: Appearance;
-  disabled?: boolean;
-  loading?: boolean;
-  text?: string;
-  icon?: JSX.Element;
-  fullWidth?: boolean;
-  uppercase?: boolean;
-}
+import { IButtonProps } from './types';
 
 const basic = css<IButtonProps>`
   ${({ theme, kind }) => css`

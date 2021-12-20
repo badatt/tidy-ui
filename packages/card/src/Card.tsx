@@ -1,11 +1,6 @@
 import React from 'react';
 import { styled } from '@tidy-ui/theme';
-import { Status } from '@tidy-ui/types';
-
-interface ICardProps extends React.HTMLAttributes<HTMLDivElement> {
-  accent?: Status;
-  rounded?: boolean;
-}
+import { ICardProps } from './types';
 
 const CardRoot = styled.section<ICardProps>`
   display: flex;
