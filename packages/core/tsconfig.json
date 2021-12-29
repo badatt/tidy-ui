@@ -3,14 +3,8 @@
   "compilerOptions": {
     "declarationDir": "build/dist",
     "outDir": "build/dist",
-    "rootDirs": ["src"],
-    "paths": {
-      "@tidy-ui/card": ["../card/src"],
-      "@tidy-ui/paper": ["../paper/src"],
-      "@tidy-ui/button": ["../button/src"]
-    }
+    "rootDirs": ["src"]
   },
-  "references": [{ "path": "../card" }, { "path": "../paper" }, { "path": "../button" }],
   "include": ["src/**/*"],
   "exclude": ["node_modules", "build", "__tests__", "stories"]
 }
