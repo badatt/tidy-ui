@@ -4,7 +4,8 @@ import typescript from 'rollup-plugin-typescript2';
 import json from 'rollup-plugin-json';
 import replace from '@rollup/plugin-replace';
 import commonjs from '@rollup/plugin-commonjs';
-import packageJson from './package.json';
+
+const packageJson = process.env.PACKAGE_NAME && require(`./packages/${process.env.PACKAGE_NAME}/package.json`);
 
 const dependencies = ({ dependencies }) => Object.keys(dependencies || {});
 
@@ -19,7 +20,7 @@ export default {
     format: 'es',
   },
   plugins: [
-    replace({ preventAssignment: true, 'process.env.NODE_ENV': JSON.stringify('production') }),
+    replace({ preventAssignment: true }),
     nodePolyfills(),
     nodeResolve({ extensions }),
     commonjs(),
