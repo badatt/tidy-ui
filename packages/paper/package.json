@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/paper",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:paper",
     "clean": "tsc --build --clean && rimraf -rf build/dist",
@@ -18,8 +18,8 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/icons": "^0.0.5",
-    "@tidy-ui/theme": "^0.0.7"
+    "@tidy-ui/icons": "^0.0.6",
+    "@tidy-ui/theme": "^0.0.8"
   },
   "peerDependencies": {
     "react": "^16.0.0",

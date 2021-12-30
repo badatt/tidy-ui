@@ -22,7 +22,7 @@ export default {
   },
   plugins: [
     json(),
-    replace({ preventAssignment: true, 'process.env.NODE_ENV': JSON.stringify('production') }),
+    replace({ preventAssignment: true }),
     nodePolyfills(),
     nodeResolve({ extensions }),
     commonjs(),
