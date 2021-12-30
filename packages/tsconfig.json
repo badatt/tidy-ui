@@ -11,7 +11,6 @@
     "moduleResolution": "node",
     "paths": {
       "@tidy-ui/icons": ["packages/icons"],
-      "@tidy-ui/types": ["packages/types"],
       "@tidy-ui/theme": ["packages/theme"]
     },
     /* Interop Constraints */
@@ -31,6 +30,6 @@
     /* Completeness */
     "skipLibCheck": true
   },
-  "references": [{ "path": "packages/icons" }, { "path": "packages/types" }, { "path": "packages/theme" }],
+  "references": [{ "path": "packages/icons" }, { "path": "packages/theme" }],
   "exclude": ["node_modules", "dist", "stories", "__tests__"]
 }

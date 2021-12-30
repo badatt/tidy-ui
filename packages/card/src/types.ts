@@ -1,7 +1,5 @@
-import { Status } from '@tidy-ui/types';
-
 export interface ICardProps extends React.HTMLAttributes<HTMLDivElement> {
-  accent?: Status;
+  accent?: 'info' | 'success' | 'warning' | 'danger';
   rounded?: boolean;
 }
 

@@ -19,8 +19,7 @@
   },
   "dependencies": {
     "@tidy-ui/icons": "^0.0.4",
-    "@tidy-ui/theme": "^0.0.6",
-    "@tidy-ui/types": "^0.0.5"
+    "@tidy-ui/theme": "^0.0.6"
   },
   "peerDependencies": {
     "react": "^16.0.0",

@@ -1,9 +1,7 @@
-import { Size, Variant, Status, Appearance } from '@tidy-ui/types';
-
 export interface IButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
-  size?: Size;
-  kind?: Variant | Status;
-  appearance?: Appearance;
+  size?: 'xxs' | 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl';
+  kind?: 'primary' | 'secondary' | 'neutral' | 'info' | 'success' | 'warning' | 'danger';
+  appearance?: 'filled' | 'outlined' | 'hero' | 'basic';
   disabled?: boolean;
   loading?: boolean;
   text?: string;

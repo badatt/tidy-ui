@@ -18,7 +18,8 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/types": "^0.0.3"
+    "@tidy-ui/icons": "^0.0.4",
+    "@tidy-ui/theme": "^0.0.6"
   },
   "peerDependencies": {
     "react": "^16.0.0",
@@ -41,7 +42,7 @@
     "rollup-plugin-typescript2": "^0.31.1",
     "typescript": "^4.4.4"
   },
-  "main": "build/dist/src/index.js",
+  "main": "build/dist/index.js",
   "typings": "build/dist/src/index.d.ts",
   "types": "build/dist/src/index.d.ts",
   "license": "MIT",
