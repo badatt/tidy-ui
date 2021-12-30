@@ -33,7 +33,8 @@
     "is-ci-cli": "^2.2.0",
     "typescript": "^4.4.4"
   },
-  "main": "build/dist/src/index.js",
+  "main": "build/dist/src/index.cjs.js",
+  "module": "build/dist/index.es.js",
   "typings": "build/dist/src/index.d.ts",
   "types": "build/dist/src/index.d.ts",
   "license": "MIT",
@@ -44,6 +45,6 @@
     "access": "public"
   },
   "files": [
-    "build/dist/*"
+    "build/dist"
   ]
 }

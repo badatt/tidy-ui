@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/theme",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:theme",
     "clean": "tsc --build --clean && rimraf -rf build/dist",
@@ -39,7 +39,8 @@
     "rollup-plugin-typescript2": "^0.31.1",
     "typescript": "^4.4.4"
   },
-  "main": "build/dist/index.js",
+  "main": "build/dist/index.cjs.js",
+  "module": "build/dist/index.es.js",
   "typings": "build/dist/src/index.d.ts",
   "types": "build/dist/src/index.d.ts",
   "license": "MIT",
@@ -48,6 +49,6 @@
     "access": "public"
   },
   "files": [
-    "build/dist/*"
+    "build/dist"
   ]
 }
