@@ -15,7 +15,7 @@
     "test:update": "npx lerna exec -- yarn test:update",
     "vet": "npx lerna exec -- yarn vet",
     "yalc:publish": "npx lerna exec -- yarn yalc:publish",
-    "yalc:push": "npx erna exec -- yarn yalc:push"
+    "yalc:push": "npx lerna exec -- yarn yalc:push"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",

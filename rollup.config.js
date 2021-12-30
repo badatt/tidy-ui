@@ -4,6 +4,7 @@ import typescript from 'rollup-plugin-typescript2';
 import json from 'rollup-plugin-json';
 import replace from '@rollup/plugin-replace';
 import commonjs from '@rollup/plugin-commonjs';
+import { terser } from 'rollup-plugin-terser';
 
 const packageJson = process.env.PACKAGE_NAME && require(`./packages/${process.env.PACKAGE_NAME}/package.json`);
 
@@ -20,12 +21,16 @@ export default {
     format: 'es',
   },
   plugins: [
-    replace({ preventAssignment: true }),
+    json(),
+    replace({ preventAssignment: true, 'process.env.NODE_ENV': JSON.stringify('production') }),
     nodePolyfills(),
     nodeResolve({ extensions }),
     commonjs(),
-    typescript(),
-    json(),
+    terser(),
+    typescript({
+      inlineSources: true,
+      useTsconfigDeclarationDir: true,
+    }),
   ],
   external: (id) => deps.includes(id),
 };

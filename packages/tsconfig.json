@@ -18,9 +18,9 @@
     "isolatedModules": true,
     /* Emit */
     "declaration": true,
-    "declarationMap": true,
+    "declarationMap": false,
     "noEmit": false,
-    "sourceMap": true,
+    "sourceMap": false,
     "removeComments": true,
     "preserveConstEnums": true,
     /* Projects */
