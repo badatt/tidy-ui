@@ -6,16 +6,21 @@
     "emitDecoratorMetadata": true,
     "jsx": "react",
     /* Modules */
+    "baseUrl": "./",
     "resolveJsonModule": true,
     "moduleResolution": "node",
+    "paths": {
+      "@tidy-ui/icons": ["packages/icons"],
+      "@tidy-ui/theme": ["packages/theme"]
+    },
     /* Interop Constraints */
     "allowSyntheticDefaultImports": true,
     "isolatedModules": true,
     /* Emit */
     "declaration": true,
-    "declarationMap": true,
+    "declarationMap": false,
     "noEmit": false,
-    "sourceMap": true,
+    "sourceMap": false,
     "removeComments": true,
     "preserveConstEnums": true,
     /* Projects */
@@ -25,5 +30,6 @@
     /* Completeness */
     "skipLibCheck": true
   },
-  "exclude": ["node_modules", "dist", "stories", "test"]
+  "references": [{ "path": "packages/icons" }, { "path": "packages/theme" }],
+  "exclude": ["node_modules", "dist", "stories", "__tests__"]
 }

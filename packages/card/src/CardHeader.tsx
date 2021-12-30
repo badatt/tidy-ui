@@ -1,9 +1,6 @@
 import { css } from 'styled-components';
 import { styled } from '@tidy-ui/theme';
-
-interface ICardHeaderProps extends React.HTMLAttributes<HTMLDivElement> {
-  separated?: boolean;
-}
+import { ICardHeaderProps } from './types';
 
 const CardHeader = styled.header<ICardHeaderProps>`
   display: flex;

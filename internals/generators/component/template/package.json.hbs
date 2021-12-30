@@ -1,9 +1,11 @@
 {
-  "name": "@tidy-ui/{{ name }}",
+  "name": "@tidy-ui/
+{{name}}
+",
   "version": "0.0.0",
   "scripts": {
     "build": "yarn clean && tsc -b tsconfig.json",
-    "clean": "tsc --build --clean",
+    "clean": "tsc --build --clean && rimraf -rf build/dist",
     "format": "prettier \"**/*.{js,jsx,json,yml,yaml,css,less,scss,ts,tsx,md,graphql,mdx}\" --write",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src",
     "lint-fix": "eslint --ext .js,.jsx,.ts,.tsx src --fix",
@@ -29,14 +31,15 @@
     "@typescript-eslint/parser": "^5.4.0",
     "eslint": "^8.3.0",
     "is-ci-cli": "^2.2.0",
-    "react": "^16.0.0",
     "typescript": "^4.4.4"
   },
   "main": "build/dist/src/index.js",
   "typings": "build/dist/src/index.d.ts",
   "types": "build/dist/src/index.d.ts",
   "license": "MIT",
-  "description": "tidy-ui react component library; '{{ name }}' package",
+  "description": "tidy-ui react component library; '
+{{name}}
+' package",
   "publishConfig": {
     "access": "public"
   },
