@@ -40,12 +40,7 @@ export default {
     nodeResolve({ extensions, preferBuiltins: true }),
     commonjs(),
     terser(),
-    typescript({
-      inlineSources: true,
-      useTsconfigDeclarationDir: true,
-      verbosity: 2,
-      abortOnError: false,
-    }),
+    typescript(),
   ],
   external: (id) => deps.includes(id),
 };
