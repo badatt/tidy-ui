@@ -39,6 +39,6 @@ jobs:
 
       - name: Publish
         run: npm publish --access public
-         working-directory: packages/paper
+        working-directory: packages/paper
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
