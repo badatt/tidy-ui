@@ -1,15 +1,17 @@
 import React from 'react';
-import { styled } from '@tidy-ui/theme';
+import { styled, css } from '@tidy-ui/theme';
 import { IPaperProps } from './types';
 
 const PaperRoot = styled.section<IPaperProps>`
-  display: flex;
-  padding: 1rem;
-  background-color: ${({ theme }) => theme.palette?.background?.paper};
-  border-radius: ${({ theme }) => theme.layout?.radius};
-  box-shadow: ${({ theme }) => theme.layout?.shadow};
-  color: ${({ theme }) => theme.palette?.text?.primary};
-  margin-bottom: 1.875rem;
+  ${({ theme, rounded }) => css`
+    display: flex;
+    padding: 1rem;
+    background-color: ${theme.palette?.background?.paper};
+    border-radius: ${rounded && theme.layout?.radius};
+    box-shadow: ${theme.layout?.shadow};
+    color: ${theme.palette?.text?.primary};
+    margin-bottom: 1.875rem;
+  `}
 `;
 
 const Paper = React.forwardRef<HTMLDivElement, IPaperProps>((props, ref) => {

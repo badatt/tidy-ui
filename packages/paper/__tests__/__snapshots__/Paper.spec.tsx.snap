@@ -1,7 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Paper Renders correctly 1`] = `
+exports[`Paper Default render 1`] = `
 <section
   className=""
-/>
+>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, veniam ducimus ea reiciendis sed blanditiis impedit quisquam velit praesentium, eius dignissimos. Omnis ad doloribus laudantium expedita accusantium placeat suscipit dolores. Autem iste voluptas deleniti similique accusamus voluptatem dolorem necessitatibus aut natus facere, tenetur sequi culpa beatae praesentium hic aliquam velit molestias illo enim sint repellendus earum quasi est repudiandae. Eveniet?
+</section>
+`;
+
+exports[`Paper Rounded paper 1`] = `
+<section
+  className=""
+>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, veniam ducimus ea reiciendis sed blanditiis impedit quisquam velit praesentium, eius dignissimos. Omnis ad doloribus laudantium expedita accusantium placeat suscipit dolores. Autem iste voluptas deleniti similique accusamus voluptatem dolorem necessitatibus aut natus facere, tenetur sequi culpa beatae praesentium hic aliquam velit molestias illo enim sint repellendus earum quasi est repudiandae. Eveniet?
+</section>
 `;
