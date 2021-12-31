@@ -25,7 +25,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
 
       - name: Install Dependencies
-        run: yarn
+        run: yarn bootstrap
 
       - name: Vet
         run: yarn vet

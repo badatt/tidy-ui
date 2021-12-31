@@ -15,6 +15,7 @@ jobs:
     defaults:
       run:
         shell: bash
+        working-directory: packages/card
 
     steps:
       - name: Check out the code
@@ -29,7 +30,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
 
       - name: Install Dependencies
-        run: yarn bootstrap
+        run: yarn
 
       - name: Vet
         run: yarn vet
@@ -39,6 +40,5 @@ jobs:
 
       - name: Publish
         run: npm publish --access public
-        working-directory: packages/card
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
