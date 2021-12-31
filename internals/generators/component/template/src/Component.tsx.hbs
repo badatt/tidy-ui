@@ -1,17 +1,20 @@
 import React from "react";
-import styled from "styled-components";
-
-interface I{{ properCase name }}Props extends React.HTMLAttributes<...> {}
+import { styled, css } from '@tidy-ui/theme';
+import { I{{ properCase name }}Props } from './types';
 
 const {{ properCase name }} = React.forwardRef<..., I{{ properCase name }}Props>(
   (props, ref) => {
     const { children, ...rest } = props;
     return (
-      <div ref={ref} {...rest}>
+      <div ref={ref} role="{{ name }}" {...rest}>
         {children}
       </div>
     );
   }
 );
+
+{{ properCase name }}.defaultProps = {
+  
+};
 
 export { {{ properCase name }} };
