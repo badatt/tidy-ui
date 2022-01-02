@@ -12,7 +12,57 @@ exports[`Render Button Basic neutral button 1`] = `
 </button>
 `;
 
+exports[`Render Button Basic neutral button dark 1`] = `
+<button
+  className=""
+  color="neutral"
+  disabled={false}
+  role="button"
+  size="md"
+>
+  neutral
+</button>
+`;
+
 exports[`Render Button Button with icon and text 1`] = `
+<button
+  className=""
+  color="major"
+  disabled={false}
+  role="button"
+  size="md"
+>
+  <i
+    className=""
+    color="major"
+    loading={false}
+    size="md"
+  >
+    <svg
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+      />
+      <path
+        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+      />
+    </svg>
+  </i>
+  Settings
+</button>
+`;
+
+exports[`Render Button Button with icon and text dark 1`] = `
 <button
   className=""
   color="major"
@@ -62,7 +112,31 @@ exports[`Render Button Filled button 1`] = `
 </button>
 `;
 
+exports[`Render Button Filled button dark 1`] = `
+<button
+  className=""
+  color="major"
+  disabled={false}
+  role="button"
+  size="md"
+>
+  primary
+</button>
+`;
+
 exports[`Render Button Filled disabled button 1`] = `
+<button
+  className=""
+  color="info"
+  disabled={true}
+  role="button"
+  size="md"
+>
+  info
+</button>
+`;
+
+exports[`Render Button Filled disabled button dark 1`] = `
 <button
   className=""
   color="info"
@@ -118,7 +192,63 @@ exports[`Render Button Filled loading button 1`] = `
 </button>
 `;
 
+exports[`Render Button Filled loading button dark 1`] = `
+<button
+  className=""
+  color="major"
+  disabled={true}
+  role="button"
+  size="md"
+>
+  <i
+    className=""
+    color="major"
+    loading={true}
+    size="md"
+  >
+    <svg
+      enableBackground="new 0 0 0 0"
+      version="1.1"
+      viewBox="0 0 100 100"
+      x="0px"
+      xlinkHref="http://www.w3.org/1999/xlink"
+      xmlSpace="preserve"
+      xmlns="http://www.w3.org/2000/svg"
+      y="0px"
+    >
+      <path
+        d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50"
+        fill="currentColor"
+      >
+        <animateTransform
+          attributeName="transform"
+          attributeType="XML"
+          dur="1s"
+          from="0 50 50"
+          repeatCount="indefinite"
+          to="360 50 50"
+          type="rotate"
+        />
+      </path>
+    </svg>
+  </i>
+  primary
+</button>
+`;
+
 exports[`Render Button Filled uppercase button 1`] = `
+<button
+  className=""
+  color="danger"
+  disabled={false}
+  role="button"
+  size="md"
+>
+  danger
+</button>
+`;
+
+exports[`Render Button Filled uppercase button dark 1`] = `
 <button
   className=""
   color="danger"
@@ -142,6 +272,18 @@ exports[`Render Button Hero button 1`] = `
 </button>
 `;
 
+exports[`Render Button Hero button dark 1`] = `
+<button
+  className=""
+  color="minor"
+  disabled={false}
+  role="button"
+  size="md"
+>
+  hero
+</button>
+`;
+
 exports[`Render Button Hero neutral button 1`] = `
 <button
   className=""
@@ -154,7 +296,31 @@ exports[`Render Button Hero neutral button 1`] = `
 </button>
 `;
 
+exports[`Render Button Hero neutral button dark 1`] = `
+<button
+  className=""
+  color="major"
+  disabled={false}
+  role="button"
+  size="md"
+>
+  hero
+</button>
+`;
+
 exports[`Render Button Neutral button 1`] = `
+<button
+  className=""
+  color="major"
+  disabled={false}
+  role="button"
+  size="md"
+>
+  neutral
+</button>
+`;
+
+exports[`Render Button Neutral button dark 1`] = `
 <button
   className=""
   color="major"
@@ -204,7 +370,57 @@ exports[`Render Button Only icon button 1`] = `
 </button>
 `;
 
+exports[`Render Button Only icon button dark 1`] = `
+<button
+  className=""
+  color="major"
+  disabled={false}
+  role="button"
+  size="md"
+>
+  <i
+    className=""
+    color="major"
+    loading={false}
+    size="md"
+  >
+    <svg
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+      />
+      <path
+        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+      />
+    </svg>
+  </i>
+  
+</button>
+`;
+
 exports[`Render Button Outlined button 1`] = `
+<button
+  className=""
+  color="minor"
+  disabled={false}
+  role="button"
+  size="md"
+>
+  secondary
+</button>
+`;
+
+exports[`Render Button Outlined button dark 1`] = `
 <button
   className=""
   color="minor"
@@ -228,6 +444,18 @@ exports[`Render Button Outlined full width button 1`] = `
 </button>
 `;
 
+exports[`Render Button Outlined full width button dark 1`] = `
+<button
+  className=""
+  color="warning"
+  disabled={false}
+  role="button"
+  size="md"
+>
+  warning
+</button>
+`;
+
 exports[`Render Button Outlined neutral button 1`] = `
 <button
   className=""
@@ -240,7 +468,31 @@ exports[`Render Button Outlined neutral button 1`] = `
 </button>
 `;
 
+exports[`Render Button Outlined neutral button dark 1`] = `
+<button
+  className=""
+  color="major"
+  disabled={false}
+  role="button"
+  size="md"
+>
+  secondary
+</button>
+`;
+
 exports[`Render Button Renders with no styles 1`] = `
+<button
+  className=""
+  color="major"
+  disabled={false}
+  role="button"
+  size="md"
+>
+  
+</button>
+`;
+
+exports[`Render Button Renders with no styles dark 1`] = `
 <button
   className=""
   color="major"

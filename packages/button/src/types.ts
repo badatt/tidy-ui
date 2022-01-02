@@ -9,3 +9,9 @@ export interface IButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
   stretch?: boolean;
   uppercase?: boolean;
 }
+
+export interface IAnchorProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
+  size?: 'xxs' | 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl';
+  newTab?: boolean;
+  disable?: boolean;
+}

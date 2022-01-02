@@ -5,6 +5,7 @@ import { createColor } from './utils';
 
 export const theme: ITidyUITheme = {
   name: 'Orchid Dark',
+  isDark: true,
   ...defaultBase,
   palette: {
     background: {

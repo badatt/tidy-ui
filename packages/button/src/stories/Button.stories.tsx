@@ -2,7 +2,7 @@ import React from 'react';
 import { styled } from '@tidy-ui/theme';
 import { GearIcon, EyeIcon, CheckCircleIcon } from '@tidy-ui/icons';
 
-import { Button } from '..';
+import { Anchor, Button } from '..';
 
 export default {
   component: Button,
@@ -112,9 +112,21 @@ export const hero = () => (
   </Container>
 );
 
+export const link = () => (
+  <Container>
+    <Anchor href="/?path=/story/button--basic">Basic button</Anchor>
+    <Anchor href="/?path=/story/button--basic" disable>
+      Cannot go
+    </Anchor>
+    <Anchor href="https://www.google.com/" newTab>
+      Google
+    </Anchor>
+  </Container>
+);
+
 export const others = () => (
   <Container>
-    <Button text="simple" />
+    <Button text="simple" title="Simple button" />
     <Button text="uppercase" appearance="primary" color="major" uppercase />
     <Button text="disabled" appearance="primary" color="minor" disable />
     <Button text="full width" appearance="outlined" color="major" stretch />

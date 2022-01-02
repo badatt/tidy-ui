@@ -5,69 +5,85 @@ import { sizeStyles } from './style';
 import { IButtonProps } from './types';
 
 const simple = css<IButtonProps>`
-  ${({ theme, color }) => css`
-    color: ${theme.palette[color!][600]};
+  ${({ theme: { palette, isDark }, color }) => css`
+    color: ${isDark ? palette[color!][400] : palette[color!][600]};
     background-color: transparent;
     border: none;
     &:hover {
-      background-color: ${theme.palette[color!][100]};
+      background-color: ${isDark ? palette[color!][900] : palette[color!][100]};
     }
   `}
 `;
 
 const basic = css<IButtonProps>`
-  ${({ theme, color }) => css`
-    color: ${theme.palette[color!][600]};
-    background-color: ${theme.palette[color!][100]};
+  ${({ theme: { palette, isDark }, color }) => css`
+    color: ${isDark ? palette[color!][400] : palette[color!][600]};
+    background-color: ${isDark ? palette[color!][900] : palette[color!][100]};
     border: 1px solid transparent;
-    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-      ${theme.palette[color!][200]} 0px 10px 15px -3px, ${theme.palette[color!][200]} 0px 4px 6px -4px;
-    &:hover {
-      background-color: ${theme.palette[color!][200]};
+    ${!isDark &&
+    css`
       box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-        ${theme.palette[color!][300]} 0px 10px 15px -3px, ${theme.palette[color!][300]} 0px 4px 6px -4px;
+        ${palette[color!][200]} 0px 10px 15px -3px, ${palette[color!][200]} 0px 4px 6px -4px;
+    `}
+    ${isDark &&
+    css`
+      opacity: 0.8;
+    `}
+    &:hover {
+      background-color: ${isDark ? palette[color!][800] : palette[color!][200]};
+      box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        ${isDark ? palette[color!][600] : palette[color!][300]} 0px 10px 15px -3px,
+        ${isDark ? palette[color!][600] : palette[color!][300]} 0px 4px 6px -4px;
+      opacity: 1;
     }
   `}
 `;
 
 const primary = css<IButtonProps>`
-  ${({ theme, color }) => css`
-    color: ${theme.palette[color!][100]};
-    background-color: ${theme.palette[color!][600]};
+  ${({ theme: { palette, isDark }, color }) => css`
+    color: ${palette[color!][100]};
+    background-color: ${palette[color!][600]};
     border: 1px solid transparent;
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-      ${theme.palette[color!][200]} 0px 10px 15px -3px, ${theme.palette[color!][200]} 0px 4px 6px -4px;
+      ${isDark ? palette[color!][800] : palette[color!][200]} 0px 10px 15px -3px,
+      ${isDark ? palette[color!][800] : palette[color!][200]} 0px 4px 6px -4px;
     &:hover {
-      background-color: ${theme.palette[color!][700]};
+      background-color: ${palette[color!][700]};
     }
   `}
 `;
 
 const outlined = css<IButtonProps>`
-  ${({ theme, color }) => css`
-    color: ${theme.palette[color!][600]};
-    background-color: ${theme.palette[color!][50]};
-    border: 1px solid ${theme.palette[color!][300]};
+  ${({ theme: { palette, isDark }, color }) => css`
+    color: ${isDark ? palette[color!][400] : palette[color!][600]};
+    background-color: ${isDark ? palette[color!][900] : palette[color!][50]};
+    border: 1px solid ${isDark ? palette[color!][600] : palette[color!][300]};
+    ${isDark &&
+    css`
+      opacity: 0.8;
+    `}
     &:hover {
-      background-color: ${theme.palette[color!][100]};
+      background-color: ${isDark ? palette[color!][800] : palette[color!][100]};
+      opacity: 1;
     }
   `}
 `;
 
 const hero = css<IButtonProps>`
-  ${({ theme, color }) => css`
+  ${({ theme: { palette, isDark }, color }) => css`
     padding: 1rem 1.5rem;
     border-radius: 0.75rem;
     font-size: 3rem;
     line-height: 2.125rem;
-    color: ${theme.palette[color!][100]};
-    background-color: ${theme.palette[color!][600]};
+    color: ${palette[color!][100]};
+    background-color: ${palette[color!][600]};
     border: 1px solid transparent;
     width: 100%;
     text-align: center;
     justify-content: center;
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-      ${theme.palette[color!][200]} 0px 10px 15px -3px, ${theme.palette[color!][200]} 0px 4px 6px -4px;
+      ${isDark ? palette[color!][800] : palette[color!][200]} 0px 10px 15px -3px,
+      ${isDark ? palette[color!][800] : palette[color!][200]} 0px 4px 6px -4px;
   `}
 `;
 

@@ -2,6 +2,7 @@ import { ITidyUIBaseTheme } from './base';
 
 export interface ITidyUITheme extends ITidyUIBaseTheme {
   name: string;
+  isDark: boolean;
   palette: IPalette;
 }
 
