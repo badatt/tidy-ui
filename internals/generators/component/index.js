@@ -6,7 +6,9 @@
 
 'use strict';
 
-const componentExists = require('../utils/componentExists');
+const componentExists = require('../componentExists');
+const templateDir = './component';
+const componentDest = '../../packages';
 
 module.exports = {
   description: 'Add a ui component library',
@@ -30,56 +32,55 @@ module.exports = {
       {
         type: 'add',
         path: '../../.github/workflows/publish-{{name}}.yml',
-        templateFile: './component/template/github-publish.yml.hbs',
+        templateFile: `${templateDir}/github-publish.yml.hbs`,
         abortOnFail: true,
       },
       {
         type: 'add',
-        path: '../../packages/{{name}}/babel.config.js',
-        templateFile: './component/template/babel.config.js.hbs',
+        path: `${componentDest}/{{name}}/babel.config.js`,
+        templateFile: `${templateDir}/babel.config.js.hbs`,
         abortOnFail: true,
       },
       {
         type: 'add',
-        path: '../../packages/{{name}}/.eslintignore',
-        templateFile: './component/template/.eslintignore.hbs',
+        path: `${componentDest}/{{name}}/.eslintignore`,
+        templateFile: `${templateDir}/.eslintignore.hbs`,
         abortOnFail: true,
       },
       {
         type: 'add',
-        path: '../../packages/{{name}}/.eslintrc',
-        templateFile: './component/template/.eslintrc.hbs',
+        path: `${componentDest}/{{name}}/.eslintrc`,
+        templateFile: `${templateDir}/.eslintrc.hbs`,
         abortOnFail: true,
       },
       {
         type: 'add',
-        path: '../../packages/{{name}}/tsconfig.json',
-        templateFile: './component/template/tsconfig.json.hbs',
+        path: `${componentDest}/{{name}}/tsconfig.json`,
+        templateFile: `${templateDir}/tsconfig.json.hbs`,
         abortOnFail: true,
       },
       {
         type: 'add',
-        path: '../../packages/{{name}}/package.json',
-        templateFile: './component/template/package.json.hbs',
+        path: `${componentDest}/{{name}}/package.json`,
+        templateFile: `${templateDir}/package.json.hbs`,
         abortOnFail: true,
       },
       {
         type: 'add',
-        path: '../../packages/{{name}}/jest.config.js',
-        templateFile: './component/template/jest.config.js.hbs',
+        path: `${componentDest}/{{name}}/jest.config.js`,
+        templateFile: `${templateDir}/jest.config.js.hbs`,
         abortOnFail: true,
       },
       {
         type: 'add',
-        path: '../../packages/{{name}}/index.ts',
-        templateFile: './component/template/index.ts.hbs',
+        path: `${componentDest}/{{name}}/index.ts`,
+        templateFile: `${templateDir}/index.ts.hbs`,
         abortOnFail: true,
       },
       {
         type: 'addMany',
-        destination: '../../packages/{{name}}/',
-        templateFiles: './component/template/src/**/*',
-        base: 'template',
+        destination: `${componentDest}/{{name}}/`,
+        templateFiles: `${templateDir}/src/**/*`,
         abortOnFail: true,
       },
     ];
