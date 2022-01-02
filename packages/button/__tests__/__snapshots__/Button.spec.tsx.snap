@@ -3,9 +3,10 @@
 exports[`Render Button Basic neutral button 1`] = `
 <button
   className=""
+  color="neutral"
   disabled={false}
-  kind="neutral"
   role="button"
+  size="md"
 >
   neutral
 </button>
@@ -14,13 +15,16 @@ exports[`Render Button Basic neutral button 1`] = `
 exports[`Render Button Button with icon and text 1`] = `
 <button
   className=""
+  color="major"
   disabled={false}
   role="button"
+  size="md"
 >
   <i
     className=""
-    disabled={false}
+    color="major"
     loading={false}
+    size="md"
   >
     <svg
       fill="none"
@@ -49,9 +53,10 @@ exports[`Render Button Button with icon and text 1`] = `
 exports[`Render Button Filled button 1`] = `
 <button
   className=""
+  color="major"
   disabled={false}
-  kind="primary"
   role="button"
+  size="md"
 >
   primary
 </button>
@@ -60,9 +65,10 @@ exports[`Render Button Filled button 1`] = `
 exports[`Render Button Filled disabled button 1`] = `
 <button
   className=""
+  color="info"
   disabled={true}
-  kind="info"
   role="button"
+  size="md"
 >
   info
 </button>
@@ -71,15 +77,16 @@ exports[`Render Button Filled disabled button 1`] = `
 exports[`Render Button Filled loading button 1`] = `
 <button
   className=""
+  color="major"
   disabled={true}
-  kind="primary"
   role="button"
+  size="md"
 >
   <i
     className=""
-    disabled={false}
-    kind="primary"
+    color="major"
     loading={true}
+    size="md"
   >
     <svg
       enableBackground="new 0 0 0 0"
@@ -114,9 +121,10 @@ exports[`Render Button Filled loading button 1`] = `
 exports[`Render Button Filled uppercase button 1`] = `
 <button
   className=""
+  color="danger"
   disabled={false}
-  kind="danger"
   role="button"
+  size="md"
 >
   danger
 </button>
@@ -125,9 +133,10 @@ exports[`Render Button Filled uppercase button 1`] = `
 exports[`Render Button Hero button 1`] = `
 <button
   className=""
+  color="minor"
   disabled={false}
-  kind="secondary"
   role="button"
+  size="md"
 >
   hero
 </button>
@@ -136,8 +145,10 @@ exports[`Render Button Hero button 1`] = `
 exports[`Render Button Hero neutral button 1`] = `
 <button
   className=""
+  color="major"
   disabled={false}
   role="button"
+  size="md"
 >
   hero
 </button>
@@ -146,8 +157,10 @@ exports[`Render Button Hero neutral button 1`] = `
 exports[`Render Button Neutral button 1`] = `
 <button
   className=""
+  color="major"
   disabled={false}
   role="button"
+  size="md"
 >
   neutral
 </button>
@@ -156,15 +169,16 @@ exports[`Render Button Neutral button 1`] = `
 exports[`Render Button Only icon button 1`] = `
 <button
   className=""
+  color="major"
   disabled={false}
-  kind="primary"
   role="button"
+  size="md"
 >
   <i
     className=""
-    disabled={false}
-    kind="primary"
+    color="major"
     loading={false}
+    size="md"
   >
     <svg
       fill="none"
@@ -193,9 +207,10 @@ exports[`Render Button Only icon button 1`] = `
 exports[`Render Button Outlined button 1`] = `
 <button
   className=""
+  color="minor"
   disabled={false}
-  kind="secondary"
   role="button"
+  size="md"
 >
   secondary
 </button>
@@ -204,9 +219,10 @@ exports[`Render Button Outlined button 1`] = `
 exports[`Render Button Outlined full width button 1`] = `
 <button
   className=""
+  color="warning"
   disabled={false}
-  kind="warning"
   role="button"
+  size="md"
 >
   warning
 </button>
@@ -215,8 +231,10 @@ exports[`Render Button Outlined full width button 1`] = `
 exports[`Render Button Outlined neutral button 1`] = `
 <button
   className=""
+  color="major"
   disabled={false}
   role="button"
+  size="md"
 >
   secondary
 </button>
@@ -225,8 +243,10 @@ exports[`Render Button Outlined neutral button 1`] = `
 exports[`Render Button Renders with no styles 1`] = `
 <button
   className=""
+  color="major"
   disabled={false}
   role="button"
+  size="md"
 >
   
 </button>

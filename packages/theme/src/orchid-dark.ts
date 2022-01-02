@@ -1,66 +1,37 @@
 import { defaultBase } from './base';
 import { ITidyUITheme } from './types/theme';
+import { purple, pink, neutral, blue, green, amber, red } from './colors';
+import { createColor } from './utils';
 
 export const theme: ITidyUITheme = {
   name: 'Orchid Dark',
   ...defaultBase,
   palette: {
     background: {
-      card: '#1e293b',
-      paper: '#1e293b',
-      default: '#0f172a',
+      card: 'hsla(217, 33%, 17%, 1)',
+      paper: 'hsla(217, 33%, 17%, 1)',
+      default: 'hsla(222, 47%, 11%, 1)',
     },
-    divider: '#64748b',
+    divider: 'hsla(215, 16%, 47%, 1)',
     /**
      * colors taken from tailwind css https://tailwindcss.com/docs/customizing-colors
-     * main = 600
-     * light = 400
-     * dark = 800
      */
-    primary: {
-      main: 'hsl(239, 84%, 67%)',
-      light: 'hsl(230, 94%, 82%)',
-      dark: 'hsl(245, 58%, 51%)',
-      contrastText: 'hsl(0, 0%, 100%)',
-    },
-    secondary: {
-      main: 'hsl(330, 81%, 60%)',
-      light: 'hsl(327, 87%, 82%)',
-      dark: 'hsl(335, 78%, 42%)',
-      contrastText: 'hsl(0, 0%, 100%)',
-    },
-    neutral: {
-      main: 'hsl(330, 81%, 60%)',
-      light: 'hsl(327, 87%, 82%)',
-      dark: 'hsl(335, 78%, 42%)',
-      contrastText: 'hsl(0, 0%, 100%)',
-    },
-    info: {
-      main: 'hsl(239, 84%, 67%)',
-      light: 'hsl(230, 94%, 82%)',
-      dark: 'hsl(245, 58%, 51%)',
-      contrastText: 'hsl(0, 0%, 100%)',
-    },
-    success: {
-      main: 'hsl(239, 84%, 67%)',
-      light: 'hsl(230, 94%, 82%)',
-      dark: 'hsl(245, 58%, 51%)',
-      contrastText: 'hsl(0, 0%, 100%)',
-    },
-    warning: {
-      main: 'hsl(239, 84%, 67%)',
-      light: 'hsl(230, 94%, 82%)',
-      dark: 'hsl(245, 58%, 51%)',
-      contrastText: 'hsl(0, 0%, 100%)',
-    },
-    danger: {
-      main: 'hsl(239, 84%, 67%)',
-      light: 'hsl(230, 94%, 82%)',
-      dark: 'hsl(245, 58%, 51%)',
-      contrastText: 'hsl(0, 0%, 100%)',
-    },
+    // Purple
+    major: createColor(purple),
+    // Pink
+    minor: createColor(pink),
+    // Neutral
+    neutral: createColor(neutral),
+    // Blue
+    info: createColor(blue),
+    // Green
+    success: createColor(green),
+    // Amber
+    warning: createColor(amber),
+    // Red
+    danger: createColor(red),
     text: {
-      primary: '#f1f5f9',
+      primary: 'hsla(210, 40%, 96%, 1)',
       secondary: 'hsla(0, 0%, 100%, 0.7)',
       disabled: 'hsla(0, 0%, 100%, 0.5)',
     },

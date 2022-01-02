@@ -21,7 +21,7 @@ describe('Render Button', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
-          <Button text="neutral" appearance="basic" kind="neutral" />
+          <Button text="neutral" appearance="basic" color="neutral" />
         </ThemeProvider>,
       )
       .toJSON();
@@ -41,7 +41,7 @@ describe('Render Button', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
-          <Button text="primary" appearance="filled" kind="primary" />
+          <Button text="primary" appearance="primary" color="major" />
         </ThemeProvider>,
       )
       .toJSON();
@@ -51,7 +51,7 @@ describe('Render Button', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
-          <Button text="secondary" appearance="outlined" kind="secondary" />
+          <Button text="secondary" appearance="outlined" color="minor" />
         </ThemeProvider>,
       )
       .toJSON();
@@ -71,7 +71,7 @@ describe('Render Button', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
-          <Button text="hero" appearance="hero" kind="secondary" />
+          <Button text="hero" appearance="hero" color="minor" />
         </ThemeProvider>,
       )
       .toJSON();
@@ -91,7 +91,7 @@ describe('Render Button', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
-          <Button text="Settings" appearance="filled" icon={<GearIcon />} />
+          <Button text="Settings" appearance="primary" icon={<GearIcon />} />
         </ThemeProvider>,
       )
       .toJSON();
@@ -101,7 +101,7 @@ describe('Render Button', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
-          <Button text="info" appearance="filled" kind="info" disabled />
+          <Button text="info" appearance="primary" color="info" disable />
         </ThemeProvider>,
       )
       .toJSON();
@@ -111,7 +111,7 @@ describe('Render Button', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
-          <Button text="warning" appearance="outlined" kind="warning" fullWidth />
+          <Button text="warning" appearance="outlined" color="warning" stretch />
         </ThemeProvider>,
       )
       .toJSON();
@@ -121,7 +121,7 @@ describe('Render Button', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
-          <Button text="danger" appearance="filled" kind="danger" uppercase />
+          <Button text="danger" appearance="primary" color="danger" uppercase />
         </ThemeProvider>,
       )
       .toJSON();
@@ -131,7 +131,7 @@ describe('Render Button', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
-          <Button text="primary" appearance="filled" kind="primary" loading />
+          <Button text="primary" appearance="primary" color="major" loading />
         </ThemeProvider>,
       )
       .toJSON();
@@ -141,7 +141,7 @@ describe('Render Button', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
-          <Button appearance="filled" kind="primary" icon={<GearIcon />} />
+          <Button appearance="primary" color="major" icon={<GearIcon />} />
         </ThemeProvider>,
       )
       .toJSON();

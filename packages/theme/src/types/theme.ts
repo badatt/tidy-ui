@@ -6,8 +6,8 @@ export interface ITidyUITheme extends ITidyUIBaseTheme {
 }
 
 interface IPalette {
-  primary: IColor;
-  secondary: IColor;
+  major: IColor;
+  minor: IColor;
   neutral: IColor;
   info: IColor;
   success: IColor;
@@ -30,9 +30,22 @@ interface ITextColor {
   disabled: string;
 }
 
-interface IColor {
-  main: string;
-  light: string;
-  dark: string;
-  contrastText: string;
+export interface IColor {
+  50: string;
+  100: string;
+  200: string;
+  300: string;
+  400: string;
+  500: string;
+  600: string;
+  700: string;
+  800: string;
+  900: string;
+}
+
+export interface IHsla {
+  hue: number;
+  saturation: number;
+  luminosity: number;
+  alpha: number;
 }

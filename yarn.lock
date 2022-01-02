@@ -3523,6 +3523,19 @@
     resolve-from "^5.0.0"
     store2 "^2.12.0"
 
+"@tidy-ui/button@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@tidy-ui/button/-/button-0.0.8.tgz#a843ca4183b70f025022e64b850f1eb13a6fe33b"
+  integrity sha512-L8/YZSLb2pY6vpqoGSBPWn4JqVrWQoq5CGdfVcCRtFXkF1G1PdimkXcoEzzD+qiJ6WcYk8WAuyId1fCN/zqzEg==
+  dependencies:
+    "@tidy-ui/icons" "^0.0.8"
+    "@tidy-ui/theme" "^0.0.10"
+
+"@tidy-ui/theme@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@tidy-ui/theme/-/theme-0.0.10.tgz#99ca5df2f5a90ced7387614bacc0bfdd453af818"
+  integrity sha512-4TtsA9Gq9s3wF2TAzWySvMFxIbg8L+Lm0BDVon4fkyvtrqZqCx6Foik9BFeUa0qS73VdrgHMmuIxgf79PMsvlw==
+
 "@tootallnate/once@1":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
