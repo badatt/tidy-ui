@@ -4,7 +4,7 @@ import { ThemeProvider } from 'styled-components';
 import 'jest-styled-components';
 import { GearIcon } from '@tidy-ui/icons';
 import { orchidLight } from '@tidy-ui/theme';
-import { Button } from '../src';
+import { Button } from '..';
 
 describe('Render Button', () => {
   it('Renders with no styles', () => {
