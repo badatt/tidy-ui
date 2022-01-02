@@ -76,27 +76,10 @@ module.exports = {
         abortOnFail: true,
       },
       {
-        type: 'add',
-        path: '../../packages/{{name}}/src/index.ts',
-        templateFile: './component/template/src/index.ts.hbs',
-        abortOnFail: true,
-      },
-      {
-        type: 'add',
-        path: '../../packages/{{name}}/src/{{properCase name}}.tsx',
-        templateFile: './component/template/src/Component.tsx.hbs',
-        abortOnFail: true,
-      },
-      {
-        type: 'add',
-        path: '../../packages/{{name}}/stories/{{properCase name}}.stories.tsx',
-        templateFile: './component/template/stories/Component.stories.tsx.hbs',
-        abortOnFail: true,
-      },
-      {
-        type: 'add',
-        path: '../../packages/{{name}}/__tests__/{{properCase name}}.spec.tsx',
-        templateFile: './component/template/__tests__/Component.spec.tsx.hbs',
+        type: 'addMany',
+        destination: '../../packages/{{name}}/',
+        templateFiles: './component/template/src/**/*',
+        base: 'template',
         abortOnFail: true,
       },
     ];

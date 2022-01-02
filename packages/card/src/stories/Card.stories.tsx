@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardHeader, CardBody, CardFooter } from '../src';
+import { Card, CardHeader, CardBody, CardFooter } from '..';
 
 export default {
   component: Card,
