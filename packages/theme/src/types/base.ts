@@ -20,7 +20,7 @@ interface ILayout {
 }
 
 interface ITypography {
-  fontSize: number;
+  fontSize: string;
   fontWeightLight: number;
   fontWeightRegular: number;
   fontWeightMedium: number;

@@ -1,15 +1,20 @@
 import React from 'react';
-import { styled } from '@tidy-ui/theme';
+import { styled, css } from '@tidy-ui/theme';
 import { ICardProps } from './types';
 
 const CardRoot = styled.section<ICardProps>`
-  display: flex;
-  flex-direction: column;
-  background-color: ${({ theme }) => theme.palette?.background?.card};
-  border-radius: ${({ theme }) => theme.layout?.radius};
-  box-shadow: ${({ theme }) => theme.layout?.shadow};
-  color: ${({ theme }) => theme.palette?.text?.primary};
-  margin-bottom: 1.875rem;
+  ${({ theme: { palette, layout }, rounded }) => css`
+    display: flex;
+    flex-direction: column;
+    background-color: ${palette.background.card};
+    box-shadow: ${layout.shadow};
+    color: ${palette.text.primary};
+    margin-bottom: 1.875rem;
+    ${rounded &&
+    css`
+      border-radius: ${layout.radius};
+    `}
+  `}
 `;
 
 const Card = React.forwardRef<HTMLDivElement, ICardProps>((props, ref) => {
@@ -20,5 +25,9 @@ const Card = React.forwardRef<HTMLDivElement, ICardProps>((props, ref) => {
     </CardRoot>
   );
 });
+
+Card.defaultProps = {
+  rounded: true,
+};
 
 export { Card };

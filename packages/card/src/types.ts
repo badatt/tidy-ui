@@ -1,5 +1,5 @@
 export interface ICardProps extends React.HTMLAttributes<HTMLDivElement> {
-  accent?: 'info' | 'success' | 'warning' | 'danger';
+  accent?: 'major' | 'minor' | 'neutral' | 'info' | 'success' | 'warning' | 'danger';
   rounded?: boolean;
 }
 
