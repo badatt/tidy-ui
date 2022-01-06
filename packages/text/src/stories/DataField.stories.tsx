@@ -57,3 +57,14 @@ export const withIcon = () => (
     </Column>
   </Container>
 );
+
+export const transforms = () => (
+  <Container>
+    <Column>
+      <DataField b accent="minor" label="minor accent" value="minor accent bold value" />
+      <DataField u accent="success" label="success accent" value="success accent underline value" />
+      <DataField i accent="info" label="info accent" value="info accent italicized value" />
+      <DataField disable accent="warning" label="warning accent" value="warning accent disabled value" />
+    </Column>
+  </Container>
+);

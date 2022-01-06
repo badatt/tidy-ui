@@ -3531,6 +3531,22 @@
     "@tidy-ui/icons" "^0.0.8"
     "@tidy-ui/theme" "^0.0.10"
 
+"@tidy-ui/card@^0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@tidy-ui/card/-/card-0.0.9.tgz#2c30a8265e6ef20977b0fc801f948100718b9c3e"
+  integrity sha512-ppyDEalXK1rxHkIep7MH2ubFQhRouE243bsUV9g0ZNNg54UQojTSTf56ZZ4t9J3J1GqNBIyBY9LVmaiUqVtEWA==
+  dependencies:
+    "@tidy-ui/icons" "^0.0.8"
+    "@tidy-ui/theme" "^0.0.10"
+
+"@tidy-ui/paper@^0.0.17":
+  version "0.0.17"
+  resolved "https://registry.yarnpkg.com/@tidy-ui/paper/-/paper-0.0.17.tgz#08286d3bc54733a3a76e7fe96abf5328b75bfc71"
+  integrity sha512-Ar/UiUYZMjcM4S8bDH6PkXXJ3D1rTag3j2yukWuNwX2m70A2h3ttInDDXZTRgqyfyd5S5ieZqOUJX0Ki2LNkpQ==
+  dependencies:
+    "@tidy-ui/icons" "^0.0.8"
+    "@tidy-ui/theme" "^0.0.10"
+
 "@tidy-ui/theme@^0.0.10":
   version "0.0.10"
   resolved "https://registry.yarnpkg.com/@tidy-ui/theme/-/theme-0.0.10.tgz#99ca5df2f5a90ced7387614bacc0bfdd453af818"
