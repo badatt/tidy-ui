@@ -14,7 +14,7 @@ export const defaultBase: ITidyUIBaseTheme = {
       'rgb(255, 255, 255) 0px 0px 0px 0px, rgba(15, 23, 42, 0.05) 0px 0px 0px 1px, rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.1) 0px 8px 10px -6px',
   },
   typography: {
-    fontSize: 14,
+    fontSize: '0.875rem',
     fontWeightLight: 200,
     fontWeightMedium: 400,
     fontWeightRegular: 500,
@@ -110,10 +110,10 @@ export const defaultBase: ITidyUIBaseTheme = {
       lineHeight: 1.66,
     },
     span: {
-      fontSize: '0.75rem',
+      fontSize: '0.875rem',
       fontWeight: 400,
-      letterSpacing: '0.03333em',
-      lineHeight: 1.66,
+      letterSpacing: '0.01071em',
+      lineHeight: 1.43,
     },
     code: {
       fontSize: '0.75rem',

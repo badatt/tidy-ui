@@ -8,12 +8,17 @@ const AnchorRoot = styled.a<IAnchorProps>`
   ${({ theme: { palette, isDark }, disable }) => css`
     display: flex;
     align-items: center;
+    text-decoration: none;
     color: ${isDark ? palette['major'][400] : palette['major'][600]};
     ${disable &&
     css`
       cursor: not-allowed;
+      pointer-events: none;
       opacity: 0.5;
     `}
+    &:hover {
+      text-decoration: underline;
+    }
   `};
 `;
 

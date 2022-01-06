@@ -1,0 +1,470 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text Default render 1`] = `
+<dl
+  className=""
+  role="data-field"
+>
+  <dd
+    className=""
+  />
+  <dt
+    className=""
+  />
+</dl>
+`;
+
+exports[`Text bold value 1`] = `
+<dl
+  className=""
+  role="data-field"
+>
+  <dd
+    className=""
+  >
+    neutral accent
+  </dd>
+  <dt
+    className=""
+  >
+    default(neutral) color
+  </dt>
+</dl>
+`;
+
+exports[`Text danger accent value 1`] = `
+<dl
+  className=""
+  role="data-field"
+>
+  <dd
+    className=""
+  >
+    danger accent
+  </dd>
+  <dt
+    className=""
+  >
+    danger accent value
+  </dt>
+</dl>
+`;
+
+exports[`Text danger color value 1`] = `
+<dl
+  className=""
+  role="data-field"
+>
+  <dd
+    className=""
+    color="danger"
+  >
+    danger accent
+  </dd>
+  <dt
+    className=""
+    color="danger"
+  >
+    danger color value
+  </dt>
+</dl>
+`;
+
+exports[`Text default(neutral) color 1`] = `
+<dl
+  className=""
+  role="data-field"
+>
+  <dd
+    className=""
+  >
+    neutral accent
+  </dd>
+  <dt
+    className=""
+  >
+    default(neutral) color
+  </dt>
+</dl>
+`;
+
+exports[`Text disable value 1`] = `
+<dl
+  className=""
+  role="data-field"
+>
+  <dd
+    className=""
+  >
+    neutral accent
+  </dd>
+  <dt
+    className=""
+  >
+    default(neutral) color
+  </dt>
+</dl>
+`;
+
+exports[`Text info accent value 1`] = `
+<dl
+  className=""
+  role="data-field"
+>
+  <dd
+    className=""
+  >
+    info accent
+  </dd>
+  <dt
+    className=""
+  >
+    info accent value
+  </dt>
+</dl>
+`;
+
+exports[`Text info color value 1`] = `
+<dl
+  className=""
+  role="data-field"
+>
+  <dd
+    className=""
+    color="info"
+  >
+    info accent
+  </dd>
+  <dt
+    className=""
+    color="info"
+  >
+    info color value
+  </dt>
+</dl>
+`;
+
+exports[`Text italicized value 1`] = `
+<dl
+  className=""
+  role="data-field"
+>
+  <dd
+    className=""
+  >
+    neutral accent
+  </dd>
+  <dt
+    className=""
+  >
+    default(neutral) color
+  </dt>
+</dl>
+`;
+
+exports[`Text major accent value 1`] = `
+<dl
+  className=""
+  role="data-field"
+>
+  <dd
+    className=""
+  >
+    major(default) accent
+  </dd>
+  <dt
+    className=""
+  >
+    major accent value
+  </dt>
+</dl>
+`;
+
+exports[`Text major accent value with icon 1`] = `
+<dl
+  className=""
+  role="data-field"
+>
+  <dd
+    className=""
+  >
+    <i
+      className=""
+      label="settings icon"
+      value="major accent value"
+    >
+      <svg
+        fill="currentColor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M10 12a2 2 0 100-4 2 2 0 000 4z"
+        />
+        <path
+          clipRule="evenodd"
+          d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z"
+          fillRule="evenodd"
+        />
+      </svg>
+    </i>
+    settings icon
+  </dd>
+  <dt
+    className=""
+  >
+    major accent value
+  </dt>
+</dl>
+`;
+
+exports[`Text major color value 1`] = `
+<dl
+  className=""
+  role="data-field"
+>
+  <dd
+    className=""
+    color="major"
+  >
+    major(default) accent
+  </dd>
+  <dt
+    className=""
+    color="major"
+  >
+    major color value
+  </dt>
+</dl>
+`;
+
+exports[`Text minor accent value 1`] = `
+<dl
+  className=""
+  role="data-field"
+>
+  <dd
+    className=""
+  >
+    minor accent
+  </dd>
+  <dt
+    className=""
+  >
+    minor accent value
+  </dt>
+</dl>
+`;
+
+exports[`Text minor color value 1`] = `
+<dl
+  className=""
+  role="data-field"
+>
+  <dd
+    className=""
+    color="minor"
+  >
+    minor accent
+  </dd>
+  <dt
+    className=""
+    color="minor"
+  >
+    minor color value
+  </dt>
+</dl>
+`;
+
+exports[`Text neutral accent value 1`] = `
+<dl
+  className=""
+  role="data-field"
+>
+  <dd
+    className=""
+  >
+    neutral accent
+  </dd>
+  <dt
+    className=""
+  >
+    neutral accent value
+  </dt>
+</dl>
+`;
+
+exports[`Text settings icon value 1`] = `
+<dl
+  className=""
+  role="data-field"
+>
+  <dd
+    className=""
+  >
+    <i
+      className=""
+      label="settings icon"
+      value="settings icon value"
+    >
+      <svg
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+        />
+        <path
+          d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+        />
+      </svg>
+    </i>
+    settings icon
+  </dd>
+  <dt
+    className=""
+  >
+    settings icon value
+  </dt>
+</dl>
+`;
+
+exports[`Text success accent value 1`] = `
+<dl
+  className=""
+  role="data-field"
+>
+  <dd
+    className=""
+  >
+    success accent
+  </dd>
+  <dt
+    className=""
+  >
+    success accent value
+  </dt>
+</dl>
+`;
+
+exports[`Text success color accent and value with icon 1`] = `
+<dl
+  className=""
+  role="data-field"
+>
+  <dd
+    className=""
+    color="success"
+  >
+    <i
+      className=""
+      color="success"
+      label="success icon"
+      value="success color value"
+    >
+      <svg
+        fill="currentColor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clipRule="evenodd"
+          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+          fillRule="evenodd"
+        />
+      </svg>
+    </i>
+    success icon
+  </dd>
+  <dt
+    className=""
+    color="success"
+  >
+    success color value
+  </dt>
+</dl>
+`;
+
+exports[`Text success color value 1`] = `
+<dl
+  className=""
+  role="data-field"
+>
+  <dd
+    className=""
+    color="success"
+  >
+    success accent
+  </dd>
+  <dt
+    className=""
+    color="success"
+  >
+    success color value
+  </dt>
+</dl>
+`;
+
+exports[`Text underlined value 1`] = `
+<dl
+  className=""
+  role="data-field"
+>
+  <dd
+    className=""
+  >
+    neutral accent
+  </dd>
+  <dt
+    className=""
+  >
+    default(neutral) color
+  </dt>
+</dl>
+`;
+
+exports[`Text warning accent value 1`] = `
+<dl
+  className=""
+  role="data-field"
+>
+  <dd
+    className=""
+  >
+    warning accent
+  </dd>
+  <dt
+    className=""
+  >
+    warning accent value
+  </dt>
+</dl>
+`;
+
+exports[`Text warning color value 1`] = `
+<dl
+  className=""
+  role="data-field"
+>
+  <dd
+    className=""
+    color="warning"
+  >
+    warning accent
+  </dd>
+  <dt
+    className=""
+    color="warning"
+  >
+    warning color value
+  </dt>
+</dl>
+`;

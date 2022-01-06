@@ -29,8 +29,8 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   a {
-    text-decoration: underline;
-    color: rgba(67, 56, 202, var(--tw-text-opacity));
+    text-decoration: none;
+    color: inherit;
   }
 
   button {
