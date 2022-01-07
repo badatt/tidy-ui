@@ -18,23 +18,12 @@ const simple = css<IButtonProps>`
 const basic = css<IButtonProps>`
   ${({ theme: { palette, isDark }, color }) => css`
     color: ${isDark ? palette[color!][400] : palette[color!][600]};
-    background-color: ${isDark ? palette[color!][900] : palette[color!][100]};
+    background-color: ${isDark ? palette[color!][900] : palette[color!][200]};
     border: 1px solid transparent;
-    ${!isDark &&
-    css`
-      box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-        ${palette[color!][200]} 0px 10px 15px -3px, ${palette[color!][200]} 0px 4px 6px -4px;
-    `}
-    ${isDark &&
-    css`
-      opacity: 0.8;
-    `}
     &:hover {
-      background-color: ${isDark ? palette[color!][800] : palette[color!][200]};
       box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-        ${isDark ? palette[color!][600] : palette[color!][300]} 0px 10px 15px -3px,
-        ${isDark ? palette[color!][600] : palette[color!][300]} 0px 4px 6px -4px;
-      opacity: 1;
+        ${isDark ? palette[color!][800] : palette[color!][300]} 0px 10px 15px -3px,
+        ${isDark ? palette[color!][800] : palette[color!][300]} 0px 4px 6px -4px;
     }
   `}
 `;
@@ -58,13 +47,8 @@ const outlined = css<IButtonProps>`
     color: ${isDark ? palette[color!][400] : palette[color!][600]};
     background-color: ${isDark ? palette[color!][900] : palette[color!][50]};
     border: 1px solid ${isDark ? palette[color!][600] : palette[color!][300]};
-    ${isDark &&
-    css`
-      opacity: 0.8;
-    `}
     &:hover {
       background-color: ${isDark ? palette[color!][800] : palette[color!][100]};
-      opacity: 1;
     }
   `}
 `;
