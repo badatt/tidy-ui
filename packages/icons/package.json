@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/icons",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:icons",
     "clean": "tsc --build --clean && rimraf -rf dist && rimraf -rf build",
