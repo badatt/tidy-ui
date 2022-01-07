@@ -1,14 +1,18 @@
 {
-  "name": "@tidy-ui/{{name}}",
+  "name": "@tidy-ui/
+{{name}}
+",
   "version": "0.0.0",
   "scripts": {
-    "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:{{name}}",
-    "clean": "tsc --build --clean && rimraf -rf build/dist",
+    "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:
+{{name}}
+",
+    "clean": "tsc --build --clean && rimraf -rf dist && rimraf -rf build",
     "format": "prettier \"**/*.{js,jsx,json,yml,yaml,css,less,scss,ts,tsx,md,graphql,mdx}\" --write",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src",
     "lint-fix": "eslint --ext .js,.jsx,.ts,.tsx src --fix",
     "postinstall": "rm -rf node_modules/@types/react-native",
-    "reset": "yarn clean && rimraf -rf node_modules && rimraf -rf build",
+    "reset": "yarn clean && rimraf -rf node_modules",
     "test": "is-ci \"test:coverage\"",
     "test:coverage": "jest --bail --coverage --passWithNoTests",
     "test:update": "jest --bail --coverage --passWithNoTests -u",
@@ -43,16 +47,18 @@
     "rollup-plugin-typescript2": "^0.31.1",
     "typescript": "^4.4.4"
   },
-  "main": "build/dist/index.cjs.js",
-  "module": "build/dist/index.es.js",
-  "typings": "build/dist/src/index.d.ts",
-  "types": "build/dist/src/index.d.ts",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "typings": "dist/src/index.d.ts",
+  "types": "dist/src/index.d.ts",
   "license": "MIT",
-  "description": "tidy-ui react component library; '{{name}}' package",
+  "description": "tidy-ui react component library; '
+{{name}}
+' package",
   "publishConfig": {
     "access": "public"
   },
   "files": [
-    "build/dist"
+    "dist"
   ]
 }
