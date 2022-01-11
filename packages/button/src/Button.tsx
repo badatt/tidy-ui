@@ -1,5 +1,5 @@
 import React from 'react';
-import { styled, css } from '@tidy-ui/theme';
+import { styled, css, hsla } from '@tidy-ui/theme';
 import { RotatingCircleIcon } from '@tidy-ui/icons';
 import { sizeStyles } from './style';
 import { IButtonProps } from './types';
@@ -10,7 +10,7 @@ const simple = css<IButtonProps>`
     background-color: transparent;
     border: none;
     &:hover {
-      background-color: ${isDark ? palette[color!][900] : palette[color!][100]};
+      background-color: ${isDark ? hsla(palette[color!].shades[900], 0.4) : palette[color!][100]};
     }
   `}
 `;
@@ -18,12 +18,13 @@ const simple = css<IButtonProps>`
 const basic = css<IButtonProps>`
   ${({ theme: { palette, isDark }, color }) => css`
     color: ${isDark ? palette[color!][400] : palette[color!][600]};
-    background-color: ${isDark ? palette[color!][900] : palette[color!][200]};
+    background-color: ${isDark ? hsla(palette[color!].shades[900], 0.3) : palette[color!][200]};
     border: 1px solid transparent;
     &:hover {
+      background-color: ${isDark ? hsla(palette[color!].shades[900], 0.4) : palette[color!][200]};
       box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-        ${isDark ? palette[color!][800] : palette[color!][300]} 0px 10px 15px -3px,
-        ${isDark ? palette[color!][800] : palette[color!][300]} 0px 4px 6px -4px;
+        ${isDark ? hsla(palette[color!].shades[900], 0.7) : palette[color!][300]} 0px 10px 15px -3px,
+        ${isDark ? hsla(palette[color!].shades[900], 0.7) : palette[color!][300]} 0px 4px 6px -4px;
     }
   `}
 `;
@@ -45,10 +46,10 @@ const primary = css<IButtonProps>`
 const outlined = css<IButtonProps>`
   ${({ theme: { palette, isDark }, color }) => css`
     color: ${isDark ? palette[color!][400] : palette[color!][600]};
-    background-color: ${isDark ? palette[color!][900] : palette[color!][50]};
+    background-color: ${isDark ? hsla(palette[color!].shades[900], 0.3) : palette[color!][50]};
     border: 1px solid ${isDark ? palette[color!][600] : palette[color!][300]};
     &:hover {
-      background-color: ${isDark ? palette[color!][800] : palette[color!][100]};
+      background-color: ${isDark ? hsla(palette[color!].shades[900], 0.5) : palette[color!][100]};
     }
   `}
 `;

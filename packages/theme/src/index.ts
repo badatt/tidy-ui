@@ -7,8 +7,11 @@ import { ITidyUITheme as IITidyUITheme } from './types/theme';
 export type ITidyUITheme = IITidyUITheme;
 
 export { defaultBase } from './base';
-export { theme as orchidLight } from './orchid-light';
-export { theme as orchidDark } from './orchid-dark';
+export * from './colors';
+export { hsla } from './utils';
 
 export const styled = baseStyled as ThemedStyledInterface<ITidyUITheme>;
 export const css = baseCss as ThemedCssFunction<ITidyUITheme>;
+
+export { theme as orchidLight } from './orchid-light';
+export { theme as orchidDark } from './orchid-dark';

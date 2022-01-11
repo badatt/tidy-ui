@@ -1,6 +1,7 @@
 import { IColor, IHsla } from './types/theme';
 
-export const hsla = (p: IHsla) => `hsla(${p.hue}, ${p.saturation}%, ${p.luminosity}%, ${p.alpha})`;
+export const hsla = (p: IHsla, alpha: number = p.alpha) =>
+  `hsla(${p.hue}, ${p.saturation}%, ${p.luminosity}%, ${alpha})`;
 
 export const createColor = (p: Record<number, IHsla>): IColor => {
   return {
@@ -14,5 +15,6 @@ export const createColor = (p: Record<number, IHsla>): IColor => {
     700: hsla(p[700]),
     800: hsla(p[800]),
     900: hsla(p[900]),
+    shades: p,
   };
 };

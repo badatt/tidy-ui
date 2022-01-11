@@ -42,6 +42,7 @@ export interface IColor {
   700: string;
   800: string;
   900: string;
+  shades: Record<number, IHsla>;
 }
 
 export interface IHsla {
