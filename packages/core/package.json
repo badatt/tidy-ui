@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/core",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:core",
     "clean": "tsc --build --clean && rimraf -rf dist && rimraf -rf build",
@@ -18,7 +18,7 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/badge": "^0.0.1",
+    "@tidy-ui/badge": "^0.0.2",
     "@tidy-ui/button": "^0.0.14",
     "@tidy-ui/card": "^0.0.12",
     "@tidy-ui/paper": "^0.0.20",
