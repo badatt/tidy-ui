@@ -9,7 +9,7 @@
     "lint-fix": "eslint --ext .js,.jsx,.ts,.tsx src --fix",
     "postinstall": "rm -rf node_modules/@types/react-native",
     "reset": "yarn clean && rimraf -rf node_modules",
-    "test": "is-ci \"test:coverage\"",
+    "test": "yarn \"test:coverage\"",
     "test:coverage": "jest --bail --coverage --passWithNoTests",
     "test:update": "jest --bail --coverage --passWithNoTests -u",
     "test:watch": "jest --watchAll --verbose",

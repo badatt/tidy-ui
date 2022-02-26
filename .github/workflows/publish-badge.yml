@@ -1,0 +1,44 @@
+name: Publish 'badge' package
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'packages/badge/**'
+
+jobs:
+  publish:
+    name: Publish to NPM repository
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        shell: bash      
+
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14.18.x'
+          registry-url: https://registry.npmjs.org/
+
+      - name: Install Dependencies
+        run: yarn bootstrap
+
+      - name: Vet
+        run: yarn vet
+
+      - name: Build
+        run: yarn build
+
+      - name: Publish
+        run: npm publish --access public
+        working-directory: packages/badge
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

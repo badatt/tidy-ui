@@ -3531,6 +3531,11 @@
     "@tidy-ui/icons" "^0.0.9"
     "@tidy-ui/theme" "^0.0.14"
 
+"@tidy-ui/icons@^0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@tidy-ui/icons/-/icons-0.0.9.tgz#00b96763da2f49adf6124559181d100ef4f5076c"
+  integrity sha512-nNYGtbz36zE6e3eMpchcRdzjeIiNtVKu6hib/OAd35iOw2ifpp7K7N3zZ+yvdW2uqau/unDR3UiYWoxliSXHrg==
+
 "@tidy-ui/theme@^0.0.14":
   version "0.0.14"
   resolved "https://registry.yarnpkg.com/@tidy-ui/theme/-/theme-0.0.14.tgz#ab4047268409087a7f2997a3a2c7d935b613af8c"
