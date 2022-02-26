@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/button",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:button",
     "clean": "tsc --build --clean && rimraf -rf dist && rimraf -rf build",
@@ -18,7 +18,7 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/icons": "^0.0.9",
+    "@tidy-ui/icons": "^0.0.10",
     "@tidy-ui/theme": "^0.0.15"
   },
   "peerDependencies": {
