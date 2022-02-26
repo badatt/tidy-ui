@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/core",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:core",
     "clean": "tsc --build --clean && rimraf -rf dist && rimraf -rf build",
@@ -9,7 +9,7 @@
     "lint-fix": "eslint -c ../../.eslintrc --ext .js,.jsx,.ts,.tsx src --fix",
     "postinstall": "rm -rf node_modules/@types/react-native",
     "reset": "yarn clean && rimraf -rf node_modules",
-    "test": "is-ci \"test:coverage\"",
+    "test": "yarn \"test:coverage\"",
     "test:coverage": "jest --bail --coverage --passWithNoTests",
     "test:update": "jest --bail --coverage --passWithNoTests -u",
     "test:watch": "jest --watchAll --verbose",
@@ -18,10 +18,11 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/button": "^0.0.12",
-    "@tidy-ui/card": "^0.0.11",
-    "@tidy-ui/paper": "^0.0.19",
-    "@tidy-ui/text": "^0.0.2"
+    "@tidy-ui/badge": "^0.0.1",
+    "@tidy-ui/button": "^0.0.14",
+    "@tidy-ui/card": "^0.0.12",
+    "@tidy-ui/paper": "^0.0.20",
+    "@tidy-ui/text": "^0.0.3"
   },
   "peerDependencies": {
     "react": "^16.0.0",

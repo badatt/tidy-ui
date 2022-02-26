@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge Default render 1`] = `
+<span
+  className=""
+  color="major"
+  role="badge"
+>
+  <span
+    className=""
+    color="major"
+  />
+</span>
+`;
+
+exports[`Badge dot variant 1`] = `
+<span
+  className=""
+  color="major"
+  role="badge"
+>
+  <span
+    className=""
+    color="major"
+  />
+</span>
+`;
+
+exports[`Badge invisible 1`] = `
+<span
+  className=""
+  color="major"
+  role="badge"
+/>
+`;
+
+exports[`Badge set a maximum value 1`] = `
+<span
+  className=""
+  color="major"
+  role="badge"
+>
+  <span
+    className=""
+    color="major"
+  >
+    9+
+  </span>
+</span>
+`;
+
+exports[`Badge show zero value too 1`] = `
+<span
+  className=""
+  color="major"
+  role="badge"
+>
+  <span
+    className=""
+    color="major"
+  >
+    0
+  </span>
+</span>
+`;
