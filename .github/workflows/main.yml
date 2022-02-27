@@ -1,15 +1,13 @@
-name: Pull request lint
+name: Main
 
 on:
-  pull_request:
+  push:
     branches:
       - main
-      - develop
-      - 'release/**'
 
 jobs:
-  pr-lint:
-    name: Lint
+  main:
+    name: Main
     runs-on: ubuntu-latest
 
     steps:
