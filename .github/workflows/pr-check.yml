@@ -11,6 +11,9 @@ jobs:
   pr-lint:
     name: Lint
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
+      CI: true
 
     steps:
       - name: Check out the code
