@@ -5,6 +5,10 @@
 
 <h1 align="center">tidy ui</h1>
 
+<p align="center">
+<a href="https://github.com/badatt/tidy-ui/actions/workflows/main.yml"><img src="https://github.com/badatt/tidy-ui/actions/workflows/main.yml/badge.svg" alt="Publish 'badge' package"/></a>
+</p>
+
 ## Installation
 
 Tidy UI is available as [npm packages](https://www.npmjs.com/search?q=%40tidy-ui)
