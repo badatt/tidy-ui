@@ -38,9 +38,6 @@ jobs:
       - name: Vet
         run: yarn vet
 
-      - name: Build
-        run: yarn build
-
       - name: SonarCloud Scan
         uses: sonarsource/sonarcloud-github-action@master
         with:
