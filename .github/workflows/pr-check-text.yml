@@ -1,4 +1,4 @@
-name: Pull request lint
+name: Pull request lint 'text'
 
 on:
   pull_request:
@@ -6,6 +6,8 @@ on:
       - main
       - develop
       - 'release/**'
+    paths:
+      - 'packages/text/**'
 
 jobs:
   pr-lint:
@@ -14,6 +16,9 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       CI: true
+    defaults:
+      run:
+        shell: bash
 
     steps:
       - name: Check out the code
@@ -38,6 +43,7 @@ jobs:
 
       - name: SonarCloud Scan
         uses: sonarsource/sonarcloud-github-action@master
+        working-directory: packages/text
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}

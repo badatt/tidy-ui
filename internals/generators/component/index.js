@@ -37,6 +37,12 @@ module.exports = {
       },
       {
         type: 'add',
+        path: '../../.github/workflows/pr-check-{{name}}.yml',
+        templateFile: `${templateDir}/github-pr-check.yml.hbs`,
+        abortOnFail: true,
+      },
+      {
+        type: 'add',
         path: `${componentDest}/{{name}}/babel.config.js`,
         templateFile: `${templateDir}/babel.config.js.hbs`,
         abortOnFail: true,
