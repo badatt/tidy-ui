@@ -55,6 +55,12 @@ module.exports = {
       },
       {
         type: 'add',
+        path: `${componentDest}/{{name}}/sonar-project.properties`,
+        templateFile: `${templateDir}/sonar-project.properties.hbs`,
+        abortOnFail: true,
+      },
+      {
+        type: 'add',
         path: `${componentDest}/{{name}}/jest.config.js`,
         templateFile: `${templateDir}/jest.config.js.hbs`,
         abortOnFail: true,

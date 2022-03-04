@@ -1,12 +1,8 @@
 {
-  "name": "@tidy-ui/
-{{name}}
-",
+  "name": "@tidy-ui/{{name}}",
   "version": "0.0.0",
   "scripts": {
-    "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:
-{{name}}
-",
+    "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:{{name}}",
     "clean": "tsc --build --clean && rimraf -rf dist && rimraf -rf build",
     "format": "prettier \"**/*.{js,jsx,json,yml,yaml,css,less,scss,ts,tsx,md,graphql,mdx}\" --write",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src",
@@ -22,8 +18,8 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/icons": "^0.0.7",
-    "@tidy-ui/theme": "^0.0.9"
+    "@tidy-ui/icons": "^0.0.10",
+    "@tidy-ui/theme": "^0.0.15"
   },
   "peerDependencies": {
     "react": "^16.0.0",
@@ -52,9 +48,7 @@
   "typings": "dist/src/index.d.ts",
   "types": "dist/src/index.d.ts",
   "license": "MIT",
-  "description": "tidy-ui react component library; '
-{{name}}
-' package",
+  "description": "tidy-ui react component library; '{{name}}' package",
   "publishConfig": {
     "access": "public"
   },
