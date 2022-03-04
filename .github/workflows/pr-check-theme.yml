@@ -38,12 +38,10 @@ jobs:
       - name: Vet
         run: yarn vet
 
-      - name: Build
-        run: yarn build
-
       - name: SonarCloud Scan
         uses: sonarsource/sonarcloud-github-action@master
-        working-directory: packages/theme
+        with:
+          projectBaseDir: packages/theme
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
