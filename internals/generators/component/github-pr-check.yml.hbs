@@ -1,4 +1,4 @@
-name: Pull request lint '{{ name }}'
+name: Pull request lint '{{name}}'
 
 on:
   pull_request:
@@ -7,7 +7,7 @@ on:
       - develop
       - 'release/**'
     paths:
-      - 'packages/{{ name }}/**'
+      - 'packages/{{name}}/**'
 
 jobs:
   pr-lint:
@@ -43,7 +43,8 @@ jobs:
 
       - name: SonarCloud Scan
         uses: sonarsource/sonarcloud-github-action@master
-        working-directory: packages/{{ name }}
-        env:
+        with:
+          projectBaseDir: packages/{{name}}
+		env:
           GITHUB_TOKEN: $\{{ secrets.GITHUB_TOKEN  }}
           SONAR_TOKEN: $\{{ secrets.SONAR_TOKEN }}
