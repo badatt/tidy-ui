@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/badge",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:badge",
     "clean": "tsc --build --clean && rimraf -rf dist && rimraf -rf build",
@@ -18,8 +18,8 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/icons": "^0.0.11",
-    "@tidy-ui/theme": "^0.0.17"
+    "@tidy-ui/icons": "^0.0.12",
+    "@tidy-ui/theme": "^0.0.18"
   },
   "peerDependencies": {
     "react": "^16.0.0",
