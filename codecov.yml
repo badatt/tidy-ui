@@ -1,0 +1,29 @@
+coverage:
+  status:
+    project:
+      default: off
+      badge:
+        paths:
+          - badge
+      button:
+        paths:
+          - button
+      card:
+        paths:
+          - card
+      core:
+        paths:
+          - core
+      icons:
+        paths:
+          - icons
+      paper:
+        paths:
+          - paper
+      text:
+        paths:
+          - text
+      theme:
+        paths:
+          - theme
+
