@@ -2,6 +2,7 @@ coverage:
   status:
     project:
       default: off
+        only_pulls: false
       badge:
         paths:
           - badge
