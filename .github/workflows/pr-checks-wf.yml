@@ -1,0 +1,62 @@
+name: Pull request checks & lint
+
+on:
+  pull_request:
+    branches:
+      - main
+      - develop
+      - 'release/**'
+
+jobs:
+
+  changes:
+    name: changes
+    runs-on: ubuntu-latest
+    outputs:
+      badge: ${{ steps.filter.outputs.backend }}
+      button: ${{ steps.filter.outputs.button }}
+      card: ${{ steps.filter.outputs.card }}
+      core: ${{ steps.filter.outputs.core }}
+      icons: ${{ steps.filter.outputs.icons }}
+      paper: ${{ steps.filter.outputs.paper }}
+      text: ${{ steps.filter.outputs.text }}
+      theme: ${{ steps.filter.outputs.theme }}
+
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - uses: dorny/paths-filter@v2
+        id: filter
+        with:
+          filters: |
+            badge: 
+              - 'packages/badge/**'
+            button:
+              - 'packages/button/**'
+            card:
+              - 'packages/card/**'
+            core:
+              - 'packages/core/**'
+            icons:
+              - 'packages/icons/**'
+            paper:
+              - 'packages/paper/**'
+            text:
+              - 'packages/text/**'
+            theme:
+              - 'packages/theme/**'
+
+  badgeChecks:
+    name: badge checks
+    needs: changes
+    if: ${{ needs.changes.outputs.badge == 'true' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup Node.js
+        uses: ./.github/workflows/pr-checks-job
+        with:
+          workDir: packages/badge
