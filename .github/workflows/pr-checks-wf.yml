@@ -56,6 +56,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Check out the code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
       - name: call badge checks
         uses: ./.github/workflows/pr-checks-job.yml
         with:
