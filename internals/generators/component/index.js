@@ -28,19 +28,7 @@ module.exports = {
     },
   ],
   actions: (data) => {
-    const actions = [
-      {
-        type: 'add',
-        path: '../../.github/workflows/publish-{{name}}.yml',
-        templateFile: `${templateDir}/github-publish.yml.hbs`,
-        abortOnFail: true,
-      },
-      {
-        type: 'add',
-        path: '../../.github/workflows/pr-check-{{name}}.yml',
-        templateFile: `${templateDir}/github-pr-check.yml.hbs`,
-        abortOnFail: true,
-      },
+    return [
       {
         type: 'add',
         path: `${componentDest}/{{name}}/babel.config.js`,
@@ -84,7 +72,5 @@ module.exports = {
         abortOnFail: true,
       },
     ];
-
-    return actions;
   },
 };

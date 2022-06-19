@@ -1,11 +1,9 @@
-name: Pull request checks & lint
+name: Publish
 
 on:
-  pull_request:
+  push:
     branches:
       - main
-      - develop
-      - 'release/**'
 
 jobs:
 
@@ -49,8 +47,8 @@ jobs:
             theme:
               - 'packages/theme/**'
 
-  badgeChecks:
-    name: badge checks
+  badgePublish:
+    name: badge publish
     needs: changes
     if: ${{ needs.changes.outputs.badge == 'true' }}
     runs-on: ubuntu-latest
@@ -81,8 +79,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
-  buttonChecks:
-    name: button checks
+      - name: Build
+        run: yarn build
+
+      - name: Publish
+        run: npm publish --access public
+        working-directory: packages/badge
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+  buttonPublish:
+    name: button publish
     needs: changes
     if: ${{ needs.changes.outputs.button == 'true' }}
     runs-on: ubuntu-latest
@@ -113,8 +120,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
-  cardChecks:
-    name: card checks
+      - name: Build
+        run: yarn build
+
+      - name: Publish
+        run: npm publish --access public
+        working-directory: packages/button
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+  cardPublish:
+    name: card publish
     needs: changes
     if: ${{ needs.changes.outputs.card == 'true' }}
     runs-on: ubuntu-latest
@@ -145,8 +161,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
-  coreChecks:
-    name: core checks
+      - name: Build
+        run: yarn build
+
+      - name: Publish
+        run: npm publish --access public
+        working-directory: packages/card
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+  corePublish:
+    name: core publish
     needs: changes
     if: ${{ needs.changes.outputs.core == 'true' }}
     runs-on: ubuntu-latest
@@ -176,9 +201,18 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          
+      - name: Build
+        run: yarn build
 
-  iconsChecks:
-    name: icons checks
+      - name: Publish
+        run: npm publish --access public
+        working-directory: packages/core
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+  iconsPublish:
+    name: icons publish
     needs: changes
     if: ${{ needs.changes.outputs.icons == 'true' }}
     runs-on: ubuntu-latest
@@ -209,8 +243,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
-  paperChecks:
-    name: paper checks
+      - name: Build
+        run: yarn build
+
+      - name: Publish
+        run: npm publish --access public
+        working-directory: packages/icons
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+  paperPublish:
+    name: paper publish
     needs: changes
     if: ${{ needs.changes.outputs.paper == 'true' }}
     runs-on: ubuntu-latest
@@ -241,8 +284,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
-  textChecks:
-    name: text checks
+      - name: Build
+        run: yarn build
+
+      - name: Publish
+        run: npm publish --access public
+        working-directory: packages/paper
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+  textPublish:
+    name: text publish
     needs: changes
     if: ${{ needs.changes.outputs.text == 'true' }}
     runs-on: ubuntu-latest
@@ -273,8 +325,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
-  themeChecks:
-    name: theme checks
+      - name: Build
+        run: yarn build
+
+      - name: Publish
+        run: npm publish --access public
+        working-directory: packages/text
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+  themePublish:
+    name: theme publish
     needs: changes
     if: ${{ needs.changes.outputs.theme == 'true' }}
     runs-on: ubuntu-latest
@@ -304,3 +365,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+
+      - name: Build
+        run: yarn build
+  
+      - name: Publish
+        run: npm publish --access public
+        working-directory: packages/theme
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
