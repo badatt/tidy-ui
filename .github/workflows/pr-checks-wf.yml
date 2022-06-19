@@ -62,6 +62,6 @@ jobs:
           fetch-depth: 0
 
       - name: call badge checks
-        uses: ./.github/workflows/pr-checks-job
+        uses: ./.github/workflows/pr-checks-job.yml
         with:
           workDir: packages/badge
