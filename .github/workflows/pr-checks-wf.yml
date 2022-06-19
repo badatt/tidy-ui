@@ -13,7 +13,7 @@ jobs:
     name: changes
     runs-on: ubuntu-latest
     outputs:
-      badge: ${{ steps.filter.outputs.backend }}
+      badge: ${{ steps.filter.outputs.badge }}
       button: ${{ steps.filter.outputs.button }}
       card: ${{ steps.filter.outputs.card }}
       core: ${{ steps.filter.outputs.core }}
