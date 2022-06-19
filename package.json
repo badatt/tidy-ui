@@ -14,7 +14,7 @@
     "test": "npx lerna exec -- yarn test",
     "test:coverage": "npx lerna exec -- yarn test:coverage",
     "test:update": "npx lerna exec -- yarn test:update",
-    "version": "npx lerna version --conventional-commits --conventional-prerelease --preid beta",
+    "ver": "npx lerna version",
     "vet": "npx lerna exec -- yarn vet",
     "yalc:publish": "npx lerna exec -- yarn yalc:publish",
     "yalc:push": "npx lerna exec -- yarn yalc:push"
