@@ -61,7 +61,22 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: call badge checks
-        uses: ./.github/workflows/pr-checks-job.yml
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
         with:
-          workDir: packages/badge
+          node-version: '14.18.x'
+          registry-url: https://registry.npmjs.org/
+
+      - name: Install Dependencies
+        run: yarn bootstrap
+
+      - name: Vet
+        run: yarn vet
+
+      - name: SonarCloud Scan
+        uses: sonarsource/sonarcloud-github-action@master
+        with:
+          projectBaseDir: packages/badge
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
