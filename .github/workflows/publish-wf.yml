@@ -42,7 +42,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
   publishNpm:
-    name: badge publish
+    name: publish npm packages
     needs: vet
     runs-on: ubuntu-latest
 
