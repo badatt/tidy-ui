@@ -64,7 +64,13 @@ jobs:
       - name: Build
         run: yarn build
 
+      - name: Configure Git User
+        run: |
+          git config --global user.email "dev.badatt@gmail.com"
+          git config --global user.name "badatt"
+
       - name: Publish
         run: npx lerna publish patch -y
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
