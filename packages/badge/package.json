@@ -48,7 +48,7 @@
   "typings": "dist/src/index.d.ts",
   "types": "dist/src/index.d.ts",
   "license": "MIT",
-  "description": "tidy-ui react component library; 'badge' package.",
+  "description": "tidy-ui react component library; 'badge' package",
   "publishConfig": {
     "access": "public"
   },
