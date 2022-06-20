@@ -65,7 +65,6 @@ jobs:
         run: yarn build
 
       - name: Publish
-        run: npm publish --access public
-        working-directory: packages/badge
+        run: npx lerna publish patch -y
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
