@@ -9,50 +9,8 @@ on:
 
 jobs:
 
-  changes:
-    name: changes
-    runs-on: ubuntu-latest
-    outputs:
-      badge: ${{ steps.filter.outputs.badge }}
-      button: ${{ steps.filter.outputs.button }}
-      card: ${{ steps.filter.outputs.card }}
-      core: ${{ steps.filter.outputs.core }}
-      icons: ${{ steps.filter.outputs.icons }}
-      paper: ${{ steps.filter.outputs.paper }}
-      text: ${{ steps.filter.outputs.text }}
-      theme: ${{ steps.filter.outputs.theme }}
-
-    steps:
-      - name: Check out the code
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-
-      - uses: dorny/paths-filter@v2
-        id: filter
-        with:
-          filters: |
-            badge: 
-              - 'packages/badge/**'
-            button:
-              - 'packages/button/**'
-            card:
-              - 'packages/card/**'
-            core:
-              - 'packages/core/**'
-            icons:
-              - 'packages/icons/**'
-            paper:
-              - 'packages/paper/**'
-            text:
-              - 'packages/text/**'
-            theme:
-              - 'packages/theme/**'
-
-  badgeChecks:
-    name: badge checks
-    needs: changes
-    if: ${{ needs.changes.outputs.badge == 'true' }}
+  vet:
+    name: vetting source
     runs-on: ubuntu-latest
 
     steps:
@@ -81,10 +39,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
-  buttonChecks:
-    name: button checks
-    needs: changes
-    if: ${{ needs.changes.outputs.button == 'true' }}
+  test:
+    name: test & coverage
+    needs: vet
     runs-on: ubuntu-latest
 
     steps:
@@ -101,206 +58,11 @@ jobs:
 
       - name: Install Dependencies
         run: yarn bootstrap
-
-      - name: Vet
-        run: yarn vet
 
       - name: SonarCloud Scan
         uses: sonarsource/sonarcloud-github-action@master
         with:
           projectBaseDir: packages/button
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-
-  cardChecks:
-    name: card checks
-    needs: changes
-    if: ${{ needs.changes.outputs.card == 'true' }}
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Check out the code
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14.18.x'
-          registry-url: https://registry.npmjs.org/
-
-      - name: Install Dependencies
-        run: yarn bootstrap
-
-      - name: Vet
-        run: yarn vet
-
-      - name: SonarCloud Scan
-        uses: sonarsource/sonarcloud-github-action@master
-        with:
-          projectBaseDir: packages/card
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-
-  coreChecks:
-    name: core checks
-    needs: changes
-    if: ${{ needs.changes.outputs.core == 'true' }}
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Check out the code
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14.18.x'
-          registry-url: https://registry.npmjs.org/
-
-      - name: Install Dependencies
-        run: yarn bootstrap
-
-      - name: Vet
-        run: yarn vet
-
-      - name: SonarCloud Scan
-        uses: sonarsource/sonarcloud-github-action@master
-        with:
-          projectBaseDir: packages/core
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-
-  iconsChecks:
-    name: icons checks
-    needs: changes
-    if: ${{ needs.changes.outputs.icons == 'true' }}
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Check out the code
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14.18.x'
-          registry-url: https://registry.npmjs.org/
-
-      - name: Install Dependencies
-        run: yarn bootstrap
-
-      - name: Vet
-        run: yarn vet
-
-      - name: SonarCloud Scan
-        uses: sonarsource/sonarcloud-github-action@master
-        with:
-          projectBaseDir: packages/icons
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-
-  paperChecks:
-    name: paper checks
-    needs: changes
-    if: ${{ needs.changes.outputs.paper == 'true' }}
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Check out the code
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14.18.x'
-          registry-url: https://registry.npmjs.org/
-
-      - name: Install Dependencies
-        run: yarn bootstrap
-
-      - name: Vet
-        run: yarn vet
-
-      - name: SonarCloud Scan
-        uses: sonarsource/sonarcloud-github-action@master
-        with:
-          projectBaseDir: packages/paper
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-
-  textChecks:
-    name: text checks
-    needs: changes
-    if: ${{ needs.changes.outputs.text == 'true' }}
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Check out the code
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14.18.x'
-          registry-url: https://registry.npmjs.org/
-
-      - name: Install Dependencies
-        run: yarn bootstrap
-
-      - name: Vet
-        run: yarn vet
-
-      - name: SonarCloud Scan
-        uses: sonarsource/sonarcloud-github-action@master
-        with:
-          projectBaseDir: packages/text
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-
-  themeChecks:
-    name: theme checks
-    needs: changes
-    if: ${{ needs.changes.outputs.theme == 'true' }}
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Check out the code
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14.18.x'
-          registry-url: https://registry.npmjs.org/
-
-      - name: Install Dependencies
-        run: yarn bootstrap
-
-      - name: Vet
-        run: yarn vet
-
-      - name: SonarCloud Scan
-        uses: sonarsource/sonarcloud-github-action@master
-        with:
-          projectBaseDir: packages/theme
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
