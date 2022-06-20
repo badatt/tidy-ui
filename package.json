@@ -15,7 +15,7 @@
     "test:coverage": "jest --bail --coverage --passWithNoTests",
     "test:update": "jest --bail --coverage --passWithNoTests -u",
     "ver": "npx lerna version",
-    "vet": "npx lerna exec -- yarn vet",
+    "vet": "yarn lint:md && npx lerna exec -- yarn lint",
     "yalc:publish": "npx lerna exec -- yarn yalc:publish",
     "yalc:push": "npx lerna exec -- yarn yalc:push"
   },
