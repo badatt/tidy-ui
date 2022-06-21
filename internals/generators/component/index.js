@@ -49,12 +49,6 @@ module.exports = {
       },
       {
         type: 'add',
-        path: `${componentDest}/{{name}}/jest.config.js`,
-        templateFile: `${templateDir}/jest.config.js.hbs`,
-        abortOnFail: true,
-      },
-      {
-        type: 'add',
         path: `${componentDest}/{{name}}/index.ts`,
         templateFile: `${templateDir}/index.ts.hbs`,
         abortOnFail: true,
