@@ -53,6 +53,7 @@
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-test-renderer": "^16.0.0",
+    "rollup-plugin-typescript2": "^0.32.1",
     "storybook-addon-styled-component-theme": "^2.0.0",
     "storybook-dark-mode": "^1.0.8",
     "styled-components": "^5.3.3",
