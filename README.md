@@ -6,8 +6,7 @@
 <h1 align="center">tidy ui</h1>
 
 <p align="center">
-    <a href="https://sonarcloud.io/summary/new_code?id=badatt_tidy-ui"><img src="https://sonarcloud.io/api/project_badges/measure?project=badatt_tidy-ui&metric=alert_status
-" alt="Quality Gate Status"/></a>
+    <a href="https://sonarcloud.io/summary/new_code?id=badatt_tidy-ui"><img src="https://sonarcloud.io/api/project_badges/measure?project=badatt_tidy-ui&metric=alert_status" alt="Quality Gate Status"/></a>
 </p>
 <p align="center">
   <a href="https://github.com/badatt/tidy-ui/actions/workflows/publish-wf.yml"><img src="https://github.com/badatt/tidy-ui/actions/workflows/publish-wf.yml/badge.svg" alt="Publishing"/></a>
