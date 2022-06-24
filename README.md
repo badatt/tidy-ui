@@ -6,7 +6,8 @@
 <h1 align="center">tidy ui</h1>
 
 <p align="center">
-  <a href="https://sonarcloud.io/summary/new_code?id=badatt_tidy-ui"><img src="https://sonarcloud.io/api/project_badges/quality_gate?project=badatt_tidy-ui" alt="Quality Gate Status"/></a>
+    <a href="https://sonarcloud.io/summary/new_code?id=badatt_tidy-ui"><img src="https://sonarcloud.io/api/project_badges/measure?project=badatt_tidy-ui&metric=alert_status
+" alt="Quality Gate Status"/></a>
 </p>
 <p align="center">
   <a href="https://github.com/badatt/tidy-ui/actions/workflows/publish-wf.yml"><img src="https://github.com/badatt/tidy-ui/actions/workflows/publish-wf.yml/badge.svg" alt="Publishing"/></a>
@@ -34,40 +35,48 @@ yarn add @tidy-ui/<package>
 
 <table>
   <thead>
-    <tr><th>Package</th><th>Install</th></tr>
+    <tr><th>Package</th><th>Version</th><th>Downloads</th></tr>
   </thead>
   <tbody>
   <tr>
-    <td><a href="https://www.npmjs.com/package/@tidy-ui/badge">badge</a></td>
-    <td><a href="https://nodei.co/npm/@tidy-ui/badge/"><img src="https://nodei.co/npm/@tidy-ui/badge.png?mini&"></a></td>
+    <td>@tidy-ui/badge</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/badge"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/badge"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/badge"></td>
   </tr>
   <tr>
-    <td><a href="https://www.npmjs.com/package/@tidy-ui/button">button</a></td>
-    <td><a href="https://nodei.co/npm/@tidy-ui/button/"><img src="https://nodei.co/npm/@tidy-ui/button.png?mini&"></a></td>
+    <td>@tidy-ui/button</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/button"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/button"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/button"></td>
   </tr>
   <tr>
-    <td><a href="https://www.npmjs.com/package/@tidy-ui/card">card</a></td>
-    <td><a href="https://nodei.co/npm/@tidy-ui/card/"><img src="https://nodei.co/npm/@tidy-ui/card.png?mini&"></a></td>
+    <td>@tidy-ui/card</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/card"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/card"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/card"></td>
   </tr>
   <tr>
-    <td><a href="https://www.npmjs.com/package/@tidy-ui/core">core</a></td>
-    <td><a href="https://nodei.co/npm/@tidy-ui/core/"><img src="https://nodei.co/npm/@tidy-ui/core.png?mini&"></a></td>
+    <td>@tidy-ui/core</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/core"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/core"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/core"></td>
   </tr>
   <tr>
-    <td><a href="https://www.npmjs.com/package/@tidy-ui/icons">icons</a></td>
-    <td><a href="https://nodei.co/npm/@tidy-ui/icons/"><img src="https://nodei.co/npm/@tidy-ui/icons.png?mini&"></a></td>
+    <td>@tidy-ui/icons</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/icons"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/icons"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/icons"></td>
   </tr>
   <tr>
-    <td><a href="https://www.npmjs.com/package/@tidy-ui/paper">paper</a></td>
-    <td><a href="https://nodei.co/npm/@tidy-ui/paper/"><img src="https://nodei.co/npm/@tidy-ui/paper.png?mini&"></a></td>
+    <td>@tidy-ui/paper</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/paper"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/paper"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/paper"></td>
   </tr>
   <tr>
-    <td><a href="https://www.npmjs.com/package/@tidy-ui/text">text</a></td>
-    <td><a href="https://nodei.co/npm/@tidy-ui/text/"><img src="https://nodei.co/npm/@tidy-ui/text.png?mini&"></a></td>
+    <td>@tidy-ui/text</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/text"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/text"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/text"></td>
   </tr>
   <tr>
-    <td><a href="https://www.npmjs.com/package/@tidy-ui/theme">theme</a></td>
-    <td><a href="https://nodei.co/npm/@tidy-ui/theme/"><img src="https://nodei.co/npm/@tidy-ui/theme.png?mini&"></a></td>
+    <td>@tidy-ui/theme</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/theme"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/theme"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/theme"></td>
   </tr>
   </tbody>
 </table>
