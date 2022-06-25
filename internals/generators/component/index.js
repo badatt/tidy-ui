@@ -2,11 +2,11 @@
  * Component Generator
  */
 
-/* eslint strict: ["off"] */
 
 'use strict';
 
-const componentExists = require('../componentExists');
+import componentExists from "../componentExists";
+
 const templateDir = './component';
 const componentDest = '../../packages';
 
@@ -27,6 +27,7 @@ module.exports = {
       },
     },
   ],
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   actions: (data) => {
     return [
       {
