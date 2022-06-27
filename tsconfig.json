@@ -41,7 +41,7 @@
 
     /* Module Resolution Options */
     "moduleResolution": "node" /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */,
-    "baseUrl": "./" /* Base directory to resolve non-absolute module names. */,
+    "baseUrl": "." /* Base directory to resolve non-absolute module names. */,
     "paths": {
       "@tidy-ui/icons": ["packages/icons"],
       "@tidy-ui/theme": ["packages/theme"]
@@ -70,6 +70,26 @@
     /* Completeness */
     "skipLibCheck": true
   },
-  "references": [{ "path": "packages/icons" }, { "path": "packages/theme" }],
-  "exclude": ["node_modules", "build", "dist", "stories", "__tests__"]
+  "references": [
+    { "path": "packages/icons" },
+    { "path": "packages/theme" }
+  ],
+  "exclude": [
+    "node_modules",
+    "build", "dist",
+    "stories",
+    "__tests__",
+    "**/__mocks__/*",
+    "**/__tests__/*",
+    "**/*.spec.ts",
+    "**/*.test.ts",
+    "node_modules",
+    "build",
+    "__tests__",
+    "stories",
+    "src/**/*.spec.ts",
+    "src/**/*.spec.tsx",
+    "src/**/*.stories.ts",
+    "src/**/*.stories.tsx"
+  ]
 }
