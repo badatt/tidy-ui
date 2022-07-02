@@ -73,5 +73,6 @@
     "dist",
     "**/stories/**",
     "**/__tests__/**"
-  ]
+  ],
+  "include": ["packages/*/src/**/*"]
 }
