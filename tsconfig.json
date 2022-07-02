@@ -76,20 +76,8 @@
   ],
   "exclude": [
     "node_modules",
-    "build", "dist",
-    "stories",
-    "__tests__",
-    "**/__mocks__/*",
-    "**/__tests__/*",
-    "**/*.spec.ts",
-    "**/*.test.ts",
-    "node_modules",
     "build",
-    "__tests__",
+    "dist",
     "stories",
-    "src/**/*.spec.ts",
-    "src/**/*.spec.tsx",
-    "src/**/*.stories.ts",
-    "src/**/*.stories.tsx"
   ]
 }
