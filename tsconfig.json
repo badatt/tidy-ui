@@ -42,10 +42,7 @@
     /* Module Resolution Options */
     "moduleResolution": "node" /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */,
     "baseUrl": "." /* Base directory to resolve non-absolute module names. */,
-    "paths": {
-      "@tidy-ui/icons": ["packages/icons"],
-      "@tidy-ui/theme": ["packages/theme"]
-    } /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */,
+    // "paths": {} /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */,
     // "rootDirs": [],                        /* List of root folders whose combined content represents the structure of the project at runtime. */
     // "typeRoots": [],                       /* List of folders to include type definitions from. */
     // "types": [],                           /* Type declaration files to be included in compilation. */
@@ -70,14 +67,11 @@
     /* Completeness */
     "skipLibCheck": true
   },
-  "references": [
-    { "path": "packages/icons" },
-    { "path": "packages/theme" }
-  ],
   "exclude": [
     "node_modules",
     "build",
     "dist",
-    "stories",
+    "**/stories/**",
+    "**/__tests__/**"
   ]
 }

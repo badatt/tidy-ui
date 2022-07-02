@@ -1,3 +1,13 @@
 {
   "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@tidy-ui/icons": ["./icons"],
+      "@tidy-ui/theme": ["./theme"]
+    }
+  },
+  "references": [
+    { "path": "./icons" },
+    { "path": "./theme" }
+  ]
 }
