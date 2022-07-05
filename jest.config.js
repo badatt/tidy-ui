@@ -23,7 +23,7 @@ module.exports = {
     },
     modulePathIgnorePatterns: [
         ...packages.reduce(
-            (acc, name) => [...acc, `<rootDir>/packages/${name}/build`],
+            (acc, name) => [...acc, `<rootDir>/packages/${name}/dist`],
             []
         ),
     ],
