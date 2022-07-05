@@ -50,8 +50,20 @@ module.exports = {
       },
       {
         type: 'addMany',
-        destination: `${componentDest}/{{name}}/`,
+        destination: `${componentDest}/{{name}}/src`,
         templateFiles: `${templateDir}/src/**/*`,
+        abortOnFail: true,
+      },
+      {
+        type: 'addMany',
+        destination: `${componentDest}/{{name}}/tests`,
+        templateFiles: `${templateDir}/tests/**/*`,
+        abortOnFail: true,
+      },
+      {
+        type: 'addMany',
+        destination: `${componentDest}/{{name}}/stories`,
+        templateFiles: `${templateDir}/stories/**/*`,
         abortOnFail: true,
       },
     ];
