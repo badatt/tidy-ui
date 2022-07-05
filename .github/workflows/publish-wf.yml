@@ -38,6 +38,9 @@ jobs:
       - name: Vet
         run: yarn vet
 
+      - name: Build
+        run: yarn build
+
       - name: Test
         run: yarn test
 
