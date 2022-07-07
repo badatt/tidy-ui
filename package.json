@@ -68,5 +68,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn format && yarn lint-fix && yarn vet"
+    }
+  },
   "version": "0.0.0"
 }
