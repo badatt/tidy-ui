@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export interface ICardProps extends React.HTMLAttributes<HTMLDivElement> {
   accent?: 'major' | 'minor' | 'neutral' | 'info' | 'success' | 'warning' | 'danger';

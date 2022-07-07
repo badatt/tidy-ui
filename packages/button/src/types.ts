@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export interface IButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
   size?: 'xxs' | 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl';
