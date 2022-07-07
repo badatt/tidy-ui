@@ -16,6 +16,16 @@ describe('Badge', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
+  test('Major color', () => {
+    const tree = renderer
+      .create(
+        <ThemeProvider theme={orchidLight}>
+          <Badge color="major"/>
+        </ThemeProvider>,
+      )
+      .toJSON();
+    expect(tree).toMatchSnapshot();
+  });
   test('dot variant', () => {
     const tree = renderer
       .create(
