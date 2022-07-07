@@ -9,7 +9,7 @@
     "format": "npx lerna exec -- yarn format",
     "generate": "plop --plopfile internals/generators/index.js",
     "lint-fix": "yarn lint:md && npx lerna exec -- yarn lint-fix",
-    "lint:md": "markdownlint-cli2-fix \"**/*.md\" \"#node_modules\"",
+    "lint:md": "markdownlint-cli2-fix \"**/*.md\" \"#**/node_modules/**\"",
     "reset": "yarn clean && npx lerna exec -- yarn reset && rimraf -rf node_modules",
     "test": "yarn \"test:coverage\"",
     "test:coverage": "jest --bail --coverage --passWithNoTests",
