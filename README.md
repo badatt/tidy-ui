@@ -30,7 +30,7 @@ Tidy UI is available as [npm packages](https://www.npmjs.com/search?q=%40tidy-ui
 yarn add @tidy-ui/<package>
 ```
 
-## Status
+## Packages
 
 <table>
   <thead>
