@@ -2,7 +2,7 @@
   "name": "tidy-ui",
   "private": true,
   "scripts": {
-    "bootstrap": "npx lerna bootstrap && yarn install",
+    "bootstrap": "npx lerna bootstrap && yarn install && npx husky install",
     "build": "npx lerna exec -- yarn build",
     "clean": "rimraf -rf coverage && npx lerna exec -- yarn clean",
     "dev": "start-storybook -p 5555",
