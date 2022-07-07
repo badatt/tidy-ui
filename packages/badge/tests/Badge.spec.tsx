@@ -20,7 +20,7 @@ describe('Badge', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
-          <Badge color="major"/>
+          <Badge color="major" />
         </ThemeProvider>,
       )
       .toJSON();
