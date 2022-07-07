@@ -7,5 +7,5 @@
   "singleQuote": true,
   "trailingComma": "all",
   "printWidth": 120,
-  "eol": "lf"
+  "endOfLine": "lf"
 }
