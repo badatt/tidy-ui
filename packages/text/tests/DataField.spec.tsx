@@ -4,7 +4,7 @@ import { ThemeProvider } from 'styled-components';
 import 'jest-styled-components';
 import { orchidLight } from '@tidy-ui/theme';
 import { GearIcon, EyeIcon, CheckCircleIcon } from '@tidy-ui/icons';
-import { DataField } from '..';
+import { DataField } from '../src';
 
 describe('Text', () => {
   test('Default render', () => {

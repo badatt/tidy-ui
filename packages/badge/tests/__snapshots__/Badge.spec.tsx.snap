@@ -13,6 +13,19 @@ exports[`Badge Default render 1`] = `
 </span>
 `;
 
+exports[`Badge Major color 1`] = `
+<span
+  className=""
+  color="major"
+  role="badge"
+>
+  <span
+    className=""
+    color="major"
+  />
+</span>
+`;
+
 exports[`Badge dot variant 1`] = `
 <span
   className=""

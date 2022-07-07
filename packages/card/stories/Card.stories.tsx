@@ -1,6 +1,6 @@
 import React from 'react';
 import { styled } from '@tidy-ui/theme';
-import { Card, CardHeader, CardBody, CardFooter } from '..';
+import { Card, CardHeader, CardBody, CardFooter } from '../src';
 
 export default {
   component: Card,
