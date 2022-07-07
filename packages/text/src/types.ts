@@ -1,3 +1,7 @@
+import React from "react";
+
+type IColor = 'major' | 'minor' | 'neutral' | 'info' | 'success' | 'warning' | 'danger';
+
 export interface ITextProps extends React.HTMLAttributes<HTMLDivElement> {
   as?:
     | 'hero'
@@ -17,7 +21,7 @@ export interface ITextProps extends React.HTMLAttributes<HTMLDivElement> {
     | 'h4'
     | 'h5'
     | 'h6';
-  color?: 'major' | 'minor' | 'neutral' | 'info' | 'success' | 'warning' | 'danger';
+  color?: IColor;
   b?: boolean;
   u?: boolean;
   i?: boolean;
@@ -31,8 +35,8 @@ export interface ITextProps extends React.HTMLAttributes<HTMLDivElement> {
 }
 
 export interface IDataFieldProps extends React.HTMLAttributes<HTMLDListElement> {
-  color?: 'major' | 'minor' | 'neutral' | 'info' | 'success' | 'warning' | 'danger';
-  accent?: 'major' | 'minor' | 'neutral' | 'info' | 'success' | 'warning' | 'danger';
+  color?: IColor;
+  accent?: IColor;
   icon?: JSX.Element;
   b?: boolean;
   u?: boolean;

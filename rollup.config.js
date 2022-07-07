@@ -8,10 +8,10 @@ import replace from '@rollup/plugin-replace';
 
 const packageJson = process.env.PACKAGE_NAME && require(`./packages/${process.env.PACKAGE_NAME}/package.json`);
 
-const dependencies = ({ peerDependencies, dependencies }) =>
+const formattedDeps = ({ peerDependencies, dependencies }) =>
   Object.keys({ ...peerDependencies, ...dependencies } || {});
 
-const deps = dependencies(packageJson);
+const deps = formattedDeps(packageJson);
 
 const extensions = ['.js', '.jsx', '.ts', '.tsx'];
 

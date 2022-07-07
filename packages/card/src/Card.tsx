@@ -67,7 +67,7 @@ const CardRoot = styled.section<ICardProps>`
     `}
     ${accent &&
     css`
-      border-top: 2px solid ${palette[accent!][600]};
+      border-top: 2px solid ${palette[accent][600]};
     `}
     ${href &&
     css`
