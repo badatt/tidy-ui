@@ -9,6 +9,13 @@ const BadgeRoot = styled.span<IBadgeProps>`
   flex-shrink: 0;
 `;
 
+const badgeColor = css<IBadgeProps>`
+  ${({ theme: { palette }, color }) => css`
+    color: ${palette[color!][100]};
+    background-color: ${palette[color!][600]};
+  `}
+`;
+
 const StandardBadgeAnchor = styled.span<IBadgeProps>`
   display: flex;
   flex-flow: row wrap;
@@ -27,10 +34,7 @@ const StandardBadgeAnchor = styled.span<IBadgeProps>`
   transform: scale(1) translate(50%, -50%);
   transform-origin: 100% 0%;
   font-size: 0.625rem;
-  ${({ theme: { palette }, color }) => css`
-    color: ${palette[color!][100]};
-    background-color: ${palette[color!][600]};
-  `}
+  ${badgeColor}
 `;
 
 const DotBadgeAnchor = styled.span<IBadgeProps>`
@@ -53,10 +57,7 @@ const DotBadgeAnchor = styled.span<IBadgeProps>`
   right: 0px;
   transform: scale(1) translate(50%, -50%);
   transform-origin: 100% 0%;
-  ${({ theme: { palette }, color }) => css`
-    color: ${palette[color!][100]};
-    background-color: ${palette[color!][600]};
-  `}
+  ${badgeColor}
 `;
 
 const Badge = React.forwardRef<HTMLSpanElement, IBadgeProps>((props, ref) => {

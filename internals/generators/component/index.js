@@ -27,8 +27,7 @@ module.exports = {
       },
     },
   ],
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  actions: (data) => {
+  actions: () => {
     return [
       {
         type: 'add',

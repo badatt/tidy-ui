@@ -20,7 +20,7 @@ const StyledText = styled.div<ITextProps>`
     ${!disable &&
     color &&
     css`
-      color: ${palette[color!][600]};
+      color: ${palette[color][600]};
     `}
     ${b &&
     css`

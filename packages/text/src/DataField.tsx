@@ -49,7 +49,7 @@ const DT = styled.dt<IDataFieldProps>`
     ${!disable &&
     color &&
     css`
-      color: ${palette[color!][600]};
+      color: ${palette[color][600]};
     `}
     ${b &&
     css`
