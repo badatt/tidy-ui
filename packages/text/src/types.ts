@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 type IColor = 'major' | 'minor' | 'neutral' | 'info' | 'success' | 'warning' | 'danger';
 
