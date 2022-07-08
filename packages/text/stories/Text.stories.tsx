@@ -1,6 +1,6 @@
 import React from 'react';
 import { styled } from '@tidy-ui/theme';
-import { Text } from '../src';
+import { Text } from '@tidy-ui/text';
 
 export default {
   component: Text,

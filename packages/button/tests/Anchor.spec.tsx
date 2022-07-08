@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 import { ThemeProvider } from 'styled-components';
 import 'jest-styled-components';
 import { orchidLight, orchidDark } from '@tidy-ui/theme';
-import { Anchor } from '../src';
+import { Anchor } from '@tidy-ui/button';
 
 describe('Render Anchor', () => {
   it('Renders with no styles', () => {

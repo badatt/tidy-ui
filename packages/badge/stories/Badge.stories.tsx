@@ -2,7 +2,7 @@ import React from 'react';
 import { styled } from '@tidy-ui/theme';
 import { EmailIcon } from '@tidy-ui/icons';
 
-import { Badge } from '../src';
+import { Badge } from '@tidy-ui/badge';
 
 export default {
   component: Badge,

@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 import { ThemeProvider } from 'styled-components';
 import 'jest-styled-components';
 import { orchidLight } from '@tidy-ui/theme';
-import { Paper } from '../src';
+import { Paper } from '@tidy-ui/paper';
 
 describe('Paper', () => {
   test('Default render', () => {

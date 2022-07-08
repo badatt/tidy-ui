@@ -2,7 +2,7 @@ import React from 'react';
 import { styled } from '@tidy-ui/theme';
 import { GearIcon, EyeIcon, CheckCircleIcon } from '@tidy-ui/icons';
 
-import { Anchor, Button } from '../src';
+import { Anchor, Button } from '@tidy-ui/button';
 
 export default {
   component: Button,
