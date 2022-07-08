@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/card",
-  "version": "0.0.33",
+  "version": "0.0.34",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:card",
     "clean": "tsc --build --clean && rimraf -rf dist && rimraf -rf build",
@@ -18,8 +18,8 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/icons": "^0.0.33",
-    "@tidy-ui/theme": "^0.0.33"
+    "@tidy-ui/icons": "^0.0.34",
+    "@tidy-ui/theme": "^0.0.34"
   },
   "peerDependencies": {
     "react": "^16.0.0",
