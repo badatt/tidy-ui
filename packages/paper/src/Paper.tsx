@@ -6,10 +6,10 @@ const PaperRoot = styled.section<IPaperProps>`
   ${({ theme, rounded }) => css`
     display: flex;
     padding: 1rem;
-    background-color: ${theme.palette?.background?.paper};
-    border-radius: ${rounded && theme.layout?.radius};
-    box-shadow: ${theme.layout?.shadow};
-    color: ${theme.palette?.text?.primary};
+    background-color: ${theme.palette.background.paper};
+    border-radius: ${rounded && theme.layout.radius};
+    box-shadow: ${theme.layout.shadow};
+    color: ${theme.palette.text.primary};
     margin-bottom: 1.875rem;
   `}
 `;
