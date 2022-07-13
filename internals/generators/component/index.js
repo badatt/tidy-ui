@@ -5,8 +5,7 @@
 
 'use strict';
 
-import componentExists from "../componentExists";
-
+const componentExists = require('../componentExists');
 const templateDir = './component';
 const componentDest = '../../packages';
 
@@ -49,19 +48,19 @@ module.exports = {
       },
       {
         type: 'addMany',
-        destination: `${componentDest}/{{name}}/src`,
+        destination: `${componentDest}/{{name}}/`,
         templateFiles: `${templateDir}/src/**/*`,
         abortOnFail: true,
       },
       {
         type: 'addMany',
-        destination: `${componentDest}/{{name}}/tests`,
+        destination: `${componentDest}/{{name}}/`,
         templateFiles: `${templateDir}/tests/**/*`,
         abortOnFail: true,
       },
       {
         type: 'addMany',
-        destination: `${componentDest}/{{name}}/stories`,
+        destination: `${componentDest}/{{name}}/`,
         templateFiles: `${templateDir}/stories/**/*`,
         abortOnFail: true,
       },

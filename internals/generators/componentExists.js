@@ -4,9 +4,8 @@
  * Check whether the given component exist in either the components or containers directory
  */
 
-import fs from "fs";
-import path from "path";
-
+const fs = require('fs');
+const path = require('path');
 const components = fs.readdirSync(path.join(__dirname, '../../packages'));
 
 function componentExists(comp) {
