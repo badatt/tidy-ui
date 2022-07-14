@@ -29,6 +29,17 @@ describe('useTimeout', () => {
     });
   });
 
+  test('With callback disabled', () => {
+    const clock = sinon.useFakeTimers();
+    const cbSpy = sinon.spy();
+    const hook = renderHook(() => useTimeout(cbSpy, 10, false));
+    act(() => {
+      hook.result.current.reset();
+    });
+    clock.tick(10);
+    expect(cbSpy.calledOnce).toEqual(false);
+  });
+
   test('Should call passed function after given amount of time', () => {
     const clock = sinon.useFakeTimers();
     const cbSpy = sinon.spy();
