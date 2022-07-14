@@ -1,8 +1,8 @@
 {
-  "name": "@tidy-ui/paper",
-  "version": "0.0.34",
+  "name": "@tidy-ui/commons",
+  "version": "0.0.0",
   "scripts": {
-    "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:paper",
+    "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:commons",
     "clean": "tsc --build --clean && rimraf -rf dist && rimraf -rf build",
     "format": "prettier \"**/*.{js,jsx,json,yml,yaml,css,less,scss,ts,tsx,md,graphql,mdx}\" --write",
     "lint": "eslint -c ../../.eslintrc --ext .js,.jsx,.ts,.tsx src",
@@ -17,11 +17,7 @@
     "yalc:publish": "yarn build && yalc publish",
     "yalc:push": "yarn build && yalc push"
   },
-  "dependencies": {
-    "@tidy-ui/icons": "^0.0.34",
-    "@tidy-ui/theme": "^0.0.34",
-    "@tidy-ui/commons": "^0.0.0"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "react": "^16.0.0",
     "styled-components": "^5.3.3"
@@ -49,7 +45,7 @@
   "typings": "dist/src/index.d.ts",
   "types": "dist/src/index.d.ts",
   "license": "MIT",
-  "description": "tidy-ui react component library; 'paper' package",
+  "description": "tidy-ui react component library; 'commons' package",
   "publishConfig": {
     "access": "public"
   },
