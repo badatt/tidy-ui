@@ -4,7 +4,7 @@ export interface IUseTimeoutFnReturn {
   /** Clears the timeout */
   clear: () => void;
 
-  /** Restarts the timeout. Current timout gets cleared */
+  /** Restarts the timeout. Current timeout gets cleared */
   reset: () => void;
 }
 
