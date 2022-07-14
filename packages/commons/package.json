@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/commons",
-  "version": "0.0.0",
+  "version": "0.0.35",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:commons",
     "clean": "tsc --build --clean && rimraf -rf dist && rimraf -rf build",
@@ -17,7 +17,6 @@
     "yalc:publish": "yarn build && yalc publish",
     "yalc:push": "yarn build && yalc push"
   },
-  "dependencies": {},
   "peerDependencies": {
     "react": "^16.0.0",
     "styled-components": "^5.3.3"
