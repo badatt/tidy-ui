@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef } from 'react';
 
 export interface IUseTimeoutFnReturn {
-  /** Clears the timeout */
+  /** Clears the current timeout */
   clear: () => void;
 
   /** Clears the current timeout and restarts afresh */
