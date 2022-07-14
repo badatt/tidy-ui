@@ -4,5 +4,11 @@
   "packages": [
     "packages/*"
   ],
+  "ignoreChanges": ["**/tests/**", "**/stories/**"],
+  "command": {
+    "version": {
+      "message": "chore(release): publish %s"
+    }
+  },
   "useWorkspaces": true
 }
