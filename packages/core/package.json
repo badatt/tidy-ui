@@ -25,6 +25,8 @@
     "@tidy-ui/text": "^0.0.34"
   },
   "peerDependencies": {
+    "@tidy-ui/icons": "^0.0.34",
+    "@tidy-ui/commons": "^0.0.0",
     "react": "^16.0.0",
     "styled-components": "^5.3.3"
   },
