@@ -54,12 +54,16 @@ jobs:
     name: publish npm packages
     needs: vet
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
+
 
     steps:
       - name: Check out the code
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
+          persist-credentials: false
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
@@ -75,8 +79,9 @@ jobs:
 
       - name: Configure Git User
         run: |
-          git config --global user.email "dev.badatt@gmail.com"
-          git config --global user.name "badatt"
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/$GITHUB_REPOSITORY
 
       - name: Publish
         run: npx lerna publish patch -y
