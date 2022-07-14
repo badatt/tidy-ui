@@ -4,12 +4,12 @@ export interface IUseTimeoutFnReturn {
   /** Clears the timeout */
   clear: () => void;
 
-  /** Restarts the timeout. Current timeout gets cleared */
+  /** Clears the current timeout and restarts afresh */
   reset: () => void;
 }
 
 /**
- * Timeout your callback function
+ * Timeout a callback function
  * @param fn Timer callback function
  * @param ms Milliseconds of the timer
  * @param enabled Whether to open the timer
