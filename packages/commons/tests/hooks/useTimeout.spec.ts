@@ -7,9 +7,8 @@ import { useTimeout } from '@tidy-ui/commons';
 import sinon from 'sinon';
 
 describe('useTimeout', () => {
-
   afterEach(() => {
-    sinon.restore()
+    sinon.restore();
   });
 
   test('Should return clear and reset functions', () => {
@@ -20,6 +19,14 @@ describe('useTimeout', () => {
     );
     expect(typeof hook.result.current.reset).toEqual('function');
     expect(typeof hook.result.current.clear).toEqual('function');
+  });
+
+  test('With empty callback', () => {
+    const hook = renderHook(() => useTimeout(undefined, 10));
+    expect(typeof hook.result.current.reset).toEqual('function');
+    act(() => {
+      hook.result.current.reset();
+    });
   });
 
   test('Should call passed function after given amount of time', () => {
