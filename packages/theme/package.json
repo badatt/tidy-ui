@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/theme",
-  "version": "0.0.36",
+  "version": "0.0.37",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:theme",
     "clean": "tsc --build --clean && rimraf -rf dist && rimraf -rf build",
