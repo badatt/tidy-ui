@@ -3,11 +3,13 @@
   "compilerOptions": {
     "paths": {
       "@tidy-ui/icons": ["./icons"],
-      "@tidy-ui/theme": ["./theme"]
+      "@tidy-ui/theme": ["./theme"],
+      "@tidy-ui/commons": ["./commons"],
     }
   },
   "references": [
     { "path": "./icons" },
-    { "path": "./theme" }
+    { "path": "./theme" },
+    { "path": "./commons" }
   ]
 }
