@@ -4,7 +4,7 @@
     "paths": {
       "@tidy-ui/icons": ["./icons"],
       "@tidy-ui/theme": ["./theme"],
-      "@tidy-ui/commons": ["./commons"],
+      "@tidy-ui/commons": ["./commons"]
     }
   },
   "references": [

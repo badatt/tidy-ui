@@ -1,6 +1,6 @@
-import React from 'react';
+import { HTMLAttributes, AnchorHTMLAttributes } from 'react';
 
-export interface IButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
+export interface IButtonProps extends HTMLAttributes<HTMLButtonElement> {
   size?: 'xxs' | 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl';
   color?: 'major' | 'minor' | 'neutral' | 'info' | 'success' | 'warning' | 'danger';
   appearance?: 'primary' | 'outlined' | 'hero' | 'basic' | 'simple';
@@ -12,7 +12,7 @@ export interface IButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
   uppercase?: boolean;
 }
 
-export interface IAnchorProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
+export interface IAnchorProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
   size?: 'xxs' | 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl';
   newTab?: boolean;
   disable?: boolean;

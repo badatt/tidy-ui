@@ -3,14 +3,14 @@ import renderer from 'react-test-renderer';
 import { ThemeProvider } from 'styled-components';
 import 'jest-styled-components';
 import { orchidLight } from '@tidy-ui/theme';
-import { {{ properCase name }} } from '../src';
+import { Message } from '../src';
 
-describe("{{ properCase name }}", () => {
-  test("Default render", () => {
+describe('Message', () => {
+  test('Default render', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
-          <{{ properCase name }} />
+          <Message />
         </ThemeProvider>,
       )
       .toJSON();

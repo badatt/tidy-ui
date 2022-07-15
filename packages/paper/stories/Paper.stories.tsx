@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Paper } from '@tidy-ui/paper';
+import { Paper } from '../src';
 
 export default {
   component: Paper,

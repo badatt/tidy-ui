@@ -81,7 +81,7 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
       - name: Publish
-        run: npx lerna publish patch --conventional-commits --create-release github --exact -y
+        run: npx lerna publish patch --conventional-commits --create-release github -y
         env:
           GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

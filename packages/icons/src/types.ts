@@ -1,1 +1,3 @@
-export type IIconProps = React.HTMLAttributes<HTMLDivElement>;
+import { HTMLAttributes } from 'react';
+
+export type IIconProps = HTMLAttributes<HTMLDivElement>;
