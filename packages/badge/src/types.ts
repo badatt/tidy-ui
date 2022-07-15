@@ -1,6 +1,6 @@
-import React from 'react';
+import { HTMLAttributes } from 'react';
 
-export interface IBadgeProps extends React.HTMLAttributes<HTMLSpanElement> {
+export interface IBadgeProps extends HTMLAttributes<HTMLSpanElement> {
   content?: JSX.Element | number | string;
   color?: 'major' | 'minor' | 'neutral' | 'info' | 'success' | 'warning' | 'danger';
   variant?: 'dot' | 'standard';

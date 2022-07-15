@@ -1,8 +1,8 @@
-import React from 'react';
+import { HTMLAttributes } from 'react';
 
 type IColor = 'major' | 'minor' | 'neutral' | 'info' | 'success' | 'warning' | 'danger';
 
-export interface ITextProps extends React.HTMLAttributes<HTMLDivElement> {
+export interface ITextProps extends HTMLAttributes<HTMLDivElement> {
   as?:
     | 'hero'
     | 'title1'
@@ -34,7 +34,7 @@ export interface ITextProps extends React.HTMLAttributes<HTMLDivElement> {
   truncate?: boolean;
 }
 
-export interface IDataFieldProps extends React.HTMLAttributes<HTMLDListElement> {
+export interface IDataFieldProps extends HTMLAttributes<HTMLDListElement> {
   color?: IColor;
   accent?: IColor;
   icon?: JSX.Element;

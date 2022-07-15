@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 import { ThemeProvider } from 'styled-components';
 import 'jest-styled-components';
 import { orchidLight } from '@tidy-ui/theme';
-import { Badge } from '@tidy-ui/badge';
+import { Badge } from '../src';
 
 describe('Badge', () => {
   test('Default render', () => {

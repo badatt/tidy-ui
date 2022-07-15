@@ -1,8 +1,8 @@
 {
-  "name": "@tidy-ui/text",
-  "version": "0.0.39",
+  "name": "@tidy-ui/message",
+  "version": "0.0.0",
   "scripts": {
-    "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:text",
+    "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:message",
     "clean": "tsc --build --clean && rimraf -rf dist && rimraf -rf build",
     "format": "prettier \"**/*.{js,jsx,json,yml,yaml,css,less,scss,ts,tsx,md,graphql,mdx}\" --write",
     "lint": "eslint -c ../../.eslintrc --ext .js,.jsx,.ts,.tsx src",
@@ -22,7 +22,7 @@
     "@tidy-ui/theme": "^0.0.39"
   },
   "peerDependencies": {
-    "@tidy-ui/icons": "^0.0.34",
+    "@tidy-ui/icons": "^0.0.39",
     "react": "^16.0.0",
     "styled-components": "^5.3.3"
   },
@@ -49,7 +49,7 @@
   "typings": "dist/src/index.d.ts",
   "types": "dist/src/index.d.ts",
   "license": "MIT",
-  "description": "tidy-ui react component library; 'text' package",
+  "description": "tidy-ui react component library; 'message' package",
   "publishConfig": {
     "access": "public"
   },

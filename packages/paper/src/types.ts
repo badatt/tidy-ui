@@ -1,5 +1,5 @@
-import React from 'react';
+import { HTMLAttributes } from 'react';
 
-export interface IPaperProps extends React.HTMLAttributes<HTMLDivElement> {
+export interface IPaperProps extends HTMLAttributes<HTMLDivElement> {
   rounded?: boolean;
 }
