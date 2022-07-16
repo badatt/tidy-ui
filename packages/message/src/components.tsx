@@ -1,27 +1,12 @@
 import { css, styled } from '@tidy-ui/theme';
 import { IMessageProps } from './types';
-import { emojis } from './icons';
 import { filledLabel, outlinedLabel, filledContent, outlinedContent } from './styles';
 
 const MessageRoot = styled.div<IMessageProps>`
-  ${({ theme: { layout, typography }, color, sharp, stretch, noLabel, outlined }) => css`
+  ${({ stretch }) => css`
     margin-bottom: 1rem;
     width: ${stretch ? '100%' : 'fit-content'};
     position: relative;
-    ${!noLabel &&
-    css`
-      &:before {
-        content: '${emojis[color!]}${color}';
-        border-top-left-radius: ${!sharp && layout.radius};
-        border-top-right-radius: ${!sharp && layout.radius};
-        width: fit-content;
-        padding: 0.25rem 1rem;
-        font-size: 0.625rem;
-        text-transform: uppercase;
-        font-weight: ${typography.fontWeightBold};
-        ${outlined ? outlinedLabel : filledLabel}
-      }
-    `}
   `}
 `;
 
@@ -41,6 +26,26 @@ const CloseButton = styled.i<IMessageProps>`
       : css`
           color: ${palette[color!][50]};
         `}
+  `}
+`;
+
+const MessageLabel = styled.div<IMessageProps>`
+  ${({ theme: { layout, typography }, sharp, outlined }) => css`
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    border-top-left-radius: ${!sharp && layout.radius};
+    border-top-right-radius: ${!sharp && layout.radius};
+    width: fit-content;
+    padding: 0.25rem 1rem;
+    font-size: 0.625rem;
+    text-transform: uppercase;
+    font-weight: ${typography.fontWeightBold};
+    ${outlined ? outlinedLabel : filledLabel}
+    svg {
+      height: 0.75rem;
+      width: 0.75rem;
+    }
   `}
 `;
 
@@ -64,4 +69,4 @@ const Header = styled.div<IMessageProps>`
   `}
 `;
 
-export { MessageRoot, CloseButton, MessageContent, Header };
+export { MessageRoot, CloseButton, MessageContent, Header, MessageLabel };

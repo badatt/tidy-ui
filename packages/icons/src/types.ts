@@ -1,3 +1,5 @@
 import { HTMLAttributes } from 'react';
 
-export type IIconProps = HTMLAttributes<HTMLDivElement>;
+export interface IIconProps extends HTMLAttributes<HTMLDivElement> {
+  outlined?: boolean;
+}
