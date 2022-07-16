@@ -14,7 +14,7 @@ export interface IUseTimeoutFnReturn {
  * @param ms Milliseconds of the timer
  * @param enabled Whether to open the timer
  */
-const useTimeout = (fn: (() => void) | undefined, ms = 0, enabled = true): IUseTimeoutFnReturn => {
+const useTimeout = (fn: ((e?: any) => void) | undefined, ms = 0, enabled = true): IUseTimeoutFnReturn => {
   const timeout = useRef<ReturnType<typeof setTimeout>>();
   const cb = useRef(fn);
 
