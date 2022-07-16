@@ -5,7 +5,7 @@ import { orchidLight, orchidDark } from '@tidy-ui/theme/src';
 
 export const parameters = {
   backgrounds: {
-    default: 'light',
+    default: 'dark',
     values: [
       {
         name: 'light',
@@ -19,5 +19,5 @@ export const parameters = {
   },
 };
 
-const themes = [orchidLight, orchidDark];
+const themes = [orchidDark, orchidLight];
 addDecorator(withThemesProvider(themes), ThemeProvider);
