@@ -1,8 +1,7 @@
 import React, { forwardRef, useCallback, useState, MouseEvent } from 'react';
-import { useIsMounted, useTimeout } from '@tidy-ui/commons';
+import { useIsMounted, useTimeout, CancelIcon } from '@tidy-ui/commons';
 import { IMessageProps } from './types';
 import { MessageRoot, CloseButton, MessageContent, Header } from './components';
-import { CloseIcon } from './icons';
 
 const Message = forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
   const { children, closable, duration, onClose, header, ...rest } = props;
@@ -38,7 +37,7 @@ const Message = forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
     <MessageRoot ref={ref} role="message" {...rest}>
       {closable && (
         <CloseButton onClick={handleClose} {...rest}>
-          <CloseIcon />
+          <CancelIcon />
         </CloseButton>
       )}
       <MessageContent {...rest}>
