@@ -2,7 +2,14 @@ import React from 'react';
 import { IIconProps } from './types';
 
 export default (props: IIconProps): JSX.Element => (
-  <svg xmlns="http://www.w3.org/2000/svg" className={props.className} viewBox="0 0 24 24" fill="currentColor">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    className={props.className}
+    focusable={false}
+    aria-hidden="true"
+    viewBox="0 0 24 24"
+    fill="currentColor"
+  >
     <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
     <path
       fillRule="evenodd"
