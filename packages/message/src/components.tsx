@@ -1,4 +1,4 @@
-import { css, styled } from '@tidy-ui/theme';
+import { css, styled, IPalette } from '@tidy-ui/theme';
 import { IMessageProps } from './types';
 import { filledLabel, outlinedLabel, filledContent, outlinedContent } from './styles';
 
@@ -9,6 +9,10 @@ const MessageRoot = styled.div<IMessageProps>`
     position: relative;
   `}
 `;
+
+const closeButtonColor = (isDark: boolean, palette: IPalette, color: string) => {
+  return isDark ? palette[color][400] : palette[color][600];
+};
 
 const CloseButton = styled.i<IMessageProps>`
   ${({ theme: { palette, isDark }, color, outlined }) => css`
@@ -21,7 +25,7 @@ const CloseButton = styled.i<IMessageProps>`
     cursor: pointer;
     ${outlined
       ? css`
-          color: ${isDark ? palette[color!][400] : palette[color!][600]};
+          color: ${closeButtonColor(isDark, palette, color!)};
         `
       : css`
           color: ${palette[color!][50]};

@@ -6,7 +6,7 @@ import { render, getByRole, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import { ThemeProvider } from 'styled-components';
 import 'jest-styled-components';
-import { orchidLight } from '@tidy-ui/theme';
+import { orchidLight, orchidDark } from '@tidy-ui/theme';
 import { Message } from '../src';
 
 describe('Message', () => {
@@ -210,7 +210,7 @@ describe('Message', () => {
   });
   test('Closable message', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <ThemeProvider theme={orchidDark}>
         <Message closable>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
           eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.

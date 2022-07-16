@@ -41,8 +41,8 @@ const Message = forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
     return null;
   }
 
-  const Icon = (props: IMessageProps) => {
-    switch (props.color) {
+  const Icon = (p: IMessageProps) => {
+    switch (p.color) {
       case 'info':
         return <InfoIcon />;
       case 'success':

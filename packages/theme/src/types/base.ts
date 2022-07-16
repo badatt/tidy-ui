@@ -6,7 +6,7 @@ export interface ITidyUIBaseTheme extends DefaultTheme {
   typography: ITypography;
 }
 
-interface IBreakpoints {
+export interface IBreakpoints {
   xs: number;
   sm: number;
   md: number;
@@ -14,12 +14,12 @@ interface IBreakpoints {
   xl: number;
 }
 
-interface ILayout {
+export interface ILayout {
   radius: string;
   shadow: string;
 }
 
-interface ITypography {
+export interface ITypography {
   fontSize: string;
   fontWeightLight: number;
   fontWeightRegular: number;
@@ -44,7 +44,7 @@ interface ITypography {
   h6: IText;
 }
 
-interface IText {
+export interface IText {
   fontWeight: number | string;
   fontSize: string;
   lineHeight: number;

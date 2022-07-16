@@ -1,9 +1,11 @@
 import baseStyled, { css as baseCss, ThemedStyledInterface, ThemedCssFunction } from 'styled-components';
 
 import { ITidyUIBaseTheme as IITidyUIBaseTheme } from './types/base';
+export * from './types/base';
 export type ITidyUIBaseTheme = IITidyUIBaseTheme;
 
 import { ITidyUITheme as IITidyUITheme } from './types/theme';
+export * from './types/theme';
 export type ITidyUITheme = IITidyUITheme;
 
 export { defaultBase } from './base';
