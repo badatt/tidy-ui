@@ -11,6 +11,10 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   gap: 24px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
 `;
 
 export const variants = () => (
