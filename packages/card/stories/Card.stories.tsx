@@ -10,6 +10,10 @@ export default {
 const Container = styled.div`
   display: flex;
   gap: 16px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
 `;
 
 const Column = styled.div`
