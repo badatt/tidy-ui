@@ -195,7 +195,7 @@ exports[`Text major accent value with icon 1`] = `
     >
       <svg
         fill="currentColor"
-        viewBox="0 0 20 20"
+        viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
@@ -372,7 +372,7 @@ exports[`Text success color accent and value with icon 1`] = `
     >
       <svg
         fill="currentColor"
-        viewBox="0 0 20 20"
+        viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
