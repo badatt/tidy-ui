@@ -15,8 +15,8 @@ const CloseButton = styled.i<IMessageProps>`
     height: 1rem;
     width: 1rem;
     position: absolute;
-    top: 23px;
-    right: 4px;
+    top: 24px;
+    right: 2px;
     color: ${palette[color!][50]};
     cursor: pointer;
     ${outlined
