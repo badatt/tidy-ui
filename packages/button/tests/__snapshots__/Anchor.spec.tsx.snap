@@ -39,7 +39,9 @@ exports[`Render Anchor External anchor link 1`] = `
     size="sm"
   >
     <svg
+      aria-hidden="true"
       fill="currentColor"
+      focusable={false}
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -69,7 +71,9 @@ exports[`Render Anchor External anchor link dark 1`] = `
     size="sm"
   >
     <svg
+      aria-hidden="true"
       fill="currentColor"
+      focusable={false}
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
     >
