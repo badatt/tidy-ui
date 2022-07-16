@@ -6,7 +6,7 @@ export interface ITidyUITheme extends ITidyUIBaseTheme {
   palette: IPalette;
 }
 
-interface IPalette {
+export interface IPalette {
   major: IColor;
   minor: IColor;
   neutral: IColor;
@@ -19,13 +19,13 @@ interface IPalette {
   divider: string;
 }
 
-interface IBackgroundColor {
+export interface IBackgroundColor {
   paper: string;
   card: string;
   default: string;
 }
 
-interface ITextColor {
+export interface ITextColor {
   primary: string;
   secondary: string;
   disabled: string;
