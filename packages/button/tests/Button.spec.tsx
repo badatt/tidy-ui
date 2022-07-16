@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { ThemeProvider } from 'styled-components';
 import 'jest-styled-components';
-import { GearIcon } from '@tidy-ui/icons';
+import { EmailIcon } from '@tidy-ui/commons';
 import { orchidLight, orchidDark } from '@tidy-ui/theme';
 import { Button } from '../src';
 
@@ -171,7 +171,7 @@ describe('Render Button', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
-          <Button text="Settings" appearance="primary" icon={<GearIcon />} />
+          <Button text="Settings" appearance="primary" icon={<EmailIcon />} />
         </ThemeProvider>,
       )
       .toJSON();
@@ -181,7 +181,7 @@ describe('Render Button', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidDark}>
-          <Button text="Settings" appearance="primary" icon={<GearIcon />} />
+          <Button text="Settings" appearance="primary" icon={<EmailIcon />} />
         </ThemeProvider>,
       )
       .toJSON();
@@ -271,7 +271,7 @@ describe('Render Button', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
-          <Button appearance="primary" color="major" icon={<GearIcon />} />
+          <Button appearance="primary" color="major" icon={<EmailIcon />} />
         </ThemeProvider>,
       )
       .toJSON();
@@ -281,7 +281,7 @@ describe('Render Button', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidDark}>
-          <Button appearance="primary" color="major" icon={<GearIcon />} />
+          <Button appearance="primary" color="major" icon={<EmailIcon />} />
         </ThemeProvider>,
       )
       .toJSON();

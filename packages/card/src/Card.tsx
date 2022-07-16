@@ -1,6 +1,6 @@
 import React from 'react';
 import { styled, css } from '@tidy-ui/theme';
-import { ExternalLinkIcon } from '@tidy-ui/icons';
+import { ExternalLinkIcon } from '@tidy-ui/commons';
 import { ICardFooterProps, ICardHeaderProps, ICardProps } from './types';
 
 const CardHeaderRoot = styled.header<ICardHeaderProps>`

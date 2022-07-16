@@ -48,5 +48,3 @@ export interface IMessageProps extends HTMLAttributes<HTMLDivElement> {
   /** Callback (if any) after the message widget is closed */
   onClose?: (e?: any | undefined) => void;
 }
-
-export type IIconProps = HTMLAttributes<HTMLDivElement>;
