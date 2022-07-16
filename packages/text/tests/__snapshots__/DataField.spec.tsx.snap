@@ -194,7 +194,9 @@ exports[`Text major accent value with icon 1`] = `
       value="major accent value"
     >
       <svg
+        aria-hidden="true"
         fill="currentColor"
+        focusable={false}
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -371,14 +373,14 @@ exports[`Text success color accent and value with icon 1`] = `
       value="success color value"
     >
       <svg
+        aria-hidden="true"
         fill="currentColor"
+        focusable={false}
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
-          clipRule="evenodd"
-          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-          fillRule="evenodd"
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
         />
       </svg>
     </i>
