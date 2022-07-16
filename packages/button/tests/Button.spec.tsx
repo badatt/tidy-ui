@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { ThemeProvider } from 'styled-components';
 import 'jest-styled-components';
-import { EmailIcon } from '@tidy-ui/commons';
+import { EmailIcon, RotatingCircleIcon } from '@tidy-ui/commons';
 import { orchidLight, orchidDark } from '@tidy-ui/theme';
 import { Button } from '../src';
 
@@ -271,7 +271,7 @@ describe('Render Button', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
-          <Button appearance="primary" color="major" icon={<EmailIcon />} />
+          <Button appearance="primary" color="major" icon={<RotatingCircleIcon />} />
         </ThemeProvider>,
       )
       .toJSON();
@@ -281,7 +281,7 @@ describe('Render Button', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidDark}>
-          <Button appearance="primary" color="major" icon={<EmailIcon />} />
+          <Button appearance="primary" color="major" icon={<RotatingCircleIcon />} />
         </ThemeProvider>,
       )
       .toJSON();
