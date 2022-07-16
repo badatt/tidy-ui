@@ -12,7 +12,7 @@ import { IMessageProps } from './types';
 import { MessageRoot, CloseButton, MessageContent, Header, MessageLabel } from './components';
 
 const Message = forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
-  const { children, closable, duration, onClose, header, noLabel, ...rest } = props;
+  const { children, closable, duration, onClose, header, ...rest } = props;
 
   const isMounted = useIsMounted();
   const [isHidden, setHidden] = useState<boolean>(false);
@@ -58,14 +58,14 @@ const Message = forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
 
   return (
     <MessageRoot ref={ref} role="message" {...rest}>
-      {!noLabel && (
+      {!props.noLabel && (
         <MessageLabel {...rest}>
           <Icon {...rest} />
           {rest.color}
         </MessageLabel>
       )}
       {closable && (
-        <CloseButton onClick={handleClose} {...rest}>
+        <CloseButton onClick={handleClose} {...rest} role="close-btn">
           <CancelIcon outlined />
         </CloseButton>
       )}
