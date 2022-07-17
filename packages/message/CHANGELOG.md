@@ -9,11 +9,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Features
 
 * message component WIP ([f9d1284](https://github.com/badatt/tidy-ui/commit/f9d1284c0c9a0ee5b10ce47cd49cf4e9cae7431b))
-
-
-
-
-
-## [0.0.39](https://github.com/badatt/tidy-ui/compare/v0.0.38...v0.0.39) (2022-07-14)
-
-**Note:** Version bump only for package @tidy-ui/button
+* message widget other features and cleanup ([e5329b2](https://github.com/badatt/tidy-ui/commit/e5329b288365daeef1f126423fb94ee4076788f0))
