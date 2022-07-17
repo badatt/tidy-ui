@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.41](https://github.com/badatt/tidy-ui/compare/v0.0.40...v0.0.41) (2022-07-17)
+
+**Note:** Version bump only for package @tidy-ui/paper
+
+
+
+
+
 ## [0.0.40](https://github.com/badatt/tidy-ui/compare/v0.0.39...v0.0.40) (2022-07-17)
 
 
