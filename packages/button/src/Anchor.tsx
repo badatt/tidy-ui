@@ -1,6 +1,6 @@
 import React from 'react';
 import { styled, css } from '@tidy-ui/theme';
-import { ExternalLinkIcon } from '@tidy-ui/icons';
+import { LaunchIcon } from '@tidy-ui/icons';
 import { sizeStyles } from './style';
 import { IAnchorProps } from './types';
 
@@ -39,7 +39,7 @@ const Anchor = React.forwardRef<HTMLAnchorElement, IAnchorProps>((props, ref) =>
       {children}
       {newTab && (
         <Icon {...props}>
-          <ExternalLinkIcon />
+          <LaunchIcon />
         </Icon>
       )}
     </AnchorRoot>

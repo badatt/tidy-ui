@@ -10,10 +10,10 @@ export default (props: IIconProps): JSX.Element => (
     viewBox="0 0 24 24"
     fill="currentColor"
   >
-    <path
-      fillRule="evenodd"
-      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-      clipRule="evenodd"
-    />
+    {props.outlined ? (
+      <path d="M7 11v2h10v-2H7zm5-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" />
+    ) : (
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z" />
+    )}
   </svg>
 );

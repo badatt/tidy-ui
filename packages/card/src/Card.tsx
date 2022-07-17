@@ -1,6 +1,6 @@
 import React from 'react';
 import { styled, css } from '@tidy-ui/theme';
-import { ExternalLinkIcon } from '@tidy-ui/commons';
+import { LaunchIcon } from '@tidy-ui/commons';
 import { ICardFooterProps, ICardHeaderProps, ICardProps } from './types';
 
 const CardHeaderRoot = styled.header<ICardHeaderProps>`
@@ -28,7 +28,7 @@ const Link = styled.a`
   right: 0;
 `;
 
-const Icon = styled(ExternalLinkIcon)<ICardHeaderProps>`
+const Icon = styled(LaunchIcon)<ICardHeaderProps>`
   ${({ theme: { palette, isDark } }) => css`
     height: 1.25rem;
     width: 1.25rem;
