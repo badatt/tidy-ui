@@ -1,5 +1,5 @@
 import React from 'react';
-import { IIconProps } from './types';
+import { IIconProps } from '@tidy-ui/types';
 
 export default (props: IIconProps): JSX.Element => (
   <svg
