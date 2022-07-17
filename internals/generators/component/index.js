@@ -2,7 +2,6 @@
  * Component Generator
  */
 
-
 'use strict';
 
 const componentExists = require('../componentExists');
@@ -28,6 +27,12 @@ module.exports = {
   ],
   actions: () => {
     return [
+      {
+        type: 'add',
+        path: `${componentDest}/{{name}}/.prettierignore`,
+        templateFile: `${templateDir}/.prettierignore.hbs`,
+        abortOnFail: true,
+      },
       {
         type: 'add',
         path: `${componentDest}/{{name}}/babel.config.js`,
