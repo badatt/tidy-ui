@@ -14,6 +14,7 @@ export interface IUseTimeoutFnReturn {
  * @param ms Milliseconds of the timer
  * @param enabled Whether to open the timer
  */
+// eslint-disable-next-line  @typescript-eslint/no-explicit-any
 const useTimeout = (fn: ((e?: any) => void) | undefined, ms = 0, enabled = true): IUseTimeoutFnReturn => {
   const timeout = useRef<ReturnType<typeof setTimeout>>();
   const cb = useRef(fn);
