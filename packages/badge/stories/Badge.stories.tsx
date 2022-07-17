@@ -12,7 +12,7 @@ export default {
 const Container = styled.div`
   display: flex;
   gap: 20px;
-  color: white;
+  color: gray;
 `;
 
 const Icon = styled(EmailIcon)`

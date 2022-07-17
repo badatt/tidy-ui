@@ -24,8 +24,8 @@ const StandardBadgeAnchor = styled.span<IBadgeProps>`
   position: absolute;
   min-width: 1rem;
   line-height: 1;
-  padding: 0px 6px;
-  height: 20px;
+  padding: 0px 4px;
+  height: 1rem;
   border-radius: 10px;
   z-index: 1;
   top: 0;
@@ -45,9 +45,7 @@ const DotBadgeAnchor = styled.span<IBadgeProps>`
   -webkit-box-align: center;
   align-items: center;
   position: absolute;
-  box-sizing: border-box;
   min-width: 8px;
-  line-height: 1;
   padding: 0px;
   height: 8px;
   border-radius: 4px;
