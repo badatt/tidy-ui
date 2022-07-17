@@ -1,6 +1,5 @@
 import { HTMLAttributes } from 'react';
-
-type IColor = 'major' | 'minor' | 'neutral' | 'info' | 'success' | 'warning' | 'danger';
+import { TColor } from '@tidy-ui/types';
 
 export interface ITextProps extends HTMLAttributes<HTMLDivElement> {
   as?:
@@ -21,7 +20,7 @@ export interface ITextProps extends HTMLAttributes<HTMLDivElement> {
     | 'h4'
     | 'h5'
     | 'h6';
-  color?: IColor;
+  color?: TColor;
   b?: boolean;
   u?: boolean;
   i?: boolean;
@@ -35,8 +34,8 @@ export interface ITextProps extends HTMLAttributes<HTMLDivElement> {
 }
 
 export interface IDataFieldProps extends HTMLAttributes<HTMLDListElement> {
-  color?: IColor;
-  accent?: IColor;
+  color?: TColor;
+  accent?: TColor;
   icon?: JSX.Element;
   b?: boolean;
   u?: boolean;

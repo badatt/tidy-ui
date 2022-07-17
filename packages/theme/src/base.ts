@@ -1,4 +1,4 @@
-import { ITidyUIBaseTheme } from './types/base';
+import { ITidyUIBaseTheme } from '@tidy-ui/types';
 
 export const defaultBase: ITidyUIBaseTheme = {
   breakpoints: {

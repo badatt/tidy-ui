@@ -17,6 +17,9 @@
     "yalc:publish": "yarn build && yalc publish",
     "yalc:push": "yarn build && yalc push"
   },
+  "dependencies": {
+    "@tidy-ui/types": "^0.0.0"
+  },
   "peerDependencies": {
     "react": "^16.0.0",
     "styled-components": "^5.3.3"
