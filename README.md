@@ -53,6 +53,11 @@ yarn add @tidy-ui/<package>
     <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/card"></td>
   </tr>
   <tr>
+    <td>@tidy-ui/commons</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/commons"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/commons"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/commons"></td>
+  </tr>
+  <tr>
     <td>@tidy-ui/core</td>
     <td><a href="https://www.npmjs.com/package/@tidy-ui/core"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/core"></a></td>
     <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/core"></td>
@@ -61,6 +66,11 @@ yarn add @tidy-ui/<package>
     <td>@tidy-ui/icons</td>
     <td><a href="https://www.npmjs.com/package/@tidy-ui/icons"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/icons"></a></td>
     <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/icons"></td>
+  </tr>
+  <tr>
+    <td>@tidy-ui/message</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/message"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/message"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/message"></td>
   </tr>
   <tr>
     <td>@tidy-ui/paper</td>
@@ -76,6 +86,11 @@ yarn add @tidy-ui/<package>
     <td>@tidy-ui/theme</td>
     <td><a href="https://www.npmjs.com/package/@tidy-ui/theme"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/theme"></a></td>
     <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/theme"></td>
+  </tr>
+  <tr>
+    <td>@tidy-ui/types</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/types"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/types"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/types"></td>
   </tr>
   </tbody>
 </table>
