@@ -1,7 +1,7 @@
 /** icons */
 export { default as CancelIcon } from './icons/CancelIcon';
 export { default as RotatingCircleIcon } from './icons/RotatingCircleIcon';
-export { default as ExternalLinkIcon } from './icons/ExternalLinkIcon';
+export { default as LaunchIcon } from './icons/LaunchIcon';
 export { default as EmailIcon } from './icons/EmailIcon';
 export { default as WarningIcon } from './icons/WarningIcon';
 export { default as InfoIcon } from './icons/InfoIcon';
