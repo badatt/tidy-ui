@@ -19,7 +19,8 @@
   },
   "dependencies": {
     "@tidy-ui/commons": "^0.0.41",
-    "@tidy-ui/theme": "^0.0.41"
+    "@tidy-ui/theme": "^0.0.41",
+    "@tidy-ui/types": "^0.0.0"
   },
   "peerDependencies": {
     "react": "^16.0.0",

@@ -1,11 +1,12 @@
 import { HTMLAttributes, ReactNode } from 'react';
+import { TColor } from '@tidy-ui/types';
 
 export interface IMessageProps extends HTMLAttributes<HTMLDivElement> {
   /** Color variant of the message, typically used to classify the
    * information based on its level
    * @default 'info'
    * */
-  color?: 'major' | 'minor' | 'neutral' | 'info' | 'success' | 'warning' | 'danger';
+  color?: TColor;
 
   /** Creates a closable message widget with a close button at top right corner
    * @default false

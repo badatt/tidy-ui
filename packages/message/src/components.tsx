@@ -1,4 +1,5 @@
-import { css, styled, IPalette } from '@tidy-ui/theme';
+import { css, styled } from '@tidy-ui/theme';
+import { IPalette } from '@tidy-ui/types';
 import { IMessageProps } from './types';
 import { filledLabel, outlinedLabel, filledContent, outlinedContent } from './styles';
 

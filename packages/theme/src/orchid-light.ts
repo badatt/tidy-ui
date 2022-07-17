@@ -1,5 +1,5 @@
 import { defaultBase } from './base';
-import { ITidyUITheme } from './types/theme';
+import { ITidyUITheme } from '@tidy-ui/types';
 import { purple, pink, neutral, blue, green, amber, red } from './colors';
 import { createColor } from './utils';
 
