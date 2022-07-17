@@ -46,5 +46,6 @@ export interface IMessageProps extends HTMLAttributes<HTMLDivElement> {
   stretch?: boolean;
 
   /** Callback (if any) after the message widget is closed */
+  // eslint-disable-next-line  @typescript-eslint/no-explicit-any
   onClose?: (e?: any | undefined) => void;
 }

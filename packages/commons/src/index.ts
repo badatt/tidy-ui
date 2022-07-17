@@ -9,7 +9,7 @@ export { default as CheckCircleIcon } from './icons/CheckCircleIcon';
 export { default as DangerousIcon } from './icons/DangerousIcon';
 
 /** utils */
-export { default as uuid4 } from './utils/guid';
+export { default as uuid4 } from './utils/uuid4';
 
 /** hooks */
 export { default as useIsMounted } from './hooks/useIsMounted';
