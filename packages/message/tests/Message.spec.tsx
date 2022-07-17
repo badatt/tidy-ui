@@ -21,6 +21,17 @@ describe('Message', () => {
     );
     expect(tree).toMatchSnapshot();
   });
+  test('Stretched message with close button', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        <Message stretch closable>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
+          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
+        </Message>
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
   test('Message with header', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
@@ -211,7 +222,7 @@ describe('Message', () => {
   test('Closable message', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <Message closable>
+        <Message closable outlined>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
           eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </Message>
@@ -228,7 +239,7 @@ describe('Message', () => {
     const mockCallback = jest.fn(() => console.log('Mock Callback'));
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Message closable onClose={mockCallback}>
+        <Message closable onClose={mockCallback} outlined>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
           eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </Message>
