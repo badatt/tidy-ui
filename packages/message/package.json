@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/message",
-  "version": "0.0.42",
+  "version": "0.0.43",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:message",
     "clean": "tsc --build --clean && rimraf -rf dist && rimraf -rf build",
@@ -18,9 +18,9 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/commons": "^0.0.42",
-    "@tidy-ui/theme": "^0.0.42",
-    "@tidy-ui/types": "^0.0.42"
+    "@tidy-ui/commons": "^0.0.43",
+    "@tidy-ui/theme": "^0.0.43",
+    "@tidy-ui/types": "^0.0.43"
   },
   "peerDependencies": {
     "react": "^16.0.0",
