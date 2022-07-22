@@ -19,7 +19,7 @@ export interface ITidyUIBaseTheme extends DefaultTheme {
   breakpoints: IBreakpoints;
 
   /**
-   * Layout representation configuration
+   * Layout configuration
    * @author Balu Praveen Datty <dev.badatt@gmail.com>
    *
    * @type {ILayout}
