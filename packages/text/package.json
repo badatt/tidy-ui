@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/text",
-  "version": "0.0.43",
+  "version": "0.1.0",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:text",
     "clean": "tsc --build --clean && rimraf -rf dist && rimraf -rf build",
@@ -18,9 +18,9 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/commons": "^0.0.43",
-    "@tidy-ui/theme": "^0.0.43",
-    "@tidy-ui/types": "^0.0.43"
+    "@tidy-ui/commons": "^0.1.0",
+    "@tidy-ui/theme": "^0.1.0",
+    "@tidy-ui/types": "^0.1.0"
   },
   "peerDependencies": {
     "react": "^16.0.0",
