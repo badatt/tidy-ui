@@ -1,36 +1,211 @@
 import { ITidyUIBaseTheme } from './base';
 
+/**
+ * Contract to define a custom theme. You should define all the required properties
+ * under this interface to build a custom theme
+ *
+ * @author Balu Praveen Datty <dev.badatt@gmail.com>
+ *
+ * @export
+ * @interface ITidyUITheme
+ * @typedef {ITidyUITheme}
+ * @extends {ITidyUIBaseTheme}
+ */
 export interface ITidyUITheme extends ITidyUIBaseTheme {
+  /**
+   * An identifiable & meaningful name to the theme
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
+   *
+   * @type {string}
+   */
   name: string;
+
+  /**
+   * Whether the theme is dark
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
+   *
+   * @type {boolean}
+   */
   isDark: boolean;
+
+  /**
+   * Palette design that holds all color variants in this theme
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
+   *
+   * @type {IPalette}
+   */
   palette: IPalette;
 }
 
+/**
+ * Palette including all color variants
+ *
+ * @author Balu Praveen Datty <dev.badatt@gmail.com>
+ *
+ * @export
+ * @interface IPalette
+ * @typedef {IPalette}
+ */
 export interface IPalette {
+  /**
+   * The most significant color that you want to paint in a theme
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
+   *
+   * @type {IColor}
+   */
   major: IColor;
+
+  /**
+   * The second most significant color that you want to paint in a theme
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
+   *
+   * @type {IColor}
+   */
   minor: IColor;
+
+  /**
+   * Represents `neutral`, `default` state context
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
+   *
+   * @type {IColor}
+   */
   neutral: IColor;
+
+  /**
+   * Represents `informational` state context
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
+   *
+   * @type {IColor}
+   */
   info: IColor;
+
+  /**
+   * Represents `success`, `pass`, `positive`, `happy` state context
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
+   *
+   * @type {IColor}
+   */
   success: IColor;
+
+  /**
+   * Represents `warn`, `alarm` state context
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
+   *
+   * @type {IColor}
+   */
   warning: IColor;
+
+  /**
+   * Represents `failure`, `fail`, `error`, `negative`, `sad` state context
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
+   *
+   * @type {IColor}
+   */
   danger: IColor;
+
+  /**
+   * Component level text colors
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
+   *
+   * @type {ITextColor}
+   */
   text: ITextColor;
+
+  /**
+   * Component level background colors
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
+   *
+   * @type {IBackgroundColor}
+   */
   background: IBackgroundColor;
+
+  /**
+   * Color used for dividers
+   *
+   * @deprecated
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
+   *
+   * @type {string}
+   */
   divider: string;
 }
 
+/**
+ * Background colors for various components
+ * @author Balu Praveen Datty <dev.badatt@gmail.com>
+ *
+ * @export
+ * @interface IBackgroundColor
+ * @typedef {IBackgroundColor}
+ */
 export interface IBackgroundColor {
+  /**
+   * Background color for `Paper` component
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
+   *
+   * @type {string}
+   */
   paper: string;
+
+  /**
+   * Background color for `Card` component
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
+   *
+   * @type {string}
+   */
   card: string;
+
+  /**
+   * Default color for other backgrounds
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
+   *
+   * @type {string}
+   */
   default: string;
 }
 
+/**
+ * Text colors for various components
+ * @author Balu Praveen Datty <dev.badatt@gmail.com>
+ *
+ * @export
+ * @interface ITextColor
+ * @typedef {ITextColor}
+ */
 export interface ITextColor {
+  /**
+   * Primary text color
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
+   *
+   * @type {string}
+   */
   primary: string;
+
+  /**
+   * Secondary text color
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
+   *
+   * @type {string}
+   */
   secondary: string;
+
+  /**
+   * Color to represent disabled text
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
+   *
+   * @type {string}
+   */
   disabled: string;
 }
 
+/**
+ * Color gradient with various shades
+ * @author Balu Praveen Datty <dev.badatt@gmail.com>
+ *
+ * @export
+ * @interface IColor
+ * @typedef {IColor}
+ */
 export interface IColor {
   50: string;
   100: string;
@@ -45,6 +220,14 @@ export interface IColor {
   shades: Record<number, IHsla>;
 }
 
+/**
+ * Color contract for a hsla color representation
+ * @author Balu Praveen Datty <dev.badatt@gmail.com>
+ *
+ * @export
+ * @interface IHsla
+ * @typedef {IHsla}
+ */
 export interface IHsla {
   hue: number;
   saturation: number;
