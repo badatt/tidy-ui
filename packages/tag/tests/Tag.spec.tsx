@@ -12,10 +12,10 @@ import { Tag } from '../src';
 describe('Tag', () => {
   test('Default render', () => {
     const tree = render(
-        <ThemeProvider theme={orchidLight}>
-          <Tag />
-        </ThemeProvider>,
-      );
+      <ThemeProvider theme={orchidLight}>
+        <Tag />
+      </ThemeProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
 });
