@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/badatt/tidy-ui/compare/v0.2.0...v0.2.1) (2022-07-23)
+
+
+### Features
+
+* useTheme hook ([820a394](https://github.com/badatt/tidy-ui/commit/820a3943be4ef9bc814cd424602145da39bdd311))
+
+
+
+
+
 # [0.2.0](https://github.com/badatt/tidy-ui/compare/v0.1.0...v0.2.0) (2022-07-22)
 
 **Note:** Version bump only for package @tidy-ui/commons
