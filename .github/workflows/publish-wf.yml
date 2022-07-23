@@ -10,6 +10,7 @@ jobs:
   vet:
     name: vet & test
     runs-on: ubuntu-latest
+    if: ${{ github.actor != 'github-actions[bot]' }}
     env:
       CI: true
     defaults:
@@ -54,6 +55,7 @@ jobs:
     name: publish npm packages
     needs: vet
     runs-on: ubuntu-latest
+    if: ${{ github.actor != 'github-actions[bot]' }}
 
     steps:
       - name: Check out the code
