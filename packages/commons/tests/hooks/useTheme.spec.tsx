@@ -1,7 +1,7 @@
 /**
  * @jest-environment jsdom
  */
-import React, { useState } from 'react';
+import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import { ThemeProvider } from 'styled-components';
