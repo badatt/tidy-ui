@@ -15,3 +15,4 @@ export { default as uuid4 } from './utils/uuid4';
 export { default as useIsMounted } from './hooks/useIsMounted';
 export { default as useTheme } from './hooks/useTheme';
 export { default as useTimeout } from './hooks/useTimeout';
+export { default as useWindow } from './hooks/useWindow';
