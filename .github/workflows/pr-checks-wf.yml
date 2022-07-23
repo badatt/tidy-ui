@@ -5,11 +5,10 @@ on:
     types: [opened, synchronize, reopened]
     branches:
       - main
-      - develop
+      - dev
       - 'release/**'
 
 jobs:
-
   vetTestCoverage:
     name: vet, test & coverage
     runs-on: ubuntu-latest

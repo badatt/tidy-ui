@@ -4,9 +4,9 @@ on:
   push:
     branches:
       - main
+      - dev
 
 jobs:
-
   vet:
     name: vet & test
     runs-on: ubuntu-latest
@@ -55,7 +55,6 @@ jobs:
     needs: vet
     runs-on: ubuntu-latest
 
-
     steps:
       - name: Check out the code
         uses: actions/checkout@v2
@@ -80,8 +79,16 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
-      - name: Publish
+      - name: Publish patch version
+        if: github.ref == 'ref/heads/dev'
         run: npx lerna publish patch --conventional-commits --create-release github -y
+        env:
+          GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Publish minor version
+        if: github.ref == 'ref/heads/main'
+        run: npx lerna publish minor --conventional-commits --create-release github -y
         env:
           GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
