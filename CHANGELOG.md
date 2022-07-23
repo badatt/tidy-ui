@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.2](https://github.com/badatt/tidy-ui/compare/v0.2.1...v0.2.2) (2022-07-23)
+
+
+### Features
+
+* useWindow hook ([76cc978](https://github.com/badatt/tidy-ui/commit/76cc978e2f8a6fe71583019d730c14e79c7078b0))
+
+
+
+
+
 ## [0.2.1](https://github.com/badatt/tidy-ui/compare/v0.2.0...v0.2.1) (2022-07-23)
 
 
