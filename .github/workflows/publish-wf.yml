@@ -80,14 +80,14 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
       - name: Publish patch version
-        if: github.ref == 'ref/heads/dev'
+        if: ${{ github.ref == 'refs/heads/dev' }}
         run: npx lerna publish patch --conventional-commits --create-release github -y
         env:
           GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Publish minor version
-        if: github.ref == 'ref/heads/main'
+        if: ${{ github.ref == 'refs/heads/main' }}
         run: npx lerna publish minor --conventional-commits --create-release github -y
         env:
           GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
