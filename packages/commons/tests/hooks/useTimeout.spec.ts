@@ -3,8 +3,8 @@
  */
 
 import { act, renderHook } from '@testing-library/react-hooks/dom';
-import { useTimeout } from '@tidy-ui/commons';
 import sinon from 'sinon';
+import { useTimeout } from '../../src';
 
 describe('useTimeout', () => {
   afterEach(() => {
