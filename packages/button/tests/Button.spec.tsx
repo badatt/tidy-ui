@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 import { ThemeProvider } from 'styled-components';
 import 'jest-styled-components';
 import { CheckCircleIcon, RotatingCircleIcon } from '@tidy-ui/commons';
-import { orchidLight, orchidDark } from '@tidy-ui/theme';
+import { orchidDark, orchidLight } from '@tidy-ui/theme';
 import { Button } from '../src';
 
 describe('Render Button', () => {

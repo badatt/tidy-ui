@@ -4,8 +4,6 @@
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:text",
     "clean": "tsc --build --clean && rimraf -rf dist && rimraf -rf build",
-    "lint": "eslint -c ../../.eslintrc --ext .js,.jsx,.ts,.tsx",
-    "lint-fix": "eslint -c ../../.eslintrc --ext .js,.jsx,.ts,.tsx --fix",
     "postinstall": "rm -rf node_modules/@types/react-native",
     "reset": "yarn clean && rimraf -rf node_modules",
     "vet": "yarn lint",
@@ -27,9 +25,6 @@
     "@rollup/plugin-replace": "^3.0.1",
     "@types/react": "^16.0.0",
     "@types/styled-components": "^5.1.17",
-    "@typescript-eslint/eslint-plugin": "^5.4.0",
-    "@typescript-eslint/parser": "^5.4.0",
-    "eslint": "^8.3.0",
     "is-ci-cli": "^2.2.0",
     "react": "^16.0.0",
     "rollup": "^2.61.1",

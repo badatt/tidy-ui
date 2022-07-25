@@ -1,5 +1,5 @@
 import React from 'react';
-import { styled, css, hsla } from '@tidy-ui/theme';
+import { css, hsla, styled } from '@tidy-ui/theme';
 import { RotatingCircleIcon } from '@tidy-ui/icons';
 import { sizeStyles } from './style';
 import { IButtonProps } from './types';

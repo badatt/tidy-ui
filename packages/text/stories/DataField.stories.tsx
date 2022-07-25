@@ -1,6 +1,6 @@
 import React from 'react';
 import { styled } from '@tidy-ui/theme';
-import { GearIcon, EyeIcon, CheckCircleIcon } from '@tidy-ui/icons';
+import { CheckCircleIcon, EyeIcon, GearIcon } from '@tidy-ui/icons';
 import { DataField } from '../src';
 
 export default {

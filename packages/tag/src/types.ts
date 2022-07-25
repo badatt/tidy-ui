@@ -17,20 +17,6 @@ export interface ITagProps extends HTMLAttributes<HTMLDivElement> {
    * */
   color?: TColor;
 
-  /** Creates outlined tag widget, won't fill
-   * @default false
-   * */
-  outlined?: boolean;
-
-  /**
-   * Desired size of the tag
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
-   *
-   * @type {?('sm' | 'md' | 'lg')}
-   * @default 'md'
-   */
-  magnitude?: 'sm' | 'md' | 'lg';
-
   /**
    * Whether to disable the tag
    * @author Balu Praveen Datty <dev.badatt@gmail.com>
@@ -49,6 +35,15 @@ export interface ITagProps extends HTMLAttributes<HTMLDivElement> {
    */
   icon?: JSX.Element;
 
+  /**
+   * Desired size of the tag
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
+   *
+   * @type {?('sm' | 'md' | 'lg')}
+   * @default 'md'
+   */
+  magnitude?: 'sm' | 'md' | 'lg';
+
   // eslint-disable-next-line  @typescript-eslint/no-explicit-any
   /**
    * Callback (if any) after the tag widget is closed
@@ -57,6 +52,11 @@ export interface ITagProps extends HTMLAttributes<HTMLDivElement> {
    * @type {?((e?: any | undefined) => void)}
    */
   onClose?: (e?: any | undefined) => void;
+
+  /** Creates outlined tag widget, won't fill
+   * @default false
+   * */
+  outlined?: boolean;
 }
 
 /**
@@ -70,6 +70,8 @@ export interface ITagProps extends HTMLAttributes<HTMLDivElement> {
  */
 export interface ITagGroupProps extends HTMLAttributes<HTMLDivElement> {
   color?: TColor;
+  magnitude?: 'sm' | 'md' | 'lg';
+
   /**
    * On add callback
    * @author Balu Praveen Datty <dev.badatt@gmail.com>
@@ -77,6 +79,4 @@ export interface ITagGroupProps extends HTMLAttributes<HTMLDivElement> {
    * @type {?() => void}
    */
   onAddNewTag?: (v: any) => void;
-
-  magnitude?: 'sm' | 'md' | 'lg';
 }

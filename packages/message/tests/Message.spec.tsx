@@ -2,12 +2,12 @@
  * @jest-environment jsdom
  */
 import React from 'react';
-import { render, getByRole, fireEvent, screen } from '@testing-library/react';
+import { fireEvent, getByRole, render, screen } from '@testing-library/react';
 import { act } from 'react-dom/test-utils';
 import '@testing-library/jest-dom';
 import { ThemeProvider } from 'styled-components';
 import 'jest-styled-components';
-import { orchidLight, orchidDark } from '@tidy-ui/theme';
+import { orchidDark, orchidLight } from '@tidy-ui/theme';
 import { Message } from '../src';
 import { TColor } from '@tidy-ui/types';
 
