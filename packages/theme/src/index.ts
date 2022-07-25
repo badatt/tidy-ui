@@ -2,7 +2,7 @@ import baseStyled, { css as baseCss, ThemedStyledInterface, ThemedCssFunction } 
 
 export { defaultBase } from './base';
 export * from './colors';
-export { hsla } from './utils';
+export { hsla, createColor } from './utils';
 
 import { ITidyUITheme } from '@tidy-ui/types';
 export const styled = baseStyled as ThemedStyledInterface<ITidyUITheme>;
