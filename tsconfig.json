@@ -67,12 +67,6 @@
     /* Completeness */
     "skipLibCheck": true
   },
-  "exclude": [
-    "node_modules",
-    "build",
-    "dist",
-    "**/stories/**",
-    "**/tests/**"
-  ],
+  "exclude": ["node_modules", "build", "dist", "**/stories/**", "**/tests/**"],
   "include": ["packages/*/src/**/*"]
 }

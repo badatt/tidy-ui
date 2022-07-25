@@ -1,4 +1,4 @@
-import { IHsla, IColor } from '@tidy-ui/types';
+import { IColor, IHsla } from '@tidy-ui/types';
 
 export const hsla = (p: IHsla, alpha: number = p.alpha) =>
   `hsla(${p.hue}, ${p.saturation}%, ${p.luminosity}%, ${alpha})`;
