@@ -1,20 +1,20 @@
-import { HTMLAttributes, AnchorHTMLAttributes } from 'react';
+import { AnchorHTMLAttributes, HTMLAttributes } from 'react';
 import { TColor, TSize } from '@tidy-ui/types';
 
 export interface IButtonProps extends HTMLAttributes<HTMLButtonElement> {
-  size?: TSize;
-  color?: TColor;
   appearance?: 'primary' | 'outlined' | 'hero' | 'basic' | 'simple';
+  color?: TColor;
   disable?: boolean;
-  loading?: boolean;
-  text?: string;
   icon?: JSX.Element;
+  loading?: boolean;
+  size?: TSize;
   stretch?: boolean;
+  text?: string;
   uppercase?: boolean;
 }
 
 export interface IAnchorProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
-  size?: TSize;
-  newTab?: boolean;
   disable?: boolean;
+  newTab?: boolean;
+  size?: TSize;
 }

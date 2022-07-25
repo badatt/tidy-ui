@@ -7,7 +7,7 @@ import userEvent from '@testing-library/user-event';
 import '@testing-library/jest-dom';
 import { ThemeProvider } from 'styled-components';
 import 'jest-styled-components';
-import { orchidLight, orchidDark } from '@tidy-ui/theme';
+import { orchidDark, orchidLight } from '@tidy-ui/theme';
 import { CheckCircleIcon } from '@tidy-ui/commons';
 import { Tag, TagGroup } from '../src';
 

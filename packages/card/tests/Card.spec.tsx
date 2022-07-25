@@ -2,8 +2,8 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { ThemeProvider } from 'styled-components';
 import 'jest-styled-components';
-import { orchidLight, orchidDark } from '@tidy-ui/theme';
-import { Card, CardHeader, CardBody, CardFooter } from '../src';
+import { orchidDark, orchidLight } from '@tidy-ui/theme';
+import { Card, CardBody, CardFooter, CardHeader } from '../src';
 
 describe('Card', () => {
   test('Default render', () => {

@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 import { ThemeProvider } from 'styled-components';
 import 'jest-styled-components';
 import { orchidLight } from '@tidy-ui/theme';
-import { GearIcon, EyeIcon, CheckCircleIcon } from '@tidy-ui/icons';
+import { CheckCircleIcon, EyeIcon, GearIcon } from '@tidy-ui/icons';
 import { DataField } from '../src';
 
 describe('Text', () => {
