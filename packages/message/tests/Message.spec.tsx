@@ -38,7 +38,18 @@ describe('Message', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-  test('Stretched message with close button', () => {
+  test('Message stretched to full width', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        <Message stretch>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
+          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
+        </Message>
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+  test('Message with close button', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Message closable>
