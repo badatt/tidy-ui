@@ -17,13 +17,11 @@ const Container = styled.div`
 
 export const basic = () => (
   <TagGroup>
-    <Tag size="sm">html</Tag>
+    <Tag magnitude="sm">html</Tag>
     <Tag>typescript</Tag>
-    <Tag size="lg">javascript</Tag>
+    <Tag magnitude="lg">javascript</Tag>
     <Tag disable>cloud</Tag>
-    <Tag icon={<CheckCircleIcon />} noClosable>
-      kotlin
-    </Tag>
+    <Tag icon={<CheckCircleIcon />}>kotlin</Tag>
   </TagGroup>
 );
 

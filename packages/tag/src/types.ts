@@ -17,11 +17,6 @@ export interface ITagProps extends HTMLAttributes<HTMLDivElement> {
    * */
   color?: TColor;
 
-  /** Creates a non closable tag
-   * @default false
-   * */
-  noClosable?: boolean;
-
   /** Creates outlined tag widget, won't fill
    * @default false
    * */
