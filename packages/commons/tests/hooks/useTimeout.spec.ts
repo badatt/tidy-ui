@@ -3,80 +3,94 @@
  */
 
 import { act, renderHook } from '@testing-library/react-hooks/dom';
-import sinon from 'sinon';
 import { useTimeout } from '../../src';
 
 describe('useTimeout', () => {
-  afterEach(() => {
-    sinon.restore();
-  });
-
   test('Should return clear and reset functions', () => {
-    const hook = renderHook(() =>
-      useTimeout(() => {
-        jest.fn();
-      }, 0),
-    );
+    jest.useFakeTimers();
+    const cbSpy = jest.fn();
+    const hook = renderHook(() => useTimeout(cbSpy, 10, true));
     expect(typeof hook.result.current.reset).toEqual('function');
     expect(typeof hook.result.current.clear).toEqual('function');
+    jest.advanceTimersByTime(10);
+    expect(cbSpy).toBeCalled();
+    jest.runAllTimers();
   });
 
   test('With empty callback', () => {
-    const hook = renderHook(() => useTimeout(undefined, 10));
+    jest.useFakeTimers();
+    const hook = renderHook(() => useTimeout(undefined, 10, true));
     expect(typeof hook.result.current.reset).toEqual('function');
     act(() => {
       hook.result.current.reset();
     });
+    jest.advanceTimersByTime(10);
+    jest.runAllTimers();
+  });
+
+  test('With no timeout', () => {
+    jest.useFakeTimers();
+    const hook = renderHook(() => useTimeout(undefined));
+    expect(typeof hook.result.current.reset).toEqual('function');
+    act(() => {
+      hook.result.current.reset();
+    });
+    jest.advanceTimersByTime(10);
+    jest.runAllTimers();
   });
 
   test('With callback disabled', () => {
-    const clock = sinon.useFakeTimers();
-    const cbSpy = sinon.spy();
+    jest.useFakeTimers();
+    const cbSpy = jest.fn();
     const hook = renderHook(() => useTimeout(cbSpy, 10, false));
     act(() => {
       hook.result.current.reset();
     });
-    clock.tick(10);
-    expect(cbSpy.calledOnce).toEqual(false);
+    jest.advanceTimersByTime(10);
+    expect(cbSpy).not.toBeCalled();
+    jest.runAllTimers();
   });
 
   test('Should call passed function after given amount of time', () => {
-    const clock = sinon.useFakeTimers();
-    const cbSpy = sinon.spy();
+    jest.useFakeTimers();
+    const cbSpy = jest.fn();
     renderHook(() => useTimeout(cbSpy, 30));
-    clock.tick(10);
-    expect(cbSpy.calledOnce).toEqual(false);
+    jest.advanceTimersByTime(10);
+    expect(cbSpy).not.toBeCalled();
 
-    clock.tick(20);
-    expect(cbSpy.calledOnce).toEqual(true);
+    jest.advanceTimersByTime(20);
+    expect(cbSpy).toBeCalled();
+    jest.runAllTimers();
   });
 
   test('Should be able to cancel timeout', () => {
-    const clock = sinon.useFakeTimers();
-    const cbSpy = sinon.spy();
+    jest.useFakeTimers();
+    const cbSpy = jest.fn();
     const hook = renderHook(() => useTimeout(cbSpy, 30));
     act(() => {
       hook.result.current.clear();
     });
-    clock.tick(10);
-    expect(cbSpy.calledOnce).toEqual(false);
+    jest.advanceTimersByTime(10);
+    expect(cbSpy).not.toBeCalled();
+    jest.runAllTimers();
   });
 
   test('Should be able to reset timeout', () => {
-    const clock = sinon.useFakeTimers();
-    const cbSpy = sinon.spy();
+    jest.useFakeTimers();
+    const cbSpy = jest.fn();
     const hook = renderHook(() => useTimeout(cbSpy, 40));
     act(() => {
       hook.result.current.clear();
     });
-    clock.tick(10);
-    expect(cbSpy.calledOnce).toEqual(false);
+    jest.advanceTimersByTime(10);
+    expect(cbSpy).not.toBeCalled();
 
     act(() => {
       hook.result.current.reset();
     });
 
-    clock.tick(40);
-    expect(cbSpy.calledOnce).toEqual(true);
+    jest.advanceTimersByTime(40);
+    expect(cbSpy).toBeCalled();
+    jest.runAllTimers();
   });
 });

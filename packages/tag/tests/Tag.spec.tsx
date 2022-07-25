@@ -167,7 +167,7 @@ describe('Tag', () => {
     const tags = ['react', 'java', 'cloud', 'scss'];
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <TagGroup magnitude="sm" onAddNewTag={jest.fn()}>
+        <TagGroup magnitude="sm">
           {tags.map((t) => (
             <Tag magnitude="sm" key={t} onClose={jest.fn()}>
               {t}
@@ -177,5 +177,12 @@ describe('Tag', () => {
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
+    const { container } = tree;
+    const addNewTagBtn = getByRole(container, 'add-new-btn');
+
+    addNewTagBtn.click();
+    const newTagInput = getByRole(container, 'add-new-input');
+    fireEvent.change(newTagInput, { target: { value: 'css' } });
+    fireEvent.blur(newTagInput);
   });
 });

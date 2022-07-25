@@ -91,7 +91,7 @@ const TagGroup = forwardRef<HTMLDivElement, ITagGroupProps>((props, ref) => {
   return (
     <TagGroupRoot ref={ref} role="tag-group" {...rest}>
       {children}
-      {onAddNewTag && renderTagGroupActions()}
+      {renderTagGroupActions()}
     </TagGroupRoot>
   );
 });
