@@ -14,7 +14,6 @@ import {
   CheckCircleIcon,
   CloseIcon,
   DangerousIcon,
-  EmailIcon,
   InfoIcon,
   LaunchIcon,
   RotatingCircleIcon,
@@ -34,8 +33,6 @@ const icons = [
   <CloseIcon outlined />,
   <DangerousIcon />,
   <DangerousIcon outlined />,
-  <EmailIcon />,
-  <EmailIcon outlined />,
   <InfoIcon />,
   <InfoIcon outlined />,
   <LaunchIcon />,
@@ -48,7 +45,13 @@ const icons = [
 
 describe('Icons', () => {
   test('Render icons', () => {
-    const tree = render(<ThemeProvider theme={orchidLight}>{icons.map((icon) => icon)}</ThemeProvider>);
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        {icons.map((icon, index) => (
+          <div key={index}>{icon}</div>
+        ))}
+      </ThemeProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
 });
