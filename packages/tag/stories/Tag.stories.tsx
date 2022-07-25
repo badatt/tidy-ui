@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { styled } from '@tidy-ui/theme';
+
 import { CheckCircleIcon } from '@tidy-ui/commons';
+import { styled } from '@tidy-ui/theme';
 
 import { Tag, TagGroup } from '../src';
 

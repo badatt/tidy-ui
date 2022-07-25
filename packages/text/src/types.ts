@@ -1,4 +1,5 @@
 import { HTMLAttributes } from 'react';
+
 import { TColor } from '@tidy-ui/types';
 
 export interface ITextProps extends HTMLAttributes<HTMLDivElement> {

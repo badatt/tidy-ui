@@ -1,6 +1,7 @@
 import React from 'react';
-import { styled } from '@tidy-ui/theme';
+
 import { CheckCircleIcon, LaunchIcon } from '@tidy-ui/commons';
+import { styled } from '@tidy-ui/theme';
 
 import { Anchor, Button } from '../src';
 

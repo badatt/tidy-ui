@@ -3,6 +3,7 @@
  */
 
 import { act, renderHook } from '@testing-library/react-hooks/dom';
+
 import { useTimeout } from '../../src';
 
 describe('useTimeout', () => {

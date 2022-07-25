@@ -1,7 +1,8 @@
 import { css, styled } from '@tidy-ui/theme';
 import { IPalette } from '@tidy-ui/types';
-import { IMessageProps } from './types';
+
 import { filledContent, filledLabel, outlinedContent, outlinedLabel } from './styles';
+import { IMessageProps } from './types';
 
 const MessageRoot = styled.div<IMessageProps>`
   ${({ stretch }) => css`
@@ -74,4 +75,4 @@ const Header = styled.div<IMessageProps>`
   `}
 `;
 
-export { MessageRoot, CloseButton, MessageContent, Header, MessageLabel };
+export { CloseButton, Header, MessageContent, MessageLabel, MessageRoot };

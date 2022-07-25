@@ -1,5 +1,7 @@
 import React from 'react';
+
 import { css, styled } from '@tidy-ui/theme';
+
 import { IPaperProps } from './types';
 
 const PaperRoot = styled.section<IPaperProps>`

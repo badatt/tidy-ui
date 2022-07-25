@@ -1,5 +1,7 @@
-import { css, styled } from '@tidy-ui/theme';
 import React from 'react';
+
+import { css, styled } from '@tidy-ui/theme';
+
 import { IBadgeProps } from './types';
 
 const BadgeRoot = styled.span<IBadgeProps>`
