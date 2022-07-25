@@ -6,7 +6,7 @@
     "build": "npx lerna exec -- yarn build",
     "clean": "rimraf -rf coverage && npx lerna exec -- yarn clean",
     "dev": "start-storybook -p 5555",
-    "format": "prettier \"**/*.{js,jsx,json,yml,yaml,css,less,scss,ts,tsx,md,graphql,mdx}\" --loglevel warn",
+    "format": "prettier \"**/*.{js,jsx,json,yml,yaml,css,less,scss,ts,tsx,md,graphql,mdx}\" --check --loglevel warn",
     "format-fix": "prettier \"**/*.{js,jsx,json,yml,yaml,css,less,scss,ts,tsx,md,graphql,mdx}\" --write --loglevel warn",
     "generate": "plop --plopfile internals/generators/index.js",
     "lint": "eslint . -c .eslintrc --ext .js,.jsx,.ts,.tsx",
