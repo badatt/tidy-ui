@@ -3,6 +3,7 @@
  */
 import React from 'react';
 import { render, getByRole, fireEvent } from '@testing-library/react';
+import { act } from 'react-dom/test-utils';
 import '@testing-library/jest-dom';
 import { ThemeProvider } from 'styled-components';
 import 'jest-styled-components';
@@ -232,11 +233,13 @@ describe('Message', () => {
     const { container } = tree;
     const closeButton = getByRole(container, 'close-btn');
     expect(closeButton).toBeVisible();
-    fireEvent.click(closeButton);
+    act(() => {
+      fireEvent.click(closeButton);
+    });
     expect(closeButton).not.toBeVisible();
   });
   test('Closable message with an onClose callback', () => {
-    const mockCallback = jest.fn(() => console.log('Mock Callback'));
+    const mockCallback = jest.fn();
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Message closable onClose={mockCallback} outlined>
@@ -249,7 +252,9 @@ describe('Message', () => {
     const { container } = tree;
     const closeButton = getByRole(container, 'close-btn');
     expect(closeButton).toBeVisible();
-    fireEvent.click(closeButton);
+    act(() => {
+      fireEvent.click(closeButton);
+    });
     expect(closeButton).not.toBeVisible();
     expect(mockCallback).toBeCalled();
   });
@@ -273,7 +278,7 @@ describe('Message', () => {
   });
   test('Auto close message with onClose callback', () => {
     jest.useFakeTimers();
-    const mockCallback = jest.fn(() => console.log('Mock Callback'));
+    const mockCallback = jest.fn();
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Message duration={2000} onClose={mockCallback}>
