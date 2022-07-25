@@ -4,22 +4,28 @@
     "node": true
   },
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint", "typescript-sort-keys"],
+  "plugins": ["@typescript-eslint", "typescript-sort-keys", "sort-keys"],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "plugin:jsonc/recommended-with-jsonc"
   ],
   "rules": {
+    "sort-keys": 0, // disable default eslint sort-keys
+    "sort-keys/sort-keys-fix": 1,
     "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/no-var-requires": "off",
-    "typescript-sort-keys/interface": [
+    "jsonc/sort-keys": [
       "error",
       "asc",
-      { "caseSensitive": true, "natural": false, "requiredFirst": false }
+      {
+        "natural": true,
+        "minKeys": 2
+      }
     ],
-    "typescript-sort-keys/string-enum": ["error", "asc", { "caseSensitive": true }],
-    "sort-keys": ["error", "asc", { "caseSensitive": true, "natural": false, "minKeys": 2 }],
+    "typescript-sort-keys/interface": ["error", "asc", { "natural": true }],
+    "typescript-sort-keys/string-enum": ["error", "asc", { "natural": true }],
     "sort-imports": [
       "error",
       {

@@ -6,9 +6,6 @@ const basePath = path.resolve(__dirname, 'packages');
 const packages = readdirSync(basePath).filter((name) => lstatSync(path.join(basePath, name)).isDirectory());
 
 module.exports = {
-  preset: 'ts-jest',
-  testEnvironment: 'node',
-
   moduleNameMapper: {
     '^.+\\.(css|less|scss)$': 'babel-jest',
     ...packages.reduce(
@@ -20,4 +17,6 @@ module.exports = {
     ),
   },
   modulePathIgnorePatterns: [...packages.reduce((acc, name) => [...acc, `<rootDir>/packages/${name}/dist`], [])],
+  preset: 'ts-jest',
+  testEnvironment: 'node',
 };
