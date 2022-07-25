@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 import React from 'react';
-import { render, getByRole, fireEvent } from '@testing-library/react';
+import { render, getByRole, fireEvent, screen } from '@testing-library/react';
 import { act } from 'react-dom/test-utils';
 import '@testing-library/jest-dom';
 import { ThemeProvider } from 'styled-components';
@@ -220,7 +220,7 @@ describe('Message', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-  test('Closable message', () => {
+  test('Closable message without any callback', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
         <Message closable outlined>
@@ -258,59 +258,20 @@ describe('Message', () => {
     expect(closeButton).not.toBeVisible();
     expect(mockCallback).toBeCalled();
   });
-  test('Auto close message', () => {
-    jest.useFakeTimers();
-    const tree = render(
-      <ThemeProvider theme={orchidLight}>
-        <Message duration={2000}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
-          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </Message>
-      </ThemeProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-    const { container } = tree;
-    const message = getByRole(container, 'message');
-    setTimeout(() => {
-      expect(message).not.toBeVisible();
-    }, 2500);
-    jest.runAllTimers();
-  });
-  test('Auto close message with onClose callback', () => {
+  test('Closable message with duration and onClose callback', () => {
     jest.useFakeTimers();
     const mockCallback = jest.fn();
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Message duration={2000} onClose={mockCallback}>
+        <Message closable duration={2000} onClose={mockCallback} outlined>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
           eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </Message>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
-    const { container } = tree;
-    const message = getByRole(container, 'message');
     setTimeout(() => {
       expect(mockCallback).toBeCalled();
-      expect(message).not.toBeVisible();
-    }, 2500);
-    jest.runAllTimers();
-  });
-  test('Auto close message with null callback', () => {
-    jest.useFakeTimers();
-    const tree = render(
-      <ThemeProvider theme={orchidLight}>
-        <Message duration={2000} onClose={undefined}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
-          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </Message>
-      </ThemeProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-    const { container } = tree;
-    const message = getByRole(container, 'message');
-    setTimeout(() => {
-      expect(message).not.toBeVisible();
     }, 2500);
     jest.runAllTimers();
   });

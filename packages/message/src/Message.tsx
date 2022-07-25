@@ -16,23 +16,15 @@ const Message = forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
 
   const isMounted = useIsMounted();
   const [isHidden, setHidden] = useState<boolean>(false);
-
-  const { clear } = useTimeout(
-    () => {
-      setHidden(true);
-      onClose?.();
-    },
-    duration,
-    typeof duration === 'number' && duration > 0,
-  );
+  const { clear } = useTimeout(onClose, duration, typeof duration === 'number' && duration > 0);
 
   const handleClose = useCallback(
     (e: MouseEvent<HTMLElement>) => {
+      onClose?.(e);
+      clear();
       if (isMounted()) {
-        clear();
         setHidden(true);
       }
-      onClose?.(e);
     },
     [isMounted, onClose, clear],
   );
