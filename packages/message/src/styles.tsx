@@ -1,5 +1,4 @@
 import { css, hsla } from '@tidy-ui/theme';
-
 import { IMessageProps } from './types';
 
 const filledLabel = css<IMessageProps>`

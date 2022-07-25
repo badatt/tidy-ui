@@ -1,8 +1,6 @@
 import React from 'react';
-
 import { DangerousIcon } from '@tidy-ui/commons';
 import { styled } from '@tidy-ui/theme';
-
 import { Badge } from '../src';
 
 export default {

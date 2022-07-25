@@ -1,5 +1,4 @@
 import { HTMLAttributes, ReactNode } from 'react';
-
 import { TColor } from '@tidy-ui/types';
 
 export interface IMessageProps extends HTMLAttributes<HTMLDivElement> {

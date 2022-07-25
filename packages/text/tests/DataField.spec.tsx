@@ -2,10 +2,8 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { ThemeProvider } from 'styled-components';
 import 'jest-styled-components';
-
 import { CheckCircleIcon, EyeIcon, GearIcon } from '@tidy-ui/icons';
 import { orchidLight } from '@tidy-ui/theme';
-
 import { DataField } from '../src';
 
 describe('Text', () => {

@@ -1,8 +1,6 @@
 import React from 'react';
-
 import { LaunchIcon } from '@tidy-ui/commons';
 import { css, styled } from '@tidy-ui/theme';
-
 import { ICardFooterProps, ICardHeaderProps, ICardProps } from './types';
 
 const CardHeaderRoot = styled.header<ICardHeaderProps>`
