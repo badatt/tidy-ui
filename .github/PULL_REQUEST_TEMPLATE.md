@@ -1,6 +1,6 @@
 # Description
 
-Please include a summary of the change and which issue is fixed. List any dependencies that are required for this change. 
+Please include a summary of the change and which issue is fixed. List any dependencies that are required for this change.
 
 Fixes # (issue) - Link to Issue
 
@@ -17,7 +17,7 @@ Please delete options that are not relevant.
 
 Please describe how the other user's should test the functionality of this PR with clear instruction.
 
-## Important Notes 
+## Important Notes
 
 Please add any important pieces of code or functionality that must be reviewed in more detail. This may include changing the way we normally do something.
 
