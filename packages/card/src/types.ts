@@ -1,5 +1,4 @@
 import { HTMLAttributes } from 'react';
-
 import { TColor } from '@tidy-ui/types';
 
 export interface ICardProps extends HTMLAttributes<HTMLDivElement> {

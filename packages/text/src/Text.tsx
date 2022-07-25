@@ -1,7 +1,5 @@
 import React from 'react';
-
 import { css, styled } from '@tidy-ui/theme';
-
 import { ITextProps } from './types';
 
 const StyledText = styled.div<ITextProps>`
