@@ -1,5 +1,5 @@
-import { HTMLAttributes } from 'react';
 import { TColor } from '@tidy-ui/types';
+import { HTMLAttributes } from 'react';
 
 /**
  * Tag properties
@@ -44,13 +44,13 @@ export interface ITagProps extends HTMLAttributes<HTMLDivElement> {
    */
   magnitude?: 'sm' | 'md' | 'lg';
 
-  // eslint-disable-next-line  @typescript-eslint/no-explicit-any
   /**
    * Callback (if any) after the tag widget is closed
    * @author Balu Praveen Datty <dev.badatt@gmail.com>
    *
    * @type {?((e?: any | undefined) => void)}
    */
+  // eslint-disable-next-line  @typescript-eslint/no-explicit-any
   onClose?: (e?: any | undefined) => void;
 
   /** Creates outlined tag widget, won't fill
@@ -78,5 +78,6 @@ export interface ITagGroupProps extends HTMLAttributes<HTMLDivElement> {
    *
    * @type {?() => void}
    */
+  // eslint-disable-next-line  @typescript-eslint/no-explicit-any
   onAddNewTag?: (v: any) => void;
 }
