@@ -1,5 +1,5 @@
 import React, { forwardRef, useState } from 'react';
-import { styled, css, hsla } from '@tidy-ui/theme';
+import { css, hsla, styled } from '@tidy-ui/theme';
 import { AddCircleIcon } from '@tidy-ui/commons';
 import { ITagGroupProps } from './types';
 import { sizeStyles } from './style';

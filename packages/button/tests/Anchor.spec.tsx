@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { ThemeProvider } from 'styled-components';
 import 'jest-styled-components';
-import { orchidLight, orchidDark } from '@tidy-ui/theme';
+import { orchidDark, orchidLight } from '@tidy-ui/theme';
 import { Anchor } from '../src';
 
 describe('Render Anchor', () => {

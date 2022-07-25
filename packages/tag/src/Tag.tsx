@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
-import { styled, css } from '@tidy-ui/theme';
+import { css, styled } from '@tidy-ui/theme';
 import { CloseIcon } from '@tidy-ui/commons';
 import { ITagProps } from './types';
-import { sizeStyles, filledContent, outlinedContent } from './style';
+import { filledContent, outlinedContent, sizeStyles } from './style';
 
 const TagRoot = styled.div<ITagProps>`
   ${({ outlined, magnitude, disable }) => css`

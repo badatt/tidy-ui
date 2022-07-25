@@ -1,7 +1,7 @@
 import { css, styled } from '@tidy-ui/theme';
 import { IPalette } from '@tidy-ui/types';
 import { IMessageProps } from './types';
-import { filledLabel, outlinedLabel, filledContent, outlinedContent } from './styles';
+import { filledContent, filledLabel, outlinedContent, outlinedLabel } from './styles';
 
 const MessageRoot = styled.div<IMessageProps>`
   ${({ stretch }) => css`
