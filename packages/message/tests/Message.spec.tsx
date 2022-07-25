@@ -9,9 +9,12 @@ import { ThemeProvider } from 'styled-components';
 import 'jest-styled-components';
 import { orchidLight, orchidDark } from '@tidy-ui/theme';
 import { Message } from '../src';
+import { TColor } from '@tidy-ui/types';
+
+const colors = ['major', 'minor', 'neutral', 'info', 'success', 'warning', 'danger'];
 
 describe('Message', () => {
-  test('Default render', () => {
+  test('Basic render', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Message>
@@ -22,10 +25,23 @@ describe('Message', () => {
     );
     expect(tree).toMatchSnapshot();
   });
+  test('Message with all color variants', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        {colors.map((c) => (
+          <Message color={c as TColor} key={c}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
+            eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
+          </Message>
+        ))}
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
   test('Stretched message with close button', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Message stretch closable>
+        <Message closable>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
           eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </Message>
