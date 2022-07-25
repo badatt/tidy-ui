@@ -14,7 +14,7 @@ describe('useTimeout', () => {
   test('Should return clear and reset functions', () => {
     const hook = renderHook(() =>
       useTimeout(() => {
-        console.log('test useTimeout');
+        jest.fn();
       }, 0),
     );
     expect(typeof hook.result.current.reset).toEqual('function');

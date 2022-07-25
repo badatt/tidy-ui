@@ -23,7 +23,7 @@ describe('Tag', () => {
   test('Closable tag', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Tag onClose={() => console.log('Called onClose')}>html</Tag>
+        <Tag onClose={jest.fn()}>html</Tag>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -99,7 +99,7 @@ describe('Tag', () => {
           <Tag>typescript</Tag>
           <Tag magnitude="lg">javascript</Tag>
           <Tag disable>cloud</Tag>
-          <Tag icon={<CheckCircleIcon />} onClose={() => console.log('Clicked onClose')}>
+          <Tag icon={<CheckCircleIcon />} onClose={jest.fn()}>
             kotlin
           </Tag>
         </TagGroup>
