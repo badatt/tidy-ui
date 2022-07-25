@@ -1,8 +1,8 @@
-import React, { forwardRef, useState } from 'react';
-import { css, hsla, styled } from '@tidy-ui/theme';
 import { AddCircleIcon } from '@tidy-ui/commons';
-import { ITagGroupProps } from './types';
+import { css, hsla, styled } from '@tidy-ui/theme';
+import React, { forwardRef, useState } from 'react';
 import { sizeStyles } from './style';
+import { ITagGroupProps } from './types';
 
 const TagGroupRoot = styled.div<ITagGroupProps>`
   display: flex;
@@ -59,6 +59,7 @@ const TagGroup = forwardRef<HTMLDivElement, ITagGroupProps>((props, ref) => {
     setInputValue('');
   };
 
+  // eslint-disable-next-line  @typescript-eslint/no-explicit-any
   const handleEnterKeyPress = (e: any) => {
     if (e.keyCode == 13) {
       handleInputConfirm();
@@ -71,6 +72,7 @@ const TagGroup = forwardRef<HTMLDivElement, ITagGroupProps>((props, ref) => {
         <NewTagInput
           {...rest}
           value={inputValue}
+          // eslint-disable-next-line  @typescript-eslint/no-explicit-any
           onChange={(e: any) => setInputValue(e.target.value)}
           onBlur={handleInputConfirm}
           onKeyDown={handleEnterKeyPress}
