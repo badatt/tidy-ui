@@ -1,5 +1,5 @@
 import { css, hsla } from '@tidy-ui/theme';
-import { ITagGroupProps, ITagProps } from './types';
+import { ITagProps } from './types';
 
 export const sizeStyles = {
   lg: {
