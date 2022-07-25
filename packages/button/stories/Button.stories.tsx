@@ -1,6 +1,6 @@
 import React from 'react';
 import { styled } from '@tidy-ui/theme';
-import { LaunchIcon, EmailIcon } from '@tidy-ui/commons';
+import { LaunchIcon, CheckCircleIcon } from '@tidy-ui/commons';
 
 import { Anchor, Button } from '../src';
 
@@ -131,7 +131,7 @@ export const others = () => (
     <Button text="disabled" appearance="primary" color="minor" disable />
     <Button text="full width" appearance="outlined" color="major" stretch />
     <Button text="Settings" icon={<LaunchIcon />} />
-    <Button appearance="primary" color="major" icon={<EmailIcon />} />
+    <Button appearance="primary" color="major" icon={<CheckCircleIcon />} />
     <Button icon={<LaunchIcon />} color="neutral" />
   </Container>
 );

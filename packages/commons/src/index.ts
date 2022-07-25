@@ -5,7 +5,6 @@ export { default as CancelIcon } from './icons/CancelIcon';
 export { default as CheckCircleIcon } from './icons/CheckCircleIcon';
 export { default as CloseIcon } from './icons/CloseIcon';
 export { default as DangerousIcon } from './icons/DangerousIcon';
-export { default as EmailIcon } from './icons/EmailIcon';
 export { default as InfoIcon } from './icons/InfoIcon';
 export { default as LaunchIcon } from './icons/LaunchIcon';
 export { default as RotatingCircleIcon } from './icons/RotatingCircleIcon';
