@@ -1,10 +1,10 @@
-import { nodeResolve } from '@rollup/plugin-node-resolve';
-import nodePolyfills from 'rollup-plugin-node-polyfills';
-import typescript from 'rollup-plugin-typescript2';
-import json from 'rollup-plugin-json';
 import commonjs from '@rollup/plugin-commonjs';
-import { terser } from 'rollup-plugin-terser';
+import { nodeResolve } from '@rollup/plugin-node-resolve';
 import replace from '@rollup/plugin-replace';
+import json from 'rollup-plugin-json';
+import nodePolyfills from 'rollup-plugin-node-polyfills';
+import { terser } from 'rollup-plugin-terser';
+import typescript from 'rollup-plugin-typescript2';
 
 const packageJson = process.env.PACKAGE_NAME && require(`./packages/${process.env.PACKAGE_NAME}/package.json`);
 

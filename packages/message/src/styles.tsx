@@ -1,4 +1,5 @@
 import { css, hsla } from '@tidy-ui/theme';
+
 import { IMessageProps } from './types';
 
 const filledLabel = css<IMessageProps>`
@@ -32,4 +33,4 @@ const outlinedContent = css<IMessageProps>`
   `}
 `;
 
-export { filledLabel, outlinedLabel, filledContent, outlinedContent };
+export { filledContent, filledLabel, outlinedContent, outlinedLabel };

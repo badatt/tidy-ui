@@ -1,14 +1,16 @@
 /**
  * @jest-environment jsdom
  */
-import '@testing-library/jest-dom';
-import { fireEvent, getByRole, render } from '@testing-library/react';
-import { orchidDark, orchidLight } from '@tidy-ui/theme';
-import { TColor } from '@tidy-ui/types';
-import 'jest-styled-components';
 import React from 'react';
 import { act } from 'react-dom/test-utils';
+import { fireEvent, getByRole, render } from '@testing-library/react';
 import { ThemeProvider } from 'styled-components';
+import '@testing-library/jest-dom';
+import 'jest-styled-components';
+
+import { orchidDark, orchidLight } from '@tidy-ui/theme';
+import { TColor } from '@tidy-ui/types';
+
 import { Message } from '../src';
 
 const colors = ['major', 'minor', 'neutral', 'info', 'success', 'warning', 'danger'];

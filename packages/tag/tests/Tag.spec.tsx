@@ -1,13 +1,15 @@
 /**
  * @jest-environment jsdom
  */
-import '@testing-library/jest-dom';
+import React from 'react';
 import { fireEvent, getByRole, render } from '@testing-library/react';
+import { ThemeProvider } from 'styled-components';
+import '@testing-library/jest-dom';
+import 'jest-styled-components';
+
 import { CheckCircleIcon } from '@tidy-ui/commons';
 import { orchidDark, orchidLight } from '@tidy-ui/theme';
-import 'jest-styled-components';
-import React from 'react';
-import { ThemeProvider } from 'styled-components';
+
 import { Tag, TagGroup } from '../src';
 
 describe('Tag', () => {
