@@ -1,14 +1,13 @@
 /**
  * @jest-environment jsdom
  */
-import React, { useState } from 'react';
-import { fireEvent, getByRole, render } from '@testing-library/react';
-import userEvent from '@testing-library/user-event';
 import '@testing-library/jest-dom';
-import { ThemeProvider } from 'styled-components';
-import 'jest-styled-components';
-import { orchidDark, orchidLight } from '@tidy-ui/theme';
+import { fireEvent, getByRole, render } from '@testing-library/react';
 import { CheckCircleIcon } from '@tidy-ui/commons';
+import { orchidDark, orchidLight } from '@tidy-ui/theme';
+import 'jest-styled-components';
+import React from 'react';
+import { ThemeProvider } from 'styled-components';
 import { Tag, TagGroup } from '../src';
 
 describe('Tag', () => {
@@ -108,38 +107,6 @@ describe('Tag', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-
-  /* test('TagGroup mutating containing Tags', () => {
-    const tags = ['react', 'java', 'cloud', 'scss'];
-    const tree = render(
-      <ThemeProvider theme={orchidLight}>
-        <TagGroup magnitude="sm" onAddNewTag={jest.fn()}>
-          {tags.map((t) => (
-            <Tag magnitude="sm" key={t} onClose={jest.fn()}>
-              {t}
-            </Tag>
-          ))}
-        </TagGroup>
-      </ThemeProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-  });
-
-  test('TagGroup mutating containing Tags in dark mode', () => {
-    const tags = ['react', 'java', 'cloud', 'scss'];
-    const tree = render(
-      <ThemeProvider theme={orchidDark}>
-        <TagGroup magnitude="sm" onAddNewTag={() => console.log('onAddNewTag')}>
-          {tags.map((t) => (
-            <Tag magnitude="sm" key={t} onClose={jest.fn()}>
-              {t}
-            </Tag>
-          ))}
-        </TagGroup>
-      </ThemeProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-  }); */
 
   test('TagGroup mutating by bluing the input', () => {
     const tags = ['react', 'java', 'cloud', 'scss'];
