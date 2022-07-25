@@ -2,11 +2,11 @@ import { ITidyUIBaseTheme } from '@tidy-ui/types';
 
 export const defaultBase: ITidyUIBaseTheme = {
   breakpoints: {
-    xs: 0,
-    sm: 600,
-    md: 900,
     lg: 1200,
+    md: 900,
+    sm: 600,
     xl: 1536,
+    xs: 0,
   },
   layout: {
     radius: '0.5rem',
@@ -14,11 +14,35 @@ export const defaultBase: ITidyUIBaseTheme = {
       'rgb(255, 255, 255) 0px 0px 0px 0px, rgba(15, 23, 42, 0.05) 0px 0px 0px 1px, rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.1) 0px 8px 10px -6px',
   },
   typography: {
+    body1: {
+      fontSize: '1rem',
+      fontWeight: 400,
+      letterSpacing: '0.00938em',
+      lineHeight: 1.5,
+    },
+    body2: {
+      fontSize: '0.875rem',
+      fontWeight: 400,
+      letterSpacing: '0.01071em',
+      lineHeight: 1.43,
+    },
+    caption: {
+      fontSize: '0.75rem',
+      fontWeight: 400,
+      letterSpacing: '0.03333em',
+      lineHeight: 1.66,
+    },
+    code: {
+      fontSize: '0.75rem',
+      fontWeight: 400,
+      letterSpacing: '0.03333em',
+      lineHeight: 1.66,
+    },
     fontSize: '0.875rem',
+    fontWeightBold: 700,
     fontWeightLight: 200,
     fontWeightMedium: 400,
     fontWeightRegular: 500,
-    fontWeightBold: 700,
     h1: {
       fontSize: '6rem',
       fontWeight: 300,
@@ -61,17 +85,17 @@ export const defaultBase: ITidyUIBaseTheme = {
       letterSpacing: '-0.01562em',
       lineHeight: 1.167,
     },
-    title1: {
-      fontSize: '3.75rem',
-      fontWeight: 300,
-      letterSpacing: '-0.00833em',
-      lineHeight: 1.2,
-    },
-    title2: {
-      fontSize: '3rem',
+    p: {
+      fontSize: '1rem',
       fontWeight: 400,
-      letterSpacing: '0em',
-      lineHeight: 1.167,
+      letterSpacing: '0.00938em',
+      lineHeight: 1.5,
+    },
+    span: {
+      fontSize: '0.875rem',
+      fontWeight: 400,
+      letterSpacing: '0.01071em',
+      lineHeight: 1.43,
     },
     subtitle1: {
       fontSize: '2.125rem',
@@ -85,41 +109,17 @@ export const defaultBase: ITidyUIBaseTheme = {
       letterSpacing: '0em',
       lineHeight: 1.334,
     },
-    body1: {
-      fontSize: '1rem',
-      fontWeight: 400,
-      letterSpacing: '0.00938em',
-      lineHeight: 1.5,
+    title1: {
+      fontSize: '3.75rem',
+      fontWeight: 300,
+      letterSpacing: '-0.00833em',
+      lineHeight: 1.2,
     },
-    body2: {
-      fontSize: '0.875rem',
+    title2: {
+      fontSize: '3rem',
       fontWeight: 400,
-      letterSpacing: '0.01071em',
-      lineHeight: 1.43,
-    },
-    p: {
-      fontSize: '1rem',
-      fontWeight: 400,
-      letterSpacing: '0.00938em',
-      lineHeight: 1.5,
-    },
-    caption: {
-      fontSize: '0.75rem',
-      fontWeight: 400,
-      letterSpacing: '0.03333em',
-      lineHeight: 1.66,
-    },
-    span: {
-      fontSize: '0.875rem',
-      fontWeight: 400,
-      letterSpacing: '0.01071em',
-      lineHeight: 1.43,
-    },
-    code: {
-      fontSize: '0.75rem',
-      fontWeight: 400,
-      letterSpacing: '0.03333em',
-      lineHeight: 1.66,
+      letterSpacing: '0em',
+      lineHeight: 1.167,
     },
   },
 };

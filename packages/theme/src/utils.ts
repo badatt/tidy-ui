@@ -5,11 +5,11 @@ export const hsla = (p: IHsla, alpha: number = p.alpha) =>
 
 export const createColor = (p: Record<number, IHsla>): IColor => {
   return {
-    50: hsla(p[50]),
     100: hsla(p[100]),
     200: hsla(p[200]),
     300: hsla(p[300]),
     400: hsla(p[400]),
+    50: hsla(p[50]),
     500: hsla(p[500]),
     600: hsla(p[600]),
     700: hsla(p[700]),

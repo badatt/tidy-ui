@@ -142,9 +142,9 @@ Button.defaultProps = {
   color: 'major',
   disable: false,
   loading: false,
-  text: '',
   size: 'md',
   stretch: false,
+  text: '',
   uppercase: false,
 };
 

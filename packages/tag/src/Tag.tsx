@@ -48,8 +48,8 @@ const Tag = forwardRef<HTMLDivElement, ITagProps>((props, ref) => {
 
 Tag.defaultProps = {
   color: 'major',
-  outlined: false,
   magnitude: 'md',
+  outlined: false,
 };
 
 export { Tag };
