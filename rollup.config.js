@@ -16,19 +16,20 @@ const deps = formattedDeps(packageJson);
 const extensions = ['.js', '.jsx', '.ts', '.tsx'];
 
 export default {
+  external: (id) => deps.includes(id),
   input: 'src/index.ts',
   output: [
     {
-      format: 'cjs',
-      file: packageJson.main,
       banner: '/* eslint-disable */',
       exports: 'auto',
+      file: packageJson.main,
+      format: 'cjs',
     },
     {
-      format: 'es',
-      file: packageJson.module,
       banner: '/* eslint-disable */',
       exports: 'auto',
+      file: packageJson.module,
+      format: 'es',
     },
   ],
   plugins: [
@@ -43,5 +44,4 @@ export default {
     terser(),
     typescript(),
   ],
-  external: (id) => deps.includes(id),
 };
