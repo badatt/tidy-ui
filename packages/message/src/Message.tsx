@@ -1,5 +1,4 @@
 import React, { forwardRef, MouseEvent, useCallback, useState } from 'react';
-
 import {
   CancelIcon,
   CheckCircleIcon,
@@ -9,7 +8,6 @@ import {
   useTimeout,
   WarningIcon,
 } from '@tidy-ui/commons';
-
 import { CloseButton, Header, MessageContent, MessageLabel, MessageRoot } from './components';
 import { IMessageProps } from './types';
 

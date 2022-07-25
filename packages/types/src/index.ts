@@ -1,5 +1,4 @@
 import { HTMLAttributes } from 'react';
-
 import { ITidyUIBaseTheme as IITidyUIBaseTheme } from './theme/base';
 export * from './theme/base';
 

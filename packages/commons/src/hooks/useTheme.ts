@@ -1,5 +1,4 @@
 import { useTheme as useStyledTheme } from 'styled-components';
-
 import { ITidyUITheme } from '@tidy-ui/types';
 
 const useTheme = () => {

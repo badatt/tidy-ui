@@ -7,10 +7,8 @@ import { fireEvent, getByRole, render } from '@testing-library/react';
 import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-
 import { orchidDark, orchidLight } from '@tidy-ui/theme';
 import { TColor } from '@tidy-ui/types';
-
 import { Message } from '../src';
 
 const colors = ['major', 'minor', 'neutral', 'info', 'success', 'warning', 'danger'];

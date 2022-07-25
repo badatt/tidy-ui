@@ -3,7 +3,6 @@
  */
 
 import { renderHook } from '@testing-library/react-hooks/dom';
-
 import { useIsMounted } from '../../src';
 
 describe('useIsMounted', () => {

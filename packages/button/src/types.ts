@@ -1,5 +1,4 @@
 import { AnchorHTMLAttributes, HTMLAttributes } from 'react';
-
 import { TColor, TSize } from '@tidy-ui/types';
 
 export interface IButtonProps extends HTMLAttributes<HTMLButtonElement> {

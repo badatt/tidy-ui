@@ -1,8 +1,6 @@
 import React, { forwardRef } from 'react';
-
 import { CloseIcon } from '@tidy-ui/commons';
 import { css, styled } from '@tidy-ui/theme';
-
 import { filledContent, outlinedContent, sizeStyles } from './style';
 import { ITagProps } from './types';
 

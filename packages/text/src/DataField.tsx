@@ -1,7 +1,5 @@
 import React from 'react';
-
 import { css, styled } from '@tidy-ui/theme';
-
 import { IDataFieldProps } from './types';
 
 const DL = styled.dl<IDataFieldProps>`

@@ -30,18 +30,19 @@
       "error",
       {
         "groups": [
-          // Packages `react` related packages come first.
-          // Side effect imports.
-          ["^react", "^@?\\w", "^\\u0000"],
-          // Internal packages.
-          ["^(@|components)(/.*|$)"],
-          ["^(@tidy-ui)(/.*|$)"],
-          // Parent imports. Put `..` last.
-          ["^\\.\\.(?!/?$)", "^\\.\\./?$"],
-          // Other relative imports. Put same-folder imports and `.` last.
-          ["^\\./(?=.*/)(?!/?$)", "^\\.(?!/?$)", "^\\./?$"],
-          // Style imports.
-          ["^.+\\.?(css)$"]
+          // Import order into one group
+          [
+            "^react",
+            "^@?\\w",
+            "^\\u0000",
+            "^(@tidy-ui)(/.*|$)",
+            "^\\.\\.(?!/?$)",
+            "^\\.\\./?$",
+            "^\\./(?=.*/)(?!/?$)",
+            "^\\.(?!/?$)",
+            "^\\./?$",
+            "^.+\\.?(css)$"
+          ]
         ]
       }
     ],
