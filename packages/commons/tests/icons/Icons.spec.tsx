@@ -8,20 +8,30 @@ import { ThemeProvider } from 'styled-components';
 import 'jest-styled-components';
 import { orchidLight } from '@tidy-ui/theme';
 import {
+  AddCircleIcon,
+  AddIcon,
   CancelIcon,
   CheckCircleIcon,
+  CloseIcon,
   DangerousIcon,
   EmailIcon,
   InfoIcon,
   LaunchIcon,
   RotatingCircleIcon,
+  WarningIcon,
 } from '../../src';
 
 const icons = [
+  <AddCircleIcon />,
+  <AddCircleIcon outlined />,
+  <AddIcon />,
+  <AddIcon outlined />,
   <CancelIcon />,
   <CancelIcon outlined />,
   <CheckCircleIcon />,
   <CheckCircleIcon outlined />,
+  <CloseIcon />,
+  <CloseIcon outlined />,
   <DangerousIcon />,
   <DangerousIcon outlined />,
   <EmailIcon />,
@@ -32,6 +42,8 @@ const icons = [
   <LaunchIcon outlined />,
   <RotatingCircleIcon />,
   <RotatingCircleIcon outlined />,
+  <WarningIcon />,
+  <WarningIcon outlined />,
 ];
 
 describe('Icons', () => {

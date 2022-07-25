@@ -4132,6 +4132,11 @@
     "@babel/runtime" "^7.12.5"
     "@testing-library/dom" "^8.0.0"
 
+"@testing-library/user-event@^14.3.0":
+  version "14.3.0"
+  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-14.3.0.tgz#0a6750b94b40e4739706d41e8efc2ccf64d2aad9"
+  integrity sha512-P02xtBBa8yMaLhK8CzJCIns8rqwnF6FxhR9zs810flHOBXUYCFjLd8Io1rQrAkQRWEmW2PGdZIEdMxf/KLsqFA==
+
 "@tidy-ui/commons@^0.0.39":
   version "0.0.39"
   resolved "https://registry.yarnpkg.com/@tidy-ui/commons/-/commons-0.0.39.tgz#bf3d06986a5854acab5d7ad9fea34fa2237f1af1"

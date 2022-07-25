@@ -32,13 +32,13 @@ const TagIcon = styled.i<ITagProps>`
 `;
 
 const Tag = forwardRef<HTMLDivElement, ITagProps>((props, ref) => {
-  const { children, icon, noClosable, onClose, ...rest } = props;
+  const { children, icon, onClose, ...rest } = props;
   return (
     <TagRoot ref={ref} role="tag" {...rest}>
       {icon && <TagIcon {...rest}>{icon}</TagIcon>}
       {children}
-      {!noClosable && (
-        <TagIcon {...rest} onClick={onClose}>
+      {onClose && (
+        <TagIcon {...rest} onClick={onClose} role="close-tag-btn">
           <CloseIcon />
         </TagIcon>
       )}
@@ -48,7 +48,6 @@ const Tag = forwardRef<HTMLDivElement, ITagProps>((props, ref) => {
 
 Tag.defaultProps = {
   color: 'major',
-  noClosable: false,
   outlined: false,
   magnitude: 'md',
 };
