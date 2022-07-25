@@ -1,6 +1,8 @@
 import React from 'react';
-import { css, styled } from '@tidy-ui/theme';
+
 import { LaunchIcon } from '@tidy-ui/icons';
+import { css, styled } from '@tidy-ui/theme';
+
 import { sizeStyles } from './style';
 import { IAnchorProps } from './types';
 

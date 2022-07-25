@@ -3,10 +3,12 @@
  */
 import React from 'react';
 import { render } from '@testing-library/react';
-import '@testing-library/jest-dom';
 import { ThemeProvider } from 'styled-components';
+import '@testing-library/jest-dom';
 import 'jest-styled-components';
+
 import { orchidDark, orchidLight } from '@tidy-ui/theme';
+
 import { useTheme } from '../../src';
 
 describe('useTheme', () => {

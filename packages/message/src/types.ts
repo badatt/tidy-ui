@@ -1,5 +1,6 @@
-import { TColor } from '@tidy-ui/types';
 import { HTMLAttributes, ReactNode } from 'react';
+
+import { TColor } from '@tidy-ui/types';
 
 export interface IMessageProps extends HTMLAttributes<HTMLDivElement> {
   /** Creates a closable message widget with a close button at top right corner

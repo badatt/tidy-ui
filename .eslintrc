@@ -4,7 +4,7 @@
     "node": true
   },
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint", "typescript-sort-keys", "sort-keys"],
+  "plugins": ["@typescript-eslint", "react", "simple-import-sort", "typescript-sort-keys", "sort-keys"],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
@@ -26,15 +26,25 @@
     ],
     "typescript-sort-keys/interface": ["error", "asc", { "natural": true }],
     "typescript-sort-keys/string-enum": ["error", "asc", { "natural": true }],
-    "sort-imports": [
+    "simple-import-sort/imports": [
       "error",
       {
-        "ignoreCase": true,
-        "ignoreDeclarationSort": true,
-        "ignoreMemberSort": false,
-        "memberSyntaxSortOrder": ["none", "all", "multiple", "single"],
-        "allowSeparatedGroups": false
+        "groups": [
+          // Packages `react` related packages come first.
+          // Side effect imports.
+          ["^react", "^@?\\w", "^\\u0000"],
+          // Internal packages.
+          ["^(@|components)(/.*|$)"],
+          ["^(@tidy-ui)(/.*|$)"],
+          // Parent imports. Put `..` last.
+          ["^\\.\\.(?!/?$)", "^\\.\\./?$"],
+          // Other relative imports. Put same-folder imports and `.` last.
+          ["^\\./(?=.*/)(?!/?$)", "^\\.(?!/?$)", "^\\./?$"],
+          // Style imports.
+          ["^.+\\.?(css)$"]
+        ]
       }
-    ]
+    ],
+    "simple-import-sort/exports": "error"
   }
 }
