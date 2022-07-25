@@ -1,15 +1,15 @@
-import React, { forwardRef, useCallback, useState, MouseEvent } from 'react';
 import {
-  useIsMounted,
-  useTimeout,
-  InfoIcon,
+  CancelIcon,
   CheckCircleIcon,
   DangerousIcon,
-  CancelIcon,
+  InfoIcon,
+  useIsMounted,
+  useTimeout,
   WarningIcon,
 } from '@tidy-ui/commons';
+import React, { forwardRef, MouseEvent, useCallback, useState } from 'react';
+import { CloseButton, Header, MessageContent, MessageLabel, MessageRoot } from './components';
 import { IMessageProps } from './types';
-import { MessageRoot, CloseButton, MessageContent, Header, MessageLabel } from './components';
 
 const Message = forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
   const { children, closable, duration, onClose, header, ...rest } = props;
@@ -70,12 +70,12 @@ const Message = forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
 });
 
 Message.defaultProps = {
-  color: 'info',
   closable: false,
-  sharp: false,
+  color: 'info',
   duration: 0,
-  outlined: false,
   noLabel: false,
+  outlined: false,
+  sharp: false,
   stretch: false,
 };
 

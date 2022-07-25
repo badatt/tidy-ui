@@ -1,4 +1,4 @@
-import baseStyled, { css as baseCss, ThemedStyledInterface, ThemedCssFunction } from 'styled-components';
+import baseStyled, { css as baseCss, ThemedCssFunction, ThemedStyledInterface } from 'styled-components';
 
 export { defaultBase } from './base';
 export * from './colors';

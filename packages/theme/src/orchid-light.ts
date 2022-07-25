@@ -1,6 +1,6 @@
 import { defaultBase } from '.';
 import { ITidyUITheme } from '@tidy-ui/types';
-import { purple, pink, neutral, blue, green, amber, red } from './colors';
+import { amber, blue, green, neutral, pink, purple, red } from './colors';
 import { createColor } from '.';
 
 export const theme: ITidyUITheme = {
