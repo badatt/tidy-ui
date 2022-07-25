@@ -1,6 +1,6 @@
-import React from 'react';
+import { DangerousIcon } from '@tidy-ui/commons';
 import { styled } from '@tidy-ui/theme';
-import { EmailIcon } from '@tidy-ui/commons';
+import React from 'react';
 
 import { Badge } from '../src';
 
@@ -15,7 +15,7 @@ const Container = styled.div`
   color: gray;
 `;
 
-const Icon = styled(EmailIcon)`
+const Icon = styled(DangerousIcon)`
   height: 20px;
   width: 20px;
 `;
