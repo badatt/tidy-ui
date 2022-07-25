@@ -74,12 +74,13 @@ const TagGroup = forwardRef<HTMLDivElement, ITagGroupProps>((props, ref) => {
           onChange={(e: any) => setInputValue(e.target.value)}
           onBlur={handleInputConfirm}
           onKeyDown={handleEnterKeyPress}
+          role="add-new-input"
         />
       );
     }
 
     return (
-      <AddNewTagIcon {...rest} onClick={handleNewTagButtonClick}>
+      <AddNewTagIcon {...rest} onClick={handleNewTagButtonClick} role="add-new-btn">
         <AddCircleIcon />
       </AddNewTagIcon>
     );

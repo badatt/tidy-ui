@@ -9,8 +9,10 @@ import 'jest-styled-components';
 import { orchidLight } from '@tidy-ui/theme';
 import {
   AddCircleIcon,
+  AddIcon,
   CancelIcon,
   CheckCircleIcon,
+  CloseIcon,
   DangerousIcon,
   DarkModeIcon,
   EmailIcon,
@@ -29,10 +31,14 @@ import {
 const icons = [
   <AddCircleIcon />,
   <AddCircleIcon outlined />,
+  <AddIcon />,
+  <AddIcon outlined />,
   <CancelIcon />,
   <CancelIcon outlined />,
   <CheckCircleIcon />,
   <CheckCircleIcon outlined />,
+  <CloseIcon />,
+  <CloseIcon outlined />,
   <DangerousIcon />,
   <DangerousIcon outlined />,
   <DarkModeIcon />,
