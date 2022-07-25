@@ -9,13 +9,47 @@ const templateDir = './component';
 const componentDest = '../../packages';
 
 module.exports = {
+  actions: () => {
+    return [
+      {
+        abortOnFail: true,
+        path: `${componentDest}/{{name}}/tsconfig.json`,
+        templateFile: `${templateDir}/tsconfig.json.hbs`,
+        type: 'add',
+      },
+      {
+        abortOnFail: true,
+        path: `${componentDest}/{{name}}/package.json`,
+        templateFile: `${templateDir}/package.json.hbs`,
+        type: 'add',
+      },
+      {
+        abortOnFail: true,
+        destination: `${componentDest}/{{name}}/`,
+        templateFiles: `${templateDir}/src/**/*`,
+        type: 'addMany',
+      },
+      {
+        abortOnFail: true,
+        destination: `${componentDest}/{{name}}/`,
+        templateFiles: `${templateDir}/tests/**/*`,
+        type: 'addMany',
+      },
+      {
+        abortOnFail: true,
+        destination: `${componentDest}/{{name}}/`,
+        templateFiles: `${templateDir}/stories/**/*`,
+        type: 'addMany',
+      },
+    ];
+  },
   description: 'Add a ui component library',
   prompts: [
     {
-      type: 'input',
-      name: 'name',
-      message: 'What should it be called?',
       default: 'my-new-component',
+      message: 'What should it be called?',
+      name: 'name',
+      type: 'input',
       validate: (value) => {
         if (/.+/.test(value)) {
           return componentExists(value) ? 'A package with this name already exists' : true;
@@ -25,50 +59,4 @@ module.exports = {
       },
     },
   ],
-  actions: () => {
-    return [
-      {
-        type: 'add',
-        path: `${componentDest}/{{name}}/.prettierignore`,
-        templateFile: `${templateDir}/.prettierignore.hbs`,
-        abortOnFail: true,
-      },
-      {
-        type: 'add',
-        path: `${componentDest}/{{name}}/babel.config.js`,
-        templateFile: `${templateDir}/babel.config.js.hbs`,
-        abortOnFail: true,
-      },
-      {
-        type: 'add',
-        path: `${componentDest}/{{name}}/tsconfig.json`,
-        templateFile: `${templateDir}/tsconfig.json.hbs`,
-        abortOnFail: true,
-      },
-      {
-        type: 'add',
-        path: `${componentDest}/{{name}}/package.json`,
-        templateFile: `${templateDir}/package.json.hbs`,
-        abortOnFail: true,
-      },
-      {
-        type: 'addMany',
-        destination: `${componentDest}/{{name}}/`,
-        templateFiles: `${templateDir}/src/**/*`,
-        abortOnFail: true,
-      },
-      {
-        type: 'addMany',
-        destination: `${componentDest}/{{name}}/`,
-        templateFiles: `${templateDir}/tests/**/*`,
-        abortOnFail: true,
-      },
-      {
-        type: 'addMany',
-        destination: `${componentDest}/{{name}}/`,
-        templateFiles: `${templateDir}/stories/**/*`,
-        abortOnFail: true,
-      },
-    ];
-  },
 };

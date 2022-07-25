@@ -8,10 +8,6 @@
     "lint-fix": "eslint -c ../../.eslintrc --ext .js,.jsx,.ts,.tsx --fix",
     "postinstall": "rm -rf node_modules/@types/react-native",
     "reset": "yarn clean && rimraf -rf node_modules",
-    "test": "yarn \"test:coverage\"",
-    "test:coverage": "jest --bail --coverage --passWithNoTests",
-    "test:update": "jest --bail --coverage --passWithNoTests -u",
-    "test:watch": "jest --watchAll --verbose",
     "vet": "yarn lint",
     "yalc:publish": "yarn build && yalc publish",
     "yalc:push": "yarn build && yalc push"
