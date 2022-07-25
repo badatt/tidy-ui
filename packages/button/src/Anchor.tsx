@@ -47,9 +47,9 @@ const Anchor = React.forwardRef<HTMLAnchorElement, IAnchorProps>((props, ref) =>
 });
 
 Anchor.defaultProps = {
-  size: 'sm',
-  newTab: false,
   disable: false,
+  newTab: false,
+  size: 'sm',
 };
 
 export { Anchor };

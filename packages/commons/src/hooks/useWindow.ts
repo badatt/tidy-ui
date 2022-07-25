@@ -1,7 +1,7 @@
 const useWindow = () => {
   return {
-    width: window.innerWidth,
     height: window.innerHeight,
+    width: window.innerWidth,
   };
 };
 

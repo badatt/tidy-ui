@@ -92,9 +92,9 @@ const Badge = React.forwardRef<HTMLSpanElement, IBadgeProps>((props, ref) => {
 
 Badge.defaultProps = {
   color: 'major',
-  variant: 'standard',
-  showZero: false,
   invisible: false,
+  showZero: false,
+  variant: 'standard',
 };
 
 export { Badge };
