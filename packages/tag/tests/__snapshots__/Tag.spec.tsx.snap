@@ -518,6 +518,13 @@ Object {
   gap: 0.5rem;
 }
 
+.c6 {
+  cursor: pointer;
+  height: 1.5rem;
+  width: 1.5rem;
+  color: hsla(271,81%,56%,1);
+}
+
 <body>
     <div>
       <div
@@ -593,6 +600,23 @@ Object {
             </svg>
           </i>
         </div>
+        <i
+          class="c6"
+          color="major"
+          role="add-new-btn"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"
+            />
+          </svg>
+        </i>
       </div>
     </div>
   </body>,
@@ -704,6 +728,13 @@ Object {
   gap: 0.5rem;
 }
 
+.c6 {
+  cursor: pointer;
+  height: 1.5rem;
+  width: 1.5rem;
+  color: hsla(271,81%,56%,1);
+}
+
 <div>
     <div
       class="c0"
@@ -778,6 +809,23 @@ Object {
           </svg>
         </i>
       </div>
+      <i
+        class="c6"
+        color="major"
+        role="add-new-btn"
+      >
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"
+          />
+        </svg>
+      </i>
     </div>
   </div>,
   "debug": [Function],
