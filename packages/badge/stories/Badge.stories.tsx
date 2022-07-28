@@ -1,6 +1,6 @@
 import React from 'react';
 import { DangerousIcon } from '@tidy-ui/commons';
-import { hsla, neutral, styled } from '@tidy-ui/theme';
+import { css, hsla, neutral, styled } from '@tidy-ui/theme';
 import { Badge } from '../src';
 
 export default {
@@ -9,10 +9,14 @@ export default {
 };
 
 const Container = styled.div`
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  color: ${hsla(neutral[700])};
+  ${({ theme: { isDark } }) => css`
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    position: relative;
+    width: fit-content;
+    color: ${isDark ? hsla(neutral[400]) : hsla(neutral[700])};
+  `}
 `;
 
 const Icon = styled(DangerousIcon)`
