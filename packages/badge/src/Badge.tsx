@@ -59,7 +59,7 @@ const Badge = React.forwardRef<HTMLSpanElement, IBadgeProps>((props, ref) => {
 });
 
 Badge.defaultProps = {
-  isBlink: false,
+  isBlinking: false,
   isDotted: false,
   isInvisible: false,
   isOutlined: false,
