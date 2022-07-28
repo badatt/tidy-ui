@@ -16,7 +16,7 @@ export interface IBadgeProps extends HTMLAttributes<HTMLSpanElement> {
    * @default false
    * @type {?boolean}
    */
-  isBlink?: boolean;
+  isBlinking?: boolean;
 
   /**
    * If `true`, the badge is a dot, no content included

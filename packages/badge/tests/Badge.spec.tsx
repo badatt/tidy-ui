@@ -153,7 +153,7 @@ describe('Badge', () => {
   test('Badge with a dot and it blinks', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Badge isDotted isBlink>
+        <Badge isDotted isBlinking>
           <Icon />
         </Badge>
       </ThemeProvider>,
