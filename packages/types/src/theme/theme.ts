@@ -66,7 +66,6 @@ export interface IPalette {
   /**
    * Color used for dividers
    *
-   * @deprecated
    * @author Balu Praveen Datty <dev.badatt@gmail.com>
    *
    * @type {string}
