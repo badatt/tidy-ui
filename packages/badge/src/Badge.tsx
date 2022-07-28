@@ -60,6 +60,7 @@ Badge.defaultProps = {
   isBlink: false,
   isDotted: false,
   isInvisible: false,
+  isOutlined: false,
   isShowZero: false,
   withColor: 'major',
   withMax: 99,

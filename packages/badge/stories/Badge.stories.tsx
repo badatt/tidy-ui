@@ -15,7 +15,7 @@ const Container = styled.div`
     gap: 2rem;
     position: relative;
     width: fit-content;
-    color: ${isDark ? hsla(neutral[400]) : hsla(neutral[700])};
+    color: ${isDark ? hsla(neutral[400]) : hsla(neutral[600])};
   `}
 `;
 
@@ -53,6 +53,32 @@ export const colorVariants = () => (
       <Icon />
     </Badge>
     <Badge withData={110} withColor="danger">
+      <Icon />
+    </Badge>
+  </Container>
+);
+
+export const outlined = () => (
+  <Container>
+    <Badge withData={50} withColor="major" isOutlined>
+      <Icon />
+    </Badge>
+    <Badge withData={60} withColor="minor" isOutlined>
+      <Icon />
+    </Badge>
+    <Badge withData={70} withColor="neutral" isOutlined>
+      <Icon />
+    </Badge>
+    <Badge withData={80} withColor="success" isOutlined>
+      <Icon />
+    </Badge>
+    <Badge withData={90} withColor="info" isOutlined>
+      <Icon />
+    </Badge>
+    <Badge withData={100} withColor="warning" isOutlined>
+      <Icon />
+    </Badge>
+    <Badge withData={110} withColor="danger" isOutlined>
       <Icon />
     </Badge>
   </Container>

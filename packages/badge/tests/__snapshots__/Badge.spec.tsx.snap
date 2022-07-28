@@ -4,6 +4,10 @@ exports[`Badge Badge which is invisible 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -37,6 +41,10 @@ Object {
     </div>
   </body>,
   "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -125,6 +133,10 @@ exports[`Badge Badge with a dot 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -146,12 +158,9 @@ Object {
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: scale(1) translate(50%,-50%);
-  -ms-transform: scale(1) translate(50%,-50%);
-  transform: scale(1) translate(50%,-50%);
-  -webkit-transform-origin: 100% 0%;
-  -ms-transform-origin: 100% 0%;
-  transform-origin: 100% 0%;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
   min-width: 0.5rem;
   padding: 0px;
   height: 0.5rem;
@@ -187,6 +196,10 @@ Object {
     </div>
   </body>,
   "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -208,12 +221,9 @@ Object {
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: scale(1) translate(50%,-50%);
-  -ms-transform: scale(1) translate(50%,-50%);
-  transform: scale(1) translate(50%,-50%);
-  -webkit-transform-origin: 100% 0%;
-  -ms-transform-origin: 100% 0%;
-  transform-origin: 100% 0%;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
   min-width: 0.5rem;
   padding: 0px;
   height: 0.5rem;
@@ -304,6 +314,10 @@ exports[`Badge Badge with a dot and it blinks 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -325,12 +339,9 @@ Object {
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: scale(1) translate(50%,-50%);
-  -ms-transform: scale(1) translate(50%,-50%);
-  transform: scale(1) translate(50%,-50%);
-  -webkit-transform-origin: 100% 0%;
-  -ms-transform-origin: 100% 0%;
-  transform-origin: 100% 0%;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
   -webkit-animation: cRUCfN 1s linear infinite;
   animation: cRUCfN 1s linear infinite;
   min-width: 0.5rem;
@@ -368,6 +379,10 @@ Object {
     </div>
   </body>,
   "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -389,12 +404,9 @@ Object {
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: scale(1) translate(50%,-50%);
-  -ms-transform: scale(1) translate(50%,-50%);
-  transform: scale(1) translate(50%,-50%);
-  -webkit-transform-origin: 100% 0%;
-  -ms-transform-origin: 100% 0%;
-  transform-origin: 100% 0%;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
   -webkit-animation: cRUCfN 1s linear infinite;
   animation: cRUCfN 1s linear infinite;
   min-width: 0.5rem;
@@ -487,6 +499,10 @@ exports[`Badge Badge with max value 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -508,12 +524,9 @@ Object {
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: scale(1) translate(50%,-50%);
-  -ms-transform: scale(1) translate(50%,-50%);
-  transform: scale(1) translate(50%,-50%);
-  -webkit-transform-origin: 100% 0%;
-  -ms-transform-origin: 100% 0%;
-  transform-origin: 100% 0%;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
   min-width: 1rem;
   max-width: 2rem;
   line-height: 1;
@@ -554,6 +567,10 @@ Object {
     </div>
   </body>,
   "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -575,12 +592,9 @@ Object {
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: scale(1) translate(50%,-50%);
-  -ms-transform: scale(1) translate(50%,-50%);
-  transform: scale(1) translate(50%,-50%);
-  -webkit-transform-origin: 100% 0%;
-  -ms-transform-origin: 100% 0%;
-  transform-origin: 100% 0%;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
   min-width: 1rem;
   max-width: 2rem;
   line-height: 1;
@@ -592,6 +606,135 @@ Object {
   white-space: nowrap;
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
+}
+
+.c1 {
+  height: 20px;
+  width: 20px;
+}
+
+<div>
+    <span
+      class="c0"
+      role="badge"
+    >
+      <svg
+        aria-hidden="true"
+        class="c1"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+        />
+      </svg>
+    </span>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Badge Badge without data 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c1 {
+  height: 20px;
+  width: 20px;
+}
+
+<body>
+    <div>
+      <span
+        class="c0"
+        role="badge"
+      >
+        <svg
+          aria-hidden="true"
+          class="c1"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </span>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .c1 {
@@ -676,6 +819,10 @@ exports[`Badge Badge without max value should show 99+ 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -697,12 +844,9 @@ Object {
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: scale(1) translate(50%,-50%);
-  -ms-transform: scale(1) translate(50%,-50%);
-  transform: scale(1) translate(50%,-50%);
-  -webkit-transform-origin: 100% 0%;
-  -ms-transform-origin: 100% 0%;
-  transform-origin: 100% 0%;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
   min-width: 1rem;
   max-width: 2rem;
   line-height: 1;
@@ -743,6 +887,10 @@ Object {
     </div>
   </body>,
   "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -764,12 +912,9 @@ Object {
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: scale(1) translate(50%,-50%);
-  -ms-transform: scale(1) translate(50%,-50%);
-  transform: scale(1) translate(50%,-50%);
-  -webkit-transform-origin: 100% 0%;
-  -ms-transform-origin: 100% 0%;
-  transform-origin: 100% 0%;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
   min-width: 1rem;
   max-width: 2rem;
   line-height: 1;
@@ -791,6 +936,919 @@ Object {
 <div>
     <span
       class="c0"
+      role="badge"
+    >
+      <svg
+        aria-hidden="true"
+        class="c1"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+        />
+      </svg>
+    </span>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Badge Badges in dark mode with all outlined variants 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c0::after {
+  content: '50';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(270,95%,75%,1);
+  background-color: hsla(274,66%,32%,0.3);
+  border: 0.5px solid hsla(271,81%,56%,1);
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c2::after {
+  content: '60';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(329,86%,70%,1);
+  background-color: hsla(336,69%,30%,0.3);
+  border: 0.5px solid hsla(333,71%,51%,1);
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c3::after {
+  content: '70';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(0,0%,64%,1);
+  background-color: hsla(0,0%,9%,0.3);
+  border: 0.5px solid hsla(0,0%,32%,1);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c4::after {
+  content: '80';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(142,69%,58%,1);
+  background-color: hsla(144,61%,20%,0.3);
+  border: 0.5px solid hsla(142,76%,36%,1);
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c5::after {
+  content: '90';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(213,94%,68%,1);
+  background-color: hsla(224,64%,33%,0.3);
+  border: 0.5px solid hsla(221,83%,53%,1);
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c6::after {
+  content: '99+';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(43,96%,56%,1);
+  background-color: hsla(22,78%,26%,0.3);
+  border: 0.5px solid hsla(32,95%,44%,1);
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c7::after {
+  content: '99+';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(0,91%,71%,1);
+  background-color: hsla(0,63%,31%,0.3);
+  border: 0.5px solid hsla(0,72%,51%,1);
+}
+
+.c1 {
+  height: 20px;
+  width: 20px;
+}
+
+<body>
+    <div>
+      <span
+        class="c0"
+        role="badge"
+      >
+        <svg
+          aria-hidden="true"
+          class="c1"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </span>
+      <span
+        class="c2"
+        role="badge"
+      >
+        <svg
+          aria-hidden="true"
+          class="c1"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </span>
+      <span
+        class="c3"
+        role="badge"
+      >
+        <svg
+          aria-hidden="true"
+          class="c1"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </span>
+      <span
+        class="c4"
+        role="badge"
+      >
+        <svg
+          aria-hidden="true"
+          class="c1"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </span>
+      <span
+        class="c5"
+        role="badge"
+      >
+        <svg
+          aria-hidden="true"
+          class="c1"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </span>
+      <span
+        class="c6"
+        role="badge"
+      >
+        <svg
+          aria-hidden="true"
+          class="c1"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </span>
+      <span
+        class="c7"
+        role="badge"
+      >
+        <svg
+          aria-hidden="true"
+          class="c1"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </span>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c0::after {
+  content: '50';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(270,95%,75%,1);
+  background-color: hsla(274,66%,32%,0.3);
+  border: 0.5px solid hsla(271,81%,56%,1);
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c2::after {
+  content: '60';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(329,86%,70%,1);
+  background-color: hsla(336,69%,30%,0.3);
+  border: 0.5px solid hsla(333,71%,51%,1);
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c3::after {
+  content: '70';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(0,0%,64%,1);
+  background-color: hsla(0,0%,9%,0.3);
+  border: 0.5px solid hsla(0,0%,32%,1);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c4::after {
+  content: '80';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(142,69%,58%,1);
+  background-color: hsla(144,61%,20%,0.3);
+  border: 0.5px solid hsla(142,76%,36%,1);
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c5::after {
+  content: '90';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(213,94%,68%,1);
+  background-color: hsla(224,64%,33%,0.3);
+  border: 0.5px solid hsla(221,83%,53%,1);
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c6::after {
+  content: '99+';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(43,96%,56%,1);
+  background-color: hsla(22,78%,26%,0.3);
+  border: 0.5px solid hsla(32,95%,44%,1);
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c7::after {
+  content: '99+';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(0,91%,71%,1);
+  background-color: hsla(0,63%,31%,0.3);
+  border: 0.5px solid hsla(0,72%,51%,1);
+}
+
+.c1 {
+  height: 20px;
+  width: 20px;
+}
+
+<div>
+    <span
+      class="c0"
+      role="badge"
+    >
+      <svg
+        aria-hidden="true"
+        class="c1"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+        />
+      </svg>
+    </span>
+    <span
+      class="c2"
+      role="badge"
+    >
+      <svg
+        aria-hidden="true"
+        class="c1"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+        />
+      </svg>
+    </span>
+    <span
+      class="c3"
+      role="badge"
+    >
+      <svg
+        aria-hidden="true"
+        class="c1"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+        />
+      </svg>
+    </span>
+    <span
+      class="c4"
+      role="badge"
+    >
+      <svg
+        aria-hidden="true"
+        class="c1"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+        />
+      </svg>
+    </span>
+    <span
+      class="c5"
+      role="badge"
+    >
+      <svg
+        aria-hidden="true"
+        class="c1"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+        />
+      </svg>
+    </span>
+    <span
+      class="c6"
+      role="badge"
+    >
+      <svg
+        aria-hidden="true"
+        class="c1"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+        />
+      </svg>
+    </span>
+    <span
+      class="c7"
       role="badge"
     >
       <svg
@@ -865,10 +1923,297 @@ exports[`Badge Badges with all color variants 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.c0::after {
+  content: '50';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c2::after {
+  content: '60';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(326,78%,95%,1);
+  background-color: hsla(333,71%,51%,1);
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c3::after {
+  content: '70';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(0,0%,96%,1);
+  background-color: hsla(0,0%,32%,1);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c4::after {
+  content: '80';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(141,84%,93%,1);
+  background-color: hsla(142,76%,36%,1);
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c5::after {
+  content: '90';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(214,95%,93%,1);
+  background-color: hsla(221,83%,53%,1);
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c6::after {
+  content: '99+';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(48,96%,89%,1);
+  background-color: hsla(32,95%,44%,1);
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c7::after {
+  content: '99+';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(0,93%,94%,1);
+  background-color: hsla(0,72%,51%,1);
 }
 
 .c1 {
@@ -880,7 +2225,6 @@ Object {
     <div>
       <span
         class="c0"
-        color="major"
         role="badge"
       >
         <svg
@@ -897,8 +2241,7 @@ Object {
         </svg>
       </span>
       <span
-        class="c0"
-        color="minor"
+        class="c2"
         role="badge"
       >
         <svg
@@ -915,8 +2258,7 @@ Object {
         </svg>
       </span>
       <span
-        class="c0"
-        color="neutral"
+        class="c3"
         role="badge"
       >
         <svg
@@ -933,8 +2275,7 @@ Object {
         </svg>
       </span>
       <span
-        class="c0"
-        color="info"
+        class="c4"
         role="badge"
       >
         <svg
@@ -951,8 +2292,7 @@ Object {
         </svg>
       </span>
       <span
-        class="c0"
-        color="success"
+        class="c5"
         role="badge"
       >
         <svg
@@ -969,8 +2309,7 @@ Object {
         </svg>
       </span>
       <span
-        class="c0"
-        color="warning"
+        class="c6"
         role="badge"
       >
         <svg
@@ -987,8 +2326,7 @@ Object {
         </svg>
       </span>
       <span
-        class="c0"
-        color="danger"
+        class="c7"
         role="badge"
       >
         <svg
@@ -1007,10 +2345,297 @@ Object {
     </div>
   </body>,
   "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.c0::after {
+  content: '50';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c2::after {
+  content: '60';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(326,78%,95%,1);
+  background-color: hsla(333,71%,51%,1);
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c3::after {
+  content: '70';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(0,0%,96%,1);
+  background-color: hsla(0,0%,32%,1);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c4::after {
+  content: '80';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(141,84%,93%,1);
+  background-color: hsla(142,76%,36%,1);
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c5::after {
+  content: '90';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(214,95%,93%,1);
+  background-color: hsla(221,83%,53%,1);
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c6::after {
+  content: '99+';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(48,96%,89%,1);
+  background-color: hsla(32,95%,44%,1);
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c7::after {
+  content: '99+';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(0,93%,94%,1);
+  background-color: hsla(0,72%,51%,1);
 }
 
 .c1 {
@@ -1021,7 +2646,6 @@ Object {
 <div>
     <span
       class="c0"
-      color="major"
       role="badge"
     >
       <svg
@@ -1038,8 +2662,7 @@ Object {
       </svg>
     </span>
     <span
-      class="c0"
-      color="minor"
+      class="c2"
       role="badge"
     >
       <svg
@@ -1056,8 +2679,7 @@ Object {
       </svg>
     </span>
     <span
-      class="c0"
-      color="neutral"
+      class="c3"
       role="badge"
     >
       <svg
@@ -1074,8 +2696,7 @@ Object {
       </svg>
     </span>
     <span
-      class="c0"
-      color="info"
+      class="c4"
       role="badge"
     >
       <svg
@@ -1092,8 +2713,7 @@ Object {
       </svg>
     </span>
     <span
-      class="c0"
-      color="success"
+      class="c5"
       role="badge"
     >
       <svg
@@ -1110,8 +2730,7 @@ Object {
       </svg>
     </span>
     <span
-      class="c0"
-      color="warning"
+      class="c6"
       role="badge"
     >
       <svg
@@ -1128,8 +2747,920 @@ Object {
       </svg>
     </span>
     <span
+      class="c7"
+      role="badge"
+    >
+      <svg
+        aria-hidden="true"
+        class="c1"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+        />
+      </svg>
+    </span>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Badge Badges with all outlined variants 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c0::after {
+  content: '50';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(270,100%,98%,1);
+  border: 0.5px solid hsla(269,97%,85%,1);
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c2::after {
+  content: '60';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(333,71%,51%,1);
+  background-color: hsla(327,73%,97%,1);
+  border: 0.5px solid hsla(327,87%,82%,1);
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c3::after {
+  content: '70';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(0,0%,32%,1);
+  background-color: hsla(0,0%,98%,1);
+  border: 0.5px solid hsla(0,0%,83%,1);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c4::after {
+  content: '80';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(142,76%,36%,1);
+  background-color: hsla(138,76%,97%,1);
+  border: 0.5px solid hsla(142,77%,73%,1);
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c5::after {
+  content: '90';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(221,83%,53%,1);
+  background-color: hsla(214,100%,97%,1);
+  border: 0.5px solid hsla(212,96%,78%,1);
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c6::after {
+  content: '99+';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(32,95%,44%,1);
+  background-color: hsla(48,100%,96%,1);
+  border: 0.5px solid hsla(46,97%,65%,1);
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c7::after {
+  content: '99+';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(0,72%,51%,1);
+  background-color: hsla(0,86%,97%,1);
+  border: 0.5px solid hsla(0,94%,82%,1);
+}
+
+.c1 {
+  height: 20px;
+  width: 20px;
+}
+
+<body>
+    <div>
+      <span
+        class="c0"
+        role="badge"
+      >
+        <svg
+          aria-hidden="true"
+          class="c1"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </span>
+      <span
+        class="c2"
+        role="badge"
+      >
+        <svg
+          aria-hidden="true"
+          class="c1"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </span>
+      <span
+        class="c3"
+        role="badge"
+      >
+        <svg
+          aria-hidden="true"
+          class="c1"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </span>
+      <span
+        class="c4"
+        role="badge"
+      >
+        <svg
+          aria-hidden="true"
+          class="c1"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </span>
+      <span
+        class="c5"
+        role="badge"
+      >
+        <svg
+          aria-hidden="true"
+          class="c1"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </span>
+      <span
+        class="c6"
+        role="badge"
+      >
+        <svg
+          aria-hidden="true"
+          class="c1"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </span>
+      <span
+        class="c7"
+        role="badge"
+      >
+        <svg
+          aria-hidden="true"
+          class="c1"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </span>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c0::after {
+  content: '50';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(270,100%,98%,1);
+  border: 0.5px solid hsla(269,97%,85%,1);
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c2::after {
+  content: '60';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(333,71%,51%,1);
+  background-color: hsla(327,73%,97%,1);
+  border: 0.5px solid hsla(327,87%,82%,1);
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c3::after {
+  content: '70';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(0,0%,32%,1);
+  background-color: hsla(0,0%,98%,1);
+  border: 0.5px solid hsla(0,0%,83%,1);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c4::after {
+  content: '80';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(142,76%,36%,1);
+  background-color: hsla(138,76%,97%,1);
+  border: 0.5px solid hsla(142,77%,73%,1);
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c5::after {
+  content: '90';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(221,83%,53%,1);
+  background-color: hsla(214,100%,97%,1);
+  border: 0.5px solid hsla(212,96%,78%,1);
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c6::after {
+  content: '99+';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(32,95%,44%,1);
+  background-color: hsla(48,100%,96%,1);
+  border: 0.5px solid hsla(46,97%,65%,1);
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c7::after {
+  content: '99+';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(0,72%,51%,1);
+  background-color: hsla(0,86%,97%,1);
+  border: 0.5px solid hsla(0,94%,82%,1);
+}
+
+.c1 {
+  height: 20px;
+  width: 20px;
+}
+
+<div>
+    <span
       class="c0"
-      color="danger"
+      role="badge"
+    >
+      <svg
+        aria-hidden="true"
+        class="c1"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+        />
+      </svg>
+    </span>
+    <span
+      class="c2"
+      role="badge"
+    >
+      <svg
+        aria-hidden="true"
+        class="c1"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+        />
+      </svg>
+    </span>
+    <span
+      class="c3"
+      role="badge"
+    >
+      <svg
+        aria-hidden="true"
+        class="c1"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+        />
+      </svg>
+    </span>
+    <span
+      class="c4"
+      role="badge"
+    >
+      <svg
+        aria-hidden="true"
+        class="c1"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+        />
+      </svg>
+    </span>
+    <span
+      class="c5"
+      role="badge"
+    >
+      <svg
+        aria-hidden="true"
+        class="c1"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+        />
+      </svg>
+    </span>
+    <span
+      class="c6"
+      role="badge"
+    >
+      <svg
+        aria-hidden="true"
+        class="c1"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+        />
+      </svg>
+    </span>
+    <span
+      class="c7"
       role="badge"
     >
       <svg
@@ -1204,10 +3735,45 @@ exports[`Badge Basic render 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.c0::after {
+  content: '50';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1 {
@@ -1237,10 +3803,45 @@ Object {
     </div>
   </body>,
   "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.c0::after {
+  content: '50';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1 {
@@ -1325,6 +3926,10 @@ exports[`Badge Do not show zero value by default 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -1358,6 +3963,10 @@ Object {
     </div>
   </body>,
   "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -1446,6 +4055,10 @@ exports[`Badge Force show zero value 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -1467,12 +4080,9 @@ Object {
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: scale(1) translate(50%,-50%);
-  -ms-transform: scale(1) translate(50%,-50%);
-  transform: scale(1) translate(50%,-50%);
-  -webkit-transform-origin: 100% 0%;
-  -ms-transform-origin: 100% 0%;
-  transform-origin: 100% 0%;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
   min-width: 1rem;
   max-width: 2rem;
   line-height: 1;
@@ -1513,6 +4123,10 @@ Object {
     </div>
   </body>,
   "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -1534,12 +4148,9 @@ Object {
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: scale(1) translate(50%,-50%);
-  -ms-transform: scale(1) translate(50%,-50%);
-  transform: scale(1) translate(50%,-50%);
-  -webkit-transform-origin: 100% 0%;
-  -ms-transform-origin: 100% 0%;
-  transform-origin: 100% 0%;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
   min-width: 1rem;
   max-width: 2rem;
   line-height: 1;
