@@ -1,16 +1,16 @@
 import React from 'react';
 import { LaunchIcon } from '@tidy-ui/icons';
 import { css, styled } from '@tidy-ui/theme';
-import { sizeStyles } from './style';
+import { sizeStyles } from './styles';
 import { IAnchorProps } from './types';
 
 const AnchorRoot = styled.a<IAnchorProps>`
-  ${({ theme: { palette, isDark }, disable }) => css`
+  ${({ theme: { palette, isDark }, isDisabled }) => css`
     display: flex;
     align-items: center;
     text-decoration: none;
     color: ${isDark ? palette['major'][400] : palette['major'][600]};
-    ${disable &&
+    ${isDisabled &&
     css`
       cursor: not-allowed;
       pointer-events: none;
@@ -26,18 +26,18 @@ const Icon = styled.i<IAnchorProps>`
   display: flex;
   justify-content: center;
   align-items: center;
-  ${({ size }) => css`
-    height: ${sizeStyles[size!].iconSize};
-    width: ${sizeStyles[size!].iconSize};
+  ${({ withSize }) => css`
+    height: ${sizeStyles[withSize!].iconSize};
+    width: ${sizeStyles[withSize!].iconSize};
   `}
 `;
 
 const Anchor = React.forwardRef<HTMLAnchorElement, IAnchorProps>((props, ref) => {
-  const { children, disable, newTab, ...rest } = props;
+  const { children, isLaunch, ...rest } = props;
   return (
-    <AnchorRoot role="anchor" ref={ref} disable={disable} {...rest} target={newTab ? '_blank' : '_top'}>
+    <AnchorRoot role="anchor" ref={ref} {...rest} target={isLaunch ? '_blank' : '_top'}>
       {children}
-      {newTab && (
+      {isLaunch && (
         <Icon {...props}>
           <LaunchIcon />
         </Icon>
@@ -47,9 +47,9 @@ const Anchor = React.forwardRef<HTMLAnchorElement, IAnchorProps>((props, ref) =>
 });
 
 Anchor.defaultProps = {
-  disable: false,
-  newTab: false,
-  size: 'sm',
+  isDisabled: false,
+  isLaunch: false,
+  withSize: 'sm',
 };
 
 export { Anchor };

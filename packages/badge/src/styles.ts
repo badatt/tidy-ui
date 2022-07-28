@@ -39,7 +39,7 @@ const outlineBadgeColor = css<IBadgeProps>`
  *
  */
 const badgeBase = css<IBadgeProps>`
-  ${({ isBlink }) => css`
+  ${({ isBlinking }) => css`
     position: absolute;
     display: flex;
     align-items: center;
@@ -48,7 +48,7 @@ const badgeBase = css<IBadgeProps>`
     right: 0;
     z-index: 1;
     transform: translate(60%, -60%);
-    ${isBlink &&
+    ${isBlinking &&
     css`
       animation: ${blinkingEffect} 1s linear infinite;
     `}

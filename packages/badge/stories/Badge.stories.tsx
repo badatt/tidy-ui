@@ -102,10 +102,10 @@ export const dotted = () => (
 
 export const blinking = () => (
   <Container>
-    <Badge isDotted withColor="success" isBlink>
+    <Badge isDotted withColor="success" isBlinking>
       <Icon />
     </Badge>
-    <Badge withData={9} withColor="minor" isBlink>
+    <Badge withData={9} withColor="minor" isBlinking>
       <Icon />
     </Badge>
   </Container>
