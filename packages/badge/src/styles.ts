@@ -1,5 +1,5 @@
 import { keyframes } from 'styled-components';
-import { css } from '@tidy-ui/theme';
+import { css, hsla } from '@tidy-ui/theme';
 import { IBadgeProps } from './types';
 
 /**
@@ -19,10 +19,18 @@ const blinkingEffect = () => {
  * Badge color and its background
  *
  */
-const badgeColor = css<IBadgeProps>`
+const filledBadgeColor = css<IBadgeProps>`
   ${({ theme: { palette }, withColor }) => css`
     color: ${palette[withColor!][100]};
     background-color: ${palette[withColor!][600]};
+  `}
+`;
+
+const outlineBadgeColor = css<IBadgeProps>`
+  ${({ theme: { palette, isDark }, withColor }) => css`
+    color: ${isDark ? palette[withColor!][400] : palette[withColor!][600]};
+    background-color: ${isDark ? hsla(palette[withColor!].shades[900], 0.3) : palette[withColor!][50]};
+    border: 0.5px solid ${isDark ? palette[withColor!][600] : palette[withColor!][300]};
   `}
 `;
 
@@ -52,7 +60,7 @@ const badgeBase = css<IBadgeProps>`
  *
  */
 const standardBadge = css<IBadgeProps>`
-  ${({ withData }) => css`
+  ${({ withData, isOutlined }) => css`
     &::after {
       content: ${`'${withData}'`};
       ${badgeBase}
@@ -65,7 +73,7 @@ const standardBadge = css<IBadgeProps>`
       font-size: 0.625rem;
       overflow: hidden;
       white-space: nowrap;
-      ${badgeColor}
+      ${isOutlined ? outlineBadgeColor : filledBadgeColor}
     }
   `}
 `;
@@ -82,7 +90,7 @@ const dotBadge = css<IBadgeProps>`
     padding: 0px;
     height: 0.5rem;
     border-radius: 0.25rem;
-    ${badgeColor}
+    ${filledBadgeColor}
   }
 `;
 

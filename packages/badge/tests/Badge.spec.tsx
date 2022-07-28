@@ -7,7 +7,7 @@ import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { DangerousIcon } from '@tidy-ui/commons';
-import { orchidLight, styled } from '@tidy-ui/theme';
+import { orchidDark, orchidLight, styled } from '@tidy-ui/theme';
 import { Badge } from '../src';
 
 const Icon = styled(DangerousIcon)`
@@ -17,6 +17,16 @@ const Icon = styled(DangerousIcon)`
 
 describe('Badge', () => {
   test('Basic render', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        <Badge withData={50}>
+          <Icon />
+        </Badge>
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+  test('Badge without data', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge>
@@ -29,25 +39,81 @@ describe('Badge', () => {
   test('Badges with all color variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Badge color="major">
+        <Badge withData={50} withColor="major">
           <Icon />
         </Badge>
-        <Badge color="minor">
+        <Badge withData={60} withColor="minor">
           <Icon />
         </Badge>
-        <Badge color="neutral">
+        <Badge withData={70} withColor="neutral">
           <Icon />
         </Badge>
-        <Badge color="info">
+        <Badge withData={80} withColor="success">
           <Icon />
         </Badge>
-        <Badge color="success">
+        <Badge withData={90} withColor="info">
           <Icon />
         </Badge>
-        <Badge color="warning">
+        <Badge withData={100} withColor="warning">
           <Icon />
         </Badge>
-        <Badge color="danger">
+        <Badge withData={110} withColor="danger">
+          <Icon />
+        </Badge>
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+  test('Badges with all outlined variants', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        <Badge withData={50} withColor="major" isOutlined>
+          <Icon />
+        </Badge>
+        <Badge withData={60} withColor="minor" isOutlined>
+          <Icon />
+        </Badge>
+        <Badge withData={70} withColor="neutral" isOutlined>
+          <Icon />
+        </Badge>
+        <Badge withData={80} withColor="success" isOutlined>
+          <Icon />
+        </Badge>
+        <Badge withData={90} withColor="info" isOutlined>
+          <Icon />
+        </Badge>
+        <Badge withData={100} withColor="warning" isOutlined>
+          <Icon />
+        </Badge>
+        <Badge withData={110} withColor="danger" isOutlined>
+          <Icon />
+        </Badge>
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+  test('Badges in dark mode with all outlined variants', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidDark}>
+        <Badge withData={50} withColor="major" isOutlined>
+          <Icon />
+        </Badge>
+        <Badge withData={60} withColor="minor" isOutlined>
+          <Icon />
+        </Badge>
+        <Badge withData={70} withColor="neutral" isOutlined>
+          <Icon />
+        </Badge>
+        <Badge withData={80} withColor="success" isOutlined>
+          <Icon />
+        </Badge>
+        <Badge withData={90} withColor="info" isOutlined>
+          <Icon />
+        </Badge>
+        <Badge withData={100} withColor="warning" isOutlined>
+          <Icon />
+        </Badge>
+        <Badge withData={110} withColor="danger" isOutlined>
           <Icon />
         </Badge>
       </ThemeProvider>,
