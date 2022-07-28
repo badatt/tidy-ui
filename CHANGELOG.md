@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.4](https://github.com/badatt/tidy-ui/compare/v0.2.3...v0.2.4) (2022-07-28)
+
+
+### Bug Fixes
+
+* badge component prop changes and updates ([3f1743e](https://github.com/badatt/tidy-ui/commit/3f1743ef19749326127ddfec01cd3f6b54233af6))
+
+
+### Features
+
+* outlind variants for badge ([f51db2f](https://github.com/badatt/tidy-ui/commit/f51db2ffde61d98dc7535bf738ede54a2483144c))
+
+
+
+
+
 ## [0.2.3](https://github.com/badatt/tidy-ui/compare/v0.2.2...v0.2.3) (2022-07-25)
 
 
