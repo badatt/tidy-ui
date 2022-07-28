@@ -33,6 +33,13 @@ export interface IBadgeProps extends HTMLAttributes<HTMLSpanElement> {
   isInvisible?: boolean;
 
   /**
+   * If `true`, the badge is outlines, not filled
+   * @default false
+   * @type {?boolean}
+   */
+  isOutlined?: boolean;
+
+  /**
    * If `true`, the badge is forced to show 0 even the data value is 0
    * @default false
    * @type {?boolean}
