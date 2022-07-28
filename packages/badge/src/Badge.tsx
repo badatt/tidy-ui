@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { forwardRef, useEffect, useState } from 'react';
 import { css, styled } from '@tidy-ui/theme';
 import { dotBadge, standardBadge } from './styles';
 import { IBadgeProps } from './types';
@@ -23,7 +23,7 @@ const BadgeRoot = styled.span<IBadgeProps>`
  * the child component
  *
  */
-const Badge = React.forwardRef<HTMLSpanElement, IBadgeProps>((props, ref) => {
+const Badge = forwardRef<HTMLSpanElement, IBadgeProps>((props, ref) => {
   const { children, withData, withMax, isInvisible, isShowZero, isDotted, ...rest } = props;
 
   const [anchorData, setAnchorData] = useState(withData);
