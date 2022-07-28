@@ -39,8 +39,7 @@ const badgeBase = css<IBadgeProps>`
     top: 0;
     right: 0;
     z-index: 1;
-    transform: scale(1) translate(50%, -50%);
-    transform-origin: 100% 0%;
+    transform: translate(60%, -60%);
     ${isBlink &&
     css`
       animation: ${blinkingEffect} 1s linear infinite;

@@ -9,6 +9,7 @@ import { IBadgeProps } from './types';
  */
 const BadgeRoot = styled.span<IBadgeProps>`
   ${({ isInvisible, isDotted }) => css`
+    display: flex;
     position: relative;
     width: fit-content;
     ${isInvisible ? null : isDotted ? dotBadge : standardBadge}
