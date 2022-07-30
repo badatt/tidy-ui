@@ -1,7 +1,6 @@
 import React from 'react';
 import { LaunchIcon } from '@tidy-ui/icons';
 import { css, styled } from '@tidy-ui/theme';
-import { sizeStyles } from './styles';
 import { IAnchorProps } from './types';
 
 const AnchorRoot = styled.a<IAnchorProps>`
@@ -26,8 +25,8 @@ const Icon = styled.i<IAnchorProps>`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: ${sizeStyles['xs'].iconSize};
-  width: ${sizeStyles['xs'].iconSize};
+  height: 1em;
+  width: 1em;
 `;
 
 const Anchor = React.forwardRef<HTMLAnchorElement, IAnchorProps>((props, ref) => {
