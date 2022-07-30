@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { CheckCircleIcon } from '@tidy-ui/commons';
 import { styled } from '@tidy-ui/theme';
-import { Tag, TagGroup } from '../src';
+import { Tag } from '../src';
 
 export default {
   component: Tag,
-  title: 'Tag',
+  title: 'Components/Tag/Tag',
 };
 
 const Container = styled.div`
@@ -15,17 +15,17 @@ const Container = styled.div`
 `;
 
 export const basic = () => (
-  <TagGroup>
+  <Container>
     <Tag magnitude="sm">html</Tag>
     <Tag>typescript</Tag>
     <Tag magnitude="lg">javascript</Tag>
     <Tag disable>cloud</Tag>
     <Tag icon={<CheckCircleIcon />}>kotlin</Tag>
-  </TagGroup>
+  </Container>
 );
 
 export const colors = () => (
-  <TagGroup>
+  <Container>
     <Tag color="major">html</Tag>
     <Tag color="minor">typescript</Tag>
     <Tag color="neutral">cloud</Tag>
@@ -33,11 +33,11 @@ export const colors = () => (
     <Tag color="info">java</Tag>
     <Tag color="warning">sass</Tag>
     <Tag color="danger">css</Tag>
-  </TagGroup>
+  </Container>
 );
 
 export const outlined = () => (
-  <TagGroup>
+  <Container>
     <Tag color="major" outlined>
       html
     </Tag>
@@ -59,47 +59,5 @@ export const outlined = () => (
     <Tag color="danger" outlined>
       css
     </Tag>
-  </TagGroup>
+  </Container>
 );
-
-export const appendable = () => {
-  const [tags, setTags] = useState(['react', 'java', 'cloud']);
-
-  const handleTagRemove = (tag: string) => {
-    const nextTags = tags.filter((item) => item !== tag);
-    setTags(nextTags);
-  };
-
-  const handleTagAdd = (newTag?: string) => {
-    if (!newTag) return;
-    if (tags.includes(newTag)) return;
-    const nextTags = newTag ? [...tags, newTag] : tags;
-    setTags(nextTags);
-  };
-
-  return (
-    <Container>
-      <TagGroup magnitude="sm" color="minor" onAddNewTag={handleTagAdd}>
-        {tags.map((t) => (
-          <Tag magnitude="sm" key={t} color="minor" onClose={() => handleTagRemove(t)}>
-            {t}
-          </Tag>
-        ))}
-      </TagGroup>
-      <TagGroup onAddNewTag={handleTagAdd}>
-        {tags.map((t) => (
-          <Tag key={t} onClose={() => handleTagRemove(t)}>
-            {t}
-          </Tag>
-        ))}
-      </TagGroup>
-      <TagGroup magnitude="lg" onAddNewTag={handleTagAdd}>
-        {tags.map((t) => (
-          <Tag outlined magnitude="lg" key={t} onClose={() => handleTagRemove(t)}>
-            {t}
-          </Tag>
-        ))}
-      </TagGroup>
-    </Container>
-  );
-};

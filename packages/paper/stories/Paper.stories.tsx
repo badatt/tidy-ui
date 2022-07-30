@@ -4,7 +4,7 @@ import { Paper } from '../src';
 
 export default {
   component: Paper,
-  title: 'Paper',
+  title: 'Components/Paper/Paper',
 };
 
 const Container = styled.div`
