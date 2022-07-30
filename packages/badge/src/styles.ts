@@ -16,7 +16,7 @@ const blinkingEffect = () => {
 };
 
 /**
- * Badge color and its background
+ * Filed badge color and its background
  *
  */
 const filledBadgeColor = css<IBadgeProps>`
@@ -26,6 +26,10 @@ const filledBadgeColor = css<IBadgeProps>`
   `}
 `;
 
+/**
+ * Outline badge color and its background
+ *
+ */
 const outlineBadgeColor = css<IBadgeProps>`
   ${({ theme: { palette, isDark }, withColor }) => css`
     color: ${isDark ? palette[withColor!][400] : palette[withColor!][600]};

@@ -3,6 +3,10 @@ import { LaunchIcon } from '@tidy-ui/icons';
 import { css, styled } from '@tidy-ui/theme';
 import { IAnchorProps } from './types';
 
+/**
+ * Internal root component with styles
+ *
+ */
 const AnchorRoot = styled.a<IAnchorProps>`
   ${({ theme: { palette, isDark }, isDisabled }) => css`
     display: flex;
@@ -21,6 +25,10 @@ const AnchorRoot = styled.a<IAnchorProps>`
   `};
 `;
 
+/**
+ * Internal Icon component with styles
+ *
+ */
 const Icon = styled.i<IAnchorProps>`
   display: flex;
   justify-content: center;
@@ -29,6 +37,11 @@ const Icon = styled.i<IAnchorProps>`
   width: 1em;
 `;
 
+/**
+ * Anchor component is used to represent hyperlinks on a page, a good substitute for default
+ * html `a` tag
+ *
+ */
 const Anchor = React.forwardRef<HTMLAnchorElement, IAnchorProps>((props, ref) => {
   const { children, isLaunch, ...rest } = props;
   return (

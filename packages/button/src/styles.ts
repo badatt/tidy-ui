@@ -1,6 +1,10 @@
 import { css, hsla } from '@tidy-ui/theme';
 import { IButtonProps } from './types';
 
+/**
+ * Size styles
+ *
+ */
 const sizeStyles = {
   lg: {
     fontSize: '1.125rem',
@@ -25,6 +29,10 @@ const sizeStyles = {
   },
 };
 
+/**
+ * Styles for a simple type button
+ *
+ */
 const simple = css<IButtonProps>`
   ${({ theme: { palette, isDark }, withColor, isDisabled }) => css`
     color: ${isDark ? palette[withColor!][400] : palette[withColor!][600]};
@@ -39,6 +47,10 @@ const simple = css<IButtonProps>`
   `}
 `;
 
+/**
+ * Styles for a basic type button
+ *
+ */
 const basic = css<IButtonProps>`
   ${({ theme: { palette, isDark }, withColor, isDisabled }) => css`
     color: ${isDark ? palette[withColor!][400] : palette[withColor!][600]};
@@ -56,6 +68,10 @@ const basic = css<IButtonProps>`
   `}
 `;
 
+/**
+ * Styles for a primary button
+ *
+ */
 const primary = css<IButtonProps>`
   ${({ theme: { palette, isDark }, withColor, isDisabled }) => css`
     color: ${palette[withColor!][100]};
@@ -73,6 +89,10 @@ const primary = css<IButtonProps>`
   `}
 `;
 
+/**
+ * Styles for an outline button
+ *
+ */
 const outlined = css<IButtonProps>`
   ${({ theme: { palette, isDark }, withColor, isDisabled }) => css`
     color: ${isDark ? palette[withColor!][400] : palette[withColor!][600]};
@@ -87,6 +107,11 @@ const outlined = css<IButtonProps>`
   `}
 `;
 
+/**
+ * Styles for a hero type button
+ *
+ * @type {*}
+ */
 const hero = css<IButtonProps>`
   ${({ theme: { palette, isDark }, withColor, isDisabled }) => css`
     padding: 1rem 1.5rem;
