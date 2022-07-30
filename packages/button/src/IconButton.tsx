@@ -15,10 +15,8 @@ const IconButtonRoot = styled.button<IIconButtonProps>`
           border-radius: 50%;
         `
       : css`
-          gap: ${sizeStyles[withSize!].borderRadius};
-          padding: ${sizeStyles[withSize!].padding};
-          border-radius: ${sizeStyles[withSize!].borderRadius};
-          line-height: ${sizeStyles[withSize!].lineHeight};
+          padding: 0;
+          border-radius: 0.4em;
         `}
     ${isDisabled &&
     css`
@@ -34,22 +32,71 @@ const IconButtonRoot = styled.button<IIconButtonProps>`
   `}
 `;
 
+const IconWrapper = styled.span<IIconButtonProps>`
+  padding: 0.4em;
+`;
+
+const IconOnlyWrapper = styled.span<IIconButtonProps>`
+  ${({ isIconOnly }) => css`
+    ${isIconOnly
+      ? css`
+          padding: 0.4em;
+        `
+      : css`
+          padding: 0.4em 0.6em;
+        `}
+  `}
+`;
+
 const Icon = styled.i<IIconButtonProps>`
   display: flex;
   justify-content: center;
   align-items: center;
-  ${({ withSize }) => css`
-    height: ${sizeStyles[withSize!].iconSize};
-    width: ${sizeStyles[withSize!].iconSize};
+  ${({ isIconOnly }) => css`
+    ${isIconOnly
+      ? css`
+          height: 1.8em;
+          width: 1.8em;
+        `
+      : css`
+          height: 1.2em;
+          width: 1.2em;
+        `}
+  `}
+`;
+
+const ChildWrapper = styled.span<IIconButtonProps>`
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  user-select: none;
+  ${({ withPlacement }) => css`
+    ${withPlacement == 'right'
+      ? css`
+          padding-left: 0.4em;
+        `
+      : css`
+          padding-right: 0.4em;
+        `}
   `}
 `;
 
 const IconButton = forwardRef<HTMLButtonElement, IIconButtonProps>((props, ref) => {
-  const { children, withIcon, ...rest } = props;
+  const { children, withIcon } = props;
   return (
-    <IconButtonRoot role="icon-button" ref={ref} {...rest}>
-      {withIcon && <Icon {...rest}>{withIcon}</Icon>}
-      {children}
+    <IconButtonRoot role="icon-button" ref={ref} {...props}>
+      {children ? (
+        <IconWrapper {...props}>
+          <Icon {...props}>{withIcon}</Icon>
+        </IconWrapper>
+      ) : (
+        <IconOnlyWrapper {...props}>
+          <Icon {...props}>{withIcon}</Icon>
+        </IconOnlyWrapper>
+      )}
+      {children && <ChildWrapper {...props}>{children}</ChildWrapper>}
     </IconButtonRoot>
   );
 });
