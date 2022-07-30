@@ -4,7 +4,7 @@ import { Message } from '../src';
 
 export default {
   component: Message,
-  title: 'Message',
+  title: 'Components/Message/Message',
 };
 
 const Container = styled.div`
