@@ -104,7 +104,7 @@ const IconButton = forwardRef<HTMLButtonElement, IIconButtonProps>((props, ref) 
 IconButton.defaultProps = {
   isDisabled: false,
   isIconOnly: false,
-  withColor: 'neutral',
+  withColor: 'major',
   withPlacement: 'left',
   withSize: 'md',
   withType: 'primary',
