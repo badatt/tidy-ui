@@ -1,8 +1,7 @@
 import React from 'react';
-import { CheckCircleIcon, LaunchIcon } from '@tidy-ui/commons';
+import { AddCircleIcon, CheckCircleIcon } from '@tidy-ui/commons';
 import { css, styled } from '@tidy-ui/theme';
 import { Button } from '../src';
-import { sizeStyles } from '../src/styles';
 import { IButtonProps } from '../src/types';
 
 export default {
@@ -93,13 +92,11 @@ const iconStyles = css<IButtonProps>`
   display: flex;
   justify-content: center;
   align-items: center;
-  ${({ withSize }) => css`
-    height: ${sizeStyles[withSize!].iconSize};
-    width: ${sizeStyles[withSize!].iconSize};
-  `}
+  height: 1.5em;
+  width: 1.5em;
 `;
 
-const LaunchIconWrap = styled(LaunchIcon)`
+const LaunchIconWrap = styled(AddCircleIcon)`
   margin-right: 0.25em;
   ${iconStyles}
 `;

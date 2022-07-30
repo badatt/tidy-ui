@@ -37,34 +37,34 @@ export const basic = () => (
 export const colorVariants = () => (
   <Container>
     <IconButton withIcon={<AddCircleIcon />} withColor="major">
-      major
+      Major
     </IconButton>
     <IconButton withIcon={<CancelIcon />} withColor="minor">
-      minor
+      Minor
     </IconButton>
     <IconButton withIcon={<CloseIcon />} withColor="neutral">
-      neutral
+      Neutral
     </IconButton>
     <IconButton withIcon={<InfoIcon />} withColor="info">
-      info
+      Info
     </IconButton>
     <IconButton withIcon={<CheckCircleIcon />} withColor="success">
-      success
+      Success
     </IconButton>
     <IconButton withIcon={<WarningIcon />} withColor="warning">
-      warning
+      Warning
     </IconButton>
     <IconButton withIcon={<DangerousIcon />} withColor="danger">
-      danger
+      Danger
     </IconButton>
   </Container>
 );
 
 export const placement = () => (
   <Container>
-    <IconButton withIcon={<AddCircleIcon />}>left</IconButton>
+    <IconButton withIcon={<AddCircleIcon />}>Left</IconButton>
     <IconButton withIcon={<AddCircleIcon />} withPlacement="right">
-      right
+      Right
     </IconButton>
   </Container>
 );
@@ -73,25 +73,25 @@ export const sizeVariants = () => (
   <Container>
     <Column>
       <IconButton withIcon={<AddCircleIcon />} withSize="xxs">
-        xxs
+        Xxs
       </IconButton>
       <IconButton withIcon={<AddCircleIcon />} withSize="xs">
-        xs
+        Xs
       </IconButton>
       <IconButton withIcon={<AddCircleIcon />} withSize="sm">
-        sm
+        Sm
       </IconButton>
       <IconButton withIcon={<AddCircleIcon />} withSize="md">
-        md
+        Md
       </IconButton>
       <IconButton withIcon={<AddCircleIcon />} withSize="lg">
-        lg
+        Lg
       </IconButton>
       <IconButton withIcon={<AddCircleIcon />} withSize="xl">
-        xl
+        Xl
       </IconButton>
       <IconButton withIcon={<AddCircleIcon />} withSize="xxl">
-        xxl
+        Xxl
       </IconButton>
     </Column>
   </Container>
@@ -100,10 +100,10 @@ export const sizeVariants = () => (
 export const types = () => (
   <Container>
     <IconButton withIcon={<AddCircleIcon />} withType="primary">
-      primary
+      Primary
     </IconButton>
     <IconButton withIcon={<CloseIcon />} withType="outlined">
-      outlined
+      Outlined
     </IconButton>
   </Container>
 );
@@ -111,7 +111,7 @@ export const types = () => (
 export const disabled = () => (
   <Container>
     <IconButton withIcon={<AddIcon />} isDisabled>
-      disabled
+      Disabled
     </IconButton>
   </Container>
 );
