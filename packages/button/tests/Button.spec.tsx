@@ -1,290 +1,158 @@
+/**
+ * @jest-environment jsdom
+ */
 import React from 'react';
-import renderer from 'react-test-renderer';
+import { render } from '@testing-library/react';
 import { ThemeProvider } from 'styled-components';
+import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { CheckCircleIcon, RotatingCircleIcon } from '@tidy-ui/commons';
+import { AddCircleIcon } from '@tidy-ui/commons';
 import { orchidDark, orchidLight } from '@tidy-ui/theme';
 import { Button } from '../src';
 
 describe('Render Button', () => {
-  it('Renders with no styles', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Button />
-        </ThemeProvider>,
-      )
-      .toJSON();
+  it('Basic render', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        <Button>Basic</Button>
+      </ThemeProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
-  it('Renders with no styles dark', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidDark}>
-          <Button />
-        </ThemeProvider>,
-      )
-      .toJSON();
+  it('Basic render in dark', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidDark}>
+        <Button>Basic</Button>
+      </ThemeProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
-  it('Basic neutral button', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Button text="neutral" appearance="basic" color="neutral" />
-        </ThemeProvider>,
-      )
-      .toJSON();
+
+  it('Simple Button in dark', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidDark}>
+        <Button withType="simple">simple</Button>
+      </ThemeProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
-  it('Basic neutral button dark', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidDark}>
-          <Button text="neutral" appearance="basic" color="neutral" />
-        </ThemeProvider>,
-      )
-      .toJSON();
+
+  it('Outlined Button in dark', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidDark}>
+        <Button withType="outlined">outlined</Button>
+      </ThemeProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
-  it('Neutral button', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Button text="neutral" appearance="basic" />
-        </ThemeProvider>,
-      )
-      .toJSON();
+
+  it('Hero Button in dark', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidDark}>
+        <Button withType="hero">hero</Button>
+      </ThemeProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
-  it('Neutral button dark', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidDark}>
-          <Button text="neutral" appearance="basic" />
-        </ThemeProvider>,
-      )
-      .toJSON();
+
+  it('Disabled button', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        <Button isDisabled>Disabled</Button>
+      </ThemeProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
-  it('Filled button', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Button text="primary" appearance="primary" color="major" />
-        </ThemeProvider>,
-      )
-      .toJSON();
+
+  it('Loading blocked button', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        <Button isLoading>Loading...</Button>
+      </ThemeProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
-  it('Filled button dark', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidDark}>
-          <Button text="primary" appearance="primary" color="major" />
-        </ThemeProvider>,
-      )
-      .toJSON();
+
+  it('Stretch full width button', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        <Button isStretched>Stretched</Button>
+      </ThemeProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
-  it('Outlined button', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Button text="secondary" appearance="outlined" color="minor" />
-        </ThemeProvider>,
-      )
-      .toJSON();
+
+  it('Uppercase button', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        <Button isUppercase>uppercase</Button>
+      </ThemeProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
-  it('Outlined button dark', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidDark}>
-          <Button text="secondary" appearance="outlined" color="minor" />
-        </ThemeProvider>,
-      )
-      .toJSON();
+
+  it('Button with all color variants', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        <Button withColor="major">major</Button>
+        <Button withColor="minor">minor</Button>
+        <Button withColor="neutral">neutral</Button>
+        <Button withColor="info">info</Button>
+        <Button withColor="success">success</Button>
+        <Button withColor="warning">warning</Button>
+        <Button withColor="danger">danger</Button>
+      </ThemeProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
-  it('Outlined neutral button', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Button text="secondary" appearance="outlined" />
-        </ThemeProvider>,
-      )
-      .toJSON();
+
+  it('Button with all size variants', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        <Button withSize="xxs">xxs</Button>
+        <Button withSize="xs">size-xs</Button>
+        <Button withSize="sm">size-sm</Button>
+        <Button withSize="md">size-md</Button>
+        <Button withSize="lg">size-lg</Button>
+        <Button withSize="xl">size-xl</Button>
+        <Button withSize="xxl">size-xxl</Button>
+      </ThemeProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
-  it('Outlined neutral button dark', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidDark}>
-          <Button text="secondary" appearance="outlined" />
-        </ThemeProvider>,
-      )
-      .toJSON();
+
+  it('Button with all type variants', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        <Button withType="primary">primary</Button>
+        <Button withType="outlined">outlined</Button>
+        <Button withType="basic">basic</Button>
+        <Button withType="simple">simple</Button>
+        <Button withType="hero">hero</Button>
+      </ThemeProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
-  it('Hero button', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Button text="hero" appearance="hero" color="minor" />
-        </ThemeProvider>,
-      )
-      .toJSON();
+  it('Button with icon', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        <Button withType="primary" withColor="major">
+          <AddCircleIcon />
+          Settings
+        </Button>
+      </ThemeProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
-  it('Hero button dark', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidDark}>
-          <Button text="hero" appearance="hero" color="minor" />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('Hero neutral button', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Button text="hero" appearance="hero" />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('Hero neutral button dark', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidDark}>
-          <Button text="hero" appearance="hero" />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('Button with icon and text', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Button text="Settings" appearance="primary" icon={<CheckCircleIcon />} />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('Button with icon and text dark', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidDark}>
-          <Button text="Settings" appearance="primary" icon={<CheckCircleIcon />} />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('Filled disabled button', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Button text="info" appearance="primary" color="info" disable />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('Filled disabled button dark', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidDark}>
-          <Button text="info" appearance="primary" color="info" disable />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('Outlined full width button', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Button text="warning" appearance="outlined" color="warning" stretch />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('Outlined full width button dark', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidDark}>
-          <Button text="warning" appearance="outlined" color="warning" stretch />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('Filled uppercase button', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Button text="danger" appearance="primary" color="danger" uppercase />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('Filled uppercase button dark', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidDark}>
-          <Button text="danger" appearance="primary" color="danger" uppercase />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('Filled loading button', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Button text="primary" appearance="primary" color="major" loading />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('Filled loading button dark', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidDark}>
-          <Button text="primary" appearance="primary" color="major" loading />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('Only icon button', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Button appearance="primary" color="major" icon={<RotatingCircleIcon />} />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('Only icon button dark', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidDark}>
-          <Button appearance="primary" color="major" icon={<RotatingCircleIcon />} />
-        </ThemeProvider>,
-      )
-      .toJSON();
+
+  it('Button with only icon', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        <Button withColor="neutral">
+          <AddCircleIcon />
+        </Button>
+      </ThemeProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
 });
