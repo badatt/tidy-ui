@@ -16,10 +16,10 @@ const ButtonRoot = styled.button<IButtonProps>`
   vertical-align: middle;
   transition: all 0.3s linear;
   ${({ withSize, isDisabled, isStretched, withType, isUppercase }) => css`
-    padding: ${sizeStyles[withSize!].padding};
-    border-radius: ${sizeStyles[withSize!].borderRadius};
     font-size: ${sizeStyles[withSize!].fontSize};
-    line-height: ${sizeStyles[withSize!].lineHeight};
+    padding: 0.3em 0.5rem;
+    border-radius: 0.3em;
+    line-height: 1.5em;
     ${isDisabled &&
     css`
       cursor: not-allowed;
@@ -47,11 +47,9 @@ const Icon = styled.i<IButtonProps>`
   display: flex;
   justify-content: center;
   align-items: center;
-  ${({ withSize }) => css`
-    height: ${sizeStyles[withSize!].iconSize};
-    width: ${sizeStyles[withSize!].iconSize};
-    margin-right: 0.25em;
-  `}
+  height: 1.5em;
+  width: 1.5em;
+  margin-right: 0.25em;
 `;
 
 const Button = forwardRef<HTMLButtonElement, IButtonProps>((props, ref) => {
