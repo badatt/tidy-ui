@@ -61,7 +61,7 @@ const simple = css<IButtonProps>`
     ${!isDisabled &&
     css`
       &:hover {
-        background-color: ${isDark ? hsla(palette[withColor!].shades[900], 0.4) : palette[withColor!][100]};
+        background-color: ${isDark ? hsla(palette[withColor!].shades[900], 0.4) : palette[withColor!][200]};
       }
     `}
   `}
@@ -75,10 +75,10 @@ const basic = css<IButtonProps>`
     ${!isDisabled &&
     css`
       &:hover {
-        background-color: ${isDark ? hsla(palette[withColor!].shades[900], 0.4) : palette[withColor!][200]};
+        background-color: ${isDark ? hsla(palette[withColor!].shades[900], 0.5) : palette[withColor!][300]};
         box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-          ${isDark ? hsla(palette[withColor!].shades[900], 0.7) : palette[withColor!][300]} 0px 10px 15px -3px,
-          ${isDark ? hsla(palette[withColor!].shades[900], 0.7) : palette[withColor!][300]} 0px 4px 6px -4px;
+          ${isDark ? hsla(palette[withColor!].shades[900], 0.7) : palette[withColor!][400]} 0px 10px 15px -3px,
+          ${isDark ? hsla(palette[withColor!].shades[900], 0.7) : palette[withColor!][400]} 0px 4px 6px -4px;
       }
     `}
   `}
@@ -92,8 +92,8 @@ const primary = css<IButtonProps>`
     ${!isDisabled &&
     css`
       box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-        ${isDark ? palette[withColor!][800] : palette[withColor!][200]} 0px 10px 15px -3px,
-        ${isDark ? palette[withColor!][800] : palette[withColor!][200]} 0px 4px 6px -4px;
+        ${isDark ? palette[withColor!][800] : palette[withColor!][300]} 0px 10px 15px -3px,
+        ${isDark ? palette[withColor!][800] : palette[withColor!][300]} 0px 4px 6px -4px;
       &:hover {
         background-color: ${palette[withColor!][700]};
       }
@@ -109,7 +109,7 @@ const outlined = css<IButtonProps>`
     ${!isDisabled &&
     css`
       &:hover {
-        background-color: ${isDark ? hsla(palette[withColor!].shades[900], 0.5) : palette[withColor!][100]};
+        background-color: ${isDark ? hsla(palette[withColor!].shades[900], 0.5) : palette[withColor!][200]};
       }
     `}
   `}

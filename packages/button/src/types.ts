@@ -34,3 +34,7 @@ export interface IButtonGroupProps extends HTMLAttributes<HTMLDivElement> {
   isUnified?: boolean;
   isVertical?: boolean;
 }
+
+export interface IButtonToolbarProps extends HTMLAttributes<HTMLDivElement> {
+  isDisabled?: boolean;
+}
