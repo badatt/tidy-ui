@@ -71,7 +71,7 @@ Button.defaultProps = {
   isLoading: false,
   isStretched: false,
   isUppercase: false,
-  withColor: 'neutral',
+  withColor: 'major',
   withSize: 'md',
   withType: 'basic',
 };
