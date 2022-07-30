@@ -1,501 +1,3753 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Render Button Basic neutral button 1`] = `
-<button
-  className=""
-  color="neutral"
-  disabled={false}
-  role="button"
-  size="md"
->
-  neutral
-</button>
-`;
+exports[`Render Button Basic render 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
+  border: 1px solid transparent;
+}
 
-exports[`Render Button Basic neutral button dark 1`] = `
-<button
-  className=""
-  color="neutral"
-  disabled={false}
-  role="button"
-  size="md"
->
-  neutral
-</button>
-`;
+.c0:hover {
+  background-color: hsla(269,97%,85%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
 
-exports[`Render Button Button with icon and text 1`] = `
-<button
-  className=""
-  color="major"
-  disabled={false}
-  role="button"
-  size="md"
->
-  <i
-    className=""
-    color="major"
-    loading={false}
-    size="md"
-  >
-    <svg
-      aria-hidden="true"
-      fill="currentColor"
-      focusable={false}
-      viewBox="0 0 24 24"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-      />
-    </svg>
-  </i>
-  Settings
-</button>
-`;
-
-exports[`Render Button Button with icon and text dark 1`] = `
-<button
-  className=""
-  color="major"
-  disabled={false}
-  role="button"
-  size="md"
->
-  <i
-    className=""
-    color="major"
-    loading={false}
-    size="md"
-  >
-    <svg
-      aria-hidden="true"
-      fill="currentColor"
-      focusable={false}
-      viewBox="0 0 24 24"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-      />
-    </svg>
-  </i>
-  Settings
-</button>
-`;
-
-exports[`Render Button Filled button 1`] = `
-<button
-  className=""
-  color="major"
-  disabled={false}
-  role="button"
-  size="md"
->
-  primary
-</button>
-`;
-
-exports[`Render Button Filled button dark 1`] = `
-<button
-  className=""
-  color="major"
-  disabled={false}
-  role="button"
-  size="md"
->
-  primary
-</button>
-`;
-
-exports[`Render Button Filled disabled button 1`] = `
-<button
-  className=""
-  color="info"
-  disabled={true}
-  role="button"
-  size="md"
->
-  info
-</button>
-`;
-
-exports[`Render Button Filled disabled button dark 1`] = `
-<button
-  className=""
-  color="info"
-  disabled={true}
-  role="button"
-  size="md"
->
-  info
-</button>
-`;
-
-exports[`Render Button Filled loading button 1`] = `
-<button
-  className=""
-  color="major"
-  disabled={true}
-  role="button"
-  size="md"
->
-  <i
-    className=""
-    color="major"
-    loading={true}
-    size="md"
-  >
-    <svg
-      enableBackground="new 0 0 0 0"
-      version="1.1"
-      viewBox="0 0 100 100"
-      x="0px"
-      xlinkHref="http://www.w3.org/1999/xlink"
-      xmlSpace="preserve"
-      xmlns="http://www.w3.org/2000/svg"
-      y="0px"
-    >
-      <path
-        d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50"
-        fill="currentColor"
+<body>
+    <div>
+      <button
+        class="c0"
+        role="button"
       >
-        <animateTransform
-          attributeName="transform"
-          attributeType="XML"
-          dur="1s"
-          from="0 50 50"
-          repeatCount="indefinite"
-          to="360 50 50"
-          type="rotate"
-        />
-      </path>
-    </svg>
-  </i>
-  primary
-</button>
-`;
+        Basic
+      </button>
+    </div>
+  </body>,
+  "container": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
+  border: 1px solid transparent;
+}
 
-exports[`Render Button Filled loading button dark 1`] = `
-<button
-  className=""
-  color="major"
-  disabled={true}
-  role="button"
-  size="md"
->
-  <i
-    className=""
-    color="major"
-    loading={true}
-    size="md"
-  >
-    <svg
-      enableBackground="new 0 0 0 0"
-      version="1.1"
-      viewBox="0 0 100 100"
-      x="0px"
-      xlinkHref="http://www.w3.org/1999/xlink"
-      xmlSpace="preserve"
-      xmlns="http://www.w3.org/2000/svg"
-      y="0px"
+.c0:hover {
+  background-color: hsla(269,97%,85%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
+<div>
+    <button
+      class="c0"
+      role="button"
     >
-      <path
-        d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50"
-        fill="currentColor"
+      Basic
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Render Button Basic render in dark 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(270,95%,75%,1);
+  background-color: hsla(274,66%,32%,0.3);
+  border: 1px solid transparent;
+}
+
+.c0:hover {
+  background-color: hsla(274,66%,32%,0.5);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(274,66%,32%,0.7) 0px 10px 15px -3px, hsla(274,66%,32%,0.7) 0px 4px 6px -4px;
+}
+
+<body>
+    <div>
+      <button
+        class="c0"
+        role="button"
       >
-        <animateTransform
-          attributeName="transform"
-          attributeType="XML"
-          dur="1s"
-          from="0 50 50"
-          repeatCount="indefinite"
-          to="360 50 50"
-          type="rotate"
-        />
-      </path>
-    </svg>
-  </i>
-  primary
-</button>
-`;
+        Basic
+      </button>
+    </div>
+  </body>,
+  "container": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(270,95%,75%,1);
+  background-color: hsla(274,66%,32%,0.3);
+  border: 1px solid transparent;
+}
 
-exports[`Render Button Filled uppercase button 1`] = `
-<button
-  className=""
-  color="danger"
-  disabled={false}
-  role="button"
-  size="md"
->
-  danger
-</button>
-`;
+.c0:hover {
+  background-color: hsla(274,66%,32%,0.5);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(274,66%,32%,0.7) 0px 10px 15px -3px, hsla(274,66%,32%,0.7) 0px 4px 6px -4px;
+}
 
-exports[`Render Button Filled uppercase button dark 1`] = `
-<button
-  className=""
-  color="danger"
-  disabled={false}
-  role="button"
-  size="md"
->
-  danger
-</button>
-`;
-
-exports[`Render Button Hero button 1`] = `
-<button
-  className=""
-  color="minor"
-  disabled={false}
-  role="button"
-  size="md"
->
-  hero
-</button>
-`;
-
-exports[`Render Button Hero button dark 1`] = `
-<button
-  className=""
-  color="minor"
-  disabled={false}
-  role="button"
-  size="md"
->
-  hero
-</button>
-`;
-
-exports[`Render Button Hero neutral button 1`] = `
-<button
-  className=""
-  color="major"
-  disabled={false}
-  role="button"
-  size="md"
->
-  hero
-</button>
-`;
-
-exports[`Render Button Hero neutral button dark 1`] = `
-<button
-  className=""
-  color="major"
-  disabled={false}
-  role="button"
-  size="md"
->
-  hero
-</button>
-`;
-
-exports[`Render Button Neutral button 1`] = `
-<button
-  className=""
-  color="major"
-  disabled={false}
-  role="button"
-  size="md"
->
-  neutral
-</button>
-`;
-
-exports[`Render Button Neutral button dark 1`] = `
-<button
-  className=""
-  color="major"
-  disabled={false}
-  role="button"
-  size="md"
->
-  neutral
-</button>
-`;
-
-exports[`Render Button Only icon button 1`] = `
-<button
-  className=""
-  color="major"
-  disabled={false}
-  role="button"
-  size="md"
->
-  <i
-    className=""
-    color="major"
-    loading={false}
-    size="md"
-  >
-    <svg
-      enableBackground="new 0 0 0 0"
-      version="1.1"
-      viewBox="0 0 100 100"
-      x="0px"
-      xlinkHref="http://www.w3.org/1999/xlink"
-      xmlSpace="preserve"
-      xmlns="http://www.w3.org/2000/svg"
-      y="0px"
+<div>
+    <button
+      class="c0"
+      role="button"
     >
-      <path
-        d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50"
-        fill="currentColor"
-      >
-        <animateTransform
-          attributeName="transform"
-          attributeType="XML"
-          dur="1s"
-          from="0 50 50"
-          repeatCount="indefinite"
-          to="360 50 50"
-          type="rotate"
-        />
-      </path>
-    </svg>
-  </i>
-  
-</button>
+      Basic
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
-exports[`Render Button Only icon button dark 1`] = `
-<button
-  className=""
-  color="major"
-  disabled={false}
-  role="button"
-  size="md"
->
-  <i
-    className=""
-    color="major"
-    loading={false}
-    size="md"
-  >
-    <svg
-      enableBackground="new 0 0 0 0"
-      version="1.1"
-      viewBox="0 0 100 100"
-      x="0px"
-      xlinkHref="http://www.w3.org/1999/xlink"
-      xmlSpace="preserve"
-      xmlns="http://www.w3.org/2000/svg"
-      y="0px"
+exports[`Render Button Button with all color variants 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
+  border: 1px solid transparent;
+}
+
+.c0:hover {
+  background-color: hsla(269,97%,85%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
+.c1 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(333,71%,51%,1);
+  background-color: hsla(326,85%,90%,1);
+  border: 1px solid transparent;
+}
+
+.c1:hover {
+  background-color: hsla(327,87%,82%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(329,86%,70%,1) 0px 10px 15px -3px, hsla(329,86%,70%,1) 0px 4px 6px -4px;
+}
+
+.c2 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(0,0%,32%,1);
+  background-color: hsla(0,0%,90%,1);
+  border: 1px solid transparent;
+}
+
+.c2:hover {
+  background-color: hsla(0,0%,83%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(0,0%,64%,1) 0px 10px 15px -3px, hsla(0,0%,64%,1) 0px 4px 6px -4px;
+}
+
+.c3 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(221,83%,53%,1);
+  background-color: hsla(213,97%,87%,1);
+  border: 1px solid transparent;
+}
+
+.c3:hover {
+  background-color: hsla(212,96%,78%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(213,94%,68%,1) 0px 10px 15px -3px, hsla(213,94%,68%,1) 0px 4px 6px -4px;
+}
+
+.c4 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(142,76%,36%,1);
+  background-color: hsla(141,79%,85%,1);
+  border: 1px solid transparent;
+}
+
+.c4:hover {
+  background-color: hsla(142,77%,73%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(142,69%,58%,1) 0px 10px 15px -3px, hsla(142,69%,58%,1) 0px 4px 6px -4px;
+}
+
+.c5 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(32,95%,44%,1);
+  background-color: hsla(48,97%,77%,1);
+  border: 1px solid transparent;
+}
+
+.c5:hover {
+  background-color: hsla(46,97%,65%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(43,96%,56%,1) 0px 10px 15px -3px, hsla(43,96%,56%,1) 0px 4px 6px -4px;
+}
+
+.c6 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(0,72%,51%,1);
+  background-color: hsla(0,96%,89%,1);
+  border: 1px solid transparent;
+}
+
+.c6:hover {
+  background-color: hsla(0,94%,82%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(0,91%,71%,1) 0px 10px 15px -3px, hsla(0,91%,71%,1) 0px 4px 6px -4px;
+}
+
+<body>
+    <div>
+      <button
+        class="c0"
+        role="button"
+      >
+        major
+      </button>
+      <button
+        class="c1"
+        role="button"
+      >
+        minor
+      </button>
+      <button
+        class="c2"
+        role="button"
+      >
+        neutral
+      </button>
+      <button
+        class="c3"
+        role="button"
+      >
+        info
+      </button>
+      <button
+        class="c4"
+        role="button"
+      >
+        success
+      </button>
+      <button
+        class="c5"
+        role="button"
+      >
+        warning
+      </button>
+      <button
+        class="c6"
+        role="button"
+      >
+        danger
+      </button>
+    </div>
+  </body>,
+  "container": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
+  border: 1px solid transparent;
+}
+
+.c0:hover {
+  background-color: hsla(269,97%,85%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
+.c1 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(333,71%,51%,1);
+  background-color: hsla(326,85%,90%,1);
+  border: 1px solid transparent;
+}
+
+.c1:hover {
+  background-color: hsla(327,87%,82%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(329,86%,70%,1) 0px 10px 15px -3px, hsla(329,86%,70%,1) 0px 4px 6px -4px;
+}
+
+.c2 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(0,0%,32%,1);
+  background-color: hsla(0,0%,90%,1);
+  border: 1px solid transparent;
+}
+
+.c2:hover {
+  background-color: hsla(0,0%,83%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(0,0%,64%,1) 0px 10px 15px -3px, hsla(0,0%,64%,1) 0px 4px 6px -4px;
+}
+
+.c3 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(221,83%,53%,1);
+  background-color: hsla(213,97%,87%,1);
+  border: 1px solid transparent;
+}
+
+.c3:hover {
+  background-color: hsla(212,96%,78%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(213,94%,68%,1) 0px 10px 15px -3px, hsla(213,94%,68%,1) 0px 4px 6px -4px;
+}
+
+.c4 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(142,76%,36%,1);
+  background-color: hsla(141,79%,85%,1);
+  border: 1px solid transparent;
+}
+
+.c4:hover {
+  background-color: hsla(142,77%,73%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(142,69%,58%,1) 0px 10px 15px -3px, hsla(142,69%,58%,1) 0px 4px 6px -4px;
+}
+
+.c5 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(32,95%,44%,1);
+  background-color: hsla(48,97%,77%,1);
+  border: 1px solid transparent;
+}
+
+.c5:hover {
+  background-color: hsla(46,97%,65%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(43,96%,56%,1) 0px 10px 15px -3px, hsla(43,96%,56%,1) 0px 4px 6px -4px;
+}
+
+.c6 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(0,72%,51%,1);
+  background-color: hsla(0,96%,89%,1);
+  border: 1px solid transparent;
+}
+
+.c6:hover {
+  background-color: hsla(0,94%,82%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(0,91%,71%,1) 0px 10px 15px -3px, hsla(0,91%,71%,1) 0px 4px 6px -4px;
+}
+
+<div>
+    <button
+      class="c0"
+      role="button"
     >
-      <path
-        d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50"
-        fill="currentColor"
+      major
+    </button>
+    <button
+      class="c1"
+      role="button"
+    >
+      minor
+    </button>
+    <button
+      class="c2"
+      role="button"
+    >
+      neutral
+    </button>
+    <button
+      class="c3"
+      role="button"
+    >
+      info
+    </button>
+    <button
+      class="c4"
+      role="button"
+    >
+      success
+    </button>
+    <button
+      class="c5"
+      role="button"
+    >
+      warning
+    </button>
+    <button
+      class="c6"
+      role="button"
+    >
+      danger
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Render Button Button with all size variants 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.5rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
+  border: 1px solid transparent;
+}
+
+.c0:hover {
+  background-color: hsla(269,97%,85%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
+.c1 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.625rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
+  border: 1px solid transparent;
+}
+
+.c1:hover {
+  background-color: hsla(269,97%,85%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
+.c2 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.75rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
+  border: 1px solid transparent;
+}
+
+.c2:hover {
+  background-color: hsla(269,97%,85%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
+.c3 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
+  border: 1px solid transparent;
+}
+
+.c3:hover {
+  background-color: hsla(269,97%,85%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
+.c4 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 1.125rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
+  border: 1px solid transparent;
+}
+
+.c4:hover {
+  background-color: hsla(269,97%,85%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
+.c5 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 1.5rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
+  border: 1px solid transparent;
+}
+
+.c5:hover {
+  background-color: hsla(269,97%,85%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
+.c6 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 2rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
+  border: 1px solid transparent;
+}
+
+.c6:hover {
+  background-color: hsla(269,97%,85%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
+<body>
+    <div>
+      <button
+        class="c0"
+        role="button"
       >
-        <animateTransform
-          attributeName="transform"
-          attributeType="XML"
-          dur="1s"
-          from="0 50 50"
-          repeatCount="indefinite"
-          to="360 50 50"
-          type="rotate"
+        xxs
+      </button>
+      <button
+        class="c1"
+        role="button"
+      >
+        size-xs
+      </button>
+      <button
+        class="c2"
+        role="button"
+      >
+        size-sm
+      </button>
+      <button
+        class="c3"
+        role="button"
+      >
+        size-md
+      </button>
+      <button
+        class="c4"
+        role="button"
+      >
+        size-lg
+      </button>
+      <button
+        class="c5"
+        role="button"
+      >
+        size-xl
+      </button>
+      <button
+        class="c6"
+        role="button"
+      >
+        size-xxl
+      </button>
+    </div>
+  </body>,
+  "container": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.5rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
+  border: 1px solid transparent;
+}
+
+.c0:hover {
+  background-color: hsla(269,97%,85%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
+.c1 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.625rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
+  border: 1px solid transparent;
+}
+
+.c1:hover {
+  background-color: hsla(269,97%,85%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
+.c2 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.75rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
+  border: 1px solid transparent;
+}
+
+.c2:hover {
+  background-color: hsla(269,97%,85%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
+.c3 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
+  border: 1px solid transparent;
+}
+
+.c3:hover {
+  background-color: hsla(269,97%,85%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
+.c4 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 1.125rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
+  border: 1px solid transparent;
+}
+
+.c4:hover {
+  background-color: hsla(269,97%,85%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
+.c5 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 1.5rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
+  border: 1px solid transparent;
+}
+
+.c5:hover {
+  background-color: hsla(269,97%,85%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
+.c6 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 2rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
+  border: 1px solid transparent;
+}
+
+.c6:hover {
+  background-color: hsla(269,97%,85%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
+<div>
+    <button
+      class="c0"
+      role="button"
+    >
+      xxs
+    </button>
+    <button
+      class="c1"
+      role="button"
+    >
+      size-xs
+    </button>
+    <button
+      class="c2"
+      role="button"
+    >
+      size-sm
+    </button>
+    <button
+      class="c3"
+      role="button"
+    >
+      size-md
+    </button>
+    <button
+      class="c4"
+      role="button"
+    >
+      size-lg
+    </button>
+    <button
+      class="c5"
+      role="button"
+    >
+      size-xl
+    </button>
+    <button
+      class="c6"
+      role="button"
+    >
+      size-xxl
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Render Button Button with all type variants 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
+  border: 1px solid transparent;
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px, hsla(269,97%,85%,1) 0px 4px 6px -4px;
+}
+
+.c0:hover {
+  background-color: hsla(272,72%,47%,1);
+}
+
+.c1 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(270,100%,98%,1);
+  border: 1px solid hsla(269,97%,85%,1);
+}
+
+.c1:hover {
+  background-color: hsla(269,100%,92%,1);
+}
+
+.c2 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
+  border: 1px solid transparent;
+}
+
+.c2:hover {
+  background-color: hsla(269,97%,85%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
+.c3 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(271,81%,56%,1);
+  background-color: transparent;
+  border: none;
+}
+
+.c3:hover {
+  background-color: hsla(269,100%,92%,1);
+}
+
+.c4 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  font-size: 3rem;
+  line-height: 2.125rem;
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
+  border: 1px solid transparent;
+  width: 100%;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,100%,92%,1) 0px 10px 15px -3px, hsla(269,100%,92%,1) 0px 4px 6px -4px;
+}
+
+.c4:hover {
+  background-color: hsla(272,72%,47%,1);
+}
+
+<body>
+    <div>
+      <button
+        class="c0"
+        role="button"
+      >
+        primary
+      </button>
+      <button
+        class="c1"
+        role="button"
+      >
+        outlined
+      </button>
+      <button
+        class="c2"
+        role="button"
+      >
+        basic
+      </button>
+      <button
+        class="c3"
+        role="button"
+      >
+        simple
+      </button>
+      <button
+        class="c4"
+        role="button"
+      >
+        hero
+      </button>
+    </div>
+  </body>,
+  "container": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
+  border: 1px solid transparent;
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px, hsla(269,97%,85%,1) 0px 4px 6px -4px;
+}
+
+.c0:hover {
+  background-color: hsla(272,72%,47%,1);
+}
+
+.c1 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(270,100%,98%,1);
+  border: 1px solid hsla(269,97%,85%,1);
+}
+
+.c1:hover {
+  background-color: hsla(269,100%,92%,1);
+}
+
+.c2 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
+  border: 1px solid transparent;
+}
+
+.c2:hover {
+  background-color: hsla(269,97%,85%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
+.c3 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(271,81%,56%,1);
+  background-color: transparent;
+  border: none;
+}
+
+.c3:hover {
+  background-color: hsla(269,100%,92%,1);
+}
+
+.c4 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  font-size: 3rem;
+  line-height: 2.125rem;
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
+  border: 1px solid transparent;
+  width: 100%;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,100%,92%,1) 0px 10px 15px -3px, hsla(269,100%,92%,1) 0px 4px 6px -4px;
+}
+
+.c4:hover {
+  background-color: hsla(272,72%,47%,1);
+}
+
+<div>
+    <button
+      class="c0"
+      role="button"
+    >
+      primary
+    </button>
+    <button
+      class="c1"
+      role="button"
+    >
+      outlined
+    </button>
+    <button
+      class="c2"
+      role="button"
+    >
+      basic
+    </button>
+    <button
+      class="c3"
+      role="button"
+    >
+      simple
+    </button>
+    <button
+      class="c4"
+      role="button"
+    >
+      hero
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Render Button Button with icon 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
+  border: 1px solid transparent;
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px, hsla(269,97%,85%,1) 0px 4px 6px -4px;
+}
+
+.c0:hover {
+  background-color: hsla(272,72%,47%,1);
+}
+
+<body>
+    <div>
+      <button
+        class="c0"
+        role="button"
+      >
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"
+          />
+        </svg>
+        Settings
+      </button>
+    </div>
+  </body>,
+  "container": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
+  border: 1px solid transparent;
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px, hsla(269,97%,85%,1) 0px 4px 6px -4px;
+}
+
+.c0:hover {
+  background-color: hsla(272,72%,47%,1);
+}
+
+<div>
+    <button
+      class="c0"
+      role="button"
+    >
+      <svg
+        aria-hidden="true"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"
         />
-      </path>
-    </svg>
-  </i>
-  
-</button>
+      </svg>
+      Settings
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
-exports[`Render Button Outlined button 1`] = `
-<button
-  className=""
-  color="minor"
-  disabled={false}
-  role="button"
-  size="md"
->
-  secondary
-</button>
+exports[`Render Button Button with only icon 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(0,0%,32%,1);
+  background-color: hsla(0,0%,90%,1);
+  border: 1px solid transparent;
+}
+
+.c0:hover {
+  background-color: hsla(0,0%,83%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(0,0%,64%,1) 0px 10px 15px -3px, hsla(0,0%,64%,1) 0px 4px 6px -4px;
+}
+
+<body>
+    <div>
+      <button
+        class="c0"
+        role="button"
+      >
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"
+          />
+        </svg>
+      </button>
+    </div>
+  </body>,
+  "container": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(0,0%,32%,1);
+  background-color: hsla(0,0%,90%,1);
+  border: 1px solid transparent;
+}
+
+.c0:hover {
+  background-color: hsla(0,0%,83%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(0,0%,64%,1) 0px 10px 15px -3px, hsla(0,0%,64%,1) 0px 4px 6px -4px;
+}
+
+<div>
+    <button
+      class="c0"
+      role="button"
+    >
+      <svg
+        aria-hidden="true"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"
+        />
+      </svg>
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
-exports[`Render Button Outlined button dark 1`] = `
-<button
-  className=""
-  color="minor"
-  disabled={false}
-  role="button"
-  size="md"
->
-  secondary
-</button>
+exports[`Render Button Disabled button 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  cursor: not-allowed;
+  opacity: 0.6;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
+  border: 1px solid transparent;
+}
+
+<body>
+    <div>
+      <button
+        class="c0"
+        role="button"
+      >
+        Disabled
+      </button>
+    </div>
+  </body>,
+  "container": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  cursor: not-allowed;
+  opacity: 0.6;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
+  border: 1px solid transparent;
+}
+
+<div>
+    <button
+      class="c0"
+      role="button"
+    >
+      Disabled
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
-exports[`Render Button Outlined full width button 1`] = `
-<button
-  className=""
-  color="warning"
-  disabled={false}
-  role="button"
-  size="md"
->
-  warning
-</button>
+exports[`Render Button Hero Button in dark 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  font-size: 3rem;
+  line-height: 2.125rem;
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
+  border: 1px solid transparent;
+  width: 100%;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(273,67%,39%,1) 0px 10px 15px -3px, hsla(273,67%,39%,1) 0px 4px 6px -4px;
+}
+
+.c0:hover {
+  background-color: hsla(272,72%,47%,1);
+}
+
+<body>
+    <div>
+      <button
+        class="c0"
+        role="button"
+      >
+        hero
+      </button>
+    </div>
+  </body>,
+  "container": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  font-size: 3rem;
+  line-height: 2.125rem;
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
+  border: 1px solid transparent;
+  width: 100%;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(273,67%,39%,1) 0px 10px 15px -3px, hsla(273,67%,39%,1) 0px 4px 6px -4px;
+}
+
+.c0:hover {
+  background-color: hsla(272,72%,47%,1);
+}
+
+<div>
+    <button
+      class="c0"
+      role="button"
+    >
+      hero
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
-exports[`Render Button Outlined full width button dark 1`] = `
-<button
-  className=""
-  color="warning"
-  disabled={false}
-  role="button"
-  size="md"
->
-  warning
-</button>
+exports[`Render Button Loading blocked button 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  cursor: not-allowed;
+  opacity: 0.6;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
+  border: 1px solid transparent;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 1.5em;
+  width: 1.5em;
+  margin-right: 0.25em;
+}
+
+<body>
+    <div>
+      <button
+        class="c0"
+        role="button"
+      >
+        <i
+          class="c1"
+        >
+          <svg
+            enable-background="new 0 0 0 0"
+            version="1.1"
+            viewBox="0 0 100 100"
+            x="0px"
+            xlink:href="http://www.w3.org/1999/xlink"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            y="0px"
+          >
+            <path
+              d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50"
+              fill="currentColor"
+            >
+              <animatetransform
+                attributeName="transform"
+                attributeType="XML"
+                dur="1s"
+                from="0 50 50"
+                repeatCount="indefinite"
+                to="360 50 50"
+                type="rotate"
+              />
+            </path>
+          </svg>
+        </i>
+        Loading...
+      </button>
+    </div>
+  </body>,
+  "container": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  cursor: not-allowed;
+  opacity: 0.6;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
+  border: 1px solid transparent;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 1.5em;
+  width: 1.5em;
+  margin-right: 0.25em;
+}
+
+<div>
+    <button
+      class="c0"
+      role="button"
+    >
+      <i
+        class="c1"
+      >
+        <svg
+          enable-background="new 0 0 0 0"
+          version="1.1"
+          viewBox="0 0 100 100"
+          x="0px"
+          xlink:href="http://www.w3.org/1999/xlink"
+          xml:space="preserve"
+          xmlns="http://www.w3.org/2000/svg"
+          y="0px"
+        >
+          <path
+            d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50"
+            fill="currentColor"
+          >
+            <animatetransform
+              attributeName="transform"
+              attributeType="XML"
+              dur="1s"
+              from="0 50 50"
+              repeatCount="indefinite"
+              to="360 50 50"
+              type="rotate"
+            />
+          </path>
+        </svg>
+      </i>
+      Loading...
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
-exports[`Render Button Outlined neutral button 1`] = `
-<button
-  className=""
-  color="major"
-  disabled={false}
-  role="button"
-  size="md"
->
-  secondary
-</button>
+exports[`Render Button Outlined Button in dark 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(270,95%,75%,1);
+  background-color: hsla(274,66%,32%,0.3);
+  border: 1px solid hsla(271,81%,56%,1);
+}
+
+.c0:hover {
+  background-color: hsla(274,66%,32%,0.5);
+}
+
+<body>
+    <div>
+      <button
+        class="c0"
+        role="button"
+      >
+        outlined
+      </button>
+    </div>
+  </body>,
+  "container": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(270,95%,75%,1);
+  background-color: hsla(274,66%,32%,0.3);
+  border: 1px solid hsla(271,81%,56%,1);
+}
+
+.c0:hover {
+  background-color: hsla(274,66%,32%,0.5);
+}
+
+<div>
+    <button
+      class="c0"
+      role="button"
+    >
+      outlined
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
-exports[`Render Button Outlined neutral button dark 1`] = `
-<button
-  className=""
-  color="major"
-  disabled={false}
-  role="button"
-  size="md"
->
-  secondary
-</button>
+exports[`Render Button Simple Button in dark 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(270,95%,75%,1);
+  background-color: transparent;
+  border: none;
+}
+
+.c0:hover {
+  background-color: hsla(274,66%,32%,0.4);
+}
+
+<body>
+    <div>
+      <button
+        class="c0"
+        role="button"
+      >
+        simple
+      </button>
+    </div>
+  </body>,
+  "container": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(270,95%,75%,1);
+  background-color: transparent;
+  border: none;
+}
+
+.c0:hover {
+  background-color: hsla(274,66%,32%,0.4);
+}
+
+<div>
+    <button
+      class="c0"
+      role="button"
+    >
+      simple
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
-exports[`Render Button Renders with no styles 1`] = `
-<button
-  className=""
-  color="major"
-  disabled={false}
-  role="button"
-  size="md"
->
-  
-</button>
+exports[`Render Button Stretch full width button 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  width: 100%;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
+  border: 1px solid transparent;
+}
+
+.c0:hover {
+  background-color: hsla(269,97%,85%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
+<body>
+    <div>
+      <button
+        class="c0"
+        role="button"
+      >
+        Stretched
+      </button>
+    </div>
+  </body>,
+  "container": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  width: 100%;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
+  border: 1px solid transparent;
+}
+
+.c0:hover {
+  background-color: hsla(269,97%,85%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
+<div>
+    <button
+      class="c0"
+      role="button"
+    >
+      Stretched
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
-exports[`Render Button Renders with no styles dark 1`] = `
-<button
-  className=""
-  color="major"
-  disabled={false}
-  role="button"
-  size="md"
->
-  
-</button>
+exports[`Render Button Uppercase button 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
+  border: 1px solid transparent;
+}
+
+.c0:hover {
+  background-color: hsla(269,97%,85%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
+<body>
+    <div>
+      <button
+        class="c0"
+        role="button"
+      >
+        uppercase
+      </button>
+    </div>
+  </body>,
+  "container": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
+  border: 1px solid transparent;
+}
+
+.c0:hover {
+  background-color: hsla(269,97%,85%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
+<div>
+    <button
+      class="c0"
+      role="button"
+    >
+      uppercase
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
