@@ -4,6 +4,10 @@ import { css, styled } from '@tidy-ui/theme';
 import { basic, hero, outlined, primary, simple, sizeStyles } from './styles';
 import { IButtonProps } from './types';
 
+/**
+ * Internal root component with styles
+ *
+ */
 const ButtonRoot = styled.button<IButtonProps>`
   cursor: pointer;
   display: flex;
@@ -43,6 +47,10 @@ const ButtonRoot = styled.button<IButtonProps>`
   `}
 `;
 
+/**
+ * Internal Icon component with styles
+ *
+ */
 const Icon = styled.i<IButtonProps>`
   display: flex;
   justify-content: center;
@@ -52,6 +60,11 @@ const Icon = styled.i<IButtonProps>`
   margin-right: 0.25em;
 `;
 
+/**
+ * Button component cab be used to represent CTAs in your pages, can be a good replacement
+ * for default html `button`, powered by various styles (with theming) and settings
+ *
+ */
 const Button = forwardRef<HTMLButtonElement, IButtonProps>((props, ref) => {
   const { children, isLoading, isDisabled, ...rest } = props;
   return (

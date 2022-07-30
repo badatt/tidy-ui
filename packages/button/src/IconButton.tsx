@@ -3,6 +3,10 @@ import { css, styled } from '@tidy-ui/theme';
 import { outlined, primary, sizeStyles } from './styles';
 import { IIconButtonProps } from './types';
 
+/**
+ * Internal root component with styles
+ *
+ */
 const IconButtonRoot = styled.button<IIconButtonProps>`
   display: flex;
   justify-content: center;
@@ -32,10 +36,18 @@ const IconButtonRoot = styled.button<IIconButtonProps>`
   `}
 `;
 
+/**
+ * The Wrapper component for Icon
+ *
+ */
 const IconWrapper = styled.span<IIconButtonProps>`
   padding: 0.4em;
 `;
 
+/**
+ * The Wrapper component for IconOnly type buttons
+ *
+ */
 const IconOnlyWrapper = styled.span<IIconButtonProps>`
   ${({ isIconOnly }) => css`
     ${isIconOnly
@@ -48,6 +60,10 @@ const IconOnlyWrapper = styled.span<IIconButtonProps>`
   `}
 `;
 
+/**
+ * Internal Icon with styles
+ *
+ */
 const Icon = styled.i<IIconButtonProps>`
   display: flex;
   justify-content: center;
@@ -65,6 +81,10 @@ const Icon = styled.i<IIconButtonProps>`
   `}
 `;
 
+/**
+ * Internal component for children other than Icon
+ *
+ */
 const ChildWrapper = styled.span<IIconButtonProps>`
   display: inline-flex;
   justify-content: center;
@@ -83,6 +103,10 @@ const ChildWrapper = styled.span<IIconButtonProps>`
   `}
 `;
 
+/**
+ * IconButton can be used to represent a Button with Icon and its related text embedded inside.
+ *
+ */
 const IconButton = forwardRef<HTMLButtonElement, IIconButtonProps>((props, ref) => {
   const { children, withIcon } = props;
   return (

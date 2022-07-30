@@ -2,6 +2,10 @@ import React, { forwardRef } from 'react';
 import { css, styled } from '@tidy-ui/theme';
 import { IButtonGroupProps } from './types';
 
+/**
+ * Internal root component with styles
+ *
+ */
 const ButtonGroupRoot = styled.div<IButtonGroupProps>`
   display: flex;
   ${({ isVertical, isDisabled, isStretched, isUnified }) => css`
@@ -81,6 +85,10 @@ const ButtonGroupRoot = styled.div<IButtonGroupProps>`
   `}
 `;
 
+/**
+ * ButtonGroup can be use to group several look alike buttons to form a grouped CTAs
+ *
+ */
 const ButtonGroup = forwardRef<HTMLDivElement, IButtonGroupProps>((props, ref) => {
   const { children, ...rest } = props;
   return (
