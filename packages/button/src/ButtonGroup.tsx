@@ -9,74 +9,74 @@ const ButtonGroupRoot = styled.div<IButtonGroupProps>`
       ? css`
           flex-direction: column;
           & > :first-child {
-            border-bottom-left-radius: 0;
-            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0 !important;
+            border-bottom-right-radius: 0 !important;
             ${isUnified &&
             css`
-              border-bottom: 0;
+              border-bottom: 0 !important;
             `}
           }
           & > :last-child {
-            border-top-left-radius: 0;
-            border-top-right-radius: 0;
-            border-top: 0;
+            border-top-left-radius: 0 !important;
+            border-top-right-radius: 0 !important;
+            border-top: 0 !important;
           }
           & > :not(:first-child):not(:last-child) {
-            border-top: 0;
+            border-top: 0 !important;
             ${isUnified &&
             css`
-              border-bottom: 0;
+              border-bottom: 0 !important;
             `}
           }
         `
       : css`
           & > :first-child {
-            border-top-right-radius: 0;
-            border-bottom-right-radius: 0;
+            border-top-right-radius: 0 !important;
+            border-bottom-right-radius: 0 !important;
             ${isUnified &&
             css`
-              border-right: 0;
+              border-right: 0 !important;
             `}
           }
           & > :last-child {
-            border-top-left-radius: 0;
-            border-bottom-left-radius: 0;
-            border-left: 0;
+            border-top-left-radius: 0 !important;
+            border-bottom-left-radius: 0 !important;
+            border-left: 0 !important;
           }
           & > :not(:first-child):not(:last-child) {
             ${isUnified &&
             css`
-              border-right: 0;
+              border-right: 0 !important;
             `}
-            border-left: 0;
+            border-left: 0 !important;
           }
         `}
     ${isDisabled &&
     css`
-      cursor: not-allowed;
-      opacity: 0.6;
-      & > * {
-        cursor: not-allowed;
-        box-shadow: none;
+      cursor: not-allowed !important;
+      opacity: 0.6 !important;
+      & * {
+        cursor: not-allowed !important;
+        box-shadow: none !important;
         &:hover {
-          box-shadow: none;
+          box-shadow: none !important;
         }
       }
     `}
     ${isStretched &&
     css`
-      width: 100%;
-      & > * {
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: 1%;
+      width: 100% !important;
+      & * {
+        flex-grow: 1 !important;
+        flex-shrink: 1 !important;
+        flex-basis: 1% !important;
       }
     `}
-    & > * {
-      box-shadow: none;
+    & * {
+      box-shadow: none !important;
     }
     & > :not(:first-child):not(:last-child) {
-      border-radius: 0;
+      border-radius: 0 !important;
     }
   `}
 `;
