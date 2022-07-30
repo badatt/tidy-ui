@@ -14,7 +14,7 @@ const AnchorRoot = styled.a<IAnchorProps>`
     css`
       cursor: not-allowed;
       pointer-events: none;
-      opacity: 0.5;
+      opacity: 0.6;
     `}
     &:hover {
       text-decoration: underline;
@@ -26,10 +26,8 @@ const Icon = styled.i<IAnchorProps>`
   display: flex;
   justify-content: center;
   align-items: center;
-  ${({ withSize }) => css`
-    height: ${sizeStyles[withSize!].iconSize};
-    width: ${sizeStyles[withSize!].iconSize};
-  `}
+  height: ${sizeStyles['xs'].iconSize};
+  width: ${sizeStyles['xs'].iconSize};
 `;
 
 const Anchor = React.forwardRef<HTMLAnchorElement, IAnchorProps>((props, ref) => {
@@ -49,7 +47,6 @@ const Anchor = React.forwardRef<HTMLAnchorElement, IAnchorProps>((props, ref) =>
 Anchor.defaultProps = {
   isDisabled: false,
   isLaunch: false,
-  withSize: 'sm',
 };
 
 export { Anchor };

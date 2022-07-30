@@ -1,7 +1,9 @@
 import React from 'react';
 import { CheckCircleIcon, LaunchIcon } from '@tidy-ui/commons';
-import { styled } from '@tidy-ui/theme';
-import { Anchor, Button } from '../src';
+import { css, styled } from '@tidy-ui/theme';
+import { Button } from '../src';
+import { sizeStyles } from '../src/styles';
+import { IButtonProps } from '../src/types';
 
 export default {
   component: Button,
@@ -21,116 +23,99 @@ const Column = styled.div`
 
 export const basic = () => (
   <Container>
-    <Button withText="neutral" withType="basic" withColor="neutral" />
-    <Button withText="major" withType="basic" withColor="major" />
-    <Button withText="minor" withType="basic" withColor="minor" />
-    <Button withText="info" withType="basic" withColor="info" />
-    <Button withText="success" withType="basic" withColor="success" />
-    <Button withText="warning" withType="basic" withColor="warning" />
-    <Button withText="danger" withType="basic" withColor="danger" />
+    <Button>basic button</Button>
   </Container>
 );
 
-export const outlined = () => (
+export const colorVariants = () => (
   <Container>
-    <Button withText="neutral" withType="outlined" withColor="neutral" />
-    <Button withText="major" withType="outlined" withColor="major" />
-    <Button withText="minor" withType="outlined" withColor="minor" />
-    <Button withText="info" withType="outlined" withColor="info" />
-    <Button withText="success" withType="outlined" withColor="success" />
-    <Button withText="warning" withType="outlined" withColor="warning" />
-    <Button withText="danger" withType="outlined" withColor="danger" />
+    <Button withColor="major">major</Button>
+    <Button withColor="minor">minor</Button>
+    <Button withColor="neutral">neutral</Button>
+    <Button withColor="info">info</Button>
+    <Button withColor="success">success</Button>
+    <Button withColor="warning">warning</Button>
+    <Button withColor="danger">danger</Button>
   </Container>
 );
 
-export const primary = () => (
-  <Container>
-    <Button withText="neutral" withType="primary" withColor="neutral" />
-    <Button withText="major" withType="primary" withColor="major" />
-    <Button withText="minor" withType="primary" withColor="minor" />
-    <Button withText="info" withType="primary" withColor="info" />
-    <Button withText="success" withType="primary" withColor="success" />
-    <Button withText="warning" withType="primary" withColor="warning" />
-    <Button withText="danger" withType="primary" withColor="danger" />
-  </Container>
-);
-
-export const size = () => (
+export const sizeVariants = () => (
   <Container>
     <Column>
-      <Button withText="size-xxs" withType="basic" withColor="neutral" withSize="xxs" />
-      <Button withText="size-xs" withType="basic" withColor="info" withSize="xs" />
-      <Button withText="size-sm" withType="basic" withColor="success" withSize="sm" />
-      <Button withText="size-md" withType="basic" withColor="warning" withSize="md" />
-      <Button withText="size-lg" withType="basic" withColor="danger" withSize="lg" />
-      <Button withText="size-xl" withType="basic" withColor="major" withSize="xl" />
-      <Button withText="size-xxl" withType="basic" withColor="minor" withSize="xxl" />
-    </Column>
-    <Column>
-      <Button withText="size-xxs" withType="primary" withColor="neutral" withSize="xxs" />
-      <Button withText="size-xs" withType="primary" withColor="info" withSize="xs" />
-      <Button withText="size-sm" withType="primary" withColor="success" withSize="sm" />
-      <Button withText="size-md" withType="primary" withColor="warning" withSize="md" />
-      <Button withText="size-lg" withType="primary" withColor="danger" withSize="lg" />
-      <Button withText="size-xl" withType="primary" withColor="major" withSize="xl" />
-      <Button withText="size-xxl" withType="primary" withColor="minor" withSize="xxl" />
-    </Column>
-    <Column>
-      <Button withText="size-xxs" withType="outlined" withColor="neutral" withSize="xxs" />
-      <Button withText="size-xs" withType="outlined" withColor="info" withSize="xs" />
-      <Button withText="size-sm" withType="outlined" withColor="success" withSize="sm" />
-      <Button withText="size-md" withType="outlined" withColor="warning" withSize="md" />
-      <Button withText="size-lg" withType="outlined" withColor="danger" withSize="lg" />
-      <Button withText="size-xl" withType="outlined" withColor="major" withSize="xl" />
-      <Button withText="size-xxl" withType="outlined" withColor="minor" withSize="xxl" />
-    </Column>
-    <Column>
-      <Button withText="size-xxs" withType="primary" withColor="neutral" withSize="xxs" isLoading />
-      <Button withText="size-xs" withType="primary" withColor="info" withSize="xs" isLoading />
-      <Button withText="size-sm" withType="primary" withColor="success" withSize="sm" isLoading />
-      <Button withText="size-md" withType="primary" withColor="warning" withSize="md" isLoading />
-      <Button withText="size-lg" withType="primary" withColor="danger" withSize="lg" isLoading />
-      <Button withText="size-xl" withType="primary" withColor="major" withSize="xl" isLoading />
-      <Button withText="size-xxl" withType="primary" withColor="minor" withSize="xxl" isLoading />
-    </Column>
-    <Column>
-      <Button withText="size-xxs" withType="outlined" withColor="neutral" withSize="xxs" isLoading />
-      <Button withText="size-xs" withType="outlined" withColor="info" withSize="xs" isLoading />
-      <Button withText="size-sm" withType="outlined" withColor="success" withSize="sm" isLoading />
-      <Button withText="size-md" withType="outlined" withColor="warning" withSize="md" isLoading />
-      <Button withText="size-lg" withType="outlined" withColor="danger" withSize="lg" isLoading />
-      <Button withText="size-xl" withType="outlined" withColor="major" withSize="xl" isLoading />
-      <Button withText="size-xxl" withType="outlined" withColor="minor" withSize="xxl" isLoading />
+      <Button withSize="xxs">xxs</Button>
+      <Button withSize="xs">size-xs</Button>
+      <Button withSize="sm">size-sm</Button>
+      <Button withSize="md">size-md</Button>
+      <Button withSize="lg">size-lg</Button>
+      <Button withSize="xl">size-xl</Button>
+      <Button withSize="xxl">size-xxl</Button>
     </Column>
   </Container>
 );
 
-export const hero = () => (
+export const types = () => (
   <Container>
-    <Button withText="hero" withType="hero" withColor="success" />
+    <Column>
+      <Button withType="primary">primary</Button>
+      <Button withType="outlined">outlined</Button>
+      <Button withType="basic">basic</Button>
+      <Button withType="simple">simple</Button>
+      <Button withType="hero">hero</Button>
+    </Column>
   </Container>
 );
 
-export const link = () => (
+export const disabled = () => (
   <Container>
-    <Anchor href="/?path=/story/button--basic">Basic button</Anchor>
-    <Anchor href="/?path=/story/button--basic" isDisabled>
-      Cannot go
-    </Anchor>
-    <Anchor href="https://www.google.com/" isLaunch>
-      Google
-    </Anchor>
+    <Button isDisabled>disabled</Button>
   </Container>
 );
+
+export const loading = () => (
+  <Container>
+    <Button isLoading>Loading...</Button>
+  </Container>
+);
+
+export const stretched = () => (
+  <Container>
+    <Button isStretched>stretched</Button>
+  </Container>
+);
+
+export const uppercase = () => (
+  <Container>
+    <Button isUppercase>uppercase</Button>
+  </Container>
+);
+
+const iconStyles = css<IButtonProps>`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  ${({ withSize }) => css`
+    height: ${sizeStyles[withSize!].iconSize};
+    width: ${sizeStyles[withSize!].iconSize};
+  `}
+`;
+
+const LaunchIconWrap = styled(LaunchIcon)`
+  margin-right: 0.25em;
+  ${iconStyles}
+`;
+
+const CheckCircleIconWrap = styled(CheckCircleIcon)`
+  ${iconStyles}
+`;
 
 export const others = () => (
   <Container>
-    <Button withText="simple" title="Simple button" />
-    <Button withText="isUppercase" withType="primary" withColor="major" isUppercase />
-    <Button withText="isDisabled" withType="primary" withColor="minor" isDisabled />
-    <Button withText="full width" withType="outlined" withColor="major" isStretched />
-    <Button withText="Settings" withIcon={<LaunchIcon />} />
-    <Button withType="primary" withColor="major" withIcon={<CheckCircleIcon />} />
-    <Button withIcon={<LaunchIcon />} withColor="neutral" />
+    <Button withType="primary" withColor="major">
+      <LaunchIconWrap withSize="md" />
+      Settings
+    </Button>
+    <Button withColor="neutral">
+      <CheckCircleIconWrap withSize="md" />
+    </Button>
   </Container>
 );
