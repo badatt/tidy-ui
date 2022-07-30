@@ -132,6 +132,9 @@ const hero = css<IButtonProps>`
       box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
         ${isDark ? palette[withColor!][800] : palette[withColor!][200]} 0px 10px 15px -3px,
         ${isDark ? palette[withColor!][800] : palette[withColor!][200]} 0px 4px 6px -4px;
+      &:hover {
+        background-color: ${palette[withColor!][700]};
+      }
     `}
   `}
 `;
