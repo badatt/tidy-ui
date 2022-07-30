@@ -62,10 +62,8 @@ export const colorVariants = () => (
 
 export const placement = () => (
   <Container>
-    <IconButton withIcon={<AddCircleIcon />} withColor="major">
-      left
-    </IconButton>
-    <IconButton withIcon={<AddCircleIcon />} withColor="major" withPlacement="right">
+    <IconButton withIcon={<AddCircleIcon />}>left</IconButton>
+    <IconButton withIcon={<AddCircleIcon />} withPlacement="right">
       right
     </IconButton>
   </Container>
