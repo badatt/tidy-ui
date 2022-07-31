@@ -29,7 +29,7 @@ const AnchorRoot = styled.a<IAnchorProps>`
  * Internal Icon component with styles
  *
  */
-const Icon = styled.i<IAnchorProps>`
+const Icon = styled(LaunchIcon)<IAnchorProps>`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,11 +47,7 @@ const Anchor = React.forwardRef<HTMLAnchorElement, IAnchorProps>((props, ref) =>
   return (
     <AnchorRoot role="anchor" ref={ref} {...rest} target={isLaunch ? '_blank' : '_top'}>
       {children}
-      {isLaunch && (
-        <Icon {...props}>
-          <LaunchIcon />
-        </Icon>
-      )}
+      {isLaunch && <Icon />}
     </AnchorRoot>
   );
 });

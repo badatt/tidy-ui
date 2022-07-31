@@ -51,7 +51,7 @@ const ButtonRoot = styled.button<IButtonProps>`
  * Internal Icon component with styles
  *
  */
-const Icon = styled.i<IButtonProps>`
+const Icon = styled(RotatingCircleIcon)<IButtonProps>`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,11 +69,7 @@ const Button = forwardRef<HTMLButtonElement, IButtonProps>((props, ref) => {
   const { children, isLoading, isDisabled, ...rest } = props;
   return (
     <ButtonRoot role="button" ref={ref} {...rest} isDisabled={isDisabled || isLoading}>
-      {isLoading && (
-        <Icon {...props}>
-          <RotatingCircleIcon />
-        </Icon>
-      )}
+      {isLoading && <Icon />}
       {children}
     </ButtonRoot>
   );
