@@ -25,11 +25,35 @@ describe('Message', () => {
     );
     expect(tree).toMatchSnapshot();
   });
+  it('Basic render in dark mode', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidDark}>
+        <Message>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
+          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
+        </Message>
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
   it('Message with all color variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {colors.map((c) => (
-          <Message color={c as TColor} key={c}>
+          <Message withColor={c as TColor} key={c}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
+            eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
+          </Message>
+        ))}
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+  it('Message in dark mode with all color variants', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidDark}>
+        {colors.map((c) => (
+          <Message withColor={c as TColor} key={c}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
             eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
           </Message>
@@ -41,7 +65,7 @@ describe('Message', () => {
   it('Message stretched to full width', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Message stretch>
+        <Message isStretched>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
           eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </Message>
@@ -52,7 +76,7 @@ describe('Message', () => {
   it('Message with close button', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Message closable>
+        <Message isClosable>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
           eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </Message>
@@ -63,7 +87,7 @@ describe('Message', () => {
   it('Message with header', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Message header="Lorem ipsum dolor sit amet consectetur adipisicing elit">
+        <Message withHeader="Lorem ipsum dolor sit amet consectetur adipisicing elit">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
           eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </Message>
@@ -74,7 +98,7 @@ describe('Message', () => {
   it('Message with sharp label', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Message sharp>
+        <Message isSharp>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
           eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </Message>
@@ -85,7 +109,7 @@ describe('Message', () => {
   it('Message with no label', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Message noLabel>
+        <Message withoutLabel>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
           eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </Message>
@@ -97,7 +121,7 @@ describe('Message', () => {
   it('Closable message without any callback', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <Message closable outlined>
+        <Message isClosable isOutlined>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
           eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </Message>
@@ -116,7 +140,7 @@ describe('Message', () => {
     const mockCallback = jest.fn();
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Message closable onClose={mockCallback} outlined>
+        <Message isClosable onClose={mockCallback} isOutlined>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
           eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </Message>
@@ -137,7 +161,7 @@ describe('Message', () => {
     const mockCallback = jest.fn();
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Message closable duration={2000} onClose={mockCallback} outlined>
+        <Message isClosable withDuration={2000} onClose={mockCallback} isOutlined>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
           eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </Message>

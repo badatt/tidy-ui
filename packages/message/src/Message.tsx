@@ -1,16 +1,13 @@
 import React, { forwardRef, MouseEvent, useCallback, useState } from 'react';
-import {
-  CancelIcon,
-  CheckCircleIcon,
-  DangerousIcon,
-  InfoIcon,
-  useIsMounted,
-  useTimeout,
-  WarningIcon,
-} from '@tidy-ui/commons';
-import { CloseButton, Header, MessageContent, MessageLabel, MessageRoot } from './components';
+import { CancelIcon, useIsMounted, useTimeout } from '@tidy-ui/commons';
+import { CloseButton, Header, MessageContent, MessageLabel, MessageLabelIcon, MessageRoot } from './components';
 import { IMessageProps } from './types';
 
+/**
+ * Message component can be used to display important information on a page based on the
+ * information importance level, powered by various styles (with theming) and settings
+ *
+ */
 const Message = forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
   const { children, isClosable, onClose, withDuration, withHeader, ...rest } = props;
 
@@ -33,26 +30,11 @@ const Message = forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
     return null;
   }
 
-  const Icon = (p: IMessageProps) => {
-    switch (p.withColor) {
-      case 'info':
-        return <InfoIcon />;
-      case 'success':
-        return <CheckCircleIcon />;
-      case 'warning':
-        return <WarningIcon />;
-      case 'danger':
-        return <DangerousIcon />;
-      default:
-        return null;
-    }
-  };
-
   return (
     <MessageRoot ref={ref} role="message" {...rest}>
       {!props.withoutLabel && (
         <MessageLabel {...rest}>
-          <Icon {...rest} />
+          <MessageLabelIcon {...rest} />
           {rest.withColor}
         </MessageLabel>
       )}

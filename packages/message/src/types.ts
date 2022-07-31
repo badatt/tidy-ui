@@ -61,10 +61,9 @@ export interface IMessageProps extends HTMLAttributes<HTMLDivElement> {
   /**
    * Title of the message widget
    *
-   * @default undefined
-   * @type {?JSX.Element}
+   * @type {?(JSX.Element | string)}
    */
-  withHeader?: JSX.Element;
+  withHeader?: JSX.Element | string;
 
   /**
    * If `true`, label wont be added to the message widget

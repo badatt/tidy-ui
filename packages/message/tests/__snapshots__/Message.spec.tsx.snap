@@ -54,12 +54,10 @@ Object {
     <div>
       <div
         class="c0"
-        color="info"
         role="message"
       >
         <div
           class="c1"
-          color="info"
         >
           <svg
             aria-hidden="true"
@@ -76,7 +74,6 @@ Object {
         </div>
         <div
           class="c2"
-          color="info"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </div>
@@ -133,12 +130,10 @@ Object {
 <div>
     <div
       class="c0"
-      color="info"
       role="message"
     >
       <div
         class="c1"
-        color="info"
       >
         <svg
           aria-hidden="true"
@@ -155,7 +150,215 @@ Object {
       </div>
       <div
         class="c2"
-        color="info"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Message Basic render in dark mode 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  margin-bottom: 1rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.25rem 1rem;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: hsla(221,83%,53%,1);
+  color: hsla(214,100%,97%,1);
+}
+
+.c1 svg {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.c2 {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border-top-left-radius: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: hsla(217,91%,60%,1);
+  color: hsla(214,100%,97%,1);
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+        role="message"
+      >
+        <div
+          class="c1"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+            />
+          </svg>
+          info
+        </div>
+        <div
+          class="c2"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  margin-bottom: 1rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.25rem 1rem;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: hsla(221,83%,53%,1);
+  color: hsla(214,100%,97%,1);
+}
+
+.c1 svg {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.c2 {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border-top-left-radius: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: hsla(217,91%,60%,1);
+  color: hsla(214,100%,97%,1);
+}
+
+<div>
+    <div
+      class="c0"
+      role="message"
+    >
+      <div
+        class="c1"
+      >
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+          />
+        </svg>
+        info
+      </div>
+      <div
+        class="c2"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
       </div>
@@ -283,12 +486,10 @@ Object {
     <div>
       <div
         class="c0"
-        color="info"
         role="message"
       >
         <div
           class="c1"
-          color="info"
         >
           <svg
             aria-hidden="true"
@@ -305,7 +506,6 @@ Object {
         </div>
         <i
           class="c2"
-          color="info"
           role="close-btn"
         >
           <svg
@@ -322,7 +522,6 @@ Object {
         </i>
         <div
           class="c3"
-          color="info"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </div>
@@ -393,12 +592,10 @@ Object {
 <div>
     <div
       class="c0"
-      color="info"
       role="message"
     >
       <div
         class="c1"
-        color="info"
       >
         <svg
           aria-hidden="true"
@@ -415,7 +612,6 @@ Object {
       </div>
       <i
         class="c2"
-        color="info"
         role="close-btn"
       >
         <svg
@@ -432,7 +628,6 @@ Object {
       </i>
       <div
         class="c3"
-        color="info"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
       </div>
@@ -560,12 +755,10 @@ Object {
     <div>
       <div
         class="c0"
-        color="info"
         role="message"
       >
         <div
           class="c1"
-          color="info"
         >
           <svg
             aria-hidden="true"
@@ -582,7 +775,6 @@ Object {
         </div>
         <i
           class="c2"
-          color="info"
           role="close-btn"
         >
           <svg
@@ -599,7 +791,6 @@ Object {
         </i>
         <div
           class="c3"
-          color="info"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </div>
@@ -670,12 +861,10 @@ Object {
 <div>
     <div
       class="c0"
-      color="info"
       role="message"
     >
       <div
         class="c1"
-        color="info"
       >
         <svg
           aria-hidden="true"
@@ -692,7 +881,6 @@ Object {
       </div>
       <i
         class="c2"
-        color="info"
         role="close-btn"
       >
         <svg
@@ -709,7 +897,6 @@ Object {
       </i>
       <div
         class="c3"
-        color="info"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
       </div>
@@ -837,12 +1024,10 @@ Object {
     <div>
       <div
         class="c0"
-        color="info"
         role="message"
       >
         <div
           class="c1"
-          color="info"
         >
           <svg
             aria-hidden="true"
@@ -859,7 +1044,6 @@ Object {
         </div>
         <i
           class="c2"
-          color="info"
           role="close-btn"
         >
           <svg
@@ -876,7 +1060,6 @@ Object {
         </i>
         <div
           class="c3"
-          color="info"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </div>
@@ -947,12 +1130,10 @@ Object {
 <div>
     <div
       class="c0"
-      color="info"
       role="message"
     >
       <div
         class="c1"
-        color="info"
       >
         <svg
           aria-hidden="true"
@@ -969,7 +1150,6 @@ Object {
       </div>
       <i
         class="c2"
-        color="info"
         role="close-btn"
       >
         <svg
@@ -986,7 +1166,929 @@ Object {
       </i>
       <div
         class="c3"
-        color="info"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Message Message in dark mode with all color variants 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  margin-bottom: 1rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.25rem 1rem;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: hsla(271,81%,56%,1);
+  color: hsla(270,100%,98%,1);
+}
+
+.c1 svg {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.25rem 1rem;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: hsla(333,71%,51%,1);
+  color: hsla(327,73%,97%,1);
+}
+
+.c3 svg {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.25rem 1rem;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,98%,1);
+}
+
+.c5 svg {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.25rem 1rem;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: hsla(221,83%,53%,1);
+  color: hsla(214,100%,97%,1);
+}
+
+.c7 svg {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.25rem 1rem;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: hsla(142,76%,36%,1);
+  color: hsla(138,76%,97%,1);
+}
+
+.c9 svg {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.25rem 1rem;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: hsla(32,95%,44%,1);
+  color: hsla(48,100%,96%,1);
+}
+
+.c11 svg {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.25rem 1rem;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: hsla(0,72%,51%,1);
+  color: hsla(0,86%,97%,1);
+}
+
+.c13 svg {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.c2 {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border-top-left-radius: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: hsla(271,91%,65%,1);
+  color: hsla(270,100%,98%,1);
+}
+
+.c4 {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border-top-left-radius: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: hsla(330,81%,60%,1);
+  color: hsla(327,73%,97%,1);
+}
+
+.c6 {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border-top-left-radius: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: hsla(0,0%,45%,1);
+  color: hsla(0,0%,98%,1);
+}
+
+.c8 {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border-top-left-radius: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: hsla(217,91%,60%,1);
+  color: hsla(214,100%,97%,1);
+}
+
+.c10 {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border-top-left-radius: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: hsla(142,71%,45%,1);
+  color: hsla(138,76%,97%,1);
+}
+
+.c12 {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border-top-left-radius: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: hsla(38,92%,50%,1);
+  color: hsla(48,100%,96%,1);
+}
+
+.c14 {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border-top-left-radius: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: hsla(0,84%,60%,1);
+  color: hsla(0,86%,97%,1);
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+        role="message"
+      >
+        <div
+          class="c1"
+        >
+          major
+        </div>
+        <div
+          class="c2"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
+        </div>
+      </div>
+      <div
+        class="c0"
+        role="message"
+      >
+        <div
+          class="c3"
+        >
+          minor
+        </div>
+        <div
+          class="c4"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
+        </div>
+      </div>
+      <div
+        class="c0"
+        role="message"
+      >
+        <div
+          class="c5"
+        >
+          neutral
+        </div>
+        <div
+          class="c6"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
+        </div>
+      </div>
+      <div
+        class="c0"
+        role="message"
+      >
+        <div
+          class="c7"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+            />
+          </svg>
+          info
+        </div>
+        <div
+          class="c8"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
+        </div>
+      </div>
+      <div
+        class="c0"
+        role="message"
+      >
+        <div
+          class="c9"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+            />
+          </svg>
+          success
+        </div>
+        <div
+          class="c10"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
+        </div>
+      </div>
+      <div
+        class="c0"
+        role="message"
+      >
+        <div
+          class="c11"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+            />
+          </svg>
+          warning
+        </div>
+        <div
+          class="c12"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
+        </div>
+      </div>
+      <div
+        class="c0"
+        role="message"
+      >
+        <div
+          class="c13"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+          danger
+        </div>
+        <div
+          class="c14"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  margin-bottom: 1rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.25rem 1rem;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: hsla(271,81%,56%,1);
+  color: hsla(270,100%,98%,1);
+}
+
+.c1 svg {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.25rem 1rem;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: hsla(333,71%,51%,1);
+  color: hsla(327,73%,97%,1);
+}
+
+.c3 svg {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.25rem 1rem;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,98%,1);
+}
+
+.c5 svg {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.25rem 1rem;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: hsla(221,83%,53%,1);
+  color: hsla(214,100%,97%,1);
+}
+
+.c7 svg {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.25rem 1rem;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: hsla(142,76%,36%,1);
+  color: hsla(138,76%,97%,1);
+}
+
+.c9 svg {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.25rem 1rem;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: hsla(32,95%,44%,1);
+  color: hsla(48,100%,96%,1);
+}
+
+.c11 svg {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.25rem 1rem;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: hsla(0,72%,51%,1);
+  color: hsla(0,86%,97%,1);
+}
+
+.c13 svg {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.c2 {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border-top-left-radius: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: hsla(271,91%,65%,1);
+  color: hsla(270,100%,98%,1);
+}
+
+.c4 {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border-top-left-radius: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: hsla(330,81%,60%,1);
+  color: hsla(327,73%,97%,1);
+}
+
+.c6 {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border-top-left-radius: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: hsla(0,0%,45%,1);
+  color: hsla(0,0%,98%,1);
+}
+
+.c8 {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border-top-left-radius: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: hsla(217,91%,60%,1);
+  color: hsla(214,100%,97%,1);
+}
+
+.c10 {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border-top-left-radius: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: hsla(142,71%,45%,1);
+  color: hsla(138,76%,97%,1);
+}
+
+.c12 {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border-top-left-radius: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: hsla(38,92%,50%,1);
+  color: hsla(48,100%,96%,1);
+}
+
+.c14 {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border-top-left-radius: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: hsla(0,84%,60%,1);
+  color: hsla(0,86%,97%,1);
+}
+
+<div>
+    <div
+      class="c0"
+      role="message"
+    >
+      <div
+        class="c1"
+      >
+        major
+      </div>
+      <div
+        class="c2"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
+      </div>
+    </div>
+    <div
+      class="c0"
+      role="message"
+    >
+      <div
+        class="c3"
+      >
+        minor
+      </div>
+      <div
+        class="c4"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
+      </div>
+    </div>
+    <div
+      class="c0"
+      role="message"
+    >
+      <div
+        class="c5"
+      >
+        neutral
+      </div>
+      <div
+        class="c6"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
+      </div>
+    </div>
+    <div
+      class="c0"
+      role="message"
+    >
+      <div
+        class="c7"
+      >
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+          />
+        </svg>
+        info
+      </div>
+      <div
+        class="c8"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
+      </div>
+    </div>
+    <div
+      class="c0"
+      role="message"
+    >
+      <div
+        class="c9"
+      >
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+          />
+        </svg>
+        success
+      </div>
+      <div
+        class="c10"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
+      </div>
+    </div>
+    <div
+      class="c0"
+      role="message"
+    >
+      <div
+        class="c11"
+      >
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+          />
+        </svg>
+        warning
+      </div>
+      <div
+        class="c12"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
+      </div>
+    </div>
+    <div
+      class="c0"
+      role="message"
+    >
+      <div
+        class="c13"
+      >
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+        danger
+      </div>
+      <div
+        class="c14"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
       </div>
@@ -1096,12 +2198,10 @@ Object {
     <div>
       <div
         class="c0"
-        color="info"
         role="message"
       >
         <div
           class="c1"
-          color="info"
         >
           <svg
             aria-hidden="true"
@@ -1118,7 +2218,6 @@ Object {
         </div>
         <div
           class="c2"
-          color="info"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </div>
@@ -1171,12 +2270,10 @@ Object {
 <div>
     <div
       class="c0"
-      color="info"
       role="message"
     >
       <div
         class="c1"
-        color="info"
       >
         <svg
           aria-hidden="true"
@@ -1193,7 +2290,6 @@ Object {
       </div>
       <div
         class="c2"
-        color="info"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
       </div>
@@ -1541,66 +2637,55 @@ Object {
     <div>
       <div
         class="c0"
-        color="major"
         role="message"
       >
         <div
           class="c1"
-          color="major"
         >
           major
         </div>
         <div
           class="c2"
-          color="major"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </div>
       </div>
       <div
         class="c0"
-        color="minor"
         role="message"
       >
         <div
           class="c3"
-          color="minor"
         >
           minor
         </div>
         <div
           class="c4"
-          color="minor"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </div>
       </div>
       <div
         class="c0"
-        color="neutral"
         role="message"
       >
         <div
           class="c5"
-          color="neutral"
         >
           neutral
         </div>
         <div
           class="c6"
-          color="neutral"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </div>
       </div>
       <div
         class="c0"
-        color="info"
         role="message"
       >
         <div
           class="c7"
-          color="info"
         >
           <svg
             aria-hidden="true"
@@ -1617,19 +2702,16 @@ Object {
         </div>
         <div
           class="c8"
-          color="info"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </div>
       </div>
       <div
         class="c0"
-        color="success"
         role="message"
       >
         <div
           class="c9"
-          color="success"
         >
           <svg
             aria-hidden="true"
@@ -1646,19 +2728,16 @@ Object {
         </div>
         <div
           class="c10"
-          color="success"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </div>
       </div>
       <div
         class="c0"
-        color="warning"
         role="message"
       >
         <div
           class="c11"
-          color="warning"
         >
           <svg
             aria-hidden="true"
@@ -1675,19 +2754,16 @@ Object {
         </div>
         <div
           class="c12"
-          color="warning"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </div>
       </div>
       <div
         class="c0"
-        color="danger"
         role="message"
       >
         <div
           class="c13"
-          color="danger"
         >
           <svg
             aria-hidden="true"
@@ -1704,7 +2780,6 @@ Object {
         </div>
         <div
           class="c14"
-          color="danger"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </div>
@@ -1995,66 +3070,55 @@ Object {
 <div>
     <div
       class="c0"
-      color="major"
       role="message"
     >
       <div
         class="c1"
-        color="major"
       >
         major
       </div>
       <div
         class="c2"
-        color="major"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
       </div>
     </div>
     <div
       class="c0"
-      color="minor"
       role="message"
     >
       <div
         class="c3"
-        color="minor"
       >
         minor
       </div>
       <div
         class="c4"
-        color="minor"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
       </div>
     </div>
     <div
       class="c0"
-      color="neutral"
       role="message"
     >
       <div
         class="c5"
-        color="neutral"
       >
         neutral
       </div>
       <div
         class="c6"
-        color="neutral"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
       </div>
     </div>
     <div
       class="c0"
-      color="info"
       role="message"
     >
       <div
         class="c7"
-        color="info"
       >
         <svg
           aria-hidden="true"
@@ -2071,19 +3135,16 @@ Object {
       </div>
       <div
         class="c8"
-        color="info"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
       </div>
     </div>
     <div
       class="c0"
-      color="success"
       role="message"
     >
       <div
         class="c9"
-        color="success"
       >
         <svg
           aria-hidden="true"
@@ -2100,19 +3161,16 @@ Object {
       </div>
       <div
         class="c10"
-        color="success"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
       </div>
     </div>
     <div
       class="c0"
-      color="warning"
       role="message"
     >
       <div
         class="c11"
-        color="warning"
       >
         <svg
           aria-hidden="true"
@@ -2129,19 +3187,16 @@ Object {
       </div>
       <div
         class="c12"
-        color="warning"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
       </div>
     </div>
     <div
       class="c0"
-      color="danger"
       role="message"
     >
       <div
         class="c13"
-        color="danger"
       >
         <svg
           aria-hidden="true"
@@ -2158,7 +3213,6 @@ Object {
       </div>
       <div
         class="c14"
-        color="danger"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
       </div>
@@ -2283,12 +3337,10 @@ Object {
     <div>
       <div
         class="c0"
-        color="info"
         role="message"
       >
         <div
           class="c1"
-          color="info"
         >
           <svg
             aria-hidden="true"
@@ -2305,7 +3357,6 @@ Object {
         </div>
         <i
           class="c2"
-          color="info"
           role="close-btn"
         >
           <svg
@@ -2322,7 +3373,6 @@ Object {
         </i>
         <div
           class="c3"
-          color="info"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </div>
@@ -2390,12 +3440,10 @@ Object {
 <div>
     <div
       class="c0"
-      color="info"
       role="message"
     >
       <div
         class="c1"
-        color="info"
       >
         <svg
           aria-hidden="true"
@@ -2412,7 +3460,6 @@ Object {
       </div>
       <i
         class="c2"
-        color="info"
         role="close-btn"
       >
         <svg
@@ -2429,443 +3476,6 @@ Object {
       </i>
       <div
         class="c3"
-        color="info"
-      >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-      </div>
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Message Message with danger color 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": .c0 {
-  margin-bottom: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  background-color: hsla(0,72%,51%,1);
-  color: hsla(0,86%,97%,1);
-}
-
-.c1 svg {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c2 {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  background-color: hsla(0,84%,60%,1);
-  color: hsla(0,86%,97%,1);
-}
-
-<body>
-    <div>
-      <div
-        class="c0"
-        color="danger"
-        role="message"
-      >
-        <div
-          class="c1"
-          color="danger"
-        >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-            />
-          </svg>
-          danger
-        </div>
-        <div
-          class="c2"
-          color="danger"
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": .c0 {
-  margin-bottom: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  background-color: hsla(0,72%,51%,1);
-  color: hsla(0,86%,97%,1);
-}
-
-.c1 svg {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c2 {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  background-color: hsla(0,84%,60%,1);
-  color: hsla(0,86%,97%,1);
-}
-
-<div>
-    <div
-      class="c0"
-      color="danger"
-      role="message"
-    >
-      <div
-        class="c1"
-        color="danger"
-      >
-        <svg
-          aria-hidden="true"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
-        danger
-      </div>
-      <div
-        class="c2"
-        color="danger"
-      >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-      </div>
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Message Message with danger outlined color 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": .c0 {
-  margin-bottom: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: hsla(0,72%,51%,1);
-  background-color: hsla(0,93%,94%,1);
-  border: 1px solid hsla(0,94%,82%,1);
-  border-bottom: 0;
-}
-
-.c1 svg {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c2 {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: hsla(0,72%,51%,1);
-  background-color: hsla(0,86%,97%,1);
-  border: 1px solid hsla(0,94%,82%,1);
-}
-
-<body>
-    <div>
-      <div
-        class="c0"
-        color="danger"
-        role="message"
-      >
-        <div
-          class="c1"
-          color="danger"
-        >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-            />
-          </svg>
-          danger
-        </div>
-        <div
-          class="c2"
-          color="danger"
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": .c0 {
-  margin-bottom: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: hsla(0,72%,51%,1);
-  background-color: hsla(0,93%,94%,1);
-  border: 1px solid hsla(0,94%,82%,1);
-  border-bottom: 0;
-}
-
-.c1 svg {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c2 {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: hsla(0,72%,51%,1);
-  background-color: hsla(0,86%,97%,1);
-  border: 1px solid hsla(0,94%,82%,1);
-}
-
-<div>
-    <div
-      class="c0"
-      color="danger"
-      role="message"
-    >
-      <div
-        class="c1"
-        color="danger"
-      >
-        <svg
-          aria-hidden="true"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
-        danger
-      </div>
-      <div
-        class="c2"
-        color="danger"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
       </div>
@@ -2984,12 +3594,10 @@ Object {
     <div>
       <div
         class="c0"
-        color="info"
         role="message"
       >
         <div
           class="c1"
-          color="info"
         >
           <svg
             aria-hidden="true"
@@ -3006,7 +3614,6 @@ Object {
         </div>
         <div
           class="c2"
-          color="info"
         >
           <div
             class="c3"
@@ -3073,12 +3680,10 @@ Object {
 <div>
     <div
       class="c0"
-      color="info"
       role="message"
     >
       <div
         class="c1"
-        color="info"
       >
         <svg
           aria-hidden="true"
@@ -3095,1625 +3700,12 @@ Object {
       </div>
       <div
         class="c2"
-        color="info"
       >
         <div
           class="c3"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit
         </div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-      </div>
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Message Message with info color 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": .c0 {
-  margin-bottom: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  background-color: hsla(221,83%,53%,1);
-  color: hsla(214,100%,97%,1);
-}
-
-.c1 svg {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c2 {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  background-color: hsla(217,91%,60%,1);
-  color: hsla(214,100%,97%,1);
-}
-
-<body>
-    <div>
-      <div
-        class="c0"
-        color="info"
-        role="message"
-      >
-        <div
-          class="c1"
-          color="info"
-        >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
-            />
-          </svg>
-          info
-        </div>
-        <div
-          class="c2"
-          color="info"
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": .c0 {
-  margin-bottom: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  background-color: hsla(221,83%,53%,1);
-  color: hsla(214,100%,97%,1);
-}
-
-.c1 svg {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c2 {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  background-color: hsla(217,91%,60%,1);
-  color: hsla(214,100%,97%,1);
-}
-
-<div>
-    <div
-      class="c0"
-      color="info"
-      role="message"
-    >
-      <div
-        class="c1"
-        color="info"
-      >
-        <svg
-          aria-hidden="true"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
-          />
-        </svg>
-        info
-      </div>
-      <div
-        class="c2"
-        color="info"
-      >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-      </div>
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Message Message with info outlined color 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": .c0 {
-  margin-bottom: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: hsla(221,83%,53%,1);
-  background-color: hsla(214,95%,93%,1);
-  border: 1px solid hsla(212,96%,78%,1);
-  border-bottom: 0;
-}
-
-.c1 svg {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c2 {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: hsla(221,83%,53%,1);
-  background-color: hsla(214,100%,97%,1);
-  border: 1px solid hsla(212,96%,78%,1);
-}
-
-<body>
-    <div>
-      <div
-        class="c0"
-        color="info"
-        role="message"
-      >
-        <div
-          class="c1"
-          color="info"
-        >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
-            />
-          </svg>
-          info
-        </div>
-        <div
-          class="c2"
-          color="info"
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": .c0 {
-  margin-bottom: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: hsla(221,83%,53%,1);
-  background-color: hsla(214,95%,93%,1);
-  border: 1px solid hsla(212,96%,78%,1);
-  border-bottom: 0;
-}
-
-.c1 svg {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c2 {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: hsla(221,83%,53%,1);
-  background-color: hsla(214,100%,97%,1);
-  border: 1px solid hsla(212,96%,78%,1);
-}
-
-<div>
-    <div
-      class="c0"
-      color="info"
-      role="message"
-    >
-      <div
-        class="c1"
-        color="info"
-      >
-        <svg
-          aria-hidden="true"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
-          />
-        </svg>
-        info
-      </div>
-      <div
-        class="c2"
-        color="info"
-      >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-      </div>
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Message Message with major color 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": .c0 {
-  margin-bottom: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  background-color: hsla(271,81%,56%,1);
-  color: hsla(270,100%,98%,1);
-}
-
-.c1 svg {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c2 {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  background-color: hsla(271,91%,65%,1);
-  color: hsla(270,100%,98%,1);
-}
-
-<body>
-    <div>
-      <div
-        class="c0"
-        color="major"
-        role="message"
-      >
-        <div
-          class="c1"
-          color="major"
-        >
-          major
-        </div>
-        <div
-          class="c2"
-          color="major"
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": .c0 {
-  margin-bottom: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  background-color: hsla(271,81%,56%,1);
-  color: hsla(270,100%,98%,1);
-}
-
-.c1 svg {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c2 {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  background-color: hsla(271,91%,65%,1);
-  color: hsla(270,100%,98%,1);
-}
-
-<div>
-    <div
-      class="c0"
-      color="major"
-      role="message"
-    >
-      <div
-        class="c1"
-        color="major"
-      >
-        major
-      </div>
-      <div
-        class="c2"
-        color="major"
-      >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-      </div>
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Message Message with major outlined color 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": .c0 {
-  margin-bottom: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: hsla(271,81%,56%,1);
-  background-color: hsla(269,100%,95%,1);
-  border: 1px solid hsla(269,97%,85%,1);
-  border-bottom: 0;
-}
-
-.c1 svg {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c2 {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: hsla(271,81%,56%,1);
-  background-color: hsla(270,100%,98%,1);
-  border: 1px solid hsla(269,97%,85%,1);
-}
-
-<body>
-    <div>
-      <div
-        class="c0"
-        color="major"
-        role="message"
-      >
-        <div
-          class="c1"
-          color="major"
-        >
-          major
-        </div>
-        <div
-          class="c2"
-          color="major"
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": .c0 {
-  margin-bottom: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: hsla(271,81%,56%,1);
-  background-color: hsla(269,100%,95%,1);
-  border: 1px solid hsla(269,97%,85%,1);
-  border-bottom: 0;
-}
-
-.c1 svg {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c2 {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: hsla(271,81%,56%,1);
-  background-color: hsla(270,100%,98%,1);
-  border: 1px solid hsla(269,97%,85%,1);
-}
-
-<div>
-    <div
-      class="c0"
-      color="major"
-      role="message"
-    >
-      <div
-        class="c1"
-        color="major"
-      >
-        major
-      </div>
-      <div
-        class="c2"
-        color="major"
-      >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-      </div>
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Message Message with minor color 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": .c0 {
-  margin-bottom: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  background-color: hsla(333,71%,51%,1);
-  color: hsla(327,73%,97%,1);
-}
-
-.c1 svg {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c2 {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  background-color: hsla(330,81%,60%,1);
-  color: hsla(327,73%,97%,1);
-}
-
-<body>
-    <div>
-      <div
-        class="c0"
-        color="minor"
-        role="message"
-      >
-        <div
-          class="c1"
-          color="minor"
-        >
-          minor
-        </div>
-        <div
-          class="c2"
-          color="minor"
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": .c0 {
-  margin-bottom: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  background-color: hsla(333,71%,51%,1);
-  color: hsla(327,73%,97%,1);
-}
-
-.c1 svg {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c2 {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  background-color: hsla(330,81%,60%,1);
-  color: hsla(327,73%,97%,1);
-}
-
-<div>
-    <div
-      class="c0"
-      color="minor"
-      role="message"
-    >
-      <div
-        class="c1"
-        color="minor"
-      >
-        minor
-      </div>
-      <div
-        class="c2"
-        color="minor"
-      >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-      </div>
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Message Message with minor outlined color 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": .c0 {
-  margin-bottom: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: hsla(333,71%,51%,1);
-  background-color: hsla(326,78%,95%,1);
-  border: 1px solid hsla(327,87%,82%,1);
-  border-bottom: 0;
-}
-
-.c1 svg {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c2 {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: hsla(333,71%,51%,1);
-  background-color: hsla(327,73%,97%,1);
-  border: 1px solid hsla(327,87%,82%,1);
-}
-
-<body>
-    <div>
-      <div
-        class="c0"
-        color="minor"
-        role="message"
-      >
-        <div
-          class="c1"
-          color="minor"
-        >
-          minor
-        </div>
-        <div
-          class="c2"
-          color="minor"
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": .c0 {
-  margin-bottom: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: hsla(333,71%,51%,1);
-  background-color: hsla(326,78%,95%,1);
-  border: 1px solid hsla(327,87%,82%,1);
-  border-bottom: 0;
-}
-
-.c1 svg {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c2 {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: hsla(333,71%,51%,1);
-  background-color: hsla(327,73%,97%,1);
-  border: 1px solid hsla(327,87%,82%,1);
-}
-
-<div>
-    <div
-      class="c0"
-      color="minor"
-      role="message"
-    >
-      <div
-        class="c1"
-        color="minor"
-      >
-        minor
-      </div>
-      <div
-        class="c2"
-        color="minor"
-      >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-      </div>
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Message Message with neutral color 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": .c0 {
-  margin-bottom: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  background-color: hsla(0,0%,32%,1);
-  color: hsla(0,0%,98%,1);
-}
-
-.c1 svg {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c2 {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  background-color: hsla(0,0%,45%,1);
-  color: hsla(0,0%,98%,1);
-}
-
-<body>
-    <div>
-      <div
-        class="c0"
-        color="neutral"
-        role="message"
-      >
-        <div
-          class="c1"
-          color="neutral"
-        >
-          neutral
-        </div>
-        <div
-          class="c2"
-          color="neutral"
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": .c0 {
-  margin-bottom: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  background-color: hsla(0,0%,32%,1);
-  color: hsla(0,0%,98%,1);
-}
-
-.c1 svg {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c2 {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  background-color: hsla(0,0%,45%,1);
-  color: hsla(0,0%,98%,1);
-}
-
-<div>
-    <div
-      class="c0"
-      color="neutral"
-      role="message"
-    >
-      <div
-        class="c1"
-        color="neutral"
-      >
-        neutral
-      </div>
-      <div
-        class="c2"
-        color="neutral"
-      >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-      </div>
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Message Message with neutral outlined color 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": .c0 {
-  margin-bottom: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: hsla(0,0%,32%,1);
-  background-color: hsla(0,0%,96%,1);
-  border: 1px solid hsla(0,0%,83%,1);
-  border-bottom: 0;
-}
-
-.c1 svg {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c2 {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: hsla(0,0%,32%,1);
-  background-color: hsla(0,0%,98%,1);
-  border: 1px solid hsla(0,0%,83%,1);
-}
-
-<body>
-    <div>
-      <div
-        class="c0"
-        color="neutral"
-        role="message"
-      >
-        <div
-          class="c1"
-          color="neutral"
-        >
-          neutral
-        </div>
-        <div
-          class="c2"
-          color="neutral"
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": .c0 {
-  margin-bottom: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: hsla(0,0%,32%,1);
-  background-color: hsla(0,0%,96%,1);
-  border: 1px solid hsla(0,0%,83%,1);
-  border-bottom: 0;
-}
-
-.c1 svg {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c2 {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: hsla(0,0%,32%,1);
-  background-color: hsla(0,0%,98%,1);
-  border: 1px solid hsla(0,0%,83%,1);
-}
-
-<div>
-    <div
-      class="c0"
-      color="neutral"
-      role="message"
-    >
-      <div
-        class="c1"
-        color="neutral"
-      >
-        neutral
-      </div>
-      <div
-        class="c2"
-        color="neutral"
-      >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
       </div>
     </div>
@@ -4797,12 +3789,10 @@ Object {
     <div>
       <div
         class="c0"
-        color="info"
         role="message"
       >
         <div
           class="c1"
-          color="info"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </div>
@@ -4830,12 +3820,10 @@ Object {
 <div>
     <div
       class="c0"
-      color="info"
       role="message"
     >
       <div
         class="c1"
-        color="info"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
       </div>
@@ -4946,12 +3934,10 @@ Object {
     <div>
       <div
         class="c0"
-        color="info"
         role="message"
       >
         <div
           class="c1"
-          color="info"
         >
           <svg
             aria-hidden="true"
@@ -4968,7 +3954,6 @@ Object {
         </div>
         <div
           class="c2"
-          color="info"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </div>
@@ -5022,12 +4007,10 @@ Object {
 <div>
     <div
       class="c0"
-      color="info"
       role="message"
     >
       <div
         class="c1"
-        color="info"
       >
         <svg
           aria-hidden="true"
@@ -5044,879 +4027,6 @@ Object {
       </div>
       <div
         class="c2"
-        color="info"
-      >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-      </div>
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Message Message with success color 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": .c0 {
-  margin-bottom: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  background-color: hsla(142,76%,36%,1);
-  color: hsla(138,76%,97%,1);
-}
-
-.c1 svg {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c2 {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  background-color: hsla(142,71%,45%,1);
-  color: hsla(138,76%,97%,1);
-}
-
-<body>
-    <div>
-      <div
-        class="c0"
-        color="success"
-        role="message"
-      >
-        <div
-          class="c1"
-          color="success"
-        >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-            />
-          </svg>
-          success
-        </div>
-        <div
-          class="c2"
-          color="success"
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": .c0 {
-  margin-bottom: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  background-color: hsla(142,76%,36%,1);
-  color: hsla(138,76%,97%,1);
-}
-
-.c1 svg {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c2 {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  background-color: hsla(142,71%,45%,1);
-  color: hsla(138,76%,97%,1);
-}
-
-<div>
-    <div
-      class="c0"
-      color="success"
-      role="message"
-    >
-      <div
-        class="c1"
-        color="success"
-      >
-        <svg
-          aria-hidden="true"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-          />
-        </svg>
-        success
-      </div>
-      <div
-        class="c2"
-        color="success"
-      >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-      </div>
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Message Message with success outlined color 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": .c0 {
-  margin-bottom: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: hsla(142,76%,36%,1);
-  background-color: hsla(141,84%,93%,1);
-  border: 1px solid hsla(142,77%,73%,1);
-  border-bottom: 0;
-}
-
-.c1 svg {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c2 {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: hsla(142,76%,36%,1);
-  background-color: hsla(138,76%,97%,1);
-  border: 1px solid hsla(142,77%,73%,1);
-}
-
-<body>
-    <div>
-      <div
-        class="c0"
-        color="success"
-        role="message"
-      >
-        <div
-          class="c1"
-          color="success"
-        >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-            />
-          </svg>
-          success
-        </div>
-        <div
-          class="c2"
-          color="success"
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": .c0 {
-  margin-bottom: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: hsla(142,76%,36%,1);
-  background-color: hsla(141,84%,93%,1);
-  border: 1px solid hsla(142,77%,73%,1);
-  border-bottom: 0;
-}
-
-.c1 svg {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c2 {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: hsla(142,76%,36%,1);
-  background-color: hsla(138,76%,97%,1);
-  border: 1px solid hsla(142,77%,73%,1);
-}
-
-<div>
-    <div
-      class="c0"
-      color="success"
-      role="message"
-    >
-      <div
-        class="c1"
-        color="success"
-      >
-        <svg
-          aria-hidden="true"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-          />
-        </svg>
-        success
-      </div>
-      <div
-        class="c2"
-        color="success"
-      >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-      </div>
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Message Message with warning color 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": .c0 {
-  margin-bottom: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  background-color: hsla(32,95%,44%,1);
-  color: hsla(48,100%,96%,1);
-}
-
-.c1 svg {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c2 {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  background-color: hsla(38,92%,50%,1);
-  color: hsla(48,100%,96%,1);
-}
-
-<body>
-    <div>
-      <div
-        class="c0"
-        color="warning"
-        role="message"
-      >
-        <div
-          class="c1"
-          color="warning"
-        >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
-            />
-          </svg>
-          warning
-        </div>
-        <div
-          class="c2"
-          color="warning"
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": .c0 {
-  margin-bottom: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  background-color: hsla(32,95%,44%,1);
-  color: hsla(48,100%,96%,1);
-}
-
-.c1 svg {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c2 {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  background-color: hsla(38,92%,50%,1);
-  color: hsla(48,100%,96%,1);
-}
-
-<div>
-    <div
-      class="c0"
-      color="warning"
-      role="message"
-    >
-      <div
-        class="c1"
-        color="warning"
-      >
-        <svg
-          aria-hidden="true"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
-          />
-        </svg>
-        warning
-      </div>
-      <div
-        class="c2"
-        color="warning"
-      >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-      </div>
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Message Message with warning outlined color 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": .c0 {
-  margin-bottom: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: hsla(32,95%,44%,1);
-  background-color: hsla(48,96%,89%,1);
-  border: 1px solid hsla(46,97%,65%,1);
-  border-bottom: 0;
-}
-
-.c1 svg {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c2 {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: hsla(32,95%,44%,1);
-  background-color: hsla(48,100%,96%,1);
-  border: 1px solid hsla(46,97%,65%,1);
-}
-
-<body>
-    <div>
-      <div
-        class="c0"
-        color="warning"
-        role="message"
-      >
-        <div
-          class="c1"
-          color="warning"
-        >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
-            />
-          </svg>
-          warning
-        </div>
-        <div
-          class="c2"
-          color="warning"
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": .c0 {
-  margin-bottom: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: hsla(32,95%,44%,1);
-  background-color: hsla(48,96%,89%,1);
-  border: 1px solid hsla(46,97%,65%,1);
-  border-bottom: 0;
-}
-
-.c1 svg {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c2 {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: hsla(32,95%,44%,1);
-  background-color: hsla(48,100%,96%,1);
-  border: 1px solid hsla(46,97%,65%,1);
-}
-
-<div>
-    <div
-      class="c0"
-      color="warning"
-      role="message"
-    >
-      <div
-        class="c1"
-        color="warning"
-      >
-        <svg
-          aria-hidden="true"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
-          />
-        </svg>
-        warning
-      </div>
-      <div
-        class="c2"
-        color="warning"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
       </div>
