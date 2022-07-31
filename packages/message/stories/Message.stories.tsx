@@ -72,7 +72,7 @@ export const colors = () => (
   </Container>
 );
 
-export const isOutlined = () => (
+export const outlined = () => (
   <Container>
     <Message withColor="major" isOutlined>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores repellat commodi sapiente eveniet necessitatibus,
@@ -109,6 +109,11 @@ export const isOutlined = () => (
 export const closable = () => (
   <Container>
     <Message isClosable>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit deleniti quod accusantium eligendi repellendus
+      distinctio quibusdam explicabo sit neque quaerat, corporis, nulla iste itaque, voluptate est numquam! Odit, dolor
+      ipsa!
+    </Message>
+    <Message isClosable isOutlined>
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit deleniti quod accusantium eligendi repellendus
       distinctio quibusdam explicabo sit neque quaerat, corporis, nulla iste itaque, voluptate est numquam! Odit, dolor
       ipsa!

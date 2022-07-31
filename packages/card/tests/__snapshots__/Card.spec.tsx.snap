@@ -233,7 +233,6 @@ Object {
   color: hsla(210,40%,96%,1);
   margin-bottom: 1.875rem;
   border-radius: 0.5rem;
-  cursor: pointer;
 }
 
 .c0:hover .c2 {
@@ -264,43 +263,39 @@ Object {
       <section
         class="c0"
       >
-        <a
-          href="https://google.com"
+        <header
+          class="c1"
         >
-          <header
-            class="c1"
+          Lorem ipsum dolor sit amet consectetur.
+          <a
+            class="c2 c3"
+            href="https://google.com"
+            target="_blank"
           >
-            Lorem ipsum dolor sit amet consectetur.
-            <a
-              class="c2 c3"
-              href="https://google.com"
-              target="_blank"
+            <svg
+              aria-hidden="true"
+              class="c4"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-hidden="true"
-                class="c4"
-                fill="currentColor"
-                focusable="false"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
-                />
-              </svg>
-            </a>
-          </header>
-          <div
-            class="c5"
-          >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. A in libero accusantium sunt dolore repellat molestiae animi quod, cum dicta, quis rem fugiat harum quasi hic tempora aliquid! Aperiam, consectetur. Quisquam fuga eveniet et molestias beatae excepturi eaque porro officia! Veritatis, necessitatibus quam quibusdam officiis quia tempora quidem voluptas, nihil ipsam reprehenderit, veniam accusantium. Rerum obcaecati dolorum doloremque quod illum. Doloremque optio debitis enim nam unde quod ducimus, nesciunt obcaecati aspernatur aliquam consectetur a provident aliquid quasi officia cupiditate rerum necessitatibus distinctio blanditiis incidunt amet hic cum dolorum assumenda? Recusandae! Ipsa et, esse enim quae laudantium placeat sequi nisi est consectetur omnis. Ducimus, vitae fuga? Dolorem dolor, qui nisi laudantium tenetur totam id quisquam voluptatem maxime molestiae libero provident commodi?
-          </div>
-          <footer
-            class="c6"
-          >
-            Lorem ipsum dolor sit amet.
-          </footer>
-        </a>
+              <path
+                d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+              />
+            </svg>
+          </a>
+        </header>
+        <div
+          class="c5"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A in libero accusantium sunt dolore repellat molestiae animi quod, cum dicta, quis rem fugiat harum quasi hic tempora aliquid! Aperiam, consectetur. Quisquam fuga eveniet et molestias beatae excepturi eaque porro officia! Veritatis, necessitatibus quam quibusdam officiis quia tempora quidem voluptas, nihil ipsam reprehenderit, veniam accusantium. Rerum obcaecati dolorum doloremque quod illum. Doloremque optio debitis enim nam unde quod ducimus, nesciunt obcaecati aspernatur aliquam consectetur a provident aliquid quasi officia cupiditate rerum necessitatibus distinctio blanditiis incidunt amet hic cum dolorum assumenda? Recusandae! Ipsa et, esse enim quae laudantium placeat sequi nisi est consectetur omnis. Ducimus, vitae fuga? Dolorem dolor, qui nisi laudantium tenetur totam id quisquam voluptatem maxime molestiae libero provident commodi?
+        </div>
+        <footer
+          class="c6"
+        >
+          Lorem ipsum dolor sit amet.
+        </footer>
       </section>
     </div>
   </body>,
@@ -345,7 +340,6 @@ Object {
   color: hsla(210,40%,96%,1);
   margin-bottom: 1.875rem;
   border-radius: 0.5rem;
-  cursor: pointer;
 }
 
 .c0:hover .c2 {
@@ -375,43 +369,39 @@ Object {
     <section
       class="c0"
     >
-      <a
-        href="https://google.com"
+      <header
+        class="c1"
       >
-        <header
-          class="c1"
+        Lorem ipsum dolor sit amet consectetur.
+        <a
+          class="c2 c3"
+          href="https://google.com"
+          target="_blank"
         >
-          Lorem ipsum dolor sit amet consectetur.
-          <a
-            class="c2 c3"
-            href="https://google.com"
-            target="_blank"
+          <svg
+            aria-hidden="true"
+            class="c4"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              aria-hidden="true"
-              class="c4"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
-              />
-            </svg>
-          </a>
-        </header>
-        <div
-          class="c5"
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. A in libero accusantium sunt dolore repellat molestiae animi quod, cum dicta, quis rem fugiat harum quasi hic tempora aliquid! Aperiam, consectetur. Quisquam fuga eveniet et molestias beatae excepturi eaque porro officia! Veritatis, necessitatibus quam quibusdam officiis quia tempora quidem voluptas, nihil ipsam reprehenderit, veniam accusantium. Rerum obcaecati dolorum doloremque quod illum. Doloremque optio debitis enim nam unde quod ducimus, nesciunt obcaecati aspernatur aliquam consectetur a provident aliquid quasi officia cupiditate rerum necessitatibus distinctio blanditiis incidunt amet hic cum dolorum assumenda? Recusandae! Ipsa et, esse enim quae laudantium placeat sequi nisi est consectetur omnis. Ducimus, vitae fuga? Dolorem dolor, qui nisi laudantium tenetur totam id quisquam voluptatem maxime molestiae libero provident commodi?
-        </div>
-        <footer
-          class="c6"
-        >
-          Lorem ipsum dolor sit amet.
-        </footer>
-      </a>
+            <path
+              d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+            />
+          </svg>
+        </a>
+      </header>
+      <div
+        class="c5"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. A in libero accusantium sunt dolore repellat molestiae animi quod, cum dicta, quis rem fugiat harum quasi hic tempora aliquid! Aperiam, consectetur. Quisquam fuga eveniet et molestias beatae excepturi eaque porro officia! Veritatis, necessitatibus quam quibusdam officiis quia tempora quidem voluptas, nihil ipsam reprehenderit, veniam accusantium. Rerum obcaecati dolorum doloremque quod illum. Doloremque optio debitis enim nam unde quod ducimus, nesciunt obcaecati aspernatur aliquam consectetur a provident aliquid quasi officia cupiditate rerum necessitatibus distinctio blanditiis incidunt amet hic cum dolorum assumenda? Recusandae! Ipsa et, esse enim quae laudantium placeat sequi nisi est consectetur omnis. Ducimus, vitae fuga? Dolorem dolor, qui nisi laudantium tenetur totam id quisquam voluptatem maxime molestiae libero provident commodi?
+      </div>
+      <footer
+        class="c6"
+      >
+        Lorem ipsum dolor sit amet.
+      </footer>
     </section>
   </div>,
   "debug": [Function],
@@ -740,6 +730,24 @@ Object {
   width: 100%;
 }
 
+.c3 {
+  display: none;
+  position: absolute;
+  height: 2.5rem;
+  width: 2.5rem;
+  top: 0;
+  right: 0;
+}
+
+.c4 {
+  height: 1.25rem;
+  width: 1.25rem;
+  top: 0.5rem;
+  right: 0.5rem;
+  position: absolute;
+  color: hsla(0,0%,64%,1);
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -756,52 +764,8 @@ Object {
   border-top: 2px solid hsla(271,81%,56%,1);
 }
 
-.c4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  background-color: hsla(0,100%,100%,1);
-  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(217,33%,17%,1);
-  margin-bottom: 1.875rem;
-  border-radius: 0.5rem;
-  border-top: 2px solid hsla(333,71%,51%,1);
-}
-
-.c5 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  background-color: hsla(0,100%,100%,1);
-  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(217,33%,17%,1);
-  margin-bottom: 1.875rem;
-  border-radius: 0.5rem;
-  border-top: 2px solid hsla(221,83%,53%,1);
-}
-
-.c6 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  background-color: hsla(0,100%,100%,1);
-  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(217,33%,17%,1);
-  margin-bottom: 1.875rem;
-  border-radius: 0.5rem;
-  border-top: 2px solid hsla(142,76%,36%,1);
+.c0:hover .c2 {
+  display: block;
 }
 
 .c7 {
@@ -817,7 +781,11 @@ Object {
   color: hsla(217,33%,17%,1);
   margin-bottom: 1.875rem;
   border-radius: 0.5rem;
-  border-top: 2px solid hsla(32,95%,44%,1);
+  border-top: 2px solid hsla(333,71%,51%,1);
+}
+
+.c7:hover .c2 {
+  display: block;
 }
 
 .c8 {
@@ -833,7 +801,11 @@ Object {
   color: hsla(217,33%,17%,1);
   margin-bottom: 1.875rem;
   border-radius: 0.5rem;
-  border-top: 2px solid hsla(0,72%,51%,1);
+  border-top: 2px solid hsla(0,0%,32%,1);
+}
+
+.c8:hover .c2 {
+  display: block;
 }
 
 .c9 {
@@ -849,10 +821,74 @@ Object {
   color: hsla(217,33%,17%,1);
   margin-bottom: 1.875rem;
   border-radius: 0.5rem;
-  border-top: 2px solid hsla(0,0%,32%,1);
+  border-top: 2px solid hsla(221,83%,53%,1);
 }
 
-.c2 {
+.c9:hover .c2 {
+  display: block;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: hsla(0,100%,100%,1);
+  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
+  color: hsla(217,33%,17%,1);
+  margin-bottom: 1.875rem;
+  border-radius: 0.5rem;
+  border-top: 2px solid hsla(142,76%,36%,1);
+}
+
+.c10:hover .c2 {
+  display: block;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: hsla(0,100%,100%,1);
+  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
+  color: hsla(217,33%,17%,1);
+  margin-bottom: 1.875rem;
+  border-radius: 0.5rem;
+  border-top: 2px solid hsla(32,95%,44%,1);
+}
+
+.c11:hover .c2 {
+  display: block;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: hsla(0,100%,100%,1);
+  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
+  color: hsla(217,33%,17%,1);
+  margin-bottom: 1.875rem;
+  border-radius: 0.5rem;
+  border-top: 2px solid hsla(0,72%,51%,1);
+}
+
+.c12:hover .c2 {
+  display: block;
+}
+
+.c5 {
   padding: 0.5rem 1rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -860,7 +896,7 @@ Object {
   display: flex;
 }
 
-.c3 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -880,71 +916,32 @@ Object {
           class="c1"
         >
           Lorem ipsum dolor sit amet.
+          <a
+            class="c2 c3"
+            href="https://google.com"
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              class="c4"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+              />
+            </svg>
+          </a>
         </header>
         <div
-          class="c2"
+          class="c5"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
         </div>
         <footer
-          class="c3"
-        >
-          Lorem ipsum dolor sit amet consectetur.
-        </footer>
-      </section>
-      <section
-        class="c4"
-      >
-        <header
-          class="c1"
-        >
-          Lorem ipsum dolor sit amet.
-        </header>
-        <div
-          class="c2"
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
-        </div>
-        <footer
-          class="c3"
-        >
-          Lorem ipsum dolor sit amet consectetur.
-        </footer>
-      </section>
-      <section
-        class="c5"
-      >
-        <header
-          class="c1"
-        >
-          Lorem ipsum dolor sit amet.
-        </header>
-        <div
-          class="c2"
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
-        </div>
-        <footer
-          class="c3"
-        >
-          Lorem ipsum dolor sit amet consectetur.
-        </footer>
-      </section>
-      <section
-        class="c6"
-      >
-        <header
-          class="c1"
-        >
-          Lorem ipsum dolor sit amet.
-        </header>
-        <div
-          class="c2"
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
-        </div>
-        <footer
-          class="c3"
+          class="c6"
         >
           Lorem ipsum dolor sit amet consectetur.
         </footer>
@@ -956,14 +953,32 @@ Object {
           class="c1"
         >
           Lorem ipsum dolor sit amet.
+          <a
+            class="c2 c3"
+            href="https://google.com"
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              class="c4"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+              />
+            </svg>
+          </a>
         </header>
         <div
-          class="c2"
+          class="c5"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
         </div>
         <footer
-          class="c3"
+          class="c6"
         >
           Lorem ipsum dolor sit amet consectetur.
         </footer>
@@ -975,14 +990,32 @@ Object {
           class="c1"
         >
           Lorem ipsum dolor sit amet.
+          <a
+            class="c2 c3"
+            href="https://google.com"
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              class="c4"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+              />
+            </svg>
+          </a>
         </header>
         <div
-          class="c2"
+          class="c5"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
         </div>
         <footer
-          class="c3"
+          class="c6"
         >
           Lorem ipsum dolor sit amet consectetur.
         </footer>
@@ -994,14 +1027,143 @@ Object {
           class="c1"
         >
           Lorem ipsum dolor sit amet.
+          <a
+            class="c2 c3"
+            href="https://google.com"
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              class="c4"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+              />
+            </svg>
+          </a>
         </header>
         <div
-          class="c2"
+          class="c5"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
         </div>
         <footer
-          class="c3"
+          class="c6"
+        >
+          Lorem ipsum dolor sit amet consectetur.
+        </footer>
+      </section>
+      <section
+        class="c10"
+      >
+        <header
+          class="c1"
+        >
+          Lorem ipsum dolor sit amet.
+          <a
+            class="c2 c3"
+            href="https://google.com"
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              class="c4"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+              />
+            </svg>
+          </a>
+        </header>
+        <div
+          class="c5"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
+        </div>
+        <footer
+          class="c6"
+        >
+          Lorem ipsum dolor sit amet consectetur.
+        </footer>
+      </section>
+      <section
+        class="c11"
+      >
+        <header
+          class="c1"
+        >
+          Lorem ipsum dolor sit amet.
+          <a
+            class="c2 c3"
+            href="https://google.com"
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              class="c4"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+              />
+            </svg>
+          </a>
+        </header>
+        <div
+          class="c5"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
+        </div>
+        <footer
+          class="c6"
+        >
+          Lorem ipsum dolor sit amet consectetur.
+        </footer>
+      </section>
+      <section
+        class="c12"
+      >
+        <header
+          class="c1"
+        >
+          Lorem ipsum dolor sit amet.
+          <a
+            class="c2 c3"
+            href="https://google.com"
+            target="_blank"
+          >
+            <svg
+              aria-hidden="true"
+              class="c4"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+              />
+            </svg>
+          </a>
+        </header>
+        <div
+          class="c5"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
+        </div>
+        <footer
+          class="c6"
         >
           Lorem ipsum dolor sit amet consectetur.
         </footer>
@@ -1016,6 +1178,24 @@ Object {
   padding-bottom: 0.5rem;
   padding-left: 1rem;
   width: 100%;
+}
+
+.c3 {
+  display: none;
+  position: absolute;
+  height: 2.5rem;
+  width: 2.5rem;
+  top: 0;
+  right: 0;
+}
+
+.c4 {
+  height: 1.25rem;
+  width: 1.25rem;
+  top: 0.5rem;
+  right: 0.5rem;
+  position: absolute;
+  color: hsla(0,0%,64%,1);
 }
 
 .c0 {
@@ -1034,52 +1214,8 @@ Object {
   border-top: 2px solid hsla(271,81%,56%,1);
 }
 
-.c4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  background-color: hsla(0,100%,100%,1);
-  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(217,33%,17%,1);
-  margin-bottom: 1.875rem;
-  border-radius: 0.5rem;
-  border-top: 2px solid hsla(333,71%,51%,1);
-}
-
-.c5 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  background-color: hsla(0,100%,100%,1);
-  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(217,33%,17%,1);
-  margin-bottom: 1.875rem;
-  border-radius: 0.5rem;
-  border-top: 2px solid hsla(221,83%,53%,1);
-}
-
-.c6 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  background-color: hsla(0,100%,100%,1);
-  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(217,33%,17%,1);
-  margin-bottom: 1.875rem;
-  border-radius: 0.5rem;
-  border-top: 2px solid hsla(142,76%,36%,1);
+.c0:hover .c2 {
+  display: block;
 }
 
 .c7 {
@@ -1095,7 +1231,11 @@ Object {
   color: hsla(217,33%,17%,1);
   margin-bottom: 1.875rem;
   border-radius: 0.5rem;
-  border-top: 2px solid hsla(32,95%,44%,1);
+  border-top: 2px solid hsla(333,71%,51%,1);
+}
+
+.c7:hover .c2 {
+  display: block;
 }
 
 .c8 {
@@ -1111,7 +1251,11 @@ Object {
   color: hsla(217,33%,17%,1);
   margin-bottom: 1.875rem;
   border-radius: 0.5rem;
-  border-top: 2px solid hsla(0,72%,51%,1);
+  border-top: 2px solid hsla(0,0%,32%,1);
+}
+
+.c8:hover .c2 {
+  display: block;
 }
 
 .c9 {
@@ -1127,10 +1271,74 @@ Object {
   color: hsla(217,33%,17%,1);
   margin-bottom: 1.875rem;
   border-radius: 0.5rem;
-  border-top: 2px solid hsla(0,0%,32%,1);
+  border-top: 2px solid hsla(221,83%,53%,1);
 }
 
-.c2 {
+.c9:hover .c2 {
+  display: block;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: hsla(0,100%,100%,1);
+  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
+  color: hsla(217,33%,17%,1);
+  margin-bottom: 1.875rem;
+  border-radius: 0.5rem;
+  border-top: 2px solid hsla(142,76%,36%,1);
+}
+
+.c10:hover .c2 {
+  display: block;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: hsla(0,100%,100%,1);
+  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
+  color: hsla(217,33%,17%,1);
+  margin-bottom: 1.875rem;
+  border-radius: 0.5rem;
+  border-top: 2px solid hsla(32,95%,44%,1);
+}
+
+.c11:hover .c2 {
+  display: block;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: hsla(0,100%,100%,1);
+  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
+  color: hsla(217,33%,17%,1);
+  margin-bottom: 1.875rem;
+  border-radius: 0.5rem;
+  border-top: 2px solid hsla(0,72%,51%,1);
+}
+
+.c12:hover .c2 {
+  display: block;
+}
+
+.c5 {
   padding: 0.5rem 1rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1138,7 +1346,7 @@ Object {
   display: flex;
 }
 
-.c3 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1157,71 +1365,32 @@ Object {
         class="c1"
       >
         Lorem ipsum dolor sit amet.
+        <a
+          class="c2 c3"
+          href="https://google.com"
+          target="_blank"
+        >
+          <svg
+            aria-hidden="true"
+            class="c4"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+            />
+          </svg>
+        </a>
       </header>
       <div
-        class="c2"
+        class="c5"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
       </div>
       <footer
-        class="c3"
-      >
-        Lorem ipsum dolor sit amet consectetur.
-      </footer>
-    </section>
-    <section
-      class="c4"
-    >
-      <header
-        class="c1"
-      >
-        Lorem ipsum dolor sit amet.
-      </header>
-      <div
-        class="c2"
-      >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
-      </div>
-      <footer
-        class="c3"
-      >
-        Lorem ipsum dolor sit amet consectetur.
-      </footer>
-    </section>
-    <section
-      class="c5"
-    >
-      <header
-        class="c1"
-      >
-        Lorem ipsum dolor sit amet.
-      </header>
-      <div
-        class="c2"
-      >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
-      </div>
-      <footer
-        class="c3"
-      >
-        Lorem ipsum dolor sit amet consectetur.
-      </footer>
-    </section>
-    <section
-      class="c6"
-    >
-      <header
-        class="c1"
-      >
-        Lorem ipsum dolor sit amet.
-      </header>
-      <div
-        class="c2"
-      >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
-      </div>
-      <footer
-        class="c3"
+        class="c6"
       >
         Lorem ipsum dolor sit amet consectetur.
       </footer>
@@ -1233,14 +1402,32 @@ Object {
         class="c1"
       >
         Lorem ipsum dolor sit amet.
+        <a
+          class="c2 c3"
+          href="https://google.com"
+          target="_blank"
+        >
+          <svg
+            aria-hidden="true"
+            class="c4"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+            />
+          </svg>
+        </a>
       </header>
       <div
-        class="c2"
+        class="c5"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
       </div>
       <footer
-        class="c3"
+        class="c6"
       >
         Lorem ipsum dolor sit amet consectetur.
       </footer>
@@ -1252,14 +1439,32 @@ Object {
         class="c1"
       >
         Lorem ipsum dolor sit amet.
+        <a
+          class="c2 c3"
+          href="https://google.com"
+          target="_blank"
+        >
+          <svg
+            aria-hidden="true"
+            class="c4"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+            />
+          </svg>
+        </a>
       </header>
       <div
-        class="c2"
+        class="c5"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
       </div>
       <footer
-        class="c3"
+        class="c6"
       >
         Lorem ipsum dolor sit amet consectetur.
       </footer>
@@ -1271,14 +1476,143 @@ Object {
         class="c1"
       >
         Lorem ipsum dolor sit amet.
+        <a
+          class="c2 c3"
+          href="https://google.com"
+          target="_blank"
+        >
+          <svg
+            aria-hidden="true"
+            class="c4"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+            />
+          </svg>
+        </a>
       </header>
       <div
-        class="c2"
+        class="c5"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
       </div>
       <footer
-        class="c3"
+        class="c6"
+      >
+        Lorem ipsum dolor sit amet consectetur.
+      </footer>
+    </section>
+    <section
+      class="c10"
+    >
+      <header
+        class="c1"
+      >
+        Lorem ipsum dolor sit amet.
+        <a
+          class="c2 c3"
+          href="https://google.com"
+          target="_blank"
+        >
+          <svg
+            aria-hidden="true"
+            class="c4"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+            />
+          </svg>
+        </a>
+      </header>
+      <div
+        class="c5"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
+      </div>
+      <footer
+        class="c6"
+      >
+        Lorem ipsum dolor sit amet consectetur.
+      </footer>
+    </section>
+    <section
+      class="c11"
+    >
+      <header
+        class="c1"
+      >
+        Lorem ipsum dolor sit amet.
+        <a
+          class="c2 c3"
+          href="https://google.com"
+          target="_blank"
+        >
+          <svg
+            aria-hidden="true"
+            class="c4"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+            />
+          </svg>
+        </a>
+      </header>
+      <div
+        class="c5"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
+      </div>
+      <footer
+        class="c6"
+      >
+        Lorem ipsum dolor sit amet consectetur.
+      </footer>
+    </section>
+    <section
+      class="c12"
+    >
+      <header
+        class="c1"
+      >
+        Lorem ipsum dolor sit amet.
+        <a
+          class="c2 c3"
+          href="https://google.com"
+          target="_blank"
+        >
+          <svg
+            aria-hidden="true"
+            class="c4"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+            />
+          </svg>
+        </a>
+      </header>
+      <div
+        class="c5"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
+      </div>
+      <footer
+        class="c6"
       >
         Lorem ipsum dolor sit amet consectetur.
       </footer>
@@ -1538,24 +1872,6 @@ Object {
   width: 100%;
 }
 
-.c3 {
-  display: none;
-  position: absolute;
-  height: 2.5rem;
-  width: 2.5rem;
-  top: 0;
-  right: 0;
-}
-
-.c4 {
-  height: 1.25rem;
-  width: 1.25rem;
-  top: 0.5rem;
-  right: 0.5rem;
-  position: absolute;
-  color: hsla(0,0%,64%,1);
-}
-
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1572,11 +1888,7 @@ Object {
   cursor: pointer;
 }
 
-.c0:hover .c2 {
-  display: block;
-}
-
-.c5 {
+.c2 {
   padding: 0.5rem 1rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1584,7 +1896,7 @@ Object {
   display: flex;
 }
 
-.c6 {
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1607,32 +1919,14 @@ Object {
             class="c1"
           >
             Lorem ipsum dolor sit amet consectetur.
-            <a
-              class="c2 c3"
-              href="https://google.com"
-              target="_blank"
-            >
-              <svg
-                aria-hidden="true"
-                class="c4"
-                fill="currentColor"
-                focusable="false"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
-                />
-              </svg>
-            </a>
           </header>
           <div
-            class="c5"
+            class="c2"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. A in libero accusantium sunt dolore repellat molestiae animi quod, cum dicta, quis rem fugiat harum quasi hic tempora aliquid! Aperiam, consectetur. Quisquam fuga eveniet et molestias beatae excepturi eaque porro officia! Veritatis, necessitatibus quam quibusdam officiis quia tempora quidem voluptas, nihil ipsam reprehenderit, veniam accusantium. Rerum obcaecati dolorum doloremque quod illum. Doloremque optio debitis enim nam unde quod ducimus, nesciunt obcaecati aspernatur aliquam consectetur a provident aliquid quasi officia cupiditate rerum necessitatibus distinctio blanditiis incidunt amet hic cum dolorum assumenda? Recusandae! Ipsa et, esse enim quae laudantium placeat sequi nisi est consectetur omnis. Ducimus, vitae fuga? Dolorem dolor, qui nisi laudantium tenetur totam id quisquam voluptatem maxime molestiae libero provident commodi?
           </div>
           <footer
-            class="c6"
+            class="c3"
           >
             Lorem ipsum dolor sit amet.
           </footer>
@@ -1648,24 +1942,6 @@ Object {
   padding-bottom: 0.5rem;
   padding-left: 1rem;
   width: 100%;
-}
-
-.c3 {
-  display: none;
-  position: absolute;
-  height: 2.5rem;
-  width: 2.5rem;
-  top: 0;
-  right: 0;
-}
-
-.c4 {
-  height: 1.25rem;
-  width: 1.25rem;
-  top: 0.5rem;
-  right: 0.5rem;
-  position: absolute;
-  color: hsla(0,0%,64%,1);
 }
 
 .c0 {
@@ -1684,11 +1960,7 @@ Object {
   cursor: pointer;
 }
 
-.c0:hover .c2 {
-  display: block;
-}
-
-.c5 {
+.c2 {
   padding: 0.5rem 1rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1696,7 +1968,7 @@ Object {
   display: flex;
 }
 
-.c6 {
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1718,32 +1990,14 @@ Object {
           class="c1"
         >
           Lorem ipsum dolor sit amet consectetur.
-          <a
-            class="c2 c3"
-            href="https://google.com"
-            target="_blank"
-          >
-            <svg
-              aria-hidden="true"
-              class="c4"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
-              />
-            </svg>
-          </a>
         </header>
         <div
-          class="c5"
+          class="c2"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. A in libero accusantium sunt dolore repellat molestiae animi quod, cum dicta, quis rem fugiat harum quasi hic tempora aliquid! Aperiam, consectetur. Quisquam fuga eveniet et molestias beatae excepturi eaque porro officia! Veritatis, necessitatibus quam quibusdam officiis quia tempora quidem voluptas, nihil ipsam reprehenderit, veniam accusantium. Rerum obcaecati dolorum doloremque quod illum. Doloremque optio debitis enim nam unde quod ducimus, nesciunt obcaecati aspernatur aliquam consectetur a provident aliquid quasi officia cupiditate rerum necessitatibus distinctio blanditiis incidunt amet hic cum dolorum assumenda? Recusandae! Ipsa et, esse enim quae laudantium placeat sequi nisi est consectetur omnis. Ducimus, vitae fuga? Dolorem dolor, qui nisi laudantium tenetur totam id quisquam voluptatem maxime molestiae libero provident commodi?
         </div>
         <footer
-          class="c6"
+          class="c3"
         >
           Lorem ipsum dolor sit amet.
         </footer>

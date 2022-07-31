@@ -7,7 +7,10 @@ import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidDark, orchidLight } from '@tidy-ui/theme';
+import { TColor } from '@tidy-ui/types';
 import { Card, CardBody, CardFooter, CardHeader } from '../src';
+
+const colors = ['major', 'minor', 'neutral', 'info', 'success', 'warning', 'danger'];
 
 describe('Card', () => {
   it('Basic render', () => {
@@ -35,7 +38,7 @@ describe('Card', () => {
   it('Basic render in dark mode', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <Card withHref="https://google.com">
+        <Card>
           <CardHeader withHref="https://google.com">Lorem ipsum dolor sit amet consectetur.</CardHeader>
           <CardBody>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. A in libero accusantium sunt dolore repellat
@@ -80,7 +83,7 @@ describe('Card', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Card withHref="https://google.com">
-          <CardHeader withHref="https://google.com">Lorem ipsum dolor sit amet consectetur.</CardHeader>
+          <CardHeader>Lorem ipsum dolor sit amet consectetur.</CardHeader>
           <CardBody>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. A in libero accusantium sunt dolore repellat
             molestiae animi quod, cum dicta, quis rem fugiat harum quasi hic tempora aliquid! Aperiam, consectetur.
@@ -101,69 +104,17 @@ describe('Card', () => {
   it('Card with accent variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Card withAccent="major">
-          <CardHeader>Lorem ipsum dolor sit amet.</CardHeader>
-          <CardBody>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus
-            molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum
-            praesentium repudiandae.
-          </CardBody>
-          <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
-        </Card>
-        <Card withAccent="minor">
-          <CardHeader>Lorem ipsum dolor sit amet.</CardHeader>
-          <CardBody>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus
-            molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum
-            praesentium repudiandae.
-          </CardBody>
-          <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
-        </Card>
-        <Card withAccent="info">
-          <CardHeader>Lorem ipsum dolor sit amet.</CardHeader>
-          <CardBody>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus
-            molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum
-            praesentium repudiandae.
-          </CardBody>
-          <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
-        </Card>
-        <Card withAccent="success">
-          <CardHeader>Lorem ipsum dolor sit amet.</CardHeader>
-          <CardBody>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus
-            molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum
-            praesentium repudiandae.
-          </CardBody>
-          <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
-        </Card>
-        <Card withAccent="warning">
-          <CardHeader>Lorem ipsum dolor sit amet.</CardHeader>
-          <CardBody>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus
-            molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum
-            praesentium repudiandae.
-          </CardBody>
-          <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
-        </Card>
-        <Card withAccent="danger">
-          <CardHeader>Lorem ipsum dolor sit amet.</CardHeader>
-          <CardBody>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus
-            molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum
-            praesentium repudiandae.
-          </CardBody>
-          <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
-        </Card>
-        <Card withAccent="neutral">
-          <CardHeader>Lorem ipsum dolor sit amet.</CardHeader>
-          <CardBody>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus
-            molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum
-            praesentium repudiandae.
-          </CardBody>
-          <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
-        </Card>
+        {colors.map((c) => (
+          <Card withAccent={c as TColor} key={c}>
+            <CardHeader withHref="https://google.com">Lorem ipsum dolor sit amet.</CardHeader>
+            <CardBody>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus
+              molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum
+              praesentium repudiandae.
+            </CardBody>
+            <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
+          </Card>
+        ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
