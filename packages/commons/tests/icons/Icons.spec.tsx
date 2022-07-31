@@ -44,7 +44,7 @@ const icons = [
 ];
 
 describe('Icons', () => {
-  test('Render icons', () => {
+  it('Render icons', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {icons.map((icon, index) => (

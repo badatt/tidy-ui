@@ -14,7 +14,7 @@ import { Message } from '../src';
 const colors = ['major', 'minor', 'neutral', 'info', 'success', 'warning', 'danger'];
 
 describe('Message', () => {
-  test('Basic render', () => {
+  it('Basic render', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Message>
@@ -25,7 +25,7 @@ describe('Message', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-  test('Message with all color variants', () => {
+  it('Message with all color variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {colors.map((c) => (
@@ -38,7 +38,7 @@ describe('Message', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-  test('Message stretched to full width', () => {
+  it('Message stretched to full width', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Message stretch>
@@ -49,7 +49,7 @@ describe('Message', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-  test('Message with close button', () => {
+  it('Message with close button', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Message closable>
@@ -60,7 +60,7 @@ describe('Message', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-  test('Message with header', () => {
+  it('Message with header', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Message header="Lorem ipsum dolor sit amet consectetur adipisicing elit">
@@ -71,7 +71,7 @@ describe('Message', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-  test('Message with sharp label', () => {
+  it('Message with sharp label', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Message sharp>
@@ -82,7 +82,7 @@ describe('Message', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-  test('Message with no label', () => {
+  it('Message with no label', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Message noLabel>
@@ -93,161 +93,8 @@ describe('Message', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-  test('Message with major color', () => {
-    const tree = render(
-      <ThemeProvider theme={orchidLight}>
-        <Message color="major">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
-          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </Message>
-      </ThemeProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-  });
-  test('Message with minor color', () => {
-    const tree = render(
-      <ThemeProvider theme={orchidLight}>
-        <Message color="minor">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
-          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </Message>
-      </ThemeProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-  });
-  test('Message with neutral color', () => {
-    const tree = render(
-      <ThemeProvider theme={orchidLight}>
-        <Message color="neutral">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
-          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </Message>
-      </ThemeProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-  });
-  test('Message with info color', () => {
-    const tree = render(
-      <ThemeProvider theme={orchidLight}>
-        <Message color="info">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
-          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </Message>
-      </ThemeProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-  });
-  test('Message with success color', () => {
-    const tree = render(
-      <ThemeProvider theme={orchidLight}>
-        <Message color="success">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
-          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </Message>
-      </ThemeProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-  });
-  test('Message with warning color', () => {
-    const tree = render(
-      <ThemeProvider theme={orchidLight}>
-        <Message color="warning">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
-          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </Message>
-      </ThemeProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-  });
-  test('Message with danger color', () => {
-    const tree = render(
-      <ThemeProvider theme={orchidLight}>
-        <Message color="danger">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
-          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </Message>
-      </ThemeProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-  });
-  test('Message with major outlined color', () => {
-    const tree = render(
-      <ThemeProvider theme={orchidLight}>
-        <Message color="major" outlined>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
-          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </Message>
-      </ThemeProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-  });
-  test('Message with minor outlined color', () => {
-    const tree = render(
-      <ThemeProvider theme={orchidLight}>
-        <Message color="minor" outlined>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
-          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </Message>
-      </ThemeProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-  });
-  test('Message with neutral outlined color', () => {
-    const tree = render(
-      <ThemeProvider theme={orchidLight}>
-        <Message color="neutral" outlined>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
-          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </Message>
-      </ThemeProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-  });
-  test('Message with info outlined color', () => {
-    const tree = render(
-      <ThemeProvider theme={orchidLight}>
-        <Message color="info" outlined>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
-          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </Message>
-      </ThemeProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-  });
-  test('Message with success outlined color', () => {
-    const tree = render(
-      <ThemeProvider theme={orchidLight}>
-        <Message color="success" outlined>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
-          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </Message>
-      </ThemeProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-  });
-  test('Message with warning outlined color', () => {
-    const tree = render(
-      <ThemeProvider theme={orchidLight}>
-        <Message color="warning" outlined>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
-          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </Message>
-      </ThemeProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-  });
-  test('Message with danger outlined color', () => {
-    const tree = render(
-      <ThemeProvider theme={orchidLight}>
-        <Message color="danger" outlined>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
-          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </Message>
-      </ThemeProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-  });
-  test('Closable message without any callback', () => {
+
+  it('Closable message without any callback', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
         <Message closable outlined>
@@ -265,7 +112,7 @@ describe('Message', () => {
     });
     expect(closeButton).not.toBeVisible();
   });
-  test('Closable message with an onClose callback', () => {
+  it('Closable message with an onClose callback', () => {
     const mockCallback = jest.fn();
     const tree = render(
       <ThemeProvider theme={orchidLight}>
@@ -285,7 +132,7 @@ describe('Message', () => {
     expect(closeButton).not.toBeVisible();
     expect(mockCallback).toBeCalled();
   });
-  test('Closable message with duration and onClose callback', () => {
+  it('Closable message with duration and onClose callback', () => {
     jest.useFakeTimers();
     const mockCallback = jest.fn();
     const tree = render(

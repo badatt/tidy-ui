@@ -12,11 +12,11 @@ import { CloseButton, Header, MessageContent, MessageLabel, MessageRoot } from '
 import { IMessageProps } from './types';
 
 const Message = forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
-  const { children, closable, duration, onClose, header, ...rest } = props;
+  const { children, isClosable, onClose, withDuration, withHeader, ...rest } = props;
 
   const isMounted = useIsMounted();
   const [isHidden, setHidden] = useState<boolean>(false);
-  const { clear } = useTimeout(onClose, duration, typeof duration === 'number' && duration > 0);
+  const { clear } = useTimeout(onClose, withDuration, typeof withDuration === 'number' && withDuration > 0);
 
   const handleClose = useCallback(
     (e: MouseEvent<HTMLElement>) => {
@@ -34,7 +34,7 @@ const Message = forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
   }
 
   const Icon = (p: IMessageProps) => {
-    switch (p.color) {
+    switch (p.withColor) {
       case 'info':
         return <InfoIcon />;
       case 'success':
@@ -50,19 +50,19 @@ const Message = forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
 
   return (
     <MessageRoot ref={ref} role="message" {...rest}>
-      {!props.noLabel && (
+      {!props.withoutLabel && (
         <MessageLabel {...rest}>
           <Icon {...rest} />
-          {rest.color}
+          {rest.withColor}
         </MessageLabel>
       )}
-      {closable && (
+      {isClosable && (
         <CloseButton onClick={handleClose} {...rest} role="close-btn">
           <CancelIcon outlined />
         </CloseButton>
       )}
       <MessageContent {...rest}>
-        {header && <Header>{header}</Header>}
+        {withHeader && <Header>{withHeader}</Header>}
         {children}
       </MessageContent>
     </MessageRoot>
@@ -70,13 +70,13 @@ const Message = forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
 });
 
 Message.defaultProps = {
-  closable: false,
-  color: 'info',
-  duration: 0,
-  noLabel: false,
-  outlined: false,
-  sharp: false,
-  stretch: false,
+  isClosable: false,
+  isOutlined: false,
+  isSharp: false,
+  isStretched: false,
+  withColor: 'info',
+  withDuration: 0,
+  withoutLabel: false,
 };
 
 export { Message };

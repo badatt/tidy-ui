@@ -23,14 +23,14 @@ export const basic = () => (
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
       eaque!
     </Message>
-    <Message header={<p>aliquam cumque quibusdam aspernatur</p>}>
+    <Message withHeader={<p>aliquam cumque quibusdam aspernatur</p>}>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur illum nesciunt in pariatur veniam eos ipsa,
       minus eius totam velit. Voluptate non aliquam ut. Quasi, aperiam eum! Velit, magni esse.
     </Message>
-    <Message sharp>
+    <Message isSharp>
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse temporibus unde dolor itaque vol
     </Message>
-    <Message noLabel>
+    <Message withoutLabel>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente similique sed numquam veritatis minus
       perferendis, aliquam cumque quibusdam aspernatur non at velit voluptatem! Fuga dolores inventore labore, optio
       voluptas praesentium.
@@ -40,66 +40,66 @@ export const basic = () => (
 
 export const colors = () => (
   <Container>
-    <Message color="major">
+    <Message withColor="major">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores repellat commodi sapiente eveniet necessitatibus,
       quos facilis libero sed ducimus repellendus delectus. Reprehenderit sapiente iure ratione enim dolorum
       necessitatibus rem maxime.
     </Message>
-    <Message color="minor">
+    <Message withColor="minor">
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore sapiente exercitationem explicabo nemo in qui
       delectus ex dolore autem quo, aliquam nam debitis blanditiis possimus quia beatae pariatur et! Quia.
     </Message>
-    <Message color="neutral">
+    <Message withColor="neutral">
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos esse, iste odit nisi perspiciatis, animi recusandae
       ipsum distinctio magnam ipsa corrupti. Nemo tempore assumenda sint fugiat? Aperiam sed sint qui?
     </Message>
-    <Message color="info">
+    <Message withColor="info">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia deleniti asperiores, quibusdam libero temporibus
       ab facilis ullam? Iure aspernatur libero vitae accusantium ex a, corporis ad quidem quos beatae eius?
     </Message>
-    <Message color="success">
+    <Message withColor="success">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ducimus quis dolores obcaecati illo velit qui
       possimus magnam! Ullam voluptatum quam officia vitae soluta asperiores beatae aut odit dolorem voluptatibus!
     </Message>
-    <Message color="warning">
+    <Message withColor="warning">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis obcaecati quia neque facilis reiciendis cumque
       voluptatibus dolorum odio ut, eaque fuga consequuntur in assumenda, vel ab. Deserunt assumenda nesciunt sequi!
     </Message>
-    <Message color="danger">
+    <Message withColor="danger">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti maiores eos quod, nobis recusandae nemo beatae
       fugiat incidunt illo voluptatibus ex aliquam sint quidem quisquam sed reiciendis neque cumque? Esse.
     </Message>
   </Container>
 );
 
-export const outlined = () => (
+export const isOutlined = () => (
   <Container>
-    <Message color="major" outlined>
+    <Message withColor="major" isOutlined>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores repellat commodi sapiente eveniet necessitatibus,
       quos facilis libero sed ducimus repellendus delectus. Reprehenderit sapiente iure ratione enim dolorum
       necessitatibus rem maxime.
     </Message>
-    <Message color="minor" outlined>
+    <Message withColor="minor" isOutlined>
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore sapiente exercitationem explicabo nemo in qui
       delectus ex dolore autem quo, aliquam nam debitis blanditiis possimus quia beatae pariatur et! Quia.
     </Message>
-    <Message color="neutral" outlined>
+    <Message withColor="neutral" isOutlined>
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos esse, iste odit nisi perspiciatis, animi recusandae
       ipsum distinctio magnam ipsa corrupti. Nemo tempore assumenda sint fugiat? Aperiam sed sint qui?
     </Message>
-    <Message color="info" outlined>
+    <Message withColor="info" isOutlined>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia deleniti asperiores, quibusdam libero temporibus
       ab facilis ullam? Iure aspernatur libero vitae accusantium ex a, corporis ad quidem quos beatae eius?
     </Message>
-    <Message color="success" outlined>
+    <Message withColor="success" isOutlined>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ducimus quis dolores obcaecati illo velit qui
       possimus magnam! Ullam voluptatum quam officia vitae soluta asperiores beatae aut odit dolorem voluptatibus!
     </Message>
-    <Message color="warning" outlined>
+    <Message withColor="warning" isOutlined>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis obcaecati quia neque facilis reiciendis cumque
       voluptatibus dolorum odio ut, eaque fuga consequuntur in assumenda, vel ab. Deserunt assumenda nesciunt sequi!
     </Message>
-    <Message color="danger" outlined>
+    <Message withColor="danger" isOutlined>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti maiores eos quod, nobis recusandae nemo beatae
       fugiat incidunt illo voluptatibus ex aliquam sint quidem quisquam sed reiciendis neque cumque? Esse.
     </Message>
@@ -108,7 +108,7 @@ export const outlined = () => (
 
 export const closable = () => (
   <Container>
-    <Message closable>
+    <Message isClosable>
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit deleniti quod accusantium eligendi repellendus
       distinctio quibusdam explicabo sit neque quaerat, corporis, nulla iste itaque, voluptate est numquam! Odit, dolor
       ipsa!

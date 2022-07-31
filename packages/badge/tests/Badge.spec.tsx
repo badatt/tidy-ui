@@ -16,7 +16,7 @@ const Icon = styled(DangerousIcon)`
 `;
 
 describe('Badge', () => {
-  test('Basic render', () => {
+  it('Basic render', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge withData={50}>
@@ -26,7 +26,7 @@ describe('Badge', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-  test('Badge without data', () => {
+  it('Badge without data', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge>
@@ -36,7 +36,7 @@ describe('Badge', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-  test('Badges with all color variants', () => {
+  it('Badges with all color variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge withData={50} withColor="major">
@@ -64,7 +64,7 @@ describe('Badge', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-  test('Badges with all outlined variants', () => {
+  it('Badges with all outlined variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge withData={50} withColor="major" isOutlined>
@@ -92,7 +92,7 @@ describe('Badge', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-  test('Badges in dark mode with all outlined variants', () => {
+  it('Badges in dark mode with all outlined variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
         <Badge withData={50} withColor="major" isOutlined>
@@ -120,7 +120,7 @@ describe('Badge', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-  test('Badge without max value should show 99+', () => {
+  it('Badge without max value should show 99+', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge withData={198}>
@@ -130,7 +130,7 @@ describe('Badge', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-  test('Badge with max value', () => {
+  it('Badge with max value', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge withData={198} withMax={150}>
@@ -140,7 +140,7 @@ describe('Badge', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-  test('Badge with a dot', () => {
+  it('Badge with a dot', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge isDotted>
@@ -150,7 +150,7 @@ describe('Badge', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-  test('Badge with a dot and it blinks', () => {
+  it('Badge with a dot and it blinks', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge isDotted isBlinking>
@@ -160,7 +160,7 @@ describe('Badge', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-  test('Badge which is invisible', () => {
+  it('Badge which is invisible', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge isInvisible withData={50}>
@@ -170,7 +170,7 @@ describe('Badge', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-  test('Do not show zero value by default', () => {
+  it('Do not show zero value by default', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge withData={0}>
@@ -180,7 +180,7 @@ describe('Badge', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-  test('Force show zero value', () => {
+  it('Force show zero value', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge isShowZero withData={0}>

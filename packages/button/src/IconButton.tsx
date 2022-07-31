@@ -1,107 +1,12 @@
 import React, { forwardRef } from 'react';
-import { css, styled } from '@tidy-ui/theme';
-import { outlined, primary, sizeStyles } from './styles';
+import {
+  IconButtonChildWrapper,
+  IconButtonIcon,
+  IconButtonIconOnlyWrapper,
+  IconButtonIconWrapper,
+  IconButtonRoot,
+} from './components';
 import { IIconButtonProps } from './types';
-
-/**
- * Internal root component with styles
- *
- */
-const IconButtonRoot = styled.button<IIconButtonProps>`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  ${({ withSize, isDisabled, isIconOnly, withType, withPlacement }) => css`
-    font-size: ${sizeStyles[withSize!].fontSize};
-    ${isIconOnly
-      ? css`
-          padding: 0.3em;
-          border-radius: 50%;
-        `
-      : css`
-          padding: 0;
-          border-radius: 0.4em;
-        `}
-    ${isDisabled &&
-    css`
-      cursor: not-allowed;
-      opacity: 0.5;
-    `}
-    ${withPlacement == 'right' &&
-    css`
-      flex-direction: row-reverse;
-    `}
-    ${withType === 'primary' && primary}
-    ${withType === 'outlined' && outlined}
-  `}
-`;
-
-/**
- * The Wrapper component for Icon
- *
- */
-const IconWrapper = styled.span<IIconButtonProps>`
-  padding: 0.4em;
-`;
-
-/**
- * The Wrapper component for IconOnly type buttons
- *
- */
-const IconOnlyWrapper = styled.span<IIconButtonProps>`
-  ${({ isIconOnly }) => css`
-    ${isIconOnly
-      ? css`
-          padding: 0.4em;
-        `
-      : css`
-          padding: 0.4em 0.6em;
-        `}
-  `}
-`;
-
-/**
- * Internal Icon with styles
- *
- */
-const Icon = styled.i<IIconButtonProps>`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  ${({ isIconOnly }) => css`
-    ${isIconOnly
-      ? css`
-          height: 1.8em;
-          width: 1.8em;
-        `
-      : css`
-          height: 1.2em;
-          width: 1.2em;
-        `}
-  `}
-`;
-
-/**
- * Internal component for children other than Icon
- *
- */
-const ChildWrapper = styled.span<IIconButtonProps>`
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  vertical-align: middle;
-  white-space: nowrap;
-  user-select: none;
-  ${({ withPlacement }) => css`
-    ${withPlacement == 'right'
-      ? css`
-          padding-left: 0.4em;
-        `
-      : css`
-          padding-right: 0.4em;
-        `}
-  `}
-`;
 
 /**
  * IconButton can be used to represent a Button with Icon and its related text embedded inside.
@@ -112,15 +17,15 @@ const IconButton = forwardRef<HTMLButtonElement, IIconButtonProps>((props, ref) 
   return (
     <IconButtonRoot role="icon-button" ref={ref} {...props}>
       {children ? (
-        <IconWrapper {...props}>
-          <Icon {...props}>{withIcon}</Icon>
-        </IconWrapper>
+        <IconButtonIconWrapper {...props}>
+          <IconButtonIcon {...props}>{withIcon}</IconButtonIcon>
+        </IconButtonIconWrapper>
       ) : (
-        <IconOnlyWrapper {...props}>
-          <Icon {...props}>{withIcon}</Icon>
-        </IconOnlyWrapper>
+        <IconButtonIconOnlyWrapper {...props}>
+          <IconButtonIcon {...props}>{withIcon}</IconButtonIcon>
+        </IconButtonIconOnlyWrapper>
       )}
-      {children && <ChildWrapper {...props}>{children}</ChildWrapper>}
+      {children && <IconButtonChildWrapper {...props}>{children}</IconButtonChildWrapper>}
     </IconButtonRoot>
   );
 });

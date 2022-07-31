@@ -6,7 +6,7 @@ import { act, renderHook } from '@testing-library/react-hooks/dom';
 import { useTimeout } from '../../src';
 
 describe('useTimeout', () => {
-  test('Should return clear and reset functions', () => {
+  it('Should return clear and reset functions', () => {
     jest.useFakeTimers();
     const cbSpy = jest.fn();
     const hook = renderHook(() => useTimeout(cbSpy, 10, true));
@@ -17,7 +17,7 @@ describe('useTimeout', () => {
     jest.runAllTimers();
   });
 
-  test('With empty callback', () => {
+  it('With empty callback', () => {
     jest.useFakeTimers();
     const hook = renderHook(() => useTimeout(undefined, 10, true));
     expect(typeof hook.result.current.reset).toEqual('function');
@@ -28,7 +28,7 @@ describe('useTimeout', () => {
     jest.runAllTimers();
   });
 
-  test('With no timeout', () => {
+  it('With no timeout', () => {
     jest.useFakeTimers();
     const hook = renderHook(() => useTimeout(undefined));
     expect(typeof hook.result.current.reset).toEqual('function');
@@ -39,7 +39,7 @@ describe('useTimeout', () => {
     jest.runAllTimers();
   });
 
-  test('With callback disabled', () => {
+  it('With callback disabled', () => {
     jest.useFakeTimers();
     const cbSpy = jest.fn();
     const hook = renderHook(() => useTimeout(cbSpy, 10, false));
@@ -51,7 +51,7 @@ describe('useTimeout', () => {
     jest.runAllTimers();
   });
 
-  test('Should call passed function after given amount of time', () => {
+  it('Should call passed function after given amount of time', () => {
     jest.useFakeTimers();
     const cbSpy = jest.fn();
     renderHook(() => useTimeout(cbSpy, 30));
@@ -63,7 +63,7 @@ describe('useTimeout', () => {
     jest.runAllTimers();
   });
 
-  test('Should be able to cancel timeout', () => {
+  it('Should be able to cancel timeout', () => {
     jest.useFakeTimers();
     const cbSpy = jest.fn();
     const hook = renderHook(() => useTimeout(cbSpy, 30));
@@ -75,7 +75,7 @@ describe('useTimeout', () => {
     jest.runAllTimers();
   });
 
-  test('Should be able to reset timeout', () => {
+  it('Should be able to reset timeout', () => {
     jest.useFakeTimers();
     const cbSpy = jest.fn();
     const hook = renderHook(() => useTimeout(cbSpy, 40));
