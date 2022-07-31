@@ -2952,35 +2952,32 @@ Object {
         class="c0"
         role="button"
       >
-        <i
+        <svg
           class="c1"
+          enable-background="new 0 0 0 0"
+          version="1.1"
+          viewBox="0 0 100 100"
+          x="0px"
+          xlink:href="http://www.w3.org/1999/xlink"
+          xml:space="preserve"
+          xmlns="http://www.w3.org/2000/svg"
+          y="0px"
         >
-          <svg
-            enable-background="new 0 0 0 0"
-            version="1.1"
-            viewBox="0 0 100 100"
-            x="0px"
-            xlink:href="http://www.w3.org/1999/xlink"
-            xml:space="preserve"
-            xmlns="http://www.w3.org/2000/svg"
-            y="0px"
+          <path
+            d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50"
+            fill="currentColor"
           >
-            <path
-              d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50"
-              fill="currentColor"
-            >
-              <animatetransform
-                attributeName="transform"
-                attributeType="XML"
-                dur="1s"
-                from="0 50 50"
-                repeatCount="indefinite"
-                to="360 50 50"
-                type="rotate"
-              />
-            </path>
-          </svg>
-        </i>
+            <animatetransform
+              attributeName="transform"
+              attributeType="XML"
+              dur="1s"
+              from="0 50 50"
+              repeatCount="indefinite"
+              to="360 50 50"
+              type="rotate"
+            />
+          </path>
+        </svg>
         Loading...
       </button>
     </div>
@@ -3044,35 +3041,32 @@ Object {
       class="c0"
       role="button"
     >
-      <i
+      <svg
         class="c1"
+        enable-background="new 0 0 0 0"
+        version="1.1"
+        viewBox="0 0 100 100"
+        x="0px"
+        xlink:href="http://www.w3.org/1999/xlink"
+        xml:space="preserve"
+        xmlns="http://www.w3.org/2000/svg"
+        y="0px"
       >
-        <svg
-          enable-background="new 0 0 0 0"
-          version="1.1"
-          viewBox="0 0 100 100"
-          x="0px"
-          xlink:href="http://www.w3.org/1999/xlink"
-          xml:space="preserve"
-          xmlns="http://www.w3.org/2000/svg"
-          y="0px"
+        <path
+          d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50"
+          fill="currentColor"
         >
-          <path
-            d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50"
-            fill="currentColor"
-          >
-            <animatetransform
-              attributeName="transform"
-              attributeType="XML"
-              dur="1s"
-              from="0 50 50"
-              repeatCount="indefinite"
-              to="360 50 50"
-              type="rotate"
-            />
-          </path>
-        </svg>
-      </i>
+          <animatetransform
+            attributeName="transform"
+            attributeType="XML"
+            dur="1s"
+            from="0 50 50"
+            repeatCount="indefinite"
+            to="360 50 50"
+            type="rotate"
+          />
+        </path>
+      </svg>
       Loading...
     </button>
   </div>,

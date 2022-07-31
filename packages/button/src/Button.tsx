@@ -61,7 +61,7 @@ const Icon = styled(RotatingCircleIcon)<IButtonProps>`
 `;
 
 /**
- * Button component cab be used to represent CTAs in your pages, can be a good replacement
+ * Button component can be used to represent CTAs in your pages, can be a good replacement
  * for default html `button`, powered by various styles (with theming) and settings
  *
  */

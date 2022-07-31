@@ -3,6 +3,10 @@ import { LaunchIcon } from '@tidy-ui/commons';
 import { css, styled } from '@tidy-ui/theme';
 import { ICardFooterProps, ICardHeaderProps, ICardProps } from './types';
 
+/**
+ * Internal CardHeader root component
+ *
+ */
 const CardHeaderRoot = styled.header<ICardHeaderProps>`
   ${({ theme: { typography, palette }, isDivided }) => css`
     position: relative;
@@ -19,6 +23,10 @@ const CardHeaderRoot = styled.header<ICardHeaderProps>`
   `}
 `;
 
+/**
+ * Internal styled anchor tag
+ *
+ */
 const Link = styled.a`
   display: none;
   position: absolute;
@@ -28,6 +36,10 @@ const Link = styled.a`
   right: 0;
 `;
 
+/**
+ * Internal styled LaunchIcon
+ *
+ */
 const Icon = styled(LaunchIcon)<ICardHeaderProps>`
   ${({ theme: { palette, isDark } }) => css`
     height: 1.25rem;
@@ -39,6 +51,10 @@ const Icon = styled(LaunchIcon)<ICardHeaderProps>`
   `}
 `;
 
+/**
+ * CardHeader component, powered by various styles (with theming) and settings
+ *
+ */
 const CardHeader = React.forwardRef<HTMLDivElement, ICardHeaderProps>((props, ref) => {
   const { children, withHref, ...rest } = props;
   return (
@@ -53,6 +69,10 @@ const CardHeader = React.forwardRef<HTMLDivElement, ICardHeaderProps>((props, re
   );
 });
 
+/**
+ * Internal Card root component
+ *
+ */
 const CardRoot = styled.section<ICardProps>`
   ${({ theme: { palette, layout }, isSharp, withAccent, withHref }) => css`
     display: flex;
@@ -79,11 +99,19 @@ const CardRoot = styled.section<ICardProps>`
   }
 `;
 
+/**
+ * Card body component, powered by various styles (with theming) and settings
+ *
+ */
 const CardBody = styled.div`
   padding: 0.5rem 1rem;
   display: flex;
 `;
 
+/**
+ * CardFooter component, powered by various styles (with theming) and settings
+ *
+ */
 const CardFooter = styled.footer<ICardFooterProps>`
   display: flex;
   padding-top: 0.5rem;
@@ -98,6 +126,11 @@ const CardFooter = styled.footer<ICardFooterProps>`
   `}
 `;
 
+/**
+ * Card component powered by various styles (with theming) and settings. Can be used just
+ * as is with a nice elevation effect that looks like a card on screen
+ *
+ */
 const Card = React.forwardRef<HTMLDivElement, ICardProps>((props, ref) => {
   const { children, withHref } = props;
   return (
