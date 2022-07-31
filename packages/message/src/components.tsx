@@ -1,8 +1,34 @@
+import React from 'react';
+import { CheckCircleIcon, DangerousIcon, InfoIcon, WarningIcon } from '@tidy-ui/commons';
 import { css, styled } from '@tidy-ui/theme';
 import { IPalette } from '@tidy-ui/types';
 import { filledContent, filledLabel, outlinedContent, outlinedLabel } from './styles';
 import { IMessageProps } from './types';
 
+/**
+ * MessageLabel icon
+ *
+ * @param {IMessageProps} p
+ */
+const MessageLabelIcon = (p: IMessageProps) => {
+  switch (p.withColor) {
+    case 'info':
+      return <InfoIcon />;
+    case 'success':
+      return <CheckCircleIcon />;
+    case 'warning':
+      return <WarningIcon />;
+    case 'danger':
+      return <DangerousIcon />;
+    default:
+      return null;
+  }
+};
+
+/**
+ * Internal Message root component
+ *
+ */
 const MessageRoot = styled.div<IMessageProps>`
   ${({ isStretched }) => css`
     margin-bottom: 1rem;
@@ -15,28 +41,39 @@ const closeButtonColor = (isDark: boolean, palette: IPalette, color: string) => 
   return isDark ? palette[color][400] : palette[color][600];
 };
 
+/**
+ * CloseButton component
+ *
+ */
 const CloseButton = styled.i<IMessageProps>`
   ${({ theme: { palette, isDark }, withColor, isOutlined }) => css`
     height: 1rem;
     width: 1rem;
     position: absolute;
-    top: 24px;
-    right: 2px;
     color: ${palette[withColor!][50]};
     cursor: pointer;
     ${isOutlined
       ? css`
+          top: 26px;
+          right: 2px;
           color: ${closeButtonColor(isDark, palette, withColor!)};
         `
       : css`
+          top: 24px;
+          right: 2px;
           color: ${palette[withColor!][50]};
         `}
   `}
 `;
 
+/**
+ * Message widget label component
+ *
+ */
 const MessageLabel = styled.div<IMessageProps>`
   ${({ theme: { layout, typography }, isSharp, isOutlined }) => css`
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 2px;
     border-top-left-radius: ${!isSharp && layout.radius};
@@ -54,6 +91,10 @@ const MessageLabel = styled.div<IMessageProps>`
   `}
 `;
 
+/**
+ * MessageContent component
+ *
+ */
 const MessageContent = styled.div<IMessageProps>`
   ${({ theme: { layout }, isSharp, isStretched, withoutLabel, isOutlined }) => css`
     padding: 0.75rem 1rem;
@@ -67,6 +108,10 @@ const MessageContent = styled.div<IMessageProps>`
   `}
 `;
 
+/**
+ * Message header component
+ *
+ */
 const Header = styled.div<IMessageProps>`
   ${({ theme: { typography } }) => css`
     font-size: ${typography.h6.fontSize};
@@ -74,4 +119,4 @@ const Header = styled.div<IMessageProps>`
   `}
 `;
 
-export { CloseButton, Header, MessageContent, MessageLabel, MessageRoot };
+export { CloseButton, Header, MessageContent, MessageLabel, MessageLabelIcon, MessageRoot };
