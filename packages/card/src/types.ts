@@ -2,16 +2,16 @@ import { HTMLAttributes } from 'react';
 import { TColor } from '@tidy-ui/types';
 
 export interface ICardProps extends HTMLAttributes<HTMLDivElement> {
-  accent?: TColor;
-  href?: string;
-  rounded?: boolean;
+  isSharp?: boolean;
+  withAccent?: TColor;
+  withHref?: string;
 }
 
 export interface ICardFooterProps extends HTMLAttributes<HTMLDivElement> {
-  separated?: boolean;
+  isDivided?: boolean;
 }
 
 export interface ICardHeaderProps extends HTMLAttributes<HTMLDivElement> {
-  href?: string;
-  separated?: boolean;
+  isDivided?: boolean;
+  withHref?: string;
 }
