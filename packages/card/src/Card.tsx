@@ -4,7 +4,7 @@ import { css, styled } from '@tidy-ui/theme';
 import { ICardFooterProps, ICardHeaderProps, ICardProps } from './types';
 
 const CardHeaderRoot = styled.header<ICardHeaderProps>`
-  ${({ theme: { typography, palette }, separated }) => css`
+  ${({ theme: { typography, palette }, isDivided }) => css`
     position: relative;
     font-weight: ${typography.fontWeightBold};
     padding-top: 1rem;
@@ -12,7 +12,7 @@ const CardHeaderRoot = styled.header<ICardHeaderProps>`
     padding-bottom: 0.5rem;
     padding-left: 1rem;
     width: 100%;
-    ${separated &&
+    ${isDivided &&
     css`
       border-bottom: 1px solid ${palette.divider};
     `}
@@ -40,12 +40,12 @@ const Icon = styled(LaunchIcon)<ICardHeaderProps>`
 `;
 
 const CardHeader = React.forwardRef<HTMLDivElement, ICardHeaderProps>((props, ref) => {
-  const { children, href, ...rest } = props;
+  const { children, withHref, ...rest } = props;
   return (
     <CardHeaderRoot ref={ref} {...rest}>
       {children}
-      {href && (
-        <Link href={href} target="_blank">
+      {withHref && (
+        <Link href={withHref} target="_blank">
           <Icon {...rest} />
         </Link>
       )}
@@ -54,22 +54,22 @@ const CardHeader = React.forwardRef<HTMLDivElement, ICardHeaderProps>((props, re
 });
 
 const CardRoot = styled.section<ICardProps>`
-  ${({ theme: { palette, layout }, rounded, accent, href }) => css`
+  ${({ theme: { palette, layout }, isSharp, withAccent, withHref }) => css`
     display: flex;
     flex-direction: column;
     background-color: ${palette.background.card};
     box-shadow: ${layout.shadow};
     color: ${palette.text.primary};
     margin-bottom: 1.875rem;
-    ${rounded &&
+    ${!isSharp &&
     css`
       border-radius: ${layout.radius};
     `}
-    ${accent &&
+    ${withAccent &&
     css`
-      border-top: 2px solid ${palette[accent][600]};
+      border-top: 2px solid ${palette[withAccent][600]};
     `}
-    ${href &&
+    ${withHref &&
     css`
       cursor: pointer;
     `}
@@ -90,8 +90,8 @@ const CardFooter = styled.footer<ICardFooterProps>`
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
-  ${({ theme: { palette }, separated }) => css`
-    ${separated &&
+  ${({ theme: { palette }, isDivided }) => css`
+    ${isDivided &&
     css`
       border-top: 1px solid ${palette.divider};
     `}
@@ -99,16 +99,24 @@ const CardFooter = styled.footer<ICardFooterProps>`
 `;
 
 const Card = React.forwardRef<HTMLDivElement, ICardProps>((props, ref) => {
-  const { children, href } = props;
+  const { children, withHref } = props;
   return (
     <CardRoot ref={ref} {...props}>
-      {href ? <a href={href}>{children}</a> : <>{children}</>}
+      {withHref ? <a href={withHref}>{children}</a> : <>{children}</>}
     </CardRoot>
   );
 });
 
 Card.defaultProps = {
-  rounded: true,
+  isSharp: false,
+};
+
+CardFooter.defaultProps = {
+  isDivided: false,
+};
+
+CardHeader.defaultProps = {
+  isDivided: false,
 };
 
 export { Card, CardBody, CardFooter, CardHeader };
