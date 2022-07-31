@@ -1,19 +1,12 @@
 import React from 'react';
-import { css, styled } from '@tidy-ui/theme';
+import { PaperRoot } from './components';
 import { IPaperProps } from './types';
 
-const PaperRoot = styled.section<IPaperProps>`
-  ${({ theme, rounded }) => css`
-    display: flex;
-    padding: 1rem;
-    background-color: ${theme.palette.background.paper};
-    border-radius: ${rounded && theme.layout.radius};
-    box-shadow: ${theme.layout.shadow};
-    color: ${theme.palette.text.primary};
-    margin-bottom: 1.875rem;
-  `}
-`;
-
+/**
+ * Paper component can be used to represent an elevated section in a page,
+ * powered by various styles (with theming) and settings
+ *
+ */
 const Paper = React.forwardRef<HTMLDivElement, IPaperProps>((props, ref) => {
   const { className, children, ...rest } = props;
   return (
@@ -22,5 +15,9 @@ const Paper = React.forwardRef<HTMLDivElement, IPaperProps>((props, ref) => {
     </PaperRoot>
   );
 });
+
+Paper.defaultProps = {
+  isSharp: false,
+};
 
 export { Paper };
