@@ -2,8 +2,15 @@ import { HTMLAttributes } from 'react';
 import { TColor } from '@tidy-ui/types';
 
 /**
+ * Size variants of the tag component
+ *
+ * @export
+ * @typedef {TSize}
+ */
+export type TSize = 'sm' | 'md' | 'lg';
+
+/**
  * Tag properties
- * @author Balu Praveen Datty <dev.badatt@gmail.com>
  *
  * @export
  * @interface ITagProps
@@ -11,57 +18,57 @@ import { TColor } from '@tidy-ui/types';
  * @extends {HTMLAttributes<HTMLDivElement>}
  */
 export interface ITagProps extends HTMLAttributes<HTMLDivElement> {
-  /** Color variant of the tag widget, typically used to classify the
-   * information based on its level
-   * @default 'major'
-   * */
-  color?: TColor;
-
   /**
-   * Whether to disable the tag
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
+   * If `true`, the tag is disabled
    *
-   * @type {?boolean}
    * @default false
+   * @type {?boolean}
    */
-  disable?: boolean;
+  isDisabled?: boolean;
 
-  /**
-   * Icon to be added to the tag
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
+  /** If `true`, creates outlined tag widget, it won't fill
    *
-   * @type {?JSX.Element}
-   * @default null
-   */
-  icon?: JSX.Element;
-
-  /**
-   * Desired size of the tag
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
-   *
-   * @type {?('sm' | 'md' | 'lg')}
-   * @default 'md'
-   */
-  magnitude?: 'sm' | 'md' | 'lg';
+   * @default false
+   * @type {?boolean}
+   * */
+  isOutlined?: boolean;
 
   /**
    * Callback (if any) after the tag widget is closed
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    *
    * @type {?((e?: any | undefined) => void)}
    */
   // eslint-disable-next-line  @typescript-eslint/no-explicit-any
   onClose?: (e?: any | undefined) => void;
 
-  /** Creates outlined tag widget, won't fill
-   * @default false
-   * */
-  outlined?: boolean;
+  /**
+   * Color variant of the tag widget, typically used to classify the
+   * information based on its level
+   *
+   * @default 'major'
+   * @type {?TColor}
+   */
+  withColor?: TColor;
+
+  /**
+   * Icon to be added to the tag
+   *
+   * @type {?JSX.Element}
+   * @default null
+   */
+  withIcon?: JSX.Element;
+
+  /**
+   * The size of the component
+   *
+   * default 'md'
+   * @type {?TSize}
+   */
+  withSize?: TSize;
 }
 
 /**
  * TagGroup properties
- * @author Balu Praveen Datty <dev.badatt@gmail.com>
  *
  * @export
  * @interface ITagGroupProps
@@ -69,15 +76,27 @@ export interface ITagProps extends HTMLAttributes<HTMLDivElement> {
  * @extends {HTMLAttributes<HTMLDivElement>}
  */
 export interface ITagGroupProps extends HTMLAttributes<HTMLDivElement> {
-  color?: TColor;
-  magnitude?: 'sm' | 'md' | 'lg';
-
   /**
    * On add callback
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    *
    * @type {?() => void}
    */
   // eslint-disable-next-line  @typescript-eslint/no-explicit-any
   onAddNewTag?: (v: any) => void;
+
+  /**
+   * Color variant of the add new tag button
+   *
+   * @default 'major'
+   * @type {?TColor}
+   */
+  withColor?: TColor;
+
+  /**
+   * The size of the add new tag button
+   *
+   * default 'md'
+   * @type {?TSize}
+   */
+  withSize?: TSize;
 }

@@ -1,6 +1,10 @@
 import { css, hsla } from '@tidy-ui/theme';
 import { ITagProps } from './types';
 
+/**
+ * Tag size variants
+ *
+ */
 export const sizeStyles = {
   lg: {
     addNewIconSize: '2rem',
@@ -31,17 +35,25 @@ export const sizeStyles = {
   },
 };
 
+/**
+ * Filled Tag style
+ *
+ */
 export const filledContent = css<ITagProps>`
-  ${({ theme: { palette }, color }) => css`
-    background-color: ${palette[color!][500]};
-    color: ${palette[color!][50]};
+  ${({ theme: { palette }, withColor }) => css`
+    background-color: ${palette[withColor!][500]};
+    color: ${palette[withColor!][50]};
   `}
 `;
 
+/**
+ * Outlined Tag style
+ *
+ */
 export const outlinedContent = css<ITagProps>`
-  ${({ theme: { palette, isDark }, color }) => css`
-    color: ${isDark ? palette[color!][400] : palette[color!][600]};
-    background-color: ${isDark ? hsla(palette[color!].shades[900], 0.3) : palette[color!][100]};
-    border: 1px solid ${isDark ? palette[color!][600] : palette[color!][300]};
+  ${({ theme: { palette, isDark }, withColor }) => css`
+    color: ${isDark ? palette[withColor!][400] : palette[withColor!][600]};
+    background-color: ${isDark ? hsla(palette[withColor!].shades[900], 0.3) : palette[withColor!][100]};
+    border: 1px solid ${isDark ? palette[withColor!][600] : palette[withColor!][300]};
   `}
 `;
