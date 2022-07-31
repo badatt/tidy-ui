@@ -6,7 +6,7 @@ import { orchidLight } from '@tidy-ui/theme';
 import { Text } from '../src';
 
 describe('Text', () => {
-  test('Default render', () => {
+  it('Default render', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -16,7 +16,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('H1 element', () => {
+  it('H1 element', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -26,7 +26,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('H2 element', () => {
+  it('H2 element', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -36,7 +36,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('H3 element', () => {
+  it('H3 element', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -46,7 +46,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('H4 element', () => {
+  it('H4 element', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -56,7 +56,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('H5 element', () => {
+  it('H5 element', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -66,7 +66,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('H6 element', () => {
+  it('H6 element', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -76,7 +76,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('title1 element', () => {
+  it('title1 element', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -86,7 +86,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('subtitle1 element', () => {
+  it('subtitle1 element', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -96,7 +96,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('title2 element', () => {
+  it('title2 element', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -106,7 +106,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('subtitle2 element', () => {
+  it('subtitle2 element', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -116,7 +116,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('body1 element', () => {
+  it('body1 element', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -126,7 +126,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('body2 element', () => {
+  it('body2 element', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -136,7 +136,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('p element', () => {
+  it('p element', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -146,7 +146,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('span element', () => {
+  it('span element', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -156,7 +156,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('caption element', () => {
+  it('caption element', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -166,7 +166,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('code element', () => {
+  it('code element', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -176,7 +176,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('hero element', () => {
+  it('hero element', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -186,7 +186,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('major color', () => {
+  it('major color', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -201,7 +201,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('minor color', () => {
+  it('minor color', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -216,7 +216,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('info color', () => {
+  it('info color', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -231,7 +231,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('neutral color', () => {
+  it('neutral color', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -246,7 +246,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('success color', () => {
+  it('success color', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -261,7 +261,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('warning color', () => {
+  it('warning color', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -276,7 +276,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('danger color', () => {
+  it('danger color', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -291,7 +291,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('bold transform', () => {
+  it('bold transform', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -301,7 +301,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('underlined transform', () => {
+  it('underlined transform', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -311,7 +311,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('italicized transform', () => {
+  it('italicized transform', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -321,7 +321,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('uppercase transform', () => {
+  it('uppercase transform', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -331,7 +331,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('lowercase transform', () => {
+  it('lowercase transform', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -341,7 +341,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('capitalized transform', () => {
+  it('capitalized transform', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -351,7 +351,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('disabled transform', () => {
+  it('disabled transform', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -361,7 +361,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('stretched transform', () => {
+  it('stretched transform', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -371,7 +371,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('centered transform', () => {
+  it('centered transform', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -381,7 +381,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('truncated transform', () => {
+  it('truncated transform', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>

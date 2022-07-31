@@ -1,22 +1,6 @@
 import React, { forwardRef, useEffect, useState } from 'react';
-import { css, styled } from '@tidy-ui/theme';
-import { dotBadge, standardBadge } from './styles';
+import { BadgeRoot } from './components';
 import { IBadgeProps } from './types';
-
-const getBadge = (isDotted?: boolean) => (isDotted ? dotBadge : standardBadge);
-
-/**
- * Internal root component with styles
- *
- */
-const BadgeRoot = styled.span<IBadgeProps>`
-  ${({ isInvisible, isDotted }) => css`
-    display: flex;
-    position: relative;
-    width: fit-content;
-    ${isInvisible ? null : getBadge(isDotted)}
-  `}
-`;
 
 /**
  * Badge component that can display a data value or a dot on top right corner of

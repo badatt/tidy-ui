@@ -1,49 +1,100 @@
 <style type="text/css">
+  /* reset.css */
   @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-  /* @import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css'); */
-
-  *,
-  *:before,
-  *:after {
-    box-sizing: border-box;
-    font-family: 'PT Sans', 'Helvetica Neue', Arial, 'PingFang SC', 'microsoft yahei', 'hiragino sans gb',
-      '游ゴシック Medium', 'Yu Gothic Medium', YuGothicM, 游ゴシック体, YuGothic, 'ヒラギノ角ゴ Pro',
-      'Hiragino Kaku Gothic Pro', 'Meiryo UI', メイリオ, Meiryom, 'PT Sans', 'Apple SD Gothic Neo', 'Malgun Gothic',
-      Dotum, 'Noto Sans CJK KR', sans-serif;
+  @layer reset {
+    *,
+    *:before,
+    *:after {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+    }
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section {
+      display: block;
+    }
+    body {
+      line-height: 1;
+    }
+    ol,
+    ul {
+      list-style: none;
+    }
+    blockquote,
+    q {
+      quotes: none;
+    }
+    blockquote:before,
+    blockquote:after,
+    q:before,
+    q:after {
+      content: '';
+      content: none;
+    }
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
   }
 
-  html {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-size: 16px;
+  @layer storybook {
+    *,
+    *:before,
+    *:after {
+      box-sizing: border-box;
+    }
+
+    html {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-size: 16px;
+    }
+
+    body {
+      min-height: 100vh;
+      height: 100%;
+      font-size: 0.875rem;
+      letter-spacing: 0.025rem;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+      font-family: 'PT Sans', 'Helvetica Neue', Arial, 'PingFang SC', 'microsoft yahei', 'hiragino sans gb',
+        '游ゴシック Medium', 'Yu Gothic Medium', YuGothicM, 游ゴシック体, YuGothic, 'ヒラギノ角ゴ Pro',
+        'Hiragino Kaku Gothic Pro', 'Meiryo UI', メイリオ, Meiryom, 'PT Sans', 'Apple SD Gothic Neo', 'Malgun Gothic',
+        Dotum, 'Noto Sans CJK KR', sans-serif;
+    }
+
+    img {
+      height: auto;
+      max-width: 100%;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    button {
+      appearance: none;
+      background-color: transparent;
+      cursor: pointer;
+      display: inline-block;
+      line-height: 1;
+    }
   }
 
-  body {
-    min-height: 100vh;
-    height: 100%;
-    font-size: 0.875rem;
-    letter-spacing: 0.025rem;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-  }
-
-  img {
-    height: auto;
-    max-width: 100%;
-  }
-
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
-
-  button {
-    appearance: none;
-    background-color: transparent;
-    cursor: pointer;
-    display: inline-block;
-    line-height: 1;
-  }
+  @layer reset, storybook;
 </style>

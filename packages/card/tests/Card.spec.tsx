@@ -10,7 +10,7 @@ import { orchidDark, orchidLight } from '@tidy-ui/theme';
 import { Card, CardBody, CardFooter, CardHeader } from '../src';
 
 describe('Card', () => {
-  test('Basic render', () => {
+  it('Basic render', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Card>
@@ -32,7 +32,7 @@ describe('Card', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-  test('Basic render in dark mode', () => {
+  it('Basic render in dark mode', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
         <Card withHref="https://google.com">
@@ -54,7 +54,7 @@ describe('Card', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-  test('Card with sharp corners', () => {
+  it('Card with sharp corners', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Card isSharp>
@@ -76,7 +76,7 @@ describe('Card', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-  test('card with link', () => {
+  it('card with link', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Card withHref="https://google.com">
@@ -98,7 +98,7 @@ describe('Card', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-  test('Card with accent variants', () => {
+  it('Card with accent variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Card withAccent="major">
@@ -169,7 +169,7 @@ describe('Card', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  test('Card divided', () => {
+  it('Card divided', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Card>
