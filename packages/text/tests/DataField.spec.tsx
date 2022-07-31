@@ -7,7 +7,7 @@ import { orchidLight } from '@tidy-ui/theme';
 import { DataField } from '../src';
 
 describe('Text', () => {
-  test('Default render', () => {
+  it('Default render', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -17,7 +17,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('major accent value', () => {
+  it('major accent value', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -27,7 +27,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('minor accent value', () => {
+  it('minor accent value', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -37,7 +37,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('success accent value', () => {
+  it('success accent value', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -47,7 +47,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('info accent value', () => {
+  it('info accent value', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -57,7 +57,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('warning accent value', () => {
+  it('warning accent value', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -67,7 +67,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('danger accent value', () => {
+  it('danger accent value', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -77,7 +77,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('neutral accent value', () => {
+  it('neutral accent value', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -87,7 +87,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('major color value', () => {
+  it('major color value', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -97,7 +97,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('minor color value', () => {
+  it('minor color value', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -107,7 +107,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('success color value', () => {
+  it('success color value', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -117,7 +117,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('info color value', () => {
+  it('info color value', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -127,7 +127,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('warning color value', () => {
+  it('warning color value', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -137,7 +137,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('danger color value', () => {
+  it('danger color value', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -147,7 +147,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('default(neutral) color', () => {
+  it('default(neutral) color', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -157,7 +157,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('settings icon value', () => {
+  it('settings icon value', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -167,7 +167,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('major accent value with icon', () => {
+  it('major accent value with icon', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -177,7 +177,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('success color accent and value with icon', () => {
+  it('success color accent and value with icon', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -193,7 +193,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('bold value', () => {
+  it('bold value', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -203,7 +203,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('underlined value', () => {
+  it('underlined value', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -213,7 +213,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('italicized value', () => {
+  it('italicized value', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -223,7 +223,7 @@ describe('Text', () => {
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
-  test('disable value', () => {
+  it('disable value', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>

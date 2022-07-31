@@ -10,7 +10,7 @@ import { orchidDark, orchidLight } from '@tidy-ui/theme';
 import { useTheme } from '../../src';
 
 describe('useTheme', () => {
-  test('Should return light theme props', () => {
+  it('Should return light theme props', () => {
     const TestComponent = () => {
       const theme = useTheme();
       return (
@@ -29,7 +29,7 @@ describe('useTheme', () => {
     expect(container.querySelector('#name-val')?.textContent).toEqual('Orchid Light');
   });
 
-  test('Should return dark theme props', () => {
+  it('Should return dark theme props', () => {
     const TestComponent = () => {
       const theme = useTheme();
       return (

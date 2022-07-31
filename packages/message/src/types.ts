@@ -1,52 +1,76 @@
-import { HTMLAttributes, ReactNode } from 'react';
+import { HTMLAttributes } from 'react';
 import { TColor } from '@tidy-ui/types';
 
 export interface IMessageProps extends HTMLAttributes<HTMLDivElement> {
-  /** Creates a closable message widget with a close button at top right corner
+  /**
+   * It `true`, creates a closable message widget with a close button at top right corner
+   *
    * @default false
-   * */
-  closable?: boolean;
+   * @type {?boolean}
+   */
+  isClosable?: boolean;
 
-  /** Color variant of the message, typically used to classify the
-   * information based on its level
-   * @default 'info'
-   * */
-  color?: TColor;
-
-  /** Delay timer to remove the message widget.
-   *  When set to 0, the message is not removed automatically
-   * (in milliseconds)
-   * @default 0
-   * */
-  duration?: number;
-
-  /** Title of the message widget
-   * @default ''
-   * */
-  header?: ReactNode;
-
-  /** Whether to show label for the widget.
-   * Label includes the message classification
+  /**
+   * If `true`, creates outlined message widget, won't fill
+   *
    * @default false
-   * */
-  noLabel?: boolean;
+   * @type {?boolean}
+   */
+  isOutlined?: boolean;
 
-  /** Callback (if any) after the message widget is closed */
+  /** If `true`, creates sharp corners for the message widget
+   *
+   * @default false
+   * @type {?boolean}
+   * */
+  isSharp?: boolean;
+
+  /** If `true`, stretches the message widget to full width of the parent container
+   *
+   * @default false
+   * @type {?boolean}
+   * */
+  isStretched?: boolean;
+
+  /**
+   * Callback (if any) after the message widget is closed
+   *
+   * @type {?((e?: any | undefined) => void)}
+   */
   // eslint-disable-next-line  @typescript-eslint/no-explicit-any
   onClose?: (e?: any | undefined) => void;
 
-  /** Creates outlined message widget, won't fill
-   * @default false
-   * */
-  outlined?: boolean;
+  /**
+   * Color variant of the message, typically used to classify the
+   * information based on its level
+   *
+   * @type {?TColor}
+   */
+  withColor?: TColor;
 
-  /** Creates sharp corners for the message widget
-   * @default true
-   * */
-  sharp?: boolean;
+  /**
+   * Delay timer to remove the message widget.
+   *  When set to 0, the message is not removed automatically
+   * (in milliseconds)
+   *
+   * @default 0
+   * @type {?number}
+   */
+  withDuration?: number;
 
-  /** Stretches the message widget to full width of the parent container
+  /**
+   * Title of the message widget
+   *
+   * @default undefined
+   * @type {?JSX.Element}
+   */
+  withHeader?: JSX.Element;
+
+  /**
+   * If `true`, label wont be added to the message widget
+   *
    * @default false
-   * */
-  stretch?: boolean;
+   * @type {?boolean}
+   */
+  withoutLabel?: boolean;
 }

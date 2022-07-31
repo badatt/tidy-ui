@@ -11,7 +11,7 @@ import { orchidDark, orchidLight } from '@tidy-ui/theme';
 import { Tag, TagGroup } from '../src';
 
 describe('Tag', () => {
-  test('Basic render', () => {
+  it('Basic render', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Tag>html</Tag>
@@ -20,7 +20,7 @@ describe('Tag', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  test('Closable tag', () => {
+  it('Closable tag', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Tag onClose={jest.fn()}>html</Tag>
@@ -29,7 +29,7 @@ describe('Tag', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  test('Outlined tag', () => {
+  it('Outlined tag', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Tag outlined>html</Tag>
@@ -38,7 +38,7 @@ describe('Tag', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  test('Outlined tag in dark mode', () => {
+  it('Outlined tag in dark mode', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
         <Tag outlined>html</Tag>
@@ -47,7 +47,7 @@ describe('Tag', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  test('Disabled tag', () => {
+  it('Disabled tag', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Tag disable>html</Tag>
@@ -56,7 +56,7 @@ describe('Tag', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  test('Tag with icon', () => {
+  it('Tag with icon', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Tag icon={<CheckCircleIcon />}>html</Tag>
@@ -65,7 +65,7 @@ describe('Tag', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  test('Tags with all color variants', () => {
+  it('Tags with all color variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Tag color="major">html</Tag>
@@ -80,7 +80,7 @@ describe('Tag', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  test('Tags with all magnitude variants', () => {
+  it('Tags with all magnitude variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Tag magnitude="sm">html</Tag>
@@ -91,7 +91,7 @@ describe('Tag', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  test('Grouped tags with TagGroup', () => {
+  it('Grouped tags with TagGroup', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <TagGroup>
@@ -108,7 +108,7 @@ describe('Tag', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  test('TagGroup mutating by bluing the input', () => {
+  it('TagGroup mutating by bluing the input', () => {
     const tags = ['react', 'java', 'cloud', 'scss'];
     const mockOnAddNewTag = jest.fn();
     const mockOnCloseTag = jest.fn();
@@ -134,7 +134,7 @@ describe('Tag', () => {
     expect(mockOnAddNewTag).toHaveBeenCalledTimes(1);
   });
 
-  test('TagGroup mutating by clicking enter', () => {
+  it('TagGroup mutating by clicking enter', () => {
     const tags = ['react', 'java', 'cloud', 'scss'];
     const mockOnAddNewTag = jest.fn();
     const mockOnCloseTag = jest.fn();
@@ -163,7 +163,7 @@ describe('Tag', () => {
     expect(mockOnAddNewTag).toHaveBeenCalledTimes(1);
   });
 
-  test('TagGroup mutating without any addNewTag function param', () => {
+  it('TagGroup mutating without any addNewTag function param', () => {
     const tags = ['react', 'java', 'cloud', 'scss'];
     const tree = render(
       <ThemeProvider theme={orchidDark}>

@@ -10,7 +10,7 @@ import { orchidLight } from '@tidy-ui/theme';
 import { useWindow } from '../../src';
 
 describe('useTheme', () => {
-  test('Should return window', () => {
+  it('Should return window', () => {
     const TestComponent = () => {
       const win = useWindow();
       return (

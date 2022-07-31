@@ -6,7 +6,7 @@ import { orchidLight } from '@tidy-ui/theme';
 import { Paper } from '../src';
 
 describe('Paper', () => {
-  test('Default render', () => {
+  it('Default render', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
@@ -23,7 +23,7 @@ describe('Paper', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  test('Rounded paper', () => {
+  it('Rounded paper', () => {
     const tree = renderer
       .create(
         <ThemeProvider theme={orchidLight}>
