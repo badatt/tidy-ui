@@ -139,3 +139,26 @@ export const linked = () => (
     </Column>
   </Container>
 );
+
+export const divided = () => (
+  <Container>
+    <Column>
+      <Card>
+        <CardHeader isDivided>Lorem ipsum dolor sit.</CardHeader>
+        <CardBody>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptatibus dolorum! Quas, natus! Est, neque
+          deserunt consequatur voluptatum dolores quae! Error explicabo omnis odio molestias.
+        </CardBody>
+        <CardFooter isDivided>Lorem ipsum dolor sit amet consectetur.</CardFooter>
+      </Card>
+      <Card isSharp>
+        <CardHeader isDivided>Lorem ipsum dolor sit.</CardHeader>
+        <CardBody>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptatibus dolorum! Quas, natus! Est, neque
+          deserunt consequatur voluptatum dolores quae! Error explicabo omnis odio molestias.
+        </CardBody>
+        <CardFooter isDivided>Lorem ipsum dolor sit amet consectetur.</CardFooter>
+      </Card>
+    </Column>
+  </Container>
+);
