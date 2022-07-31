@@ -28,7 +28,6 @@ Object {
     <div>
       <div
         class="c0"
-        color="major"
         role="tag"
       >
         html
@@ -59,7 +58,6 @@ Object {
 <div>
     <div
       class="c0"
-      color="major"
       role="tag"
     >
       html
@@ -153,13 +151,11 @@ Object {
     <div>
       <div
         class="c0"
-        color="major"
         role="tag"
       >
         html
         <i
           class="c1"
-          color="major"
           role="close-tag-btn"
         >
           <svg
@@ -207,13 +203,11 @@ Object {
 <div>
     <div
       class="c0"
-      color="major"
       role="tag"
     >
       html
       <i
         class="c1"
-        color="major"
         role="close-tag-btn"
       >
         <svg
@@ -314,7 +308,6 @@ Object {
     <div>
       <div
         class="c0"
-        color="major"
         role="tag"
       >
         html
@@ -347,7 +340,6 @@ Object {
 <div>
     <div
       class="c0"
-      color="major"
       role="tag"
     >
       html
@@ -529,45 +521,38 @@ Object {
     <div>
       <div
         class="c0"
-        color="major"
         role="tag-group"
       >
         <div
           class="c1"
-          color="major"
           role="tag"
         >
           html
         </div>
         <div
           class="c2"
-          color="major"
           role="tag"
         >
           typescript
         </div>
         <div
           class="c3"
-          color="major"
           role="tag"
         >
           javascript
         </div>
         <div
           class="c4"
-          color="major"
           role="tag"
         >
           cloud
         </div>
         <div
           class="c2"
-          color="major"
           role="tag"
         >
           <i
             class="c5"
-            color="major"
           >
             <svg
               aria-hidden="true"
@@ -584,7 +569,6 @@ Object {
           kotlin
           <i
             class="c5"
-            color="major"
             role="close-tag-btn"
           >
             <svg
@@ -602,7 +586,6 @@ Object {
         </div>
         <i
           class="c6"
-          color="major"
           role="add-new-btn"
         >
           <svg
@@ -738,45 +721,38 @@ Object {
 <div>
     <div
       class="c0"
-      color="major"
       role="tag-group"
     >
       <div
         class="c1"
-        color="major"
         role="tag"
       >
         html
       </div>
       <div
         class="c2"
-        color="major"
         role="tag"
       >
         typescript
       </div>
       <div
         class="c3"
-        color="major"
         role="tag"
       >
         javascript
       </div>
       <div
         class="c4"
-        color="major"
         role="tag"
       >
         cloud
       </div>
       <div
         class="c2"
-        color="major"
         role="tag"
       >
         <i
           class="c5"
-          color="major"
         >
           <svg
             aria-hidden="true"
@@ -793,7 +769,6 @@ Object {
         kotlin
         <i
           class="c5"
-          color="major"
           role="close-tag-btn"
         >
           <svg
@@ -811,7 +786,6 @@ Object {
       </div>
       <i
         class="c6"
-        color="major"
         role="add-new-btn"
       >
         <svg
@@ -911,7 +885,6 @@ Object {
     <div>
       <div
         class="c0"
-        color="major"
         role="tag"
       >
         html
@@ -943,7 +916,6 @@ Object {
 <div>
     <div
       class="c0"
-      color="major"
       role="tag"
     >
       html
@@ -1032,7 +1004,6 @@ Object {
     <div>
       <div
         class="c0"
-        color="major"
         role="tag"
       >
         html
@@ -1064,7 +1035,6 @@ Object {
 <div>
     <div
       class="c0"
-      color="major"
       role="tag"
     >
       html
@@ -1158,12 +1128,10 @@ Object {
     <div>
       <div
         class="c0"
-        color="major"
         role="tag"
       >
         <i
           class="c1"
-          color="major"
         >
           <svg
             aria-hidden="true"
@@ -1211,12 +1179,10 @@ Object {
 <div>
     <div
       class="c0"
-      color="major"
       role="tag"
     >
       <i
         class="c1"
-        color="major"
       >
         <svg
           aria-hidden="true"
@@ -1344,18 +1310,15 @@ Object {
     <div>
       <div
         class="c0"
-        color="major"
         role="tag-group"
       >
         <div
           class="c1"
-          color="major"
           role="tag"
         >
           react
           <i
             class="c2"
-            color="major"
             role="close-tag-btn"
           >
             <svg
@@ -1373,13 +1336,11 @@ Object {
         </div>
         <div
           class="c1"
-          color="major"
           role="tag"
         >
           java
           <i
             class="c2"
-            color="major"
             role="close-tag-btn"
           >
             <svg
@@ -1397,13 +1358,11 @@ Object {
         </div>
         <div
           class="c1"
-          color="major"
           role="tag"
         >
           cloud
           <i
             class="c2"
-            color="major"
             role="close-tag-btn"
           >
             <svg
@@ -1421,13 +1380,11 @@ Object {
         </div>
         <div
           class="c1"
-          color="major"
           role="tag"
         >
           scss
           <i
             class="c2"
-            color="major"
             role="close-tag-btn"
           >
             <svg
@@ -1445,7 +1402,6 @@ Object {
         </div>
         <i
           class="c3"
-          color="major"
           role="add-new-btn"
         >
           <svg
@@ -1516,18 +1472,15 @@ Object {
 <div>
     <div
       class="c0"
-      color="major"
       role="tag-group"
     >
       <div
         class="c1"
-        color="major"
         role="tag"
       >
         react
         <i
           class="c2"
-          color="major"
           role="close-tag-btn"
         >
           <svg
@@ -1545,13 +1498,11 @@ Object {
       </div>
       <div
         class="c1"
-        color="major"
         role="tag"
       >
         java
         <i
           class="c2"
-          color="major"
           role="close-tag-btn"
         >
           <svg
@@ -1569,13 +1520,11 @@ Object {
       </div>
       <div
         class="c1"
-        color="major"
         role="tag"
       >
         cloud
         <i
           class="c2"
-          color="major"
           role="close-tag-btn"
         >
           <svg
@@ -1593,13 +1542,11 @@ Object {
       </div>
       <div
         class="c1"
-        color="major"
         role="tag"
       >
         scss
         <i
           class="c2"
-          color="major"
           role="close-tag-btn"
         >
           <svg
@@ -1617,7 +1564,6 @@ Object {
       </div>
       <i
         class="c3"
-        color="major"
         role="add-new-btn"
       >
         <svg
@@ -1745,18 +1691,15 @@ Object {
     <div>
       <div
         class="c0"
-        color="major"
         role="tag-group"
       >
         <div
           class="c1"
-          color="major"
           role="tag"
         >
           react
           <i
             class="c2"
-            color="major"
             role="close-tag-btn"
           >
             <svg
@@ -1774,13 +1717,11 @@ Object {
         </div>
         <div
           class="c1"
-          color="major"
           role="tag"
         >
           java
           <i
             class="c2"
-            color="major"
             role="close-tag-btn"
           >
             <svg
@@ -1798,13 +1739,11 @@ Object {
         </div>
         <div
           class="c1"
-          color="major"
           role="tag"
         >
           cloud
           <i
             class="c2"
-            color="major"
             role="close-tag-btn"
           >
             <svg
@@ -1822,13 +1761,11 @@ Object {
         </div>
         <div
           class="c1"
-          color="major"
           role="tag"
         >
           scss
           <i
             class="c2"
-            color="major"
             role="close-tag-btn"
           >
             <svg
@@ -1846,7 +1783,6 @@ Object {
         </div>
         <i
           class="c3"
-          color="major"
           role="add-new-btn"
         >
           <svg
@@ -1917,18 +1853,15 @@ Object {
 <div>
     <div
       class="c0"
-      color="major"
       role="tag-group"
     >
       <div
         class="c1"
-        color="major"
         role="tag"
       >
         react
         <i
           class="c2"
-          color="major"
           role="close-tag-btn"
         >
           <svg
@@ -1946,13 +1879,11 @@ Object {
       </div>
       <div
         class="c1"
-        color="major"
         role="tag"
       >
         java
         <i
           class="c2"
-          color="major"
           role="close-tag-btn"
         >
           <svg
@@ -1970,13 +1901,11 @@ Object {
       </div>
       <div
         class="c1"
-        color="major"
         role="tag"
       >
         cloud
         <i
           class="c2"
-          color="major"
           role="close-tag-btn"
         >
           <svg
@@ -1994,13 +1923,11 @@ Object {
       </div>
       <div
         class="c1"
-        color="major"
         role="tag"
       >
         scss
         <i
           class="c2"
-          color="major"
           role="close-tag-btn"
         >
           <svg
@@ -2018,7 +1945,6 @@ Object {
       </div>
       <i
         class="c3"
-        color="major"
         role="add-new-btn"
       >
         <svg
@@ -2146,18 +2072,15 @@ Object {
     <div>
       <div
         class="c0"
-        color="major"
         role="tag-group"
       >
         <div
           class="c1"
-          color="major"
           role="tag"
         >
           react
           <i
             class="c2"
-            color="major"
             role="close-tag-btn"
           >
             <svg
@@ -2175,13 +2098,11 @@ Object {
         </div>
         <div
           class="c1"
-          color="major"
           role="tag"
         >
           java
           <i
             class="c2"
-            color="major"
             role="close-tag-btn"
           >
             <svg
@@ -2199,13 +2120,11 @@ Object {
         </div>
         <div
           class="c1"
-          color="major"
           role="tag"
         >
           cloud
           <i
             class="c2"
-            color="major"
             role="close-tag-btn"
           >
             <svg
@@ -2223,13 +2142,11 @@ Object {
         </div>
         <div
           class="c1"
-          color="major"
           role="tag"
         >
           scss
           <i
             class="c2"
-            color="major"
             role="close-tag-btn"
           >
             <svg
@@ -2247,7 +2164,6 @@ Object {
         </div>
         <i
           class="c3"
-          color="major"
           role="add-new-btn"
         >
           <svg
@@ -2318,18 +2234,15 @@ Object {
 <div>
     <div
       class="c0"
-      color="major"
       role="tag-group"
     >
       <div
         class="c1"
-        color="major"
         role="tag"
       >
         react
         <i
           class="c2"
-          color="major"
           role="close-tag-btn"
         >
           <svg
@@ -2347,13 +2260,11 @@ Object {
       </div>
       <div
         class="c1"
-        color="major"
         role="tag"
       >
         java
         <i
           class="c2"
-          color="major"
           role="close-tag-btn"
         >
           <svg
@@ -2371,13 +2282,11 @@ Object {
       </div>
       <div
         class="c1"
-        color="major"
         role="tag"
       >
         cloud
         <i
           class="c2"
-          color="major"
           role="close-tag-btn"
         >
           <svg
@@ -2395,13 +2304,11 @@ Object {
       </div>
       <div
         class="c1"
-        color="major"
         role="tag"
       >
         scss
         <i
           class="c2"
-          color="major"
           role="close-tag-btn"
         >
           <svg
@@ -2419,7 +2326,6 @@ Object {
       </div>
       <i
         class="c3"
-        color="major"
         role="add-new-btn"
       >
         <svg
@@ -2644,49 +2550,42 @@ Object {
     <div>
       <div
         class="c0"
-        color="major"
         role="tag"
       >
         html
       </div>
       <div
         class="c1"
-        color="minor"
         role="tag"
       >
         typescript
       </div>
       <div
         class="c2"
-        color="neutral"
         role="tag"
       >
         cloud
       </div>
       <div
         class="c3"
-        color="success"
         role="tag"
       >
         javascript
       </div>
       <div
         class="c4"
-        color="info"
         role="tag"
       >
         java
       </div>
       <div
         class="c5"
-        color="warning"
         role="tag"
       >
         sass
       </div>
       <div
         class="c6"
-        color="danger"
         role="tag"
       >
         css
@@ -2843,49 +2742,42 @@ Object {
 <div>
     <div
       class="c0"
-      color="major"
       role="tag"
     >
       html
     </div>
     <div
       class="c1"
-      color="minor"
       role="tag"
     >
       typescript
     </div>
     <div
       class="c2"
-      color="neutral"
       role="tag"
     >
       cloud
     </div>
     <div
       class="c3"
-      color="success"
       role="tag"
     >
       javascript
     </div>
     <div
       class="c4"
-      color="info"
       role="tag"
     >
       java
     </div>
     <div
       class="c5"
-      color="warning"
       role="tag"
     >
       sass
     </div>
     <div
       class="c6"
-      color="danger"
       role="tag"
     >
       css
@@ -3015,21 +2907,18 @@ Object {
     <div>
       <div
         class="c0"
-        color="major"
         role="tag"
       >
         html
       </div>
       <div
         class="c1"
-        color="major"
         role="tag"
       >
         typescript
       </div>
       <div
         class="c2"
-        color="major"
         role="tag"
       >
         javascript
@@ -3102,21 +2991,18 @@ Object {
 <div>
     <div
       class="c0"
-      color="major"
       role="tag"
     >
       html
     </div>
     <div
       class="c1"
-      color="major"
       role="tag"
     >
       typescript
     </div>
     <div
       class="c2"
-      color="major"
       role="tag"
     >
       javascript

@@ -1,48 +1,12 @@
 import React, { forwardRef, useState } from 'react';
 import { AddCircleIcon } from '@tidy-ui/commons';
-import { css, hsla, styled } from '@tidy-ui/theme';
-import { sizeStyles } from './style';
+import { AddNewTagIcon, NewTagInput, TagGroupRoot } from './components';
 import { ITagGroupProps } from './types';
 
-const TagGroupRoot = styled.div<ITagGroupProps>`
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 0.5rem;
-`;
-
-const AddNewTagIcon = styled.i<ITagGroupProps>`
-  ${({ theme: { isDark, palette }, magnitude, color }) => css`
-    cursor: pointer;
-    height: ${sizeStyles[magnitude!].addNewIconSize};
-    width: ${sizeStyles[magnitude!].addNewIconSize};
-    color: ${isDark ? palette[color!][400] : palette[color!][600]};
-  `}
-`;
-
-const NewTagInput = styled.input<ITagGroupProps>`
-  ${({ theme: { isDark, palette }, color, magnitude }) => css`
-    width: ${sizeStyles[magnitude!].addNewTagInputWidth};
-    outline: none;
-    color: ${isDark ? palette[color!][400] : palette[color!][600]};
-    background-color: ${isDark ? hsla(palette[color!].shades[900], 0.1) : palette[color!][50]};
-    border: 1px solid ${palette[color!][400]};
-    transition: border-color 0.3s ease-in-out;
-    padding: ${sizeStyles[magnitude!].padding};
-    border-radius: ${sizeStyles[magnitude!].borderRadius};
-    font-size: ${sizeStyles[magnitude!].fontSize};
-    line-height: ${sizeStyles[magnitude!].lineHeight};
-    &:focus {
-      border: 0;
-      outline: 2px solid ${palette[color!][500]};
-    }
-    &:hover {
-      border: 0;
-      outline: 2px solid ${palette[color!][500]};
-    }
-  `}
-`;
-
+/**
+ * TagGroup is used to group Tag components, appendable TagGroup can mutate contained Tags
+ *
+ */
 const TagGroup = forwardRef<HTMLDivElement, ITagGroupProps>((props, ref) => {
   const { children, onAddNewTag, ...rest } = props;
 
@@ -97,8 +61,8 @@ const TagGroup = forwardRef<HTMLDivElement, ITagGroupProps>((props, ref) => {
 });
 
 TagGroup.defaultProps = {
-  color: 'major',
-  magnitude: 'md',
+  withColor: 'major',
+  withSize: 'md',
 };
 
 export { TagGroup };
