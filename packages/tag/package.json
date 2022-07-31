@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/tag",
-  "version": "0.2.4",
+  "version": "0.2.9",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:tag",
     "clean": "tsc --build --clean && rimraf -rf dist && rimraf -rf build",
