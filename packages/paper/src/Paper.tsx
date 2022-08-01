@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import { PaperRoot } from './components';
 import { IPaperProps } from './types';
 
@@ -7,7 +7,7 @@ import { IPaperProps } from './types';
  * powered by various styles (with theming) and settings
  *
  */
-const Paper = React.forwardRef<HTMLDivElement, IPaperProps>((props, ref) => {
+const Paper = forwardRef<HTMLDivElement, IPaperProps>((props, ref) => {
   const { className, children, ...rest } = props;
   return (
     <PaperRoot ref={ref} {...rest} className={className}>

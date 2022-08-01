@@ -1,13 +1,13 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import { css, styled } from '@tidy-ui/theme';
 import { IDataFieldProps } from './types';
 
-const DL = styled.dl<IDataFieldProps>`
+const DL = styled.div<IDataFieldProps>`
   margin-bottom: 1rem;
 `;
 
 const DD = styled.dd<IDataFieldProps>`
-  ${({ theme: { palette, typography }, accent, icon }) => css`
+  ${({ theme: { palette, typography }, acc, ico }) => css`
     display: flex;
     justify-content: start;
     align-items: center;
@@ -17,57 +17,57 @@ const DD = styled.dd<IDataFieldProps>`
     text-transform: uppercase;
     color: ${palette.text.secondary};
     letter-spacing: 0.05em;
-    ${!icon &&
+    ${!ico &&
     css`
       &::before {
         content: '';
         height: 0.625rem;
         width: 2px;
         margin-right: 0.25rem;
-        background-color: ${palette[accent!][600]};
+        background-color: ${palette[acc!][600]};
       }
     `}
   `}
 `;
 
 const DT = styled.dt<IDataFieldProps>`
-  ${({ theme: { palette, typography }, color, b, u, i, disable, icon }) => css`
-    ${!disable &&
-    !color &&
+  ${({ theme: { palette, typography }, clr, bld, udl, itl, dsb, ico }) => css`
+    ${!dsb &&
+    !clr &&
     css`
       color: ${palette.text.primary};
     `}
-    ${!icon &&
+    ${!ico &&
     css`
       margin-left: 0.125rem;
     `}
     font-size: 0.875rem;
-    ${!b &&
+    ${!bld &&
     css`
       font-weight: ${typography.fontWeightMedium};
     `}
-    ${!disable &&
-    color &&
+    ${!dsb &&
+    clr &&
     css`
-      color: ${palette[color][600]};
+      color: ${palette[clr][600]};
     `}
-    ${b &&
+    ${bld &&
     css`
       font-weight: ${typography.fontWeightBold};
     `}
-    ${u &&
+    ${udl &&
     css`
       text-decoration: underline;
     `}
-    ${i &&
+    ${itl &&
     css`
       font-style: italic;
     `}
-    ${disable &&
+    ${dsb &&
     css`
       color: ${palette.text.disabled};
     `}
-    ${icon &&
+    ${ico &&
     css`
       margin-left: 0.875rem;
     `}
@@ -75,34 +75,38 @@ const DT = styled.dt<IDataFieldProps>`
 `;
 
 const Icon = styled.i<IDataFieldProps>`
-  ${({ theme: { palette }, accent }) => css`
+  ${({ theme: { palette }, acc }) => css`
     display: flex;
     justify-content: center;
     align-items: center;
     height: 0.625rem;
     width: 0.625rem;
     margin-right: 0.25rem;
-    color: ${palette[accent!][600]};
+    color: ${palette[acc!][600]};
   `}
 `;
 
-const DataField = (props: IDataFieldProps) => {
-  const { label, value, icon, ...rest } = props;
+const DataField = forwardRef<HTMLDivElement, IDataFieldProps>((props, ref) => {
+  const { lbl, val, ico, ...rest } = props;
   return (
-    <DL role="data-field">
-      <DD {...rest} icon={icon}>
-        {icon && <Icon {...props}>{icon}</Icon>}
-        {label}
+    <DL ref={ref} role="data-field">
+      <DD {...rest} ico={ico}>
+        {ico && <Icon {...props}>{ico}</Icon>}
+        {lbl}
       </DD>
-      <DT {...rest} icon={icon}>
-        {value}
+      <DT {...rest} ico={ico}>
+        {val}
       </DT>
     </DL>
   );
-};
+});
 
 DataField.defaultProps = {
-  accent: 'major',
+  acc: 'major',
+  bld: false,
+  dsb: false,
+  itl: false,
+  udl: false,
 };
 
 export { DataField };

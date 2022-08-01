@@ -1,458 +1,2457 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Text Default render 1`] = `
-<dl
-  className=""
-  role="data-field"
->
-  <dd
-    className=""
-  />
-  <dt
-    className=""
-  />
-</dl>
-`;
+exports[`Text All accent variants 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  margin-bottom: 1rem;
+}
 
-exports[`Text bold value 1`] = `
-<dl
-  className=""
-  role="data-field"
->
-  <dd
-    className=""
-  >
-    neutral accent
-  </dd>
-  <dt
-    className=""
-  >
-    default(neutral) color
-  </dt>
-</dl>
-`;
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,100%,0.7);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
 
-exports[`Text danger accent value 1`] = `
-<dl
-  className=""
-  role="data-field"
->
-  <dd
-    className=""
-  >
-    danger accent
-  </dd>
-  <dt
-    className=""
-  >
-    danger accent value
-  </dt>
-</dl>
-`;
+.c1::before {
+  content: '';
+  height: 0.625rem;
+  width: 2px;
+  margin-right: 0.25rem;
+  background-color: hsla(271,81%,56%,1);
+}
 
-exports[`Text danger color value 1`] = `
-<dl
-  className=""
-  role="data-field"
->
-  <dd
-    className=""
-    color="danger"
-  >
-    danger accent
-  </dd>
-  <dt
-    className=""
-    color="danger"
-  >
-    danger color value
-  </dt>
-</dl>
-`;
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,100%,0.7);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
 
-exports[`Text default(neutral) color 1`] = `
-<dl
-  className=""
-  role="data-field"
->
-  <dd
-    className=""
-  >
-    neutral accent
-  </dd>
-  <dt
-    className=""
-  >
-    default(neutral) color
-  </dt>
-</dl>
-`;
+.c3::before {
+  content: '';
+  height: 0.625rem;
+  width: 2px;
+  margin-right: 0.25rem;
+  background-color: hsla(333,71%,51%,1);
+}
 
-exports[`Text disable value 1`] = `
-<dl
-  className=""
-  role="data-field"
->
-  <dd
-    className=""
-  >
-    neutral accent
-  </dd>
-  <dt
-    className=""
-  >
-    default(neutral) color
-  </dt>
-</dl>
-`;
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,100%,0.7);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
 
-exports[`Text info accent value 1`] = `
-<dl
-  className=""
-  role="data-field"
->
-  <dd
-    className=""
-  >
-    info accent
-  </dd>
-  <dt
-    className=""
-  >
-    info accent value
-  </dt>
-</dl>
-`;
+.c4::before {
+  content: '';
+  height: 0.625rem;
+  width: 2px;
+  margin-right: 0.25rem;
+  background-color: hsla(0,0%,32%,1);
+}
 
-exports[`Text info color value 1`] = `
-<dl
-  className=""
-  role="data-field"
->
-  <dd
-    className=""
-    color="info"
-  >
-    info accent
-  </dd>
-  <dt
-    className=""
-    color="info"
-  >
-    info color value
-  </dt>
-</dl>
-`;
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,100%,0.7);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
 
-exports[`Text italicized value 1`] = `
-<dl
-  className=""
-  role="data-field"
->
-  <dd
-    className=""
-  >
-    neutral accent
-  </dd>
-  <dt
-    className=""
-  >
-    default(neutral) color
-  </dt>
-</dl>
-`;
+.c5::before {
+  content: '';
+  height: 0.625rem;
+  width: 2px;
+  margin-right: 0.25rem;
+  background-color: hsla(221,83%,53%,1);
+}
 
-exports[`Text major accent value 1`] = `
-<dl
-  className=""
-  role="data-field"
->
-  <dd
-    className=""
-  >
-    major(default) accent
-  </dd>
-  <dt
-    className=""
-  >
-    major accent value
-  </dt>
-</dl>
-`;
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,100%,0.7);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
 
-exports[`Text major accent value with icon 1`] = `
-<dl
-  className=""
-  role="data-field"
->
-  <dd
-    className=""
-  >
-    <i
-      className=""
-      label="settings icon"
-      value="major accent value"
-    >
-      <svg
-        aria-hidden="true"
-        fill="currentColor"
-        focusable={false}
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+.c6::before {
+  content: '';
+  height: 0.625rem;
+  width: 2px;
+  margin-right: 0.25rem;
+  background-color: hsla(142,76%,36%,1);
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,100%,0.7);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
+
+.c7::before {
+  content: '';
+  height: 0.625rem;
+  width: 2px;
+  margin-right: 0.25rem;
+  background-color: hsla(32,95%,44%,1);
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,100%,0.7);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
+
+.c8::before {
+  content: '';
+  height: 0.625rem;
+  width: 2px;
+  margin-right: 0.25rem;
+  background-color: hsla(0,72%,51%,1);
+}
+
+.c2 {
+  color: hsla(210,40%,96%,1);
+  margin-left: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+        role="data-field"
       >
-        <path
-          d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
-        />
-      </svg>
-    </i>
-    settings icon
-  </dd>
-  <dt
-    className=""
-  >
-    major accent value
-  </dt>
-</dl>
-`;
-
-exports[`Text major color value 1`] = `
-<dl
-  className=""
-  role="data-field"
->
-  <dd
-    className=""
-    color="major"
-  >
-    major(default) accent
-  </dd>
-  <dt
-    className=""
-    color="major"
-  >
-    major color value
-  </dt>
-</dl>
-`;
-
-exports[`Text minor accent value 1`] = `
-<dl
-  className=""
-  role="data-field"
->
-  <dd
-    className=""
-  >
-    minor accent
-  </dd>
-  <dt
-    className=""
-  >
-    minor accent value
-  </dt>
-</dl>
-`;
-
-exports[`Text minor color value 1`] = `
-<dl
-  className=""
-  role="data-field"
->
-  <dd
-    className=""
-    color="minor"
-  >
-    minor accent
-  </dd>
-  <dt
-    className=""
-    color="minor"
-  >
-    minor color value
-  </dt>
-</dl>
-`;
-
-exports[`Text neutral accent value 1`] = `
-<dl
-  className=""
-  role="data-field"
->
-  <dd
-    className=""
-  >
-    neutral accent
-  </dd>
-  <dt
-    className=""
-  >
-    neutral accent value
-  </dt>
-</dl>
-`;
-
-exports[`Text settings icon value 1`] = `
-<dl
-  className=""
-  role="data-field"
->
-  <dd
-    className=""
-  >
-    <i
-      className=""
-      label="settings icon"
-      value="settings icon value"
-    >
-      <svg
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+        <dd
+          class="c1"
+        >
+          major
+        </dd>
+        <dt
+          class="c2"
+        >
+          major
+        </dt>
+      </div>
+      <div
+        class="c0"
+        role="data-field"
       >
-        <path
-          d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"
-        />
-      </svg>
-    </i>
-    settings icon
-  </dd>
-  <dt
-    className=""
-  >
-    settings icon value
-  </dt>
-</dl>
-`;
-
-exports[`Text success accent value 1`] = `
-<dl
-  className=""
-  role="data-field"
->
-  <dd
-    className=""
-  >
-    success accent
-  </dd>
-  <dt
-    className=""
-  >
-    success accent value
-  </dt>
-</dl>
-`;
-
-exports[`Text success color accent and value with icon 1`] = `
-<dl
-  className=""
-  role="data-field"
->
-  <dd
-    className=""
-    color="success"
-  >
-    <i
-      className=""
-      color="success"
-      label="success icon"
-      value="success color value"
-    >
-      <svg
-        aria-hidden="true"
-        fill="currentColor"
-        focusable={false}
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+        <dd
+          class="c3"
+        >
+          minor
+        </dd>
+        <dt
+          class="c2"
+        >
+          minor
+        </dt>
+      </div>
+      <div
+        class="c0"
+        role="data-field"
       >
-        <path
-          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
-        />
-      </svg>
-    </i>
-    success icon
-  </dd>
-  <dt
-    className=""
-    color="success"
-  >
-    success color value
-  </dt>
-</dl>
+        <dd
+          class="c4"
+        >
+          neutral
+        </dd>
+        <dt
+          class="c2"
+        >
+          neutral
+        </dt>
+      </div>
+      <div
+        class="c0"
+        role="data-field"
+      >
+        <dd
+          class="c5"
+        >
+          info
+        </dd>
+        <dt
+          class="c2"
+        >
+          info
+        </dt>
+      </div>
+      <div
+        class="c0"
+        role="data-field"
+      >
+        <dd
+          class="c6"
+        >
+          success
+        </dd>
+        <dt
+          class="c2"
+        >
+          success
+        </dt>
+      </div>
+      <div
+        class="c0"
+        role="data-field"
+      >
+        <dd
+          class="c7"
+        >
+          warning
+        </dd>
+        <dt
+          class="c2"
+        >
+          warning
+        </dt>
+      </div>
+      <div
+        class="c0"
+        role="data-field"
+      >
+        <dd
+          class="c8"
+        >
+          danger
+        </dd>
+        <dt
+          class="c2"
+        >
+          danger
+        </dt>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  margin-bottom: 1rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,100%,0.7);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
+
+.c1::before {
+  content: '';
+  height: 0.625rem;
+  width: 2px;
+  margin-right: 0.25rem;
+  background-color: hsla(271,81%,56%,1);
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,100%,0.7);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
+
+.c3::before {
+  content: '';
+  height: 0.625rem;
+  width: 2px;
+  margin-right: 0.25rem;
+  background-color: hsla(333,71%,51%,1);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,100%,0.7);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
+
+.c4::before {
+  content: '';
+  height: 0.625rem;
+  width: 2px;
+  margin-right: 0.25rem;
+  background-color: hsla(0,0%,32%,1);
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,100%,0.7);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
+
+.c5::before {
+  content: '';
+  height: 0.625rem;
+  width: 2px;
+  margin-right: 0.25rem;
+  background-color: hsla(221,83%,53%,1);
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,100%,0.7);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
+
+.c6::before {
+  content: '';
+  height: 0.625rem;
+  width: 2px;
+  margin-right: 0.25rem;
+  background-color: hsla(142,76%,36%,1);
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,100%,0.7);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
+
+.c7::before {
+  content: '';
+  height: 0.625rem;
+  width: 2px;
+  margin-right: 0.25rem;
+  background-color: hsla(32,95%,44%,1);
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,100%,0.7);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
+
+.c8::before {
+  content: '';
+  height: 0.625rem;
+  width: 2px;
+  margin-right: 0.25rem;
+  background-color: hsla(0,72%,51%,1);
+}
+
+.c2 {
+  color: hsla(210,40%,96%,1);
+  margin-left: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+<div>
+    <div
+      class="c0"
+      role="data-field"
+    >
+      <dd
+        class="c1"
+      >
+        major
+      </dd>
+      <dt
+        class="c2"
+      >
+        major
+      </dt>
+    </div>
+    <div
+      class="c0"
+      role="data-field"
+    >
+      <dd
+        class="c3"
+      >
+        minor
+      </dd>
+      <dt
+        class="c2"
+      >
+        minor
+      </dt>
+    </div>
+    <div
+      class="c0"
+      role="data-field"
+    >
+      <dd
+        class="c4"
+      >
+        neutral
+      </dd>
+      <dt
+        class="c2"
+      >
+        neutral
+      </dt>
+    </div>
+    <div
+      class="c0"
+      role="data-field"
+    >
+      <dd
+        class="c5"
+      >
+        info
+      </dd>
+      <dt
+        class="c2"
+      >
+        info
+      </dt>
+    </div>
+    <div
+      class="c0"
+      role="data-field"
+    >
+      <dd
+        class="c6"
+      >
+        success
+      </dd>
+      <dt
+        class="c2"
+      >
+        success
+      </dt>
+    </div>
+    <div
+      class="c0"
+      role="data-field"
+    >
+      <dd
+        class="c7"
+      >
+        warning
+      </dd>
+      <dt
+        class="c2"
+      >
+        warning
+      </dt>
+    </div>
+    <div
+      class="c0"
+      role="data-field"
+    >
+      <dd
+        class="c8"
+      >
+        danger
+      </dd>
+      <dt
+        class="c2"
+      >
+        danger
+      </dt>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
-exports[`Text success color value 1`] = `
-<dl
-  className=""
-  role="data-field"
->
-  <dd
-    className=""
-    color="success"
-  >
-    success accent
-  </dd>
-  <dt
-    className=""
-    color="success"
-  >
-    success color value
-  </dt>
-</dl>
+exports[`Text All color variants 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  margin-bottom: 1rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,100%,0.7);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
+
+.c1::before {
+  content: '';
+  height: 0.625rem;
+  width: 2px;
+  margin-right: 0.25rem;
+  background-color: hsla(271,81%,56%,1);
+}
+
+.c2 {
+  margin-left: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: hsla(271,81%,56%,1);
+}
+
+.c3 {
+  margin-left: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: hsla(333,71%,51%,1);
+}
+
+.c4 {
+  margin-left: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: hsla(0,0%,32%,1);
+}
+
+.c5 {
+  margin-left: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: hsla(221,83%,53%,1);
+}
+
+.c6 {
+  margin-left: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: hsla(142,76%,36%,1);
+}
+
+.c7 {
+  margin-left: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: hsla(32,95%,44%,1);
+}
+
+.c8 {
+  margin-left: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: hsla(0,72%,51%,1);
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+        role="data-field"
+      >
+        <dd
+          class="c1"
+        >
+          major
+        </dd>
+        <dt
+          class="c2"
+        >
+          major
+        </dt>
+      </div>
+      <div
+        class="c0"
+        role="data-field"
+      >
+        <dd
+          class="c1"
+        >
+          minor
+        </dd>
+        <dt
+          class="c3"
+        >
+          minor
+        </dt>
+      </div>
+      <div
+        class="c0"
+        role="data-field"
+      >
+        <dd
+          class="c1"
+        >
+          neutral
+        </dd>
+        <dt
+          class="c4"
+        >
+          neutral
+        </dt>
+      </div>
+      <div
+        class="c0"
+        role="data-field"
+      >
+        <dd
+          class="c1"
+        >
+          info
+        </dd>
+        <dt
+          class="c5"
+        >
+          info
+        </dt>
+      </div>
+      <div
+        class="c0"
+        role="data-field"
+      >
+        <dd
+          class="c1"
+        >
+          success
+        </dd>
+        <dt
+          class="c6"
+        >
+          success
+        </dt>
+      </div>
+      <div
+        class="c0"
+        role="data-field"
+      >
+        <dd
+          class="c1"
+        >
+          warning
+        </dd>
+        <dt
+          class="c7"
+        >
+          warning
+        </dt>
+      </div>
+      <div
+        class="c0"
+        role="data-field"
+      >
+        <dd
+          class="c1"
+        >
+          danger
+        </dd>
+        <dt
+          class="c8"
+        >
+          danger
+        </dt>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  margin-bottom: 1rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,100%,0.7);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
+
+.c1::before {
+  content: '';
+  height: 0.625rem;
+  width: 2px;
+  margin-right: 0.25rem;
+  background-color: hsla(271,81%,56%,1);
+}
+
+.c2 {
+  margin-left: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: hsla(271,81%,56%,1);
+}
+
+.c3 {
+  margin-left: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: hsla(333,71%,51%,1);
+}
+
+.c4 {
+  margin-left: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: hsla(0,0%,32%,1);
+}
+
+.c5 {
+  margin-left: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: hsla(221,83%,53%,1);
+}
+
+.c6 {
+  margin-left: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: hsla(142,76%,36%,1);
+}
+
+.c7 {
+  margin-left: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: hsla(32,95%,44%,1);
+}
+
+.c8 {
+  margin-left: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: hsla(0,72%,51%,1);
+}
+
+<div>
+    <div
+      class="c0"
+      role="data-field"
+    >
+      <dd
+        class="c1"
+      >
+        major
+      </dd>
+      <dt
+        class="c2"
+      >
+        major
+      </dt>
+    </div>
+    <div
+      class="c0"
+      role="data-field"
+    >
+      <dd
+        class="c1"
+      >
+        minor
+      </dd>
+      <dt
+        class="c3"
+      >
+        minor
+      </dt>
+    </div>
+    <div
+      class="c0"
+      role="data-field"
+    >
+      <dd
+        class="c1"
+      >
+        neutral
+      </dd>
+      <dt
+        class="c4"
+      >
+        neutral
+      </dt>
+    </div>
+    <div
+      class="c0"
+      role="data-field"
+    >
+      <dd
+        class="c1"
+      >
+        info
+      </dd>
+      <dt
+        class="c5"
+      >
+        info
+      </dt>
+    </div>
+    <div
+      class="c0"
+      role="data-field"
+    >
+      <dd
+        class="c1"
+      >
+        success
+      </dd>
+      <dt
+        class="c6"
+      >
+        success
+      </dt>
+    </div>
+    <div
+      class="c0"
+      role="data-field"
+    >
+      <dd
+        class="c1"
+      >
+        warning
+      </dd>
+      <dt
+        class="c7"
+      >
+        warning
+      </dt>
+    </div>
+    <div
+      class="c0"
+      role="data-field"
+    >
+      <dd
+        class="c1"
+      >
+        danger
+      </dd>
+      <dt
+        class="c8"
+      >
+        danger
+      </dt>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
-exports[`Text underlined value 1`] = `
-<dl
-  className=""
-  role="data-field"
->
-  <dd
-    className=""
-  >
-    neutral accent
-  </dd>
-  <dt
-    className=""
-  >
-    default(neutral) color
-  </dt>
-</dl>
+exports[`Text Basic render 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  margin-bottom: 1rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,0%,0.6);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
+
+.c1::before {
+  content: '';
+  height: 0.625rem;
+  width: 2px;
+  margin-right: 0.25rem;
+  background-color: hsla(271,81%,56%,1);
+}
+
+.c2 {
+  color: hsla(217,33%,17%,1);
+  margin-left: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+        role="data-field"
+      >
+        <dd
+          class="c1"
+        >
+          default label
+        </dd>
+        <dt
+          class="c2"
+        >
+          default value
+        </dt>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  margin-bottom: 1rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,0%,0.6);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
+
+.c1::before {
+  content: '';
+  height: 0.625rem;
+  width: 2px;
+  margin-right: 0.25rem;
+  background-color: hsla(271,81%,56%,1);
+}
+
+.c2 {
+  color: hsla(217,33%,17%,1);
+  margin-left: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+<div>
+    <div
+      class="c0"
+      role="data-field"
+    >
+      <dd
+        class="c1"
+      >
+        default label
+      </dd>
+      <dt
+        class="c2"
+      >
+        default value
+      </dt>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
-exports[`Text warning accent value 1`] = `
-<dl
-  className=""
-  role="data-field"
->
-  <dd
-    className=""
-  >
-    warning accent
-  </dd>
-  <dt
-    className=""
-  >
-    warning accent value
-  </dt>
-</dl>
+exports[`Text Dark mode basic render 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  margin-bottom: 1rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,100%,0.7);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
+
+.c1::before {
+  content: '';
+  height: 0.625rem;
+  width: 2px;
+  margin-right: 0.25rem;
+  background-color: hsla(271,81%,56%,1);
+}
+
+.c2 {
+  color: hsla(210,40%,96%,1);
+  margin-left: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+        role="data-field"
+      >
+        <dd
+          class="c1"
+        >
+          default label
+        </dd>
+        <dt
+          class="c2"
+        >
+          default value
+        </dt>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  margin-bottom: 1rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,100%,0.7);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
+
+.c1::before {
+  content: '';
+  height: 0.625rem;
+  width: 2px;
+  margin-right: 0.25rem;
+  background-color: hsla(271,81%,56%,1);
+}
+
+.c2 {
+  color: hsla(210,40%,96%,1);
+  margin-left: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+<div>
+    <div
+      class="c0"
+      role="data-field"
+    >
+      <dd
+        class="c1"
+      >
+        default label
+      </dd>
+      <dt
+        class="c2"
+      >
+        default value
+      </dt>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
-exports[`Text warning color value 1`] = `
-<dl
-  className=""
-  role="data-field"
->
-  <dd
-    className=""
-    color="warning"
-  >
-    warning accent
-  </dd>
-  <dt
-    className=""
-    color="warning"
-  >
-    warning color value
-  </dt>
-</dl>
+exports[`Text Other variants 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  margin-bottom: 1rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,100%,0.7);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
+
+.c1::before {
+  content: '';
+  height: 0.625rem;
+  width: 2px;
+  margin-right: 0.25rem;
+  background-color: hsla(333,71%,51%,1);
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,100%,0.7);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
+
+.c3::before {
+  content: '';
+  height: 0.625rem;
+  width: 2px;
+  margin-right: 0.25rem;
+  background-color: hsla(142,76%,36%,1);
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,100%,0.7);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
+
+.c5::before {
+  content: '';
+  height: 0.625rem;
+  width: 2px;
+  margin-right: 0.25rem;
+  background-color: hsla(221,83%,53%,1);
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,100%,0.7);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
+
+.c7::before {
+  content: '';
+  height: 0.625rem;
+  width: 2px;
+  margin-right: 0.25rem;
+  background-color: hsla(32,95%,44%,1);
+}
+
+.c2 {
+  color: hsla(210,40%,96%,1);
+  margin-left: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.c4 {
+  color: hsla(210,40%,96%,1);
+  margin-left: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c6 {
+  color: hsla(210,40%,96%,1);
+  margin-left: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.c8 {
+  margin-left: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: hsla(0,0%,100%,0.5);
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+        role="data-field"
+      >
+        <dd
+          class="c1"
+        >
+          minor accent
+        </dd>
+        <dt
+          class="c2"
+        >
+          minor accent bold value
+        </dt>
+      </div>
+      <div
+        class="c0"
+        role="data-field"
+      >
+        <dd
+          class="c3"
+        >
+          success accent
+        </dd>
+        <dt
+          class="c4"
+        >
+          success accent underline value
+        </dt>
+      </div>
+      <div
+        class="c0"
+        role="data-field"
+      >
+        <dd
+          class="c5"
+        >
+          info accent
+        </dd>
+        <dt
+          class="c6"
+        >
+          info accent italicized value
+        </dt>
+      </div>
+      <div
+        class="c0"
+        role="data-field"
+      >
+        <dd
+          class="c7"
+        >
+          warning accent
+        </dd>
+        <dt
+          class="c8"
+        >
+          warning accent disabled value
+        </dt>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  margin-bottom: 1rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,100%,0.7);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
+
+.c1::before {
+  content: '';
+  height: 0.625rem;
+  width: 2px;
+  margin-right: 0.25rem;
+  background-color: hsla(333,71%,51%,1);
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,100%,0.7);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
+
+.c3::before {
+  content: '';
+  height: 0.625rem;
+  width: 2px;
+  margin-right: 0.25rem;
+  background-color: hsla(142,76%,36%,1);
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,100%,0.7);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
+
+.c5::before {
+  content: '';
+  height: 0.625rem;
+  width: 2px;
+  margin-right: 0.25rem;
+  background-color: hsla(221,83%,53%,1);
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,100%,0.7);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
+
+.c7::before {
+  content: '';
+  height: 0.625rem;
+  width: 2px;
+  margin-right: 0.25rem;
+  background-color: hsla(32,95%,44%,1);
+}
+
+.c2 {
+  color: hsla(210,40%,96%,1);
+  margin-left: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.c4 {
+  color: hsla(210,40%,96%,1);
+  margin-left: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c6 {
+  color: hsla(210,40%,96%,1);
+  margin-left: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.c8 {
+  margin-left: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: hsla(0,0%,100%,0.5);
+}
+
+<div>
+    <div
+      class="c0"
+      role="data-field"
+    >
+      <dd
+        class="c1"
+      >
+        minor accent
+      </dd>
+      <dt
+        class="c2"
+      >
+        minor accent bold value
+      </dt>
+    </div>
+    <div
+      class="c0"
+      role="data-field"
+    >
+      <dd
+        class="c3"
+      >
+        success accent
+      </dd>
+      <dt
+        class="c4"
+      >
+        success accent underline value
+      </dt>
+    </div>
+    <div
+      class="c0"
+      role="data-field"
+    >
+      <dd
+        class="c5"
+      >
+        info accent
+      </dd>
+      <dt
+        class="c6"
+      >
+        info accent italicized value
+      </dt>
+    </div>
+    <div
+      class="c0"
+      role="data-field"
+    >
+      <dd
+        class="c7"
+      >
+        warning accent
+      </dd>
+      <dt
+        class="c8"
+      >
+        warning accent disabled value
+      </dt>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Text With icons 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  margin-bottom: 1rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,100%,0.7);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
+
+.c3 {
+  color: hsla(210,40%,96%,1);
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-left: 0.875rem;
+}
+
+.c5 {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: hsla(142,76%,36%,1);
+  margin-left: 0.875rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 0.625rem;
+  width: 0.625rem;
+  margin-right: 0.25rem;
+  color: hsla(271,81%,56%,1);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 0.625rem;
+  width: 0.625rem;
+  margin-right: 0.25rem;
+  color: hsla(142,76%,36%,1);
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+        role="data-field"
+      >
+        <dd
+          class="c1"
+        >
+          <i
+            class="c2"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+              />
+            </svg>
+          </i>
+          settings icon
+        </dd>
+        <dt
+          class="c3"
+        >
+          settings icon value
+        </dt>
+      </div>
+      <div
+        class="c0"
+        role="data-field"
+      >
+        <dd
+          class="c1"
+        >
+          <i
+            class="c2"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+              />
+            </svg>
+          </i>
+          settings icon
+        </dd>
+        <dt
+          class="c3"
+        >
+          major accent value
+        </dt>
+      </div>
+      <div
+        class="c0"
+        role="data-field"
+      >
+        <dd
+          class="c1"
+        >
+          <i
+            class="c4"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+              />
+            </svg>
+          </i>
+          success icon
+        </dd>
+        <dt
+          class="c5"
+        >
+          success color value
+        </dt>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  margin-bottom: 1rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: hsla(0,0%,100%,0.7);
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+}
+
+.c3 {
+  color: hsla(210,40%,96%,1);
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-left: 0.875rem;
+}
+
+.c5 {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: hsla(142,76%,36%,1);
+  margin-left: 0.875rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 0.625rem;
+  width: 0.625rem;
+  margin-right: 0.25rem;
+  color: hsla(271,81%,56%,1);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 0.625rem;
+  width: 0.625rem;
+  margin-right: 0.25rem;
+  color: hsla(142,76%,36%,1);
+}
+
+<div>
+    <div
+      class="c0"
+      role="data-field"
+    >
+      <dd
+        class="c1"
+      >
+        <i
+          class="c2"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+            />
+          </svg>
+        </i>
+        settings icon
+      </dd>
+      <dt
+        class="c3"
+      >
+        settings icon value
+      </dt>
+    </div>
+    <div
+      class="c0"
+      role="data-field"
+    >
+      <dd
+        class="c1"
+      >
+        <i
+          class="c2"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+            />
+          </svg>
+        </i>
+        settings icon
+      </dd>
+      <dt
+        class="c3"
+      >
+        major accent value
+      </dt>
+    </div>
+    <div
+      class="c0"
+      role="data-field"
+    >
+      <dd
+        class="c1"
+      >
+        <i
+          class="c4"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+            />
+          </svg>
+        </i>
+        success icon
+      </dd>
+      <dt
+        class="c5"
+      >
+        success color value
+      </dt>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;

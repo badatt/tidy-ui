@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import { AnchorIcon, AnchorRoot } from './components';
 import { IAnchorProps } from './types';
 
@@ -7,7 +7,7 @@ import { IAnchorProps } from './types';
  * html `a` tag
  *
  */
-const Anchor = React.forwardRef<HTMLAnchorElement, IAnchorProps>((props, ref) => {
+const Anchor = forwardRef<HTMLAnchorElement, IAnchorProps>((props, ref) => {
   const { children, isLaunch, ...rest } = props;
   return (
     <AnchorRoot role="anchor" ref={ref} {...rest} target={isLaunch ? '_blank' : '_top'}>
