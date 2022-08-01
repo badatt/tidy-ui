@@ -2,6 +2,10 @@ import React, { forwardRef } from 'react';
 import { css, styled } from '@tidy-ui/theme';
 import { ITextProps } from './types';
 
+/**
+ * Internal styled text
+ *
+ */
 const StyledText = styled.div<ITextProps>`
   ${({ theme: { palette, typography }, as, clr, bld, udl, itl, uc, lc, cc, dsb, exd, ctr, tnc }) => css`
     margin: 0;
@@ -67,6 +71,10 @@ const StyledText = styled.div<ITextProps>`
   `}
 `;
 
+/**
+ * Internal Text root
+ *
+ */
 const TextRoot = ({ children, ...rest }) => <StyledText {...rest}>{children}</StyledText>;
 
 const htmlElement = (props: ITextProps) => {
@@ -101,6 +109,11 @@ const htmlElement = (props: ITextProps) => {
   }
 };
 
+/**
+ * Text component has all the typography that you need on a page. USe this to represent
+ * any text data you want to handle on a page. Powered by various styles (with theming) and settings
+ *
+ */
 const Text = forwardRef<HTMLDivElement, ITextProps>((props, ref) => {
   const { children, as, ...rest } = props;
   return (
