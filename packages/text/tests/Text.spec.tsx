@@ -50,7 +50,7 @@ describe('Text', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {variants.map((v) => (
-          <Text as={v as TAs}>
+          <Text as={v as TAs} key={v}>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores
             atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
           </Text>
@@ -64,7 +64,7 @@ describe('Text', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {colors.map((v) => (
-          <Text clr={v as TColor}>
+          <Text clr={v as TColor} key={v}>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores
             atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
           </Text>
@@ -78,7 +78,7 @@ describe('Text', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
         {colors.map((v) => (
-          <Text clr={v as TColor}>
+          <Text clr={v as TColor} key={v}>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores
             atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
           </Text>
