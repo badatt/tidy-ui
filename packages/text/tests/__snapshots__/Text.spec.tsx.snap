@@ -1,394 +1,1666 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Text Default render 1`] = `
-<p
-  className=""
-  role="text"
->
-  default text
-</p>
+exports[`Text All color variants of texts 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(271,81%,56%,1);
+}
+
+.c1 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(333,71%,51%,1);
+}
+
+.c2 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(0,0%,32%,1);
+}
+
+.c3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(221,83%,53%,1);
+}
+
+.c4 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(142,76%,36%,1);
+}
+
+.c5 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(32,95%,44%,1);
+}
+
+.c6 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(0,72%,51%,1);
+}
+
+<body>
+    <div>
+      <p
+        class="c0"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </p>
+      <p
+        class="c1"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </p>
+      <p
+        class="c2"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </p>
+      <p
+        class="c3"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </p>
+      <p
+        class="c4"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </p>
+      <p
+        class="c5"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </p>
+      <p
+        class="c6"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </p>
+    </div>
+  </body>,
+  "container": .c0 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(271,81%,56%,1);
+}
+
+.c1 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(333,71%,51%,1);
+}
+
+.c2 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(0,0%,32%,1);
+}
+
+.c3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(221,83%,53%,1);
+}
+
+.c4 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(142,76%,36%,1);
+}
+
+.c5 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(32,95%,44%,1);
+}
+
+.c6 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(0,72%,51%,1);
+}
+
+<div>
+    <p
+      class="c0"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </p>
+    <p
+      class="c1"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </p>
+    <p
+      class="c2"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </p>
+    <p
+      class="c3"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </p>
+    <p
+      class="c4"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </p>
+    <p
+      class="c5"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </p>
+    <p
+      class="c6"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </p>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
-exports[`Text H1 element 1`] = `
-<h1
-  className=""
-  role="text"
->
-  h1: The quick brown fox jumps over the lazy dog
-</h1>
+exports[`Text All other forms of text 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.c1 {
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c2 {
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+.c3 {
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.c4 {
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  text-transform: lowercase;
+}
+
+.c5 {
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+
+.c6 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(0,0%,0%,0.38);
+}
+
+.c7 {
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  width: 100%;
+}
+
+.c8 {
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.c9 {
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+<body>
+    <div>
+      <p
+        class="c0"
+        role="text"
+      >
+        bold: The quick brown fox jumps over the lazy dog
+      </p>
+      <p
+        class="c1"
+        role="text"
+      >
+        underlined: The quick brown fox jumps over the lazy dog
+      </p>
+      <p
+        class="c2"
+        role="text"
+      >
+        italicized: The quick brown fox jumps over the lazy dog
+      </p>
+      <p
+        class="c3"
+        role="text"
+      >
+        uppercase: The quick brown fox jumps over the lazy dog
+      </p>
+      <p
+        class="c4"
+        role="text"
+      >
+        lowercase: The quick brown fox jumps over the lazy dog
+      </p>
+      <p
+        class="c5"
+        role="text"
+      >
+        capitalized: The quick brown fox jumps over the lazy dog
+      </p>
+      <p
+        class="c6"
+        role="text"
+      >
+        disabled: The quick brown fox jumps over the lazy dog
+      </p>
+      <p
+        class="c7"
+        role="text"
+      >
+        stretched: The quick brown fox jumps over the lazy dog
+      </p>
+      <p
+        class="c8"
+        role="text"
+      >
+        centered: The quick brown fox jumps over the lazy dog
+      </p>
+      <div
+        style="width: 200px;"
+      >
+        <p
+          class="c9"
+          role="text"
+        >
+          truncated: The quick brown fox jumps over the lazy dog
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.c1 {
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c2 {
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+.c3 {
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.c4 {
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  text-transform: lowercase;
+}
+
+.c5 {
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+
+.c6 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(0,0%,0%,0.38);
+}
+
+.c7 {
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  width: 100%;
+}
+
+.c8 {
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.c9 {
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+<div>
+    <p
+      class="c0"
+      role="text"
+    >
+      bold: The quick brown fox jumps over the lazy dog
+    </p>
+    <p
+      class="c1"
+      role="text"
+    >
+      underlined: The quick brown fox jumps over the lazy dog
+    </p>
+    <p
+      class="c2"
+      role="text"
+    >
+      italicized: The quick brown fox jumps over the lazy dog
+    </p>
+    <p
+      class="c3"
+      role="text"
+    >
+      uppercase: The quick brown fox jumps over the lazy dog
+    </p>
+    <p
+      class="c4"
+      role="text"
+    >
+      lowercase: The quick brown fox jumps over the lazy dog
+    </p>
+    <p
+      class="c5"
+      role="text"
+    >
+      capitalized: The quick brown fox jumps over the lazy dog
+    </p>
+    <p
+      class="c6"
+      role="text"
+    >
+      disabled: The quick brown fox jumps over the lazy dog
+    </p>
+    <p
+      class="c7"
+      role="text"
+    >
+      stretched: The quick brown fox jumps over the lazy dog
+    </p>
+    <p
+      class="c8"
+      role="text"
+    >
+      centered: The quick brown fox jumps over the lazy dog
+    </p>
+    <div
+      style="width: 200px;"
+    >
+      <p
+        class="c9"
+        role="text"
+      >
+        truncated: The quick brown fox jumps over the lazy dog
+      </p>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
-exports[`Text H2 element 1`] = `
-<h2
-  className=""
-  role="text"
->
-  h2: The quick brown fox jumps over the lazy dog
-</h2>
+exports[`Text All types of texts 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  margin: 0;
+  font-size: 6rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 300;
+  -webkit-letter-spacing: -0.01562em;
+  -moz-letter-spacing: -0.01562em;
+  -ms-letter-spacing: -0.01562em;
+  letter-spacing: -0.01562em;
+  line-height: 1.167;
+}
+
+.c1 {
+  margin: 0;
+  font-size: 3.75rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 300;
+  -webkit-letter-spacing: -0.00833em;
+  -moz-letter-spacing: -0.00833em;
+  -ms-letter-spacing: -0.00833em;
+  letter-spacing: -0.00833em;
+  line-height: 1.2;
+}
+
+.c2 {
+  margin: 0;
+  font-size: 3rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.167;
+}
+
+.c3 {
+  margin: 0;
+  font-size: 2.125rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00735em;
+  -moz-letter-spacing: 0.00735em;
+  -ms-letter-spacing: 0.00735em;
+  letter-spacing: 0.00735em;
+  line-height: 1.235;
+}
+
+.c4 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.334;
+}
+
+.c5 {
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
+.c6 {
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+}
+
+.c7 {
+  margin: 0;
+  font-size: 0.75rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+}
+
+.c8 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
+}
+
+<body>
+    <div>
+      <h1
+        class="c0"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </h1>
+      <h2
+        class="c1"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </h2>
+      <h3
+        class="c2"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </h3>
+      <h4
+        class="c3"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </h4>
+      <h5
+        class="c4"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </h5>
+      <span
+        class="c5"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </span>
+      <p
+        class="c6"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </p>
+      <p
+        class="c6"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </p>
+      <code
+        class="c7"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </code>
+      <span
+        class="c5"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </span>
+      <p
+        class="c6"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </p>
+      <h1
+        class="c0"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </h1>
+      <h2
+        class="c1"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </h2>
+      <h3
+        class="c2"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </h3>
+      <h4
+        class="c3"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </h4>
+      <h5
+        class="c4"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </h5>
+      <h6
+        class="c8"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </h6>
+    </div>
+  </body>,
+  "container": .c0 {
+  margin: 0;
+  font-size: 6rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 300;
+  -webkit-letter-spacing: -0.01562em;
+  -moz-letter-spacing: -0.01562em;
+  -ms-letter-spacing: -0.01562em;
+  letter-spacing: -0.01562em;
+  line-height: 1.167;
+}
+
+.c1 {
+  margin: 0;
+  font-size: 3.75rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 300;
+  -webkit-letter-spacing: -0.00833em;
+  -moz-letter-spacing: -0.00833em;
+  -ms-letter-spacing: -0.00833em;
+  letter-spacing: -0.00833em;
+  line-height: 1.2;
+}
+
+.c2 {
+  margin: 0;
+  font-size: 3rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.167;
+}
+
+.c3 {
+  margin: 0;
+  font-size: 2.125rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00735em;
+  -moz-letter-spacing: 0.00735em;
+  -ms-letter-spacing: 0.00735em;
+  letter-spacing: 0.00735em;
+  line-height: 1.235;
+}
+
+.c4 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.334;
+}
+
+.c5 {
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
+.c6 {
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+}
+
+.c7 {
+  margin: 0;
+  font-size: 0.75rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+}
+
+.c8 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
+}
+
+<div>
+    <h1
+      class="c0"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </h1>
+    <h2
+      class="c1"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </h2>
+    <h3
+      class="c2"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </h3>
+    <h4
+      class="c3"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </h4>
+    <h5
+      class="c4"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </h5>
+    <span
+      class="c5"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </span>
+    <p
+      class="c6"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </p>
+    <p
+      class="c6"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </p>
+    <code
+      class="c7"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </code>
+    <span
+      class="c5"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </span>
+    <p
+      class="c6"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </p>
+    <h1
+      class="c0"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </h1>
+    <h2
+      class="c1"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </h2>
+    <h3
+      class="c2"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </h3>
+    <h4
+      class="c3"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </h4>
+    <h5
+      class="c4"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </h5>
+    <h6
+      class="c8"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </h6>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
-exports[`Text H3 element 1`] = `
-<h3
-  className=""
-  role="text"
->
-  h3: The quick brown fox jumps over the lazy dog
-</h3>
+exports[`Text Basic render 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+}
+
+<body>
+    <div>
+      <p
+        class="c0"
+        role="text"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quae aut itaque quas reprehenderit provident, facilis laudantium facere cum velit dolorum molestiae quisquam distinctio quia illo pariatur placeat natus perferendis.
+      </p>
+    </div>
+  </body>,
+  "container": .c0 {
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+}
+
+<div>
+    <p
+      class="c0"
+      role="text"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quae aut itaque quas reprehenderit provident, facilis laudantium facere cum velit dolorum molestiae quisquam distinctio quia illo pariatur placeat natus perferendis.
+    </p>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
-exports[`Text H4 element 1`] = `
-<h4
-  className=""
-  role="text"
->
-  h4: The quick brown fox jumps over the lazy dog
-</h4>
-`;
+exports[`Text Dark mode all color variants of texts 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(271,81%,56%,1);
+}
 
-exports[`Text H5 element 1`] = `
-<h5
-  className=""
-  role="text"
->
-  h5: The quick brown fox jumps over the lazy dog
-</h5>
-`;
+.c1 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(333,71%,51%,1);
+}
 
-exports[`Text H6 element 1`] = `
-<h6
-  className=""
-  role="text"
->
-  h6: The quick brown fox jumps over the lazy dog
-</h6>
-`;
+.c2 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(0,0%,32%,1);
+}
 
-exports[`Text body1 element 1`] = `
-<p
-  className=""
-  role="text"
->
-  body1: The quick brown fox jumps over the lazy dog
-</p>
-`;
+.c3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(221,83%,53%,1);
+}
 
-exports[`Text body2 element 1`] = `
-<p
-  className=""
-  role="text"
->
-  body2: The quick brown fox jumps over the lazy dog
-</p>
-`;
+.c4 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(142,76%,36%,1);
+}
 
-exports[`Text bold transform 1`] = `
-<p
-  className=""
-  role="text"
->
-  bold: The quick brown fox jumps over the lazy dog
-</p>
-`;
+.c5 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(32,95%,44%,1);
+}
 
-exports[`Text capitalized transform 1`] = `
-<p
-  className=""
-  role="text"
->
-  capitalized: The quick brown fox jumps over the lazy dog
-</p>
-`;
+.c6 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(0,72%,51%,1);
+}
 
-exports[`Text caption element 1`] = `
-<span
-  className=""
-  role="text"
->
-  caption: The quick brown fox jumps over the lazy dog
-</span>
-`;
+<body>
+    <div>
+      <p
+        class="c0"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </p>
+      <p
+        class="c1"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </p>
+      <p
+        class="c2"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </p>
+      <p
+        class="c3"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </p>
+      <p
+        class="c4"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </p>
+      <p
+        class="c5"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </p>
+      <p
+        class="c6"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </p>
+    </div>
+  </body>,
+  "container": .c0 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(271,81%,56%,1);
+}
 
-exports[`Text centered transform 1`] = `
-<p
-  className=""
-  role="text"
->
-  centered: The quick brown fox jumps over the lazy dog
-</p>
-`;
+.c1 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(333,71%,51%,1);
+}
 
-exports[`Text code element 1`] = `
-<code
-  className=""
-  role="text"
->
-  code: The quick brown fox jumps over the lazy dog
-</code>
-`;
+.c2 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(0,0%,32%,1);
+}
 
-exports[`Text danger color 1`] = `
-Array [
-  <h5
-    className=""
-    color="danger"
-    role="text"
-  >
-    danger: The quick brown fox jumps over the lazy dog
-  </h5>,
-  <p
-    className=""
-    color="danger"
-    role="text"
-  >
-    danger: The quick brown fox jumps over the lazy dog
-  </p>,
-]
-`;
+.c3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(221,83%,53%,1);
+}
 
-exports[`Text disabled transform 1`] = `
-<p
-  className=""
-  role="text"
->
-  disabled: The quick brown fox jumps over the lazy dog
-</p>
-`;
+.c4 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(142,76%,36%,1);
+}
 
-exports[`Text hero element 1`] = `
-<h1
-  className=""
-  role="text"
->
-  hero: The quick brown fox jumps over the lazy dog
-</h1>
-`;
+.c5 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(32,95%,44%,1);
+}
 
-exports[`Text info color 1`] = `
-Array [
-  <h5
-    className=""
-    color="info"
-    role="text"
-  >
-    info: The quick brown fox jumps over the lazy dog
-  </h5>,
-  <p
-    className=""
-    color="info"
-    role="text"
-  >
-    info: The quick brown fox jumps over the lazy dog
-  </p>,
-]
-`;
+.c6 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(0,72%,51%,1);
+}
 
-exports[`Text italicized transform 1`] = `
-<p
-  className=""
-  role="text"
->
-  italicized: The quick brown fox jumps over the lazy dog
-</p>
-`;
-
-exports[`Text lowercase transform 1`] = `
-<p
-  className=""
-  role="text"
->
-  lowercase: The quick brown fox jumps over the lazy dog
-</p>
-`;
-
-exports[`Text major color 1`] = `
-Array [
-  <h5
-    className=""
-    color="major"
-    role="text"
-  >
-    major: The quick brown fox jumps over the lazy dog
-  </h5>,
-  <p
-    className=""
-    color="major"
-    role="text"
-  >
-    major: The quick brown fox jumps over the lazy dog
-  </p>,
-]
-`;
-
-exports[`Text minor color 1`] = `
-Array [
-  <h5
-    className=""
-    color="minor"
-    role="text"
-  >
-    minor: The quick brown fox jumps over the lazy dog
-  </h5>,
-  <p
-    className=""
-    color="minor"
-    role="text"
-  >
-    minor: The quick brown fox jumps over the lazy dog
-  </p>,
-]
-`;
-
-exports[`Text neutral color 1`] = `
-Array [
-  <h5
-    className=""
-    color="neutral"
-    role="text"
-  >
-    neutral: The quick brown fox jumps over the lazy dog
-  </h5>,
-  <p
-    className=""
-    color="neutral"
-    role="text"
-  >
-    neutral: The quick brown fox jumps over the lazy dog
-  </p>,
-]
-`;
-
-exports[`Text p element 1`] = `
-<p
-  className=""
-  role="text"
->
-  p: The quick brown fox jumps over the lazy dog
-</p>
-`;
-
-exports[`Text span element 1`] = `
-<span
-  className=""
-  role="text"
->
-  span: The quick brown fox jumps over the lazy dog
-</span>
-`;
-
-exports[`Text stretched transform 1`] = `
-<p
-  className=""
-  role="text"
->
-  stretched: The quick brown fox jumps over the lazy dog
-</p>
-`;
-
-exports[`Text subtitle1 element 1`] = `
-<h4
-  className=""
-  role="text"
->
-  subtitle1: The quick brown fox jumps over the lazy dog
-</h4>
-`;
-
-exports[`Text subtitle2 element 1`] = `
-<h5
-  className=""
-  role="text"
->
-  subtitle2: The quick brown fox jumps over the lazy dog
-</h5>
-`;
-
-exports[`Text success color 1`] = `
-Array [
-  <h5
-    className=""
-    color="success"
-    role="text"
-  >
-    success: The quick brown fox jumps over the lazy dog
-  </h5>,
-  <p
-    className=""
-    color="success"
-    role="text"
-  >
-    success: The quick brown fox jumps over the lazy dog
-  </p>,
-]
-`;
-
-exports[`Text title1 element 1`] = `
-<h2
-  className=""
-  role="text"
->
-  title1: The quick brown fox jumps over the lazy dog
-</h2>
-`;
-
-exports[`Text title2 element 1`] = `
-<h3
-  className=""
-  role="text"
->
-  title2: The quick brown fox jumps over the lazy dog
-</h3>
-`;
-
-exports[`Text truncated transform 1`] = `
-<div
-  style={
-    Object {
-      "width": 200,
-    }
-  }
->
-  <p
-    className=""
-    role="text"
-  >
-    truncated: The quick brown fox jumps over the lazy dog
-  </p>
-</div>
-`;
-
-exports[`Text underlined transform 1`] = `
-<p
-  className=""
-  role="text"
->
-  underlined: The quick brown fox jumps over the lazy dog
-</p>
-`;
-
-exports[`Text uppercase transform 1`] = `
-<p
-  className=""
-  role="text"
->
-  uppercase: The quick brown fox jumps over the lazy dog
-</p>
-`;
-
-exports[`Text warning color 1`] = `
-Array [
-  <h5
-    className=""
-    color="warning"
-    role="text"
-  >
-    warning: The quick brown fox jumps over the lazy dog
-  </h5>,
-  <p
-    className=""
-    color="warning"
-    role="text"
-  >
-    warning: The quick brown fox jumps over the lazy dog
-  </p>,
-]
+<div>
+    <p
+      class="c0"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </p>
+    <p
+      class="c1"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </p>
+    <p
+      class="c2"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </p>
+    <p
+      class="c3"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </p>
+    <p
+      class="c4"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </p>
+    <p
+      class="c5"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </p>
+    <p
+      class="c6"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </p>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;

@@ -1,236 +1,77 @@
+/**
+ * @jest-environment jsdom
+ */
 import React from 'react';
-import renderer from 'react-test-renderer';
+import { render } from '@testing-library/react';
 import { ThemeProvider } from 'styled-components';
+import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { CheckCircleIcon, EyeIcon, GearIcon } from '@tidy-ui/icons';
-import { orchidLight } from '@tidy-ui/theme';
+import { CheckCircleIcon } from '@tidy-ui/commons';
+import { orchidDark, orchidLight } from '@tidy-ui/theme';
+import { TColor } from '@tidy-ui/types';
 import { DataField } from '../src';
 
+const colors = ['major', 'minor', 'neutral', 'info', 'success', 'warning', 'danger'];
+
 describe('Text', () => {
-  it('Default render', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <DataField />
-        </ThemeProvider>,
-      )
-      .toJSON();
+  it('Basic render', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        <DataField lbl="default label" val="default value" />
+      </ThemeProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
-  it('major accent value', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <DataField label="major(default) accent" value="major accent value" />
-        </ThemeProvider>,
-      )
-      .toJSON();
+
+  it('Dark mode basic render', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidDark}>
+        <DataField lbl="default label" val="default value" />
+      </ThemeProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
-  it('minor accent value', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <DataField accent="minor" label="minor accent" value="minor accent value" />
-        </ThemeProvider>,
-      )
-      .toJSON();
+  it('All color variants', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidDark}>
+        {colors.map((c) => (
+          <DataField clr={c as TColor} lbl={c} val={c} />
+        ))}
+      </ThemeProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
-  it('success accent value', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <DataField accent="success" label="success accent" value="success accent value" />
-        </ThemeProvider>,
-      )
-      .toJSON();
+  it('All accent variants', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidDark}>
+        {colors.map((c) => (
+          <DataField acc={c as TColor} lbl={c} val={c} />
+        ))}
+      </ThemeProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
-  it('info accent value', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <DataField accent="info" label="info accent" value="info accent value" />
-        </ThemeProvider>,
-      )
-      .toJSON();
+
+  it('With icons', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidDark}>
+        <DataField ico={<CheckCircleIcon />} lbl="settings icon" val="settings icon value" />
+        <DataField ico={<CheckCircleIcon />} lbl="settings icon" acc="major" val="major accent value" />
+        <DataField ico={<CheckCircleIcon />} lbl="success icon" acc="success" clr="success" val="success color value" />
+      </ThemeProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
-  it('warning accent value', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <DataField accent="warning" label="warning accent" value="warning accent value" />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('danger accent value', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <DataField accent="danger" label="danger accent" value="danger accent value" />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('neutral accent value', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <DataField accent="neutral" label="neutral accent" value="neutral accent value" />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('major color value', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <DataField color="major" accent="major" label="major(default) accent" value="major color value" />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('minor color value', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <DataField color="minor" accent="minor" label="minor accent" value="minor color value" />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('success color value', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <DataField color="success" accent="success" label="success accent" value="success color value" />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('info color value', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <DataField color="info" accent="info" label="info accent" value="info color value" />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('warning color value', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <DataField color="warning" accent="warning" label="warning accent" value="warning color value" />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('danger color value', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <DataField color="danger" accent="danger" label="danger accent" value="danger color value" />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('default(neutral) color', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <DataField label="neutral accent" accent="neutral" value="default(neutral) color" />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('settings icon value', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <DataField icon={<GearIcon />} label="settings icon" value="settings icon value" />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('major accent value with icon', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <DataField icon={<EyeIcon />} label="settings icon" accent="major" value="major accent value" />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('success color accent and value with icon', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <DataField
-            icon={<CheckCircleIcon />}
-            label="success icon"
-            accent="success"
-            color="success"
-            value="success color value"
-          />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('bold value', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <DataField b label="neutral accent" value="default(neutral) color" />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('underlined value', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <DataField u label="neutral accent" value="default(neutral) color" />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('italicized value', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <DataField i label="neutral accent" value="default(neutral) color" />
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('disable value', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <DataField disable label="neutral accent" value="default(neutral) color" />
-        </ThemeProvider>,
-      )
-      .toJSON();
+
+  it('Other variants', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidDark}>
+        <DataField bld acc="minor" lbl="minor accent" val="minor accent bold value" />
+        <DataField udl acc="success" lbl="success accent" val="success accent underline value" />
+        <DataField itl acc="info" lbl="info accent" val="info accent italicized value" />
+        <DataField dsb acc="warning" lbl="warning accent" val="warning accent disabled value" />
+      </ThemeProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
 });

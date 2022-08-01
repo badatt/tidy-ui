@@ -10,14 +10,10 @@ export default {
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  font-size: 0.875rem;
-  font-weight: 400;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  gap: 16px;
 `;
 
-export const variants = () => (
+export const types = () => (
   <Container>
     <Text as="h1">h1: The quick brown fox jumps over the lazy dog</Text>
     <Text as="h2">h2: The quick brown fox jumps over the lazy dog</Text>
@@ -69,66 +65,31 @@ export const variants = () => (
   </Container>
 );
 
-export const colors = () => (
+export const colorVariants = () => (
   <Container>
-    <Text as="subtitle2" color="major">
-      major: The quick brown fox jumps over the lazy dog
-    </Text>
-    <Text as="body2" color="major">
-      major: The quick brown fox jumps over the lazy dog
-    </Text>
-    <Text as="subtitle2" color="minor">
-      minor: The quick brown fox jumps over the lazy dog
-    </Text>
-    <Text as="body2" color="minor">
-      minor: The quick brown fox jumps over the lazy dog
-    </Text>
-    <Text as="subtitle2" color="info">
-      info: The quick brown fox jumps over the lazy dog
-    </Text>
-    <Text as="body2" color="info">
-      info: The quick brown fox jumps over the lazy dog
-    </Text>
-    <Text as="subtitle2" color="neutral">
-      neutral: The quick brown fox jumps over the lazy dog
-    </Text>
-    <Text as="body2" color="neutral">
-      neutral: The quick brown fox jumps over the lazy dog
-    </Text>
-    <Text as="subtitle2" color="success">
-      success: The quick brown fox jumps over the lazy dog
-    </Text>
-    <Text as="body2" color="success">
-      success: The quick brown fox jumps over the lazy dog
-    </Text>
-    <Text as="subtitle2" color="warning">
-      warning: The quick brown fox jumps over the lazy dog
-    </Text>
-    <Text as="body2" color="warning">
-      warning: The quick brown fox jumps over the lazy dog
-    </Text>
-    <Text as="subtitle2" color="danger">
-      danger: The quick brown fox jumps over the lazy dog
-    </Text>
-    <Text as="body2" color="danger">
-      danger: The quick brown fox jumps over the lazy dog
-    </Text>
+    <Text clr="major">major: The quick brown fox jumps over the lazy dog</Text>
+    <Text clr="minor">minor: The quick brown fox jumps over the lazy dog</Text>
+    <Text clr="neutral">neutral: The quick brown fox jumps over the lazy dog</Text>
+    <Text clr="info">info: The quick brown fox jumps over the lazy dog</Text>
+    <Text clr="success">success: The quick brown fox jumps over the lazy dog</Text>
+    <Text clr="warning">warning: The quick brown fox jumps over the lazy dog</Text>
+    <Text clr="danger">danger: The quick brown fox jumps over the lazy dog</Text>
   </Container>
 );
 
-export const transforms = () => (
+export const others = () => (
   <Container>
-    <Text b>bold: The quick brown fox jumps over the lazy dog</Text>
-    <Text u>underlined: The quick brown fox jumps over the lazy dog</Text>
-    <Text i>italicized: The quick brown fox jumps over the lazy dog</Text>
+    <Text bld>bold: The quick brown fox jumps over the lazy dog</Text>
+    <Text udl>underlined: The quick brown fox jumps over the lazy dog</Text>
+    <Text itl>italicized: The quick brown fox jumps over the lazy dog</Text>
     <Text uc>uppercase: The quick brown fox jumps over the lazy dog</Text>
     <Text lc>lowercase: The quick brown fox jumps over the lazy dog</Text>
     <Text cc>capitalized: The quick brown fox jumps over the lazy dog</Text>
-    <Text disable>disabled: The quick brown fox jumps over the lazy dog</Text>
-    <Text stretch>stretched: The quick brown fox jumps over the lazy dog</Text>
-    <Text center>centered: The quick brown fox jumps over the lazy dog</Text>
+    <Text dsb>disabled: The quick brown fox jumps over the lazy dog</Text>
+    <Text exd>stretched: The quick brown fox jumps over the lazy dog</Text>
+    <Text ctr>centered: The quick brown fox jumps over the lazy dog</Text>
     <div style={{ width: 200 }}>
-      <Text truncate>truncated: The quick brown fox jumps over the lazy dog</Text>
+      <Text tnc>truncated: The quick brown fox jumps over the lazy dog</Text>
     </div>
   </Container>
 );
