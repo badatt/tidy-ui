@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import { CardRoot } from './components';
 import { ICardProps } from './types';
 
@@ -7,7 +7,7 @@ import { ICardProps } from './types';
  * as is with a nice elevation effect that looks like a card on screen
  *
  */
-const Card = React.forwardRef<HTMLDivElement, ICardProps>((props, ref) => {
+const Card = forwardRef<HTMLDivElement, ICardProps>((props, ref) => {
   const { children, withHref } = props;
   return (
     <CardRoot ref={ref} {...props}>

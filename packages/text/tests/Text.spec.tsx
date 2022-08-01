@@ -1,396 +1,110 @@
+/**
+ * @jest-environment jsdom
+ */
 import React from 'react';
-import renderer from 'react-test-renderer';
+import { render } from '@testing-library/react';
 import { ThemeProvider } from 'styled-components';
+import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidLight } from '@tidy-ui/theme';
+import { orchidDark, orchidLight } from '@tidy-ui/theme';
+import { TColor } from '@tidy-ui/types';
 import { Text } from '../src';
+import { TAs } from '../src/types';
+
+const variants = [
+  'hero',
+  'title1',
+  'title2',
+  'subtitle1',
+  'subtitle2',
+  'caption',
+  'body1',
+  'body2',
+  'code',
+  'span',
+  'p',
+  'h1',
+  'h2',
+  'h3',
+  'h4',
+  'h5',
+  'h6',
+];
+const colors = ['major', 'minor', 'neutral', 'info', 'success', 'warning', 'danger'];
 
 describe('Text', () => {
-  it('Default render', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text>default text</Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
+  it('Basic render', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        <Text>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quae aut itaque quas reprehenderit provident,
+          facilis laudantium facere cum velit dolorum molestiae quisquam distinctio quia illo pariatur placeat natus
+          perferendis.
+        </Text>
+      </ThemeProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
-  it('H1 element', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text as="h1">h1: The quick brown fox jumps over the lazy dog</Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('H2 element', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text as="h2">h2: The quick brown fox jumps over the lazy dog</Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('H3 element', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text as="h3">h3: The quick brown fox jumps over the lazy dog</Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('H4 element', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text as="h4">h4: The quick brown fox jumps over the lazy dog</Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('H5 element', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text as="h5">h5: The quick brown fox jumps over the lazy dog</Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('H6 element', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text as="h6">h6: The quick brown fox jumps over the lazy dog</Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('title1 element', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text as="title1">title1: The quick brown fox jumps over the lazy dog</Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('subtitle1 element', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text as="subtitle1">subtitle1: The quick brown fox jumps over the lazy dog</Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('title2 element', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text as="title2">title2: The quick brown fox jumps over the lazy dog</Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('subtitle2 element', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text as="subtitle2">subtitle2: The quick brown fox jumps over the lazy dog</Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('body1 element', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text as="body1">body1: The quick brown fox jumps over the lazy dog</Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('body2 element', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text as="body2">body2: The quick brown fox jumps over the lazy dog</Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('p element', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text as="p">p: The quick brown fox jumps over the lazy dog</Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('span element', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text as="span">span: The quick brown fox jumps over the lazy dog</Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('caption element', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text as="caption">caption: The quick brown fox jumps over the lazy dog</Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('code element', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text as="code">code: The quick brown fox jumps over the lazy dog</Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('hero element', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text as="hero">hero: The quick brown fox jumps over the lazy dog</Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('major color', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text as="subtitle2" color="major">
-            major: The quick brown fox jumps over the lazy dog
+
+  it('All types of texts', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        {variants.map((v) => (
+          <Text as={v as TAs}>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores
+            atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
           </Text>
-          <Text as="body2" color="major">
-            major: The quick brown fox jumps over the lazy dog
+        ))}
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('All color variants of texts', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        {colors.map((v) => (
+          <Text clr={v as TColor}>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores
+            atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
           </Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
+        ))}
+      </ThemeProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
-  it('minor color', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text as="subtitle2" color="minor">
-            minor: The quick brown fox jumps over the lazy dog
+
+  it('Dark mode all color variants of texts', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidDark}>
+        {colors.map((v) => (
+          <Text clr={v as TColor}>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores
+            atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
           </Text>
-          <Text as="body2" color="minor">
-            minor: The quick brown fox jumps over the lazy dog
-          </Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
+        ))}
+      </ThemeProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
-  it('info color', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text as="subtitle2" color="info">
-            info: The quick brown fox jumps over the lazy dog
-          </Text>
-          <Text as="body2" color="info">
-            info: The quick brown fox jumps over the lazy dog
-          </Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('neutral color', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text as="subtitle2" color="neutral">
-            neutral: The quick brown fox jumps over the lazy dog
-          </Text>
-          <Text as="body2" color="neutral">
-            neutral: The quick brown fox jumps over the lazy dog
-          </Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('success color', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text as="subtitle2" color="success">
-            success: The quick brown fox jumps over the lazy dog
-          </Text>
-          <Text as="body2" color="success">
-            success: The quick brown fox jumps over the lazy dog
-          </Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('warning color', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text as="subtitle2" color="warning">
-            warning: The quick brown fox jumps over the lazy dog
-          </Text>
-          <Text as="body2" color="warning">
-            warning: The quick brown fox jumps over the lazy dog
-          </Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('danger color', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text as="subtitle2" color="danger">
-            danger: The quick brown fox jumps over the lazy dog
-          </Text>
-          <Text as="body2" color="danger">
-            danger: The quick brown fox jumps over the lazy dog
-          </Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('bold transform', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text b>bold: The quick brown fox jumps over the lazy dog</Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('underlined transform', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text u>underlined: The quick brown fox jumps over the lazy dog</Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('italicized transform', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text i>italicized: The quick brown fox jumps over the lazy dog</Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('uppercase transform', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text uc>uppercase: The quick brown fox jumps over the lazy dog</Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('lowercase transform', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text lc>lowercase: The quick brown fox jumps over the lazy dog</Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('capitalized transform', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text cc>capitalized: The quick brown fox jumps over the lazy dog</Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('disabled transform', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text disable>disabled: The quick brown fox jumps over the lazy dog</Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('stretched transform', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text stretch>stretched: The quick brown fox jumps over the lazy dog</Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('centered transform', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <Text center>centered: The quick brown fox jumps over the lazy dog</Text>
-        </ThemeProvider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-  it('truncated transform', () => {
-    const tree = renderer
-      .create(
-        <ThemeProvider theme={orchidLight}>
-          <div style={{ width: 200 }}>
-            <Text truncate>truncated: The quick brown fox jumps over the lazy dog</Text>
-          </div>
-        </ThemeProvider>,
-      )
-      .toJSON();
+
+  it('All other forms of text', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        <Text bld>bold: The quick brown fox jumps over the lazy dog</Text>
+        <Text udl>underlined: The quick brown fox jumps over the lazy dog</Text>
+        <Text itl>italicized: The quick brown fox jumps over the lazy dog</Text>
+        <Text uc>uppercase: The quick brown fox jumps over the lazy dog</Text>
+        <Text lc>lowercase: The quick brown fox jumps over the lazy dog</Text>
+        <Text cc>capitalized: The quick brown fox jumps over the lazy dog</Text>
+        <Text dsb>disabled: The quick brown fox jumps over the lazy dog</Text>
+        <Text exd>stretched: The quick brown fox jumps over the lazy dog</Text>
+        <Text ctr>centered: The quick brown fox jumps over the lazy dog</Text>
+        <div style={{ width: 200 }}>
+          <Text tnc>truncated: The quick brown fox jumps over the lazy dog</Text>
+        </div>
+      </ThemeProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
 });

@@ -1,36 +1,36 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import { css, styled } from '@tidy-ui/theme';
 import { ITextProps } from './types';
 
 const StyledText = styled.div<ITextProps>`
-  ${({ theme: { palette, typography }, as, color, b, u, i, uc, lc, cc, disable, stretch, center, truncate }) => css`
+  ${({ theme: { palette, typography }, as, clr, bld, udl, itl, uc, lc, cc, dsb, exd, ctr, tnc }) => css`
     margin: 0;
     font-size: ${typography[as!].fontSize};
-    ${!disable &&
-    !color &&
+    ${!dsb &&
+    !clr &&
     css`
       color: ${palette.text.primary};
     `}
-    ${!b &&
+    ${!bld &&
     css`
       font-weight: ${typography[as!].fontWeight};
     `}
     letter-spacing: ${typography[as!].letterSpacing};
     line-height: ${typography[as!].lineHeight};
-    ${!disable &&
-    color &&
+    ${!dsb &&
+    clr &&
     css`
-      color: ${palette[color][600]};
+      color: ${palette[clr][600]};
     `}
-    ${b &&
+    ${bld &&
     css`
       font-weight: ${typography.fontWeightBold};
     `}
-    ${u &&
+    ${udl &&
     css`
       text-decoration: underline;
     `}
-    ${i &&
+    ${itl &&
     css`
       font-style: italic;
     `}
@@ -46,19 +46,19 @@ const StyledText = styled.div<ITextProps>`
     css`
       text-transform: capitalize;
     `}
-    ${disable &&
+    ${dsb &&
     css`
       color: ${palette.text.disabled};
     `}
-    ${stretch &&
+    ${exd &&
     css`
       width: 100%;
     `}
-    ${center &&
+    ${ctr &&
     css`
       text-align: center;
     `}
-    ${truncate &&
+    ${tnc &&
     css`
       overflow: hidden;
       text-overflow: ellipsis;
@@ -101,7 +101,7 @@ const htmlElement = (props: ITextProps) => {
   }
 };
 
-const Text = React.forwardRef<HTMLDivElement, ITextProps>((props, ref) => {
+const Text = forwardRef<HTMLDivElement, ITextProps>((props, ref) => {
   const { children, as, ...rest } = props;
   return (
     <TextRoot role="text" ref={ref} as={htmlElement({ as })} {...rest}>
@@ -112,6 +112,16 @@ const Text = React.forwardRef<HTMLDivElement, ITextProps>((props, ref) => {
 
 Text.defaultProps = {
   as: 'body2',
+  bld: false,
+  cc: false,
+  ctr: false,
+  dsb: false,
+  exd: false,
+  itl: false,
+  lc: false,
+  tnc: false,
+  uc: false,
+  udl: false,
 };
 
 export { Text };
