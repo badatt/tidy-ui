@@ -78,6 +78,11 @@ yarn add @tidy-ui/<package>
     <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/paper"></td>
   </tr>
   <tr>
+    <td>@tidy-ui/tag</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/tag"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/tag"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/tag"></td>
+  </tr>
+  <tr>
     <td>@tidy-ui/text</td>
     <td><a href="https://www.npmjs.com/package/@tidy-ui/text"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/text"></a></td>
     <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/text"></td>
