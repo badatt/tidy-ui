@@ -2,10 +2,18 @@ import React, { forwardRef } from 'react';
 import { css, styled } from '@tidy-ui/theme';
 import { IDataFieldProps } from './types';
 
+/**
+ * Internal DL component
+ *
+ */
 const DL = styled.div<IDataFieldProps>`
   margin-bottom: 1rem;
 `;
 
+/**
+ * Internal DD component
+ *
+ */
 const DD = styled.dd<IDataFieldProps>`
   ${({ theme: { palette, typography }, acc, ico }) => css`
     display: flex;
@@ -30,6 +38,10 @@ const DD = styled.dd<IDataFieldProps>`
   `}
 `;
 
+/**
+ * Internal DT component
+ *
+ */
 const DT = styled.dt<IDataFieldProps>`
   ${({ theme: { palette, typography }, clr, bld, udl, itl, dsb, ico }) => css`
     ${!dsb &&
@@ -74,6 +86,10 @@ const DT = styled.dt<IDataFieldProps>`
   `}
 `;
 
+/**
+ * Internal Icon component
+ *
+ */
 const Icon = styled.i<IDataFieldProps>`
   ${({ theme: { palette }, acc }) => css`
     display: flex;
@@ -86,6 +102,11 @@ const Icon = styled.i<IDataFieldProps>`
   `}
 `;
 
+/**
+ * DataField is used for representing a label-value pairs on a page.
+ * Powered by various styles (with theming) and settings
+ *
+ */
 const DataField = forwardRef<HTMLDivElement, IDataFieldProps>((props, ref) => {
   const { lbl, val, ico, ...rest } = props;
   return (
