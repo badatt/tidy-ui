@@ -35,7 +35,7 @@ describe('Text', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
         {colors.map((c) => (
-          <DataField clr={c as TColor} lbl={c} val={c} />
+          <DataField clr={c as TColor} lbl={c} val={c} key={c} />
         ))}
       </ThemeProvider>,
     );
