@@ -6,6 +6,7 @@ import { IAnchorProps, IButtonGroupProps, IButtonProps, IButtonToolbarProps, IIc
 /**
  * Internal root component with styles
  *
+ * @internal
  */
 const AnchorRoot = styled.a<IAnchorProps>`
   ${({ theme: { palette, isDark }, isDisabled }) => css`
@@ -28,6 +29,7 @@ const AnchorRoot = styled.a<IAnchorProps>`
 /**
  * Internal Icon component with styles
  *
+ * @internal
  */
 const AnchorIcon = styled(LaunchIcon)<IAnchorProps>`
   display: flex;
@@ -40,6 +42,7 @@ const AnchorIcon = styled(LaunchIcon)<IAnchorProps>`
 /**
  * Internal root component with styles
  *
+ * @internal
  */
 const ButtonRoot = styled.button<IButtonProps>`
   cursor: pointer;
@@ -83,6 +86,7 @@ const ButtonRoot = styled.button<IButtonProps>`
 /**
  * Internal Button's Icon component with styles
  *
+ * @internal
  */
 const ButtonIcon = styled(RotatingCircleIcon)<IButtonProps>`
   display: flex;
@@ -96,6 +100,7 @@ const ButtonIcon = styled(RotatingCircleIcon)<IButtonProps>`
 /**
  * Internal root component with styles
  *
+ * @internal
  */
 const ButtonGroupRoot = styled.div<IButtonGroupProps>`
   display: flex;
@@ -179,6 +184,7 @@ const ButtonGroupRoot = styled.div<IButtonGroupProps>`
 /**
  * Internal root component with styles
  *
+ * @internal
  */
 const ButtonToolbarRoot = styled.div<IButtonToolbarProps>`
   display: flex;
@@ -205,6 +211,7 @@ const ButtonToolbarRoot = styled.div<IButtonToolbarProps>`
 /**
  * Internal root component with styles
  *
+ * @internal
  */
 const IconButtonRoot = styled.button<IIconButtonProps>`
   display: flex;
@@ -238,6 +245,7 @@ const IconButtonRoot = styled.button<IIconButtonProps>`
 /**
  * The Wrapper component for Icon
  *
+ * @internal
  */
 const IconButtonIconWrapper = styled.span<IIconButtonProps>`
   padding: 0.4em;
@@ -246,6 +254,7 @@ const IconButtonIconWrapper = styled.span<IIconButtonProps>`
 /**
  * The Wrapper component for IconOnly type buttons
  *
+ * @internal
  */
 const IconButtonIconOnlyWrapper = styled.span<IIconButtonProps>`
   ${({ isIconOnly }) => css`
@@ -262,6 +271,7 @@ const IconButtonIconOnlyWrapper = styled.span<IIconButtonProps>`
 /**
  * Internal Icon with styles
  *
+ * @internal
  */
 const IconButtonIcon = styled.i<IIconButtonProps>`
   display: flex;
@@ -283,6 +293,7 @@ const IconButtonIcon = styled.i<IIconButtonProps>`
 /**
  * Internal component for children other than Icon
  *
+ * @internal
  */
 const IconButtonChildWrapper = styled.span<IIconButtonProps>`
   display: inline-flex;
