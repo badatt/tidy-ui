@@ -5,33 +5,32 @@ import { ITidyUIBaseTheme } from './base';
  * under this interface to build a custom theme
  *
  * @author Balu Praveen Datty <dev.badatt@gmail.com>
- *
  * @export
  * @interface ITidyUITheme
  * @typedef {ITidyUITheme}
- * @extends {ITidyUIBaseTheme}
+ * @augments {ITidyUIBaseTheme}
  */
 export interface ITidyUITheme extends ITidyUIBaseTheme {
   /**
    * Whether the theme is dark
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    *
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {boolean}
    */
   isDark: boolean;
 
   /**
    * An identifiable & meaningful name to the theme
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    *
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {string}
    */
   name: string;
 
   /**
    * Palette design that holds all color variants in this theme
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    *
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {IPalette}
    */
   palette: IPalette;
@@ -41,7 +40,6 @@ export interface ITidyUITheme extends ITidyUIBaseTheme {
  * Palette including all color variants
  *
  * @author Balu Praveen Datty <dev.badatt@gmail.com>
- *
  * @export
  * @interface IPalette
  * @typedef {IPalette}
@@ -49,16 +47,16 @@ export interface ITidyUITheme extends ITidyUIBaseTheme {
 export interface IPalette {
   /**
    * Component level background colors
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    *
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {IBackgroundColor}
    */
   background: IBackgroundColor;
 
   /**
    * Represents `failure`, `fail`, `error`, `negative`, `sad` state context
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    *
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {IColor}
    */
   danger: IColor;
@@ -67,63 +65,62 @@ export interface IPalette {
    * Color used for dividers
    *
    * @author Balu Praveen Datty <dev.badatt@gmail.com>
-   *
    * @type {string}
    */
   divider: string;
 
   /**
    * Represents `informational` state context
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    *
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {IColor}
    */
   info: IColor;
 
   /**
    * The most significant color that you want to paint in a theme
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    *
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {IColor}
    */
   major: IColor;
 
   /**
    * The second most significant color that you want to paint in a theme
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    *
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {IColor}
    */
   minor: IColor;
 
   /**
    * Represents `neutral`, `default` state context
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    *
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {IColor}
    */
   neutral: IColor;
 
   /**
    * Represents `success`, `pass`, `positive`, `happy` state context
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    *
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {IColor}
    */
   success: IColor;
 
   /**
    * Component level text colors
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    *
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {ITextColor}
    */
   text: ITextColor;
 
   /**
    * Represents `warn`, `alarm` state context
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    *
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {IColor}
    */
   warning: IColor;
@@ -131,8 +128,8 @@ export interface IPalette {
 
 /**
  * Background colors for various components
- * @author Balu Praveen Datty <dev.badatt@gmail.com>
  *
+ * @author Balu Praveen Datty <dev.badatt@gmail.com>
  * @export
  * @interface IBackgroundColor
  * @typedef {IBackgroundColor}
@@ -140,24 +137,24 @@ export interface IPalette {
 export interface IBackgroundColor {
   /**
    * Background color for `Card` component
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    *
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {string}
    */
   card: string;
 
   /**
    * Default color for other backgrounds
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    *
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {string}
    */
   default: string;
 
   /**
    * Background color for `Paper` component
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    *
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {string}
    */
   paper: string;
@@ -165,8 +162,8 @@ export interface IBackgroundColor {
 
 /**
  * Text colors for various components
- * @author Balu Praveen Datty <dev.badatt@gmail.com>
  *
+ * @author Balu Praveen Datty <dev.badatt@gmail.com>
  * @export
  * @interface ITextColor
  * @typedef {ITextColor}
@@ -174,24 +171,24 @@ export interface IBackgroundColor {
 export interface ITextColor {
   /**
    * Color to represent disabled text
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    *
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {string}
    */
   disabled: string;
 
   /**
    * Primary text color
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    *
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {string}
    */
   primary: string;
 
   /**
    * Secondary text color
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    *
+   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {string}
    */
   secondary: string;
@@ -199,8 +196,8 @@ export interface ITextColor {
 
 /**
  * Color gradient with various shades
- * @author Balu Praveen Datty <dev.badatt@gmail.com>
  *
+ * @author Balu Praveen Datty <dev.badatt@gmail.com>
  * @export
  * @interface IColor
  * @typedef {IColor}
@@ -221,8 +218,8 @@ export interface IColor {
 
 /**
  * Color contract for a hsla color representation
- * @author Balu Praveen Datty <dev.badatt@gmail.com>
  *
+ * @author Balu Praveen Datty <dev.badatt@gmail.com>
  * @export
  * @interface IHsla
  * @typedef {IHsla}

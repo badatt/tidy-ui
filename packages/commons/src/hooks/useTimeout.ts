@@ -10,6 +10,7 @@ export interface IUseTimeoutFnReturn {
 
 /**
  * Timeout a callback function
+ *
  * @param fn Timer callback function
  * @param ms Milliseconds of the timer
  * @param enabled Whether to open the timer
