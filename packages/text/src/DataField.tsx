@@ -5,6 +5,7 @@ import { IDataFieldProps } from './types';
 /**
  * Internal DL component
  *
+ * @internal
  */
 const DL = styled.div<IDataFieldProps>`
   margin-bottom: 1rem;
@@ -13,6 +14,7 @@ const DL = styled.div<IDataFieldProps>`
 /**
  * Internal DD component
  *
+ * @internal
  */
 const DD = styled.dd<IDataFieldProps>`
   ${({ theme: { palette, typography }, acc, ico }) => css`
@@ -41,6 +43,7 @@ const DD = styled.dd<IDataFieldProps>`
 /**
  * Internal DT component
  *
+ * @internal
  */
 const DT = styled.dt<IDataFieldProps>`
   ${({ theme: { palette, typography }, clr, bld, udl, itl, dsb, ico }) => css`
@@ -89,6 +92,7 @@ const DT = styled.dt<IDataFieldProps>`
 /**
  * Internal Icon component
  *
+ * @internal
  */
 const Icon = styled.i<IDataFieldProps>`
   ${({ theme: { palette }, acc }) => css`

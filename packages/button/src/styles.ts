@@ -4,6 +4,7 @@ import { IButtonProps } from './types';
 /**
  * Size styles
  *
+ * @internal
  */
 const sizeStyles = {
   lg: {
@@ -32,6 +33,7 @@ const sizeStyles = {
 /**
  * Styles for a simple type button
  *
+ * @internal
  */
 const simple = css<IButtonProps>`
   ${({ theme: { palette, isDark }, withColor, isDisabled }) => css`
@@ -50,6 +52,7 @@ const simple = css<IButtonProps>`
 /**
  * Styles for a basic type button
  *
+ * @internal
  */
 const basic = css<IButtonProps>`
   ${({ theme: { palette, isDark }, withColor, isDisabled }) => css`
@@ -71,6 +74,7 @@ const basic = css<IButtonProps>`
 /**
  * Styles for a primary button
  *
+ * @internal
  */
 const primary = css<IButtonProps>`
   ${({ theme: { palette, isDark }, withColor, isDisabled }) => css`
@@ -92,6 +96,7 @@ const primary = css<IButtonProps>`
 /**
  * Styles for an outline button
  *
+ * @internal
  */
 const outlined = css<IButtonProps>`
   ${({ theme: { palette, isDark }, withColor, isDisabled }) => css`
@@ -110,7 +115,7 @@ const outlined = css<IButtonProps>`
 /**
  * Styles for a hero type button
  *
- * @type {*}
+ * @internal
  */
 const hero = css<IButtonProps>`
   ${({ theme: { palette, isDark }, withColor, isDisabled }) => css`

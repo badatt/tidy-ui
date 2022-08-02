@@ -5,6 +5,7 @@ import { ITagGroupProps, ITagProps } from './types';
 /**
  * Internal Tag root
  *
+ * @internal
  */
 const TagRoot = styled.div<ITagProps>`
   ${({ isOutlined, withSize, isDisabled }) => css`
@@ -28,6 +29,7 @@ const TagRoot = styled.div<ITagProps>`
 /**
  * Tag icon component
  *
+ * @internal
  */
 const TagIcon = styled.i<ITagProps>`
   ${({ withSize }) => css`
@@ -40,6 +42,7 @@ const TagIcon = styled.i<ITagProps>`
 /**
  * TagGroup root component
  *
+ * @internal
  */
 const TagGroupRoot = styled.div<ITagGroupProps>`
   display: flex;
@@ -51,6 +54,7 @@ const TagGroupRoot = styled.div<ITagGroupProps>`
 /**
  * Icon embedded inside add new tag button
  *
+ * @internal
  */
 const AddNewTagIcon = styled.i<ITagGroupProps>`
   ${({ theme: { isDark, palette }, withSize, withColor }) => css`
@@ -64,6 +68,7 @@ const AddNewTagIcon = styled.i<ITagGroupProps>`
 /**
  * Input field for adding new tag
  *
+ * @internal
  */
 const NewTagInput = styled.input<ITagGroupProps>`
   ${({ theme: { isDark, palette }, withColor, withSize }) => css`
