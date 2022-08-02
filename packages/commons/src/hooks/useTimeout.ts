@@ -1,5 +1,12 @@
 import { useCallback, useEffect, useRef } from 'react';
 
+/**
+ * Actions on useTimeout
+ *
+ * @public
+ * @interface IUseTimeoutFnReturn
+ * @typedef {IUseTimeoutFnReturn}
+ */
 export interface IUseTimeoutFnReturn {
   /** Clears the current timeout */
   clear: () => void;
@@ -11,9 +18,10 @@ export interface IUseTimeoutFnReturn {
 /**
  * Timeout a callback function
  *
- * @param fn Timer callback function
- * @param ms Milliseconds of the timer
- * @param enabled Whether to open the timer
+ * @param {Function} fn Timer callback function
+ * @param {number} ms Milliseconds of the timer
+ * @param {boolean} enabled Whether to open the timer
+ * @returns {IUseTimeoutFnReturn} action on the timeout object
  */
 // eslint-disable-next-line  @typescript-eslint/no-explicit-any
 const useTimeout = (fn: ((e?: any) => void) | undefined, ms = 0, enabled = true): IUseTimeoutFnReturn => {

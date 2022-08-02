@@ -47,12 +47,18 @@
         ]
       }
     ],
-    "simple-import-sort/exports": "error"
+    "simple-import-sort/exports": "error",
+    "jsdoc/check-tag-names": ["error", { "definedTags": ["jest-environment"] }],
+    "jsdoc/no-undefined-types": [
+      "error",
+      { "definedTypes": ["HTMLSpanElement", "HTMLButtonElement", "HTMLAnchorElement", "HTMLDivElement", "JSX"] }
+    ]
   },
   "settings": {
     "jsdoc": {
       "ignorePrivate": true,
-      "ignoreInternal": true
+      "ignoreInternal": true,
+      "check-tag-names": [{ "definedTags": ["jest-environment"] }]
     }
   }
 }
