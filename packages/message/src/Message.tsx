@@ -19,7 +19,7 @@ const Message = forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
     (e: MouseEvent<HTMLElement>) => {
       onClose?.(e);
       clear();
-      if (isMounted) {
+      if (isMounted()) {
         setHidden(true);
       }
     },

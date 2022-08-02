@@ -1,11 +1,11 @@
-import { useEffect, useRef } from 'react';
+import { useCallback, useEffect, useRef } from 'react';
 
 /**
  * Checks if the current component was mounted already
  *
- * @returns {boolean} `true` if the component is mounted already
+ * @returns {Function} callback function to check if the component is mounted already
  */
-const useIsMounted = () => {
+const useIsMounted = (): (() => boolean) => {
   const isMounted = useRef(false);
 
   useEffect(() => {
@@ -15,7 +15,7 @@ const useIsMounted = () => {
     };
   }, []);
 
-  return isMounted.current;
+  return useCallback(() => isMounted.current, []);
 };
 
 export default useIsMounted;
