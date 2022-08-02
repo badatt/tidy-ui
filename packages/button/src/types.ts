@@ -16,7 +16,7 @@ import { TColor, TSize } from '@tidy-ui/types';
  * `simple` -> For ghost actions, use this if you don't want to let user notice that it exists
  * <br />
  *
- * @export
+ * @public
  * @typedef {TType}
  */
 export type TType = 'primary' | 'outlined' | 'hero' | 'basic' | 'simple';
@@ -24,7 +24,7 @@ export type TType = 'primary' | 'outlined' | 'hero' | 'basic' | 'simple';
 /**
  * Button props
  *
- * @export
+ * @public
  * @interface IButtonProps
  * @typedef {IButtonProps}
  * @augments {HTMLAttributes<HTMLButtonElement>}
@@ -89,7 +89,7 @@ export interface IButtonProps extends HTMLAttributes<HTMLButtonElement> {
 /**
  * Anchor props
  *
- * @export
+ * @public
  * @interface IAnchorProps
  * @typedef {IAnchorProps}
  * @augments {AnchorHTMLAttributes<HTMLAnchorElement>}
@@ -115,7 +115,7 @@ export interface IAnchorProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
 /**
  * IconButton props
  *
- * @export
+ * @public
  * @interface IIconButtonProps
  * @typedef {IIconButtonProps}
  * @augments {HTMLAttributes<HTMLButtonElement>}
@@ -179,7 +179,7 @@ export interface IIconButtonProps extends HTMLAttributes<HTMLButtonElement> {
 /**
  * ButtonGroup props
  *
- * @export
+ * @public
  * @interface IButtonGroupProps
  * @typedef {IButtonGroupProps}
  * @augments {HTMLAttributes<HTMLDivElement>}
@@ -222,7 +222,7 @@ export interface IButtonGroupProps extends HTMLAttributes<HTMLDivElement> {
 /**
  * ButtonToolbar props
  *
- * @export
+ * @public
  * @interface IButtonToolbarProps
  * @typedef {IButtonToolbarProps}
  * @augments {HTMLAttributes<HTMLDivElement>}

@@ -4,7 +4,7 @@ import { DefaultTheme } from 'styled-components';
  * Base theme contract
  *
  * @author Balu Praveen Datty <dev.badatt@gmail.com>
- * @export
+ * @public
  * @interface ITidyUIBaseTheme
  * @typedef {ITidyUIBaseTheme}
  * @augments {DefaultTheme}
@@ -39,7 +39,7 @@ export interface ITidyUIBaseTheme extends DefaultTheme {
  * Breakpoints contract for responsive design
  *
  * @author Balu Praveen Datty <dev.badatt@gmail.com>
- * @export
+ * @public
  * @interface IBreakpoints
  * @typedef {IBreakpoints}
  */
@@ -89,7 +89,7 @@ export interface IBreakpoints {
  * Contract for layout representation of component
  *
  * @author Balu Praveen Datty <dev.badatt@gmail.com>
- * @export
+ * @public
  * @interface ILayout
  * @typedef {ILayout}
  */
@@ -115,7 +115,7 @@ export interface ILayout {
  * Typography contract
  *
  * @author Balu Praveen Datty <dev.badatt@gmail.com>
- * @export
+ * @public
  * @interface ITypography
  * @typedef {ITypography}
  */
@@ -301,7 +301,7 @@ export interface ITypography {
  * Text contract
  *
  * @author Balu Praveen Datty <dev.badatt@gmail.com>
- * @export
+ * @public
  * @interface IText
  * @typedef {IText}
  */
