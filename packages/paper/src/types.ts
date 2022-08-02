@@ -6,7 +6,7 @@ import { HTMLAttributes } from 'react';
  * @export
  * @interface IPaperProps
  * @typedef {IPaperProps}
- * @extends {HTMLAttributes<HTMLDivElement>}
+ * @augments {HTMLAttributes<HTMLDivElement>}
  */
 export interface IPaperProps extends HTMLAttributes<HTMLDivElement> {
   /**

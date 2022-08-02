@@ -15,7 +15,7 @@ export type TSize = 'sm' | 'md' | 'lg';
  * @export
  * @interface ITagProps
  * @typedef {ITagProps}
- * @extends {HTMLAttributes<HTMLDivElement>}
+ * @augments {HTMLAttributes<HTMLDivElement>}
  */
 export interface ITagProps extends HTMLAttributes<HTMLDivElement> {
   /**
@@ -26,11 +26,12 @@ export interface ITagProps extends HTMLAttributes<HTMLDivElement> {
    */
   isDisabled?: boolean;
 
-  /** If `true`, creates outlined tag widget, it won't fill
+  /**
+   * If `true`, creates outlined tag widget, it won't fill
    *
    * @default false
    * @type {?boolean}
-   * */
+   */
   isOutlined?: boolean;
 
   /**
@@ -62,6 +63,7 @@ export interface ITagProps extends HTMLAttributes<HTMLDivElement> {
    * The size of the component
    *
    * default 'md'
+   *
    * @type {?TSize}
    */
   withSize?: TSize;
@@ -73,7 +75,7 @@ export interface ITagProps extends HTMLAttributes<HTMLDivElement> {
  * @export
  * @interface ITagGroupProps
  * @typedef {ITagGroupProps}
- * @extends {HTMLAttributes<HTMLDivElement>}
+ * @augments {HTMLAttributes<HTMLDivElement>}
  */
 export interface ITagGroupProps extends HTMLAttributes<HTMLDivElement> {
   /**
@@ -96,6 +98,7 @@ export interface ITagGroupProps extends HTMLAttributes<HTMLDivElement> {
    * The size of the add new tag button
    *
    * default 'md'
+   *
    * @type {?TSize}
    */
   withSize?: TSize;

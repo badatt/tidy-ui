@@ -27,7 +27,7 @@ export type TType = 'primary' | 'outlined' | 'hero' | 'basic' | 'simple';
  * @export
  * @interface IButtonProps
  * @typedef {IButtonProps}
- * @extends {HTMLAttributes<HTMLButtonElement>}
+ * @augments {HTMLAttributes<HTMLButtonElement>}
  */
 export interface IButtonProps extends HTMLAttributes<HTMLButtonElement> {
   /**
@@ -92,7 +92,7 @@ export interface IButtonProps extends HTMLAttributes<HTMLButtonElement> {
  * @export
  * @interface IAnchorProps
  * @typedef {IAnchorProps}
- * @extends {AnchorHTMLAttributes<HTMLAnchorElement>}
+ * @augments {AnchorHTMLAttributes<HTMLAnchorElement>}
  */
 export interface IAnchorProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
   /**
@@ -118,7 +118,7 @@ export interface IAnchorProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
  * @export
  * @interface IIconButtonProps
  * @typedef {IIconButtonProps}
- * @extends {HTMLAttributes<HTMLButtonElement>}
+ * @augments {HTMLAttributes<HTMLButtonElement>}
  */
 export interface IIconButtonProps extends HTMLAttributes<HTMLButtonElement> {
   /**
@@ -182,7 +182,7 @@ export interface IIconButtonProps extends HTMLAttributes<HTMLButtonElement> {
  * @export
  * @interface IButtonGroupProps
  * @typedef {IButtonGroupProps}
- * @extends {HTMLAttributes<HTMLDivElement>}
+ * @augments {HTMLAttributes<HTMLDivElement>}
  */
 export interface IButtonGroupProps extends HTMLAttributes<HTMLDivElement> {
   /**
@@ -225,7 +225,7 @@ export interface IButtonGroupProps extends HTMLAttributes<HTMLDivElement> {
  * @export
  * @interface IButtonToolbarProps
  * @typedef {IButtonToolbarProps}
- * @extends {HTMLAttributes<HTMLDivElement>}
+ * @augments {HTMLAttributes<HTMLDivElement>}
  */
 export interface IButtonToolbarProps extends HTMLAttributes<HTMLDivElement> {
   /**

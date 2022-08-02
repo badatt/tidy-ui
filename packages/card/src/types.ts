@@ -7,7 +7,7 @@ import { TColor } from '@tidy-ui/types';
  * @export
  * @interface ICardProps
  * @typedef {ICardProps}
- * @extends {HTMLAttributes<HTMLDivElement>}
+ * @augments {HTMLAttributes<HTMLDivElement>}
  */
 export interface ICardProps extends HTMLAttributes<HTMLDivElement> {
   /**
@@ -42,7 +42,7 @@ export interface ICardProps extends HTMLAttributes<HTMLDivElement> {
  * @export
  * @interface ICardFooterProps
  * @typedef {ICardFooterProps}
- * @extends {HTMLAttributes<HTMLDivElement>}
+ * @augments {HTMLAttributes<HTMLDivElement>}
  */
 export interface ICardFooterProps extends HTMLAttributes<HTMLDivElement> {
   /**
@@ -60,7 +60,7 @@ export interface ICardFooterProps extends HTMLAttributes<HTMLDivElement> {
  * @export
  * @interface ICardHeaderProps
  * @typedef {ICardHeaderProps}
- * @extends {HTMLAttributes<HTMLDivElement>}
+ * @augments {HTMLAttributes<HTMLDivElement>}
  */
 export interface ICardHeaderProps extends HTMLAttributes<HTMLDivElement> {
   /**

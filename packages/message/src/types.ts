@@ -18,18 +18,20 @@ export interface IMessageProps extends HTMLAttributes<HTMLDivElement> {
    */
   isOutlined?: boolean;
 
-  /** If `true`, creates sharp corners for the message widget
+  /**
+   * If `true`, creates sharp corners for the message widget
    *
    * @default false
    * @type {?boolean}
-   * */
+   */
   isSharp?: boolean;
 
-  /** If `true`, stretches the message widget to full width of the parent container
+  /**
+   * If `true`, stretches the message widget to full width of the parent container
    *
    * @default false
    * @type {?boolean}
-   * */
+   */
   isStretched?: boolean;
 
   /**

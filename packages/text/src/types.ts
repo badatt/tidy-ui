@@ -32,7 +32,7 @@ export type TAs =
  * @export
  * @interface ITextProps
  * @typedef {ITextProps}
- * @extends {HTMLAttributes<HTMLDivElement>}
+ * @augments {HTMLAttributes<HTMLDivElement>}
  */
 export interface ITextProps extends HTMLAttributes<HTMLDivElement> {
   /**
@@ -138,7 +138,7 @@ export interface ITextProps extends HTMLAttributes<HTMLDivElement> {
  * @export
  * @interface IDataFieldProps
  * @typedef {IDataFieldProps}
- * @extends {HTMLAttributes<HTMLDivElement>}
+ * @augments {HTMLAttributes<HTMLDivElement>}
  */
 export interface IDataFieldProps extends HTMLAttributes<HTMLDivElement> {
   /**

@@ -7,7 +7,7 @@ import { TColor } from '@tidy-ui/types';
  * @export
  * @interface IBadgeProps
  * @typedef {IBadgeProps}
- * @extends {HTMLAttributes<HTMLSpanElement>}
+ * @augments {HTMLAttributes<HTMLSpanElement>}
  */
 export interface IBadgeProps extends HTMLAttributes<HTMLSpanElement> {
   /**
@@ -20,6 +20,7 @@ export interface IBadgeProps extends HTMLAttributes<HTMLSpanElement> {
 
   /**
    * If `true`, the badge is a dot, no content included
+   *
    * @default false
    * @type {?boolean}
    */
@@ -27,6 +28,7 @@ export interface IBadgeProps extends HTMLAttributes<HTMLSpanElement> {
 
   /**
    * If `true`, the badge is removed
+   *
    * @default false
    * @type {?boolean}
    */
@@ -34,6 +36,7 @@ export interface IBadgeProps extends HTMLAttributes<HTMLSpanElement> {
 
   /**
    * If `true`, the badge is outlines, not filled
+   *
    * @default false
    * @type {?boolean}
    */
@@ -41,6 +44,7 @@ export interface IBadgeProps extends HTMLAttributes<HTMLSpanElement> {
 
   /**
    * If `true`, the badge is forced to show 0 even the data value is 0
+   *
    * @default false
    * @type {?boolean}
    */
@@ -48,6 +52,7 @@ export interface IBadgeProps extends HTMLAttributes<HTMLSpanElement> {
 
   /**
    * The color of the badge component
+   *
    * @default 'major'
    * @type {?TColor}
    */
@@ -63,6 +68,7 @@ export interface IBadgeProps extends HTMLAttributes<HTMLSpanElement> {
   /**
    * The maximum integer value allowed inside the badge,
    * if the data value exceeds this max value, a `+` is added as suffix
+   *
    * @default 99
    * @type {?number}
    */
