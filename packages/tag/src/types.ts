@@ -4,7 +4,7 @@ import { TColor } from '@tidy-ui/types';
 /**
  * Size variants of the tag component
  *
- * @export
+ * @public
  * @typedef {TSize}
  */
 export type TSize = 'sm' | 'md' | 'lg';
@@ -12,7 +12,7 @@ export type TSize = 'sm' | 'md' | 'lg';
 /**
  * Tag properties
  *
- * @export
+ * @public
  * @interface ITagProps
  * @typedef {ITagProps}
  * @augments {HTMLAttributes<HTMLDivElement>}
@@ -72,7 +72,7 @@ export interface ITagProps extends HTMLAttributes<HTMLDivElement> {
 /**
  * TagGroup properties
  *
- * @export
+ * @public
  * @interface ITagGroupProps
  * @typedef {ITagGroupProps}
  * @augments {HTMLAttributes<HTMLDivElement>}

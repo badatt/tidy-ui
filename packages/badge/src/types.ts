@@ -4,7 +4,7 @@ import { TColor } from '@tidy-ui/types';
 /**
  * Badge component props
  *
- * @export
+ * @public
  * @interface IBadgeProps
  * @typedef {IBadgeProps}
  * @augments {HTMLAttributes<HTMLSpanElement>}

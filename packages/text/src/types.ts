@@ -4,7 +4,7 @@ import { TColor } from '@tidy-ui/types';
 /**
  * Types of text variants
  *
- * @export
+ * @public
  * @typedef {TAs}
  */
 export type TAs =
@@ -29,7 +29,7 @@ export type TAs =
 /**
  * Text props
  *
- * @export
+ * @public
  * @interface ITextProps
  * @typedef {ITextProps}
  * @augments {HTMLAttributes<HTMLDivElement>}
@@ -135,7 +135,7 @@ export interface ITextProps extends HTMLAttributes<HTMLDivElement> {
 /**
  * DataField props
  *
- * @export
+ * @public
  * @interface IDataFieldProps
  * @typedef {IDataFieldProps}
  * @augments {HTMLAttributes<HTMLDivElement>}

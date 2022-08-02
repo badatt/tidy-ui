@@ -3,7 +3,7 @@ import { HTMLAttributes } from 'react';
 /**
  * Paper props
  *
- * @export
+ * @public
  * @interface IPaperProps
  * @typedef {IPaperProps}
  * @augments {HTMLAttributes<HTMLDivElement>}

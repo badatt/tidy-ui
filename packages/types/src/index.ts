@@ -6,7 +6,7 @@ export * from './theme/base';
  * Base theme contract
  *
  * @author Balu Praveen Datty <dev.badatt@gmail.com>
- * @export
+ * @public
  * @typedef {ITidyUIBaseTheme}
  */
 export type ITidyUIBaseTheme = IITidyUIBaseTheme;
@@ -18,7 +18,7 @@ export * from './theme/theme';
  * Theme contract
  *
  * @author Balu Praveen Datty <dev.badatt@gmail.com>
- * @export
+ * @public
  * @typedef {ITidyUITheme}
  */
 export type ITidyUITheme = IITidyUITheme;
@@ -27,7 +27,7 @@ export type ITidyUITheme = IITidyUITheme;
  * Color types for components
  *
  * @author Balu Praveen Datty <dev.badatt@gmail.com>
- * @export
+ * @public
  * @typedef {TColor}
  */
 export type TColor = 'major' | 'minor' | 'neutral' | 'info' | 'success' | 'warning' | 'danger';
@@ -36,7 +36,7 @@ export type TColor = 'major' | 'minor' | 'neutral' | 'info' | 'success' | 'warni
  * Size types for components
  *
  * @author Balu Praveen Datty <dev.badatt@gmail.com>
- * @export
+ * @public
  * @typedef {TSize}
  */
 export type TSize = 'xxs' | 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl';
@@ -45,7 +45,7 @@ export type TSize = 'xxs' | 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl';
  * Accent types for components
  *
  * @author Balu Praveen Datty <dev.badatt@gmail.com>
- * @export
+ * @public
  * @typedef {TAccent}
  */
 export type TAccent = 'major' | 'minor' | 'neutral' | 'info' | 'success' | 'warning' | 'danger';
@@ -54,7 +54,7 @@ export type TAccent = 'major' | 'minor' | 'neutral' | 'info' | 'success' | 'warn
  * Common props for Icon components
  *
  * @author Balu Praveen Datty <dev.badatt@gmail.com>
- * @export
+ * @public
  * @interface IIconProps
  * @typedef {IIconProps}
  * @augments {HTMLAttributes<HTMLDivElement>}

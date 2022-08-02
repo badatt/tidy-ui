@@ -5,7 +5,7 @@ import { ITidyUIBaseTheme } from './base';
  * under this interface to build a custom theme
  *
  * @author Balu Praveen Datty <dev.badatt@gmail.com>
- * @export
+ * @public
  * @interface ITidyUITheme
  * @typedef {ITidyUITheme}
  * @augments {ITidyUIBaseTheme}
@@ -40,7 +40,7 @@ export interface ITidyUITheme extends ITidyUIBaseTheme {
  * Palette including all color variants
  *
  * @author Balu Praveen Datty <dev.badatt@gmail.com>
- * @export
+ * @public
  * @interface IPalette
  * @typedef {IPalette}
  */
@@ -130,7 +130,7 @@ export interface IPalette {
  * Background colors for various components
  *
  * @author Balu Praveen Datty <dev.badatt@gmail.com>
- * @export
+ * @public
  * @interface IBackgroundColor
  * @typedef {IBackgroundColor}
  */
@@ -164,7 +164,7 @@ export interface IBackgroundColor {
  * Text colors for various components
  *
  * @author Balu Praveen Datty <dev.badatt@gmail.com>
- * @export
+ * @public
  * @interface ITextColor
  * @typedef {ITextColor}
  */
@@ -198,7 +198,7 @@ export interface ITextColor {
  * Color gradient with various shades
  *
  * @author Balu Praveen Datty <dev.badatt@gmail.com>
- * @export
+ * @public
  * @interface IColor
  * @typedef {IColor}
  */
@@ -220,7 +220,7 @@ export interface IColor {
  * Color contract for a hsla color representation
  *
  * @author Balu Praveen Datty <dev.badatt@gmail.com>
- * @export
+ * @public
  * @interface IHsla
  * @typedef {IHsla}
  */
