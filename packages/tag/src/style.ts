@@ -4,6 +4,7 @@ import { ITagProps } from './types';
 /**
  * Tag size variants
  *
+ * @internal
  */
 export const sizeStyles = {
   lg: {
@@ -38,6 +39,7 @@ export const sizeStyles = {
 /**
  * Filled Tag style
  *
+ * @internal
  */
 export const filledContent = css<ITagProps>`
   ${({ theme: { palette }, withColor }) => css`
@@ -49,6 +51,7 @@ export const filledContent = css<ITagProps>`
 /**
  * Outlined Tag style
  *
+ * @internal
  */
 export const outlinedContent = css<ITagProps>`
   ${({ theme: { palette, isDark }, withColor }) => css`

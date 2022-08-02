@@ -5,6 +5,7 @@ import { ITextProps } from './types';
 /**
  * Internal styled text
  *
+ * @internal
  */
 const StyledText = styled.div<ITextProps>`
   ${({ theme: { palette, typography }, as, clr, bld, udl, itl, uc, lc, cc, dsb, exd, ctr, tnc }) => css`
@@ -74,6 +75,7 @@ const StyledText = styled.div<ITextProps>`
 /**
  * Internal Text root
  *
+ * @internal
  */
 const TextRoot = ({ children, ...rest }) => <StyledText {...rest}>{children}</StyledText>;
 

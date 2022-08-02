@@ -8,6 +8,7 @@ import { IMessageProps } from './types';
 /**
  * MessageLabel icon
  *
+ * @internal
  * @param {IMessageProps} p
  */
 const MessageLabelIcon = (p: IMessageProps) => {
@@ -28,6 +29,7 @@ const MessageLabelIcon = (p: IMessageProps) => {
 /**
  * Internal Message root component
  *
+ * @internal
  */
 const MessageRoot = styled.div<IMessageProps>`
   ${({ isStretched }) => css`
@@ -44,6 +46,7 @@ const closeButtonColor = (isDark: boolean, palette: IPalette, color: string) => 
 /**
  * CloseButton component
  *
+ * @internal
  */
 const CloseButton = styled.i<IMessageProps>`
   ${({ theme: { palette, isDark }, withColor, isOutlined }) => css`
@@ -69,6 +72,7 @@ const CloseButton = styled.i<IMessageProps>`
 /**
  * Message widget label component
  *
+ * @internal
  */
 const MessageLabel = styled.div<IMessageProps>`
   ${({ theme: { layout, typography }, isSharp, isOutlined }) => css`
@@ -94,6 +98,7 @@ const MessageLabel = styled.div<IMessageProps>`
 /**
  * MessageContent component
  *
+ * @internal
  */
 const MessageContent = styled.div<IMessageProps>`
   ${({ theme: { layout }, isSharp, isStretched, withoutLabel, isOutlined }) => css`
@@ -111,6 +116,7 @@ const MessageContent = styled.div<IMessageProps>`
 /**
  * Message header component
  *
+ * @internal
  */
 const Header = styled.div<IMessageProps>`
   ${({ theme: { typography } }) => css`

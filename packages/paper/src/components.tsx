@@ -4,6 +4,7 @@ import { IPaperProps } from './types';
 /**
  * Paper root component
  *
+ * @internal
  */
 const PaperRoot = styled.section<IPaperProps>`
   ${({ theme, isSharp }) => css`

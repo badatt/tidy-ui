@@ -1,6 +1,11 @@
 import { css, hsla } from '@tidy-ui/theme';
 import { IMessageProps } from './types';
 
+/**
+ * Filled label styles
+ *
+ * @internal
+ */
 const filledLabel = css<IMessageProps>`
   ${({ theme: { palette }, withColor }) => css`
     background-color: ${palette[withColor!][600]};
@@ -8,6 +13,11 @@ const filledLabel = css<IMessageProps>`
   `}
 `;
 
+/**
+ * Outlined label styles
+ *
+ * @internal
+ */
 const outlinedLabel = css<IMessageProps>`
   ${({ theme: { palette, isDark }, withColor }) => css`
     color: ${isDark ? palette[withColor!][400] : palette[withColor!][600]};
@@ -17,6 +27,11 @@ const outlinedLabel = css<IMessageProps>`
   `}
 `;
 
+/**
+ * Filled content styles
+ *
+ * @internal
+ */
 const filledContent = css<IMessageProps>`
   ${({ theme: { palette }, withColor }) => css`
     background-color: ${palette[withColor!][500]};
@@ -24,6 +39,11 @@ const filledContent = css<IMessageProps>`
   `}
 `;
 
+/**
+ * Outlined content styles
+ *
+ * @internal
+ */
 const outlinedContent = css<IMessageProps>`
   ${({ theme: { palette, isDark }, withColor }) => css`
     color: ${isDark ? palette[withColor!][400] : palette[withColor!][600]};

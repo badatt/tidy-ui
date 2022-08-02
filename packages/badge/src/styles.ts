@@ -5,7 +5,7 @@ import { IBadgeProps } from './types';
 /**
  * Creates a blink effect
  *
- * @returns {*}
+ * @internal
  */
 const blinkingEffect = () => {
   return keyframes`
@@ -18,6 +18,7 @@ const blinkingEffect = () => {
 /**
  * Filed badge color and its background
  *
+ * @internal
  */
 const filledBadgeColor = css<IBadgeProps>`
   ${({ theme: { palette }, withColor }) => css`
@@ -29,6 +30,7 @@ const filledBadgeColor = css<IBadgeProps>`
 /**
  * Outline badge color and its background
  *
+ * @internal
  */
 const outlineBadgeColor = css<IBadgeProps>`
   ${({ theme: { palette, isDark }, withColor }) => css`
@@ -41,6 +43,7 @@ const outlineBadgeColor = css<IBadgeProps>`
 /**
  * Badge base styles
  *
+ * @internal
  */
 const badgeBase = css<IBadgeProps>`
   ${({ isBlinking }) => css`
@@ -62,6 +65,7 @@ const badgeBase = css<IBadgeProps>`
 /**
  * Standard badge styles
  *
+ * @internal
  */
 const standardBadge = css<IBadgeProps>`
   ${({ withData, isOutlined }) => css`
@@ -85,6 +89,7 @@ const standardBadge = css<IBadgeProps>`
 /**
  * Dot badge styles
  *
+ * @internal
  */
 const dotBadge = css<IBadgeProps>`
   &::after {

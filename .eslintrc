@@ -4,12 +4,13 @@
     "node": true
   },
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint", "react", "simple-import-sort", "typescript-sort-keys", "sort-keys"],
+  "plugins": ["@typescript-eslint", "react", "simple-import-sort", "typescript-sort-keys", "sort-keys", "jsdoc"],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:jsonc/recommended-with-jsonc"
+    "plugin:jsonc/recommended-with-jsonc",
+    "plugin:jsdoc/recommended"
   ],
   "rules": {
     "sort-keys": 0, // disable default eslint sort-keys
@@ -47,5 +48,11 @@
       }
     ],
     "simple-import-sort/exports": "error"
+  },
+  "settings": {
+    "jsdoc": {
+      "ignorePrivate": true,
+      "ignoreInternal": true
+    }
   }
 }

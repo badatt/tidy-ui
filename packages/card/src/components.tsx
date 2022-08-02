@@ -5,6 +5,7 @@ import { ICardHeaderProps, ICardProps } from './types';
 /**
  * Internal CardHeader root component
  *
+ * @internal
  */
 const CardHeaderRoot = styled.header<ICardHeaderProps>`
   ${({ theme: { typography, palette }, isDivided }) => css`
@@ -25,6 +26,7 @@ const CardHeaderRoot = styled.header<ICardHeaderProps>`
 /**
  * Internal styled anchor tag
  *
+ * @internal
  */
 const Link = styled.a`
   display: none;
@@ -38,6 +40,7 @@ const Link = styled.a`
 /**
  * Internal styled LaunchIcon
  *
+ * @internal
  */
 const Icon = styled(LaunchIcon)<ICardHeaderProps>`
   ${({ theme: { palette, isDark } }) => css`
@@ -53,6 +56,7 @@ const Icon = styled(LaunchIcon)<ICardHeaderProps>`
 /**
  * Internal Card root component
  *
+ * @internal
  */
 const CardRoot = styled.section<ICardProps>`
   ${({ theme: { palette, layout }, isSharp, withAccent, withHref }) => css`
