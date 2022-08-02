@@ -28,14 +28,6 @@ Object {
   border-radius: 0.5rem;
 }
 
-.c2 {
-  padding: 0.5rem 1rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .c3 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -45,6 +37,14 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+}
+
+.c2 {
+  padding: 0.5rem 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <body>
@@ -95,14 +95,6 @@ Object {
   border-radius: 0.5rem;
 }
 
-.c2 {
-  padding: 0.5rem 1rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .c3 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -112,6 +104,14 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+}
+
+.c2 {
+  padding: 0.5rem 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <div>
@@ -239,14 +239,6 @@ Object {
   display: block;
 }
 
-.c5 {
-  padding: 0.5rem 1rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .c6 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -256,6 +248,14 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+}
+
+.c5 {
+  padding: 0.5rem 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <body>
@@ -346,14 +346,6 @@ Object {
   display: block;
 }
 
-.c5 {
-  padding: 0.5rem 1rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .c6 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -363,6 +355,14 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+}
+
+.c5 {
+  padding: 0.5rem 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <div>
@@ -501,14 +501,6 @@ Object {
   margin-bottom: 1.875rem;
 }
 
-.c2 {
-  padding: 0.5rem 1rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .c3 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -519,6 +511,14 @@ Object {
   padding-bottom: 1rem;
   padding-left: 1rem;
   border-top: 1px solid hsla(214,32%,91%,1);
+}
+
+.c2 {
+  padding: 0.5rem 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <body>
@@ -603,14 +603,6 @@ Object {
   margin-bottom: 1.875rem;
 }
 
-.c2 {
-  padding: 0.5rem 1rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .c3 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -621,6 +613,14 @@ Object {
   padding-bottom: 1rem;
   padding-left: 1rem;
   border-top: 1px solid hsla(214,32%,91%,1);
+}
+
+.c2 {
+  padding: 0.5rem 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <div>
@@ -888,14 +888,6 @@ Object {
   display: block;
 }
 
-.c5 {
-  padding: 0.5rem 1rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .c6 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -905,6 +897,14 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+}
+
+.c5 {
+  padding: 0.5rem 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <body>
@@ -1338,14 +1338,6 @@ Object {
   display: block;
 }
 
-.c5 {
-  padding: 0.5rem 1rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .c6 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1355,6 +1347,14 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+}
+
+.c5 {
+  padding: 0.5rem 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <div>
@@ -1699,14 +1699,6 @@ Object {
   margin-bottom: 1.875rem;
 }
 
-.c2 {
-  padding: 0.5rem 1rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .c3 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1716,6 +1708,14 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+}
+
+.c2 {
+  padding: 0.5rem 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <body>
@@ -1765,14 +1765,6 @@ Object {
   margin-bottom: 1.875rem;
 }
 
-.c2 {
-  padding: 0.5rem 1rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .c3 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1782,6 +1774,14 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+}
+
+.c2 {
+  padding: 0.5rem 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <div>
@@ -1888,14 +1888,6 @@ Object {
   cursor: pointer;
 }
 
-.c2 {
-  padding: 0.5rem 1rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .c3 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1905,6 +1897,14 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+}
+
+.c2 {
+  padding: 0.5rem 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <body>
@@ -1960,14 +1960,6 @@ Object {
   cursor: pointer;
 }
 
-.c2 {
-  padding: 0.5rem 1rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .c3 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1977,6 +1969,14 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+}
+
+.c2 {
+  padding: 0.5rem 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 <div>
