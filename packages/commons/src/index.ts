@@ -16,7 +16,6 @@ export { default as WarningIcon } from './icons/WarningIcon';
 /** hooks */
 export { default as useEscaper } from './hooks/useEscaper';
 export { default as useHash } from './hooks/useHash';
-export { default as useIdGen } from './hooks/useIdGen';
 export { default as useIsMounted } from './hooks/useIsMounted';
 export { default as useTheme } from './hooks/useTheme';
 export { default as useTimeout } from './hooks/useTimeout';
