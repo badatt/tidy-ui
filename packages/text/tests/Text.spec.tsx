@@ -46,6 +46,15 @@ describe('Text', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('With no children', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        <Text />
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
   it('All types of texts', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>

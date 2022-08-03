@@ -1,4 +1,5 @@
 /* eslint-disable */
+/* istanbul ignore file */
 
 /**
  *
@@ -344,4 +345,4 @@ const MD5 = function (string) {
   return finalValue.toLowerCase();
 };
 
-export default MD5;
+module.exports = MD5;

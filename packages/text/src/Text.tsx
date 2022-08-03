@@ -1,10 +1,10 @@
 import React, { forwardRef } from 'react';
-import { LinkIcon, useIdGen } from '@tidy-ui/commons';
+import { LinkIcon, useHash } from '@tidy-ui/commons';
 import { css, styled } from '@tidy-ui/theme';
 import { ITextProps } from './types';
 
 const Icon = styled(LinkIcon)`
-  display: inline-block;
+  display: none;
   cursor: pointer;
   height: 0.8em;
   width: 0.8em;
@@ -133,12 +133,11 @@ const htmlElement = (props: ITextProps) => {
  *
  */
 const Text = forwardRef<HTMLDivElement, ITextProps>((props, ref) => {
-  const { children, as, ...rest } = props;
+  const { children, id, as, ...rest } = props;
   const ele = htmlElement({ as });
-  const id = useIdGen(children?.toString());
-  console.log({ id });
+  const generatedId = useHash(children?.toString(), { maxLen: 8 });
   return (
-    <TextRoot role="text" ref={ref} as={ele} {...rest}>
+    <TextRoot role="text" ref={ref} as={ele} {...rest} id={id || generatedId}>
       {children}
       {['h1', 'h2', 'h3', 'h4', 'h5', 'h6'].includes(ele) && <Icon />}
     </TextRoot>
