@@ -1,4 +1,5 @@
 /* eslint-disable */
+/* istanbul ignore file */
 
 /**
  *
@@ -142,4 +143,4 @@ function SHA1(msg) {
   return finalValue.toLowerCase();
 }
 
-export default SHA1;
+module.exports = SHA1;
