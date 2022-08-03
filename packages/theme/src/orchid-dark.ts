@@ -1,6 +1,6 @@
 import { ITidyUITheme } from '@tidy-ui/types';
+import { defaultBase } from './base';
 import { paletteVariant } from './orchid-light';
-import { defaultBase } from '.';
 
 export const theme: ITidyUITheme = {
   isDark: true,

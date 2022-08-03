@@ -1,14 +1,26 @@
 import React, { forwardRef } from 'react';
+import { LinkIcon, useIdGen } from '@tidy-ui/commons';
 import { css, styled } from '@tidy-ui/theme';
 import { ITextProps } from './types';
+
+const Icon = styled(LinkIcon)`
+  display: inline-block;
+  cursor: pointer;
+  height: 0.8em;
+  width: 0.8em;
+  transform: translate(0, 0.175em) rotate(-45deg);
+  opacity: 0.6;
+  margin-left: 0.2em;
+`;
 
 /**
  * Internal styled text
  *
  * @internal
  */
-const StyledText = styled.div<ITextProps>`
+const TextRoot = styled.div<ITextProps>`
   ${({ theme: { palette, typography }, as, clr, bld, udl, itl, uc, lc, cc, dsb, exd, ctr, tnc }) => css`
+    display: block;
     margin: 0;
     font-size: ${typography[as!].fontSize};
     ${!dsb &&
@@ -69,6 +81,10 @@ const StyledText = styled.div<ITextProps>`
       text-overflow: ellipsis;
       white-space: nowrap;
     `}
+
+    &:hover ${Icon} {
+      display: inline-block;
+    }
   `}
 `;
 
@@ -77,7 +93,7 @@ const StyledText = styled.div<ITextProps>`
  *
  * @internal
  */
-const TextRoot = ({ children, ...rest }) => <StyledText {...rest}>{children}</StyledText>;
+//const TextRoot = ({ children, ...rest }) => <StyledText {...rest}>{children}</StyledText>;
 
 const htmlElement = (props: ITextProps) => {
   switch (props.as) {
@@ -118,9 +134,13 @@ const htmlElement = (props: ITextProps) => {
  */
 const Text = forwardRef<HTMLDivElement, ITextProps>((props, ref) => {
   const { children, as, ...rest } = props;
+  const ele = htmlElement({ as });
+  const id = useIdGen(children?.toString());
+  console.log({ id });
   return (
-    <TextRoot role="text" ref={ref} as={htmlElement({ as })} {...rest}>
+    <TextRoot role="text" ref={ref} as={ele} {...rest}>
       {children}
+      {['h1', 'h2', 'h3', 'h4', 'h5', 'h6'].includes(ele) && <Icon />}
     </TextRoot>
   );
 });
