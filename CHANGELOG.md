@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.12](https://github.com/badatt/tidy-ui/compare/v0.2.11...v0.2.12) (2022-08-04)
+
+
+### Bug Fixes
+
+* escaper regex fix ([186d661](https://github.com/badatt/tidy-ui/commit/186d66178bc0d55008fc68e588e17392b7b5393f))
+
+
+### Features
+
+* text with link ([2882682](https://github.com/badatt/tidy-ui/commit/2882682de746cee0436926ebd44836b939cc26ef))
+* useEscaper, useHash, useIdGen hooks ([c5c770d](https://github.com/badatt/tidy-ui/commit/c5c770d0139dcaaa02cd60b4a4b19193357857bb))
+
+
+
+
+
 ## [0.2.11](https://github.com/badatt/tidy-ui/compare/v0.2.10...v0.2.11) (2022-08-02)
 
 **Note:** Version bump only for package tidy-ui
