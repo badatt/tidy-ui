@@ -3,7 +3,6 @@ import { DefaultTheme } from 'styled-components';
 /**
  * Base theme contract
  *
- * @author Balu Praveen Datty <dev.badatt@gmail.com>
  * @public
  * @interface ITidyUIBaseTheme
  * @typedef {ITidyUIBaseTheme}
@@ -13,7 +12,6 @@ export interface ITidyUIBaseTheme extends DefaultTheme {
   /**
    * Breakpoints for responsive design
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {IBreakpoints}
    */
   breakpoints: IBreakpoints;
@@ -21,7 +19,6 @@ export interface ITidyUIBaseTheme extends DefaultTheme {
   /**
    * Layout configuration
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {ILayout}
    */
   layout: ILayout;
@@ -29,7 +26,6 @@ export interface ITidyUIBaseTheme extends DefaultTheme {
   /**
    * Typography configuration
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {ITypography}
    */
   typography: ITypography;
@@ -38,7 +34,6 @@ export interface ITidyUIBaseTheme extends DefaultTheme {
 /**
  * Breakpoints contract for responsive design
  *
- * @author Balu Praveen Datty <dev.badatt@gmail.com>
  * @public
  * @interface IBreakpoints
  * @typedef {IBreakpoints}
@@ -47,7 +42,6 @@ export interface IBreakpoints {
   /**
    * Full HD monitors, HD laptop screens width breakpoint
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {number}
    */
   lg: number;
@@ -55,7 +49,6 @@ export interface IBreakpoints {
   /**
    * PC, Laptop, Notebook, Mac or standard monitor width breakpoint
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {number}
    */
   md: number;
@@ -63,7 +56,6 @@ export interface IBreakpoints {
   /**
    * Tablets screen width breakpoint
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {number}
    */
   sm: number;
@@ -71,7 +63,6 @@ export interface IBreakpoints {
   /**
    * TV, Ultra HD, 4K screen width breakpoint
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {number}
    */
   xl: number;
@@ -79,7 +70,6 @@ export interface IBreakpoints {
   /**
    * Mobile screen width breakpoint
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {number}
    */
   xs: number;
@@ -88,7 +78,6 @@ export interface IBreakpoints {
 /**
  * Contract for layout representation of component
  *
- * @author Balu Praveen Datty <dev.badatt@gmail.com>
  * @public
  * @interface ILayout
  * @typedef {ILayout}
@@ -97,7 +86,6 @@ export interface ILayout {
   /**
    * Border radius if any
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {string}
    */
   radius: string;
@@ -105,7 +93,6 @@ export interface ILayout {
   /**
    * Shadow configuration
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {string}
    */
   shadow: string;
@@ -114,7 +101,6 @@ export interface ILayout {
 /**
  * Typography contract
  *
- * @author Balu Praveen Datty <dev.badatt@gmail.com>
  * @public
  * @interface ITypography
  * @typedef {ITypography}
@@ -123,7 +109,6 @@ export interface ITypography {
   /**
    * Primary variant for body text
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {IText}
    */
   body1: IText;
@@ -131,7 +116,6 @@ export interface ITypography {
   /**
    * Secondary variant for body text
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {IText}
    */
   body2: IText;
@@ -139,7 +123,6 @@ export interface ITypography {
   /**
    * Caption text, usually used to represent image caption, table caption etc.
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {IText}
    */
   caption: IText;
@@ -147,7 +130,6 @@ export interface ITypography {
   /**
    * A code like text variant
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {IText}
    */
   code: IText;
@@ -155,7 +137,6 @@ export interface ITypography {
   /**
    * Default font size for a component
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {string}
    */
   fontSize: string;
@@ -163,7 +144,6 @@ export interface ITypography {
   /**
    * Default bold font weight value
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {number}
    */
   fontWeightBold: number;
@@ -171,7 +151,6 @@ export interface ITypography {
   /**
    * Default light weight font value
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {number}
    */
   fontWeightLight: number;
@@ -179,7 +158,6 @@ export interface ITypography {
   /**
    * Default medium font weight value
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {number}
    */
   fontWeightMedium: number;
@@ -187,7 +165,6 @@ export interface ITypography {
   /**
    * Default regular font weight value
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {number}
    */
   fontWeightRegular: number;
@@ -195,7 +172,6 @@ export interface ITypography {
   /**
    * Most significant titles, similar to hero. Represent `h1` tag in html
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {IText}
    */
   h1: IText;
@@ -203,7 +179,6 @@ export interface ITypography {
   /**
    * Represent `h2` tag in html
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {IText}
    */
   h2: IText;
@@ -211,7 +186,6 @@ export interface ITypography {
   /**
    * Represent `h3` tag in html
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {IText}
    */
   h3: IText;
@@ -219,7 +193,6 @@ export interface ITypography {
   /**
    * Represent `h4` tag in html
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {IText}
    */
   h4: IText;
@@ -227,7 +200,6 @@ export interface ITypography {
   /**
    * Represent `h5` tag in html
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {IText}
    */
   h5: IText;
@@ -235,7 +207,6 @@ export interface ITypography {
   /**
    * Represent `h6` tag in html
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {IText}
    */
   h6: IText;
@@ -243,7 +214,6 @@ export interface ITypography {
   /**
    * Hero is the most significant in a theme, with highest typographical values
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {IText}
    */
   hero: IText;
@@ -251,7 +221,6 @@ export interface ITypography {
   /**
    * Paragraph text variant
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {IText}
    */
   p: IText;
@@ -259,7 +228,6 @@ export interface ITypography {
   /**
    * Text to represent labels, short text etc
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {IText}
    */
   span: IText;
@@ -267,7 +235,6 @@ export interface ITypography {
   /**
    * Primary variant of subtitles
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {IText}
    */
   subtitle1: IText;
@@ -275,7 +242,6 @@ export interface ITypography {
   /**
    * Secondary variant of subtitles
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {IText}
    */
   subtitle2: IText;
@@ -283,7 +249,6 @@ export interface ITypography {
   /**
    * Primary variant for Main titles
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {IText}
    */
   title1: IText;
@@ -291,7 +256,6 @@ export interface ITypography {
   /**
    * Secondary variant for Main titles
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {IText}
    */
   title2: IText;
@@ -300,7 +264,6 @@ export interface ITypography {
 /**
  * Text contract
  *
- * @author Balu Praveen Datty <dev.badatt@gmail.com>
  * @public
  * @interface IText
  * @typedef {IText}
@@ -309,7 +272,6 @@ export interface IText {
   /**
    * Font size, represent `font-size` in css
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {(number | string)}
    */
   fontSize: string;
@@ -317,7 +279,6 @@ export interface IText {
   /**
    * Font weight, represent `font-weight` in css
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {(number | string)}
    */
   fontWeight: number | string;
@@ -325,7 +286,6 @@ export interface IText {
   /**
    * Letter spacing, represent `letter-spacing` in css
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {(number | string)}
    */
   letterSpacing: string;
@@ -333,7 +293,6 @@ export interface IText {
   /**
    * Line height, represent `line-height` in css
    *
-   * @author Balu Praveen Datty <dev.badatt@gmail.com>
    * @type {(number | string)}
    */
   lineHeight: number;

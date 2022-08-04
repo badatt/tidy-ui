@@ -1,110 +1,6 @@
 import React, { forwardRef } from 'react';
-import { css, styled } from '@tidy-ui/theme';
+import { DataFieldIcon, DD, DL, DT } from './components';
 import { IDataFieldProps } from './types';
-
-/**
- * Internal DL component
- *
- * @internal
- */
-const DL = styled.div<IDataFieldProps>`
-  margin-bottom: 1rem;
-`;
-
-/**
- * Internal DD component
- *
- * @internal
- */
-const DD = styled.dd<IDataFieldProps>`
-  ${({ theme: { palette, typography }, acc, ico }) => css`
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    margin: 0;
-    font-weight: ${typography.fontWeightBold};
-    font-size: 0.625rem;
-    text-transform: uppercase;
-    color: ${palette.text.secondary};
-    letter-spacing: 0.05em;
-    ${!ico &&
-    css`
-      &::before {
-        content: '';
-        height: 0.625rem;
-        width: 2px;
-        margin-right: 0.25rem;
-        background-color: ${palette[acc!][600]};
-      }
-    `}
-  `}
-`;
-
-/**
- * Internal DT component
- *
- * @internal
- */
-const DT = styled.dt<IDataFieldProps>`
-  ${({ theme: { palette, typography }, clr, bld, udl, itl, dsb, ico }) => css`
-    ${!dsb &&
-    !clr &&
-    css`
-      color: ${palette.text.primary};
-    `}
-    ${!ico &&
-    css`
-      margin-left: 0.125rem;
-    `}
-    font-size: 0.875rem;
-    ${!bld &&
-    css`
-      font-weight: ${typography.fontWeightMedium};
-    `}
-    ${!dsb &&
-    clr &&
-    css`
-      color: ${palette[clr][600]};
-    `}
-    ${bld &&
-    css`
-      font-weight: ${typography.fontWeightBold};
-    `}
-    ${udl &&
-    css`
-      text-decoration: underline;
-    `}
-    ${itl &&
-    css`
-      font-style: italic;
-    `}
-    ${dsb &&
-    css`
-      color: ${palette.text.disabled};
-    `}
-    ${ico &&
-    css`
-      margin-left: 0.875rem;
-    `}
-  `}
-`;
-
-/**
- * Internal Icon component
- *
- * @internal
- */
-const Icon = styled.i<IDataFieldProps>`
-  ${({ theme: { palette }, acc }) => css`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 0.625rem;
-    width: 0.625rem;
-    margin-right: 0.25rem;
-    color: ${palette[acc!][600]};
-  `}
-`;
 
 /**
  * DataField is used for representing a label-value pairs on a page.
@@ -116,7 +12,7 @@ const DataField = forwardRef<HTMLDivElement, IDataFieldProps>((props, ref) => {
   return (
     <DL ref={ref} role="data-field">
       <DD {...rest} ico={ico}>
-        {ico && <Icon {...props}>{ico}</Icon>}
+        {ico && <DataFieldIcon {...props}>{ico}</DataFieldIcon>}
         {lbl}
       </DD>
       <DT {...rest} ico={ico}>

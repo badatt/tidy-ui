@@ -1,7 +1,6 @@
-import React from 'react';
-import { IIconProps } from '@tidy-ui/types';
+import React, { HTMLAttributes } from 'react';
 
-export default (props: IIconProps): JSX.Element => (
+export default (props: HTMLAttributes<SVGElement>): JSX.Element => (
   <svg
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
@@ -11,7 +10,7 @@ export default (props: IIconProps): JSX.Element => (
     viewBox="0 0 100 100"
     enableBackground="new 0 0 0 0"
     xmlSpace="preserve"
-    className={props.className}
+    {...props}
   >
     <path
       fill="currentColor"
