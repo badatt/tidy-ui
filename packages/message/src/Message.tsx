@@ -40,7 +40,7 @@ const Message = forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
       )}
       {isClosable && (
         <CloseButton onClick={handleClose} {...rest} role="close-btn">
-          <CancelIcon outlined />
+          <CancelIcon isOutlined />
         </CloseButton>
       )}
       <MessageContent {...rest}>

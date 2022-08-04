@@ -98,49 +98,42 @@ Object {
     <div>
       <p
         class="c0"
-        id="9f40fc19"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
         class="c1"
-        id="9f40fc19"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
         class="c2"
-        id="9f40fc19"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
         class="c3"
-        id="9f40fc19"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
         class="c4"
-        id="9f40fc19"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
         class="c5"
-        id="9f40fc19"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
         class="c6"
-        id="9f40fc19"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
@@ -241,49 +234,42 @@ Object {
 <div>
     <p
       class="c0"
-      id="9f40fc19"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
       class="c1"
-      id="9f40fc19"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
       class="c2"
-      id="9f40fc19"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
       class="c3"
-      id="9f40fc19"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
       class="c4"
-      id="9f40fc19"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
       class="c5"
-      id="9f40fc19"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
       class="c6"
-      id="9f40fc19"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
@@ -346,7 +332,39 @@ Object {
 exports[`Text All other forms of text 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c0 {
+  "baseElement": .c3 {
+  height: 0.8em;
+  width: 0.8em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
+}
+
+.c2 {
+  display: none;
+  cursor: pointer;
+  opacity: 0.6;
+  margin-left: 0.2em;
+}
+
+.c0 {
+  display: block;
+  margin: 0;
+  font-size: 1.5rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.334;
+}
+
+.c0:hover .c1 {
+  display: inline-block;
+}
+
+.c4 {
   display: block;
   margin: 0;
   font-size: 1rem;
@@ -359,7 +377,11 @@ Object {
   font-weight: 700;
 }
 
-.c1 {
+.c4:hover .c1 {
+  display: inline-block;
+}
+
+.c5 {
   display: block;
   margin: 0;
   font-size: 1rem;
@@ -374,7 +396,11 @@ Object {
   text-decoration: underline;
 }
 
-.c2 {
+.c5:hover .c1 {
+  display: inline-block;
+}
+
+.c6 {
   display: block;
   margin: 0;
   font-size: 1rem;
@@ -388,59 +414,8 @@ Object {
   font-style: italic;
 }
 
-.c3 {
-  display: block;
-  margin: 0;
-  font-size: 1rem;
-  color: hsla(217,33%,17%,1);
-  font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
-  text-transform: uppercase;
-}
-
-.c4 {
-  display: block;
-  margin: 0;
-  font-size: 1rem;
-  color: hsla(217,33%,17%,1);
-  font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
-  text-transform: lowercase;
-}
-
-.c5 {
-  display: block;
-  margin: 0;
-  font-size: 1rem;
-  color: hsla(217,33%,17%,1);
-  font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
-  text-transform: capitalize;
-}
-
-.c6 {
-  display: block;
-  margin: 0;
-  font-size: 1rem;
-  font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
-  color: hsla(0,0%,0%,0.38);
+.c6:hover .c1 {
+  display: inline-block;
 }
 
 .c7 {
@@ -454,7 +429,11 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
-  width: 100%;
+  text-transform: uppercase;
+}
+
+.c7:hover .c1 {
+  display: inline-block;
 }
 
 .c8 {
@@ -468,10 +447,85 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
-  text-align: center;
+  text-transform: lowercase;
+}
+
+.c8:hover .c1 {
+  display: inline-block;
 }
 
 .c9 {
+  display: block;
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+
+.c9:hover .c1 {
+  display: inline-block;
+}
+
+.c10 {
+  display: block;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(0,0%,0%,0.38);
+}
+
+.c10:hover .c1 {
+  display: inline-block;
+}
+
+.c11 {
+  display: block;
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  width: 100%;
+}
+
+.c11:hover .c1 {
+  display: inline-block;
+}
+
+.c12 {
+  display: block;
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.c12:hover .c1 {
+  display: inline-block;
+}
+
+.c13 {
   display: block;
   margin: 0;
   font-size: 1rem;
@@ -487,67 +541,86 @@ Object {
   white-space: nowrap;
 }
 
+.c13:hover .c1 {
+  display: inline-block;
+}
+
 <body>
     <div>
-      <p
+      <h5
         class="c0"
-        id="10875d0d"
+        role="text"
+      >
+        Linked: The quick brown fox jumps over the lazy dog
+        <a
+          class="c1 c2"
+          href="https://google.com"
+          role="text-link"
+        >
+          <svg
+            aria-hidden="true"
+            class="c3"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+            />
+          </svg>
+        </a>
+      </h5>
+      <p
+        class="c4"
         role="text"
       >
         bold: The quick brown fox jumps over the lazy dog
       </p>
       <p
-        class="c1"
-        id="df0ed3cf"
+        class="c5"
         role="text"
       >
         underlined: The quick brown fox jumps over the lazy dog
       </p>
       <p
-        class="c2"
-        id="0d801bb6"
+        class="c6"
         role="text"
       >
         italicized: The quick brown fox jumps over the lazy dog
       </p>
       <p
-        class="c3"
-        id="faf68f7f"
+        class="c7"
         role="text"
       >
         uppercase: The quick brown fox jumps over the lazy dog
       </p>
       <p
-        class="c4"
-        id="9ae149c0"
+        class="c8"
         role="text"
       >
         lowercase: The quick brown fox jumps over the lazy dog
       </p>
       <p
-        class="c5"
-        id="d59de92d"
+        class="c9"
         role="text"
       >
         capitalized: The quick brown fox jumps over the lazy dog
       </p>
       <p
-        class="c6"
-        id="c209f9e7"
+        class="c10"
         role="text"
       >
         disabled: The quick brown fox jumps over the lazy dog
       </p>
       <p
-        class="c7"
-        id="416dbd95"
+        class="c11"
         role="text"
       >
         stretched: The quick brown fox jumps over the lazy dog
       </p>
       <p
-        class="c8"
-        id="dd5ddd16"
+        class="c12"
         role="text"
       >
         centered: The quick brown fox jumps over the lazy dog
@@ -556,8 +629,7 @@ Object {
         style="width: 200px;"
       >
         <p
-          class="c9"
-          id="849ae361"
+          class="c13"
           role="text"
         >
           truncated: The quick brown fox jumps over the lazy dog
@@ -565,7 +637,39 @@ Object {
       </div>
     </div>
   </body>,
-  "container": .c0 {
+  "container": .c3 {
+  height: 0.8em;
+  width: 0.8em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
+}
+
+.c2 {
+  display: none;
+  cursor: pointer;
+  opacity: 0.6;
+  margin-left: 0.2em;
+}
+
+.c0 {
+  display: block;
+  margin: 0;
+  font-size: 1.5rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.334;
+}
+
+.c0:hover .c1 {
+  display: inline-block;
+}
+
+.c4 {
   display: block;
   margin: 0;
   font-size: 1rem;
@@ -578,7 +682,11 @@ Object {
   font-weight: 700;
 }
 
-.c1 {
+.c4:hover .c1 {
+  display: inline-block;
+}
+
+.c5 {
   display: block;
   margin: 0;
   font-size: 1rem;
@@ -593,7 +701,11 @@ Object {
   text-decoration: underline;
 }
 
-.c2 {
+.c5:hover .c1 {
+  display: inline-block;
+}
+
+.c6 {
   display: block;
   margin: 0;
   font-size: 1rem;
@@ -607,59 +719,8 @@ Object {
   font-style: italic;
 }
 
-.c3 {
-  display: block;
-  margin: 0;
-  font-size: 1rem;
-  color: hsla(217,33%,17%,1);
-  font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
-  text-transform: uppercase;
-}
-
-.c4 {
-  display: block;
-  margin: 0;
-  font-size: 1rem;
-  color: hsla(217,33%,17%,1);
-  font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
-  text-transform: lowercase;
-}
-
-.c5 {
-  display: block;
-  margin: 0;
-  font-size: 1rem;
-  color: hsla(217,33%,17%,1);
-  font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
-  text-transform: capitalize;
-}
-
-.c6 {
-  display: block;
-  margin: 0;
-  font-size: 1rem;
-  font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
-  color: hsla(0,0%,0%,0.38);
+.c6:hover .c1 {
+  display: inline-block;
 }
 
 .c7 {
@@ -673,7 +734,11 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
-  width: 100%;
+  text-transform: uppercase;
+}
+
+.c7:hover .c1 {
+  display: inline-block;
 }
 
 .c8 {
@@ -687,10 +752,85 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
-  text-align: center;
+  text-transform: lowercase;
+}
+
+.c8:hover .c1 {
+  display: inline-block;
 }
 
 .c9 {
+  display: block;
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+
+.c9:hover .c1 {
+  display: inline-block;
+}
+
+.c10 {
+  display: block;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  color: hsla(0,0%,0%,0.38);
+}
+
+.c10:hover .c1 {
+  display: inline-block;
+}
+
+.c11 {
+  display: block;
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  width: 100%;
+}
+
+.c11:hover .c1 {
+  display: inline-block;
+}
+
+.c12 {
+  display: block;
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.c12:hover .c1 {
+  display: inline-block;
+}
+
+.c13 {
   display: block;
   margin: 0;
   font-size: 1rem;
@@ -706,66 +846,85 @@ Object {
   white-space: nowrap;
 }
 
+.c13:hover .c1 {
+  display: inline-block;
+}
+
 <div>
-    <p
+    <h5
       class="c0"
-      id="10875d0d"
+      role="text"
+    >
+      Linked: The quick brown fox jumps over the lazy dog
+      <a
+        class="c1 c2"
+        href="https://google.com"
+        role="text-link"
+      >
+        <svg
+          aria-hidden="true"
+          class="c3"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+          />
+        </svg>
+      </a>
+    </h5>
+    <p
+      class="c4"
       role="text"
     >
       bold: The quick brown fox jumps over the lazy dog
     </p>
     <p
-      class="c1"
-      id="df0ed3cf"
+      class="c5"
       role="text"
     >
       underlined: The quick brown fox jumps over the lazy dog
     </p>
     <p
-      class="c2"
-      id="0d801bb6"
+      class="c6"
       role="text"
     >
       italicized: The quick brown fox jumps over the lazy dog
     </p>
     <p
-      class="c3"
-      id="faf68f7f"
+      class="c7"
       role="text"
     >
       uppercase: The quick brown fox jumps over the lazy dog
     </p>
     <p
-      class="c4"
-      id="9ae149c0"
+      class="c8"
       role="text"
     >
       lowercase: The quick brown fox jumps over the lazy dog
     </p>
     <p
-      class="c5"
-      id="d59de92d"
+      class="c9"
       role="text"
     >
       capitalized: The quick brown fox jumps over the lazy dog
     </p>
     <p
-      class="c6"
-      id="c209f9e7"
+      class="c10"
       role="text"
     >
       disabled: The quick brown fox jumps over the lazy dog
     </p>
     <p
-      class="c7"
-      id="416dbd95"
+      class="c11"
       role="text"
     >
       stretched: The quick brown fox jumps over the lazy dog
     </p>
     <p
-      class="c8"
-      id="dd5ddd16"
+      class="c12"
       role="text"
     >
       centered: The quick brown fox jumps over the lazy dog
@@ -774,8 +933,7 @@ Object {
       style="width: 200px;"
     >
       <p
-        class="c9"
-        id="849ae361"
+        class="c13"
         role="text"
       >
         truncated: The quick brown fox jumps over the lazy dog
@@ -839,19 +997,7 @@ Object {
 exports[`Text All types of texts 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c2 {
-  display: none;
-  cursor: pointer;
-  height: 0.8em;
-  width: 0.8em;
-  -webkit-transform: translate(0,0.175em) rotate(-45deg);
-  -ms-transform: translate(0,0.175em) rotate(-45deg);
-  transform: translate(0,0.175em) rotate(-45deg);
-  opacity: 0.6;
-  margin-left: 0.2em;
-}
-
-.c0 {
+  "baseElement": .c0 {
   display: block;
   margin: 0;
   font-size: 6rem;
@@ -864,11 +1010,7 @@ Object {
   line-height: 1.167;
 }
 
-.c0:hover .c1 {
-  display: inline-block;
-}
-
-.c3 {
+.c1 {
   display: block;
   margin: 0;
   font-size: 3.75rem;
@@ -881,11 +1023,7 @@ Object {
   line-height: 1.2;
 }
 
-.c3:hover .c1 {
-  display: inline-block;
-}
-
-.c4 {
+.c2 {
   display: block;
   margin: 0;
   font-size: 3rem;
@@ -898,11 +1036,7 @@ Object {
   line-height: 1.167;
 }
 
-.c4:hover .c1 {
-  display: inline-block;
-}
-
-.c5 {
+.c3 {
   display: block;
   margin: 0;
   font-size: 2.125rem;
@@ -915,11 +1049,7 @@ Object {
   line-height: 1.235;
 }
 
-.c5:hover .c1 {
-  display: inline-block;
-}
-
-.c6 {
+.c4 {
   display: block;
   margin: 0;
   font-size: 1.5rem;
@@ -932,11 +1062,7 @@ Object {
   line-height: 1.334;
 }
 
-.c6:hover .c1 {
-  display: inline-block;
-}
-
-.c7 {
+.c5 {
   display: block;
   margin: 0;
   font-size: 0.875rem;
@@ -949,11 +1075,7 @@ Object {
   line-height: 1.43;
 }
 
-.c7:hover .c1 {
-  display: inline-block;
-}
-
-.c8 {
+.c6 {
   display: block;
   margin: 0;
   font-size: 1rem;
@@ -966,11 +1088,7 @@ Object {
   line-height: 1.5;
 }
 
-.c8:hover .c1 {
-  display: inline-block;
-}
-
-.c9 {
+.c7 {
   display: block;
   margin: 0;
   font-size: 0.75rem;
@@ -983,11 +1101,7 @@ Object {
   line-height: 1.66;
 }
 
-.c9:hover .c1 {
-  display: inline-block;
-}
-
-.c10 {
+.c8 {
   display: block;
   margin: 0;
   font-size: 1.25rem;
@@ -998,280 +1112,115 @@ Object {
   -ms-letter-spacing: 0.0075em;
   letter-spacing: 0.0075em;
   line-height: 1.6;
-}
-
-.c10:hover .c1 {
-  display: inline-block;
 }
 
 <body>
     <div>
       <h1
         class="c0"
-        id="9f40fc19"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
-        <svg
-          aria-hidden="true"
-          class="c1 c2"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-          />
-        </svg>
       </h1>
       <h2
-        class="c3"
-        id="9f40fc19"
+        class="c1"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
-        <svg
-          aria-hidden="true"
-          class="c1 c2"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-          />
-        </svg>
       </h2>
       <h3
-        class="c4"
-        id="9f40fc19"
+        class="c2"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
-        <svg
-          aria-hidden="true"
-          class="c1 c2"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-          />
-        </svg>
       </h3>
       <h4
-        class="c5"
-        id="9f40fc19"
+        class="c3"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
-        <svg
-          aria-hidden="true"
-          class="c1 c2"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-          />
-        </svg>
       </h4>
       <h5
-        class="c6"
-        id="9f40fc19"
+        class="c4"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
-        <svg
-          aria-hidden="true"
-          class="c1 c2"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-          />
-        </svg>
       </h5>
       <span
-        class="c7"
-        id="9f40fc19"
+        class="c5"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </span>
       <p
-        class="c8"
-        id="9f40fc19"
+        class="c6"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
-        class="c8"
-        id="9f40fc19"
+        class="c6"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <code
-        class="c9"
-        id="9f40fc19"
+        class="c7"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </code>
       <span
-        class="c7"
-        id="9f40fc19"
+        class="c5"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </span>
       <p
-        class="c8"
-        id="9f40fc19"
+        class="c6"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <h1
         class="c0"
-        id="9f40fc19"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
-        <svg
-          aria-hidden="true"
-          class="c1 c2"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-          />
-        </svg>
       </h1>
       <h2
-        class="c3"
-        id="9f40fc19"
+        class="c1"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
-        <svg
-          aria-hidden="true"
-          class="c1 c2"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-          />
-        </svg>
       </h2>
       <h3
-        class="c4"
-        id="9f40fc19"
+        class="c2"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
-        <svg
-          aria-hidden="true"
-          class="c1 c2"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-          />
-        </svg>
       </h3>
       <h4
-        class="c5"
-        id="9f40fc19"
+        class="c3"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
-        <svg
-          aria-hidden="true"
-          class="c1 c2"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-          />
-        </svg>
       </h4>
       <h5
-        class="c6"
-        id="9f40fc19"
+        class="c4"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
-        <svg
-          aria-hidden="true"
-          class="c1 c2"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-          />
-        </svg>
       </h5>
       <h6
-        class="c10"
-        id="9f40fc19"
+        class="c8"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
-        <svg
-          aria-hidden="true"
-          class="c1 c2"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-          />
-        </svg>
       </h6>
     </div>
   </body>,
-  "container": .c2 {
-  display: none;
-  cursor: pointer;
-  height: 0.8em;
-  width: 0.8em;
-  -webkit-transform: translate(0,0.175em) rotate(-45deg);
-  -ms-transform: translate(0,0.175em) rotate(-45deg);
-  transform: translate(0,0.175em) rotate(-45deg);
-  opacity: 0.6;
-  margin-left: 0.2em;
-}
-
-.c0 {
+  "container": .c0 {
   display: block;
   margin: 0;
   font-size: 6rem;
@@ -1284,11 +1233,7 @@ Object {
   line-height: 1.167;
 }
 
-.c0:hover .c1 {
-  display: inline-block;
-}
-
-.c3 {
+.c1 {
   display: block;
   margin: 0;
   font-size: 3.75rem;
@@ -1301,11 +1246,7 @@ Object {
   line-height: 1.2;
 }
 
-.c3:hover .c1 {
-  display: inline-block;
-}
-
-.c4 {
+.c2 {
   display: block;
   margin: 0;
   font-size: 3rem;
@@ -1318,11 +1259,7 @@ Object {
   line-height: 1.167;
 }
 
-.c4:hover .c1 {
-  display: inline-block;
-}
-
-.c5 {
+.c3 {
   display: block;
   margin: 0;
   font-size: 2.125rem;
@@ -1335,11 +1272,7 @@ Object {
   line-height: 1.235;
 }
 
-.c5:hover .c1 {
-  display: inline-block;
-}
-
-.c6 {
+.c4 {
   display: block;
   margin: 0;
   font-size: 1.5rem;
@@ -1352,11 +1285,7 @@ Object {
   line-height: 1.334;
 }
 
-.c6:hover .c1 {
-  display: inline-block;
-}
-
-.c7 {
+.c5 {
   display: block;
   margin: 0;
   font-size: 0.875rem;
@@ -1369,11 +1298,7 @@ Object {
   line-height: 1.43;
 }
 
-.c7:hover .c1 {
-  display: inline-block;
-}
-
-.c8 {
+.c6 {
   display: block;
   margin: 0;
   font-size: 1rem;
@@ -1386,11 +1311,7 @@ Object {
   line-height: 1.5;
 }
 
-.c8:hover .c1 {
-  display: inline-block;
-}
-
-.c9 {
+.c7 {
   display: block;
   margin: 0;
   font-size: 0.75rem;
@@ -1403,11 +1324,7 @@ Object {
   line-height: 1.66;
 }
 
-.c9:hover .c1 {
-  display: inline-block;
-}
-
-.c10 {
+.c8 {
   display: block;
   margin: 0;
   font-size: 1.25rem;
@@ -1420,261 +1337,108 @@ Object {
   line-height: 1.6;
 }
 
-.c10:hover .c1 {
-  display: inline-block;
-}
-
 <div>
     <h1
       class="c0"
-      id="9f40fc19"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
-      <svg
-        aria-hidden="true"
-        class="c1 c2"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-        />
-      </svg>
     </h1>
     <h2
-      class="c3"
-      id="9f40fc19"
+      class="c1"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
-      <svg
-        aria-hidden="true"
-        class="c1 c2"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-        />
-      </svg>
     </h2>
     <h3
-      class="c4"
-      id="9f40fc19"
+      class="c2"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
-      <svg
-        aria-hidden="true"
-        class="c1 c2"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-        />
-      </svg>
     </h3>
     <h4
-      class="c5"
-      id="9f40fc19"
+      class="c3"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
-      <svg
-        aria-hidden="true"
-        class="c1 c2"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-        />
-      </svg>
     </h4>
     <h5
-      class="c6"
-      id="9f40fc19"
+      class="c4"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
-      <svg
-        aria-hidden="true"
-        class="c1 c2"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-        />
-      </svg>
     </h5>
     <span
-      class="c7"
-      id="9f40fc19"
+      class="c5"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </span>
     <p
-      class="c8"
-      id="9f40fc19"
+      class="c6"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
-      class="c8"
-      id="9f40fc19"
+      class="c6"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <code
-      class="c9"
-      id="9f40fc19"
+      class="c7"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </code>
     <span
-      class="c7"
-      id="9f40fc19"
+      class="c5"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </span>
     <p
-      class="c8"
-      id="9f40fc19"
+      class="c6"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <h1
       class="c0"
-      id="9f40fc19"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
-      <svg
-        aria-hidden="true"
-        class="c1 c2"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-        />
-      </svg>
     </h1>
     <h2
-      class="c3"
-      id="9f40fc19"
+      class="c1"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
-      <svg
-        aria-hidden="true"
-        class="c1 c2"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-        />
-      </svg>
     </h2>
     <h3
-      class="c4"
-      id="9f40fc19"
+      class="c2"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
-      <svg
-        aria-hidden="true"
-        class="c1 c2"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-        />
-      </svg>
     </h3>
     <h4
-      class="c5"
-      id="9f40fc19"
+      class="c3"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
-      <svg
-        aria-hidden="true"
-        class="c1 c2"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-        />
-      </svg>
     </h4>
     <h5
-      class="c6"
-      id="9f40fc19"
+      class="c4"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
-      <svg
-        aria-hidden="true"
-        class="c1 c2"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-        />
-      </svg>
     </h5>
     <h6
-      class="c10"
-      id="9f40fc19"
+      class="c8"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
-      <svg
-        aria-hidden="true"
-        class="c1 c2"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-        />
-      </svg>
     </h6>
   </div>,
   "debug": [Function],
@@ -1751,7 +1515,6 @@ Object {
     <div>
       <p
         class="c0"
-        id="5b283192"
         role="text"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quae aut itaque quas reprehenderit provident, facilis laudantium facere cum velit dolorum molestiae quisquam distinctio quia illo pariatur placeat natus perferendis.
@@ -1774,7 +1537,6 @@ Object {
 <div>
     <p
       class="c0"
-      id="5b283192"
       role="text"
     >
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quae aut itaque quas reprehenderit provident, facilis laudantium facere cum velit dolorum molestiae quisquam distinctio quia illo pariatur placeat natus perferendis.
@@ -1932,49 +1694,42 @@ Object {
     <div>
       <p
         class="c0"
-        id="9f40fc19"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
         class="c1"
-        id="9f40fc19"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
         class="c2"
-        id="9f40fc19"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
         class="c3"
-        id="9f40fc19"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
         class="c4"
-        id="9f40fc19"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
         class="c5"
-        id="9f40fc19"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
         class="c6"
-        id="9f40fc19"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
@@ -2075,49 +1830,42 @@ Object {
 <div>
     <p
       class="c0"
-      id="9f40fc19"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
       class="c1"
-      id="9f40fc19"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
       class="c2"
-      id="9f40fc19"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
       class="c3"
-      id="9f40fc19"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
       class="c4"
-      id="9f40fc19"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
       class="c5"
-      id="9f40fc19"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
       class="c6"
-      id="9f40fc19"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
