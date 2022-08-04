@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { styled } from '@tidy-ui/theme';
 import { {{ properCase name }} } from '../src';
 
 export default {
@@ -7,4 +7,22 @@ export default {
   title: "{{ properCase name }}",
 };
 
-export const basic = () => <{{ properCase name }} />;
+const Container = styled.div`
+  display: flex;
+  gap: 1rem;
+`;
+
+const Column = styled.div`
+  & > * {
+    margin-bottom: 8px;
+  }
+`;
+
+
+export const basic = () => (
+  <Container>
+    <Column>
+      <{{properCase name}}>basic</{{properCase name}}>
+    </Column>
+  </Container>
+);
