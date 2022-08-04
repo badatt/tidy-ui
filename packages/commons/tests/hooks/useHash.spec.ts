@@ -34,4 +34,12 @@ describe('useIsMounted', () => {
     expect(hook.result.current).toEqual('c0535e4b');
     expect(hook.result.current).toHaveLength(8);
   });
+  it('Should safely escape undefined input', () => {
+    const hook = renderHook(() => useHash());
+    expect(typeof hook.result.current).toEqual('undefined');
+  });
+  it('Should safely escape undefined input with max len', () => {
+    const hook = renderHook(() => useHash(undefined, { maxLen: 9 }));
+    expect(typeof hook.result.current).toEqual('undefined');
+  });
 });

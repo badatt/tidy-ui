@@ -92,6 +92,14 @@ export interface ITextProps extends HTMLAttributes<HTMLDivElement> {
   exd?: boolean;
 
   /**
+   * Link for component
+   *
+   * @default undefined
+   * @type {?string}
+   */
+  href?: string;
+
+  /**
    * If `true`, the text is italicized
    *
    * @default false

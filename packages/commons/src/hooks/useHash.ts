@@ -3,16 +3,20 @@ import md5 from '../crypto/md5';
 import sha1 from '../crypto/sha1';
 import sha256 from '../crypto/sha256';
 
-const genHash = (inp?: string, alg?: string) => {
-  switch (alg) {
-    case 'MD5':
-      return md5(inp);
-    case 'SHA1':
-      return sha1(inp);
-    case 'SHA256':
-      return sha256(inp);
-    default:
-      return sha256(inp);
+const genHash = (inp?: string, alg?: string): string | undefined => {
+  if (inp) {
+    switch (alg) {
+      case 'MD5':
+        return md5(inp);
+      case 'SHA1':
+        return sha1(inp);
+      case 'SHA256':
+        return sha256(inp);
+      default:
+        return sha256(inp);
+    }
+  } else {
+    return undefined;
   }
 };
 
@@ -23,7 +27,7 @@ export interface IUseHashOptions {
 
 const useHash = (inp?: string, options?: IUseHashOptions) => {
   return useMemo(() => {
-    const hash = inp && genHash(inp, options?.alg);
+    const hash = genHash(inp, options?.alg);
     return options?.maxLen ? hash?.substring(0, options.maxLen) : hash;
   }, [inp]);
 };

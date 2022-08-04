@@ -42,7 +42,7 @@ const Link = styled.a`
  *
  * @internal
  */
-const Icon = styled(LaunchIcon)<ICardHeaderProps>`
+const Icon = styled(LaunchIcon)`
   ${({ theme: { palette, isDark } }) => css`
     height: 1.25rem;
     width: 1.25rem;

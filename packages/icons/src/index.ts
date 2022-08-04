@@ -13,6 +13,7 @@ export { default as GearIcon } from './GearIcon';
 export { default as InfoIcon } from './InfoIcon';
 export { default as LaunchIcon } from './LaunchIcon';
 export { default as LightModeIcon } from './LightModeIcon';
+export { default as LinkIcon } from './LinkIcon';
 export { default as RemoveCircleIcon } from './RemoveCircleIcon';
 export { default as RotatingCircleIcon } from './RotatingCircleIcon';
 export { default as WarningIcon } from './WarningIcon';
