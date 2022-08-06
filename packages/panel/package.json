@@ -1,0 +1,49 @@
+{
+  "name": "@tidy-ui/panel",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:panel",
+    "clean": "tsc --build --clean && rimraf -rf dist && rimraf -rf build",
+    "postinstall": "rm -rf node_modules/@types/react-native",
+    "reset": "yarn clean && rimraf -rf node_modules",
+    "vet": "yarn lint",
+    "yalc:publish": "yarn build && yalc publish",
+    "yalc:push": "yarn build && yalc push"
+  },
+  "dependencies": {
+    "@tidy-ui/commons": "^0.0.39",
+    "@tidy-ui/theme": "^0.0.39"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.1",
+    "@rollup/plugin-replace": "^3.0.1",
+    "@tidy-ui/text": "^0.2.12",
+    "@types/react": "^16.0.0",
+    "@types/styled-components": "^5.1.17",
+    "is-ci-cli": "^2.2.0",
+    "react": "^16.0.0",
+    "rollup": "^2.61.1",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.31.1",
+    "typescript": "^4.4.4"
+  },
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "typings": "dist/src/index.d.ts",
+  "types": "dist/src/index.d.ts",
+  "license": "MIT",
+  "description": "tidy-ui react component library; 'panel' package",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ]
+}
