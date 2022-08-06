@@ -5,32 +5,32 @@ export interface IMessageProps extends HTMLAttributes<HTMLDivElement> {
   /**
    * It `true`, creates a closable message widget with a close button at top right corner
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   isClosable?: boolean;
 
   /**
    * If `true`, creates outlined message widget, won't fill
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   isOutlined?: boolean;
 
   /**
    * If `true`, creates sharp corners for the message widget
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   isSharp?: boolean;
 
   /**
    * If `true`, stretches the message widget to full width of the parent container
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   isStretched?: boolean;
 
@@ -55,8 +55,8 @@ export interface IMessageProps extends HTMLAttributes<HTMLDivElement> {
    *  When set to 0, the message is not removed automatically
    * (in milliseconds)
    *
-   * @default 0
    * @type {?number}
+   * @default 0
    */
   withDuration?: number;
 
@@ -70,8 +70,8 @@ export interface IMessageProps extends HTMLAttributes<HTMLDivElement> {
   /**
    * If `true`, label wont be added to the message widget
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   withoutLabel?: boolean;
 }

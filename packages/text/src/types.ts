@@ -4,8 +4,8 @@ import { TColor } from '@tidy-ui/types';
 /**
  * Types of text variants
  *
- * @public
  * @typedef {TAs}
+ * @public
  */
 export type TAs =
   | 'hero'
@@ -29,113 +29,113 @@ export type TAs =
 /**
  * Text props
  *
- * @public
- * @interface ITextProps
  * @typedef {ITextProps}
+ * @interface ITextProps
  * @augments {HTMLAttributes<HTMLDivElement>}
+ * @public
  */
 export interface ITextProps extends HTMLAttributes<HTMLDivElement> {
   /**
    * Text variant, the html component that this text represents
    *
-   * @default 'body2'
    * @type {?TAs}
+   * @default 'body2'
    */
   as?: TAs;
 
   /**
    * If `true`, creates bold text
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   bld?: boolean;
 
   /**
    * If `true`, create camel case text
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   cc?: boolean;
 
   /**
    * Sets the color fo the text
    *
-   * @default undefined
    * @type {?TColor}
+   * @default undefined
    */
   clr?: TColor;
 
   /**
    * If `true`, the text is centered
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   ctr?: boolean;
 
   /**
    * If `true`, the text is disabled
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   dsb?: boolean;
 
   /**
    * If `true`, the text is stretched to full width
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   exd?: boolean;
 
   /**
    * Link for component
    *
-   * @default undefined
    * @type {?string}
+   * @default undefined
    */
   href?: string;
 
   /**
    * If `true`, the text is italicized
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   itl?: boolean;
 
   /**
    * If `true`, the text is lowe cased
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   lc?: boolean;
 
   /**
    * If `true`, the text is truncated inside the width of its parent component
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   tnc?: boolean;
 
   /**
    * If `true`, creates the text upper case
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   uc?: boolean;
 
   /**
    * If `true`, creates the text underlined
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   udl?: boolean;
 }
@@ -143,81 +143,81 @@ export interface ITextProps extends HTMLAttributes<HTMLDivElement> {
 /**
  * DataField props
  *
- * @public
- * @interface IDataFieldProps
  * @typedef {IDataFieldProps}
+ * @interface IDataFieldProps
  * @augments {HTMLAttributes<HTMLDivElement>}
+ * @public
  */
 export interface IDataFieldProps extends HTMLAttributes<HTMLDivElement> {
   /**
    * Accent color for the filed label
    *
-   * @default 'major'
    * @type {?TColor}
+   * @default 'major'
    */
   acc?: TColor;
 
   /**
    * If `true`, create bold value in the data field
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   bld?: boolean;
 
   /**
    * Set the color of the value in data field
    *
-   * @default undefined
    * @type {?TColor}
+   * @default undefined
    */
   clr?: TColor;
 
   /**
    * If `true`, the value of the data field is disabled
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   dsb?: boolean;
 
   /**
    * Icon for the label of the data field
    *
-   * @default undefined
    * @type {?JSX.Element}
+   * @default undefined
    */
   ico?: JSX.Element;
 
   /**
    * If `true`, creates italicized value of the data field
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   itl?: boolean;
 
   /**
    * Label of the data field
    *
-   * @default undefined
    * @type {?string}
+   * @default undefined
    */
   lbl?: string;
 
   /**
    * If `true`, the value of the data field is underlined
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   udl?: boolean;
 
   /**
    * Value of the data field
    *
-   * @default undefined
    * @type {?(string | number)}
+   * @default undefined
    */
   val?: string | number;
 }

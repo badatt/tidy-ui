@@ -3,9 +3,9 @@ import { useCallback, useEffect, useRef } from 'react';
 /**
  * Actions on useTimeout
  *
- * @public
- * @interface IUseTimeoutFnReturn
  * @typedef {IUseTimeoutFnReturn}
+ * @interface IUseTimeoutFnReturn
+ * @public
  */
 export interface IUseTimeoutFnReturn {
   /** Clears the current timeout */
