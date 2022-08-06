@@ -48,11 +48,13 @@
       }
     ],
     "simple-import-sort/exports": "error",
+    "jsdoc/require-description": 1,
     "jsdoc/check-tag-names": ["error", { "definedTags": ["jest-environment"] }],
     "jsdoc/no-undefined-types": [
       "error",
       { "definedTypes": ["HTMLSpanElement", "HTMLButtonElement", "HTMLAnchorElement", "HTMLDivElement", "JSX"] }
-    ]
+    ],
+    "jsdoc/sort-tags": ["warn", { "alphabetizeExtras": true }]
   },
   "settings": {
     "jsdoc": {
