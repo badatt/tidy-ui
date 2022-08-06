@@ -144,6 +144,32 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
+            d="m12 8-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"
+          />
+        </svg>
+      </div>
+      <div>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+          />
+        </svg>
+      </div>
+      <div>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
             d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
           />
         </svg>
@@ -370,6 +396,32 @@ Object {
       >
         <path
           d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM19 14.9 14.9 19H9.1L5 14.9V9.1L9.1 5h5.8L19 9.1v5.8zm-4.17-7.14L12 10.59 9.17 7.76 7.76 9.17 10.59 12l-2.83 2.83 1.41 1.41L12 13.41l2.83 2.83 1.41-1.41L13.41 12l2.83-2.83-1.41-1.41z"
+        />
+      </svg>
+    </div>
+    <div>
+      <svg
+        aria-hidden="true"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="m12 8-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"
+        />
+      </svg>
+    </div>
+    <div>
+      <svg
+        aria-hidden="true"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
         />
       </svg>
     </div>
