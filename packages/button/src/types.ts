@@ -16,41 +16,41 @@ import { TColor, TSize } from '@tidy-ui/types';
  * `simple` -> For ghost actions, use this if you don't want to let user notice that it exists
  * <br />
  *
- * @public
  * @typedef {TType}
+ * @public
  */
 export type TType = 'primary' | 'outlined' | 'hero' | 'basic' | 'simple';
 
 /**
  * Button props
  *
- * @public
- * @interface IButtonProps
  * @typedef {IButtonProps}
+ * @interface IButtonProps
  * @augments {HTMLAttributes<HTMLButtonElement>}
+ * @public
  */
 export interface IButtonProps extends HTMLAttributes<HTMLButtonElement> {
   /**
    * If `true`, the button is disabled
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   isDisabled?: boolean;
 
   /**
    * If `true`, the button is disabled, blocked for actions and a loader is added
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   isLoading?: boolean;
 
   /**
    * If `true`, the button is stretched to full width
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   isStretched?: boolean;
 
@@ -64,24 +64,24 @@ export interface IButtonProps extends HTMLAttributes<HTMLButtonElement> {
   /**
    * The color of the component
    *
-   * @default 'major'
    * @type {?TColor}
+   * @default 'major'
    */
   withColor?: TColor;
 
   /**
    * The size of the component
    *
-   * @default 'md'
    * @type {?TSize}
+   * @default 'md'
    */
   withSize?: TSize;
 
   /**
    * The type of the component
    *
-   * @default 'basic'
    * @type {?TType}
+   * @default 'basic'
    */
   withType?: TType;
 }
@@ -89,25 +89,25 @@ export interface IButtonProps extends HTMLAttributes<HTMLButtonElement> {
 /**
  * Anchor props
  *
- * @public
- * @interface IAnchorProps
  * @typedef {IAnchorProps}
+ * @interface IAnchorProps
  * @augments {AnchorHTMLAttributes<HTMLAnchorElement>}
+ * @public
  */
 export interface IAnchorProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
   /**
    * If `true`, the anchor is disabled
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   isDisabled?: boolean;
 
   /**
    * If `true`, the anchor launches the associated link in a new tab
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   isLaunch?: boolean;
 }
@@ -115,17 +115,17 @@ export interface IAnchorProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
 /**
  * IconButton props
  *
- * @public
- * @interface IIconButtonProps
  * @typedef {IIconButtonProps}
+ * @interface IIconButtonProps
  * @augments {HTMLAttributes<HTMLButtonElement>}
+ * @public
  */
 export interface IIconButtonProps extends HTMLAttributes<HTMLButtonElement> {
   /**
    * if `true`, the button is disabled
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   isDisabled?: boolean;
 
@@ -139,8 +139,8 @@ export interface IIconButtonProps extends HTMLAttributes<HTMLButtonElement> {
   /**
    * The color of the component
    *
-   * @default 'major'
    * @type {?TColor}
+   * @default 'major'
    */
   withColor?: TColor;
 
@@ -154,24 +154,24 @@ export interface IIconButtonProps extends HTMLAttributes<HTMLButtonElement> {
   /**
    * Placement of the icon inside the button
    *
-   * @default 'left'
    * @type {?('left' | 'right')}
+   * @default 'left'
    */
   withPlacement?: 'left' | 'right';
 
   /**
    * The size of the component
    *
-   * @default 'md'
    * @type {?TSize}
+   * @default 'md'
    */
   withSize?: TSize;
 
   /**
    * The type of the component
    *
-   * @default 'primary'
    * @type {?TType}
+   * @default 'primary'
    */
   withType?: 'primary' | 'outlined';
 }
@@ -179,25 +179,25 @@ export interface IIconButtonProps extends HTMLAttributes<HTMLButtonElement> {
 /**
  * ButtonGroup props
  *
- * @public
- * @interface IButtonGroupProps
  * @typedef {IButtonGroupProps}
+ * @interface IButtonGroupProps
  * @augments {HTMLAttributes<HTMLDivElement>}
+ * @public
  */
 export interface IButtonGroupProps extends HTMLAttributes<HTMLDivElement> {
   /**
    * If `true`, the component is disabled
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   isDisabled?: boolean;
 
   /**
    * If `true`, the component is stretched to full width, equally distributing the buttons width
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   isStretched?: boolean;
 
@@ -205,16 +205,16 @@ export interface IButtonGroupProps extends HTMLAttributes<HTMLDivElement> {
    * If `true`, buttons inside the group are unified and seen as single component.
    * Can see significant change in outlined type button group
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   isUnified?: boolean;
 
   /**
    * If `true`, aligns the button group vertically
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   isVertical?: boolean;
 }
@@ -222,17 +222,17 @@ export interface IButtonGroupProps extends HTMLAttributes<HTMLDivElement> {
 /**
  * ButtonToolbar props
  *
- * @public
- * @interface IButtonToolbarProps
  * @typedef {IButtonToolbarProps}
+ * @interface IButtonToolbarProps
  * @augments {HTMLAttributes<HTMLDivElement>}
+ * @public
  */
 export interface IButtonToolbarProps extends HTMLAttributes<HTMLDivElement> {
   /**
    * If `true`, disables the toolbar
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   isDisabled?: boolean;
 }

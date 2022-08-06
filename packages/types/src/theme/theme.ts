@@ -4,10 +4,10 @@ import { ITidyUIBaseTheme } from './base';
  * Contract to define a custom theme. You should define all the required properties
  * under this interface to build a custom theme
  *
- * @public
- * @interface ITidyUITheme
  * @typedef {ITidyUITheme}
+ * @interface ITidyUITheme
  * @augments {ITidyUIBaseTheme}
+ * @public
  */
 export interface ITidyUITheme extends ITidyUIBaseTheme {
   /**
@@ -35,9 +35,9 @@ export interface ITidyUITheme extends ITidyUIBaseTheme {
 /**
  * Palette including all color variants
  *
- * @public
- * @interface IPalette
  * @typedef {IPalette}
+ * @interface IPalette
+ * @public
  */
 export interface IPalette {
   /**
@@ -114,9 +114,9 @@ export interface IPalette {
 /**
  * Background colors for various components
  *
- * @public
- * @interface IBackgroundColor
  * @typedef {IBackgroundColor}
+ * @interface IBackgroundColor
+ * @public
  */
 export interface IBackgroundColor {
   /**
@@ -144,9 +144,9 @@ export interface IBackgroundColor {
 /**
  * Text colors for various components
  *
- * @public
- * @interface ITextColor
  * @typedef {ITextColor}
+ * @interface ITextColor
+ * @public
  */
 export interface ITextColor {
   /**
@@ -174,9 +174,9 @@ export interface ITextColor {
 /**
  * Color gradient with various shades
  *
- * @public
- * @interface IColor
  * @typedef {IColor}
+ * @interface IColor
+ * @public
  */
 export interface IColor {
   50: string;
@@ -195,9 +195,9 @@ export interface IColor {
 /**
  * Color contract for a hsla color representation
  *
- * @public
- * @interface IHsla
  * @typedef {IHsla}
+ * @interface IHsla
+ * @public
  */
 export interface IHsla {
   alpha: number;

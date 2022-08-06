@@ -4,33 +4,33 @@ import { TColor } from '@tidy-ui/types';
 /**
  * Size variants of the tag component
  *
- * @public
  * @typedef {TSize}
+ * @public
  */
 export type TSize = 'sm' | 'md' | 'lg';
 
 /**
  * Tag properties
  *
- * @public
- * @interface ITagProps
  * @typedef {ITagProps}
+ * @interface ITagProps
  * @augments {HTMLAttributes<HTMLDivElement>}
+ * @public
  */
 export interface ITagProps extends HTMLAttributes<HTMLDivElement> {
   /**
    * If `true`, the tag is disabled
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   isDisabled?: boolean;
 
   /**
    * If `true`, creates outlined tag widget, it won't fill
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   isOutlined?: boolean;
 
@@ -46,8 +46,8 @@ export interface ITagProps extends HTMLAttributes<HTMLDivElement> {
    * Color variant of the tag widget, typically used to classify the
    * information based on its level
    *
-   * @default 'major'
    * @type {?TColor}
+   * @default 'major'
    */
   withColor?: TColor;
 
@@ -72,10 +72,10 @@ export interface ITagProps extends HTMLAttributes<HTMLDivElement> {
 /**
  * TagGroup properties
  *
- * @public
- * @interface ITagGroupProps
  * @typedef {ITagGroupProps}
+ * @interface ITagGroupProps
  * @augments {HTMLAttributes<HTMLDivElement>}
+ * @public
  */
 export interface ITagGroupProps extends HTMLAttributes<HTMLDivElement> {
   /**
@@ -89,8 +89,8 @@ export interface ITagGroupProps extends HTMLAttributes<HTMLDivElement> {
   /**
    * Color variant of the add new tag button
    *
-   * @default 'major'
    * @type {?TColor}
+   * @default 'major'
    */
   withColor?: TColor;
 

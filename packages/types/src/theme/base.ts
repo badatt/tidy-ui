@@ -3,10 +3,10 @@ import { DefaultTheme } from 'styled-components';
 /**
  * Base theme contract
  *
- * @public
- * @interface ITidyUIBaseTheme
  * @typedef {ITidyUIBaseTheme}
+ * @interface ITidyUIBaseTheme
  * @augments {DefaultTheme}
+ * @public
  */
 export interface ITidyUIBaseTheme extends DefaultTheme {
   /**
@@ -34,9 +34,9 @@ export interface ITidyUIBaseTheme extends DefaultTheme {
 /**
  * Breakpoints contract for responsive design
  *
- * @public
- * @interface IBreakpoints
  * @typedef {IBreakpoints}
+ * @interface IBreakpoints
+ * @public
  */
 export interface IBreakpoints {
   /**
@@ -78,9 +78,9 @@ export interface IBreakpoints {
 /**
  * Contract for layout representation of component
  *
- * @public
- * @interface ILayout
  * @typedef {ILayout}
+ * @interface ILayout
+ * @public
  */
 export interface ILayout {
   /**
@@ -101,9 +101,9 @@ export interface ILayout {
 /**
  * Typography contract
  *
- * @public
- * @interface ITypography
  * @typedef {ITypography}
+ * @interface ITypography
+ * @public
  */
 export interface ITypography {
   /**
@@ -264,9 +264,9 @@ export interface ITypography {
 /**
  * Text contract
  *
- * @public
- * @interface IText
  * @typedef {IText}
+ * @interface IText
+ * @public
  */
 export interface IText {
   /**

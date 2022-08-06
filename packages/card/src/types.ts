@@ -4,17 +4,17 @@ import { TColor } from '@tidy-ui/types';
 /**
  * Card props
  *
- * @public
- * @interface ICardProps
  * @typedef {ICardProps}
+ * @interface ICardProps
  * @augments {HTMLAttributes<HTMLDivElement>}
+ * @public
  */
 export interface ICardProps extends HTMLAttributes<HTMLDivElement> {
   /**
    * If `true`, the component is created with sharp edges
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   isSharp?: boolean;
 
@@ -22,16 +22,16 @@ export interface ICardProps extends HTMLAttributes<HTMLDivElement> {
    * Accent variant of the component, typically used to classify the
    * information based on its level
    *
-   * @default undefined
    * @type {?TColor}
+   * @default undefined
    */
   withAccent?: TColor;
 
   /**
    * Hyperlink the component
    *
-   * @default undefined
    * @type {?string}
+   * @default undefined
    */
   withHref?: string;
 }
@@ -39,17 +39,17 @@ export interface ICardProps extends HTMLAttributes<HTMLDivElement> {
 /**
  * CardFooter props
  *
- * @public
- * @interface ICardFooterProps
  * @typedef {ICardFooterProps}
+ * @interface ICardFooterProps
  * @augments {HTMLAttributes<HTMLDivElement>}
+ * @public
  */
 export interface ICardFooterProps extends HTMLAttributes<HTMLDivElement> {
   /**
    * If `true`, the footer is separated from body with a divider
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   isDivided?: boolean;
 }
@@ -57,17 +57,17 @@ export interface ICardFooterProps extends HTMLAttributes<HTMLDivElement> {
 /**
  * CardHeader props
  *
- * @public
- * @interface ICardHeaderProps
  * @typedef {ICardHeaderProps}
+ * @interface ICardHeaderProps
  * @augments {HTMLAttributes<HTMLDivElement>}
+ * @public
  */
 export interface ICardHeaderProps extends HTMLAttributes<HTMLDivElement> {
   /**
    * If `true`, header is separated from body with a divider
    *
-   * @default false
    * @type {?boolean}
+   * @default false
    */
   isDivided?: boolean;
 
@@ -75,8 +75,8 @@ export interface ICardHeaderProps extends HTMLAttributes<HTMLDivElement> {
    * Create a hyper link with a launch icon on top right corner,
    * on click opens a new tab with the associated hyperlink
    *
-   * @default undefined
    * @type {?string}
+   * @default undefined
    */
   withHref?: string;
 }

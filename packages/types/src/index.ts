@@ -5,8 +5,8 @@ export * from './theme/base';
 /**
  * Base theme contract
  *
- * @public
  * @typedef {ITidyUIBaseTheme}
+ * @public
  */
 export type ITidyUIBaseTheme = IITidyUIBaseTheme;
 
@@ -16,42 +16,42 @@ export * from './theme/theme';
 /**
  * Theme contract
  *
- * @public
  * @typedef {ITidyUITheme}
+ * @public
  */
 export type ITidyUITheme = IITidyUITheme;
 
 /**
  * Color types for components
  *
- * @public
  * @typedef {TColor}
+ * @public
  */
 export type TColor = 'major' | 'minor' | 'neutral' | 'info' | 'success' | 'warning' | 'danger';
 
 /**
  * Size types for components
  *
- * @public
  * @typedef {TSize}
+ * @public
  */
 export type TSize = 'xxs' | 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl';
 
 /**
  * Accent types for components
  *
- * @public
  * @typedef {TAccent}
+ * @public
  */
 export type TAccent = 'major' | 'minor' | 'neutral' | 'info' | 'success' | 'warning' | 'danger';
 
 /**
  * Common props for Icon components
  *
- * @public
- * @interface IIconProps
  * @typedef {IIconProps}
+ * @interface IIconProps
  * @augments {HTMLAttributes<HTMLDivElement>}
+ * @public
  */
 export interface IIconProps extends HTMLAttributes<SVGElement> {
   isOutlined?: boolean;
