@@ -1,6 +1,12 @@
 import React from 'react';
 import { IIconProps } from '@tidy-ui/types';
 
+/**
+ * SVG icon
+ *
+ * @param {IIconProps} props props for icon
+ * @returns {JSX.Element} SVG output
+ */
 export default (props: IIconProps): JSX.Element => {
   const { isOutlined, ...rest } = props;
   return (

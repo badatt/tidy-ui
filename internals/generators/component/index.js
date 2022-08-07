@@ -9,6 +9,11 @@ const templateDir = './component';
 const componentDest = '../../packages';
 
 module.exports = {
+  /**
+   * All actions
+   *
+   * @returns {[]} actions
+   */
   actions: () => {
     return [
       {
@@ -62,6 +67,12 @@ module.exports = {
       message: 'What should it be called?',
       name: 'name',
       type: 'input',
+      /**
+       * Validates component names
+       *
+       * @param {string} value component name
+       * @returns {boolean | string} the validation of the component name
+       */
       validate: (value) => {
         if (/.+/.test(value)) {
           return componentExists(value) ? 'A package with this name already exists' : true;

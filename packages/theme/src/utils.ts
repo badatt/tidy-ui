@@ -1,8 +1,21 @@
 import { IColor, IHsla } from '@tidy-ui/types';
 
-export const hsla = (p: IHsla, alpha: number = p.alpha) =>
+/**
+ * Creates hsla color representation
+ *
+ * @param {IHsla} p hsla attributes
+ * @param {number} alpha alpha attribute to override
+ * @returns {string} hsla representation of the color
+ */
+export const hsla = (p: IHsla, alpha: number = p.alpha): string =>
   `hsla(${p.hue}, ${p.saturation}%, ${p.luminosity}%, ${alpha})`;
 
+/**
+ * Creates color shades for a color
+ *
+ * @param {Record<number, IHsla>} p color record
+ * @returns {IColor} shades for a color
+ */
 export const createColor = (p: Record<number, IHsla>): IColor => {
   return {
     100: hsla(p[100]),

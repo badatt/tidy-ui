@@ -1,5 +1,11 @@
 import React, { HTMLAttributes } from 'react';
 
+/**
+ * SVG icon
+ *
+ * @param {HTMLAttributes} props props for icon
+ * @returns {JSX.Element} SVG output
+ */
 export default (props: HTMLAttributes<SVGElement>): JSX.Element => {
   return (
     <svg

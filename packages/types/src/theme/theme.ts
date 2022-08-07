@@ -179,16 +179,49 @@ export interface ITextColor {
  * @public
  */
 export interface IColor {
+  /**
+   * shade with 50 units
+   */
   50: string;
+  /**
+   * shade with 100 units
+   */
   100: string;
+  /**
+   * shade with 200 units
+   */
   200: string;
+  /**
+   * shade with 300 units
+   */
   300: string;
+  /**
+   * shade with 400 units
+   */
   400: string;
+  /**
+   * shade with 500 units
+   */
   500: string;
+  /**
+   * shade with 600 units
+   */
   600: string;
+  /**
+   * shade with 700 units
+   */
   700: string;
+  /**
+   * shade with 800 units
+   */
   800: string;
+  /**
+   * shade with 900 units
+   */
   900: string;
+  /**
+   * All shades
+   */
   shades: Record<number, IHsla>;
 }
 
@@ -200,8 +233,20 @@ export interface IColor {
  * @public
  */
 export interface IHsla {
+  /**
+   * Alpha (lightness) attribute of the color
+   */
   alpha: number;
+  /**
+   * Hue attribute
+   */
   hue: number;
+  /**
+   * Luminosity attribute
+   */
   luminosity: number;
+  /**
+   * Saturation attribute
+   */
   saturation: number;
 }
