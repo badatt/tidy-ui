@@ -11,8 +11,8 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/commons": "^0.0.39",
-    "@tidy-ui/theme": "^0.0.39"
+    "@tidy-ui/commons": "^0.2.12",
+    "@tidy-ui/theme": "^0.2.12"
   },
   "peerDependencies": {
     "react": "^16.0.0",
