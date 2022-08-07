@@ -8,11 +8,11 @@ import { ITextProps } from './types';
  *
  */
 const Text = forwardRef<HTMLDivElement, ITextProps>((props, ref) => {
-  const { children, as, href, ...rest } = props;
-  const ele = htmlElement({ as });
+  const { children, is, href, ...rest } = props;
+  const ele = htmlElement({ is });
 
   return (
-    <TextRoot role="text" ref={ref} as={ele} {...rest}>
+    <TextRoot role="text" ref={ref} is={ele} {...rest}>
       {children}
       {href && (
         <TextLink role="text-link" href={href}>
@@ -24,12 +24,12 @@ const Text = forwardRef<HTMLDivElement, ITextProps>((props, ref) => {
 });
 
 Text.defaultProps = {
-  as: 'body2',
   bld: false,
   cc: false,
   ctr: false,
   dsb: false,
   exd: false,
+  is: 'body2',
   itl: false,
   lc: false,
   tnc: false,
