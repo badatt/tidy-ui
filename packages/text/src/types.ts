@@ -4,10 +4,10 @@ import { TColor } from '@tidy-ui/types';
 /**
  * Types of text variants
  *
- * @typedef {TAs}
+ * @typedef {TTextTypes}
  * @public
  */
-export type TAs =
+export type TTextTypes =
   | 'hero'
   | 'title1'
   | 'title2'
@@ -35,14 +35,6 @@ export type TAs =
  * @public
  */
 export interface ITextProps extends HTMLAttributes<HTMLDivElement> {
-  /**
-   * Text variant, the html component that this text represents
-   *
-   * @type {?TAs}
-   * @default 'body2'
-   */
-  as?: TAs;
-
   /**
    * If `true`, creates bold text
    *
@@ -98,6 +90,14 @@ export interface ITextProps extends HTMLAttributes<HTMLDivElement> {
    * @default undefined
    */
   href?: string;
+
+  /**
+   * Text variant, the html component that this text represents
+   *
+   * @type {?TTextTypes}
+   * @default 'body2'
+   */
+  is?: TTextTypes;
 
   /**
    * If `true`, the text is italicized
