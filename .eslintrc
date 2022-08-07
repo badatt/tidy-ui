@@ -54,13 +54,37 @@
       "error",
       { "definedTypes": ["HTMLSpanElement", "HTMLButtonElement", "HTMLAnchorElement", "HTMLDivElement", "JSX"] }
     ],
-    "jsdoc/sort-tags": ["warn", { "alphabetizeExtras": true }]
+    "jsdoc/sort-tags": ["warn", { "alphabetizeExtras": true }],
+    "jsdoc/require-jsdoc": [
+      "error",
+      {
+        "contexts": [
+          "ArrowFunctionExpression",
+          "ClassDeclaration",
+          "ClassExpression",
+          "FunctionDeclaration",
+          "FunctionExpression",
+          "TSInterfaceDeclaration",
+          "TSMethodSignature",
+          "TSPropertySignature"
+        ],
+        "require": {
+          "ArrowFunctionExpression": true,
+          "ClassDeclaration": true,
+          "ClassExpression": true,
+          "FunctionDeclaration": true,
+          "FunctionExpression": true,
+          "MethodDefinition": true
+        }
+      }
+    ]
   },
   "settings": {
     "jsdoc": {
       "ignorePrivate": true,
       "ignoreInternal": true,
-      "check-tag-names": [{ "definedTags": ["jest-environment"] }]
+      "check-tag-names": [{ "definedTags": ["jest-environment"] }],
+      "minLines": 1
     }
   }
 }

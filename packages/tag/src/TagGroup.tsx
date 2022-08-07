@@ -13,10 +13,16 @@ const TagGroup = forwardRef<HTMLDivElement, ITagGroupProps>((props, ref) => {
   const [typing, setTyping] = useState(false);
   const [inputValue, setInputValue] = useState('');
 
+  /**
+   * Handler for click add new tag button
+   */
   const handleNewTagButtonClick = () => {
     setTyping(true);
   };
 
+  /**
+   * Confirms input value
+   */
   const handleInputConfirm = () => {
     setTyping(false);
     onAddNewTag?.(inputValue);
@@ -24,12 +30,23 @@ const TagGroup = forwardRef<HTMLDivElement, ITagGroupProps>((props, ref) => {
   };
 
   // eslint-disable-next-line  @typescript-eslint/no-explicit-any
+  /**
+   * Handler for key press
+   *
+   * @param {any} e keypress event
+   */
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const handleEnterKeyPress = (e: any) => {
     if (e.keyCode == 13) {
       handleInputConfirm();
     }
   };
 
+  /**
+   * Decides whether button or input to render
+   *
+   * @returns {JSX.Element} renders wither button or input
+   */
   const renderTagGroupActions = () => {
     if (typing) {
       return (

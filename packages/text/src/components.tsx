@@ -90,7 +90,13 @@ const TextRoot = styled.div<ITextProps>`
   `}
 `;
 
-const htmlElement = (props: ITextProps) => {
+/**
+ * Resolves html tag
+ *
+ * @param {ITextProps} props props
+ * @returns {string} html element
+ */
+const htmlElement = (props: ITextProps): string => {
   switch (props.as) {
     case 'h1':
     case 'hero':

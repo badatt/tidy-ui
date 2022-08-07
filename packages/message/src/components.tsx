@@ -39,6 +39,14 @@ const MessageRoot = styled.div<IMessageProps>`
   `}
 `;
 
+/**
+ * Close button color
+ *
+ * @param {boolean} isDark isDark check
+ * @param {IPalette} palette theme palette
+ * @param {string} color color string
+ * @returns {any} color
+ */
 const closeButtonColor = (isDark: boolean, palette: IPalette, color: string) => {
   return isDark ? palette[color][400] : palette[color][600];
 };
