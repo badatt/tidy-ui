@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/badatt/tidy-ui/compare/v0.2.0...v0.3.0) (2022-08-07)
+
+
+### Features
+
+* implemented Tag and TagGroup ([1110d53](https://github.com/badatt/tidy-ui/commit/1110d531c78cd112be9808c4893767a8de3119f9))
+* text with link ([a5b3d61](https://github.com/badatt/tidy-ui/commit/a5b3d616728299f9c52d2b9263f788696c45a75e))
+
+
+
+
+
 ## [0.2.13](https://github.com/badatt/tidy-ui/compare/v0.2.12...v0.2.13) (2022-08-07)
 
 **Note:** Version bump only for package @tidy-ui/icons

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/badatt/tidy-ui/compare/v0.2.0...v0.3.0) (2022-08-07)
+
+
+### Features
+
+* useEscaper, useHash, useIdGen hooks ([e4bf334](https://github.com/badatt/tidy-ui/commit/e4bf334a2cc4455ae458e7851ac1fc0a56cdfd4f))
+
+
+
+
+
 ## [0.2.13](https://github.com/badatt/tidy-ui/compare/v0.2.12...v0.2.13) (2022-08-07)
 
 **Note:** Version bump only for package @tidy-ui/theme

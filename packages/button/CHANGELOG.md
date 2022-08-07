@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/badatt/tidy-ui/compare/v0.2.0...v0.3.0) (2022-08-07)
+
+
+### Bug Fixes
+
+* changes to Anchor button component ([84fc256](https://github.com/badatt/tidy-ui/commit/84fc256ecebea70665e02bb6088a519ed27d0375))
+
+
+### Features
+
+* added ButtonGroup to Button component ([d4c63a2](https://github.com/badatt/tidy-ui/commit/d4c63a2d1b47f802a035da602d2213b2b5c8dc34))
+* added ButtonToolbar to button component ([8070448](https://github.com/badatt/tidy-ui/commit/8070448efe3c79710b04a48243c39588465bec3d))
+* added IconButton to button component ([125fc6a](https://github.com/badatt/tidy-ui/commit/125fc6a7dcbd2de756cc026944392520d50d9b38))
+
+
+
+
+
 ## [0.2.13](https://github.com/badatt/tidy-ui/compare/v0.2.12...v0.2.13) (2022-08-07)
 
 **Note:** Version bump only for package @tidy-ui/button

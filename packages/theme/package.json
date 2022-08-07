@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/theme",
-  "version": "0.2.13",
+  "version": "0.3.0",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:theme",
     "clean": "tsc --build --clean && rimraf -rf dist && rimraf -rf build",
@@ -11,7 +11,7 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/types": "^0.2.13"
+    "@tidy-ui/types": "^0.3.0"
   },
   "peerDependencies": {
     "react": "^16.0.0",
