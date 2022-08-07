@@ -17,7 +17,7 @@ describe('Panel', () => {
         <PanelGroup>
           <Panel>
             <PanelHeader>
-              <Text as="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
+              <Text is="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
             </PanelHeader>
             <PanelBody>
               <Text>
@@ -34,7 +34,7 @@ describe('Panel', () => {
           </Panel>
           <Panel>
             <PanelHeader>
-              <Text as="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
+              <Text is="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
             </PanelHeader>
             <PanelBody>
               <Text>
@@ -51,7 +51,7 @@ describe('Panel', () => {
           </Panel>
           <Panel>
             <PanelHeader>
-              <Text as="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
+              <Text is="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
             </PanelHeader>
             <PanelBody>
               <Text>
@@ -77,7 +77,7 @@ describe('Panel', () => {
         <PanelGroup>
           <Panel>
             <PanelHeader>
-              <Text as="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
+              <Text is="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
             </PanelHeader>
             <PanelBody>
               <Text>
@@ -94,7 +94,7 @@ describe('Panel', () => {
           </Panel>
           <Panel>
             <PanelHeader>
-              <Text as="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
+              <Text is="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
             </PanelHeader>
             <PanelBody>
               <Text>
@@ -111,7 +111,7 @@ describe('Panel', () => {
           </Panel>
           <Panel>
             <PanelHeader>
-              <Text as="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
+              <Text is="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
             </PanelHeader>
             <PanelBody>
               <Text>
