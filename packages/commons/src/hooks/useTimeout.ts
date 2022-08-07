@@ -28,6 +28,9 @@ const useTimeout = (fn: ((e?: any) => void) | undefined, ms = 0, enabled = true)
   const timeout = useRef<ReturnType<typeof setTimeout>>();
   const cb = useRef(fn);
 
+  /**
+   * Clears timeout
+   */
   const clearTo = () => {
     timeout.current && clearTimeout(timeout.current);
   };

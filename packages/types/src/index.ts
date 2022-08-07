@@ -54,5 +54,10 @@ export type TAccent = 'major' | 'minor' | 'neutral' | 'info' | 'success' | 'warn
  * @public
  */
 export interface IIconProps extends HTMLAttributes<SVGElement> {
+  /**
+   * If `true`, creates an outlined icon
+   *
+   * @default false
+   */
   isOutlined?: boolean;
 }

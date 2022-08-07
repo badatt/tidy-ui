@@ -3,3 +3,5 @@ build
 coverage
 *.log
 dist
+**/*.spec.tsx
+**/*.stories.tsx
