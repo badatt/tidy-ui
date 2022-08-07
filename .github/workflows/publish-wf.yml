@@ -90,7 +90,7 @@ jobs:
 
       - name: Publish minor version
         if: ${{ github.ref == 'refs/heads/main' }}
-        run: npx lerna publish minor --conventional-commits --create-release github -y
+        run: npx lerna publish minor --force-publish --conventional-commits --create-release github -y
         env:
           GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
