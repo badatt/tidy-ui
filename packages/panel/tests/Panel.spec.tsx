@@ -17,7 +17,7 @@ describe('Panel', () => {
       <ThemeProvider theme={orchidLight}>
         <Panel>
           <PanelHeader>
-            <Text as="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
+            <Text is="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
           </PanelHeader>
           <PanelBody>
             <Text>
@@ -41,7 +41,7 @@ describe('Panel', () => {
       <ThemeProvider theme={orchidDark}>
         <Panel isExpanded>
           <PanelHeader>
-            <Text as="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
+            <Text is="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
           </PanelHeader>
           <PanelBody>
             <Text>
@@ -65,7 +65,7 @@ describe('Panel', () => {
       <ThemeProvider theme={orchidLight}>
         <Panel>
           <PanelHeader>
-            <Text as="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
+            <Text is="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
           </PanelHeader>
           <PanelBody>
             <Text>
