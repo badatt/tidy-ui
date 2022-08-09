@@ -15,17 +15,16 @@
     "@tidy-ui/theme": "^0.0.39"
   },
   "peerDependencies": {
-    "react": "^16.0.0",
+    "react": "^17.0.2",
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.1.1",
     "@rollup/plugin-replace": "^3.0.1",
-    "@types/react": "^16.0.0",
+    "@types/react": "^17.0.2",
     "@types/styled-components": "^5.1.17",
     "is-ci-cli": "^2.2.0",
-    "react": "^16.0.0",
     "rollup": "^2.61.1",
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-node-polyfills": "^0.2.1",
