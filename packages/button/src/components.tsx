@@ -54,7 +54,7 @@ const ButtonRoot = styled.button<IButtonProps>`
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
-  //transition: all 200ms linear;
+  transition: all 200ms linear;
   ${({ withSize, isDisabled, isStretched, withType, isUppercase }) => css`
     font-size: ${sizeStyles[withSize!].fontSize};
     padding: 0.3em 0.5rem;
