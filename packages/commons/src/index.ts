@@ -14,11 +14,16 @@ export { default as RotatingCircleIcon } from './icons/RotatingCircleIcon';
 export { default as WarningIcon } from './icons/WarningIcon';
 
 /** utils */
+export { default as isValidDom } from './utils/isValidDom';
 
 /** hooks */
 export { default as useEscaper } from './hooks/useEscaper';
 export { default as useHash } from './hooks/useHash';
 export { default as useIsMounted } from './hooks/useIsMounted';
+export { default as usePortal } from './hooks/usePortal';
 export { default as useTheme } from './hooks/useTheme';
 export { default as useTimeout } from './hooks/useTimeout';
 export { default as useWindow } from './hooks/useWindow';
+
+/** others */
+export * from './provider/TidyUiProvider';
