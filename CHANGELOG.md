@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.14](https://github.com/badatt/tidy-ui/compare/v0.2.13...v0.2.14) (2022-08-10)
+
+
+### Features
+
+* added isValidDom function ([bf32422](https://github.com/badatt/tidy-ui/commit/bf3242284deadb2759f1e7954e83ea9f8013032b))
+* added TidyUiProvider for theming and context ([018ba76](https://github.com/badatt/tidy-ui/commit/018ba76b903d96f43bb09ab58c50d744b9282bbb))
+* added TidyUiProvider for theming and context ([4a5db0e](https://github.com/badatt/tidy-ui/commit/4a5db0e534fbcfdba23bf9286c4465a96bb25e00))
+* added usePortal ([1a00074](https://github.com/badatt/tidy-ui/commit/1a00074dd261afa03cdabb7abdcbb0e4bca77c06))
+
+
+
+
+
 ## [0.2.13](https://github.com/badatt/tidy-ui/compare/v0.2.12...v0.2.13) (2022-08-07)
 
 
