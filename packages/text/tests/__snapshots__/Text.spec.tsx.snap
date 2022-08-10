@@ -1065,19 +1065,6 @@ Object {
 .c5 {
   display: block;
   margin: 0;
-  font-size: 0.875rem;
-  color: hsla(217,33%,17%,1);
-  font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
-}
-
-.c6 {
-  display: block;
-  margin: 0;
   font-size: 1rem;
   color: hsla(217,33%,17%,1);
   font-weight: 400;
@@ -1088,7 +1075,7 @@ Object {
   line-height: 1.5;
 }
 
-.c7 {
+.c6 {
   display: block;
   margin: 0;
   font-size: 0.75rem;
@@ -1099,6 +1086,19 @@ Object {
   -ms-letter-spacing: 0.03333em;
   letter-spacing: 0.03333em;
   line-height: 1.66;
+}
+
+.c7 {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
 }
 
 .c8 {
@@ -1146,38 +1146,38 @@ Object {
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </h5>
-      <span
-        class="c5"
-        role="text"
-      >
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
-      </span>
       <p
-        class="c6"
+        class="c5"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
-        class="c6"
+        class="c5"
+        role="text"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+      </p>
+      <p
+        class="c5"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <code
-        class="c7"
+        class="c6"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </code>
       <span
-        class="c5"
+        class="c7"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </span>
       <p
-        class="c6"
+        class="c5"
         role="text"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
@@ -1288,19 +1288,6 @@ Object {
 .c5 {
   display: block;
   margin: 0;
-  font-size: 0.875rem;
-  color: hsla(217,33%,17%,1);
-  font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
-}
-
-.c6 {
-  display: block;
-  margin: 0;
   font-size: 1rem;
   color: hsla(217,33%,17%,1);
   font-weight: 400;
@@ -1311,7 +1298,7 @@ Object {
   line-height: 1.5;
 }
 
-.c7 {
+.c6 {
   display: block;
   margin: 0;
   font-size: 0.75rem;
@@ -1322,6 +1309,19 @@ Object {
   -ms-letter-spacing: 0.03333em;
   letter-spacing: 0.03333em;
   line-height: 1.66;
+}
+
+.c7 {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
 }
 
 .c8 {
@@ -1368,38 +1368,38 @@ Object {
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </h5>
-    <span
-      class="c5"
-      role="text"
-    >
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
-    </span>
     <p
-      class="c6"
+      class="c5"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
-      class="c6"
+      class="c5"
+      role="text"
+    >
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
+    </p>
+    <p
+      class="c5"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <code
-      class="c7"
+      class="c6"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </code>
     <span
-      class="c5"
+      class="c7"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </span>
     <p
-      class="c6"
+      class="c5"
       role="text"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?

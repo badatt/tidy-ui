@@ -42,8 +42,6 @@ const TidyUiProvider = (props: ITidyUiProviderProps): JSX.Element => {
 
   const { Portal } = usePortal();
 
-  console.log('Calling custom provider');
-
   const value = useMemo(() => ({ theme, ...rest }), [theme, rest]);
 
   return (

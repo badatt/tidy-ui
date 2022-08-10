@@ -1,4 +1,4 @@
-import { ElementType, HTMLAttributes } from 'react';
+import { HTMLAttributes } from 'react';
 import { TColor } from '@tidy-ui/types';
 
 /**
@@ -27,16 +27,6 @@ export type TTextTypes =
   | 'h6';
 
 /**
- *
- */
-export interface GenericComponentProps extends HTMLAttributes<HTMLOrSVGElement> {
-  /**
-   *
-   */
-  as?: ElementType | string;
-}
-
-/**
  * Text props
  *
  * @typedef {ITextProps}
@@ -45,6 +35,14 @@ export interface GenericComponentProps extends HTMLAttributes<HTMLOrSVGElement> 
  * @public
  */
 export interface ITextProps extends HTMLAttributes<HTMLDivElement> {
+  /**
+   * Text variant, the html component that this text represents
+   *
+   * @type {?TTextTypes}
+   * @default 'body2'
+   */
+  as?: TTextTypes;
+
   /**
    * If `true`, creates bold text
    *
@@ -100,14 +98,6 @@ export interface ITextProps extends HTMLAttributes<HTMLDivElement> {
    * @default undefined
    */
   href?: string;
-
-  /**
-   * Text variant, the html component that this text represents
-   *
-   * @type {?TTextTypes}
-   * @default 'body2'
-   */
-  is?: TTextTypes;
 
   /**
    * If `true`, the text is italicized

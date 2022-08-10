@@ -59,7 +59,7 @@ describe('Text', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {variants.map((v) => (
-          <Text is={v as TTextTypes} key={v}>
+          <Text as={v as TTextTypes} key={v}>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores
             atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
           </Text>
@@ -100,7 +100,7 @@ describe('Text', () => {
   it('All other forms of text', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Text is="subtitle2" href="https://google.com">
+        <Text as="subtitle2" href="https://google.com">
           Linked: The quick brown fox jumps over the lazy dog
         </Text>
         <Text bld>bold: The quick brown fox jumps over the lazy dog</Text>

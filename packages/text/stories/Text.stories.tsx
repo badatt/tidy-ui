@@ -15,17 +15,17 @@ const Container = styled.div`
 
 export const types = () => (
   <Container>
-    <Text is="h1">h1: The quick brown fox jumps over the lazy dog</Text>
-    <Text is="h2">h2: The quick brown fox jumps over the lazy dog</Text>
-    <Text is="h3">h3: The quick brown fox jumps over the lazy dog</Text>
-    <Text is="h4">h4: The quick brown fox jumps over the lazy dog</Text>
-    <Text is="h5">h5: The quick brown fox jumps over the lazy dog</Text>
-    <Text is="h6">h6: The quick brown fox jumps over the lazy dog</Text>
-    <Text is="title1">title1: The quick brown fox jumps over the lazy dog</Text>
-    <Text is="subtitle1">subtitle1: The quick brown fox jumps over the lazy dog</Text>
-    <Text is="title2">title2: The quick brown fox jumps over the lazy dog</Text>
-    <Text is="subtitle2">subtitle2: The quick brown fox jumps over the lazy dog</Text>
-    <Text is="body1">
+    <Text as="h1">h1: The quick brown fox jumps over the lazy dog</Text>
+    <Text as="h2">h2: The quick brown fox jumps over the lazy dog</Text>
+    <Text as="h3">h3: The quick brown fox jumps over the lazy dog</Text>
+    <Text as="h4">h4: The quick brown fox jumps over the lazy dog</Text>
+    <Text as="h5">h5: The quick brown fox jumps over the lazy dog</Text>
+    <Text as="h6">h6: The quick brown fox jumps over the lazy dog</Text>
+    <Text as="title1">title1: The quick brown fox jumps over the lazy dog</Text>
+    <Text as="subtitle1">subtitle1: The quick brown fox jumps over the lazy dog</Text>
+    <Text as="title2">title2: The quick brown fox jumps over the lazy dog</Text>
+    <Text as="subtitle2">subtitle2: The quick brown fox jumps over the lazy dog</Text>
+    <Text as="body1">
       body1: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora voluptatum impedit corrupti? In, suscipit
       libero? Assumenda ea beatae veniam iste obcaecati, atque labore dolores facere ad, id repellendus quidem
       distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quis explicabo vitae dignissimos
@@ -34,28 +34,28 @@ export const types = () => (
       incidunt magni quasi deserunt vitae quae? Ipsum earum doloribus eius, cupiditate quae fugit voluptatibus rerum,
       fuga, ipsam repudiandae itaque est!
     </Text>
-    <Text is="body2">
+    <Text as="body2">
       body2: Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ipsa dignissimos aut ducimus, dicta eaque
       mollitia quo voluptatibus suscipit illum tempora quos quas at impedit possimus cupiditate. Fuga, hic aliquam.
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel quo omnis, voluptatum debitis, quos a vitae delectus
       facere illo perferendis sunt reprehenderit minus quaerat adipisci ab possimus eaque non explicabo!
     </Text>
-    <Text is="p">
+    <Text as="p">
       p: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste asperiores commodi, esse velit, totam quis sunt
       molestiae quisquam architecto tempora fugit dignissimos, minus at corporis suscipit placeat harum reiciendis
       incidunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus officia porro voluptatum dolorum
       fugiat totam, et enim alias id ipsa praesentium ducimus dolor molestias. Itaque quisquam sint odit quis
       doloremque.
     </Text>
-    <Text is="span">span: The quick brown fox jumps over the lazy dog</Text>
-    <Text is="caption">caption: The quick brown fox jumps over the lazy dog</Text>
-    <Text is="code">
+    <Text as="span">span: The quick brown fox jumps over the lazy dog</Text>
+    <Text as="caption">caption: The quick brown fox jumps over the lazy dog</Text>
+    <Text as="code">
       code: Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consequatur officiis minima in, laborum
       sapiente beatae dicta est quas numquam, nostrum quaerat libero quasi, voluptatem placeat commodi non. Asperiores,
       sint! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio minima non facere natus reprehenderit,
       in excepturi ad beatae facilis, at, recusandae consectetur eius a nisi magnam dicta similique quae quaerat!
     </Text>
-    <Text is="hero">hero: The quick brown fox jumps over the lazy dog</Text>
+    <Text as="hero">hero: The quick brown fox jumps over the lazy dog</Text>
     <Text>
       default Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae deserunt corrupti totam eaque, explicabo
       eos quae inventore id earum nobis non iste dicta, consequuntur neque nemo tenetur unde officiis. Temporibus? Lorem
@@ -79,7 +79,7 @@ export const colorVariants = () => (
 
 export const others = () => (
   <Container>
-    <Text is="subtitle2" href="https://google.com">
+    <Text as="subtitle2" href="https://google.com">
       Linked: The quick brown fox jumps over the lazy dog
     </Text>
     <Text bld>bold: The quick brown fox jumps over the lazy dog</Text>
