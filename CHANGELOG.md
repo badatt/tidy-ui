@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/badatt/tidy-ui/compare/v0.2.14...v0.4.0) (2022-08-10)
+
+
+
+# [0.3.0](https://github.com/badatt/tidy-ui/compare/v0.2.13...v0.3.0) (2022-08-07)
+
+
+### Bug Fixes
+
+* badge component prop changes and updates ([63b7e65](https://github.com/badatt/tidy-ui/commit/63b7e65f3426b63cbfae39696d37ec0df1b62689))
+* changes to Anchor button component ([84fc256](https://github.com/badatt/tidy-ui/commit/84fc256ecebea70665e02bb6088a519ed27d0375))
+* escaper regex fix ([1f23ff1](https://github.com/badatt/tidy-ui/commit/1f23ff1cd1f7dfcc59c58556503c05dd15a22a7b))
+
+
+### Features
+
+* added ButtonGroup to Button component ([d4c63a2](https://github.com/badatt/tidy-ui/commit/d4c63a2d1b47f802a035da602d2213b2b5c8dc34))
+* added ButtonToolbar to button component ([8070448](https://github.com/badatt/tidy-ui/commit/8070448efe3c79710b04a48243c39588465bec3d))
+* added IconButton to button component ([125fc6a](https://github.com/badatt/tidy-ui/commit/125fc6a7dcbd2de756cc026944392520d50d9b38))
+* added Panel package ([7484d84](https://github.com/badatt/tidy-ui/commit/7484d8452ad25cb79e7af10d572b1fd9fd58ee78))
+* implemented Tag and TagGroup ([1110d53](https://github.com/badatt/tidy-ui/commit/1110d531c78cd112be9808c4893767a8de3119f9))
+* outlind variants for badge ([15fc5ea](https://github.com/badatt/tidy-ui/commit/15fc5ea26f1875d8ca492b20f841fd5974910117))
+* text with link ([a5b3d61](https://github.com/badatt/tidy-ui/commit/a5b3d616728299f9c52d2b9263f788696c45a75e))
+* useEscaper, useHash, useIdGen hooks ([e4bf334](https://github.com/badatt/tidy-ui/commit/e4bf334a2cc4455ae458e7851ac1fc0a56cdfd4f))
+* useTheme hook ([0b23856](https://github.com/badatt/tidy-ui/commit/0b23856d792b89c5ea09b90fc868b347dcc025bb))
+* useWindow hook ([f1425b2](https://github.com/badatt/tidy-ui/commit/f1425b25bcb27733d4e36a8255bb3219c51f43a3))
+
+
+
+
+
 # [0.3.0](https://github.com/badatt/tidy-ui/compare/v0.2.0...v0.3.0) (2022-08-07)
 
 

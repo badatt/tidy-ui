@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/badatt/tidy-ui/compare/v0.2.14...v0.4.0) (2022-08-10)
+
+
+
+# [0.3.0](https://github.com/badatt/tidy-ui/compare/v0.2.13...v0.3.0) (2022-08-07)
+
+
+### Features
+
+* added Panel package ([7484d84](https://github.com/badatt/tidy-ui/commit/7484d8452ad25cb79e7af10d572b1fd9fd58ee78))
+
+
+
+
+
 # [0.3.0](https://github.com/badatt/tidy-ui/compare/v0.2.0...v0.3.0) (2022-08-07)
 
 
