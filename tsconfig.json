@@ -20,7 +20,7 @@
     "noEmit": false /* Do not emit outputs. */,
     // "importHelpers": true,                 /* Import emit helpers from 'tslib'. */
     // "downlevelIteration": true,            /* Provide full support for iterables in 'for-of', spread, and destructuring when targeting 'ES5' or 'ES3'. */
-    "isolatedModules": true /* Transpile each file as a separate module (similar to 'ts.transpileModule'). */,
+    "isolatedModules": false /* Transpile each file as a separate module (similar to 'ts.transpileModule'). */,
     "preserveConstEnums": true,
 
     /* Strict Type-Checking Options */
@@ -68,5 +68,5 @@
     "skipLibCheck": true
   },
   "exclude": ["node_modules", "build", "dist", "**/stories/**", "**/tests/**"],
-  "include": ["packages/*/src/**/*"]
+  "include": ["packages/*/src/**/*", ".storybook"]
 }

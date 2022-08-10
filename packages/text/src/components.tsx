@@ -1,6 +1,7 @@
+import React, { FC } from 'react';
 import { LinkIcon } from '@tidy-ui/commons';
 import { css, styled } from '@tidy-ui/theme';
-import { IDataFieldProps, ITextProps, TTextTypes } from './types';
+import { GenericComponentProps, IDataFieldProps, ITextProps, TTextTypes } from './types';
 
 const TextLinkIcon = styled(LinkIcon)`
   height: 0.8em;
@@ -16,15 +17,24 @@ const TextLink = styled.a<ITextProps>`
 `;
 
 /**
+ * Generic component to render actual tag
+ *
+ * @internal
+ */
+const GenericComponent: FC<GenericComponentProps> = ({ as: Tag = 'span', children, ...rest }) => {
+  return <Tag {...rest}>{children}</Tag>;
+};
+
+/**
  * Internal styled text
  *
  * @internal
  */
-const TextRoot = styled.div<ITextProps>`
-  ${({ theme: { palette, typography }, is, clr, bld, udl, itl, uc, lc, cc, dsb, exd, ctr, tnc }) => css`
+const TextRoot = styled(GenericComponent)<ITextProps>`
+  ${({ theme: { palette, typography }, as, clr, bld, udl, itl, uc, lc, cc, dsb, exd, ctr, tnc }) => css`
     display: block;
     margin: 0;
-    font-size: ${typography[is!].fontSize};
+    font-size: ${typography[as! as string].fontSize};
     ${!dsb &&
     !clr &&
     css`
@@ -32,10 +42,10 @@ const TextRoot = styled.div<ITextProps>`
     `}
     ${!bld &&
     css`
-      font-weight: ${typography[is!].fontWeight};
+      font-weight: ${typography[as! as string].fontWeight};
     `}
-    letter-spacing: ${typography[is!].letterSpacing};
-    line-height: ${typography[is!].lineHeight};
+    letter-spacing: ${typography[as! as string].letterSpacing};
+    line-height: ${typography[as! as string].lineHeight};
     ${!dsb &&
     clr &&
     css`

@@ -54,7 +54,7 @@ const ButtonRoot = styled.button<IButtonProps>`
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
-  transition: all 0.3s linear;
+  transition: all 200ms linear;
   ${({ withSize, isDisabled, isStretched, withType, isUppercase }) => css`
     font-size: ${sizeStyles[withSize!].fontSize};
     padding: 0.3em 0.5rem;
@@ -64,6 +64,7 @@ const ButtonRoot = styled.button<IButtonProps>`
     css`
       cursor: not-allowed;
       opacity: 0.6;
+      transition: none;
     `}
     ${isStretched &&
     css`
@@ -174,6 +175,7 @@ const ButtonGroupRoot = styled.div<IButtonGroupProps>`
     `}
     & * {
       box-shadow: none !important;
+      opacity: 1 !important;
     }
     & > :not(:first-child):not(:last-child) {
       border-radius: 0 !important;
