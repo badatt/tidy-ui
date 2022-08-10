@@ -26,8 +26,8 @@ Object {
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
   font-size: 0.875rem;
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
@@ -66,6 +66,7 @@ Object {
 
 .c0 * {
   box-shadow: none !important;
+  opacity: 1 !important;
 }
 
 .c0 > :not(:first-child):not(:last-child) {
@@ -134,8 +135,8 @@ Object {
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
   font-size: 0.875rem;
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
@@ -174,6 +175,7 @@ Object {
 
 .c0 * {
   box-shadow: none !important;
+  opacity: 1 !important;
 }
 
 .c0 > :not(:first-child):not(:last-child) {
@@ -297,8 +299,8 @@ Object {
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
   font-size: 0.875rem;
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
@@ -337,6 +339,7 @@ Object {
 
 .c0 * {
   box-shadow: none !important;
+  opacity: 1 !important;
 }
 
 .c0 > :not(:first-child):not(:last-child) {
@@ -405,8 +408,8 @@ Object {
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
   font-size: 0.875rem;
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
@@ -445,6 +448,7 @@ Object {
 
 .c0 * {
   box-shadow: none !important;
+  opacity: 1 !important;
 }
 
 .c0 > :not(:first-child):not(:last-child) {
@@ -568,8 +572,8 @@ Object {
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
   font-size: 0.875rem;
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
@@ -619,6 +623,7 @@ Object {
 
 .c0 * {
   box-shadow: none !important;
+  opacity: 1 !important;
 }
 
 .c0 > :not(:first-child):not(:last-child) {
@@ -687,8 +692,8 @@ Object {
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
   font-size: 0.875rem;
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
@@ -738,6 +743,7 @@ Object {
 
 .c0 * {
   box-shadow: none !important;
+  opacity: 1 !important;
 }
 
 .c0 > :not(:first-child):not(:last-child) {
@@ -861,8 +867,8 @@ Object {
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
   font-size: 0.875rem;
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
@@ -914,6 +920,7 @@ Object {
 
 .c0 * {
   box-shadow: none !important;
+  opacity: 1 !important;
 }
 
 .c0 > :not(:first-child):not(:last-child) {
@@ -964,8 +971,8 @@ Object {
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
   font-size: 0.875rem;
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
@@ -1017,6 +1024,7 @@ Object {
 
 .c0 * {
   box-shadow: none !important;
+  opacity: 1 !important;
 }
 
 .c0 > :not(:first-child):not(:last-child) {
@@ -1122,8 +1130,8 @@ Object {
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
   font-size: 0.875rem;
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
@@ -1164,6 +1172,7 @@ Object {
 
 .c0 * {
   box-shadow: none !important;
+  opacity: 1 !important;
 }
 
 .c0 > :not(:first-child):not(:last-child) {
@@ -1232,8 +1241,8 @@ Object {
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
   font-size: 0.875rem;
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
@@ -1274,6 +1283,7 @@ Object {
 
 .c0 * {
   box-shadow: none !important;
+  opacity: 1 !important;
 }
 
 .c0 > :not(:first-child):not(:last-child) {
@@ -1397,8 +1407,8 @@ Object {
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
   font-size: 0.875rem;
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
@@ -1440,6 +1450,7 @@ Object {
 
 .c0 * {
   box-shadow: none !important;
+  opacity: 1 !important;
 }
 
 .c0 > :not(:first-child):not(:last-child) {
@@ -1508,8 +1519,8 @@ Object {
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
   font-size: 0.875rem;
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
@@ -1551,6 +1562,7 @@ Object {
 
 .c0 * {
   box-shadow: none !important;
+  opacity: 1 !important;
 }
 
 .c0 > :not(:first-child):not(:last-child) {
@@ -1674,8 +1686,8 @@ Object {
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
   font-size: 0.875rem;
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
@@ -1719,6 +1731,7 @@ Object {
 
 .c0 * {
   box-shadow: none !important;
+  opacity: 1 !important;
 }
 
 .c0 > :not(:first-child):not(:last-child) {
@@ -1787,8 +1800,8 @@ Object {
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
   font-size: 0.875rem;
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
@@ -1832,6 +1845,7 @@ Object {
 
 .c0 * {
   box-shadow: none !important;
+  opacity: 1 !important;
 }
 
 .c0 > :not(:first-child):not(:last-child) {

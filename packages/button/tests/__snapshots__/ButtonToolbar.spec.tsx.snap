@@ -27,6 +27,7 @@ Object {
 
 .c5 * {
   box-shadow: none !important;
+  opacity: 1 !important;
 }
 
 .c5 > :not(:first-child):not(:last-child) {
@@ -416,6 +417,7 @@ Object {
 
 .c5 * {
   box-shadow: none !important;
+  opacity: 1 !important;
 }
 
 .c5 > :not(:first-child):not(:last-child) {
@@ -860,6 +862,7 @@ Object {
 
 .c5 * {
   box-shadow: none !important;
+  opacity: 1 !important;
 }
 
 .c5 > :not(:first-child):not(:last-child) {
@@ -1198,6 +1201,7 @@ Object {
 
 .c5 * {
   box-shadow: none !important;
+  opacity: 1 !important;
 }
 
 .c5 > :not(:first-child):not(:last-child) {

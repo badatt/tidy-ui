@@ -33,15 +33,11 @@ export default {
   output: [
     {
       banner: '/* eslint-disable */',
+      dir: 'dist',
       exports: 'auto',
-      file: packageJson.main,
-      format: 'cjs',
-    },
-    {
-      banner: '/* eslint-disable */',
-      exports: 'auto',
-      file: packageJson.module,
       format: 'es',
+      preserveModules: true,
+      preserveModulesRoot: 'src',
     },
   ],
   plugins: [

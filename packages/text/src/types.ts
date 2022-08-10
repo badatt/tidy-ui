@@ -1,4 +1,4 @@
-import { HTMLAttributes } from 'react';
+import { ElementType, HTMLAttributes } from 'react';
 import { TColor } from '@tidy-ui/types';
 
 /**
@@ -25,6 +25,16 @@ export type TTextTypes =
   | 'h4'
   | 'h5'
   | 'h6';
+
+/**
+ *
+ */
+export interface GenericComponentProps extends HTMLAttributes<HTMLOrSVGElement> {
+  /**
+   *
+   */
+  as?: ElementType | string;
+}
 
 /**
  * Text props

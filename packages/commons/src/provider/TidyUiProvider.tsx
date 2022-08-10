@@ -35,9 +35,9 @@ const { Consumer, Provider } = TidyUiContext;
  * Custom TidyUiProvider
  *
  * @param {ITidyUiProviderProps} props TidyUiProvider props
- * @returns {ReactNode} react node
+ * @returns {JSX.Element} JSX Element
  */
-const TidyUiProvider = (props: ITidyUiProviderProps): ReactNode => {
+const TidyUiProvider = (props: ITidyUiProviderProps): JSX.Element => {
   const { children, theme, ...rest } = props;
 
   const { Portal } = usePortal();
