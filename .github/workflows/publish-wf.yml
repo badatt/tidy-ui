@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - dev
 
 jobs:
   vet:
@@ -82,15 +81,22 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
       - name: Publish patch version
-        if: ${{ github.ref == 'refs/heads/dev' }}
+        if: "${{ !startsWith(github.event.head_commit.message, 'chore: release') }}"
         run: npx lerna publish patch --conventional-commits --create-release github -y
         env:
           GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Publish minor version
-        if: ${{ github.ref == 'refs/heads/main' }}
+        if: "${{ startsWith(github.event.head_commit.message, 'chore: release minor') }}"
         run: npx lerna publish minor --force-publish --conventional-commits --create-release github -y
+        env:
+          GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Publish major version
+        if: "${{ startsWith(github.event.head_commit.message, 'chore: release major') }}"
+        run: npx lerna publish major --force-publish --conventional-commits --create-release github -y
         env:
           GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
