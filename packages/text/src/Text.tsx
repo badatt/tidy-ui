@@ -7,12 +7,12 @@ import { ITextProps } from './types';
  * any text data you want to handle on a page. Powered by various styles (with theming) and settings
  *
  */
-const Text = forwardRef<HTMLDivElement, ITextProps>((props, ref) => {
+const Text = forwardRef<HTMLElement, ITextProps>((props, ref) => {
   const { children, is, href, ...rest } = props;
   const ele = htmlElement({ is });
 
   return (
-    <TextRoot role="text" ref={ref} is={ele} {...rest}>
+    <TextRoot role="text" ref={ref} as={ele} {...rest}>
       {children}
       {href && (
         <TextLink role="text-link" href={href}>

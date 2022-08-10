@@ -3,7 +3,33 @@
 exports[`Panel Basic render 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c1 {
+  "baseElement": .c3 {
+  display: block;
+  margin: 0;
+  font-size: 1.25rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
+}
+
+.c6 {
+  display: block;
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+}
+
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -35,7 +61,7 @@ Object {
   padding: 1rem 1rem;
 }
 
-.c3 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -54,7 +80,7 @@ Object {
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
 }
 
-.c4 {
+.c5 {
   padding: 0rem 1rem;
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
@@ -93,15 +119,14 @@ Object {
             class="c2"
             role="panel-header"
           >
-            <div
-              classname="sc-dkzDqf kkXvAq"
-              is="h6"
+            <h6
+              class="c3"
               role="text"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit
-            </div>
+            </h6>
             <i
-              class="c3"
+              class="c4"
               role="panel-icon"
             >
               <svg
@@ -118,23 +143,21 @@ Object {
             </i>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="panel-body"
           >
-            <div
-              classname="sc-dkzDqf bqmGt"
-              is="p"
+            <p
+              class="c6"
               role="text"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo qui odit!
-            </div>
-            <div
-              classname="sc-dkzDqf bqmGt"
-              is="p"
+            </p>
+            <p
+              class="c6"
               role="text"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quasi explicabo id amet sed labore, ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum ducimus!
-            </div>
+            </p>
           </div>
         </div>
         <div
@@ -145,15 +168,14 @@ Object {
             class="c2"
             role="panel-header"
           >
-            <div
-              classname="sc-dkzDqf kkXvAq"
-              is="h6"
+            <h6
+              class="c3"
               role="text"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit
-            </div>
+            </h6>
             <i
-              class="c3"
+              class="c4"
               role="panel-icon"
             >
               <svg
@@ -170,23 +192,21 @@ Object {
             </i>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="panel-body"
           >
-            <div
-              classname="sc-dkzDqf bqmGt"
-              is="p"
+            <p
+              class="c6"
               role="text"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo qui odit!
-            </div>
-            <div
-              classname="sc-dkzDqf bqmGt"
-              is="p"
+            </p>
+            <p
+              class="c6"
               role="text"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quasi explicabo id amet sed labore, ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum ducimus!
-            </div>
+            </p>
           </div>
         </div>
         <div
@@ -197,15 +217,14 @@ Object {
             class="c2"
             role="panel-header"
           >
-            <div
-              classname="sc-dkzDqf kkXvAq"
-              is="h6"
+            <h6
+              class="c3"
               role="text"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit
-            </div>
+            </h6>
             <i
-              class="c3"
+              class="c4"
               role="panel-icon"
             >
               <svg
@@ -222,29 +241,53 @@ Object {
             </i>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="panel-body"
           >
-            <div
-              classname="sc-dkzDqf bqmGt"
-              is="p"
+            <p
+              class="c6"
               role="text"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo qui odit!
-            </div>
-            <div
-              classname="sc-dkzDqf bqmGt"
-              is="p"
+            </p>
+            <p
+              class="c6"
               role="text"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quasi explicabo id amet sed labore, ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum ducimus!
-            </div>
+            </p>
           </div>
         </div>
       </div>
     </div>
   </body>,
-  "container": .c1 {
+  "container": .c3 {
+  display: block;
+  margin: 0;
+  font-size: 1.25rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
+}
+
+.c6 {
+  display: block;
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+}
+
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -276,7 +319,7 @@ Object {
   padding: 1rem 1rem;
 }
 
-.c3 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -295,7 +338,7 @@ Object {
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
 }
 
-.c4 {
+.c5 {
   padding: 0rem 1rem;
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
@@ -333,15 +376,14 @@ Object {
           class="c2"
           role="panel-header"
         >
-          <div
-            classname="sc-dkzDqf kkXvAq"
-            is="h6"
+          <h6
+            class="c3"
             role="text"
           >
             Lorem ipsum dolor sit, amet consectetur adipisicing elit
-          </div>
+          </h6>
           <i
-            class="c3"
+            class="c4"
             role="panel-icon"
           >
             <svg
@@ -358,23 +400,21 @@ Object {
           </i>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="panel-body"
         >
-          <div
-            classname="sc-dkzDqf bqmGt"
-            is="p"
+          <p
+            class="c6"
             role="text"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo qui odit!
-          </div>
-          <div
-            classname="sc-dkzDqf bqmGt"
-            is="p"
+          </p>
+          <p
+            class="c6"
             role="text"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quasi explicabo id amet sed labore, ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum ducimus!
-          </div>
+          </p>
         </div>
       </div>
       <div
@@ -385,15 +425,14 @@ Object {
           class="c2"
           role="panel-header"
         >
-          <div
-            classname="sc-dkzDqf kkXvAq"
-            is="h6"
+          <h6
+            class="c3"
             role="text"
           >
             Lorem ipsum dolor sit, amet consectetur adipisicing elit
-          </div>
+          </h6>
           <i
-            class="c3"
+            class="c4"
             role="panel-icon"
           >
             <svg
@@ -410,23 +449,21 @@ Object {
           </i>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="panel-body"
         >
-          <div
-            classname="sc-dkzDqf bqmGt"
-            is="p"
+          <p
+            class="c6"
             role="text"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo qui odit!
-          </div>
-          <div
-            classname="sc-dkzDqf bqmGt"
-            is="p"
+          </p>
+          <p
+            class="c6"
             role="text"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quasi explicabo id amet sed labore, ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum ducimus!
-          </div>
+          </p>
         </div>
       </div>
       <div
@@ -437,15 +474,14 @@ Object {
           class="c2"
           role="panel-header"
         >
-          <div
-            classname="sc-dkzDqf kkXvAq"
-            is="h6"
+          <h6
+            class="c3"
             role="text"
           >
             Lorem ipsum dolor sit, amet consectetur adipisicing elit
-          </div>
+          </h6>
           <i
-            class="c3"
+            class="c4"
             role="panel-icon"
           >
             <svg
@@ -462,23 +498,21 @@ Object {
           </i>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="panel-body"
         >
-          <div
-            classname="sc-dkzDqf bqmGt"
-            is="p"
+          <p
+            class="c6"
             role="text"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo qui odit!
-          </div>
-          <div
-            classname="sc-dkzDqf bqmGt"
-            is="p"
+          </p>
+          <p
+            class="c6"
             role="text"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quasi explicabo id amet sed labore, ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum ducimus!
-          </div>
+          </p>
         </div>
       </div>
     </div>
@@ -540,7 +574,33 @@ Object {
 exports[`Panel Dark mode basic render 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c1 {
+  "baseElement": .c3 {
+  display: block;
+  margin: 0;
+  font-size: 1.25rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
+}
+
+.c6 {
+  display: block;
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+}
+
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -572,7 +632,7 @@ Object {
   padding: 1rem 1rem;
 }
 
-.c3 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -591,7 +651,7 @@ Object {
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
 }
 
-.c4 {
+.c5 {
   padding: 0rem 1rem;
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
@@ -630,15 +690,14 @@ Object {
             class="c2"
             role="panel-header"
           >
-            <div
-              classname="sc-dkzDqf gQuYnE"
-              is="h6"
+            <h6
+              class="c3"
               role="text"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit
-            </div>
+            </h6>
             <i
-              class="c3"
+              class="c4"
               role="panel-icon"
             >
               <svg
@@ -655,23 +714,21 @@ Object {
             </i>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="panel-body"
           >
-            <div
-              classname="sc-dkzDqf cbaKPf"
-              is="p"
+            <p
+              class="c6"
               role="text"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo qui odit!
-            </div>
-            <div
-              classname="sc-dkzDqf cbaKPf"
-              is="p"
+            </p>
+            <p
+              class="c6"
               role="text"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quasi explicabo id amet sed labore, ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum ducimus!
-            </div>
+            </p>
           </div>
         </div>
         <div
@@ -682,15 +739,14 @@ Object {
             class="c2"
             role="panel-header"
           >
-            <div
-              classname="sc-dkzDqf gQuYnE"
-              is="h6"
+            <h6
+              class="c3"
               role="text"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit
-            </div>
+            </h6>
             <i
-              class="c3"
+              class="c4"
               role="panel-icon"
             >
               <svg
@@ -707,23 +763,21 @@ Object {
             </i>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="panel-body"
           >
-            <div
-              classname="sc-dkzDqf cbaKPf"
-              is="p"
+            <p
+              class="c6"
               role="text"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo qui odit!
-            </div>
-            <div
-              classname="sc-dkzDqf cbaKPf"
-              is="p"
+            </p>
+            <p
+              class="c6"
               role="text"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quasi explicabo id amet sed labore, ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum ducimus!
-            </div>
+            </p>
           </div>
         </div>
         <div
@@ -734,15 +788,14 @@ Object {
             class="c2"
             role="panel-header"
           >
-            <div
-              classname="sc-dkzDqf gQuYnE"
-              is="h6"
+            <h6
+              class="c3"
               role="text"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit
-            </div>
+            </h6>
             <i
-              class="c3"
+              class="c4"
               role="panel-icon"
             >
               <svg
@@ -759,29 +812,53 @@ Object {
             </i>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="panel-body"
           >
-            <div
-              classname="sc-dkzDqf cbaKPf"
-              is="p"
+            <p
+              class="c6"
               role="text"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo qui odit!
-            </div>
-            <div
-              classname="sc-dkzDqf cbaKPf"
-              is="p"
+            </p>
+            <p
+              class="c6"
               role="text"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quasi explicabo id amet sed labore, ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum ducimus!
-            </div>
+            </p>
           </div>
         </div>
       </div>
     </div>
   </body>,
-  "container": .c1 {
+  "container": .c3 {
+  display: block;
+  margin: 0;
+  font-size: 1.25rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
+}
+
+.c6 {
+  display: block;
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+}
+
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -813,7 +890,7 @@ Object {
   padding: 1rem 1rem;
 }
 
-.c3 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -832,7 +909,7 @@ Object {
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
 }
 
-.c4 {
+.c5 {
   padding: 0rem 1rem;
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
@@ -870,15 +947,14 @@ Object {
           class="c2"
           role="panel-header"
         >
-          <div
-            classname="sc-dkzDqf gQuYnE"
-            is="h6"
+          <h6
+            class="c3"
             role="text"
           >
             Lorem ipsum dolor sit, amet consectetur adipisicing elit
-          </div>
+          </h6>
           <i
-            class="c3"
+            class="c4"
             role="panel-icon"
           >
             <svg
@@ -895,23 +971,21 @@ Object {
           </i>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="panel-body"
         >
-          <div
-            classname="sc-dkzDqf cbaKPf"
-            is="p"
+          <p
+            class="c6"
             role="text"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo qui odit!
-          </div>
-          <div
-            classname="sc-dkzDqf cbaKPf"
-            is="p"
+          </p>
+          <p
+            class="c6"
             role="text"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quasi explicabo id amet sed labore, ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum ducimus!
-          </div>
+          </p>
         </div>
       </div>
       <div
@@ -922,15 +996,14 @@ Object {
           class="c2"
           role="panel-header"
         >
-          <div
-            classname="sc-dkzDqf gQuYnE"
-            is="h6"
+          <h6
+            class="c3"
             role="text"
           >
             Lorem ipsum dolor sit, amet consectetur adipisicing elit
-          </div>
+          </h6>
           <i
-            class="c3"
+            class="c4"
             role="panel-icon"
           >
             <svg
@@ -947,23 +1020,21 @@ Object {
           </i>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="panel-body"
         >
-          <div
-            classname="sc-dkzDqf cbaKPf"
-            is="p"
+          <p
+            class="c6"
             role="text"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo qui odit!
-          </div>
-          <div
-            classname="sc-dkzDqf cbaKPf"
-            is="p"
+          </p>
+          <p
+            class="c6"
             role="text"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quasi explicabo id amet sed labore, ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum ducimus!
-          </div>
+          </p>
         </div>
       </div>
       <div
@@ -974,15 +1045,14 @@ Object {
           class="c2"
           role="panel-header"
         >
-          <div
-            classname="sc-dkzDqf gQuYnE"
-            is="h6"
+          <h6
+            class="c3"
             role="text"
           >
             Lorem ipsum dolor sit, amet consectetur adipisicing elit
-          </div>
+          </h6>
           <i
-            class="c3"
+            class="c4"
             role="panel-icon"
           >
             <svg
@@ -999,23 +1069,21 @@ Object {
           </i>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="panel-body"
         >
-          <div
-            classname="sc-dkzDqf cbaKPf"
-            is="p"
+          <p
+            class="c6"
             role="text"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo qui odit!
-          </div>
-          <div
-            classname="sc-dkzDqf cbaKPf"
-            is="p"
+          </p>
+          <p
+            class="c6"
             role="text"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quasi explicabo id amet sed labore, ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum ducimus!
-          </div>
+          </p>
         </div>
       </div>
     </div>
