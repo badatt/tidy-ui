@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.3](https://github.com/badatt/tidy-ui/compare/v0.3.2...v0.3.3) (2022-08-11)
+
+
+### Bug Fixes
+
+* className fix ([22adbbd](https://github.com/badatt/tidy-ui/commit/22adbbd168f36d2dd51d352f3c4805a5af347108))
+
+
+
+
+
 ## [0.3.2](https://github.com/badatt/tidy-ui/compare/v0.3.1...v0.3.2) (2022-08-11)
 
 **Note:** Version bump only for package @tidy-ui/badge
