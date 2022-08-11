@@ -28,7 +28,7 @@ export interface IUsePortalFnReturn {
     /**
      * Node children
      */
-    children: ReactNode;
+    children?: ReactNode;
   }>;
   /**
    * Root target element
@@ -57,7 +57,7 @@ const usePortal = (props?: IPortalProps): IUsePortalFnReturn => {
     /**
      * Node children
      */
-    children: ReactNode;
+    children?: ReactNode;
   }> = useCallback(
     ({
       children,
@@ -65,7 +65,7 @@ const usePortal = (props?: IPortalProps): IUsePortalFnReturn => {
       /**
        * Node children
        */
-      children: ReactNode;
+      children?: ReactNode;
     }) => {
       if (rootRef.current != null) return createPortal(children, rootRef.current);
       return null;

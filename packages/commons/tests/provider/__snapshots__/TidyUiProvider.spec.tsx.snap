@@ -9,9 +9,6 @@ Object {
         Hello
       </div>
     </div>
-    <div>
-      portal
-    </div>
   </body>,
   "container": <div>
     <div>

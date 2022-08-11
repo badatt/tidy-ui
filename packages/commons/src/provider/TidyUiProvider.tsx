@@ -48,9 +48,7 @@ const TidyUiProvider = (props: ITidyUiProviderProps): JSX.Element => {
     <ThemeProvider theme={theme} {...rest}>
       <Provider value={value}>
         {children}
-        <Portal>
-          <div>portal</div>
-        </Portal>
+        <Portal></Portal>
       </Provider>
     </ThemeProvider>
   );

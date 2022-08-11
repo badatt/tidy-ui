@@ -10,7 +10,7 @@ import { ICardProps } from './types';
 const Card = forwardRef<HTMLDivElement, ICardProps>((props, ref) => {
   const { children, withHref } = props;
   return (
-    <CardRoot ref={ref} {...props}>
+    <CardRoot role="card" ref={ref} {...props}>
       {withHref ? <a href={withHref}>{children}</a> : <>{children}</>}
     </CardRoot>
   );

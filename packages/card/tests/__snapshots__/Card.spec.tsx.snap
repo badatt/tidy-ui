@@ -51,19 +51,23 @@ Object {
     <div>
       <section
         class="c0"
+        role="card"
       >
         <header
           class="c1"
+          role="card-header"
         >
           Lorem ipsum dolor sit amet consectetur.
         </header>
         <div
           class="c2"
+          role="card-body"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. A in libero accusantium sunt dolore repellat molestiae animi quod, cum dicta, quis rem fugiat harum quasi hic tempora aliquid! Aperiam, consectetur. Quisquam fuga eveniet et molestias beatae excepturi eaque porro officia! Veritatis, necessitatibus quam quibusdam officiis quia tempora quidem voluptas, nihil ipsam reprehenderit, veniam accusantium. Rerum obcaecati dolorum doloremque quod illum. Doloremque optio debitis enim nam unde quod ducimus, nesciunt obcaecati aspernatur aliquam consectetur a provident aliquid quasi officia cupiditate rerum necessitatibus distinctio blanditiis incidunt amet hic cum dolorum assumenda? Recusandae! Ipsa et, esse enim quae laudantium placeat sequi nisi est consectetur omnis. Ducimus, vitae fuga? Dolorem dolor, qui nisi laudantium tenetur totam id quisquam voluptatem maxime molestiae libero provident commodi?
         </div>
         <footer
           class="c3"
+          role="card-footer"
         >
           Lorem ipsum dolor sit amet.
         </footer>
@@ -117,19 +121,23 @@ Object {
 <div>
     <section
       class="c0"
+      role="card"
     >
       <header
         class="c1"
+        role="card-header"
       >
         Lorem ipsum dolor sit amet consectetur.
       </header>
       <div
         class="c2"
+        role="card-body"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. A in libero accusantium sunt dolore repellat molestiae animi quod, cum dicta, quis rem fugiat harum quasi hic tempora aliquid! Aperiam, consectetur. Quisquam fuga eveniet et molestias beatae excepturi eaque porro officia! Veritatis, necessitatibus quam quibusdam officiis quia tempora quidem voluptas, nihil ipsam reprehenderit, veniam accusantium. Rerum obcaecati dolorum doloremque quod illum. Doloremque optio debitis enim nam unde quod ducimus, nesciunt obcaecati aspernatur aliquam consectetur a provident aliquid quasi officia cupiditate rerum necessitatibus distinctio blanditiis incidunt amet hic cum dolorum assumenda? Recusandae! Ipsa et, esse enim quae laudantium placeat sequi nisi est consectetur omnis. Ducimus, vitae fuga? Dolorem dolor, qui nisi laudantium tenetur totam id quisquam voluptatem maxime molestiae libero provident commodi?
       </div>
       <footer
         class="c3"
+        role="card-footer"
       >
         Lorem ipsum dolor sit amet.
       </footer>
@@ -262,9 +270,11 @@ Object {
     <div>
       <section
         class="c0"
+        role="card"
       >
         <header
           class="c1"
+          role="card-header"
         >
           Lorem ipsum dolor sit amet consectetur.
           <a
@@ -288,11 +298,13 @@ Object {
         </header>
         <div
           class="c5"
+          role="card-body"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. A in libero accusantium sunt dolore repellat molestiae animi quod, cum dicta, quis rem fugiat harum quasi hic tempora aliquid! Aperiam, consectetur. Quisquam fuga eveniet et molestias beatae excepturi eaque porro officia! Veritatis, necessitatibus quam quibusdam officiis quia tempora quidem voluptas, nihil ipsam reprehenderit, veniam accusantium. Rerum obcaecati dolorum doloremque quod illum. Doloremque optio debitis enim nam unde quod ducimus, nesciunt obcaecati aspernatur aliquam consectetur a provident aliquid quasi officia cupiditate rerum necessitatibus distinctio blanditiis incidunt amet hic cum dolorum assumenda? Recusandae! Ipsa et, esse enim quae laudantium placeat sequi nisi est consectetur omnis. Ducimus, vitae fuga? Dolorem dolor, qui nisi laudantium tenetur totam id quisquam voluptatem maxime molestiae libero provident commodi?
         </div>
         <footer
           class="c6"
+          role="card-footer"
         >
           Lorem ipsum dolor sit amet.
         </footer>
@@ -368,9 +380,11 @@ Object {
 <div>
     <section
       class="c0"
+      role="card"
     >
       <header
         class="c1"
+        role="card-header"
       >
         Lorem ipsum dolor sit amet consectetur.
         <a
@@ -394,11 +408,13 @@ Object {
       </header>
       <div
         class="c5"
+        role="card-body"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. A in libero accusantium sunt dolore repellat molestiae animi quod, cum dicta, quis rem fugiat harum quasi hic tempora aliquid! Aperiam, consectetur. Quisquam fuga eveniet et molestias beatae excepturi eaque porro officia! Veritatis, necessitatibus quam quibusdam officiis quia tempora quidem voluptas, nihil ipsam reprehenderit, veniam accusantium. Rerum obcaecati dolorum doloremque quod illum. Doloremque optio debitis enim nam unde quod ducimus, nesciunt obcaecati aspernatur aliquam consectetur a provident aliquid quasi officia cupiditate rerum necessitatibus distinctio blanditiis incidunt amet hic cum dolorum assumenda? Recusandae! Ipsa et, esse enim quae laudantium placeat sequi nisi est consectetur omnis. Ducimus, vitae fuga? Dolorem dolor, qui nisi laudantium tenetur totam id quisquam voluptatem maxime molestiae libero provident commodi?
       </div>
       <footer
         class="c6"
+        role="card-footer"
       >
         Lorem ipsum dolor sit amet.
       </footer>
@@ -525,38 +541,46 @@ Object {
     <div>
       <section
         class="c0"
+        role="card"
       >
         <header
           class="c1"
+          role="card-header"
         >
           Lorem ipsum dolor sit.
         </header>
         <div
           class="c2"
+          role="card-body"
         >
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptatibus dolorum! Quas, natus! Est, neque deserunt consequatur voluptatum dolores quae! Error explicabo omnis odio molestias.
         </div>
         <footer
           class="c3"
+          role="card-footer"
         >
           Lorem ipsum dolor sit amet consectetur.
         </footer>
       </section>
       <section
         class="c4"
+        role="card"
       >
         <header
           class="c1"
+          role="card-header"
         >
           Lorem ipsum dolor sit.
         </header>
         <div
           class="c2"
+          role="card-body"
         >
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptatibus dolorum! Quas, natus! Est, neque deserunt consequatur voluptatum dolores quae! Error explicabo omnis odio molestias.
         </div>
         <footer
           class="c3"
+          role="card-footer"
         >
           Lorem ipsum dolor sit amet consectetur.
         </footer>
@@ -626,38 +650,46 @@ Object {
 <div>
     <section
       class="c0"
+      role="card"
     >
       <header
         class="c1"
+        role="card-header"
       >
         Lorem ipsum dolor sit.
       </header>
       <div
         class="c2"
+        role="card-body"
       >
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptatibus dolorum! Quas, natus! Est, neque deserunt consequatur voluptatum dolores quae! Error explicabo omnis odio molestias.
       </div>
       <footer
         class="c3"
+        role="card-footer"
       >
         Lorem ipsum dolor sit amet consectetur.
       </footer>
     </section>
     <section
       class="c4"
+      role="card"
     >
       <header
         class="c1"
+        role="card-header"
       >
         Lorem ipsum dolor sit.
       </header>
       <div
         class="c2"
+        role="card-body"
       >
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptatibus dolorum! Quas, natus! Est, neque deserunt consequatur voluptatum dolores quae! Error explicabo omnis odio molestias.
       </div>
       <footer
         class="c3"
+        role="card-footer"
       >
         Lorem ipsum dolor sit amet consectetur.
       </footer>
@@ -911,9 +943,11 @@ Object {
     <div>
       <section
         class="c0"
+        role="card"
       >
         <header
           class="c1"
+          role="card-header"
         >
           Lorem ipsum dolor sit amet.
           <a
@@ -937,20 +971,24 @@ Object {
         </header>
         <div
           class="c5"
+          role="card-body"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
         </div>
         <footer
           class="c6"
+          role="card-footer"
         >
           Lorem ipsum dolor sit amet consectetur.
         </footer>
       </section>
       <section
         class="c7"
+        role="card"
       >
         <header
           class="c1"
+          role="card-header"
         >
           Lorem ipsum dolor sit amet.
           <a
@@ -974,20 +1012,24 @@ Object {
         </header>
         <div
           class="c5"
+          role="card-body"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
         </div>
         <footer
           class="c6"
+          role="card-footer"
         >
           Lorem ipsum dolor sit amet consectetur.
         </footer>
       </section>
       <section
         class="c8"
+        role="card"
       >
         <header
           class="c1"
+          role="card-header"
         >
           Lorem ipsum dolor sit amet.
           <a
@@ -1011,20 +1053,24 @@ Object {
         </header>
         <div
           class="c5"
+          role="card-body"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
         </div>
         <footer
           class="c6"
+          role="card-footer"
         >
           Lorem ipsum dolor sit amet consectetur.
         </footer>
       </section>
       <section
         class="c9"
+        role="card"
       >
         <header
           class="c1"
+          role="card-header"
         >
           Lorem ipsum dolor sit amet.
           <a
@@ -1048,20 +1094,24 @@ Object {
         </header>
         <div
           class="c5"
+          role="card-body"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
         </div>
         <footer
           class="c6"
+          role="card-footer"
         >
           Lorem ipsum dolor sit amet consectetur.
         </footer>
       </section>
       <section
         class="c10"
+        role="card"
       >
         <header
           class="c1"
+          role="card-header"
         >
           Lorem ipsum dolor sit amet.
           <a
@@ -1085,20 +1135,24 @@ Object {
         </header>
         <div
           class="c5"
+          role="card-body"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
         </div>
         <footer
           class="c6"
+          role="card-footer"
         >
           Lorem ipsum dolor sit amet consectetur.
         </footer>
       </section>
       <section
         class="c11"
+        role="card"
       >
         <header
           class="c1"
+          role="card-header"
         >
           Lorem ipsum dolor sit amet.
           <a
@@ -1122,20 +1176,24 @@ Object {
         </header>
         <div
           class="c5"
+          role="card-body"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
         </div>
         <footer
           class="c6"
+          role="card-footer"
         >
           Lorem ipsum dolor sit amet consectetur.
         </footer>
       </section>
       <section
         class="c12"
+        role="card"
       >
         <header
           class="c1"
+          role="card-header"
         >
           Lorem ipsum dolor sit amet.
           <a
@@ -1159,11 +1217,13 @@ Object {
         </header>
         <div
           class="c5"
+          role="card-body"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
         </div>
         <footer
           class="c6"
+          role="card-footer"
         >
           Lorem ipsum dolor sit amet consectetur.
         </footer>
@@ -1360,9 +1420,11 @@ Object {
 <div>
     <section
       class="c0"
+      role="card"
     >
       <header
         class="c1"
+        role="card-header"
       >
         Lorem ipsum dolor sit amet.
         <a
@@ -1386,20 +1448,24 @@ Object {
       </header>
       <div
         class="c5"
+        role="card-body"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
       </div>
       <footer
         class="c6"
+        role="card-footer"
       >
         Lorem ipsum dolor sit amet consectetur.
       </footer>
     </section>
     <section
       class="c7"
+      role="card"
     >
       <header
         class="c1"
+        role="card-header"
       >
         Lorem ipsum dolor sit amet.
         <a
@@ -1423,20 +1489,24 @@ Object {
       </header>
       <div
         class="c5"
+        role="card-body"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
       </div>
       <footer
         class="c6"
+        role="card-footer"
       >
         Lorem ipsum dolor sit amet consectetur.
       </footer>
     </section>
     <section
       class="c8"
+      role="card"
     >
       <header
         class="c1"
+        role="card-header"
       >
         Lorem ipsum dolor sit amet.
         <a
@@ -1460,20 +1530,24 @@ Object {
       </header>
       <div
         class="c5"
+        role="card-body"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
       </div>
       <footer
         class="c6"
+        role="card-footer"
       >
         Lorem ipsum dolor sit amet consectetur.
       </footer>
     </section>
     <section
       class="c9"
+      role="card"
     >
       <header
         class="c1"
+        role="card-header"
       >
         Lorem ipsum dolor sit amet.
         <a
@@ -1497,20 +1571,24 @@ Object {
       </header>
       <div
         class="c5"
+        role="card-body"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
       </div>
       <footer
         class="c6"
+        role="card-footer"
       >
         Lorem ipsum dolor sit amet consectetur.
       </footer>
     </section>
     <section
       class="c10"
+      role="card"
     >
       <header
         class="c1"
+        role="card-header"
       >
         Lorem ipsum dolor sit amet.
         <a
@@ -1534,20 +1612,24 @@ Object {
       </header>
       <div
         class="c5"
+        role="card-body"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
       </div>
       <footer
         class="c6"
+        role="card-footer"
       >
         Lorem ipsum dolor sit amet consectetur.
       </footer>
     </section>
     <section
       class="c11"
+      role="card"
     >
       <header
         class="c1"
+        role="card-header"
       >
         Lorem ipsum dolor sit amet.
         <a
@@ -1571,20 +1653,24 @@ Object {
       </header>
       <div
         class="c5"
+        role="card-body"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
       </div>
       <footer
         class="c6"
+        role="card-footer"
       >
         Lorem ipsum dolor sit amet consectetur.
       </footer>
     </section>
     <section
       class="c12"
+      role="card"
     >
       <header
         class="c1"
+        role="card-header"
       >
         Lorem ipsum dolor sit amet.
         <a
@@ -1608,11 +1694,13 @@ Object {
       </header>
       <div
         class="c5"
+        role="card-body"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum praesentium repudiandae.
       </div>
       <footer
         class="c6"
+        role="card-footer"
       >
         Lorem ipsum dolor sit amet consectetur.
       </footer>
@@ -1722,19 +1810,23 @@ Object {
     <div>
       <section
         class="c0"
+        role="card"
       >
         <header
           class="c1"
+          role="card-header"
         >
           Lorem ipsum dolor sit amet consectetur.
         </header>
         <div
           class="c2"
+          role="card-body"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. A in libero accusantium sunt dolore repellat molestiae animi quod, cum dicta, quis rem fugiat harum quasi hic tempora aliquid! Aperiam, consectetur. Quisquam fuga eveniet et molestias beatae excepturi eaque porro officia! Veritatis, necessitatibus quam quibusdam officiis quia tempora quidem voluptas, nihil ipsam reprehenderit, veniam accusantium. Rerum obcaecati dolorum doloremque quod illum. Doloremque optio debitis enim nam unde quod ducimus, nesciunt obcaecati aspernatur aliquam consectetur a provident aliquid quasi officia cupiditate rerum necessitatibus distinctio blanditiis incidunt amet hic cum dolorum assumenda? Recusandae! Ipsa et, esse enim quae laudantium placeat sequi nisi est consectetur omnis. Ducimus, vitae fuga? Dolorem dolor, qui nisi laudantium tenetur totam id quisquam voluptatem maxime molestiae libero provident commodi?
         </div>
         <footer
           class="c3"
+          role="card-footer"
         >
           Lorem ipsum dolor sit amet.
         </footer>
@@ -1787,19 +1879,23 @@ Object {
 <div>
     <section
       class="c0"
+      role="card"
     >
       <header
         class="c1"
+        role="card-header"
       >
         Lorem ipsum dolor sit amet consectetur.
       </header>
       <div
         class="c2"
+        role="card-body"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. A in libero accusantium sunt dolore repellat molestiae animi quod, cum dicta, quis rem fugiat harum quasi hic tempora aliquid! Aperiam, consectetur. Quisquam fuga eveniet et molestias beatae excepturi eaque porro officia! Veritatis, necessitatibus quam quibusdam officiis quia tempora quidem voluptas, nihil ipsam reprehenderit, veniam accusantium. Rerum obcaecati dolorum doloremque quod illum. Doloremque optio debitis enim nam unde quod ducimus, nesciunt obcaecati aspernatur aliquam consectetur a provident aliquid quasi officia cupiditate rerum necessitatibus distinctio blanditiis incidunt amet hic cum dolorum assumenda? Recusandae! Ipsa et, esse enim quae laudantium placeat sequi nisi est consectetur omnis. Ducimus, vitae fuga? Dolorem dolor, qui nisi laudantium tenetur totam id quisquam voluptatem maxime molestiae libero provident commodi?
       </div>
       <footer
         class="c3"
+        role="card-footer"
       >
         Lorem ipsum dolor sit amet.
       </footer>
@@ -1911,22 +2007,26 @@ Object {
     <div>
       <section
         class="c0"
+        role="card"
       >
         <a
           href="https://google.com"
         >
           <header
             class="c1"
+            role="card-header"
           >
             Lorem ipsum dolor sit amet consectetur.
           </header>
           <div
             class="c2"
+            role="card-body"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. A in libero accusantium sunt dolore repellat molestiae animi quod, cum dicta, quis rem fugiat harum quasi hic tempora aliquid! Aperiam, consectetur. Quisquam fuga eveniet et molestias beatae excepturi eaque porro officia! Veritatis, necessitatibus quam quibusdam officiis quia tempora quidem voluptas, nihil ipsam reprehenderit, veniam accusantium. Rerum obcaecati dolorum doloremque quod illum. Doloremque optio debitis enim nam unde quod ducimus, nesciunt obcaecati aspernatur aliquam consectetur a provident aliquid quasi officia cupiditate rerum necessitatibus distinctio blanditiis incidunt amet hic cum dolorum assumenda? Recusandae! Ipsa et, esse enim quae laudantium placeat sequi nisi est consectetur omnis. Ducimus, vitae fuga? Dolorem dolor, qui nisi laudantium tenetur totam id quisquam voluptatem maxime molestiae libero provident commodi?
           </div>
           <footer
             class="c3"
+            role="card-footer"
           >
             Lorem ipsum dolor sit amet.
           </footer>
@@ -1982,22 +2082,26 @@ Object {
 <div>
     <section
       class="c0"
+      role="card"
     >
       <a
         href="https://google.com"
       >
         <header
           class="c1"
+          role="card-header"
         >
           Lorem ipsum dolor sit amet consectetur.
         </header>
         <div
           class="c2"
+          role="card-body"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. A in libero accusantium sunt dolore repellat molestiae animi quod, cum dicta, quis rem fugiat harum quasi hic tempora aliquid! Aperiam, consectetur. Quisquam fuga eveniet et molestias beatae excepturi eaque porro officia! Veritatis, necessitatibus quam quibusdam officiis quia tempora quidem voluptas, nihil ipsam reprehenderit, veniam accusantium. Rerum obcaecati dolorum doloremque quod illum. Doloremque optio debitis enim nam unde quod ducimus, nesciunt obcaecati aspernatur aliquam consectetur a provident aliquid quasi officia cupiditate rerum necessitatibus distinctio blanditiis incidunt amet hic cum dolorum assumenda? Recusandae! Ipsa et, esse enim quae laudantium placeat sequi nisi est consectetur omnis. Ducimus, vitae fuga? Dolorem dolor, qui nisi laudantium tenetur totam id quisquam voluptatem maxime molestiae libero provident commodi?
         </div>
         <footer
           class="c3"
+          role="card-footer"
         >
           Lorem ipsum dolor sit amet.
         </footer>

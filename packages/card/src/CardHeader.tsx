@@ -9,7 +9,7 @@ import { ICardHeaderProps } from './types';
 const CardHeader = forwardRef<HTMLDivElement, ICardHeaderProps>((props, ref) => {
   const { children, withHref, isDivided, ...rest } = props;
   return (
-    <CardHeaderRoot ref={ref} isDivided={isDivided} {...rest}>
+    <CardHeaderRoot role="card-header" ref={ref} isDivided={isDivided} {...rest}>
       {children}
       {withHref && (
         <Link href={withHref} target="_blank">
