@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/panel",
-  "version": "0.4.0",
+  "version": "0.3.0",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:panel",
     "clean": "tsc --build --clean && rimraf -rf dist && rimraf -rf build",
@@ -11,8 +11,8 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/commons": "^0.4.0",
-    "@tidy-ui/theme": "^0.4.0"
+    "@tidy-ui/commons": "^0.3.0",
+    "@tidy-ui/theme": "^0.3.0"
   },
   "peerDependencies": {
     "react": "^17.0.2",
@@ -22,7 +22,7 @@
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.1.1",
     "@rollup/plugin-replace": "^3.0.1",
-    "@tidy-ui/text": "^0.4.0",
+    "@tidy-ui/text": "^0.3.0",
     "@types/react": "^17.0.2",
     "@types/styled-components": "^5.1.17",
     "is-ci-cli": "^2.2.0",
@@ -39,8 +39,7 @@
   "license": "MIT",
   "description": "tidy-ui react component library; 'panel' package",
   "publishConfig": {
-    "access": "public",
-    "directory": "dist"
+    "access": "public"
   },
   "files": [
     "dist"

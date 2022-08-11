@@ -43,7 +43,6 @@ export interface IUsePortalFnReturn {
  * @returns {IUsePortalFnReturn} portal and its parent element target
  */
 const usePortal = (props?: IPortalProps): IUsePortalFnReturn => {
-  console.log(isValidDom);
   const rootRef = useRef<HTMLElement | null>(isValidDom ? document.body : null);
 
   useEffect(() => {

@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/text",
-  "version": "0.4.0",
+  "version": "0.3.0",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:text",
     "clean": "tsc --build --clean && rimraf -rf dist && rimraf -rf build",
@@ -11,9 +11,9 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/commons": "^0.4.0",
-    "@tidy-ui/theme": "^0.4.0",
-    "@tidy-ui/types": "^0.4.0"
+    "@tidy-ui/commons": "^0.3.0",
+    "@tidy-ui/theme": "^0.3.0",
+    "@tidy-ui/types": "^0.3.0"
   },
   "peerDependencies": {
     "react": "^17.0.2",
@@ -39,8 +39,7 @@
   "license": "MIT",
   "description": "tidy-ui react component library; 'text' package",
   "publishConfig": {
-    "access": "public",
-    "directory": "dist"
+    "access": "public"
   },
   "files": [
     "dist"
