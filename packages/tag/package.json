@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/tag",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:tag",
     "clean": "tsc --build --clean && rimraf -rf dist && rimraf -rf build",
@@ -11,7 +11,7 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/commons": "^0.3.1",
+    "@tidy-ui/commons": "^0.3.2",
     "@tidy-ui/theme": "^0.3.1"
   },
   "peerDependencies": {

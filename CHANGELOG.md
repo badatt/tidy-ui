@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.2](https://github.com/badatt/tidy-ui/compare/v0.3.1...v0.3.2) (2022-08-11)
+
+
+### Bug Fixes
+
+* usePortal fix ([dd904cf](https://github.com/badatt/tidy-ui/commit/dd904cf758389d716c1f27c0ec98a6dddfb8fde0))
+
+
+
+
+
 ## [0.3.1](https://github.com/badatt/tidy-ui/compare/v0.2.14...v0.3.1) (2022-08-11)
 
 
