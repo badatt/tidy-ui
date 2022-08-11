@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/badatt/tidy-ui/compare/v0.2.14...v0.3.1) (2022-08-11)
+
+
+### Features
+
+* added preserveModules ([fbd61be](https://github.com/badatt/tidy-ui/commit/fbd61bebc37764c6b3b484cec3d5f5828c365ff7))
+
+
+
+# [0.3.0](https://github.com/badatt/tidy-ui/compare/v0.2.13...v0.3.0) (2022-08-07)
+
+
+### Features
+
+* useEscaper, useHash, useIdGen hooks ([e4bf334](https://github.com/badatt/tidy-ui/commit/e4bf334a2cc4455ae458e7851ac1fc0a56cdfd4f))
+
+
+
+
+
 # [0.4.0](https://github.com/badatt/tidy-ui/compare/v0.2.14...v0.4.0) (2022-08-10)
 
 
