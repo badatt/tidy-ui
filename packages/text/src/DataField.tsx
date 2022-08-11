@@ -12,7 +12,7 @@ const DataField = forwardRef<HTMLDivElement, IDataFieldProps>((props, ref) => {
   return (
     <DL className={className} ref={ref} role="data-field">
       <DD {...rest} ico={ico}>
-        {ico && <DataFieldIcon {...props}>{ico}</DataFieldIcon>}
+        {ico && <DataFieldIcon {...rest}>{ico}</DataFieldIcon>}
         {lbl}
       </DD>
       <DT {...rest} ico={ico}>

@@ -13,19 +13,19 @@ import { IIconButtonProps } from './types';
  *
  */
 const IconButton = forwardRef<HTMLButtonElement, IIconButtonProps>((props, ref) => {
-  const { children, className, withIcon } = props;
+  const { children, className, withIcon, ...rest } = props;
   return (
-    <IconButtonRoot className={className} role="icon-button" ref={ref} {...props}>
+    <IconButtonRoot className={className} role="icon-button" ref={ref} {...rest}>
       {children ? (
-        <IconButtonIconWrapper {...props}>
-          <IconButtonIcon {...props}>{withIcon}</IconButtonIcon>
+        <IconButtonIconWrapper {...rest}>
+          <IconButtonIcon {...rest}>{withIcon}</IconButtonIcon>
         </IconButtonIconWrapper>
       ) : (
-        <IconButtonIconOnlyWrapper {...props}>
-          <IconButtonIcon {...props}>{withIcon}</IconButtonIcon>
+        <IconButtonIconOnlyWrapper {...rest}>
+          <IconButtonIcon {...rest}>{withIcon}</IconButtonIcon>
         </IconButtonIconOnlyWrapper>
       )}
-      {children && <IconButtonChildWrapper {...props}>{children}</IconButtonChildWrapper>}
+      {children && <IconButtonChildWrapper {...rest}>{children}</IconButtonChildWrapper>}
     </IconButtonRoot>
   );
 });
