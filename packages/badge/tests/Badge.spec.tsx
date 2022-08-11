@@ -7,7 +7,7 @@ import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { DangerousIcon } from '@tidy-ui/commons';
-import { orchidDark, orchidLight, styled } from '@tidy-ui/theme';
+import { orchidDark, orchidLight, styled } from '@tidy-ui/commons';
 import { Badge } from '../src';
 
 const Icon = styled(DangerousIcon)`

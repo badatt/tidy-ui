@@ -1,6 +1,6 @@
 import React from 'react';
 import { CheckCircleIcon } from '@tidy-ui/commons';
-import { styled } from '@tidy-ui/theme';
+import { styled } from '@tidy-ui/commons';
 import { Tag } from '../src';
 
 export default {

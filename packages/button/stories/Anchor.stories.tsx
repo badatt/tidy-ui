@@ -1,5 +1,5 @@
 import React from 'react';
-import { styled } from '@tidy-ui/theme';
+import { styled } from '@tidy-ui/commons';
 import { Anchor } from '../src';
 
 export default {

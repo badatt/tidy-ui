@@ -1,5 +1,5 @@
 import { keyframes } from 'styled-components';
-import { css, hsla } from '@tidy-ui/theme';
+import { css, hsla } from '@tidy-ui/commons';
 import { IBadgeProps } from './types';
 
 /**

@@ -1,5 +1,5 @@
 import { LinkIcon } from '@tidy-ui/commons';
-import { css, styled } from '@tidy-ui/theme';
+import { css, styled } from '@tidy-ui/commons';
 import { IDataFieldProps, ITextProps, TTextTypes } from './types';
 
 const TextLinkIcon = styled(LinkIcon)`

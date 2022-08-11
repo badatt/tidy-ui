@@ -1,4 +1,4 @@
-import { css, styled } from '@tidy-ui/theme';
+import { css, styled } from '@tidy-ui/commons';
 import { dotBadge, standardBadge } from './styles';
 import { IBadgeProps } from './types';
 

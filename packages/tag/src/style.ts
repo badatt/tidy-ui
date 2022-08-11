@@ -1,4 +1,4 @@
-import { css, hsla } from '@tidy-ui/theme';
+import { css, hsla } from '@tidy-ui/commons';
 import { ITagProps } from './types';
 
 /**

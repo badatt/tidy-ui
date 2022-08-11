@@ -1,6 +1,6 @@
 import React from 'react';
 import { AddCircleIcon, CheckCircleIcon } from '@tidy-ui/commons';
-import { css, styled } from '@tidy-ui/theme';
+import { css, styled } from '@tidy-ui/commons';
 import { Button } from '../src';
 import { IButtonProps } from '../src/types';
 

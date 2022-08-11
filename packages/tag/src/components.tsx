@@ -1,4 +1,4 @@
-import { css, hsla, styled } from '@tidy-ui/theme';
+import { css, hsla, styled } from '@tidy-ui/commons';
 import { filledContent, outlinedContent, sizeStyles } from './style';
 import { ITagGroupProps, ITagProps } from './types';
 

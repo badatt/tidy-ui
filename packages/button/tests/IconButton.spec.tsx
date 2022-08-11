@@ -16,7 +16,7 @@ import {
   InfoIcon,
   WarningIcon,
 } from '@tidy-ui/commons';
-import { orchidDark, orchidLight } from '@tidy-ui/theme';
+import { orchidDark, orchidLight } from '@tidy-ui/commons';
 import { IconButton } from '../src';
 
 describe('Render Button', () => {

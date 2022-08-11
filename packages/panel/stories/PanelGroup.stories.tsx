@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text } from '@tidy-ui/text';
-import { styled } from '@tidy-ui/theme';
+import { styled } from '@tidy-ui/commons';
 import { Panel, PanelBody, PanelGroup, PanelHeader } from '../src';
 
 export default {

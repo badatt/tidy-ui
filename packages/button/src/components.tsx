@@ -1,5 +1,5 @@
+import { css, styled } from '@tidy-ui/commons';
 import { LaunchIcon, RotatingCircleIcon } from '@tidy-ui/icons';
-import { css, styled } from '@tidy-ui/theme';
 import { basic, hero, outlined, primary, simple, sizeStyles } from './styles';
 import { IAnchorProps, IButtonGroupProps, IButtonProps, IButtonToolbarProps, IIconButtonProps } from './types';
 

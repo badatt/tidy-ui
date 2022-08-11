@@ -7,7 +7,7 @@ import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { CheckCircleIcon } from '@tidy-ui/commons';
-import { orchidDark, orchidLight } from '@tidy-ui/theme';
+import { orchidDark, orchidLight } from '@tidy-ui/commons';
 import { Tag, TagGroup } from '../src';
 
 describe('TagGroup', () => {

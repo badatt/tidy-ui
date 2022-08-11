@@ -9,7 +9,7 @@ import {
   InfoIcon,
   WarningIcon,
 } from '@tidy-ui/commons';
-import { styled } from '@tidy-ui/theme';
+import { styled } from '@tidy-ui/commons';
 import { IconButton } from '../src';
 
 export default {

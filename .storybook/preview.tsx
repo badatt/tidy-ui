@@ -2,7 +2,7 @@ import React from 'react';
 //import styled, { css, ThemeProvider } from 'styled-components';
 import { DecoratorFn } from '@storybook/react';
 
-import { orchidLight, orchidDark, css, styled } from '@tidy-ui/theme';
+import { orchidLight, orchidDark, css, styled } from '@tidy-ui/commons';
 import { TidyUiProvider } from '@tidy-ui/commons';
 
 const ThemeBlock = styled.div<{ left?: boolean; fill?: boolean }>(

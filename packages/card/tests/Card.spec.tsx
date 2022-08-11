@@ -6,7 +6,7 @@ import { render } from '@testing-library/react';
 import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidDark, orchidLight } from '@tidy-ui/theme';
+import { orchidDark, orchidLight } from '@tidy-ui/commons';
 import { TColor } from '@tidy-ui/types';
 import { Card, CardBody, CardFooter, CardHeader } from '../src';
 

@@ -16,7 +16,7 @@ import {
   InfoIcon,
   WarningIcon,
 } from '@tidy-ui/commons';
-import { orchidLight } from '@tidy-ui/theme';
+import { orchidLight } from '@tidy-ui/commons';
 import { ButtonGroup, ButtonToolbar, IconButton } from '../src';
 
 describe('Render ButtonToolbar', () => {

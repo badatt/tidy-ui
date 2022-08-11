@@ -8,7 +8,7 @@ import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { Text } from '@tidy-ui/text';
-import { orchidDark, orchidLight } from '@tidy-ui/theme';
+import { orchidDark, orchidLight } from '@tidy-ui/commons';
 import { Panel, PanelBody, PanelHeader } from '../src';
 
 describe('Panel', () => {

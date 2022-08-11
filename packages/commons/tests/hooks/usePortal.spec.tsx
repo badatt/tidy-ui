@@ -6,7 +6,7 @@ import { render } from '@testing-library/react';
 import { renderHook } from '@testing-library/react-hooks';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidLight } from '@tidy-ui/theme';
+import { orchidLight } from '@tidy-ui/commons';
 import { usePortal, TidyUiProvider } from '../../src';
 
 describe('usePortal', () => {

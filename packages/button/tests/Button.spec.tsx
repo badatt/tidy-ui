@@ -7,7 +7,7 @@ import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { AddCircleIcon } from '@tidy-ui/commons';
-import { orchidDark, orchidLight } from '@tidy-ui/theme';
+import { orchidDark, orchidLight } from '@tidy-ui/commons';
 import { Button } from '../src';
 
 describe('Render Button', () => {
