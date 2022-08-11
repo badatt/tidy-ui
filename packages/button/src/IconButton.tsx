@@ -13,9 +13,9 @@ import { IIconButtonProps } from './types';
  *
  */
 const IconButton = forwardRef<HTMLButtonElement, IIconButtonProps>((props, ref) => {
-  const { children, withIcon } = props;
+  const { children, className, withIcon } = props;
   return (
-    <IconButtonRoot role="icon-button" ref={ref} {...props}>
+    <IconButtonRoot className={className} role="icon-button" ref={ref} {...props}>
       {children ? (
         <IconButtonIconWrapper {...props}>
           <IconButtonIcon {...props}>{withIcon}</IconButtonIcon>

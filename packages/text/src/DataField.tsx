@@ -8,9 +8,9 @@ import { IDataFieldProps } from './types';
  *
  */
 const DataField = forwardRef<HTMLDivElement, IDataFieldProps>((props, ref) => {
-  const { lbl, val, ico, ...rest } = props;
+  const { className, lbl, val, ico, ...rest } = props;
   return (
-    <DL ref={ref} role="data-field">
+    <DL className={className} ref={ref} role="data-field">
       <DD {...rest} ico={ico}>
         {ico && <DataFieldIcon {...props}>{ico}</DataFieldIcon>}
         {lbl}

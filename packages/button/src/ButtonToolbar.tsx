@@ -8,9 +8,9 @@ import { IButtonToolbarProps } from './types';
  *
  */
 const ButtonToolbar = forwardRef<HTMLDivElement, IButtonToolbarProps>((props, ref) => {
-  const { children, ...rest } = props;
+  const { children, className, ...rest } = props;
   return (
-    <ButtonToolbarRoot role="button-toolbar" ref={ref} {...rest}>
+    <ButtonToolbarRoot className={className} role="button-toolbar" ref={ref} {...rest}>
       {children}
     </ButtonToolbarRoot>
   );

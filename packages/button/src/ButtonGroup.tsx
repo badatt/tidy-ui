@@ -7,9 +7,9 @@ import { IButtonGroupProps } from './types';
  *
  */
 const ButtonGroup = forwardRef<HTMLDivElement, IButtonGroupProps>((props, ref) => {
-  const { children, ...rest } = props;
+  const { children, className, ...rest } = props;
   return (
-    <ButtonGroupRoot role="button-group" ref={ref} {...rest}>
+    <ButtonGroupRoot className={className} role="button-group" ref={ref} {...rest}>
       {children}
     </ButtonGroupRoot>
   );

@@ -8,9 +8,9 @@ import { ITagProps } from './types';
  *
  */
 const Tag = forwardRef<HTMLDivElement, ITagProps>((props, ref) => {
-  const { children, withIcon, onClose, ...rest } = props;
+  const { children, className, withIcon, onClose, ...rest } = props;
   return (
-    <TagRoot ref={ref} role="tag" {...rest}>
+    <TagRoot className={className} ref={ref} role="tag" {...rest}>
       {withIcon && <TagIcon {...rest}>{withIcon}</TagIcon>}
       {children}
       {onClose && (

@@ -4,10 +4,10 @@ import { PanelContextProvider } from './PanelContextProvider';
 import { IPanelProps } from './types';
 
 const Panel = forwardRef<HTMLDivElement, IPanelProps>((props, ref) => {
-  const { children, ...rest } = props;
+  const { children, className, ...rest } = props;
   return (
     <PanelContextProvider {...props}>
-      <PanelRoot ref={ref} role="panel" {...rest}>
+      <PanelRoot className={className} ref={ref} role="panel" {...rest}>
         {children}
       </PanelRoot>
     </PanelContextProvider>

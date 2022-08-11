@@ -9,7 +9,7 @@ import { IMessageProps } from './types';
  *
  */
 const Message = forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
-  const { children, isClosable, onClose, withDuration, withHeader, ...rest } = props;
+  const { children, className, isClosable, onClose, withDuration, withHeader, ...rest } = props;
 
   const isMounted = useIsMounted();
   const [isHidden, setHidden] = useState<boolean>(false);
@@ -31,7 +31,7 @@ const Message = forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
   }
 
   return (
-    <MessageRoot ref={ref} role="message" {...rest}>
+    <MessageRoot className={className} ref={ref} role="message" {...rest}>
       {!props.withoutLabel && (
         <MessageLabel {...rest}>
           <MessageLabelIcon {...rest} />

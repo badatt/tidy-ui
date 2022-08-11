@@ -8,11 +8,11 @@ import { ITextProps } from './types';
  *
  */
 const Text = forwardRef<HTMLElement, ITextProps>((props, ref) => {
-  const { children, as, href, ...rest } = props;
+  const { children, className, as, href, ...rest } = props;
   const ele = htmlElement({ as });
 
   return (
-    <TextRoot role="text" ref={ref} as={ele} {...rest}>
+    <TextRoot className={className} role="text" ref={ref} as={ele} {...rest}>
       {children}
       {href && (
         <TextLink role="text-link" href={href}>

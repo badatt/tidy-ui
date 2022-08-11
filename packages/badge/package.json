@@ -6,7 +6,6 @@
     "clean": "tsc --build --clean && rimraf -rf dist && rimraf -rf build",
     "format": "prettier \"**/*.{js,jsx,json,yml,yaml,css,less,scss,ts,tsx,md,graphql,mdx}\" --write",
     "lint": "eslint -c ../../.eslintrc --ext .js,.jsx,.ts,.tsx src",
-    "lint-fix": "yarn format && eslint -c ../../.eslintrc --ext .js,.jsx,.ts,.tsx src --fix",
     "postinstall": "rm -rf node_modules/@types/react-native",
     "reset": "yarn clean && rimraf -rf node_modules",
     "vet": "yarn lint",

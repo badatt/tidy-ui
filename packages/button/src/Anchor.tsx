@@ -8,9 +8,9 @@ import { IAnchorProps } from './types';
  *
  */
 const Anchor = forwardRef<HTMLAnchorElement, IAnchorProps>((props, ref) => {
-  const { children, isLaunch, ...rest } = props;
+  const { children, className, isLaunch, ...rest } = props;
   return (
-    <AnchorRoot role="anchor" ref={ref} {...rest} target={isLaunch ? '_blank' : '_top'}>
+    <AnchorRoot className={className} role="anchor" ref={ref} {...rest} target={isLaunch ? '_blank' : '_top'}>
       {children}
       {isLaunch && <AnchorIcon />}
     </AnchorRoot>

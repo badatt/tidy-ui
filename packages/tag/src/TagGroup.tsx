@@ -8,7 +8,7 @@ import { ITagGroupProps } from './types';
  *
  */
 const TagGroup = forwardRef<HTMLDivElement, ITagGroupProps>((props, ref) => {
-  const { children, onAddNewTag, ...rest } = props;
+  const { children, className, onAddNewTag, ...rest } = props;
 
   const [typing, setTyping] = useState(false);
   const [inputValue, setInputValue] = useState('');
@@ -70,7 +70,7 @@ const TagGroup = forwardRef<HTMLDivElement, ITagGroupProps>((props, ref) => {
   };
 
   return (
-    <TagGroupRoot ref={ref} role="tag-group" {...rest}>
+    <TagGroupRoot className={className} ref={ref} role="tag-group" {...rest}>
       {children}
       {renderTagGroupActions()}
     </TagGroupRoot>

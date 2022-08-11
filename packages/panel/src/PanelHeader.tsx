@@ -5,10 +5,10 @@ import { PanelContext } from './PanelContextProvider';
 import { IPanelContext, IPanelHeaderProps } from './types';
 
 const PanelHeader = forwardRef<HTMLDivElement, IPanelHeaderProps>((props, ref) => {
-  const { children, ...rest } = props;
+  const { children, className, ...rest } = props;
   const { isExpanded, toggle } = useContext(PanelContext) as IPanelContext;
   return (
-    <PanelHeaderRoot ref={ref} role="panel-header" {...rest} onClick={toggle}>
+    <PanelHeaderRoot className={className} ref={ref} role="panel-header" {...rest} onClick={toggle}>
       {children}
       <Icon role="panel-icon" isExpanded={isExpanded}>
         <ExpandMoreIcon />

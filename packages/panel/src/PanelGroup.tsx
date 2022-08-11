@@ -3,9 +3,9 @@ import { PanelGroupRoot } from './components';
 import { IPanelGroupProps } from './types';
 
 const PanelGroup = forwardRef<HTMLDivElement, IPanelGroupProps>((props, ref) => {
-  const { children, ...rest } = props;
+  const { children, className, ...rest } = props;
   return (
-    <PanelGroupRoot role="panel-group" ref={ref} {...rest}>
+    <PanelGroupRoot className={className} role="panel-group" ref={ref} {...rest}>
       {children}
     </PanelGroupRoot>
   );

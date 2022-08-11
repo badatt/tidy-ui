@@ -8,9 +8,9 @@ import { IButtonProps } from './types';
  *
  */
 const Button = forwardRef<HTMLButtonElement, IButtonProps>((props, ref) => {
-  const { children, isLoading, isDisabled, ...rest } = props;
+  const { children, className, isLoading, isDisabled, ...rest } = props;
   return (
-    <ButtonRoot role="button" ref={ref} {...rest} isDisabled={isDisabled || isLoading}>
+    <ButtonRoot className={className} role="button" ref={ref} {...rest} isDisabled={isDisabled || isLoading}>
       {isLoading && <ButtonIcon />}
       {children}
     </ButtonRoot>

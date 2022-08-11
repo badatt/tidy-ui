@@ -1981,7 +1981,6 @@ Object {
   color: hsla(217,33%,17%,1);
   margin-bottom: 1.875rem;
   border-radius: 0.5rem;
-  cursor: pointer;
 }
 
 .c3 {
@@ -2057,7 +2056,6 @@ Object {
   color: hsla(217,33%,17%,1);
   margin-bottom: 1.875rem;
   border-radius: 0.5rem;
-  cursor: pointer;
 }
 
 .c3 {

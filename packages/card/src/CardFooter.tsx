@@ -7,9 +7,9 @@ import { ICardFooterProps } from './types';
  *
  */
 const CardFooter = forwardRef<HTMLDivElement, ICardFooterProps>((props, ref) => {
-  const { children, ...rest } = props;
+  const { children, className, ...rest } = props;
   return (
-    <CardFooterRoot role="card-footer" ref={ref} {...rest}>
+    <CardFooterRoot className={className} role="card-footer" ref={ref} {...rest}>
       {children}
     </CardFooterRoot>
   );

@@ -10,7 +10,7 @@ import { IPaperProps } from './types';
 const Paper = forwardRef<HTMLDivElement, IPaperProps>((props, ref) => {
   const { className, children, ...rest } = props;
   return (
-    <PaperRoot role="paper" ref={ref} {...rest} className={className}>
+    <PaperRoot className={className} role="paper" ref={ref} {...rest}>
       {children}
     </PaperRoot>
   );
