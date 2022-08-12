@@ -1,8 +1,13 @@
 {
-  "version": "0.3.4",
+  "version": "0.3.5",
   "npmClient": "yarn",
-  "packages": ["packages/*"],
-  "ignoreChanges": ["**/tests/**", "**/stories/**"],
+  "packages": [
+    "packages/*"
+  ],
+  "ignoreChanges": [
+    "**/tests/**",
+    "**/stories/**"
+  ],
   "command": {
     "version": {
       "message": "chore: publish %s"
