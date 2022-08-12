@@ -1,8 +1,8 @@
-#include "internals/md/f-banner-logo.md"
+#include "internals/md/banner-logo.md"
 
 <h1 align="center">tidy ui</h1>
 
-#include "internals/md/f-checks.md"
+#include "internals/md/checks.md"
 
 ## Installation
 
