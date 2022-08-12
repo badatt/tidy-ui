@@ -1,1 +1,1 @@
-# @tidy-ui/icons
+# package @tidy-ui/icons

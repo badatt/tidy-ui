@@ -1,1 +1,1 @@
-# @tidy-ui/badge
+# package @tidy-ui/badge

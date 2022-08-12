@@ -1,1 +1,1 @@
-# @tidy-ui/core
+# package @tidy-ui/core

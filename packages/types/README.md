@@ -1,1 +1,1 @@
-# @tidy-ui/types
+# package @tidy-ui/types

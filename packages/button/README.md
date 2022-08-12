@@ -1,1 +1,1 @@
-# @tidy-ui/button
+# package @tidy-ui/button

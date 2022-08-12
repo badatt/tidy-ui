@@ -1,1 +1,1 @@
-# @tidy-ui/card
+# package @tidy-ui/card

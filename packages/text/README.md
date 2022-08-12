@@ -1,1 +1,1 @@
-# @tidy-ui/text
+# package @tidy-ui/text

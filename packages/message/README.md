@@ -1,1 +1,1 @@
-# @tidy-ui/message
+# package @tidy-ui/message

@@ -1,1 +1,1 @@
-# @tidy-ui/tag
+# package @tidy-ui/tag
