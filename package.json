@@ -14,7 +14,7 @@
     "generate": "plop --plopfile internals/generators/index.js",
     "lint": "eslint . -c .eslintrc --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "yarn format:fix && yarn lint:md && eslint . -c .eslintrc --ext .js,.jsx,.ts,.tsx --fix",
-    "lint:md": "markdownlint-cli2-fix \"**/*.md\" \"#**/node_modules/**\" \"#**/CHANGELOG.md\" \"#LICENSE\" \"#**/*/f-*.md\"",
+    "lint:md": "markdownlint-cli2-fix \"**/*.md\" \"#**/node_modules/**\" \"#**/CHANGELOG.md\" \"#LICENSE\" \"#**/*/_*.md\" \"#internals/md/**\"",
     "reset": "rimraf -rf storybook-static && yarn clean && npx lerna exec -- yarn reset && rimraf -rf node_modules",
     "test": "yarn \"test:coverage\"",
     "test:coverage": "jest --bail --coverage --passWithNoTests",
