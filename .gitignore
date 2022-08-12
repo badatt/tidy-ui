@@ -9,3 +9,4 @@ coverage
 build
 .idea
 .jest-cache
+storybook-static

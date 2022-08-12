@@ -1,9 +1,11 @@
 {
   "name": "tidy-ui",
   "private": true,
+  "readme": "README.md",
   "scripts": {
     "bootstrap": "npx lerna bootstrap && yarn install && npx husky install",
     "build": "npx lerna exec -- yarn build",
+    "build-storybook": "build-storybook",
     "clean": "rimraf -rf coverage && npx lerna exec -- yarn clean",
     "dev": "start-storybook -p 5555",
     "format": "prettier \"**/*.{js,jsx,json,yml,yaml,css,less,scss,ts,tsx,md,graphql,mdx}\" --check --loglevel warn",
@@ -12,7 +14,7 @@
     "lint": "eslint . -c .eslintrc --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "yarn format:fix && yarn lint:md && eslint . -c .eslintrc --ext .js,.jsx,.ts,.tsx --fix",
     "lint:md": "markdownlint-cli2-fix \"**/*.md\" \"#**/node_modules/**\" \"#**/CHANGELOG.md\"",
-    "reset": "yarn clean && npx lerna exec -- yarn reset && rimraf -rf node_modules",
+    "reset": "rimraf -rf storybook-static && yarn clean && npx lerna exec -- yarn reset && rimraf -rf node_modules",
     "test": "yarn \"test:coverage\"",
     "test:coverage": "jest --bail --coverage --passWithNoTests",
     "test:update": "jest --bail --coverage --passWithNoTests -u",

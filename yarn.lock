@@ -4145,11 +4145,6 @@
   resolved "https://registry.yarnpkg.com/@tidy-ui/commons/-/commons-0.0.39.tgz#bf3d06986a5854acab5d7ad9fea34fa2237f1af1"
   integrity sha512-QcLR72pUCJCIEWJEGz+kOL1Qh+FeoitiTHFYVcBFk6MFX6W6NDVHU+DK1AUxztqv/Fc8m9tI3xJ3H6NZwPJiCQ==
 
-"@tidy-ui/theme@^0.0.39":
-  version "0.0.39"
-  resolved "https://registry.yarnpkg.com/@tidy-ui/theme/-/theme-0.0.39.tgz#9a926fc6ce1691ba6b125525ee5e7262c56082cd"
-  integrity sha512-vD2tJvuyVelNW7tv44ach8UHyQGr9+40L1H6EC9I3+wC41+ACasUNZeJLJJqaGycbQn4xIe+X1fsYT+cW0sh7g==
-
 "@tootallnate/once@1":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"

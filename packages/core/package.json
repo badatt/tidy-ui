@@ -1,6 +1,7 @@
 {
   "name": "@tidy-ui/core",
   "version": "0.3.4",
+  "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:core",
     "clean": "tsc --build --clean && rimraf -rf dist && rimraf -rf build",
