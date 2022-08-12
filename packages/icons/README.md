@@ -2,7 +2,6 @@
   <img width="250" src="https://raw.githubusercontent.com/badatt/tidy-ui/main/internals/docs/tidi-ui-logo.png" alt="Tidy UI" />
 </p>
 
-
 <h1 align="center">@tidy-ui/icons</h1>
 
 <p align="center">
@@ -72,4 +71,3 @@
     />
   </a>
 </p>
-
