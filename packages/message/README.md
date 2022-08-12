@@ -2,8 +2,12 @@
   <img width="250" src="https://raw.githubusercontent.com/badatt/tidy-ui/main/internals/docs/tidi-ui-logo.png" alt="Tidy UI" />
 </p>
 
-<h1 align="center">@tidy-ui/message</h1>
-
+<h1 align="center">
+  @tidy-ui/message
+  <a href="https://www.npmjs.com/package/@tidy-ui/message">
+    <img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/message" />
+  </a>
+</h1>
 <p align="center">
   <a href="https://sonarcloud.io/summary/new_code?id=badatt_tidy-ui">
     <img
@@ -71,3 +75,40 @@
     />
   </a>
 </p>
+
+## Project Description
+
+Tidy UI is a family of components necessary for your react application. The components are powered [styled-components](https://styled-components.com/), features include css-in-js, theming etc
+
+## Build with
+
+- react
+- styled-components
+- rollup
+
+## Installation
+
+```cmd
+yarn add @tidy-ui/message
+```
+
+```cmd
+npm i @tidy-ui/message
+```
+
+## Getting started
+
+Here is a sample root level component that should enclose all tidy-ui components
+
+```typescript
+import React from 'react';
+import { TidyUiProvider, orchidLight } from '@tidy-ui/commons';
+
+function App() {
+  return <TidyUiProvider theme={orchidLight}>...</TidyUiProvider>;
+}
+
+export default App;
+```
+
+Include required components with in the place holder `...`
