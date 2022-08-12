@@ -1,6 +1,7 @@
 <p align="center">
-  <img width="250" src="internals/docs/tidi-ui-logo.png" alt="Tidy UI" />
+  <img width="250" src="https://raw.githubusercontent.com/badatt/tidy-ui/main/internals/docs/tidi-ui-logo.png" alt="Tidy UI" />
 </p>
+
 
 <h1 align="center">tidy ui</h1>
 
@@ -71,6 +72,7 @@
     />
   </a>
 </p>
+
 
 ## Installation
 
