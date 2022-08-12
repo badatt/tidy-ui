@@ -1,1 +1,1 @@
-# package @tidy-ui/panel
+# @tidy-ui/panel

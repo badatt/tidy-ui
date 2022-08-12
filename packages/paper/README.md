@@ -1,1 +1,1 @@
-# package @tidy-ui/paper
+# @tidy-ui/paper
