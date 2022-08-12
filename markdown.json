@@ -1,4 +1,6 @@
 {
   "build": "README.md",
-  "files": ["./internals/md/_README.md"]
+  "files": [
+    "./internals/md/f-README.md"
+  ]
 }
