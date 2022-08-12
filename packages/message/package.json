@@ -36,6 +36,24 @@
   "typings": "dist/src/index.d.ts",
   "types": "dist/src/index.d.ts",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/badatt/tidy-ui"
+  },
+  "author": {
+    "name": "Balu Praveen Datty",
+    "email": "dev.badatt@gmail.om",
+    "url": "https://github.com/badatt"
+  },
+  "keywords": [
+    "react",
+    "styled-components",
+    "css-in-js",
+    "react-ui",
+    "components",
+    "ui",
+    "ui-components"
+  ],
   "description": "tidy-ui react component library; 'message' package",
   "publishConfig": {
     "access": "public"
