@@ -6,7 +6,7 @@
     "bootstrap": "npx lerna bootstrap && yarn install && npx husky install",
     "build": "npx lerna exec -- yarn build",
     "build-storybook": "build-storybook",
-    "build:md": "markdown-include markdown.json",
+    "build:md": "markdown-include .markdown.json && npx lerna exec -- yarn build:md",
     "clean": "rimraf -rf coverage && npx lerna exec -- yarn clean",
     "dev": "start-storybook -p 5555",
     "format": "prettier \"**/*.{js,jsx,json,yml,yaml,css,less,scss,ts,tsx,md,graphql,mdx}\" --check --loglevel warn",

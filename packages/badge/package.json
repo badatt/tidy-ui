@@ -4,6 +4,7 @@
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:badge",
+    "build:md": "markdown-include ../../.markdown.json",
     "clean": "tsc --build --clean && rimraf -rf dist && rimraf -rf build",
     "format": "prettier \"**/*.{js,jsx,json,yml,yaml,css,less,scss,ts,tsx,md,graphql,mdx}\" --write",
     "lint": "eslint -c ../../.eslintrc --ext .js,.jsx,.ts,.tsx src",

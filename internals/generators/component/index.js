@@ -18,6 +18,12 @@ module.exports = {
     return [
       {
         abortOnFail: true,
+        path: `${componentDest}/{{name}}/_README.md`,
+        templateFile: `${templateDir}/_README.md.hbs`,
+        type: 'add',
+      },
+      {
+        abortOnFail: true,
         path: `${componentDest}/{{name}}/tsconfig.json`,
         templateFile: `${templateDir}/tsconfig.json.hbs`,
         type: 'add',
