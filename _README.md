@@ -1,7 +1,5 @@
 #include "internals/md/banner-logo.md"
 
-<h1 align="center">tidy ui</h1>
-
 #include "internals/md/checks.md"
 
 #include "internals/md/project-description.md"
@@ -17,6 +15,8 @@ npm i @tidy-ui/core
 ```
 
 #include "internals/md/getting-started.md"
+
+#include "internals/md/storybook-link.md"
 
 ## Packages
 

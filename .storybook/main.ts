@@ -1,11 +1,14 @@
 module.exports = {
   stories: ['../packages/**/*.stories.tsx'],
   addons: [
-    '@storybook/addon-docs',
-    '@storybook/addon-essentials',
     '@storybook/addon-a11y',
-    //'storybook-addon-styled-component-theme/dist/preset',
-    //'storybook-dark-mode',
+    '@storybook/addon-controls',
+    //'@storybook/addon-interactions',
+    '@storybook/addon-measure',
+    'storybook-addon-pseudo-states',
+    '@storybook/addon-storysource',
+    '@storybook/addon-toolbars',
+    '@storybook/addon-viewport',
   ],
   core: {
     builder: 'webpack5',

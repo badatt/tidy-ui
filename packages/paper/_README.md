@@ -20,4 +20,22 @@ yarn add @tidy-ui/paper
 npm i @tidy-ui/paper
 ```
 
-#include "../../internals/md/getting-started.md"
+## Getting started
+
+Here is a sample root level component that should enclose all tidy-ui components
+
+```typescript
+import React from 'react';
+import { TidyUiProvider, orchidLight } from '@tidy-ui/commons';
+import { ... } from '@tidy-ui/paper';
+
+function App() {
+  return <TidyUiProvider theme={orchidLight}>...</TidyUiProvider>;
+}
+
+export default App;
+```
+
+Include required components with in the place holder `...`
+
+#include "../../internals/md/storybook-link.md"

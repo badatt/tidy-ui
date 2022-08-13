@@ -5,6 +5,12 @@ import { DecoratorFn } from '@storybook/react';
 import { orchidLight, orchidDark, css, styled } from '@tidy-ui/commons';
 import { TidyUiProvider } from '@tidy-ui/commons';
 
+export const parameters = {
+  backgrounds: {
+    values: [],
+  },
+};
+
 const ThemeBlock = styled.div<{ left?: boolean; fill?: boolean }>(
   ({ left, fill, theme: { palette } }) =>
     css`

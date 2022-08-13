@@ -1,7 +1,6 @@
 export * from '@tidy-ui/badge';
 export * from '@tidy-ui/button';
 export * from '@tidy-ui/card';
-export * from '@tidy-ui/commons';
 export * from '@tidy-ui/message';
 export * from '@tidy-ui/panel';
 export * from '@tidy-ui/paper';
