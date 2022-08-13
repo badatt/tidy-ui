@@ -2,7 +2,6 @@
   <img width="250" src="https://raw.githubusercontent.com/badatt/tidy-ui/main/internals/docs/tidi-ui-logo-320X320.png" alt="Tidy UI" />
 </p>
 
-
 <h1 align="center">tidy ui</h1>
 
 <p align="center">
@@ -73,7 +72,6 @@
   </a>
 </p>
 
-
 ## Project Description
 
 Tidy UI is a family of components necessary for your react application. The components are powered [styled-components](https://styled-components.com/), features include css-in-js, theming etc
@@ -83,7 +81,6 @@ Tidy UI is a family of components necessary for your react application. The comp
 - react
 - styled-components
 - rollup
-
 
 ## Installation
 
@@ -111,7 +108,6 @@ export default App;
 ```
 
 Include required components with in the place holder `...`
-
 
 ## Packages
 
