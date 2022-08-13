@@ -72,13 +72,42 @@
   </a>
 </p>
 
+## Project Description
+
+Tidy UI is a family of components necessary for your react application. The components are powered [styled-components](https://styled-components.com/), features include css-in-js, theming etc
+
+## Build with
+
+- react
+- styled-components
+- rollup
+
 ## Installation
 
-Tidy UI is available as [npm packages](https://www.npmjs.com/search?q=%40tidy-ui)
+```cmd
+yarn add @tidy-ui/core
+```
 
 ```cmd
-yarn add @tidy-ui/<package>
+npm i @tidy-ui/core
 ```
+
+## Getting started
+
+Here is a sample root level component that should enclose all tidy-ui components
+
+```typescript
+import React from 'react';
+import { TidyUiProvider, orchidLight } from '@tidy-ui/commons';
+
+function App() {
+  return <TidyUiProvider theme={orchidLight}>...</TidyUiProvider>;
+}
+
+export default App;
+```
+
+Include required components with in the place holder `...`
 
 ## Packages
 

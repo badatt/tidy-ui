@@ -4,13 +4,19 @@
 
 #include "internals/md/checks.md"
 
+#include "internals/md/project-description.md"
+
 ## Installation
 
-Tidy UI is available as [npm packages](https://www.npmjs.com/search?q=%40tidy-ui)
+```cmd
+yarn add @tidy-ui/core
+```
 
 ```cmd
-yarn add @tidy-ui/<package>
+npm i @tidy-ui/core
 ```
+
+#include "internals/md/getting-started.md"
 
 ## Packages
 
