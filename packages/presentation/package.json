@@ -62,7 +62,7 @@
     "ui",
     "ui-components"
   ],
-  "description": "tidy-ui react component library; 'core' package",
+  "description": "tidy-ui react component library; 'presentation' package",
   "publishConfig": {
     "access": "public"
   },

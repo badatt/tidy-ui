@@ -1,6 +1,5 @@
 import React from 'react';
-import { CheckCircleIcon, DangerousIcon, InfoIcon, WarningIcon } from '@tidy-ui/commons';
-import { css, styled } from '@tidy-ui/commons';
+import { CheckCircleIcon, css, DangerousIcon, InfoIcon, styled, WarningIcon } from '@tidy-ui/commons';
 import { IPalette } from '@tidy-ui/types';
 import { filledContent, filledLabel, outlinedContent, outlinedLabel } from './styles';
 import { IMessageProps } from './types';

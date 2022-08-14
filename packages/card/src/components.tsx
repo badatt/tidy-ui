@@ -1,5 +1,4 @@
-import { LaunchIcon } from '@tidy-ui/commons';
-import { css, styled } from '@tidy-ui/commons';
+import { css, LaunchIcon, styled } from '@tidy-ui/commons';
 import { ICardFooterProps, ICardHeaderProps, ICardProps } from './types';
 
 /**
