@@ -6,7 +6,7 @@ import { IButtonProps } from '../src/types';
 
 export default {
   component: Button,
-  title: 'Components/Button/Button',
+  title: 'Presentation/Button/Button',
 };
 
 const Container = styled.div`

@@ -4,7 +4,7 @@ import { Anchor } from '../src';
 
 export default {
   component: Anchor,
-  title: 'Components/Button/Anchor',
+  title: 'Presentation/Button/Anchor',
 };
 
 const Container = styled.div`

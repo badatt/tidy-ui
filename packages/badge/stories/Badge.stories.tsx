@@ -5,7 +5,7 @@ import { Badge } from '../src';
 
 export default {
   component: Badge,
-  title: 'Components/Badge/Badge',
+  title: 'Presentation/Badge/Badge',
 };
 
 const Container = styled.div`

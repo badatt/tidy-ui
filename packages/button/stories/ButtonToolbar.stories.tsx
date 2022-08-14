@@ -13,7 +13,7 @@ import { ButtonGroup, ButtonToolbar, IconButton } from '../src';
 
 export default {
   component: ButtonToolbar,
-  title: 'Components/Button/ButtonToolbar',
+  title: 'Presentation/Button/ButtonToolbar',
 };
 
 export const basic = () => (

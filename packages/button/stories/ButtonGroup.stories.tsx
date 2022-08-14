@@ -4,7 +4,7 @@ import { Button, ButtonGroup } from '../src';
 
 export default {
   component: ButtonGroup,
-  title: 'Components/Button/ButtonGroup',
+  title: 'Presentation/Button/ButtonGroup',
 };
 
 const Container = styled.div`

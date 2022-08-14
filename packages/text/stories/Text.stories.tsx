@@ -4,7 +4,7 @@ import { Text } from '../src';
 
 export default {
   component: Text,
-  title: 'Components/Text/Text',
+  title: 'Presentation/Text/Text',
 };
 
 const Container = styled.div`

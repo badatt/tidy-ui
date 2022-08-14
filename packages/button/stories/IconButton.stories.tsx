@@ -14,7 +14,7 @@ import { IconButton } from '../src';
 
 export default {
   component: IconButton,
-  title: 'Components/Button/IconButton',
+  title: 'Presentation/Button/IconButton',
 };
 
 const Container = styled.div`

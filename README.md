@@ -83,11 +83,11 @@ Tidy UI is a family of components necessary for your react application. The comp
 ## Installation
 
 ```cmd
-yarn add @tidy-ui/core
+yarn add @tidy-ui/presentation
 ```
 
 ```cmd
-npm i @tidy-ui/core
+npm i @tidy-ui/presentation
 ```
 
 ## Getting started
@@ -97,7 +97,7 @@ Here is a sample root level component that should enclose all tidy-ui components
 ```typescript
 import React from 'react';
 import { TidyUiProvider, orchidLight } from '@tidy-ui/commons';
-import { ... } from '@tidy-ui/core';
+import { ... } from '@tidy-ui/presentation';
 
 function App() {
   return <TidyUiProvider theme={orchidLight}>...</TidyUiProvider>;
@@ -142,9 +142,9 @@ Visit the storybook and start using components in your app.
     <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/commons"></td>
   </tr>
   <tr>
-    <td>@tidy-ui/core</td>
-    <td><a href="https://www.npmjs.com/package/@tidy-ui/core"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/core"></a></td>
-    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/core"></td>
+    <td>@tidy-ui/presentation</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/presentation"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/presentation"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/presentation"></td>
   </tr>
   <tr>
     <td>@tidy-ui/icons</td>

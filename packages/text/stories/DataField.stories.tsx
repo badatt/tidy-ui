@@ -5,7 +5,7 @@ import { DataField } from '../src';
 
 export default {
   component: DataField,
-  title: 'Components/Text/DataField',
+  title: 'Presentation/Text/DataField',
 };
 
 const Container = styled.div`

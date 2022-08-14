@@ -5,7 +5,7 @@ import { Panel, PanelBody, PanelGroup, PanelHeader } from '../src';
 
 export default {
   component: Panel,
-  title: 'Components/Panel/PanelGroup',
+  title: 'Presentation/Panel/PanelGroup',
 };
 
 const Container = styled.div`

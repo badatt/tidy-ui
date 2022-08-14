@@ -5,7 +5,7 @@ import { Tag } from '../src';
 
 export default {
   component: Tag,
-  title: 'Components/Tag/Tag',
+  title: 'Presentation/Tag/Tag',
 };
 
 const Container = styled.div`
