@@ -1,28 +1,27 @@
 import React, { createContext, Key, ReactNode, useMemo } from 'react';
 import { ThemeProvider } from 'styled-components';
 import { ITidyUITheme } from '@tidy-ui/types';
-import usePortal from '../hooks/usePortal';
 
 /**
- *
+ * TidyUiProviderProps props
  */
 export interface ITidyUiProviderProps {
   /**
-   *
+   * children
    */
   children?: ReactNode;
 
   /**
-   *
+   * key
    */
   key?: Key;
   /**
-   *
+   * ref
    */
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref?: any;
   /**
-   *
+   * theme
    */
   theme?: ITidyUITheme;
 }
@@ -39,17 +38,11 @@ const { Consumer, Provider } = TidyUiContext;
  */
 const TidyUiProvider = (props: ITidyUiProviderProps): JSX.Element => {
   const { children, theme, ...rest } = props;
-
-  const { Portal } = usePortal();
-
   const value = useMemo(() => ({ theme, ...rest }), [theme, rest]);
 
   return (
     <ThemeProvider theme={theme} {...rest}>
-      <Provider value={value}>
-        {children}
-        <Portal></Portal>
-      </Provider>
+      <Provider value={value}>{children}</Provider>
     </ThemeProvider>
   );
 };

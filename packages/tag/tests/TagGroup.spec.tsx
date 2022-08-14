@@ -47,7 +47,7 @@ describe('TagGroup', () => {
     const { container } = tree;
     const addNewTagBtn = getByRole(container, 'add-new-btn');
 
-    addNewTagBtn.click();
+    fireEvent.click(addNewTagBtn);
     const newTagInput = getByRole(container, 'add-new-input');
     fireEvent.change(newTagInput, { target: { value: 'css' } });
     fireEvent.blur(newTagInput);
@@ -73,7 +73,7 @@ describe('TagGroup', () => {
     const { container } = tree;
     const addNewTagBtn = getByRole(container, 'add-new-btn');
 
-    addNewTagBtn.click();
+    fireEvent.click(addNewTagBtn);
     const newTagInput = getByRole(container, 'add-new-input');
     fireEvent.focus(newTagInput);
     fireEvent.keyDown(newTagInput, { keyCode: '3' });
@@ -100,7 +100,7 @@ describe('TagGroup', () => {
     const { container } = tree;
     const addNewTagBtn = getByRole(container, 'add-new-btn');
 
-    addNewTagBtn.click();
+    fireEvent.click(addNewTagBtn);
     const newTagInput = getByRole(container, 'add-new-input');
     fireEvent.change(newTagInput, { target: { value: 'css' } });
     fireEvent.blur(newTagInput);
