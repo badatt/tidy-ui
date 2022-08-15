@@ -1,6 +1,6 @@
 import { FC, ReactNode, useCallback, useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
-import isValidDom from '../utils/isValidDom';
+import { isValidDom } from '../utils';
 
 /**
  * Portal props
@@ -43,7 +43,8 @@ export interface IUsePortalFnReturn {
  * @returns {IUsePortalFnReturn} portal and its parent element target
  */
 const usePortal = (props?: IPortalProps): IUsePortalFnReturn => {
-  const rootRef = useRef<HTMLElement | null>(isValidDom ? document.body : null);
+  console.log('isValidDom() :>> ', isValidDom());
+  const rootRef = useRef<HTMLElement | null>(isValidDom() ? document.body : null);
 
   useEffect(() => {
     const containerEle = typeof props?.container === 'function' ? props.container() : props?.container;

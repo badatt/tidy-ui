@@ -6,7 +6,7 @@ import { createColor } from './utils';
 export const paletteVariant = {
   // Red
   danger: createColor(red),
-  divider: 'hsla(214, 32%, 91%, 1)',
+
   // Blue
   info: createColor(blue),
   /**
@@ -34,6 +34,7 @@ export const theme: ITidyUITheme = {
       default: 'hsla(216, 56%, 98%, 1)',
       paper: 'hsla(0, 100%, 100%, 1)',
     },
+    divider: 'hsla(0, 0%, 0%, 0.12)',
     ...paletteVariant,
     text: {
       disabled: 'hsla(0, 0%, 0%, 0.38)',

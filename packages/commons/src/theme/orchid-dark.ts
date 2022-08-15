@@ -12,6 +12,7 @@ export const theme: ITidyUITheme = {
       default: 'hsla(222, 47%, 11%, 1)',
       paper: 'hsla(217, 33%, 17%, 1)',
     },
+    divider: 'hsla(0, 0%, 100%, 0.12)',
     ...paletteVariant,
     text: {
       disabled: 'hsla(0, 0%, 100%, 0.5)',
