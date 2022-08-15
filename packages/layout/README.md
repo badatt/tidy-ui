@@ -2,6 +2,12 @@
   <img width="250" src="https://raw.githubusercontent.com/badatt/tidy-ui/main/internals/docs/storybook-logo.png" alt="Tidy UI" />
 </p>
 
+<h1 align="center">
+  @tidy-ui/layout
+  <a href="https://www.npmjs.com/package/@tidy-ui/layout">
+    <img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/layout" />
+  </a>
+</h1>
 <p align="center">
   <a href="https://sonarcloud.io/summary/new_code?id=badatt_tidy-ui" target="_blank">
     <img
@@ -80,13 +86,24 @@ Tidy UI is a family of components necessary for your react application. The comp
 - styled-components
 - rollup
 
+## Installation
+
+```cmd
+yarn add @tidy-ui/layout
+```
+
+```cmd
+npm i @tidy-ui/layout
+```
+
 ## Getting started
 
 Here is a sample root level component that should enclose all tidy-ui components
 
 ```typescript
 import React from 'react';
-import { TidyUiProvider, orchidLight, ... } from '@tidy-ui/commons';
+import { TidyUiProvider, orchidLight } from '@tidy-ui/commons';
+import { ... } from '@tidy-ui/layout';
 
 function App() {
   return <TidyUiProvider theme={orchidLight}>...</TidyUiProvider>;
@@ -103,41 +120,19 @@ Include required components with in the place holder `...`
 
 Visit the storybook and start using components in your app.
 
-## Package classes
+## Packages
 
-<div style="display:flex;flex-direction:column;gap:8px;">
-  <div style="display:flex;gap:8px;">
-    <a href="https://github.com/badatt/tidy-ui/tree/main/packages/presentation" style="text-decoration:none">
-      <div style="display:flex;justify-content:center;padding:2rem; border-radius:8px;border:1px solid;width:150px;">
-        <span style="font-size: 2rem; font-weight:lighter">Presentation</span>
-      </div>
-    </a>
-    <a href="https://github.com/badatt/tidy-ui/tree/main/packages/layout" style="text-decoration:none">
-      <div style="display:flex;justify-content:center;padding:2rem; border-radius:8px;border:1px solid;width:150px;">
-        <span style="font-size: 2rem; font-weight:lighter">Layout</span>
-      </div>
-    </a>
-    <a href="https://github.com/badatt/tidy-ui/tree/main/packages/commons" style="text-decoration:none">
-      <div style="display:flex;justify-content:center;padding:2rem; border-radius:8px;border:1px solid;width:150px;">
-        <span style="font-size: 2rem; font-weight:lighter">Commons</span>
-      </div>
-    </a>
-  </div>
-  <div style="display:flex;gap:8px;">
-    <a href="https://github.com/badatt/tidy-ui/tree/main/packages/icons" style="text-decoration:none">
-      <div style="display:flex;justify-content:center;padding:2rem; border-radius:8px;border:1px solid;width:150px;">
-        <span style="font-size: 2rem; font-weight:lighter">Icons</span>
-      </div>
-    </a>
-    <a href="https://github.com/badatt/tidy-ui/tree/main/packages/theme" style="text-decoration:none">
-      <div style="display:flex;justify-content:center;padding:2rem; border-radius:8px;border:1px solid;width:150px;">
-        <span style="font-size: 2rem; font-weight:lighter">Theme</span>
-      </div>
-    </a>
-    <a href="https://github.com/badatt/tidy-ui/tree/main/packages/types" style="text-decoration:none">
-      <div style="display:flex;justify-content:center;padding:2rem; border-radius:8px;border:1px solid;width:150px;">
-        <span style="font-size: 2rem; font-weight:lighter">Types</span>
-      </div>
-    </a>
-  </div>
-</div>
+These are the packages that come under layout class of tidy-ui components
+
+<table>
+  <thead>
+    <tr><th>Package</th><th>Version</th><th>Downloads</th></tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>@tidy-ui/divider</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/divider"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/divider"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/divider"></td>
+  </tr>
+  
+</table>

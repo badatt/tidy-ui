@@ -6,6 +6,7 @@
   @tidy-ui/presentation
   <a href="https://www.npmjs.com/package/@tidy-ui/presentation">
     <img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/presentation" />
+    <img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/presentation">
   </a>
 </h1>
 <p align="center">
@@ -119,3 +120,55 @@ Include required components with in the place holder `...`
 <a href="https://main--62f5d4e6c0b101cafe0f9e33.chromatic.com" target="_blank"><img src="https://raw.githubusercontent.com/storybookjs/brand/master/badge/badge-storybook.svg"/></a>
 
 Visit the storybook and start using components in your app.
+
+## Packages
+
+These are the packages that come under presentation class of tidy-ui components
+
+<table>
+  <thead>
+    <tr><th>Package</th><th>Version</th><th>Downloads</th></tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>@tidy-ui/badge</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/badge"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/badge"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/badge"></td>
+  </tr>
+  <tr>
+    <td>@tidy-ui/button</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/button"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/button"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/button"></td>
+  </tr>
+  <tr>
+    <td>@tidy-ui/card</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/card"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/card"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/card"></td>
+  </tr>
+  <tr>
+    <td>@tidy-ui/message</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/message"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/message"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/message"></td>
+  </tr>
+  <tr>
+    <td>@tidy-ui/panel</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/panel"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/panel"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/panel"></td>
+  </tr>
+  <tr>
+    <td>@tidy-ui/paper</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/paper"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/paper"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/paper"></td>
+  </tr>
+  <tr>
+    <td>@tidy-ui/tag</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/tag"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/tag"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/tag"></td>
+  </tr>
+  <tr>
+    <td>@tidy-ui/text</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/text"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/text"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/text"></td>
+  </tr>
+  </tbody>
+</table>

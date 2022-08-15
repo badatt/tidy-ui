@@ -4,8 +4,7 @@ Here is a sample root level component that should enclose all tidy-ui components
 
 ```typescript
 import React from 'react';
-import { TidyUiProvider, orchidLight } from '@tidy-ui/commons';
-import { ... } from '@tidy-ui/presentation';
+import { TidyUiProvider, orchidLight, ... } from '@tidy-ui/commons';
 
 function App() {
   return <TidyUiProvider theme={orchidLight}>...</TidyUiProvider>;
