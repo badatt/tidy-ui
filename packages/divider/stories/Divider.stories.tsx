@@ -5,7 +5,7 @@ import { Divider } from '../src';
 
 export default {
   component: Divider,
-  title: 'Layout/Divider/Divider',
+  title: 'Layout/Divider',
 };
 
 const Container = styled.div`

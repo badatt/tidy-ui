@@ -4,7 +4,7 @@ import { Card, CardBody, CardFooter, CardHeader } from '../src';
 
 export default {
   component: Card,
-  title: 'Presentation/Card/Card',
+  title: 'Presentation/Card',
 };
 
 const Container = styled.div`
