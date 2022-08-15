@@ -3,7 +3,6 @@
  */
 import React from 'react';
 import { render } from '@testing-library/react';
-import { renderHook } from '@testing-library/react-hooks';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidLight } from '@tidy-ui/commons';
@@ -15,11 +14,12 @@ describe('usePortal', () => {
       const { Portal } = usePortal({ container: document.body });
       return <Portal>portal</Portal>;
     };
-    const { container } = render(
+    const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <TestComponent />
       </TidyUiProvider>,
     );
+    expect(tree).toMatchSnapshot();
   });
 
   it('Should create Portal on and element', () => {
@@ -27,23 +27,38 @@ describe('usePortal', () => {
       const { Portal } = usePortal({ container: () => document.getElementById('sample') });
       return <Portal>portal</Portal>;
     };
-    const { container } = render(
+    const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <div id="sample"></div>
         <TestComponent />
       </TidyUiProvider>,
     );
+    expect(tree).toMatchSnapshot();
   });
   it('Should create Portal on an id', () => {
     const TestComponent = () => {
       const { Portal } = usePortal({ id: 'sample' });
       return <Portal>portal</Portal>;
     };
-    const { container } = render(
+    const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <div id="sample"></div>
         <TestComponent />
       </TidyUiProvider>,
     );
+    expect(tree).toMatchSnapshot();
+  });
+  it('Should work on empty input', () => {
+    const TestComponent = () => {
+      const { Portal } = usePortal();
+      return <Portal>portal</Portal>;
+    };
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <div id="sample"></div>
+        <TestComponent />
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
   });
 });

@@ -485,7 +485,7 @@ Object {
   padding-bottom: 0.5rem;
   padding-left: 1rem;
   width: 100%;
-  border-bottom: 1px solid hsla(214,32%,91%,1);
+  border-bottom: 1px solid hsla(0,0%,0%,0.12);
 }
 
 .c0 {
@@ -526,7 +526,7 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
-  border-top: 1px solid hsla(214,32%,91%,1);
+  border-top: 1px solid hsla(0,0%,0%,0.12);
 }
 
 .c2 {
@@ -595,7 +595,7 @@ Object {
   padding-bottom: 0.5rem;
   padding-left: 1rem;
   width: 100%;
-  border-bottom: 1px solid hsla(214,32%,91%,1);
+  border-bottom: 1px solid hsla(0,0%,0%,0.12);
 }
 
 .c0 {
@@ -636,7 +636,7 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
-  border-top: 1px solid hsla(214,32%,91%,1);
+  border-top: 1px solid hsla(0,0%,0%,0.12);
 }
 
 .c2 {
@@ -1981,6 +1981,7 @@ Object {
   color: hsla(217,33%,17%,1);
   margin-bottom: 1.875rem;
   border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 .c3 {
@@ -2056,6 +2057,7 @@ Object {
   color: hsla(217,33%,17%,1);
   margin-bottom: 1.875rem;
   border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 .c3 {

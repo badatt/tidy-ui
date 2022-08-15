@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 
-import { act, renderHook } from '@testing-library/react-hooks/dom';
+import { act, renderHook } from '@testing-library/react';
 import { useTimeout } from '../../src';
 
 describe('useTimeout', () => {
