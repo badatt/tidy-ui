@@ -16,6 +16,11 @@ export interface IRefForwardingComponent<T extends ElementType, P = unknown> {
   ): ReactElement | null;
 
   /**
+   * Default props
+   */
+  defaultProps?: Record<string, unknown>;
+
+  /**
    * Display name
    */
   displayName?: string;
