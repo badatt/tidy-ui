@@ -297,3 +297,35 @@ export interface IText {
    */
   lineHeight: number;
 }
+
+/**
+ * Color types for components
+ *
+ * @typedef {TColor}
+ * @public
+ */
+export type TColor = 'major' | 'minor' | 'neutral' | 'info' | 'success' | 'warning' | 'danger';
+
+/**
+ * Size types for components
+ *
+ * @typedef {TSize}
+ * @public
+ */
+export type TSize = 'xxs' | 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl';
+
+/**
+ * Accent types for components
+ *
+ * @typedef {TAccent}
+ * @public
+ */
+export type TAccent = 'major' | 'minor' | 'neutral' | 'info' | 'success' | 'warning' | 'danger';
+
+/**
+ * Shade of color
+ *
+ * @typedef {TShade}
+ * @public
+ */
+export type TShade = 50 | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900;
