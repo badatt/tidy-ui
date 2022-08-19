@@ -8,33 +8,33 @@ import { IBadgeProps } from './types';
  *
  */
 const Badge = forwardRef<HTMLSpanElement, IBadgeProps>((props, ref) => {
-  const { children, className, withData, withMax, isInvisible, isShowZero, isDotted, ...rest } = props;
+  const { children, className, data, max, hidden, show0, dotted, ...rest } = props;
 
-  const [anchorData, setAnchorData] = useState(withData);
-  const [isAnchorInvisible, setIsAnchorInvisible] = useState(isInvisible);
+  const [anchorData, setAnchorData] = useState(data);
+  const [isAnchorInvisible, setIsAnchorInvisible] = useState(hidden);
 
   useEffect(() => {
-    if (!isDotted && withData === undefined) {
+    if (!dotted && data === undefined) {
       setIsAnchorInvisible(true);
     }
-    if (withMax && Number(withData) > withMax) {
-      setAnchorData(`${withMax}+`);
+    if (max && Number(data) > max) {
+      setAnchorData(`${max}+`);
     }
-  }, [withData]);
+  }, [data]);
 
   useEffect(() => {
     if (!isAnchorInvisible && anchorData == 0) {
-      if (!isShowZero) setIsAnchorInvisible(true);
+      if (!show0) setIsAnchorInvisible(true);
     }
-  }, [isShowZero, anchorData]);
+  }, [show0, anchorData]);
 
   return (
     <BadgeRoot
       className={className}
       ref={ref}
-      role="badge"
-      withData={anchorData}
-      isDotted={isDotted}
+      role="contentinfo"
+      data={anchorData}
+      isDotted={dotted}
       isInvisible={isAnchorInvisible}
       {...rest}
     >
@@ -44,13 +44,13 @@ const Badge = forwardRef<HTMLSpanElement, IBadgeProps>((props, ref) => {
 });
 
 Badge.defaultProps = {
-  isBlinking: false,
-  isDotted: false,
-  isInvisible: false,
-  isOutlined: false,
-  isShowZero: false,
-  withColor: 'major',
-  withMax: 99,
+  blink: false,
+  dotted: false,
+  hidden: false,
+  max: 99,
+  outlined: false,
+  show0: false,
+  tone: 'major',
 };
 
 export { Badge };

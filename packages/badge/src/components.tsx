@@ -16,11 +16,11 @@ const getBadge = (isDotted?: boolean) => (isDotted ? dotBadge : standardBadge);
  * @internal
  */
 const BadgeRoot = styled.span<IBadgeProps>`
-  ${({ isInvisible, isDotted }) => css`
+  ${({ dotted, hidden }) => css`
     display: flex;
     position: relative;
     width: fit-content;
-    ${isInvisible ? null : getBadge(isDotted)}
+    ${hidden ? null : getBadge(dotted)}
   `}
 `;
 

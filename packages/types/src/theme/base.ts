@@ -307,6 +307,14 @@ export interface IText {
 export type TColor = 'major' | 'minor' | 'neutral' | 'info' | 'success' | 'warning' | 'danger';
 
 /**
+ * Tone for components
+ *
+ * @typedef {TTone}
+ * @public
+ */
+export type TTone = 'major' | 'minor' | 'neutral' | 'info' | 'success' | 'warning' | 'danger';
+
+/**
  * Size types for components
  *
  * @typedef {TSize}

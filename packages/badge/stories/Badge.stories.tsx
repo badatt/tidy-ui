@@ -26,33 +26,36 @@ const Icon = styled(DangerousIcon)`
 
 export const basic = () => (
   <Container>
-    <Badge withData={99}>
+    <Badge data={99}>
+      <Icon />
+    </Badge>
+    <Badge data={99} hidden>
       <Icon />
     </Badge>
   </Container>
 );
 
-export const colorVariants = () => (
+export const tones = () => (
   <Container>
-    <Badge withData={50} withColor="major">
+    <Badge data={50} tone="major">
       <Icon />
     </Badge>
-    <Badge withData={60} withColor="minor">
+    <Badge data={60} tone="minor">
       <Icon />
     </Badge>
-    <Badge withData={70} withColor="neutral">
+    <Badge data={70} tone="neutral">
       <Icon />
     </Badge>
-    <Badge withData={80} withColor="success">
+    <Badge data={80} tone="success">
       <Icon />
     </Badge>
-    <Badge withData={90} withColor="info">
+    <Badge data={90} tone="info">
       <Icon />
     </Badge>
-    <Badge withData={100} withColor="warning">
+    <Badge data={100} tone="warning">
       <Icon />
     </Badge>
-    <Badge withData={110} withColor="danger">
+    <Badge data={110} tone="danger">
       <Icon />
     </Badge>
   </Container>
@@ -60,25 +63,25 @@ export const colorVariants = () => (
 
 export const outlined = () => (
   <Container>
-    <Badge withData={50} withColor="major" isOutlined>
+    <Badge data={50} tone="major" outlined>
       <Icon />
     </Badge>
-    <Badge withData={60} withColor="minor" isOutlined>
+    <Badge data={60} tone="minor" outlined>
       <Icon />
     </Badge>
-    <Badge withData={70} withColor="neutral" isOutlined>
+    <Badge data={70} tone="neutral" outlined>
       <Icon />
     </Badge>
-    <Badge withData={80} withColor="success" isOutlined>
+    <Badge data={80} tone="success" outlined>
       <Icon />
     </Badge>
-    <Badge withData={90} withColor="info" isOutlined>
+    <Badge data={90} tone="info" outlined>
       <Icon />
     </Badge>
-    <Badge withData={100} withColor="warning" isOutlined>
+    <Badge data={100} tone="warning" outlined>
       <Icon />
     </Badge>
-    <Badge withData={110} withColor="danger" isOutlined>
+    <Badge data={110} tone="danger" outlined>
       <Icon />
     </Badge>
   </Container>
@@ -86,7 +89,7 @@ export const outlined = () => (
 
 export const maxValue = () => (
   <Container>
-    <Badge withData={198} withMax={150}>
+    <Badge data={198} max={150}>
       <Icon />
     </Badge>
   </Container>
@@ -94,7 +97,7 @@ export const maxValue = () => (
 
 export const dotted = () => (
   <Container>
-    <Badge isDotted withColor="warning">
+    <Badge dotted tone="warning">
       <Icon />
     </Badge>
   </Container>
@@ -102,10 +105,10 @@ export const dotted = () => (
 
 export const blinking = () => (
   <Container>
-    <Badge isDotted withColor="success" isBlinking>
+    <Badge dotted tone="success" blink>
       <Icon />
     </Badge>
-    <Badge withData={9} withColor="minor" isBlinking>
+    <Badge data={9} tone="minor" blink>
       <Icon />
     </Badge>
   </Container>

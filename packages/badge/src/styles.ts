@@ -21,9 +21,9 @@ const blinkingEffect = () => {
  * @internal
  */
 const filledBadgeColor = css<IBadgeProps>`
-  ${({ theme: { palette }, withColor }) => css`
-    color: ${palette[withColor!][100]};
-    background-color: ${palette[withColor!][600]};
+  ${({ theme: { palette }, tone }) => css`
+    color: ${palette[tone!][100]};
+    background-color: ${palette[tone!][600]};
   `}
 `;
 
@@ -33,10 +33,10 @@ const filledBadgeColor = css<IBadgeProps>`
  * @internal
  */
 const outlineBadgeColor = css<IBadgeProps>`
-  ${({ theme: { palette, isDark }, withColor }) => css`
-    color: ${isDark ? palette[withColor!][400] : palette[withColor!][600]};
-    background-color: ${isDark ? hsla(palette[withColor!].shades[900], 0.3) : palette[withColor!][50]};
-    border: 0.5px solid ${isDark ? palette[withColor!][600] : palette[withColor!][300]};
+  ${({ theme: { palette, isDark }, tone }) => css`
+    color: ${isDark ? palette[tone!][400] : palette[tone!][600]};
+    background-color: ${isDark ? hsla(palette[tone!].shades[900], 0.3) : palette[tone!][50]};
+    border: 0.5px solid ${isDark ? palette[tone!][600] : palette[tone!][300]};
   `}
 `;
 
@@ -46,7 +46,7 @@ const outlineBadgeColor = css<IBadgeProps>`
  * @internal
  */
 const badgeBase = css<IBadgeProps>`
-  ${({ isBlinking }) => css`
+  ${({ blink }) => css`
     position: absolute;
     display: flex;
     align-items: center;
@@ -55,7 +55,7 @@ const badgeBase = css<IBadgeProps>`
     right: 0;
     z-index: 1;
     transform: translate(60%, -60%);
-    ${isBlinking &&
+    ${blink &&
     css`
       animation: ${blinkingEffect} 1s linear infinite;
     `}
@@ -68,9 +68,9 @@ const badgeBase = css<IBadgeProps>`
  * @internal
  */
 const standardBadge = css<IBadgeProps>`
-  ${({ withData, isOutlined }) => css`
+  ${({ data, outlined }) => css`
     &::after {
-      content: ${`'${withData}'`};
+      content: ${`'${data}'`};
       ${badgeBase}
       min-width: 1rem;
       max-width: 2rem;
@@ -81,7 +81,7 @@ const standardBadge = css<IBadgeProps>`
       font-size: 0.625rem;
       overflow: hidden;
       white-space: nowrap;
-      ${isOutlined ? outlineBadgeColor : filledBadgeColor}
+      ${outlined ? outlineBadgeColor : filledBadgeColor}
     }
   `}
 `;

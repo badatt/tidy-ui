@@ -19,7 +19,7 @@ describe('Badge', () => {
   it('Basic render', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Badge withData={50}>
+        <Badge data={50}>
           <Icon />
         </Badge>
       </ThemeProvider>,
@@ -39,25 +39,25 @@ describe('Badge', () => {
   it('Badges with all color variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Badge withData={50} withColor="major">
+        <Badge data={50} tone="major">
           <Icon />
         </Badge>
-        <Badge withData={60} withColor="minor">
+        <Badge data={60} tone="minor">
           <Icon />
         </Badge>
-        <Badge withData={70} withColor="neutral">
+        <Badge data={70} tone="neutral">
           <Icon />
         </Badge>
-        <Badge withData={80} withColor="success">
+        <Badge data={80} tone="success">
           <Icon />
         </Badge>
-        <Badge withData={90} withColor="info">
+        <Badge data={90} tone="info">
           <Icon />
         </Badge>
-        <Badge withData={100} withColor="warning">
+        <Badge data={100} tone="warning">
           <Icon />
         </Badge>
-        <Badge withData={110} withColor="danger">
+        <Badge data={110} tone="danger">
           <Icon />
         </Badge>
       </ThemeProvider>,
@@ -67,25 +67,25 @@ describe('Badge', () => {
   it('Badges with all outlined variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Badge withData={50} withColor="major" isOutlined>
+        <Badge data={50} tone="major" outlined>
           <Icon />
         </Badge>
-        <Badge withData={60} withColor="minor" isOutlined>
+        <Badge data={60} tone="minor" outlined>
           <Icon />
         </Badge>
-        <Badge withData={70} withColor="neutral" isOutlined>
+        <Badge data={70} tone="neutral" outlined>
           <Icon />
         </Badge>
-        <Badge withData={80} withColor="success" isOutlined>
+        <Badge data={80} tone="success" outlined>
           <Icon />
         </Badge>
-        <Badge withData={90} withColor="info" isOutlined>
+        <Badge data={90} tone="info" outlined>
           <Icon />
         </Badge>
-        <Badge withData={100} withColor="warning" isOutlined>
+        <Badge data={100} tone="warning" outlined>
           <Icon />
         </Badge>
-        <Badge withData={110} withColor="danger" isOutlined>
+        <Badge data={110} tone="danger" outlined>
           <Icon />
         </Badge>
       </ThemeProvider>,
@@ -95,25 +95,25 @@ describe('Badge', () => {
   it('Badges in dark mode with all outlined variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <Badge withData={50} withColor="major" isOutlined>
+        <Badge data={50} tone="major" outlined>
           <Icon />
         </Badge>
-        <Badge withData={60} withColor="minor" isOutlined>
+        <Badge data={60} tone="minor" outlined>
           <Icon />
         </Badge>
-        <Badge withData={70} withColor="neutral" isOutlined>
+        <Badge data={70} tone="neutral" outlined>
           <Icon />
         </Badge>
-        <Badge withData={80} withColor="success" isOutlined>
+        <Badge data={80} tone="success" outlined>
           <Icon />
         </Badge>
-        <Badge withData={90} withColor="info" isOutlined>
+        <Badge data={90} tone="info" outlined>
           <Icon />
         </Badge>
-        <Badge withData={100} withColor="warning" isOutlined>
+        <Badge data={100} tone="warning" outlined>
           <Icon />
         </Badge>
-        <Badge withData={110} withColor="danger" isOutlined>
+        <Badge data={110} tone="danger" outlined>
           <Icon />
         </Badge>
       </ThemeProvider>,
@@ -123,7 +123,7 @@ describe('Badge', () => {
   it('Badge without max value should show 99+', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Badge withData={198}>
+        <Badge data={198}>
           <Icon />
         </Badge>
       </ThemeProvider>,
@@ -133,7 +133,7 @@ describe('Badge', () => {
   it('Badge with max value', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Badge withData={198} withMax={150}>
+        <Badge data={198} max={150}>
           <Icon />
         </Badge>
       </ThemeProvider>,
@@ -143,7 +143,7 @@ describe('Badge', () => {
   it('Badge with a dot', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Badge isDotted>
+        <Badge dotted>
           <Icon />
         </Badge>
       </ThemeProvider>,
@@ -153,7 +153,7 @@ describe('Badge', () => {
   it('Badge with a dot and it blinks', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Badge isDotted isBlinking>
+        <Badge dotted blink>
           <Icon />
         </Badge>
       </ThemeProvider>,
@@ -163,7 +163,7 @@ describe('Badge', () => {
   it('Badge which is invisible', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Badge isInvisible withData={50}>
+        <Badge hidden data={50}>
           <Icon />
         </Badge>
       </ThemeProvider>,
@@ -173,7 +173,7 @@ describe('Badge', () => {
   it('Do not show zero value by default', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Badge withData={0}>
+        <Badge data={0}>
           <Icon />
         </Badge>
       </ThemeProvider>,
@@ -183,7 +183,7 @@ describe('Badge', () => {
   it('Force show zero value', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Badge isShowZero withData={0}>
+        <Badge show0 data={0}>
           <Icon />
         </Badge>
       </ThemeProvider>,
