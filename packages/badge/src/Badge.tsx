@@ -34,8 +34,8 @@ const Badge = forwardRef<HTMLSpanElement, IBadgeProps>((props, ref) => {
       ref={ref}
       role="contentinfo"
       data={anchorData}
-      isDotted={dotted}
-      isInvisible={isAnchorInvisible}
+      dotted={dotted}
+      hidden={isAnchorInvisible}
       {...rest}
     >
       {children}
