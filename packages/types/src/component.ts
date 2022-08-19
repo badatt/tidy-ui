@@ -1,5 +1,5 @@
 import { ComponentPropsWithRef, ElementType, PropsWithChildren, ReactElement } from 'react';
-import { IAsProps } from './common';
+import { IBaseProps } from './common';
 
 export type Pick<T, K extends keyof T> = { [P in K]: T[P] };
 export type Exclude<T, U> = T extends U ? never : T;
@@ -11,7 +11,9 @@ export type ReplaceProps<Inner extends ElementType, P> = Omit<ComponentPropsWith
  * Ref forwarding component
  */
 export interface IRefForwardingComponent<T extends ElementType, P = unknown> {
-  <As extends React.ElementType = T>(props: PropsWithChildren<ReplaceProps<As, IAsProps<As> & P>>): ReactElement | null;
+  <As extends React.ElementType = T>(
+    props: PropsWithChildren<ReplaceProps<As, IBaseProps<As> & P>>,
+  ): ReactElement | null;
 
   /**
    * Display name

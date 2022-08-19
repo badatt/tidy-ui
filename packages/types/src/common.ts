@@ -3,7 +3,7 @@ import { AriaRole, CSSProperties, ElementType, HTMLAttributes, ReactNode } from 
 /**
  * Base props for Tidy UI components
  */
-export interface IBaseProps {
+export interface IStandardProps {
   /**
    * Children
    */
@@ -29,7 +29,7 @@ export interface IBaseProps {
 /**
  * Props with `as`
  */
-export interface IAsProps<A extends ElementType | string = ElementType> extends IBaseProps {
+export interface IBaseProps<A extends ElementType | string = ElementType> extends IStandardProps {
   /**
    * `as` a html tag component
    */
