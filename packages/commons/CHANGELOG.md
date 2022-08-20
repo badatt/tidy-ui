@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/badatt/tidy-ui/compare/v0.6.2...v0.7.0) (2022-08-20)
+
+
+### Features
+
+* state and dispatch for internal state ([54a6d5e](https://github.com/badatt/tidy-ui/commit/54a6d5e02841590bb18ee3a88145c218866f838e))
+
+
+
+
+
 ## [0.6.2](https://github.com/badatt/tidy-ui/compare/v0.6.1...v0.6.2) (2022-08-19)
 
 **Note:** Version bump only for package @tidy-ui/commons
