@@ -1,32 +1,8 @@
-import React, { createContext, Key, ReactNode, useMemo } from 'react';
+import React, { useMemo, useReducer } from 'react';
 import { ThemeProvider } from 'styled-components';
-import { ITidyUITheme } from '@tidy-ui/types';
-
-/**
- * TidyUiProviderProps props
- */
-export interface ITidyUiProviderProps {
-  /**
-   * children
-   */
-  children?: ReactNode;
-
-  /**
-   * key
-   */
-  key?: Key;
-  /**
-   * ref
-   */
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  ref?: any;
-  /**
-   * theme
-   */
-  theme?: ITidyUITheme;
-}
-
-const TidyUiContext = createContext<ITidyUiProviderProps>({});
+import { initializer, mainReducer } from '../reducers';
+import { initialState, TidyUiContext } from './context';
+import { ITidyUiProviderProps } from './types';
 
 const { Consumer, Provider } = TidyUiContext;
 
@@ -38,13 +14,16 @@ const { Consumer, Provider } = TidyUiContext;
  */
 const TidyUiProvider = (props: ITidyUiProviderProps): JSX.Element => {
   const { children, theme, ...rest } = props;
+  const [state, dispatch] = useReducer(mainReducer, initialState, initializer);
   const value = useMemo(() => ({ theme, ...rest }), [theme, rest]);
 
   return (
-    <ThemeProvider theme={theme} {...rest}>
-      <Provider value={value}>{children}</Provider>
-    </ThemeProvider>
+    <Provider value={{ ...value, dispatch, state }}>
+      <ThemeProvider theme={theme} {...rest}>
+        {children}
+      </ThemeProvider>
+    </Provider>
   );
 };
 
-export { Consumer as TidyUiConsumer, TidyUiContext, TidyUiProvider };
+export { Consumer as TidyUiConsumer, TidyUiProvider };

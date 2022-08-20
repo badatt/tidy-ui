@@ -1,0 +1,30 @@
+import { AppActionTypes } from '../actions';
+import { PageActions } from '../actions/page.actions';
+
+/**
+ * Page state props
+ */
+export interface IPageState {
+  /**
+   * Title of the page
+   */
+  title?: string;
+}
+
+/**
+ * Page reducer
+ *
+ * @param {IPageState} prevState previous page state
+ * @param {AppActionTypes} action page actions
+ * @returns {IPageState} mutated page state
+ */
+const reducer = (prevState: IPageState, action: AppActionTypes): IPageState => {
+  switch (action.type) {
+    case PageActions.SetTitle:
+      return { ...prevState, title: action.payload.title };
+    default:
+      return { ...prevState };
+  }
+};
+
+export default reducer;
