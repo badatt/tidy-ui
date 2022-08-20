@@ -7,7 +7,7 @@ import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidDark, orchidLight } from '@tidy-ui/commons';
-import { TColor } from '@tidy-ui/types';
+import { TTone } from '@tidy-ui/types';
 import { Text } from '../src';
 import { TTextTypes } from '../src/types';
 
@@ -73,7 +73,7 @@ describe('Text', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {colors.map((v) => (
-          <Text clr={v as TColor} key={v}>
+          <Text clr={v as TTone} key={v}>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores
             atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
           </Text>
@@ -87,7 +87,7 @@ describe('Text', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
         {colors.map((v) => (
-          <Text clr={v as TColor} key={v}>
+          <Text clr={v as TTone} key={v}>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores
             atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
           </Text>

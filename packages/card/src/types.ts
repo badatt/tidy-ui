@@ -1,5 +1,5 @@
 import { HTMLAttributes } from 'react';
-import { TColor } from '@tidy-ui/types';
+import { TTone } from '@tidy-ui/types';
 
 /**
  * Card props
@@ -14,10 +14,10 @@ export interface ICardProps extends HTMLAttributes<HTMLDivElement> {
    * Accent variant of the component, typically used to classify the
    * information based on its level
    *
-   * @type {?TColor}
+   * @type {?TTone}
    * @default undefined
    */
-  accent?: TColor;
+  accent?: TTone;
 
   /**
    * Hyperlink the component

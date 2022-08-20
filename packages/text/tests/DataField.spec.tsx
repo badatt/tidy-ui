@@ -8,7 +8,7 @@ import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { CheckCircleIcon } from '@tidy-ui/commons';
 import { orchidDark, orchidLight } from '@tidy-ui/commons';
-import { TColor } from '@tidy-ui/types';
+import { TTone } from '@tidy-ui/types';
 import { DataField } from '../src';
 
 const colors = ['major', 'minor', 'neutral', 'info', 'success', 'warning', 'danger'];
@@ -35,7 +35,7 @@ describe('Text', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
         {colors.map((c) => (
-          <DataField clr={c as TColor} lbl={c} val={c} key={c} />
+          <DataField clr={c as TTone} lbl={c} val={c} key={c} />
         ))}
       </ThemeProvider>,
     );
@@ -45,7 +45,7 @@ describe('Text', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
         {colors.map((c) => (
-          <DataField acc={c as TColor} lbl={c} val={c} key={c} />
+          <DataField acc={c as TTone} lbl={c} val={c} key={c} />
         ))}
       </ThemeProvider>,
     );

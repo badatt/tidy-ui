@@ -299,14 +299,6 @@ export interface IText {
 }
 
 /**
- * Color types for components
- *
- * @typedef {TColor}
- * @public
- */
-export type TColor = 'major' | 'minor' | 'neutral' | 'info' | 'success' | 'warning' | 'danger';
-
-/**
  * Tone for components
  *
  * @typedef {TTone}

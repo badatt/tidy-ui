@@ -1,5 +1,5 @@
 import { HTMLAttributes } from 'react';
-import { TColor, TShade } from '@tidy-ui/types';
+import { TTone, TShade } from '@tidy-ui/types';
 
 /**
  * Divider props
@@ -21,10 +21,10 @@ export interface IDividerProps extends HTMLAttributes<HTMLHRElement> {
   /**
    * The color of the divider
    *
-   * @type {?TColor}
+   * @type {?TTone}
    * @default 'neutral'
    */
-  tone?: TColor;
+  tone?: TTone;
 
   /**
    * Divider variant

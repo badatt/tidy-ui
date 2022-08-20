@@ -7,7 +7,7 @@ import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidDark, orchidLight } from '@tidy-ui/commons';
-import { TColor } from '@tidy-ui/types';
+import { TTone } from '@tidy-ui/types';
 import { Card, CardBody, CardFooter, CardHeader } from '../src';
 
 const colors = ['major', 'minor', 'neutral', 'info', 'success', 'warning', 'danger'];
@@ -105,7 +105,7 @@ describe('Card', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {colors.map((c) => (
-          <Card accent={c as TColor} key={c}>
+          <Card accent={c as TTone} key={c}>
             <CardHeader href="https://google.com">Lorem ipsum dolor sit amet.</CardHeader>
             <CardBody>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus

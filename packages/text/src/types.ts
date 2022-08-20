@@ -1,5 +1,5 @@
 import { HTMLAttributes } from 'react';
-import { TColor } from '@tidy-ui/types';
+import { TTone } from '@tidy-ui/types';
 
 /**
  * Types of text variants
@@ -62,10 +62,10 @@ export interface ITextProps extends HTMLAttributes<HTMLDivElement> {
   /**
    * Sets the color fo the text
    *
-   * @type {?TColor}
+   * @type {?TTone}
    * @default undefined
    */
-  clr?: TColor;
+  clr?: TTone;
 
   /**
    * If `true`, the text is centered
@@ -152,10 +152,10 @@ export interface IDataFieldProps extends HTMLAttributes<HTMLDivElement> {
   /**
    * Accent color for the filed label
    *
-   * @type {?TColor}
+   * @type {?TTone}
    * @default 'major'
    */
-  acc?: TColor;
+  acc?: TTone;
 
   /**
    * If `true`, create bold value in the data field
@@ -168,10 +168,10 @@ export interface IDataFieldProps extends HTMLAttributes<HTMLDivElement> {
   /**
    * Set the color of the value in data field
    *
-   * @type {?TColor}
+   * @type {?TTone}
    * @default undefined
    */
-  clr?: TColor;
+  clr?: TTone;
 
   /**
    * If `true`, the value of the data field is disabled

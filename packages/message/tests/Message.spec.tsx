@@ -8,7 +8,7 @@ import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidDark, orchidLight } from '@tidy-ui/commons';
-import { TColor } from '@tidy-ui/types';
+import { TTone } from '@tidy-ui/types';
 import { Message } from '../src';
 
 const colors = ['major', 'minor', 'neutral', 'info', 'success', 'warning', 'danger'];
@@ -40,7 +40,7 @@ describe('Message', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {colors.map((c) => (
-          <Message tone={c as TColor} key={c}>
+          <Message tone={c as TTone} key={c}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
             eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
           </Message>
@@ -53,7 +53,7 @@ describe('Message', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
         {colors.map((c) => (
-          <Message tone={c as TColor} key={c}>
+          <Message tone={c as TTone} key={c}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
             eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
           </Message>

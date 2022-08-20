@@ -1,5 +1,5 @@
 import { HTMLAttributes, HtmlHTMLAttributes } from 'react';
-import { TColor } from '@tidy-ui/types';
+import { TTone } from '@tidy-ui/types';
 
 /**
  * Size variants of the tag component
@@ -63,10 +63,10 @@ export interface ITagProps extends HTMLAttributes<HTMLDivElement> {
    * Color variant of the tag widget, typically used to classify the
    * information based on its level
    *
-   * @type {?TColor}
+   * @type {?TTone}
    * @default 'major'
    */
-  tone?: TColor;
+  tone?: TTone;
 }
 
 /**
@@ -98,10 +98,10 @@ export interface ITagGroupProps extends HTMLAttributes<HTMLDivElement> {
   /**
    * Color variant of the add new tag button
    *
-   * @type {?TColor}
+   * @type {?TTone}
    * @default 'major'
    */
-  tone?: TColor;
+  tone?: TTone;
 }
 
 /**
@@ -111,10 +111,10 @@ export interface INewTagInput extends HtmlHTMLAttributes<HTMLInputElement> {
   /**
    * Color variant of the add new tag button
    *
-   * @type {?TColor}
+   * @type {?TTone}
    * @default 'major'
    */
-  tone?: TColor;
+  tone?: TTone;
   /**
    *
    */

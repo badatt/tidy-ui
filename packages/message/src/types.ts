@@ -1,5 +1,5 @@
 import { HTMLAttributes } from 'react';
-import { TColor } from '@tidy-ui/types';
+import { TTone } from '@tidy-ui/types';
 
 /**
  * Message props
@@ -66,9 +66,9 @@ export interface IMessageProps extends HTMLAttributes<HTMLDivElement> {
    * Color variant of the message, typically used to classify the
    * information based on its level
    *
-   * @type {?TColor}
+   * @type {?TTone}
    */
-  tone?: TColor;
+  tone?: TTone;
 
   /**
    * If `true`, label wont be added to the message widget
