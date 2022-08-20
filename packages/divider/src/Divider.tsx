@@ -3,12 +3,12 @@ import { css, styled } from '@tidy-ui/commons';
 import { IDividerProps } from './types';
 
 const DividerRoot = styled.hr<IDividerProps>`
-  ${({ theme: { palette }, withColor, withShade, withDensity, withStyle }) => css`
-    border-color: ${palette[withColor!][withShade!]};
+  ${({ theme: { palette }, tone, shade, density, variant }) => css`
+    border-color: ${palette[tone!][shade!]};
     margin: 0px;
     flex-shrink: 0;
-    border-width: 0px 0px ${withDensity};
-    border-style: ${withStyle};
+    border-width: 0px 0px ${density};
+    border-style: ${variant};
   `}
 `;
 
@@ -22,10 +22,10 @@ const Divider = forwardRef<HTMLHRElement, IDividerProps>((props, ref) => {
 });
 
 Divider.defaultProps = {
-  withColor: 'neutral',
-  withDensity: 'thin',
-  withShade: 500,
-  withStyle: 'solid',
+  density: 'thin',
+  shade: 500,
+  tone: 'neutral',
+  variant: 'solid',
 };
 
 export { Divider };

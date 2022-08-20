@@ -6,30 +6,30 @@ import { TColor, TShade } from '@tidy-ui/types';
  */
 export interface IDividerProps extends HTMLAttributes<HTMLHRElement> {
   /**
-   * The color of the divider
-   *
-   * @type {?TColor}
-   * @default 'neutral'
-   */
-  withColor?: TColor;
-  /**
    * Thickness of the divider
    *
    * @default 'thin'
    */
-  withDensity?: 'thin' | 'medium' | 'thick';
+  density?: 'thin' | 'medium' | 'thick';
   /**
    * Shade of the color of the divider, 50 being low, 900 being high
    *
    * @type {?TShade}
    * @default 500
    */
-  withShade?: TShade;
+  shade?: TShade;
+  /**
+   * The color of the divider
+   *
+   * @type {?TColor}
+   * @default 'neutral'
+   */
+  tone?: TColor;
 
   /**
-   * Divider style
+   * Divider variant
    *
    * @default 'solid'
    */
-  withStyle?: 'dashed' | 'dotted' | 'double' | 'groove' | 'hidden' | 'ridge' | 'solid';
+  variant?: 'dashed' | 'dotted' | 'double' | 'groove' | 'hidden' | 'ridge' | 'solid';
 }

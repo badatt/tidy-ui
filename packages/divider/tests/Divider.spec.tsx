@@ -51,13 +51,13 @@ describe('Divider', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
         <Text>color major</Text>
-        <Divider withColor="major" />
+        <Divider tone="major" />
         <Text>thick density</Text>
-        <Divider withDensity="thick" />
+        <Divider density="thick" />
         <Text>800 shade</Text>
-        <Divider withShade={800} />
+        <Divider shade={800} />
         <Text>dashed style</Text>
-        <Divider withStyle="dashed" />
+        <Divider variant="dashed" />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
