@@ -133,6 +133,18 @@ describe('Render Button', () => {
     );
     expect(tree).toMatchSnapshot();
   });
+  it('Button with all type variants in dark mode', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidDark}>
+        <Button variant="primary">primary</Button>
+        <Button variant="outlined">outlined</Button>
+        <Button variant="basic">basic</Button>
+        <Button variant="simple">simple</Button>
+        <Button variant="hero">hero</Button>
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
   it('Button with icon', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
