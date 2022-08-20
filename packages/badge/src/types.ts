@@ -1,5 +1,5 @@
 import { HTMLAttributes } from 'react';
-import { IBaseProps, TColor, TTone } from '@tidy-ui/types';
+import { IBaseProps, TTone } from '@tidy-ui/types';
 
 /**
  * Badge component props
