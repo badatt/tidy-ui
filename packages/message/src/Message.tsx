@@ -9,11 +9,11 @@ import { IMessageProps } from './types';
  *
  */
 const Message = forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
-  const { children, className, isClosable, onClose, withDuration, withHeader, ...rest } = props;
+  const { children, className, closable, onClose, duration, header, ...rest } = props;
 
   const isMounted = useIsMounted();
   const [isHidden, setHidden] = useState<boolean>(false);
-  const { clear } = useTimeout(onClose, withDuration, typeof withDuration === 'number' && withDuration > 0);
+  const { clear } = useTimeout(onClose, duration, typeof duration === 'number' && duration > 0);
 
   const handleClose = useCallback(
     (e: MouseEvent<HTMLElement>) => {
@@ -31,20 +31,20 @@ const Message = forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
   }
 
   return (
-    <MessageRoot className={className} ref={ref} role="message" {...rest}>
+    <MessageRoot className={className} ref={ref} role="banner" {...rest}>
       {!props.withoutLabel && (
         <MessageLabel {...rest}>
           <MessageLabelIcon {...rest} />
-          {rest.withColor}
+          {rest.tone}
         </MessageLabel>
       )}
-      {isClosable && (
-        <CloseButton onClick={handleClose} {...rest} role="close-btn">
+      {closable && (
+        <CloseButton onClick={handleClose} {...rest} role="button">
           <CancelIcon isOutlined />
         </CloseButton>
       )}
       <MessageContent {...rest}>
-        {withHeader && <Header>{withHeader}</Header>}
+        {header && <Header>{header}</Header>}
         {children}
       </MessageContent>
     </MessageRoot>
@@ -52,12 +52,12 @@ const Message = forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
 });
 
 Message.defaultProps = {
-  isClosable: false,
-  isOutlined: false,
-  isSharp: false,
-  isStretched: false,
-  withColor: 'info',
-  withDuration: 0,
+  closable: false,
+  duration: 0,
+  outlined: false,
+  sharp: false,
+  stretched: false,
+  tone: 'info',
   withoutLabel: false,
 };
 

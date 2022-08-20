@@ -7,9 +7,9 @@ import { IMessageProps } from './types';
  * @internal
  */
 const filledLabel = css<IMessageProps>`
-  ${({ theme: { palette }, withColor }) => css`
-    background-color: ${palette[withColor!][600]};
-    color: ${palette[withColor!][50]};
+  ${({ theme: { palette }, tone }) => css`
+    background-color: ${palette[tone!][600]};
+    color: ${palette[tone!][50]};
   `}
 `;
 
@@ -19,10 +19,10 @@ const filledLabel = css<IMessageProps>`
  * @internal
  */
 const outlinedLabel = css<IMessageProps>`
-  ${({ theme: { palette, isDark }, withColor }) => css`
-    color: ${isDark ? palette[withColor!][400] : palette[withColor!][600]};
-    background-color: ${isDark ? hsla(palette[withColor!].shades[800], 0.8) : palette[withColor!][100]};
-    border: 1px solid ${isDark ? palette[withColor!][600] : palette[withColor!][300]};
+  ${({ theme: { palette, isDark }, tone }) => css`
+    color: ${isDark ? palette[tone!][400] : palette[tone!][600]};
+    background-color: ${isDark ? hsla(palette[tone!].shades[800], 0.8) : palette[tone!][100]};
+    border: 1px solid ${isDark ? palette[tone!][600] : palette[tone!][300]};
     border-bottom: 0;
   `}
 `;
@@ -33,9 +33,9 @@ const outlinedLabel = css<IMessageProps>`
  * @internal
  */
 const filledContent = css<IMessageProps>`
-  ${({ theme: { palette }, withColor }) => css`
-    background-color: ${palette[withColor!][500]};
-    color: ${palette[withColor!][50]};
+  ${({ theme: { palette }, tone }) => css`
+    background-color: ${palette[tone!][500]};
+    color: ${palette[tone!][50]};
   `}
 `;
 
@@ -45,10 +45,10 @@ const filledContent = css<IMessageProps>`
  * @internal
  */
 const outlinedContent = css<IMessageProps>`
-  ${({ theme: { palette, isDark }, withColor }) => css`
-    color: ${isDark ? palette[withColor!][400] : palette[withColor!][600]};
-    background-color: ${isDark ? hsla(palette[withColor!].shades[900], 0.3) : palette[withColor!][50]};
-    border: 1px solid ${isDark ? palette[withColor!][600] : palette[withColor!][300]};
+  ${({ theme: { palette, isDark }, tone }) => css`
+    color: ${isDark ? palette[tone!][400] : palette[tone!][600]};
+    background-color: ${isDark ? hsla(palette[tone!].shades[900], 0.3) : palette[tone!][50]};
+    border: 1px solid ${isDark ? palette[tone!][600] : palette[tone!][300]};
   `}
 `;
 

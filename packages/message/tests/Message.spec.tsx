@@ -40,7 +40,7 @@ describe('Message', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {colors.map((c) => (
-          <Message withColor={c as TColor} key={c}>
+          <Message tone={c as TColor} key={c}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
             eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
           </Message>
@@ -53,7 +53,7 @@ describe('Message', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
         {colors.map((c) => (
-          <Message withColor={c as TColor} key={c}>
+          <Message tone={c as TColor} key={c}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
             eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
           </Message>
@@ -65,7 +65,7 @@ describe('Message', () => {
   it('Message stretched to full width', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Message isStretched>
+        <Message stretched>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
           eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </Message>
@@ -76,7 +76,7 @@ describe('Message', () => {
   it('Message with close button', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Message isClosable>
+        <Message closable>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
           eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </Message>
@@ -87,7 +87,7 @@ describe('Message', () => {
   it('Message with header', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Message withHeader="Lorem ipsum dolor sit amet consectetur adipisicing elit">
+        <Message header="Lorem ipsum dolor sit amet consectetur adipisicing elit">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
           eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </Message>
@@ -98,7 +98,7 @@ describe('Message', () => {
   it('Message with sharp label', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Message isSharp>
+        <Message sharp>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
           eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </Message>
@@ -121,7 +121,7 @@ describe('Message', () => {
   it('Closable message without any callback', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <Message isClosable isOutlined>
+        <Message closable outlined>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
           eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </Message>
@@ -129,7 +129,7 @@ describe('Message', () => {
     );
     expect(tree).toMatchSnapshot();
     const { container } = tree;
-    const closeButton = getByRole(container, 'close-btn');
+    const closeButton = getByRole(container, 'button');
     expect(closeButton).toBeVisible();
     act(() => {
       fireEvent.click(closeButton);
@@ -140,7 +140,7 @@ describe('Message', () => {
     const mockCallback = jest.fn();
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Message isClosable onClose={mockCallback} isOutlined>
+        <Message closable onClose={mockCallback} outlined>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
           eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </Message>
@@ -148,7 +148,7 @@ describe('Message', () => {
     );
     expect(tree).toMatchSnapshot();
     const { container } = tree;
-    const closeButton = getByRole(container, 'close-btn');
+    const closeButton = getByRole(container, 'button');
     expect(closeButton).toBeVisible();
     act(() => {
       fireEvent.click(closeButton);
@@ -161,7 +161,7 @@ describe('Message', () => {
     const mockCallback = jest.fn();
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Message isClosable withDuration={2000} onClose={mockCallback} isOutlined>
+        <Message closable duration={2000} onClose={mockCallback} outlined>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
           eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
         </Message>

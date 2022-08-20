@@ -11,7 +11,7 @@ import { IMessageProps } from './types';
  * @param {IMessageProps} p
  */
 const MessageLabelIcon = (p: IMessageProps) => {
-  switch (p.withColor) {
+  switch (p.tone) {
     case 'info':
       return <InfoIcon />;
     case 'success':
@@ -31,9 +31,9 @@ const MessageLabelIcon = (p: IMessageProps) => {
  * @internal
  */
 const MessageRoot = styled.div<IMessageProps>`
-  ${({ isStretched }) => css`
+  ${({ stretched }) => css`
     margin-bottom: 1rem;
-    width: ${isStretched ? '100%' : 'fit-content'};
+    width: ${stretched ? '100%' : 'fit-content'};
     position: relative;
   `}
 `;
@@ -56,22 +56,22 @@ const closeButtonColor = (isDark: boolean, palette: IPalette, color: string) => 
  * @internal
  */
 const CloseButton = styled.i<IMessageProps>`
-  ${({ theme: { palette, isDark }, withColor, isOutlined }) => css`
+  ${({ theme: { palette, isDark }, tone, outlined }) => css`
     height: 1rem;
     width: 1rem;
     position: absolute;
-    color: ${palette[withColor!][50]};
+    color: ${palette[tone!][50]};
     cursor: pointer;
-    ${isOutlined
+    ${outlined
       ? css`
           top: 26px;
           right: 2px;
-          color: ${closeButtonColor(isDark, palette, withColor!)};
+          color: ${closeButtonColor(isDark, palette, tone!)};
         `
       : css`
           top: 24px;
           right: 2px;
-          color: ${palette[withColor!][50]};
+          color: ${palette[tone!][50]};
         `}
   `}
 `;
@@ -82,19 +82,19 @@ const CloseButton = styled.i<IMessageProps>`
  * @internal
  */
 const MessageLabel = styled.div<IMessageProps>`
-  ${({ theme: { layout, typography }, isSharp, isOutlined }) => css`
+  ${({ theme: { layout, typography }, sharp, outlined }) => css`
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2px;
-    border-top-left-radius: ${!isSharp && layout.radius};
-    border-top-right-radius: ${!isSharp && layout.radius};
+    border-top-left-radius: ${!sharp && layout.radius};
+    border-top-right-radius: ${!sharp && layout.radius};
     width: fit-content;
     padding: 0.25rem 1rem;
     font-size: 0.625rem;
     text-transform: uppercase;
     font-weight: ${typography.fontWeightBold};
-    ${isOutlined ? outlinedLabel : filledLabel}
+    ${outlined ? outlinedLabel : filledLabel}
     svg {
       height: 0.75rem;
       width: 0.75rem;
@@ -108,15 +108,15 @@ const MessageLabel = styled.div<IMessageProps>`
  * @internal
  */
 const MessageContent = styled.div<IMessageProps>`
-  ${({ theme: { layout }, isSharp, isStretched, withoutLabel, isOutlined }) => css`
+  ${({ theme: { layout }, sharp, stretched, withoutLabel, outlined }) => css`
     padding: 0.75rem 1rem;
-    border-radius: ${!isSharp && layout.radius};
+    border-radius: ${!sharp && layout.radius};
     ${!withoutLabel &&
     css`
       border-top-left-radius: 0;
     `}
-    width: ${isStretched ? '100%' : 'fit-content'};
-    ${isOutlined ? outlinedContent : filledContent}
+    width: ${stretched ? '100%' : 'fit-content'};
+    ${outlined ? outlinedContent : filledContent}
   `}
 `;
 

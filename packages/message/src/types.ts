@@ -11,31 +11,24 @@ export interface IMessageProps extends HTMLAttributes<HTMLDivElement> {
    * @type {?boolean}
    * @default false
    */
-  isClosable?: boolean;
+  closable?: boolean;
 
   /**
-   * If `true`, creates outlined message widget, won't fill
+   * Delay timer to remove the message widget.
+   *  When set to 0, the message is not removed automatically
+   * (in milliseconds)
    *
-   * @type {?boolean}
-   * @default false
+   * @type {?number}
+   * @default 0
    */
-  isOutlined?: boolean;
+  duration?: number;
 
   /**
-   * If `true`, creates sharp corners for the message widget
+   * Title of the message widget
    *
-   * @type {?boolean}
-   * @default false
+   * @type {?(JSX.Element | string)}
    */
-  isSharp?: boolean;
-
-  /**
-   * If `true`, stretches the message widget to full width of the parent container
-   *
-   * @type {?boolean}
-   * @default false
-   */
-  isStretched?: boolean;
+  header?: JSX.Element | string;
 
   /**
    * Callback (if any) after the message widget is closed
@@ -46,29 +39,36 @@ export interface IMessageProps extends HTMLAttributes<HTMLDivElement> {
   onClose?: (e?: any | undefined) => void;
 
   /**
+   * If `true`, creates outlined message widget, won't fill
+   *
+   * @type {?boolean}
+   * @default false
+   */
+  outlined?: boolean;
+
+  /**
+   * If `true`, creates sharp corners for the message widget
+   *
+   * @type {?boolean}
+   * @default false
+   */
+  sharp?: boolean;
+
+  /**
+   * If `true`, stretches the message widget to full width of the parent container
+   *
+   * @type {?boolean}
+   * @default false
+   */
+  stretched?: boolean;
+
+  /**
    * Color variant of the message, typically used to classify the
    * information based on its level
    *
    * @type {?TColor}
    */
-  withColor?: TColor;
-
-  /**
-   * Delay timer to remove the message widget.
-   *  When set to 0, the message is not removed automatically
-   * (in milliseconds)
-   *
-   * @type {?number}
-   * @default 0
-   */
-  withDuration?: number;
-
-  /**
-   * Title of the message widget
-   *
-   * @type {?(JSX.Element | string)}
-   */
-  withHeader?: JSX.Element | string;
+  tone?: TColor;
 
   /**
    * If `true`, label wont be added to the message widget
