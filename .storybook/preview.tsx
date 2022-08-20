@@ -11,15 +11,15 @@ export const parameters = {
   },
 };
 
-const ThemeBlock = styled.div<{ left?: boolean; fill?: boolean }>(
-  ({ left, fill, theme: { palette } }) =>
+const ThemeBlock = styled.div<{ left?: boolean; filled?: boolean }>(
+  ({ left, filled, theme: { palette } }) =>
     css`
       position: absolute;
       top: 0;
-      left: ${left || fill ? 0 : '50vw'};
+      left: ${left || filled ? 0 : '50vw'};
       border-right: ${left ? '1px solid #202020' : 'none'};
       right: ${left ? '50vw' : 0};
-      width: ${fill ? '100vw' : '50vw'};
+      width: ${filled ? '100vw' : '50vw'};
       height: 100vh;
       bottom: 0;
       overflow: auto;
@@ -53,7 +53,7 @@ export const withTheme: DecoratorFn = (StoryFn, context) => {
     default: {
       return (
         <TidyUiProvider theme={storyTheme}>
-          <ThemeBlock fill>
+          <ThemeBlock filled>
             <StoryFn />
           </ThemeBlock>
         </TidyUiProvider>
@@ -76,8 +76,6 @@ export const globalTypes = {
         { value: 'dark', icon: 'circle', title: 'dark' },
         { value: 'side-by-side', icon: 'sidebar', title: 'side by side' },
       ],
-      // Property that specifies if the name of the item will be displayed
-      showName: true,
     },
   },
 };
