@@ -1,5 +1,5 @@
 import { HTMLAttributes } from 'react';
-import { TShade,TTone } from '@tidy-ui/types';
+import { TShade, TTone } from '@tidy-ui/types';
 
 /**
  * Divider props
