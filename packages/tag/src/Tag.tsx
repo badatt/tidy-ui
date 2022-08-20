@@ -8,13 +8,13 @@ import { ITagProps } from './types';
  *
  */
 const Tag = forwardRef<HTMLDivElement, ITagProps>((props, ref) => {
-  const { children, className, withIcon, onClose, ...rest } = props;
+  const { children, className, icon, onClose, ...rest } = props;
   return (
-    <TagRoot className={className} ref={ref} role="tag" {...rest}>
-      {withIcon && <TagIcon {...rest}>{withIcon}</TagIcon>}
+    <TagRoot className={className} ref={ref} role="list" {...rest}>
+      {icon && <TagIcon {...rest}>{icon}</TagIcon>}
       {children}
       {onClose && (
-        <TagIcon {...rest} onClick={onClose} role="close-tag-btn">
+        <TagIcon {...rest} onClick={onClose} role="button">
           <CloseIcon />
         </TagIcon>
       )}
@@ -23,9 +23,9 @@ const Tag = forwardRef<HTMLDivElement, ITagProps>((props, ref) => {
 });
 
 Tag.defaultProps = {
-  isOutlined: false,
-  withColor: 'major',
-  withSize: 'md',
+  outlined: false,
+  size: 'md',
+  tone: 'major',
 };
 
 export { Tag };

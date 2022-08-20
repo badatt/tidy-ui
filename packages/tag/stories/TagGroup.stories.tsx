@@ -30,9 +30,9 @@ export const appendable = () => {
 
   return (
     <Container>
-      <TagGroup withSize="sm" withColor="info" onAddNewTag={handleTagAdd}>
+      <TagGroup size="sm" tone="info" onAddNewTag={handleTagAdd}>
         {tags.map((t) => (
-          <Tag withSize="sm" key={t} withColor="info" onClose={() => handleTagRemove(t)}>
+          <Tag size="sm" key={t} tone="info" onClose={() => handleTagRemove(t)}>
             {t}
           </Tag>
         ))}
@@ -44,9 +44,9 @@ export const appendable = () => {
           </Tag>
         ))}
       </TagGroup>
-      <TagGroup withSize="lg" onAddNewTag={handleTagAdd}>
+      <TagGroup size="lg" onAddNewTag={handleTagAdd}>
         {tags.map((t) => (
-          <Tag isOutlined withSize="lg" key={t} onClose={() => handleTagRemove(t)}>
+          <Tag outlined size="lg" key={t} onClose={() => handleTagRemove(t)}>
             {t}
           </Tag>
         ))}

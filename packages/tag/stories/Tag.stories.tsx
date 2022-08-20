@@ -23,46 +23,46 @@ export const basic = () => (
   <Container>
     <Column>
       <Tag>typescript</Tag>
-      <Tag withIcon={<CheckCircleIcon />} withColor="success">
+      <Tag icon={<CheckCircleIcon />} tone="success">
         Success
       </Tag>
     </Column>
   </Container>
 );
 
-export const colorVariants = () => (
+export const tones = () => (
   <Container>
-    <Tag withColor="major">html</Tag>
-    <Tag withColor="minor">typescript</Tag>
-    <Tag withColor="neutral">cloud</Tag>
-    <Tag withColor="success">javascript</Tag>
-    <Tag withColor="info">java</Tag>
-    <Tag withColor="warning">sass</Tag>
-    <Tag withColor="danger">css</Tag>
+    <Tag tone="major">html</Tag>
+    <Tag tone="minor">typescript</Tag>
+    <Tag tone="neutral">cloud</Tag>
+    <Tag tone="success">javascript</Tag>
+    <Tag tone="info">java</Tag>
+    <Tag tone="warning">sass</Tag>
+    <Tag tone="danger">css</Tag>
   </Container>
 );
 
 export const outlined = () => (
   <Container>
-    <Tag withColor="major" isOutlined>
+    <Tag tone="major" outlined>
       html
     </Tag>
-    <Tag withColor="minor" isOutlined>
+    <Tag tone="minor" outlined>
       typescript
     </Tag>
-    <Tag withColor="neutral" isOutlined>
+    <Tag tone="neutral" outlined>
       cloud
     </Tag>
-    <Tag withColor="success" isOutlined>
+    <Tag tone="success" outlined>
       javascript
     </Tag>
-    <Tag withColor="info" isOutlined>
+    <Tag tone="info" outlined>
       java
     </Tag>
-    <Tag withColor="warning" isOutlined>
+    <Tag tone="warning" outlined>
       sass
     </Tag>
-    <Tag withColor="danger" isOutlined>
+    <Tag tone="danger" outlined>
       css
     </Tag>
   </Container>
@@ -71,17 +71,17 @@ export const outlined = () => (
 export const disabled = () => (
   <Container>
     <Column>
-      <Tag isDisabled>typescript</Tag>
+      <Tag disabled>typescript</Tag>
     </Column>
   </Container>
 );
 
-export const sizeVariants = () => (
+export const sizes = () => (
   <Container>
     <Column>
-      <Tag withSize="sm">typescript</Tag>
-      <Tag withSize="md">javascript</Tag>
-      <Tag withSize="lg">coffeescript</Tag>
+      <Tag size="sm">typescript</Tag>
+      <Tag size="md">javascript</Tag>
+      <Tag size="lg">coffeescript</Tag>
     </Column>
   </Container>
 );

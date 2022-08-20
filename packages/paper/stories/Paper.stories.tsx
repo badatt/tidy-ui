@@ -35,7 +35,7 @@ export const basic = () => (
         iste est inventore tempora.
       </p>
     </Paper>
-    <Paper isSharp>
+    <Paper sharp>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga amet et tempore laborum ratione nemo quidem ut
         quibusdam? Quod optio voluptas est molestias nam. Iure est nihil illo ad sed. Repellendus, voluptatibus

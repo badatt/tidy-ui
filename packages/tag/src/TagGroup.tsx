@@ -8,7 +8,7 @@ import { ITagGroupProps } from './types';
  *
  */
 const TagGroup = forwardRef<HTMLDivElement, ITagGroupProps>((props, ref) => {
-  const { children, className, onAddNewTag, ...rest } = props;
+  const { children, onAddNewTag, size, ...rest } = props;
 
   const [typing, setTyping] = useState(false);
   const [inputValue, setInputValue] = useState('');
@@ -52,25 +52,26 @@ const TagGroup = forwardRef<HTMLDivElement, ITagGroupProps>((props, ref) => {
       return (
         <NewTagInput
           {...rest}
+          withSize={size}
           value={inputValue}
           // eslint-disable-next-line  @typescript-eslint/no-explicit-any
           onChange={(e: any) => setInputValue(e.target.value)}
           onBlur={handleInputConfirm}
           onKeyDown={handleEnterKeyPress}
-          role="add-new-input"
+          role="textbox"
         />
       );
     }
 
     return (
-      <AddNewTagIcon {...rest} onClick={handleNewTagButtonClick} role="add-new-btn">
+      <AddNewTagIcon {...rest} size={size} onClick={handleNewTagButtonClick} role="button">
         <AddCircleIcon />
       </AddNewTagIcon>
     );
   };
 
   return (
-    <TagGroupRoot className={className} ref={ref} role="tag-group" {...rest}>
+    <TagGroupRoot ref={ref} role="listbox" {...rest}>
       {children}
       {renderTagGroupActions()}
     </TagGroupRoot>
@@ -78,8 +79,8 @@ const TagGroup = forwardRef<HTMLDivElement, ITagGroupProps>((props, ref) => {
 });
 
 TagGroup.defaultProps = {
-  withColor: 'major',
-  withSize: 'md',
+  size: 'md',
+  tone: 'major',
 };
 
 export { TagGroup };

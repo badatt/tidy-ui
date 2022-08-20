@@ -1,6 +1,6 @@
 import { css, hsla, styled } from '@tidy-ui/commons';
 import { filledContent, outlinedContent, sizeStyles } from './style';
-import { ITagGroupProps, ITagProps } from './types';
+import { INewTagInput, ITagGroupProps, ITagProps } from './types';
 
 /**
  * Internal Tag root
@@ -8,17 +8,17 @@ import { ITagGroupProps, ITagProps } from './types';
  * @internal
  */
 const TagRoot = styled.div<ITagProps>`
-  ${({ isOutlined, withSize, isDisabled }) => css`
+  ${({ outlined, size, disabled }) => css`
     display: flex;
     align-items: center;
     gap: 0.25rem;
-    padding: ${sizeStyles[withSize!].padding};
-    border-radius: ${sizeStyles[withSize!].borderRadius};
-    font-size: ${sizeStyles[withSize!].fontSize};
-    line-height: ${sizeStyles[withSize!].lineHeight};
+    padding: ${sizeStyles[size!].padding};
+    border-radius: ${sizeStyles[size!].borderRadius};
+    font-size: ${sizeStyles[size!].fontSize};
+    line-height: ${sizeStyles[size!].lineHeight};
     width: fit-content;
-    ${isOutlined ? outlinedContent : filledContent}
-    ${isDisabled &&
+    ${outlined ? outlinedContent : filledContent}
+    ${disabled &&
     css`
       cursor: not-allowed;
       opacity: 0.5;
@@ -32,10 +32,10 @@ const TagRoot = styled.div<ITagProps>`
  * @internal
  */
 const TagIcon = styled.i<ITagProps>`
-  ${({ withSize }) => css`
+  ${({ size }) => css`
     cursor: pointer;
-    height: ${sizeStyles[withSize!].iconSize};
-    width: ${sizeStyles[withSize!].iconSize};
+    height: ${sizeStyles[size!].iconSize};
+    width: ${sizeStyles[size!].iconSize};
   `}
 `;
 
@@ -57,11 +57,11 @@ const TagGroupRoot = styled.div<ITagGroupProps>`
  * @internal
  */
 const AddNewTagIcon = styled.i<ITagGroupProps>`
-  ${({ theme: { isDark, palette }, withSize, withColor }) => css`
+  ${({ theme: { isDark, palette }, size, tone }) => css`
     cursor: pointer;
-    height: ${sizeStyles[withSize!].addNewIconSize};
-    width: ${sizeStyles[withSize!].addNewIconSize};
-    color: ${isDark ? palette[withColor!][400] : palette[withColor!][600]};
+    height: ${sizeStyles[size!].addNewIconSize};
+    width: ${sizeStyles[size!].addNewIconSize};
+    color: ${isDark ? palette[tone!][400] : palette[tone!][600]};
   `}
 `;
 
@@ -70,13 +70,13 @@ const AddNewTagIcon = styled.i<ITagGroupProps>`
  *
  * @internal
  */
-const NewTagInput = styled.input<ITagGroupProps>`
-  ${({ theme: { isDark, palette }, withColor, withSize }) => css`
+const NewTagInput = styled.input<INewTagInput>`
+  ${({ theme: { isDark, palette }, tone, withSize }) => css`
     width: ${sizeStyles[withSize!].addNewTagInputWidth};
     outline: none;
-    color: ${isDark ? palette[withColor!][400] : palette[withColor!][600]};
-    background-color: ${isDark ? hsla(palette[withColor!].shades[900], 0.1) : palette[withColor!][50]};
-    border: 1px solid ${palette[withColor!][400]};
+    color: ${isDark ? palette[tone!][400] : palette[tone!][600]};
+    background-color: ${isDark ? hsla(palette[tone!].shades[900], 0.1) : palette[tone!][50]};
+    border: 1px solid ${palette[tone!][400]};
     transition: border-color 0.3s ease-in-out;
     padding: ${sizeStyles[withSize!].padding};
     border-radius: ${sizeStyles[withSize!].borderRadius};
@@ -84,11 +84,11 @@ const NewTagInput = styled.input<ITagGroupProps>`
     line-height: ${sizeStyles[withSize!].lineHeight};
     &:focus {
       border: 0;
-      outline: 2px solid ${palette[withColor!][500]};
+      outline: 2px solid ${palette[tone!][500]};
     }
     &:hover {
       border: 0;
-      outline: 2px solid ${palette[withColor!][500]};
+      outline: 2px solid ${palette[tone!][500]};
     }
   `}
 `;

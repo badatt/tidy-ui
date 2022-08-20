@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 import React from 'react';
-import { fireEvent, getByRole, render } from '@testing-library/react';
+import { fireEvent, getAllByRole, getByRole, render } from '@testing-library/react';
 import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
@@ -15,11 +15,11 @@ describe('TagGroup', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <TagGroup>
-          <Tag withSize="sm">html</Tag>
+          <Tag size="sm">html</Tag>
           <Tag>typescript</Tag>
-          <Tag withSize="lg">javascript</Tag>
-          <Tag isDisabled>cloud</Tag>
-          <Tag withIcon={<CheckCircleIcon />} onClose={jest.fn()}>
+          <Tag size="lg">javascript</Tag>
+          <Tag disabled>cloud</Tag>
+          <Tag icon={<CheckCircleIcon />} onClose={jest.fn()}>
             kotlin
           </Tag>
         </TagGroup>
@@ -34,9 +34,9 @@ describe('TagGroup', () => {
     const mockOnCloseTag = jest.fn();
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <TagGroup withSize="sm" onAddNewTag={mockOnAddNewTag}>
+        <TagGroup size="sm" onAddNewTag={mockOnAddNewTag}>
           {tags.map((t) => (
-            <Tag withSize="sm" key={t} onClose={() => mockOnCloseTag(t)}>
+            <Tag size="sm" key={t} onClose={() => mockOnCloseTag(t)}>
               {t}
             </Tag>
           ))}
@@ -45,10 +45,10 @@ describe('TagGroup', () => {
     );
     expect(tree).toMatchSnapshot();
     const { container } = tree;
-    const addNewTagBtn = getByRole(container, 'add-new-btn');
+    const addNewTagBtn = getAllByRole(container, 'button');
 
-    fireEvent.click(addNewTagBtn);
-    const newTagInput = getByRole(container, 'add-new-input');
+    fireEvent.click(addNewTagBtn[addNewTagBtn.length - 1]);
+    const newTagInput = getByRole(container, 'textbox');
     fireEvent.change(newTagInput, { target: { value: 'css' } });
     fireEvent.blur(newTagInput);
     expect(mockOnAddNewTag).toHaveBeenCalledTimes(1);
@@ -60,9 +60,9 @@ describe('TagGroup', () => {
     const mockOnCloseTag = jest.fn();
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <TagGroup withSize="sm" onAddNewTag={mockOnAddNewTag}>
+        <TagGroup size="sm" onAddNewTag={mockOnAddNewTag}>
           {tags.map((t) => (
-            <Tag withSize="sm" key={t} onClose={() => mockOnCloseTag(t)}>
+            <Tag size="sm" key={t} onClose={() => mockOnCloseTag(t)}>
               {t}
             </Tag>
           ))}
@@ -71,10 +71,10 @@ describe('TagGroup', () => {
     );
     expect(tree).toMatchSnapshot();
     const { container } = tree;
-    const addNewTagBtn = getByRole(container, 'add-new-btn');
+    const addNewTagBtn = getAllByRole(container, 'button');
 
-    fireEvent.click(addNewTagBtn);
-    const newTagInput = getByRole(container, 'add-new-input');
+    fireEvent.click(addNewTagBtn[addNewTagBtn.length - 1]);
+    const newTagInput = getByRole(container, 'textbox');
     fireEvent.focus(newTagInput);
     fireEvent.keyDown(newTagInput, { keyCode: '3' });
     fireEvent.keyDown(newTagInput, { keyCode: '4' });
@@ -87,9 +87,9 @@ describe('TagGroup', () => {
     const tags = ['react', 'java', 'cloud', 'scss'];
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <TagGroup withSize="sm">
+        <TagGroup size="sm">
           {tags.map((t) => (
-            <Tag withSize="sm" key={t} onClose={jest.fn()}>
+            <Tag size="sm" key={t} onClose={jest.fn()}>
               {t}
             </Tag>
           ))}
@@ -98,10 +98,10 @@ describe('TagGroup', () => {
     );
     expect(tree).toMatchSnapshot();
     const { container } = tree;
-    const addNewTagBtn = getByRole(container, 'add-new-btn');
+    const addNewTagBtn = getAllByRole(container, 'button');
 
-    fireEvent.click(addNewTagBtn);
-    const newTagInput = getByRole(container, 'add-new-input');
+    fireEvent.click(addNewTagBtn[addNewTagBtn.length - 1]);
+    const newTagInput = getByRole(container, 'textbox');
     fireEvent.change(newTagInput, { target: { value: 'css' } });
     fireEvent.blur(newTagInput);
   });

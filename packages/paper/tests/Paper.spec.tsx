@@ -43,7 +43,7 @@ describe('Paper', () => {
   it('Paper with sharp edges', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Paper isSharp>
+        <Paper sharp>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, veniam ducimus ea reiciendis sed blanditiis
           impedit quisquam velit praesentium, eius dignissimos. Omnis ad doloribus laudantium expedita accusantium
           placeat suscipit dolores. Autem iste voluptas deleniti similique accusamus voluptatem dolorem necessitatibus

@@ -8,16 +8,16 @@ import { IPaperProps } from './types';
  *
  */
 const Paper = forwardRef<HTMLDivElement, IPaperProps>((props, ref) => {
-  const { className, children, ...rest } = props;
+  const { children, ...rest } = props;
   return (
-    <PaperRoot className={className} role="paper" ref={ref} {...rest}>
+    <PaperRoot role="article" ref={ref} {...rest}>
       {children}
     </PaperRoot>
   );
 });
 
 Paper.defaultProps = {
-  isSharp: false,
+  sharp: false,
 };
 
 export { Paper };

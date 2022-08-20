@@ -15,5 +15,5 @@ export interface IPaperProps extends HTMLAttributes<HTMLDivElement> {
    * @type {?boolean}
    * @default false
    */
-  isSharp?: boolean;
+  sharp?: boolean;
 }

@@ -32,7 +32,7 @@ describe('Tag', () => {
   it('Outlined tag', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Tag isOutlined>html</Tag>
+        <Tag outlined>html</Tag>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -41,7 +41,7 @@ describe('Tag', () => {
   it('Outlined tag in dark mode', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <Tag isOutlined>html</Tag>
+        <Tag outlined>html</Tag>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -50,7 +50,7 @@ describe('Tag', () => {
   it('Disabled tag', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Tag isDisabled>html</Tag>
+        <Tag disabled>html</Tag>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -59,7 +59,7 @@ describe('Tag', () => {
   it('Tag with icon', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Tag withIcon={<CheckCircleIcon />}>html</Tag>
+        <Tag icon={<CheckCircleIcon />}>html</Tag>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -68,13 +68,13 @@ describe('Tag', () => {
   it('Tags with all color variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Tag withColor="major">html</Tag>
-        <Tag withColor="minor">typescript</Tag>
-        <Tag withColor="neutral">cloud</Tag>
-        <Tag withColor="success">javascript</Tag>
-        <Tag withColor="info">java</Tag>
-        <Tag withColor="warning">sass</Tag>
-        <Tag withColor="danger">css</Tag>
+        <Tag tone="major">html</Tag>
+        <Tag tone="minor">typescript</Tag>
+        <Tag tone="neutral">cloud</Tag>
+        <Tag tone="success">javascript</Tag>
+        <Tag tone="info">java</Tag>
+        <Tag tone="warning">sass</Tag>
+        <Tag tone="danger">css</Tag>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -83,9 +83,9 @@ describe('Tag', () => {
   it('Tags with all magnitude variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Tag withSize="sm">html</Tag>
+        <Tag size="sm">html</Tag>
         <Tag>typescript</Tag>
-        <Tag withSize="lg">javascript</Tag>
+        <Tag size="lg">javascript</Tag>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();

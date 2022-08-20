@@ -1,4 +1,4 @@
-import { HTMLAttributes } from 'react';
+import { HTMLAttributes, HtmlHTMLAttributes } from 'react';
 import { TColor } from '@tidy-ui/types';
 
 /**
@@ -24,15 +24,15 @@ export interface ITagProps extends HTMLAttributes<HTMLDivElement> {
    * @type {?boolean}
    * @default false
    */
-  isDisabled?: boolean;
+  disabled?: boolean;
 
   /**
-   * If `true`, creates outlined tag widget, it won't fill
+   * Icon to be added to the tag
    *
-   * @type {?boolean}
-   * @default false
+   * @type {?JSX.Element}
+   * @default null
    */
-  isOutlined?: boolean;
+  icon?: JSX.Element;
 
   /**
    * Callback (if any) after the tag widget is closed
@@ -43,21 +43,12 @@ export interface ITagProps extends HTMLAttributes<HTMLDivElement> {
   onClose?: (e?: any | undefined) => void;
 
   /**
-   * Color variant of the tag widget, typically used to classify the
-   * information based on its level
+   * If `true`, creates outlined tag widget, it won't fill
    *
-   * @type {?TColor}
-   * @default 'major'
+   * @type {?boolean}
+   * @default false
    */
-  withColor?: TColor;
-
-  /**
-   * Icon to be added to the tag
-   *
-   * @type {?JSX.Element}
-   * @default null
-   */
-  withIcon?: JSX.Element;
+  outlined?: boolean;
 
   /**
    * The size of the component
@@ -66,7 +57,16 @@ export interface ITagProps extends HTMLAttributes<HTMLDivElement> {
    *
    * @type {?TSize}
    */
-  withSize?: TSize;
+  size?: TSize;
+
+  /**
+   * Color variant of the tag widget, typically used to classify the
+   * information based on its level
+   *
+   * @type {?TColor}
+   * @default 'major'
+   */
+  tone?: TColor;
 }
 
 /**
@@ -87,19 +87,36 @@ export interface ITagGroupProps extends HTMLAttributes<HTMLDivElement> {
   onAddNewTag?: (v: any) => void;
 
   /**
-   * Color variant of the add new tag button
-   *
-   * @type {?TColor}
-   * @default 'major'
-   */
-  withColor?: TColor;
-
-  /**
    * The size of the add new tag button
    *
    * default 'md'
    *
    * @type {?TSize}
+   */
+  size?: TSize;
+
+  /**
+   * Color variant of the add new tag button
+   *
+   * @type {?TColor}
+   * @default 'major'
+   */
+  tone?: TColor;
+}
+
+/**
+ *
+ */
+export interface INewTagInput extends HtmlHTMLAttributes<HTMLInputElement> {
+  /**
+   * Color variant of the add new tag button
+   *
+   * @type {?TColor}
+   * @default 'major'
+   */
+  tone?: TColor;
+  /**
+   *
    */
   withSize?: TSize;
 }

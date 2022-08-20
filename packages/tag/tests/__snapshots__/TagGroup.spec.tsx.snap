@@ -122,35 +122,36 @@ Object {
     <div>
       <div
         class="c0"
-        role="tag-group"
+        role="listbox"
       >
         <div
           class="c1"
-          role="tag"
+          role="list"
         >
           html
         </div>
         <div
           class="c2"
-          role="tag"
+          role="list"
         >
           typescript
         </div>
         <div
           class="c3"
-          role="tag"
+          role="list"
         >
           javascript
         </div>
         <div
           class="c4"
-          role="tag"
+          disabled=""
+          role="list"
         >
           cloud
         </div>
         <div
           class="c2"
-          role="tag"
+          role="list"
         >
           <i
             class="c5"
@@ -170,7 +171,7 @@ Object {
           kotlin
           <i
             class="c5"
-            role="close-tag-btn"
+            role="button"
           >
             <svg
               aria-hidden="true"
@@ -187,7 +188,7 @@ Object {
         </div>
         <i
           class="c6"
-          role="add-new-btn"
+          role="button"
         >
           <svg
             aria-hidden="true"
@@ -322,35 +323,36 @@ Object {
 <div>
     <div
       class="c0"
-      role="tag-group"
+      role="listbox"
     >
       <div
         class="c1"
-        role="tag"
+        role="list"
       >
         html
       </div>
       <div
         class="c2"
-        role="tag"
+        role="list"
       >
         typescript
       </div>
       <div
         class="c3"
-        role="tag"
+        role="list"
       >
         javascript
       </div>
       <div
         class="c4"
-        role="tag"
+        disabled=""
+        role="list"
       >
         cloud
       </div>
       <div
         class="c2"
-        role="tag"
+        role="list"
       >
         <i
           class="c5"
@@ -370,7 +372,7 @@ Object {
         kotlin
         <i
           class="c5"
-          role="close-tag-btn"
+          role="button"
         >
           <svg
             aria-hidden="true"
@@ -387,7 +389,7 @@ Object {
       </div>
       <i
         class="c6"
-        role="add-new-btn"
+        role="button"
       >
         <svg
           aria-hidden="true"
@@ -514,16 +516,16 @@ Object {
     <div>
       <div
         class="c0"
-        role="tag-group"
+        role="listbox"
       >
         <div
           class="c1"
-          role="tag"
+          role="list"
         >
           react
           <i
             class="c2"
-            role="close-tag-btn"
+            role="button"
           >
             <svg
               aria-hidden="true"
@@ -540,12 +542,12 @@ Object {
         </div>
         <div
           class="c1"
-          role="tag"
+          role="list"
         >
           java
           <i
             class="c2"
-            role="close-tag-btn"
+            role="button"
           >
             <svg
               aria-hidden="true"
@@ -562,12 +564,12 @@ Object {
         </div>
         <div
           class="c1"
-          role="tag"
+          role="list"
         >
           cloud
           <i
             class="c2"
-            role="close-tag-btn"
+            role="button"
           >
             <svg
               aria-hidden="true"
@@ -584,12 +586,12 @@ Object {
         </div>
         <div
           class="c1"
-          role="tag"
+          role="list"
         >
           scss
           <i
             class="c2"
-            role="close-tag-btn"
+            role="button"
           >
             <svg
               aria-hidden="true"
@@ -606,7 +608,7 @@ Object {
         </div>
         <i
           class="c3"
-          role="add-new-btn"
+          role="button"
         >
           <svg
             aria-hidden="true"
@@ -676,16 +678,16 @@ Object {
 <div>
     <div
       class="c0"
-      role="tag-group"
+      role="listbox"
     >
       <div
         class="c1"
-        role="tag"
+        role="list"
       >
         react
         <i
           class="c2"
-          role="close-tag-btn"
+          role="button"
         >
           <svg
             aria-hidden="true"
@@ -702,12 +704,12 @@ Object {
       </div>
       <div
         class="c1"
-        role="tag"
+        role="list"
       >
         java
         <i
           class="c2"
-          role="close-tag-btn"
+          role="button"
         >
           <svg
             aria-hidden="true"
@@ -724,12 +726,12 @@ Object {
       </div>
       <div
         class="c1"
-        role="tag"
+        role="list"
       >
         cloud
         <i
           class="c2"
-          role="close-tag-btn"
+          role="button"
         >
           <svg
             aria-hidden="true"
@@ -746,12 +748,12 @@ Object {
       </div>
       <div
         class="c1"
-        role="tag"
+        role="list"
       >
         scss
         <i
           class="c2"
-          role="close-tag-btn"
+          role="button"
         >
           <svg
             aria-hidden="true"
@@ -768,7 +770,7 @@ Object {
       </div>
       <i
         class="c3"
-        role="add-new-btn"
+        role="button"
       >
         <svg
           aria-hidden="true"
@@ -895,16 +897,16 @@ Object {
     <div>
       <div
         class="c0"
-        role="tag-group"
+        role="listbox"
       >
         <div
           class="c1"
-          role="tag"
+          role="list"
         >
           react
           <i
             class="c2"
-            role="close-tag-btn"
+            role="button"
           >
             <svg
               aria-hidden="true"
@@ -921,12 +923,12 @@ Object {
         </div>
         <div
           class="c1"
-          role="tag"
+          role="list"
         >
           java
           <i
             class="c2"
-            role="close-tag-btn"
+            role="button"
           >
             <svg
               aria-hidden="true"
@@ -943,12 +945,12 @@ Object {
         </div>
         <div
           class="c1"
-          role="tag"
+          role="list"
         >
           cloud
           <i
             class="c2"
-            role="close-tag-btn"
+            role="button"
           >
             <svg
               aria-hidden="true"
@@ -965,12 +967,12 @@ Object {
         </div>
         <div
           class="c1"
-          role="tag"
+          role="list"
         >
           scss
           <i
             class="c2"
-            role="close-tag-btn"
+            role="button"
           >
             <svg
               aria-hidden="true"
@@ -987,7 +989,7 @@ Object {
         </div>
         <i
           class="c3"
-          role="add-new-btn"
+          role="button"
         >
           <svg
             aria-hidden="true"
@@ -1057,16 +1059,16 @@ Object {
 <div>
     <div
       class="c0"
-      role="tag-group"
+      role="listbox"
     >
       <div
         class="c1"
-        role="tag"
+        role="list"
       >
         react
         <i
           class="c2"
-          role="close-tag-btn"
+          role="button"
         >
           <svg
             aria-hidden="true"
@@ -1083,12 +1085,12 @@ Object {
       </div>
       <div
         class="c1"
-        role="tag"
+        role="list"
       >
         java
         <i
           class="c2"
-          role="close-tag-btn"
+          role="button"
         >
           <svg
             aria-hidden="true"
@@ -1105,12 +1107,12 @@ Object {
       </div>
       <div
         class="c1"
-        role="tag"
+        role="list"
       >
         cloud
         <i
           class="c2"
-          role="close-tag-btn"
+          role="button"
         >
           <svg
             aria-hidden="true"
@@ -1127,12 +1129,12 @@ Object {
       </div>
       <div
         class="c1"
-        role="tag"
+        role="list"
       >
         scss
         <i
           class="c2"
-          role="close-tag-btn"
+          role="button"
         >
           <svg
             aria-hidden="true"
@@ -1149,7 +1151,7 @@ Object {
       </div>
       <i
         class="c3"
-        role="add-new-btn"
+        role="button"
       >
         <svg
           aria-hidden="true"
@@ -1276,16 +1278,16 @@ Object {
     <div>
       <div
         class="c0"
-        role="tag-group"
+        role="listbox"
       >
         <div
           class="c1"
-          role="tag"
+          role="list"
         >
           react
           <i
             class="c2"
-            role="close-tag-btn"
+            role="button"
           >
             <svg
               aria-hidden="true"
@@ -1302,12 +1304,12 @@ Object {
         </div>
         <div
           class="c1"
-          role="tag"
+          role="list"
         >
           java
           <i
             class="c2"
-            role="close-tag-btn"
+            role="button"
           >
             <svg
               aria-hidden="true"
@@ -1324,12 +1326,12 @@ Object {
         </div>
         <div
           class="c1"
-          role="tag"
+          role="list"
         >
           cloud
           <i
             class="c2"
-            role="close-tag-btn"
+            role="button"
           >
             <svg
               aria-hidden="true"
@@ -1346,12 +1348,12 @@ Object {
         </div>
         <div
           class="c1"
-          role="tag"
+          role="list"
         >
           scss
           <i
             class="c2"
-            role="close-tag-btn"
+            role="button"
           >
             <svg
               aria-hidden="true"
@@ -1368,7 +1370,7 @@ Object {
         </div>
         <i
           class="c3"
-          role="add-new-btn"
+          role="button"
         >
           <svg
             aria-hidden="true"
@@ -1438,16 +1440,16 @@ Object {
 <div>
     <div
       class="c0"
-      role="tag-group"
+      role="listbox"
     >
       <div
         class="c1"
-        role="tag"
+        role="list"
       >
         react
         <i
           class="c2"
-          role="close-tag-btn"
+          role="button"
         >
           <svg
             aria-hidden="true"
@@ -1464,12 +1466,12 @@ Object {
       </div>
       <div
         class="c1"
-        role="tag"
+        role="list"
       >
         java
         <i
           class="c2"
-          role="close-tag-btn"
+          role="button"
         >
           <svg
             aria-hidden="true"
@@ -1486,12 +1488,12 @@ Object {
       </div>
       <div
         class="c1"
-        role="tag"
+        role="list"
       >
         cloud
         <i
           class="c2"
-          role="close-tag-btn"
+          role="button"
         >
           <svg
             aria-hidden="true"
@@ -1508,12 +1510,12 @@ Object {
       </div>
       <div
         class="c1"
-        role="tag"
+        role="list"
       >
         scss
         <i
           class="c2"
-          role="close-tag-btn"
+          role="button"
         >
           <svg
             aria-hidden="true"
@@ -1530,7 +1532,7 @@ Object {
       </div>
       <i
         class="c3"
-        role="add-new-btn"
+        role="button"
       >
         <svg
           aria-hidden="true"
