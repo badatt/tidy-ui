@@ -7,16 +7,16 @@ import { ICardFooterProps } from './types';
  *
  */
 const CardFooter = forwardRef<HTMLDivElement, ICardFooterProps>((props, ref) => {
-  const { children, className, ...rest } = props;
+  const { children, ...rest } = props;
   return (
-    <CardFooterRoot className={className} role="card-footer" ref={ref} {...rest}>
+    <CardFooterRoot role="presentation" ref={ref} {...rest}>
       {children}
     </CardFooterRoot>
   );
 });
 
 CardFooter.defaultProps = {
-  isDivided: false,
+  divided: false,
 };
 
 export { CardFooter };

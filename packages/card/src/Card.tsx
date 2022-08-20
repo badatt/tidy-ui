@@ -8,16 +8,16 @@ import { ICardProps } from './types';
  *
  */
 const Card = forwardRef<HTMLDivElement, ICardProps>((props, ref) => {
-  const { children, className, withHref, ...rest } = props;
+  const { children, href, ...rest } = props;
   return (
-    <CardRoot className={className} role="card" ref={ref} withHref={withHref} {...rest}>
-      {withHref ? <a href={withHref}>{children}</a> : <>{children}</>}
+    <CardRoot role="article" ref={ref} href={href} {...rest}>
+      {href ? <a href={href}>{children}</a> : <>{children}</>}
     </CardRoot>
   );
 });
 
 Card.defaultProps = {
-  isSharp: false,
+  sharp: false,
 };
 
 export { Card };

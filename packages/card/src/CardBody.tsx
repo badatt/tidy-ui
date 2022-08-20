@@ -6,9 +6,9 @@ import { CardBodyRoot } from './components';
  *
  */
 const CardBody = forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>((props, ref) => {
-  const { children, className, ...rest } = props;
+  const { children, ...rest } = props;
   return (
-    <CardBodyRoot className={className} role="card-body" ref={ref} {...rest}>
+    <CardBodyRoot role="presentation" ref={ref} {...rest}>
       {children}
     </CardBodyRoot>
   );

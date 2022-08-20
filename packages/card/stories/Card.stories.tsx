@@ -33,7 +33,7 @@ export const basic = () => (
         </CardBody>
         <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
       </Card>
-      <Card isSharp>
+      <Card sharp>
         <CardHeader>Lorem ipsum dolor sit.</CardHeader>
         <CardBody>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptatibus dolorum! Quas, natus! Est, neque
@@ -48,7 +48,7 @@ export const basic = () => (
 export const accentVariants = () => (
   <Container>
     <Column>
-      <Card withAccent="major">
+      <Card accent="major">
         <CardHeader>Lorem ipsum dolor sit amet.</CardHeader>
         <CardBody>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus
@@ -57,7 +57,7 @@ export const accentVariants = () => (
         </CardBody>
         <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
       </Card>
-      <Card withAccent="minor">
+      <Card accent="minor">
         <CardHeader>Lorem ipsum dolor sit amet.</CardHeader>
         <CardBody>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus
@@ -66,7 +66,7 @@ export const accentVariants = () => (
         </CardBody>
         <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
       </Card>
-      <Card withAccent="info">
+      <Card accent="info">
         <CardHeader>Lorem ipsum dolor sit amet.</CardHeader>
         <CardBody>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus
@@ -75,7 +75,7 @@ export const accentVariants = () => (
         </CardBody>
         <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
       </Card>
-      <Card withAccent="success">
+      <Card accent="success">
         <CardHeader>Lorem ipsum dolor sit amet.</CardHeader>
         <CardBody>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus
@@ -84,7 +84,7 @@ export const accentVariants = () => (
         </CardBody>
         <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
       </Card>
-      <Card withAccent="warning">
+      <Card accent="warning">
         <CardHeader>Lorem ipsum dolor sit amet.</CardHeader>
         <CardBody>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus
@@ -93,7 +93,7 @@ export const accentVariants = () => (
         </CardBody>
         <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
       </Card>
-      <Card withAccent="danger">
+      <Card accent="danger">
         <CardHeader>Lorem ipsum dolor sit amet.</CardHeader>
         <CardBody>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus
@@ -102,7 +102,7 @@ export const accentVariants = () => (
         </CardBody>
         <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
       </Card>
-      <Card withAccent="neutral">
+      <Card accent="neutral">
         <CardHeader>Lorem ipsum dolor sit amet.</CardHeader>
         <CardBody>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus
@@ -118,7 +118,7 @@ export const accentVariants = () => (
 export const linked = () => (
   <Container>
     <Column>
-      <Card withHref="https://google.com">
+      <Card href="https://google.com">
         <CardHeader>Lorem ipsum dolor sit.</CardHeader>
         <CardBody>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptatibus dolorum! Quas, natus! Est, neque
@@ -129,7 +129,7 @@ export const linked = () => (
     </Column>
     <Column>
       <Card>
-        <CardHeader withHref="https://google.com">Lorem ipsum dolor sit.</CardHeader>
+        <CardHeader href="https://google.com">Lorem ipsum dolor sit.</CardHeader>
         <CardBody>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptatibus dolorum! Quas, natus! Est, neque
           deserunt consequatur voluptatum dolores quae! Error explicabo omnis odio molestias.
@@ -144,20 +144,20 @@ export const divided = () => (
   <Container>
     <Column>
       <Card>
-        <CardHeader isDivided>Lorem ipsum dolor sit.</CardHeader>
+        <CardHeader divided>Lorem ipsum dolor sit.</CardHeader>
         <CardBody>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptatibus dolorum! Quas, natus! Est, neque
           deserunt consequatur voluptatum dolores quae! Error explicabo omnis odio molestias.
         </CardBody>
-        <CardFooter isDivided>Lorem ipsum dolor sit amet consectetur.</CardFooter>
+        <CardFooter divided>Lorem ipsum dolor sit amet consectetur.</CardFooter>
       </Card>
-      <Card isSharp>
-        <CardHeader isDivided>Lorem ipsum dolor sit.</CardHeader>
+      <Card sharp>
+        <CardHeader divided>Lorem ipsum dolor sit.</CardHeader>
         <CardBody>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptatibus dolorum! Quas, natus! Est, neque
           deserunt consequatur voluptatum dolores quae! Error explicabo omnis odio molestias.
         </CardBody>
-        <CardFooter isDivided>Lorem ipsum dolor sit amet consectetur.</CardFooter>
+        <CardFooter divided>Lorem ipsum dolor sit amet consectetur.</CardFooter>
       </Card>
     </Column>
   </Container>

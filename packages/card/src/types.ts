@@ -11,21 +11,13 @@ import { TColor } from '@tidy-ui/types';
  */
 export interface ICardProps extends HTMLAttributes<HTMLDivElement> {
   /**
-   * If `true`, the component is created with sharp edges
-   *
-   * @type {?boolean}
-   * @default false
-   */
-  isSharp?: boolean;
-
-  /**
    * Accent variant of the component, typically used to classify the
    * information based on its level
    *
    * @type {?TColor}
    * @default undefined
    */
-  withAccent?: TColor;
+  accent?: TColor;
 
   /**
    * Hyperlink the component
@@ -33,7 +25,15 @@ export interface ICardProps extends HTMLAttributes<HTMLDivElement> {
    * @type {?string}
    * @default undefined
    */
-  withHref?: string;
+  href?: string;
+
+  /**
+   * If `true`, the component is created with sharp edges
+   *
+   * @type {?boolean}
+   * @default false
+   */
+  sharp?: boolean;
 }
 
 /**
@@ -51,7 +51,7 @@ export interface ICardFooterProps extends HTMLAttributes<HTMLDivElement> {
    * @type {?boolean}
    * @default false
    */
-  isDivided?: boolean;
+  divided?: boolean;
 }
 
 /**
@@ -69,7 +69,7 @@ export interface ICardHeaderProps extends HTMLAttributes<HTMLDivElement> {
    * @type {?boolean}
    * @default false
    */
-  isDivided?: boolean;
+  divided?: boolean;
 
   /**
    * Create a hyper link with a launch icon on top right corner,
@@ -78,5 +78,5 @@ export interface ICardHeaderProps extends HTMLAttributes<HTMLDivElement> {
    * @type {?string}
    * @default undefined
    */
-  withHref?: string;
+  href?: string;
 }

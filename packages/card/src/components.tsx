@@ -7,7 +7,7 @@ import { ICardFooterProps, ICardHeaderProps, ICardProps } from './types';
  * @internal
  */
 const CardHeaderRoot = styled.header<ICardHeaderProps>`
-  ${({ theme: { typography, palette }, isDivided }) => css`
+  ${({ theme: { typography, palette }, divided }) => css`
     position: relative;
     font-weight: ${typography.fontWeightBold};
     padding-top: 1rem;
@@ -15,7 +15,7 @@ const CardHeaderRoot = styled.header<ICardHeaderProps>`
     padding-bottom: 0.5rem;
     padding-left: 1rem;
     width: 100%;
-    ${isDivided &&
+    ${divided &&
     css`
       border-bottom: 1px solid ${palette.divider};
     `}
@@ -58,22 +58,22 @@ const Icon = styled(LaunchIcon)`
  * @internal
  */
 const CardRoot = styled.section<ICardProps>`
-  ${({ theme: { palette, layout }, isSharp, withAccent, withHref }) => css`
+  ${({ theme: { palette, layout }, sharp, accent, href }) => css`
     display: flex;
     flex-direction: column;
     background-color: ${palette.background.card};
     box-shadow: ${layout.shadow};
     color: ${palette.text.primary};
     margin-bottom: 1.875rem;
-    ${!isSharp &&
+    ${!sharp &&
     css`
       border-radius: ${layout.radius};
     `}
-    ${withAccent &&
+    ${accent &&
     css`
-      border-top: 2px solid ${palette[withAccent][600]};
+      border-top: 2px solid ${palette[accent][600]};
     `}
-    ${withHref &&
+    ${href &&
     css`
       cursor: pointer;
     `}
@@ -94,8 +94,8 @@ const CardFooterRoot = styled.footer<ICardFooterProps>`
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
-  ${({ theme: { palette }, isDivided }) => css`
-    ${isDivided &&
+  ${({ theme: { palette }, divided }) => css`
+    ${divided &&
     css`
       border-top: 1px solid ${palette.divider};
     `}
