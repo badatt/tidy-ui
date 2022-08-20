@@ -7,19 +7,19 @@ import { IButtonGroupProps } from './types';
  *
  */
 const ButtonGroup = forwardRef<HTMLDivElement, IButtonGroupProps>((props, ref) => {
-  const { children, className, ...rest } = props;
+  const { children, ...rest } = props;
   return (
-    <ButtonGroupRoot className={className} role="button-group" ref={ref} {...rest}>
+    <ButtonGroupRoot role="button" ref={ref} {...rest}>
       {children}
     </ButtonGroupRoot>
   );
 });
 
 ButtonGroup.defaultProps = {
-  isDisabled: false,
-  isStretched: false,
-  isUnified: false,
-  isVertical: false,
+  disabled: false,
+  stretched: false,
+  unified: false,
+  vertical: false,
 };
 
 export { ButtonGroup };

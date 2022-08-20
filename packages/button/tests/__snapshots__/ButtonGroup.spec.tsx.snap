@@ -32,14 +32,14 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(271,81%,56%,1);
-  background-color: hsla(269,100%,92%,1);
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
   border: 1px solid transparent;
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
 }
 
 .c1:hover {
-  background-color: hsla(269,97%,85%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(272,72%,47%,1);
 }
 
 .c0 {
@@ -77,7 +77,7 @@ Object {
     <div>
       <div
         class="c0"
-        role="button-group"
+        role="button"
       >
         <button
           class="c1"
@@ -141,14 +141,14 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(271,81%,56%,1);
-  background-color: hsla(269,100%,92%,1);
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
   border: 1px solid transparent;
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
 }
 
 .c1:hover {
-  background-color: hsla(269,97%,85%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(272,72%,47%,1);
 }
 
 .c0 {
@@ -185,7 +185,7 @@ Object {
 <div>
     <div
       class="c0"
-      role="button-group"
+      role="button"
     >
       <button
         class="c1"
@@ -305,14 +305,14 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(270,95%,75%,1);
-  background-color: hsla(274,66%,32%,0.3);
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
   border: 1px solid transparent;
+  box-shadow: 0 0 24px hsla(273,67%,39%,1);
 }
 
 .c1:hover {
-  background-color: hsla(274,66%,32%,0.5);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(274,66%,32%,0.7) 0px 10px 15px -3px, hsla(274,66%,32%,0.7) 0px 4px 6px -4px;
+  background-color: hsla(272,72%,47%,1);
 }
 
 .c0 {
@@ -350,7 +350,7 @@ Object {
     <div>
       <div
         class="c0"
-        role="button-group"
+        role="button"
       >
         <button
           class="c1"
@@ -414,14 +414,14 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(270,95%,75%,1);
-  background-color: hsla(274,66%,32%,0.3);
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
   border: 1px solid transparent;
+  box-shadow: 0 0 24px hsla(273,67%,39%,1);
 }
 
 .c1:hover {
-  background-color: hsla(274,66%,32%,0.5);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(274,66%,32%,0.7) 0px 10px 15px -3px, hsla(274,66%,32%,0.7) 0px 4px 6px -4px;
+  background-color: hsla(272,72%,47%,1);
 }
 
 .c0 {
@@ -458,7 +458,7 @@ Object {
 <div>
     <div
       class="c0"
-      role="button-group"
+      role="button"
     >
       <button
         class="c1"
@@ -578,14 +578,14 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(271,81%,56%,1);
-  background-color: hsla(269,100%,92%,1);
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
   border: 1px solid transparent;
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
 }
 
 .c1:hover {
-  background-color: hsla(269,97%,85%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(272,72%,47%,1);
 }
 
 .c0 {
@@ -634,7 +634,8 @@ Object {
     <div>
       <div
         class="c0"
-        role="button-group"
+        disabled=""
+        role="button"
       >
         <button
           class="c1"
@@ -698,14 +699,14 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(271,81%,56%,1);
-  background-color: hsla(269,100%,92%,1);
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
   border: 1px solid transparent;
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
 }
 
 .c1:hover {
-  background-color: hsla(269,97%,85%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(272,72%,47%,1);
 }
 
 .c0 {
@@ -753,7 +754,8 @@ Object {
 <div>
     <div
       class="c0"
-      role="button-group"
+      disabled=""
+      role="button"
     >
       <button
         class="c1"
@@ -931,7 +933,7 @@ Object {
     <div>
       <div
         class="c0"
-        role="button-group"
+        role="button"
       >
         <button
           class="c1"
@@ -1034,7 +1036,7 @@ Object {
 <div>
     <div
       class="c0"
-      role="button-group"
+      role="button"
     >
       <button
         class="c1"
@@ -1136,14 +1138,14 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(271,81%,56%,1);
-  background-color: hsla(269,100%,92%,1);
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
   border: 1px solid transparent;
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
 }
 
 .c1:hover {
-  background-color: hsla(269,97%,85%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(272,72%,47%,1);
 }
 
 .c0 {
@@ -1183,7 +1185,7 @@ Object {
     <div>
       <div
         class="c0"
-        role="button-group"
+        role="button"
       >
         <button
           class="c1"
@@ -1247,14 +1249,14 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(271,81%,56%,1);
-  background-color: hsla(269,100%,92%,1);
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
   border: 1px solid transparent;
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
 }
 
 .c1:hover {
-  background-color: hsla(269,97%,85%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(272,72%,47%,1);
 }
 
 .c0 {
@@ -1293,7 +1295,7 @@ Object {
 <div>
     <div
       class="c0"
-      role="button-group"
+      role="button"
     >
       <button
         class="c1"
@@ -1413,14 +1415,14 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(271,81%,56%,1);
-  background-color: hsla(269,100%,92%,1);
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
   border: 1px solid transparent;
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
 }
 
 .c1:hover {
-  background-color: hsla(269,97%,85%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(272,72%,47%,1);
 }
 
 .c0 {
@@ -1461,7 +1463,7 @@ Object {
     <div>
       <div
         class="c0"
-        role="button-group"
+        role="button"
       >
         <button
           class="c1"
@@ -1525,14 +1527,14 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(271,81%,56%,1);
-  background-color: hsla(269,100%,92%,1);
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
   border: 1px solid transparent;
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
 }
 
 .c1:hover {
-  background-color: hsla(269,97%,85%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(272,72%,47%,1);
 }
 
 .c0 {
@@ -1572,7 +1574,7 @@ Object {
 <div>
     <div
       class="c0"
-      role="button-group"
+      role="button"
     >
       <button
         class="c1"
@@ -1692,14 +1694,14 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(271,81%,56%,1);
-  background-color: hsla(269,100%,92%,1);
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
   border: 1px solid transparent;
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
 }
 
 .c1:hover {
-  background-color: hsla(269,97%,85%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(272,72%,47%,1);
 }
 
 .c0 {
@@ -1742,7 +1744,7 @@ Object {
     <div>
       <div
         class="c0"
-        role="button-group"
+        role="button"
       >
         <button
           class="c1"
@@ -1806,14 +1808,14 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(271,81%,56%,1);
-  background-color: hsla(269,100%,92%,1);
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
   border: 1px solid transparent;
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
 }
 
 .c1:hover {
-  background-color: hsla(269,97%,85%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(272,72%,47%,1);
 }
 
 .c0 {
@@ -1855,7 +1857,7 @@ Object {
 <div>
     <div
       class="c0"
-      role="button-group"
+      role="button"
     >
       <button
         class="c1"

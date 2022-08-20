@@ -27,7 +27,7 @@ Object {
       <a
         class="c0"
         href="https://www.google.com/"
-        role="anchor"
+        role="link"
         target="_top"
       >
         simple link
@@ -57,7 +57,7 @@ Object {
     <a
       class="c0"
       href="https://www.google.com/"
-      role="anchor"
+      role="link"
       target="_top"
     >
       simple link
@@ -146,8 +146,9 @@ Object {
     <div>
       <a
         class="c0"
+        disabled=""
         href="https://www.google.com/"
-        role="anchor"
+        role="link"
         target="_top"
       >
         external link
@@ -179,8 +180,9 @@ Object {
 <div>
     <a
       class="c0"
+      disabled=""
       href="https://www.google.com/"
-      role="anchor"
+      role="link"
       target="_top"
     >
       external link
@@ -269,8 +271,9 @@ Object {
     <div>
       <a
         class="c0"
+        disabled=""
         href="https://www.google.com/"
-        role="anchor"
+        role="link"
         target="_top"
       >
         external link
@@ -302,8 +305,9 @@ Object {
 <div>
     <a
       class="c0"
+      disabled=""
       href="https://www.google.com/"
-      role="anchor"
+      role="link"
       target="_top"
     >
       external link
@@ -407,7 +411,7 @@ Object {
       <a
         class="c0"
         href="https://www.google.com/"
-        role="anchor"
+        role="link"
         target="_blank"
       >
         external link
@@ -466,7 +470,7 @@ Object {
     <a
       class="c0"
       href="https://www.google.com/"
-      role="anchor"
+      role="link"
       target="_blank"
     >
       external link
@@ -582,7 +586,7 @@ Object {
       <a
         class="c0"
         href="https://www.google.com/"
-        role="anchor"
+        role="link"
         target="_blank"
       >
         external link
@@ -641,7 +645,7 @@ Object {
     <a
       class="c0"
       href="https://www.google.com/"
-      role="anchor"
+      role="link"
       target="_blank"
     >
       external link
@@ -740,7 +744,7 @@ Object {
       <a
         class="c0"
         href="https://www.google.com/"
-        role="anchor"
+        role="link"
         target="_top"
       >
         simple link
@@ -770,7 +774,7 @@ Object {
     <a
       class="c0"
       href="https://www.google.com/"
-      role="anchor"
+      role="link"
       target="_top"
     >
       simple link

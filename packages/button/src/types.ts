@@ -1,8 +1,8 @@
 import { AnchorHTMLAttributes, HTMLAttributes } from 'react';
-import { TColor, TSize } from '@tidy-ui/types';
+import { TSize, TTone } from '@tidy-ui/types';
 
 /**
- * Button types
+ * Button variants
  *
  * `primary` -> For most significant actions in a page. If at all, only one recommended in a page
  *  <br />
@@ -16,10 +16,10 @@ import { TColor, TSize } from '@tidy-ui/types';
  * `simple` -> For ghost actions, use this if you don't want to let user notice that it exists
  * <br />
  *
- * @typedef {TType}
+ * @typedef {TVariant}
  * @public
  */
-export type TType = 'primary' | 'outlined' | 'hero' | 'basic' | 'simple';
+export type TVariant = 'primary' | 'outlined' | 'hero' | 'basic' | 'simple';
 
 /**
  * Button props
@@ -36,7 +36,7 @@ export interface IButtonProps extends HTMLAttributes<HTMLButtonElement> {
    * @type {?boolean}
    * @default false
    */
-  isDisabled?: boolean;
+  disabled?: boolean;
 
   /**
    * If `true`, the button is disabled, blocked for actions and a loader is added
@@ -44,30 +44,7 @@ export interface IButtonProps extends HTMLAttributes<HTMLButtonElement> {
    * @type {?boolean}
    * @default false
    */
-  isLoading?: boolean;
-
-  /**
-   * If `true`, the button is stretched to full width
-   *
-   * @type {?boolean}
-   * @default false
-   */
-  isStretched?: boolean;
-
-  /**
-   * If `true`, the text content inside the button is changed to uppercase
-   *
-   * @type {?boolean}
-   */
-  isUppercase?: boolean;
-
-  /**
-   * The color of the component
-   *
-   * @type {?TColor}
-   * @default 'major'
-   */
-  withColor?: TColor;
+  loading?: boolean;
 
   /**
    * The size of the component
@@ -75,15 +52,38 @@ export interface IButtonProps extends HTMLAttributes<HTMLButtonElement> {
    * @type {?TSize}
    * @default 'md'
    */
-  withSize?: TSize;
+  size?: TSize;
 
   /**
-   * The type of the component
+   * If `true`, the button is stretched to full width
    *
-   * @type {?TType}
+   * @type {?boolean}
+   * @default false
+   */
+  stretched?: boolean;
+
+  /**
+   * The color of the component
+   *
+   * @type {?TTone}
+   * @default 'major'
+   */
+  tone?: TTone;
+
+  /**
+   * If `true`, the text content inside the button is changed to uppercase
+   *
+   * @type {?boolean}
+   */
+  uc?: boolean;
+
+  /**
+   * The variant of the component
+   *
+   * @type {?TVariant}
    * @default 'basic'
    */
-  withType?: TType;
+  variant?: TVariant;
 }
 
 /**
@@ -101,7 +101,7 @@ export interface IAnchorProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
    * @type {?boolean}
    * @default false
    */
-  isDisabled?: boolean;
+  disabled?: boolean;
 
   /**
    * If `true`, the anchor launches the associated link in a new tab
@@ -109,7 +109,7 @@ export interface IAnchorProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
    * @type {?boolean}
    * @default false
    */
-  isLaunch?: boolean;
+  launch?: boolean;
 }
 
 /**
@@ -127,29 +127,21 @@ export interface IIconButtonProps extends HTMLAttributes<HTMLButtonElement> {
    * @type {?boolean}
    * @default false
    */
-  isDisabled?: boolean;
-
-  /**
-   * If `true`, creates a circular button with icon inside
-   *
-   * @type {?boolean}
-   */
-  isIconOnly?: boolean;
-
-  /**
-   * The color of the component
-   *
-   * @type {?TColor}
-   * @default 'major'
-   */
-  withColor?: TColor;
+  disabled?: boolean;
 
   /**
    * Mandatory icon to embed inside the button
    *
    * @type {?JSX.Element}
    */
-  withIcon?: JSX.Element;
+  icon?: JSX.Element;
+
+  /**
+   * If `true`, creates a circular button with icon inside
+   *
+   * @type {?boolean}
+   */
+  iconOnly?: boolean;
 
   /**
    * Placement of the icon inside the button
@@ -157,7 +149,7 @@ export interface IIconButtonProps extends HTMLAttributes<HTMLButtonElement> {
    * @type {?('left' | 'right')}
    * @default 'left'
    */
-  withPlacement?: 'left' | 'right';
+  placement?: 'left' | 'right';
 
   /**
    * The size of the component
@@ -165,15 +157,22 @@ export interface IIconButtonProps extends HTMLAttributes<HTMLButtonElement> {
    * @type {?TSize}
    * @default 'md'
    */
-  withSize?: TSize;
+  size?: TSize;
 
   /**
-   * The type of the component
+   * The color of the component
    *
-   * @type {?TType}
+   * @type {?TTone}
+   * @default 'major'
+   */
+  tone?: TTone;
+
+  /**
+   * The variant of the component
+   *
    * @default 'primary'
    */
-  withType?: 'primary' | 'outlined';
+  variant?: 'primary' | 'outlined';
 }
 
 /**
@@ -191,7 +190,7 @@ export interface IButtonGroupProps extends HTMLAttributes<HTMLDivElement> {
    * @type {?boolean}
    * @default false
    */
-  isDisabled?: boolean;
+  disabled?: boolean;
 
   /**
    * If `true`, the component is stretched to full width, equally distributing the buttons width
@@ -199,7 +198,7 @@ export interface IButtonGroupProps extends HTMLAttributes<HTMLDivElement> {
    * @type {?boolean}
    * @default false
    */
-  isStretched?: boolean;
+  stretched?: boolean;
 
   /**
    * If `true`, buttons inside the group are unified and seen as single component.
@@ -208,7 +207,7 @@ export interface IButtonGroupProps extends HTMLAttributes<HTMLDivElement> {
    * @type {?boolean}
    * @default false
    */
-  isUnified?: boolean;
+  unified?: boolean;
 
   /**
    * If `true`, aligns the button group vertically
@@ -216,7 +215,7 @@ export interface IButtonGroupProps extends HTMLAttributes<HTMLDivElement> {
    * @type {?boolean}
    * @default false
    */
-  isVertical?: boolean;
+  vertical?: boolean;
 }
 
 /**
@@ -234,5 +233,5 @@ export interface IButtonToolbarProps extends HTMLAttributes<HTMLDivElement> {
    * @type {?boolean}
    * @default false
    */
-  isDisabled?: boolean;
+  disabled?: boolean;
 }

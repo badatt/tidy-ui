@@ -29,7 +29,7 @@ describe('Render Anchor', () => {
   it('External anchor link', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Anchor href="https://www.google.com/" isLaunch>
+        <Anchor href="https://www.google.com/" launch>
           external link
         </Anchor>
       </ThemeProvider>,
@@ -39,7 +39,7 @@ describe('Render Anchor', () => {
   it('External anchor link dark', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <Anchor href="https://www.google.com/" isLaunch>
+        <Anchor href="https://www.google.com/" launch>
           external link
         </Anchor>
       </ThemeProvider>,
@@ -49,7 +49,7 @@ describe('Render Anchor', () => {
   it('Disabled anchor link', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Anchor href="https://www.google.com/" isDisabled>
+        <Anchor href="https://www.google.com/" disabled>
           external link
         </Anchor>
       </ThemeProvider>,
@@ -59,7 +59,7 @@ describe('Render Anchor', () => {
   it('Disabled anchor link dark', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <Anchor href="https://www.google.com/" isDisabled>
+        <Anchor href="https://www.google.com/" disabled>
           external link
         </Anchor>
       </ThemeProvider>,

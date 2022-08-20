@@ -20,7 +20,7 @@ export const basic = () => (
 
 export const disabled = () => (
   <Container>
-    <Anchor href="/?path=/story/anchor--basic" isDisabled>
+    <Anchor href="/?path=/story/anchor--basic" disabled>
       disabled
     </Anchor>
   </Container>
@@ -28,7 +28,7 @@ export const disabled = () => (
 
 export const launchNewTab = () => (
   <Container>
-    <Anchor href="https://www.google.com/" isLaunch>
+    <Anchor href="https://www.google.com/" launch>
       Google
     </Anchor>
   </Container>

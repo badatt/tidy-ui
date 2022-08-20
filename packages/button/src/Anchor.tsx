@@ -8,18 +8,18 @@ import { IAnchorProps } from './types';
  *
  */
 const Anchor = forwardRef<HTMLAnchorElement, IAnchorProps>((props, ref) => {
-  const { children, className, isLaunch, ...rest } = props;
+  const { children, launch, ...rest } = props;
   return (
-    <AnchorRoot className={className} role="anchor" ref={ref} {...rest} target={isLaunch ? '_blank' : '_top'}>
+    <AnchorRoot role="link" ref={ref} {...rest} target={launch ? '_blank' : '_top'}>
       {children}
-      {isLaunch && <AnchorIcon />}
+      {launch && <AnchorIcon />}
     </AnchorRoot>
   );
 });
 
 Anchor.defaultProps = {
-  isDisabled: false,
-  isLaunch: false,
+  disabled: false,
+  launch: false,
 };
 
 export { Anchor };

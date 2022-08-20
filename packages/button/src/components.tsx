@@ -9,12 +9,12 @@ import { IAnchorProps, IButtonGroupProps, IButtonProps, IButtonToolbarProps, IIc
  * @internal
  */
 const AnchorRoot = styled.a<IAnchorProps>`
-  ${({ theme: { palette, isDark }, isDisabled }) => css`
+  ${({ theme: { palette, isDark }, disabled }) => css`
     display: flex;
     align-items: center;
     text-decoration: none;
     color: ${isDark ? palette['major'][400] : palette['major'][600]};
-    ${isDisabled &&
+    ${disabled &&
     css`
       cursor: not-allowed;
       pointer-events: none;
@@ -55,32 +55,32 @@ const ButtonRoot = styled.button<IButtonProps>`
   text-align: center;
   vertical-align: middle;
   transition: all 200ms linear;
-  ${({ withSize, isDisabled, isStretched, withType, isUppercase }) => css`
-    font-size: ${sizeStyles[withSize!].fontSize};
+  ${({ size, disabled, stretched, variant, uc }) => css`
+    font-size: ${sizeStyles[size!].fontSize};
     padding: 0.3em 0.5rem;
     border-radius: 0.3em;
     line-height: 1.5em;
-    ${isDisabled &&
+    ${disabled &&
     css`
       cursor: not-allowed;
       opacity: 0.6;
       transition: none;
     `}
-    ${isStretched &&
+    ${stretched &&
     css`
       width: 100%;
       text-align: center;
       justify-content: center;
     `}
-    ${isUppercase &&
+    ${uc &&
     css`
       text-transform: uppercase;
     `}
-    ${withType === 'simple' && simple}
-    ${withType === 'basic' && basic}
-    ${withType === 'primary' && primary}
-    ${withType === 'outlined' && outlined}
-    ${withType === 'hero' && hero}
+    ${variant === 'simple' && simple}
+    ${variant === 'basic' && basic}
+    ${variant === 'primary' && primary}
+    ${variant === 'outlined' && outlined}
+    ${variant === 'hero' && hero}
   `}
 `;
 
@@ -105,14 +105,14 @@ const ButtonIcon = styled(RotatingCircleIcon)<IButtonProps>`
  */
 const ButtonGroupRoot = styled.div<IButtonGroupProps>`
   display: flex;
-  ${({ isVertical, isDisabled, isStretched, isUnified }) => css`
-    ${isVertical
+  ${({ vertical, disabled, stretched, unified }) => css`
+    ${vertical
       ? css`
           flex-direction: column;
           & > :first-child {
             border-bottom-left-radius: 0 !important;
             border-bottom-right-radius: 0 !important;
-            ${isUnified &&
+            ${unified &&
             css`
               border-bottom: 0 !important;
             `}
@@ -124,7 +124,7 @@ const ButtonGroupRoot = styled.div<IButtonGroupProps>`
           }
           & > :not(:first-child):not(:last-child) {
             border-top: 0 !important;
-            ${isUnified &&
+            ${unified &&
             css`
               border-bottom: 0 !important;
             `}
@@ -134,7 +134,7 @@ const ButtonGroupRoot = styled.div<IButtonGroupProps>`
           & > :first-child {
             border-top-right-radius: 0 !important;
             border-bottom-right-radius: 0 !important;
-            ${isUnified &&
+            ${unified &&
             css`
               border-right: 0 !important;
             `}
@@ -145,14 +145,14 @@ const ButtonGroupRoot = styled.div<IButtonGroupProps>`
             border-left: 0 !important;
           }
           & > :not(:first-child):not(:last-child) {
-            ${isUnified &&
+            ${unified &&
             css`
               border-right: 0 !important;
             `}
             border-left: 0 !important;
           }
         `}
-    ${isDisabled &&
+    ${disabled &&
     css`
       cursor: not-allowed !important;
       opacity: 0.6 !important;
@@ -164,7 +164,7 @@ const ButtonGroupRoot = styled.div<IButtonGroupProps>`
         }
       }
     `}
-    ${isStretched &&
+    ${stretched &&
     css`
       width: 100% !important;
       & * {
@@ -198,8 +198,8 @@ const ButtonToolbarRoot = styled.div<IButtonToolbarProps>`
       box-shadow: none !important;
     }
   }
-  ${({ isDisabled }) => css`
-    ${isDisabled &&
+  ${({ disabled }) => css`
+    ${disabled &&
     css`
       cursor: not-allowed !important;
       opacity: 0.6 !important;
@@ -219,9 +219,9 @@ const IconButtonRoot = styled.button<IIconButtonProps>`
   display: flex;
   justify-content: center;
   align-items: center;
-  ${({ withSize, isDisabled, isIconOnly, withType, withPlacement }) => css`
-    font-size: ${sizeStyles[withSize!].fontSize};
-    ${isIconOnly
+  ${({ size, disabled, iconOnly, variant, placement }) => css`
+    font-size: ${sizeStyles[size!].fontSize};
+    ${iconOnly
       ? css`
           padding: 0.3em;
           border-radius: 50%;
@@ -230,17 +230,17 @@ const IconButtonRoot = styled.button<IIconButtonProps>`
           padding: 0;
           border-radius: 0.4em;
         `}
-    ${isDisabled &&
+    ${disabled &&
     css`
       cursor: not-allowed;
       opacity: 0.5;
     `}
-    ${withPlacement == 'right' &&
+    ${placement == 'right' &&
     css`
       flex-direction: row-reverse;
     `}
-    ${withType === 'primary' && primary}
-    ${withType === 'outlined' && outlined}
+    ${variant === 'primary' && primary}
+    ${variant === 'outlined' && outlined}
   `}
 `;
 
@@ -254,13 +254,13 @@ const IconButtonIconWrapper = styled.span<IIconButtonProps>`
 `;
 
 /**
- * The Wrapper component for IconOnly type buttons
+ * The Wrapper component for IconOnly variant buttons
  *
  * @internal
  */
 const IconButtonIconOnlyWrapper = styled.span<IIconButtonProps>`
-  ${({ isIconOnly }) => css`
-    ${isIconOnly
+  ${({ iconOnly }) => css`
+    ${iconOnly
       ? css`
           padding: 0.4em;
         `
@@ -279,8 +279,8 @@ const IconButtonIcon = styled.i<IIconButtonProps>`
   display: flex;
   justify-content: center;
   align-items: center;
-  ${({ isIconOnly }) => css`
-    ${isIconOnly
+  ${({ iconOnly }) => css`
+    ${iconOnly
       ? css`
           height: 1.8em;
           width: 1.8em;
@@ -304,8 +304,8 @@ const IconButtonChildWrapper = styled.span<IIconButtonProps>`
   vertical-align: middle;
   white-space: nowrap;
   user-select: none;
-  ${({ withPlacement }) => css`
-    ${withPlacement == 'right'
+  ${({ placement }) => css`
+    ${placement == 'right'
       ? css`
           padding-left: 0.4em;
         `

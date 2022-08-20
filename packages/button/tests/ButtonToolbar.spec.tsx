@@ -24,16 +24,16 @@ describe('Render ButtonToolbar', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <ButtonToolbar>
-          <IconButton withIcon={<AddCircleIcon />}>Add</IconButton>
+          <IconButton icon={<AddCircleIcon />}>Add</IconButton>
           <ButtonGroup>
-            <IconButton withIcon={<AddIcon />} />
-            <IconButton withIcon={<CheckCircleIcon />} />
-            <IconButton withIcon={<InfoIcon />} />
-            <IconButton withIcon={<WarningIcon />} />
-            <IconButton withIcon={<DangerousIcon />} />
-            <IconButton withIcon={<CancelIcon />} />
+            <IconButton icon={<AddIcon />} />
+            <IconButton icon={<CheckCircleIcon />} />
+            <IconButton icon={<InfoIcon />} />
+            <IconButton icon={<WarningIcon />} />
+            <IconButton icon={<DangerousIcon />} />
+            <IconButton icon={<CancelIcon />} />
           </ButtonGroup>
-          <IconButton withIcon={<CloseIcon />} withPlacement="right">
+          <IconButton icon={<CloseIcon />} placement="right">
             Delete
           </IconButton>
         </ButtonToolbar>
@@ -45,19 +45,19 @@ describe('Render ButtonToolbar', () => {
   it('Disabled ButtonToolbar', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <ButtonToolbar isDisabled>
-          <IconButton withIcon={<AddCircleIcon />} withType="outlined">
+        <ButtonToolbar disabled>
+          <IconButton icon={<AddCircleIcon />} variant="outlined">
             Add
           </IconButton>
           <ButtonGroup>
-            <IconButton withIcon={<AddIcon />} withType="outlined" />
-            <IconButton withIcon={<CheckCircleIcon />} withType="outlined" />
-            <IconButton withIcon={<InfoIcon />} withType="outlined" />
-            <IconButton withIcon={<WarningIcon />} withType="outlined" />
-            <IconButton withIcon={<DangerousIcon />} withType="outlined" />
-            <IconButton withIcon={<CloseIcon />} withType="outlined" />
+            <IconButton icon={<AddIcon />} variant="outlined" />
+            <IconButton icon={<CheckCircleIcon />} variant="outlined" />
+            <IconButton icon={<InfoIcon />} variant="outlined" />
+            <IconButton icon={<WarningIcon />} variant="outlined" />
+            <IconButton icon={<DangerousIcon />} variant="outlined" />
+            <IconButton icon={<CloseIcon />} variant="outlined" />
           </ButtonGroup>
-          <IconButton withIcon={<CancelIcon />} withType="outlined" />
+          <IconButton icon={<CancelIcon />} variant="outlined" />
         </ButtonToolbar>
       </ThemeProvider>,
     );

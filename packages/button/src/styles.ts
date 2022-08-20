@@ -36,14 +36,14 @@ const sizeStyles = {
  * @internal
  */
 const simple = css<IButtonProps>`
-  ${({ theme: { palette, isDark }, withColor, isDisabled }) => css`
-    color: ${isDark ? palette[withColor!][400] : palette[withColor!][600]};
+  ${({ theme: { palette, isDark }, tone, disabled }) => css`
+    color: ${isDark ? palette[tone!][400] : palette[tone!][600]};
     background-color: transparent;
     border: none;
-    ${!isDisabled &&
+    ${!disabled &&
     css`
       &:hover {
-        background-color: ${isDark ? hsla(palette[withColor!].shades[900], 0.4) : palette[withColor!][200]};
+        background-color: ${isDark ? hsla(palette[tone!].shades[900], 0.4) : palette[tone!][200]};
       }
     `}
   `}
@@ -55,17 +55,17 @@ const simple = css<IButtonProps>`
  * @internal
  */
 const basic = css<IButtonProps>`
-  ${({ theme: { palette, isDark }, withColor, isDisabled }) => css`
-    color: ${isDark ? palette[withColor!][400] : palette[withColor!][600]};
-    background-color: ${isDark ? hsla(palette[withColor!].shades[900], 0.3) : palette[withColor!][200]};
+  ${({ theme: { palette, isDark }, tone, disabled }) => css`
+    color: ${isDark ? palette[tone!][300] : palette[tone!][600]};
+    background-color: ${isDark ? hsla(palette[tone!].shades[600], 0.7) : palette[tone!][200]};
     border: 1px solid transparent;
-    ${!isDisabled &&
+    ${!disabled &&
     css`
       &:hover {
-        background-color: ${isDark ? hsla(palette[withColor!].shades[900], 0.5) : palette[withColor!][300]};
+        background-color: ${isDark ? hsla(palette[tone!].shades[800], 0.8) : palette[tone!][300]};
         box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-          ${isDark ? hsla(palette[withColor!].shades[900], 0.7) : palette[withColor!][400]} 0px 10px 15px -3px,
-          ${isDark ? hsla(palette[withColor!].shades[900], 0.7) : palette[withColor!][400]} 0px 4px 6px -4px;
+          ${isDark ? hsla(palette[tone!].shades[900], 0.7) : palette[tone!][400]} 0px 10px 15px -3px,
+          ${isDark ? hsla(palette[tone!].shades[900], 0.7) : palette[tone!][400]} 0px 4px 6px -4px;
       }
     `}
   `}
@@ -77,17 +77,22 @@ const basic = css<IButtonProps>`
  * @internal
  */
 const primary = css<IButtonProps>`
-  ${({ theme: { palette, isDark }, withColor, isDisabled }) => css`
-    color: ${palette[withColor!][100]};
-    background-color: ${palette[withColor!][600]};
+  ${({ theme: { palette, isDark }, tone, disabled }) => css`
+    color: ${palette[tone!][100]};
+    background-color: ${palette[tone!][600]};
     border: 1px solid transparent;
-    ${!isDisabled &&
+    ${!disabled &&
     css`
-      box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-        ${isDark ? palette[withColor!][800] : palette[withColor!][300]} 0px 10px 15px -3px,
-        ${isDark ? palette[withColor!][800] : palette[withColor!][300]} 0px 4px 6px -4px;
+      ${isDark
+        ? css`
+            box-shadow: 0 0 24px ${palette[tone!][800]};
+          `
+        : css`
+            box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+              ${palette[tone!][300]} 0px 10px 15px -3px, ${palette[tone!][300]} 0px 4px 6px -4px;
+          `}
       &:hover {
-        background-color: ${palette[withColor!][700]};
+        background-color: ${palette[tone!][700]};
       }
     `}
   `}
@@ -99,14 +104,14 @@ const primary = css<IButtonProps>`
  * @internal
  */
 const outlined = css<IButtonProps>`
-  ${({ theme: { palette, isDark }, withColor, isDisabled }) => css`
-    color: ${isDark ? palette[withColor!][400] : palette[withColor!][600]};
-    background-color: ${isDark ? hsla(palette[withColor!].shades[900], 0.3) : palette[withColor!][50]};
-    border: 1px solid ${isDark ? palette[withColor!][600] : palette[withColor!][300]};
-    ${!isDisabled &&
+  ${({ theme: { palette, isDark }, tone, disabled }) => css`
+    color: ${isDark ? palette[tone!][400] : palette[tone!][600]};
+    background-color: ${isDark ? hsla(palette[tone!].shades[900], 0.3) : palette[tone!][50]};
+    border: 1px solid ${isDark ? palette[tone!][600] : palette[tone!][300]};
+    ${!disabled &&
     css`
       &:hover {
-        background-color: ${isDark ? hsla(palette[withColor!].shades[900], 0.5) : palette[withColor!][200]};
+        background-color: ${isDark ? hsla(palette[tone!].shades[900], 0.5) : palette[tone!][200]};
       }
     `}
   `}
@@ -118,24 +123,29 @@ const outlined = css<IButtonProps>`
  * @internal
  */
 const hero = css<IButtonProps>`
-  ${({ theme: { palette, isDark }, withColor, isDisabled }) => css`
+  ${({ theme: { palette, isDark }, tone, disabled }) => css`
     padding: 1rem 1.5rem;
     border-radius: 0.75rem;
     font-size: 3rem;
     line-height: 2.125rem;
-    color: ${palette[withColor!][100]};
-    background-color: ${palette[withColor!][600]};
+    color: ${palette[tone!][100]};
+    background-color: ${palette[tone!][600]};
     border: 1px solid transparent;
     width: 100%;
     text-align: center;
     justify-content: center;
-    ${!isDisabled &&
+    ${!disabled &&
     css`
-      box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-        ${isDark ? palette[withColor!][800] : palette[withColor!][200]} 0px 10px 15px -3px,
-        ${isDark ? palette[withColor!][800] : palette[withColor!][200]} 0px 4px 6px -4px;
+      ${isDark
+        ? css`
+            box-shadow: 0 0 24px ${palette[tone!][800]};
+          `
+        : css`
+            box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+              ${palette[tone!][300]} 0px 10px 15px -3px, ${palette[tone!][300]} 0px 4px 6px -4px;
+          `}
       &:hover {
-        background-color: ${palette[withColor!][700]};
+        background-color: ${palette[tone!][700]};
       }
     `}
   `}

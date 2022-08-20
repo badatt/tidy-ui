@@ -23,7 +23,7 @@ describe('Render Button', () => {
   it('Basic render', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <IconButton withIcon={<AddIcon />}>Add</IconButton>
+        <IconButton icon={<AddIcon />}>Add</IconButton>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -31,7 +31,7 @@ describe('Render Button', () => {
   it('Basic render in dark', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <IconButton withIcon={<AddIcon />}>Add</IconButton>
+        <IconButton icon={<AddIcon />}>Add</IconButton>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -40,7 +40,7 @@ describe('Render Button', () => {
   it('Disabled IconButton', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <IconButton withIcon={<AddIcon />} isDisabled>
+        <IconButton icon={<AddIcon />} disabled>
           Disabled
         </IconButton>
       </ThemeProvider>,
@@ -51,25 +51,25 @@ describe('Render Button', () => {
   it('IconButton with all color variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <IconButton withIcon={<AddCircleIcon />} withColor="major">
+        <IconButton icon={<AddCircleIcon />} tone="major">
           Major
         </IconButton>
-        <IconButton withIcon={<CancelIcon />} withColor="minor">
+        <IconButton icon={<CancelIcon />} tone="minor">
           Minor
         </IconButton>
-        <IconButton withIcon={<CloseIcon />} withColor="neutral">
+        <IconButton icon={<CloseIcon />} tone="neutral">
           Neutral
         </IconButton>
-        <IconButton withIcon={<InfoIcon />} withColor="info">
+        <IconButton icon={<InfoIcon />} tone="info">
           Info
         </IconButton>
-        <IconButton withIcon={<CheckCircleIcon />} withColor="success">
+        <IconButton icon={<CheckCircleIcon />} tone="success">
           Success
         </IconButton>
-        <IconButton withIcon={<WarningIcon />} withColor="warning">
+        <IconButton icon={<WarningIcon />} tone="warning">
           Warning
         </IconButton>
-        <IconButton withIcon={<DangerousIcon />} withColor="danger">
+        <IconButton icon={<DangerousIcon />} tone="danger">
           Danger
         </IconButton>
       </ThemeProvider>,
@@ -80,25 +80,25 @@ describe('Render Button', () => {
   it('IconButton with all size variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <IconButton withIcon={<AddCircleIcon />} withSize="xxs">
+        <IconButton icon={<AddCircleIcon />} size="xxs">
           Xxs
         </IconButton>
-        <IconButton withIcon={<AddCircleIcon />} withSize="xs">
+        <IconButton icon={<AddCircleIcon />} size="xs">
           Xs
         </IconButton>
-        <IconButton withIcon={<AddCircleIcon />} withSize="sm">
+        <IconButton icon={<AddCircleIcon />} size="sm">
           Sm
         </IconButton>
-        <IconButton withIcon={<AddCircleIcon />} withSize="md">
+        <IconButton icon={<AddCircleIcon />} size="md">
           Md
         </IconButton>
-        <IconButton withIcon={<AddCircleIcon />} withSize="lg">
+        <IconButton icon={<AddCircleIcon />} size="lg">
           Lg
         </IconButton>
-        <IconButton withIcon={<AddCircleIcon />} withSize="xl">
+        <IconButton icon={<AddCircleIcon />} size="xl">
           Xl
         </IconButton>
-        <IconButton withIcon={<AddCircleIcon />} withSize="xxl">
+        <IconButton icon={<AddCircleIcon />} size="xxl">
           Xxl
         </IconButton>
       </ThemeProvider>,
@@ -109,10 +109,10 @@ describe('Render Button', () => {
   it('IconButton with all type variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <IconButton withIcon={<AddCircleIcon />} withType="primary">
+        <IconButton icon={<AddCircleIcon />} variant="primary">
           Primary
         </IconButton>
-        <IconButton withIcon={<CloseIcon />} withType="outlined">
+        <IconButton icon={<CloseIcon />} variant="outlined">
           Outlined
         </IconButton>
       </ThemeProvider>,
@@ -123,13 +123,13 @@ describe('Render Button', () => {
   it('IconButton with only icon', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <IconButton withIcon={<AddIcon />} isIconOnly withSize="xxs" />
-        <IconButton withIcon={<AddIcon />} isIconOnly withSize="xs" />
-        <IconButton withIcon={<AddIcon />} isIconOnly withSize="sm" />
-        <IconButton withIcon={<AddIcon />} isIconOnly withSize="md" />
-        <IconButton withIcon={<AddIcon />} isIconOnly withSize="lg" />
-        <IconButton withIcon={<AddIcon />} isIconOnly withSize="xl" />
-        <IconButton withIcon={<AddIcon />} isIconOnly withSize="xxl" />
+        <IconButton icon={<AddIcon />} iconOnly size="xxs" />
+        <IconButton icon={<AddIcon />} iconOnly size="xs" />
+        <IconButton icon={<AddIcon />} iconOnly size="sm" />
+        <IconButton icon={<AddIcon />} iconOnly size="md" />
+        <IconButton icon={<AddIcon />} iconOnly size="lg" />
+        <IconButton icon={<AddIcon />} iconOnly size="xl" />
+        <IconButton icon={<AddIcon />} iconOnly size="xxl" />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -138,8 +138,8 @@ describe('Render Button', () => {
   it('IconButton with placement variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <IconButton withIcon={<AddCircleIcon />}>Left</IconButton>
-        <IconButton withIcon={<AddCircleIcon />} withPlacement="right">
+        <IconButton icon={<AddCircleIcon />}>Left</IconButton>
+        <IconButton icon={<AddCircleIcon />} placement="right">
           Right
         </IconButton>
       </ThemeProvider>,

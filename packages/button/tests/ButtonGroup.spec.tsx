@@ -42,9 +42,9 @@ describe('Render ButtonGroup', () => {
   it('Stretched ButtonGroup', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <ButtonGroup isStretched>
-          <Button withType="outlined">button 1</Button>
-          <Button withType="outlined">button 2</Button>
+        <ButtonGroup stretched>
+          <Button variant="outlined">button 1</Button>
+          <Button variant="outlined">button 2</Button>
         </ButtonGroup>
       </ThemeProvider>,
     );
@@ -54,7 +54,7 @@ describe('Render ButtonGroup', () => {
   it('Vertically aligned ButtonGroup', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <ButtonGroup isVertical>
+        <ButtonGroup vertical>
           <Button>button 1</Button>
           <Button>button 2</Button>
           <Button>button 3</Button>
@@ -69,7 +69,7 @@ describe('Render ButtonGroup', () => {
   it('Unified ButtonGroup', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <ButtonGroup isUnified>
+        <ButtonGroup unified>
           <Button>button 1</Button>
           <Button>button 2</Button>
           <Button>button 3</Button>
@@ -84,7 +84,7 @@ describe('Render ButtonGroup', () => {
   it('Vertically unified ButtonGroup', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <ButtonGroup isUnified isVertical>
+        <ButtonGroup unified vertical>
           <Button>button 1</Button>
           <Button>button 2</Button>
           <Button>button 3</Button>
@@ -99,7 +99,7 @@ describe('Render ButtonGroup', () => {
   it('Disabled ButtonGroup', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <ButtonGroup isDisabled>
+        <ButtonGroup disabled>
           <Button>button 1</Button>
           <Button>button 2</Button>
           <Button>button 3</Button>

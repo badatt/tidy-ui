@@ -8,16 +8,16 @@ import { IButtonToolbarProps } from './types';
  *
  */
 const ButtonToolbar = forwardRef<HTMLDivElement, IButtonToolbarProps>((props, ref) => {
-  const { children, className, ...rest } = props;
+  const { children, ...rest } = props;
   return (
-    <ButtonToolbarRoot className={className} role="button-toolbar" ref={ref} {...rest}>
+    <ButtonToolbarRoot role="button" ref={ref} {...rest}>
       {children}
     </ButtonToolbarRoot>
   );
 });
 
 ButtonToolbar.defaultProps = {
-  isDisabled: false,
+  disabled: false,
 };
 
 export { ButtonToolbar };

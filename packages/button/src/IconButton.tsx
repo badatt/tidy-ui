@@ -13,16 +13,16 @@ import { IIconButtonProps } from './types';
  *
  */
 const IconButton = forwardRef<HTMLButtonElement, IIconButtonProps>((props, ref) => {
-  const { children, className, withIcon, ...rest } = props;
+  const { children, className, icon, ...rest } = props;
   return (
-    <IconButtonRoot className={className} role="icon-button" ref={ref} {...rest}>
+    <IconButtonRoot className={className} role="button" ref={ref} {...rest}>
       {children ? (
         <IconButtonIconWrapper {...rest}>
-          <IconButtonIcon {...rest}>{withIcon}</IconButtonIcon>
+          <IconButtonIcon {...rest}>{icon}</IconButtonIcon>
         </IconButtonIconWrapper>
       ) : (
         <IconButtonIconOnlyWrapper {...rest}>
-          <IconButtonIcon {...rest}>{withIcon}</IconButtonIcon>
+          <IconButtonIcon {...rest}>{icon}</IconButtonIcon>
         </IconButtonIconOnlyWrapper>
       )}
       {children && <IconButtonChildWrapper {...rest}>{children}</IconButtonChildWrapper>}
@@ -31,11 +31,11 @@ const IconButton = forwardRef<HTMLButtonElement, IIconButtonProps>((props, ref) 
 });
 
 IconButton.defaultProps = {
-  isDisabled: false,
-  isIconOnly: false,
-  withColor: 'major',
-  withPlacement: 'left',
-  withSize: 'md',
-  withType: 'primary',
+  disabled: false,
+  iconOnly: false,
+  placement: 'left',
+  size: 'md',
+  tone: 'major',
+  variant: 'primary',
 };
 export { IconButton };

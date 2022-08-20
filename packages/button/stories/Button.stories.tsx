@@ -26,65 +26,65 @@ export const basic = () => (
   </Container>
 );
 
-export const colorVariants = () => (
+export const tones = () => (
   <Container>
-    <Button withColor="major">major</Button>
-    <Button withColor="minor">minor</Button>
-    <Button withColor="neutral">neutral</Button>
-    <Button withColor="info">info</Button>
-    <Button withColor="success">success</Button>
-    <Button withColor="warning">warning</Button>
-    <Button withColor="danger">danger</Button>
+    <Button tone="major">major</Button>
+    <Button tone="minor">minor</Button>
+    <Button tone="neutral">neutral</Button>
+    <Button tone="info">info</Button>
+    <Button tone="success">success</Button>
+    <Button tone="warning">warning</Button>
+    <Button tone="danger">danger</Button>
   </Container>
 );
 
-export const sizeVariants = () => (
+export const sizes = () => (
   <Container>
     <Column>
-      <Button withSize="xxs">xxs</Button>
-      <Button withSize="xs">size-xs</Button>
-      <Button withSize="sm">size-sm</Button>
-      <Button withSize="md">size-md</Button>
-      <Button withSize="lg">size-lg</Button>
-      <Button withSize="xl">size-xl</Button>
-      <Button withSize="xxl">size-xxl</Button>
+      <Button size="xxs">xxs</Button>
+      <Button size="xs">size-xs</Button>
+      <Button size="sm">size-sm</Button>
+      <Button size="md">size-md</Button>
+      <Button size="lg">size-lg</Button>
+      <Button size="xl">size-xl</Button>
+      <Button size="xxl">size-xxl</Button>
     </Column>
   </Container>
 );
 
-export const types = () => (
+export const variants = () => (
   <Container>
     <Column>
-      <Button withType="primary">primary</Button>
-      <Button withType="outlined">outlined</Button>
-      <Button withType="basic">basic</Button>
-      <Button withType="simple">simple</Button>
-      <Button withType="hero">hero</Button>
+      <Button variant="primary">primary</Button>
+      <Button variant="outlined">outlined</Button>
+      <Button variant="basic">basic</Button>
+      <Button variant="simple">simple</Button>
+      <Button variant="hero">hero</Button>
     </Column>
   </Container>
 );
 
 export const disabled = () => (
   <Container>
-    <Button isDisabled>disabled</Button>
+    <Button disabled>disabled</Button>
   </Container>
 );
 
 export const loading = () => (
   <Container>
-    <Button isLoading>Loading...</Button>
+    <Button loading>Loading...</Button>
   </Container>
 );
 
 export const stretched = () => (
   <Container>
-    <Button isStretched>stretched</Button>
+    <Button stretched>stretched</Button>
   </Container>
 );
 
 export const uppercase = () => (
   <Container>
-    <Button isUppercase>uppercase</Button>
+    <Button uc>uppercase</Button>
   </Container>
 );
 
@@ -107,12 +107,12 @@ const CheckCircleIconWrap = styled(CheckCircleIcon)`
 
 export const others = () => (
   <Container>
-    <Button withType="primary" withColor="major">
-      <LaunchIconWrap withSize="md" />
+    <Button variant="primary" tone="major">
+      <LaunchIconWrap size="md" />
       Settings
     </Button>
-    <Button withColor="neutral">
-      <CheckCircleIconWrap withSize="md" />
+    <Button tone="neutral">
+      <CheckCircleIconWrap size="md" />
     </Button>
   </Container>
 );

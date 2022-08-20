@@ -8,7 +8,7 @@ import { IBadgeProps } from './types';
  *
  */
 const Badge = forwardRef<HTMLSpanElement, IBadgeProps>((props, ref) => {
-  const { children, className, data, max, hidden, show0, dotted, ...rest } = props;
+  const { children, data, max, hidden, show0, dotted, ...rest } = props;
 
   const [anchorData, setAnchorData] = useState(data);
   const [isAnchorInvisible, setIsAnchorInvisible] = useState(hidden);
@@ -29,15 +29,7 @@ const Badge = forwardRef<HTMLSpanElement, IBadgeProps>((props, ref) => {
   }, [show0, anchorData]);
 
   return (
-    <BadgeRoot
-      className={className}
-      ref={ref}
-      role="contentinfo"
-      data={anchorData}
-      dotted={dotted}
-      hidden={isAnchorInvisible}
-      {...rest}
-    >
+    <BadgeRoot ref={ref} role="contentinfo" data={anchorData} dotted={dotted} hidden={isAnchorInvisible} {...rest}>
       {children}
     </BadgeRoot>
   );

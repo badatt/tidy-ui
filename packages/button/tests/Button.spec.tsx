@@ -31,7 +31,7 @@ describe('Render Button', () => {
   it('Simple Button in dark', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <Button withType="simple">simple</Button>
+        <Button variant="simple">simple</Button>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -40,7 +40,7 @@ describe('Render Button', () => {
   it('Outlined Button in dark', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <Button withType="outlined">outlined</Button>
+        <Button variant="outlined">outlined</Button>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -49,7 +49,7 @@ describe('Render Button', () => {
   it('Hero Button in dark', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <Button withType="hero">hero</Button>
+        <Button variant="hero">hero</Button>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -58,7 +58,7 @@ describe('Render Button', () => {
   it('Disabled button', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Button isDisabled>Disabled</Button>
+        <Button disabled>Disabled</Button>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -67,7 +67,7 @@ describe('Render Button', () => {
   it('Loading blocked button', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Button isLoading>Loading...</Button>
+        <Button loading>Loading...</Button>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -76,7 +76,7 @@ describe('Render Button', () => {
   it('Stretch full width button', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Button isStretched>Stretched</Button>
+        <Button stretched>Stretched</Button>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -85,7 +85,7 @@ describe('Render Button', () => {
   it('Uppercase button', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Button isUppercase>uppercase</Button>
+        <Button uc>uppercase</Button>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -94,13 +94,13 @@ describe('Render Button', () => {
   it('Button with all color variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Button withColor="major">major</Button>
-        <Button withColor="minor">minor</Button>
-        <Button withColor="neutral">neutral</Button>
-        <Button withColor="info">info</Button>
-        <Button withColor="success">success</Button>
-        <Button withColor="warning">warning</Button>
-        <Button withColor="danger">danger</Button>
+        <Button tone="major">major</Button>
+        <Button tone="minor">minor</Button>
+        <Button tone="neutral">neutral</Button>
+        <Button tone="info">info</Button>
+        <Button tone="success">success</Button>
+        <Button tone="warning">warning</Button>
+        <Button tone="danger">danger</Button>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -109,13 +109,13 @@ describe('Render Button', () => {
   it('Button with all size variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Button withSize="xxs">xxs</Button>
-        <Button withSize="xs">size-xs</Button>
-        <Button withSize="sm">size-sm</Button>
-        <Button withSize="md">size-md</Button>
-        <Button withSize="lg">size-lg</Button>
-        <Button withSize="xl">size-xl</Button>
-        <Button withSize="xxl">size-xxl</Button>
+        <Button size="xxs">xxs</Button>
+        <Button size="xs">size-xs</Button>
+        <Button size="sm">size-sm</Button>
+        <Button size="md">size-md</Button>
+        <Button size="lg">size-lg</Button>
+        <Button size="xl">size-xl</Button>
+        <Button size="xxl">size-xxl</Button>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -124,11 +124,11 @@ describe('Render Button', () => {
   it('Button with all type variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Button withType="primary">primary</Button>
-        <Button withType="outlined">outlined</Button>
-        <Button withType="basic">basic</Button>
-        <Button withType="simple">simple</Button>
-        <Button withType="hero">hero</Button>
+        <Button variant="primary">primary</Button>
+        <Button variant="outlined">outlined</Button>
+        <Button variant="basic">basic</Button>
+        <Button variant="simple">simple</Button>
+        <Button variant="hero">hero</Button>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -136,7 +136,7 @@ describe('Render Button', () => {
   it('Button with icon', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Button withType="primary" withColor="major">
+        <Button variant="primary" tone="major">
           <AddCircleIcon />
           Settings
         </Button>
@@ -148,7 +148,7 @@ describe('Render Button', () => {
   it('Button with only icon', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Button withColor="neutral">
+        <Button tone="neutral">
           <AddCircleIcon />
         </Button>
       </ThemeProvider>,

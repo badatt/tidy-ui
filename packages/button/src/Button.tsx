@@ -8,23 +8,23 @@ import { IButtonProps } from './types';
  *
  */
 const Button = forwardRef<HTMLButtonElement, IButtonProps>((props, ref) => {
-  const { children, className, isLoading, isDisabled, ...rest } = props;
+  const { children, loading, disabled, ...rest } = props;
   return (
-    <ButtonRoot className={className} role="button" ref={ref} {...rest} isDisabled={isDisabled || isLoading}>
-      {isLoading && <ButtonIcon />}
+    <ButtonRoot role="button" ref={ref} {...rest} disabled={disabled || loading}>
+      {loading && <ButtonIcon />}
       {children}
     </ButtonRoot>
   );
 });
 
 Button.defaultProps = {
-  isDisabled: false,
-  isLoading: false,
-  isStretched: false,
-  isUppercase: false,
-  withColor: 'major',
-  withSize: 'md',
-  withType: 'basic',
+  disabled: false,
+  loading: false,
+  size: 'md',
+  stretched: false,
+  tone: 'major',
+  uc: false,
+  variant: 'primary',
 };
 
 export { Button };
