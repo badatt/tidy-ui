@@ -98,43 +98,43 @@ Object {
     <div>
       <p
         class="c0"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
         class="c1"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
         class="c2"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
         class="c3"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
         class="c4"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
         class="c5"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
         class="c6"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
@@ -234,43 +234,43 @@ Object {
 <div>
     <p
       class="c0"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
       class="c1"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
       class="c2"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
       class="c3"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
       class="c4"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
       class="c5"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
       class="c6"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
@@ -549,13 +549,13 @@ Object {
     <div>
       <h5
         class="c0"
-        role="text"
+        role="contentinfo"
       >
         Linked: The quick brown fox jumps over the lazy dog
         <a
           class="c1 c2"
           href="https://google.com"
-          role="text-link"
+          role="link"
         >
           <svg
             aria-hidden="true"
@@ -573,55 +573,55 @@ Object {
       </h5>
       <p
         class="c4"
-        role="text"
+        role="contentinfo"
       >
         bold: The quick brown fox jumps over the lazy dog
       </p>
       <p
         class="c5"
-        role="text"
+        role="contentinfo"
       >
         underlined: The quick brown fox jumps over the lazy dog
       </p>
       <p
         class="c6"
-        role="text"
+        role="contentinfo"
       >
         italicized: The quick brown fox jumps over the lazy dog
       </p>
       <p
         class="c7"
-        role="text"
+        role="contentinfo"
       >
         uppercase: The quick brown fox jumps over the lazy dog
       </p>
       <p
         class="c8"
-        role="text"
+        role="contentinfo"
       >
         lowercase: The quick brown fox jumps over the lazy dog
       </p>
       <p
         class="c9"
-        role="text"
+        role="contentinfo"
       >
         capitalized: The quick brown fox jumps over the lazy dog
       </p>
       <p
         class="c10"
-        role="text"
+        role="contentinfo"
       >
         disabled: The quick brown fox jumps over the lazy dog
       </p>
       <p
         class="c11"
-        role="text"
+        role="contentinfo"
       >
         stretched: The quick brown fox jumps over the lazy dog
       </p>
       <p
         class="c12"
-        role="text"
+        role="contentinfo"
       >
         centered: The quick brown fox jumps over the lazy dog
       </p>
@@ -630,7 +630,7 @@ Object {
       >
         <p
           class="c13"
-          role="text"
+          role="contentinfo"
         >
           truncated: The quick brown fox jumps over the lazy dog
         </p>
@@ -853,13 +853,13 @@ Object {
 <div>
     <h5
       class="c0"
-      role="text"
+      role="contentinfo"
     >
       Linked: The quick brown fox jumps over the lazy dog
       <a
         class="c1 c2"
         href="https://google.com"
-        role="text-link"
+        role="link"
       >
         <svg
           aria-hidden="true"
@@ -877,55 +877,55 @@ Object {
     </h5>
     <p
       class="c4"
-      role="text"
+      role="contentinfo"
     >
       bold: The quick brown fox jumps over the lazy dog
     </p>
     <p
       class="c5"
-      role="text"
+      role="contentinfo"
     >
       underlined: The quick brown fox jumps over the lazy dog
     </p>
     <p
       class="c6"
-      role="text"
+      role="contentinfo"
     >
       italicized: The quick brown fox jumps over the lazy dog
     </p>
     <p
       class="c7"
-      role="text"
+      role="contentinfo"
     >
       uppercase: The quick brown fox jumps over the lazy dog
     </p>
     <p
       class="c8"
-      role="text"
+      role="contentinfo"
     >
       lowercase: The quick brown fox jumps over the lazy dog
     </p>
     <p
       class="c9"
-      role="text"
+      role="contentinfo"
     >
       capitalized: The quick brown fox jumps over the lazy dog
     </p>
     <p
       class="c10"
-      role="text"
+      role="contentinfo"
     >
       disabled: The quick brown fox jumps over the lazy dog
     </p>
     <p
       class="c11"
-      role="text"
+      role="contentinfo"
     >
       stretched: The quick brown fox jumps over the lazy dog
     </p>
     <p
       class="c12"
-      role="text"
+      role="contentinfo"
     >
       centered: The quick brown fox jumps over the lazy dog
     </p>
@@ -934,7 +934,7 @@ Object {
     >
       <p
         class="c13"
-        role="text"
+        role="contentinfo"
       >
         truncated: The quick brown fox jumps over the lazy dog
       </p>
@@ -1118,103 +1118,103 @@ Object {
     <div>
       <h1
         class="c0"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </h1>
       <h2
         class="c1"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </h2>
       <h3
         class="c2"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </h3>
       <h4
         class="c3"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </h4>
       <h5
         class="c4"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </h5>
       <p
         class="c5"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
         class="c5"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
         class="c5"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <code
         class="c6"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </code>
       <span
         class="c7"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </span>
       <p
         class="c5"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <h1
         class="c0"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </h1>
       <h2
         class="c1"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </h2>
       <h3
         class="c2"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </h3>
       <h4
         class="c3"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </h4>
       <h5
         class="c4"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </h5>
       <h6
         class="c8"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </h6>
@@ -1340,103 +1340,103 @@ Object {
 <div>
     <h1
       class="c0"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </h1>
     <h2
       class="c1"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </h2>
     <h3
       class="c2"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </h3>
     <h4
       class="c3"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </h4>
     <h5
       class="c4"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </h5>
     <p
       class="c5"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
       class="c5"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
       class="c5"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <code
       class="c6"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </code>
     <span
       class="c7"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </span>
     <p
       class="c5"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <h1
       class="c0"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </h1>
     <h2
       class="c1"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </h2>
     <h3
       class="c2"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </h3>
     <h4
       class="c3"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </h4>
     <h5
       class="c4"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </h5>
     <h6
       class="c8"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </h6>
@@ -1515,7 +1515,7 @@ Object {
     <div>
       <p
         class="c0"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quae aut itaque quas reprehenderit provident, facilis laudantium facere cum velit dolorum molestiae quisquam distinctio quia illo pariatur placeat natus perferendis.
       </p>
@@ -1537,7 +1537,7 @@ Object {
 <div>
     <p
       class="c0"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quae aut itaque quas reprehenderit provident, facilis laudantium facere cum velit dolorum molestiae quisquam distinctio quia illo pariatur placeat natus perferendis.
     </p>
@@ -1694,43 +1694,43 @@ Object {
     <div>
       <p
         class="c0"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
         class="c1"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
         class="c2"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
         class="c3"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
         class="c4"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
         class="c5"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
         class="c6"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
@@ -1830,43 +1830,43 @@ Object {
 <div>
     <p
       class="c0"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
       class="c1"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
       class="c2"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
       class="c3"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
       class="c4"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
       class="c5"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
       class="c6"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
@@ -1945,7 +1945,7 @@ Object {
     <div>
       <p
         class="c0"
-        role="text"
+        role="contentinfo"
       />
     </div>
   </body>,
@@ -1965,7 +1965,7 @@ Object {
 <div>
     <p
       class="c0"
-      role="text"
+      role="contentinfo"
     />
   </div>,
   "debug": [Function],

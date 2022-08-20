@@ -109,7 +109,7 @@ Object {
             <p
               classname="sc-dkzDqf c5"
               is="h6"
-              role="text"
+              role="contentinfo"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit
             </p>
@@ -136,13 +136,13 @@ Object {
           >
             <p
               class="c5"
-              role="text"
+              role="contentinfo"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo qui odit!
             </p>
             <p
               class="c5"
-              role="text"
+              role="contentinfo"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quasi explicabo id amet sed labore, ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum ducimus!
             </p>
@@ -159,7 +159,7 @@ Object {
             <p
               classname="sc-dkzDqf c5"
               is="h6"
-              role="text"
+              role="contentinfo"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit
             </p>
@@ -186,13 +186,13 @@ Object {
           >
             <p
               class="c5"
-              role="text"
+              role="contentinfo"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo qui odit!
             </p>
             <p
               class="c5"
-              role="text"
+              role="contentinfo"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quasi explicabo id amet sed labore, ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum ducimus!
             </p>
@@ -209,7 +209,7 @@ Object {
             <p
               classname="sc-dkzDqf c5"
               is="h6"
-              role="text"
+              role="contentinfo"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit
             </p>
@@ -236,13 +236,13 @@ Object {
           >
             <p
               class="c5"
-              role="text"
+              role="contentinfo"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo qui odit!
             </p>
             <p
               class="c5"
-              role="text"
+              role="contentinfo"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quasi explicabo id amet sed labore, ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum ducimus!
             </p>
@@ -356,7 +356,7 @@ Object {
           <p
             classname="sc-dkzDqf c5"
             is="h6"
-            role="text"
+            role="contentinfo"
           >
             Lorem ipsum dolor sit, amet consectetur adipisicing elit
           </p>
@@ -383,13 +383,13 @@ Object {
         >
           <p
             class="c5"
-            role="text"
+            role="contentinfo"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo qui odit!
           </p>
           <p
             class="c5"
-            role="text"
+            role="contentinfo"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quasi explicabo id amet sed labore, ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum ducimus!
           </p>
@@ -406,7 +406,7 @@ Object {
           <p
             classname="sc-dkzDqf c5"
             is="h6"
-            role="text"
+            role="contentinfo"
           >
             Lorem ipsum dolor sit, amet consectetur adipisicing elit
           </p>
@@ -433,13 +433,13 @@ Object {
         >
           <p
             class="c5"
-            role="text"
+            role="contentinfo"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo qui odit!
           </p>
           <p
             class="c5"
-            role="text"
+            role="contentinfo"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quasi explicabo id amet sed labore, ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum ducimus!
           </p>
@@ -456,7 +456,7 @@ Object {
           <p
             classname="sc-dkzDqf c5"
             is="h6"
-            role="text"
+            role="contentinfo"
           >
             Lorem ipsum dolor sit, amet consectetur adipisicing elit
           </p>
@@ -483,13 +483,13 @@ Object {
         >
           <p
             class="c5"
-            role="text"
+            role="contentinfo"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo qui odit!
           </p>
           <p
             class="c5"
-            role="text"
+            role="contentinfo"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quasi explicabo id amet sed labore, ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum ducimus!
           </p>
@@ -660,7 +660,7 @@ Object {
             <p
               classname="sc-dkzDqf c5"
               is="h6"
-              role="text"
+              role="contentinfo"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit
             </p>
@@ -687,13 +687,13 @@ Object {
           >
             <p
               class="c5"
-              role="text"
+              role="contentinfo"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo qui odit!
             </p>
             <p
               class="c5"
-              role="text"
+              role="contentinfo"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quasi explicabo id amet sed labore, ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum ducimus!
             </p>
@@ -710,7 +710,7 @@ Object {
             <p
               classname="sc-dkzDqf c5"
               is="h6"
-              role="text"
+              role="contentinfo"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit
             </p>
@@ -737,13 +737,13 @@ Object {
           >
             <p
               class="c5"
-              role="text"
+              role="contentinfo"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo qui odit!
             </p>
             <p
               class="c5"
-              role="text"
+              role="contentinfo"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quasi explicabo id amet sed labore, ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum ducimus!
             </p>
@@ -760,7 +760,7 @@ Object {
             <p
               classname="sc-dkzDqf c5"
               is="h6"
-              role="text"
+              role="contentinfo"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit
             </p>
@@ -787,13 +787,13 @@ Object {
           >
             <p
               class="c5"
-              role="text"
+              role="contentinfo"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo qui odit!
             </p>
             <p
               class="c5"
-              role="text"
+              role="contentinfo"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quasi explicabo id amet sed labore, ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum ducimus!
             </p>
@@ -907,7 +907,7 @@ Object {
           <p
             classname="sc-dkzDqf c5"
             is="h6"
-            role="text"
+            role="contentinfo"
           >
             Lorem ipsum dolor sit, amet consectetur adipisicing elit
           </p>
@@ -934,13 +934,13 @@ Object {
         >
           <p
             class="c5"
-            role="text"
+            role="contentinfo"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo qui odit!
           </p>
           <p
             class="c5"
-            role="text"
+            role="contentinfo"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quasi explicabo id amet sed labore, ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum ducimus!
           </p>
@@ -957,7 +957,7 @@ Object {
           <p
             classname="sc-dkzDqf c5"
             is="h6"
-            role="text"
+            role="contentinfo"
           >
             Lorem ipsum dolor sit, amet consectetur adipisicing elit
           </p>
@@ -984,13 +984,13 @@ Object {
         >
           <p
             class="c5"
-            role="text"
+            role="contentinfo"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo qui odit!
           </p>
           <p
             class="c5"
-            role="text"
+            role="contentinfo"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quasi explicabo id amet sed labore, ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum ducimus!
           </p>
@@ -1007,7 +1007,7 @@ Object {
           <p
             classname="sc-dkzDqf c5"
             is="h6"
-            role="text"
+            role="contentinfo"
           >
             Lorem ipsum dolor sit, amet consectetur adipisicing elit
           </p>
@@ -1034,13 +1034,13 @@ Object {
         >
           <p
             class="c5"
-            role="text"
+            role="contentinfo"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo qui odit!
           </p>
           <p
             class="c5"
-            role="text"
+            role="contentinfo"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quasi explicabo id amet sed labore, ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum ducimus!
           </p>

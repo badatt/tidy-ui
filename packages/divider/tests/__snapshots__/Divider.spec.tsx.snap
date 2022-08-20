@@ -30,7 +30,7 @@ Object {
     <div>
       <p
         class="c0"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
       </p>
@@ -40,7 +40,7 @@ Object {
       />
       <p
         class="c0"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
       </p>
@@ -72,7 +72,7 @@ Object {
 <div>
     <p
       class="c0"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
     </p>
@@ -82,7 +82,7 @@ Object {
     />
     <p
       class="c0"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
     </p>
@@ -171,7 +171,7 @@ Object {
     <div>
       <p
         class="c0"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
       </p>
@@ -181,7 +181,7 @@ Object {
       />
       <p
         class="c0"
-        role="text"
+        role="contentinfo"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
       </p>
@@ -213,7 +213,7 @@ Object {
 <div>
     <p
       class="c0"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
     </p>
@@ -223,7 +223,7 @@ Object {
     />
     <p
       class="c0"
-      role="text"
+      role="contentinfo"
     >
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
     </p>
@@ -342,7 +342,7 @@ Object {
     <div>
       <p
         class="c0"
-        role="text"
+        role="contentinfo"
       >
         color major
       </p>
@@ -352,7 +352,7 @@ Object {
       />
       <p
         class="c0"
-        role="text"
+        role="contentinfo"
       >
         thick density
       </p>
@@ -362,7 +362,7 @@ Object {
       />
       <p
         class="c0"
-        role="text"
+        role="contentinfo"
       >
         800 shade
       </p>
@@ -372,7 +372,7 @@ Object {
       />
       <p
         class="c0"
-        role="text"
+        role="contentinfo"
       >
         dashed style
       </p>
@@ -438,7 +438,7 @@ Object {
 <div>
     <p
       class="c0"
-      role="text"
+      role="contentinfo"
     >
       color major
     </p>
@@ -448,7 +448,7 @@ Object {
     />
     <p
       class="c0"
-      role="text"
+      role="contentinfo"
     >
       thick density
     </p>
@@ -458,7 +458,7 @@ Object {
     />
     <p
       class="c0"
-      role="text"
+      role="contentinfo"
     >
       800 shade
     </p>
@@ -468,7 +468,7 @@ Object {
     />
     <p
       class="c0"
-      role="text"
+      role="contentinfo"
     >
       dashed style
     </p>
