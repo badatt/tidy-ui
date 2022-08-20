@@ -38,7 +38,7 @@ export const basic = () => (
   </Container>
 );
 
-export const colors = () => (
+export const tones = () => (
   <Container>
     <Message tone="major">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores repellat commodi sapiente eveniet necessitatibus,

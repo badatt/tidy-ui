@@ -45,7 +45,7 @@ export const basic = () => (
   </Container>
 );
 
-export const accentVariants = () => (
+export const accents = () => (
   <Container>
     <Column>
       <Card accent="major">

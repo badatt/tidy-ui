@@ -11,13 +11,13 @@ const PanelContext = createContext<IPanelContext | null>(null);
  */
 const PanelContextProvider = (props: IPanelProps): JSX.Element => {
   const { children } = props;
-  const [isExpanded, setIsExpanded] = useState(props.isExpanded);
+  const [expanded, setExpanded] = useState(props.expanded);
 
   const toggle = useCallback(() => {
-    setIsExpanded(!isExpanded);
-  }, [isExpanded]);
+    setExpanded(!expanded);
+  }, [expanded]);
 
-  return <PanelContext.Provider value={{ isExpanded, toggle }}>{children}</PanelContext.Provider>;
+  return <PanelContext.Provider value={{ expanded, toggle }}>{children}</PanelContext.Provider>;
 };
 
 export { PanelContext, PanelContextProvider };

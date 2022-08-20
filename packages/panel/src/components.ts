@@ -26,8 +26,8 @@ const Icon = styled.i<IPanelProps>`
   justify-content: center;
   height: 1rem;
   width: 1rem;
-  ${({ theme: { palette, isDark }, isExpanded }) => css`
-    transform: ${isExpanded ? 'rotate(180deg)' : 'rotate(0deg)'};
+  ${({ theme: { palette, isDark }, expanded }) => css`
+    transform: ${expanded ? 'rotate(180deg)' : 'rotate(0deg)'};
     color: ${isDark ? palette.neutral[500] : palette.neutral[700]};
   `}
   transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -37,11 +37,11 @@ const PanelBodyRoot = styled.div<IPanelBodyProps>`
   padding: 0rem 1rem;
   transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
   visibility: visible;
-  ${({ isVisible }) => css`
-    visibility: ${isVisible ? 'visible' : 'hidden'};
-    opacity: ${isVisible ? '1' : '0'};
-    height: ${isVisible ? 'fit-content' : '0'};
-    padding-bottom: ${isVisible ? '1rem' : '0'};
+  ${({ visible }) => css`
+    visibility: ${visible ? 'visible' : 'hidden'};
+    opacity: ${visible ? '1' : '0'};
+    height: ${visible ? 'fit-content' : '0'};
+    padding-bottom: ${visible ? '1rem' : '0'};
   `}
 `;
 

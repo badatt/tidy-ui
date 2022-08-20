@@ -4,10 +4,10 @@ import { PanelContextProvider } from './PanelContextProvider';
 import { IPanelProps } from './types';
 
 const Panel = forwardRef<HTMLDivElement, IPanelProps>((props, ref) => {
-  const { children, className, ...rest } = props;
+  const { children, ...rest } = props;
   return (
     <PanelContextProvider {...props}>
-      <PanelRoot className={className} ref={ref} role="panel" {...rest}>
+      <PanelRoot ref={ref} role="article" {...rest}>
         {children}
       </PanelRoot>
     </PanelContextProvider>
@@ -15,7 +15,7 @@ const Panel = forwardRef<HTMLDivElement, IPanelProps>((props, ref) => {
 });
 
 Panel.defaultProps = {
-  isExpanded: false,
+  expanded: false,
 };
 
 export { Panel };

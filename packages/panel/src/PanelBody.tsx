@@ -4,17 +4,17 @@ import { PanelContext } from './PanelContextProvider';
 import { IPanelBodyProps, IPanelContext } from './types';
 
 const PanelBody = forwardRef<HTMLDivElement, IPanelBodyProps>((props, ref) => {
-  const { children, className, ...rest } = props;
-  const { isExpanded } = useContext(PanelContext) as IPanelContext;
+  const { children, ...rest } = props;
+  const { expanded } = useContext(PanelContext) as IPanelContext;
   return (
-    <PanelBodyRoot className={className} ref={ref} role="panel-body" {...rest} isVisible={isExpanded}>
+    <PanelBodyRoot ref={ref} role="presentation" {...rest} visible={expanded}>
       {children}
     </PanelBodyRoot>
   );
 });
 
 PanelBody.defaultProps = {
-  isVisible: false,
+  visible: false,
 };
 
 export { PanelBody };

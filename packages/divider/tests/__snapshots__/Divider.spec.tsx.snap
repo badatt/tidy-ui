@@ -36,7 +36,7 @@ Object {
       </p>
       <hr
         class="c1"
-        role="divider"
+        role="separator"
       />
       <p
         class="c0"
@@ -78,7 +78,7 @@ Object {
     </p>
     <hr
       class="c1"
-      role="divider"
+      role="separator"
     />
     <p
       class="c0"
@@ -177,7 +177,7 @@ Object {
       </p>
       <hr
         class="c1"
-        role="divider"
+        role="separator"
       />
       <p
         class="c0"
@@ -219,7 +219,7 @@ Object {
     </p>
     <hr
       class="c1"
-      role="divider"
+      role="separator"
     />
     <p
       class="c0"
@@ -348,7 +348,7 @@ Object {
       </p>
       <hr
         class="c1"
-        role="divider"
+        role="separator"
       />
       <p
         class="c0"
@@ -358,7 +358,7 @@ Object {
       </p>
       <hr
         class="c2"
-        role="divider"
+        role="separator"
       />
       <p
         class="c0"
@@ -368,7 +368,7 @@ Object {
       </p>
       <hr
         class="c3"
-        role="divider"
+        role="separator"
       />
       <p
         class="c0"
@@ -378,7 +378,7 @@ Object {
       </p>
       <hr
         class="c4"
-        role="divider"
+        role="separator"
       />
     </div>
   </body>,
@@ -444,7 +444,7 @@ Object {
     </p>
     <hr
       class="c1"
-      role="divider"
+      role="separator"
     />
     <p
       class="c0"
@@ -454,7 +454,7 @@ Object {
     </p>
     <hr
       class="c2"
-      role="divider"
+      role="separator"
     />
     <p
       class="c0"
@@ -464,7 +464,7 @@ Object {
     </p>
     <hr
       class="c3"
-      role="divider"
+      role="separator"
     />
     <p
       class="c0"
@@ -474,7 +474,7 @@ Object {
     </p>
     <hr
       class="c4"
-      role="divider"
+      role="separator"
     />
   </div>,
   "debug": [Function],

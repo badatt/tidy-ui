@@ -31,7 +31,7 @@ export const basic = () => (
         </Text>
       </PanelBody>
     </Panel>
-    <Panel isExpanded>
+    <Panel expanded>
       <PanelHeader>
         <Text as="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
       </PanelHeader>

@@ -18,7 +18,7 @@ const DividerRoot = styled.hr<IDividerProps>`
  */
 const Divider = forwardRef<HTMLHRElement, IDividerProps>((props, ref) => {
   const { className, ...rest } = props;
-  return <DividerRoot ref={ref} className={className} role="divider" {...rest} />;
+  return <DividerRoot ref={ref} className={className} role="separator" {...rest} />;
 });
 
 Divider.defaultProps = {

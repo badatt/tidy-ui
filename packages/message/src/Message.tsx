@@ -31,7 +31,7 @@ const Message = forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
   }
 
   return (
-    <MessageRoot className={className} ref={ref} role="banner" {...rest}>
+    <MessageRoot className={className} ref={ref} role="note" {...rest}>
       {!props.withoutLabel && (
         <MessageLabel {...rest}>
           <MessageLabelIcon {...rest} />

@@ -96,15 +96,15 @@ Object {
     <div>
       <div
         class="c0"
-        role="panel-group"
+        role="article"
       >
         <div
           class="c1"
-          role="panel"
+          role="article"
         >
           <div
             class="c2"
-            role="panel-header"
+            role="heading"
           >
             <p
               classname="sc-dkzDqf c5"
@@ -115,7 +115,7 @@ Object {
             </p>
             <i
               class="c3"
-              role="panel-icon"
+              role="button"
             >
               <svg
                 aria-hidden="true"
@@ -132,7 +132,7 @@ Object {
           </div>
           <div
             class="c4"
-            role="panel-body"
+            role="presentation"
           >
             <p
               class="c5"
@@ -150,11 +150,11 @@ Object {
         </div>
         <div
           class="c1"
-          role="panel"
+          role="article"
         >
           <div
             class="c2"
-            role="panel-header"
+            role="heading"
           >
             <p
               classname="sc-dkzDqf c5"
@@ -165,7 +165,7 @@ Object {
             </p>
             <i
               class="c3"
-              role="panel-icon"
+              role="button"
             >
               <svg
                 aria-hidden="true"
@@ -182,7 +182,7 @@ Object {
           </div>
           <div
             class="c4"
-            role="panel-body"
+            role="presentation"
           >
             <p
               class="c5"
@@ -200,11 +200,11 @@ Object {
         </div>
         <div
           class="c1"
-          role="panel"
+          role="article"
         >
           <div
             class="c2"
-            role="panel-header"
+            role="heading"
           >
             <p
               classname="sc-dkzDqf c5"
@@ -215,7 +215,7 @@ Object {
             </p>
             <i
               class="c3"
-              role="panel-icon"
+              role="button"
             >
               <svg
                 aria-hidden="true"
@@ -232,7 +232,7 @@ Object {
           </div>
           <div
             class="c4"
-            role="panel-body"
+            role="presentation"
           >
             <p
               class="c5"
@@ -343,15 +343,15 @@ Object {
 <div>
     <div
       class="c0"
-      role="panel-group"
+      role="article"
     >
       <div
         class="c1"
-        role="panel"
+        role="article"
       >
         <div
           class="c2"
-          role="panel-header"
+          role="heading"
         >
           <p
             classname="sc-dkzDqf c5"
@@ -362,7 +362,7 @@ Object {
           </p>
           <i
             class="c3"
-            role="panel-icon"
+            role="button"
           >
             <svg
               aria-hidden="true"
@@ -379,7 +379,7 @@ Object {
         </div>
         <div
           class="c4"
-          role="panel-body"
+          role="presentation"
         >
           <p
             class="c5"
@@ -397,11 +397,11 @@ Object {
       </div>
       <div
         class="c1"
-        role="panel"
+        role="article"
       >
         <div
           class="c2"
-          role="panel-header"
+          role="heading"
         >
           <p
             classname="sc-dkzDqf c5"
@@ -412,7 +412,7 @@ Object {
           </p>
           <i
             class="c3"
-            role="panel-icon"
+            role="button"
           >
             <svg
               aria-hidden="true"
@@ -429,7 +429,7 @@ Object {
         </div>
         <div
           class="c4"
-          role="panel-body"
+          role="presentation"
         >
           <p
             class="c5"
@@ -447,11 +447,11 @@ Object {
       </div>
       <div
         class="c1"
-        role="panel"
+        role="article"
       >
         <div
           class="c2"
-          role="panel-header"
+          role="heading"
         >
           <p
             classname="sc-dkzDqf c5"
@@ -462,7 +462,7 @@ Object {
           </p>
           <i
             class="c3"
-            role="panel-icon"
+            role="button"
           >
             <svg
               aria-hidden="true"
@@ -479,7 +479,7 @@ Object {
         </div>
         <div
           class="c4"
-          role="panel-body"
+          role="presentation"
         >
           <p
             class="c5"
@@ -647,15 +647,15 @@ Object {
     <div>
       <div
         class="c0"
-        role="panel-group"
+        role="article"
       >
         <div
           class="c1"
-          role="panel"
+          role="article"
         >
           <div
             class="c2"
-            role="panel-header"
+            role="heading"
           >
             <p
               classname="sc-dkzDqf c5"
@@ -666,7 +666,7 @@ Object {
             </p>
             <i
               class="c3"
-              role="panel-icon"
+              role="button"
             >
               <svg
                 aria-hidden="true"
@@ -683,7 +683,7 @@ Object {
           </div>
           <div
             class="c4"
-            role="panel-body"
+            role="presentation"
           >
             <p
               class="c5"
@@ -701,11 +701,11 @@ Object {
         </div>
         <div
           class="c1"
-          role="panel"
+          role="article"
         >
           <div
             class="c2"
-            role="panel-header"
+            role="heading"
           >
             <p
               classname="sc-dkzDqf c5"
@@ -716,7 +716,7 @@ Object {
             </p>
             <i
               class="c3"
-              role="panel-icon"
+              role="button"
             >
               <svg
                 aria-hidden="true"
@@ -733,7 +733,7 @@ Object {
           </div>
           <div
             class="c4"
-            role="panel-body"
+            role="presentation"
           >
             <p
               class="c5"
@@ -751,11 +751,11 @@ Object {
         </div>
         <div
           class="c1"
-          role="panel"
+          role="article"
         >
           <div
             class="c2"
-            role="panel-header"
+            role="heading"
           >
             <p
               classname="sc-dkzDqf c5"
@@ -766,7 +766,7 @@ Object {
             </p>
             <i
               class="c3"
-              role="panel-icon"
+              role="button"
             >
               <svg
                 aria-hidden="true"
@@ -783,7 +783,7 @@ Object {
           </div>
           <div
             class="c4"
-            role="panel-body"
+            role="presentation"
           >
             <p
               class="c5"
@@ -894,15 +894,15 @@ Object {
 <div>
     <div
       class="c0"
-      role="panel-group"
+      role="article"
     >
       <div
         class="c1"
-        role="panel"
+        role="article"
       >
         <div
           class="c2"
-          role="panel-header"
+          role="heading"
         >
           <p
             classname="sc-dkzDqf c5"
@@ -913,7 +913,7 @@ Object {
           </p>
           <i
             class="c3"
-            role="panel-icon"
+            role="button"
           >
             <svg
               aria-hidden="true"
@@ -930,7 +930,7 @@ Object {
         </div>
         <div
           class="c4"
-          role="panel-body"
+          role="presentation"
         >
           <p
             class="c5"
@@ -948,11 +948,11 @@ Object {
       </div>
       <div
         class="c1"
-        role="panel"
+        role="article"
       >
         <div
           class="c2"
-          role="panel-header"
+          role="heading"
         >
           <p
             classname="sc-dkzDqf c5"
@@ -963,7 +963,7 @@ Object {
           </p>
           <i
             class="c3"
-            role="panel-icon"
+            role="button"
           >
             <svg
               aria-hidden="true"
@@ -980,7 +980,7 @@ Object {
         </div>
         <div
           class="c4"
-          role="panel-body"
+          role="presentation"
         >
           <p
             class="c5"
@@ -998,11 +998,11 @@ Object {
       </div>
       <div
         class="c1"
-        role="panel"
+        role="article"
       >
         <div
           class="c2"
-          role="panel-header"
+          role="heading"
         >
           <p
             classname="sc-dkzDqf c5"
@@ -1013,7 +1013,7 @@ Object {
           </p>
           <i
             class="c3"
-            role="panel-icon"
+            role="button"
           >
             <svg
               aria-hidden="true"
@@ -1030,7 +1030,7 @@ Object {
         </div>
         <div
           class="c4"
-          role="panel-body"
+          role="presentation"
         >
           <p
             class="c5"

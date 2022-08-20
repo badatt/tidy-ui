@@ -39,7 +39,7 @@ describe('Panel', () => {
   it('Dark mode basic render', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <Panel isExpanded>
+        <Panel expanded>
           <PanelHeader>
             <Text is="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
           </PanelHeader>
@@ -83,12 +83,12 @@ describe('Panel', () => {
       </ThemeProvider>,
     );
     const { container } = tree;
-    const panelIcon = getByRole(container, 'panel-icon');
-    expect(queryByRole(container, 'panel-body')).toBeNull();
+    const panelIcon = getByRole(container, 'button');
+    expect(queryByRole(container, 'presentation')).toBeNull();
     expect(panelIcon).toBeVisible();
     act(() => {
       fireEvent.click(panelIcon);
     });
-    expect(queryByRole(container, 'panel-body')).toBeVisible();
+    expect(queryByRole(container, 'presentation')).toBeVisible();
   });
 });

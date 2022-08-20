@@ -82,11 +82,11 @@ Object {
     <div>
       <div
         class="c0"
-        role="panel"
+        role="article"
       >
         <div
           class="c1"
-          role="panel-header"
+          role="heading"
         >
           <p
             classname="sc-dkzDqf c4"
@@ -97,7 +97,7 @@ Object {
           </p>
           <i
             class="c2"
-            role="panel-icon"
+            role="button"
           >
             <svg
               aria-hidden="true"
@@ -114,7 +114,7 @@ Object {
         </div>
         <div
           class="c3"
-          role="panel-body"
+          role="presentation"
         >
           <p
             class="c4"
@@ -210,11 +210,11 @@ Object {
 <div>
     <div
       class="c0"
-      role="panel"
+      role="article"
     >
       <div
         class="c1"
-        role="panel-header"
+        role="heading"
       >
         <p
           classname="sc-dkzDqf c4"
@@ -225,7 +225,7 @@ Object {
         </p>
         <i
           class="c2"
-          role="panel-icon"
+          role="button"
         >
           <svg
             aria-hidden="true"
@@ -242,7 +242,7 @@ Object {
       </div>
       <div
         class="c3"
-        role="panel-body"
+        role="presentation"
       >
         <p
           class="c4"
@@ -397,11 +397,11 @@ Object {
     <div>
       <div
         class="c0"
-        role="panel"
+        role="article"
       >
         <div
           class="c1"
-          role="panel-header"
+          role="heading"
         >
           <p
             classname="sc-dkzDqf c4"
@@ -412,7 +412,7 @@ Object {
           </p>
           <i
             class="c2"
-            role="panel-icon"
+            role="button"
           >
             <svg
               aria-hidden="true"
@@ -429,7 +429,7 @@ Object {
         </div>
         <div
           class="c3"
-          role="panel-body"
+          role="presentation"
         >
           <p
             class="c4"
@@ -527,11 +527,11 @@ Object {
 <div>
     <div
       class="c0"
-      role="panel"
+      role="article"
     >
       <div
         class="c1"
-        role="panel-header"
+        role="heading"
       >
         <p
           classname="sc-dkzDqf c4"
@@ -542,7 +542,7 @@ Object {
         </p>
         <i
           class="c2"
-          role="panel-icon"
+          role="button"
         >
           <svg
             aria-hidden="true"
@@ -559,7 +559,7 @@ Object {
       </div>
       <div
         class="c3"
-        role="panel-body"
+        role="presentation"
       >
         <p
           class="c4"

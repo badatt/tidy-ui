@@ -9,7 +9,7 @@ export interface IPanelContext {
    *
    * @default false
    */
-  isExpanded?: boolean;
+  expanded?: boolean;
 
   /**
    * Toggle expand/close of the panel
@@ -26,7 +26,7 @@ export interface IPanelProps extends HTMLAttributes<HTMLDivElement> {
    *
    * @default false
    */
-  isExpanded?: boolean;
+  expanded?: boolean;
 }
 
 export type IPanelHeaderProps = HTMLAttributes<HTMLDivElement>;
@@ -40,7 +40,7 @@ export interface IPanelBodyProps extends HTMLAttributes<HTMLDivElement> {
    *
    * @default false
    */
-  isVisible?: boolean;
+  visible?: boolean;
 }
 
 export type IPanelGroupProps = HTMLAttributes<HTMLDivElement>;
