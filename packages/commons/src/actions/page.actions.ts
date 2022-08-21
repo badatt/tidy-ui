@@ -1,6 +1,8 @@
+import { ITidyUITheme } from '@tidy-ui/types';
 import { ActionMap } from './types';
 
 export enum PageActions {
+  SetTheme = 'SET_THEME',
   SetTitle = 'SET_TITLE',
 }
 
@@ -13,6 +15,15 @@ type PagePayload = {
      * Title
      */
     title?: string;
+  };
+  /**
+   * Sets theme
+   */
+  [PageActions.SetTheme]: {
+    /**
+     * Theme
+     */
+    theme?: ITidyUITheme;
   };
 };
 

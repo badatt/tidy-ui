@@ -1,3 +1,4 @@
+import { ITidyUITheme } from '@tidy-ui/types';
 import { AppActionTypes } from '../actions';
 import { PageActions } from '../actions/page.actions';
 
@@ -5,6 +6,11 @@ import { PageActions } from '../actions/page.actions';
  * Page state props
  */
 export interface IPageState {
+  /**
+   *
+   */
+  theme?: ITidyUITheme;
+
   /**
    * Title of the page
    */
@@ -22,6 +28,8 @@ const reducer = (prevState: IPageState, action: AppActionTypes): IPageState => {
   switch (action.type) {
     case PageActions.SetTitle:
       return { ...prevState, title: action.payload.title };
+    case PageActions.SetTheme:
+      return { ...prevState, theme: action.payload.theme };
     default:
       return { ...prevState };
   }
