@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/divider",
-  "version": "0.7.6",
+  "version": "0.7.7",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:divider",
@@ -23,7 +23,7 @@
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.1.1",
     "@rollup/plugin-replace": "^3.0.1",
-    "@tidy-ui/presentation": "^0.7.6",
+    "@tidy-ui/presentation": "^0.7.7",
     "@types/react": "^18.0.0",
     "@types/styled-components": "^5.1.17",
     "is-ci-cli": "^2.2.0",
