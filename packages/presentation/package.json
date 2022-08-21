@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/presentation",
-  "version": "0.7.4",
+  "version": "0.7.5",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:presentation",
@@ -15,7 +15,7 @@
   "dependencies": {
     "@tidy-ui/badge": "^0.7.4",
     "@tidy-ui/button": "^0.7.4",
-    "@tidy-ui/card": "^0.7.4",
+    "@tidy-ui/card": "^0.7.5",
     "@tidy-ui/message": "^0.7.4",
     "@tidy-ui/panel": "^0.7.4",
     "@tidy-ui/paper": "^0.7.4",
