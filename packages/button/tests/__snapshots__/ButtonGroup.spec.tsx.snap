@@ -17,11 +17,11 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  white-space: nowrap;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-align: center;
@@ -34,8 +34,9 @@ Object {
   line-height: 1.5em;
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
-  border: 1px solid transparent;
+  border: none;
   box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1:hover {
@@ -126,11 +127,11 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  white-space: nowrap;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-align: center;
@@ -143,8 +144,9 @@ Object {
   line-height: 1.5em;
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
-  border: 1px solid transparent;
+  border: none;
   box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1:hover {
@@ -290,11 +292,11 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  white-space: nowrap;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-align: center;
@@ -307,8 +309,9 @@ Object {
   line-height: 1.5em;
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
-  border: 1px solid transparent;
+  border: none;
   box-shadow: 0 0 24px hsla(273,67%,39%,1);
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1:hover {
@@ -399,11 +402,11 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  white-space: nowrap;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-align: center;
@@ -416,8 +419,9 @@ Object {
   line-height: 1.5em;
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
-  border: 1px solid transparent;
+  border: none;
   box-shadow: 0 0 24px hsla(273,67%,39%,1);
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1:hover {
@@ -563,11 +567,11 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  white-space: nowrap;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-align: center;
@@ -580,8 +584,9 @@ Object {
   line-height: 1.5em;
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
-  border: 1px solid transparent;
+  border: none;
   box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1:hover {
@@ -684,11 +689,11 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  white-space: nowrap;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-align: center;
@@ -701,8 +706,9 @@ Object {
   line-height: 1.5em;
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
-  border: 1px solid transparent;
+  border: none;
   box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1:hover {
@@ -860,11 +866,11 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  white-space: nowrap;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-align: center;
@@ -964,11 +970,11 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  white-space: nowrap;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-align: center;
@@ -1123,11 +1129,11 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  white-space: nowrap;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-align: center;
@@ -1140,8 +1146,9 @@ Object {
   line-height: 1.5em;
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
-  border: 1px solid transparent;
+  border: none;
   box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1:hover {
@@ -1234,11 +1241,11 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  white-space: nowrap;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-align: center;
@@ -1251,8 +1258,9 @@ Object {
   line-height: 1.5em;
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
-  border: 1px solid transparent;
+  border: none;
   box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1:hover {
@@ -1400,11 +1408,11 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  white-space: nowrap;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-align: center;
@@ -1417,8 +1425,9 @@ Object {
   line-height: 1.5em;
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
-  border: 1px solid transparent;
+  border: none;
   box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1:hover {
@@ -1512,11 +1521,11 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  white-space: nowrap;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-align: center;
@@ -1529,8 +1538,9 @@ Object {
   line-height: 1.5em;
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
-  border: 1px solid transparent;
+  border: none;
   box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1:hover {
@@ -1679,11 +1689,11 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  white-space: nowrap;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-align: center;
@@ -1696,8 +1706,9 @@ Object {
   line-height: 1.5em;
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
-  border: 1px solid transparent;
+  border: none;
   box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1:hover {
@@ -1793,11 +1804,11 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  white-space: nowrap;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
   text-align: center;
@@ -1810,8 +1821,9 @@ Object {
   line-height: 1.5em;
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
-  border: 1px solid transparent;
+  border: none;
   box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1:hover {

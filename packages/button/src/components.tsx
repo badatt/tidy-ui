@@ -49,8 +49,8 @@ const ButtonRoot = styled.button<IButtonProps>`
   display: flex;
   justify-content: center;
   align-items: center;
-  white-space: nowrap;
   user-select: none;
+  white-space: nowrap;
   text-decoration: none;
   text-align: center;
   vertical-align: middle;

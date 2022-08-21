@@ -39,6 +39,13 @@ export interface IButtonProps extends IBaseProps, HTMLAttributes<HTMLButtonEleme
   disabled?: boolean;
 
   /**
+   * If `true`, tone of the button will be a gradient of major and minor tones
+   *
+   * @default false
+   */
+  gradient?: boolean;
+
+  /**
    * If `true`, the button is disabled, blocked for actions and a loader is added
    *
    * @type {?boolean}

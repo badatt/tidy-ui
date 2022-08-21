@@ -19,6 +19,7 @@ const Button = forwardRef<HTMLButtonElement, IButtonProps>((props, ref) => {
 
 Button.defaultProps = {
   disabled: false,
+  gradient: false,
   loading: false,
   size: 'md',
   stretched: false,

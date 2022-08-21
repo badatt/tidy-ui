@@ -58,7 +58,7 @@ const basic = css<IButtonProps>`
   ${({ theme: { palette, isDark }, tone, disabled }) => css`
     color: ${isDark ? palette[tone!][300] : palette[tone!][600]};
     background-color: ${isDark ? hsla(palette[tone!].shades[600], 0.7) : palette[tone!][200]};
-    border: 1px solid transparent;
+    border: none;
     ${!disabled &&
     css`
       &:hover {
@@ -77,10 +77,10 @@ const basic = css<IButtonProps>`
  * @internal
  */
 const primary = css<IButtonProps>`
-  ${({ theme: { palette, isDark }, tone, disabled }) => css`
+  ${({ theme: { palette, isDark }, tone, disabled, gradient }) => css`
     color: ${palette[tone!][100]};
     background-color: ${palette[tone!][600]};
-    border: 1px solid transparent;
+    border: none;
     ${!disabled &&
     css`
       ${isDark
@@ -91,10 +91,20 @@ const primary = css<IButtonProps>`
             box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
               ${palette[tone!][300]} 0px 10px 15px -3px, ${palette[tone!][300]} 0px 4px 6px -4px;
           `}
-      &:hover {
-        background-color: ${palette[tone!][700]};
-      }
     `}
+    ${gradient
+      ? css`
+          background: linear-gradient(90deg, ${palette['major'][600]} 0%, ${palette['minor'][600]} 100%);
+          &:hover {
+            background: linear-gradient(90deg, ${palette['major'][700]} 0%, ${palette['minor'][700]} 100%);
+          }
+        `
+      : css`
+          background-color: ${palette[tone!][600]};
+          &:hover {
+            background-color: ${palette[tone!][700]};
+          }
+        `}
   `}
 `;
 
@@ -123,14 +133,13 @@ const outlined = css<IButtonProps>`
  * @internal
  */
 const hero = css<IButtonProps>`
-  ${({ theme: { palette, isDark }, tone, disabled }) => css`
+  ${({ theme: { palette, isDark }, tone, disabled, gradient }) => css`
     padding: 1rem 1.5rem;
     border-radius: 0.75rem;
     font-size: 3rem;
     line-height: 2.125rem;
     color: ${palette[tone!][100]};
-    background-color: ${palette[tone!][600]};
-    border: 1px solid transparent;
+    border: none;
     width: 100%;
     text-align: center;
     justify-content: center;
@@ -144,10 +153,20 @@ const hero = css<IButtonProps>`
             box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
               ${palette[tone!][300]} 0px 10px 15px -3px, ${palette[tone!][300]} 0px 4px 6px -4px;
           `}
-      &:hover {
-        background-color: ${palette[tone!][700]};
-      }
     `}
+    ${gradient
+      ? css`
+          background: linear-gradient(90deg, ${palette['major'][600]} 0%, ${palette['minor'][600]} 100%);
+          &:hover {
+            background: linear-gradient(90deg, ${palette['major'][700]} 0%, ${palette['minor'][700]} 100%);
+          }
+        `
+      : css`
+          background-color: ${palette[tone!][600]};
+          &:hover {
+            background-color: ${palette[tone!][700]};
+          }
+        `}
   `}
 `;
 

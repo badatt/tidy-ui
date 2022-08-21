@@ -26,7 +26,7 @@ const Icon = styled(DangerousIcon)`
 
 export const basic = () => (
   <Container>
-    <Badge data={99}>
+    <Badge data={120}>
       <Icon />
     </Badge>
     <Badge data={99} hidden>

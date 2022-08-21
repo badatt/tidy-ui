@@ -53,15 +53,19 @@ export const sizes = () => (
 );
 
 export const variants = () => (
-  <Container>
-    <Column>
-      <Button variant="primary">primary</Button>
-      <Button variant="outlined">outlined</Button>
-      <Button variant="basic">basic</Button>
-      <Button variant="simple">simple</Button>
-      <Button variant="hero">hero</Button>
-    </Column>
-  </Container>
+  <Column>
+    <Button variant="primary">primary</Button>
+    <Button variant="primary" gradient>
+      primary gradient
+    </Button>
+    <Button variant="outlined">outlined</Button>
+    <Button variant="basic">basic</Button>
+    <Button variant="simple">simple</Button>
+    <Button variant="hero">hero</Button>
+    <Button variant="hero" gradient>
+      hero gradient
+    </Button>
+  </Column>
 );
 
 export const disabled = () => (
