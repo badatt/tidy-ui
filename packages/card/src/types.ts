@@ -1,5 +1,5 @@
 import { HTMLAttributes } from 'react';
-import { TTone } from '@tidy-ui/types';
+import { IBaseProps, TTone } from '@tidy-ui/types';
 
 /**
  * Card props
@@ -9,7 +9,7 @@ import { TTone } from '@tidy-ui/types';
  * @augments {HTMLAttributes<HTMLDivElement>}
  * @public
  */
-export interface ICardProps extends HTMLAttributes<HTMLDivElement> {
+export interface ICardProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
    * Accent variant of the component, typically used to classify the
    * information based on its level
@@ -44,7 +44,7 @@ export interface ICardProps extends HTMLAttributes<HTMLDivElement> {
  * @augments {HTMLAttributes<HTMLDivElement>}
  * @public
  */
-export interface ICardFooterProps extends HTMLAttributes<HTMLDivElement> {
+export interface ICardFooterProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
    * If `true`, the footer is separated from body with a divider
    *
@@ -62,7 +62,7 @@ export interface ICardFooterProps extends HTMLAttributes<HTMLDivElement> {
  * @augments {HTMLAttributes<HTMLDivElement>}
  * @public
  */
-export interface ICardHeaderProps extends HTMLAttributes<HTMLDivElement> {
+export interface ICardHeaderProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
    * If `true`, header is separated from body with a divider
    *

@@ -1,5 +1,5 @@
 import { HTMLAttributes, HtmlHTMLAttributes } from 'react';
-import { TTone } from '@tidy-ui/types';
+import { IBaseProps, TTone } from '@tidy-ui/types';
 
 /**
  * Size variants of the tag component
@@ -17,7 +17,7 @@ export type TSize = 'sm' | 'md' | 'lg';
  * @augments {HTMLAttributes<HTMLDivElement>}
  * @public
  */
-export interface ITagProps extends HTMLAttributes<HTMLDivElement> {
+export interface ITagProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
    * If `true`, the tag is disabled
    *
@@ -77,7 +77,7 @@ export interface ITagProps extends HTMLAttributes<HTMLDivElement> {
  * @augments {HTMLAttributes<HTMLDivElement>}
  * @public
  */
-export interface ITagGroupProps extends HTMLAttributes<HTMLDivElement> {
+export interface ITagGroupProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
    * On add callback
    *
@@ -107,7 +107,7 @@ export interface ITagGroupProps extends HTMLAttributes<HTMLDivElement> {
 /**
  *
  */
-export interface INewTagInput extends HtmlHTMLAttributes<HTMLInputElement> {
+export interface INewTagInput extends IBaseProps, HtmlHTMLAttributes<HTMLInputElement> {
   /**
    * Color variant of the add new tag button
    *

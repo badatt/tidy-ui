@@ -1,5 +1,5 @@
 import { HTMLAttributes } from 'react';
-import { TTone } from '@tidy-ui/types';
+import { IBaseProps, TTone } from '@tidy-ui/types';
 
 /**
  * Types of text variants
@@ -148,7 +148,7 @@ export interface ITextProps extends HTMLAttributes<HTMLDivElement> {
  * @augments {HTMLAttributes<HTMLDivElement>}
  * @public
  */
-export interface IDataFieldProps extends HTMLAttributes<HTMLDivElement> {
+export interface IDataFieldProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
    * Accent color for the filed label
    *

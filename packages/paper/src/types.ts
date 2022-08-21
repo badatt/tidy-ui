@@ -1,4 +1,5 @@
 import { HTMLAttributes } from 'react';
+import { IBaseProps } from '@tidy-ui/types';
 
 /**
  * Paper props
@@ -8,7 +9,7 @@ import { HTMLAttributes } from 'react';
  * @augments {HTMLAttributes<HTMLDivElement>}
  * @public
  */
-export interface IPaperProps extends HTMLAttributes<HTMLDivElement> {
+export interface IPaperProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
    * If `true`, the component is created with sharp edges
    *

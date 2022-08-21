@@ -1,5 +1,5 @@
 import { AnchorHTMLAttributes, HTMLAttributes } from 'react';
-import { TSize, TTone } from '@tidy-ui/types';
+import { IBaseProps, TSize, TTone } from '@tidy-ui/types';
 
 /**
  * Button variants
@@ -29,7 +29,7 @@ export type TVariant = 'primary' | 'outlined' | 'hero' | 'basic' | 'simple';
  * @augments {HTMLAttributes<HTMLButtonElement>}
  * @public
  */
-export interface IButtonProps extends HTMLAttributes<HTMLButtonElement> {
+export interface IButtonProps extends IBaseProps, HTMLAttributes<HTMLButtonElement> {
   /**
    * If `true`, the button is disabled
    *
@@ -94,7 +94,7 @@ export interface IButtonProps extends HTMLAttributes<HTMLButtonElement> {
  * @augments {AnchorHTMLAttributes<HTMLAnchorElement>}
  * @public
  */
-export interface IAnchorProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
+export interface IAnchorProps extends IBaseProps, AnchorHTMLAttributes<HTMLAnchorElement> {
   /**
    * If `true`, the anchor is disabled
    *
@@ -120,7 +120,7 @@ export interface IAnchorProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
  * @augments {HTMLAttributes<HTMLButtonElement>}
  * @public
  */
-export interface IIconButtonProps extends HTMLAttributes<HTMLButtonElement> {
+export interface IIconButtonProps extends IBaseProps, HTMLAttributes<HTMLButtonElement> {
   /**
    * if `true`, the button is disabled
    *
@@ -183,7 +183,7 @@ export interface IIconButtonProps extends HTMLAttributes<HTMLButtonElement> {
  * @augments {HTMLAttributes<HTMLDivElement>}
  * @public
  */
-export interface IButtonGroupProps extends HTMLAttributes<HTMLDivElement> {
+export interface IButtonGroupProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
    * If `true`, the component is disabled
    *
@@ -226,7 +226,7 @@ export interface IButtonGroupProps extends HTMLAttributes<HTMLDivElement> {
  * @augments {HTMLAttributes<HTMLDivElement>}
  * @public
  */
-export interface IButtonToolbarProps extends HTMLAttributes<HTMLDivElement> {
+export interface IButtonToolbarProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
    * If `true`, disables the toolbar
    *

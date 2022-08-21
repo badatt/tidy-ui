@@ -121,7 +121,8 @@ Include required components with in the place holder `...`
 
 Visit the storybook and start using components in your app.
 
-<hr/>
+---
+
 <p align="center">
   <a href="CHANGELOG.md">changelog</a>
   <a href="https://github.com/badatt/tidy-ui/releases">releases</a>

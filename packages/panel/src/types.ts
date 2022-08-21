@@ -1,4 +1,5 @@
 import { HTMLAttributes } from 'react';
+import { IBaseProps } from 'packages/types/dist/src';
 
 /**
  * PanelContext props
@@ -20,7 +21,7 @@ export interface IPanelContext {
 /**
  * PanelProps
  */
-export interface IPanelProps extends HTMLAttributes<HTMLDivElement> {
+export interface IPanelProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
    * If `true`, set the panel expanded
    *
@@ -29,12 +30,12 @@ export interface IPanelProps extends HTMLAttributes<HTMLDivElement> {
   expanded?: boolean;
 }
 
-export type IPanelHeaderProps = HTMLAttributes<HTMLDivElement>;
+export type IPanelHeaderProps = IBaseProps | HTMLAttributes<HTMLDivElement>;
 
 /**
  * PanelBody props
  */
-export interface IPanelBodyProps extends HTMLAttributes<HTMLDivElement> {
+export interface IPanelBodyProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
    * If `true`, set the body visible
    *
@@ -43,4 +44,4 @@ export interface IPanelBodyProps extends HTMLAttributes<HTMLDivElement> {
   visible?: boolean;
 }
 
-export type IPanelGroupProps = HTMLAttributes<HTMLDivElement>;
+export type IPanelGroupProps = IBaseProps | HTMLAttributes<HTMLDivElement>;

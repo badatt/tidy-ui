@@ -1,10 +1,10 @@
 import { HTMLAttributes } from 'react';
-import { TShade, TTone } from '@tidy-ui/types';
+import { IBaseProps, TShade, TTone } from '@tidy-ui/types';
 
 /**
  * Divider props
  */
-export interface IDividerProps extends HTMLAttributes<HTMLHRElement> {
+export interface IDividerProps extends IBaseProps, HTMLAttributes<HTMLHRElement> {
   /**
    * Thickness of the divider
    *

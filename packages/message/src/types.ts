@@ -1,10 +1,10 @@
 import { HTMLAttributes } from 'react';
-import { TTone } from '@tidy-ui/types';
+import { IBaseProps, TTone } from '@tidy-ui/types';
 
 /**
  * Message props
  */
-export interface IMessageProps extends HTMLAttributes<HTMLDivElement> {
+export interface IMessageProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
    * It `true`, creates a closable message widget with a close button at top right corner
    *
