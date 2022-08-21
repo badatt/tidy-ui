@@ -17,6 +17,7 @@ const Card = forwardRef<HTMLDivElement, ICardProps>((props, ref) => {
 });
 
 Card.defaultProps = {
+  accentPosition: 'top',
   sharp: false,
 };
 

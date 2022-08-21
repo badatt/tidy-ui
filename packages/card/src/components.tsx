@@ -58,7 +58,7 @@ const Icon = styled(LaunchIcon)`
  * @internal
  */
 const CardRoot = styled.section<ICardProps>`
-  ${({ theme: { palette, layout }, sharp, accent, href }) => css`
+  ${({ theme: { palette, layout }, sharp, accent, accentPosition, href }) => css`
     display: flex;
     flex-direction: column;
     background-color: ${palette.background.card};
@@ -69,10 +69,7 @@ const CardRoot = styled.section<ICardProps>`
     css`
       border-radius: ${layout.radius};
     `}
-    ${accent &&
-    css`
-      border-top: 2px solid ${palette[accent][600]};
-    `}
+    ${accent && `border-${accentPosition}: 2px solid ${palette[accent][600]};`}
     ${href &&
     css`
       cursor: pointer;

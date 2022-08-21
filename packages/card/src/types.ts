@@ -20,6 +20,13 @@ export interface ICardProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   accent?: TTone;
 
   /**
+   * Position of the accent
+   *
+   * @default 'top'
+   */
+  accentPosition?: 'top' | 'right' | 'bottom' | 'left';
+
+  /**
    * Hyperlink the component
    *
    * @type {?string}
