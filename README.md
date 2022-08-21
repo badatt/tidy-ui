@@ -103,43 +103,27 @@ Include required components with in the place holder `...`
 
 Visit the storybook and start using components in your app.
 
-## Package classes
+## Packages and groups
 
-<div style="display:flex;flex-direction:column;gap:8px;">
-  <div style="display:flex;gap:8px;">
-    <a href="https://github.com/badatt/tidy-ui/tree/main/packages/presentation" style="text-decoration:none">
-      <div style="display:flex;justify-content:center;padding:2rem; border-radius:8px;border:1px solid;width:150px;">
-        <span style="font-size: 2rem; font-weight:lighter">Presentation</span>
-      </div>
-    </a>
-    <a href="https://github.com/badatt/tidy-ui/tree/main/packages/layout" style="text-decoration:none">
-      <div style="display:flex;justify-content:center;padding:2rem; border-radius:8px;border:1px solid;width:150px;">
-        <span style="font-size: 2rem; font-weight:lighter">Layout</span>
-      </div>
-    </a>
-    <a href="https://github.com/badatt/tidy-ui/tree/main/packages/commons" style="text-decoration:none">
-      <div style="display:flex;justify-content:center;padding:2rem; border-radius:8px;border:1px solid;width:150px;">
-        <span style="font-size: 2rem; font-weight:lighter">Commons</span>
-      </div>
-    </a>
-  </div>
-  <div style="display:flex;gap:8px;">
-    <a href="https://github.com/badatt/tidy-ui/tree/main/packages/icons" style="text-decoration:none">
-      <div style="display:flex;justify-content:center;padding:2rem; border-radius:8px;border:1px solid;width:150px;">
-        <span style="font-size: 2rem; font-weight:lighter">Icons</span>
-      </div>
-    </a>
-    <a href="https://github.com/badatt/tidy-ui/tree/main/packages/theme" style="text-decoration:none">
-      <div style="display:flex;justify-content:center;padding:2rem; border-radius:8px;border:1px solid;width:150px;">
-        <span style="font-size: 2rem; font-weight:lighter">Theme</span>
-      </div>
-    </a>
-    <a href="https://github.com/badatt/tidy-ui/tree/main/packages/types" style="text-decoration:none">
-      <div style="display:flex;justify-content:center;padding:2rem; border-radius:8px;border:1px solid;width:150px;">
-        <span style="font-size: 2rem; font-weight:lighter">Types</span>
-      </div>
-    </a>
-  </div>
+<div align="center">
+  <a href="https://github.com/badatt/tidy-ui/tree/main/packages/presentation">
+    <img src="https://raw.githubusercontent.com/badatt/tidy-ui/main/internals/assets/images/package-card-presentation.png"/>
+  </a>
+  <a href="https://github.com/badatt/tidy-ui/tree/main/packages/layout">
+    <img src="https://raw.githubusercontent.com/badatt/tidy-ui/main/internals/assets/images/package-card-layout.png"/>
+  </a>
+  <a href="https://github.com/badatt/tidy-ui/tree/main/packages/commons">
+    <img src="https://raw.githubusercontent.com/badatt/tidy-ui/main/internals/assets/images/package-card-commons.png"/>
+  </a>
+  <a href="https://github.com/badatt/tidy-ui/tree/main/packages/icons">
+    <img src="https://raw.githubusercontent.com/badatt/tidy-ui/main/internals/assets/images/package-card-icons.png"/>
+  </a>
+  <a href="https://github.com/badatt/tidy-ui/tree/main/packages/theme">
+    <img src="https://raw.githubusercontent.com/badatt/tidy-ui/main/internals/assets/images/package-card-theme.png"/>
+  </a>
+  <a href="https://github.com/badatt/tidy-ui/tree/main/packages/types">
+    <img src="https://raw.githubusercontent.com/badatt/tidy-ui/main/internals/assets/images/package-card-types.png"/>
+  </a>
 </div>
 
 ---
