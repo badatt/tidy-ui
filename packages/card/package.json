@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/card",
-  "version": "0.7.4",
+  "version": "0.7.5",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:card",
