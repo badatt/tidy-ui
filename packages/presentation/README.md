@@ -121,6 +121,12 @@ Include required components with in the place holder `...`
 
 Visit the storybook and start using components in your app.
 
+<hr/>
+<p align="center">
+  <a href="CHANGELOG.md">changelog</a>
+  <a href="https://github.com/badatt/tidy-ui/releases">releases</a>
+</p>
+
 ## Packages
 
 These are the packages that come under presentation class of tidy-ui components

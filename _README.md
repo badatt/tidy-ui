@@ -46,3 +46,5 @@
     </a>
   </div>
 </div>
+
+#include "internals/md/footer.md"

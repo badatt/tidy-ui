@@ -40,6 +40,8 @@ Include required components with in the place holder `...`
 
 #include "../../internals/md/storybook-link.md"
 
+#include "../../internals/md/footer.md"
+
 ## Packages
 
 These are the packages that come under layout class of tidy-ui components

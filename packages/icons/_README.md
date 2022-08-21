@@ -39,3 +39,5 @@ export default App;
 Include required components with in the place holder `...`
 
 #include "../../internals/md/storybook-link.md"
+
+#include "../../internals/md/footer.md"
