@@ -255,7 +255,6 @@ export const alignItems = () => {
 
 export const justifyContent = () => {
   const variants = [
-    ,
     'center',
     'start',
     'end',

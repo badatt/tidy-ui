@@ -1,8 +1,8 @@
 import React, { useEffect, useMemo, useReducer } from 'react';
 import { ThemeProvider } from 'styled-components';
 import { PageActions } from '../actions';
-import { initializer, mainReducer } from '../reducers';
-import { initialState, TidyUiContext } from './context';
+import { initializer, initialState, mainReducer } from '../reducers';
+import { TidyUiContext } from './context';
 import { ITidyUiProviderProps } from './types';
 
 const { Consumer, Provider } = TidyUiContext;

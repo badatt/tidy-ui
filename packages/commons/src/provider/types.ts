@@ -1,8 +1,7 @@
 import { Dispatch, Key, ReactNode } from 'react';
 import { ITidyUITheme } from '@tidy-ui/types';
 import { AppActionTypes } from '../actions';
-import { IPageState } from '../reducers/page.reducer';
-import { IRootState } from '../reducers/root.reducer';
+import { IState } from '../reducers/types';
 
 /**
  * TidyUiProviderProps props
@@ -41,19 +40,4 @@ export interface ITidyUiContextProps {
    * State of the application
    */
   state: IState;
-}
-
-/**
- * State props
- */
-export interface IState {
-  /**
-   * Page state
-   */
-  pageState: IPageState;
-
-  /**
-   * Root state
-   */
-  rootState: IRootState;
 }

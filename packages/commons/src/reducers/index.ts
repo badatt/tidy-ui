@@ -1,7 +1,7 @@
 import { AppActionTypes } from '../actions';
-import { IState } from '../provider/types';
 import pageReducer from '../reducers/page.reducer';
 import rootReducer from '../reducers/root.reducer';
+import { IState } from './types';
 
 /**
  * State initializer
@@ -11,6 +11,11 @@ import rootReducer from '../reducers/root.reducer';
  */
 const initializer = (initState: IState): IState => {
   return { ...initState };
+};
+
+const initialState: IState = {
+  pageState: {},
+  rootState: {},
 };
 
 /**
@@ -28,4 +33,4 @@ const mainReducer = (state: IState, actions: AppActionTypes): IState => {
   };
 };
 
-export { initializer, mainReducer };
+export { initializer, initialState, mainReducer };
