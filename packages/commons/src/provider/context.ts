@@ -1,10 +1,7 @@
+/* istanbul ignore file */
 import { createContext } from 'react';
-import { IState, ITidyUiContextProps } from './types';
-
-const initialState: IState = {
-  pageState: {},
-  rootState: {},
-};
+import { initialState } from '../reducers';
+import { ITidyUiContextProps } from './types';
 
 const TidyUiContext = createContext<ITidyUiContextProps>({
   /**
@@ -12,8 +9,8 @@ const TidyUiContext = createContext<ITidyUiContextProps>({
    *
    * @returns {null} nothing
    */
-  dispatch: (): null => null,
+  dispatch: (): null => null, // NOSONAR
   state: initialState,
 });
 
-export { initialState, TidyUiContext };
+export { TidyUiContext };
