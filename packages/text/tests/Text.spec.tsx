@@ -9,7 +9,7 @@ import 'jest-styled-components';
 import { orchidDark, orchidLight } from '@tidy-ui/commons';
 import { TTone } from '@tidy-ui/types';
 import { Text } from '../src';
-import { TTextTypes } from '../src/types';
+import { TVariant } from '../src/types';
 
 const variants = [
   'hero',
@@ -59,7 +59,7 @@ describe('Text', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {variants.map((v) => (
-          <Text as={v as TTextTypes} key={v}>
+          <Text v={v as TVariant} key={v}>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores
             atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
           </Text>
@@ -100,7 +100,7 @@ describe('Text', () => {
   it('All other forms of text', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Text as="subtitle2" href="https://google.com">
+        <Text v="subtitle2" href="https://google.com">
           Linked: The quick brown fox jumps over the lazy dog
         </Text>
         <Text bld>bold: The quick brown fox jumps over the lazy dog</Text>

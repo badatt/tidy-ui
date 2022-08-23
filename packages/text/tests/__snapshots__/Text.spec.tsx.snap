@@ -6,91 +6,91 @@ Object {
   "baseElement": .c0 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(271,81%,56%,1);
 }
 
 .c1 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(333,71%,51%,1);
 }
 
 .c2 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(0,0%,32%,1);
 }
 
 .c3 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(221,83%,53%,1);
 }
 
 .c4 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(142,76%,36%,1);
 }
 
 .c5 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(32,95%,44%,1);
 }
 
 .c6 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(0,72%,51%,1);
 }
 
@@ -143,91 +143,91 @@ Object {
   "container": .c0 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(271,81%,56%,1);
 }
 
 .c1 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(333,71%,51%,1);
 }
 
 .c2 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(0,0%,32%,1);
 }
 
 .c3 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(221,83%,53%,1);
 }
 
 .c4 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(142,76%,36%,1);
 }
 
 .c5 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(32,95%,44%,1);
 }
 
 .c6 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(0,72%,51%,1);
 }
 
@@ -367,13 +367,13 @@ Object {
 .c4 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: hsla(217,33%,17%,1);
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   font-weight: 700;
 }
 
@@ -384,14 +384,14 @@ Object {
 .c5 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: hsla(217,33%,17%,1);
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
@@ -403,14 +403,14 @@ Object {
 .c6 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: hsla(217,33%,17%,1);
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   font-style: italic;
 }
 
@@ -421,14 +421,14 @@ Object {
 .c7 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: hsla(217,33%,17%,1);
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   text-transform: uppercase;
 }
 
@@ -439,14 +439,14 @@ Object {
 .c8 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: hsla(217,33%,17%,1);
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   text-transform: lowercase;
 }
 
@@ -457,14 +457,14 @@ Object {
 .c9 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: hsla(217,33%,17%,1);
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   text-transform: capitalize;
 }
 
@@ -475,13 +475,13 @@ Object {
 .c10 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(0,0%,0%,0.38);
 }
 
@@ -492,14 +492,14 @@ Object {
 .c11 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: hsla(217,33%,17%,1);
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   width: 100%;
 }
 
@@ -510,14 +510,14 @@ Object {
 .c12 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: hsla(217,33%,17%,1);
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   text-align: center;
 }
 
@@ -528,14 +528,14 @@ Object {
 .c13 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: hsla(217,33%,17%,1);
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -672,13 +672,13 @@ Object {
 .c4 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: hsla(217,33%,17%,1);
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   font-weight: 700;
 }
 
@@ -689,14 +689,14 @@ Object {
 .c5 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: hsla(217,33%,17%,1);
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   -webkit-text-decoration: underline;
   text-decoration: underline;
 }
@@ -708,14 +708,14 @@ Object {
 .c6 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: hsla(217,33%,17%,1);
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   font-style: italic;
 }
 
@@ -726,14 +726,14 @@ Object {
 .c7 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: hsla(217,33%,17%,1);
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   text-transform: uppercase;
 }
 
@@ -744,14 +744,14 @@ Object {
 .c8 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: hsla(217,33%,17%,1);
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   text-transform: lowercase;
 }
 
@@ -762,14 +762,14 @@ Object {
 .c9 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: hsla(217,33%,17%,1);
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   text-transform: capitalize;
 }
 
@@ -780,13 +780,13 @@ Object {
 .c10 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(0,0%,0%,0.38);
 }
 
@@ -797,14 +797,14 @@ Object {
 .c11 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: hsla(217,33%,17%,1);
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   width: 100%;
 }
 
@@ -815,14 +815,14 @@ Object {
 .c12 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: hsla(217,33%,17%,1);
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   text-align: center;
 }
 
@@ -833,14 +833,14 @@ Object {
 .c13 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: hsla(217,33%,17%,1);
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -1065,19 +1065,6 @@ Object {
 .c5 {
   display: block;
   margin: 0;
-  font-size: 1rem;
-  color: hsla(217,33%,17%,1);
-  font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
-}
-
-.c6 {
-  display: block;
-  margin: 0;
   font-size: 0.75rem;
   color: hsla(217,33%,17%,1);
   font-weight: 400;
@@ -1086,6 +1073,19 @@ Object {
   -ms-letter-spacing: 0.03333em;
   letter-spacing: 0.03333em;
   line-height: 1.66;
+}
+
+.c6 {
+  display: block;
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 .c7 {
@@ -1153,19 +1153,19 @@ Object {
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
-        class="c5"
+        class="c6"
         role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <p
-        class="c5"
+        class="c7"
         role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </p>
       <code
-        class="c6"
+        class="c5"
         role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
@@ -1177,7 +1177,7 @@ Object {
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
       </span>
       <p
-        class="c5"
+        class="c6"
         role="contentinfo"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
@@ -1288,19 +1288,6 @@ Object {
 .c5 {
   display: block;
   margin: 0;
-  font-size: 1rem;
-  color: hsla(217,33%,17%,1);
-  font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
-}
-
-.c6 {
-  display: block;
-  margin: 0;
   font-size: 0.75rem;
   color: hsla(217,33%,17%,1);
   font-weight: 400;
@@ -1309,6 +1296,19 @@ Object {
   -ms-letter-spacing: 0.03333em;
   letter-spacing: 0.03333em;
   line-height: 1.66;
+}
+
+.c6 {
+  display: block;
+  margin: 0;
+  font-size: 1rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 .c7 {
@@ -1375,19 +1375,19 @@ Object {
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
-      class="c5"
+      class="c6"
       role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <p
-      class="c5"
+      class="c7"
       role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </p>
     <code
-      class="c6"
+      class="c5"
       role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
@@ -1399,7 +1399,7 @@ Object {
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
     </span>
     <p
-      class="c5"
+      class="c6"
       role="contentinfo"
     >
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, iusto est pariatur eum fugiat, dolores atque corrupti, nemo eos esse libero officiis sint quidem praesentium rem! Dicta laborum ipsum mollitia?
@@ -1501,14 +1501,14 @@ Object {
   "baseElement": .c0 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: hsla(217,33%,17%,1);
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
 }
 
 <body>
@@ -1524,14 +1524,14 @@ Object {
   "container": .c0 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: hsla(217,33%,17%,1);
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
 }
 
 <div>
@@ -1602,91 +1602,91 @@ Object {
   "baseElement": .c0 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(271,81%,56%,1);
 }
 
 .c1 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(333,71%,51%,1);
 }
 
 .c2 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(0,0%,32%,1);
 }
 
 .c3 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(221,83%,53%,1);
 }
 
 .c4 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(142,76%,36%,1);
 }
 
 .c5 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(32,95%,44%,1);
 }
 
 .c6 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(0,72%,51%,1);
 }
 
@@ -1739,91 +1739,91 @@ Object {
   "container": .c0 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(271,81%,56%,1);
 }
 
 .c1 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(333,71%,51%,1);
 }
 
 .c2 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(0,0%,32%,1);
 }
 
 .c3 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(221,83%,53%,1);
 }
 
 .c4 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(142,76%,36%,1);
 }
 
 .c5 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(32,95%,44%,1);
 }
 
 .c6 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   color: hsla(0,72%,51%,1);
 }
 
@@ -1931,14 +1931,14 @@ Object {
   "baseElement": .c0 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: hsla(217,33%,17%,1);
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
 }
 
 <body>
@@ -1952,14 +1952,14 @@ Object {
   "container": .c0 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: hsla(217,33%,17%,1);
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
 }
 
 <div>

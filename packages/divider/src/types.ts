@@ -12,6 +12,10 @@ export interface IDividerProps extends IBaseProps, HTMLAttributes<HTMLHRElement>
    */
   density?: 'thin' | 'medium' | 'thick';
   /**
+   * Top and bottom margins
+   */
+  margin?: string;
+  /**
    * Shade of the color of the divider, 50 being low, 900 being high
    *
    * @type {?TShade}

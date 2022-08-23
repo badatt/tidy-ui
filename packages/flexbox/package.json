@@ -1,9 +1,9 @@
 {
-  "name": "@tidy-ui/tag",
-  "version": "0.7.6",
+  "name": "@tidy-ui/flexbox",
+  "version": "0.0.0",
   "readme": "README.md",
   "scripts": {
-    "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:tag",
+    "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:flexbox",
     "build:md": "markdown-include ../../.markdown.json",
     "clean": "tsc --build --clean && rimraf -rf dist && rimraf -rf build",
     "postinstall": "rm -rf node_modules/@types/react-native",
@@ -23,7 +23,8 @@
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.1.1",
     "@rollup/plugin-replace": "^3.0.1",
-    "@tidy-ui/presentation": "^0.7.7",
+    "@tidy-ui/layout": "0.7.7",
+    "@tidy-ui/presentation": "0.7.7",
     "@types/react": "^18.0.0",
     "@types/styled-components": "^5.1.17",
     "is-ci-cli": "^2.2.0",
@@ -56,7 +57,7 @@
     "ui",
     "ui-components"
   ],
-  "description": "tidy-ui react component library; 'tag' package",
+  "description": "tidy-ui react component library; 'flexbox package",
   "publishConfig": {
     "access": "public"
   },

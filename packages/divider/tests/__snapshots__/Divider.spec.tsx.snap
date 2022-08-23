@@ -5,7 +5,7 @@ Object {
   "asFragment": [Function],
   "baseElement": .c1 {
   border-color: hsla(0,0%,45%,1);
-  margin: 0px;
+  margin: 0.5rem 0;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -16,14 +16,14 @@ Object {
 .c0 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: hsla(217,33%,17%,1);
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
 }
 
 <body>
@@ -48,7 +48,7 @@ Object {
   </body>,
   "container": .c1 {
   border-color: hsla(0,0%,45%,1);
-  margin: 0px;
+  margin: 0.5rem 0;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -59,14 +59,14 @@ Object {
 .c0 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: hsla(217,33%,17%,1);
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
 }
 
 <div>
@@ -146,7 +146,7 @@ Object {
   "asFragment": [Function],
   "baseElement": .c1 {
   border-color: hsla(0,0%,45%,1);
-  margin: 0px;
+  margin: 0.5rem 0;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -157,14 +157,14 @@ Object {
 .c0 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: hsla(210,40%,96%,1);
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
 }
 
 <body>
@@ -189,7 +189,7 @@ Object {
   </body>,
   "container": .c1 {
   border-color: hsla(0,0%,45%,1);
-  margin: 0px;
+  margin: 0.5rem 0;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -200,14 +200,14 @@ Object {
 .c0 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: hsla(210,40%,96%,1);
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
 }
 
 <div>
@@ -287,7 +287,7 @@ Object {
   "asFragment": [Function],
   "baseElement": .c1 {
   border-color: hsla(271,91%,65%,1);
-  margin: 0px;
+  margin: 0.5rem 0;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -297,7 +297,7 @@ Object {
 
 .c2 {
   border-color: hsla(0,0%,45%,1);
-  margin: 0px;
+  margin: 0.5rem 0;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -307,7 +307,7 @@ Object {
 
 .c3 {
   border-color: hsla(0,0%,15%,1);
-  margin: 0px;
+  margin: 0.5rem 0;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -317,7 +317,7 @@ Object {
 
 .c4 {
   border-color: hsla(0,0%,45%,1);
-  margin: 0px;
+  margin: 0.5rem 0;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -328,14 +328,14 @@ Object {
 .c0 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: hsla(210,40%,96%,1);
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
 }
 
 <body>
@@ -384,7 +384,7 @@ Object {
   </body>,
   "container": .c1 {
   border-color: hsla(271,91%,65%,1);
-  margin: 0px;
+  margin: 0.5rem 0;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -394,7 +394,7 @@ Object {
 
 .c2 {
   border-color: hsla(0,0%,45%,1);
-  margin: 0px;
+  margin: 0.5rem 0;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -404,7 +404,7 @@ Object {
 
 .c3 {
   border-color: hsla(0,0%,15%,1);
-  margin: 0px;
+  margin: 0.5rem 0;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -414,7 +414,7 @@ Object {
 
 .c4 {
   border-color: hsla(0,0%,45%,1);
-  margin: 0px;
+  margin: 0.5rem 0;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -425,14 +425,14 @@ Object {
 .c0 {
   display: block;
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: hsla(210,40%,96%,1);
   font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
 }
 
 <div>

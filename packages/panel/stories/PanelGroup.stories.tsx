@@ -19,7 +19,7 @@ export const basic = () => (
     <PanelGroup>
       <Panel>
         <PanelHeader>
-          <Text as="h6">Lorem ipsum dolor sit, amet consectetur adipisicing</Text>
+          <Text v="h6">Lorem ipsum dolor sit, amet consectetur adipisicing</Text>
         </PanelHeader>
         <PanelBody>
           <Text>
@@ -35,7 +35,7 @@ export const basic = () => (
       </Panel>
       <Panel expanded>
         <PanelHeader>
-          <Text as="h6">Lorem ipsum dolor sit, amet consectetur adipisicing</Text>
+          <Text v="h6">Lorem ipsum dolor sit, amet consectetur adipisicing</Text>
         </PanelHeader>
         <PanelBody>
           <Text>
@@ -49,7 +49,7 @@ export const basic = () => (
       </Panel>
       <Panel>
         <PanelHeader>
-          <Text as="h6">Lorem ipsum dolor sit, amet consectetur adipisicing</Text>
+          <Text v="h6">Lorem ipsum dolor sit, amet consectetur adipisicing</Text>
         </PanelHeader>
         <PanelBody>
           <Text>
@@ -63,7 +63,7 @@ export const basic = () => (
       </Panel>
       <Panel>
         <PanelHeader>
-          <Text as="h6">Lorem ipsum dolor sit, amet consectetur adipisicing</Text>
+          <Text v="h6">Lorem ipsum dolor sit, amet consectetur adipisicing</Text>
         </PanelHeader>
         <PanelBody>
           <Text>
@@ -77,7 +77,7 @@ export const basic = () => (
       </Panel>
       <Panel>
         <PanelHeader>
-          <Text as="h6">Lorem ipsum dolor sit, amet consectetur adipisicing</Text>
+          <Text v="h6">Lorem ipsum dolor sit, amet consectetur adipisicing</Text>
         </PanelHeader>
         <PanelBody>
           <Text>
