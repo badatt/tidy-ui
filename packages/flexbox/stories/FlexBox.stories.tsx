@@ -1,10 +1,9 @@
 import React from 'react';
-import { Divider } from '@tidy-ui/layout';
 import { Text } from '@tidy-ui/presentation';
 import { FlexBox } from '../src';
 import { TAlignContent, TAlignItems, TFlexDirection, TFlexWrap, TJustifyContent } from '../src/types';
 import { Ctx, FlexBoxProvider } from './FlexBoxProvider';
-import { StyledFlexBox, StyledFlexItem, StyledText } from './components';
+import { Divider, StyledFlexBox, StyledFlexItem, StyledText } from './components';
 
 export default {
   component: FlexBox,
