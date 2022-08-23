@@ -13,7 +13,8 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/divider": "^0.7.7"
+    "@tidy-ui/divider": "^0.7.7",
+    "@tidy-ui/flexbox": "^0.7.7"
   },
   "peerDependencies": {
     "react": "^18.0.0",

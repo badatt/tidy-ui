@@ -46,4 +46,8 @@ const StyledTextLabel = styled(Text)`
   left: 50%;
 `;
 
-export { StyledFlexBox, StyledFlexItem, StyledText, StyledTextLabel };
+const Divider = styled.hr<{ margin: string }>`
+  margin-top: ${({ margin }) => margin} 0;
+`;
+
+export { Divider, StyledFlexBox, StyledFlexItem, StyledText, StyledTextLabel };
