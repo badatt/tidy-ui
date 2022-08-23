@@ -5,7 +5,7 @@ import { IBaseProps, TSize, TTone } from '@tidy-ui/types';
  * Button variants
  *
  * `primary` -> For most significant actions in a page. If at all, only one recommended in a page
- *  <br />
+ * <br />
  * `outlined` -> Second most significant actions, can be multiple
  * <br />
  * `hero` -> Like a banner on a page, use this if you want to standout the action you want

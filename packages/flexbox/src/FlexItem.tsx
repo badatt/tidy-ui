@@ -31,6 +31,9 @@ const FlexItemRoot = styled.div<IFlexItemProps>`
   `}
 `;
 
+/**
+ * FlexItem to be kept under FlexBox, comes with all css props
+ */
 const FlexItem = forwardRef<HTMLDivElement, IFlexItemProps>((props, ref) => {
   const { children, ...rest } = props;
   return (

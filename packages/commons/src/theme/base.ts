@@ -1,6 +1,6 @@
 import { ITidyUIBaseTheme } from '@tidy-ui/types';
 
-export const defaultBase: ITidyUIBaseTheme = {
+const defaultBase: ITidyUIBaseTheme = {
   breakpoints: {
     lg: 1200,
     md: 900,
@@ -123,3 +123,5 @@ export const defaultBase: ITidyUIBaseTheme = {
     },
   },
 };
+
+export { defaultBase };

@@ -50,6 +50,10 @@ const FlexBoxRoot = styled.div<IFlexBoxProps>`
   `}
 `;
 
+/**
+ * FlexBox can be used to create layout components with css flex properties. It also
+ * has some presets like, centering items inside a component both main and cross axis
+ */
 const FlexBox = forwardRef<HTMLDivElement, IFlexBoxProps>((props, ref) => {
   const { children, ...r } = props;
   const [rest, setRest] = useState<IFlexBoxProps>(r);

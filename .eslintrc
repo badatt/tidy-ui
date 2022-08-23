@@ -48,7 +48,15 @@
       }
     ],
     "simple-import-sort/exports": "error",
-    "jsdoc/require-description": 1,
+    "jsdoc/check-indentation": 1,
+    "jsdoc/check-line-alignment": 1,
+    "jsdoc/check-syntax": 1,
+    "jsdoc/require-description": [
+      "error",
+      {
+        "contexts": ["any"]
+      }
+    ],
     "jsdoc/check-tag-names": ["error", { "definedTags": ["jest-environment"] }],
     "jsdoc/no-undefined-types": [
       "error",
@@ -62,11 +70,19 @@
           "ArrowFunctionExpression",
           "ClassDeclaration",
           "ClassExpression",
+          "ClassProperty[accessibility='public']",
+          "ExportNamedDeclaration > VariableDeclaration",
           "FunctionDeclaration",
           "FunctionExpression",
+          "MethodDefinition",
+          "TSDeclareFunction",
+          "TSEnumDeclaration",
           "TSInterfaceDeclaration",
           "TSMethodSignature",
-          "TSPropertySignature"
+          "TSModuleDeclaration",
+          "TSPropertySignature",
+          "TSTypeAliasDeclaration",
+          "MethodDefinition"
         ],
         "require": {
           "ArrowFunctionExpression": true,

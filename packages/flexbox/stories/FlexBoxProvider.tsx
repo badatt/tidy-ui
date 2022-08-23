@@ -69,14 +69,12 @@ const FlexBoxProvider = ({ children, size }: IFlexBoxProvider) => {
             Reset ({count})
           </Button>
         </ButtonGroup>
-        <FlexItem>
-          <FlexBox gap="0.5rem" ali="center">
-            <LabelFlexBox h="24px" w="24px" />
-            <Text>FlexBox</Text>
-            <LabelFlexItem />
-            <Text>FlexItem</Text>
-          </FlexBox>
-        </FlexItem>
+        <FlexBox gap="0.5rem" ali="center">
+          <LabelFlexBox h="24px" w="24px" />
+          <Text>FlexBox</Text>
+          <LabelFlexItem />
+          <Text>FlexItem</Text>
+        </FlexBox>
       </FlexBox>
       <br />
       {children}

@@ -3,7 +3,7 @@ import { defaultBase } from './base';
 import { amber, blue, green, neutral, pink, purple, red } from './colors';
 import { createColor } from './utils';
 
-export const paletteVariant = {
+const paletteVariant = {
   // Red
   danger: createColor(red),
 
@@ -24,7 +24,7 @@ export const paletteVariant = {
   warning: createColor(amber),
 };
 
-export const theme: ITidyUITheme = {
+const theme: ITidyUITheme = {
   isDark: false,
   name: 'Orchid Light',
   ...defaultBase,
@@ -43,3 +43,5 @@ export const theme: ITidyUITheme = {
     },
   },
 };
+
+export { paletteVariant, theme };

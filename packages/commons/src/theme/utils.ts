@@ -7,7 +7,7 @@ import { IColor, IHsla } from '@tidy-ui/types';
  * @param {number} alpha alpha attribute to override
  * @returns {string} hsla representation of the color
  */
-export const hsla = (p: IHsla, alpha: number = p.alpha): string =>
+const hsla = (p: IHsla, alpha: number = p.alpha): string =>
   `hsla(${p.hue}, ${p.saturation}%, ${p.luminosity}%, ${alpha})`;
 
 /**
@@ -16,7 +16,7 @@ export const hsla = (p: IHsla, alpha: number = p.alpha): string =>
  * @param {Record<number, IHsla>} p color record
  * @returns {IColor} shades for a color
  */
-export const createColor = (p: Record<number, IHsla>): IColor => {
+const createColor = (p: Record<number, IHsla>): IColor => {
   return {
     100: hsla(p[100]),
     200: hsla(p[200]),
@@ -31,3 +31,5 @@ export const createColor = (p: Record<number, IHsla>): IColor => {
     shades: p,
   };
 };
+
+export { createColor, hsla };

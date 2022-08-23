@@ -53,9 +53,9 @@ export interface ITagProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
    * The size of the component
    *
-   * default 'md'
    *
    * @type {?TSize}
+   * @default 'md'
    */
   size?: TSize;
 
@@ -89,9 +89,8 @@ export interface ITagGroupProps extends IBaseProps, HTMLAttributes<HTMLDivElemen
   /**
    * The size of the add new tag button
    *
-   * default 'md'
-   *
    * @type {?TSize}
+   * @default 'md'
    */
   size?: TSize;
 
@@ -105,7 +104,7 @@ export interface ITagGroupProps extends IBaseProps, HTMLAttributes<HTMLDivElemen
 }
 
 /**
- *
+ * New Tag input box props
  */
 export interface INewTagInput extends IBaseProps, HtmlHTMLAttributes<HTMLInputElement> {
   /**
@@ -116,7 +115,10 @@ export interface INewTagInput extends IBaseProps, HtmlHTMLAttributes<HTMLInputEl
    */
   tone?: TTone;
   /**
+   * The size of the add new tag input
    *
+   * @type {?TSize}
+   * @default 'md'
    */
   withSize?: TSize;
 }

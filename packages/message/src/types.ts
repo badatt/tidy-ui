@@ -15,7 +15,7 @@ export interface IMessageProps extends IBaseProps, HTMLAttributes<HTMLDivElement
 
   /**
    * Delay timer to remove the message widget.
-   *  When set to 0, the message is not removed automatically
+   * When set to 0, the message is not removed automatically
    * (in milliseconds)
    *
    * @type {?number}

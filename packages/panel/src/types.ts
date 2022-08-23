@@ -19,7 +19,7 @@ export interface IPanelContext {
 }
 
 /**
- * PanelProps
+ * Panel props
  */
 export interface IPanelProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
@@ -30,6 +30,9 @@ export interface IPanelProps extends IBaseProps, HTMLAttributes<HTMLDivElement> 
   expanded?: boolean;
 }
 
+/**
+ * PanelHeader props
+ */
 export type IPanelHeaderProps = IBaseProps | HTMLAttributes<HTMLDivElement>;
 
 /**
@@ -44,4 +47,7 @@ export interface IPanelBodyProps extends IBaseProps, HTMLAttributes<HTMLDivEleme
   visible?: boolean;
 }
 
+/**
+ * PanelGroup props
+ */
 export type IPanelGroupProps = IBaseProps | HTMLAttributes<HTMLDivElement>;
