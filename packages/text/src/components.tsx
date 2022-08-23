@@ -1,5 +1,5 @@
 import { css, LinkIcon, styled } from '@tidy-ui/commons';
-import { IDataFieldProps, ITextProps, TTextTypes } from './types';
+import { IDataFieldProps, ITextProps, TVariant } from './types';
 
 const TextLinkIcon = styled(LinkIcon)`
   height: 0.8em;
@@ -20,10 +20,10 @@ const TextLink = styled.a<ITextProps>`
  * @internal
  */
 const TextRoot = styled.div<ITextProps>`
-  ${({ theme: { palette, typography }, as, clr, bld, udl, itl, uc, lc, cc, dsb, exd, ctr, tnc }) => css`
+  ${({ theme: { palette, typography }, v, clr, bld, udl, itl, uc, lc, cc, dsb, exd, ctr, tnc }) => css`
     display: block;
     margin: 0;
-    font-size: ${typography[as!].fontSize};
+    font-size: ${typography[v!].fontSize};
     ${!dsb &&
     !clr &&
     css`
@@ -31,10 +31,10 @@ const TextRoot = styled.div<ITextProps>`
     `}
     ${!bld &&
     css`
-      font-weight: ${typography[as!].fontWeight};
+      font-weight: ${typography[v!].fontWeight};
     `}
-    letter-spacing: ${typography[as!].letterSpacing};
-    line-height: ${typography[as!].lineHeight};
+    letter-spacing: ${typography[v!].letterSpacing};
+    line-height: ${typography[v!].lineHeight};
     ${!dsb &&
     clr &&
     css`
@@ -95,8 +95,8 @@ const TextRoot = styled.div<ITextProps>`
  * @param {ITextProps} props props
  * @returns {string} html element
  */
-const htmlElement = (props: ITextProps): TTextTypes => {
-  switch (props.as) {
+const htmlElement = (props: ITextProps): TVariant => {
+  switch (props.v) {
     case 'h1':
     case 'hero':
       return 'h1';

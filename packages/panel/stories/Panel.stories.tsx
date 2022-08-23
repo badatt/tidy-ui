@@ -18,7 +18,7 @@ export const basic = () => (
   <Container>
     <Panel>
       <PanelHeader>
-        <Text as="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
+        <Text v="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
       </PanelHeader>
       <PanelBody>
         <Text>
@@ -33,7 +33,7 @@ export const basic = () => (
     </Panel>
     <Panel expanded>
       <PanelHeader>
-        <Text as="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
+        <Text v="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
       </PanelHeader>
       <PanelBody>
         <Text>

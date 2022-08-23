@@ -4,10 +4,10 @@ import { IBaseProps, TTone } from '@tidy-ui/types';
 /**
  * Types of text variants
  *
- * @typedef {TTextTypes}
+ * @typedef {TVariant}
  * @public
  */
-export type TTextTypes =
+export type TVariant =
   | 'hero'
   | 'title1'
   | 'title2'
@@ -34,15 +34,7 @@ export type TTextTypes =
  * @augments {HTMLAttributes<HTMLDivElement>}
  * @public
  */
-export interface ITextProps extends HTMLAttributes<HTMLDivElement> {
-  /**
-   * Text variant, the html component that this text represents
-   *
-   * @type {?TTextTypes}
-   * @default 'body2'
-   */
-  as?: TTextTypes;
-
+export interface ITextProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
    * If `true`, creates bold text
    *
@@ -138,6 +130,14 @@ export interface ITextProps extends HTMLAttributes<HTMLDivElement> {
    * @default false
    */
   udl?: boolean;
+
+  /**
+   * Text variant, the html component that this text represents
+   *
+   * @type {?TVariant}
+   * @default 'body2'
+   */
+  v?: TVariant;
 }
 
 /**

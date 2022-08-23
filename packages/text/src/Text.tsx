@@ -8,11 +8,11 @@ import { ITextProps } from './types';
  *
  */
 const Text = forwardRef<HTMLElement, ITextProps>((props, ref) => {
-  const { children, as, href, ...rest } = props;
-  const ele = htmlElement({ as });
+  const { children, v, href, ...rest } = props;
+  const ele = htmlElement({ v });
 
   return (
-    <TextRoot role="contentinfo" ref={ref} as={ele} {...rest}>
+    <TextRoot role="contentinfo" ref={ref} as={ele} v={v} {...rest}>
       {children}
       {href && (
         <TextLink role="link" href={href}>
@@ -24,7 +24,6 @@ const Text = forwardRef<HTMLElement, ITextProps>((props, ref) => {
 });
 
 Text.defaultProps = {
-  as: 'body2',
   bld: false,
   cc: false,
   ctr: false,
@@ -35,6 +34,7 @@ Text.defaultProps = {
   tnc: false,
   uc: false,
   udl: false,
+  v: 'body2',
 };
 
 export { Text };
