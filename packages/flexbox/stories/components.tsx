@@ -46,14 +46,11 @@ const StyledTextLabel = styled(Text)`
   left: 50%;
 `;
 
-const Divider = styled.hr<{ /**
-cccccccccccccccccccccccccccc *
-cccccccccccccccccccccccccccc
-cccccccccccccccccccccccccccc
-cccccccccccccccccccccccccccc
-cccccccccccccccccccccccccccc
-cccccccccccccccccccccccccccc */
-margin: string }>`
+/** @internal */
+const Divider = styled.hr<{
+  /** @internal */
+  margin: string;
+}>`
   margin-top: ${({ margin }) => margin} 0;
 `;
 
