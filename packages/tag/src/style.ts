@@ -6,7 +6,7 @@ import { ITagProps } from './types';
  *
  * @internal
  */
-export const sizeStyles = {
+const sizeStyles = {
   lg: {
     addNewIconSize: '2rem',
     addNewTagInputWidth: '5rem',
@@ -41,7 +41,7 @@ export const sizeStyles = {
  *
  * @internal
  */
-export const filledContent = css<ITagProps>`
+const filledContent = css<ITagProps>`
   ${({ theme: { palette }, tone }) => css`
     background-color: ${palette[tone!][500]};
     color: ${palette[tone!][50]};
@@ -53,10 +53,12 @@ export const filledContent = css<ITagProps>`
  *
  * @internal
  */
-export const outlinedContent = css<ITagProps>`
+const outlinedContent = css<ITagProps>`
   ${({ theme: { palette, isDark }, tone }) => css`
     color: ${isDark ? palette[tone!][400] : palette[tone!][600]};
     background-color: ${isDark ? hsla(palette[tone!].shades[900], 0.3) : palette[tone!][100]};
     border: 1px solid ${isDark ? palette[tone!][600] : palette[tone!][300]};
   `}
 `;
+
+export { filledContent, outlinedContent, sizeStyles };

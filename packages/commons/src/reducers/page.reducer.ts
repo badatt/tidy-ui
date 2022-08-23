@@ -7,7 +7,7 @@ import { PageActions } from '../actions/page.actions';
  */
 export interface IPageState {
   /**
-   *
+   * Theme of the application
    */
   theme?: ITidyUITheme;
 

@@ -11,7 +11,7 @@ export interface IRootState {
   version?: string;
 }
 
-export const initialState: IRootState = {
+const initialState: IRootState = {
   version: '',
 };
 
@@ -34,3 +34,5 @@ const reducer = (prevState: IRootState, action: AppActionTypes): IRootState => {
 };
 
 export default reducer;
+
+export { initialState };

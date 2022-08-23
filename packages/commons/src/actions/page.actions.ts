@@ -1,11 +1,17 @@
 import { ITidyUITheme } from '@tidy-ui/types';
 import { ActionMap } from './types';
 
+/**
+ * Page actions
+ */
 export enum PageActions {
   SetTheme = 'SET_THEME',
   SetTitle = 'SET_TITLE',
 }
 
+/**
+ * Page payload
+ */
 type PagePayload = {
   /**
    * Sets the title
@@ -27,4 +33,7 @@ type PagePayload = {
   };
 };
 
+/**
+ * Page action types
+ */
 export type PageActionTypes = ActionMap<PagePayload>[keyof ActionMap<PagePayload>];

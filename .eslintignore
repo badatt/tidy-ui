@@ -4,4 +4,5 @@ coverage
 *.log
 dist
 **/*.spec.tsx
+**/*.spec.ts
 **/*.stories.tsx

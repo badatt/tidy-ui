@@ -1,6 +1,6 @@
 import { IHsla } from '@tidy-ui/types';
 
-export const neutral: Record<number, IHsla> = {
+const neutral: Record<number, IHsla> = {
   100: {
     alpha: 1,
     hue: 0,
@@ -63,7 +63,7 @@ export const neutral: Record<number, IHsla> = {
   },
 };
 
-export const purple: Record<number, IHsla> = {
+const purple: Record<number, IHsla> = {
   100: {
     alpha: 1,
     hue: 269,
@@ -126,7 +126,7 @@ export const purple: Record<number, IHsla> = {
   },
 };
 
-export const pink: Record<number, IHsla> = {
+const pink: Record<number, IHsla> = {
   100: {
     alpha: 1,
     hue: 326,
@@ -189,7 +189,7 @@ export const pink: Record<number, IHsla> = {
   },
 };
 
-export const blue: Record<number, IHsla> = {
+const blue: Record<number, IHsla> = {
   100: {
     alpha: 1,
     hue: 214,
@@ -252,7 +252,7 @@ export const blue: Record<number, IHsla> = {
   },
 };
 
-export const green: Record<number, IHsla> = {
+const green: Record<number, IHsla> = {
   100: {
     alpha: 1,
     hue: 141,
@@ -315,7 +315,7 @@ export const green: Record<number, IHsla> = {
   },
 };
 
-export const amber: Record<number, IHsla> = {
+const amber: Record<number, IHsla> = {
   100: {
     alpha: 1,
     hue: 48,
@@ -378,7 +378,7 @@ export const amber: Record<number, IHsla> = {
   },
 };
 
-export const red: Record<number, IHsla> = {
+const red: Record<number, IHsla> = {
   100: {
     alpha: 1,
     hue: 0,
@@ -440,3 +440,5 @@ export const red: Record<number, IHsla> = {
     saturation: 63,
   },
 };
+
+export { amber, blue, green, neutral, pink, purple, red };
