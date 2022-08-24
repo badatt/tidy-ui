@@ -8,22 +8,30 @@ import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidLight } from '@tidy-ui/commons';
 import { FlexBox } from '../src';
-import { TAlignContent, TAlignItems, TFlexDirection, TFlexWrap, TJustifyContent } from '../src/types';
+import { IFlexBoxProps, TAlignContent, TAlignItems, TFlexDirection, TFlexWrap, TJustifyContent } from '../src/types';
 
-const height = '25rem';
-const count = 8;
+const height = '350px';
+
+const FlexBoxWrapper = (props: IFlexBoxProps) => {
+  return (
+    <FlexBox {...props}>
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>
+      <div>7</div>
+      <div>8</div>
+    </FlexBox>
+  );
+};
 
 describe('FlexBox', () => {
   it('Basic render', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <FlexBox h={height}>
-          {[...Array(count)].map((c, i) => (
-            <div key={i}>
-              <span>{i}</span>
-            </div>
-          ))}
-        </FlexBox>
+        <FlexBoxWrapper h={height} />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -34,13 +42,7 @@ describe('FlexBox', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {variants.map((v) => (
-          <FlexBox h={height} fld={v as TFlexDirection} key={v}>
-            {[...Array(count)].map((c, i) => (
-              <div key={i}>
-                <span>{i}</span>
-              </div>
-            ))}
-          </FlexBox>
+          <FlexBoxWrapper h={height} fld={v as TFlexDirection} />
         ))}
       </ThemeProvider>,
     );
@@ -52,13 +54,7 @@ describe('FlexBox', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {variants.map((v) => (
-          <FlexBox h={height} fwp={v as TFlexWrap} key={v}>
-            {[...Array(count)].map((c, i) => (
-              <div key={i}>
-                <span>{i}</span>
-              </div>
-            ))}
-          </FlexBox>
+          <FlexBoxWrapper h={height} fwp={v as TFlexWrap} />
         ))}
       </ThemeProvider>,
     );
@@ -68,13 +64,7 @@ describe('FlexBox', () => {
   it('Centered', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <FlexBox ctr>
-          {[...Array(count)].map((c, i) => (
-            <div key={i}>
-              <span>{i}</span>
-            </div>
-          ))}
-        </FlexBox>
+        <FlexBoxWrapper ctr />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -83,13 +73,7 @@ describe('FlexBox', () => {
   it('Centered with height set', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <FlexBox ctr h={height}>
-          {[...Array(count)].map((c, i) => (
-            <div key={i}>
-              <span>{i}</span>
-            </div>
-          ))}
-        </FlexBox>
+        <FlexBoxWrapper ctr h={height} />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -98,13 +82,7 @@ describe('FlexBox', () => {
   it('Full height', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <FlexBox fuh>
-          {[...Array(count)].map((c, i) => (
-            <div key={i}>
-              <span>{i}</span>
-            </div>
-          ))}
-        </FlexBox>
+        <FlexBoxWrapper fuh />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -113,13 +91,7 @@ describe('FlexBox', () => {
   it('Gap', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <FlexBox gap=".5rem" h={height}>
-          {[...Array(count)].map((c, i) => (
-            <div key={i}>
-              <span>{i}</span>
-            </div>
-          ))}
-        </FlexBox>
+        <FlexBoxWrapper gap="8px" h={height} />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -128,13 +100,7 @@ describe('FlexBox', () => {
   it('Column gap', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <FlexBox cgp=".5rem" h={height}>
-          {[...Array(count)].map((c, i) => (
-            <div key={i}>
-              <span>{i}</span>
-            </div>
-          ))}
-        </FlexBox>
+        <FlexBoxWrapper cgp="8px" h={height} />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -143,13 +109,7 @@ describe('FlexBox', () => {
   it('Row gap', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <FlexBox rgp=".5rem" h={height}>
-          {[...Array(count)].map((c, i) => (
-            <div key={i}>
-              <span>{i}</span>
-            </div>
-          ))}
-        </FlexBox>
+        <FlexBoxWrapper rgp="8px" h={height} />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -176,13 +136,7 @@ describe('FlexBox', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {variants.map((v) => (
-          <FlexBox h={height} alc={v as TAlignContent} key={v}>
-            {[...Array(count)].map((c, i) => (
-              <div key={i}>
-                <span>{i}</span>
-              </div>
-            ))}
-          </FlexBox>
+          <FlexBoxWrapper h={height} alc={v as TAlignContent} />
         ))}
       </ThemeProvider>,
     );
@@ -209,13 +163,7 @@ describe('FlexBox', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {variants.map((v) => (
-          <FlexBox h={height} ali={v as TAlignItems} key={v}>
-            {[...Array(count)].map((c, i) => (
-              <div key={i}>
-                <span>{i}</span>
-              </div>
-            ))}
-          </FlexBox>
+          <FlexBoxWrapper h={height} ali={v as TAlignItems} />
         ))}
       </ThemeProvider>,
     );
@@ -242,13 +190,7 @@ describe('FlexBox', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {variants.map((v) => (
-          <FlexBox h={height} jsc={v as TJustifyContent} key={v}>
-            {[...Array(count)].map((c, i) => (
-              <div key={i}>
-                <span>{i}</span>
-              </div>
-            ))}
-          </FlexBox>
+          <FlexBoxWrapper h={height} jsc={v as TJustifyContent} />
         ))}
       </ThemeProvider>,
     );
@@ -258,13 +200,7 @@ describe('FlexBox', () => {
   it('Width', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <FlexBox w="25rem">
-          {[...Array(count)].map((c, i) => (
-            <div key={i}>
-              <span>{i}</span>
-            </div>
-          ))}
-        </FlexBox>
+        <FlexBoxWrapper w="600px" />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -273,13 +209,7 @@ describe('FlexBox', () => {
   it('Flow', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <FlexBox flow="column wrap">
-          {[...Array(count)].map((c, i) => (
-            <div key={i}>
-              <span>{i}</span>
-            </div>
-          ))}
-        </FlexBox>
+        <FlexBoxWrapper flow="column wrap" />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
