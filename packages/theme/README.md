@@ -85,6 +85,7 @@ Tidy UI is a family of components necessary for your react application. The comp
 - react
 - styled-components
 - rollup
+- lerna
 
 ## Installation
 
