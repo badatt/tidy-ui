@@ -8,22 +8,30 @@ import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidDark, orchidLight } from '@tidy-ui/commons';
 import { FlexBox, FlexItem } from '../src';
-import { TAlignSelf } from '../src/types';
+import { IFlexBoxProps, IFlexItemProps, TAlignSelf } from '../src/types';
 
-const height = '25rem';
-const count = 24;
+const height = '350px';
+
+const FlexBoxWrapper = (props: { box: IFlexBoxProps; item: IFlexItemProps }) => {
+  return (
+    <FlexBox {...props.box}>
+      <FlexItem {...props.item}>1</FlexItem>
+      <FlexItem {...props.item}>2</FlexItem>
+      <FlexItem {...props.item}>3</FlexItem>
+      <FlexItem {...props.item}>4</FlexItem>
+      <FlexItem {...props.item}>5</FlexItem>
+      <FlexItem {...props.item}>6</FlexItem>
+      <FlexItem {...props.item}>7</FlexItem>
+      <FlexItem {...props.item}>8</FlexItem>
+    </FlexBox>
+  );
+};
 
 describe('FlexItem', () => {
   it('Basic render', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <FlexBox h={height}>
-          {[...Array(count)].map((c, i) => (
-            <FlexItem key={i}>
-              <span>{i}</span>
-            </FlexItem>
-          ))}
-        </FlexBox>
+        <FlexBoxWrapper box={{ h: height }} item={{}} />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -32,13 +40,7 @@ describe('FlexItem', () => {
   it('Flex', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <FlexBox h={height}>
-          {[...Array(count)].map((c, i) => (
-            <FlexItem key={i} flx="flex-grow">
-              <span>{i}</span>
-            </FlexItem>
-          ))}
-        </FlexBox>
+        <FlexBoxWrapper box={{ h: height }} item={{ flx: 'flex-grow' }} />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -47,13 +49,7 @@ describe('FlexItem', () => {
   it('Flex basis', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <FlexBox h={height}>
-          {[...Array(count)].map((c, i) => (
-            <FlexItem key={i} fbs="auto">
-              <span>{i}</span>
-            </FlexItem>
-          ))}
-        </FlexBox>
+        <FlexBoxWrapper box={{ h: height }} item={{ fbs: 'auto' }} />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -62,13 +58,7 @@ describe('FlexItem', () => {
   it('Flex shrink', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <FlexBox h={height}>
-          {[...Array(count)].map((c, i) => (
-            <FlexItem key={i} fsk={i % 3}>
-              <span>{i}</span>
-            </FlexItem>
-          ))}
-        </FlexBox>
+        <FlexBoxWrapper box={{ h: height }} item={{ fsk: 1 }} />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -77,13 +67,7 @@ describe('FlexItem', () => {
   it('Flex grow', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <FlexBox h={height}>
-          {[...Array(count)].map((c, i) => (
-            <FlexItem fgo={i % 3} key={i}>
-              <span>{i}</span>
-            </FlexItem>
-          ))}
-        </FlexBox>
+        <FlexBoxWrapper box={{ h: height }} item={{ fgo: 2 }} />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -92,13 +76,7 @@ describe('FlexItem', () => {
   it('Order', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <FlexBox h={height}>
-          {[...Array(count)].map((c, i) => (
-            <FlexItem ord={i % 3} key={i}>
-              <span>{i}</span>
-            </FlexItem>
-          ))}
-        </FlexBox>
+        <FlexBoxWrapper box={{ h: height }} item={{ ord: 2 }} />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -125,13 +103,7 @@ describe('FlexItem', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {variants.map((v) => (
-          <FlexBox h={height} key={v}>
-            {[...Array(count)].map((c, i) => (
-              <FlexItem als={v as TAlignSelf} key={i}>
-                <span>{i}</span>
-              </FlexItem>
-            ))}
-          </FlexBox>
+          <FlexBoxWrapper box={{ h: height }} item={{ als: v as TAlignSelf }} />
         ))}
       </ThemeProvider>,
     );
