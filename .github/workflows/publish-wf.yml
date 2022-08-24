@@ -12,6 +12,7 @@ jobs:
     if: "${{ !startsWith(github.event.head_commit.message, 'chore: publish') }}"
     env:
       CI: true
+      FORCE_COLOR: true
     defaults:
       run:
         shell: bash
@@ -43,8 +44,6 @@ jobs:
 
       - name: Test
         run: yarn test
-        env:
-          FORCE_COLOR: true
 
       - name: SonarCloud Scan
         uses: sonarsource/sonarcloud-github-action@master
@@ -57,6 +56,12 @@ jobs:
     needs: vet
     runs-on: ubuntu-latest
     if: "${{ !startsWith(github.event.head_commit.message, 'chore: publish') }}"
+    env:
+      CI: true
+      FORCE_COLOR: true
+    defaults:
+      run:
+        shell: bash
 
     steps:
       - name: Check out the code
