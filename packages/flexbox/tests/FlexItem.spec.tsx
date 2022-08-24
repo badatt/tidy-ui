@@ -12,7 +12,7 @@ import { IFlexBoxProps, IFlexItemProps, TAlignSelf } from '../src/types';
 
 const height = '350px';
 
-const FlexBoxWrapper = (props: { box: IFlexBoxProps; item: IFlexItemProps }) => {
+function FlexBoxWrapper(props: { box: IFlexBoxProps; item: IFlexItemProps }) {
   return (
     <FlexBox {...props.box}>
       <FlexItem {...props.item}>1</FlexItem>
@@ -25,7 +25,7 @@ const FlexBoxWrapper = (props: { box: IFlexBoxProps; item: IFlexItemProps }) => 
       <FlexItem {...props.item}>8</FlexItem>
     </FlexBox>
   );
-};
+}
 
 describe('FlexItem', () => {
   it('Basic render', () => {
@@ -103,7 +103,7 @@ describe('FlexItem', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {variants.map((v) => (
-          <FlexBoxWrapper box={{ h: height }} item={{ als: v as TAlignSelf }} />
+          <FlexBoxWrapper box={{ h: height }} item={{ als: v as TAlignSelf }} key={v} />
         ))}
       </ThemeProvider>,
     );
