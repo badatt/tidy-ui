@@ -40,6 +40,8 @@ jobs:
 
       - name: Test
         run: yarn test
+        env:
+          FORCE_COLOR: true
 
       - name: SonarCloud Scan
         uses: sonarsource/sonarcloud-github-action@master
