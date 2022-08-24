@@ -12,7 +12,7 @@ import { IFlexBoxProps, TAlignContent, TAlignItems, TFlexDirection, TFlexWrap, T
 
 const height = '350px';
 
-const FlexBoxWrapper = (props: IFlexBoxProps) => {
+function FlexBoxWrapper(props: IFlexBoxProps) {
   return (
     <FlexBox {...props}>
       <div>1</div>
@@ -25,7 +25,7 @@ const FlexBoxWrapper = (props: IFlexBoxProps) => {
       <div>8</div>
     </FlexBox>
   );
-};
+}
 
 describe('FlexBox', () => {
   it('Basic render', () => {
@@ -42,7 +42,7 @@ describe('FlexBox', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {variants.map((v) => (
-          <FlexBoxWrapper h={height} fld={v as TFlexDirection} />
+          <FlexBoxWrapper h={height} fld={v as TFlexDirection} key={v} />
         ))}
       </ThemeProvider>,
     );
@@ -54,7 +54,7 @@ describe('FlexBox', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {variants.map((v) => (
-          <FlexBoxWrapper h={height} fwp={v as TFlexWrap} />
+          <FlexBoxWrapper h={height} fwp={v as TFlexWrap} key={v} />
         ))}
       </ThemeProvider>,
     );
@@ -136,7 +136,7 @@ describe('FlexBox', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {variants.map((v) => (
-          <FlexBoxWrapper h={height} alc={v as TAlignContent} />
+          <FlexBoxWrapper h={height} alc={v as TAlignContent} key={v} />
         ))}
       </ThemeProvider>,
     );
@@ -163,7 +163,7 @@ describe('FlexBox', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {variants.map((v) => (
-          <FlexBoxWrapper h={height} ali={v as TAlignItems} />
+          <FlexBoxWrapper h={height} ali={v as TAlignItems} key={v} />
         ))}
       </ThemeProvider>,
     );
@@ -190,7 +190,7 @@ describe('FlexBox', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {variants.map((v) => (
-          <FlexBoxWrapper h={height} jsc={v as TJustifyContent} />
+          <FlexBoxWrapper h={height} jsc={v as TJustifyContent} key={v} />
         ))}
       </ThemeProvider>,
     );
