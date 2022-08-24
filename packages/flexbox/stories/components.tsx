@@ -51,7 +51,8 @@ const Divider = styled.hr<{
   /** @internal */
   margin: string;
 }>`
-  margin-top: ${({ margin }) => margin} 0;
+  margin: ${({ margin }) => margin} 0;
+  border-top: 1px solid hsla(0, 0%, 32%, 0.7);
 `;
 
 export { Divider, StyledFlexBox, StyledFlexItem, StyledText, StyledTextLabel };
