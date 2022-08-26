@@ -8,7 +8,7 @@ import { IPaperProps } from './types';
  */
 const PaperRoot = styled.section<IPaperProps>`
   ${({ theme, sharp }) => css`
-    display: flex;
+    display: block;
     padding: 1rem;
     background-color: ${theme.palette.background.paper};
     border-radius: ${!sharp && theme.layout.radius};

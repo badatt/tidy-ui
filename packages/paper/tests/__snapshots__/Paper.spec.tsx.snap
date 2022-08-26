@@ -4,10 +4,7 @@ exports[`Paper Basic render 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   padding: 1rem;
   background-color: hsla(0,100%,100%,1);
   border-radius: 0.5rem;
@@ -27,10 +24,7 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   padding: 1rem;
   background-color: hsla(0,100%,100%,1);
   border-radius: 0.5rem;
@@ -105,10 +99,7 @@ exports[`Paper Dark mode basic render 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   padding: 1rem;
   background-color: hsla(217,33%,17%,1);
   border-radius: 0.5rem;
@@ -128,10 +119,7 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   padding: 1rem;
   background-color: hsla(217,33%,17%,1);
   border-radius: 0.5rem;
@@ -206,10 +194,7 @@ exports[`Paper Paper with sharp edges 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   padding: 1rem;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
@@ -228,10 +213,7 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   padding: 1rem;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;

@@ -95,6 +95,8 @@ export type TJustifyContent =
 export interface IFlexBoxProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
    * css `align-content` equivalent
+   *
+   * @default 'flex-start'
    */
   alc?: TAlignContent;
 
@@ -111,11 +113,15 @@ export interface IFlexBoxProps extends IBaseProps, HTMLAttributes<HTMLDivElement
    * If `true`, places the items inside flexbox center both on main and cross axis.
    * Set `align-content` & `justify-content` to center. Set to full height if height is not
    * provided
+   *
+   * @default false
    */
   ctr?: boolean;
 
   /**
    * css `flex-direction` equivalent
+   *
+   * @default 'row'
    */
   fld?: TFlexDirection;
 
@@ -126,11 +132,15 @@ export interface IFlexBoxProps extends IBaseProps, HTMLAttributes<HTMLDivElement
 
   /**
    * If `true`, set the FlexBox full height
+   *
+   * @default false
    */
   fuh?: boolean;
 
   /**
    * css `flex-wrap` equivalent
+   *
+   * @default 'wrap'
    */
   fwp?: TFlexWrap;
 
@@ -145,6 +155,8 @@ export interface IFlexBoxProps extends IBaseProps, HTMLAttributes<HTMLDivElement
 
   /**
    * css `justify-content` equivalent
+   *
+   * @default 'flex-start'
    */
   jsc?: TJustifyContent;
 

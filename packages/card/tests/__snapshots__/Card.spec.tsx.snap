@@ -29,10 +29,6 @@ Object {
 }
 
 .c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   padding-top: 0.5rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
@@ -41,10 +37,6 @@ Object {
 
 .c2 {
   padding: 0.5rem 1rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <body>
@@ -100,10 +92,6 @@ Object {
 }
 
 .c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   padding-top: 0.5rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
@@ -112,10 +100,6 @@ Object {
 
 .c2 {
   padding: 0.5rem 1rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <div>
@@ -248,10 +232,6 @@ Object {
 }
 
 .c6 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   padding-top: 0.5rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
@@ -260,10 +240,6 @@ Object {
 
 .c5 {
   padding: 0.5rem 1rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <body>
@@ -359,10 +335,6 @@ Object {
 }
 
 .c6 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   padding-top: 0.5rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
@@ -371,10 +343,6 @@ Object {
 
 .c5 {
   padding: 0.5rem 1rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <div>
@@ -518,10 +486,6 @@ Object {
 }
 
 .c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   padding-top: 0.5rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
@@ -531,10 +495,6 @@ Object {
 
 .c2 {
   padding: 0.5rem 1rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <body>
@@ -628,10 +588,6 @@ Object {
 }
 
 .c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   padding-top: 0.5rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
@@ -641,10 +597,6 @@ Object {
 
 .c2 {
   padding: 0.5rem 1rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <div>
@@ -921,10 +873,6 @@ Object {
 }
 
 .c6 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   padding-top: 0.5rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
@@ -933,10 +881,6 @@ Object {
 
 .c5 {
   padding: 0.5rem 1rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <body>
@@ -1399,10 +1343,6 @@ Object {
 }
 
 .c6 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   padding-top: 0.5rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
@@ -1411,10 +1351,6 @@ Object {
 
 .c5 {
   padding: 0.5rem 1rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <div>
@@ -1788,10 +1724,6 @@ Object {
 }
 
 .c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   padding-top: 0.5rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
@@ -1800,10 +1732,6 @@ Object {
 
 .c2 {
   padding: 0.5rem 1rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <body>
@@ -1858,10 +1786,6 @@ Object {
 }
 
 .c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   padding-top: 0.5rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
@@ -1870,10 +1794,6 @@ Object {
 
 .c2 {
   padding: 0.5rem 1rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <div>
@@ -1985,10 +1905,6 @@ Object {
 }
 
 .c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   padding-top: 0.5rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
@@ -1997,10 +1913,6 @@ Object {
 
 .c2 {
   padding: 0.5rem 1rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <body>
@@ -2062,10 +1974,6 @@ Object {
 }
 
 .c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   padding-top: 0.5rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
@@ -2074,10 +1982,6 @@ Object {
 
 .c2 {
   padding: 0.5rem 1rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 <div>

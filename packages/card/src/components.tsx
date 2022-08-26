@@ -86,7 +86,6 @@ const CardRoot = styled.section<ICardProps>`
  * @internal
  */
 const CardFooterRoot = styled.footer<ICardFooterProps>`
-  display: flex;
   padding-top: 0.5rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
@@ -106,7 +105,6 @@ const CardFooterRoot = styled.footer<ICardFooterProps>`
  */
 const CardBodyRoot = styled.div`
   padding: 0.5rem 1rem;
-  display: flex;
 `;
 
 export { CardBodyRoot, CardFooterRoot, CardHeaderRoot, CardRoot, Icon, Link };
