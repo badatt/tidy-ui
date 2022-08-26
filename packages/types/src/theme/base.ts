@@ -10,13 +10,6 @@ import { DefaultTheme } from 'styled-components';
  */
 export interface ITidyUIBaseTheme extends DefaultTheme {
   /**
-   * Breakpoints for responsive design
-   *
-   * @type {IBreakpoints}
-   */
-  breakpoints: IBreakpoints;
-
-  /**
    * Layout configuration
    *
    * @type {ILayout}
@@ -32,47 +25,26 @@ export interface ITidyUIBaseTheme extends DefaultTheme {
 }
 
 /**
- * Breakpoints contract for responsive design
+ * Screen size variants
+ */
+export type TScreen = 'xs' | 'sm' | 'md' | 'lg' | 'xl';
+
+/**
+ * Screen props contract for responsive design
  *
- * @typedef {IBreakpoints}
- * @interface IBreakpoints
+ * @typedef {IScreenProps}
+ * @interface IScreenProps
  * @public
  */
-export interface IBreakpoints {
+export interface IScreenProps {
   /**
-   * Full HD monitors, HD laptop screens width breakpoint
-   *
-   * @type {number}
+   * Maximum width of the screen
    */
-  lg: number;
-
+  maxWidth: number;
   /**
-   * PC, Laptop, Notebook, Mac or standard monitor width breakpoint
-   *
-   * @type {number}
+   * Maximum width of the screen
    */
-  md: number;
-
-  /**
-   * Tablets screen width breakpoint
-   *
-   * @type {number}
-   */
-  sm: number;
-
-  /**
-   * TV, Ultra HD, 4K screen width breakpoint
-   *
-   * @type {number}
-   */
-  xl: number;
-
-  /**
-   * Mobile screen width breakpoint
-   *
-   * @type {number}
-   */
-  xs: number;
+  minWidth: number;
 }
 
 /**
@@ -89,6 +61,13 @@ export interface ILayout {
    * @type {string}
    */
   radius: string;
+
+  /**
+   * Screens details for responsive design
+   *
+   * @type {Record<TScreen, IScreenProps>}
+   */
+  screens: Record<TScreen, IScreenProps>;
 
   /**
    * Shadow configuration
