@@ -1,18 +1,23 @@
 import React from 'react';
 //import styled, { css, ThemeProvider } from 'styled-components';
 import { DecoratorFn } from '@storybook/react';
+import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 
 import { orchidLight, orchidDark, css, styled } from '@tidy-ui/commons';
 import { TidyUiProvider } from '@tidy-ui/commons';
+import additionalViePorts from './viewports';
 
 export const parameters = {
   backgrounds: {
     values: [],
   },
+  viewport: {
+    viewports: { ...additionalViePorts, ...INITIAL_VIEWPORTS },
+  },
 };
 
-const ThemeBlock = styled.div<{ left?: boolean; filled?: boolean }>(
-  ({ left, filled, theme: { palette } }) =>
+const ThemeBlock = styled.div<{ left?: boolean; filled?: boolean; padding?: string }>(
+  ({ left, filled, padding, theme: { palette } }) =>
     css`
       position: absolute;
       top: 0;
@@ -23,7 +28,7 @@ const ThemeBlock = styled.div<{ left?: boolean; filled?: boolean }>(
       height: 100vh;
       bottom: 0;
       overflow: auto;
-      padding: 1rem;
+      padding: ${padding};
       background: ${palette.background.default};
     `,
 );
@@ -32,18 +37,19 @@ export const withTheme: DecoratorFn = (StoryFn, context) => {
   // Get values from story parameter first, else fallback to globals
   const theme = context.parameters.theme || context.globals.theme;
   const storyTheme = theme === 'light' ? orchidLight : orchidDark;
+  const padding = ['Layout/Container'].includes(context.title) ? '0' : '1rem';
 
   switch (theme) {
     case 'side-by-side': {
       return (
         <>
           <TidyUiProvider theme={orchidLight}>
-            <ThemeBlock left>
+            <ThemeBlock left padding={padding}>
               <StoryFn />
             </ThemeBlock>
           </TidyUiProvider>
           <TidyUiProvider theme={orchidDark}>
-            <ThemeBlock>
+            <ThemeBlock padding={padding}>
               <StoryFn />
             </ThemeBlock>
           </TidyUiProvider>
@@ -53,7 +59,7 @@ export const withTheme: DecoratorFn = (StoryFn, context) => {
     default: {
       return (
         <TidyUiProvider theme={storyTheme}>
-          <ThemeBlock filled>
+          <ThemeBlock filled padding={padding}>
             <StoryFn />
           </ThemeBlock>
         </TidyUiProvider>
