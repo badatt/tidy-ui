@@ -18,6 +18,7 @@ const TidyUiProvider = (props: ITidyUiProviderProps): JSX.Element => {
   const [state, dispatch] = useReducer(mainReducer, initialState, initializer);
   const value = useMemo(() => ({ theme, ...rest }), [theme, rest]);
 
+  console.log('basic');
   useEffect(() => {
     dispatch({
       payload: {

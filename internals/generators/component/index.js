@@ -24,8 +24,8 @@ module.exports = {
       },
       {
         abortOnFail: true,
-        path: `${componentDest}/{{name}}/tsconfig.json`,
-        templateFile: `${templateDir}/tsconfig.json.hbs`,
+        path: `${componentDest}/{{name}}/tsconfig.build.json`,
+        templateFile: `${templateDir}/tsconfig.build.json.hbs`,
         type: 'add',
       },
       {

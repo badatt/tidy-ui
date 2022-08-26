@@ -50,6 +50,8 @@ export default {
     nodeResolve({ extensions, preferBuiltins: true }),
     commonjs(),
     terser(),
-    typescript(),
+    typescript({
+      tsconfig: `tsconfig.build.json`,
+    }),
   ],
 };

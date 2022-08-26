@@ -5,7 +5,7 @@
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:theme",
     "build:md": "markdown-include ../../.markdown.json",
-    "clean": "tsc --build --clean && rimraf -rf dist && rimraf -rf build",
+    "clean": "rimraf -rf dist && rimraf -rf build",
     "postinstall": "rm -rf node_modules/@types/react-native",
     "reset": "yarn clean && rimraf -rf node_modules",
     "vet": "yarn lint",

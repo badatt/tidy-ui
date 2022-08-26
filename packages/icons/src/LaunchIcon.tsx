@@ -7,6 +7,7 @@ import React, { HTMLAttributes } from 'react';
  * @returns {JSX.Element} SVG output
  */
 export default (props: HTMLAttributes<SVGElement>): JSX.Element => {
+  console.log('Launch');
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
