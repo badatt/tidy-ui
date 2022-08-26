@@ -4,7 +4,7 @@
   "readme": "README.md",
   "scripts": {
     "bootstrap": "npx lerna bootstrap && yarn install && npx husky install",
-    "build": "npx lerna exec -- yarn build",
+    "build": "npx lerna run build",
     "build-storybook": "build-storybook",
     "build:md": "markdown-include .markdown.json && npx lerna exec -- yarn build:md",
     "clean": "rimraf -rf coverage && npx lerna exec -- yarn clean",
