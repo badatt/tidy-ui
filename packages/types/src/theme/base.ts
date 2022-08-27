@@ -38,13 +38,9 @@ export type TScreen = 'xs' | 'sm' | 'md' | 'lg' | 'xl';
  */
 export interface IScreenProps {
   /**
-   * Maximum width of the screen
+   * Defines the breakpoints at which layout will change, adapting to different screen sizes.
    */
-  maxWidth: number;
-  /**
-   * Maximum width of the screen
-   */
-  minWidth: number;
+  breakpoint: number;
 }
 
 /**
