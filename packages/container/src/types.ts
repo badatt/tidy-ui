@@ -14,14 +14,14 @@ export interface IContainerProps extends IBaseProps, HTMLAttributes<HTMLDivEleme
   fixed?: boolean;
 
   /**
-   * Maxwidth of the container
+   * Creates a container with left and right padding
+   *
+   * @default '1.5rem'
    */
-  maxWidth?: TScreen;
+  gutter?: string;
 
   /**
-   * If `true`, creates a container without left and right padding
-   *
-   * @default false
+   * Maximum width of the container
    */
-  noGutters?: boolean;
+  maxWidth?: TScreen;
 }
