@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/commons",
-  "version": "0.8.3",
+  "version": "0.8.4",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:commons",
