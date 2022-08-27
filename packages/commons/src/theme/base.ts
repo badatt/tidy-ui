@@ -7,24 +7,19 @@ const defaultBase: ITidyUIBaseTheme = {
     radius: '0.5rem',
     screens: {
       lg: {
-        maxWidth: 1200,
-        minWidth: 1025,
+        breakpoint: 1200,
       },
       md: {
-        maxWidth: 1024,
-        minWidth: 769,
+        breakpoint: 992,
       },
       sm: {
-        maxWidth: 768,
-        minWidth: 481,
+        breakpoint: 768,
       },
       xl: {
-        maxWidth: Number.MAX_SAFE_INTEGER,
-        minWidth: 1201,
+        breakpoint: 1400,
       },
       xs: {
-        maxWidth: 480,
-        minWidth: 320,
+        breakpoint: 576,
       },
     },
     shadow:
