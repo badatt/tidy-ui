@@ -1,5 +1,5 @@
 import { HTMLAttributes } from 'react';
-import { IBaseProps } from 'packages/types/dist/src';
+import { IBaseProps } from '@tidy-ui/types';
 
 /**
  * PanelContext props

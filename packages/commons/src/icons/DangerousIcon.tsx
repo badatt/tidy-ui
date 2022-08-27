@@ -9,7 +9,6 @@ import { IIconProps } from '@tidy-ui/types';
  */
 export default (props: IIconProps): JSX.Element => {
   const { isOutlined, ...rest } = props;
-  console.log('Dangerous');
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

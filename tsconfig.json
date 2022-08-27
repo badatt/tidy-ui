@@ -4,5 +4,6 @@
     "paths": {
       "@tidy-ui/*": ["packages/*/src"]
     }
-  }
+  },
+  "include": ["packages/*/src/**/*", ".storybook", "**/stories", "**/tests"]
 }

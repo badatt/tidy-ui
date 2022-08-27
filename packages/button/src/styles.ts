@@ -30,6 +30,35 @@ const sizeStyles = {
   },
 };
 
+const filledButtonBg = css<IButtonProps>`
+  ${({ theme: { palette, isDark }, tone, disabled, gradient }) => css`
+    ${!disabled &&
+    css`
+      ${isDark
+        ? css`
+            box-shadow: 0 0 24px ${palette[tone!][800]};
+          `
+        : css`
+            box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+              ${palette[tone!][300]} 0px 10px 15px -3px, ${palette[tone!][300]} 0px 4px 6px -4px;
+          `}
+    `}
+    ${gradient
+      ? css`
+          background: linear-gradient(90deg, ${palette['major'][600]} 0%, ${palette['minor'][600]} 100%);
+          &:hover {
+            background: linear-gradient(90deg, ${palette['major'][700]} 0%, ${palette['minor'][700]} 100%);
+          }
+        `
+      : css`
+          background-color: ${palette[tone!][600]};
+          &:hover {
+            background-color: ${palette[tone!][700]};
+          }
+        `}
+  `}
+`;
+
 /**
  * Styles for a simple type button
  *
@@ -77,34 +106,11 @@ const basic = css<IButtonProps>`
  * @internal
  */
 const primary = css<IButtonProps>`
-  ${({ theme: { palette, isDark }, tone, disabled, gradient }) => css`
+  ${({ theme: { palette }, tone }) => css`
     color: ${palette[tone!][100]};
     background-color: ${palette[tone!][600]};
     border: none;
-    ${!disabled &&
-    css`
-      ${isDark
-        ? css`
-            box-shadow: 0 0 24px ${palette[tone!][800]};
-          `
-        : css`
-            box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-              ${palette[tone!][300]} 0px 10px 15px -3px, ${palette[tone!][300]} 0px 4px 6px -4px;
-          `}
-    `}
-    ${gradient
-      ? css`
-          background: linear-gradient(90deg, ${palette['major'][600]} 0%, ${palette['minor'][600]} 100%);
-          &:hover {
-            background: linear-gradient(90deg, ${palette['major'][700]} 0%, ${palette['minor'][700]} 100%);
-          }
-        `
-      : css`
-          background-color: ${palette[tone!][600]};
-          &:hover {
-            background-color: ${palette[tone!][700]};
-          }
-        `}
+    ${filledButtonBg}
   `}
 `;
 
@@ -133,7 +139,7 @@ const outlined = css<IButtonProps>`
  * @internal
  */
 const hero = css<IButtonProps>`
-  ${({ theme: { palette, isDark }, tone, disabled, gradient }) => css`
+  ${({ theme: { palette }, tone }) => css`
     padding: 1rem 1.5rem;
     border-radius: 0.75rem;
     font-size: 3rem;
@@ -143,30 +149,7 @@ const hero = css<IButtonProps>`
     width: 100%;
     text-align: center;
     justify-content: center;
-    ${!disabled &&
-    css`
-      ${isDark
-        ? css`
-            box-shadow: 0 0 24px ${palette[tone!][800]};
-          `
-        : css`
-            box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-              ${palette[tone!][300]} 0px 10px 15px -3px, ${palette[tone!][300]} 0px 4px 6px -4px;
-          `}
-    `}
-    ${gradient
-      ? css`
-          background: linear-gradient(90deg, ${palette['major'][600]} 0%, ${palette['minor'][600]} 100%);
-          &:hover {
-            background: linear-gradient(90deg, ${palette['major'][700]} 0%, ${palette['minor'][700]} 100%);
-          }
-        `
-      : css`
-          background-color: ${palette[tone!][600]};
-          &:hover {
-            background-color: ${palette[tone!][700]};
-          }
-        `}
+    ${filledButtonBg}
   `}
 `;
 
