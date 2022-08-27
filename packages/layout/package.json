@@ -13,6 +13,7 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
+    "@tidy-ui/container": "^0.8.5",
     "@tidy-ui/divider": "^0.8.5",
     "@tidy-ui/flexbox": "^0.8.5"
   },
