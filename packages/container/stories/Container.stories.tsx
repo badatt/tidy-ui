@@ -47,7 +47,7 @@ export const maxWidth = () => (
 );
 
 export const noGutters = () => (
-  <Container noGutters>
+  <Container gutter="0">
     <Content />
   </Container>
 );

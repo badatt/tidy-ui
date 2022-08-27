@@ -9,7 +9,7 @@ const ContainerRoot = styled.div<IContainerProps>`
     },
     fixed,
     maxWidth,
-    noGutters,
+    gutter,
   }) => css`
     margin-left: auto;
     margin-right: auto;
@@ -17,41 +17,40 @@ const ContainerRoot = styled.div<IContainerProps>`
     box-sizing: border-box;
     ${maxWidth &&
     css`
-      max-width: ${screens[maxWidth].minWidth}px;
+      max-width: ${screens[maxWidth].breakpoint}px;
     `}
-    ${!noGutters &&
+    ${gutter &&
     css`
-      padding-left: 1.5rem;
-      padding-right: 1.5rem;
+      padding: 0 ${gutter};
     `}
     ${devices.mobile} {
       ${fixed &&
       css`
-        max-width: ${screens.xs.minWidth}px;
+        max-width: ${screens.xs.breakpoint}px;
       `}
     }
     ${devices.tablet} {
       ${fixed &&
       css`
-        max-width: ${screens.sm.minWidth}px;
+        max-width: ${screens.sm.breakpoint}px;
       `}
     }
     ${devices.laptop} {
       ${fixed &&
       css`
-        max-width: ${screens.md.minWidth}px;
+        max-width: ${screens.md.breakpoint}px;
       `}
     }
     ${devices.desktop} {
       ${fixed &&
       css`
-        max-width: ${screens.lg.minWidth}px;
+        max-width: ${screens.lg.breakpoint}px;
       `}
     }
     ${devices.tv} {
       ${fixed &&
       css`
-        max-width: ${screens.xl.minWidth}px;
+        max-width: ${screens.xl.breakpoint}px;
       `}
     }
   `}
@@ -72,7 +71,7 @@ const Container = forwardRef<HTMLDivElement, IContainerProps>((props, ref) => {
 
 Container.defaultProps = {
   fixed: false,
-  noGutters: false,
+  gutter: '1.5rem',
 };
 
 export { Container };

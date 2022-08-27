@@ -65,7 +65,7 @@ describe('Container', () => {
   it('No gutters', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <Container noGutters>
+        <Container gutter="0">
           <Content />
         </Container>
       </ThemeProvider>,
