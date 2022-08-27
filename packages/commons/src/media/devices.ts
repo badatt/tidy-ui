@@ -25,8 +25,7 @@ const devices = {
         screens: { lg },
       },
     },
-  }: IDeviceThemeProps): string =>
-    `@media only screen and (min-width: ${lg.minWidth}px) and (max-width: ${lg.maxWidth}px)`,
+  }: IDeviceThemeProps): string => `@media only screen and (min-width: ${lg.breakpoint}px)`,
   /**
    * Laptop device
    *
@@ -39,8 +38,7 @@ const devices = {
         screens: { md },
       },
     },
-  }: IDeviceThemeProps): string =>
-    `@media only screen and (min-width: ${md.minWidth}px) and (max-width: ${md.maxWidth}px)`,
+  }: IDeviceThemeProps): string => `@media only screen and (min-width: ${md.breakpoint}px)`,
   /**
    * Mobile device
    *
@@ -53,8 +51,7 @@ const devices = {
         screens: { xs },
       },
     },
-  }: IDeviceThemeProps): string =>
-    `@media only screen and (min-width: ${xs.minWidth}px) and (max-width: ${xs.maxWidth}px)`,
+  }: IDeviceThemeProps): string => `@media only screen and (min-width: ${xs.breakpoint}px)`,
   /**
    * Tablet device
    *
@@ -67,8 +64,7 @@ const devices = {
         screens: { sm },
       },
     },
-  }: IDeviceThemeProps): string =>
-    `@media only screen and (min-width: ${sm.minWidth}px) and (max-width: ${sm.maxWidth}px)`,
+  }: IDeviceThemeProps): string => `@media only screen and (min-width: ${sm.breakpoint}px)`,
   /**
    * Tv device
    *
@@ -81,8 +77,7 @@ const devices = {
         screens: { xl },
       },
     },
-  }: IDeviceThemeProps): string =>
-    `@media only screen and (min-width: ${xl.minWidth}px) and (max-width: ${xl.maxWidth}px)`,
+  }: IDeviceThemeProps): string => `@media only screen and (min-width: ${xl.breakpoint}px)`,
 };
 
 export { devices };
