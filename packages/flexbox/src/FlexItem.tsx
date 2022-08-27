@@ -3,7 +3,9 @@ import { css, styled } from '@tidy-ui/commons';
 import { IFlexItemProps } from './types';
 
 const FlexItemRoot = styled.div<IFlexItemProps>`
-  ${({ als, fbs, fgo, flx, fsk, ord }) => css`
+  position: relative;
+  display: block;
+  ${({ als, fbs, fgo, flx, fsk, fuw, ord, span }) => css`
     ${als &&
     css`
       align-self: ${als};
@@ -28,6 +30,16 @@ const FlexItemRoot = styled.div<IFlexItemProps>`
     css`
       order: ${ord};
     `}
+    ${span &&
+    span > 0 &&
+    !fuw &&
+    css`
+      width: ${() => (span / 24) * 100}%;
+    `}
+    ${fuw &&
+    css`
+      width: 100%;
+    `}
   `}
 `;
 
@@ -43,6 +55,8 @@ const FlexItem = forwardRef<HTMLDivElement, IFlexItemProps>((props, ref) => {
   );
 });
 
-FlexItem.defaultProps = {};
+FlexItem.defaultProps = {
+  fuw: false,
+};
 
 export { FlexItem };

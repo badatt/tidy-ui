@@ -52,3 +52,17 @@ export interface IIconProps extends HTMLAttributes<SVGElement> {
    */
   isOutlined?: boolean;
 }
+
+/**
+ * Creates array with length
+ */
+export type TCreateArrayWithLengthX<L extends number, A extends unknown[] = []> = A['length'] extends L
+  ? A
+  : TCreateArrayWithLengthX<L, [...A, 1]>;
+
+/**
+ * Numeric range type
+ */
+export type TNumericRange<S extends number[], E extends number, A extends number = never> = S['length'] extends E
+  ? A | E
+  : TNumericRange<[...S, 1], E, A | S['length']>;

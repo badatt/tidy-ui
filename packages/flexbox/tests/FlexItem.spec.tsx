@@ -6,7 +6,7 @@ import { render } from '@testing-library/react';
 import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidDark, orchidLight } from '@tidy-ui/commons';
+import { orchidLight } from '@tidy-ui/commons';
 import { FlexBox, FlexItem } from '../src';
 import { IFlexBoxProps, IFlexItemProps, TAlignSelf } from '../src/types';
 
@@ -41,6 +41,15 @@ describe('FlexItem', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <FlexBoxWrapper box={{ h: height }} item={{ flx: 'flex-grow' }} />
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Spanning', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        <FlexBoxWrapper box={{ h: height }} item={{ span: 6 }} />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -105,6 +114,15 @@ describe('FlexItem', () => {
         {variants.map((v) => (
           <FlexBoxWrapper box={{ h: height }} item={{ als: v as TAlignSelf }} key={v} />
         ))}
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Full width', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        <FlexBoxWrapper box={{ h: height }} item={{ fuw: true }} />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
