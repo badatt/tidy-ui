@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.5](https://github.com/badatt/tidy-ui/compare/v0.8.4...v0.8.5) (2022-08-27)
+
+**Note:** Version bump only for package @tidy-ui/theme
+
+
+
+
+
 ## [0.8.3](https://github.com/badatt/tidy-ui/compare/v0.8.2...v0.8.3) (2022-08-26)
 
 **Note:** Version bump only for package @tidy-ui/theme
