@@ -1,5 +1,5 @@
 import { HTMLAttributes } from 'react';
-import { IBaseProps } from '@tidy-ui/types';
+import { IBaseProps, TCreateArrayWithLengthX, TNumericRange } from '@tidy-ui/types';
 
 /**
  * `flex-direction` props
@@ -195,8 +195,21 @@ export interface IFlexItemProps extends IBaseProps, HTMLAttributes<HTMLDivElemen
    * css `flex=shrink` equivalent
    */
   fsk?: number;
+
+  /**
+   * If `true`, set the FlexItem full width
+   *
+   * @default false
+   */
+  fuw?: boolean;
+
   /**
    * css `order` equivalent
    */
   ord?: number;
+
+  /**
+   * spanning inside a FlexBox, 24 spans to 100% width, 1 spans to 1/24th percent width
+   */
+  span?: TNumericRange<TCreateArrayWithLengthX<1>, 24>;
 }

@@ -18,8 +18,6 @@ const StyledFlexBox = styled(FlexBox)<IFlexBoxProps>`
 `;
 
 const StyledFlexItem = styled(FlexItem)<IFlexItemProps>`
-  position: relative;
-  padding: 3rem;
   ${({ theme: { isDark } }) =>
     isDark
       ? css`
