@@ -3,11 +3,7 @@ import { css, devices, styled } from '@tidy-ui/commons';
 import { IItemProps } from './types';
 
 /** @internal */
-const getWidth = (span: number) => {
-  if (!span) return;
-  const width = (span / 24) * 100;
-  return `width: ${width}%`;
-};
+const getWidth = (span: number) => `width: ${(span / 24) * 100}%`;
 
 const ItemRoot = styled.div<IItemProps>`
   ${({ xs, sm, md, lg, xl }) => css`
