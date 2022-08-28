@@ -1,15 +1,25 @@
 import React from 'react';
-import { styled } from '@tidy-ui/commons';
+import { amber, css, hsla, styled } from '@tidy-ui/commons';
 import { Container } from '../src';
+import { IContainerProps } from '../src/types';
 
 export default {
   component: Container,
   title: 'Layout/Container',
 };
 
-const InnerDiv = styled.div`
-  background-color: #cfe8fc;
+const InnerDiv = styled.div<IContainerProps>`
   height: 100vh;
+  ${({ theme: { isDark } }) =>
+    isDark
+      ? css`
+          background-color: ${hsla(amber[900], 0.2)};
+          color: ${hsla(amber[300])}; ;
+        `
+      : css`
+          background-color: ${hsla(amber[100], 0.8)};
+          color: ${hsla(amber[900])};
+        `}
 `;
 
 const Content = () => <InnerDiv></InnerDiv>;
