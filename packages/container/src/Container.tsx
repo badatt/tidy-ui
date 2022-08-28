@@ -23,36 +23,24 @@ const ContainerRoot = styled.div<IContainerProps>`
     css`
       padding: 0 ${gutter};
     `}
-    ${devices.mobile} {
-      ${fixed &&
-      css`
+    ${fixed &&
+    css`
+      ${devices.mobile} {
         max-width: ${screens.xs.breakpoint}px;
-      `}
-    }
-    ${devices.tablet} {
-      ${fixed &&
-      css`
+      }
+      ${devices.tablet} {
         max-width: ${screens.sm.breakpoint}px;
-      `}
-    }
-    ${devices.laptop} {
-      ${fixed &&
-      css`
+      }
+      ${devices.laptop} {
         max-width: ${screens.md.breakpoint}px;
-      `}
-    }
-    ${devices.desktop} {
-      ${fixed &&
-      css`
+      }
+      ${devices.desktop} {
         max-width: ${screens.lg.breakpoint}px;
-      `}
-    }
-    ${devices.tv} {
-      ${fixed &&
-      css`
+      }
+      ${devices.tv} {
         max-width: ${screens.xl.breakpoint}px;
-      `}
-    }
+      }
+    `}
   `}
 `;
 

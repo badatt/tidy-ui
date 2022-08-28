@@ -5,6 +5,7 @@ import { IFlexItemProps } from './types';
 const FlexItemRoot = styled.div<IFlexItemProps>`
   position: relative;
   display: block;
+  min-height: 1px;
   ${({ als, fbs, fgo, flx, fsk, fuw, ord, span }) => css`
     ${als &&
     css`

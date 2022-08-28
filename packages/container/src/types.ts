@@ -6,8 +6,7 @@ import { IBaseProps, TScreen } from '@tidy-ui/types';
  */
 export interface IContainerProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * If `true`, creates a full width container,
-   * spanning the entire width of the viewport
+   * If `true`, creates a responsive container that changes maximum width based on device breakpoints
    *
    * @default false
    */
