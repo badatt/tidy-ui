@@ -25,6 +25,7 @@ import {
   LightModeIcon,
   LinkIcon,
   RemoveCircleIcon,
+  RemoveIcon,
   RotatingCircleIcon,
   WarningIcon,
 } from '../src';
@@ -58,6 +59,7 @@ const icons = [
   <LinkIcon />,
   <RemoveCircleIcon />,
   <RemoveCircleIcon isOutlined />,
+  <RemoveIcon />,
   <RotatingCircleIcon />,
   <WarningIcon />,
   <WarningIcon isOutlined />,

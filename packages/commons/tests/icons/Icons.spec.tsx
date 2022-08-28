@@ -20,6 +20,7 @@ import {
   LaunchIcon,
   LinkIcon,
   RotatingCircleIcon,
+  RemoveIcon,
   WarningIcon,
 } from '../../src';
 
@@ -41,6 +42,7 @@ const icons = [
   <LaunchIcon />,
   <LinkIcon />,
   <RotatingCircleIcon />,
+  <RemoveIcon />,
   <WarningIcon />,
   <WarningIcon isOutlined />,
 ];
