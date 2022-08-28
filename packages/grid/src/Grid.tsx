@@ -12,10 +12,22 @@ const GridRoot = styled.div<IGridProps>`
     },
     fixed,
     gutter,
+    spacing,
   }) => css`
     ${gutter &&
     css`
       padding: 0 ${gutter};
+    `}
+    ${spacing &&
+    css`
+      margin-left: ${Math.ceil(spacing) / -2}px;
+      margin-right: ${Math.floor(spacing) / -2}px;
+      & > * {
+        padding-left: ${Math.ceil(spacing) / 2}px;
+        padding-right: ${Math.floor(spacing) / 2}px;
+        padding-top: ${Math.ceil(spacing) / 2}px;
+        padding-bottom: ${Math.floor(spacing) / 2}px;
+      }
     `}
     ${fixed &&
     css`
@@ -59,7 +71,6 @@ const Grid = forwardRef<HTMLDivElement, IGridProps>((props, ref) => {
 
 Grid.defaultProps = {
   fixed: false,
-  gutter: '0.25rem',
 };
 
 export { Grid };
