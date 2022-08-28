@@ -1,13 +1,27 @@
 const viewports = {
-  Laptop: {
-    name: 'Laptop',
+  Tablet: {
+    name: 'Tablet',
+    styles: {
+      width: '820px',
+      height: '560px',
+    },
+  },
+  Laptop1: {
+    name: 'Laptop1',
+    styles: {
+      width: '1024px',
+      height: '768px',
+    },
+  },
+  Laptop2: {
+    name: 'Laptop2',
     styles: {
       width: '1366px',
       height: '768px',
     },
   },
-  LaptopHD: {
-    name: 'Laptop HD',
+  Desktop: {
+    name: 'Desktop',
     styles: {
       width: '1920px',
       height: '1080px',
