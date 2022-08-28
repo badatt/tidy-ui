@@ -9,5 +9,6 @@ export { default as ExpandMoreIcon } from './ExpandMoreIcon';
 export { default as InfoIcon } from './InfoIcon';
 export { default as LaunchIcon } from './LaunchIcon';
 export { default as LinkIcon } from './LinkIcon';
+export { default as RemoveIcon } from './RemoveIcon';
 export { default as RotatingCircleIcon } from './RotatingCircleIcon';
 export { default as WarningIcon } from './WarningIcon';
