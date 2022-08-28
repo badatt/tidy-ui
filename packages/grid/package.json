@@ -56,7 +56,7 @@
     "ui",
     "ui-components"
   ],
-  "description": "tidy-ui react component library; 'grid package",
+  "description": "Grid component provides 24 sections horizontally with mobile first responsive layout. Shouldn't be confused with css grid, but a good replacement for it.",
   "publishConfig": {
     "access": "public"
   },
