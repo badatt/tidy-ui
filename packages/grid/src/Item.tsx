@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
 import { css, devices, styled } from '@tidy-ui/commons';
-import { IColProps } from './types';
+import { IItemProps } from './types';
 
 /** @internal */
 const getWidth = (span: number) => {
@@ -9,7 +9,7 @@ const getWidth = (span: number) => {
   return `width: ${width}%`;
 };
 
-const ColRoot = styled.div<IColProps>`
+const ItemRoot = styled.div<IItemProps>`
   ${({ xs, sm, md, lg, xl }) => css`
     float: left;
     position: relative;
@@ -33,20 +33,16 @@ const ColRoot = styled.div<IColProps>`
   `}
 `;
 
-/**
- * Col component represents each block in a grid layout that brings in responsiveness out of the box.
- * Default screen size responsiveness can be changed by overriding props
- */
-const Col = forwardRef<HTMLDivElement, IColProps>((props, ref) => {
+const Item = forwardRef<HTMLDivElement, IItemProps>((props, ref) => {
   const { children, ...rest } = props;
   return (
-    <ColRoot ref={ref} role="gridcell" {...rest}>
+    <ItemRoot ref={ref} role="gridcell" {...rest}>
       {children}
-    </ColRoot>
+    </ItemRoot>
   );
 });
 
-Col.defaultProps = {
+Item.defaultProps = {
   lg: 4,
   md: 6,
   sm: 8,
@@ -54,4 +50,4 @@ Col.defaultProps = {
   xs: 12,
 };
 
-export { Col };
+export { Item };

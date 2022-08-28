@@ -13,26 +13,21 @@ export interface IGridProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
    * Creates a grid with left and right padding
    *
-   * @default '0.25rem'
+   * @default '0.5rem'
    */
   gutter?: string;
-}
 
-/**
- * Row props
- */
-export interface IRowProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
    * Adds half the value as negative left & right margins (in px) to Row. Also, adds half
-   * the value as padding to each Col
+   * the value as padding to each Item
    */
-  gutter?: number;
+  spacing?: number;
 }
 
 /**
- * Col props
+ * Item props
  */
-export interface IColProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
+export interface IItemProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
    * Spanning for desktops
    */
