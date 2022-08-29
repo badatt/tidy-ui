@@ -121,17 +121,6 @@ Include required components with in the place holder `...`
 
 Visit the storybook and start using components in your app.
 
----
-
-<p align="center">
-  <a href="CHANGELOG.md">
-    <img src="https://img.shields.io/badge/dynamic/json?color=blue&label=changelog&query=%24.name&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fbadatt%2Ftidy-ui%2Freleases%2Flatest" />
-  </a>
-  <a href="https://github.com/badatt/tidy-ui/releases">
-    <img src="https://img.shields.io/badge/dynamic/json?color=blue&label=releases&query=%24.name&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fbadatt%2Ftidy-ui%2Freleases%2Flatest" />
-  </a>
-</p>
-
 ## Packages
 
 These are the packages that come under layout class of tidy-ui components
@@ -142,9 +131,34 @@ These are the packages that come under layout class of tidy-ui components
   </thead>
   <tbody>
   <tr>
+    <td>@tidy-ui/container</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/container"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/container"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/container"></td>
+  </tr>
+  <tr>
     <td>@tidy-ui/divider</td>
     <td><a href="https://www.npmjs.com/package/@tidy-ui/divider"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/divider"></a></td>
     <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/divider"></td>
   </tr>
-  
+  <tr>
+    <td>@tidy-ui/flexbox</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/flexbox"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/flexbox"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/flexbox"></td>
+  </tr>
+  <tr>
+    <td>@tidy-ui/grid</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/grid"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/grid"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/grid"></td>
+  </tr>
 </table>
+
+---
+
+<p align="center">
+  <a href="CHANGELOG.md">
+    <img src="https://img.shields.io/badge/dynamic/json?color=blue&label=changelog&query=%24.name&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fbadatt%2Ftidy-ui%2Freleases%2Flatest" />
+  </a>
+  <a href="https://github.com/badatt/tidy-ui/releases">
+    <img src="https://img.shields.io/badge/dynamic/json?color=blue&label=releases&query=%24.name&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fbadatt%2Ftidy-ui%2Freleases%2Flatest" />
+  </a>
+</p>

@@ -40,8 +40,6 @@ Include required components with in the place holder `...`
 
 #include "../../internals/md/storybook-link.md"
 
-#include "../../internals/md/footer.md"
-
 ## Packages
 
 These are the packages that come under layout class of tidy-ui components
@@ -52,9 +50,25 @@ These are the packages that come under layout class of tidy-ui components
   </thead>
   <tbody>
   <tr>
+    <td>@tidy-ui/container</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/container"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/container"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/container"></td>
+  </tr>
+  <tr>
     <td>@tidy-ui/divider</td>
     <td><a href="https://www.npmjs.com/package/@tidy-ui/divider"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/divider"></a></td>
     <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/divider"></td>
   </tr>
-  
+  <tr>
+    <td>@tidy-ui/flexbox</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/flexbox"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/flexbox"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/flexbox"></td>
+  </tr>
+  <tr>
+    <td>@tidy-ui/grid</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/grid"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/grid"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/grid"></td>
+  </tr>
 </table>
+
+#include "../../internals/md/footer.md"
