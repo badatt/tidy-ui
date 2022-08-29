@@ -7,22 +7,7 @@ export default {
   title: "{{properCase name}}/{{properCase name}}",
 };
 
-const Container = styled.div`
-  display: flex;
-  gap: 1rem;
-`;
-
-const Column = styled.div`
-  & > * {
-    margin-bottom: 8px;
-  }
-`;
-
 
 export const basic = () => (
-  <Container>
-    <Column>
-      <{{properCase name}}>basic</{{properCase name}}>
-    </Column>
-  </Container>
+  <{{properCase name}}>basic</{{properCase name}}>
 );
