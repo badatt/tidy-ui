@@ -36,4 +36,9 @@ export interface IDividerProps extends IBaseProps, HTMLAttributes<HTMLHRElement>
    * @default 'solid'
    */
   variant?: 'dashed' | 'dotted' | 'double' | 'groove' | 'hidden' | 'ridge' | 'solid';
+
+  /**
+   * If `true`, set the divider vertically
+   */
+  vertical?: boolean;
 }

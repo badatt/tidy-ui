@@ -25,6 +25,19 @@ describe('Divider', () => {
           veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero
           veniam!
         </Text>
+        <div style={{ display: 'flex' }}>
+          <Text>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sequi quam modi natus ipsum corrupti quis
+            laudantium reiciendis error quas, voluptate eligendi possimus temporibus ipsam! Eveniet voluptates natus
+            minima! Possimus.
+          </Text>
+          <Divider vertical />
+          <Text>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium ab magni assumenda, iure corporis
+            natus voluptas laborum error corrupti inventore hic aliquid, debitis adipisci necessitatibus repellendus
+            dolores ratione architecto.
+          </Text>
+        </div>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();

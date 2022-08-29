@@ -5,12 +5,22 @@ Object {
   "asFragment": [Function],
   "baseElement": .c1 {
   border-color: hsla(0,0%,45%,1);
-  margin: 0.5rem 0;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  border-width: 0px 0px thin;
   border-style: solid;
+  border-width: 0px 0px thin;
+  margin: 0.5rem 0;
+}
+
+.c2 {
+  border-color: hsla(0,0%,45%,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-style: solid;
+  margin: 0 0.5rem;
+  border-width: 0px thin 0px 0px;
 }
 
 .c0 {
@@ -44,16 +54,46 @@ Object {
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
       </p>
+      <div
+        style="display: flex;"
+      >
+        <p
+          class="c0"
+          role="contentinfo"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sequi quam modi natus ipsum corrupti quis laudantium reiciendis error quas, voluptate eligendi possimus temporibus ipsam! Eveniet voluptates natus minima! Possimus.
+        </p>
+        <hr
+          class="c2"
+          role="separator"
+        />
+        <p
+          class="c0"
+          role="contentinfo"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium ab magni assumenda, iure corporis natus voluptas laborum error corrupti inventore hic aliquid, debitis adipisci necessitatibus repellendus dolores ratione architecto.
+        </p>
+      </div>
     </div>
   </body>,
   "container": .c1 {
   border-color: hsla(0,0%,45%,1);
-  margin: 0.5rem 0;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  border-width: 0px 0px thin;
   border-style: solid;
+  border-width: 0px 0px thin;
+  margin: 0.5rem 0;
+}
+
+.c2 {
+  border-color: hsla(0,0%,45%,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-style: solid;
+  margin: 0 0.5rem;
+  border-width: 0px thin 0px 0px;
 }
 
 .c0 {
@@ -86,6 +126,26 @@ Object {
     >
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
     </p>
+    <div
+      style="display: flex;"
+    >
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sequi quam modi natus ipsum corrupti quis laudantium reiciendis error quas, voluptate eligendi possimus temporibus ipsam! Eveniet voluptates natus minima! Possimus.
+      </p>
+      <hr
+        class="c2"
+        role="separator"
+      />
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium ab magni assumenda, iure corporis natus voluptas laborum error corrupti inventore hic aliquid, debitis adipisci necessitatibus repellendus dolores ratione architecto.
+      </p>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -146,12 +206,12 @@ Object {
   "asFragment": [Function],
   "baseElement": .c1 {
   border-color: hsla(0,0%,45%,1);
-  margin: 0.5rem 0;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  border-width: 0px 0px thin;
   border-style: solid;
+  border-width: 0px 0px thin;
+  margin: 0.5rem 0;
 }
 
 .c0 {
@@ -189,12 +249,12 @@ Object {
   </body>,
   "container": .c1 {
   border-color: hsla(0,0%,45%,1);
-  margin: 0.5rem 0;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  border-width: 0px 0px thin;
   border-style: solid;
+  border-width: 0px 0px thin;
+  margin: 0.5rem 0;
 }
 
 .c0 {
@@ -287,42 +347,42 @@ Object {
   "asFragment": [Function],
   "baseElement": .c1 {
   border-color: hsla(271,91%,65%,1);
-  margin: 0.5rem 0;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  border-width: 0px 0px thin;
   border-style: solid;
+  border-width: 0px 0px thin;
+  margin: 0.5rem 0;
 }
 
 .c2 {
   border-color: hsla(0,0%,45%,1);
-  margin: 0.5rem 0;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  border-width: 0px 0px thick;
   border-style: solid;
+  border-width: 0px 0px thick;
+  margin: 0.5rem 0;
 }
 
 .c3 {
   border-color: hsla(0,0%,15%,1);
-  margin: 0.5rem 0;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  border-width: 0px 0px thin;
   border-style: solid;
+  border-width: 0px 0px thin;
+  margin: 0.5rem 0;
 }
 
 .c4 {
   border-color: hsla(0,0%,45%,1);
-  margin: 0.5rem 0;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  border-width: 0px 0px thin;
   border-style: dashed;
+  border-width: 0px 0px thin;
+  margin: 0.5rem 0;
 }
 
 .c0 {
@@ -384,42 +444,42 @@ Object {
   </body>,
   "container": .c1 {
   border-color: hsla(271,91%,65%,1);
-  margin: 0.5rem 0;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  border-width: 0px 0px thin;
   border-style: solid;
+  border-width: 0px 0px thin;
+  margin: 0.5rem 0;
 }
 
 .c2 {
   border-color: hsla(0,0%,45%,1);
-  margin: 0.5rem 0;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  border-width: 0px 0px thick;
   border-style: solid;
+  border-width: 0px 0px thick;
+  margin: 0.5rem 0;
 }
 
 .c3 {
   border-color: hsla(0,0%,15%,1);
-  margin: 0.5rem 0;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  border-width: 0px 0px thin;
   border-style: solid;
+  border-width: 0px 0px thin;
+  margin: 0.5rem 0;
 }
 
 .c4 {
   border-color: hsla(0,0%,45%,1);
-  margin: 0.5rem 0;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  border-width: 0px 0px thin;
   border-style: dashed;
+  border-width: 0px 0px thin;
+  margin: 0.5rem 0;
 }
 
 .c0 {
