@@ -3,7 +3,14 @@
 exports[`Grid Basic render 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c0 {
+  "baseElement": .c1 {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
+
+.c0 {
   margin-right: auto;
   margin-left: auto;
   box-sizing: border-box;
@@ -14,13 +21,6 @@ Object {
   content: '';
   clear: both;
   display: table;
-}
-
-.c1 {
-  float: left;
-  position: relative;
-  min-height: 1px;
-  width: 100%;
 }
 
 @media only screen and (min-width:576px) {
@@ -206,7 +206,14 @@ Object {
       </div>
     </div>
   </body>,
-  "container": .c0 {
+  "container": .c1 {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
+
+.c0 {
   margin-right: auto;
   margin-left: auto;
   box-sizing: border-box;
@@ -217,13 +224,6 @@ Object {
   content: '';
   clear: both;
   display: table;
-}
-
-.c1 {
-  float: left;
-  position: relative;
-  min-height: 1px;
-  width: 100%;
 }
 
 @media only screen and (min-width:576px) {
@@ -464,7 +464,14 @@ Object {
 exports[`Grid Custom layout 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c0 {
+  "baseElement": .c1 {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
+
+.c0 {
   margin-right: auto;
   margin-left: auto;
   box-sizing: border-box;
@@ -475,13 +482,6 @@ Object {
   content: '';
   clear: both;
   display: table;
-}
-
-.c1 {
-  float: left;
-  position: relative;
-  min-height: 1px;
-  width: 100%;
 }
 
 @media only screen and (min-width:576px) {
@@ -667,7 +667,14 @@ Object {
       </div>
     </div>
   </body>,
-  "container": .c0 {
+  "container": .c1 {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
+
+.c0 {
   margin-right: auto;
   margin-left: auto;
   box-sizing: border-box;
@@ -678,13 +685,6 @@ Object {
   content: '';
   clear: both;
   display: table;
-}
-
-.c1 {
-  float: left;
-  position: relative;
-  min-height: 1px;
-  width: 100%;
 }
 
 @media only screen and (min-width:576px) {
@@ -925,7 +925,14 @@ Object {
 exports[`Grid Fixed 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c0 {
+  "baseElement": .c1 {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
+
+.c0 {
   margin-right: auto;
   margin-left: auto;
   box-sizing: border-box;
@@ -936,43 +943,6 @@ Object {
   content: '';
   clear: both;
   display: table;
-}
-
-.c1 {
-  float: left;
-  position: relative;
-  min-height: 1px;
-  width: 100%;
-}
-
-@media only screen and (min-width:576px) {
-  .c0 {
-    width: 576px;
-  }
-}
-
-@media only screen and (min-width:768px) {
-  .c0 {
-    width: 768px;
-  }
-}
-
-@media only screen and (min-width:992px) {
-  .c0 {
-    width: 992px;
-  }
-}
-
-@media only screen and (min-width:1200px) {
-  .c0 {
-    width: 1200px;
-  }
-}
-
-@media only screen and (min-width:1400px) {
-  .c0 {
-    width: 1400px;
-  }
 }
 
 @media only screen and (min-width:576px) {
@@ -1002,6 +972,36 @@ Object {
 @media only screen and (min-width:1400px) {
   .c1 {
     width: 8.333333333333332%;
+  }
+}
+
+@media only screen and (min-width:576px) {
+  .c0 {
+    width: 576px;
+  }
+}
+
+@media only screen and (min-width:768px) {
+  .c0 {
+    width: 768px;
+  }
+}
+
+@media only screen and (min-width:992px) {
+  .c0 {
+    width: 992px;
+  }
+}
+
+@media only screen and (min-width:1200px) {
+  .c0 {
+    width: 1200px;
+  }
+}
+
+@media only screen and (min-width:1400px) {
+  .c0 {
+    width: 1400px;
   }
 }
 
@@ -1158,7 +1158,14 @@ Object {
       </div>
     </div>
   </body>,
-  "container": .c0 {
+  "container": .c1 {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
+
+.c0 {
   margin-right: auto;
   margin-left: auto;
   box-sizing: border-box;
@@ -1169,43 +1176,6 @@ Object {
   content: '';
   clear: both;
   display: table;
-}
-
-.c1 {
-  float: left;
-  position: relative;
-  min-height: 1px;
-  width: 100%;
-}
-
-@media only screen and (min-width:576px) {
-  .c0 {
-    width: 576px;
-  }
-}
-
-@media only screen and (min-width:768px) {
-  .c0 {
-    width: 768px;
-  }
-}
-
-@media only screen and (min-width:992px) {
-  .c0 {
-    width: 992px;
-  }
-}
-
-@media only screen and (min-width:1200px) {
-  .c0 {
-    width: 1200px;
-  }
-}
-
-@media only screen and (min-width:1400px) {
-  .c0 {
-    width: 1400px;
-  }
 }
 
 @media only screen and (min-width:576px) {
@@ -1235,6 +1205,36 @@ Object {
 @media only screen and (min-width:1400px) {
   .c1 {
     width: 8.333333333333332%;
+  }
+}
+
+@media only screen and (min-width:576px) {
+  .c0 {
+    width: 576px;
+  }
+}
+
+@media only screen and (min-width:768px) {
+  .c0 {
+    width: 768px;
+  }
+}
+
+@media only screen and (min-width:992px) {
+  .c0 {
+    width: 992px;
+  }
+}
+
+@media only screen and (min-width:1200px) {
+  .c0 {
+    width: 1200px;
+  }
+}
+
+@media only screen and (min-width:1400px) {
+  .c0 {
+    width: 1400px;
   }
 }
 
@@ -1446,7 +1446,14 @@ Object {
 exports[`Grid Gutter 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c0 {
+  "baseElement": .c1 {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
+
+.c0 {
   margin-right: auto;
   margin-left: auto;
   box-sizing: border-box;
@@ -1458,13 +1465,6 @@ Object {
   content: '';
   clear: both;
   display: table;
-}
-
-.c1 {
-  float: left;
-  position: relative;
-  min-height: 1px;
-  width: 100%;
 }
 
 @media only screen and (min-width:576px) {
@@ -1650,7 +1650,14 @@ Object {
       </div>
     </div>
   </body>,
-  "container": .c0 {
+  "container": .c1 {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
+
+.c0 {
   margin-right: auto;
   margin-left: auto;
   box-sizing: border-box;
@@ -1662,13 +1669,6 @@ Object {
   content: '';
   clear: both;
   display: table;
-}
-
-.c1 {
-  float: left;
-  position: relative;
-  min-height: 1px;
-  width: 100%;
 }
 
 @media only screen and (min-width:576px) {
@@ -1909,7 +1909,14 @@ Object {
 exports[`Grid Spacing 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c0 {
+  "baseElement": .c1 {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
+
+.c0 {
   margin-right: auto;
   margin-left: auto;
   box-sizing: border-box;
@@ -1929,13 +1936,6 @@ Object {
   content: '';
   clear: both;
   display: table;
-}
-
-.c1 {
-  float: left;
-  position: relative;
-  min-height: 1px;
-  width: 100%;
 }
 
 @media only screen and (min-width:576px) {
@@ -2122,7 +2122,14 @@ Object {
       </div>
     </div>
   </body>,
-  "container": .c0 {
+  "container": .c1 {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+}
+
+.c0 {
   margin-right: auto;
   margin-left: auto;
   box-sizing: border-box;
@@ -2142,13 +2149,6 @@ Object {
   content: '';
   clear: both;
   display: table;
-}
-
-.c1 {
-  float: left;
-  position: relative;
-  min-height: 1px;
-  width: 100%;
 }
 
 @media only screen and (min-width:576px) {

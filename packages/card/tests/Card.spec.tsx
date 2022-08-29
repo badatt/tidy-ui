@@ -8,7 +8,7 @@ import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidDark, orchidLight } from '@tidy-ui/commons';
 import { TTone } from '@tidy-ui/types';
-import { Card, CardBody, CardFooter, CardHeader } from '../src';
+import { Card } from '../src';
 
 const colors = ['major', 'minor', 'neutral', 'info', 'success', 'warning', 'danger'];
 
@@ -17,8 +17,8 @@ describe('Card', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Card>
-          <CardHeader>Lorem ipsum dolor sit amet consectetur.</CardHeader>
-          <CardBody>
+          <Card.Header>Lorem ipsum dolor sit amet consectetur.</Card.Header>
+          <Card.Body>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. A in libero accusantium sunt dolore repellat
             molestiae animi quod, cum dicta, quis rem fugiat harum quasi hic tempora aliquid! Aperiam, consectetur.
             Quisquam fuga eveniet et molestias beatae excepturi eaque porro officia! Veritatis, necessitatibus quam
@@ -28,8 +28,8 @@ describe('Card', () => {
             distinctio blanditiis incidunt amet hic cum dolorum assumenda? Recusandae! Ipsa et, esse enim quae
             laudantium placeat sequi nisi est consectetur omnis. Ducimus, vitae fuga? Dolorem dolor, qui nisi laudantium
             tenetur totam id quisquam voluptatem maxime molestiae libero provident commodi?
-          </CardBody>
-          <CardFooter>Lorem ipsum dolor sit amet.</CardFooter>
+          </Card.Body>
+          <Card.Footer>Lorem ipsum dolor sit amet.</Card.Footer>
         </Card>
       </ThemeProvider>,
     );
@@ -39,8 +39,8 @@ describe('Card', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
         <Card>
-          <CardHeader href="https://google.com">Lorem ipsum dolor sit amet consectetur.</CardHeader>
-          <CardBody>
+          <Card.Header href="https://google.com">Lorem ipsum dolor sit amet consectetur.</Card.Header>
+          <Card.Body>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. A in libero accusantium sunt dolore repellat
             molestiae animi quod, cum dicta, quis rem fugiat harum quasi hic tempora aliquid! Aperiam, consectetur.
             Quisquam fuga eveniet et molestias beatae excepturi eaque porro officia! Veritatis, necessitatibus quam
@@ -50,8 +50,8 @@ describe('Card', () => {
             distinctio blanditiis incidunt amet hic cum dolorum assumenda? Recusandae! Ipsa et, esse enim quae
             laudantium placeat sequi nisi est consectetur omnis. Ducimus, vitae fuga? Dolorem dolor, qui nisi laudantium
             tenetur totam id quisquam voluptatem maxime molestiae libero provident commodi?
-          </CardBody>
-          <CardFooter>Lorem ipsum dolor sit amet.</CardFooter>
+          </Card.Body>
+          <Card.Footer>Lorem ipsum dolor sit amet.</Card.Footer>
         </Card>
       </ThemeProvider>,
     );
@@ -61,8 +61,8 @@ describe('Card', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Card sharp>
-          <CardHeader>Lorem ipsum dolor sit amet consectetur.</CardHeader>
-          <CardBody>
+          <Card.Header>Lorem ipsum dolor sit amet consectetur.</Card.Header>
+          <Card.Body>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. A in libero accusantium sunt dolore repellat
             molestiae animi quod, cum dicta, quis rem fugiat harum quasi hic tempora aliquid! Aperiam, consectetur.
             Quisquam fuga eveniet et molestias beatae excepturi eaque porro officia! Veritatis, necessitatibus quam
@@ -72,8 +72,8 @@ describe('Card', () => {
             distinctio blanditiis incidunt amet hic cum dolorum assumenda? Recusandae! Ipsa et, esse enim quae
             laudantium placeat sequi nisi est consectetur omnis. Ducimus, vitae fuga? Dolorem dolor, qui nisi laudantium
             tenetur totam id quisquam voluptatem maxime molestiae libero provident commodi?
-          </CardBody>
-          <CardFooter>Lorem ipsum dolor sit amet.</CardFooter>
+          </Card.Body>
+          <Card.Footer>Lorem ipsum dolor sit amet.</Card.Footer>
         </Card>
       </ThemeProvider>,
     );
@@ -83,8 +83,8 @@ describe('Card', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Card href="https://google.com">
-          <CardHeader>Lorem ipsum dolor sit amet consectetur.</CardHeader>
-          <CardBody>
+          <Card.Header>Lorem ipsum dolor sit amet consectetur.</Card.Header>
+          <Card.Body>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. A in libero accusantium sunt dolore repellat
             molestiae animi quod, cum dicta, quis rem fugiat harum quasi hic tempora aliquid! Aperiam, consectetur.
             Quisquam fuga eveniet et molestias beatae excepturi eaque porro officia! Veritatis, necessitatibus quam
@@ -94,8 +94,8 @@ describe('Card', () => {
             distinctio blanditiis incidunt amet hic cum dolorum assumenda? Recusandae! Ipsa et, esse enim quae
             laudantium placeat sequi nisi est consectetur omnis. Ducimus, vitae fuga? Dolorem dolor, qui nisi laudantium
             tenetur totam id quisquam voluptatem maxime molestiae libero provident commodi?
-          </CardBody>
-          <CardFooter>Lorem ipsum dolor sit amet.</CardFooter>
+          </Card.Body>
+          <Card.Footer>Lorem ipsum dolor sit amet.</Card.Footer>
         </Card>
       </ThemeProvider>,
     );
@@ -106,13 +106,13 @@ describe('Card', () => {
       <ThemeProvider theme={orchidLight}>
         {colors.map((c) => (
           <Card accent={c as TTone} key={c}>
-            <CardHeader href="https://google.com">Lorem ipsum dolor sit amet.</CardHeader>
-            <CardBody>
+            <Card.Header href="https://google.com">Lorem ipsum dolor sit amet.</Card.Header>
+            <Card.Body>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus
               molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum
               praesentium repudiandae.
-            </CardBody>
-            <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
+            </Card.Body>
+            <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
           </Card>
         ))}
       </ThemeProvider>,
@@ -124,20 +124,20 @@ describe('Card', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Card>
-          <CardHeader divided>Lorem ipsum dolor sit.</CardHeader>
-          <CardBody>
+          <Card.Header divided>Lorem ipsum dolor sit.</Card.Header>
+          <Card.Body>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptatibus dolorum! Quas, natus! Est,
             neque deserunt consequatur voluptatum dolores quae! Error explicabo omnis odio molestias.
-          </CardBody>
-          <CardFooter divided>Lorem ipsum dolor sit amet consectetur.</CardFooter>
+          </Card.Body>
+          <Card.Footer divided>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
         </Card>
         <Card sharp>
-          <CardHeader divided>Lorem ipsum dolor sit.</CardHeader>
-          <CardBody>
+          <Card.Header divided>Lorem ipsum dolor sit.</Card.Header>
+          <Card.Body>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptatibus dolorum! Quas, natus! Est,
             neque deserunt consequatur voluptatum dolores quae! Error explicabo omnis odio molestias.
-          </CardBody>
-          <CardFooter divided>Lorem ipsum dolor sit amet consectetur.</CardFooter>
+          </Card.Body>
+          <Card.Footer divided>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
         </Card>
       </ThemeProvider>,
     );

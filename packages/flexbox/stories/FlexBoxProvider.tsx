@@ -2,7 +2,7 @@ import React, { createContext, useState } from 'react';
 import { amber, css, hsla, red, styled } from '@tidy-ui/commons';
 import { Button, ButtonGroup, Text } from '@tidy-ui/presentation';
 import { IBaseProps } from '@tidy-ui/types';
-import { FlexBox, FlexItem } from '../src';
+import { FlexBox } from '../src';
 import { IFlexBoxProps, IFlexItemProps } from '../src/types';
 
 const baseCount = 24;
@@ -29,7 +29,7 @@ const LabelFlexBox = styled(FlexBox)<IFlexBoxProps>`
         `}
 `;
 
-const LabelFlexItem = styled(FlexItem)<IFlexItemProps>`
+const LabelFlexItem = styled(FlexBox.Item)<IFlexItemProps>`
   position: relative;
   height: 24px;
   width: 24px;

@@ -1,5 +1,6 @@
-import React, { forwardRef, useEffect, useState } from 'react';
+import React, { forwardRef, ForwardRefExoticComponent, RefAttributes, useEffect, useState } from 'react';
 import { css, styled } from '@tidy-ui/commons';
+import { FlexItem } from './FlexItem';
 import { IFlexBoxProps } from './types';
 
 const FlexBoxRoot = styled.div<IFlexBoxProps>`
@@ -50,6 +51,12 @@ const FlexBoxRoot = styled.div<IFlexBoxProps>`
   `}
 `;
 
+/** @internal */
+interface FlexBoxComponent extends ForwardRefExoticComponent<IFlexBoxProps & RefAttributes<HTMLDivElement>> {
+  /** @internal */
+  Item: typeof FlexItem;
+}
+
 /**
  * FlexBox can be used to create layout components with css flex properties. It also
  * has some presets like, centering items inside a component both main and cross axis
@@ -74,7 +81,7 @@ const FlexBox = forwardRef<HTMLDivElement, IFlexBoxProps>((props, ref) => {
       {children}
     </FlexBoxRoot>
   );
-});
+}) as FlexBoxComponent;
 
 FlexBox.defaultProps = {
   alc: 'flex-start',
@@ -84,5 +91,7 @@ FlexBox.defaultProps = {
   fwp: 'wrap',
   jsc: 'flex-start',
 };
+
+FlexBox.Item = FlexItem;
 
 export { FlexBox };

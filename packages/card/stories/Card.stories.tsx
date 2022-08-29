@@ -1,6 +1,6 @@
 import React from 'react';
 import { styled } from '@tidy-ui/commons';
-import { Card, CardBody, CardFooter, CardHeader } from '../src';
+import { Card } from '../src';
 
 export default {
   component: Card,
@@ -26,20 +26,20 @@ export const basic = () => (
   <Container>
     <Column>
       <Card>
-        <CardHeader>Lorem ipsum dolor sit.</CardHeader>
-        <CardBody>
+        <Card.Header>Lorem ipsum dolor sit.</Card.Header>
+        <Card.Body>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptatibus dolorum! Quas, natus! Est, neque
           deserunt consequatur voluptatum dolores quae! Error explicabo omnis odio molestias.
-        </CardBody>
-        <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
+        </Card.Body>
+        <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
       </Card>
       <Card sharp>
-        <CardHeader>Lorem ipsum dolor sit.</CardHeader>
-        <CardBody>
+        <Card.Header>Lorem ipsum dolor sit.</Card.Header>
+        <Card.Body>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptatibus dolorum! Quas, natus! Est, neque
           deserunt consequatur voluptatum dolores quae! Error explicabo omnis odio molestias.
-        </CardBody>
-        <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
+        </Card.Body>
+        <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
       </Card>
     </Column>
   </Container>
@@ -49,67 +49,67 @@ export const accents = () => (
   <Container>
     <Column>
       <Card accent="major">
-        <CardHeader>Lorem ipsum dolor sit amet.</CardHeader>
-        <CardBody>
+        <Card.Header>Lorem ipsum dolor sit amet.</Card.Header>
+        <Card.Body>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus
           molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum
           praesentium repudiandae.
-        </CardBody>
-        <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
+        </Card.Body>
+        <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
       </Card>
       <Card accent="minor">
-        <CardHeader>Lorem ipsum dolor sit amet.</CardHeader>
-        <CardBody>
+        <Card.Header>Lorem ipsum dolor sit amet.</Card.Header>
+        <Card.Body>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus
           molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum
           praesentium repudiandae.
-        </CardBody>
-        <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
+        </Card.Body>
+        <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
       </Card>
       <Card accent="info">
-        <CardHeader>Lorem ipsum dolor sit amet.</CardHeader>
-        <CardBody>
+        <Card.Header>Lorem ipsum dolor sit amet.</Card.Header>
+        <Card.Body>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus
           molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum
           praesentium repudiandae.
-        </CardBody>
-        <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
+        </Card.Body>
+        <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
       </Card>
       <Card accent="success">
-        <CardHeader>Lorem ipsum dolor sit amet.</CardHeader>
-        <CardBody>
+        <Card.Header>Lorem ipsum dolor sit amet.</Card.Header>
+        <Card.Body>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus
           molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum
           praesentium repudiandae.
-        </CardBody>
-        <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
+        </Card.Body>
+        <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
       </Card>
       <Card accent="warning">
-        <CardHeader>Lorem ipsum dolor sit amet.</CardHeader>
-        <CardBody>
+        <Card.Header>Lorem ipsum dolor sit amet.</Card.Header>
+        <Card.Body>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus
           molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum
           praesentium repudiandae.
-        </CardBody>
-        <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
+        </Card.Body>
+        <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
       </Card>
       <Card accent="danger">
-        <CardHeader>Lorem ipsum dolor sit amet.</CardHeader>
-        <CardBody>
+        <Card.Header>Lorem ipsum dolor sit amet.</Card.Header>
+        <Card.Body>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus
           molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum
           praesentium repudiandae.
-        </CardBody>
-        <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
+        </Card.Body>
+        <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
       </Card>
       <Card accent="neutral">
-        <CardHeader>Lorem ipsum dolor sit amet.</CardHeader>
-        <CardBody>
+        <Card.Header>Lorem ipsum dolor sit amet.</Card.Header>
+        <Card.Body>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis adipisci enim ipsam temporibus
           molestiae dolor veniam repellendus tempora. Sit consequuntur ratione quam. Dolor quo quis enim ipsum
           praesentium repudiandae.
-        </CardBody>
-        <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
+        </Card.Body>
+        <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
       </Card>
     </Column>
   </Container>
@@ -119,22 +119,22 @@ export const linked = () => (
   <Container>
     <Column>
       <Card href="https://google.com">
-        <CardHeader>Lorem ipsum dolor sit.</CardHeader>
-        <CardBody>
+        <Card.Header>Lorem ipsum dolor sit.</Card.Header>
+        <Card.Body>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptatibus dolorum! Quas, natus! Est, neque
           deserunt consequatur voluptatum dolores quae! Error explicabo omnis odio molestias.
-        </CardBody>
-        <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
+        </Card.Body>
+        <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
       </Card>
     </Column>
     <Column>
       <Card>
-        <CardHeader href="https://google.com">Lorem ipsum dolor sit.</CardHeader>
-        <CardBody>
+        <Card.Header href="https://google.com">Lorem ipsum dolor sit.</Card.Header>
+        <Card.Body>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptatibus dolorum! Quas, natus! Est, neque
           deserunt consequatur voluptatum dolores quae! Error explicabo omnis odio molestias.
-        </CardBody>
-        <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
+        </Card.Body>
+        <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
       </Card>
     </Column>
   </Container>
@@ -144,20 +144,20 @@ export const divided = () => (
   <Container>
     <Column>
       <Card>
-        <CardHeader divided>Lorem ipsum dolor sit.</CardHeader>
-        <CardBody>
+        <Card.Header divided>Lorem ipsum dolor sit.</Card.Header>
+        <Card.Body>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptatibus dolorum! Quas, natus! Est, neque
           deserunt consequatur voluptatum dolores quae! Error explicabo omnis odio molestias.
-        </CardBody>
-        <CardFooter divided>Lorem ipsum dolor sit amet consectetur.</CardFooter>
+        </Card.Body>
+        <Card.Footer divided>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
       </Card>
       <Card sharp>
-        <CardHeader divided>Lorem ipsum dolor sit.</CardHeader>
-        <CardBody>
+        <Card.Header divided>Lorem ipsum dolor sit.</Card.Header>
+        <Card.Body>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptatibus dolorum! Quas, natus! Est, neque
           deserunt consequatur voluptatum dolores quae! Error explicabo omnis odio molestias.
-        </CardBody>
-        <CardFooter divided>Lorem ipsum dolor sit amet consectetur.</CardFooter>
+        </Card.Body>
+        <Card.Footer divided>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
       </Card>
     </Column>
   </Container>

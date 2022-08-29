@@ -1,7 +1,7 @@
 import React, { createContext, useState } from 'react';
 import { AddIcon, amber, css, hsla, red, RemoveIcon, styled } from '@tidy-ui/commons';
 import { Button, ButtonGroup, ButtonToolbar, Text } from '@tidy-ui/presentation';
-import { Item, Grid } from '../src';
+import { Grid } from '../src';
 import { IGridProps, IItemProps } from '../src/types';
 
 export default {
@@ -103,11 +103,11 @@ export const basic = () => {
         {({ count }) => (
           <StyledGrid>
             {[...Array(count)].map((c, i) => (
-              <Item key={i}>
+              <Grid.Item key={i}>
                 <TextWrap style={{ padding: '3rem' }}>
                   <StyledText v="h3">{i}</StyledText>
                 </TextWrap>
-              </Item>
+              </Grid.Item>
             ))}
           </StyledGrid>
         )}
@@ -123,11 +123,11 @@ export const fixed = () => {
         {({ count }) => (
           <StyledGrid fixed>
             {[...Array(count)].map((c, i) => (
-              <Item key={i}>
+              <Grid.Item key={i}>
                 <TextWrap style={{ padding: '3rem' }}>
                   <StyledText v="h3">{i}</StyledText>
                 </TextWrap>
-              </Item>
+              </Grid.Item>
             ))}
           </StyledGrid>
         )}
@@ -143,11 +143,11 @@ export const gutter = () => {
         {({ count }) => (
           <StyledGrid gutter="5rem">
             {[...Array(count)].map((c, i) => (
-              <Item key={i}>
+              <Grid.Item key={i}>
                 <TextWrap style={{ padding: '3rem' }}>
                   <StyledText v="h3">{i}</StyledText>
                 </TextWrap>
-              </Item>
+              </Grid.Item>
             ))}
           </StyledGrid>
         )}
@@ -180,12 +180,12 @@ export const spacing = () => {
         {({ count }) => (
           <StyledGrid spacing={space}>
             {[...Array(count)].map((c, i) => (
-              <Item key={i}>
+              <Grid.Item key={i}>
                 <TextWrap style={{ padding: '3rem' }}>
                   <StyledText v="h3">{i}</StyledText>
                   <StyledTextLabel>spacing={space}</StyledTextLabel>
                 </TextWrap>
-              </Item>
+              </Grid.Item>
             ))}
           </StyledGrid>
         )}
@@ -230,14 +230,14 @@ export const customLayout = () => {
         {({ count }) => (
           <StyledGrid>
             {[...Array(count)].map((c, i) => (
-              <Item key={i} xs={span.xs} sm={span.sm} md={span.md} lg={span.lg} xl={span.xl}>
+              <Grid.Item key={i} xs={span.xs} sm={span.sm} md={span.md} lg={span.lg} xl={span.xl}>
                 <TextWrap style={{ padding: '3rem' }}>
                   <StyledText v="h3">{i}</StyledText>
                   <StyledTextLabel>
                     {span.xs},{span.sm},{span.md},{span.lg},{span.xl}
                   </StyledTextLabel>
                 </TextWrap>
-              </Item>
+              </Grid.Item>
             ))}
           </StyledGrid>
         )}

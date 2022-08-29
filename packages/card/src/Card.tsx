@@ -1,6 +1,19 @@
-import React, { forwardRef } from 'react';
+import React, { forwardRef, ForwardRefExoticComponent, RefAttributes } from 'react';
+import { CardBody } from './CardBody';
+import { CardFooter } from './CardFooter';
+import { CardHeader } from './CardHeader';
 import { CardRoot } from './components';
 import { ICardProps } from './types';
+
+/** @internal */
+interface CardComponent extends ForwardRefExoticComponent<ICardProps & RefAttributes<HTMLDivElement>> {
+  /** @internal */
+  Body: typeof CardBody;
+  /** @internal */
+  Footer: typeof CardFooter;
+  /** @internal */
+  Header: typeof CardHeader;
+}
 
 /**
  * Card component powered by various styles (with theming) and settings. Can be used just
@@ -14,11 +27,15 @@ const Card = forwardRef<HTMLDivElement, ICardProps>((props, ref) => {
       {href ? <a href={href}>{children}</a> : <>{children}</>}
     </CardRoot>
   );
-});
+}) as CardComponent;
 
 Card.defaultProps = {
   accentPosition: 'top',
   sharp: false,
 };
+
+Card.Body = CardBody;
+Card.Header = CardHeader;
+Card.Footer = CardFooter;
 
 export { Card };

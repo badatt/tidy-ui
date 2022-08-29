@@ -1,6 +1,6 @@
 import { amber, css, hsla, red, styled } from '@tidy-ui/commons';
 import { Text } from '@tidy-ui/presentation';
-import { FlexBox, FlexItem } from '../src';
+import { FlexBox } from '../src';
 import { IFlexBoxProps, IFlexItemProps } from '../src/types';
 
 const StyledFlexBox = styled(FlexBox)<IFlexBoxProps>`
@@ -17,7 +17,7 @@ const StyledFlexBox = styled(FlexBox)<IFlexBoxProps>`
         `}
 `;
 
-const StyledFlexItem = styled(FlexItem)<IFlexItemProps>`
+const StyledFlexItem = styled(FlexBox.Item)<IFlexItemProps>`
   ${({ theme: { isDark } }) =>
     isDark
       ? css`

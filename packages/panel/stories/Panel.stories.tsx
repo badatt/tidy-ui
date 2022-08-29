@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text } from '@tidy-ui/text';
 import { styled } from '@tidy-ui/commons';
-import { Panel, PanelBody, PanelHeader } from '../src';
+import { Panel } from '../src';
 
 export default {
   component: Panel,
@@ -17,10 +17,10 @@ const Container = styled.div`
 export const basic = () => (
   <Container>
     <Panel>
-      <PanelHeader>
+      <Panel.Header>
         <Text v="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
-      </PanelHeader>
-      <PanelBody>
+      </Panel.Header>
+      <Panel.Body>
         <Text>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus exercitationem
           quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo qui odit!
@@ -29,13 +29,13 @@ export const basic = () => (
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quasi explicabo id amet sed labore, ex
           cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum ducimus!
         </Text>
-      </PanelBody>
+      </Panel.Body>
     </Panel>
     <Panel expanded>
-      <PanelHeader>
+      <Panel.Header>
         <Text v="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
-      </PanelHeader>
-      <PanelBody>
+      </Panel.Header>
+      <Panel.Body>
         <Text>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus exercitationem
           quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo qui odit!
@@ -44,7 +44,7 @@ export const basic = () => (
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quasi explicabo id amet sed labore, ex
           cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum ducimus!
         </Text>
-      </PanelBody>
+      </Panel.Body>
     </Panel>
   </Container>
 );

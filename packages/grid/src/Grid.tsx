@@ -1,5 +1,6 @@
-import React, { forwardRef } from 'react';
+import React, { forwardRef, ForwardRefExoticComponent, RefAttributes } from 'react';
 import { css, devices, styled } from '@tidy-ui/commons';
+import { Item } from './Item';
 import { IGridProps } from './types';
 
 const GridRoot = styled.div<IGridProps>`
@@ -56,6 +57,12 @@ const GridRoot = styled.div<IGridProps>`
   }
 `;
 
+/** @internal */
+interface GridComponent extends ForwardRefExoticComponent<IGridProps & RefAttributes<HTMLDivElement>> {
+  /** @internal */
+  Item: typeof Item;
+}
+
 /**
  * Grid component provides 24 sections horizontally with mobile first responsive layout.
  * Shouldn't be confused with css grid, but a good replacement for it
@@ -67,10 +74,12 @@ const Grid = forwardRef<HTMLDivElement, IGridProps>((props, ref) => {
       {children}
     </GridRoot>
   );
-});
+}) as GridComponent;
 
 Grid.defaultProps = {
   fixed: false,
 };
+
+Grid.Item = Item;
 
 export { Grid };

@@ -7,7 +7,7 @@ import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidLight } from '@tidy-ui/commons';
-import { Grid, Item } from '../src';
+import { Grid } from '../src';
 import { IItemProps } from '../src/types';
 
 const count = 24;
@@ -16,7 +16,7 @@ const Items = (props: IItemProps) => {
   return (
     <>
       {[...Array(count)].map((c, i) => (
-        <Item key={i}>{i}</Item>
+        <Grid.Item key={i}>{i}</Grid.Item>
       ))}
     </>
   );

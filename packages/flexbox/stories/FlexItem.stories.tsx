@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Button, ButtonGroup, Text } from '@tidy-ui/presentation';
-import { FlexBox, FlexItem } from '../src';
+import { FlexBox } from '../src';
 import { IFlexItemProps, TAlignSelf } from '../src/types';
 import { Ctx, FlexBoxProvider } from './FlexBoxProvider';
 import { Divider, StyledFlexBox, StyledFlexItem, StyledText, StyledTextLabel } from './components';
 
 export default {
-  component: FlexItem,
+  component: FlexBox.Item,
   title: 'Layout/Flexbox/FlexItem',
 };
 

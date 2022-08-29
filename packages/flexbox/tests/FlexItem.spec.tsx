@@ -7,7 +7,7 @@ import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidLight } from '@tidy-ui/commons';
-import { FlexBox, FlexItem } from '../src';
+import { FlexBox } from '../src';
 import { IFlexBoxProps, IFlexItemProps, TAlignSelf } from '../src/types';
 
 const height = '350px';
@@ -15,14 +15,14 @@ const height = '350px';
 function FlexBoxWrapper(props: { box: IFlexBoxProps; item: IFlexItemProps }) {
   return (
     <FlexBox {...props.box}>
-      <FlexItem {...props.item}>1</FlexItem>
-      <FlexItem {...props.item}>2</FlexItem>
-      <FlexItem {...props.item}>3</FlexItem>
-      <FlexItem {...props.item}>4</FlexItem>
-      <FlexItem {...props.item}>5</FlexItem>
-      <FlexItem {...props.item}>6</FlexItem>
-      <FlexItem {...props.item}>7</FlexItem>
-      <FlexItem {...props.item}>8</FlexItem>
+      <FlexBox.Item {...props.item}>1</FlexBox.Item>
+      <FlexBox.Item {...props.item}>2</FlexBox.Item>
+      <FlexBox.Item {...props.item}>3</FlexBox.Item>
+      <FlexBox.Item {...props.item}>4</FlexBox.Item>
+      <FlexBox.Item {...props.item}>5</FlexBox.Item>
+      <FlexBox.Item {...props.item}>6</FlexBox.Item>
+      <FlexBox.Item {...props.item}>7</FlexBox.Item>
+      <FlexBox.Item {...props.item}>8</FlexBox.Item>
     </FlexBox>
   );
 }

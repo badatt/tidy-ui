@@ -8,7 +8,7 @@ import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { Text } from '@tidy-ui/text';
 import { orchidDark, orchidLight } from '@tidy-ui/commons';
-import { Panel, PanelBody, PanelGroup, PanelHeader } from '../src';
+import { Panel, PanelGroup } from '../src';
 
 describe('Panel', () => {
   it('Basic render', () => {
@@ -16,10 +16,10 @@ describe('Panel', () => {
       <ThemeProvider theme={orchidLight}>
         <PanelGroup>
           <Panel>
-            <PanelHeader>
+            <Panel.Header>
               <Text is="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
-            </PanelHeader>
-            <PanelBody>
+            </Panel.Header>
+            <Panel.Body>
               <Text>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus
                 exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci
@@ -30,13 +30,13 @@ describe('Panel', () => {
                 ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum
                 ducimus!
               </Text>
-            </PanelBody>
+            </Panel.Body>
           </Panel>
           <Panel>
-            <PanelHeader>
+            <Panel.Header>
               <Text is="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
-            </PanelHeader>
-            <PanelBody>
+            </Panel.Header>
+            <Panel.Body>
               <Text>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus
                 exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci
@@ -47,13 +47,13 @@ describe('Panel', () => {
                 ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum
                 ducimus!
               </Text>
-            </PanelBody>
+            </Panel.Body>
           </Panel>
           <Panel>
-            <PanelHeader>
+            <Panel.Header>
               <Text is="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
-            </PanelHeader>
-            <PanelBody>
+            </Panel.Header>
+            <Panel.Body>
               <Text>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus
                 exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci
@@ -64,7 +64,7 @@ describe('Panel', () => {
                 ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum
                 ducimus!
               </Text>
-            </PanelBody>
+            </Panel.Body>
           </Panel>
         </PanelGroup>
       </ThemeProvider>,
@@ -76,10 +76,10 @@ describe('Panel', () => {
       <ThemeProvider theme={orchidDark}>
         <PanelGroup>
           <Panel>
-            <PanelHeader>
+            <Panel.Header>
               <Text is="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
-            </PanelHeader>
-            <PanelBody>
+            </Panel.Header>
+            <Panel.Body>
               <Text>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus
                 exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci
@@ -90,13 +90,13 @@ describe('Panel', () => {
                 ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum
                 ducimus!
               </Text>
-            </PanelBody>
+            </Panel.Body>
           </Panel>
           <Panel>
-            <PanelHeader>
+            <Panel.Header>
               <Text is="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
-            </PanelHeader>
-            <PanelBody>
+            </Panel.Header>
+            <Panel.Body>
               <Text>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus
                 exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci
@@ -107,13 +107,13 @@ describe('Panel', () => {
                 ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum
                 ducimus!
               </Text>
-            </PanelBody>
+            </Panel.Body>
           </Panel>
           <Panel>
-            <PanelHeader>
+            <Panel.Header>
               <Text is="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
-            </PanelHeader>
-            <PanelBody>
+            </Panel.Header>
+            <Panel.Body>
               <Text>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus
                 exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci
@@ -124,7 +124,7 @@ describe('Panel', () => {
                 ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum
                 ducimus!
               </Text>
-            </PanelBody>
+            </Panel.Body>
           </Panel>
         </PanelGroup>
       </ThemeProvider>,

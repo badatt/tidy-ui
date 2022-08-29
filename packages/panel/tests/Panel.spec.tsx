@@ -9,17 +9,17 @@ import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { Text } from '@tidy-ui/text';
 import { orchidDark, orchidLight } from '@tidy-ui/commons';
-import { Panel, PanelBody, PanelHeader } from '../src';
+import { Panel } from '../src';
 
 describe('Panel', () => {
   it('Basic render', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Panel>
-          <PanelHeader>
+          <Panel.Header>
             <Text is="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
-          </PanelHeader>
-          <PanelBody>
+          </Panel.Header>
+          <Panel.Body>
             <Text>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus
               exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo
@@ -30,7 +30,7 @@ describe('Panel', () => {
               ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum
               ducimus!
             </Text>
-          </PanelBody>
+          </Panel.Body>
         </Panel>
       </ThemeProvider>,
     );
@@ -40,10 +40,10 @@ describe('Panel', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
         <Panel expanded>
-          <PanelHeader>
+          <Panel.Header>
             <Text is="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
-          </PanelHeader>
-          <PanelBody>
+          </Panel.Header>
+          <Panel.Body>
             <Text>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus
               exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo
@@ -54,7 +54,7 @@ describe('Panel', () => {
               ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum
               ducimus!
             </Text>
-          </PanelBody>
+          </Panel.Body>
         </Panel>
       </ThemeProvider>,
     );
@@ -64,10 +64,10 @@ describe('Panel', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Panel>
-          <PanelHeader>
+          <Panel.Header>
             <Text is="h6">Lorem ipsum dolor sit, amet consectetur adipisicing elit</Text>
-          </PanelHeader>
-          <PanelBody>
+          </Panel.Header>
+          <Panel.Body>
             <Text>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam amet pariatur ducimus
               exercitationem quos rem vel nulla nostrum soluta? Repellat sit quam vero! Recusandae placeat adipisci quo
@@ -78,7 +78,7 @@ describe('Panel', () => {
               ex cumque repellendus inventore quas commodi at quis aspernatur libero voluptate maiores alias ipsum
               ducimus!
             </Text>
-          </PanelBody>
+          </Panel.Body>
         </Panel>
       </ThemeProvider>,
     );
