@@ -56,7 +56,7 @@
     "ui",
     "ui-components"
   ],
-  "description": "tidy-ui react component library; 'divider package",
+  "description": "Divider can be used as a separator between components, a good replacement for <hr> in html, with additional content support, powered by various styles (with theming) and settings",
   "publishConfig": {
     "access": "public"
   },
