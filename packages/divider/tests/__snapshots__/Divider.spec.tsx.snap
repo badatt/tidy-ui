@@ -9,18 +9,8 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  border-width: 0px 0px thin;
   margin: 0.5rem 0;
-}
-
-.c2 {
-  border-color: hsla(0,0%,45%,1);
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  border-style: solid;
-  margin: 0 0.5rem;
-  border-width: 0px thin 0px 0px;
+  border-width: 0px 0px thin;
 }
 
 .c0 {
@@ -54,26 +44,6 @@ Object {
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
       </p>
-      <div
-        style="display: flex;"
-      >
-        <p
-          class="c0"
-          role="contentinfo"
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sequi quam modi natus ipsum corrupti quis laudantium reiciendis error quas, voluptate eligendi possimus temporibus ipsam! Eveniet voluptates natus minima! Possimus.
-        </p>
-        <hr
-          class="c2"
-          role="separator"
-        />
-        <p
-          class="c0"
-          role="contentinfo"
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium ab magni assumenda, iure corporis natus voluptas laborum error corrupti inventore hic aliquid, debitis adipisci necessitatibus repellendus dolores ratione architecto.
-        </p>
-      </div>
     </div>
   </body>,
   "container": .c1 {
@@ -82,18 +52,8 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  border-width: 0px 0px thin;
   margin: 0.5rem 0;
-}
-
-.c2 {
-  border-color: hsla(0,0%,45%,1);
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  border-style: solid;
-  margin: 0 0.5rem;
-  border-width: 0px thin 0px 0px;
+  border-width: 0px 0px thin;
 }
 
 .c0 {
@@ -126,26 +86,6 @@ Object {
     >
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
     </p>
-    <div
-      style="display: flex;"
-    >
-      <p
-        class="c0"
-        role="contentinfo"
-      >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sequi quam modi natus ipsum corrupti quis laudantium reiciendis error quas, voluptate eligendi possimus temporibus ipsam! Eveniet voluptates natus minima! Possimus.
-      </p>
-      <hr
-        class="c2"
-        role="separator"
-      />
-      <p
-        class="c0"
-        role="contentinfo"
-      >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium ab magni assumenda, iure corporis natus voluptas laborum error corrupti inventore hic aliquid, debitis adipisci necessitatibus repellendus dolores ratione architecto.
-      </p>
-    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -210,8 +150,8 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  border-width: 0px 0px thin;
   margin: 0.5rem 0;
+  border-width: 0px 0px thin;
 }
 
 .c0 {
@@ -253,8 +193,8 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  border-width: 0px 0px thin;
   margin: 0.5rem 0;
+  border-width: 0px 0px thin;
 }
 
 .c0 {
@@ -351,8 +291,8 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  border-width: 0px 0px thick;
   margin: 0.5rem 0;
+  border-width: 0px 0px thick;
 }
 
 .c2 {
@@ -361,8 +301,8 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  border-width: 0px 0px thin;
   margin: 0.5rem 0;
+  border-width: 0px 0px thin;
 }
 
 .c3 {
@@ -371,8 +311,8 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  border-width: 0px 0px medium;
   margin: 0.5rem 0;
+  border-width: 0px 0px medium;
 }
 
 .c0 {
@@ -428,8 +368,8 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  border-width: 0px 0px thick;
   margin: 0.5rem 0;
+  border-width: 0px 0px thick;
 }
 
 .c2 {
@@ -438,8 +378,8 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  border-width: 0px 0px thin;
   margin: 0.5rem 0;
+  border-width: 0px 0px thin;
 }
 
 .c3 {
@@ -448,8 +388,8 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  border-width: 0px 0px medium;
   margin: 0.5rem 0;
+  border-width: 0px 0px medium;
 }
 
 .c0 {
@@ -551,6 +491,403 @@ Object {
 }
 `;
 
+exports[`Divider Fixed length 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c1 {
+  border-color: hsla(0,0%,45%,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-style: solid;
+  -webkit-align-self: start;
+  -ms-flex-item-align: start;
+  align-self: start;
+  margin: 0.5rem 0;
+  border-width: 0px 0px thin;
+  width: 2rem;
+}
+
+.c2 {
+  border-color: hsla(0,0%,45%,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-style: solid;
+  -webkit-align-self: end;
+  -ms-flex-item-align: end;
+  align-self: end;
+  margin: 0.5rem 0;
+  border-width: 0px 0px thin;
+  width: 2rem;
+}
+
+.c3 {
+  border-color: hsla(0,0%,45%,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-style: solid;
+  -webkit-align-self: start;
+  -ms-flex-item-align: start;
+  align-self: start;
+  margin: 0 0.5rem;
+  border-width: 0px thin 0px 0px;
+  height: 2rem;
+}
+
+.c4 {
+  border-color: hsla(0,0%,45%,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-style: solid;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  margin: 0 0.5rem;
+  border-width: 0px thin 0px 0px;
+  height: 2rem;
+}
+
+.c5 {
+  border-color: hsla(0,0%,45%,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-style: solid;
+  -webkit-align-self: end;
+  -ms-flex-item-align: end;
+  align-self: end;
+  margin: 0 0.5rem;
+  border-width: 0px thin 0px 0px;
+  height: 2rem;
+}
+
+.c6 {
+  border-color: hsla(0,0%,45%,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-style: solid;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  margin: 0.5rem 0;
+  border-width: 0px 0px thin;
+  width: 2rem;
+}
+
+.c0 {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
+<body>
+    <div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
+      </p>
+      <hr
+        class="c1"
+        role="separator"
+      />
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
+      </p>
+      <hr
+        class="c2"
+        role="separator"
+      />
+      <div
+        style="display: flex;"
+      >
+        <p
+          class="c0"
+          role="contentinfo"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sequi quam modi natus ipsum corrupti quis laudantium reiciendis error quas, voluptate eligendi possimus temporibus ipsam! Eveniet voluptates natus minima! Possimus.
+        </p>
+        <hr
+          class="c3"
+          role="separator"
+        />
+        <p
+          class="c0"
+          role="contentinfo"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium ab magni assumenda, iure corporis natus voluptas laborum error corrupti inventore hic aliquid, debitis adipisci necessitatibus repellendus dolores ratione architecto.
+        </p>
+        <hr
+          class="c4"
+          role="separator"
+        />
+        <p
+          class="c0"
+          role="contentinfo"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium ab magni assumenda, iure corporis natus voluptas laborum error corrupti inventore hic aliquid, debitis adipisci necessitatibus repellendus dolores ratione architecto.
+        </p>
+        <hr
+          class="c5"
+          role="separator"
+        />
+        <p
+          class="c0"
+          role="contentinfo"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium ab magni assumenda, iure corporis natus voluptas laborum error corrupti inventore hic aliquid, debitis adipisci necessitatibus repellendus dolores ratione architecto.
+        </p>
+      </div>
+      <hr
+        class="c6"
+        role="separator"
+      />
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium ab magni assumenda, iure corporis natus voluptas laborum error corrupti inventore hic aliquid, debitis adipisci necessitatibus repellendus dolores ratione architecto.
+      </p>
+    </div>
+  </body>,
+  "container": .c1 {
+  border-color: hsla(0,0%,45%,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-style: solid;
+  -webkit-align-self: start;
+  -ms-flex-item-align: start;
+  align-self: start;
+  margin: 0.5rem 0;
+  border-width: 0px 0px thin;
+  width: 2rem;
+}
+
+.c2 {
+  border-color: hsla(0,0%,45%,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-style: solid;
+  -webkit-align-self: end;
+  -ms-flex-item-align: end;
+  align-self: end;
+  margin: 0.5rem 0;
+  border-width: 0px 0px thin;
+  width: 2rem;
+}
+
+.c3 {
+  border-color: hsla(0,0%,45%,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-style: solid;
+  -webkit-align-self: start;
+  -ms-flex-item-align: start;
+  align-self: start;
+  margin: 0 0.5rem;
+  border-width: 0px thin 0px 0px;
+  height: 2rem;
+}
+
+.c4 {
+  border-color: hsla(0,0%,45%,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-style: solid;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  margin: 0 0.5rem;
+  border-width: 0px thin 0px 0px;
+  height: 2rem;
+}
+
+.c5 {
+  border-color: hsla(0,0%,45%,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-style: solid;
+  -webkit-align-self: end;
+  -ms-flex-item-align: end;
+  align-self: end;
+  margin: 0 0.5rem;
+  border-width: 0px thin 0px 0px;
+  height: 2rem;
+}
+
+.c6 {
+  border-color: hsla(0,0%,45%,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-style: solid;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  margin: 0.5rem 0;
+  border-width: 0px 0px thin;
+  width: 2rem;
+}
+
+.c0 {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
+<div>
+    <p
+      class="c0"
+      role="contentinfo"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
+    </p>
+    <hr
+      class="c1"
+      role="separator"
+    />
+    <p
+      class="c0"
+      role="contentinfo"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
+    </p>
+    <hr
+      class="c2"
+      role="separator"
+    />
+    <div
+      style="display: flex;"
+    >
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sequi quam modi natus ipsum corrupti quis laudantium reiciendis error quas, voluptate eligendi possimus temporibus ipsam! Eveniet voluptates natus minima! Possimus.
+      </p>
+      <hr
+        class="c3"
+        role="separator"
+      />
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium ab magni assumenda, iure corporis natus voluptas laborum error corrupti inventore hic aliquid, debitis adipisci necessitatibus repellendus dolores ratione architecto.
+      </p>
+      <hr
+        class="c4"
+        role="separator"
+      />
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium ab magni assumenda, iure corporis natus voluptas laborum error corrupti inventore hic aliquid, debitis adipisci necessitatibus repellendus dolores ratione architecto.
+      </p>
+      <hr
+        class="c5"
+        role="separator"
+      />
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium ab magni assumenda, iure corporis natus voluptas laborum error corrupti inventore hic aliquid, debitis adipisci necessitatibus repellendus dolores ratione architecto.
+      </p>
+    </div>
+    <hr
+      class="c6"
+      role="separator"
+    />
+    <p
+      class="c0"
+      role="contentinfo"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium ab magni assumenda, iure corporis natus voluptas laborum error corrupti inventore hic aliquid, debitis adipisci necessitatibus repellendus dolores ratione architecto.
+    </p>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
 exports[`Divider Shade 1`] = `
 Object {
   "asFragment": [Function],
@@ -560,8 +897,8 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  border-width: 0px 0px thin;
   margin: 0.5rem 0;
+  border-width: 0px 0px thin;
 }
 
 .c0 {
@@ -597,8 +934,8 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  border-width: 0px 0px thin;
   margin: 0.5rem 0;
+  border-width: 0px 0px thin;
 }
 
 .c0 {
@@ -689,8 +1026,8 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  border-width: 0px 0px thin;
   margin: 0.5rem 0;
+  border-width: 0px 0px thin;
 }
 
 .c0 {
@@ -726,8 +1063,8 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  border-width: 0px 0px thin;
   margin: 0.5rem 0;
+  border-width: 0px 0px thin;
 }
 
 .c0 {
@@ -818,8 +1155,8 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: dashed;
-  border-width: 0px 0px thin;
   margin: 0.5rem 0;
+  border-width: 0px 0px thin;
 }
 
 .c2 {
@@ -828,8 +1165,8 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: dotted;
-  border-width: 0px 0px thin;
   margin: 0.5rem 0;
+  border-width: 0px 0px thin;
 }
 
 .c3 {
@@ -838,8 +1175,8 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: double;
-  border-width: 0px 0px thin;
   margin: 0.5rem 0;
+  border-width: 0px 0px thin;
 }
 
 .c4 {
@@ -848,8 +1185,8 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: groove;
-  border-width: 0px 0px thin;
   margin: 0.5rem 0;
+  border-width: 0px 0px thin;
 }
 
 .c5 {
@@ -858,8 +1195,8 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: hidden;
-  border-width: 0px 0px thin;
   margin: 0.5rem 0;
+  border-width: 0px 0px thin;
 }
 
 .c6 {
@@ -868,8 +1205,8 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: ridge;
-  border-width: 0px 0px thin;
   margin: 0.5rem 0;
+  border-width: 0px 0px thin;
 }
 
 .c7 {
@@ -878,8 +1215,8 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  border-width: 0px 0px thin;
   margin: 0.5rem 0;
+  border-width: 0px 0px thin;
 }
 
 .c0 {
@@ -1045,8 +1382,8 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: dashed;
-  border-width: 0px 0px thin;
   margin: 0.5rem 0;
+  border-width: 0px 0px thin;
 }
 
 .c2 {
@@ -1055,8 +1392,8 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: dotted;
-  border-width: 0px 0px thin;
   margin: 0.5rem 0;
+  border-width: 0px 0px thin;
 }
 
 .c3 {
@@ -1065,8 +1402,8 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: double;
-  border-width: 0px 0px thin;
   margin: 0.5rem 0;
+  border-width: 0px 0px thin;
 }
 
 .c4 {
@@ -1075,8 +1412,8 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: groove;
-  border-width: 0px 0px thin;
   margin: 0.5rem 0;
+  border-width: 0px 0px thin;
 }
 
 .c5 {
@@ -1085,8 +1422,8 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: hidden;
-  border-width: 0px 0px thin;
   margin: 0.5rem 0;
+  border-width: 0px 0px thin;
 }
 
 .c6 {
@@ -1095,8 +1432,8 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: ridge;
-  border-width: 0px 0px thin;
   margin: 0.5rem 0;
+  border-width: 0px 0px thin;
 }
 
 .c7 {
@@ -1105,8 +1442,8 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  border-width: 0px 0px thin;
   margin: 0.5rem 0;
+  border-width: 0px 0px thin;
 }
 
 .c0 {
@@ -1261,6 +1598,155 @@ Object {
       >
         solid
          style
+      </p>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Divider Vertical 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c1 {
+  border-color: hsla(0,0%,45%,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-style: solid;
+  margin: 0 0.5rem;
+  border-width: 0px thin 0px 0px;
+}
+
+.c0 {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
+<body>
+    <div>
+      <div
+        style="display: flex;"
+      >
+        <p
+          class="c0"
+          role="contentinfo"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sequi quam modi natus ipsum corrupti quis laudantium reiciendis error quas, voluptate eligendi possimus temporibus ipsam! Eveniet voluptates natus minima! Possimus.
+        </p>
+        <hr
+          class="c1"
+          role="separator"
+        />
+        <p
+          class="c0"
+          role="contentinfo"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium ab magni assumenda, iure corporis natus voluptas laborum error corrupti inventore hic aliquid, debitis adipisci necessitatibus repellendus dolores ratione architecto.
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": .c1 {
+  border-color: hsla(0,0%,45%,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-style: solid;
+  margin: 0 0.5rem;
+  border-width: 0px thin 0px 0px;
+}
+
+.c0 {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
+<div>
+    <div
+      style="display: flex;"
+    >
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sequi quam modi natus ipsum corrupti quis laudantium reiciendis error quas, voluptate eligendi possimus temporibus ipsam! Eveniet voluptates natus minima! Possimus.
+      </p>
+      <hr
+        class="c1"
+        role="separator"
+      />
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium ab magni assumenda, iure corporis natus voluptas laborum error corrupti inventore hic aliquid, debitis adipisci necessitatibus repellendus dolores ratione architecto.
       </p>
     </div>
   </div>,

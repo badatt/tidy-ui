@@ -16,11 +16,22 @@ export type TDensity = 'thin' | 'medium' | 'thick';
  */
 export interface IDividerProps extends IBaseProps, HTMLAttributes<HTMLHRElement> {
   /**
+   * Vertical alignment
+   *
+   * @default 'center'
+   */
+  align?: 'center' | 'start' | 'end';
+  /**
    * Thickness of the divider
    *
    * @default 'thin'
    */
   density?: TDensity;
+
+  /**
+   * Width for vertically aligned, Height for vertically aligned divider
+   */
+  length?: string;
   /**
    * Margins
    */
