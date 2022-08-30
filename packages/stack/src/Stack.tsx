@@ -18,6 +18,12 @@ const StackItem = styled.div<IStackProps>`
   `}
 `;
 
+/**
+ * Stack, as the name says, can be used to stack any react component, plain html
+ * element or even just text nodes in an orderly fashion. Provide a divider
+ * component that separate each node with in the stack. It is provided with various
+ * styling options like alignment, wrap, gap etc.
+ */
 const Stack = forwardRef<HTMLDivElement, IStackProps>((props, ref) => {
   const { children, className, divider, ...rest } = props;
   const count = Children.count(children);

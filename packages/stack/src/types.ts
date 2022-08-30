@@ -41,6 +41,8 @@ export interface IStackProps extends IBaseProps, HTMLAttributes<HTMLDivElement> 
 
   /**
    * If `true`, wraps the elements. css `wrap` equivalent
+   *
+   * @default false
    */
   fold?: boolean;
 
