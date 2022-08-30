@@ -11,17 +11,17 @@ export interface IGridProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   fixed?: boolean;
 
   /**
+   * Adds half the value as negative left & right margins (in px) to Row. Also, adds half
+   * the value as padding to each Item
+   */
+  gap?: number;
+
+  /**
    * Creates a grid with left and right padding
    *
    * @default '0.5rem'
    */
   gutter?: string;
-
-  /**
-   * Adds half the value as negative left & right margins (in px) to Row. Also, adds half
-   * the value as padding to each Item
-   */
-  spacing?: number;
 }
 
 /**

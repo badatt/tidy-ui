@@ -13,21 +13,21 @@ const GridRoot = styled.div<IGridProps>`
     },
     fixed,
     gutter,
-    spacing,
+    gap,
   }) => css`
     ${gutter &&
     css`
       padding: 0 ${gutter};
     `}
-    ${spacing &&
+    ${gap &&
     css`
-      margin-left: ${Math.ceil(spacing) / -2}px;
-      margin-right: ${Math.floor(spacing) / -2}px;
+      margin-left: ${Math.ceil(gap) / -2}px;
+      margin-right: ${Math.floor(gap) / -2}px;
       & > * {
-        padding-left: ${Math.ceil(spacing) / 2}px;
-        padding-right: ${Math.floor(spacing) / 2}px;
-        padding-top: ${Math.ceil(spacing) / 2}px;
-        padding-bottom: ${Math.floor(spacing) / 2}px;
+        padding-left: ${Math.ceil(gap) / 2}px;
+        padding-right: ${Math.floor(gap) / 2}px;
+        padding-top: ${Math.ceil(gap) / 2}px;
+        padding-bottom: ${Math.floor(gap) / 2}px;
       }
     `}
     ${fixed &&
