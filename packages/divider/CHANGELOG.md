@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.10.0](https://github.com/badatt/tidy-ui/compare/v0.9.2...v0.10.0) (2022-08-30)
+
+
+### Features
+
+* added Divider.Enhanced component ([e88e730](https://github.com/badatt/tidy-ui/commit/e88e7307d8d7e53cd9b64c7d64be90b15e061577))
+* added vertical support for divider component ([468f748](https://github.com/badatt/tidy-ui/commit/468f748f2b42abdb2c4943b268c03ca9aceffdbd))
+* vertical orientation for divider ([0eebd1e](https://github.com/badatt/tidy-ui/commit/0eebd1e810ec720669d6a3a02866af886d6f502b))
+
+
+
+
+
 ## [0.9.2](https://github.com/badatt/tidy-ui/compare/v0.9.1...v0.9.2) (2022-08-29)
 
 **Note:** Version bump only for package @tidy-ui/divider
