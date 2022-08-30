@@ -26,19 +26,6 @@ describe('Divider', () => {
           veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero
           veniam!
         </Text>
-        <div style={{ display: 'flex' }}>
-          <Text>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sequi quam modi natus ipsum corrupti quis
-            laudantium reiciendis error quas, voluptate eligendi possimus temporibus ipsam! Eveniet voluptates natus
-            minima! Possimus.
-          </Text>
-          <Divider vertical />
-          <Text>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium ab magni assumenda, iure corporis
-            natus voluptas laborum error corrupti inventore hic aliquid, debitis adipisci necessitatibus repellendus
-            dolores ratione architecto.
-          </Text>
-        </div>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -56,6 +43,78 @@ describe('Divider', () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia
           veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero
           veniam!
+        </Text>
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Vertical', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        <div style={{ display: 'flex' }}>
+          <Text>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sequi quam modi natus ipsum corrupti quis
+            laudantium reiciendis error quas, voluptate eligendi possimus temporibus ipsam! Eveniet voluptates natus
+            minima! Possimus.
+          </Text>
+          <Divider vertical />
+          <Text>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium ab magni assumenda, iure corporis
+            natus voluptas laborum error corrupti inventore hic aliquid, debitis adipisci necessitatibus repellendus
+            dolores ratione architecto.
+          </Text>
+        </div>
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Fixed length', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        <Text>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia
+          veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero
+          veniam!
+        </Text>
+        <Divider align="start" length="2rem" />
+        <Text>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia
+          veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero
+          veniam!
+        </Text>
+        <Divider align="end" length="2rem" />
+        <div style={{ display: 'flex' }}>
+          <Text>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sequi quam modi natus ipsum corrupti quis
+            laudantium reiciendis error quas, voluptate eligendi possimus temporibus ipsam! Eveniet voluptates natus
+            minima! Possimus.
+          </Text>
+          <Divider vertical align="start" length="2rem" />
+          <Text>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium ab magni assumenda, iure corporis
+            natus voluptas laborum error corrupti inventore hic aliquid, debitis adipisci necessitatibus repellendus
+            dolores ratione architecto.
+          </Text>
+          <Divider vertical align="center" length="2rem" />
+          <Text>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium ab magni assumenda, iure corporis
+            natus voluptas laborum error corrupti inventore hic aliquid, debitis adipisci necessitatibus repellendus
+            dolores ratione architecto.
+          </Text>
+          <Divider vertical align="end" length="2rem" />
+          <Text>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium ab magni assumenda, iure corporis
+            natus voluptas laborum error corrupti inventore hic aliquid, debitis adipisci necessitatibus repellendus
+            dolores ratione architecto.
+          </Text>
+        </div>
+        <Divider align="center" length="2rem" />
+        <Text>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium ab magni assumenda, iure corporis
+          natus voluptas laborum error corrupti inventore hic aliquid, debitis adipisci necessitatibus repellendus
+          dolores ratione architecto.
         </Text>
       </ThemeProvider>,
     );
