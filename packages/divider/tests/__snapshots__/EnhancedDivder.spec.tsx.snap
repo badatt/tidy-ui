@@ -1,0 +1,2072 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EnhancedDivider Basic render 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  margin: 1rem 0;
+}
+
+.c2 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c0 {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
+<body>
+    <div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
+      </p>
+      <div
+        class="c1"
+        role="separator"
+      >
+        <hr
+          class="c2"
+          role="separator"
+        />
+        <hr
+          class="c2"
+          role="separator"
+        />
+      </div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
+      </p>
+    </div>
+  </body>,
+  "container": .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  margin: 1rem 0;
+}
+
+.c2 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c0 {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
+<div>
+    <p
+      class="c0"
+      role="contentinfo"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
+    </p>
+    <div
+      class="c1"
+      role="separator"
+    >
+      <hr
+        class="c2"
+        role="separator"
+      />
+      <hr
+        class="c2"
+        role="separator"
+      />
+    </div>
+    <p
+      class="c0"
+      role="contentinfo"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
+    </p>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`EnhancedDivider Content 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  margin: 1rem 0;
+}
+
+.c2 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c3 {
+  padding: 0 0 0 8px;
+}
+
+.c4 {
+  padding: 0 8px 0 0;
+}
+
+.c5 {
+  padding: 0 8px;
+}
+
+.c0 {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
+<body>
+    <div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        Content
+      </p>
+      <div
+        class="c1"
+        role="separator"
+      >
+        <hr
+          class="c2"
+          role="separator"
+        />
+        <div
+          class="c3"
+          role="separator"
+        >
+          Page 1
+        </div>
+      </div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        Content
+      </p>
+      <div
+        class="c1"
+        role="separator"
+      >
+        <div
+          class="c4"
+          role="separator"
+        >
+          Page 1
+        </div>
+        <hr
+          class="c2"
+          role="separator"
+        />
+      </div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        Content
+      </p>
+      <div
+        class="c1"
+        role="separator"
+      >
+        <hr
+          class="c2"
+          role="separator"
+        />
+        <div
+          class="c5"
+          role="separator"
+        >
+          Page 1
+        </div>
+        <hr
+          class="c2"
+          role="separator"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  margin: 1rem 0;
+}
+
+.c2 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c3 {
+  padding: 0 0 0 8px;
+}
+
+.c4 {
+  padding: 0 8px 0 0;
+}
+
+.c5 {
+  padding: 0 8px;
+}
+
+.c0 {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
+<div>
+    <p
+      class="c0"
+      role="contentinfo"
+    >
+      Content
+    </p>
+    <div
+      class="c1"
+      role="separator"
+    >
+      <hr
+        class="c2"
+        role="separator"
+      />
+      <div
+        class="c3"
+        role="separator"
+      >
+        Page 1
+      </div>
+    </div>
+    <p
+      class="c0"
+      role="contentinfo"
+    >
+      Content
+    </p>
+    <div
+      class="c1"
+      role="separator"
+    >
+      <div
+        class="c4"
+        role="separator"
+      >
+        Page 1
+      </div>
+      <hr
+        class="c2"
+        role="separator"
+      />
+    </div>
+    <p
+      class="c0"
+      role="contentinfo"
+    >
+      Content
+    </p>
+    <div
+      class="c1"
+      role="separator"
+    >
+      <hr
+        class="c2"
+        role="separator"
+      />
+      <div
+        class="c5"
+        role="separator"
+      >
+        Page 1
+      </div>
+      <hr
+        class="c2"
+        role="separator"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`EnhancedDivider Dark mode basic render 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  margin: 1rem 0;
+}
+
+.c2 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c0 {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
+<body>
+    <div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
+      </p>
+      <div
+        class="c1"
+        role="separator"
+      >
+        <hr
+          class="c2"
+          role="separator"
+        />
+        <hr
+          class="c2"
+          role="separator"
+        />
+      </div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
+      </p>
+    </div>
+  </body>,
+  "container": .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  margin: 1rem 0;
+}
+
+.c2 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c0 {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
+<div>
+    <p
+      class="c0"
+      role="contentinfo"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
+    </p>
+    <div
+      class="c1"
+      role="separator"
+    >
+      <hr
+        class="c2"
+        role="separator"
+      />
+      <hr
+        class="c2"
+        role="separator"
+      />
+    </div>
+    <p
+      class="c0"
+      role="contentinfo"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
+    </p>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`EnhancedDivider Density 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  margin: 1rem 0;
+}
+
+.c2 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thick;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c3 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c4 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px medium;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c0 {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
+<body>
+    <div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        thick density
+      </p>
+      <div
+        class="c1"
+        role="separator"
+      >
+        <hr
+          class="c2"
+          role="separator"
+        />
+        <hr
+          class="c2"
+          role="separator"
+        />
+      </div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        thin density
+      </p>
+      <div
+        class="c1"
+        role="separator"
+      >
+        <hr
+          class="c3"
+          role="separator"
+        />
+        <hr
+          class="c3"
+          role="separator"
+        />
+      </div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        medium density
+      </p>
+      <div
+        class="c1"
+        role="separator"
+      >
+        <hr
+          class="c4"
+          role="separator"
+        />
+        <hr
+          class="c4"
+          role="separator"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  margin: 1rem 0;
+}
+
+.c2 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thick;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c3 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c4 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px medium;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c0 {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
+<div>
+    <p
+      class="c0"
+      role="contentinfo"
+    >
+      thick density
+    </p>
+    <div
+      class="c1"
+      role="separator"
+    >
+      <hr
+        class="c2"
+        role="separator"
+      />
+      <hr
+        class="c2"
+        role="separator"
+      />
+    </div>
+    <p
+      class="c0"
+      role="contentinfo"
+    >
+      thin density
+    </p>
+    <div
+      class="c1"
+      role="separator"
+    >
+      <hr
+        class="c3"
+        role="separator"
+      />
+      <hr
+        class="c3"
+        role="separator"
+      />
+    </div>
+    <p
+      class="c0"
+      role="contentinfo"
+    >
+      medium density
+    </p>
+    <div
+      class="c1"
+      role="separator"
+    >
+      <hr
+        class="c4"
+        role="separator"
+      />
+      <hr
+        class="c4"
+        role="separator"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`EnhancedDivider Shade 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  margin: 1rem 0;
+}
+
+.c2 {
+  border-color: hsla(0,0%,15%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c0 {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
+<body>
+    <div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        800 shade
+      </p>
+      <div
+        class="c1"
+        role="separator"
+      >
+        <hr
+          class="c2"
+          role="separator"
+        />
+        <hr
+          class="c2"
+          role="separator"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  margin: 1rem 0;
+}
+
+.c2 {
+  border-color: hsla(0,0%,15%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c0 {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
+<div>
+    <p
+      class="c0"
+      role="contentinfo"
+    >
+      800 shade
+    </p>
+    <div
+      class="c1"
+      role="separator"
+    >
+      <hr
+        class="c2"
+        role="separator"
+      />
+      <hr
+        class="c2"
+        role="separator"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`EnhancedDivider Tone 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  margin: 1rem 0;
+}
+
+.c2 {
+  border-color: hsla(271,91%,65%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c0 {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
+<body>
+    <div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        color major
+      </p>
+      <div
+        class="c1"
+        role="separator"
+      >
+        <hr
+          class="c2"
+          role="separator"
+        />
+        <hr
+          class="c2"
+          role="separator"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  margin: 1rem 0;
+}
+
+.c2 {
+  border-color: hsla(271,91%,65%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c0 {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
+<div>
+    <p
+      class="c0"
+      role="contentinfo"
+    >
+      color major
+    </p>
+    <div
+      class="c1"
+      role="separator"
+    >
+      <hr
+        class="c2"
+        role="separator"
+      />
+      <hr
+        class="c2"
+        role="separator"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`EnhancedDivider Variants 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  margin: 1rem 0;
+}
+
+.c2 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: dashed;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c3 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: dotted;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c4 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: double;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c5 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: groove;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c6 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: hidden;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c7 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: ridge;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c8 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c0 {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
+<body>
+    <div>
+      <div>
+        <p
+          class="c0"
+          role="contentinfo"
+        >
+          dashed
+           style
+        </p>
+        <div
+          class="c1"
+          role="separator"
+        >
+          <hr
+            class="c2"
+            role="separator"
+          />
+          <hr
+            class="c2"
+            role="separator"
+          />
+        </div>
+        <p
+          class="c0"
+          role="contentinfo"
+        >
+          dashed
+           style
+        </p>
+      </div>
+      <div>
+        <p
+          class="c0"
+          role="contentinfo"
+        >
+          dotted
+           style
+        </p>
+        <div
+          class="c1"
+          role="separator"
+        >
+          <hr
+            class="c3"
+            role="separator"
+          />
+          <hr
+            class="c3"
+            role="separator"
+          />
+        </div>
+        <p
+          class="c0"
+          role="contentinfo"
+        >
+          dotted
+           style
+        </p>
+      </div>
+      <div>
+        <p
+          class="c0"
+          role="contentinfo"
+        >
+          double
+           style
+        </p>
+        <div
+          class="c1"
+          role="separator"
+        >
+          <hr
+            class="c4"
+            role="separator"
+          />
+          <hr
+            class="c4"
+            role="separator"
+          />
+        </div>
+        <p
+          class="c0"
+          role="contentinfo"
+        >
+          double
+           style
+        </p>
+      </div>
+      <div>
+        <p
+          class="c0"
+          role="contentinfo"
+        >
+          groove
+           style
+        </p>
+        <div
+          class="c1"
+          role="separator"
+        >
+          <hr
+            class="c5"
+            role="separator"
+          />
+          <hr
+            class="c5"
+            role="separator"
+          />
+        </div>
+        <p
+          class="c0"
+          role="contentinfo"
+        >
+          groove
+           style
+        </p>
+      </div>
+      <div>
+        <p
+          class="c0"
+          role="contentinfo"
+        >
+          hidden
+           style
+        </p>
+        <div
+          class="c1"
+          role="separator"
+        >
+          <hr
+            class="c6"
+            role="separator"
+          />
+          <hr
+            class="c6"
+            role="separator"
+          />
+        </div>
+        <p
+          class="c0"
+          role="contentinfo"
+        >
+          hidden
+           style
+        </p>
+      </div>
+      <div>
+        <p
+          class="c0"
+          role="contentinfo"
+        >
+          ridge
+           style
+        </p>
+        <div
+          class="c1"
+          role="separator"
+        >
+          <hr
+            class="c7"
+            role="separator"
+          />
+          <hr
+            class="c7"
+            role="separator"
+          />
+        </div>
+        <p
+          class="c0"
+          role="contentinfo"
+        >
+          ridge
+           style
+        </p>
+      </div>
+      <div>
+        <p
+          class="c0"
+          role="contentinfo"
+        >
+          solid
+           style
+        </p>
+        <div
+          class="c1"
+          role="separator"
+        >
+          <hr
+            class="c8"
+            role="separator"
+          />
+          <hr
+            class="c8"
+            role="separator"
+          />
+        </div>
+        <p
+          class="c0"
+          role="contentinfo"
+        >
+          solid
+           style
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  margin: 1rem 0;
+}
+
+.c2 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: dashed;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c3 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: dotted;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c4 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: double;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c5 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: groove;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c6 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: hidden;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c7 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: ridge;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c8 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c0 {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
+<div>
+    <div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        dashed
+         style
+      </p>
+      <div
+        class="c1"
+        role="separator"
+      >
+        <hr
+          class="c2"
+          role="separator"
+        />
+        <hr
+          class="c2"
+          role="separator"
+        />
+      </div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        dashed
+         style
+      </p>
+    </div>
+    <div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        dotted
+         style
+      </p>
+      <div
+        class="c1"
+        role="separator"
+      >
+        <hr
+          class="c3"
+          role="separator"
+        />
+        <hr
+          class="c3"
+          role="separator"
+        />
+      </div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        dotted
+         style
+      </p>
+    </div>
+    <div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        double
+         style
+      </p>
+      <div
+        class="c1"
+        role="separator"
+      >
+        <hr
+          class="c4"
+          role="separator"
+        />
+        <hr
+          class="c4"
+          role="separator"
+        />
+      </div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        double
+         style
+      </p>
+    </div>
+    <div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        groove
+         style
+      </p>
+      <div
+        class="c1"
+        role="separator"
+      >
+        <hr
+          class="c5"
+          role="separator"
+        />
+        <hr
+          class="c5"
+          role="separator"
+        />
+      </div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        groove
+         style
+      </p>
+    </div>
+    <div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        hidden
+         style
+      </p>
+      <div
+        class="c1"
+        role="separator"
+      >
+        <hr
+          class="c6"
+          role="separator"
+        />
+        <hr
+          class="c6"
+          role="separator"
+        />
+      </div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        hidden
+         style
+      </p>
+    </div>
+    <div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        ridge
+         style
+      </p>
+      <div
+        class="c1"
+        role="separator"
+      >
+        <hr
+          class="c7"
+          role="separator"
+        />
+        <hr
+          class="c7"
+          role="separator"
+        />
+      </div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        ridge
+         style
+      </p>
+    </div>
+    <div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        solid
+         style
+      </p>
+      <div
+        class="c1"
+        role="separator"
+      >
+        <hr
+          class="c8"
+          role="separator"
+        />
+        <hr
+          class="c8"
+          role="separator"
+        />
+      </div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        solid
+         style
+      </p>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
