@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.11.0](https://github.com/badatt/tidy-ui/compare/v0.10.0...v0.11.0) (2022-08-30)
+
+
+### Features
+
+* fixed length divider with alignment ([8560990](https://github.com/badatt/tidy-ui/commit/8560990f228ed0b8e60944586b64e789a624b297))
+
+
+
+
+
 # [0.10.0](https://github.com/badatt/tidy-ui/compare/v0.9.2...v0.10.0) (2022-08-30)
 
 
