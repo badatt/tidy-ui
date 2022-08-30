@@ -56,7 +56,7 @@ describe('Grid', () => {
   it('Spacing', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Grid spacing={10}>
+        <Grid gap={10}>
           <Items />
         </Grid>
       </ThemeProvider>,

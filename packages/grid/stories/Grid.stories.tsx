@@ -156,7 +156,7 @@ export const gutter = () => {
   );
 };
 
-export const spacing = () => {
+export const gap = () => {
   const [space, setSpace] = useState(8);
   const increment = () => setSpace(space + 4);
   const decrement = () => space > 4 && setSpace(space - 4);
@@ -166,10 +166,10 @@ export const spacing = () => {
       <ToolBar>
         <ButtonGroup>
           <Button variant="simple" tone="minor" onClick={increment}>
-            Increase span
+            Increase gap
           </Button>
           <Button variant="simple" tone="minor" onClick={decrement}>
-            Decrease span
+            Decrease gap
           </Button>
           <Button variant="simple" tone="neutral" onClick={reset}>
             Reset ({space})
@@ -178,12 +178,12 @@ export const spacing = () => {
       </ToolBar>
       <Ctx.Consumer>
         {({ count }) => (
-          <StyledGrid spacing={space}>
+          <StyledGrid gap={space}>
             {[...Array(count)].map((c, i) => (
               <Grid.Item key={i}>
                 <TextWrap style={{ padding: '3rem' }}>
                   <StyledText v="h3">{i}</StyledText>
-                  <StyledTextLabel>spacing={space}</StyledTextLabel>
+                  <StyledTextLabel>gap={space}</StyledTextLabel>
                 </TextWrap>
               </Grid.Item>
             ))}
