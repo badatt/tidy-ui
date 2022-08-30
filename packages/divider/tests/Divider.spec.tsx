@@ -9,6 +9,7 @@ import 'jest-styled-components';
 import { orchidDark, orchidLight } from '@tidy-ui/commons';
 import { Divider } from '../src';
 import { Text } from '@tidy-ui/presentation';
+import { TVariant } from '../src/types';
 
 describe('Divider', () => {
   it('Basic render', () => {
@@ -60,17 +61,51 @@ describe('Divider', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-  it('Other variants', () => {
+
+  it('Tone', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
         <Text>color major</Text>
         <Divider tone="major" />
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+  it('Density', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidDark}>
         <Text>thick density</Text>
         <Divider density="thick" />
+        <Text>thin density</Text>
+        <Divider density="thin" />
+        <Text>medium density</Text>
+        <Divider density="medium" />
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Shade', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidDark}>
         <Text>800 shade</Text>
         <Divider shade={800} />
-        <Text>dashed style</Text>
-        <Divider variant="dashed" />
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Variants', () => {
+    const variants = ['dashed', 'dotted', 'double', 'groove', 'hidden', 'ridge', 'solid'];
+    const tree = render(
+      <ThemeProvider theme={orchidDark}>
+        {variants.map((v, i) => (
+          <div key={i}>
+            <Text>{v} style</Text>
+            <Divider variant={v as TVariant} />
+            <Text>{v} style</Text>
+          </div>
+        ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
