@@ -6,7 +6,7 @@ import { render } from '@testing-library/react';
 import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { CheckCircleIcon } from '@tidy-ui/commons';
+import { Icon } from '@tidy-ui/commons';
 import { orchidDark, orchidLight } from '@tidy-ui/commons';
 import { TTone } from '@tidy-ui/types';
 import { DataField } from '../src';
@@ -55,9 +55,15 @@ describe('Text', () => {
   it('With icons', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <DataField ico={<CheckCircleIcon />} lbl="settings icon" val="settings icon value" />
-        <DataField ico={<CheckCircleIcon />} lbl="settings icon" acc="major" val="major accent value" />
-        <DataField ico={<CheckCircleIcon />} lbl="success icon" acc="success" clr="success" val="success color value" />
+        <DataField ico={<Icon.CheckCircle />} lbl="settings icon" val="settings icon value" />
+        <DataField ico={<Icon.CheckCircle />} lbl="settings icon" acc="major" val="major accent value" />
+        <DataField
+          ico={<Icon.CheckCircle />}
+          lbl="success icon"
+          acc="success"
+          clr="success"
+          val="success color value"
+        />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();

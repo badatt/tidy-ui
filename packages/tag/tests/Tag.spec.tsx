@@ -6,7 +6,7 @@ import { render } from '@testing-library/react';
 import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { CheckCircleIcon } from '@tidy-ui/commons';
+import { Icon } from '@tidy-ui/commons';
 import { orchidDark, orchidLight } from '@tidy-ui/commons';
 import { Tag } from '../src';
 
@@ -59,7 +59,7 @@ describe('Tag', () => {
   it('Tag with icon', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Tag icon={<CheckCircleIcon />}>html</Tag>
+        <Tag icon={<Icon.CheckCircle />}>html</Tag>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();

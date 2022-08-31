@@ -6,16 +6,7 @@ import { render } from '@testing-library/react';
 import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import {
-  AddCircleIcon,
-  AddIcon,
-  CancelIcon,
-  CheckCircleIcon,
-  CloseIcon,
-  DangerousIcon,
-  InfoIcon,
-  WarningIcon,
-} from '@tidy-ui/commons';
+import { Icon } from '@tidy-ui/commons';
 import { orchidDark, orchidLight } from '@tidy-ui/commons';
 import { IconButton } from '../src';
 
@@ -23,7 +14,7 @@ describe('Render Button', () => {
   it('Basic render', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <IconButton icon={<AddIcon />}>Add</IconButton>
+        <IconButton icon={<Icon.Add />}>Add</IconButton>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -31,7 +22,7 @@ describe('Render Button', () => {
   it('Basic render in dark', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <IconButton icon={<AddIcon />}>Add</IconButton>
+        <IconButton icon={<Icon.Add />}>Add</IconButton>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -40,7 +31,7 @@ describe('Render Button', () => {
   it('Disabled IconButton', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <IconButton icon={<AddIcon />} disabled>
+        <IconButton icon={<Icon.Add />} disabled>
           Disabled
         </IconButton>
       </ThemeProvider>,
@@ -51,25 +42,25 @@ describe('Render Button', () => {
   it('IconButton with all color variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <IconButton icon={<AddCircleIcon />} tone="major">
+        <IconButton icon={<Icon.AddCircle />} tone="major">
           Major
         </IconButton>
-        <IconButton icon={<CancelIcon />} tone="minor">
+        <IconButton icon={<Icon.Cancel />} tone="minor">
           Minor
         </IconButton>
-        <IconButton icon={<CloseIcon />} tone="neutral">
+        <IconButton icon={<Icon.Close />} tone="neutral">
           Neutral
         </IconButton>
-        <IconButton icon={<InfoIcon />} tone="info">
+        <IconButton icon={<Icon.Info />} tone="info">
           Info
         </IconButton>
-        <IconButton icon={<CheckCircleIcon />} tone="success">
+        <IconButton icon={<Icon.CheckCircle />} tone="success">
           Success
         </IconButton>
-        <IconButton icon={<WarningIcon />} tone="warning">
+        <IconButton icon={<Icon.Warning />} tone="warning">
           Warning
         </IconButton>
-        <IconButton icon={<DangerousIcon />} tone="danger">
+        <IconButton icon={<Icon.Dangerous />} tone="danger">
           Danger
         </IconButton>
       </ThemeProvider>,
@@ -80,25 +71,25 @@ describe('Render Button', () => {
   it('IconButton with all size variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <IconButton icon={<AddCircleIcon />} size="xxs">
+        <IconButton icon={<Icon.AddCircle />} size="xxs">
           Xxs
         </IconButton>
-        <IconButton icon={<AddCircleIcon />} size="xs">
+        <IconButton icon={<Icon.AddCircle />} size="xs">
           Xs
         </IconButton>
-        <IconButton icon={<AddCircleIcon />} size="sm">
+        <IconButton icon={<Icon.AddCircle />} size="sm">
           Sm
         </IconButton>
-        <IconButton icon={<AddCircleIcon />} size="md">
+        <IconButton icon={<Icon.AddCircle />} size="md">
           Md
         </IconButton>
-        <IconButton icon={<AddCircleIcon />} size="lg">
+        <IconButton icon={<Icon.AddCircle />} size="lg">
           Lg
         </IconButton>
-        <IconButton icon={<AddCircleIcon />} size="xl">
+        <IconButton icon={<Icon.AddCircle />} size="xl">
           Xl
         </IconButton>
-        <IconButton icon={<AddCircleIcon />} size="xxl">
+        <IconButton icon={<Icon.AddCircle />} size="xxl">
           Xxl
         </IconButton>
       </ThemeProvider>,
@@ -109,10 +100,10 @@ describe('Render Button', () => {
   it('IconButton with all type variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <IconButton icon={<AddCircleIcon />} variant="primary">
+        <IconButton icon={<Icon.AddCircle />} variant="primary">
           Primary
         </IconButton>
-        <IconButton icon={<CloseIcon />} variant="outlined">
+        <IconButton icon={<Icon.Close />} variant="outlined">
           Outlined
         </IconButton>
       </ThemeProvider>,
@@ -123,13 +114,13 @@ describe('Render Button', () => {
   it('IconButton with only icon', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <IconButton icon={<AddIcon />} iconOnly size="xxs" />
-        <IconButton icon={<AddIcon />} iconOnly size="xs" />
-        <IconButton icon={<AddIcon />} iconOnly size="sm" />
-        <IconButton icon={<AddIcon />} iconOnly size="md" />
-        <IconButton icon={<AddIcon />} iconOnly size="lg" />
-        <IconButton icon={<AddIcon />} iconOnly size="xl" />
-        <IconButton icon={<AddIcon />} iconOnly size="xxl" />
+        <IconButton icon={<Icon.Add />} iconOnly size="xxs" />
+        <IconButton icon={<Icon.Add />} iconOnly size="xs" />
+        <IconButton icon={<Icon.Add />} iconOnly size="sm" />
+        <IconButton icon={<Icon.Add />} iconOnly size="md" />
+        <IconButton icon={<Icon.Add />} iconOnly size="lg" />
+        <IconButton icon={<Icon.Add />} iconOnly size="xl" />
+        <IconButton icon={<Icon.Add />} iconOnly size="xxl" />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -138,8 +129,8 @@ describe('Render Button', () => {
   it('IconButton with placement variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <IconButton icon={<AddCircleIcon />}>Left</IconButton>
-        <IconButton icon={<AddCircleIcon />} placement="right">
+        <IconButton icon={<Icon.AddCircle />}>Left</IconButton>
+        <IconButton icon={<Icon.AddCircle />} placement="right">
           Right
         </IconButton>
       </ThemeProvider>,

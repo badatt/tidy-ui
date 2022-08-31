@@ -1,5 +1,5 @@
 import React from 'react';
-import { DangerousIcon, Icon } from '@tidy-ui/commons';
+import { Icon } from '@tidy-ui/commons';
 import { css, hsla, neutral, styled } from '@tidy-ui/commons';
 import { Badge } from '../src';
 
@@ -19,7 +19,7 @@ const Container = styled.div`
   `}
 `;
 
-const IconWrap = styled(DangerousIcon)`
+const IconWrap = styled(Icon.Dangerous)`
   height: 20px;
   width: 20px;
 `;
@@ -27,7 +27,7 @@ const IconWrap = styled(DangerousIcon)`
 export const basic = () => (
   <Container>
     <Badge data={120} style={{ fontSize: '20px' }}>
-      <Icon ele={<DangerousIcon />} />
+      <Icon ele={<Icon.Dangerous />} />
     </Badge>
     <Badge data={99} hidden>
       <IconWrap />

@@ -6,7 +6,7 @@ import { render } from '@testing-library/react';
 import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { AddCircleIcon } from '@tidy-ui/commons';
+import { Icon } from '@tidy-ui/commons';
 import { orchidDark, orchidLight } from '@tidy-ui/commons';
 import { Button } from '../src';
 
@@ -161,7 +161,7 @@ describe('Render Button', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Button variant="primary" tone="major">
-          <AddCircleIcon />
+          <Icon.AddCircle />
           Settings
         </Button>
       </ThemeProvider>,
@@ -173,7 +173,7 @@ describe('Render Button', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Button tone="neutral">
-          <AddCircleIcon />
+          <Icon.AddCircle />
         </Button>
       </ThemeProvider>,
     );
