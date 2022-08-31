@@ -5,7 +5,7 @@ import React, { useContext, useEffect } from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidLight, RootActions } from '@tidy-ui/commons';
+import { orchidLight, Actions } from '@tidy-ui/commons';
 import { TidyUiContext, initialState } from '../../src';
 
 describe('TidyUiContext', () => {
@@ -22,7 +22,9 @@ describe('TidyUiContext', () => {
     const tree = render(
       <TidyUiContext.Consumer>
         {({ state, dispatch }) => (
-          <div onClick={() => dispatch({ type: RootActions.Reset, payload: null })}>hello {state.pageState.title}</div>
+          <div onClick={() => dispatch({ type: Actions.RootActions.Reset, payload: null })}>
+            hello {state.pageState.title}
+          </div>
         )}
       </TidyUiContext.Consumer>,
     );

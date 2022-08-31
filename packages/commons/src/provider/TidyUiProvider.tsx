@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useReducer } from 'react';
 import { ThemeProvider } from 'styled-components';
-import { PageActions } from '../actions';
+import { Actions } from '../actions';
 import { initializer, initialState, mainReducer } from '../reducers';
 import { TidyUiContext } from './context';
 import { ITidyUiProviderProps } from './types';
@@ -23,7 +23,7 @@ const TidyUiProvider = (props: ITidyUiProviderProps): JSX.Element => {
       payload: {
         theme,
       },
-      type: PageActions.SetTheme,
+      type: Actions.PageActions.SetTheme,
     });
   }, [theme]);
 

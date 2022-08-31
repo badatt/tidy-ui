@@ -1,10 +1,17 @@
-import { PageActionTypes } from './page.actions';
-import { RootActionTypes } from './root.actions';
+import { PageActions, PageActionTypes } from './page.actions';
+import { RootActions, RootActionTypes } from './root.actions';
 
 /**
  * Tidy UI components internal actions
  */
 export type AppActionTypes = PageActionTypes | RootActionTypes;
 
-export { PageActions } from './page.actions';
-export { RootActions } from './root.actions';
+/**
+ * Tidy UI context actions
+ */
+const Actions = {
+  PageActions,
+  RootActions,
+};
+
+export { Actions };

@@ -5,7 +5,7 @@ import React, { useContext, useEffect } from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidLight, RootActions } from '@tidy-ui/commons';
+import { orchidLight, Actions } from '@tidy-ui/commons';
 import { TidyUiContext, TidyUiProvider } from '../../src';
 
 describe('TidyUiProvider', () => {
@@ -23,7 +23,7 @@ describe('TidyUiProvider', () => {
       const { state, dispatch } = useContext(TidyUiContext);
       useEffect(() => {
         dispatch({
-          type: RootActions.SetVersion,
+          type: Actions.RootActions.SetVersion,
           payload: { version: '1.0.0' },
         });
       }, []);
