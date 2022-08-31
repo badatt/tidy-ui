@@ -1,6 +1,6 @@
 import React from 'react';
 import { Icon } from '@tidy-ui/commons';
-import { css, hsla, neutral, styled } from '@tidy-ui/commons';
+import { css, hsla, color, styled } from '@tidy-ui/commons';
 import { Badge } from '../src';
 
 export default {
@@ -15,7 +15,7 @@ const Container = styled.div`
     gap: 2rem;
     position: relative;
     width: fit-content;
-    color: ${isDark ? hsla(neutral[400]) : hsla(neutral[600])};
+    color: ${isDark ? hsla(color.neutral[400]) : hsla(color.neutral[600])};
   `}
 `;
 

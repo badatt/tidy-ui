@@ -1,6 +1,6 @@
 import baseStyled, { css as baseCss, ThemedCssFunction, ThemedStyledInterface } from 'styled-components';
 
-export * from './colors';
+export { color } from './colors';
 export { hsla } from './utils';
 
 import { ITidyUITheme } from '@tidy-ui/types';

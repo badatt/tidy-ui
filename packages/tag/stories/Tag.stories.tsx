@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckCircleIcon } from '@tidy-ui/commons';
+import { Icon } from '@tidy-ui/commons';
 import { styled } from '@tidy-ui/commons';
 import { Tag } from '../src';
 
@@ -23,7 +23,7 @@ export const basic = () => (
   <Container>
     <Column>
       <Tag>typescript</Tag>
-      <Tag icon={<CheckCircleIcon />} tone="success">
+      <Tag icon={<Icon.CheckCircle />} tone="success">
         Success
       </Tag>
     </Column>
