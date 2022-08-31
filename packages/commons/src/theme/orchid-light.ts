@@ -1,27 +1,27 @@
 import { ITidyUITheme } from '@tidy-ui/types';
 import { defaultBase } from './base';
-import { amber, blue, green, neutral, pink, purple, red } from './colors';
+import { color } from './colors';
 import { createColor } from './utils';
 
 const paletteVariant = {
   // Red
-  danger: createColor(red),
+  danger: createColor(color.red),
 
   // Blue
-  info: createColor(blue),
+  info: createColor(color.blue),
   /**
    * colors taken from tailwind css https://tailwindcss.com/docs/customizing-colors
    */
   // Purple
-  major: createColor(purple),
+  major: createColor(color.purple),
   // Pink
-  minor: createColor(pink),
+  minor: createColor(color.pink),
   // Neutral
-  neutral: createColor(neutral),
+  neutral: createColor(color.neutral),
   // Green
-  success: createColor(green),
+  success: createColor(color.green),
   // Amber
-  warning: createColor(amber),
+  warning: createColor(color.amber),
 };
 
 const theme: ITidyUITheme = {

@@ -1,14 +1,5 @@
 import React from 'react';
-import {
-  AddCircleIcon,
-  AddIcon,
-  CancelIcon,
-  CheckCircleIcon,
-  CloseIcon,
-  DangerousIcon,
-  InfoIcon,
-  WarningIcon,
-} from '@tidy-ui/commons';
+import { Icon } from '@tidy-ui/commons';
 import { styled } from '@tidy-ui/commons';
 import { IconButton } from '../src';
 
@@ -30,31 +21,31 @@ const Column = styled.div`
 
 export const basic = () => (
   <Container>
-    <IconButton icon={<AddIcon />}>Add</IconButton>
+    <IconButton icon={<Icon.Add />}>Add</IconButton>
   </Container>
 );
 
 export const colorVariants = () => (
   <Container>
-    <IconButton icon={<AddCircleIcon />} tone="major">
+    <IconButton icon={<Icon.AddCircle />} tone="major">
       Major
     </IconButton>
-    <IconButton icon={<CancelIcon />} tone="minor">
+    <IconButton icon={<Icon.Cancel />} tone="minor">
       Minor
     </IconButton>
-    <IconButton icon={<CloseIcon />} tone="neutral">
+    <IconButton icon={<Icon.Close />} tone="neutral">
       Neutral
     </IconButton>
-    <IconButton icon={<InfoIcon />} tone="info">
+    <IconButton icon={<Icon.Info />} tone="info">
       Info
     </IconButton>
-    <IconButton icon={<CheckCircleIcon />} tone="success">
+    <IconButton icon={<Icon.CheckCircle />} tone="success">
       Success
     </IconButton>
-    <IconButton icon={<WarningIcon />} tone="warning">
+    <IconButton icon={<Icon.Warning />} tone="warning">
       Warning
     </IconButton>
-    <IconButton icon={<DangerousIcon />} tone="danger">
+    <IconButton icon={<Icon.Dangerous />} tone="danger">
       Danger
     </IconButton>
   </Container>
@@ -62,8 +53,8 @@ export const colorVariants = () => (
 
 export const placement = () => (
   <Container>
-    <IconButton icon={<AddCircleIcon />}>Left</IconButton>
-    <IconButton icon={<AddCircleIcon />} placement="right">
+    <IconButton icon={<Icon.AddCircle />}>Left</IconButton>
+    <IconButton icon={<Icon.AddCircle />} placement="right">
       Right
     </IconButton>
   </Container>
@@ -72,25 +63,25 @@ export const placement = () => (
 export const sizeVariants = () => (
   <Container>
     <Column>
-      <IconButton icon={<AddCircleIcon />} size="xxs">
+      <IconButton icon={<Icon.AddCircle />} size="xxs">
         Xxs
       </IconButton>
-      <IconButton icon={<AddCircleIcon />} size="xs">
+      <IconButton icon={<Icon.AddCircle />} size="xs">
         Xs
       </IconButton>
-      <IconButton icon={<AddCircleIcon />} size="sm">
+      <IconButton icon={<Icon.AddCircle />} size="sm">
         Sm
       </IconButton>
-      <IconButton icon={<AddCircleIcon />} size="md">
+      <IconButton icon={<Icon.AddCircle />} size="md">
         Md
       </IconButton>
-      <IconButton icon={<AddCircleIcon />} size="lg">
+      <IconButton icon={<Icon.AddCircle />} size="lg">
         Lg
       </IconButton>
-      <IconButton icon={<AddCircleIcon />} size="xl">
+      <IconButton icon={<Icon.AddCircle />} size="xl">
         Xl
       </IconButton>
-      <IconButton icon={<AddCircleIcon />} size="xxl">
+      <IconButton icon={<Icon.AddCircle />} size="xxl">
         Xxl
       </IconButton>
     </Column>
@@ -99,10 +90,10 @@ export const sizeVariants = () => (
 
 export const types = () => (
   <Container>
-    <IconButton icon={<AddCircleIcon />} variant="primary">
+    <IconButton icon={<Icon.AddCircle />} variant="primary">
       Primary
     </IconButton>
-    <IconButton icon={<CloseIcon />} variant="outlined">
+    <IconButton icon={<Icon.Close />} variant="outlined">
       Outlined
     </IconButton>
   </Container>
@@ -110,7 +101,7 @@ export const types = () => (
 
 export const disabled = () => (
   <Container>
-    <IconButton icon={<AddIcon />} disabled>
+    <IconButton icon={<Icon.Add />} disabled>
       Disabled
     </IconButton>
   </Container>
@@ -119,13 +110,13 @@ export const disabled = () => (
 export const iconOnly = () => (
   <Container>
     <Column>
-      <IconButton icon={<AddIcon />} iconOnly size="xxs" />
-      <IconButton icon={<AddIcon />} iconOnly size="xs" />
-      <IconButton icon={<AddIcon />} iconOnly size="sm" />
-      <IconButton icon={<AddIcon />} iconOnly size="md" />
-      <IconButton icon={<AddIcon />} iconOnly size="lg" />
-      <IconButton icon={<AddIcon />} iconOnly size="xl" />
-      <IconButton icon={<AddIcon />} iconOnly size="xxl" />
+      <IconButton icon={<Icon.Add />} iconOnly size="xxs" />
+      <IconButton icon={<Icon.Add />} iconOnly size="xs" />
+      <IconButton icon={<Icon.Add />} iconOnly size="sm" />
+      <IconButton icon={<Icon.Add />} iconOnly size="md" />
+      <IconButton icon={<Icon.Add />} iconOnly size="lg" />
+      <IconButton icon={<Icon.Add />} iconOnly size="xl" />
+      <IconButton icon={<Icon.Add />} iconOnly size="xxl" />
     </Column>
   </Container>
 );

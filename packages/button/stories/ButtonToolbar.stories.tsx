@@ -1,14 +1,5 @@
 import React from 'react';
-import {
-  AddCircleIcon,
-  AddIcon,
-  CancelIcon,
-  CheckCircleIcon,
-  CloseIcon,
-  DangerousIcon,
-  InfoIcon,
-  WarningIcon,
-} from '@tidy-ui/commons';
+import { Icon } from '@tidy-ui/commons';
 import { ButtonGroup, ButtonToolbar, IconButton } from '../src';
 
 export default {
@@ -18,16 +9,16 @@ export default {
 
 export const basic = () => (
   <ButtonToolbar>
-    <IconButton icon={<AddCircleIcon />}>Add</IconButton>
+    <IconButton icon={<Icon.AddCircle />}>Add</IconButton>
     <ButtonGroup>
-      <IconButton icon={<AddIcon />} />
-      <IconButton icon={<CheckCircleIcon />} />
-      <IconButton icon={<InfoIcon />} />
-      <IconButton icon={<WarningIcon />} />
-      <IconButton icon={<DangerousIcon />} />
-      <IconButton icon={<CancelIcon />} />
+      <IconButton icon={<Icon.Add />} />
+      <IconButton icon={<Icon.CheckCircle />} />
+      <IconButton icon={<Icon.Info />} />
+      <IconButton icon={<Icon.Warning />} />
+      <IconButton icon={<Icon.Dangerous />} />
+      <IconButton icon={<Icon.Cancel />} />
     </ButtonGroup>
-    <IconButton icon={<CloseIcon />} placement="right">
+    <IconButton icon={<Icon.Close />} placement="right">
       Delete
     </IconButton>
   </ButtonToolbar>
@@ -35,24 +26,24 @@ export const basic = () => (
 
 export const outlined = () => (
   <ButtonToolbar>
-    <IconButton icon={<AddCircleIcon />} variant="outlined">
+    <IconButton icon={<Icon.AddCircle />} variant="outlined">
       Add
     </IconButton>
     <ButtonGroup>
-      <IconButton icon={<AddIcon />} variant="outlined" />
-      <IconButton icon={<CheckCircleIcon />} variant="outlined" />
-      <IconButton icon={<InfoIcon />} variant="outlined" />
-      <IconButton icon={<WarningIcon />} variant="outlined" />
-      <IconButton icon={<DangerousIcon />} variant="outlined" />
-      <IconButton icon={<CloseIcon />} variant="outlined" />
+      <IconButton icon={<Icon.Add />} variant="outlined" />
+      <IconButton icon={<Icon.CheckCircle />} variant="outlined" />
+      <IconButton icon={<Icon.Info />} variant="outlined" />
+      <IconButton icon={<Icon.Warning />} variant="outlined" />
+      <IconButton icon={<Icon.Dangerous />} variant="outlined" />
+      <IconButton icon={<Icon.Cancel />} variant="outlined" />
     </ButtonGroup>
-    <IconButton icon={<CancelIcon />} variant="outlined" />
+    <IconButton icon={<Icon.Close />} variant="outlined" />
   </ButtonToolbar>
 );
 
 export const disabled = () => (
   <ButtonToolbar disabled>
-    <IconButton icon={<AddCircleIcon />} variant="outlined">
+    <IconButton icon={<Icon.AddCircle />} variant="outlined">
       Add
     </IconButton>
     <ButtonGroup>

@@ -1,5 +1,5 @@
 import React, { createContext, useState } from 'react';
-import { AddIcon, amber, css, hsla, red, RemoveIcon, styled } from '@tidy-ui/commons';
+import { color, css, hsla, Icon, styled } from '@tidy-ui/commons';
 import { Button, ButtonGroup, ButtonToolbar, Text } from '@tidy-ui/presentation';
 import { Grid } from '../src';
 import { IGridProps, IItemProps } from '../src/types';
@@ -14,12 +14,12 @@ const StyledGrid = styled(Grid)<IGridProps>`
   ${({ theme: { isDark } }) =>
     isDark
       ? css`
-          background-color: ${hsla(amber[900], 0.2)};
-          color: ${hsla(amber[300])}; ;
+          background-color: ${hsla(color.amber[900], 0.2)};
+          color: ${hsla(color.amber[300])}; ;
         `
       : css`
-          background-color: ${hsla(amber[100], 0.8)};
-          color: ${hsla(amber[900])};
+          background-color: ${hsla(color.amber[100], 0.8)};
+          color: ${hsla(color.amber[900])};
         `}
 `;
 
@@ -27,12 +27,12 @@ const TextWrap = styled.div<IItemProps>`
   ${({ theme: { isDark } }) =>
     isDark
       ? css`
-          background-color: ${hsla(red[900], 0.2)};
-          border: 1px dashed ${hsla(red[900], 0.4)};
+          background-color: ${hsla(color.red[900], 0.2)};
+          border: 1px dashed ${hsla(color.red[900], 0.4)};
         `
       : css`
-          background-color: ${hsla(red[100], 0.8)};
-          border: 1px dashed ${hsla(red[400], 0.5)};
+          background-color: ${hsla(color.red[100], 0.8)};
+          border: 1px dashed ${hsla(color.red[400], 0.5)};
         `}
 `;
 
@@ -208,7 +208,7 @@ export const customLayout = () => {
             <ButtonGroup key={i}>
               <Button variant="outlined" tone="neutral" onClick={() => decrement(v)}>
                 <ToolBarIconWrap>
-                  <RemoveIcon />
+                  <Icon.Remove />
                 </ToolBarIconWrap>
               </Button>
               <Button variant="outlined" disabled tone="neutral">
@@ -216,7 +216,7 @@ export const customLayout = () => {
               </Button>
               <Button variant="outlined" tone="neutral" onClick={() => increment(v)}>
                 <ToolBarIconWrap>
-                  <AddIcon />
+                  <Icon.Add />
                 </ToolBarIconWrap>
               </Button>
             </ButtonGroup>

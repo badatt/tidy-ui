@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AddIcon, amber, css, hsla, RemoveIcon, styled } from '@tidy-ui/commons';
+import { color, css, hsla, Icon, styled } from '@tidy-ui/commons';
 import { Container } from '../src';
 import { IContainerProps } from '../src/types';
 import { Button, ButtonGroup } from '@tidy-ui/presentation';
@@ -15,12 +15,12 @@ const InnerDiv = styled.div<IContainerProps>`
   ${({ theme: { isDark } }) =>
     isDark
       ? css`
-          background-color: ${hsla(amber[900], 0.2)};
-          color: ${hsla(amber[300])}; ;
+          background-color: ${hsla(color.amber[900], 0.2)};
+          color: ${hsla(color.amber[300])}; ;
         `
       : css`
-          background-color: ${hsla(amber[100], 0.8)};
-          color: ${hsla(amber[900])};
+          background-color: ${hsla(color.amber[100], 0.8)};
+          color: ${hsla(color.amber[900])};
         `}
 `;
 
@@ -63,7 +63,7 @@ export const maxWidth = () => {
           <ButtonGroup>
             <Button variant="outlined" onClick={decrement}>
               <ToolBarIconWrap>
-                <RemoveIcon />
+                <Icon.Remove />
               </ToolBarIconWrap>
             </Button>
             <Button variant="outlined" disabled tone="neutral">
@@ -71,7 +71,7 @@ export const maxWidth = () => {
             </Button>
             <Button variant="outlined" onClick={increment}>
               <ToolBarIconWrap>
-                <AddIcon />
+                <Icon.Add />
               </ToolBarIconWrap>
             </Button>
           </ButtonGroup>

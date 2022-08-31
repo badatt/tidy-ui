@@ -441,8 +441,8 @@ const red: Record<number, IHsla> = {
   },
 };
 
-export { amber, blue, green, neutral, pink, purple, red };
+//export { amber, blue, green, neutral, pink, purple, red };
 
 const color = { amber, blue, green, neutral, pink, purple, red };
 
-export default color;
+export { color };
