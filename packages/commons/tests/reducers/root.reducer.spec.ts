@@ -1,4 +1,4 @@
-import { AppActionTypes, RootActions } from '../../src';
+import { AppActionTypes, Actions } from '../../src';
 import reducer from '../../src/reducers/root.reducer';
 import { IRootState } from '../../src/reducers/root.reducer';
 
@@ -17,7 +17,7 @@ describe('Page reducer', () => {
   });
   it('SetVersion', () => {
     const action: AppActionTypes = {
-      type: RootActions.SetVersion,
+      type: Actions.RootActions.SetVersion,
       payload: { version: '2.0.0' },
     };
     const mutatedState = reducer(initialState, action);
@@ -25,7 +25,7 @@ describe('Page reducer', () => {
   });
   it('Reset', () => {
     const action: AppActionTypes = {
-      type: RootActions.Reset,
+      type: Actions.RootActions.Reset,
       payload: null,
     };
     const mutatedState = reducer(initialState, action);

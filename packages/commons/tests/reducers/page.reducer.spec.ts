@@ -1,4 +1,4 @@
-import { AppActionTypes, orchidDark, orchidLight, PageActions } from '../../src';
+import { AppActionTypes, orchidDark, orchidLight, Actions } from '../../src';
 import reducer, { IPageState } from '../../src/reducers/page.reducer';
 
 const initialState: IPageState = {
@@ -17,7 +17,7 @@ describe('Page reducer', () => {
   });
   it('SetTitle', () => {
     const action: AppActionTypes = {
-      type: PageActions.SetTitle,
+      type: Actions.PageActions.SetTitle,
       payload: { title: 'changed title' },
     };
     const mutatedState = reducer(initialState, action);
@@ -25,7 +25,7 @@ describe('Page reducer', () => {
   });
   it('SetTheme', () => {
     const action: AppActionTypes = {
-      type: PageActions.SetTheme,
+      type: Actions.PageActions.SetTheme,
       payload: { theme: orchidDark },
     };
     const mutatedState = reducer(initialState, action);
