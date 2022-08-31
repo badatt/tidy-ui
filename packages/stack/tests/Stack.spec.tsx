@@ -6,13 +6,13 @@ import { render } from '@testing-library/react';
 import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { styled, DangerousIcon, orchidDark, orchidLight, css } from '@tidy-ui/commons';
+import { Icon, styled, orchidDark, orchidLight, css } from '@tidy-ui/commons';
 import { Divider } from '@tidy-ui/divider';
 import { Tag, Button, Badge, Text, IconButton } from '@tidy-ui/presentation';
 import { Stack } from '../src';
 import { IStackProps, TAlign, TJustify, TOrder } from '../src/types';
 
-const Icon = styled(DangerousIcon)<IStackProps>`
+const DangerIcon = styled(Icon.Dangerous)<IStackProps>`
   height: 1rem;
   width: 1rem;
   ${({ theme: { palette } }) =>
@@ -29,11 +29,11 @@ const items = [
   <Text>Five</Text>,
   <Text>Six</Text>,
   <Badge data={9}>
-    <Icon />
+    <DangerIcon />
   </Badge>,
   <Text>Seven</Text>,
   <Text>Eight</Text>,
-  <IconButton size="xs" icon={<Icon />}>
+  <IconButton size="xs" icon={<DangerIcon />}>
     Nine
   </IconButton>,
   <Text>Ten</Text>,
@@ -43,11 +43,11 @@ const items = [
   <Text>Fourteen</Text>,
   <Text>Fifteen</Text>,
   <Badge data={9}>
-    <Icon />
+    <DangerIcon />
   </Badge>,
   <Text>Sixteen</Text>,
   <Text>Seventeen</Text>,
-  <IconButton size="xs" icon={<Icon />}>
+  <IconButton size="xs" icon={<DangerIcon />}>
     Eighteen
   </IconButton>,
 ];
@@ -75,7 +75,7 @@ describe('Stack', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
         {variants.map((v, i) => (
-          <>
+          <div key={i}>
             <Text v="h5" style={{ margin: '1rem 0' }}>
               {v}
             </Text>
@@ -88,7 +88,7 @@ describe('Stack', () => {
               {items.map((v, i) => React.cloneElement(v, { key: i }))}
             </Stack>
             <Divider margin="1rem" />
-          </>
+          </div>
         ))}
       </ThemeProvider>,
     );
@@ -122,7 +122,7 @@ describe('Stack', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
         {variants.map((v, i) => (
-          <>
+          <div key={i}>
             <Text v="h5" style={{ margin: '1rem 0' }}>
               {v}
             </Text>
@@ -130,7 +130,7 @@ describe('Stack', () => {
               {items.map((v, i) => React.cloneElement(v, { key: i }))}
             </Stack>
             <Divider margin="1rem" />
-          </>
+          </div>
         ))}
       </ThemeProvider>,
     );
@@ -142,7 +142,7 @@ describe('Stack', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
         {variants.map((v, i) => (
-          <>
+          <div key={i}>
             <Text v="h5" style={{ margin: '1rem 0' }}>
               {v}
             </Text>
@@ -150,7 +150,7 @@ describe('Stack', () => {
               {items.map((v, i) => React.cloneElement(v, { key: i }))}
             </Stack>
             <Divider margin="1rem" />
-          </>
+          </div>
         ))}
       </ThemeProvider>,
     );

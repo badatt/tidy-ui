@@ -79,7 +79,7 @@ export const colorVariants = () => (
 
 export const others = () => (
   <Container>
-    <Text v="subtitle2" href="https://google.com">
+    <Text v="h5" href="https://google.com">
       Linked: The quick brown fox jumps over the lazy dog
     </Text>
     <Text bld>bold: The quick brown fox jumps over the lazy dog</Text>

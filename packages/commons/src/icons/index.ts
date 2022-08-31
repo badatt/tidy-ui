@@ -6,6 +6,7 @@ export { default as CloseIcon } from './CloseIcon';
 export { default as DangerousIcon } from './DangerousIcon';
 export { default as ExpandLessIcon } from './ExpandLessIcon';
 export { default as ExpandMoreIcon } from './ExpandMoreIcon';
+export * from './Icon';
 export { default as InfoIcon } from './InfoIcon';
 export { default as LaunchIcon } from './LaunchIcon';
 export { default as LinkIcon } from './LinkIcon';

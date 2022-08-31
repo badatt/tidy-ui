@@ -1,4 +1,4 @@
-import { css, hsla, styled } from '@tidy-ui/commons';
+import { css, hsla, Icon, styled } from '@tidy-ui/commons';
 import { filledContent, outlinedContent, sizeStyles } from './style';
 import { INewTagInput, ITagGroupProps, ITagProps } from './types';
 
@@ -13,7 +13,7 @@ const TagRoot = styled.div<ITagProps>`
     align-items: center;
     gap: 0.25rem;
     padding: ${sizeStyles[size!].padding};
-    border-radius: ${sizeStyles[size!].borderRadius};
+    border-radius: 0.25rem;
     font-size: ${sizeStyles[size!].fontSize};
     line-height: ${sizeStyles[size!].lineHeight};
     width: fit-content;
@@ -31,12 +31,8 @@ const TagRoot = styled.div<ITagProps>`
  *
  * @internal
  */
-const TagIcon = styled.i<ITagProps>`
-  ${({ size }) => css`
-    cursor: pointer;
-    height: ${sizeStyles[size!].iconSize};
-    width: ${sizeStyles[size!].iconSize};
-  `}
+const TagCloseIcon = styled(Icon.Close)<ITagProps>`
+  cursor: pointer;
 `;
 
 /**
@@ -45,10 +41,13 @@ const TagIcon = styled.i<ITagProps>`
  * @internal
  */
 const TagGroupRoot = styled.div<ITagGroupProps>`
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 0.5rem;
+  ${({ size }) => css`
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: ${sizeStyles[size!].fontSize};
+    gap: 0.5rem;
+  `}
 `;
 
 /**
@@ -56,11 +55,9 @@ const TagGroupRoot = styled.div<ITagGroupProps>`
  *
  * @internal
  */
-const AddNewTagIcon = styled.i<ITagGroupProps>`
-  ${({ theme: { isDark, palette }, size, tone }) => css`
+const AddNewTagIcon = styled(Icon.AddCircle)<ITagGroupProps>`
+  ${({ theme: { isDark, palette }, tone }) => css`
     cursor: pointer;
-    height: ${sizeStyles[size!].addNewIconSize};
-    width: ${sizeStyles[size!].addNewIconSize};
     color: ${isDark ? palette[tone!][400] : palette[tone!][600]};
   `}
 `;
@@ -79,7 +76,7 @@ const NewTagInput = styled.input<INewTagInput>`
     border: 1px solid ${palette[tone!][400]};
     transition: border-color 0.3s ease-in-out;
     padding: ${sizeStyles[withSize!].padding};
-    border-radius: ${sizeStyles[withSize!].borderRadius};
+    border-radius: 0.25rem;
     font-size: ${sizeStyles[withSize!].fontSize};
     line-height: ${sizeStyles[withSize!].lineHeight};
     &:focus {
@@ -93,4 +90,4 @@ const NewTagInput = styled.input<INewTagInput>`
   `}
 `;
 
-export { AddNewTagIcon, NewTagInput, TagGroupRoot, TagIcon, TagRoot };
+export { AddNewTagIcon, NewTagInput, TagCloseIcon, TagGroupRoot, TagRoot };

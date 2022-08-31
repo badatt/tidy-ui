@@ -5,11 +5,14 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div>
+      <i
+        style="height: 1em; width: 1em;"
+      >
         <svg
           aria-hidden="true"
           fill="currentColor"
           focusable="false"
+          style="height: 1em; width: 1em;"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -17,12 +20,15 @@ Object {
             d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"
           />
         </svg>
-      </div>
-      <div>
+      </i>
+      <i
+        style="height: 1em; width: 1em;"
+      >
         <svg
           aria-hidden="true"
           fill="currentColor"
           focusable="false"
+          style="height: 1em; width: 1em;"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -30,12 +36,15 @@ Object {
             d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
           />
         </svg>
-      </div>
-      <div>
+      </i>
+      <i
+        style="height: 1em; width: 1em;"
+      >
         <svg
           aria-hidden="true"
           fill="currentColor"
           focusable="false"
+          style="height: 1em; width: 1em;"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -43,12 +52,15 @@ Object {
             d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
           />
         </svg>
-      </div>
-      <div>
+      </i>
+      <i
+        style="height: 1em; width: 1em;"
+      >
         <svg
           aria-hidden="true"
           fill="currentColor"
           focusable="false"
+          style="height: 1em; width: 1em;"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -56,12 +68,15 @@ Object {
             d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z"
           />
         </svg>
-      </div>
-      <div>
+      </i>
+      <i
+        style="height: 1em; width: 1em;"
+      >
         <svg
           aria-hidden="true"
           fill="currentColor"
           focusable="false"
+          style="height: 1em; width: 1em;"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -69,12 +84,15 @@ Object {
             d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.59-13L12 10.59 8.41 7 7 8.41 10.59 12 7 15.59 8.41 17 12 13.41 15.59 17 17 15.59 13.41 12 17 8.41z"
           />
         </svg>
-      </div>
-      <div>
+      </i>
+      <i
+        style="height: 1em; width: 1em;"
+      >
         <svg
           aria-hidden="true"
           fill="currentColor"
           focusable="false"
+          style="height: 1em; width: 1em;"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -82,12 +100,15 @@ Object {
             d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
           />
         </svg>
-      </div>
-      <div>
+      </i>
+      <i
+        style="height: 1em; width: 1em;"
+      >
         <svg
           aria-hidden="true"
           fill="currentColor"
           focusable="false"
+          style="height: 1em; width: 1em;"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -95,12 +116,15 @@ Object {
             d="M16.59 7.58 10 14.17l-3.59-3.58L5 12l5 5 8-8zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
           />
         </svg>
-      </div>
-      <div>
+      </i>
+      <i
+        style="height: 1em; width: 1em;"
+      >
         <svg
           aria-hidden="true"
           fill="currentColor"
           focusable="false"
+          style="height: 1em; width: 1em;"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -108,12 +132,15 @@ Object {
             d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
           />
         </svg>
-      </div>
-      <div>
+      </i>
+      <i
+        style="height: 1em; width: 1em;"
+      >
         <svg
           aria-hidden="true"
           fill="currentColor"
           focusable="false"
+          style="height: 1em; width: 1em;"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -121,12 +148,15 @@ Object {
             d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
           />
         </svg>
-      </div>
-      <div>
+      </i>
+      <i
+        style="height: 1em; width: 1em;"
+      >
         <svg
           aria-hidden="true"
           fill="currentColor"
           focusable="false"
+          style="height: 1em; width: 1em;"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -134,12 +164,15 @@ Object {
             d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM19 14.9 14.9 19H9.1L5 14.9V9.1L9.1 5h5.8L19 9.1v5.8zm-4.17-7.14L12 10.59 9.17 7.76 7.76 9.17 10.59 12l-2.83 2.83 1.41 1.41L12 13.41l2.83 2.83 1.41-1.41L13.41 12l2.83-2.83-1.41-1.41z"
           />
         </svg>
-      </div>
-      <div>
+      </i>
+      <i
+        style="height: 1em; width: 1em;"
+      >
         <svg
           aria-hidden="true"
           fill="currentColor"
           focusable="false"
+          style="height: 1em; width: 1em;"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -147,12 +180,15 @@ Object {
             d="m12 8-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"
           />
         </svg>
-      </div>
-      <div>
+      </i>
+      <i
+        style="height: 1em; width: 1em;"
+      >
         <svg
           aria-hidden="true"
           fill="currentColor"
           focusable="false"
+          style="height: 1em; width: 1em;"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -160,12 +196,15 @@ Object {
             d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
           />
         </svg>
-      </div>
-      <div>
+      </i>
+      <i
+        style="height: 1em; width: 1em;"
+      >
         <svg
           aria-hidden="true"
           fill="currentColor"
           focusable="false"
+          style="height: 1em; width: 1em;"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -173,12 +212,15 @@ Object {
             d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
           />
         </svg>
-      </div>
-      <div>
+      </i>
+      <i
+        style="height: 1em; width: 1em;"
+      >
         <svg
           aria-hidden="true"
           fill="currentColor"
           focusable="false"
+          style="height: 1em; width: 1em;"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -186,12 +228,15 @@ Object {
             d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
           />
         </svg>
-      </div>
-      <div>
+      </i>
+      <i
+        style="height: 1em; width: 1em;"
+      >
         <svg
           aria-hidden="true"
           fill="currentColor"
           focusable="false"
+          style="height: 1em; width: 1em;"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -199,12 +244,15 @@ Object {
             d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
           />
         </svg>
-      </div>
-      <div>
+      </i>
+      <i
+        style="height: 1em; width: 1em;"
+      >
         <svg
           aria-hidden="true"
           fill="currentColor"
           focusable="false"
+          style="height: 1em; width: 1em;"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -212,10 +260,13 @@ Object {
             d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
           />
         </svg>
-      </div>
-      <div>
+      </i>
+      <i
+        style="height: 1em; width: 1em;"
+      >
         <svg
           enable-background="new 0 0 0 0"
+          style="height: 1em; width: 1em;"
           version="1.1"
           viewBox="0 0 100 100"
           x="0px"
@@ -239,12 +290,15 @@ Object {
             />
           </path>
         </svg>
-      </div>
-      <div>
+      </i>
+      <i
+        style="height: 1em; width: 1em;"
+      >
         <svg
           aria-hidden="true"
           fill="currentColor"
           focusable="false"
+          style="height: 1em; width: 1em;"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -252,12 +306,15 @@ Object {
             d="M19 13H5v-2h14v2z"
           />
         </svg>
-      </div>
-      <div>
+      </i>
+      <i
+        style="height: 1em; width: 1em;"
+      >
         <svg
           aria-hidden="true"
           fill="currentColor"
           focusable="false"
+          style="height: 1em; width: 1em;"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -265,12 +322,15 @@ Object {
             d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
           />
         </svg>
-      </div>
-      <div>
+      </i>
+      <i
+        style="height: 1em; width: 1em;"
+      >
         <svg
           aria-hidden="true"
           fill="currentColor"
           focusable="false"
+          style="height: 1em; width: 1em;"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -278,15 +338,18 @@ Object {
             d="M12 5.99 19.53 19H4.47L12 5.99M12 2 1 21h22L12 2zm1 14h-2v2h2v-2zm0-6h-2v4h2v-4z"
           />
         </svg>
-      </div>
+      </i>
     </div>
   </body>,
   "container": <div>
-    <div>
+    <i
+      style="height: 1em; width: 1em;"
+    >
       <svg
         aria-hidden="true"
         fill="currentColor"
         focusable="false"
+        style="height: 1em; width: 1em;"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -294,12 +357,15 @@ Object {
           d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"
         />
       </svg>
-    </div>
-    <div>
+    </i>
+    <i
+      style="height: 1em; width: 1em;"
+    >
       <svg
         aria-hidden="true"
         fill="currentColor"
         focusable="false"
+        style="height: 1em; width: 1em;"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -307,12 +373,15 @@ Object {
           d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
         />
       </svg>
-    </div>
-    <div>
+    </i>
+    <i
+      style="height: 1em; width: 1em;"
+    >
       <svg
         aria-hidden="true"
         fill="currentColor"
         focusable="false"
+        style="height: 1em; width: 1em;"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -320,12 +389,15 @@ Object {
           d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
         />
       </svg>
-    </div>
-    <div>
+    </i>
+    <i
+      style="height: 1em; width: 1em;"
+    >
       <svg
         aria-hidden="true"
         fill="currentColor"
         focusable="false"
+        style="height: 1em; width: 1em;"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -333,12 +405,15 @@ Object {
           d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z"
         />
       </svg>
-    </div>
-    <div>
+    </i>
+    <i
+      style="height: 1em; width: 1em;"
+    >
       <svg
         aria-hidden="true"
         fill="currentColor"
         focusable="false"
+        style="height: 1em; width: 1em;"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -346,12 +421,15 @@ Object {
           d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.59-13L12 10.59 8.41 7 7 8.41 10.59 12 7 15.59 8.41 17 12 13.41 15.59 17 17 15.59 13.41 12 17 8.41z"
         />
       </svg>
-    </div>
-    <div>
+    </i>
+    <i
+      style="height: 1em; width: 1em;"
+    >
       <svg
         aria-hidden="true"
         fill="currentColor"
         focusable="false"
+        style="height: 1em; width: 1em;"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -359,12 +437,15 @@ Object {
           d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
         />
       </svg>
-    </div>
-    <div>
+    </i>
+    <i
+      style="height: 1em; width: 1em;"
+    >
       <svg
         aria-hidden="true"
         fill="currentColor"
         focusable="false"
+        style="height: 1em; width: 1em;"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -372,12 +453,15 @@ Object {
           d="M16.59 7.58 10 14.17l-3.59-3.58L5 12l5 5 8-8zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
         />
       </svg>
-    </div>
-    <div>
+    </i>
+    <i
+      style="height: 1em; width: 1em;"
+    >
       <svg
         aria-hidden="true"
         fill="currentColor"
         focusable="false"
+        style="height: 1em; width: 1em;"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -385,12 +469,15 @@ Object {
           d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
         />
       </svg>
-    </div>
-    <div>
+    </i>
+    <i
+      style="height: 1em; width: 1em;"
+    >
       <svg
         aria-hidden="true"
         fill="currentColor"
         focusable="false"
+        style="height: 1em; width: 1em;"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -398,12 +485,15 @@ Object {
           d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
         />
       </svg>
-    </div>
-    <div>
+    </i>
+    <i
+      style="height: 1em; width: 1em;"
+    >
       <svg
         aria-hidden="true"
         fill="currentColor"
         focusable="false"
+        style="height: 1em; width: 1em;"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -411,12 +501,15 @@ Object {
           d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM19 14.9 14.9 19H9.1L5 14.9V9.1L9.1 5h5.8L19 9.1v5.8zm-4.17-7.14L12 10.59 9.17 7.76 7.76 9.17 10.59 12l-2.83 2.83 1.41 1.41L12 13.41l2.83 2.83 1.41-1.41L13.41 12l2.83-2.83-1.41-1.41z"
         />
       </svg>
-    </div>
-    <div>
+    </i>
+    <i
+      style="height: 1em; width: 1em;"
+    >
       <svg
         aria-hidden="true"
         fill="currentColor"
         focusable="false"
+        style="height: 1em; width: 1em;"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -424,12 +517,15 @@ Object {
           d="m12 8-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"
         />
       </svg>
-    </div>
-    <div>
+    </i>
+    <i
+      style="height: 1em; width: 1em;"
+    >
       <svg
         aria-hidden="true"
         fill="currentColor"
         focusable="false"
+        style="height: 1em; width: 1em;"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -437,12 +533,15 @@ Object {
           d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
         />
       </svg>
-    </div>
-    <div>
+    </i>
+    <i
+      style="height: 1em; width: 1em;"
+    >
       <svg
         aria-hidden="true"
         fill="currentColor"
         focusable="false"
+        style="height: 1em; width: 1em;"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -450,12 +549,15 @@ Object {
           d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
         />
       </svg>
-    </div>
-    <div>
+    </i>
+    <i
+      style="height: 1em; width: 1em;"
+    >
       <svg
         aria-hidden="true"
         fill="currentColor"
         focusable="false"
+        style="height: 1em; width: 1em;"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -463,12 +565,15 @@ Object {
           d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
         />
       </svg>
-    </div>
-    <div>
+    </i>
+    <i
+      style="height: 1em; width: 1em;"
+    >
       <svg
         aria-hidden="true"
         fill="currentColor"
         focusable="false"
+        style="height: 1em; width: 1em;"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -476,12 +581,15 @@ Object {
           d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
         />
       </svg>
-    </div>
-    <div>
+    </i>
+    <i
+      style="height: 1em; width: 1em;"
+    >
       <svg
         aria-hidden="true"
         fill="currentColor"
         focusable="false"
+        style="height: 1em; width: 1em;"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -489,10 +597,13 @@ Object {
           d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
         />
       </svg>
-    </div>
-    <div>
+    </i>
+    <i
+      style="height: 1em; width: 1em;"
+    >
       <svg
         enable-background="new 0 0 0 0"
+        style="height: 1em; width: 1em;"
         version="1.1"
         viewBox="0 0 100 100"
         x="0px"
@@ -516,12 +627,15 @@ Object {
           />
         </path>
       </svg>
-    </div>
-    <div>
+    </i>
+    <i
+      style="height: 1em; width: 1em;"
+    >
       <svg
         aria-hidden="true"
         fill="currentColor"
         focusable="false"
+        style="height: 1em; width: 1em;"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -529,12 +643,15 @@ Object {
           d="M19 13H5v-2h14v2z"
         />
       </svg>
-    </div>
-    <div>
+    </i>
+    <i
+      style="height: 1em; width: 1em;"
+    >
       <svg
         aria-hidden="true"
         fill="currentColor"
         focusable="false"
+        style="height: 1em; width: 1em;"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -542,12 +659,15 @@ Object {
           d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
         />
       </svg>
-    </div>
-    <div>
+    </i>
+    <i
+      style="height: 1em; width: 1em;"
+    >
       <svg
         aria-hidden="true"
         fill="currentColor"
         focusable="false"
+        style="height: 1em; width: 1em;"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -555,7 +675,7 @@ Object {
           d="M12 5.99 19.53 19H4.47L12 5.99M12 2 1 21h22L12 2zm1 14h-2v2h2v-2zm0-6h-2v4h2v-4z"
         />
       </svg>
-    </div>
+    </i>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

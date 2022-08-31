@@ -6,8 +6,7 @@ import { fireEvent, getAllByRole, getByRole, render } from '@testing-library/rea
 import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { CheckCircleIcon } from '@tidy-ui/commons';
-import { orchidDark, orchidLight } from '@tidy-ui/commons';
+import { Icon, orchidDark, orchidLight } from '@tidy-ui/commons';
 import { Tag, TagGroup } from '../src';
 
 describe('TagGroup', () => {
@@ -19,7 +18,7 @@ describe('TagGroup', () => {
           <Tag>typescript</Tag>
           <Tag size="lg">javascript</Tag>
           <Tag disabled>cloud</Tag>
-          <Tag icon={<CheckCircleIcon />} onClose={jest.fn()}>
+          <Tag icon={<Icon ele={<Icon.CheckCircle />} />} onClose={jest.fn()}>
             kotlin
           </Tag>
         </TagGroup>

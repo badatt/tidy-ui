@@ -1,5 +1,4 @@
 import { css, styled } from '@tidy-ui/commons';
-import { LaunchIcon, RotatingCircleIcon } from '@tidy-ui/icons';
 import { basic, hero, outlined, primary, simple, sizeStyles } from './styles';
 import { IAnchorProps, IButtonGroupProps, IButtonProps, IButtonToolbarProps, IIconButtonProps } from './types';
 
@@ -24,19 +23,6 @@ const AnchorRoot = styled.a<IAnchorProps>`
       text-decoration: underline;
     }
   `};
-`;
-
-/**
- * Internal Icon component with styles
- *
- * @internal
- */
-const AnchorIcon = styled(LaunchIcon)<IAnchorProps>`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 1em;
-  width: 1em;
 `;
 
 /**
@@ -82,20 +68,6 @@ const ButtonRoot = styled.button<IButtonProps>`
     ${variant === 'outlined' && outlined}
     ${variant === 'hero' && hero}
   `}
-`;
-
-/**
- * Internal Button's Icon component with styles
- *
- * @internal
- */
-const ButtonIcon = styled(RotatingCircleIcon)<IButtonProps>`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 1.5em;
-  width: 1.5em;
-  margin-right: 0.25em;
 `;
 
 /**
@@ -316,10 +288,8 @@ const IconButtonChildWrapper = styled.span<IIconButtonProps>`
 `;
 
 export {
-  AnchorIcon,
   AnchorRoot,
   ButtonGroupRoot,
-  ButtonIcon,
   ButtonRoot,
   ButtonToolbarRoot,
   IconButtonChildWrapper,

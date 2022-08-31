@@ -1,4 +1,4 @@
-import { css, LaunchIcon, styled } from '@tidy-ui/commons';
+import { css, Icon, styled } from '@tidy-ui/commons';
 import { ICardFooterProps, ICardHeaderProps, ICardProps } from './types';
 
 /**
@@ -41,7 +41,7 @@ const Link = styled.a`
  *
  * @internal
  */
-const Icon = styled(LaunchIcon)`
+const LaunchIcon = styled(Icon.Launch)`
   ${({ theme: { palette, isDark } }) => css`
     height: 1.25rem;
     width: 1.25rem;
@@ -107,4 +107,4 @@ const CardBodyRoot = styled.div`
   padding: 0.5rem 1rem;
 `;
 
-export { CardBodyRoot, CardFooterRoot, CardHeaderRoot, CardRoot, Icon, Link };
+export { CardBodyRoot, CardFooterRoot, CardHeaderRoot, CardRoot, LaunchIcon, Link };

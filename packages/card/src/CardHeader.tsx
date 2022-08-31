@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { CardHeaderRoot, Icon, Link } from './components';
+import { CardHeaderRoot, LaunchIcon, Link } from './components';
 import { ICardHeaderProps } from './types';
 
 /**
@@ -13,7 +13,7 @@ const CardHeader = forwardRef<HTMLDivElement, ICardHeaderProps>((props, ref) => 
       {children}
       {href && (
         <Link href={href} target="_blank">
-          <Icon />
+          <LaunchIcon />
         </Link>
       )}
     </CardHeaderRoot>

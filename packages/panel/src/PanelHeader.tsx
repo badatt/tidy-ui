@@ -1,6 +1,6 @@
 import React, { forwardRef, useContext } from 'react';
-import { ExpandMoreIcon } from '@tidy-ui/commons';
-import { Icon, PanelHeaderRoot } from './components';
+import { Icon } from '@tidy-ui/commons';
+import { ActionIcon, PanelHeaderRoot } from './components';
 import { PanelContext } from './PanelContextProvider';
 import { IPanelContext, IPanelHeaderProps } from './types';
 
@@ -10,9 +10,12 @@ const PanelHeader = forwardRef<HTMLDivElement, IPanelHeaderProps>((props, ref) =
   return (
     <PanelHeaderRoot className={className} ref={ref} role="heading" {...rest} onClick={toggle}>
       {children}
-      <Icon role="button" expanded={expanded}>
-        <ExpandMoreIcon />
-      </Icon>
+      <Icon
+        role="button"
+        ele={<ActionIcon style={{ transform: expanded ? 'rotate(180deg)' : 'rotate(0deg)' }} />}
+        h="1.5em"
+        w="1.5em"
+      />
     </PanelHeaderRoot>
   );
 });

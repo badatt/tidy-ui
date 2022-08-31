@@ -3924,24 +3924,6 @@ Object {
   background-color: hsla(272,72%,47%,1);
 }
 
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: 1.5em;
-  width: 1.5em;
-  margin-right: 0.25em;
-}
-
 <body>
     <div>
       <button
@@ -3949,32 +3931,36 @@ Object {
         disabled=""
         role="button"
       >
-        <svg
-          class="c1"
-          enable-background="new 0 0 0 0"
-          version="1.1"
-          viewBox="0 0 100 100"
-          x="0px"
-          xlink:href="http://www.w3.org/1999/xlink"
-          xml:space="preserve"
-          xmlns="http://www.w3.org/2000/svg"
-          y="0px"
+        <i
+          style="height: 1.5em; margin: 0px 0.25em 0px 0px; width: 1.5em;"
         >
-          <path
-            d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50"
-            fill="currentColor"
+          <svg
+            enable-background="new 0 0 0 0"
+            style="height: 1.5em; margin: 0px 0.25em 0px 0px; width: 1.5em;"
+            version="1.1"
+            viewBox="0 0 100 100"
+            x="0px"
+            xlink:href="http://www.w3.org/1999/xlink"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            y="0px"
           >
-            <animatetransform
-              attributeName="transform"
-              attributeType="XML"
-              dur="1s"
-              from="0 50 50"
-              repeatCount="indefinite"
-              to="360 50 50"
-              type="rotate"
-            />
-          </path>
-        </svg>
+            <path
+              d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50"
+              fill="currentColor"
+            >
+              <animatetransform
+                attributeName="transform"
+                attributeType="XML"
+                dur="1s"
+                from="0 50 50"
+                repeatCount="indefinite"
+                to="360 50 50"
+                type="rotate"
+              />
+            </path>
+          </svg>
+        </i>
         Loading...
       </button>
     </div>
@@ -4022,56 +4008,42 @@ Object {
   background-color: hsla(272,72%,47%,1);
 }
 
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: 1.5em;
-  width: 1.5em;
-  margin-right: 0.25em;
-}
-
 <div>
     <button
       class="c0"
       disabled=""
       role="button"
     >
-      <svg
-        class="c1"
-        enable-background="new 0 0 0 0"
-        version="1.1"
-        viewBox="0 0 100 100"
-        x="0px"
-        xlink:href="http://www.w3.org/1999/xlink"
-        xml:space="preserve"
-        xmlns="http://www.w3.org/2000/svg"
-        y="0px"
+      <i
+        style="height: 1.5em; margin: 0px 0.25em 0px 0px; width: 1.5em;"
       >
-        <path
-          d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50"
-          fill="currentColor"
+        <svg
+          enable-background="new 0 0 0 0"
+          style="height: 1.5em; margin: 0px 0.25em 0px 0px; width: 1.5em;"
+          version="1.1"
+          viewBox="0 0 100 100"
+          x="0px"
+          xlink:href="http://www.w3.org/1999/xlink"
+          xml:space="preserve"
+          xmlns="http://www.w3.org/2000/svg"
+          y="0px"
         >
-          <animatetransform
-            attributeName="transform"
-            attributeType="XML"
-            dur="1s"
-            from="0 50 50"
-            repeatCount="indefinite"
-            to="360 50 50"
-            type="rotate"
-          />
-        </path>
-      </svg>
+          <path
+            d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50"
+            fill="currentColor"
+          >
+            <animatetransform
+              attributeName="transform"
+              attributeType="XML"
+              dur="1s"
+              from="0 50 50"
+              repeatCount="indefinite"
+              to="360 50 50"
+              type="rotate"
+            />
+          </path>
+        </svg>
+      </i>
       Loading...
     </button>
   </div>,

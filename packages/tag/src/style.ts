@@ -8,29 +8,20 @@ import { ITagProps } from './types';
  */
 const sizeStyles = {
   lg: {
-    addNewIconSize: '2rem',
     addNewTagInputWidth: '5rem',
-    borderRadius: '0.25rem',
     fontSize: '.875rem',
-    iconSize: '.875rem',
     lineHeight: '1.25rem',
     padding: '0.25rem 0.625rem',
   },
   md: {
-    addNewIconSize: '1.5rem',
     addNewTagInputWidth: '4rem',
-    borderRadius: '0.25rem',
     fontSize: '.75rem',
-    iconSize: '.75rem',
     lineHeight: '1rem',
     padding: '0.25rem 0.5rem',
   },
   sm: {
-    addNewIconSize: '1rem',
     addNewTagInputWidth: '3rem',
-    borderRadius: '0.25rem',
     fontSize: '.625rem',
-    iconSize: '.625rem',
     lineHeight: '.875rem',
     padding: '0.125rem 0.25rem',
   },

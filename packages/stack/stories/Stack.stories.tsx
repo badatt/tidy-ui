@@ -1,5 +1,5 @@
 import React from 'react';
-import { styled, DangerousIcon, css } from '@tidy-ui/commons';
+import { styled, Icon, css } from '@tidy-ui/commons';
 import { Divider } from '@tidy-ui/divider';
 import { Tag, Button, Badge, Text, IconButton } from '@tidy-ui/presentation';
 import { Stack } from '../src';
@@ -10,7 +10,7 @@ export default {
   title: 'Layout/Stack',
 };
 
-const Icon = styled(DangerousIcon)<IStackProps>`
+const DangerIcon = styled(Icon.Dangerous)<IStackProps>`
   height: 1rem;
   width: 1rem;
   ${({ theme: { palette } }) =>
@@ -27,11 +27,11 @@ const items = [
   <Text>Five</Text>,
   <Text>Six</Text>,
   <Badge data={9}>
-    <Icon />
+    <DangerIcon />
   </Badge>,
   <Text>Seven</Text>,
   <Text>Eight</Text>,
-  <IconButton size="xs" icon={<Icon />}>
+  <IconButton size="xs" icon={<DangerIcon />}>
     Nine
   </IconButton>,
   <Text>Ten</Text>,
@@ -41,11 +41,11 @@ const items = [
   <Text>Fourteen</Text>,
   <Text>Fifteen</Text>,
   <Badge data={9}>
-    <Icon />
+    <DangerIcon />
   </Badge>,
   <Text>Sixteen</Text>,
   <Text>Seventeen</Text>,
-  <IconButton size="xs" icon={<Icon />}>
+  <IconButton size="xs" icon={<DangerIcon />}>
     Eighteen
   </IconButton>,
 ];
@@ -59,7 +59,7 @@ export const order = () => {
   return (
     <>
       {variants.map((v, i) => (
-        <>
+        <div key={i}>
           <Text v="h5" style={{ margin: '1rem 0' }}>
             {v}
           </Text>
@@ -72,7 +72,7 @@ export const order = () => {
           >
             {items.map((v, i) => React.cloneElement(v, { key: i }))}
           </Stack>
-        </>
+        </div>
       ))}
     </>
   );
@@ -95,7 +95,7 @@ export const align = () => {
   return (
     <>
       {variants.map((v, i) => (
-        <>
+        <div key={i}>
           <Text v="h5" style={{ margin: '1rem 0' }}>
             {v}
           </Text>
@@ -103,7 +103,7 @@ export const align = () => {
           <Stack key={i} divider={<Divider vertical />} gap="0.5rem" align={v as TAlign} fold>
             {items.map((v, i) => React.cloneElement(v, { key: i }))}
           </Stack>
-        </>
+        </div>
       ))}
     </>
   );
@@ -114,7 +114,7 @@ export const justify = () => {
   return (
     <>
       {variants.map((v, i) => (
-        <>
+        <div key={i}>
           <Text v="h5" style={{ margin: '1rem 0' }}>
             {v}
           </Text>
@@ -122,7 +122,7 @@ export const justify = () => {
           <Stack key={i} divider={<Divider vertical />} gap="0.5rem" justify={v as TJustify} fold>
             {items.map((v, i) => React.cloneElement(v, { key: i }))}
           </Stack>
-        </>
+        </div>
       ))}
     </>
   );

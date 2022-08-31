@@ -16,6 +16,7 @@ import {
   DangerousIcon,
   ExpandLessIcon,
   ExpandMoreIcon,
+  Icon,
   InfoIcon,
   LaunchIcon,
   LinkIcon,
@@ -52,7 +53,7 @@ describe('Icons', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {icons.map((icon, index) => (
-          <div key={index}>{icon}</div>
+          <Icon ele={icon} key={index} />
         ))}
       </ThemeProvider>,
     );

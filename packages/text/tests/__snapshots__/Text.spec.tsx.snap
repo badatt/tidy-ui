@@ -332,15 +332,7 @@ Object {
 exports[`Text All other forms of text 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c3 {
-  height: 0.8em;
-  width: 0.8em;
-  -webkit-transform: translate(0,0.175em) rotate(-45deg);
-  -ms-transform: translate(0,0.175em) rotate(-45deg);
-  transform: translate(0,0.175em) rotate(-45deg);
-}
-
-.c2 {
+  "baseElement": .c2 {
   display: none;
   cursor: pointer;
   opacity: 0.6;
@@ -364,7 +356,7 @@ Object {
   display: inline-block;
 }
 
-.c4 {
+.c3 {
   display: block;
   margin: 0;
   font-size: 0.875rem;
@@ -375,6 +367,25 @@ Object {
   letter-spacing: 0.01071em;
   line-height: 1.43;
   font-weight: 700;
+}
+
+.c3:hover .c1 {
+  display: inline-block;
+}
+
+.c4 {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
 }
 
 .c4:hover .c1 {
@@ -392,8 +403,7 @@ Object {
   -ms-letter-spacing: 0.01071em;
   letter-spacing: 0.01071em;
   line-height: 1.43;
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
+  font-style: italic;
 }
 
 .c5:hover .c1 {
@@ -411,7 +421,7 @@ Object {
   -ms-letter-spacing: 0.01071em;
   letter-spacing: 0.01071em;
   line-height: 1.43;
-  font-style: italic;
+  text-transform: uppercase;
 }
 
 .c6:hover .c1 {
@@ -429,7 +439,7 @@ Object {
   -ms-letter-spacing: 0.01071em;
   letter-spacing: 0.01071em;
   line-height: 1.43;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .c7:hover .c1 {
@@ -447,7 +457,7 @@ Object {
   -ms-letter-spacing: 0.01071em;
   letter-spacing: 0.01071em;
   line-height: 1.43;
-  text-transform: lowercase;
+  text-transform: capitalize;
 }
 
 .c8:hover .c1 {
@@ -458,14 +468,13 @@ Object {
   display: block;
   margin: 0;
   font-size: 0.875rem;
-  color: hsla(217,33%,17%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.01071em;
   -moz-letter-spacing: 0.01071em;
   -ms-letter-spacing: 0.01071em;
   letter-spacing: 0.01071em;
   line-height: 1.43;
-  text-transform: capitalize;
+  color: hsla(0,0%,0%,0.38);
 }
 
 .c9:hover .c1 {
@@ -476,13 +485,14 @@ Object {
   display: block;
   margin: 0;
   font-size: 0.875rem;
+  color: hsla(217,33%,17%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.01071em;
   -moz-letter-spacing: 0.01071em;
   -ms-letter-spacing: 0.01071em;
   letter-spacing: 0.01071em;
   line-height: 1.43;
-  color: hsla(0,0%,0%,0.38);
+  width: 100%;
 }
 
 .c10:hover .c1 {
@@ -500,7 +510,7 @@ Object {
   -ms-letter-spacing: 0.01071em;
   letter-spacing: 0.01071em;
   line-height: 1.43;
-  width: 100%;
+  text-align: center;
 }
 
 .c11:hover .c1 {
@@ -518,30 +528,12 @@ Object {
   -ms-letter-spacing: 0.01071em;
   letter-spacing: 0.01071em;
   line-height: 1.43;
-  text-align: center;
-}
-
-.c12:hover .c1 {
-  display: inline-block;
-}
-
-.c13 {
-  display: block;
-  margin: 0;
-  font-size: 0.875rem;
-  color: hsla(217,33%,17%,1);
-  font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-.c13:hover .c1 {
+.c12:hover .c1 {
   display: inline-block;
 }
 
@@ -557,70 +549,74 @@ Object {
           href="https://google.com"
           role="link"
         >
-          <svg
-            aria-hidden="true"
-            class="c3"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
           >
-            <path
-              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+              />
+            </svg>
+          </i>
         </a>
       </h5>
       <p
-        class="c4"
+        class="c3"
         role="contentinfo"
       >
         bold: The quick brown fox jumps over the lazy dog
       </p>
       <p
-        class="c5"
+        class="c4"
         role="contentinfo"
       >
         underlined: The quick brown fox jumps over the lazy dog
       </p>
       <p
-        class="c6"
+        class="c5"
         role="contentinfo"
       >
         italicized: The quick brown fox jumps over the lazy dog
       </p>
       <p
-        class="c7"
+        class="c6"
         role="contentinfo"
       >
         uppercase: The quick brown fox jumps over the lazy dog
       </p>
       <p
-        class="c8"
+        class="c7"
         role="contentinfo"
       >
         lowercase: The quick brown fox jumps over the lazy dog
       </p>
       <p
-        class="c9"
+        class="c8"
         role="contentinfo"
       >
         capitalized: The quick brown fox jumps over the lazy dog
       </p>
       <p
-        class="c10"
+        class="c9"
         role="contentinfo"
       >
         disabled: The quick brown fox jumps over the lazy dog
       </p>
       <p
-        class="c11"
+        class="c10"
         role="contentinfo"
       >
         stretched: The quick brown fox jumps over the lazy dog
       </p>
       <p
-        class="c12"
+        class="c11"
         role="contentinfo"
       >
         centered: The quick brown fox jumps over the lazy dog
@@ -629,7 +625,7 @@ Object {
         style="width: 200px;"
       >
         <p
-          class="c13"
+          class="c12"
           role="contentinfo"
         >
           truncated: The quick brown fox jumps over the lazy dog
@@ -637,15 +633,7 @@ Object {
       </div>
     </div>
   </body>,
-  "container": .c3 {
-  height: 0.8em;
-  width: 0.8em;
-  -webkit-transform: translate(0,0.175em) rotate(-45deg);
-  -ms-transform: translate(0,0.175em) rotate(-45deg);
-  transform: translate(0,0.175em) rotate(-45deg);
-}
-
-.c2 {
+  "container": .c2 {
   display: none;
   cursor: pointer;
   opacity: 0.6;
@@ -669,7 +657,7 @@ Object {
   display: inline-block;
 }
 
-.c4 {
+.c3 {
   display: block;
   margin: 0;
   font-size: 0.875rem;
@@ -680,6 +668,25 @@ Object {
   letter-spacing: 0.01071em;
   line-height: 1.43;
   font-weight: 700;
+}
+
+.c3:hover .c1 {
+  display: inline-block;
+}
+
+.c4 {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
 }
 
 .c4:hover .c1 {
@@ -697,8 +704,7 @@ Object {
   -ms-letter-spacing: 0.01071em;
   letter-spacing: 0.01071em;
   line-height: 1.43;
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
+  font-style: italic;
 }
 
 .c5:hover .c1 {
@@ -716,7 +722,7 @@ Object {
   -ms-letter-spacing: 0.01071em;
   letter-spacing: 0.01071em;
   line-height: 1.43;
-  font-style: italic;
+  text-transform: uppercase;
 }
 
 .c6:hover .c1 {
@@ -734,7 +740,7 @@ Object {
   -ms-letter-spacing: 0.01071em;
   letter-spacing: 0.01071em;
   line-height: 1.43;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .c7:hover .c1 {
@@ -752,7 +758,7 @@ Object {
   -ms-letter-spacing: 0.01071em;
   letter-spacing: 0.01071em;
   line-height: 1.43;
-  text-transform: lowercase;
+  text-transform: capitalize;
 }
 
 .c8:hover .c1 {
@@ -763,14 +769,13 @@ Object {
   display: block;
   margin: 0;
   font-size: 0.875rem;
-  color: hsla(217,33%,17%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.01071em;
   -moz-letter-spacing: 0.01071em;
   -ms-letter-spacing: 0.01071em;
   letter-spacing: 0.01071em;
   line-height: 1.43;
-  text-transform: capitalize;
+  color: hsla(0,0%,0%,0.38);
 }
 
 .c9:hover .c1 {
@@ -781,13 +786,14 @@ Object {
   display: block;
   margin: 0;
   font-size: 0.875rem;
+  color: hsla(217,33%,17%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.01071em;
   -moz-letter-spacing: 0.01071em;
   -ms-letter-spacing: 0.01071em;
   letter-spacing: 0.01071em;
   line-height: 1.43;
-  color: hsla(0,0%,0%,0.38);
+  width: 100%;
 }
 
 .c10:hover .c1 {
@@ -805,7 +811,7 @@ Object {
   -ms-letter-spacing: 0.01071em;
   letter-spacing: 0.01071em;
   line-height: 1.43;
-  width: 100%;
+  text-align: center;
 }
 
 .c11:hover .c1 {
@@ -823,30 +829,12 @@ Object {
   -ms-letter-spacing: 0.01071em;
   letter-spacing: 0.01071em;
   line-height: 1.43;
-  text-align: center;
-}
-
-.c12:hover .c1 {
-  display: inline-block;
-}
-
-.c13 {
-  display: block;
-  margin: 0;
-  font-size: 0.875rem;
-  color: hsla(217,33%,17%,1);
-  font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-.c13:hover .c1 {
+.c12:hover .c1 {
   display: inline-block;
 }
 
@@ -861,70 +849,74 @@ Object {
         href="https://google.com"
         role="link"
       >
-        <svg
-          aria-hidden="true"
-          class="c3"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <i
+          style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
         >
-          <path
-            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-          />
-        </svg>
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+            />
+          </svg>
+        </i>
       </a>
     </h5>
     <p
-      class="c4"
+      class="c3"
       role="contentinfo"
     >
       bold: The quick brown fox jumps over the lazy dog
     </p>
     <p
-      class="c5"
+      class="c4"
       role="contentinfo"
     >
       underlined: The quick brown fox jumps over the lazy dog
     </p>
     <p
-      class="c6"
+      class="c5"
       role="contentinfo"
     >
       italicized: The quick brown fox jumps over the lazy dog
     </p>
     <p
-      class="c7"
+      class="c6"
       role="contentinfo"
     >
       uppercase: The quick brown fox jumps over the lazy dog
     </p>
     <p
-      class="c8"
+      class="c7"
       role="contentinfo"
     >
       lowercase: The quick brown fox jumps over the lazy dog
     </p>
     <p
-      class="c9"
+      class="c8"
       role="contentinfo"
     >
       capitalized: The quick brown fox jumps over the lazy dog
     </p>
     <p
-      class="c10"
+      class="c9"
       role="contentinfo"
     >
       disabled: The quick brown fox jumps over the lazy dog
     </p>
     <p
-      class="c11"
+      class="c10"
       role="contentinfo"
     >
       stretched: The quick brown fox jumps over the lazy dog
     </p>
     <p
-      class="c12"
+      class="c11"
       role="contentinfo"
     >
       centered: The quick brown fox jumps over the lazy dog
@@ -933,7 +925,7 @@ Object {
       style="width: 200px;"
     >
       <p
-        class="c13"
+        class="c12"
         role="contentinfo"
       >
         truncated: The quick brown fox jumps over the lazy dog

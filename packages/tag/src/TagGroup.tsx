@@ -1,5 +1,5 @@
 import React, { forwardRef, useState } from 'react';
-import { AddCircleIcon } from '@tidy-ui/commons';
+import { Icon } from '@tidy-ui/commons';
 import { AddNewTagIcon, NewTagInput, TagGroupRoot } from './components';
 import { ITagGroupProps } from './types';
 
@@ -64,14 +64,12 @@ const TagGroup = forwardRef<HTMLDivElement, ITagGroupProps>((props, ref) => {
     }
 
     return (
-      <AddNewTagIcon {...rest} size={size} onClick={handleNewTagButtonClick} role="button">
-        <AddCircleIcon />
-      </AddNewTagIcon>
+      <Icon role="button" h="1.8em" w="1.8em" onClick={handleNewTagButtonClick} ele={<AddNewTagIcon {...rest} />} />
     );
   };
 
   return (
-    <TagGroupRoot ref={ref} role="listbox" {...rest}>
+    <TagGroupRoot ref={ref} role="listbox" size={size} {...rest}>
       {children}
       {renderTagGroupActions()}
     </TagGroupRoot>

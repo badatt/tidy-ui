@@ -1,11 +1,5 @@
-import { css, LinkIcon, styled } from '@tidy-ui/commons';
+import { css, styled } from '@tidy-ui/commons';
 import { IDataFieldProps, ITextProps, TVariant } from './types';
-
-const TextLinkIcon = styled(LinkIcon)`
-  height: 0.8em;
-  width: 0.8em;
-  transform: translate(0, 0.175em) rotate(-45deg);
-`;
 
 const TextLink = styled.a<ITextProps>`
   display: none;
@@ -231,4 +225,4 @@ const DataFieldIcon = styled.i<IDataFieldProps>`
   `}
 `;
 
-export { DataFieldIcon, DD, DL, DT, htmlElement, TextLink, TextLinkIcon, TextRoot };
+export { DataFieldIcon, DD, DL, DT, htmlElement, TextLink, TextRoot };

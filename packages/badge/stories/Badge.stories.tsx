@@ -1,5 +1,5 @@
 import React from 'react';
-import { DangerousIcon } from '@tidy-ui/commons';
+import { DangerousIcon, Icon } from '@tidy-ui/commons';
 import { css, hsla, neutral, styled } from '@tidy-ui/commons';
 import { Badge } from '../src';
 
@@ -19,18 +19,18 @@ const Container = styled.div`
   `}
 `;
 
-const Icon = styled(DangerousIcon)`
+const IconWrap = styled(DangerousIcon)`
   height: 20px;
   width: 20px;
 `;
 
 export const basic = () => (
   <Container>
-    <Badge data={120}>
-      <Icon />
+    <Badge data={120} style={{ fontSize: '20px' }}>
+      <Icon ele={<DangerousIcon />} />
     </Badge>
     <Badge data={99} hidden>
-      <Icon />
+      <IconWrap />
     </Badge>
   </Container>
 );
@@ -38,25 +38,25 @@ export const basic = () => (
 export const tones = () => (
   <Container>
     <Badge data={50} tone="major">
-      <Icon />
+      <IconWrap />
     </Badge>
     <Badge data={60} tone="minor">
-      <Icon />
+      <IconWrap />
     </Badge>
     <Badge data={70} tone="neutral">
-      <Icon />
+      <IconWrap />
     </Badge>
     <Badge data={80} tone="success">
-      <Icon />
+      <IconWrap />
     </Badge>
     <Badge data={90} tone="info">
-      <Icon />
+      <IconWrap />
     </Badge>
     <Badge data={100} tone="warning">
-      <Icon />
+      <IconWrap />
     </Badge>
     <Badge data={110} tone="danger">
-      <Icon />
+      <IconWrap />
     </Badge>
   </Container>
 );
@@ -64,25 +64,25 @@ export const tones = () => (
 export const outlined = () => (
   <Container>
     <Badge data={50} tone="major" outlined>
-      <Icon />
+      <IconWrap />
     </Badge>
     <Badge data={60} tone="minor" outlined>
-      <Icon />
+      <IconWrap />
     </Badge>
     <Badge data={70} tone="neutral" outlined>
-      <Icon />
+      <IconWrap />
     </Badge>
     <Badge data={80} tone="success" outlined>
-      <Icon />
+      <IconWrap />
     </Badge>
     <Badge data={90} tone="info" outlined>
-      <Icon />
+      <IconWrap />
     </Badge>
     <Badge data={100} tone="warning" outlined>
-      <Icon />
+      <IconWrap />
     </Badge>
     <Badge data={110} tone="danger" outlined>
-      <Icon />
+      <IconWrap />
     </Badge>
   </Container>
 );
@@ -90,7 +90,7 @@ export const outlined = () => (
 export const maxValue = () => (
   <Container>
     <Badge data={198} max={150}>
-      <Icon />
+      <IconWrap />
     </Badge>
   </Container>
 );
@@ -98,7 +98,7 @@ export const maxValue = () => (
 export const dotted = () => (
   <Container>
     <Badge dotted tone="warning">
-      <Icon />
+      <IconWrap />
     </Badge>
   </Container>
 );
@@ -106,10 +106,10 @@ export const dotted = () => (
 export const blinking = () => (
   <Container>
     <Badge dotted tone="success" blink>
-      <Icon />
+      <IconWrap />
     </Badge>
     <Badge data={9} tone="minor" blink>
-      <Icon />
+      <IconWrap />
     </Badge>
   </Container>
 );

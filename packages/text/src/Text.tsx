@@ -1,5 +1,6 @@
 import React, { forwardRef } from 'react';
-import { htmlElement, TextLink, TextLinkIcon, TextRoot } from './components';
+import { Icon } from '@tidy-ui/commons';
+import { htmlElement, TextLink, TextRoot } from './components';
 import { ITextProps } from './types';
 
 /**
@@ -16,7 +17,7 @@ const Text = forwardRef<HTMLElement, ITextProps>((props, ref) => {
       {children}
       {href && (
         <TextLink role="link" href={href}>
-          <TextLinkIcon />
+          <Icon ele={<Icon.Link />} h="0.9em" w="0.9em" style={{ transform: 'translate(0, 0.175em) rotate(-45deg)' }} />
         </TextLink>
       )}
     </TextRoot>
