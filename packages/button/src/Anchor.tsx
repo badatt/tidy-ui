@@ -1,5 +1,6 @@
 import React, { forwardRef } from 'react';
-import { AnchorIcon, AnchorRoot } from './components';
+import { Icon } from '@tidy-ui/commons';
+import { AnchorRoot } from './components';
 import { IAnchorProps } from './types';
 
 /**
@@ -12,7 +13,7 @@ const Anchor = forwardRef<HTMLAnchorElement, IAnchorProps>((props, ref) => {
   return (
     <AnchorRoot role="link" ref={ref} {...rest} target={launch ? '_blank' : '_top'}>
       {children}
-      {launch && <AnchorIcon />}
+      {launch && <Icon ele={<Icon.Launch />} />}
     </AnchorRoot>
   );
 });

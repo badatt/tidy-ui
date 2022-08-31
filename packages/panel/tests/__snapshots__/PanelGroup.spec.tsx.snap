@@ -49,19 +49,6 @@ Object {
 }
 
 .c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  height: 1rem;
-  width: 1rem;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
   color: hsla(0,0%,25%,1);
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
@@ -108,20 +95,22 @@ Object {
             role="heading"
           >
             <p
-              classname="sc-dkzDqf c5"
+              classname="sc-gsnTZi c5"
               is="h6"
               role="contentinfo"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit
             </p>
             <i
-              class="c3"
               role="button"
+              style="height: 1.5em; width: 1.5em;"
             >
               <svg
                 aria-hidden="true"
+                class="c3"
                 fill="currentColor"
                 focusable="false"
+                style="height: 1.5em; width: 1.5em;"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -158,20 +147,22 @@ Object {
             role="heading"
           >
             <p
-              classname="sc-dkzDqf c5"
+              classname="sc-gsnTZi c5"
               is="h6"
               role="contentinfo"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit
             </p>
             <i
-              class="c3"
               role="button"
+              style="height: 1.5em; width: 1.5em;"
             >
               <svg
                 aria-hidden="true"
+                class="c3"
                 fill="currentColor"
                 focusable="false"
+                style="height: 1.5em; width: 1.5em;"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -208,20 +199,22 @@ Object {
             role="heading"
           >
             <p
-              classname="sc-dkzDqf c5"
+              classname="sc-gsnTZi c5"
               is="h6"
               role="contentinfo"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit
             </p>
             <i
-              class="c3"
               role="button"
+              style="height: 1.5em; width: 1.5em;"
             >
               <svg
                 aria-hidden="true"
+                class="c3"
                 fill="currentColor"
                 focusable="false"
+                style="height: 1.5em; width: 1.5em;"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -298,19 +291,6 @@ Object {
 }
 
 .c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  height: 1rem;
-  width: 1rem;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
   color: hsla(0,0%,25%,1);
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
@@ -356,20 +336,22 @@ Object {
           role="heading"
         >
           <p
-            classname="sc-dkzDqf c5"
+            classname="sc-gsnTZi c5"
             is="h6"
             role="contentinfo"
           >
             Lorem ipsum dolor sit, amet consectetur adipisicing elit
           </p>
           <i
-            class="c3"
             role="button"
+            style="height: 1.5em; width: 1.5em;"
           >
             <svg
               aria-hidden="true"
+              class="c3"
               fill="currentColor"
               focusable="false"
+              style="height: 1.5em; width: 1.5em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -406,20 +388,22 @@ Object {
           role="heading"
         >
           <p
-            classname="sc-dkzDqf c5"
+            classname="sc-gsnTZi c5"
             is="h6"
             role="contentinfo"
           >
             Lorem ipsum dolor sit, amet consectetur adipisicing elit
           </p>
           <i
-            class="c3"
             role="button"
+            style="height: 1.5em; width: 1.5em;"
           >
             <svg
               aria-hidden="true"
+              class="c3"
               fill="currentColor"
               focusable="false"
+              style="height: 1.5em; width: 1.5em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -456,20 +440,22 @@ Object {
           role="heading"
         >
           <p
-            classname="sc-dkzDqf c5"
+            classname="sc-gsnTZi c5"
             is="h6"
             role="contentinfo"
           >
             Lorem ipsum dolor sit, amet consectetur adipisicing elit
           </p>
           <i
-            class="c3"
             role="button"
+            style="height: 1.5em; width: 1.5em;"
           >
             <svg
               aria-hidden="true"
+              class="c3"
               fill="currentColor"
               focusable="false"
+              style="height: 1.5em; width: 1.5em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -602,19 +588,6 @@ Object {
 }
 
 .c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  height: 1rem;
-  width: 1rem;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
   color: hsla(0,0%,45%,1);
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
@@ -661,20 +634,22 @@ Object {
             role="heading"
           >
             <p
-              classname="sc-dkzDqf c5"
+              classname="sc-gsnTZi c5"
               is="h6"
               role="contentinfo"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit
             </p>
             <i
-              class="c3"
               role="button"
+              style="height: 1.5em; width: 1.5em;"
             >
               <svg
                 aria-hidden="true"
+                class="c3"
                 fill="currentColor"
                 focusable="false"
+                style="height: 1.5em; width: 1.5em;"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -711,20 +686,22 @@ Object {
             role="heading"
           >
             <p
-              classname="sc-dkzDqf c5"
+              classname="sc-gsnTZi c5"
               is="h6"
               role="contentinfo"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit
             </p>
             <i
-              class="c3"
               role="button"
+              style="height: 1.5em; width: 1.5em;"
             >
               <svg
                 aria-hidden="true"
+                class="c3"
                 fill="currentColor"
                 focusable="false"
+                style="height: 1.5em; width: 1.5em;"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -761,20 +738,22 @@ Object {
             role="heading"
           >
             <p
-              classname="sc-dkzDqf c5"
+              classname="sc-gsnTZi c5"
               is="h6"
               role="contentinfo"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit
             </p>
             <i
-              class="c3"
               role="button"
+              style="height: 1.5em; width: 1.5em;"
             >
               <svg
                 aria-hidden="true"
+                class="c3"
                 fill="currentColor"
                 focusable="false"
+                style="height: 1.5em; width: 1.5em;"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -851,19 +830,6 @@ Object {
 }
 
 .c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  height: 1rem;
-  width: 1rem;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
   color: hsla(0,0%,45%,1);
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
@@ -909,20 +875,22 @@ Object {
           role="heading"
         >
           <p
-            classname="sc-dkzDqf c5"
+            classname="sc-gsnTZi c5"
             is="h6"
             role="contentinfo"
           >
             Lorem ipsum dolor sit, amet consectetur adipisicing elit
           </p>
           <i
-            class="c3"
             role="button"
+            style="height: 1.5em; width: 1.5em;"
           >
             <svg
               aria-hidden="true"
+              class="c3"
               fill="currentColor"
               focusable="false"
+              style="height: 1.5em; width: 1.5em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -959,20 +927,22 @@ Object {
           role="heading"
         >
           <p
-            classname="sc-dkzDqf c5"
+            classname="sc-gsnTZi c5"
             is="h6"
             role="contentinfo"
           >
             Lorem ipsum dolor sit, amet consectetur adipisicing elit
           </p>
           <i
-            class="c3"
             role="button"
+            style="height: 1.5em; width: 1.5em;"
           >
             <svg
               aria-hidden="true"
+              class="c3"
               fill="currentColor"
               focusable="false"
+              style="height: 1.5em; width: 1.5em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1009,20 +979,22 @@ Object {
           role="heading"
         >
           <p
-            classname="sc-dkzDqf c5"
+            classname="sc-gsnTZi c5"
             is="h6"
             role="contentinfo"
           >
             Lorem ipsum dolor sit, amet consectetur adipisicing elit
           </p>
           <i
-            class="c3"
             role="button"
+            style="height: 1.5em; width: 1.5em;"
           >
             <svg
               aria-hidden="true"
+              class="c3"
               fill="currentColor"
               focusable="false"
+              style="height: 1.5em; width: 1.5em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >

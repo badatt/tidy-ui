@@ -1,5 +1,5 @@
 import React, { forwardRef, MouseEvent, useCallback, useState } from 'react';
-import { CancelIcon, useIsMounted, useTimeout } from '@tidy-ui/commons';
+import { Icon, useIsMounted, useTimeout } from '@tidy-ui/commons';
 import { CloseButton, Header, MessageContent, MessageLabel, MessageLabelIcon, MessageRoot } from './components';
 import { IMessageProps } from './types';
 
@@ -40,7 +40,7 @@ const Message = forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
       )}
       {closable && (
         <CloseButton onClick={handleClose} {...rest} role="button">
-          <CancelIcon isOutlined />
+          <Icon.Close />
         </CloseButton>
       )}
       <MessageContent {...rest}>

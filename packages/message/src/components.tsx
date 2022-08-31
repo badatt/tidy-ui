@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckCircleIcon, css, DangerousIcon, InfoIcon, styled, WarningIcon } from '@tidy-ui/commons';
+import { css, Icon, styled } from '@tidy-ui/commons';
 import { IPalette } from '@tidy-ui/types';
 import { filledContent, filledLabel, outlinedContent, outlinedLabel } from './styles';
 import { IMessageProps } from './types';
@@ -13,13 +13,13 @@ import { IMessageProps } from './types';
 const MessageLabelIcon = (p: IMessageProps) => {
   switch (p.tone) {
     case 'info':
-      return <InfoIcon />;
+      return <Icon.Info />;
     case 'success':
-      return <CheckCircleIcon />;
+      return <Icon.CheckCircle />;
     case 'warning':
-      return <WarningIcon />;
+      return <Icon.Warning />;
     case 'danger':
-      return <DangerousIcon />;
+      return <Icon.Dangerous />;
     default:
       return null;
   }

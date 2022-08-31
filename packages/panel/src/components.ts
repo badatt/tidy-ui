@@ -1,4 +1,4 @@
-import { css, hsla, styled } from '@tidy-ui/commons';
+import { css, hsla, Icon, styled } from '@tidy-ui/commons';
 import { IPanelBodyProps, IPanelProps } from './types';
 
 const PanelRoot = styled.div<IPanelProps>`
@@ -21,13 +21,8 @@ const PanelHeaderRoot = styled.div`
   padding: 1rem 1rem;
 `;
 
-const Icon = styled.i<IPanelProps>`
-  display: flex;
-  justify-content: center;
-  height: 1rem;
-  width: 1rem;
-  ${({ theme: { palette, isDark }, expanded }) => css`
-    transform: ${expanded ? 'rotate(180deg)' : 'rotate(0deg)'};
+const ActionIcon = styled(Icon.ExpandMore)`
+  ${({ theme: { palette, isDark } }) => css`
     color: ${isDark ? palette.neutral[500] : palette.neutral[700]};
   `}
   transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -61,4 +56,4 @@ const PanelGroupRoot = styled.div<IPanelProps>`
   `}
 `;
 
-export { Icon, PanelBodyRoot, PanelGroupRoot, PanelHeaderRoot, PanelRoot };
+export { ActionIcon, PanelBodyRoot, PanelGroupRoot, PanelHeaderRoot, PanelRoot };
