@@ -6,11 +6,11 @@ import { render } from '@testing-library/react';
 import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { DangerousIcon } from '@tidy-ui/commons';
+import { Icon } from '@tidy-ui/commons';
 import { orchidDark, orchidLight, styled } from '@tidy-ui/commons';
 import { Badge } from '../src';
 
-const Icon = styled(DangerousIcon)`
+const DangerIcon = styled(Icon.Dangerous)`
   height: 20px;
   width: 20px;
 `;
@@ -20,7 +20,7 @@ describe('Badge', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge data={50}>
-          <Icon />
+          <DangerIcon />
         </Badge>
       </ThemeProvider>,
     );
@@ -30,7 +30,7 @@ describe('Badge', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge>
-          <Icon />
+          <DangerIcon />
         </Badge>
       </ThemeProvider>,
     );
@@ -40,25 +40,25 @@ describe('Badge', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge data={50} tone="major">
-          <Icon />
+          <DangerIcon />
         </Badge>
         <Badge data={60} tone="minor">
-          <Icon />
+          <DangerIcon />
         </Badge>
         <Badge data={70} tone="neutral">
-          <Icon />
+          <DangerIcon />
         </Badge>
         <Badge data={80} tone="success">
-          <Icon />
+          <DangerIcon />
         </Badge>
         <Badge data={90} tone="info">
-          <Icon />
+          <DangerIcon />
         </Badge>
         <Badge data={100} tone="warning">
-          <Icon />
+          <DangerIcon />
         </Badge>
         <Badge data={110} tone="danger">
-          <Icon />
+          <DangerIcon />
         </Badge>
       </ThemeProvider>,
     );
@@ -68,25 +68,25 @@ describe('Badge', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge data={50} tone="major" outlined>
-          <Icon />
+          <DangerIcon />
         </Badge>
         <Badge data={60} tone="minor" outlined>
-          <Icon />
+          <DangerIcon />
         </Badge>
         <Badge data={70} tone="neutral" outlined>
-          <Icon />
+          <DangerIcon />
         </Badge>
         <Badge data={80} tone="success" outlined>
-          <Icon />
+          <DangerIcon />
         </Badge>
         <Badge data={90} tone="info" outlined>
-          <Icon />
+          <DangerIcon />
         </Badge>
         <Badge data={100} tone="warning" outlined>
-          <Icon />
+          <DangerIcon />
         </Badge>
         <Badge data={110} tone="danger" outlined>
-          <Icon />
+          <DangerIcon />
         </Badge>
       </ThemeProvider>,
     );
@@ -96,25 +96,25 @@ describe('Badge', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
         <Badge data={50} tone="major" outlined>
-          <Icon />
+          <DangerIcon />
         </Badge>
         <Badge data={60} tone="minor" outlined>
-          <Icon />
+          <DangerIcon />
         </Badge>
         <Badge data={70} tone="neutral" outlined>
-          <Icon />
+          <DangerIcon />
         </Badge>
         <Badge data={80} tone="success" outlined>
-          <Icon />
+          <DangerIcon />
         </Badge>
         <Badge data={90} tone="info" outlined>
-          <Icon />
+          <DangerIcon />
         </Badge>
         <Badge data={100} tone="warning" outlined>
-          <Icon />
+          <DangerIcon />
         </Badge>
         <Badge data={110} tone="danger" outlined>
-          <Icon />
+          <DangerIcon />
         </Badge>
       </ThemeProvider>,
     );
@@ -124,7 +124,7 @@ describe('Badge', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge data={198}>
-          <Icon />
+          <DangerIcon />
         </Badge>
       </ThemeProvider>,
     );
@@ -134,7 +134,7 @@ describe('Badge', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge data={198} max={150}>
-          <Icon />
+          <DangerIcon />
         </Badge>
       </ThemeProvider>,
     );
@@ -144,7 +144,7 @@ describe('Badge', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge dotted>
-          <Icon />
+          <DangerIcon />
         </Badge>
       </ThemeProvider>,
     );
@@ -154,7 +154,7 @@ describe('Badge', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge dotted blink>
-          <Icon />
+          <DangerIcon />
         </Badge>
       </ThemeProvider>,
     );
@@ -164,7 +164,7 @@ describe('Badge', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge hidden data={50}>
-          <Icon />
+          <DangerIcon />
         </Badge>
       </ThemeProvider>,
     );
@@ -174,7 +174,7 @@ describe('Badge', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge data={0}>
-          <Icon />
+          <DangerIcon />
         </Badge>
       </ThemeProvider>,
     );
@@ -184,7 +184,7 @@ describe('Badge', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge show0 data={0}>
-          <Icon />
+          <DangerIcon />
         </Badge>
       </ThemeProvider>,
     );

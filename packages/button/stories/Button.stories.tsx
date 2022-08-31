@@ -1,5 +1,5 @@
 import React from 'react';
-import { AddCircleIcon, CheckCircleIcon } from '@tidy-ui/commons';
+import { Icon } from '@tidy-ui/commons';
 import { css, styled } from '@tidy-ui/commons';
 import { Button } from '../src';
 import { IButtonProps } from '../src/types';
@@ -100,12 +100,12 @@ const iconStyles = css<IButtonProps>`
   width: 1.5em;
 `;
 
-const LaunchIconWrap = styled(AddCircleIcon)`
+const LaunchIconWrap = styled(Icon.AddCircle)`
   margin-right: 0.25em;
   ${iconStyles}
 `;
 
-const CheckCircleIconWrap = styled(CheckCircleIcon)`
+const CheckCircleIconWrap = styled(Icon.CheckCircle)`
   ${iconStyles}
 `;
 
