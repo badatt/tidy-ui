@@ -52,15 +52,8 @@ const LaunchIcon = styled(Icon.Launch)`
   `}
 `;
 
-/**
- * Internal Card root component
- *
- * @internal
- */
-const CardRoot = styled.section<ICardProps>`
+const cardStyles = css<ICardProps>`
   ${({ theme: { palette, layout }, sharp, accent, accentPosition, href }) => css`
-    display: flex;
-    flex-direction: column;
     background-color: ${palette.background.card};
     box-shadow: ${layout.shadow};
     color: ${palette.text.primary};
@@ -78,6 +71,22 @@ const CardRoot = styled.section<ICardProps>`
   &:hover ${Link} {
     display: block;
   }
+`;
+
+const CardRoot = styled.section<ICardProps>`
+  padding: 1rem;
+  ${cardStyles}
+`;
+
+/**
+ * Internal Card root component
+ *
+ * @internal
+ */
+const CardMainRoot = styled.section<ICardProps>`
+  display: flex;
+  flex-direction: column;
+  ${cardStyles}
 `;
 
 /**
@@ -107,4 +116,4 @@ const CardBodyRoot = styled.div`
   padding: 0.5rem 1rem;
 `;
 
-export { CardBodyRoot, CardFooterRoot, CardHeaderRoot, CardRoot, LaunchIcon, Link };
+export { CardBodyRoot, CardFooterRoot, CardHeaderRoot, CardMainRoot, CardRoot, LaunchIcon, Link };
