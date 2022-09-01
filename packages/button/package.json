@@ -53,9 +53,14 @@
     "react-ui",
     "components",
     "ui",
-    "ui-components"
+    "ui-components",
+    "anchor",
+    "anchor",
+    "button-group",
+    "button-toolbar",
+    "icon-button"
   ],
-  "description": "tidy-ui react component library; 'button' package",
+  "description": "Button component can be used to represent CTAs in your pages, can be a good replacement for default html `button`, powered by various styles (with theming) and settings",
   "publishConfig": {
     "access": "public"
   },

@@ -56,9 +56,15 @@
     "react-ui",
     "components",
     "ui",
-    "ui-components"
+    "ui-components",
+    "container",
+    "divider",
+    "flexbox",
+    "layout",
+    "grid",
+    "stack"
   ],
-  "description": "tidy-ui react component library; 'layout package",
+  "description": "Tidy UI layout components",
   "publishConfig": {
     "access": "public"
   },

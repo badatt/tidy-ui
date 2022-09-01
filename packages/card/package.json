@@ -53,9 +53,10 @@
     "react-ui",
     "components",
     "ui",
-    "ui-components"
+    "ui-components",
+    "card"
   ],
-  "description": "tidy-ui react component library; 'card' package",
+  "description": "Card component powered by various styles (with theming) and settings. Can be used just as is with a nice elevation effect that looks like a card on screen",
   "publishConfig": {
     "access": "public"
   },
