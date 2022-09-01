@@ -47,13 +47,13 @@ export const disabled = () => (
       Add
     </IconButton>
     <ButtonGroup>
-      <IconButton icon={<AddIcon />} variant="outlined" />
-      <IconButton icon={<CheckCircleIcon />} variant="outlined" />
-      <IconButton icon={<InfoIcon />} variant="outlined" />
-      <IconButton icon={<WarningIcon />} variant="outlined" />
-      <IconButton icon={<DangerousIcon />} variant="outlined" />
-      <IconButton icon={<CloseIcon />} variant="outlined" />
+      <IconButton icon={<Icon.Add />} variant="outlined" />
+      <IconButton icon={<Icon.CheckCircle />} variant="outlined" />
+      <IconButton icon={<Icon.Info />} variant="outlined" />
+      <IconButton icon={<Icon.Warning />} variant="outlined" />
+      <IconButton icon={<Icon.Dangerous />} variant="outlined" />
+      <IconButton icon={<Icon.Close />} variant="outlined" />
     </ButtonGroup>
-    <IconButton icon={<CancelIcon />} variant="outlined" />
+    <IconButton icon={<Icon.Cancel />} variant="outlined" />
   </ButtonToolbar>
 );
