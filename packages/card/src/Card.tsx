@@ -1,4 +1,4 @@
-import React, { forwardRef, ForwardRefExoticComponent, RefAttributes } from 'react';
+import React from 'react';
 import { CardBody } from './CardBody';
 import { CardFooter } from './CardFooter';
 import { CardHeader } from './CardHeader';
@@ -6,7 +6,7 @@ import { CardRoot } from './components';
 import { ICardProps } from './types';
 
 /** @internal */
-interface CardComponent extends ForwardRefExoticComponent<ICardProps & RefAttributes<HTMLDivElement>> {
+interface CardComponent extends React.ForwardRefExoticComponent<ICardProps & React.RefAttributes<HTMLDivElement>> {
   /** @internal */
   Body: typeof CardBody;
   /** @internal */
@@ -20,7 +20,7 @@ interface CardComponent extends ForwardRefExoticComponent<ICardProps & RefAttrib
  * as is with a nice elevation effect that looks like a card on screen
  *
  */
-const Card = forwardRef<HTMLDivElement, ICardProps>((props, ref) => {
+const Card = React.forwardRef<HTMLDivElement, ICardProps>((props, ref) => {
   const { children, href, ...rest } = props;
   return (
     <CardRoot role="article" ref={ref} href={href} {...rest}>

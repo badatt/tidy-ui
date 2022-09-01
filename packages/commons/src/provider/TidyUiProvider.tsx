@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useReducer } from 'react';
+import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { Actions } from '../actions';
 import { initializer, initialState, mainReducer } from '../reducers';
@@ -15,10 +15,10 @@ const { Consumer, Provider } = TidyUiContext;
  */
 const TidyUiProvider = (props: ITidyUiProviderProps): JSX.Element => {
   const { children, theme, ...rest } = props;
-  const [state, dispatch] = useReducer(mainReducer, initialState, initializer);
-  const value = useMemo(() => ({ theme, ...rest }), [theme, rest]);
+  const [state, dispatch] = React.useReducer(mainReducer, initialState, initializer);
+  const value = React.useMemo(() => ({ theme, ...rest }), [theme, rest]);
 
-  useEffect(() => {
+  React.useEffect(() => {
     dispatch({
       payload: {
         theme,

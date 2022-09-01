@@ -1,12 +1,12 @@
-import React, { forwardRef, useContext } from 'react';
+import React from 'react';
 import { Icon } from '@tidy-ui/commons';
 import { ActionIcon, PanelHeaderRoot } from './components';
 import { PanelContext } from './PanelContextProvider';
 import { IPanelContext, IPanelHeaderProps } from './types';
 
-const PanelHeader = forwardRef<HTMLDivElement, IPanelHeaderProps>((props, ref) => {
+const PanelHeader = React.forwardRef<HTMLDivElement, IPanelHeaderProps>((props, ref) => {
   const { children, className, ...rest } = props;
-  const { expanded, toggle } = useContext(PanelContext) as IPanelContext;
+  const { expanded, toggle } = React.useContext(PanelContext) as IPanelContext;
   return (
     <PanelHeaderRoot className={className} ref={ref} role="heading" {...rest} onClick={toggle}>
       {children}

@@ -1,4 +1,4 @@
-import React, { forwardRef, useState } from 'react';
+import React from 'react';
 import { Icon } from '@tidy-ui/commons';
 import { AddNewTagIcon, NewTagInput, TagGroupRoot } from './components';
 import { ITagGroupProps } from './types';
@@ -7,11 +7,11 @@ import { ITagGroupProps } from './types';
  * TagGroup is used to group Tag components, appendable TagGroup can mutate contained Tags
  *
  */
-const TagGroup = forwardRef<HTMLDivElement, ITagGroupProps>((props, ref) => {
+const TagGroup = React.forwardRef<HTMLDivElement, ITagGroupProps>((props, ref) => {
   const { children, onAddNewTag, size, ...rest } = props;
 
-  const [typing, setTyping] = useState(false);
-  const [inputValue, setInputValue] = useState('');
+  const [typing, setTyping] = React.useState(false);
+  const [inputValue, setInputValue] = React.useState('');
 
   /**
    * Handler for click add new tag button

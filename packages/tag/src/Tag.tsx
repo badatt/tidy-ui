@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react';
+import React from 'react';
 import { Icon } from '@tidy-ui/commons';
 import { TagCloseIcon, TagRoot } from './components';
 import { ITagProps } from './types';
@@ -7,7 +7,7 @@ import { ITagProps } from './types';
  * Tag component
  *
  */
-const Tag = forwardRef<HTMLDivElement, ITagProps>((props, ref) => {
+const Tag = React.forwardRef<HTMLDivElement, ITagProps>((props, ref) => {
   const { children, className, icon, onClose, ...rest } = props;
   return (
     <TagRoot className={className} ref={ref} role="list" {...rest}>

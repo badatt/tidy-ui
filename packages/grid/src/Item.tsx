@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react';
+import React from 'react';
 import { css, devices, styled } from '@tidy-ui/commons';
 import { IItemProps } from './types';
 
@@ -29,7 +29,7 @@ const ItemRoot = styled.div<IItemProps>`
   `}
 `;
 
-const Item = forwardRef<HTMLDivElement, IItemProps>((props, ref) => {
+const Item = React.forwardRef<HTMLDivElement, IItemProps>((props, ref) => {
   const { children, ...rest } = props;
   return (
     <ItemRoot ref={ref} role="gridcell" {...rest}>

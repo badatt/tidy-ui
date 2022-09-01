@@ -1,4 +1,4 @@
-import React, { forwardRef, useEffect, useState } from 'react';
+import React from 'react';
 import { BadgeRoot } from './components';
 import { IBadgeProps } from './types';
 
@@ -7,13 +7,13 @@ import { IBadgeProps } from './types';
  * the child component
  *
  */
-const Badge = forwardRef<HTMLSpanElement, IBadgeProps>((props, ref) => {
+const Badge = React.forwardRef<HTMLSpanElement, IBadgeProps>((props, ref) => {
   const { children, data, max, hidden, show0, dotted, ...rest } = props;
 
-  const [anchorData, setAnchorData] = useState(data);
-  const [isAnchorInvisible, setIsAnchorInvisible] = useState(hidden);
+  const [anchorData, setAnchorData] = React.useState(data);
+  const [isAnchorInvisible, setIsAnchorInvisible] = React.useState(hidden);
 
-  useEffect(() => {
+  React.useEffect(() => {
     if (!dotted && data === undefined) {
       setIsAnchorInvisible(true);
     }
@@ -22,7 +22,7 @@ const Badge = forwardRef<HTMLSpanElement, IBadgeProps>((props, ref) => {
     }
   }, [data]);
 
-  useEffect(() => {
+  React.useEffect(() => {
     if (!isAnchorInvisible && anchorData == 0) {
       if (!show0) setIsAnchorInvisible(true);
     }

@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react';
+import React from 'react';
 import { CardHeaderRoot, LaunchIcon, Link } from './components';
 import { ICardHeaderProps } from './types';
 
@@ -6,7 +6,7 @@ import { ICardHeaderProps } from './types';
  * CardHeader component, powered by various styles (with theming) and settings
  *
  */
-const CardHeader = forwardRef<HTMLDivElement, ICardHeaderProps>((props, ref) => {
+const CardHeader = React.forwardRef<HTMLDivElement, ICardHeaderProps>((props, ref) => {
   const { children, href, ...rest } = props;
   return (
     <CardHeaderRoot role="heading" ref={ref} {...rest}>

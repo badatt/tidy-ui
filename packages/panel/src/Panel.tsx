@@ -1,4 +1,4 @@
-import React, { forwardRef, ForwardRefExoticComponent, RefAttributes } from 'react';
+import React from 'react';
 import { PanelRoot } from './components';
 import { PanelBody } from './PanelBody';
 import { PanelContextProvider } from './PanelContextProvider';
@@ -6,14 +6,14 @@ import { PanelHeader } from './PanelHeader';
 import { IPanelProps } from './types';
 
 /** @internal */
-interface PanelComponent extends ForwardRefExoticComponent<IPanelProps & RefAttributes<HTMLDivElement>> {
+interface PanelComponent extends React.ForwardRefExoticComponent<IPanelProps & React.RefAttributes<HTMLDivElement>> {
   /** @internal */
   Body: typeof PanelBody;
   /** @internal */
   Header: typeof PanelHeader;
 }
 
-const Panel = forwardRef<HTMLDivElement, IPanelProps>((props, ref) => {
+const Panel = React.forwardRef<HTMLDivElement, IPanelProps>((props, ref) => {
   const { children, ...rest } = props;
   return (
     <PanelContextProvider {...props}>

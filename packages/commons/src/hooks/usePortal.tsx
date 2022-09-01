@@ -1,4 +1,4 @@
-import { FC, ReactNode, useCallback, useEffect, useRef } from 'react';
+import React from 'react';
 import { createPortal } from 'react-dom';
 import { isValidDom } from '../utils';
 
@@ -24,11 +24,11 @@ export interface IUsePortalFnReturn {
    * Portal component
    */
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  Portal: FC<{
+  Portal: React.FC<{
     /**
      * Node children
      */
-    children?: ReactNode;
+    children?: React.ReactNode;
   }>;
   /**
    * Root target element
@@ -43,9 +43,9 @@ export interface IUsePortalFnReturn {
  * @returns {IUsePortalFnReturn} portal and its parent element target
  */
 const usePortal = (props?: IPortalProps): IUsePortalFnReturn => {
-  const rootRef = useRef<HTMLElement | null>(isValidDom() ? document.body : null);
+  const rootRef = React.useRef<HTMLElement | null>(isValidDom() ? document.body : null);
 
-  useEffect(() => {
+  React.useEffect(() => {
     const containerEle = typeof props?.container === 'function' ? props.container() : props?.container;
     const existingParent = props?.id && document.getElementById(props.id);
     const parent = containerEle || existingParent || document.body;
@@ -53,19 +53,19 @@ const usePortal = (props?: IPortalProps): IUsePortalFnReturn => {
   }, [rootRef, props?.container, props?.id]);
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const Portal: FC<{
+  const Portal: React.FC<{
     /**
      * Node children
      */
-    children?: ReactNode;
-  }> = useCallback(
+    children?: React.ReactNode;
+  }> = React.useCallback(
     ({
       children,
     }: {
       /**
        * Node children
        */
-      children?: ReactNode;
+      children?: React.ReactNode;
     }) => {
       if (rootRef.current != null) return createPortal(children, rootRef.current);
       return null;

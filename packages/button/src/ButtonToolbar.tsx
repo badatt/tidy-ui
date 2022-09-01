@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react';
+import React from 'react';
 import { ButtonToolbarRoot } from './components';
 import { IButtonToolbarProps } from './types';
 
@@ -7,7 +7,7 @@ import { IButtonToolbarProps } from './types';
  * toolbar effect, that you usually see in embedded editors
  *
  */
-const ButtonToolbar = forwardRef<HTMLDivElement, IButtonToolbarProps>((props, ref) => {
+const ButtonToolbar = React.forwardRef<HTMLDivElement, IButtonToolbarProps>((props, ref) => {
   const { children, ...rest } = props;
   return (
     <ButtonToolbarRoot role="button" ref={ref} {...rest}>

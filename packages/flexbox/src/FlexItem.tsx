@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react';
+import React from 'react';
 import { css, styled } from '@tidy-ui/commons';
 import { IFlexItemProps } from './types';
 
@@ -47,7 +47,7 @@ const FlexItemRoot = styled.div<IFlexItemProps>`
 /**
  * FlexItem to be kept under FlexBox, comes with all css props
  */
-const FlexItem = forwardRef<HTMLDivElement, IFlexItemProps>((props, ref) => {
+const FlexItem = React.forwardRef<HTMLDivElement, IFlexItemProps>((props, ref) => {
   const { children, ...rest } = props;
   return (
     <FlexItemRoot ref={ref} role="presentation" {...rest}>
