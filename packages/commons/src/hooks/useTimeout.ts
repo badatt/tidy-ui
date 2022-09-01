@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef } from 'react';
+import React from 'react';
 
 /**
  * Actions on useTimeout
@@ -25,8 +25,8 @@ export interface IUseTimeoutFnReturn {
  */
 // eslint-disable-next-line  @typescript-eslint/no-explicit-any
 const useTimeout = (fn: ((e?: any) => void) | undefined, ms = 0, enabled = true): IUseTimeoutFnReturn => {
-  const timeout = useRef<ReturnType<typeof setTimeout>>();
-  const cb = useRef(fn);
+  const timeout = React.useRef<ReturnType<typeof setTimeout>>();
+  const cb = React.useRef(fn);
 
   /**
    * Clears timeout
@@ -35,11 +35,11 @@ const useTimeout = (fn: ((e?: any) => void) | undefined, ms = 0, enabled = true)
     timeout.current && clearTimeout(timeout.current);
   };
 
-  const clear = useCallback(() => {
+  const clear = React.useCallback(() => {
     clearTo();
   }, []);
 
-  const setTo = useCallback(() => {
+  const setTo = React.useCallback(() => {
     clearTo();
     if (enabled) {
       timeout.current = setTimeout(() => {
@@ -48,11 +48,11 @@ const useTimeout = (fn: ((e?: any) => void) | undefined, ms = 0, enabled = true)
     }
   }, [ms, enabled]);
 
-  useEffect(() => {
+  React.useEffect(() => {
     cb.current = fn;
   }, [fn]);
 
-  useEffect(() => {
+  React.useEffect(() => {
     setTo();
     return clear;
   }, [ms, enabled, setTo, clear]);

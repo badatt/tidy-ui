@@ -1,11 +1,4 @@
-import {
-  cloneElement,
-  createElement,
-  forwardRef,
-  ForwardRefExoticComponent,
-  HTMLAttributes,
-  RefAttributes,
-} from 'react';
+import React from 'react';
 import { IBaseProps } from '@tidy-ui/types';
 import AddCircleIcon from './AddCircleIcon';
 import AddIcon from './AddIcon';
@@ -25,7 +18,7 @@ import WarningIcon from './WarningIcon';
 /**
  * Icon props
  */
-export interface IIconProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
+export interface IIconProps extends IBaseProps, React.HTMLAttributes<HTMLDivElement> {
   /**
    * Icon element
    */
@@ -47,7 +40,7 @@ export interface IIconProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
 
 /** @internal */
 interface IconComponent
-  extends ForwardRefExoticComponent<Omit<IIconProps, 'children'> & RefAttributes<HTMLDivElement>> {
+  extends React.ForwardRefExoticComponent<Omit<IIconProps, 'children'> & React.RefAttributes<HTMLDivElement>> {
   /** @internal */
   Add: typeof AddIcon;
   /** @internal */
@@ -81,11 +74,11 @@ interface IconComponent
 /**
  * Icon wrapper component
  */
-const Icon = forwardRef<HTMLDivElement, Omit<IIconProps, 'children'>>((props, ref) => {
+const Icon = React.forwardRef<HTMLDivElement, Omit<IIconProps, 'children'>>((props, ref) => {
   const { ele, style, h, mgn, w, ...rest } = props;
   const styles = { ...style, height: h, margin: mgn, width: w };
-  const styledIconElement = cloneElement(ele, { style: styles });
-  return createElement('i', { ref, style: styles, ...rest }, styledIconElement);
+  const styledIconElement = React.cloneElement(ele, { style: styles });
+  return React.createElement('i', { ref, style: styles, ...rest }, styledIconElement);
 }) as IconComponent;
 
 Icon.defaultProps = {

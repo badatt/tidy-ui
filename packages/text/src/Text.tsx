@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react';
+import React from 'react';
 import { Icon } from '@tidy-ui/commons';
 import { htmlElement, TextLink, TextRoot } from './components';
 import { ITextProps } from './types';
@@ -8,7 +8,7 @@ import { ITextProps } from './types';
  * any text data you want to handle on a page. Powered by various styles (with theming) and settings
  *
  */
-const Text = forwardRef<HTMLElement, ITextProps>((props, ref) => {
+const Text = React.forwardRef<HTMLElement, ITextProps>((props, ref) => {
   const { children, v, href, ...rest } = props;
   const ele = htmlElement({ v });
 

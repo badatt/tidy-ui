@@ -1,12 +1,12 @@
-import React, { HTMLAttributes } from 'react';
+import React from 'react';
 
 /**
  * SVG icon
  *
- * @param {HTMLAttributes} props props for icon
+ * @param {React.HTMLAttributes} props props for icon
  * @returns {JSX.Element} SVG output
  */
-export default (props: HTMLAttributes<SVGElement>): JSX.Element => (
+export default (props: React.HTMLAttributes<SVGElement>): JSX.Element => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     focusable={false}

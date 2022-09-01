@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react';
+import React from 'react';
 import { ButtonGroupRoot } from './components';
 import { IButtonGroupProps } from './types';
 
@@ -6,7 +6,7 @@ import { IButtonGroupProps } from './types';
  * ButtonGroup can be use to group several look alike buttons to form a grouped CTAs
  *
  */
-const ButtonGroup = forwardRef<HTMLDivElement, IButtonGroupProps>((props, ref) => {
+const ButtonGroup = React.forwardRef<HTMLDivElement, IButtonGroupProps>((props, ref) => {
   const { children, ...rest } = props;
   return (
     <ButtonGroupRoot role="button" ref={ref} {...rest}>

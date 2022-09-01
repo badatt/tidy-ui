@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react';
+import React from 'react';
 import { css, devices, styled } from '@tidy-ui/commons';
 import { IContainerProps } from './types';
 
@@ -48,7 +48,7 @@ const ContainerRoot = styled.div<IContainerProps>`
  * Container is a wrapped div element that can responsively contain enclosed elements.
  * This can be usually used as page root component
  */
-const Container = forwardRef<HTMLDivElement, IContainerProps>((props, ref) => {
+const Container = React.forwardRef<HTMLDivElement, IContainerProps>((props, ref) => {
   const { children, ...rest } = props;
   return (
     <ContainerRoot ref={ref} role="main" {...rest}>

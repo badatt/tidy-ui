@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react';
+import React from 'react';
 import { Icon } from '@tidy-ui/commons';
 import { ButtonRoot } from './components';
 import { IButtonProps } from './types';
@@ -8,7 +8,7 @@ import { IButtonProps } from './types';
  * for default html `button`, powered by various styles (with theming) and settings
  *
  */
-const Button = forwardRef<HTMLButtonElement, IButtonProps>((props, ref) => {
+const Button = React.forwardRef<HTMLButtonElement, IButtonProps>((props, ref) => {
   const { children, loading, disabled, ...rest } = props;
   return (
     <ButtonRoot role="button" ref={ref} {...rest} disabled={disabled || loading}>

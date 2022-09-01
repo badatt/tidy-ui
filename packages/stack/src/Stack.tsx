@@ -1,4 +1,4 @@
-import React, { Children, forwardRef } from 'react';
+import React from 'react';
 import { css, styled } from '@tidy-ui/commons';
 import { IStackProps } from './types';
 
@@ -24,12 +24,12 @@ const StackItem = styled.div<IStackProps>`
  * component that separate each node with in the stack. It is provided with various
  * styling options like alignment, wrap, gap etc.
  */
-const Stack = forwardRef<HTMLDivElement, IStackProps>((props, ref) => {
+const Stack = React.forwardRef<HTMLDivElement, IStackProps>((props, ref) => {
   const { children, className, divider, ...rest } = props;
-  const count = Children.count(children);
+  const count = React.Children.count(children);
   return (
     <StackRoot ref={ref} role="group" className={className} {...rest}>
-      {Children.map(children, (child, i) => {
+      {React.Children.map(children, (child, i) => {
         const childNode = <StackItem {...rest}>{child}</StackItem>;
         return [childNode, i < count - 1 ? divider : null];
       })}

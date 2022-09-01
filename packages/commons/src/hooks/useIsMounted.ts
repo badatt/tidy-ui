@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef } from 'react';
+import React from 'react';
 
 /**
  * Checks if the current component was mounted already
@@ -6,16 +6,16 @@ import { useCallback, useEffect, useRef } from 'react';
  * @returns {Function} callback function to check if the component is mounted already
  */
 const useIsMounted = (): (() => boolean) => {
-  const isMounted = useRef(false);
+  const isMounted = React.useRef(false);
 
-  useEffect(() => {
+  React.useEffect(() => {
     isMounted.current = true;
     return () => {
       isMounted.current = false;
     };
   }, []);
 
-  return useCallback(() => isMounted.current, []);
+  return React.useCallback(() => isMounted.current, []);
 };
 
 export default useIsMounted;

@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react';
+import React from 'react';
 import { DataFieldIcon, DD, DL, DT } from './components';
 import { IDataFieldProps } from './types';
 
@@ -7,7 +7,7 @@ import { IDataFieldProps } from './types';
  * Powered by various styles (with theming) and settings
  *
  */
-const DataField = forwardRef<HTMLDivElement, IDataFieldProps>((props, ref) => {
+const DataField = React.forwardRef<HTMLDivElement, IDataFieldProps>((props, ref) => {
   const { className, lbl, val, ico, ...rest } = props;
   return (
     <DL className={className} ref={ref} role="contentinfo">

@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react';
+import React from 'react';
 import { Icon } from '@tidy-ui/commons';
 import { AnchorRoot } from './components';
 import { IAnchorProps } from './types';
@@ -8,7 +8,7 @@ import { IAnchorProps } from './types';
  * html `a` tag
  *
  */
-const Anchor = forwardRef<HTMLAnchorElement, IAnchorProps>((props, ref) => {
+const Anchor = React.forwardRef<HTMLAnchorElement, IAnchorProps>((props, ref) => {
   const { children, launch, ...rest } = props;
   return (
     <AnchorRoot role="link" ref={ref} {...rest} target={launch ? '_blank' : '_top'}>

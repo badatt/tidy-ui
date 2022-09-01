@@ -1,7 +1,7 @@
-import React, { createContext, useCallback, useState } from 'react';
+import React from 'react';
 import { IPanelContext, IPanelProps } from './types';
 
-const PanelContext = createContext<IPanelContext | null>(null);
+const PanelContext = React.createContext<IPanelContext | null>(null);
 
 /**
  * PanelContextProvided to share state across all panel related components
@@ -11,9 +11,9 @@ const PanelContext = createContext<IPanelContext | null>(null);
  */
 const PanelContextProvider = (props: IPanelProps): JSX.Element => {
   const { children } = props;
-  const [expanded, setExpanded] = useState(props.expanded);
+  const [expanded, setExpanded] = React.useState(props.expanded);
 
-  const toggle = useCallback(() => {
+  const toggle = React.useCallback(() => {
     setExpanded(!expanded);
   }, [expanded]);
 

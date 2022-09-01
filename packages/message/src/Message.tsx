@@ -1,4 +1,4 @@
-import React, { forwardRef, MouseEvent, useCallback, useState } from 'react';
+import React from 'react';
 import { Icon, useIsMounted, useTimeout } from '@tidy-ui/commons';
 import { CloseButton, Header, MessageContent, MessageLabel, MessageLabelIcon, MessageRoot } from './components';
 import { IMessageProps } from './types';
@@ -8,15 +8,15 @@ import { IMessageProps } from './types';
  * information importance level, powered by various styles (with theming) and settings
  *
  */
-const Message = forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
+const Message = React.forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
   const { children, className, closable, onClose, duration, header, ...rest } = props;
 
   const isMounted = useIsMounted();
-  const [isHidden, setHidden] = useState<boolean>(false);
+  const [isHidden, setHidden] = React.useState<boolean>(false);
   const { clear } = useTimeout(onClose, duration, typeof duration === 'number' && duration > 0);
 
-  const handleClose = useCallback(
-    (e: MouseEvent<HTMLElement>) => {
+  const handleClose = React.useCallback(
+    (e: React.MouseEvent<HTMLElement>) => {
       onClose?.(e);
       clear();
       if (isMounted()) {

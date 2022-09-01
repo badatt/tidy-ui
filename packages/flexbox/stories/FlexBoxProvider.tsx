@@ -1,4 +1,4 @@
-import React, { createContext, useState } from 'react';
+import React from 'react';
 import { color, css, hsla, styled } from '@tidy-ui/commons';
 import { Button, ButtonGroup, Text } from '@tidy-ui/presentation';
 import { IBaseProps } from '@tidy-ui/types';
@@ -7,7 +7,7 @@ import { IFlexBoxProps, IFlexItemProps } from '../src/types';
 
 const baseCount = 24;
 
-const Ctx = createContext({ count: baseCount });
+const Ctx = React.createContext({ count: baseCount });
 
 /** @internal */
 export interface IFlexBoxProvider extends IBaseProps {
@@ -47,7 +47,7 @@ const LabelFlexItem = styled(FlexBox.Item)<IFlexItemProps>`
 
 /** @internal */
 const FlexBoxProvider = ({ children, size }: IFlexBoxProvider) => {
-  const [count, setCount] = useState(size || baseCount);
+  const [count, setCount] = React.useState(size || baseCount);
 
   /** @internal */
   const increment = () => setCount(count + 1);

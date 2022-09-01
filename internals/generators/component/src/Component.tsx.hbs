@@ -1,8 +1,8 @@
-import React, { forwardRef } from 'react';
+import React from 'react';
 import { css, styled } from '@tidy-ui/commons';
 import { I{{ properCase name }}Props } from './types';
 
-const {{ properCase name }} = forwardRef<HTMLDivElement, I{{ properCase name }}Props>(
+const {{ properCase name }} = React.forwardRef<HTMLDivElement, I{{ properCase name }}Props>(
   (props, ref) => {
     const { children, ...rest } = props;
     return (

@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react';
+import React from 'react';
 import { css, styled } from '@tidy-ui/commons';
 import { IEnhancedDividerProps } from './types';
 
@@ -43,7 +43,7 @@ const Content = styled.div<IEnhancedDividerProps>`
  * Enhanced Divider can be use to give a horizontal separation between components, a good replacement
  * for <hr> in html, with additional content support, powered by various styles (with theming) and settings
  */
-const EnhancedDivider = forwardRef<HTMLHRElement, IEnhancedDividerProps>((props, ref) => {
+const EnhancedDivider = React.forwardRef<HTMLHRElement, IEnhancedDividerProps>((props, ref) => {
   const { children, className, justify, ...rest } = props;
   return (
     <DividerRoot ref={ref} className={className} role="separator" {...rest}>

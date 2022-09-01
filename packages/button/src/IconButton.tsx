@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react';
+import React from 'react';
 import {
   IconButtonChildWrapper,
   IconButtonIcon,
@@ -12,7 +12,7 @@ import { IIconButtonProps } from './types';
  * IconButton can be used to represent a Button with Icon and its related text embedded inside.
  *
  */
-const IconButton = forwardRef<HTMLButtonElement, IIconButtonProps>((props, ref) => {
+const IconButton = React.forwardRef<HTMLButtonElement, IIconButtonProps>((props, ref) => {
   const { children, className, icon, ...rest } = props;
   return (
     <IconButtonRoot className={className} role="button" ref={ref} {...rest}>
