@@ -20,4 +20,6 @@ ButtonToolbar.defaultProps = {
   disabled: false,
 };
 
+ButtonToolbar.displayName = 'ButtonToolbar';
+
 export { ButtonToolbar };

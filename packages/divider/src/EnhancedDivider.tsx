@@ -67,4 +67,6 @@ EnhancedDivider.defaultProps = {
   variant: 'solid',
 };
 
+EnhancedDivider.displayName = 'EnhancedDivider';
+
 export { EnhancedDivider };

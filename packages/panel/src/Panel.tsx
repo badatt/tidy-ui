@@ -31,6 +31,8 @@ Panel.defaultProps = {
   expanded: false,
 };
 
+Panel.displayName = 'Panel';
+
 Panel.Body = PanelBody;
 Panel.Header = PanelHeader;
 

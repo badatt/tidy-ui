@@ -24,4 +24,6 @@ Tag.defaultProps = {
   tone: 'major',
 };
 
+Tag.displayName = 'Tag';
+
 export { Tag };

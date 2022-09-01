@@ -19,4 +19,6 @@ CardFooter.defaultProps = {
   divided: false,
 };
 
+CardFooter.displayName = 'CardFooter';
+
 export { CardFooter };

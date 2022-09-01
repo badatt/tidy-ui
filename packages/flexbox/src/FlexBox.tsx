@@ -93,6 +93,8 @@ FlexBox.defaultProps = {
   jsc: 'flex-start',
 };
 
+FlexBox.displayName = 'FlexBox';
+
 FlexBox.Item = FlexItem;
 
 export { FlexBox };

@@ -46,4 +46,6 @@ Item.defaultProps = {
   xs: 12,
 };
 
+Item.displayName = 'GridItem';
+
 export { Item };

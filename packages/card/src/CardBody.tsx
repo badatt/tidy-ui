@@ -14,4 +14,6 @@ const CardBody = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivEl
   );
 });
 
+CardBody.displayName = 'CardBody';
+
 export { CardBody };

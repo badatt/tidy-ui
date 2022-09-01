@@ -24,4 +24,6 @@ CardHeader.defaultProps = {
   divided: false,
 };
 
+CardHeader.displayName = 'CardHeader';
+
 export { CardHeader };

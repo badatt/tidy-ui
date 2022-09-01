@@ -22,4 +22,6 @@ ButtonGroup.defaultProps = {
   vertical: false,
 };
 
+ButtonGroup.displayName = 'ButtonGroup';
+
 export { ButtonGroup };

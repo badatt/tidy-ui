@@ -60,4 +60,6 @@ FlexItem.defaultProps = {
   fuw: false,
 };
 
+FlexItem.displayName = 'FlexItem';
+
 export { FlexItem };

@@ -23,4 +23,6 @@ Anchor.defaultProps = {
   launch: false,
 };
 
+Anchor.displayName = 'Anchor';
+
 export { Anchor };
