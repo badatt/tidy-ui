@@ -2,6 +2,7 @@ import React from 'react';
 import { CardBody } from './CardBody';
 import { CardFooter } from './CardFooter';
 import { CardHeader } from './CardHeader';
+import { CardMain } from './CardMain';
 import { CardRoot } from './components';
 import { ICardProps } from './types';
 
@@ -13,6 +14,8 @@ interface CardComponent extends React.ForwardRefExoticComponent<ICardProps & Rea
   Footer: typeof CardFooter;
   /** @internal */
   Header: typeof CardHeader;
+  /** @internal */
+  Main: typeof CardMain;
 }
 
 /**
@@ -34,10 +37,9 @@ Card.defaultProps = {
   sharp: false,
 };
 
-Card.displayName = 'Card';
-
 Card.Body = CardBody;
 Card.Header = CardHeader;
 Card.Footer = CardFooter;
+Card.Main = CardMain;
 
 export { Card };
