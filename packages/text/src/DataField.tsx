@@ -30,4 +30,6 @@ DataField.defaultProps = {
   udl: false,
 };
 
+DataField.displayName = 'DataField';
+
 export { DataField };

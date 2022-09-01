@@ -20,4 +20,6 @@ Paper.defaultProps = {
   sharp: false,
 };
 
+Paper.displayName = 'Paper';
+
 export { Paper };

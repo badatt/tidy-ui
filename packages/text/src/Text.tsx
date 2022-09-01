@@ -38,4 +38,6 @@ Text.defaultProps = {
   v: 'body2',
 };
 
+Text.displayName = 'Text';
+
 export { Text };

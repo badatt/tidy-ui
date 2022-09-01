@@ -81,4 +81,6 @@ TagGroup.defaultProps = {
   tone: 'major',
 };
 
+TagGroup.displayName = 'TagGroup';
+
 export { TagGroup };

@@ -54,6 +54,8 @@ Divider.defaultProps = {
   vertical: false,
 };
 
+Divider.displayName = 'Divider';
+
 Divider.Enhanced = EnhancedDivider;
 
 export { Divider };

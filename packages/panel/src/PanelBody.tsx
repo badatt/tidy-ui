@@ -17,4 +17,6 @@ PanelBody.defaultProps = {
   visible: false,
 };
 
+PanelBody.displayName = 'PanelBody';
+
 export { PanelBody };

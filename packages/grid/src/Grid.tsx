@@ -80,6 +80,8 @@ Grid.defaultProps = {
   fixed: false,
 };
 
+Grid.displayName = 'Grid';
+
 Grid.Item = Item;
 
 export { Grid };

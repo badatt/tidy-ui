@@ -13,4 +13,6 @@ const PanelGroup = React.forwardRef<HTMLDivElement, IPanelGroupProps>((props, re
 
 PanelGroup.defaultProps = {};
 
+PanelGroup.displayName = 'PanelGroup';
+
 export { PanelGroup };

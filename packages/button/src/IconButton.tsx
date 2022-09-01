@@ -38,4 +38,7 @@ IconButton.defaultProps = {
   tone: 'major',
   variant: 'primary',
 };
+
+IconButton.displayName = 'IconButton';
+
 export { IconButton };

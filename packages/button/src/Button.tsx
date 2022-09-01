@@ -29,4 +29,6 @@ Button.defaultProps = {
   variant: 'primary',
 };
 
+Button.displayName = 'Button';
+
 export { Button };

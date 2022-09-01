@@ -34,6 +34,8 @@ Card.defaultProps = {
   sharp: false,
 };
 
+Card.displayName = 'Card';
+
 Card.Body = CardBody;
 Card.Header = CardHeader;
 Card.Footer = CardFooter;

@@ -42,4 +42,6 @@ Stack.defaultProps = {
   fold: false,
 };
 
+Stack.displayName = 'Stack';
+
 export { Stack };

@@ -62,4 +62,6 @@ Container.defaultProps = {
   gutter: '1.5rem',
 };
 
+Container.displayName = 'Container';
+
 export { Container };

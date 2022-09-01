@@ -45,4 +45,6 @@ Badge.defaultProps = {
   tone: 'major',
 };
 
+Badge.displayName = 'Badge';
+
 export { Badge };

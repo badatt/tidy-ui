@@ -61,4 +61,6 @@ Message.defaultProps = {
   withoutLabel: false,
 };
 
+Message.displayName = 'Message';
+
 export { Message };
