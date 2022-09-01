@@ -55,7 +55,7 @@
     "ui",
     "ui-components"
   ],
-  "description": "tidy-ui react component library; 'commons' package",
+  "description": "Tidy-ui react utils library; 'commons' package",
   "publishConfig": {
     "access": "public"
   },

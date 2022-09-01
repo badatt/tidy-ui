@@ -55,7 +55,7 @@
     "ui",
     "ui-components"
   ],
-  "description": "tidy-ui react component library; 'theme' package",
+  "description": "Additional themes in Tidy UI library",
   "publishConfig": {
     "access": "public"
   },

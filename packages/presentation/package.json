@@ -60,9 +60,21 @@
     "react-ui",
     "components",
     "ui",
-    "ui-components"
+    "ui-components",
+    "badge",
+    "anchor",
+    "button",
+    "button-group",
+    "button-toolbar",
+    "icon-button",
+    "card",
+    "message",
+    "panel",
+    "paper",
+    "tag",
+    "text"
   ],
-  "description": "tidy-ui react component library; 'presentation' package",
+  "description": "Tidy UI presentation library; 'presentation' package",
   "publishConfig": {
     "access": "public"
   },

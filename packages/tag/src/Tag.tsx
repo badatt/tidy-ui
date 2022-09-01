@@ -4,7 +4,7 @@ import { TagCloseIcon, TagRoot } from './components';
 import { ITagProps } from './types';
 
 /**
- * Tag component
+ * Tag can be used to represent named identifiers to highlight
  *
  */
 const Tag = React.forwardRef<HTMLDivElement, ITagProps>((props, ref) => {

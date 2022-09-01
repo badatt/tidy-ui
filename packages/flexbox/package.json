@@ -56,7 +56,7 @@
     "ui",
     "ui-components"
   ],
-  "description": "tidy-ui react component library; 'flexbox package",
+  "description": "FlexBox can be used to create layout components with css flex properties. It also has some presets like, centering items inside a component both main and cross axis",
   "publishConfig": {
     "access": "public"
   },

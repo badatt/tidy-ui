@@ -53,9 +53,10 @@
     "react-ui",
     "components",
     "ui",
-    "ui-components"
+    "ui-components",
+    "paper"
   ],
-  "description": "tidy-ui react component library; 'paper' package",
+  "description": "Paper component can be used to represent an elevated section in a page, powered by various styles (with theming) and settings",
   "publishConfig": {
     "access": "public"
   },

@@ -13,6 +13,9 @@ interface PanelComponent extends React.ForwardRefExoticComponent<IPanelProps & R
   Header: typeof PanelHeader;
 }
 
+/**
+ * Panel can be used to fold data, show only necessary data and can expand whenever needed by the user. Panel brings accordion effect
+ */
 const Panel = React.forwardRef<HTMLDivElement, IPanelProps>((props, ref) => {
   const { children, ...rest } = props;
   return (

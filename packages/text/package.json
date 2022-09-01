@@ -55,7 +55,7 @@
     "ui",
     "ui-components"
   ],
-  "description": "tidy-ui react component library; 'text' package",
+  "description": "Text component has all the typography that you need on a page. USe this to represent any text data you want to handle on a page. Powered by various styles (with theming) and settings",
   "publishConfig": {
     "access": "public"
   },

@@ -56,7 +56,7 @@
     "ui",
     "ui-components"
   ],
-  "description": "tidy-ui react component library; 'container package",
+  "description": "Container is a wrapped div element that can responsively contain enclosed elements. This can be usually used as page root component",
   "publishConfig": {
     "access": "public"
   },

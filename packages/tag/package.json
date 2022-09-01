@@ -55,7 +55,7 @@
     "ui",
     "ui-components"
   ],
-  "description": "tidy-ui react component library; 'tag' package",
+  "description": "Tag can be used to represent named identifiers to highlight",
   "publishConfig": {
     "access": "public"
   },

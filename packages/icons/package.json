@@ -55,7 +55,7 @@
     "ui",
     "ui-components"
   ],
-  "description": "tidy-ui react component library; 'icons' package",
+  "description": "Tidy UI react icon library; 'icons' package",
   "publishConfig": {
     "access": "public"
   },

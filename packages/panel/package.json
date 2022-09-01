@@ -54,9 +54,10 @@
     "react-ui",
     "components",
     "ui",
-    "ui-components"
+    "ui-components",
+    "panel"
   ],
-  "description": "tidy-ui react component library; 'panel' package",
+  "description": "Panel can be used to fold data, show only necessary data and can expand whenever needed by the user. Panel brings accordion effect",
   "publishConfig": {
     "access": "public"
   },
