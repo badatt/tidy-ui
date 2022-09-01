@@ -16,7 +16,8 @@
     "@tidy-ui/container": "^0.11.1",
     "@tidy-ui/divider": "^0.11.1",
     "@tidy-ui/flexbox": "^0.11.1",
-    "@tidy-ui/grid": "^0.11.1"
+    "@tidy-ui/grid": "^0.11.1",
+    "@tidy-ui/stack": "^0.11.1"
   },
   "peerDependencies": {
     "react": "^18.0.0",
