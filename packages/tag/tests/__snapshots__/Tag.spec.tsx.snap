@@ -153,7 +153,7 @@ Object {
       >
         html
         <i
-          style="height: 1em; width: 1em;"
+          style="height: 1.25em; width: 1.25em;"
         >
           <svg
             aria-hidden="true"
@@ -161,7 +161,7 @@ Object {
             fill="currentColor"
             focusable="false"
             role="button"
-            style="height: 1em; width: 1em;"
+            style="height: 1.25em; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -205,7 +205,7 @@ Object {
     >
       html
       <i
-        style="height: 1em; width: 1em;"
+        style="height: 1.25em; width: 1.25em;"
       >
         <svg
           aria-hidden="true"
@@ -213,7 +213,7 @@ Object {
           fill="currentColor"
           focusable="false"
           role="button"
-          style="height: 1em; width: 1em;"
+          style="height: 1.25em; width: 1.25em;"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -670,13 +670,13 @@ Object {
         role="list"
       >
         <i
-          style="height: 1em; width: 1em;"
+          style="height: 1.25em; width: 1.25em;"
         >
           <svg
             aria-hidden="true"
             fill="currentColor"
             focusable="false"
-            style="height: 1em; width: 1em;"
+            style="height: 1.25em; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -716,13 +716,13 @@ Object {
       role="list"
     >
       <i
-        style="height: 1em; width: 1em;"
+        style="height: 1.25em; width: 1.25em;"
       >
         <svg
           aria-hidden="true"
           fill="currentColor"
           focusable="false"
-          style="height: 1em; width: 1em;"
+          style="height: 1.25em; width: 1.25em;"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >

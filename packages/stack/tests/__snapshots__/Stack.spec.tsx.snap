@@ -32,6 +32,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,64%,1);
 }
 
 .c7::after {
@@ -133,7 +134,7 @@ Object {
 }
 
 .c10 {
-  padding: 0.4em;
+  padding: 0.2em;
 }
 
 .c11 {
@@ -2132,6 +2133,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,64%,1);
 }
 
 .c7::after {
@@ -2233,7 +2235,7 @@ Object {
 }
 
 .c10 {
-  padding: 0.4em;
+  padding: 0.2em;
 }
 
 .c11 {
@@ -4277,6 +4279,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
 .c6::after {
@@ -4378,7 +4381,7 @@ Object {
 }
 
 .c9 {
-  padding: 0.4em;
+  padding: 0.2em;
 }
 
 .c10 {
@@ -4852,6 +4855,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
 .c6::after {
@@ -4953,7 +4957,7 @@ Object {
 }
 
 .c9 {
-  padding: 0.4em;
+  padding: 0.2em;
 }
 
 .c10 {
@@ -5482,6 +5486,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,64%,1);
 }
 
 .c6::after {
@@ -5583,7 +5588,7 @@ Object {
 }
 
 .c9 {
-  padding: 0.4em;
+  padding: 0.2em;
 }
 
 .c10 {
@@ -6057,6 +6062,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,64%,1);
 }
 
 .c6::after {
@@ -6158,7 +6164,7 @@ Object {
 }
 
 .c9 {
-  padding: 0.4em;
+  padding: 0.2em;
 }
 
 .c10 {
@@ -6687,6 +6693,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,64%,1);
 }
 
 .c6::after {
@@ -6788,7 +6795,7 @@ Object {
 }
 
 .c9 {
-  padding: 0.4em;
+  padding: 0.2em;
 }
 
 .c10 {
@@ -7263,6 +7270,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,64%,1);
 }
 
 .c6::after {
@@ -7364,7 +7372,7 @@ Object {
 }
 
 .c9 {
-  padding: 0.4em;
+  padding: 0.2em;
 }
 
 .c10 {
@@ -7894,6 +7902,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,64%,1);
 }
 
 .c6::after {
@@ -7995,7 +8004,7 @@ Object {
 }
 
 .c9 {
-  padding: 0.4em;
+  padding: 0.2em;
 }
 
 .c10 {
@@ -8470,6 +8479,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,64%,1);
 }
 
 .c6::after {
@@ -8571,7 +8581,7 @@ Object {
 }
 
 .c9 {
-  padding: 0.4em;
+  padding: 0.2em;
 }
 
 .c10 {
@@ -9111,6 +9121,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,64%,1);
 }
 
 .c7::after {
@@ -9212,7 +9223,7 @@ Object {
 }
 
 .c10 {
-  padding: 0.4em;
+  padding: 0.2em;
 }
 
 .c11 {
@@ -12013,6 +12024,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,64%,1);
 }
 
 .c7::after {
@@ -12114,7 +12126,7 @@ Object {
 }
 
 .c10 {
-  padding: 0.4em;
+  padding: 0.2em;
 }
 
 .c11 {
@@ -14988,6 +15000,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,64%,1);
 }
 
 .c7::after {
@@ -15089,7 +15102,7 @@ Object {
 }
 
 .c10 {
-  padding: 0.4em;
+  padding: 0.2em;
 }
 
 .c11 {
@@ -16845,6 +16858,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,64%,1);
 }
 
 .c7::after {
@@ -16946,7 +16960,7 @@ Object {
 }
 
 .c10 {
-  padding: 0.4em;
+  padding: 0.2em;
 }
 
 .c11 {

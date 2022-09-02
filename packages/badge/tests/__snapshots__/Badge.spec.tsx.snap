@@ -12,11 +12,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-}
-
-.c1 {
-  height: 20px;
-  width: 20px;
+  color: hsla(0,0%,32%,1);
 }
 
 <body>
@@ -27,18 +23,22 @@ Object {
         hidden=""
         role="contentinfo"
       >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <i
+          style="height: 1.25em; width: 1.25em;"
         >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
       </span>
     </div>
   </body>,
@@ -51,11 +51,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-}
-
-.c1 {
-  height: 20px;
-  width: 20px;
+  color: hsla(0,0%,32%,1);
 }
 
 <div>
@@ -65,18 +61,22 @@ Object {
       hidden=""
       role="contentinfo"
     >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <i
+        style="height: 1.25em; width: 1.25em;"
       >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
     </span>
   </div>,
   "debug": [Function],
@@ -145,6 +145,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
 .c0::after {
@@ -173,29 +174,28 @@ Object {
   background-color: hsla(271,81%,56%,1);
 }
 
-.c1 {
-  height: 20px;
-  width: 20px;
-}
-
 <body>
     <div>
       <span
         class="c0"
         role="contentinfo"
       >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <i
+          style="height: 1.25em; width: 1.25em;"
         >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
       </span>
     </div>
   </body>,
@@ -208,6 +208,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
 .c0::after {
@@ -236,28 +237,27 @@ Object {
   background-color: hsla(271,81%,56%,1);
 }
 
-.c1 {
-  height: 20px;
-  width: 20px;
-}
-
 <div>
     <span
       class="c0"
       role="contentinfo"
     >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <i
+        style="height: 1.25em; width: 1.25em;"
       >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
     </span>
   </div>,
   "debug": [Function],
@@ -326,6 +326,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
 .c0::after {
@@ -356,29 +357,28 @@ Object {
   background-color: hsla(271,81%,56%,1);
 }
 
-.c1 {
-  height: 20px;
-  width: 20px;
-}
-
 <body>
     <div>
       <span
         class="c0"
         role="contentinfo"
       >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <i
+          style="height: 1.25em; width: 1.25em;"
         >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
       </span>
     </div>
   </body>,
@@ -391,6 +391,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
 .c0::after {
@@ -421,28 +422,27 @@ Object {
   background-color: hsla(271,81%,56%,1);
 }
 
-.c1 {
-  height: 20px;
-  width: 20px;
-}
-
 <div>
     <span
       class="c0"
       role="contentinfo"
     >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <i
+        style="height: 1.25em; width: 1.25em;"
       >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
     </span>
   </div>,
   "debug": [Function],
@@ -511,6 +511,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
 .c0::after {
@@ -544,11 +545,6 @@ Object {
   background-color: hsla(271,81%,56%,1);
 }
 
-.c1 {
-  height: 20px;
-  width: 20px;
-}
-
 <body>
     <div>
       <span
@@ -556,18 +552,22 @@ Object {
         data="150+"
         role="contentinfo"
       >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <i
+          style="height: 1.25em; width: 1.25em;"
         >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
       </span>
     </div>
   </body>,
@@ -580,6 +580,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
 .c0::after {
@@ -613,29 +614,28 @@ Object {
   background-color: hsla(271,81%,56%,1);
 }
 
-.c1 {
-  height: 20px;
-  width: 20px;
-}
-
 <div>
     <span
       class="c0"
       data="150+"
       role="contentinfo"
     >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <i
+        style="height: 1.25em; width: 1.25em;"
       >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
     </span>
   </div>,
   "debug": [Function],
@@ -704,11 +704,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-}
-
-.c1 {
-  height: 20px;
-  width: 20px;
+  color: hsla(0,0%,32%,1);
 }
 
 <body>
@@ -718,18 +714,22 @@ Object {
         hidden=""
         role="contentinfo"
       >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <i
+          style="height: 1.25em; width: 1.25em;"
         >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
       </span>
     </div>
   </body>,
@@ -742,11 +742,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-}
-
-.c1 {
-  height: 20px;
-  width: 20px;
+  color: hsla(0,0%,32%,1);
 }
 
 <div>
@@ -755,18 +751,22 @@ Object {
       hidden=""
       role="contentinfo"
     >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <i
+        style="height: 1.25em; width: 1.25em;"
       >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
     </span>
   </div>,
   "debug": [Function],
@@ -835,6 +835,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
 .c0::after {
@@ -868,11 +869,6 @@ Object {
   background-color: hsla(271,81%,56%,1);
 }
 
-.c1 {
-  height: 20px;
-  width: 20px;
-}
-
 <body>
     <div>
       <span
@@ -880,18 +876,22 @@ Object {
         data="99+"
         role="contentinfo"
       >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <i
+          style="height: 1.25em; width: 1.25em;"
         >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
       </span>
     </div>
   </body>,
@@ -904,6 +904,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
 .c0::after {
@@ -937,29 +938,28 @@ Object {
   background-color: hsla(271,81%,56%,1);
 }
 
-.c1 {
-  height: 20px;
-  width: 20px;
-}
-
 <div>
     <span
       class="c0"
       data="99+"
       role="contentinfo"
     >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <i
+        style="height: 1.25em; width: 1.25em;"
       >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
     </span>
   </div>,
   "debug": [Function],
@@ -1028,10 +1028,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,64%,1);
 }
 
 .c0::after {
-  content: '50';
+  content: '10';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1062,7 +1063,7 @@ Object {
   border: 0.5px solid hsla(271,81%,56%,1);
 }
 
-.c2 {
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1071,10 +1072,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,64%,1);
 }
 
-.c2::after {
-  content: '60';
+.c1::after {
+  content: '20';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1105,7 +1107,7 @@ Object {
   border: 0.5px solid hsla(333,71%,51%,1);
 }
 
-.c3 {
+.c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1114,10 +1116,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,64%,1);
 }
 
-.c3::after {
-  content: '70';
+.c2::after {
+  content: '30';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1148,6 +1151,50 @@ Object {
   border: 0.5px solid hsla(0,0%,32%,1);
 }
 
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: hsla(0,0%,64%,1);
+}
+
+.c3::after {
+  content: '40';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(213,94%,68%,1);
+  background-color: hsla(224,64%,33%,0.3);
+  border: 0.5px solid hsla(221,83%,53%,1);
+}
+
 .c4 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1157,10 +1204,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,64%,1);
 }
 
 .c4::after {
-  content: '80';
+  content: '50';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1200,53 +1248,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,64%,1);
 }
 
 .c5::after {
-  content: '90';
-  position: absolute;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  place-content: center;
-  top: 0;
-  right: 0;
-  z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
-  max-width: 2rem;
-  line-height: 1;
-  padding: 0px 0.25rem;
-  height: 1rem;
-  border-radius: 0.5rem;
-  font-size: 0.625rem;
-  overflow: hidden;
-  white-space: nowrap;
-  color: hsla(213,94%,68%,1);
-  background-color: hsla(224,64%,33%,0.3);
-  border: 0.5px solid hsla(221,83%,53%,1);
-}
-
-.c6 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.c6::after {
-  content: '99+';
+  content: '60';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1277,7 +1283,7 @@ Object {
   border: 0.5px solid hsla(32,95%,44%,1);
 }
 
-.c7 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1286,10 +1292,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,64%,1);
 }
 
-.c7::after {
-  content: '99+';
+.c6::after {
+  content: '70';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1320,138 +1327,161 @@ Object {
   border: 0.5px solid hsla(0,72%,51%,1);
 }
 
-.c1 {
-  height: 20px;
-  width: 20px;
-}
-
 <body>
     <div>
       <span
         class="c0"
-        data="50"
+        data="10"
         role="contentinfo"
       >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <i
+          style="height: 1.25em; width: 1.25em;"
         >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
+      </span>
+      <span
+        class="c1"
+        data="20"
+        role="contentinfo"
+      >
+        <i
+          style="height: 1.25em; width: 1.25em;"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
       </span>
       <span
         class="c2"
-        data="60"
+        data="30"
         role="contentinfo"
       >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <i
+          style="height: 1.25em; width: 1.25em;"
         >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
       </span>
       <span
         class="c3"
-        data="70"
+        data="40"
         role="contentinfo"
       >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <i
+          style="height: 1.25em; width: 1.25em;"
         >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
       </span>
       <span
         class="c4"
-        data="80"
+        data="50"
         role="contentinfo"
       >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <i
+          style="height: 1.25em; width: 1.25em;"
         >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
       </span>
       <span
         class="c5"
-        data="90"
+        data="60"
         role="contentinfo"
       >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <i
+          style="height: 1.25em; width: 1.25em;"
         >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
       </span>
       <span
         class="c6"
-        data="99+"
+        data="70"
         role="contentinfo"
       >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <i
+          style="height: 1.25em; width: 1.25em;"
         >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
-      </span>
-      <span
-        class="c7"
-        data="99+"
-        role="contentinfo"
-      >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
       </span>
     </div>
   </body>,
@@ -1464,10 +1494,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,64%,1);
 }
 
 .c0::after {
-  content: '50';
+  content: '10';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1498,7 +1529,7 @@ Object {
   border: 0.5px solid hsla(271,81%,56%,1);
 }
 
-.c2 {
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1507,10 +1538,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,64%,1);
 }
 
-.c2::after {
-  content: '60';
+.c1::after {
+  content: '20';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1541,7 +1573,7 @@ Object {
   border: 0.5px solid hsla(333,71%,51%,1);
 }
 
-.c3 {
+.c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1550,10 +1582,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,64%,1);
 }
 
-.c3::after {
-  content: '70';
+.c2::after {
+  content: '30';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1584,6 +1617,50 @@ Object {
   border: 0.5px solid hsla(0,0%,32%,1);
 }
 
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: hsla(0,0%,64%,1);
+}
+
+.c3::after {
+  content: '40';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(213,94%,68%,1);
+  background-color: hsla(224,64%,33%,0.3);
+  border: 0.5px solid hsla(221,83%,53%,1);
+}
+
 .c4 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1593,10 +1670,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,64%,1);
 }
 
 .c4::after {
-  content: '80';
+  content: '50';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1636,53 +1714,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,64%,1);
 }
 
 .c5::after {
-  content: '90';
-  position: absolute;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  place-content: center;
-  top: 0;
-  right: 0;
-  z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
-  max-width: 2rem;
-  line-height: 1;
-  padding: 0px 0.25rem;
-  height: 1rem;
-  border-radius: 0.5rem;
-  font-size: 0.625rem;
-  overflow: hidden;
-  white-space: nowrap;
-  color: hsla(213,94%,68%,1);
-  background-color: hsla(224,64%,33%,0.3);
-  border: 0.5px solid hsla(221,83%,53%,1);
-}
-
-.c6 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.c6::after {
-  content: '99+';
+  content: '60';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1713,7 +1749,7 @@ Object {
   border: 0.5px solid hsla(32,95%,44%,1);
 }
 
-.c7 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1722,10 +1758,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,64%,1);
 }
 
-.c7::after {
-  content: '99+';
+.c6::after {
+  content: '70';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1756,137 +1793,160 @@ Object {
   border: 0.5px solid hsla(0,72%,51%,1);
 }
 
-.c1 {
-  height: 20px;
-  width: 20px;
-}
-
 <div>
     <span
       class="c0"
-      data="50"
+      data="10"
       role="contentinfo"
     >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <i
+        style="height: 1.25em; width: 1.25em;"
       >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
+    </span>
+    <span
+      class="c1"
+      data="20"
+      role="contentinfo"
+    >
+      <i
+        style="height: 1.25em; width: 1.25em;"
+      >
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
     </span>
     <span
       class="c2"
-      data="60"
+      data="30"
       role="contentinfo"
     >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <i
+        style="height: 1.25em; width: 1.25em;"
       >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
     </span>
     <span
       class="c3"
-      data="70"
+      data="40"
       role="contentinfo"
     >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <i
+        style="height: 1.25em; width: 1.25em;"
       >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
     </span>
     <span
       class="c4"
-      data="80"
+      data="50"
       role="contentinfo"
     >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <i
+        style="height: 1.25em; width: 1.25em;"
       >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
     </span>
     <span
       class="c5"
-      data="90"
+      data="60"
       role="contentinfo"
     >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <i
+        style="height: 1.25em; width: 1.25em;"
       >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
     </span>
     <span
       class="c6"
-      data="99+"
+      data="70"
       role="contentinfo"
     >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <i
+        style="height: 1.25em; width: 1.25em;"
       >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
-    </span>
-    <span
-      class="c7"
-      data="99+"
-      role="contentinfo"
-    >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
     </span>
   </div>,
   "debug": [Function],
@@ -1955,10 +2015,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
 .c0::after {
-  content: '50';
+  content: '10';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1988,7 +2049,7 @@ Object {
   background-color: hsla(271,81%,56%,1);
 }
 
-.c2 {
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1997,10 +2058,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
-.c2::after {
-  content: '60';
+.c1::after {
+  content: '20';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2030,7 +2092,7 @@ Object {
   background-color: hsla(333,71%,51%,1);
 }
 
-.c3 {
+.c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2039,10 +2101,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
-.c3::after {
-  content: '70';
+.c2::after {
+  content: '30';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2072,6 +2135,49 @@ Object {
   background-color: hsla(0,0%,32%,1);
 }
 
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: hsla(0,0%,32%,1);
+}
+
+.c3::after {
+  content: '40';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(214,95%,93%,1);
+  background-color: hsla(221,83%,53%,1);
+}
+
 .c4 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2081,10 +2187,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
 .c4::after {
-  content: '80';
+  content: '50';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2123,52 +2230,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
 .c5::after {
-  content: '90';
-  position: absolute;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  place-content: center;
-  top: 0;
-  right: 0;
-  z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
-  max-width: 2rem;
-  line-height: 1;
-  padding: 0px 0.25rem;
-  height: 1rem;
-  border-radius: 0.5rem;
-  font-size: 0.625rem;
-  overflow: hidden;
-  white-space: nowrap;
-  color: hsla(214,95%,93%,1);
-  background-color: hsla(221,83%,53%,1);
-}
-
-.c6 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.c6::after {
-  content: '99+';
+  content: '60';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2198,7 +2264,7 @@ Object {
   background-color: hsla(32,95%,44%,1);
 }
 
-.c7 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2207,10 +2273,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
-.c7::after {
-  content: '99+';
+.c6::after {
+  content: '70';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2240,138 +2307,161 @@ Object {
   background-color: hsla(0,72%,51%,1);
 }
 
-.c1 {
-  height: 20px;
-  width: 20px;
-}
-
 <body>
     <div>
       <span
         class="c0"
-        data="50"
+        data="10"
         role="contentinfo"
       >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <i
+          style="height: 1.25em; width: 1.25em;"
         >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
+      </span>
+      <span
+        class="c1"
+        data="20"
+        role="contentinfo"
+      >
+        <i
+          style="height: 1.25em; width: 1.25em;"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
       </span>
       <span
         class="c2"
-        data="60"
+        data="30"
         role="contentinfo"
       >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <i
+          style="height: 1.25em; width: 1.25em;"
         >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
       </span>
       <span
         class="c3"
-        data="70"
+        data="40"
         role="contentinfo"
       >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <i
+          style="height: 1.25em; width: 1.25em;"
         >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
       </span>
       <span
         class="c4"
-        data="80"
+        data="50"
         role="contentinfo"
       >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <i
+          style="height: 1.25em; width: 1.25em;"
         >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
       </span>
       <span
         class="c5"
-        data="90"
+        data="60"
         role="contentinfo"
       >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <i
+          style="height: 1.25em; width: 1.25em;"
         >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
       </span>
       <span
         class="c6"
-        data="99+"
+        data="70"
         role="contentinfo"
       >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <i
+          style="height: 1.25em; width: 1.25em;"
         >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
-      </span>
-      <span
-        class="c7"
-        data="99+"
-        role="contentinfo"
-      >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
       </span>
     </div>
   </body>,
@@ -2384,10 +2474,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
 .c0::after {
-  content: '50';
+  content: '10';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2417,7 +2508,7 @@ Object {
   background-color: hsla(271,81%,56%,1);
 }
 
-.c2 {
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2426,10 +2517,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
-.c2::after {
-  content: '60';
+.c1::after {
+  content: '20';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2459,7 +2551,7 @@ Object {
   background-color: hsla(333,71%,51%,1);
 }
 
-.c3 {
+.c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2468,10 +2560,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
-.c3::after {
-  content: '70';
+.c2::after {
+  content: '30';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2501,6 +2594,49 @@ Object {
   background-color: hsla(0,0%,32%,1);
 }
 
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: hsla(0,0%,32%,1);
+}
+
+.c3::after {
+  content: '40';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(214,95%,93%,1);
+  background-color: hsla(221,83%,53%,1);
+}
+
 .c4 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2510,10 +2646,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
 .c4::after {
-  content: '80';
+  content: '50';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2552,52 +2689,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
 .c5::after {
-  content: '90';
-  position: absolute;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  place-content: center;
-  top: 0;
-  right: 0;
-  z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
-  max-width: 2rem;
-  line-height: 1;
-  padding: 0px 0.25rem;
-  height: 1rem;
-  border-radius: 0.5rem;
-  font-size: 0.625rem;
-  overflow: hidden;
-  white-space: nowrap;
-  color: hsla(214,95%,93%,1);
-  background-color: hsla(221,83%,53%,1);
-}
-
-.c6 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.c6::after {
-  content: '99+';
+  content: '60';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2627,7 +2723,7 @@ Object {
   background-color: hsla(32,95%,44%,1);
 }
 
-.c7 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2636,10 +2732,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
-.c7::after {
-  content: '99+';
+.c6::after {
+  content: '70';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2669,137 +2766,160 @@ Object {
   background-color: hsla(0,72%,51%,1);
 }
 
-.c1 {
-  height: 20px;
-  width: 20px;
-}
-
 <div>
     <span
       class="c0"
-      data="50"
+      data="10"
       role="contentinfo"
     >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <i
+        style="height: 1.25em; width: 1.25em;"
       >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
+    </span>
+    <span
+      class="c1"
+      data="20"
+      role="contentinfo"
+    >
+      <i
+        style="height: 1.25em; width: 1.25em;"
+      >
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
     </span>
     <span
       class="c2"
-      data="60"
+      data="30"
       role="contentinfo"
     >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <i
+        style="height: 1.25em; width: 1.25em;"
       >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
     </span>
     <span
       class="c3"
-      data="70"
+      data="40"
       role="contentinfo"
     >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <i
+        style="height: 1.25em; width: 1.25em;"
       >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
     </span>
     <span
       class="c4"
-      data="80"
+      data="50"
       role="contentinfo"
     >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <i
+        style="height: 1.25em; width: 1.25em;"
       >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
     </span>
     <span
       class="c5"
-      data="90"
+      data="60"
       role="contentinfo"
     >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <i
+        style="height: 1.25em; width: 1.25em;"
       >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
     </span>
     <span
       class="c6"
-      data="99+"
+      data="70"
       role="contentinfo"
     >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <i
+        style="height: 1.25em; width: 1.25em;"
       >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
-    </span>
-    <span
-      class="c7"
-      data="99+"
-      role="contentinfo"
-    >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
     </span>
   </div>,
   "debug": [Function],
@@ -2868,10 +2988,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
 .c0::after {
-  content: '50';
+  content: '10';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2902,7 +3023,7 @@ Object {
   border: 0.5px solid hsla(269,97%,85%,1);
 }
 
-.c2 {
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2911,10 +3032,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
-.c2::after {
-  content: '60';
+.c1::after {
+  content: '20';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2945,7 +3067,7 @@ Object {
   border: 0.5px solid hsla(327,87%,82%,1);
 }
 
-.c3 {
+.c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2954,10 +3076,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
-.c3::after {
-  content: '70';
+.c2::after {
+  content: '30';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2988,6 +3111,50 @@ Object {
   border: 0.5px solid hsla(0,0%,83%,1);
 }
 
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: hsla(0,0%,32%,1);
+}
+
+.c3::after {
+  content: '40';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(221,83%,53%,1);
+  background-color: hsla(214,100%,97%,1);
+  border: 0.5px solid hsla(212,96%,78%,1);
+}
+
 .c4 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2997,10 +3164,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
 .c4::after {
-  content: '80';
+  content: '50';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -3040,53 +3208,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
 .c5::after {
-  content: '90';
-  position: absolute;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  place-content: center;
-  top: 0;
-  right: 0;
-  z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
-  max-width: 2rem;
-  line-height: 1;
-  padding: 0px 0.25rem;
-  height: 1rem;
-  border-radius: 0.5rem;
-  font-size: 0.625rem;
-  overflow: hidden;
-  white-space: nowrap;
-  color: hsla(221,83%,53%,1);
-  background-color: hsla(214,100%,97%,1);
-  border: 0.5px solid hsla(212,96%,78%,1);
-}
-
-.c6 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.c6::after {
-  content: '99+';
+  content: '60';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -3117,7 +3243,7 @@ Object {
   border: 0.5px solid hsla(46,97%,65%,1);
 }
 
-.c7 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3126,10 +3252,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
-.c7::after {
-  content: '99+';
+.c6::after {
+  content: '70';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -3160,138 +3287,161 @@ Object {
   border: 0.5px solid hsla(0,94%,82%,1);
 }
 
-.c1 {
-  height: 20px;
-  width: 20px;
-}
-
 <body>
     <div>
       <span
         class="c0"
-        data="50"
+        data="10"
         role="contentinfo"
       >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <i
+          style="height: 1.25em; width: 1.25em;"
         >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
+      </span>
+      <span
+        class="c1"
+        data="20"
+        role="contentinfo"
+      >
+        <i
+          style="height: 1.25em; width: 1.25em;"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
       </span>
       <span
         class="c2"
-        data="60"
+        data="30"
         role="contentinfo"
       >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <i
+          style="height: 1.25em; width: 1.25em;"
         >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
       </span>
       <span
         class="c3"
-        data="70"
+        data="40"
         role="contentinfo"
       >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <i
+          style="height: 1.25em; width: 1.25em;"
         >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
       </span>
       <span
         class="c4"
-        data="80"
+        data="50"
         role="contentinfo"
       >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <i
+          style="height: 1.25em; width: 1.25em;"
         >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
       </span>
       <span
         class="c5"
-        data="90"
+        data="60"
         role="contentinfo"
       >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <i
+          style="height: 1.25em; width: 1.25em;"
         >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
       </span>
       <span
         class="c6"
-        data="99+"
+        data="70"
         role="contentinfo"
       >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <i
+          style="height: 1.25em; width: 1.25em;"
         >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
-      </span>
-      <span
-        class="c7"
-        data="99+"
-        role="contentinfo"
-      >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
       </span>
     </div>
   </body>,
@@ -3304,10 +3454,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
 .c0::after {
-  content: '50';
+  content: '10';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -3338,7 +3489,7 @@ Object {
   border: 0.5px solid hsla(269,97%,85%,1);
 }
 
-.c2 {
+.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3347,10 +3498,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
-.c2::after {
-  content: '60';
+.c1::after {
+  content: '20';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -3381,7 +3533,7 @@ Object {
   border: 0.5px solid hsla(327,87%,82%,1);
 }
 
-.c3 {
+.c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3390,10 +3542,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
-.c3::after {
-  content: '70';
+.c2::after {
+  content: '30';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -3424,6 +3577,50 @@ Object {
   border: 0.5px solid hsla(0,0%,83%,1);
 }
 
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: hsla(0,0%,32%,1);
+}
+
+.c3::after {
+  content: '40';
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  place-content: center;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transform: translate(60%,-60%);
+  -ms-transform: translate(60%,-60%);
+  transform: translate(60%,-60%);
+  min-width: 1rem;
+  max-width: 2rem;
+  line-height: 1;
+  padding: 0px 0.25rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.625rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: hsla(221,83%,53%,1);
+  background-color: hsla(214,100%,97%,1);
+  border: 0.5px solid hsla(212,96%,78%,1);
+}
+
 .c4 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3433,10 +3630,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
 .c4::after {
-  content: '80';
+  content: '50';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -3476,53 +3674,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
 .c5::after {
-  content: '90';
-  position: absolute;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  place-content: center;
-  top: 0;
-  right: 0;
-  z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
-  max-width: 2rem;
-  line-height: 1;
-  padding: 0px 0.25rem;
-  height: 1rem;
-  border-radius: 0.5rem;
-  font-size: 0.625rem;
-  overflow: hidden;
-  white-space: nowrap;
-  color: hsla(221,83%,53%,1);
-  background-color: hsla(214,100%,97%,1);
-  border: 0.5px solid hsla(212,96%,78%,1);
-}
-
-.c6 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.c6::after {
-  content: '99+';
+  content: '60';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -3553,7 +3709,7 @@ Object {
   border: 0.5px solid hsla(46,97%,65%,1);
 }
 
-.c7 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3562,10 +3718,11 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
-.c7::after {
-  content: '99+';
+.c6::after {
+  content: '70';
   position: absolute;
   display: -webkit-box;
   display: -webkit-flex;
@@ -3596,137 +3753,160 @@ Object {
   border: 0.5px solid hsla(0,94%,82%,1);
 }
 
-.c1 {
-  height: 20px;
-  width: 20px;
-}
-
 <div>
     <span
       class="c0"
-      data="50"
+      data="10"
       role="contentinfo"
     >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <i
+        style="height: 1.25em; width: 1.25em;"
       >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
+    </span>
+    <span
+      class="c1"
+      data="20"
+      role="contentinfo"
+    >
+      <i
+        style="height: 1.25em; width: 1.25em;"
+      >
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
     </span>
     <span
       class="c2"
-      data="60"
+      data="30"
       role="contentinfo"
     >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <i
+        style="height: 1.25em; width: 1.25em;"
       >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
     </span>
     <span
       class="c3"
-      data="70"
+      data="40"
       role="contentinfo"
     >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <i
+        style="height: 1.25em; width: 1.25em;"
       >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
     </span>
     <span
       class="c4"
-      data="80"
+      data="50"
       role="contentinfo"
     >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <i
+        style="height: 1.25em; width: 1.25em;"
       >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
     </span>
     <span
       class="c5"
-      data="90"
+      data="60"
       role="contentinfo"
     >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <i
+        style="height: 1.25em; width: 1.25em;"
       >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
     </span>
     <span
       class="c6"
-      data="99+"
+      data="70"
       role="contentinfo"
     >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <i
+        style="height: 1.25em; width: 1.25em;"
       >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
-    </span>
-    <span
-      class="c7"
-      data="99+"
-      role="contentinfo"
-    >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
     </span>
   </div>,
   "debug": [Function],
@@ -3795,6 +3975,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
 .c0::after {
@@ -3828,11 +4009,6 @@ Object {
   background-color: hsla(271,81%,56%,1);
 }
 
-.c1 {
-  height: 20px;
-  width: 20px;
-}
-
 <body>
     <div>
       <span
@@ -3840,18 +4016,22 @@ Object {
         data="50"
         role="contentinfo"
       >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <i
+          style="height: 1.25em; width: 1.25em;"
         >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
       </span>
     </div>
   </body>,
@@ -3864,6 +4044,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
 .c0::after {
@@ -3897,29 +4078,28 @@ Object {
   background-color: hsla(271,81%,56%,1);
 }
 
-.c1 {
-  height: 20px;
-  width: 20px;
-}
-
 <div>
     <span
       class="c0"
       data="50"
       role="contentinfo"
     >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <i
+        style="height: 1.25em; width: 1.25em;"
       >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
     </span>
   </div>,
   "debug": [Function],
@@ -3988,11 +4168,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-}
-
-.c1 {
-  height: 20px;
-  width: 20px;
+  color: hsla(0,0%,32%,1);
 }
 
 <body>
@@ -4003,18 +4179,22 @@ Object {
         hidden=""
         role="contentinfo"
       >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <i
+          style="height: 1.25em; width: 1.25em;"
         >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
       </span>
     </div>
   </body>,
@@ -4027,11 +4207,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-}
-
-.c1 {
-  height: 20px;
-  width: 20px;
+  color: hsla(0,0%,32%,1);
 }
 
 <div>
@@ -4041,18 +4217,22 @@ Object {
       hidden=""
       role="contentinfo"
     >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <i
+        style="height: 1.25em; width: 1.25em;"
       >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
     </span>
   </div>,
   "debug": [Function],
@@ -4121,6 +4301,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
 .c0::after {
@@ -4154,11 +4335,6 @@ Object {
   background-color: hsla(271,81%,56%,1);
 }
 
-.c1 {
-  height: 20px;
-  width: 20px;
-}
-
 <body>
     <div>
       <span
@@ -4166,18 +4342,22 @@ Object {
         data="0"
         role="contentinfo"
       >
-        <svg
-          aria-hidden="true"
-          class="c1"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
+        <i
+          style="height: 1.25em; width: 1.25em;"
         >
-          <path
-            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-          />
-        </svg>
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+            />
+          </svg>
+        </i>
       </span>
     </div>
   </body>,
@@ -4190,6 +4370,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: hsla(0,0%,32%,1);
 }
 
 .c0::after {
@@ -4223,29 +4404,28 @@ Object {
   background-color: hsla(271,81%,56%,1);
 }
 
-.c1 {
-  height: 20px;
-  width: 20px;
-}
-
 <div>
     <span
       class="c0"
       data="0"
       role="contentinfo"
     >
-      <svg
-        aria-hidden="true"
-        class="c1"
-        fill="currentColor"
-        focusable="false"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
+      <i
+        style="height: 1.25em; width: 1.25em;"
       >
-        <path
-          d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
-        />
-      </svg>
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          style="height: 1.25em; width: 1.25em;"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27L15.73 3zM17 15.74 15.74 17 12 13.26 8.26 17 7 15.74 10.74 12 7 8.26 8.26 7 12 10.74 15.74 7 17 8.26 13.26 12 17 15.74z"
+          />
+        </svg>
+      </i>
     </span>
   </div>,
   "debug": [Function],

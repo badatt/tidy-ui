@@ -9,6 +9,8 @@ import 'jest-styled-components';
 import { Icon } from '@tidy-ui/commons';
 import { orchidDark, orchidLight } from '@tidy-ui/commons';
 import { Button } from '../src';
+import { Size, Tone } from '@tidy-ui/types';
+import { Variant } from '../src/types';
 
 describe('Render Button', () => {
   it('Basic render', () => {
@@ -85,7 +87,7 @@ describe('Render Button', () => {
   it('Uppercase button', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Button uc>uppercase</Button>
+        <Button uppercase>uppercase</Button>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -94,13 +96,11 @@ describe('Render Button', () => {
   it('Button with all color variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Button tone="major">major</Button>
-        <Button tone="minor">minor</Button>
-        <Button tone="neutral">neutral</Button>
-        <Button tone="info">info</Button>
-        <Button tone="success">success</Button>
-        <Button tone="warning">warning</Button>
-        <Button tone="danger">danger</Button>
+        {Object.values(Tone).map((v, i) => (
+          <Button tone={v} key={i}>
+            {v}
+          </Button>
+        ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -109,13 +109,11 @@ describe('Render Button', () => {
   it('Button with all size variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Button size="xxs">xxs</Button>
-        <Button size="xs">size-xs</Button>
-        <Button size="sm">size-sm</Button>
-        <Button size="md">size-md</Button>
-        <Button size="lg">size-lg</Button>
-        <Button size="xl">size-xl</Button>
-        <Button size="xxl">size-xxl</Button>
+        {Object.values(Size).map((v, i) => (
+          <Button size={v} key={i}>
+            size-{v}
+          </Button>
+        ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -124,16 +122,22 @@ describe('Render Button', () => {
   it('Button with all type variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Button variant="primary">primary</Button>
-        <Button variant="primary" gradient>
-          primary gradient
-        </Button>
-        <Button variant="outlined">outlined</Button>
-        <Button variant="basic">basic</Button>
-        <Button variant="simple">simple</Button>
-        <Button variant="hero">hero</Button>
+        {Object.values(Variant).map((v, i) => (
+          <Button variant={v} key={i}>
+            {v}
+          </Button>
+        ))}
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Gradients', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        <Button gradient>basic button</Button>
         <Button variant="hero" gradient>
-          hero gradient
+          basic button
         </Button>
       </ThemeProvider>,
     );
@@ -142,17 +146,11 @@ describe('Render Button', () => {
   it('Button with all type variants in dark mode', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <Button variant="primary">primary</Button>
-        <Button variant="primary" gradient>
-          primary gradient
-        </Button>
-        <Button variant="outlined">outlined</Button>
-        <Button variant="basic">basic</Button>
-        <Button variant="simple">simple</Button>
-        <Button variant="hero">hero</Button>
-        <Button variant="hero" gradient>
-          hero gradient
-        </Button>
+        {Object.values(Variant).map((v, i) => (
+          <Button variant={v} key={i}>
+            {v}
+          </Button>
+        ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();

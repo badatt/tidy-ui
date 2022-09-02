@@ -1306,43 +1306,50 @@ Object {
         class="c0"
         role="button"
       >
+        size-
         xxs
       </button>
       <button
         class="c1"
         role="button"
       >
-        size-xs
+        size-
+        xs
       </button>
       <button
         class="c2"
         role="button"
       >
-        size-sm
+        size-
+        sm
       </button>
       <button
         class="c3"
         role="button"
       >
-        size-md
+        size-
+        md
       </button>
       <button
         class="c4"
         role="button"
       >
-        size-lg
+        size-
+        lg
       </button>
       <button
         class="c5"
         role="button"
       >
-        size-xl
+        size-
+        xl
       </button>
       <button
         class="c6"
         role="button"
       >
-        size-xxl
+        size-
+        xxl
       </button>
     </div>
   </body>,
@@ -1631,43 +1638,50 @@ Object {
       class="c0"
       role="button"
     >
+      size-
       xxs
     </button>
     <button
       class="c1"
       role="button"
     >
-      size-xs
+      size-
+      xs
     </button>
     <button
       class="c2"
       role="button"
     >
-      size-sm
+      size-
+      sm
     </button>
     <button
       class="c3"
       role="button"
     >
-      size-md
+      size-
+      md
     </button>
     <button
       class="c4"
       role="button"
     >
-      size-lg
+      size-
+      lg
     </button>
     <button
       class="c5"
       role="button"
     >
-      size-xl
+      size-
+      xl
     </button>
     <button
       class="c6"
       role="button"
     >
-      size-xxl
+      size-
+      xxl
     </button>
   </div>,
   "debug": [Function],
@@ -1756,15 +1770,14 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
   border: none;
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
-  background-color: hsla(271,81%,56%,1);
 }
 
 .c0:hover {
-  background-color: hsla(272,72%,47%,1);
+  background-color: hsla(269,97%,85%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
 }
 
 .c1 {
@@ -1796,15 +1809,24 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  font-size: 3rem;
+  line-height: 2.125rem;
   color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
   border: none;
+  width: 100%;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
-  background: linear-gradient(90deg,hsla(271,81%,56%,1) 0%,hsla(333,71%,51%,1) 100%);
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1:hover {
-  background: linear-gradient(90deg,hsla(272,72%,47%,1) 0%,hsla(335,78%,42%,1) 100%);
+  background-color: hsla(272,72%,47%,1);
 }
 
 .c2 {
@@ -1874,14 +1896,15 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(271,81%,56%,1);
-  background-color: hsla(269,100%,92%,1);
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
   border: none;
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c3:hover {
-  background-color: hsla(269,97%,85%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(272,72%,47%,1);
 }
 
 .c4 {
@@ -1922,117 +1945,19 @@ Object {
   background-color: hsla(269,100%,92%,1);
 }
 
-.c5 {
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  white-space: nowrap;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-align: center;
-  vertical-align: middle;
-  -webkit-transition: all 200ms linear;
-  transition: all 200ms linear;
-  font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
-  border-radius: 0.3em;
-  line-height: 1.5em;
-  padding: 1rem 1.5rem;
-  border-radius: 0.75rem;
-  font-size: 3rem;
-  line-height: 2.125rem;
-  color: hsla(269,100%,95%,1);
-  border: none;
-  width: 100%;
-  text-align: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
-  background-color: hsla(271,81%,56%,1);
-}
-
-.c5:hover {
-  background-color: hsla(272,72%,47%,1);
-}
-
-.c6 {
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  white-space: nowrap;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-align: center;
-  vertical-align: middle;
-  -webkit-transition: all 200ms linear;
-  transition: all 200ms linear;
-  font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
-  border-radius: 0.3em;
-  line-height: 1.5em;
-  padding: 1rem 1.5rem;
-  border-radius: 0.75rem;
-  font-size: 3rem;
-  line-height: 2.125rem;
-  color: hsla(269,100%,95%,1);
-  border: none;
-  width: 100%;
-  text-align: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
-  background: linear-gradient(90deg,hsla(271,81%,56%,1) 0%,hsla(333,71%,51%,1) 100%);
-}
-
-.c6:hover {
-  background: linear-gradient(90deg,hsla(272,72%,47%,1) 0%,hsla(335,78%,42%,1) 100%);
-}
-
 <body>
     <div>
       <button
         class="c0"
         role="button"
       >
-        primary
+        basic
       </button>
       <button
         class="c1"
         role="button"
       >
-        primary gradient
+        hero
       </button>
       <button
         class="c2"
@@ -2044,25 +1969,13 @@ Object {
         class="c3"
         role="button"
       >
-        basic
+        primary
       </button>
       <button
         class="c4"
         role="button"
       >
         simple
-      </button>
-      <button
-        class="c5"
-        role="button"
-      >
-        hero
-      </button>
-      <button
-        class="c6"
-        role="button"
-      >
-        hero gradient
       </button>
     </div>
   </body>,
@@ -2095,15 +2008,14 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
+  color: hsla(271,81%,56%,1);
+  background-color: hsla(269,100%,92%,1);
   border: none;
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
-  background-color: hsla(271,81%,56%,1);
 }
 
 .c0:hover {
-  background-color: hsla(272,72%,47%,1);
+  background-color: hsla(269,97%,85%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
 }
 
 .c1 {
@@ -2135,15 +2047,24 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  font-size: 3rem;
+  line-height: 2.125rem;
   color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
   border: none;
+  width: 100%;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
-  background: linear-gradient(90deg,hsla(271,81%,56%,1) 0%,hsla(333,71%,51%,1) 100%);
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1:hover {
-  background: linear-gradient(90deg,hsla(272,72%,47%,1) 0%,hsla(335,78%,42%,1) 100%);
+  background-color: hsla(272,72%,47%,1);
 }
 
 .c2 {
@@ -2213,14 +2134,15 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(271,81%,56%,1);
-  background-color: hsla(269,100%,92%,1);
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
   border: none;
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c3:hover {
-  background-color: hsla(269,97%,85%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(272,72%,47%,1);
 }
 
 .c4 {
@@ -2261,116 +2183,18 @@ Object {
   background-color: hsla(269,100%,92%,1);
 }
 
-.c5 {
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  white-space: nowrap;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-align: center;
-  vertical-align: middle;
-  -webkit-transition: all 200ms linear;
-  transition: all 200ms linear;
-  font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
-  border-radius: 0.3em;
-  line-height: 1.5em;
-  padding: 1rem 1.5rem;
-  border-radius: 0.75rem;
-  font-size: 3rem;
-  line-height: 2.125rem;
-  color: hsla(269,100%,95%,1);
-  border: none;
-  width: 100%;
-  text-align: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
-  background-color: hsla(271,81%,56%,1);
-}
-
-.c5:hover {
-  background-color: hsla(272,72%,47%,1);
-}
-
-.c6 {
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  white-space: nowrap;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-align: center;
-  vertical-align: middle;
-  -webkit-transition: all 200ms linear;
-  transition: all 200ms linear;
-  font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
-  border-radius: 0.3em;
-  line-height: 1.5em;
-  padding: 1rem 1.5rem;
-  border-radius: 0.75rem;
-  font-size: 3rem;
-  line-height: 2.125rem;
-  color: hsla(269,100%,95%,1);
-  border: none;
-  width: 100%;
-  text-align: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
-  background: linear-gradient(90deg,hsla(271,81%,56%,1) 0%,hsla(333,71%,51%,1) 100%);
-}
-
-.c6:hover {
-  background: linear-gradient(90deg,hsla(272,72%,47%,1) 0%,hsla(335,78%,42%,1) 100%);
-}
-
 <div>
     <button
       class="c0"
       role="button"
     >
-      primary
+      basic
     </button>
     <button
       class="c1"
       role="button"
     >
-      primary gradient
+      hero
     </button>
     <button
       class="c2"
@@ -2382,25 +2206,13 @@ Object {
       class="c3"
       role="button"
     >
-      basic
+      primary
     </button>
     <button
       class="c4"
       role="button"
     >
       simple
-    </button>
-    <button
-      class="c5"
-      role="button"
-    >
-      hero
-    </button>
-    <button
-      class="c6"
-      role="button"
-    >
-      hero gradient
     </button>
   </div>,
   "debug": [Function],
@@ -2489,15 +2301,14 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
+  color: hsla(269,97%,85%,1);
+  background-color: hsla(271,81%,56%,0.7);
   border: none;
-  box-shadow: 0 0 24px hsla(273,67%,39%,1);
-  background-color: hsla(271,81%,56%,1);
 }
 
 .c0:hover {
-  background-color: hsla(272,72%,47%,1);
+  background-color: hsla(273,67%,39%,0.8);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(274,66%,32%,0.7) 0px 10px 15px -3px, hsla(274,66%,32%,0.7) 0px 4px 6px -4px;
 }
 
 .c1 {
@@ -2529,15 +2340,24 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  font-size: 3rem;
+  line-height: 2.125rem;
   color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
   border: none;
+  width: 100%;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   box-shadow: 0 0 24px hsla(273,67%,39%,1);
-  background: linear-gradient(90deg,hsla(271,81%,56%,1) 0%,hsla(333,71%,51%,1) 100%);
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1:hover {
-  background: linear-gradient(90deg,hsla(272,72%,47%,1) 0%,hsla(335,78%,42%,1) 100%);
+  background-color: hsla(272,72%,47%,1);
 }
 
 .c2 {
@@ -2607,14 +2427,15 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(269,97%,85%,1);
-  background-color: hsla(271,81%,56%,0.7);
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
   border: none;
+  box-shadow: 0 0 24px hsla(273,67%,39%,1);
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c3:hover {
-  background-color: hsla(273,67%,39%,0.8);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(274,66%,32%,0.7) 0px 10px 15px -3px, hsla(274,66%,32%,0.7) 0px 4px 6px -4px;
+  background-color: hsla(272,72%,47%,1);
 }
 
 .c4 {
@@ -2655,117 +2476,19 @@ Object {
   background-color: hsla(274,66%,32%,0.4);
 }
 
-.c5 {
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  white-space: nowrap;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-align: center;
-  vertical-align: middle;
-  -webkit-transition: all 200ms linear;
-  transition: all 200ms linear;
-  font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
-  border-radius: 0.3em;
-  line-height: 1.5em;
-  padding: 1rem 1.5rem;
-  border-radius: 0.75rem;
-  font-size: 3rem;
-  line-height: 2.125rem;
-  color: hsla(269,100%,95%,1);
-  border: none;
-  width: 100%;
-  text-align: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  box-shadow: 0 0 24px hsla(273,67%,39%,1);
-  background-color: hsla(271,81%,56%,1);
-}
-
-.c5:hover {
-  background-color: hsla(272,72%,47%,1);
-}
-
-.c6 {
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  white-space: nowrap;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-align: center;
-  vertical-align: middle;
-  -webkit-transition: all 200ms linear;
-  transition: all 200ms linear;
-  font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
-  border-radius: 0.3em;
-  line-height: 1.5em;
-  padding: 1rem 1.5rem;
-  border-radius: 0.75rem;
-  font-size: 3rem;
-  line-height: 2.125rem;
-  color: hsla(269,100%,95%,1);
-  border: none;
-  width: 100%;
-  text-align: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  box-shadow: 0 0 24px hsla(273,67%,39%,1);
-  background: linear-gradient(90deg,hsla(271,81%,56%,1) 0%,hsla(333,71%,51%,1) 100%);
-}
-
-.c6:hover {
-  background: linear-gradient(90deg,hsla(272,72%,47%,1) 0%,hsla(335,78%,42%,1) 100%);
-}
-
 <body>
     <div>
       <button
         class="c0"
         role="button"
       >
-        primary
+        basic
       </button>
       <button
         class="c1"
         role="button"
       >
-        primary gradient
+        hero
       </button>
       <button
         class="c2"
@@ -2777,25 +2500,13 @@ Object {
         class="c3"
         role="button"
       >
-        basic
+        primary
       </button>
       <button
         class="c4"
         role="button"
       >
         simple
-      </button>
-      <button
-        class="c5"
-        role="button"
-      >
-        hero
-      </button>
-      <button
-        class="c6"
-        role="button"
-      >
-        hero gradient
       </button>
     </div>
   </body>,
@@ -2828,15 +2539,14 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
+  color: hsla(269,97%,85%,1);
+  background-color: hsla(271,81%,56%,0.7);
   border: none;
-  box-shadow: 0 0 24px hsla(273,67%,39%,1);
-  background-color: hsla(271,81%,56%,1);
 }
 
 .c0:hover {
-  background-color: hsla(272,72%,47%,1);
+  background-color: hsla(273,67%,39%,0.8);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(274,66%,32%,0.7) 0px 10px 15px -3px, hsla(274,66%,32%,0.7) 0px 4px 6px -4px;
 }
 
 .c1 {
@@ -2868,15 +2578,24 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  font-size: 3rem;
+  line-height: 2.125rem;
   color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
   border: none;
+  width: 100%;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   box-shadow: 0 0 24px hsla(273,67%,39%,1);
-  background: linear-gradient(90deg,hsla(271,81%,56%,1) 0%,hsla(333,71%,51%,1) 100%);
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1:hover {
-  background: linear-gradient(90deg,hsla(272,72%,47%,1) 0%,hsla(335,78%,42%,1) 100%);
+  background-color: hsla(272,72%,47%,1);
 }
 
 .c2 {
@@ -2946,14 +2665,15 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(269,97%,85%,1);
-  background-color: hsla(271,81%,56%,0.7);
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
   border: none;
+  box-shadow: 0 0 24px hsla(273,67%,39%,1);
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c3:hover {
-  background-color: hsla(273,67%,39%,0.8);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(274,66%,32%,0.7) 0px 10px 15px -3px, hsla(274,66%,32%,0.7) 0px 4px 6px -4px;
+  background-color: hsla(272,72%,47%,1);
 }
 
 .c4 {
@@ -2994,116 +2714,18 @@ Object {
   background-color: hsla(274,66%,32%,0.4);
 }
 
-.c5 {
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  white-space: nowrap;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-align: center;
-  vertical-align: middle;
-  -webkit-transition: all 200ms linear;
-  transition: all 200ms linear;
-  font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
-  border-radius: 0.3em;
-  line-height: 1.5em;
-  padding: 1rem 1.5rem;
-  border-radius: 0.75rem;
-  font-size: 3rem;
-  line-height: 2.125rem;
-  color: hsla(269,100%,95%,1);
-  border: none;
-  width: 100%;
-  text-align: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  box-shadow: 0 0 24px hsla(273,67%,39%,1);
-  background-color: hsla(271,81%,56%,1);
-}
-
-.c5:hover {
-  background-color: hsla(272,72%,47%,1);
-}
-
-.c6 {
-  cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  white-space: nowrap;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  text-align: center;
-  vertical-align: middle;
-  -webkit-transition: all 200ms linear;
-  transition: all 200ms linear;
-  font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
-  border-radius: 0.3em;
-  line-height: 1.5em;
-  padding: 1rem 1.5rem;
-  border-radius: 0.75rem;
-  font-size: 3rem;
-  line-height: 2.125rem;
-  color: hsla(269,100%,95%,1);
-  border: none;
-  width: 100%;
-  text-align: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  box-shadow: 0 0 24px hsla(273,67%,39%,1);
-  background: linear-gradient(90deg,hsla(271,81%,56%,1) 0%,hsla(333,71%,51%,1) 100%);
-}
-
-.c6:hover {
-  background: linear-gradient(90deg,hsla(272,72%,47%,1) 0%,hsla(335,78%,42%,1) 100%);
-}
-
 <div>
     <button
       class="c0"
       role="button"
     >
-      primary
+      basic
     </button>
     <button
       class="c1"
       role="button"
     >
-      primary gradient
+      hero
     </button>
     <button
       class="c2"
@@ -3115,25 +2737,13 @@ Object {
       class="c3"
       role="button"
     >
-      basic
+      primary
     </button>
     <button
       class="c4"
       role="button"
     >
       simple
-    </button>
-    <button
-      class="c5"
-      role="button"
-    >
-      hero
-    </button>
-    <button
-      class="c6"
-      role="button"
-    >
-      hero gradient
     </button>
   </div>,
   "debug": [Function],
@@ -3649,6 +3259,271 @@ Object {
       role="button"
     >
       Disabled
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Render Button Gradients 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
+  border: none;
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
+  background: linear-gradient(90deg,hsla(271,81%,56%,1) 0%,hsla(333,71%,51%,1) 100%);
+}
+
+.c0:hover {
+  background: linear-gradient(90deg,hsla(272,72%,47%,1) 0%,hsla(335,78%,42%,1) 100%);
+}
+
+.c1 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  font-size: 3rem;
+  line-height: 2.125rem;
+  color: hsla(269,100%,95%,1);
+  border: none;
+  width: 100%;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
+  background: linear-gradient(90deg,hsla(271,81%,56%,1) 0%,hsla(333,71%,51%,1) 100%);
+}
+
+.c1:hover {
+  background: linear-gradient(90deg,hsla(272,72%,47%,1) 0%,hsla(335,78%,42%,1) 100%);
+}
+
+<body>
+    <div>
+      <button
+        class="c0"
+        role="button"
+      >
+        basic button
+      </button>
+      <button
+        class="c1"
+        role="button"
+      >
+        basic button
+      </button>
+    </div>
+  </body>,
+  "container": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
+  border: none;
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
+  background: linear-gradient(90deg,hsla(271,81%,56%,1) 0%,hsla(333,71%,51%,1) 100%);
+}
+
+.c0:hover {
+  background: linear-gradient(90deg,hsla(272,72%,47%,1) 0%,hsla(335,78%,42%,1) 100%);
+}
+
+.c1 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  font-size: 3rem;
+  line-height: 2.125rem;
+  color: hsla(269,100%,95%,1);
+  border: none;
+  width: 100%;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
+  background: linear-gradient(90deg,hsla(271,81%,56%,1) 0%,hsla(333,71%,51%,1) 100%);
+}
+
+.c1:hover {
+  background: linear-gradient(90deg,hsla(272,72%,47%,1) 0%,hsla(335,78%,42%,1) 100%);
+}
+
+<div>
+    <button
+      class="c0"
+      role="button"
+    >
+      basic button
+    </button>
+    <button
+      class="c1"
+      role="button"
+    >
+      basic button
     </button>
   </div>,
   "debug": [Function],
