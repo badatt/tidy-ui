@@ -25,9 +25,20 @@ export interface ITidyUIBaseTheme extends DefaultTheme {
 }
 
 /**
+ * Screen size enum
+ */
+export enum Screen {
+  LG = 'lg',
+  MD = 'md',
+  SM = 'sm',
+  XL = 'xl',
+  XS = 'xs',
+}
+
+/**
  * Screen size variants
  */
-export type TScreen = 'xs' | 'sm' | 'md' | 'lg' | 'xl';
+export type TScreen = `${Screen}`;
 
 /**
  * Screen props contract for responsive design
@@ -274,12 +285,38 @@ export interface IText {
 }
 
 /**
+ * Tone enum
+ */
+export enum Tone {
+  DANGER = 'danger',
+  INFO = 'info',
+  MAJOR = 'major',
+  MINOR = 'minor',
+  NEUTRAL = 'neutral',
+  SUCCESS = 'success',
+  WARNING = 'warning',
+}
+
+/**
  * Tone for components
  *
  * @typedef {TTone}
  * @public
  */
-export type TTone = 'major' | 'minor' | 'neutral' | 'info' | 'success' | 'warning' | 'danger';
+export type TTone = `${Tone}`;
+
+/**
+ * Size enum
+ */
+export enum Size {
+  LG = 'lg',
+  MD = 'md',
+  SM = 'sm',
+  XL = 'xl',
+  XS = 'xs',
+  XXL = 'xxl',
+  XXS = 'xxs',
+}
 
 /**
  * Size types for components
@@ -287,7 +324,7 @@ export type TTone = 'major' | 'minor' | 'neutral' | 'info' | 'success' | 'warnin
  * @typedef {TSize}
  * @public
  */
-export type TSize = 'xxs' | 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl';
+export type TSize = `${Size}`;
 
 /**
  * Accent types for components
@@ -295,7 +332,7 @@ export type TSize = 'xxs' | 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl';
  * @typedef {TAccent}
  * @public
  */
-export type TAccent = 'major' | 'minor' | 'neutral' | 'info' | 'success' | 'warning' | 'danger';
+export type TAccent = `${Tone}`;
 
 /**
  * Shade of color
