@@ -82,8 +82,8 @@ const Icon = React.forwardRef<HTMLDivElement, Omit<IIconProps, 'children'>>((pro
 }) as IconComponent;
 
 Icon.defaultProps = {
-  h: '1em',
-  w: '1em',
+  h: '1.25em',
+  w: '1.25em',
 };
 
 Icon.Add = AddIcon;

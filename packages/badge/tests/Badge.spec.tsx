@@ -7,20 +7,16 @@ import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { Icon } from '@tidy-ui/commons';
-import { orchidDark, orchidLight, styled } from '@tidy-ui/commons';
+import { orchidDark, orchidLight } from '@tidy-ui/commons';
 import { Badge } from '../src';
-
-const DangerIcon = styled(Icon.Dangerous)`
-  height: 20px;
-  width: 20px;
-`;
+import { Tone, TTone } from '@tidy-ui/types';
 
 describe('Badge', () => {
   it('Basic render', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge data={50}>
-          <DangerIcon />
+          <Icon ele={<Icon.Dangerous />} />
         </Badge>
       </ThemeProvider>,
     );
@@ -30,7 +26,7 @@ describe('Badge', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge>
-          <DangerIcon />
+          <Icon ele={<Icon.Dangerous />} />
         </Badge>
       </ThemeProvider>,
     );
@@ -39,27 +35,11 @@ describe('Badge', () => {
   it('Badges with all color variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Badge data={50} tone="major">
-          <DangerIcon />
-        </Badge>
-        <Badge data={60} tone="minor">
-          <DangerIcon />
-        </Badge>
-        <Badge data={70} tone="neutral">
-          <DangerIcon />
-        </Badge>
-        <Badge data={80} tone="success">
-          <DangerIcon />
-        </Badge>
-        <Badge data={90} tone="info">
-          <DangerIcon />
-        </Badge>
-        <Badge data={100} tone="warning">
-          <DangerIcon />
-        </Badge>
-        <Badge data={110} tone="danger">
-          <DangerIcon />
-        </Badge>
+        {Object.values(Tone).map((t, i) => (
+          <Badge data={(i + 1) * 10} tone={t as TTone} key={i}>
+            <Icon ele={<Icon.Dangerous />} />
+          </Badge>
+        ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -67,27 +47,11 @@ describe('Badge', () => {
   it('Badges with all outlined variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Badge data={50} tone="major" outlined>
-          <DangerIcon />
-        </Badge>
-        <Badge data={60} tone="minor" outlined>
-          <DangerIcon />
-        </Badge>
-        <Badge data={70} tone="neutral" outlined>
-          <DangerIcon />
-        </Badge>
-        <Badge data={80} tone="success" outlined>
-          <DangerIcon />
-        </Badge>
-        <Badge data={90} tone="info" outlined>
-          <DangerIcon />
-        </Badge>
-        <Badge data={100} tone="warning" outlined>
-          <DangerIcon />
-        </Badge>
-        <Badge data={110} tone="danger" outlined>
-          <DangerIcon />
-        </Badge>
+        {Object.values(Tone).map((t, i) => (
+          <Badge data={(i + 1) * 10} tone={t as TTone} key={i} outlined>
+            <Icon ele={<Icon.Dangerous />} />
+          </Badge>
+        ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -95,27 +59,11 @@ describe('Badge', () => {
   it('Badges in dark mode with all outlined variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <Badge data={50} tone="major" outlined>
-          <DangerIcon />
-        </Badge>
-        <Badge data={60} tone="minor" outlined>
-          <DangerIcon />
-        </Badge>
-        <Badge data={70} tone="neutral" outlined>
-          <DangerIcon />
-        </Badge>
-        <Badge data={80} tone="success" outlined>
-          <DangerIcon />
-        </Badge>
-        <Badge data={90} tone="info" outlined>
-          <DangerIcon />
-        </Badge>
-        <Badge data={100} tone="warning" outlined>
-          <DangerIcon />
-        </Badge>
-        <Badge data={110} tone="danger" outlined>
-          <DangerIcon />
-        </Badge>
+        {Object.values(Tone).map((t, i) => (
+          <Badge data={(i + 1) * 10} tone={t as TTone} key={i} outlined>
+            <Icon ele={<Icon.Dangerous />} />
+          </Badge>
+        ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -124,7 +72,7 @@ describe('Badge', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge data={198}>
-          <DangerIcon />
+          <Icon ele={<Icon.Dangerous />} />
         </Badge>
       </ThemeProvider>,
     );
@@ -134,7 +82,7 @@ describe('Badge', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge data={198} max={150}>
-          <DangerIcon />
+          <Icon ele={<Icon.Dangerous />} />
         </Badge>
       </ThemeProvider>,
     );
@@ -144,7 +92,7 @@ describe('Badge', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge dotted>
-          <DangerIcon />
+          <Icon ele={<Icon.Dangerous />} />
         </Badge>
       </ThemeProvider>,
     );
@@ -154,7 +102,7 @@ describe('Badge', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge dotted blink>
-          <DangerIcon />
+          <Icon ele={<Icon.Dangerous />} />
         </Badge>
       </ThemeProvider>,
     );
@@ -164,7 +112,7 @@ describe('Badge', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge hidden data={50}>
-          <DangerIcon />
+          <Icon ele={<Icon.Dangerous />} />
         </Badge>
       </ThemeProvider>,
     );
@@ -174,7 +122,7 @@ describe('Badge', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge data={0}>
-          <DangerIcon />
+          <Icon ele={<Icon.Dangerous />} />
         </Badge>
       </ThemeProvider>,
     );
@@ -184,7 +132,7 @@ describe('Badge', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Badge show0 data={0}>
-          <DangerIcon />
+          <Icon ele={<Icon.Dangerous />} />
         </Badge>
       </ThemeProvider>,
     );

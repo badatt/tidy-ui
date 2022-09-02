@@ -16,11 +16,12 @@ const getBadge = (isDotted?: boolean) => (isDotted ? dotBadge : standardBadge);
  * @internal
  */
 const BadgeRoot = styled.span<IBadgeProps>`
-  ${({ dotted, hidden }) => css`
+  ${({ theme: { palette, isDark }, dotted, hidden }) => css`
     display: flex;
     position: relative;
     width: fit-content;
     ${hidden ? null : getBadge(dotted)}
+    color: ${isDark ? palette.neutral[400] : palette.neutral[600]};
   `}
 `;
 
