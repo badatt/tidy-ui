@@ -1,3 +1,4 @@
+/* eslint-disable typescript-sort-keys/string-enum */
 import { DefaultTheme } from 'styled-components';
 
 /**
@@ -28,11 +29,11 @@ export interface ITidyUIBaseTheme extends DefaultTheme {
  * Screen size enum
  */
 export enum Screen {
-  LG = 'lg',
-  MD = 'md',
-  SM = 'sm',
-  XL = 'xl',
   XS = 'xs',
+  SM = 'sm',
+  MD = 'md',
+  LG = 'lg',
+  XL = 'xl',
 }
 
 /**
@@ -288,13 +289,13 @@ export interface IText {
  * Tone enum
  */
 export enum Tone {
-  DANGER = 'danger',
-  INFO = 'info',
   MAJOR = 'major',
   MINOR = 'minor',
   NEUTRAL = 'neutral',
+  INFO = 'info',
   SUCCESS = 'success',
   WARNING = 'warning',
+  DANGER = 'danger',
 }
 
 /**
@@ -309,13 +310,13 @@ export type TTone = `${Tone}`;
  * Size enum
  */
 export enum Size {
-  LG = 'lg',
-  MD = 'md',
-  SM = 'sm',
-  XL = 'xl',
-  XS = 'xs',
-  XXL = 'xxl',
   XXS = 'xxs',
+  XS = 'xs',
+  SM = 'sm',
+  MD = 'md',
+  LG = 'lg',
+  XL = 'xl',
+  XXL = 'xxl',
 }
 
 /**

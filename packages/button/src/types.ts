@@ -2,6 +2,17 @@ import { AnchorHTMLAttributes, HTMLAttributes } from 'react';
 import { IBaseProps, TSize, TTone } from '@tidy-ui/types';
 
 /**
+ * Variant
+ */
+export enum Variant {
+  BASIC = 'basic',
+  HERO = 'hero',
+  OUTLINED = 'outlined',
+  PRIMARY = 'primary',
+  SIMPLE = 'simple',
+}
+
+/**
  * Button variants
  *
  * `primary` -> For most significant actions in a page. If at all, only one recommended in a page
@@ -19,7 +30,7 @@ import { IBaseProps, TSize, TTone } from '@tidy-ui/types';
  * @typedef {TVariant}
  * @public
  */
-export type TVariant = 'primary' | 'outlined' | 'hero' | 'basic' | 'simple';
+export type TVariant = `${Variant}`;
 
 /**
  * Button props
@@ -82,7 +93,7 @@ export interface IButtonProps extends IBaseProps, HTMLAttributes<HTMLButtonEleme
    *
    * @type {?boolean}
    */
-  uc?: boolean;
+  uppercase?: boolean;
 
   /**
    * The variant of the component

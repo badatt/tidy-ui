@@ -2,6 +2,7 @@ import React from 'react';
 import { Icon } from '@tidy-ui/commons';
 import { styled } from '@tidy-ui/commons';
 import { IconButton } from '../src';
+import { Size, Tone } from '@tidy-ui/types';
 
 export default {
   component: IconButton,
@@ -25,31 +26,17 @@ export const basic = () => (
   </Container>
 );
 
-export const colorVariants = () => (
-  <Container>
-    <IconButton icon={<Icon.AddCircle />} tone="major">
-      Major
-    </IconButton>
-    <IconButton icon={<Icon.Cancel />} tone="minor">
-      Minor
-    </IconButton>
-    <IconButton icon={<Icon.Close />} tone="neutral">
-      Neutral
-    </IconButton>
-    <IconButton icon={<Icon.Info />} tone="info">
-      Info
-    </IconButton>
-    <IconButton icon={<Icon.CheckCircle />} tone="success">
-      Success
-    </IconButton>
-    <IconButton icon={<Icon.Warning />} tone="warning">
-      Warning
-    </IconButton>
-    <IconButton icon={<Icon.Dangerous />} tone="danger">
-      Danger
-    </IconButton>
-  </Container>
-);
+export const tones = () => {
+  return (
+    <Container>
+      {Object.values(Tone).map((v, i) => (
+        <IconButton icon={<Icon.AddCircle />} tone={v} key={i}>
+          {v}
+        </IconButton>
+      ))}
+    </Container>
+  );
+};
 
 export const placement = () => (
   <Container>
@@ -60,32 +47,14 @@ export const placement = () => (
   </Container>
 );
 
-export const sizeVariants = () => (
-  <Container>
-    <Column>
-      <IconButton icon={<Icon.AddCircle />} size="xxs">
-        Xxs
+export const sizes = () => (
+  <Column>
+    {Object.values(Size).map((v, i) => (
+      <IconButton icon={<Icon.AddCircle />} size={v} key={i}>
+        {v}
       </IconButton>
-      <IconButton icon={<Icon.AddCircle />} size="xs">
-        Xs
-      </IconButton>
-      <IconButton icon={<Icon.AddCircle />} size="sm">
-        Sm
-      </IconButton>
-      <IconButton icon={<Icon.AddCircle />} size="md">
-        Md
-      </IconButton>
-      <IconButton icon={<Icon.AddCircle />} size="lg">
-        Lg
-      </IconButton>
-      <IconButton icon={<Icon.AddCircle />} size="xl">
-        Xl
-      </IconButton>
-      <IconButton icon={<Icon.AddCircle />} size="xxl">
-        Xxl
-      </IconButton>
-    </Column>
-  </Container>
+    ))}
+  </Column>
 );
 
 export const types = () => (
@@ -107,16 +76,12 @@ export const disabled = () => (
   </Container>
 );
 
-export const iconOnly = () => (
-  <Container>
+export const iconOnly = () => {
+  return (
     <Column>
-      <IconButton icon={<Icon.Add />} iconOnly size="xxs" />
-      <IconButton icon={<Icon.Add />} iconOnly size="xs" />
-      <IconButton icon={<Icon.Add />} iconOnly size="sm" />
-      <IconButton icon={<Icon.Add />} iconOnly size="md" />
-      <IconButton icon={<Icon.Add />} iconOnly size="lg" />
-      <IconButton icon={<Icon.Add />} iconOnly size="xl" />
-      <IconButton icon={<Icon.Add />} iconOnly size="xxl" />
+      {Object.values(Size).map((v, i) => (
+        <IconButton icon={<Icon.Add />} iconOnly size={v} key={i} />
+      ))}
     </Column>
-  </Container>
-);
+  );
+};

@@ -9,6 +9,7 @@ import 'jest-styled-components';
 import { Icon } from '@tidy-ui/commons';
 import { orchidDark, orchidLight } from '@tidy-ui/commons';
 import { IconButton } from '../src';
+import { Size, Tone } from '@tidy-ui/types';
 
 describe('Render Button', () => {
   it('Basic render', () => {
@@ -42,27 +43,11 @@ describe('Render Button', () => {
   it('IconButton with all color variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <IconButton icon={<Icon.AddCircle />} tone="major">
-          Major
-        </IconButton>
-        <IconButton icon={<Icon.Cancel />} tone="minor">
-          Minor
-        </IconButton>
-        <IconButton icon={<Icon.Close />} tone="neutral">
-          Neutral
-        </IconButton>
-        <IconButton icon={<Icon.Info />} tone="info">
-          Info
-        </IconButton>
-        <IconButton icon={<Icon.CheckCircle />} tone="success">
-          Success
-        </IconButton>
-        <IconButton icon={<Icon.Warning />} tone="warning">
-          Warning
-        </IconButton>
-        <IconButton icon={<Icon.Dangerous />} tone="danger">
-          Danger
-        </IconButton>
+        {Object.values(Tone).map((v, i) => (
+          <IconButton icon={<Icon.AddCircle />} tone={v} key={i}>
+            {v}
+          </IconButton>
+        ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -71,27 +56,11 @@ describe('Render Button', () => {
   it('IconButton with all size variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <IconButton icon={<Icon.AddCircle />} size="xxs">
-          Xxs
-        </IconButton>
-        <IconButton icon={<Icon.AddCircle />} size="xs">
-          Xs
-        </IconButton>
-        <IconButton icon={<Icon.AddCircle />} size="sm">
-          Sm
-        </IconButton>
-        <IconButton icon={<Icon.AddCircle />} size="md">
-          Md
-        </IconButton>
-        <IconButton icon={<Icon.AddCircle />} size="lg">
-          Lg
-        </IconButton>
-        <IconButton icon={<Icon.AddCircle />} size="xl">
-          Xl
-        </IconButton>
-        <IconButton icon={<Icon.AddCircle />} size="xxl">
-          Xxl
-        </IconButton>
+        {Object.values(Size).map((v, i) => (
+          <IconButton icon={<Icon.AddCircle />} size={v} key={i}>
+            {v}
+          </IconButton>
+        ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -114,13 +83,11 @@ describe('Render Button', () => {
   it('IconButton with only icon', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <IconButton icon={<Icon.Add />} iconOnly size="xxs" />
-        <IconButton icon={<Icon.Add />} iconOnly size="xs" />
-        <IconButton icon={<Icon.Add />} iconOnly size="sm" />
-        <IconButton icon={<Icon.Add />} iconOnly size="md" />
-        <IconButton icon={<Icon.Add />} iconOnly size="lg" />
-        <IconButton icon={<Icon.Add />} iconOnly size="xl" />
-        <IconButton icon={<Icon.Add />} iconOnly size="xxl" />
+        {Object.values(Size).map((v, i) => (
+          <IconButton icon={<Icon.AddCircle />} iconOnly size={v} key={i}>
+            {v}
+          </IconButton>
+        ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();

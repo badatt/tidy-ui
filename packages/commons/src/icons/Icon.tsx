@@ -26,16 +26,16 @@ export interface IIconProps extends IBaseProps, React.HTMLAttributes<HTMLDivElem
   /**
    * Height
    */
-  h?: string;
+  height?: string;
 
   /**
    * Margin
    */
-  mgn?: string;
+  margin?: string;
   /**
    * Width
    */
-  w?: string;
+  width?: string;
 }
 
 /** @internal */
@@ -75,15 +75,15 @@ interface IconComponent
  * Icon wrapper component
  */
 const Icon = React.forwardRef<HTMLDivElement, Omit<IIconProps, 'children'>>((props, ref) => {
-  const { ele, style, h, mgn, w, ...rest } = props;
-  const styles = { ...style, height: h, margin: mgn, width: w };
+  const { ele, style, height, margin, width, ...rest } = props;
+  const styles = { ...style, height, margin, width };
   const styledIconElement = React.cloneElement(ele, { style: styles });
   return React.createElement('i', { ref, style: styles, ...rest }, styledIconElement);
 }) as IconComponent;
 
 Icon.defaultProps = {
-  h: '1.25em',
-  w: '1.25em',
+  height: '1.25em',
+  width: '1.25em',
 };
 
 Icon.Add = AddIcon;

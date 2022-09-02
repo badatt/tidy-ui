@@ -41,7 +41,7 @@ const ButtonRoot = styled.button<IButtonProps>`
   text-align: center;
   vertical-align: middle;
   transition: all 200ms linear;
-  ${({ size, disabled, stretched, variant, uc }) => css`
+  ${({ size, disabled, stretched, variant, uppercase }) => css`
     font-size: ${sizeStyles[size!].fontSize};
     padding: 0.3em 0.5rem;
     border-radius: 0.3em;
@@ -58,7 +58,7 @@ const ButtonRoot = styled.button<IButtonProps>`
       text-align: center;
       justify-content: center;
     `}
-    ${uc &&
+    ${uppercase &&
     css`
       text-transform: uppercase;
     `}
@@ -222,7 +222,7 @@ const IconButtonRoot = styled.button<IIconButtonProps>`
  * @internal
  */
 const IconButtonIconWrapper = styled.span<IIconButtonProps>`
-  padding: 0.4em;
+  padding: 0.2em;
 `;
 
 /**

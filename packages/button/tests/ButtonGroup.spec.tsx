@@ -14,11 +14,9 @@ describe('Render ButtonGroup', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <ButtonGroup>
-          <Button>button 1</Button>
-          <Button>button 2</Button>
-          <Button>button 3</Button>
-          <Button>button 4</Button>
-          <Button>button 5</Button>
+          {[...Array(5)].map((c, i) => (
+            <Button key={i}>Button {i}</Button>
+          ))}
         </ButtonGroup>
       </ThemeProvider>,
     );
@@ -28,11 +26,9 @@ describe('Render ButtonGroup', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
         <ButtonGroup>
-          <Button>button 1</Button>
-          <Button>button 2</Button>
-          <Button>button 3</Button>
-          <Button>button 4</Button>
-          <Button>button 5</Button>
+          {[...Array(5)].map((c, i) => (
+            <Button key={i}>Button {i}</Button>
+          ))}
         </ButtonGroup>
       </ThemeProvider>,
     );
@@ -55,11 +51,9 @@ describe('Render ButtonGroup', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <ButtonGroup vertical>
-          <Button>button 1</Button>
-          <Button>button 2</Button>
-          <Button>button 3</Button>
-          <Button>button 4</Button>
-          <Button>button 5</Button>
+          {[...Array(5)].map((c, i) => (
+            <Button key={i}>Button {i}</Button>
+          ))}
         </ButtonGroup>
       </ThemeProvider>,
     );
@@ -70,11 +64,9 @@ describe('Render ButtonGroup', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <ButtonGroup unified>
-          <Button>button 1</Button>
-          <Button>button 2</Button>
-          <Button>button 3</Button>
-          <Button>button 4</Button>
-          <Button>button 5</Button>
+          {[...Array(5)].map((c, i) => (
+            <Button key={i}>Button {i}</Button>
+          ))}
         </ButtonGroup>
       </ThemeProvider>,
     );
@@ -85,11 +77,9 @@ describe('Render ButtonGroup', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <ButtonGroup unified vertical>
-          <Button>button 1</Button>
-          <Button>button 2</Button>
-          <Button>button 3</Button>
-          <Button>button 4</Button>
-          <Button>button 5</Button>
+          {[...Array(5)].map((c, i) => (
+            <Button key={i}>Button {i}</Button>
+          ))}
         </ButtonGroup>
       </ThemeProvider>,
     );
@@ -100,11 +90,9 @@ describe('Render ButtonGroup', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <ButtonGroup disabled>
-          <Button>button 1</Button>
-          <Button>button 2</Button>
-          <Button>button 3</Button>
-          <Button>button 4</Button>
-          <Button>button 5</Button>
+          {[...Array(5)].map((c, i) => (
+            <Button key={i}>Button {i}</Button>
+          ))}
         </ButtonGroup>
       </ThemeProvider>,
     );

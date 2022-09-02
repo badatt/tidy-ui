@@ -14,13 +14,7 @@ Object {
 }
 
 .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  padding: 1rem;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -77,13 +71,7 @@ Object {
 }
 
 .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  padding: 1rem;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -213,13 +201,7 @@ Object {
 }
 
 .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  padding: 1rem;
   background-color: hsla(217,33%,17%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(210,40%,96%,1);
@@ -316,13 +298,7 @@ Object {
 }
 
 .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  padding: 1rem;
   background-color: hsla(217,33%,17%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(210,40%,96%,1);
@@ -457,13 +433,7 @@ Object {
 }
 
 .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  padding: 1rem;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -472,13 +442,7 @@ Object {
 }
 
 .c4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  padding: 1rem;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -559,13 +523,7 @@ Object {
 }
 
 .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  padding: 1rem;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -574,13 +532,7 @@ Object {
 }
 
 .c4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  padding: 1rem;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -733,13 +685,7 @@ Object {
 }
 
 .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  padding: 1rem;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -753,13 +699,7 @@ Object {
 }
 
 .c7 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  padding: 1rem;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -773,13 +713,7 @@ Object {
 }
 
 .c8 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  padding: 1rem;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -793,13 +727,7 @@ Object {
 }
 
 .c9 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  padding: 1rem;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -813,13 +741,7 @@ Object {
 }
 
 .c10 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  padding: 1rem;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -833,13 +755,7 @@ Object {
 }
 
 .c11 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  padding: 1rem;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -853,13 +769,7 @@ Object {
 }
 
 .c12 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  padding: 1rem;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1203,13 +1113,7 @@ Object {
 }
 
 .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  padding: 1rem;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1223,13 +1127,7 @@ Object {
 }
 
 .c7 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  padding: 1rem;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1243,13 +1141,7 @@ Object {
 }
 
 .c8 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  padding: 1rem;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1263,13 +1155,7 @@ Object {
 }
 
 .c9 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  padding: 1rem;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1283,13 +1169,7 @@ Object {
 }
 
 .c10 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  padding: 1rem;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1303,13 +1183,7 @@ Object {
 }
 
 .c11 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  padding: 1rem;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1323,13 +1197,7 @@ Object {
 }
 
 .c12 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  padding: 1rem;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1710,13 +1578,7 @@ Object {
 }
 
 .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  padding: 1rem;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1772,13 +1634,7 @@ Object {
 }
 
 .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  padding: 1rem;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1889,13 +1745,7 @@ Object {
 }
 
 .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  padding: 1rem;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1958,13 +1808,7 @@ Object {
 }
 
 .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  padding: 1rem;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
