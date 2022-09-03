@@ -27,12 +27,22 @@ export interface ICardProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   accentPosition?: 'top' | 'right' | 'bottom' | 'left';
 
   /**
+   * Element that encloses the card
+   */
+  ele?: JSX.Element;
+
+  /**
    * Hyperlink the component
    *
    * @type {?string}
    * @default undefined
    */
   href?: string;
+
+  /**
+   * css `margin` equivalent
+   */
+  margin?: string;
 
   /**
    * If `true`, the component is created with sharp edges
@@ -59,6 +69,11 @@ export interface ICardFooterProps extends IBaseProps, HTMLAttributes<HTMLDivElem
    * @default false
    */
   divided?: boolean;
+
+  /**
+   * Element that encloses the footer
+   */
+  ele?: JSX.Element;
 }
 
 /**
@@ -79,6 +94,11 @@ export interface ICardHeaderProps extends IBaseProps, HTMLAttributes<HTMLDivElem
   divided?: boolean;
 
   /**
+   * Element that encloses the header
+   */
+  ele?: JSX.Element;
+
+  /**
    * Create a hyper link with a launch icon on top right corner,
    * on click opens a new tab with the associated hyperlink
    *
@@ -86,4 +106,14 @@ export interface ICardHeaderProps extends IBaseProps, HTMLAttributes<HTMLDivElem
    * @default undefined
    */
   href?: string;
+}
+
+/**
+ * CardBody props
+ */
+export interface ICardBodyProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
+  /**
+   * Element that encloses the body
+   */
+  ele?: JSX.Element;
 }

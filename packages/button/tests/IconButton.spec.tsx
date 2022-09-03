@@ -84,9 +84,7 @@ describe('Render Button', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {Object.values(Size).map((v, i) => (
-          <IconButton icon={<Icon.AddCircle />} iconOnly size={v} key={i}>
-            {v}
-          </IconButton>
+          <IconButton icon={<Icon.AddCircle />} iconOnly size={v} key={i} />
         ))}
       </ThemeProvider>,
     );

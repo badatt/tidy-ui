@@ -7,10 +7,10 @@ import { ICardFooterProps } from './types';
  *
  */
 const CardFooter = React.forwardRef<HTMLDivElement, ICardFooterProps>((props, ref) => {
-  const { children, ...rest } = props;
+  const { children, ele, ...rest } = props;
   return (
     <CardFooterRoot role="presentation" ref={ref} {...rest}>
-      {children}
+      {ele ? React.cloneElement(ele, {}, children) : children}
     </CardFooterRoot>
   );
 });
