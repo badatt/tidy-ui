@@ -8,7 +8,7 @@ import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidLight } from '@tidy-ui/commons';
 import { FlexBox } from '../src';
-import { IFlexBoxProps, IFlexItemProps, TAlignSelf } from '../src/types';
+import { AlignSelf, IFlexBoxProps, IFlexItemProps, TAlignSelf } from '../src/types';
 
 const height = '350px';
 
@@ -92,28 +92,13 @@ describe('FlexItem', () => {
   });
 
   it('Align self', () => {
-    const variants = [
-      'auto',
-      'normal',
-      'stretch',
-      'baseline',
-      'first baseline',
-      'last baseline',
-      'unsafe',
-      'safe',
-      'center',
-      'start',
-      'end',
-      'self-start',
-      'self-end',
-      'flex-start',
-      'flex-end',
-    ];
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        {variants.map((v) => (
-          <FlexBoxWrapper box={{ height }} item={{ als: v as TAlignSelf }} key={v} />
-        ))}
+        {Object.keys(Object.keys(AlignSelf).filter((i) => !isNaN(Number(i))))
+          .filter((i) => !isNaN(Number(i)))
+          .map((v) => (
+            <FlexBoxWrapper box={{ height }} item={{ als: AlignSelf[v] }} key={v} />
+          ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
