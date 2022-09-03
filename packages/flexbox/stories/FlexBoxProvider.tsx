@@ -1,6 +1,7 @@
 import React from 'react';
+import { Button, ButtonGroup } from '@tidy-ui/button';
 import { color, css, hsla, styled } from '@tidy-ui/commons';
-import { Button, ButtonGroup, Text } from '@tidy-ui/presentation';
+import { Text } from '@tidy-ui/text';
 import { IBaseProps } from '@tidy-ui/types';
 import { FlexBox } from '../src';
 import { IFlexBoxProps, IFlexItemProps } from '../src/types';
@@ -70,7 +71,7 @@ const FlexBoxProvider = ({ children, size }: IFlexBoxProvider) => {
           </Button>
         </ButtonGroup>
         <FlexBox gap="0.5rem" ali="center">
-          <LabelFlexBox h="24px" w="24px" />
+          <LabelFlexBox height="24px" w="24px" />
           <Text>FlexBox</Text>
           <LabelFlexItem />
           <Text>FlexItem</Text>

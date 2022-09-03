@@ -1,8 +1,8 @@
 import React from 'react';
 import { Icon } from '@tidy-ui/commons';
-import { css, styled } from '@tidy-ui/commons';
+import { styled } from '@tidy-ui/commons';
 import { Button } from '../src';
-import { IButtonProps, Variant } from '../src/types';
+import { Variant } from '../src/types';
 import { Size, Tone } from '@tidy-ui/types';
 
 export default {

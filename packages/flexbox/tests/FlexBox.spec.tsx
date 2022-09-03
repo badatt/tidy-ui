@@ -8,7 +8,7 @@ import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidLight } from '@tidy-ui/commons';
 import { FlexBox } from '../src';
-import { IFlexBoxProps, TAlignContent, TAlignItems, TFlexDirection, TFlexWrap, TJustifyContent } from '../src/types';
+import { IFlexBoxProps, TAlignContent, TAlignItems, TFlexDirection, TJustifyContent } from '../src/types';
 
 const height = '350px';
 
@@ -31,7 +31,7 @@ describe('FlexBox', () => {
   it('Basic render', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <FlexBoxWrapper h={height} />
+        <FlexBoxWrapper height={height} />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -42,7 +42,7 @@ describe('FlexBox', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {variants.map((v) => (
-          <FlexBoxWrapper h={height} fld={v as TFlexDirection} key={v} />
+          <FlexBoxWrapper height={height} fld={v as TFlexDirection} key={v} />
         ))}
       </ThemeProvider>,
     );
@@ -50,11 +50,10 @@ describe('FlexBox', () => {
   });
 
   it('Wrap variants', () => {
-    const variants = ['row', 'row-reverse', 'column', 'column-reverse'];
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        {variants.map((v) => (
-          <FlexBoxWrapper h={height} fwp={v as TFlexWrap} key={v} />
+        {[true, false].map((v, i) => (
+          <FlexBoxWrapper height={height} nowrap={v} key={i} />
         ))}
       </ThemeProvider>,
     );
@@ -73,7 +72,7 @@ describe('FlexBox', () => {
   it('Centered with height set', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <FlexBoxWrapper ctr h={height} />
+        <FlexBoxWrapper ctr height={height} />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -91,7 +90,7 @@ describe('FlexBox', () => {
   it('Gap', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <FlexBoxWrapper gap="8px" h={height} />
+        <FlexBoxWrapper gap="8px" height={height} />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -100,7 +99,7 @@ describe('FlexBox', () => {
   it('Column gap', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <FlexBoxWrapper cgp="8px" h={height} />
+        <FlexBoxWrapper cgp="8px" height={height} />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -109,7 +108,7 @@ describe('FlexBox', () => {
   it('Row gap', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <FlexBoxWrapper rgp="8px" h={height} />
+        <FlexBoxWrapper rgp="8px" height={height} />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -136,7 +135,7 @@ describe('FlexBox', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {variants.map((v) => (
-          <FlexBoxWrapper h={height} alc={v as TAlignContent} key={v} />
+          <FlexBoxWrapper height={height} alc={v as TAlignContent} key={v} />
         ))}
       </ThemeProvider>,
     );
@@ -163,7 +162,7 @@ describe('FlexBox', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {variants.map((v) => (
-          <FlexBoxWrapper h={height} ali={v as TAlignItems} key={v} />
+          <FlexBoxWrapper height={height} ali={v as TAlignItems} key={v} />
         ))}
       </ThemeProvider>,
     );
@@ -190,7 +189,7 @@ describe('FlexBox', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {variants.map((v) => (
-          <FlexBoxWrapper h={height} jsc={v as TJustifyContent} key={v} />
+          <FlexBoxWrapper height={height} jsc={v as TJustifyContent} key={v} />
         ))}
       </ThemeProvider>,
     );
@@ -200,7 +199,7 @@ describe('FlexBox', () => {
   it('Width', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <FlexBoxWrapper w="600px" />
+        <FlexBoxWrapper width="600px" />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();

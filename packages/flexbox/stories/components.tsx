@@ -1,5 +1,5 @@
 import { color, css, hsla, styled } from '@tidy-ui/commons';
-import { Text } from '@tidy-ui/presentation';
+import { Text } from '@tidy-ui/text';
 import { FlexBox } from '../src';
 import { IFlexBoxProps, IFlexItemProps } from '../src/types';
 
