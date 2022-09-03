@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`FlexBox Align content variants 1`] = `
+exports[`FlexBox Align content 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
@@ -1593,7 +1593,7 @@ Object {
 }
 `;
 
-exports[`FlexBox Align items variants 1`] = `
+exports[`FlexBox Align items 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
@@ -3774,7 +3774,7 @@ Object {
 }
 `;
 
-exports[`FlexBox Direction variants 1`] = `
+exports[`FlexBox Direction 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
@@ -4742,7 +4742,7 @@ Object {
 }
 `;
 
-exports[`FlexBox Justify content variants 1`] = `
+exports[`FlexBox Justify content 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
@@ -6565,7 +6565,7 @@ Object {
 }
 `;
 
-exports[`FlexBox Wrap variants 1`] = `
+exports[`FlexBox Wrap 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Button, ButtonGroup } from '@tidy-ui/button';
 import { Text } from '@tidy-ui/text';
 import { FlexBox } from '../src';
-import { IFlexItemProps, TAlignSelf } from '../src/types';
+import { AlignSelf, IFlexItemProps, TAlignSelf } from '../src/types';
 import { Ctx, FlexBoxProvider } from './FlexBoxProvider';
 import { Divider, StyledFlexBox, StyledFlexItem, StyledText, StyledTextLabel } from './components';
 
@@ -115,48 +115,33 @@ export const order = () => {
 };
 
 export const alignSelf = () => {
-  const variants = [
-    'auto',
-    'normal',
-    'stretch',
-    'baseline',
-    'first baseline',
-    'last baseline',
-    'unsafe',
-    'safe',
-    'center',
-    'start',
-    'end',
-    'self-start',
-    'self-end',
-    'flex-start',
-    'flex-end',
-  ];
   return (
     <>
-      {variants.map((v) => (
-        <FlexBoxProvider key={v} size={10}>
-          <Text v="h6">{v}</Text>
-          <Ctx.Consumer>
-            {({ count }) => (
-              <StyledFlexBox height={height} alc="normal" jsc="normal">
-                {[...Array(count)].map((c, i) => {
-                  const als = i % 2 == 0 ? (v as TAlignSelf) : 'normal';
-                  return (
-                    <StyledFlexItem key={i} als={als} style={{ padding: '3rem' }}>
-                      <StyledText v={label}>{i}</StyledText>
-                      <StyledTextLabel v="caption" tnc>
-                        {als}
-                      </StyledTextLabel>
-                    </StyledFlexItem>
-                  );
-                })}
-              </StyledFlexBox>
-            )}
-          </Ctx.Consumer>
-          <Divider margin="1rem" />
-        </FlexBoxProvider>
-      ))}
+      {Object.keys(AlignSelf)
+        .filter((i) => !isNaN(Number(i)))
+        .map((v) => (
+          <FlexBoxProvider key={v} size={10}>
+            <Text v="h6">{AlignSelf[v]}</Text>
+            <Ctx.Consumer>
+              {({ count }) => (
+                <StyledFlexBox height={height} alc="normal" jsc="normal">
+                  {[...Array(count)].map((c, i) => {
+                    const als = i % 2 == 0 ? AlignSelf[v] : 'normal';
+                    return (
+                      <StyledFlexItem key={i} als={als} style={{ padding: '3rem' }}>
+                        <StyledText v={label}>{i}</StyledText>
+                        <StyledTextLabel v="caption" tnc>
+                          {als}
+                        </StyledTextLabel>
+                      </StyledFlexItem>
+                    );
+                  })}
+                </StyledFlexBox>
+              )}
+            </Ctx.Consumer>
+            <Divider margin="1rem" />
+          </FlexBoxProvider>
+        ))}
     </>
   );
 };

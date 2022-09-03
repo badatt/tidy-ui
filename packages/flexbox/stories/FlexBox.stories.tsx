@@ -1,16 +1,7 @@
 import React from 'react';
 import { Text } from '@tidy-ui/presentation';
 import { FlexBox } from '../src';
-import {
-  AlignContent,
-  AlignItems,
-  FlexDirection,
-  JustifyContent,
-  TAlignContent,
-  TAlignItems,
-  TFlexDirection,
-  TJustifyContent,
-} from '../src/types';
+import { AlignContent, AlignItems, FlexDirection, JustifyContent } from '../src/types';
 import { Ctx, FlexBoxProvider } from './FlexBoxProvider';
 import { Divider, StyledFlexBox, StyledFlexItem, StyledText } from './components';
 

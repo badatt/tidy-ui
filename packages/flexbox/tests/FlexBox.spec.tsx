@@ -8,7 +8,17 @@ import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidLight } from '@tidy-ui/commons';
 import { FlexBox } from '../src';
-import { IFlexBoxProps, TAlignContent, TAlignItems, TFlexDirection, TJustifyContent } from '../src/types';
+import {
+  AlignContent,
+  AlignItems,
+  FlexDirection,
+  IFlexBoxProps,
+  JustifyContent,
+  TAlignContent,
+  TAlignItems,
+  TFlexDirection,
+  TJustifyContent,
+} from '../src/types';
 
 const height = '350px';
 
@@ -37,19 +47,20 @@ describe('FlexBox', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('Direction variants', () => {
-    const variants = ['row', 'row-reverse', 'column', 'column-reverse'];
+  it('Direction', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        {variants.map((v) => (
-          <FlexBoxWrapper height={height} fld={v as TFlexDirection} key={v} />
-        ))}
+        {Object.keys(FlexDirection)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v) => (
+            <FlexBoxWrapper height={height} fld={FlexDirection[v]} key={v} />
+          ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
-  it('Wrap variants', () => {
+  it('Wrap', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {[true, false].map((v, i) => (
@@ -114,83 +125,40 @@ describe('FlexBox', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('Align content variants', () => {
-    const variants = [
-      'normal',
-      'baseline',
-      'first baseline',
-      'last baseline',
-      'space-between',
-      'space-around',
-      'space-evenly',
-      'stretch',
-      'unsafe',
-      'safe',
-      'center',
-      'start',
-      'end',
-      'flex-start',
-      'flex-end',
-    ];
+  it('Align content', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        {variants.map((v) => (
-          <FlexBoxWrapper height={height} alc={v as TAlignContent} key={v} />
-        ))}
+        {Object.keys(AlignContent)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v) => (
+            <FlexBoxWrapper height={height} alc={AlignContent[v]} key={v} />
+          ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
-  it('Align items variants', () => {
-    const variants = [
-      'normal',
-      'stretch',
-      'baseline',
-      'first baseline',
-      'last baseline',
-      'safe',
-      'unsafe',
-      'flex-start',
-      'flex-end',
-      'center',
-      'start',
-      'end',
-      'self-start',
-      'self-end',
-    ];
+  it('Align items', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        {variants.map((v) => (
-          <FlexBoxWrapper height={height} ali={v as TAlignItems} key={v} />
-        ))}
+        {Object.keys(AlignItems)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v) => (
+            <FlexBoxWrapper height={height} ali={AlignItems[v]} key={v} />
+          ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
-  it('Justify content variants', () => {
-    const variants = [
-      'center',
-      'start',
-      'end',
-      'flex-start',
-      'flex-end',
-      'left',
-      'right',
-      'normal',
-      'space-between',
-      'space-around',
-      'space-evenly',
-      'stretch',
-      'safe',
-      'unsafe',
-    ];
+  it('Justify content', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        {variants.map((v) => (
-          <FlexBoxWrapper height={height} jsc={v as TJustifyContent} key={v} />
-        ))}
+        {Object.keys(JustifyContent)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v) => (
+            <FlexBoxWrapper height={height} jsc={JustifyContent[v]} key={v} />
+          ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
