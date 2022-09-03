@@ -31,7 +31,7 @@ const DividerRoot = styled.hr<IDividerProps>`
 
 /** @internal */
 interface DividerComponent
-  extends React.ForwardRefExoticComponent<IDividerProps & React.RefAttributes<HTMLDivElement>> {
+  extends React.ForwardRefExoticComponent<Omit<IDividerProps, 'children'> & React.RefAttributes<HTMLDivElement>> {
   /** @internal */
   Enhanced: typeof EnhancedDivider;
 }
@@ -40,7 +40,7 @@ interface DividerComponent
  * Divider can be use to give a horizontal separation between components, a good replacement
  * for <hr> in html, powered by various styles (with theming) and settings
  */
-const Divider = React.forwardRef<HTMLHRElement, IDividerProps>((props, ref) => {
+const Divider = React.forwardRef<HTMLHRElement, Omit<IDividerProps, 'children'>>((props, ref) => {
   const { className, ...rest } = props;
   return <DividerRoot ref={ref} className={className} role="separator" {...rest} />;
 }) as DividerComponent;

@@ -9,51 +9,53 @@ import 'jest-styled-components';
 import { orchidDark, orchidLight } from '@tidy-ui/commons';
 import { Divider } from '../src';
 import { Text } from '@tidy-ui/text';
-import { TVariant } from '../src/types';
+import { Density, Position, TVariant, Variant } from '../src/types';
+import { Shade, Tone } from '@tidy-ui/types';
+
+const text = `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!`;
 
 describe('EnhancedDivider', () => {
   it('Basic render', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia
-          veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero
-          veniam!
-        </Text>
-        <Divider.Enhanced />
-        <Text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia
-          veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero
-          veniam!
-        </Text>
-      </ThemeProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-  });
-  it('Dark mode basic render', () => {
-    const tree = render(
-      <ThemeProvider theme={orchidDark}>
-        <Text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia
-          veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero
-          veniam!
-        </Text>
-        <Divider.Enhanced />
-        <Text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia
-          veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero
-          veniam!
-        </Text>
+        {[...Array(3)].map((v, i) => (
+          <React.Fragment key={i}>
+            <Text>{text}</Text>
+            <Divider.Enhanced />
+          </React.Fragment>
+        ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
-  it('Tone', () => {
+  it('Dark mode basic render', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <Text>color major</Text>
-        <Divider.Enhanced tone="major" />
+        {[...Array(3)].map((v, i) => (
+          <React.Fragment key={i}>
+            <Text>{text}</Text>
+            <Divider.Enhanced />
+          </React.Fragment>
+        ))}
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Contained', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidDark}>
+        {[...Array(3)].map((v, i) => (
+          <React.Fragment key={i}>
+            <Text>{text}</Text>
+            <Divider.Enhanced>
+              <Text v="caption">section {i}</Text>
+            </Divider.Enhanced>
+          </React.Fragment>
+        ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -61,52 +63,107 @@ describe('EnhancedDivider', () => {
   it('Density', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <Text>thick density</Text>
-        <Divider.Enhanced density="thick" />
-        <Text>thin density</Text>
-        <Divider.Enhanced density="thin" />
-        <Text>medium density</Text>
-        <Divider.Enhanced density="medium" />
+        {Object.keys(Density)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v, i) => (
+            <React.Fragment key={i}>
+              <Text v="h6">density={Density[v]}</Text>
+              <Text>{text}</Text>
+              <Divider.Enhanced density={Density[v]}>
+                <Text v="caption">section {i}</Text>
+              </Divider.Enhanced>
+            </React.Fragment>
+          ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
-
-  it('Shade', () => {
+  it('Shades', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <Text>800 shade</Text>
-        <Divider.Enhanced shade={800} />
+        {Object.keys(Shade)
+          .filter((i) => !isNaN(Number(i)))
+          .reverse()
+          .map((v, i) => (
+            <React.Fragment key={i}>
+              <Text v="h6">shade={Shade[v]}</Text>
+              <Text>{text}</Text>
+              <Divider.Enhanced shade={Shade[v]}>
+                <Text v="caption">section {i}</Text>
+              </Divider.Enhanced>
+            </React.Fragment>
+          ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
-
+  it('Tones', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidDark}>
+        {Object.keys(Tone)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v, i) => (
+            <React.Fragment key={i}>
+              <Text v="h6">tone={Tone[v]}</Text>
+              <Text>{text}</Text>
+              <Divider.Enhanced tone={Tone[v]}>
+                <Text v="caption" clr={Tone[v]}>
+                  section {i}
+                </Text>
+              </Divider.Enhanced>
+            </React.Fragment>
+          ))}
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
   it('Variants', () => {
-    const variants = ['dashed', 'dotted', 'double', 'groove', 'hidden', 'ridge', 'solid'];
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        {variants.map((v, i) => (
-          <div key={i}>
-            <Text>{v} style</Text>
-            <Divider.Enhanced variant={v as TVariant} />
-            <Text>{v} style</Text>
-          </div>
+        {Object.keys(Variant)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v, i) => (
+            <React.Fragment key={i}>
+              <Text v="h6">variant={Variant[v]}</Text>
+              <Text>{text}</Text>
+              <Divider.Enhanced variant={Variant[v]}>
+                <Text v="caption">section {i}</Text>
+              </Divider.Enhanced>
+            </React.Fragment>
+          ))}
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+  it('Custom margin', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidDark}>
+        {[...Array(3)].map((v, i) => (
+          <React.Fragment key={i}>
+            <Text>{text}</Text>
+            <Divider.Enhanced margin="2rem">
+              <Text v="caption">section {i}</Text>
+            </Divider.Enhanced>
+          </React.Fragment>
         ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
-
-  it('Content', () => {
+  it('Justify', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <Text>Content</Text>
-        <Divider.Enhanced justify="end">Page 1</Divider.Enhanced>
-        <Text>Content</Text>
-        <Divider.Enhanced justify="start">Page 1</Divider.Enhanced>
-        <Text>Content</Text>
-        <Divider.Enhanced justify="center">Page 1</Divider.Enhanced>
+        {Object.keys(Position)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v, i) => (
+            <React.Fragment key={i}>
+              <Text v="h6">justify={Position[v]}</Text>
+              <Text>{text}</Text>
+              <Divider.Enhanced justify={Position[v]}>
+                <Text v="caption">section {i}</Text>
+              </Divider.Enhanced>
+            </React.Fragment>
+          ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();

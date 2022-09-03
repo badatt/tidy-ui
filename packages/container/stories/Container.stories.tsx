@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { color, css, hsla, Icon, styled } from '@tidy-ui/commons';
+import { Screen } from '@tidy-ui/types';
 import { Container } from '../src';
 import { IContainerProps } from '../src/types';
 import { Button, ButtonGroup } from '@tidy-ui/button';
@@ -51,25 +52,23 @@ export const fixed = () => (
 );
 
 export const maxWidth = () => {
-  const widths = ['xs', 'sm', 'md', 'lg', 'xl'];
-  const [maxWidth, setMaxWidth] = useState(2);
+  const [maxWidth, setMaxWidth] = useState(Screen.md);
   const increment = () => maxWidth < 4 && setMaxWidth(maxWidth + 1);
   const decrement = () => maxWidth > 0 && setMaxWidth(maxWidth - 1);
-  const reset = () => setMaxWidth(2);
   return (
     <>
       <ToolBar>
         <ButtonGroup>
           <ButtonGroup>
-            <Button variant="outlined" onClick={decrement}>
+            <Button variant="outlined" onClick={decrement} disabled={maxWidth === 0}>
               <ToolBarIconWrap>
                 <Icon.Remove />
               </ToolBarIconWrap>
             </Button>
             <Button variant="outlined" disabled tone="neutral">
-              {widths[maxWidth]}
+              {Screen[maxWidth]}
             </Button>
-            <Button variant="outlined" onClick={increment}>
+            <Button variant="outlined" onClick={increment} disabled={maxWidth === 4}>
               <ToolBarIconWrap>
                 <Icon.Add />
               </ToolBarIconWrap>
@@ -77,7 +76,7 @@ export const maxWidth = () => {
           </ButtonGroup>
         </ButtonGroup>
       </ToolBar>
-      <Container maxWidth={widths[maxWidth] as TScreen}>
+      <Container maxWidth={Screen[maxWidth] as TScreen}>
         <Content />
       </Container>
     </>

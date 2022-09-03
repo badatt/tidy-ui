@@ -8,6 +8,7 @@ import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidDark, orchidLight, styled } from '@tidy-ui/commons';
 import { Container } from '../src';
+import { Screen } from '@tidy-ui/types';
 
 const InnerDiv = styled.div`
   background-color: #cfe8fc;
@@ -42,21 +43,13 @@ describe('Container', () => {
   it('Max width', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <Container maxWidth="xs">
-          <Content />
-        </Container>
-        <Container maxWidth="sm">
-          <Content />
-        </Container>
-        <Container maxWidth="md">
-          <Content />
-        </Container>
-        <Container maxWidth="lg">
-          <Content />
-        </Container>
-        <Container maxWidth="xl">
-          <Content />
-        </Container>
+        {Object.keys(Screen)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v, i) => (
+            <Container maxWidth={Screen[v]} key={i}>
+              <Content />
+            </Container>
+          ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();

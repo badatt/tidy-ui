@@ -29,17 +29,17 @@ export interface ITidyUIBaseTheme extends DefaultTheme {
  * Screen size enum
  */
 export enum Screen {
-  XS = 'xs',
-  SM = 'sm',
-  MD = 'md',
-  LG = 'lg',
-  XL = 'xl',
+  'xs',
+  'sm',
+  'md',
+  'lg',
+  'xl',
 }
 
 /**
  * Screen size variants
  */
-export type TScreen = `${Screen}`;
+export type TScreen = keyof typeof Screen;
 
 /**
  * Screen props contract for responsive design
@@ -289,13 +289,13 @@ export interface IText {
  * Tone enum
  */
 export enum Tone {
-  MAJOR = 'major',
-  MINOR = 'minor',
-  NEUTRAL = 'neutral',
-  INFO = 'info',
-  SUCCESS = 'success',
-  WARNING = 'warning',
-  DANGER = 'danger',
+  'major',
+  'minor',
+  'neutral',
+  'info',
+  'success',
+  'warning',
+  'danger',
 }
 
 /**
@@ -304,19 +304,19 @@ export enum Tone {
  * @typedef {TTone}
  * @public
  */
-export type TTone = `${Tone}`;
+export type TTone = keyof typeof Tone;
 
 /**
  * Size enum
  */
 export enum Size {
-  XXS = 'xxs',
-  XS = 'xs',
-  SM = 'sm',
-  MD = 'md',
-  LG = 'lg',
-  XL = 'xl',
-  XXL = 'xxl',
+  'xxs',
+  'xs',
+  'sm',
+  'md',
+  'lg',
+  'xl',
+  'xxl',
 }
 
 /**
@@ -325,7 +325,7 @@ export enum Size {
  * @typedef {TSize}
  * @public
  */
-export type TSize = `${Size}`;
+export type TSize = keyof typeof Size;
 
 /**
  * Accent types for components
@@ -333,7 +333,14 @@ export type TSize = `${Size}`;
  * @typedef {TAccent}
  * @public
  */
-export type TAccent = `${Tone}`;
+export type TAccent = keyof typeof Tone;
+
+/**
+ * Shades
+ */
+
+// eslint-disable-next-line jsdoc/require-jsdoc
+export const Shade = [50, 100, 200, 300, 400, 500, 600, 700, 800, 900] as const;
 
 /**
  * Shade of color
@@ -341,4 +348,4 @@ export type TAccent = `${Tone}`;
  * @typedef {TShade}
  * @public
  */
-export type TShade = 50 | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900;
+export type TShade = typeof Shade[number];

@@ -43,11 +43,13 @@ describe('Render Button', () => {
   it('IconButton with all color variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        {Object.values(Tone).map((v, i) => (
-          <IconButton icon={<Icon.AddCircle />} tone={v} key={i}>
-            {v}
-          </IconButton>
-        ))}
+        {Object.values(Tone)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v, i) => (
+            <IconButton icon={<Icon.AddCircle />} tone={Tone[v]} key={i}>
+              {Tone[v]}
+            </IconButton>
+          ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -56,11 +58,13 @@ describe('Render Button', () => {
   it('IconButton with all size variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        {Object.values(Size).map((v, i) => (
-          <IconButton icon={<Icon.AddCircle />} size={v} key={i}>
-            {v}
-          </IconButton>
-        ))}
+        {Object.values(Size)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v, i) => (
+            <IconButton icon={<Icon.AddCircle />} size={Size[v]} key={i}>
+              {Size[v]}
+            </IconButton>
+          ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -83,9 +87,11 @@ describe('Render Button', () => {
   it('IconButton with only icon', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        {Object.values(Size).map((v, i) => (
-          <IconButton icon={<Icon.AddCircle />} iconOnly size={v} key={i} />
-        ))}
+        {Object.values(Size)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v, i) => (
+            <IconButton icon={<Icon.AddCircle />} iconOnly size={Size[v]} key={i} />
+          ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();

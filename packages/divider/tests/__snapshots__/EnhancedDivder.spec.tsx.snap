@@ -53,7 +53,9 @@ Object {
         class="c0"
         role="contentinfo"
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
       </p>
       <div
         class="c1"
@@ -72,8 +74,44 @@ Object {
         class="c0"
         role="contentinfo"
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
       </p>
+      <div
+        class="c1"
+        role="separator"
+      >
+        <hr
+          class="c2"
+          role="separator"
+        />
+        <hr
+          class="c2"
+          role="separator"
+        />
+      </div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c1"
+        role="separator"
+      >
+        <hr
+          class="c2"
+          role="separator"
+        />
+        <hr
+          class="c2"
+          role="separator"
+        />
+      </div>
     </div>
   </body>,
   "container": .c1 {
@@ -125,7 +163,9 @@ Object {
       class="c0"
       role="contentinfo"
     >
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
     </p>
     <div
       class="c1"
@@ -144,8 +184,44 @@ Object {
       class="c0"
       role="contentinfo"
     >
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
     </p>
+    <div
+      class="c1"
+      role="separator"
+    >
+      <hr
+        class="c2"
+        role="separator"
+      />
+      <hr
+        class="c2"
+        role="separator"
+      />
+    </div>
+    <p
+      class="c0"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c1"
+      role="separator"
+    >
+      <hr
+        class="c2"
+        role="separator"
+      />
+      <hr
+        class="c2"
+        role="separator"
+      />
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -201,7 +277,7 @@ Object {
 }
 `;
 
-exports[`EnhancedDivider Content 1`] = `
+exports[`EnhancedDivider Contained 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c1 {
@@ -236,14 +312,6 @@ Object {
 }
 
 .c3 {
-  padding: 0 0 0 8px;
-}
-
-.c4 {
-  padding: 0 8px 0 0;
-}
-
-.c5 {
   padding: 0 8px;
 }
 
@@ -260,13 +328,28 @@ Object {
   line-height: 1.43;
 }
 
+.c4 {
+  display: block;
+  margin: 0;
+  font-size: 0.75rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+}
+
 <body>
     <div>
       <p
         class="c0"
         role="contentinfo"
       >
-        Content
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
       </p>
       <div
         class="c1"
@@ -280,24 +363,13 @@ Object {
           class="c3"
           role="separator"
         >
-          Page 1
-        </div>
-      </div>
-      <p
-        class="c0"
-        role="contentinfo"
-      >
-        Content
-      </p>
-      <div
-        class="c1"
-        role="separator"
-      >
-        <div
-          class="c4"
-          role="separator"
-        >
-          Page 1
+          <p
+            class="c4"
+            role="contentinfo"
+          >
+            section 
+            0
+          </p>
         </div>
         <hr
           class="c2"
@@ -308,7 +380,9 @@ Object {
         class="c0"
         role="contentinfo"
       >
-        Content
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
       </p>
       <div
         class="c1"
@@ -319,10 +393,49 @@ Object {
           role="separator"
         />
         <div
-          class="c5"
+          class="c3"
           role="separator"
         >
-          Page 1
+          <p
+            class="c4"
+            role="contentinfo"
+          >
+            section 
+            1
+          </p>
+        </div>
+        <hr
+          class="c2"
+          role="separator"
+        />
+      </div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c1"
+        role="separator"
+      >
+        <hr
+          class="c2"
+          role="separator"
+        />
+        <div
+          class="c3"
+          role="separator"
+        >
+          <p
+            class="c4"
+            role="contentinfo"
+          >
+            section 
+            2
+          </p>
         </div>
         <hr
           class="c2"
@@ -363,14 +476,6 @@ Object {
 }
 
 .c3 {
-  padding: 0 0 0 8px;
-}
-
-.c4 {
-  padding: 0 8px 0 0;
-}
-
-.c5 {
   padding: 0 8px;
 }
 
@@ -387,12 +492,27 @@ Object {
   line-height: 1.43;
 }
 
+.c4 {
+  display: block;
+  margin: 0;
+  font-size: 0.75rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+}
+
 <div>
     <p
       class="c0"
       role="contentinfo"
     >
-      Content
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
     </p>
     <div
       class="c1"
@@ -406,24 +526,13 @@ Object {
         class="c3"
         role="separator"
       >
-        Page 1
-      </div>
-    </div>
-    <p
-      class="c0"
-      role="contentinfo"
-    >
-      Content
-    </p>
-    <div
-      class="c1"
-      role="separator"
-    >
-      <div
-        class="c4"
-        role="separator"
-      >
-        Page 1
+        <p
+          class="c4"
+          role="contentinfo"
+        >
+          section 
+          0
+        </p>
       </div>
       <hr
         class="c2"
@@ -434,7 +543,9 @@ Object {
       class="c0"
       role="contentinfo"
     >
-      Content
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
     </p>
     <div
       class="c1"
@@ -445,10 +556,432 @@ Object {
         role="separator"
       />
       <div
-        class="c5"
+        class="c3"
         role="separator"
       >
-        Page 1
+        <p
+          class="c4"
+          role="contentinfo"
+        >
+          section 
+          1
+        </p>
+      </div>
+      <hr
+        class="c2"
+        role="separator"
+      />
+    </div>
+    <p
+      class="c0"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c1"
+      role="separator"
+    >
+      <hr
+        class="c2"
+        role="separator"
+      />
+      <div
+        class="c3"
+        role="separator"
+      >
+        <p
+          class="c4"
+          role="contentinfo"
+        >
+          section 
+          2
+        </p>
+      </div>
+      <hr
+        class="c2"
+        role="separator"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`EnhancedDivider Custom margin 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  margin: 2rem 0;
+}
+
+.c2 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c3 {
+  padding: 0 8px;
+}
+
+.c0 {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
+.c4 {
+  display: block;
+  margin: 0;
+  font-size: 0.75rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+}
+
+<body>
+    <div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c1"
+        role="separator"
+      >
+        <hr
+          class="c2"
+          role="separator"
+        />
+        <div
+          class="c3"
+          role="separator"
+        >
+          <p
+            class="c4"
+            role="contentinfo"
+          >
+            section 
+            0
+          </p>
+        </div>
+        <hr
+          class="c2"
+          role="separator"
+        />
+      </div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c1"
+        role="separator"
+      >
+        <hr
+          class="c2"
+          role="separator"
+        />
+        <div
+          class="c3"
+          role="separator"
+        >
+          <p
+            class="c4"
+            role="contentinfo"
+          >
+            section 
+            1
+          </p>
+        </div>
+        <hr
+          class="c2"
+          role="separator"
+        />
+      </div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c1"
+        role="separator"
+      >
+        <hr
+          class="c2"
+          role="separator"
+        />
+        <div
+          class="c3"
+          role="separator"
+        >
+          <p
+            class="c4"
+            role="contentinfo"
+          >
+            section 
+            2
+          </p>
+        </div>
+        <hr
+          class="c2"
+          role="separator"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  margin: 2rem 0;
+}
+
+.c2 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c3 {
+  padding: 0 8px;
+}
+
+.c0 {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
+.c4 {
+  display: block;
+  margin: 0;
+  font-size: 0.75rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+}
+
+<div>
+    <p
+      class="c0"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c1"
+      role="separator"
+    >
+      <hr
+        class="c2"
+        role="separator"
+      />
+      <div
+        class="c3"
+        role="separator"
+      >
+        <p
+          class="c4"
+          role="contentinfo"
+        >
+          section 
+          0
+        </p>
+      </div>
+      <hr
+        class="c2"
+        role="separator"
+      />
+    </div>
+    <p
+      class="c0"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c1"
+      role="separator"
+    >
+      <hr
+        class="c2"
+        role="separator"
+      />
+      <div
+        class="c3"
+        role="separator"
+      >
+        <p
+          class="c4"
+          role="contentinfo"
+        >
+          section 
+          1
+        </p>
+      </div>
+      <hr
+        class="c2"
+        role="separator"
+      />
+    </div>
+    <p
+      class="c0"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c1"
+      role="separator"
+    >
+      <hr
+        class="c2"
+        role="separator"
+      />
+      <div
+        class="c3"
+        role="separator"
+      >
+        <p
+          class="c4"
+          role="contentinfo"
+        >
+          section 
+          2
+        </p>
       </div>
       <hr
         class="c2"
@@ -563,7 +1096,9 @@ Object {
         class="c0"
         role="contentinfo"
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
       </p>
       <div
         class="c1"
@@ -582,8 +1117,44 @@ Object {
         class="c0"
         role="contentinfo"
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
       </p>
+      <div
+        class="c1"
+        role="separator"
+      >
+        <hr
+          class="c2"
+          role="separator"
+        />
+        <hr
+          class="c2"
+          role="separator"
+        />
+      </div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c1"
+        role="separator"
+      >
+        <hr
+          class="c2"
+          role="separator"
+        />
+        <hr
+          class="c2"
+          role="separator"
+        />
+      </div>
     </div>
   </body>,
   "container": .c1 {
@@ -635,7 +1206,9 @@ Object {
       class="c0"
       role="contentinfo"
     >
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
     </p>
     <div
       class="c1"
@@ -654,8 +1227,44 @@ Object {
       class="c0"
       role="contentinfo"
     >
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero veniam!
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
     </p>
+    <div
+      class="c1"
+      role="separator"
+    >
+      <hr
+        class="c2"
+        role="separator"
+      />
+      <hr
+        class="c2"
+        role="separator"
+      />
+    </div>
+    <p
+      class="c0"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c1"
+      role="separator"
+    >
+      <hr
+        class="c2"
+        role="separator"
+      />
+      <hr
+        class="c2"
+        role="separator"
+      />
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -714,7 +1323,7 @@ Object {
 exports[`EnhancedDivider Density 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c1 {
+  "baseElement": .c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -735,7 +1344,27 @@ Object {
   margin: 1rem 0;
 }
 
-.c2 {
+.c3 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c6 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px medium;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c7 {
   border-color: hsla(0,0%,45%,1);
   border-width: 0px 0px thick;
   border-style: solid;
@@ -743,6 +1372,467 @@ Object {
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
+}
+
+.c4 {
+  padding: 0 8px;
+}
+
+.c0 {
+  display: block;
+  margin: 0;
+  font-size: 1.25rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
+}
+
+.c1 {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
+.c5 {
+  display: block;
+  margin: 0;
+  font-size: 0.75rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+}
+
+<body>
+    <div>
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        density=
+        thin
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c2"
+        role="separator"
+      >
+        <hr
+          class="c3"
+          role="separator"
+        />
+        <div
+          class="c4"
+          role="separator"
+        >
+          <p
+            class="c5"
+            role="contentinfo"
+          >
+            section 
+            0
+          </p>
+        </div>
+        <hr
+          class="c3"
+          role="separator"
+        />
+      </div>
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        density=
+        medium
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c2"
+        role="separator"
+      >
+        <hr
+          class="c6"
+          role="separator"
+        />
+        <div
+          class="c4"
+          role="separator"
+        >
+          <p
+            class="c5"
+            role="contentinfo"
+          >
+            section 
+            1
+          </p>
+        </div>
+        <hr
+          class="c6"
+          role="separator"
+        />
+      </div>
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        density=
+        thick
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c2"
+        role="separator"
+      >
+        <hr
+          class="c7"
+          role="separator"
+        />
+        <div
+          class="c4"
+          role="separator"
+        >
+          <p
+            class="c5"
+            role="contentinfo"
+          >
+            section 
+            2
+          </p>
+        </div>
+        <hr
+          class="c7"
+          role="separator"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  margin: 1rem 0;
+}
+
+.c3 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c6 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px medium;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c7 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thick;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c4 {
+  padding: 0 8px;
+}
+
+.c0 {
+  display: block;
+  margin: 0;
+  font-size: 1.25rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
+}
+
+.c1 {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
+.c5 {
+  display: block;
+  margin: 0;
+  font-size: 0.75rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+}
+
+<div>
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      density=
+      thin
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c2"
+      role="separator"
+    >
+      <hr
+        class="c3"
+        role="separator"
+      />
+      <div
+        class="c4"
+        role="separator"
+      >
+        <p
+          class="c5"
+          role="contentinfo"
+        >
+          section 
+          0
+        </p>
+      </div>
+      <hr
+        class="c3"
+        role="separator"
+      />
+    </div>
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      density=
+      medium
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c2"
+      role="separator"
+    >
+      <hr
+        class="c6"
+        role="separator"
+      />
+      <div
+        class="c4"
+        role="separator"
+      >
+        <p
+          class="c5"
+          role="contentinfo"
+        >
+          section 
+          1
+        </p>
+      </div>
+      <hr
+        class="c6"
+        role="separator"
+      />
+    </div>
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      density=
+      thick
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c2"
+      role="separator"
+    >
+      <hr
+        class="c7"
+        role="separator"
+      />
+      <div
+        class="c4"
+        role="separator"
+      >
+        <p
+          class="c5"
+          role="contentinfo"
+        >
+          section 
+          2
+        </p>
+      </div>
+      <hr
+        class="c7"
+        role="separator"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`EnhancedDivider Justify 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  margin: 1rem 0;
 }
 
 .c3 {
@@ -756,16 +1846,31 @@ Object {
 }
 
 .c4 {
-  border-color: hsla(0,0%,45%,1);
-  border-width: 0px 0px medium;
-  border-style: solid;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
+  padding: 0 8px;
+}
+
+.c6 {
+  padding: 0 8px 0 0;
+}
+
+.c7 {
+  padding: 0 0 0 8px;
 }
 
 .c0 {
+  display: block;
+  margin: 0;
+  font-size: 1.25rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
+}
+
+.c1 {
   display: block;
   margin: 0;
   font-size: 0.875rem;
@@ -778,68 +1883,136 @@ Object {
   line-height: 1.43;
 }
 
+.c5 {
+  display: block;
+  margin: 0;
+  font-size: 0.75rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+}
+
 <body>
     <div>
-      <p
+      <h6
         class="c0"
         role="contentinfo"
       >
-        thick density
-      </p>
-      <div
-        class="c1"
-        role="separator"
-      >
-        <hr
-          class="c2"
-          role="separator"
-        />
-        <hr
-          class="c2"
-          role="separator"
-        />
-      </div>
+        justify=
+        center
+      </h6>
       <p
-        class="c0"
+        class="c1"
         role="contentinfo"
       >
-        thin density
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
       </p>
       <div
-        class="c1"
+        class="c2"
         role="separator"
       >
         <hr
           class="c3"
           role="separator"
         />
+        <div
+          class="c4"
+          role="separator"
+        >
+          <p
+            class="c5"
+            role="contentinfo"
+          >
+            section 
+            0
+          </p>
+        </div>
         <hr
           class="c3"
           role="separator"
         />
       </div>
-      <p
+      <h6
         class="c0"
         role="contentinfo"
       >
-        medium density
+        justify=
+        start
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
       </p>
       <div
+        class="c2"
+        role="separator"
+      >
+        <div
+          class="c6"
+          role="separator"
+        >
+          <p
+            class="c5"
+            role="contentinfo"
+          >
+            section 
+            1
+          </p>
+        </div>
+        <hr
+          class="c3"
+          role="separator"
+        />
+      </div>
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        justify=
+        end
+      </h6>
+      <p
         class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c2"
         role="separator"
       >
         <hr
-          class="c4"
+          class="c3"
           role="separator"
         />
-        <hr
-          class="c4"
+        <div
+          class="c7"
           role="separator"
-        />
+        >
+          <p
+            class="c5"
+            role="contentinfo"
+          >
+            section 
+            2
+          </p>
+        </div>
       </div>
     </div>
   </body>,
-  "container": .c1 {
+  "container": .c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -858,16 +2031,6 @@ Object {
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   margin: 1rem 0;
-}
-
-.c2 {
-  border-color: hsla(0,0%,45%,1);
-  border-width: 0px 0px thick;
-  border-style: solid;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
 }
 
 .c3 {
@@ -881,8 +2044,291 @@ Object {
 }
 
 .c4 {
+  padding: 0 8px;
+}
+
+.c6 {
+  padding: 0 8px 0 0;
+}
+
+.c7 {
+  padding: 0 0 0 8px;
+}
+
+.c0 {
+  display: block;
+  margin: 0;
+  font-size: 1.25rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
+}
+
+.c1 {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
+.c5 {
+  display: block;
+  margin: 0;
+  font-size: 0.75rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+}
+
+<div>
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      justify=
+      center
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c2"
+      role="separator"
+    >
+      <hr
+        class="c3"
+        role="separator"
+      />
+      <div
+        class="c4"
+        role="separator"
+      >
+        <p
+          class="c5"
+          role="contentinfo"
+        >
+          section 
+          0
+        </p>
+      </div>
+      <hr
+        class="c3"
+        role="separator"
+      />
+    </div>
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      justify=
+      start
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c2"
+      role="separator"
+    >
+      <div
+        class="c6"
+        role="separator"
+      >
+        <p
+          class="c5"
+          role="contentinfo"
+        >
+          section 
+          1
+        </p>
+      </div>
+      <hr
+        class="c3"
+        role="separator"
+      />
+    </div>
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      justify=
+      end
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c2"
+      role="separator"
+    >
+      <hr
+        class="c3"
+        role="separator"
+      />
+      <div
+        class="c7"
+        role="separator"
+      >
+        <p
+          class="c5"
+          role="contentinfo"
+        >
+          section 
+          2
+        </p>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`EnhancedDivider Shades 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  margin: 1rem 0;
+}
+
+.c3 {
+  border-color: hsla(0,0%,9%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c6 {
+  border-color: hsla(0,0%,15%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c7 {
+  border-color: hsla(0,0%,25%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c8 {
+  border-color: hsla(0,0%,32%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c9 {
   border-color: hsla(0,0%,45%,1);
-  border-width: 0px 0px medium;
+  border-width: 0px 0px thin;
   border-style: solid;
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
@@ -890,7 +2336,74 @@ Object {
   flex-grow: 1;
 }
 
+.c10 {
+  border-color: hsla(0,0%,64%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c11 {
+  border-color: hsla(0,0%,83%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c12 {
+  border-color: hsla(0,0%,90%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c13 {
+  border-color: hsla(0,0%,96%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c14 {
+  border-color: hsla(0,0%,98%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c4 {
+  padding: 0 8px;
+}
+
 .c0 {
+  display: block;
+  margin: 0;
+  font-size: 1.25rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
+}
+
+.c1 {
   display: block;
   margin: 0;
   font-size: 0.875rem;
@@ -903,61 +2416,985 @@ Object {
   line-height: 1.43;
 }
 
+.c5 {
+  display: block;
+  margin: 0;
+  font-size: 0.75rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+}
+
+<body>
+    <div>
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        shade=
+        900
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c2"
+        role="separator"
+      >
+        <hr
+          class="c3"
+          role="separator"
+        />
+        <div
+          class="c4"
+          role="separator"
+        >
+          <p
+            class="c5"
+            role="contentinfo"
+          >
+            section 
+            0
+          </p>
+        </div>
+        <hr
+          class="c3"
+          role="separator"
+        />
+      </div>
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        shade=
+        800
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c2"
+        role="separator"
+      >
+        <hr
+          class="c6"
+          role="separator"
+        />
+        <div
+          class="c4"
+          role="separator"
+        >
+          <p
+            class="c5"
+            role="contentinfo"
+          >
+            section 
+            1
+          </p>
+        </div>
+        <hr
+          class="c6"
+          role="separator"
+        />
+      </div>
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        shade=
+        700
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c2"
+        role="separator"
+      >
+        <hr
+          class="c7"
+          role="separator"
+        />
+        <div
+          class="c4"
+          role="separator"
+        >
+          <p
+            class="c5"
+            role="contentinfo"
+          >
+            section 
+            2
+          </p>
+        </div>
+        <hr
+          class="c7"
+          role="separator"
+        />
+      </div>
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        shade=
+        600
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c2"
+        role="separator"
+      >
+        <hr
+          class="c8"
+          role="separator"
+        />
+        <div
+          class="c4"
+          role="separator"
+        >
+          <p
+            class="c5"
+            role="contentinfo"
+          >
+            section 
+            3
+          </p>
+        </div>
+        <hr
+          class="c8"
+          role="separator"
+        />
+      </div>
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        shade=
+        500
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c2"
+        role="separator"
+      >
+        <hr
+          class="c9"
+          role="separator"
+        />
+        <div
+          class="c4"
+          role="separator"
+        >
+          <p
+            class="c5"
+            role="contentinfo"
+          >
+            section 
+            4
+          </p>
+        </div>
+        <hr
+          class="c9"
+          role="separator"
+        />
+      </div>
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        shade=
+        400
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c2"
+        role="separator"
+      >
+        <hr
+          class="c10"
+          role="separator"
+        />
+        <div
+          class="c4"
+          role="separator"
+        >
+          <p
+            class="c5"
+            role="contentinfo"
+          >
+            section 
+            5
+          </p>
+        </div>
+        <hr
+          class="c10"
+          role="separator"
+        />
+      </div>
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        shade=
+        300
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c2"
+        role="separator"
+      >
+        <hr
+          class="c11"
+          role="separator"
+        />
+        <div
+          class="c4"
+          role="separator"
+        >
+          <p
+            class="c5"
+            role="contentinfo"
+          >
+            section 
+            6
+          </p>
+        </div>
+        <hr
+          class="c11"
+          role="separator"
+        />
+      </div>
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        shade=
+        200
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c2"
+        role="separator"
+      >
+        <hr
+          class="c12"
+          role="separator"
+        />
+        <div
+          class="c4"
+          role="separator"
+        >
+          <p
+            class="c5"
+            role="contentinfo"
+          >
+            section 
+            7
+          </p>
+        </div>
+        <hr
+          class="c12"
+          role="separator"
+        />
+      </div>
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        shade=
+        100
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c2"
+        role="separator"
+      >
+        <hr
+          class="c13"
+          role="separator"
+        />
+        <div
+          class="c4"
+          role="separator"
+        >
+          <p
+            class="c5"
+            role="contentinfo"
+          >
+            section 
+            8
+          </p>
+        </div>
+        <hr
+          class="c13"
+          role="separator"
+        />
+      </div>
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        shade=
+        50
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c2"
+        role="separator"
+      >
+        <hr
+          class="c14"
+          role="separator"
+        />
+        <div
+          class="c4"
+          role="separator"
+        >
+          <p
+            class="c5"
+            role="contentinfo"
+          >
+            section 
+            9
+          </p>
+        </div>
+        <hr
+          class="c14"
+          role="separator"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  margin: 1rem 0;
+}
+
+.c3 {
+  border-color: hsla(0,0%,9%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c6 {
+  border-color: hsla(0,0%,15%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c7 {
+  border-color: hsla(0,0%,25%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c8 {
+  border-color: hsla(0,0%,32%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c9 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c10 {
+  border-color: hsla(0,0%,64%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c11 {
+  border-color: hsla(0,0%,83%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c12 {
+  border-color: hsla(0,0%,90%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c13 {
+  border-color: hsla(0,0%,96%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c14 {
+  border-color: hsla(0,0%,98%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c4 {
+  padding: 0 8px;
+}
+
+.c0 {
+  display: block;
+  margin: 0;
+  font-size: 1.25rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
+}
+
+.c1 {
+  display: block;
+  margin: 0;
+  font-size: 0.875rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
+.c5 {
+  display: block;
+  margin: 0;
+  font-size: 0.75rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+}
+
 <div>
-    <p
+    <h6
       class="c0"
       role="contentinfo"
     >
-      thick density
-    </p>
-    <div
-      class="c1"
-      role="separator"
-    >
-      <hr
-        class="c2"
-        role="separator"
-      />
-      <hr
-        class="c2"
-        role="separator"
-      />
-    </div>
+      shade=
+      900
+    </h6>
     <p
-      class="c0"
+      class="c1"
       role="contentinfo"
     >
-      thin density
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
     </p>
     <div
-      class="c1"
+      class="c2"
       role="separator"
     >
       <hr
         class="c3"
         role="separator"
       />
+      <div
+        class="c4"
+        role="separator"
+      >
+        <p
+          class="c5"
+          role="contentinfo"
+        >
+          section 
+          0
+        </p>
+      </div>
       <hr
         class="c3"
         role="separator"
       />
     </div>
-    <p
+    <h6
       class="c0"
       role="contentinfo"
     >
-      medium density
+      shade=
+      800
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
     </p>
     <div
-      class="c1"
+      class="c2"
       role="separator"
     >
       <hr
-        class="c4"
+        class="c6"
         role="separator"
       />
-      <hr
+      <div
         class="c4"
+        role="separator"
+      >
+        <p
+          class="c5"
+          role="contentinfo"
+        >
+          section 
+          1
+        </p>
+      </div>
+      <hr
+        class="c6"
+        role="separator"
+      />
+    </div>
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      shade=
+      700
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c2"
+      role="separator"
+    >
+      <hr
+        class="c7"
+        role="separator"
+      />
+      <div
+        class="c4"
+        role="separator"
+      >
+        <p
+          class="c5"
+          role="contentinfo"
+        >
+          section 
+          2
+        </p>
+      </div>
+      <hr
+        class="c7"
+        role="separator"
+      />
+    </div>
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      shade=
+      600
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c2"
+      role="separator"
+    >
+      <hr
+        class="c8"
+        role="separator"
+      />
+      <div
+        class="c4"
+        role="separator"
+      >
+        <p
+          class="c5"
+          role="contentinfo"
+        >
+          section 
+          3
+        </p>
+      </div>
+      <hr
+        class="c8"
+        role="separator"
+      />
+    </div>
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      shade=
+      500
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c2"
+      role="separator"
+    >
+      <hr
+        class="c9"
+        role="separator"
+      />
+      <div
+        class="c4"
+        role="separator"
+      >
+        <p
+          class="c5"
+          role="contentinfo"
+        >
+          section 
+          4
+        </p>
+      </div>
+      <hr
+        class="c9"
+        role="separator"
+      />
+    </div>
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      shade=
+      400
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c2"
+      role="separator"
+    >
+      <hr
+        class="c10"
+        role="separator"
+      />
+      <div
+        class="c4"
+        role="separator"
+      >
+        <p
+          class="c5"
+          role="contentinfo"
+        >
+          section 
+          5
+        </p>
+      </div>
+      <hr
+        class="c10"
+        role="separator"
+      />
+    </div>
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      shade=
+      300
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c2"
+      role="separator"
+    >
+      <hr
+        class="c11"
+        role="separator"
+      />
+      <div
+        class="c4"
+        role="separator"
+      >
+        <p
+          class="c5"
+          role="contentinfo"
+        >
+          section 
+          6
+        </p>
+      </div>
+      <hr
+        class="c11"
+        role="separator"
+      />
+    </div>
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      shade=
+      200
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c2"
+      role="separator"
+    >
+      <hr
+        class="c12"
+        role="separator"
+      />
+      <div
+        class="c4"
+        role="separator"
+      >
+        <p
+          class="c5"
+          role="contentinfo"
+        >
+          section 
+          7
+        </p>
+      </div>
+      <hr
+        class="c12"
+        role="separator"
+      />
+    </div>
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      shade=
+      100
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c2"
+      role="separator"
+    >
+      <hr
+        class="c13"
+        role="separator"
+      />
+      <div
+        class="c4"
+        role="separator"
+      >
+        <p
+          class="c5"
+          role="contentinfo"
+        >
+          section 
+          8
+        </p>
+      </div>
+      <hr
+        class="c13"
+        role="separator"
+      />
+    </div>
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      shade=
+      50
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c2"
+      role="separator"
+    >
+      <hr
+        class="c14"
+        role="separator"
+      />
+      <div
+        class="c4"
+        role="separator"
+      >
+        <p
+          class="c5"
+          role="contentinfo"
+        >
+          section 
+          9
+        </p>
+      </div>
+      <hr
+        class="c14"
         role="separator"
       />
     </div>
@@ -1016,10 +3453,10 @@ Object {
 }
 `;
 
-exports[`EnhancedDivider Shade 1`] = `
+exports[`EnhancedDivider Tones 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c1 {
+  "baseElement": .c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1040,196 +3477,7 @@ Object {
   margin: 1rem 0;
 }
 
-.c2 {
-  border-color: hsla(0,0%,15%,1);
-  border-width: 0px 0px thin;
-  border-style: solid;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-}
-
-.c0 {
-  display: block;
-  margin: 0;
-  font-size: 0.875rem;
-  color: hsla(210,40%,96%,1);
-  font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
-}
-
-<body>
-    <div>
-      <p
-        class="c0"
-        role="contentinfo"
-      >
-        800 shade
-      </p>
-      <div
-        class="c1"
-        role="separator"
-      >
-        <hr
-          class="c2"
-          role="separator"
-        />
-        <hr
-          class="c2"
-          role="separator"
-        />
-      </div>
-    </div>
-  </body>,
-  "container": .c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-align-content: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  margin: 1rem 0;
-}
-
-.c2 {
-  border-color: hsla(0,0%,15%,1);
-  border-width: 0px 0px thin;
-  border-style: solid;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-}
-
-.c0 {
-  display: block;
-  margin: 0;
-  font-size: 0.875rem;
-  color: hsla(210,40%,96%,1);
-  font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
-}
-
-<div>
-    <p
-      class="c0"
-      role="contentinfo"
-    >
-      800 shade
-    </p>
-    <div
-      class="c1"
-      role="separator"
-    >
-      <hr
-        class="c2"
-        role="separator"
-      />
-      <hr
-        class="c2"
-        role="separator"
-      />
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`EnhancedDivider Tone 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": .c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-align-content: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  margin: 1rem 0;
-}
-
-.c2 {
+.c3 {
   border-color: hsla(271,91%,65%,1);
   border-width: 0px 0px thin;
   border-style: solid;
@@ -1239,7 +3487,84 @@ Object {
   flex-grow: 1;
 }
 
+.c6 {
+  border-color: hsla(330,81%,60%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c8 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c10 {
+  border-color: hsla(217,91%,60%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c12 {
+  border-color: hsla(142,71%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c14 {
+  border-color: hsla(38,92%,50%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c16 {
+  border-color: hsla(0,84%,60%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c4 {
+  padding: 0 8px;
+}
+
 .c0 {
+  display: block;
+  margin: 0;
+  font-size: 1.25rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
+}
+
+.c1 {
   display: block;
   margin: 0;
   font-size: 0.875rem;
@@ -1252,30 +3577,382 @@ Object {
   line-height: 1.43;
 }
 
+.c5 {
+  display: block;
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+  color: hsla(271,81%,56%,1);
+}
+
+.c7 {
+  display: block;
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+  color: hsla(333,71%,51%,1);
+}
+
+.c9 {
+  display: block;
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+  color: hsla(0,0%,32%,1);
+}
+
+.c11 {
+  display: block;
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+  color: hsla(221,83%,53%,1);
+}
+
+.c13 {
+  display: block;
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+  color: hsla(142,76%,36%,1);
+}
+
+.c15 {
+  display: block;
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+  color: hsla(32,95%,44%,1);
+}
+
+.c17 {
+  display: block;
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+  color: hsla(0,72%,51%,1);
+}
+
 <body>
     <div>
-      <p
+      <h6
         class="c0"
         role="contentinfo"
       >
-        color major
+        tone=
+        major
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
       </p>
       <div
-        class="c1"
+        class="c2"
         role="separator"
       >
         <hr
-          class="c2"
+          class="c3"
           role="separator"
         />
+        <div
+          class="c4"
+          role="separator"
+        >
+          <p
+            class="c5"
+            role="contentinfo"
+          >
+            section 
+            0
+          </p>
+        </div>
         <hr
-          class="c2"
+          class="c3"
+          role="separator"
+        />
+      </div>
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        tone=
+        minor
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c2"
+        role="separator"
+      >
+        <hr
+          class="c6"
+          role="separator"
+        />
+        <div
+          class="c4"
+          role="separator"
+        >
+          <p
+            class="c7"
+            role="contentinfo"
+          >
+            section 
+            1
+          </p>
+        </div>
+        <hr
+          class="c6"
+          role="separator"
+        />
+      </div>
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        tone=
+        neutral
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c2"
+        role="separator"
+      >
+        <hr
+          class="c8"
+          role="separator"
+        />
+        <div
+          class="c4"
+          role="separator"
+        >
+          <p
+            class="c9"
+            role="contentinfo"
+          >
+            section 
+            2
+          </p>
+        </div>
+        <hr
+          class="c8"
+          role="separator"
+        />
+      </div>
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        tone=
+        info
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c2"
+        role="separator"
+      >
+        <hr
+          class="c10"
+          role="separator"
+        />
+        <div
+          class="c4"
+          role="separator"
+        >
+          <p
+            class="c11"
+            role="contentinfo"
+          >
+            section 
+            3
+          </p>
+        </div>
+        <hr
+          class="c10"
+          role="separator"
+        />
+      </div>
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        tone=
+        success
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c2"
+        role="separator"
+      >
+        <hr
+          class="c12"
+          role="separator"
+        />
+        <div
+          class="c4"
+          role="separator"
+        >
+          <p
+            class="c13"
+            role="contentinfo"
+          >
+            section 
+            4
+          </p>
+        </div>
+        <hr
+          class="c12"
+          role="separator"
+        />
+      </div>
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        tone=
+        warning
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c2"
+        role="separator"
+      >
+        <hr
+          class="c14"
+          role="separator"
+        />
+        <div
+          class="c4"
+          role="separator"
+        >
+          <p
+            class="c15"
+            role="contentinfo"
+          >
+            section 
+            5
+          </p>
+        </div>
+        <hr
+          class="c14"
+          role="separator"
+        />
+      </div>
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        tone=
+        danger
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c2"
+        role="separator"
+      >
+        <hr
+          class="c16"
+          role="separator"
+        />
+        <div
+          class="c4"
+          role="separator"
+        >
+          <p
+            class="c17"
+            role="contentinfo"
+          >
+            section 
+            6
+          </p>
+        </div>
+        <hr
+          class="c16"
           role="separator"
         />
       </div>
     </div>
   </body>,
-  "container": .c1 {
+  "container": .c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1296,7 +3973,7 @@ Object {
   margin: 1rem 0;
 }
 
-.c2 {
+.c3 {
   border-color: hsla(271,91%,65%,1);
   border-width: 0px 0px thin;
   border-style: solid;
@@ -1306,7 +3983,84 @@ Object {
   flex-grow: 1;
 }
 
+.c6 {
+  border-color: hsla(330,81%,60%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c8 {
+  border-color: hsla(0,0%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c10 {
+  border-color: hsla(217,91%,60%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c12 {
+  border-color: hsla(142,71%,45%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c14 {
+  border-color: hsla(38,92%,50%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c16 {
+  border-color: hsla(0,84%,60%,1);
+  border-width: 0px 0px thin;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c4 {
+  padding: 0 8px;
+}
+
 .c0 {
+  display: block;
+  margin: 0;
+  font-size: 1.25rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
+}
+
+.c1 {
   display: block;
   margin: 0;
   font-size: 0.875rem;
@@ -1319,23 +4073,375 @@ Object {
   line-height: 1.43;
 }
 
+.c5 {
+  display: block;
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+  color: hsla(271,81%,56%,1);
+}
+
+.c7 {
+  display: block;
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+  color: hsla(333,71%,51%,1);
+}
+
+.c9 {
+  display: block;
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+  color: hsla(0,0%,32%,1);
+}
+
+.c11 {
+  display: block;
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+  color: hsla(221,83%,53%,1);
+}
+
+.c13 {
+  display: block;
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+  color: hsla(142,76%,36%,1);
+}
+
+.c15 {
+  display: block;
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+  color: hsla(32,95%,44%,1);
+}
+
+.c17 {
+  display: block;
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+  color: hsla(0,72%,51%,1);
+}
+
 <div>
-    <p
+    <h6
       class="c0"
       role="contentinfo"
     >
-      color major
+      tone=
+      major
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
     </p>
     <div
-      class="c1"
+      class="c2"
       role="separator"
     >
       <hr
-        class="c2"
+        class="c3"
         role="separator"
       />
+      <div
+        class="c4"
+        role="separator"
+      >
+        <p
+          class="c5"
+          role="contentinfo"
+        >
+          section 
+          0
+        </p>
+      </div>
       <hr
-        class="c2"
+        class="c3"
+        role="separator"
+      />
+    </div>
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      tone=
+      minor
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c2"
+      role="separator"
+    >
+      <hr
+        class="c6"
+        role="separator"
+      />
+      <div
+        class="c4"
+        role="separator"
+      >
+        <p
+          class="c7"
+          role="contentinfo"
+        >
+          section 
+          1
+        </p>
+      </div>
+      <hr
+        class="c6"
+        role="separator"
+      />
+    </div>
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      tone=
+      neutral
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c2"
+      role="separator"
+    >
+      <hr
+        class="c8"
+        role="separator"
+      />
+      <div
+        class="c4"
+        role="separator"
+      >
+        <p
+          class="c9"
+          role="contentinfo"
+        >
+          section 
+          2
+        </p>
+      </div>
+      <hr
+        class="c8"
+        role="separator"
+      />
+    </div>
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      tone=
+      info
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c2"
+      role="separator"
+    >
+      <hr
+        class="c10"
+        role="separator"
+      />
+      <div
+        class="c4"
+        role="separator"
+      >
+        <p
+          class="c11"
+          role="contentinfo"
+        >
+          section 
+          3
+        </p>
+      </div>
+      <hr
+        class="c10"
+        role="separator"
+      />
+    </div>
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      tone=
+      success
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c2"
+      role="separator"
+    >
+      <hr
+        class="c12"
+        role="separator"
+      />
+      <div
+        class="c4"
+        role="separator"
+      >
+        <p
+          class="c13"
+          role="contentinfo"
+        >
+          section 
+          4
+        </p>
+      </div>
+      <hr
+        class="c12"
+        role="separator"
+      />
+    </div>
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      tone=
+      warning
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c2"
+      role="separator"
+    >
+      <hr
+        class="c14"
+        role="separator"
+      />
+      <div
+        class="c4"
+        role="separator"
+      >
+        <p
+          class="c15"
+          role="contentinfo"
+        >
+          section 
+          5
+        </p>
+      </div>
+      <hr
+        class="c14"
+        role="separator"
+      />
+    </div>
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      tone=
+      danger
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c2"
+      role="separator"
+    >
+      <hr
+        class="c16"
+        role="separator"
+      />
+      <div
+        class="c4"
+        role="separator"
+      >
+        <p
+          class="c17"
+          role="contentinfo"
+        >
+          section 
+          6
+        </p>
+      </div>
+      <hr
+        class="c16"
         role="separator"
       />
     </div>
@@ -1397,7 +4503,7 @@ Object {
 exports[`EnhancedDivider Variants 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c1 {
+  "baseElement": .c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1418,7 +4524,7 @@ Object {
   margin: 1rem 0;
 }
 
-.c2 {
+.c3 {
   border-color: hsla(0,0%,45%,1);
   border-width: 0px 0px thin;
   border-style: dashed;
@@ -1428,7 +4534,7 @@ Object {
   flex-grow: 1;
 }
 
-.c3 {
+.c6 {
   border-color: hsla(0,0%,45%,1);
   border-width: 0px 0px thin;
   border-style: dotted;
@@ -1438,7 +4544,7 @@ Object {
   flex-grow: 1;
 }
 
-.c4 {
+.c7 {
   border-color: hsla(0,0%,45%,1);
   border-width: 0px 0px thin;
   border-style: double;
@@ -1448,7 +4554,7 @@ Object {
   flex-grow: 1;
 }
 
-.c5 {
+.c8 {
   border-color: hsla(0,0%,45%,1);
   border-width: 0px 0px thin;
   border-style: groove;
@@ -1458,7 +4564,7 @@ Object {
   flex-grow: 1;
 }
 
-.c6 {
+.c9 {
   border-color: hsla(0,0%,45%,1);
   border-width: 0px 0px thin;
   border-style: hidden;
@@ -1468,7 +4574,7 @@ Object {
   flex-grow: 1;
 }
 
-.c7 {
+.c10 {
   border-color: hsla(0,0%,45%,1);
   border-width: 0px 0px thin;
   border-style: ridge;
@@ -1478,7 +4584,7 @@ Object {
   flex-grow: 1;
 }
 
-.c8 {
+.c11 {
   border-color: hsla(0,0%,45%,1);
   border-width: 0px 0px thin;
   border-style: solid;
@@ -1488,7 +4594,24 @@ Object {
   flex-grow: 1;
 }
 
+.c4 {
+  padding: 0 8px;
+}
+
 .c0 {
+  display: block;
+  margin: 0;
+  font-size: 1.25rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
+}
+
+.c1 {
   display: block;
   margin: 0;
   font-size: 0.875rem;
@@ -1499,216 +4622,306 @@ Object {
   -ms-letter-spacing: 0.01071em;
   letter-spacing: 0.01071em;
   line-height: 1.43;
+}
+
+.c5 {
+  display: block;
+  margin: 0;
+  font-size: 0.75rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
 }
 
 <body>
     <div>
-      <div>
-        <p
-          class="c0"
-          role="contentinfo"
-        >
-          dashed
-           style
-        </p>
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        variant=
+        dashed
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c2"
+        role="separator"
+      >
+        <hr
+          class="c3"
+          role="separator"
+        />
         <div
-          class="c1"
+          class="c4"
           role="separator"
         >
-          <hr
-            class="c2"
-            role="separator"
-          />
-          <hr
-            class="c2"
-            role="separator"
-          />
-        </div>
-        <p
-          class="c0"
-          role="contentinfo"
-        >
-          dashed
-           style
-        </p>
-      </div>
-      <div>
-        <p
-          class="c0"
-          role="contentinfo"
-        >
-          dotted
-           style
-        </p>
-        <div
-          class="c1"
-          role="separator"
-        >
-          <hr
-            class="c3"
-            role="separator"
-          />
-          <hr
-            class="c3"
-            role="separator"
-          />
-        </div>
-        <p
-          class="c0"
-          role="contentinfo"
-        >
-          dotted
-           style
-        </p>
-      </div>
-      <div>
-        <p
-          class="c0"
-          role="contentinfo"
-        >
-          double
-           style
-        </p>
-        <div
-          class="c1"
-          role="separator"
-        >
-          <hr
-            class="c4"
-            role="separator"
-          />
-          <hr
-            class="c4"
-            role="separator"
-          />
-        </div>
-        <p
-          class="c0"
-          role="contentinfo"
-        >
-          double
-           style
-        </p>
-      </div>
-      <div>
-        <p
-          class="c0"
-          role="contentinfo"
-        >
-          groove
-           style
-        </p>
-        <div
-          class="c1"
-          role="separator"
-        >
-          <hr
+          <p
             class="c5"
-            role="separator"
-          />
-          <hr
+            role="contentinfo"
+          >
+            section 
+            0
+          </p>
+        </div>
+        <hr
+          class="c3"
+          role="separator"
+        />
+      </div>
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        variant=
+        dotted
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c2"
+        role="separator"
+      >
+        <hr
+          class="c6"
+          role="separator"
+        />
+        <div
+          class="c4"
+          role="separator"
+        >
+          <p
             class="c5"
-            role="separator"
-          />
+            role="contentinfo"
+          >
+            section 
+            1
+          </p>
         </div>
-        <p
-          class="c0"
-          role="contentinfo"
-        >
-          groove
-           style
-        </p>
+        <hr
+          class="c6"
+          role="separator"
+        />
       </div>
-      <div>
-        <p
-          class="c0"
-          role="contentinfo"
-        >
-          hidden
-           style
-        </p>
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        variant=
+        double
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c2"
+        role="separator"
+      >
+        <hr
+          class="c7"
+          role="separator"
+        />
         <div
-          class="c1"
+          class="c4"
           role="separator"
         >
-          <hr
-            class="c6"
-            role="separator"
-          />
-          <hr
-            class="c6"
-            role="separator"
-          />
+          <p
+            class="c5"
+            role="contentinfo"
+          >
+            section 
+            2
+          </p>
         </div>
-        <p
-          class="c0"
-          role="contentinfo"
-        >
-          hidden
-           style
-        </p>
+        <hr
+          class="c7"
+          role="separator"
+        />
       </div>
-      <div>
-        <p
-          class="c0"
-          role="contentinfo"
-        >
-          ridge
-           style
-        </p>
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        variant=
+        groove
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c2"
+        role="separator"
+      >
+        <hr
+          class="c8"
+          role="separator"
+        />
         <div
-          class="c1"
+          class="c4"
           role="separator"
         >
-          <hr
-            class="c7"
-            role="separator"
-          />
-          <hr
-            class="c7"
-            role="separator"
-          />
+          <p
+            class="c5"
+            role="contentinfo"
+          >
+            section 
+            3
+          </p>
         </div>
-        <p
-          class="c0"
-          role="contentinfo"
-        >
-          ridge
-           style
-        </p>
+        <hr
+          class="c8"
+          role="separator"
+        />
       </div>
-      <div>
-        <p
-          class="c0"
-          role="contentinfo"
-        >
-          solid
-           style
-        </p>
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        variant=
+        hidden
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c2"
+        role="separator"
+      >
+        <hr
+          class="c9"
+          role="separator"
+        />
         <div
-          class="c1"
+          class="c4"
           role="separator"
         >
-          <hr
-            class="c8"
-            role="separator"
-          />
-          <hr
-            class="c8"
-            role="separator"
-          />
+          <p
+            class="c5"
+            role="contentinfo"
+          >
+            section 
+            4
+          </p>
         </div>
-        <p
-          class="c0"
-          role="contentinfo"
+        <hr
+          class="c9"
+          role="separator"
+        />
+      </div>
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        variant=
+        ridge
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c2"
+        role="separator"
+      >
+        <hr
+          class="c10"
+          role="separator"
+        />
+        <div
+          class="c4"
+          role="separator"
         >
-          solid
-           style
-        </p>
+          <p
+            class="c5"
+            role="contentinfo"
+          >
+            section 
+            5
+          </p>
+        </div>
+        <hr
+          class="c10"
+          role="separator"
+        />
+      </div>
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        variant=
+        solid
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <div
+        class="c2"
+        role="separator"
+      >
+        <hr
+          class="c11"
+          role="separator"
+        />
+        <div
+          class="c4"
+          role="separator"
+        >
+          <p
+            class="c5"
+            role="contentinfo"
+          >
+            section 
+            6
+          </p>
+        </div>
+        <hr
+          class="c11"
+          role="separator"
+        />
       </div>
     </div>
   </body>,
-  "container": .c1 {
+  "container": .c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1729,7 +4942,7 @@ Object {
   margin: 1rem 0;
 }
 
-.c2 {
+.c3 {
   border-color: hsla(0,0%,45%,1);
   border-width: 0px 0px thin;
   border-style: dashed;
@@ -1739,7 +4952,7 @@ Object {
   flex-grow: 1;
 }
 
-.c3 {
+.c6 {
   border-color: hsla(0,0%,45%,1);
   border-width: 0px 0px thin;
   border-style: dotted;
@@ -1749,7 +4962,7 @@ Object {
   flex-grow: 1;
 }
 
-.c4 {
+.c7 {
   border-color: hsla(0,0%,45%,1);
   border-width: 0px 0px thin;
   border-style: double;
@@ -1759,7 +4972,7 @@ Object {
   flex-grow: 1;
 }
 
-.c5 {
+.c8 {
   border-color: hsla(0,0%,45%,1);
   border-width: 0px 0px thin;
   border-style: groove;
@@ -1769,7 +4982,7 @@ Object {
   flex-grow: 1;
 }
 
-.c6 {
+.c9 {
   border-color: hsla(0,0%,45%,1);
   border-width: 0px 0px thin;
   border-style: hidden;
@@ -1779,7 +4992,7 @@ Object {
   flex-grow: 1;
 }
 
-.c7 {
+.c10 {
   border-color: hsla(0,0%,45%,1);
   border-width: 0px 0px thin;
   border-style: ridge;
@@ -1789,7 +5002,7 @@ Object {
   flex-grow: 1;
 }
 
-.c8 {
+.c11 {
   border-color: hsla(0,0%,45%,1);
   border-width: 0px 0px thin;
   border-style: solid;
@@ -1799,7 +5012,24 @@ Object {
   flex-grow: 1;
 }
 
+.c4 {
+  padding: 0 8px;
+}
+
 .c0 {
+  display: block;
+  margin: 0;
+  font-size: 1.25rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
+}
+
+.c1 {
   display: block;
   margin: 0;
   font-size: 0.875rem;
@@ -1812,209 +5042,299 @@ Object {
   line-height: 1.43;
 }
 
+.c5 {
+  display: block;
+  margin: 0;
+  font-size: 0.75rem;
+  color: hsla(210,40%,96%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+}
+
 <div>
-    <div>
-      <p
-        class="c0"
-        role="contentinfo"
-      >
-        dashed
-         style
-      </p>
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      variant=
+      dashed
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c2"
+      role="separator"
+    >
+      <hr
+        class="c3"
+        role="separator"
+      />
       <div
-        class="c1"
+        class="c4"
         role="separator"
       >
-        <hr
-          class="c2"
-          role="separator"
-        />
-        <hr
-          class="c2"
-          role="separator"
-        />
-      </div>
-      <p
-        class="c0"
-        role="contentinfo"
-      >
-        dashed
-         style
-      </p>
-    </div>
-    <div>
-      <p
-        class="c0"
-        role="contentinfo"
-      >
-        dotted
-         style
-      </p>
-      <div
-        class="c1"
-        role="separator"
-      >
-        <hr
-          class="c3"
-          role="separator"
-        />
-        <hr
-          class="c3"
-          role="separator"
-        />
-      </div>
-      <p
-        class="c0"
-        role="contentinfo"
-      >
-        dotted
-         style
-      </p>
-    </div>
-    <div>
-      <p
-        class="c0"
-        role="contentinfo"
-      >
-        double
-         style
-      </p>
-      <div
-        class="c1"
-        role="separator"
-      >
-        <hr
-          class="c4"
-          role="separator"
-        />
-        <hr
-          class="c4"
-          role="separator"
-        />
-      </div>
-      <p
-        class="c0"
-        role="contentinfo"
-      >
-        double
-         style
-      </p>
-    </div>
-    <div>
-      <p
-        class="c0"
-        role="contentinfo"
-      >
-        groove
-         style
-      </p>
-      <div
-        class="c1"
-        role="separator"
-      >
-        <hr
+        <p
           class="c5"
-          role="separator"
-        />
-        <hr
+          role="contentinfo"
+        >
+          section 
+          0
+        </p>
+      </div>
+      <hr
+        class="c3"
+        role="separator"
+      />
+    </div>
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      variant=
+      dotted
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c2"
+      role="separator"
+    >
+      <hr
+        class="c6"
+        role="separator"
+      />
+      <div
+        class="c4"
+        role="separator"
+      >
+        <p
           class="c5"
-          role="separator"
-        />
+          role="contentinfo"
+        >
+          section 
+          1
+        </p>
       </div>
-      <p
-        class="c0"
-        role="contentinfo"
-      >
-        groove
-         style
-      </p>
+      <hr
+        class="c6"
+        role="separator"
+      />
     </div>
-    <div>
-      <p
-        class="c0"
-        role="contentinfo"
-      >
-        hidden
-         style
-      </p>
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      variant=
+      double
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c2"
+      role="separator"
+    >
+      <hr
+        class="c7"
+        role="separator"
+      />
       <div
-        class="c1"
+        class="c4"
         role="separator"
       >
-        <hr
-          class="c6"
-          role="separator"
-        />
-        <hr
-          class="c6"
-          role="separator"
-        />
+        <p
+          class="c5"
+          role="contentinfo"
+        >
+          section 
+          2
+        </p>
       </div>
-      <p
-        class="c0"
-        role="contentinfo"
-      >
-        hidden
-         style
-      </p>
+      <hr
+        class="c7"
+        role="separator"
+      />
     </div>
-    <div>
-      <p
-        class="c0"
-        role="contentinfo"
-      >
-        ridge
-         style
-      </p>
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      variant=
+      groove
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c2"
+      role="separator"
+    >
+      <hr
+        class="c8"
+        role="separator"
+      />
       <div
-        class="c1"
+        class="c4"
         role="separator"
       >
-        <hr
-          class="c7"
-          role="separator"
-        />
-        <hr
-          class="c7"
-          role="separator"
-        />
+        <p
+          class="c5"
+          role="contentinfo"
+        >
+          section 
+          3
+        </p>
       </div>
-      <p
-        class="c0"
-        role="contentinfo"
-      >
-        ridge
-         style
-      </p>
+      <hr
+        class="c8"
+        role="separator"
+      />
     </div>
-    <div>
-      <p
-        class="c0"
-        role="contentinfo"
-      >
-        solid
-         style
-      </p>
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      variant=
+      hidden
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c2"
+      role="separator"
+    >
+      <hr
+        class="c9"
+        role="separator"
+      />
       <div
-        class="c1"
+        class="c4"
         role="separator"
       >
-        <hr
-          class="c8"
-          role="separator"
-        />
-        <hr
-          class="c8"
-          role="separator"
-        />
+        <p
+          class="c5"
+          role="contentinfo"
+        >
+          section 
+          4
+        </p>
       </div>
-      <p
-        class="c0"
-        role="contentinfo"
+      <hr
+        class="c9"
+        role="separator"
+      />
+    </div>
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      variant=
+      ridge
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c2"
+      role="separator"
+    >
+      <hr
+        class="c10"
+        role="separator"
+      />
+      <div
+        class="c4"
+        role="separator"
       >
-        solid
-         style
-      </p>
+        <p
+          class="c5"
+          role="contentinfo"
+        >
+          section 
+          5
+        </p>
+      </div>
+      <hr
+        class="c10"
+        role="separator"
+      />
+    </div>
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      variant=
+      solid
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <div
+      class="c2"
+      role="separator"
+    >
+      <hr
+        class="c11"
+        role="separator"
+      />
+      <div
+        class="c4"
+        role="separator"
+      >
+        <p
+          class="c5"
+          role="contentinfo"
+        >
+          section 
+          6
+        </p>
+      </div>
+      <hr
+        class="c11"
+        role="separator"
+      />
     </div>
   </div>,
   "debug": [Function],

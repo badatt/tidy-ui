@@ -2,87 +2,120 @@ import { HTMLAttributes } from 'react';
 import { IBaseProps, TCreateArrayWithLengthX, TNumericRange } from '@tidy-ui/types';
 
 /**
+ * css `flex-direction`
+ */
+export enum FlexDirection {
+  'row',
+  'row-reverse',
+  'column',
+  'column-reverse',
+}
+
+/**
  * `flex-direction` props
  */
-export type TFlexDirection = 'row' | 'row-reverse' | 'column' | 'column-reverse';
+export type TFlexDirection = keyof typeof FlexDirection;
+
+/**
+ * css `align-content`
+ */
+export enum AlignContent {
+  'normal',
+  'baseline',
+  'first baseline',
+  'last baseline',
+  'space-between',
+  'space-around',
+  'space-evenly',
+  'stretch',
+  'unsafe',
+  'safe',
+  'center',
+  'start',
+  'end',
+  'flex-start',
+  'flex-end',
+}
 
 /**
  * `align-content` props
  */
-export type TAlignContent =
-  | 'normal'
-  | 'baseline'
-  | 'first baseline'
-  | 'last baseline'
-  | 'space-between'
-  | 'space-around'
-  | 'space-evenly'
-  | 'stretch'
-  | 'unsafe'
-  | 'safe'
-  | 'center'
-  | 'start'
-  | 'end'
-  | 'flex-start'
-  | 'flex-end';
+export type TAlignContent = keyof typeof AlignContent;
+
+/**
+ * css `align-items`
+ */
+export enum AlignItems {
+  'normal',
+  'stretch',
+  'baseline',
+  'first baseline',
+  'last baseline',
+  'safe',
+  'unsafe',
+  'flex-start',
+  'flex-end',
+  'center',
+  'start',
+  'end',
+  'self-start',
+  'self-end',
+}
 
 /**
  * `align-items` props
  */
-export type TAlignItems =
-  | 'normal'
-  | 'stretch'
-  | 'baseline'
-  | 'first baseline'
-  | 'last baseline'
-  | 'safe'
-  | 'unsafe'
-  | 'flex-start'
-  | 'flex-end'
-  | 'center'
-  | 'start'
-  | 'end'
-  | 'self-start'
-  | 'self-end';
+export type TAlignItems = keyof typeof AlignItems;
+
+/**
+ * css `align-self`
+ */
+export enum AlignSelf {
+  'auto',
+  'normal',
+  'stretch',
+  'baseline',
+  'first baseline',
+  'last baseline',
+  'unsafe',
+  'safe',
+  'center',
+  'start',
+  'end',
+  'self-start',
+  'self-end',
+  'flex-start',
+  'flex-end',
+}
 
 /**
  * `align-self` props
  */
-export type TAlignSelf =
-  | 'auto'
-  | 'normal'
-  | 'stretch'
-  | 'baseline'
-  | 'first baseline'
-  | 'last baseline'
-  | 'unsafe'
-  | 'safe'
-  | 'center'
-  | 'start'
-  | 'end'
-  | 'self-start'
-  | 'self-end'
-  | 'flex-start'
-  | 'flex-end';
+export type TAlignSelf = keyof typeof AlignSelf;
 
+/**
+ * css `justify-content`
+ */
+export enum JustifyContent {
+  'center',
+  'start',
+  'end',
+  'flex-start',
+  'flex-end',
+  'left',
+  'right',
+  'normal',
+  'space-between',
+  'space-around',
+  'space-evenly',
+  'stretch',
+  'safe',
+  'unsafe',
+}
 /**
  * `justify-content` props
  */
-export type TJustifyContent =
-  | 'center'
-  | 'start'
-  | 'end'
-  | 'flex-start'
-  | 'flex-end'
-  | 'left'
-  | 'right'
-  | 'normal'
-  | 'space-between'
-  | 'space-around'
-  | 'space-evenly'
-  | 'stretch'
-  | 'safe'
-  | 'unsafe';
+export type TJustifyContent = keyof typeof JustifyContent;
 
 /**
  * FlexBox props
