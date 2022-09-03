@@ -8,7 +8,7 @@ import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidDark, orchidLight } from '@tidy-ui/commons';
 import { Divider } from '../src';
-import { Text } from '@tidy-ui/presentation';
+import { Text } from '@tidy-ui/text';
 import { TVariant } from '../src/types';
 
 describe('Divider', () => {

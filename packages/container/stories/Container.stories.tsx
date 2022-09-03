@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { color, css, hsla, Icon, styled } from '@tidy-ui/commons';
 import { Container } from '../src';
 import { IContainerProps } from '../src/types';
-import { Button, ButtonGroup } from '@tidy-ui/presentation';
+import { Button, ButtonGroup } from '@tidy-ui/button';
 import { TScreen } from '@tidy-ui/types';
 
 export default {

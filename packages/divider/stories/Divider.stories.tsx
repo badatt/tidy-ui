@@ -1,6 +1,6 @@
 import React from 'react';
 import { styled } from '@tidy-ui/commons';
-import { Tag, Text } from '@tidy-ui/presentation';
+import { Text } from '@tidy-ui/text';
 import { Divider } from '../src';
 
 export default {
