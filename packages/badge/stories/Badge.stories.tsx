@@ -1,7 +1,7 @@
 import React from 'react';
 import { Icon } from '@tidy-ui/commons';
 import { styled } from '@tidy-ui/commons';
-import { Tone, TTone } from '@tidy-ui/types';
+import { Tone } from '@tidy-ui/types';
 import { Badge } from '../src';
 
 export default {
@@ -28,11 +28,13 @@ export const basic = () => (
 export const tones = () => {
   return (
     <Container>
-      {Object.values(Tone).map((t, i) => (
-        <Badge data={(i + 1) * 10} tone={t as TTone} key={i}>
-          <Icon ele={<Icon.Dangerous />} />
-        </Badge>
-      ))}
+      {Object.values(Tone)
+        .filter((i) => !isNaN(Number(i)))
+        .map((t, i) => (
+          <Badge data={(i + 1) * 10} tone={Tone[t]} key={i}>
+            <Icon ele={<Icon.Dangerous />} />
+          </Badge>
+        ))}
     </Container>
   );
 };
@@ -40,11 +42,13 @@ export const tones = () => {
 export const outlined = () => {
   return (
     <Container>
-      {Object.values(Tone).map((t, i) => (
-        <Badge data={(i + 1) * 10} tone={t as TTone} key={i} outlined>
-          <Icon ele={<Icon.Dangerous />} />
-        </Badge>
-      ))}
+      {Object.values(Tone)
+        .filter((i) => !isNaN(Number(i)))
+        .map((t, i) => (
+          <Badge data={(i + 1) * 10} tone={Tone[t]} key={i} outlined>
+            <Icon ele={<Icon.Dangerous />} />
+          </Badge>
+        ))}
     </Container>
   );
 };

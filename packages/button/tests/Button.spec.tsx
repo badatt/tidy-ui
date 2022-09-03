@@ -96,11 +96,13 @@ describe('Render Button', () => {
   it('Button with all color variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        {Object.values(Tone).map((v, i) => (
-          <Button tone={v} key={i}>
-            {v}
-          </Button>
-        ))}
+        {Object.values(Tone)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v, i) => (
+            <Button tone={Tone[v]} key={i}>
+              {Tone[v]}
+            </Button>
+          ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -109,11 +111,13 @@ describe('Render Button', () => {
   it('Button with all size variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        {Object.values(Size).map((v, i) => (
-          <Button size={v} key={i}>
-            size-{v}
-          </Button>
-        ))}
+        {Object.values(Size)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v, i) => (
+            <Button size={Size[v]} key={i}>
+              size-{Size[v]}
+            </Button>
+          ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -122,11 +126,13 @@ describe('Render Button', () => {
   it('Button with all type variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        {Object.values(Variant).map((v, i) => (
-          <Button variant={v} key={i}>
-            {v}
-          </Button>
-        ))}
+        {Object.values(Variant)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v, i) => (
+            <Button variant={Variant[v]} key={i}>
+              {Variant[v]}
+            </Button>
+          ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -146,11 +152,13 @@ describe('Render Button', () => {
   it('Button with all type variants in dark mode', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        {Object.values(Variant).map((v, i) => (
-          <Button variant={v} key={i}>
-            {v}
-          </Button>
-        ))}
+        {Object.values(Variant)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v, i) => (
+            <Button variant={Variant[v]} key={i}>
+              {Variant[v]}
+            </Button>
+          ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();

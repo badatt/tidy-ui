@@ -2,14 +2,50 @@ import { HTMLAttributes } from 'react';
 import { IBaseProps, TShade, TTone } from '@tidy-ui/types';
 
 /**
+ * Variants
+ */
+export enum Variant {
+  'dashed',
+  'dotted',
+  'double',
+  'groove',
+  'hidden',
+  'ridge',
+  'solid',
+}
+
+/**
  * Divider style props
  */
-export type TVariant = 'dashed' | 'dotted' | 'double' | 'groove' | 'hidden' | 'ridge' | 'solid';
+export type TVariant = keyof typeof Variant;
+
+/**
+ * Density
+ */
+export enum Density {
+  'thin',
+  'medium',
+  'thick',
+}
 
 /**
  * Divider density props
  */
-export type TDensity = 'thin' | 'medium' | 'thick';
+export type TDensity = keyof typeof Density;
+
+/**
+ * Justify
+ */
+export enum Position {
+  'center',
+  'start',
+  'end',
+}
+
+/**
+ * Justify props
+ */
+export type TPosition = keyof typeof Position;
 
 /**
  * Divider props
@@ -20,7 +56,7 @@ export interface IDividerProps extends IBaseProps, HTMLAttributes<HTMLHRElement>
    *
    * @default 'center'
    */
-  align?: 'center' | 'start' | 'end';
+  align?: TPosition;
   /**
    * Thickness of the divider
    *
@@ -81,7 +117,7 @@ export interface IEnhancedDividerProps extends IBaseProps, HTMLAttributes<HTMLDi
    *
    * @default 'center'
    */
-  justify?: 'center' | 'start' | 'end';
+  justify?: TPosition;
 
   /**
    * Margins

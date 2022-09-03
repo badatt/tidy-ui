@@ -135,23 +135,27 @@ describe('Card', () => {
   it('Card with accent variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        {Object.values(Tone).map((v, i) => (
-          <Card accent={v} key={i}>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus culpa odit excepturi iure accusamus? Ullam
-            quia, quasi dignissimos expedita laudantium perferendis consectetur animi error adipisci, dolore ea
-            voluptatem necessitatibus eligendi?
-          </Card>
-        ))}
-        {Object.values(Tone).map((v, i) => (
-          <Card.Main accent={v} key={i} accentPosition="left">
-            <Card.Header>Lorem ipsum dolor sit.</Card.Header>
-            <Card.Body>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptatibus dolorum! Quas, natus! Est,
-              neque deserunt consequatur voluptatum dolores quae! Error explicabo omnis odio molestias.
-            </Card.Body>
-            <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
-          </Card.Main>
-        ))}
+        {Object.values(Tone)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v, i) => (
+            <Card accent={Tone[v]} key={i}>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus culpa odit excepturi iure accusamus? Ullam
+              quia, quasi dignissimos expedita laudantium perferendis consectetur animi error adipisci, dolore ea
+              voluptatem necessitatibus eligendi?
+            </Card>
+          ))}
+        {Object.values(Tone)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v, i) => (
+            <Card.Main accent={Tone[v]} key={i} accentPosition="left">
+              <Card.Header>Lorem ipsum dolor sit.</Card.Header>
+              <Card.Body>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptatibus dolorum! Quas, natus! Est,
+                neque deserunt consequatur voluptatum dolores quae! Error explicabo omnis odio molestias.
+              </Card.Body>
+              <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
+            </Card.Main>
+          ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();

@@ -9,7 +9,7 @@ import 'jest-styled-components';
 import { Icon } from '@tidy-ui/commons';
 import { orchidDark, orchidLight } from '@tidy-ui/commons';
 import { Badge } from '../src';
-import { Tone, TTone } from '@tidy-ui/types';
+import { Tone } from '@tidy-ui/types';
 
 describe('Badge', () => {
   it('Basic render', () => {
@@ -35,11 +35,13 @@ describe('Badge', () => {
   it('Badges with all color variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        {Object.values(Tone).map((t, i) => (
-          <Badge data={(i + 1) * 10} tone={t as TTone} key={i}>
-            <Icon ele={<Icon.Dangerous />} />
-          </Badge>
-        ))}
+        {Object.values(Tone)
+          .filter((i) => !isNaN(Number(i)))
+          .map((t, i) => (
+            <Badge data={(i + 1) * 10} tone={Tone[t]} key={i}>
+              <Icon ele={<Icon.Dangerous />} />
+            </Badge>
+          ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -47,11 +49,13 @@ describe('Badge', () => {
   it('Badges with all outlined variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        {Object.values(Tone).map((t, i) => (
-          <Badge data={(i + 1) * 10} tone={t as TTone} key={i} outlined>
-            <Icon ele={<Icon.Dangerous />} />
-          </Badge>
-        ))}
+        {Object.values(Tone)
+          .filter((i) => !isNaN(Number(i)))
+          .map((t, i) => (
+            <Badge data={(i + 1) * 10} tone={Tone[t]} key={i} outlined>
+              <Icon ele={<Icon.Dangerous />} />
+            </Badge>
+          ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -59,11 +63,13 @@ describe('Badge', () => {
   it('Badges in dark mode with all outlined variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        {Object.values(Tone).map((t, i) => (
-          <Badge data={(i + 1) * 10} tone={t as TTone} key={i} outlined>
-            <Icon ele={<Icon.Dangerous />} />
-          </Badge>
-        ))}
+        {Object.values(Tone)
+          .filter((i) => !isNaN(Number(i)))
+          .map((t, i) => (
+            <Badge data={(i + 1) * 10} tone={Tone[t]} key={i} outlined>
+              <Icon ele={<Icon.Dangerous />} />
+            </Badge>
+          ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();

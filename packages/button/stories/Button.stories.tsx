@@ -30,11 +30,13 @@ export const basic = () => (
 export const tones = () => {
   return (
     <Container>
-      {Object.values(Tone).map((v, i) => (
-        <Button tone={v} key={i}>
-          {v}
-        </Button>
-      ))}
+      {Object.values(Tone)
+        .filter((i) => !isNaN(Number(i)))
+        .map((v, i) => (
+          <Button tone={Tone[v]} key={i}>
+            {Tone[v]}
+          </Button>
+        ))}
     </Container>
   );
 };
@@ -42,11 +44,13 @@ export const tones = () => {
 export const sizes = () => {
   return (
     <Column>
-      {Object.values(Size).map((v, i) => (
-        <Button size={v} key={i}>
-          size-{v}
-        </Button>
-      ))}
+      {Object.keys(Size)
+        .filter((i) => !isNaN(Number(i)))
+        .map((v, i) => (
+          <Button size={Size[v]} key={i}>
+            size-{Size[v]}
+          </Button>
+        ))}
     </Column>
   );
 };
@@ -54,11 +58,13 @@ export const sizes = () => {
 export const variants = () => {
   return (
     <Column>
-      {Object.values(Variant).map((v, i) => (
-        <Button variant={v} key={i}>
-          {v}
-        </Button>
-      ))}
+      {Object.values(Variant)
+        .filter((i) => !isNaN(Number(i)))
+        .map((v, i) => (
+          <Button variant={Variant[v]} key={i}>
+            {Variant[v]}
+          </Button>
+        ))}
     </Column>
   );
 };

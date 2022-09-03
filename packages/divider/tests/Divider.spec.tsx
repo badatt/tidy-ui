@@ -9,23 +9,23 @@ import 'jest-styled-components';
 import { orchidDark, orchidLight } from '@tidy-ui/commons';
 import { Divider } from '../src';
 import { Text } from '@tidy-ui/text';
-import { TVariant } from '../src/types';
+import { Density, Position, Variant } from '../src/types';
+import { Shade, Tone } from '@tidy-ui/types';
+
+const text = `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!`;
 
 describe('Divider', () => {
   it('Basic render', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia
-          veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero
-          veniam!
-        </Text>
-        <Divider />
-        <Text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia
-          veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero
-          veniam!
-        </Text>
+        {[...Array(3)].map((v, i) => (
+          <React.Fragment key={i}>
+            <Text>{text}</Text>
+            <Divider />
+          </React.Fragment>
+        ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -33,17 +33,12 @@ describe('Divider', () => {
   it('Dark mode basic render', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <Text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia
-          veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero
-          veniam!
-        </Text>
-        <Divider />
-        <Text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia
-          veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero
-          veniam!
-        </Text>
+        {[...Array(3)].map((v, i) => (
+          <React.Fragment key={i}>
+            <Text>{text}</Text>
+            <Divider />
+          </React.Fragment>
+        ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -53,118 +48,134 @@ describe('Divider', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <div style={{ display: 'flex' }}>
-          <Text>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sequi quam modi natus ipsum corrupti quis
-            laudantium reiciendis error quas, voluptate eligendi possimus temporibus ipsam! Eveniet voluptates natus
-            minima! Possimus.
-          </Text>
-          <Divider vertical />
-          <Text>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium ab magni assumenda, iure corporis
-            natus voluptas laborum error corrupti inventore hic aliquid, debitis adipisci necessitatibus repellendus
-            dolores ratione architecto.
-          </Text>
+          {[...Array(3)].map((v, i) => (
+            <React.Fragment key={i}>
+              <Text>{text}</Text>
+              <Divider vertical />
+            </React.Fragment>
+          ))}
         </div>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
-  it('Fixed length', () => {
-    const tree = render(
-      <ThemeProvider theme={orchidLight}>
-        <Text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia
-          veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero
-          veniam!
-        </Text>
-        <Divider align="start" length="2rem" />
-        <Text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia
-          veritatis recusandae magni accusamus rem quo cupiditate architecto hic culpa eum totam reprehenderit, libero
-          veniam!
-        </Text>
-        <Divider align="end" length="2rem" />
-        <div style={{ display: 'flex' }}>
-          <Text>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sequi quam modi natus ipsum corrupti quis
-            laudantium reiciendis error quas, voluptate eligendi possimus temporibus ipsam! Eveniet voluptates natus
-            minima! Possimus.
-          </Text>
-          <Divider vertical align="start" length="2rem" />
-          <Text>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium ab magni assumenda, iure corporis
-            natus voluptas laborum error corrupti inventore hic aliquid, debitis adipisci necessitatibus repellendus
-            dolores ratione architecto.
-          </Text>
-          <Divider vertical align="center" length="2rem" />
-          <Text>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium ab magni assumenda, iure corporis
-            natus voluptas laborum error corrupti inventore hic aliquid, debitis adipisci necessitatibus repellendus
-            dolores ratione architecto.
-          </Text>
-          <Divider vertical align="end" length="2rem" />
-          <Text>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium ab magni assumenda, iure corporis
-            natus voluptas laborum error corrupti inventore hic aliquid, debitis adipisci necessitatibus repellendus
-            dolores ratione architecto.
-          </Text>
-        </div>
-        <Divider align="center" length="2rem" />
-        <Text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium ab magni assumenda, iure corporis
-          natus voluptas laborum error corrupti inventore hic aliquid, debitis adipisci necessitatibus repellendus
-          dolores ratione architecto.
-        </Text>
-      </ThemeProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('Tone', () => {
-    const tree = render(
-      <ThemeProvider theme={orchidDark}>
-        <Text>color major</Text>
-        <Divider tone="major" />
-      </ThemeProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-  });
   it('Density', () => {
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
-        <Text>thick density</Text>
-        <Divider density="thick" />
-        <Text>thin density</Text>
-        <Divider density="thin" />
-        <Text>medium density</Text>
-        <Divider density="medium" />
+      <ThemeProvider theme={orchidLight}>
+        {Object.keys(Density)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v, i) => (
+            <React.Fragment key={i}>
+              <Text v="h6">density={Density[v]}</Text>
+              <Text>{text}</Text>
+              <Divider density={Density[v]} />
+            </React.Fragment>
+          ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
-  it('Shade', () => {
+  it('Shades', () => {
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
-        <Text>800 shade</Text>
-        <Divider shade={800} />
+      <ThemeProvider theme={orchidLight}>
+        {Object.keys(Shade)
+          .filter((i) => !isNaN(Number(i)))
+          .reverse()
+          .map((v, i) => (
+            <React.Fragment key={i}>
+              <Text v="h6">shade={Shade[v]}</Text>
+              <Text>{text}</Text>
+              <Divider shade={Shade[v]} />
+            </React.Fragment>
+          ))}
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Tones', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        {Object.keys(Tone)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v, i) => (
+            <React.Fragment key={i}>
+              <Text v="h6">tone={Tone[v]}</Text>
+              <Text>{text}</Text>
+              <Divider tone={Tone[v]} />
+            </React.Fragment>
+          ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Variants', () => {
-    const variants = ['dashed', 'dotted', 'double', 'groove', 'hidden', 'ridge', 'solid'];
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
-        {variants.map((v, i) => (
-          <div key={i}>
-            <Text>{v} style</Text>
-            <Divider variant={v as TVariant} />
-            <Text>{v} style</Text>
-          </div>
+      <ThemeProvider theme={orchidLight}>
+        {Object.keys(Variant)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v, i) => (
+            <React.Fragment key={i}>
+              <Text v="h6">variant={Variant[v]}</Text>
+              <Text>{text}</Text>
+              <Divider variant={Variant[v]} />
+            </React.Fragment>
+          ))}
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Custom margin', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        {[...Array(3)].map((v, i) => (
+          <React.Fragment key={i}>
+            <Text>{text}</Text>
+            <Divider margin="2rem" />
+          </React.Fragment>
         ))}
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Custom vertical alignment', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        {Object.keys(Position)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v, i) => (
+            <React.Fragment key={i}>
+              <Text>
+                <Text v="h6">align={Position[v]}</Text>
+                {text}
+              </Text>
+              <Divider vertical align={Position[v]} length="2rem" />
+            </React.Fragment>
+          ))}
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Custom horizontal alignment', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        {Object.keys(Position)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v, i) => (
+            <React.Fragment key={i}>
+              <Text>
+                <Text v="h6">align={Position[v]}</Text>
+                {text}
+              </Text>
+              <Divider align={Position[v]} length="2rem" />
+            </React.Fragment>
+          ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();

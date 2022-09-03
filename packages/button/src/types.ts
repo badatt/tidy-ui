@@ -5,11 +5,11 @@ import { IBaseProps, TSize, TTone } from '@tidy-ui/types';
  * Variant
  */
 export enum Variant {
-  BASIC = 'basic',
-  HERO = 'hero',
-  OUTLINED = 'outlined',
-  PRIMARY = 'primary',
-  SIMPLE = 'simple',
+  'basic',
+  'hero',
+  'outlined',
+  'primary',
+  'simple',
 }
 
 /**
@@ -30,7 +30,7 @@ export enum Variant {
  * @typedef {TVariant}
  * @public
  */
-export type TVariant = `${Variant}`;
+export type TVariant = keyof typeof Variant;
 
 /**
  * Button props
