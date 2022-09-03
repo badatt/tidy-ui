@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Button, ButtonGroup, Text } from '@tidy-ui/presentation';
+import { Button, ButtonGroup } from '@tidy-ui/button';
+import { Text } from '@tidy-ui/text';
 import { FlexBox } from '../src';
 import { IFlexItemProps, TAlignSelf } from '../src/types';
 import { Ctx, FlexBoxProvider } from './FlexBoxProvider';
@@ -18,7 +19,7 @@ export const basic = () => {
     <FlexBoxProvider>
       <Ctx.Consumer>
         {({ count }) => (
-          <StyledFlexBox h={height}>
+          <StyledFlexBox height={height}>
             {[...Array(count)].map((c, i) => (
               <StyledFlexItem key={i} style={{ padding: '3rem' }}>
                 <StyledText v={label}>{i}</StyledText>
@@ -55,7 +56,7 @@ export const span = () => {
       </FlexBox>
       <Ctx.Consumer>
         {({ count }) => (
-          <StyledFlexBox h={height}>
+          <StyledFlexBox height={height}>
             {[...Array(count)].map((c, i) => (
               <StyledFlexItem key={i} span={span as SpanType} style={st}>
                 <StyledText v={label}>{i}</StyledText>
@@ -74,7 +75,7 @@ export const flexGrow = () => {
     <FlexBoxProvider size={4}>
       <Ctx.Consumer>
         {({ count }) => (
-          <StyledFlexBox h={height}>
+          <StyledFlexBox height={height}>
             {[...Array(count)].map((c, i) => {
               const grow = Math.floor(Math.random() * Array(count).length);
               return (
@@ -96,7 +97,7 @@ export const order = () => {
     <FlexBoxProvider size={6}>
       <Ctx.Consumer>
         {({ count }) => (
-          <StyledFlexBox h={height}>
+          <StyledFlexBox height={height}>
             {[...Array(count)].map((c, i) => {
               const order = Math.floor(Math.random() * Array(count).length);
               return (
@@ -138,7 +139,7 @@ export const alignSelf = () => {
           <Text v="h6">{v}</Text>
           <Ctx.Consumer>
             {({ count }) => (
-              <StyledFlexBox h={height} alc="normal" jsc="normal">
+              <StyledFlexBox height={height} alc="normal" jsc="normal">
                 {[...Array(count)].map((c, i) => {
                   const als = i % 2 == 0 ? (v as TAlignSelf) : 'normal';
                   return (
@@ -165,7 +166,7 @@ export const fullWidth = () => {
     <FlexBoxProvider>
       <Ctx.Consumer>
         {({ count }) => (
-          <StyledFlexBox h={height}>
+          <StyledFlexBox height={height}>
             {[...Array(count)].map((c, i) => (
               <StyledFlexItem key={i} style={{ padding: '3rem' }} fuw>
                 <StyledText v={label}>{i}</StyledText>

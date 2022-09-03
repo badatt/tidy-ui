@@ -7,11 +7,6 @@ import { IBaseProps, TCreateArrayWithLengthX, TNumericRange } from '@tidy-ui/typ
 export type TFlexDirection = 'row' | 'row-reverse' | 'column' | 'column-reverse';
 
 /**
- * `flex-wrap` props
- */
-export type TFlexWrap = 'nowrap' | 'wrap' | 'wrap-reverse';
-
-/**
  * `align-content` props
  */
 export type TAlignContent =
@@ -138,27 +133,27 @@ export interface IFlexBoxProps extends IBaseProps, HTMLAttributes<HTMLDivElement
   fuh?: boolean;
 
   /**
-   * css `flex-wrap` equivalent
-   *
-   * @default 'wrap'
-   */
-  fwp?: TFlexWrap;
-
-  /**
    * css `gap` equivalent
    */
   gap?: string;
+
   /**
    * css `height` equivalent
    */
-  h?: string;
-
+  height?: string;
   /**
    * css `justify-content` equivalent
    *
    * @default 'flex-start'
    */
   jsc?: TJustifyContent;
+
+  /**
+   * If `true`, sets `flex-wrap: nowrap` the items
+   *
+   * @default false
+   */
+  nowrap?: boolean;
 
   /**
    * css `row-gap` equivalent
@@ -168,7 +163,7 @@ export interface IFlexBoxProps extends IBaseProps, HTMLAttributes<HTMLDivElement
   /**
    * css `width` equivalent
    */
-  w?: string;
+  width?: string;
 }
 
 /**

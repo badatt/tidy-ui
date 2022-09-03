@@ -270,7 +270,7 @@ Object {
 }
 `;
 
-exports[`Container MAx width 1`] = `
+exports[`Container Max width 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
