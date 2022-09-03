@@ -1,6 +1,6 @@
 import React from 'react';
 import { styled } from '@tidy-ui/commons';
-import { Tag, Text } from '@tidy-ui/presentation';
+import { Text } from '@tidy-ui/text';
 import { Divider } from '../src';
 
 export default {
@@ -20,9 +20,7 @@ export const basic = () => (
       veniam!
     </Text>
     <Divider.Enhanced justify="start">
-      <Tag tone="neutral" size="sm">
-        Section 1
-      </Tag>
+      <Text v="caption">Section 1</Text>
     </Divider.Enhanced>
     <Text>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia
@@ -30,9 +28,7 @@ export const basic = () => (
       veniam!
     </Text>
     <Divider.Enhanced variant="dashed">
-      <Tag tone="neutral" size="sm">
-        Section 2
-      </Tag>
+      <Text v="caption">Section 2</Text>
     </Divider.Enhanced>
     <Text>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ratione, id vero quibusdam aperiam officia
@@ -40,9 +36,7 @@ export const basic = () => (
       veniam!
     </Text>
     <Divider.Enhanced justify="end">
-      <Tag tone="neutral" size="sm">
-        Section 3
-      </Tag>
+      <Text v="caption">Section 3</Text>
     </Divider.Enhanced>
     <Text>
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, nobis quasi, quis ea obcaecati quae recusandae

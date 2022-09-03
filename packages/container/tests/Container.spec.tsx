@@ -39,7 +39,7 @@ describe('Container', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('MAx width', () => {
+  it('Max width', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
         <Container maxWidth="xs">
