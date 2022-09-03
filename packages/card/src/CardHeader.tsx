@@ -7,10 +7,10 @@ import { ICardHeaderProps } from './types';
  *
  */
 const CardHeader = React.forwardRef<HTMLDivElement, ICardHeaderProps>((props, ref) => {
-  const { children, href, ...rest } = props;
+  const { children, ele, href, ...rest } = props;
   return (
     <CardHeaderRoot role="heading" ref={ref} {...rest}>
-      {children}
+      {ele ? React.cloneElement(ele, {}, children) : children}
       {href && (
         <Link href={href} target="_blank">
           <LaunchIcon />

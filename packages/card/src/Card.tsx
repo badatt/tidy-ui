@@ -24,10 +24,11 @@ interface CardComponent extends React.ForwardRefExoticComponent<ICardProps & Rea
  *
  */
 const Card = React.forwardRef<HTMLDivElement, ICardProps>((props, ref) => {
-  const { children, href, ...rest } = props;
+  const { children, ele, href, ...rest } = props;
+  const nodes = ele ? React.cloneElement(ele, {}, children) : children;
   return (
     <CardRoot role="article" ref={ref} href={href} {...rest}>
-      {href ? <a href={href}>{children}</a> : <>{children}</>}
+      {href ? <a href={href}>{nodes}</a> : <>{nodes}</>}
     </CardRoot>
   );
 }) as CardComponent;

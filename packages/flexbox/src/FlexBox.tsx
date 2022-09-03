@@ -89,7 +89,7 @@ FlexBox.defaultProps = {
   ctr: false,
   fld: 'row',
   fuh: false,
-  fwp: 'wrap',
+  fwp: 'nowrap',
   jsc: 'flex-start',
 };
 
