@@ -1,6 +1,7 @@
 import React, { createContext, useState } from 'react';
 import { color, css, hsla, Icon, styled } from '@tidy-ui/commons';
-import { Button, ButtonGroup, ButtonToolbar, Text } from '@tidy-ui/presentation';
+import { Button, ButtonGroup, ButtonToolbar } from '@tidy-ui/button';
+import { Text } from '@tidy-ui/text';
 import { Grid } from '../src';
 import { IGridProps, IItemProps } from '../src/types';
 
