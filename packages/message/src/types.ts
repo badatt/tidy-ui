@@ -24,11 +24,14 @@ export interface IMessageProps extends IBaseProps, HTMLAttributes<HTMLDivElement
   duration?: number;
 
   /**
-   * Title of the message widget
-   *
-   * @type {?(JSX.Element | string)}
+   * Element that encloses the card
    */
-  header?: JSX.Element | string;
+  ele?: JSX.Element;
+
+  /**
+   * Margin, css `margin` equivalent
+   */
+  margin?: string;
 
   /**
    * Callback (if any) after the message widget is closed
