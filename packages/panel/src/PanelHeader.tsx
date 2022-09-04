@@ -5,11 +5,11 @@ import { PanelContext } from './PanelContextProvider';
 import { IPanelContext, IPanelHeaderProps } from './types';
 
 const PanelHeader = React.forwardRef<HTMLDivElement, IPanelHeaderProps>((props, ref) => {
-  const { children, className, ...rest } = props;
+  const { children, className, ele, ...rest } = props;
   const { expanded, toggle } = React.useContext(PanelContext) as IPanelContext;
   return (
     <PanelHeaderRoot className={className} ref={ref} role="heading" {...rest} onClick={toggle}>
-      {children}
+      {ele ? React.cloneElement(ele, {}, children) : children}
       <Icon
         role="button"
         ele={<ActionIcon style={{ transform: expanded ? 'rotate(180deg)' : 'rotate(0deg)' }} />}

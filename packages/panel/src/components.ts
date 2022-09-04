@@ -5,7 +5,8 @@ const PanelRoot = styled.div<IPanelProps>`
   display: flex;
   flex-direction: column;
   width: 100%;
-  ${({ theme: { layout, palette, isDark } }) => css`
+  ${({ theme: { layout, palette, isDark }, margin }) => css`
+    margin: ${margin};
     border: 1px solid ${isDark ? palette.neutral[700] : palette.neutral[400]};
     border-radius: ${layout.radius};
     background-color: ${isDark ? hsla(palette.neutral.shades[900], 0.3) : palette.neutral[50]};
@@ -42,7 +43,8 @@ const PanelBodyRoot = styled.div<IPanelBodyProps>`
 `;
 
 const PanelGroupRoot = styled.div<IPanelProps>`
-  ${({ theme: { layout, palette, isDark } }) => css`
+  ${({ theme: { layout, palette, isDark }, margin }) => css`
+    margin: ${margin};
     border: 1px solid ${isDark ? palette.neutral[700] : palette.neutral[400]};
     border-radius: ${layout.radius};
     & > * {
