@@ -7,50 +7,36 @@ export default {
   title: 'Presentation/Paper',
 };
 
-const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  font-size: 0.875rem;
-  font-weight: 400;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
-`;
+const text = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magni. Dignissimos harum assumenda, iusto
+        sint vero tempora perspiciatis aliquam non possimus quod quisquam est doloribus explicabo quia voluptates
+        facilis nobis! Dolorum, ratione! Error eos sint voluptates commodi ratione, nemo nobis doloremque in ut repellat
+        enim voluptatibus impedit nulla quidem veniam pariatur sed debitis magnam necessitatibus sapiente, ab fugiat
+        saepe! Veritatis. Atque incidunt facere sed dicta iure est asperiores quibusdam necessitatibus voluptatum ad
+        delectus itaque laborum officia dolorem nostrum natus perferendis porro totam, id tempore ex tenetur molestiae
+        modi? Omnis, necessitatibus. Accusamus nulla iure, doloremque obcaecati quis dolorem dicta reiciendis mollitia
+        voluptatem, ex quasi modi autem? Sed, soluta eaque. Obcaecati, nisi exercitationem ex veniam hic deserunt est
+        illum eum vero odit! Numquam magnam incidunt neque debitis beatae quidem, consequatur nemo quo officiis
+        inventore magni, dolorem ad minima eveniet quas nulla nam tempore porro, quasi et? Facere unde quibusdam minus
+        minima reprehenderit! Ipsa, explicabo aliquam. Molestias, quae saepe quia, sit eaque, quam odio delectus cumque
+        expedita dolorum aspernatur nesciunt temporibus debitis nostrum distinctio repudiandae. Architecto accusamus
+        eum, cum veritatis quibusdam velit ipsam! Ipsa neque adipisci optio quia cum modi asperiores, nisi fuga itaque
+        distinctio aliquid veritatis ad aut alias aliquam magni in facilis consequatur laboriosam libero, harum
+        voluptate nostrum quaerat. Pariatur, corrupti? Quia voluptate voluptatibus earum, voluptatem iste repellat,
+        fugiat numquam dolorem accusamus alias repudiandae, accusantium nihil quam placeat dicta dolores suscipit
+        aliquam harum sed amet enim tempore in quas! Dolorum, impedit! Voluptatum, accusantium ratione totam dolore,
+        facilis nemo non quisquam at beatae soluta aperiam veritatis, modi doloremque explicabo nostrum eum aliquid
+        culpa impedit rem est ea! Facilis magnam dolores minima distinctio. Ipsa optio, ullam at sequi magni commodi
+        officiis accusantium recusandae, delectus ut natus deleniti voluptates possimus consequatur sunt sit libero sed
+        adipisci, reprehenderit eos! Deserunt eum ex mollitia debitis assumenda.`;
 
-export const basic = () => (
-  <Container>
-    <Paper>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga amet et tempore laborum ratione nemo quidem ut
-        quibusdam? Quod optio voluptas est molestias nam. Iure est nihil illo ad sed. Repellendus, voluptatibus
-        adipisci, sequi, quibusdam consequuntur quod aperiam architecto veniam commodi unde repudiandae ratione dicta
-        iusto? Dolorum quaerat repellat, assumenda unde animi, eos natus nesciunt dignissimos alias minima excepturi?
-        Eveniet.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla culpa officiis non, dignissimos nobis velit id
-        explicabo eveniet molestias aliquid labore optio dolor? Corporis deleniti molestiae illum cum voluptates quam. A
-        delectus modi eos, excepturi quas saepe nihil facere iusto doloribus quo consequuntur architecto impedit culpa
-        dignissimos recusandae eveniet. Esse dicta a, consequuntur porro natus itaque rem sit velit voluptatum? Maiores
-        suscipit dolores cumque delectus eaque ratione commodi possimus tenetur, corporis ducimus minima alias magnam
-        iste est inventore tempora.
-      </p>
-    </Paper>
-    <Paper sharp>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga amet et tempore laborum ratione nemo quidem ut
-        quibusdam? Quod optio voluptas est molestias nam. Iure est nihil illo ad sed. Repellendus, voluptatibus
-        adipisci, sequi, quibusdam consequuntur quod aperiam architecto veniam commodi unde repudiandae ratione dicta
-        iusto? Dolorum quaerat repellat, assumenda unde animi, eos natus nesciunt dignissimos alias minima excepturi?
-        Eveniet.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla culpa officiis non, dignissimos nobis velit id
-        explicabo eveniet molestias aliquid labore optio dolor? Corporis deleniti molestiae illum cum voluptates quam. A
-        delectus modi eos, excepturi quas saepe nihil facere iusto doloribus quo consequuntur architecto impedit culpa
-        dignissimos recusandae eveniet. Esse dicta a, consequuntur porro natus itaque rem sit velit voluptatum? Maiores
-        suscipit dolores cumque delectus eaque ratione commodi possimus tenetur, corporis ducimus minima alias magnam
-        iste est inventore tempora.
-      </p>
-    </Paper>
-  </Container>
+export const basic = () => <Paper>{text}</Paper>;
+
+export const sharp = () => <Paper sharp>{text}</Paper>;
+
+export const customElement = () => (
+  <Paper ele={<div style={{ display: 'flex', gap: '1rem' }} />}>
+    <div>{text}</div>
+    <div>{text}</div>
+    <div>{text}</div>
+  </Paper>
 );

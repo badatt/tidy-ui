@@ -14,18 +14,16 @@ const Container = styled.div`
   margin-bottom: 16px;
 `;
 
+const text = `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et totam eius ducimus unde voluptatibus asperiores fuga
+      accusantium voluptates non nam sit beatae, modi quas animi autem aliquid. Exercitationem, veniam sapiente!
+    `;
+
 export const basic = () => (
   <Container>
-    <Card>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et totam eius ducimus unde voluptatibus asperiores fuga
-      accusantium voluptates non nam sit beatae, modi quas animi autem aliquid. Exercitationem, veniam sapiente!
-    </Card>
+    <Card>{text}</Card>
     <Card.Main>
       <Card.Header>Lorem ipsum dolor sit.</Card.Header>
-      <Card.Body>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptatibus dolorum! Quas, natus! Est, neque
-        deserunt consequatur voluptatum dolores quae! Error explicabo omnis odio molestias.
-      </Card.Body>
+      <Card.Body>{text}</Card.Body>
       <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
     </Card.Main>
   </Container>
@@ -33,16 +31,10 @@ export const basic = () => (
 
 export const sharp = () => (
   <Container>
-    <Card sharp>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni unde ad aspernatur iusto consequatur atque aperiam
-      itaque, nulla ratione nobis quae maiores dicta possimus incidunt nesciunt minima accusamus cum aliquam?
-    </Card>
+    <Card sharp>{text}</Card>
     <Card.Main sharp>
       <Card.Header>Lorem ipsum dolor sit.</Card.Header>
-      <Card.Body>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptatibus dolorum! Quas, natus! Est, neque
-        deserunt consequatur voluptatum dolores quae! Error explicabo omnis odio molestias.
-      </Card.Body>
+      <Card.Body>{text}</Card.Body>
       <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
     </Card.Main>
   </Container>
@@ -55,9 +47,7 @@ export const accents = () => (
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
           <Card accent={Tone[v]} key={i}>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus culpa odit excepturi iure accusamus? Ullam
-            quia, quasi dignissimos expedita laudantium perferendis consectetur animi error adipisci, dolore ea
-            voluptatem necessitatibus eligendi?
+            {text}
           </Card>
         ))}
     </Container>
@@ -67,10 +57,7 @@ export const accents = () => (
         .map((v, i) => (
           <Card.Main accent={Tone[v]} key={i} accentPosition="left">
             <Card.Header>Lorem ipsum dolor sit.</Card.Header>
-            <Card.Body>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptatibus dolorum! Quas, natus! Est,
-              neque deserunt consequatur voluptatum dolores quae! Error explicabo omnis odio molestias.
-            </Card.Body>
+            <Card.Body>{text}</Card.Body>
             <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
           </Card.Main>
         ))}
@@ -80,17 +67,10 @@ export const accents = () => (
 
 export const linked = () => (
   <Container>
-    <Card href="https://google.com">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et aperiam fugit ad doloremque architecto qui
-      cupiditate? Exercitationem deleniti repellat sint illum veniam, maxime odit voluptatibus culpa iste. Accusantium,
-      placeat illo!
-    </Card>
+    <Card href="https://google.com">{text}</Card>
     <Card.Main>
       <Card.Header href="https://google.com">Lorem ipsum dolor sit.</Card.Header>
-      <Card.Body>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptatibus dolorum! Quas, natus! Est, neque
-        deserunt consequatur voluptatum dolores quae! Error explicabo omnis odio molestias.
-      </Card.Body>
+      <Card.Body>{text}</Card.Body>
       <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
     </Card.Main>
   </Container>
@@ -100,20 +80,30 @@ export const divided = () => (
   <Container>
     <Card.Main>
       <Card.Header divided>Lorem ipsum dolor sit.</Card.Header>
-      <Card.Body>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nam assumenda pariatur reiciendis deleniti
-        libero ipsum! Eum tenetur maxime ratione obcaecati distinctio, odio mollitia provident optio debitis magni,
-        fugiat consequuntur.
-      </Card.Body>
+      <Card.Body>{text}</Card.Body>
       <Card.Footer divided>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
     </Card.Main>
     <Card.Main sharp>
       <Card.Header divided>Lorem ipsum dolor sit.</Card.Header>
-      <Card.Body>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, voluptatibus dolorum! Quas, natus! Est, neque
-        deserunt consequatur voluptatum dolores quae! Error explicabo omnis odio molestias.
-      </Card.Body>
+      <Card.Body>{text}</Card.Body>
       <Card.Footer divided>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
+    </Card.Main>
+  </Container>
+);
+
+export const customElement = () => (
+  <Container>
+    <Card ele={<div style={{ display: 'flex' }} />}>
+      <div>{text}</div>
+      <div>{text}</div>
+    </Card>
+    <Card.Main>
+      <Card.Header>Lorem ipsum dolor sit.</Card.Header>
+      <Card.Body ele={<div style={{ display: 'flex' }} />}>
+        <div>{text}</div>
+        <div>{text}</div>
+      </Card.Body>
+      <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
     </Card.Main>
   </Container>
 );
