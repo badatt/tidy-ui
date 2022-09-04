@@ -9,6 +9,7 @@ import 'jest-styled-components';
 import { Icon } from '@tidy-ui/commons';
 import { orchidDark, orchidLight } from '@tidy-ui/commons';
 import { Tag } from '../src';
+import { Tone } from '@tidy-ui/types';
 
 describe('Tag', () => {
   it('Basic render', () => {
@@ -68,13 +69,11 @@ describe('Tag', () => {
   it('Tags with all color variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Tag tone="major">html</Tag>
-        <Tag tone="minor">typescript</Tag>
-        <Tag tone="neutral">cloud</Tag>
-        <Tag tone="success">javascript</Tag>
-        <Tag tone="info">java</Tag>
-        <Tag tone="warning">sass</Tag>
-        <Tag tone="danger">css</Tag>
+        {Object.keys(Tone)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v, i) => (
+            <Tag tone={Tone[v]}>{Tone[v]}</Tag>
+          ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();

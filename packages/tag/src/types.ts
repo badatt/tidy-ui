@@ -2,12 +2,21 @@ import { HTMLAttributes, HtmlHTMLAttributes } from 'react';
 import { IBaseProps, TTone } from '@tidy-ui/types';
 
 /**
+ * Size
+ */
+export enum Size {
+  'sm',
+  'md',
+  'lg',
+}
+
+/**
  * Size variants of the tag component
  *
  * @typedef {TSize}
  * @public
  */
-export type TSize = 'sm' | 'md' | 'lg';
+export type TSize = keyof typeof Size;
 
 /**
  * Tag properties
@@ -78,6 +87,11 @@ export interface ITagProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
  * @public
  */
 export interface ITagGroupProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
+  /**
+   * Margin, css `margin` equivalent
+   */
+  margin?: string;
+
   /**
    * On add callback
    *

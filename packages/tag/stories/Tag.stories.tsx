@@ -2,6 +2,8 @@ import React from 'react';
 import { Icon } from '@tidy-ui/commons';
 import { styled } from '@tidy-ui/commons';
 import { Tag } from '../src';
+import { Tone } from '@tidy-ui/types';
+import { Size } from '../src/types';
 
 export default {
   component: Tag,
@@ -19,69 +21,40 @@ const Column = styled.div`
   }
 `;
 
-export const basic = () => (
-  <Container>
-    <Column>
-      <Tag>typescript</Tag>
-      <Tag icon={<Icon.CheckCircle />} tone="success">
-        Success
-      </Tag>
-    </Column>
-  </Container>
-);
+export const basic = () => <Tag>basic</Tag>;
+
+export const icon = () => <Tag icon={<Icon.CheckCircle />}>with icon</Tag>;
 
 export const tones = () => (
   <Container>
-    <Tag tone="major">html</Tag>
-    <Tag tone="minor">typescript</Tag>
-    <Tag tone="neutral">cloud</Tag>
-    <Tag tone="success">javascript</Tag>
-    <Tag tone="info">java</Tag>
-    <Tag tone="warning">sass</Tag>
-    <Tag tone="danger">css</Tag>
+    {Object.keys(Tone)
+      .filter((i) => !isNaN(Number(i)))
+      .map((v, i) => (
+        <Tag tone={Tone[v]}>{Tone[v]}</Tag>
+      ))}
   </Container>
 );
 
 export const outlined = () => (
   <Container>
-    <Tag tone="major" outlined>
-      html
-    </Tag>
-    <Tag tone="minor" outlined>
-      typescript
-    </Tag>
-    <Tag tone="neutral" outlined>
-      cloud
-    </Tag>
-    <Tag tone="success" outlined>
-      javascript
-    </Tag>
-    <Tag tone="info" outlined>
-      java
-    </Tag>
-    <Tag tone="warning" outlined>
-      sass
-    </Tag>
-    <Tag tone="danger" outlined>
-      css
-    </Tag>
+    {Object.keys(Tone)
+      .filter((i) => !isNaN(Number(i)))
+      .map((v, i) => (
+        <Tag tone={Tone[v]} outlined>
+          {Tone[v]}
+        </Tag>
+      ))}
   </Container>
 );
 
-export const disabled = () => (
-  <Container>
-    <Column>
-      <Tag disabled>typescript</Tag>
-    </Column>
-  </Container>
-);
+export const disabled = () => <Tag disabled>disabled</Tag>;
 
 export const sizes = () => (
-  <Container>
-    <Column>
-      <Tag size="sm">typescript</Tag>
-      <Tag size="md">javascript</Tag>
-      <Tag size="lg">coffeescript</Tag>
-    </Column>
-  </Container>
+  <Column>
+    {Object.keys(Size)
+      .filter((i) => !isNaN(Number(i)))
+      .map((v, i) => (
+        <Tag size={Size[v]}>size = {Size[v]}</Tag>
+      ))}
+  </Column>
 );
