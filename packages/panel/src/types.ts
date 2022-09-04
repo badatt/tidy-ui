@@ -28,17 +28,30 @@ export interface IPanelProps extends IBaseProps, HTMLAttributes<HTMLDivElement> 
    * @default false
    */
   expanded?: boolean;
+  /**
+   * Margin, css `margin` equivalent
+   */
+  margin?: string;
 }
 
 /**
  * PanelHeader props
  */
-export type IPanelHeaderProps = IBaseProps | HTMLAttributes<HTMLDivElement>;
+export interface IPanelHeaderProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
+  /**
+   * Element that encloses the card
+   */
+  ele?: JSX.Element;
+}
 
 /**
  * PanelBody props
  */
 export interface IPanelBodyProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
+  /**
+   * Element that encloses the card
+   */
+  ele?: JSX.Element;
   /**
    * If `true`, set the body visible
    *
@@ -50,4 +63,9 @@ export interface IPanelBodyProps extends IBaseProps, HTMLAttributes<HTMLDivEleme
 /**
  * PanelGroup props
  */
-export type IPanelGroupProps = IBaseProps | HTMLAttributes<HTMLDivElement>;
+export interface IPanelGroupProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
+  /**
+   * Margin, css `margin` equivalent
+   */
+  margin?: string;
+}
