@@ -7,14 +7,14 @@ import { IPaperProps } from './types';
  * @internal
  */
 const PaperRoot = styled.section<IPaperProps>`
-  ${({ theme, sharp }) => css`
+  ${({ theme: { palette, layout }, sharp, margin }) => css`
     display: block;
     padding: 1rem;
-    background-color: ${theme.palette.background.paper};
-    border-radius: ${!sharp && theme.layout.radius};
-    box-shadow: ${theme.layout.shadow};
-    color: ${theme.palette.text.primary};
-    margin-bottom: 1.875rem;
+    background-color: ${palette.background.paper};
+    border-radius: ${!sharp && layout.radius};
+    box-shadow: ${layout.shadow};
+    color: ${palette.text.primary};
+    margin-bottom: ${margin};
   `}
 `;
 

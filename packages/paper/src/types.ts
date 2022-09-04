@@ -11,6 +11,14 @@ import { IBaseProps } from '@tidy-ui/types';
  */
 export interface IPaperProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
+   * Element that encloses the card
+   */
+  ele?: JSX.Element;
+  /**
+   * Margin, css `margin` equivalent
+   */
+  margin?: string;
+  /**
    * If `true`, the component is created with sharp edges
    *
    * @type {?boolean}

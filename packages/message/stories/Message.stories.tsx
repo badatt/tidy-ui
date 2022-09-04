@@ -21,6 +21,11 @@ const text = `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
 export const basic = () => (
   <Container>
     <Message>{text}</Message>
+  </Container>
+);
+
+export const sharp = () => (
+  <Container>
     <Message sharp>{text}</Message>
   </Container>
 );
@@ -73,7 +78,7 @@ export const customMargin = () => (
 );
 
 export const customElement = () => (
-  <Message ele={<div style={{ display: 'flex' }} />}>
+  <Message ele={<div style={{ display: 'flex', gap: '1rem' }} />}>
     <div>{text}</div>
     <div>{text}</div>
   </Message>

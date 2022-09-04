@@ -8,10 +8,10 @@ import { IPaperProps } from './types';
  *
  */
 const Paper = React.forwardRef<HTMLDivElement, IPaperProps>((props, ref) => {
-  const { children, ...rest } = props;
+  const { children, ele, ...rest } = props;
   return (
     <PaperRoot role="article" ref={ref} {...rest}>
-      {children}
+      {ele ? React.cloneElement(ele, {}, children) : children}
     </PaperRoot>
   );
 });
