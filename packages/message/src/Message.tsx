@@ -1,6 +1,6 @@
 import React from 'react';
 import { Icon, useIsMounted, useTimeout } from '@tidy-ui/commons';
-import { CloseButton, Header, MessageContent, MessageLabel, MessageLabelIcon, MessageRoot } from './components';
+import { CloseButton, MessageContent, MessageLabel, MessageLabelIcon, MessageRoot } from './components';
 import { IMessageProps } from './types';
 
 /**
@@ -9,7 +9,7 @@ import { IMessageProps } from './types';
  *
  */
 const Message = React.forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
-  const { children, className, closable, onClose, duration, header, ...rest } = props;
+  const { children, className, closable, ele, onClose, duration, ...rest } = props;
 
   const isMounted = useIsMounted();
   const [isHidden, setHidden] = React.useState<boolean>(false);
@@ -43,10 +43,7 @@ const Message = React.forwardRef<HTMLDivElement, IMessageProps>((props, ref) => 
           <Icon.Close />
         </CloseButton>
       )}
-      <MessageContent {...rest}>
-        {header && <Header>{header}</Header>}
-        {children}
-      </MessageContent>
+      <MessageContent {...rest}>{ele ? React.cloneElement(ele, {}, children) : children}</MessageContent>
     </MessageRoot>
   );
 });

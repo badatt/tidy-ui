@@ -8,19 +8,18 @@ import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidDark, orchidLight } from '@tidy-ui/commons';
-import { TTone } from '@tidy-ui/types';
+import { Tone } from '@tidy-ui/types';
 import { Message } from '../src';
 
-const colors = ['major', 'minor', 'neutral', 'info', 'success', 'warning', 'danger'];
+const text = `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
+      ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
+      eaque!`;
 
 describe('Message', () => {
   it('Basic render', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Message>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
-          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </Message>
+        <Message>{text}</Message>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -28,10 +27,7 @@ describe('Message', () => {
   it('Basic render in dark mode', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <Message>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
-          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </Message>
+        <Message>{text}</Message>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -39,12 +35,13 @@ describe('Message', () => {
   it('Message with all color variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        {colors.map((c) => (
-          <Message tone={c as TTone} key={c}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
-            eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-          </Message>
-        ))}
+        {Object.values(Tone)
+          .filter((i) => !isNaN(Number(i)))
+          .map((c) => (
+            <Message tone={Tone[c]} key={c}>
+              {text}
+            </Message>
+          ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -52,12 +49,13 @@ describe('Message', () => {
   it('Message in dark mode with all color variants', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        {colors.map((c) => (
-          <Message tone={c as TTone} key={c}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
-            eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-          </Message>
-        ))}
+        {Object.values(Tone)
+          .filter((i) => !isNaN(Number(i)))
+          .map((c, i) => (
+            <Message tone={Tone[c]} key={i}>
+              {text}
+            </Message>
+          ))}
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -65,10 +63,7 @@ describe('Message', () => {
   it('Message stretched to full width', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Message stretched>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
-          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </Message>
+        <Message stretched>{text}</Message>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -76,21 +71,15 @@ describe('Message', () => {
   it('Message with close button', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Message closable>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
-          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </Message>
+        <Message closable>{text}</Message>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
-  it('Message with header', () => {
+  it('Message with custom element', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Message header="Lorem ipsum dolor sit amet consectetur adipisicing elit">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
-          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </Message>
+        <Message ele={<div style={{ display: 'flex' }} />}>{text}</Message>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -98,10 +87,7 @@ describe('Message', () => {
   it('Message with sharp label', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Message sharp>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
-          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </Message>
+        <Message sharp>{text}</Message>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -109,10 +95,7 @@ describe('Message', () => {
   it('Message with no label', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Message withoutLabel>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
-          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
-        </Message>
+        <Message withoutLabel>{text}</Message>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -122,8 +105,7 @@ describe('Message', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
         <Message closable outlined>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
-          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
+          {text}
         </Message>
       </ThemeProvider>,
     );
@@ -141,8 +123,7 @@ describe('Message', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Message closable onClose={mockCallback} outlined>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
-          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
+          {text}
         </Message>
       </ThemeProvider>,
     );
@@ -162,8 +143,7 @@ describe('Message', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         <Message closable duration={2000} onClose={mockCallback} outlined>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quae ex minima aliquam. Perspiciatis, dolorem
-          eaque. Ea, sit dolores quaerat eos quas culpa. Deserunt non obcaecati, quaerat fugiat ipsa aspernatur.
+          {text}
         </Message>
       </ThemeProvider>,
     );

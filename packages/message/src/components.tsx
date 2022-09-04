@@ -31,8 +31,8 @@ const MessageLabelIcon = (p: IMessageProps) => {
  * @internal
  */
 const MessageRoot = styled.div<IMessageProps>`
-  ${({ stretched }) => css`
-    margin-bottom: 1rem;
+  ${({ stretched, margin }) => css`
+    margin: ${margin};
     width: ${stretched ? '100%' : 'fit-content'};
     position: relative;
   `}
@@ -120,16 +120,4 @@ const MessageContent = styled.div<IMessageProps>`
   `}
 `;
 
-/**
- * Message header component
- *
- * @internal
- */
-const Header = styled.div<IMessageProps>`
-  ${({ theme: { typography } }) => css`
-    font-size: ${typography.h6.fontSize};
-    margin-bottom: 0.25rem;
-  `}
-`;
-
-export { CloseButton, Header, MessageContent, MessageLabel, MessageLabelIcon, MessageRoot };
+export { CloseButton, MessageContent, MessageLabel, MessageLabelIcon, MessageRoot };
