@@ -4,11 +4,15 @@ import { IStackProps } from './types';
 
 const StackRoot = styled.div<IStackProps>`
   display: flex;
-  ${({ order, justify, gap, fold }) => css`
+  ${({ align, order, justify, gap, fold, margin, height, width }) => css`
     flex-direction: ${order};
     justify-content: ${justify};
+    align-content: ${align};
     gap: ${gap};
     flex-wrap: ${fold ? 'wrap' : 'nowrap'};
+    margin: ${margin};
+    height: ${height};
+    width: ${width};
   `}
 `;
 
@@ -38,7 +42,7 @@ const Stack = React.forwardRef<HTMLDivElement, IStackProps>((props, ref) => {
 });
 
 Stack.defaultProps = {
-  align: 'center',
+  align: 'flex-start',
   fold: false,
 };
 

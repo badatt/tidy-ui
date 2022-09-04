@@ -2,26 +2,53 @@ import { HTMLAttributes } from 'react';
 import { IBaseProps } from '@tidy-ui/types';
 
 /**
+ * Align
+ */
+export enum Align {
+  'stretch',
+  'baseline',
+  'flex-start',
+  'flex-end',
+  'center',
+}
+
+/**
  * Align items props
  */
-export type TAlign = 'stretch' | 'baseline' | 'flex-start' | 'flex-end' | 'center';
+export type TAlign = keyof typeof Align;
+
+/**
+ * Justify
+ */
+export enum Justify {
+  'flex-start',
+  'center',
+  'flex-end',
+  'space-between',
+  'space-around',
+  'space-evenly',
+  'stretch',
+}
 
 /**
  * Justify content props
  */
-export type TJustify =
-  | 'flex-start'
-  | 'center'
-  | 'flex-end'
-  | 'space-between'
-  | 'space-around'
-  | 'space-evenly'
-  | 'stretch';
+export type TJustify = keyof typeof Justify;
+
+/**
+ * Order
+ */
+export enum Order {
+  'row',
+  'row-reverse',
+  'column',
+  'column-reverse',
+}
 
 /**
  * Order props
  */
-export type TOrder = 'row' | 'row-reverse' | 'column' | 'column-reverse';
+export type TOrder = keyof typeof Order;
 
 /**
  * Stack props
@@ -52,6 +79,11 @@ export interface IStackProps extends IBaseProps, HTMLAttributes<HTMLDivElement> 
   gap?: string;
 
   /**
+   * css `height` equivalent
+   */
+  height?: string;
+
+  /**
    * Justifies content, equivalent to css `justify-content`
    *
    * @default 'flex-start'
@@ -59,9 +91,19 @@ export interface IStackProps extends IBaseProps, HTMLAttributes<HTMLDivElement> 
   justify?: TJustify;
 
   /**
+   * Margin, css `margin` equivalent
+   */
+  margin?: string;
+
+  /**
    * Direction to arrange the elements inside the Stack
    *
    * @default 'row'
    */
   order?: TOrder;
+
+  /**
+   * css `width` equivalent
+   */
+  width?: string;
 }

@@ -1,129 +1,197 @@
 import React from 'react';
-import { styled, Icon, css } from '@tidy-ui/commons';
 import { Divider } from '@tidy-ui/divider';
-import { Tag, Button, Badge, Text, IconButton } from '@tidy-ui/presentation';
 import { Stack } from '../src';
-import { IStackProps, TAlign, TJustify, TOrder } from '../src/types';
+import { Align, Justify, Order } from '../src/types';
+import { StackProvider, Ctx } from './StackProvider';
+import { StackItem, StyledText } from './components';
+import { Text } from '@tidy-ui/text';
 
 export default {
   component: Stack,
   title: 'Layout/Stack',
 };
 
-const DangerIcon = styled(Icon.Dangerous)<IStackProps>`
-  height: 1rem;
-  width: 1rem;
-  ${({ theme: { palette } }) =>
-    css`
-      color: ${palette['neutral'][500]};
-    `}
-`;
-
-const items = [
-  <Text>One</Text>,
-  <Tag size="sm">Two</Tag>,
-  <Text>Three</Text>,
-  <Button size="xs">Four</Button>,
-  <Text>Five</Text>,
-  <Text>Six</Text>,
-  <Badge data={9}>
-    <DangerIcon />
-  </Badge>,
-  <Text>Seven</Text>,
-  <Text>Eight</Text>,
-  <IconButton size="xs" icon={<DangerIcon />}>
-    Nine
-  </IconButton>,
-  <Text>Ten</Text>,
-  <Tag size="sm">Eleven</Tag>,
-  <Text>Twelve</Text>,
-  <Button size="xs">Thirteen</Button>,
-  <Text>Fourteen</Text>,
-  <Text>Fifteen</Text>,
-  <Badge data={9}>
-    <DangerIcon />
-  </Badge>,
-  <Text>Sixteen</Text>,
-  <Text>Seventeen</Text>,
-  <IconButton size="xs" icon={<DangerIcon />}>
-    Eighteen
-  </IconButton>,
-];
+const label = 'h3';
 
 export const basic = () => (
-  <Stack divider={<Divider vertical />}>{items.map((v, i) => React.cloneElement(v, { key: i }))}</Stack>
+  <StackProvider>
+    <Ctx.Consumer>
+      {({ count }) => (
+        <Stack>
+          {[...Array(count)].map((v, i) => (
+            <StackItem key={i}>
+              <StyledText v={label}>{i}</StyledText>
+            </StackItem>
+          ))}
+        </Stack>
+      )}
+    </Ctx.Consumer>
+  </StackProvider>
 );
 
-export const order = () => {
-  const variants = ['row', 'row-reverse', 'column', 'column-reverse'];
-  return (
-    <>
-      {variants.map((v, i) => (
-        <div key={i}>
-          <Text v="h5" style={{ margin: '1rem 0' }}>
-            {v}
-          </Text>
-          <Divider margin="1rem" />
-          <Stack
-            key={i}
-            divider={<Divider vertical={v.startsWith('row')} length="1rem" align="center" />}
-            gap="0.5rem"
-            order={v as TOrder}
-          >
-            {items.map((v, i) => React.cloneElement(v, { key: i }))}
-          </Stack>
-        </div>
-      ))}
-    </>
-  );
-};
+export const divider = () => (
+  <StackProvider>
+    <Ctx.Consumer>
+      {({ count }) => (
+        <Stack divider={<Divider vertical />}>
+          {[...Array(count)].map((v, i) => (
+            <StackItem key={i}>
+              <StyledText v={label}>{i}</StyledText>
+            </StackItem>
+          ))}
+        </Stack>
+      )}
+    </Ctx.Consumer>
+  </StackProvider>
+);
 
 export const gap = () => (
-  <Stack divider={<Divider vertical />} gap="1rem">
-    {items.map((v, i) => React.cloneElement(v, { key: i }))}
-  </Stack>
+  <StackProvider>
+    <Ctx.Consumer>
+      {({ count }) => (
+        <Stack gap="1rem">
+          {[...Array(count)].map((v, i) => (
+            <StackItem key={i}>
+              <StyledText v={label}>{i}</StyledText>
+            </StackItem>
+          ))}
+        </Stack>
+      )}
+    </Ctx.Consumer>
+  </StackProvider>
 );
 
 export const fold = () => (
-  <Stack divider={<Divider vertical />} gap="0.5rem" fold>
-    {[...items, ...items].map((v, i) => React.cloneElement(v, { key: i }))}
-  </Stack>
+  <StackProvider size={24}>
+    <Ctx.Consumer>
+      {({ count }) => (
+        <Stack fold>
+          {[...Array(count)].map((v, i) => (
+            <StackItem key={i}>
+              <StyledText v={label}>{i}</StyledText>
+            </StackItem>
+          ))}
+        </Stack>
+      )}
+    </Ctx.Consumer>
+  </StackProvider>
 );
 
-export const align = () => {
-  const variants = ['stretch', 'baseline', 'flex-start', 'flex-end', 'center'];
-  return (
-    <>
-      {variants.map((v, i) => (
-        <div key={i}>
-          <Text v="h5" style={{ margin: '1rem 0' }}>
-            {v}
-          </Text>
-          <Divider margin="1rem" />
-          <Stack key={i} divider={<Divider vertical />} gap="0.5rem" align={v as TAlign} fold>
-            {items.map((v, i) => React.cloneElement(v, { key: i }))}
-          </Stack>
-        </div>
+export const order = () => (
+  <>
+    {Object.keys(Order)
+      .filter((i) => !isNaN(Number(i)))
+      .map((v, i) => (
+        <>
+          <StackProvider key={i}>
+            <Text v="h6">{Order[v]}</Text>
+            <Ctx.Consumer>
+              {({ count }) => (
+                <Stack order={Order[v]}>
+                  {[...Array(count)].map((v, i) => (
+                    <StackItem key={i}>
+                      <StyledText v={label}>{i}</StyledText>
+                    </StackItem>
+                  ))}
+                </Stack>
+              )}
+            </Ctx.Consumer>
+          </StackProvider>
+          <Divider margin="2rem" />
+        </>
       ))}
-    </>
-  );
-};
+  </>
+);
 
-export const justify = () => {
-  const variants = ['flex-start', 'center', 'flex-end', 'space-between', 'space-around', 'space-evenly', 'stretch'];
-  return (
-    <>
-      {variants.map((v, i) => (
-        <div key={i}>
-          <Text v="h5" style={{ margin: '1rem 0' }}>
-            {v}
-          </Text>
-          <Divider margin="1rem" />
-          <Stack key={i} divider={<Divider vertical />} gap="0.5rem" justify={v as TJustify} fold>
-            {items.map((v, i) => React.cloneElement(v, { key: i }))}
-          </Stack>
-        </div>
+export const align = () => (
+  <>
+    {Object.keys(Align)
+      .filter((i) => !isNaN(Number(i)))
+      .map((v, i) => (
+        <>
+          <StackProvider key={i}>
+            <Text v="h6">{Align[v]}</Text>
+            <Ctx.Consumer>
+              {({ count }) => (
+                <Stack align={Align[v]} height="10rem">
+                  {[...Array(count)].map((v, i) => (
+                    <StackItem key={i}>
+                      <StyledText v={label}>{i}</StyledText>
+                    </StackItem>
+                  ))}
+                </Stack>
+              )}
+            </Ctx.Consumer>
+          </StackProvider>
+          <Divider margin="2rem" />
+        </>
       ))}
-    </>
-  );
-};
+  </>
+);
+
+export const justify = () => (
+  <>
+    {Object.keys(Justify)
+      .filter((i) => !isNaN(Number(i)))
+      .map((v, i) => (
+        <>
+          <StackProvider key={i}>
+            <Text v="h6">{Justify[v]}</Text>
+            <Ctx.Consumer>
+              {({ count }) => (
+                <Stack justify={Justify[v]}>
+                  {[...Array(count)].map((v, i) => (
+                    <StackItem key={i}>
+                      <StyledText v={label}>{i}</StyledText>
+                    </StackItem>
+                  ))}
+                </Stack>
+              )}
+            </Ctx.Consumer>
+          </StackProvider>
+          <Divider margin="2rem" />
+        </>
+      ))}
+  </>
+);
+
+export const customSize = () => (
+  <StackProvider>
+    <Ctx.Consumer>
+      {({ count }) => (
+        <Stack fold height="25rem" width="75rem" align="baseline" gap="0.5rem" style={{ border: '1px dashed gray' }}>
+          {[...Array(count)].map((v, i) => (
+            <StackItem key={i}>
+              <StyledText v={label}>{i}</StyledText>
+            </StackItem>
+          ))}
+        </Stack>
+      )}
+    </Ctx.Consumer>
+  </StackProvider>
+);
+
+export const customMargin = () => (
+  <StackProvider>
+    <Ctx.Consumer>
+      {({ count }) => (
+        <>
+          <Stack margin="0 0 2rem 0">
+            {[...Array(count)].map((v, i) => (
+              <StackItem key={i}>
+                <StyledText v={label}>{i}</StyledText>
+              </StackItem>
+            ))}
+          </Stack>
+          <Stack>
+            {[...Array(count)].map((v, i) => (
+              <StackItem key={i}>
+                <StyledText v={label}>{i}</StyledText>
+              </StackItem>
+            ))}
+          </Stack>
+        </>
+      )}
+    </Ctx.Consumer>
+  </StackProvider>
+);
