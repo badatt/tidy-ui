@@ -8,10 +8,7 @@ import { INewTagInput, ITagGroupProps, ITagProps } from './types';
  * @internal
  */
 const TagRoot = styled.div<ITagProps>`
-  ${({ outlined, size, disabled }) => css`
-    display: flex;
-    align-items: center;
-    gap: 0.25rem;
+  ${({ outlined, size, disabled, icon }) => css`
     padding: ${sizeStyles[size!].padding};
     border-radius: 0.25rem;
     font-size: ${sizeStyles[size!].fontSize};
@@ -22,6 +19,12 @@ const TagRoot = styled.div<ITagProps>`
     css`
       cursor: not-allowed;
       opacity: 0.5;
+    `}
+    ${icon &&
+    css`
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
     `}
   `}
 `;
@@ -41,12 +44,13 @@ const TagCloseIcon = styled(Icon.Close)<ITagProps>`
  * @internal
  */
 const TagGroupRoot = styled.div<ITagGroupProps>`
-  ${({ size }) => css`
+  ${({ size, margin }) => css`
     display: flex;
     align-items: center;
     justify-content: flex-start;
     font-size: ${sizeStyles[size!].fontSize};
     gap: 0.5rem;
+    margin: ${margin};
   `}
 `;
 

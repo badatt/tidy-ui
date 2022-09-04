@@ -7,12 +7,6 @@ export default {
   title: 'Presentation/Tag/TagGroup',
 };
 
-const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-`;
-
 export const appendable = () => {
   const [tags, setTags] = useState(['react', 'java', 'cloud']);
 
@@ -29,15 +23,15 @@ export const appendable = () => {
   };
 
   return (
-    <Container>
-      <TagGroup size="sm" tone="info" onAddNewTag={handleTagAdd}>
+    <>
+      <TagGroup size="sm" tone="info" onAddNewTag={handleTagAdd} margin="0 0 1rem 0">
         {tags.map((t) => (
           <Tag size="sm" key={t} tone="info" onClose={() => handleTagRemove(t)}>
             {t}
           </Tag>
         ))}
       </TagGroup>
-      <TagGroup onAddNewTag={handleTagAdd}>
+      <TagGroup onAddNewTag={handleTagAdd} margin="0 0 1rem 0">
         {tags.map((t) => (
           <Tag key={t} onClose={() => handleTagRemove(t)}>
             {t}
@@ -51,6 +45,6 @@ export const appendable = () => {
           </Tag>
         ))}
       </TagGroup>
-    </Container>
+    </>
   );
 };

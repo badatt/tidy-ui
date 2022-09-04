@@ -4,15 +4,6 @@ exports[`Tag Basic render 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: .75rem;
@@ -28,22 +19,13 @@ Object {
     <div>
       <div
         class="c0"
-        role="list"
+        role="listitem"
       >
         html
       </div>
     </div>
   </body>,
   "container": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: .75rem;
@@ -58,7 +40,7 @@ Object {
 <div>
     <div
       class="c0"
-      role="list"
+      role="listitem"
     >
       html
     </div>
@@ -121,15 +103,6 @@ exports[`Tag Closable tag 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: .75rem;
@@ -139,6 +112,15 @@ Object {
   width: fit-content;
   background-color: hsla(271,91%,65%,1);
   color: hsla(270,100%,98%,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0.25rem;
 }
 
 .c1 {
@@ -149,7 +131,7 @@ Object {
     <div>
       <div
         class="c0"
-        role="list"
+        role="listitem"
       >
         html
         <i
@@ -174,15 +156,6 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: .75rem;
@@ -192,6 +165,15 @@ Object {
   width: fit-content;
   background-color: hsla(271,91%,65%,1);
   color: hsla(270,100%,98%,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0.25rem;
 }
 
 .c1 {
@@ -201,7 +183,7 @@ Object {
 <div>
     <div
       class="c0"
-      role="list"
+      role="listitem"
     >
       html
       <i
@@ -282,15 +264,6 @@ exports[`Tag Disabled tag 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: .75rem;
@@ -309,22 +282,13 @@ Object {
       <div
         class="c0"
         disabled=""
-        role="list"
+        role="listitem"
       >
         html
       </div>
     </div>
   </body>,
   "container": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: .75rem;
@@ -342,7 +306,7 @@ Object {
     <div
       class="c0"
       disabled=""
-      role="list"
+      role="listitem"
     >
       html
     </div>
@@ -405,15 +369,6 @@ exports[`Tag Outlined tag 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: .75rem;
@@ -430,22 +385,13 @@ Object {
     <div>
       <div
         class="c0"
-        role="list"
+        role="listitem"
       >
         html
       </div>
     </div>
   </body>,
   "container": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: .75rem;
@@ -461,7 +407,7 @@ Object {
 <div>
     <div
       class="c0"
-      role="list"
+      role="listitem"
     >
       html
     </div>
@@ -524,15 +470,6 @@ exports[`Tag Outlined tag in dark mode 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: .75rem;
@@ -549,22 +486,13 @@ Object {
     <div>
       <div
         class="c0"
-        role="list"
+        role="listitem"
       >
         html
       </div>
     </div>
   </body>,
   "container": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: .75rem;
@@ -580,7 +508,7 @@ Object {
 <div>
     <div
       class="c0"
-      role="list"
+      role="listitem"
     >
       html
     </div>
@@ -643,15 +571,6 @@ exports[`Tag Tag with icon 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: .75rem;
@@ -661,13 +580,22 @@ Object {
   width: fit-content;
   background-color: hsla(271,91%,65%,1);
   color: hsla(270,100%,98%,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0.25rem;
 }
 
 <body>
     <div>
       <div
         class="c0"
-        role="list"
+        role="listitem"
       >
         <i
           style="height: 1.25em; width: 1.25em;"
@@ -690,15 +618,6 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: .75rem;
@@ -708,12 +627,21 @@ Object {
   width: fit-content;
   background-color: hsla(271,91%,65%,1);
   color: hsla(270,100%,98%,1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0.25rem;
 }
 
 <div>
     <div
       class="c0"
-      role="list"
+      role="listitem"
     >
       <i
         style="height: 1.25em; width: 1.25em;"
@@ -792,15 +720,6 @@ exports[`Tag Tags with all color variants 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: .75rem;
@@ -813,15 +732,6 @@ Object {
 }
 
 .c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: .75rem;
@@ -834,15 +744,6 @@ Object {
 }
 
 .c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: .75rem;
@@ -855,36 +756,6 @@ Object {
 }
 
 .c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
-  padding: 0.25rem 0.5rem;
-  border-radius: 0.25rem;
-  font-size: .75rem;
-  line-height: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  background-color: hsla(142,71%,45%,1);
-  color: hsla(138,76%,97%,1);
-}
-
-.c4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: .75rem;
@@ -896,16 +767,19 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
+.c4 {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: .75rem;
+  line-height: 1rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: hsla(142,71%,45%,1);
+  color: hsla(138,76%,97%,1);
+}
+
 .c5 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: .75rem;
@@ -918,15 +792,6 @@ Object {
 }
 
 .c6 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: .75rem;
@@ -942,58 +807,49 @@ Object {
     <div>
       <div
         class="c0"
-        role="list"
+        role="listitem"
       >
-        html
+        major
       </div>
       <div
         class="c1"
-        role="list"
+        role="listitem"
       >
-        typescript
+        minor
       </div>
       <div
         class="c2"
-        role="list"
+        role="listitem"
       >
-        cloud
+        neutral
       </div>
       <div
         class="c3"
-        role="list"
+        role="listitem"
       >
-        javascript
+        info
       </div>
       <div
         class="c4"
-        role="list"
+        role="listitem"
       >
-        java
+        success
       </div>
       <div
         class="c5"
-        role="list"
+        role="listitem"
       >
-        sass
+        warning
       </div>
       <div
         class="c6"
-        role="list"
+        role="listitem"
       >
-        css
+        danger
       </div>
     </div>
   </body>,
   "container": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: .75rem;
@@ -1006,15 +862,6 @@ Object {
 }
 
 .c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: .75rem;
@@ -1027,15 +874,6 @@ Object {
 }
 
 .c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: .75rem;
@@ -1048,36 +886,6 @@ Object {
 }
 
 .c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
-  padding: 0.25rem 0.5rem;
-  border-radius: 0.25rem;
-  font-size: .75rem;
-  line-height: 1rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  background-color: hsla(142,71%,45%,1);
-  color: hsla(138,76%,97%,1);
-}
-
-.c4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: .75rem;
@@ -1089,16 +897,19 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
+.c4 {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: .75rem;
+  line-height: 1rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: hsla(142,71%,45%,1);
+  color: hsla(138,76%,97%,1);
+}
+
 .c5 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: .75rem;
@@ -1111,15 +922,6 @@ Object {
 }
 
 .c6 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: .75rem;
@@ -1134,45 +936,45 @@ Object {
 <div>
     <div
       class="c0"
-      role="list"
+      role="listitem"
     >
-      html
+      major
     </div>
     <div
       class="c1"
-      role="list"
+      role="listitem"
     >
-      typescript
+      minor
     </div>
     <div
       class="c2"
-      role="list"
+      role="listitem"
     >
-      cloud
+      neutral
     </div>
     <div
       class="c3"
-      role="list"
+      role="listitem"
     >
-      javascript
+      info
     </div>
     <div
       class="c4"
-      role="list"
+      role="listitem"
     >
-      java
+      success
     </div>
     <div
       class="c5"
-      role="list"
+      role="listitem"
     >
-      sass
+      warning
     </div>
     <div
       class="c6"
-      role="list"
+      role="listitem"
     >
-      css
+      danger
     </div>
   </div>,
   "debug": [Function],
@@ -1233,15 +1035,6 @@ exports[`Tag Tags with all magnitude variants 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.125rem 0.25rem;
   border-radius: 0.25rem;
   font-size: .625rem;
@@ -1254,15 +1047,6 @@ Object {
 }
 
 .c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: .75rem;
@@ -1275,15 +1059,6 @@ Object {
 }
 
 .c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.25rem 0.625rem;
   border-radius: 0.25rem;
   font-size: .875rem;
@@ -1299,34 +1074,25 @@ Object {
     <div>
       <div
         class="c0"
-        role="list"
+        role="listitem"
       >
         html
       </div>
       <div
         class="c1"
-        role="list"
+        role="listitem"
       >
         typescript
       </div>
       <div
         class="c2"
-        role="list"
+        role="listitem"
       >
         javascript
       </div>
     </div>
   </body>,
   "container": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.125rem 0.25rem;
   border-radius: 0.25rem;
   font-size: .625rem;
@@ -1339,15 +1105,6 @@ Object {
 }
 
 .c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: .75rem;
@@ -1360,15 +1117,6 @@ Object {
 }
 
 .c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.25rem;
   padding: 0.25rem 0.625rem;
   border-radius: 0.25rem;
   font-size: .875rem;
@@ -1383,19 +1131,19 @@ Object {
 <div>
     <div
       class="c0"
-      role="list"
+      role="listitem"
     >
       html
     </div>
     <div
       class="c1"
-      role="list"
+      role="listitem"
     >
       typescript
     </div>
     <div
       class="c2"
-      role="list"
+      role="listitem"
     >
       javascript
     </div>

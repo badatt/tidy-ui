@@ -10,7 +10,7 @@ import { ITagProps } from './types';
 const Tag = React.forwardRef<HTMLDivElement, ITagProps>((props, ref) => {
   const { children, className, icon, onClose, ...rest } = props;
   return (
-    <TagRoot className={className} ref={ref} role="list" {...rest}>
+    <TagRoot className={className} ref={ref} role="listitem" icon={icon || onClose} {...rest}>
       {icon && <Icon ele={icon} />}
       {children}
       {onClose && <Icon ele={<TagCloseIcon onClick={onClose} role="button" />} />}

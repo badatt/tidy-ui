@@ -27,6 +27,23 @@ describe('TagGroup', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('Grouped tags with TagGroup margin', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        <TagGroup margin="0 0 1rem 0">
+          <Tag size="sm">html</Tag>
+          <Tag>typescript</Tag>
+          <Tag size="lg">javascript</Tag>
+          <Tag disabled>cloud</Tag>
+          <Tag icon={<Icon ele={<Icon.CheckCircle />} />} onClose={jest.fn()}>
+            kotlin
+          </Tag>
+        </TagGroup>
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
   it('TagGroup mutating by bluing the input', () => {
     const tags = ['react', 'java', 'cloud', 'scss'];
     const mockOnAddNewTag = jest.fn();
