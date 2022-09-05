@@ -4,8 +4,9 @@ import { FlexItem } from './FlexItem';
 import { IFlexBoxProps } from './types';
 
 const FlexBoxRoot = styled.div<IFlexBoxProps>`
-  ${({ height, width, fuh, alc, ali, cgp, fld, flow, gap, jsc, rgp, nowrap }) => css`
+  ${({ height, width, fuh, alc, ali, cgp, fld, flow, gap, jsc, rgp, nowrap, margin }) => css`
     display: flex;
+    margin: ${margin};
     flex-direction: ${fld};
     justify-content: ${jsc};
     flex-wrap: ${nowrap ? 'nowrap' : 'wrap'};

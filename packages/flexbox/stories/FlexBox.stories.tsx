@@ -248,3 +248,30 @@ export const justifyContent = () => {
     </>
   );
 };
+
+export const customMargin = () => {
+  return (
+    <FlexBoxProvider>
+      <Ctx.Consumer>
+        {({ count }) => (
+          <>
+            <StyledFlexBox height={height} margin="0 0 3rem 0">
+              {[...Array(count)].map((c, i) => (
+                <StyledFlexItem key={i} style={{ padding: '3rem' }}>
+                  <StyledText v={label}>{i}</StyledText>
+                </StyledFlexItem>
+              ))}
+            </StyledFlexBox>
+            <StyledFlexBox height={height} margin="0 0 1rem 0">
+              {[...Array(count)].map((c, i) => (
+                <StyledFlexItem key={i} style={{ padding: '3rem' }}>
+                  <StyledText v={label}>{i}</StyledText>
+                </StyledFlexItem>
+              ))}
+            </StyledFlexBox>
+          </>
+        )}
+      </Ctx.Consumer>
+    </FlexBoxProvider>
+  );
+};

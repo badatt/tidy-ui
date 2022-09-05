@@ -14,7 +14,9 @@ const GridRoot = styled.div<IGridProps>`
     fixed,
     gutter,
     gap,
+    margin,
   }) => css`
+    margin: ${margin};
     ${gutter &&
     css`
       padding: 0 ${gutter};

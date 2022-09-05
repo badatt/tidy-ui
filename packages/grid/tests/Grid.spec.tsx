@@ -74,4 +74,18 @@ describe('Grid', () => {
     );
     expect(tree).toMatchSnapshot();
   });
+
+  it('Custom marginr', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        <Grid margin="0 0 3rem 0">
+          <Items />
+        </Grid>
+        <Grid>
+          <Items />
+        </Grid>
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
 });
