@@ -181,4 +181,14 @@ describe('FlexBox', () => {
     );
     expect(tree).toMatchSnapshot();
   });
+
+  it('Margin', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        <FlexBoxWrapper flow="column wrap" margin="0 0 3rem 0" />
+        <FlexBoxWrapper flow="column wrap" />
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
 });

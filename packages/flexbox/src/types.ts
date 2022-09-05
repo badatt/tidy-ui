@@ -182,6 +182,11 @@ export interface IFlexBoxProps extends IBaseProps, HTMLAttributes<HTMLDivElement
   jsc?: TJustifyContent;
 
   /**
+   * Margin, css `margin` equivalent
+   */
+  margin?: string;
+
+  /**
    * If `true`, sets `flex-wrap: nowrap` the items
    *
    * @default false

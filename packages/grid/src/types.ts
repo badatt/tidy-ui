@@ -22,6 +22,11 @@ export interface IGridProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
    * @default '0.5rem'
    */
   gutter?: string;
+
+  /**
+   * Margin, css `margin` equivalent
+   */
+  margin?: string;
 }
 
 /**

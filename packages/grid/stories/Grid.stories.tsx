@@ -11,7 +11,6 @@ export default {
 };
 
 const StyledGrid = styled(Grid)<IGridProps>`
-  margin-bottom: 2rem;
   ${({ theme: { isDark } }) =>
     isDark
       ? css`
@@ -241,6 +240,37 @@ export const customLayout = () => {
               </Grid.Item>
             ))}
           </StyledGrid>
+        )}
+      </Ctx.Consumer>
+    </GridProvider>
+  );
+};
+
+export const customMargin = () => {
+  return (
+    <GridProvider>
+      <Ctx.Consumer>
+        {({ count }) => (
+          <>
+            <StyledGrid margin="0 0 3rem 0">
+              {[...Array(count)].map((c, i) => (
+                <Grid.Item key={i}>
+                  <TextWrap style={{ padding: '3rem' }}>
+                    <StyledText v="h3">{i}</StyledText>
+                  </TextWrap>
+                </Grid.Item>
+              ))}
+            </StyledGrid>
+            <StyledGrid>
+              {[...Array(count)].map((c, i) => (
+                <Grid.Item key={i}>
+                  <TextWrap style={{ padding: '3rem' }}>
+                    <StyledText v="h3">{i}</StyledText>
+                  </TextWrap>
+                </Grid.Item>
+              ))}
+            </StyledGrid>
+          </>
         )}
       </Ctx.Consumer>
     </GridProvider>
