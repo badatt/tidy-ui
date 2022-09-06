@@ -1,6 +1,26 @@
 import { ITidyUIBaseTheme } from './base';
 
 /**
+ * GlobalStyles
+ */
+export interface IGlobalStyle {
+  /**
+   * css `font-family` equivalent
+   */
+  fontFamily?: string;
+
+  /**
+   * when given, added to `@import url()` in css
+   */
+  fontUrl?: string;
+
+  /**
+   * theme
+   */
+  theme?: ITidyUITheme;
+}
+
+/**
  * Contract to define a custom theme. You should define all the required properties
  * under this interface to build a custom theme
  *

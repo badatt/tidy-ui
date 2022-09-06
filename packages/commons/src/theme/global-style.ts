@@ -1,20 +1,16 @@
 import { createGlobalStyle } from 'styled-components';
-import { ITidyUITheme } from '@tidy-ui/types';
+import { IGlobalStyle } from '@tidy-ui/types';
 import { css } from '.';
 
-/**
- * GlobalStyles
- */
-export interface IGlobalStyle {
-  /**
-   * theme
-   */
-  theme?: ITidyUITheme;
-}
-
 const GlobalStyle = createGlobalStyle<IGlobalStyle>`
-  ${({ theme: { palette } }) => css`
-    @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  ${({ theme: { palette }, fontUrl, fontFamily }) => css`
+    ${fontUrl
+      ? css`
+          @import url(${`'${fontUrl}'`});
+        `
+      : css`
+          @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        `}
 
     *,
     *:before,
@@ -47,10 +43,11 @@ const GlobalStyle = createGlobalStyle<IGlobalStyle>`
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
       text-rendering: optimizeLegibility;
-      font-family: 'PT Sans', 'Helvetica Neue', Arial, 'PingFang SC', 'microsoft yahei', 'hiragino sans gb',
+      font-family: ${fontFamily ||
+      `'PT Sans', 'Helvetica Neue', Arial, 'PingFang SC', 'microsoft yahei', 'hiragino sans gb',
         '游ゴシック Medium', 'Yu Gothic Medium', YuGothicM, 游ゴシック体, YuGothic, 'ヒラギノ角ゴ Pro',
         'Hiragino Kaku Gothic Pro', 'Meiryo UI', メイリオ, Meiryom, 'PT Sans', 'Apple SD Gothic Neo', 'Malgun Gothic',
-        Dotum, 'Noto Sans CJK KR', sans-serif;
+        Dotum, 'Noto Sans CJK KR', sans-serif;`};
     }
 
     article,
