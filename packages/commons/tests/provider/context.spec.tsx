@@ -1,12 +1,11 @@
 /**
  * @jest-environment jsdom
  */
-import React, { useContext, useEffect } from 'react';
+import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidLight, Actions } from '@tidy-ui/commons';
-import { TidyUiContext, initialState } from '../../src';
+import { Actions, TidyUiContext, initialState } from '../../src';
 
 describe('TidyUiContext', () => {
   it('Provider', () => {

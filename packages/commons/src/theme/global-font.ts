@@ -1,3 +1,4 @@
+/* istanbul ignore file */
 import { createGlobalStyle } from 'styled-components';
 import { IGlobalFont } from '@tidy-ui/types';
 import { css } from '.';
