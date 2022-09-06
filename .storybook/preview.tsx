@@ -2,8 +2,7 @@ import React from 'react';
 import { DecoratorFn } from '@storybook/react';
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 
-import { orchidLight, orchidDark, css, styled } from '@tidy-ui/commons';
-import { TidyUiProvider } from '@tidy-ui/commons';
+import { orchidLight, orchidDark, css, styled, TidyUiProvider, GlobalStyle } from '@tidy-ui/commons';
 import additionalViePorts from './viewports';
 import { light, dark } from './theme';
 
@@ -45,11 +44,13 @@ export const withTheme: DecoratorFn = (StoryFn, context) => {
       return (
         <>
           <TidyUiProvider theme={orchidLight}>
+            <GlobalStyle />
             <ThemeBlock left padding={padding}>
               <StoryFn />
             </ThemeBlock>
           </TidyUiProvider>
           <TidyUiProvider theme={orchidDark}>
+            <GlobalStyle />
             <ThemeBlock padding={padding}>
               <StoryFn />
             </ThemeBlock>
@@ -59,11 +60,14 @@ export const withTheme: DecoratorFn = (StoryFn, context) => {
     }
     default: {
       return (
-        <TidyUiProvider theme={storyTheme}>
-          <ThemeBlock filled padding={padding}>
-            <StoryFn />
-          </ThemeBlock>
-        </TidyUiProvider>
+        <>
+          <TidyUiProvider theme={storyTheme}>
+            <GlobalStyle />
+            <ThemeBlock filled padding={padding}>
+              <StoryFn />
+            </ThemeBlock>
+          </TidyUiProvider>
+        </>
       );
     }
   }
