@@ -149,10 +149,10 @@ describe('Divider', () => {
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
             <React.Fragment key={i}>
-              <Text>
+              <div>
                 <Text v="h6">align={Position[v]}</Text>
-                {text}
-              </Text>
+                <Text>{text}</Text>
+              </div>
               <Divider vertical align={Position[v]} length="2rem" />
             </React.Fragment>
           ))}
@@ -168,10 +168,10 @@ describe('Divider', () => {
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
             <React.Fragment key={i}>
-              <Text>
+              <div>
                 <Text v="h6">align={Position[v]}</Text>
-                {text}
-              </Text>
+                <Text>{text}</Text>
+              </div>
               <Divider align={Position[v]} length="2rem" />
             </React.Fragment>
           ))}

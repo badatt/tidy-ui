@@ -157,7 +157,7 @@ const DD = styled.dd<IDataFieldProps>`
         height: 0.8em;
         width: 0.125rem;
         margin-right: 0.25rem;
-        background-color: ${palette[acc!][600]};
+        background-color: ${palette[acc][600]};
       }
     `}
   `}
