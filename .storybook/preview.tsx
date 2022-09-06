@@ -5,10 +5,12 @@ import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 import { orchidLight, orchidDark, css, styled } from '@tidy-ui/commons';
 import { TidyUiProvider } from '@tidy-ui/commons';
 import additionalViePorts from './viewports';
+import { light, dark } from './theme';
 
 export const parameters = {
-  backgrounds: {
-    values: [],
+  darkMode: {
+    dark: { ...dark },
+    light: { ...light },
   },
   viewport: {
     viewports: { ...additionalViePorts, ...INITIAL_VIEWPORTS },

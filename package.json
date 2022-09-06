@@ -81,6 +81,7 @@
     "react-dom": "^18.0.0",
     "rollup-plugin-typescript2": "^0.32.1",
     "storybook-addon-pseudo-states": "^1.15.1",
+    "storybook-dark-mode": "^1.1.0",
     "styled-components": "^5.3.3",
     "ts-jest": "^28.0.5",
     "ts-node": "^10.9.1",
