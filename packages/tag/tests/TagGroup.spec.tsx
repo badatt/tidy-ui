@@ -3,16 +3,15 @@
  */
 import React from 'react';
 import { fireEvent, getAllByRole, getByRole, render } from '@testing-library/react';
-import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { Icon, orchidDark, orchidLight } from '@tidy-ui/commons';
+import { Icon, orchidDark, orchidLight, TidyUiProvider } from '@tidy-ui/commons';
 import { Tag, TagGroup } from '../src';
 
 describe('TagGroup', () => {
   it('Grouped tags with TagGroup', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <TagGroup>
           <Tag size="sm">html</Tag>
           <Tag>typescript</Tag>
@@ -22,14 +21,14 @@ describe('TagGroup', () => {
             kotlin
           </Tag>
         </TagGroup>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Grouped tags with TagGroup margin', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <TagGroup margin="0 0 1rem 0">
           <Tag size="sm">html</Tag>
           <Tag>typescript</Tag>
@@ -39,7 +38,7 @@ describe('TagGroup', () => {
             kotlin
           </Tag>
         </TagGroup>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
@@ -49,7 +48,7 @@ describe('TagGroup', () => {
     const mockOnAddNewTag = jest.fn();
     const mockOnCloseTag = jest.fn();
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
+      <TidyUiProvider theme={orchidDark}>
         <TagGroup size="sm" onAddNewTag={mockOnAddNewTag}>
           {tags.map((t) => (
             <Tag size="sm" key={t} onClose={() => mockOnCloseTag(t)}>
@@ -57,7 +56,7 @@ describe('TagGroup', () => {
             </Tag>
           ))}
         </TagGroup>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
     const { container } = tree;
@@ -75,7 +74,7 @@ describe('TagGroup', () => {
     const mockOnAddNewTag = jest.fn();
     const mockOnCloseTag = jest.fn();
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <TagGroup size="sm" onAddNewTag={mockOnAddNewTag}>
           {tags.map((t) => (
             <Tag size="sm" key={t} onClose={() => mockOnCloseTag(t)}>
@@ -83,7 +82,7 @@ describe('TagGroup', () => {
             </Tag>
           ))}
         </TagGroup>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
     const { container } = tree;
@@ -102,7 +101,7 @@ describe('TagGroup', () => {
   it('TagGroup mutating without any addNewTag function param', () => {
     const tags = ['react', 'java', 'cloud', 'scss'];
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
+      <TidyUiProvider theme={orchidDark}>
         <TagGroup size="sm">
           {tags.map((t) => (
             <Tag size="sm" key={t} onClose={jest.fn()}>
@@ -110,7 +109,7 @@ describe('TagGroup', () => {
             </Tag>
           ))}
         </TagGroup>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
     const { container } = tree;

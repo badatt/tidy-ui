@@ -1,5 +1,4 @@
 import React from 'react';
-//import styled, { css, ThemeProvider } from 'styled-components';
 import { DecoratorFn } from '@storybook/react';
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 

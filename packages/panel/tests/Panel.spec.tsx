@@ -4,10 +4,9 @@
 import React from 'react';
 import { act } from 'react-dom/test-utils';
 import { fireEvent, getByRole, queryByRole, render } from '@testing-library/react';
-import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidDark, orchidLight } from '@tidy-ui/commons';
+import { orchidDark, orchidLight, TidyUiProvider } from '@tidy-ui/commons';
 import { Panel } from '../src';
 
 const text = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -26,30 +25,30 @@ const text = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
 describe('Panel', () => {
   it('Basic render', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <Panel>
           <Panel.Header>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Panel.Header>
           <Panel.Body>{text}</Panel.Body>
         </Panel>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
   it('Dark mode basic render', () => {
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
+      <TidyUiProvider theme={orchidDark}>
         <Panel>
           <Panel.Header>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Panel.Header>
           <Panel.Body>{text}</Panel.Body>
         </Panel>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Custom margin', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <Panel margin="0 0 1rem 0">
           <Panel.Header>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Panel.Header>
           <Panel.Body>{text}</Panel.Body>
@@ -58,28 +57,28 @@ describe('Panel', () => {
           <Panel.Header>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Panel.Header>
           <Panel.Body>{text}</Panel.Body>
         </Panel>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Custom header element', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <Panel>
           <Panel.Header ele={<div style={{ fontWeight: 'bold' }} />}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </Panel.Header>
           <Panel.Body>{text}</Panel.Body>
         </Panel>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Custom body element', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <Panel expanded>
           <Panel.Header>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Panel.Header>
           <Panel.Body ele={<div style={{ display: 'flex' }} />}>
@@ -88,19 +87,19 @@ describe('Panel', () => {
             <div>{text}</div>
           </Panel.Body>
         </Panel>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Toggle expand panel', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <Panel>
           <Panel.Header>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Panel.Header>
           <Panel.Body>{text}</Panel.Body>
         </Panel>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     const { container } = tree;
     const panelIcon = getByRole(container, 'button');

@@ -3,10 +3,9 @@
  */
 import React from 'react';
 import { render } from '@testing-library/react';
-import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidDark, orchidLight } from '@tidy-ui/commons';
+import { orchidDark, orchidLight, TidyUiProvider } from '@tidy-ui/commons';
 import { Divider } from '../src';
 import { Text } from '@tidy-ui/text';
 import { Density, Position, TVariant, Variant } from '../src/types';
@@ -19,35 +18,35 @@ const text = `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perf
 describe('EnhancedDivider', () => {
   it('Basic render', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         {[...Array(3)].map((v, i) => (
           <React.Fragment key={i}>
             <Text>{text}</Text>
             <Divider.Enhanced />
           </React.Fragment>
         ))}
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Dark mode basic render', () => {
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
+      <TidyUiProvider theme={orchidDark}>
         {[...Array(3)].map((v, i) => (
           <React.Fragment key={i}>
             <Text>{text}</Text>
             <Divider.Enhanced />
           </React.Fragment>
         ))}
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Contained', () => {
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
+      <TidyUiProvider theme={orchidDark}>
         {[...Array(3)].map((v, i) => (
           <React.Fragment key={i}>
             <Text>{text}</Text>
@@ -56,13 +55,13 @@ describe('EnhancedDivider', () => {
             </Divider.Enhanced>
           </React.Fragment>
         ))}
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
   it('Density', () => {
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
+      <TidyUiProvider theme={orchidDark}>
         {Object.keys(Density)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
@@ -74,13 +73,13 @@ describe('EnhancedDivider', () => {
               </Divider.Enhanced>
             </React.Fragment>
           ))}
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
   it('Shades', () => {
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
+      <TidyUiProvider theme={orchidDark}>
         {Object.keys(Shade)
           .filter((i) => !isNaN(Number(i)))
           .reverse()
@@ -93,13 +92,13 @@ describe('EnhancedDivider', () => {
               </Divider.Enhanced>
             </React.Fragment>
           ))}
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
   it('Tones', () => {
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
+      <TidyUiProvider theme={orchidDark}>
         {Object.keys(Tone)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
@@ -113,13 +112,13 @@ describe('EnhancedDivider', () => {
               </Divider.Enhanced>
             </React.Fragment>
           ))}
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
   it('Variants', () => {
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
+      <TidyUiProvider theme={orchidDark}>
         {Object.keys(Variant)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
@@ -131,13 +130,13 @@ describe('EnhancedDivider', () => {
               </Divider.Enhanced>
             </React.Fragment>
           ))}
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
   it('Custom margin', () => {
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
+      <TidyUiProvider theme={orchidDark}>
         {[...Array(3)].map((v, i) => (
           <React.Fragment key={i}>
             <Text>{text}</Text>
@@ -146,13 +145,13 @@ describe('EnhancedDivider', () => {
             </Divider.Enhanced>
           </React.Fragment>
         ))}
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
   it('Justify', () => {
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
+      <TidyUiProvider theme={orchidDark}>
         {Object.keys(Position)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
@@ -164,7 +163,7 @@ describe('EnhancedDivider', () => {
               </Divider.Enhanced>
             </React.Fragment>
           ))}
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });

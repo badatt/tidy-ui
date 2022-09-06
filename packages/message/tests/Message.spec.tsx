@@ -4,10 +4,9 @@
 import React from 'react';
 import { act } from 'react-dom/test-utils';
 import { fireEvent, getByRole, render } from '@testing-library/react';
-import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidDark, orchidLight } from '@tidy-ui/commons';
+import { orchidDark, orchidLight, TidyUiProvider } from '@tidy-ui/commons';
 import { Tone } from '@tidy-ui/types';
 import { Message } from '../src';
 
@@ -18,23 +17,23 @@ const text = `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
 describe('Message', () => {
   it('Basic render', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <Message>{text}</Message>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
   it('Basic render in dark mode', () => {
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
+      <TidyUiProvider theme={orchidDark}>
         <Message>{text}</Message>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
   it('Message with all color variants', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         {Object.values(Tone)
           .filter((i) => !isNaN(Number(i)))
           .map((c) => (
@@ -42,13 +41,13 @@ describe('Message', () => {
               {text}
             </Message>
           ))}
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
   it('Message in dark mode with all color variants', () => {
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
+      <TidyUiProvider theme={orchidDark}>
         {Object.values(Tone)
           .filter((i) => !isNaN(Number(i)))
           .map((c, i) => (
@@ -56,58 +55,58 @@ describe('Message', () => {
               {text}
             </Message>
           ))}
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
   it('Message stretched to full width', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <Message stretched>{text}</Message>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
   it('Message with close button', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <Message closable>{text}</Message>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
   it('Message with custom element', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <Message ele={<div style={{ display: 'flex' }} />}>{text}</Message>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
   it('Message with sharp label', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <Message sharp>{text}</Message>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
   it('Message with no label', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <Message withoutLabel>{text}</Message>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Closable message without any callback', () => {
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
+      <TidyUiProvider theme={orchidDark}>
         <Message closable outlined>
           {text}
         </Message>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
     const { container } = tree;
@@ -121,11 +120,11 @@ describe('Message', () => {
   it('Closable message with an onClose callback', () => {
     const mockCallback = jest.fn();
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <Message closable onClose={mockCallback} outlined>
           {text}
         </Message>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
     const { container } = tree;
@@ -141,11 +140,11 @@ describe('Message', () => {
     jest.useFakeTimers();
     const mockCallback = jest.fn();
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <Message closable duration={2000} onClose={mockCallback} outlined>
           {text}
         </Message>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
     setTimeout(() => {

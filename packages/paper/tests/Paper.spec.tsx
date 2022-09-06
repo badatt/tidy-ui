@@ -3,10 +3,9 @@
  */
 import React from 'react';
 import { render } from '@testing-library/react';
-import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidDark, orchidLight } from '@tidy-ui/commons';
+import { orchidDark, orchidLight, TidyUiProvider } from '@tidy-ui/commons';
 import { Paper } from '../src';
 
 const text = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, veniam ducimus ea reiciendis sed blanditiis
@@ -18,40 +17,40 @@ const text = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, ve
 describe('Paper', () => {
   it('Basic render', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <Paper>{text}</Paper>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Dark mode basic render', () => {
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
+      <TidyUiProvider theme={orchidDark}>
         <Paper>{text}</Paper>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Paper with sharp edges', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <Paper sharp>{text}</Paper>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Custom element', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <Paper ele={<div style={{ display: 'flex', gap: '1rem' }} />}>
           <div>{text}</div>
           <div>{text}</div>
           <div>{text}</div>
         </Paper>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
