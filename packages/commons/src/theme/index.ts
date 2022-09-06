@@ -8,8 +8,8 @@ const styled = baseStyled as ThemedStyledInterface<ITidyUITheme>;
 const css = baseCss as ThemedCssFunction<ITidyUITheme>;
 export { css, styled };
 
-export { GlobalDefault } from './global-default';
-export { GlobalFont } from './global-font';
-export { GlobalReset } from './global-reset';
+export { GlobalDefault } from './globals/global-default';
+export { GlobalFont } from './globals/global-font';
+export { GlobalReset } from './globals/global-reset';
 export { theme as orchidDark } from './orchid-dark';
 export { theme as orchidLight } from './orchid-light';
