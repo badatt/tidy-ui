@@ -77,7 +77,7 @@ export const flexGrow = () => {
         {({ count }) => (
           <StyledFlexBox h={height}>
             {[...Array(count)].map((c, i) => {
-              const grow = Math.floor(Math.random() * Array(count).length);
+              const grow = count === 4 ? 1 : Math.floor(Math.random() * Array(count).length);
               return (
                 <StyledFlexItem fgo={grow} key={i} style={{ padding: '3rem' }}>
                   <StyledText v={label}>{i}</StyledText>
@@ -99,7 +99,7 @@ export const order = () => {
         {({ count }) => (
           <StyledFlexBox h={height}>
             {[...Array(count)].map((c, i) => {
-              const order = Math.floor(Math.random() * Array(count).length);
+              const order = count === 6 ? 0 : Math.floor(Math.random() * Array(count).length);
               return (
                 <StyledFlexItem ord={order} key={i} style={{ padding: '3rem' }}>
                   <StyledText v={label}>{i}</StyledText>
