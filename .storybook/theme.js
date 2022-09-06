@@ -1,6 +1,6 @@
 // .storybook/YourTheme.js
 
-import { create, themes } from '@storybook/theming';
+import { create } from '@storybook/theming';
 
 const base = {
   colorPrimary: 'rgb(146, 52, 234)',
