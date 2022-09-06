@@ -3,10 +3,9 @@
  */
 import React from 'react';
 import { render } from '@testing-library/react';
-import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidDark, orchidLight } from '@tidy-ui/commons';
+import { orchidDark, orchidLight, TidyUiProvider } from '@tidy-ui/commons';
 import { useTheme } from '../../src';
 
 describe('useTheme', () => {
@@ -21,9 +20,9 @@ describe('useTheme', () => {
       );
     };
     const { container } = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <TestComponent />
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(container.querySelector('#is-dark-val')?.textContent).toEqual('false');
     expect(container.querySelector('#name-val')?.textContent).toEqual('Orchid Light');
@@ -40,9 +39,9 @@ describe('useTheme', () => {
       );
     };
     const { container } = render(
-      <ThemeProvider theme={orchidDark}>
+      <TidyUiProvider theme={orchidDark}>
         <TestComponent />
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(container.querySelector('#is-dark-val')?.textContent).toEqual('true');
     expect(container.querySelector('#name-val')?.textContent).toEqual('Orchid Dark');

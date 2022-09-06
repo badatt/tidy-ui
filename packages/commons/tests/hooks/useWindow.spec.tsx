@@ -3,10 +3,9 @@
  */
 import React from 'react';
 import { render } from '@testing-library/react';
-import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidLight } from '@tidy-ui/commons';
+import { orchidLight, TidyUiProvider } from '@tidy-ui/commons';
 import { useWindow } from '../../src';
 
 describe('useTheme', () => {
@@ -22,9 +21,9 @@ describe('useTheme', () => {
       );
     };
     const { container } = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <TestComponent />
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(container.querySelector('#dim-val')?.textContent).toEqual('1024 x 768');
   });
