@@ -37,6 +37,11 @@ Object {
   border: none;
 }
 
+.c1:hover {
+  background-color: hsla(272,72%,47%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -143,6 +148,11 @@ Object {
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
   border: none;
+}
+
+.c1:hover {
+  background-color: hsla(272,72%,47%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
 }
 
 .c0 {
@@ -308,6 +318,11 @@ Object {
   border: none;
 }
 
+.c1:hover {
+  background-color: hsla(272,72%,47%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(274,66%,32%,0.7) 0px 10px 15px -3px, hsla(274,66%,32%,0.7) 0px 4px 6px -4px;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -414,6 +429,11 @@ Object {
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
   border: none;
+}
+
+.c1:hover {
+  background-color: hsla(272,72%,47%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(274,66%,32%,0.7) 0px 10px 15px -3px, hsla(274,66%,32%,0.7) 0px 4px 6px -4px;
 }
 
 .c0 {
@@ -579,6 +599,11 @@ Object {
   border: none;
 }
 
+.c1:hover {
+  background-color: hsla(272,72%,47%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -687,6 +712,11 @@ Object {
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
   border: none;
+}
+
+.c1:hover {
+  background-color: hsla(272,72%,47%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
 }
 
 .c0 {
@@ -854,6 +884,11 @@ Object {
   border: none;
 }
 
+.c1:hover {
+  background-color: hsla(272,72%,47%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -972,6 +1007,11 @@ Object {
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
   border: none;
+}
+
+.c1:hover {
+  background-color: hsla(272,72%,47%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
 }
 
 .c0 {
@@ -1410,6 +1450,11 @@ Object {
   border: none;
 }
 
+.c1:hover {
+  background-color: hsla(272,72%,47%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1518,6 +1563,11 @@ Object {
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
   border: none;
+}
+
+.c1:hover {
+  background-color: hsla(272,72%,47%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
 }
 
 .c0 {
@@ -1685,6 +1735,11 @@ Object {
   border: none;
 }
 
+.c1:hover {
+  background-color: hsla(272,72%,47%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1794,6 +1849,11 @@ Object {
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
   border: none;
+}
+
+.c1:hover {
+  background-color: hsla(272,72%,47%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
 }
 
 .c0 {
@@ -1962,6 +2022,11 @@ Object {
   border: none;
 }
 
+.c1:hover {
+  background-color: hsla(272,72%,47%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2073,6 +2138,11 @@ Object {
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
   border: none;
+}
+
+.c1:hover {
+  background-color: hsla(272,72%,47%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
 }
 
 .c0 {

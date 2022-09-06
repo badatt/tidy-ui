@@ -71,7 +71,6 @@ export const variants = () => {
 
 export const gradient = () => (
   <Column>
-    <Button gradient>basic button</Button>
     <Button variant="hero" gradient>
       basic button
     </Button>

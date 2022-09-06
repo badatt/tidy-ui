@@ -86,15 +86,15 @@ const simple = css<IButtonProps>`
 const basic = css<IButtonProps>`
   ${({ theme: { palette, isDark }, tone, disabled }) => css`
     color: ${isDark ? palette[tone!][300] : palette[tone!][600]};
-    background-color: ${isDark ? hsla(palette[tone!].shades[600], 0.7) : palette[tone!][200]};
+    background-color: ${isDark ? hsla(palette[tone!].shades[900], 0.7) : palette[tone!][200]};
     border: none;
     ${!disabled &&
     css`
       &:hover {
         background-color: ${isDark ? hsla(palette[tone!].shades[800], 0.8) : palette[tone!][300]};
         box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-          ${isDark ? hsla(palette[tone!].shades[900], 0.7) : palette[tone!][400]} 0px 10px 15px -3px,
-          ${isDark ? hsla(palette[tone!].shades[900], 0.7) : palette[tone!][400]} 0px 4px 6px -4px;
+          ${isDark ? hsla(palette[tone!].shades[900], 0.4) : palette[tone!][400]} 0px 10px 15px -3px,
+          ${isDark ? hsla(palette[tone!].shades[900], 0.4) : palette[tone!][400]} 0px 4px 6px -4px;
       }
     `}
   `}
@@ -106,11 +106,19 @@ const basic = css<IButtonProps>`
  * @internal
  */
 const primary = css<IButtonProps>`
-  ${({ theme: { palette }, tone }) => css`
+  ${({ theme: { palette, isDark }, tone, disabled }) => css`
     color: ${palette[tone!][100]};
     background-color: ${palette[tone!][600]};
     border: none;
-    ${filledButtonBg}
+    ${!disabled &&
+    css`
+      &:hover {
+        background-color: ${palette[tone!][700]};
+        box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+          ${isDark ? hsla(palette[tone!].shades[900], 0.7) : palette[tone!][400]} 0px 10px 15px -3px,
+          ${isDark ? hsla(palette[tone!].shades[900], 0.7) : palette[tone!][400]} 0px 4px 6px -4px;
+      }
+    `}
   `}
 `;
 
