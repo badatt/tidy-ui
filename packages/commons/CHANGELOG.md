@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.12.1](https://github.com/badatt/tidy-ui/compare/v0.12.0...v0.12.1) (2022-09-06)
+
+
+### Features
+
+* custom fonts in global style ([68ce12b](https://github.com/badatt/tidy-ui/commit/68ce12b2f119a9026a0184ceffaff48966d0f56a))
+* global reset & font ([bda4b93](https://github.com/badatt/tidy-ui/commit/bda4b9336e48b989a61a4ab271523239403241a4))
+* global styles ([d37d2a6](https://github.com/badatt/tidy-ui/commit/d37d2a6c23fb17ecc489ebb6509686b9b1f13b0a))
+
+
+
+
+
 # [0.12.0](https://github.com/badatt/tidy-ui/compare/v0.11.1...v0.12.0) (2022-09-06)
 
 **Note:** Version bump only for package @tidy-ui/commons
