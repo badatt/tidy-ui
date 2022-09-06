@@ -2,7 +2,16 @@ import React from 'react';
 import { DecoratorFn } from '@storybook/react';
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 
-import { orchidLight, orchidDark, css, styled, TidyUiProvider, GlobalStyle } from '@tidy-ui/commons';
+import {
+  orchidLight,
+  orchidDark,
+  css,
+  styled,
+  TidyUiProvider,
+  GlobalFont,
+  GlobalReset,
+  GlobalDefault,
+} from '@tidy-ui/commons';
 import additionalViePorts from './viewports';
 import { light, dark } from './theme';
 
@@ -43,14 +52,16 @@ export const withTheme: DecoratorFn = (StoryFn, context) => {
     case 'side-by-side': {
       return (
         <>
+          <GlobalReset />
+          <GlobalFont />
           <TidyUiProvider theme={orchidLight}>
-            <GlobalStyle />
+            <GlobalDefault />
             <ThemeBlock left padding={padding}>
               <StoryFn />
             </ThemeBlock>
           </TidyUiProvider>
           <TidyUiProvider theme={orchidDark}>
-            <GlobalStyle />
+            <GlobalDefault />
             <ThemeBlock padding={padding}>
               <StoryFn />
             </ThemeBlock>
@@ -61,8 +72,13 @@ export const withTheme: DecoratorFn = (StoryFn, context) => {
     default: {
       return (
         <>
+          <GlobalReset />
+          <GlobalFont
+            family="PT Sans"
+            url="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          />
           <TidyUiProvider theme={storyTheme}>
-            <GlobalStyle />
+            <GlobalDefault />
             <ThemeBlock filled padding={padding}>
               <StoryFn />
             </ThemeBlock>

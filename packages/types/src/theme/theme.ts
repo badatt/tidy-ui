@@ -1,19 +1,24 @@
 import { ITidyUIBaseTheme } from './base';
 
 /**
- * GlobalStyles
+ * GlobalFont
  */
-export interface IGlobalStyle {
+export interface IGlobalFont {
   /**
    * css `font-family` equivalent
    */
-  fontFamily?: string;
+  family?: string;
 
   /**
    * when given, added to `@import url()` in css
    */
-  fontUrl?: string;
+  url?: string;
+}
 
+/**
+ * GlobalDefault
+ */
+export interface IGlobalDefault {
   /**
    * theme
    */
