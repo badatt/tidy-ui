@@ -14,12 +14,19 @@ const TextLink = styled.a<ITextProps>`
  * @internal
  */
 const TextRoot = styled.div<ITextProps>`
-  ${({ theme: { palette, typography }, v, clr, bld, udl, itl, uc, lc, cc, dsb, exd, ctr, tnc }) => css`
+  ${({ theme: { palette, typography }, v, tone, bld, udl, itl, uc, lc, cc, dsb, exd, ctr, mgn, tnc }) => css`
     display: block;
-    margin: 0;
+    ${mgn &&
+    css`
+      margin: ${mgn};
+    `}
+    ${!mgn &&
+    css`
+      margin-bottom: ${typography[v!].marginBottom};
+    `}
     font-size: ${typography[v!].fontSize};
     ${!dsb &&
-    !clr &&
+    !tone &&
     css`
       color: ${palette.text.primary};
     `}
@@ -30,9 +37,9 @@ const TextRoot = styled.div<ITextProps>`
     letter-spacing: ${typography[v!].letterSpacing};
     line-height: ${typography[v!].lineHeight};
     ${!dsb &&
-    clr &&
+    tone &&
     css`
-      color: ${palette[clr][600]};
+      color: ${palette[tone][600]};
     `}
     ${bld &&
     css`
@@ -114,8 +121,6 @@ const htmlElement = (props: ITextProps): TVariant => {
       return 'p';
     case 'span':
       return 'span';
-    case 'code':
-      return 'code';
     default:
       return 'p';
   }
@@ -127,7 +132,10 @@ const htmlElement = (props: ITextProps): TVariant => {
  * @internal
  */
 const DL = styled.div<IDataFieldProps>`
-  margin-bottom: 1rem;
+  ${({ mgn }) =>
+    css`
+      margin: ${mgn};
+    `}
 `;
 
 /**
@@ -136,22 +144,18 @@ const DL = styled.div<IDataFieldProps>`
  * @internal
  */
 const DD = styled.dd<IDataFieldProps>`
-  ${({ theme: { palette, typography }, acc, ico }) => css`
+  ${({ theme: { palette }, acc, mgn }) => css`
     display: flex;
     justify-content: start;
     align-items: center;
-    margin: 0;
-    font-weight: ${typography.fontWeightBold};
-    font-size: 0.625rem;
-    text-transform: uppercase;
     color: ${palette.text.secondary};
-    letter-spacing: 0.05em;
-    ${!ico &&
+    margin-bottom: ${mgn && '0.5rem'};
+    ${acc &&
     css`
       &::before {
         content: '';
-        height: 0.625rem;
-        width: 2px;
+        height: 0.8em;
+        width: 0.125rem;
         margin-right: 0.25rem;
         background-color: ${palette[acc!][600]};
       }
@@ -165,64 +169,26 @@ const DD = styled.dd<IDataFieldProps>`
  * @internal
  */
 const DT = styled.dt<IDataFieldProps>`
-  ${({ theme: { palette, typography }, clr, bld, udl, itl, dsb, ico }) => css`
+  ${({ theme: { palette }, tone, dsb, acc }) => css`
     ${!dsb &&
-    !clr &&
+    !tone &&
     css`
       color: ${palette.text.primary};
     `}
-    ${!ico &&
-    css`
-      margin-left: 0.125rem;
-    `}
-    font-size: 0.875rem;
-    ${!bld &&
-    css`
-      font-weight: ${typography.fontWeightMedium};
-    `}
     ${!dsb &&
-    clr &&
+    tone &&
     css`
-      color: ${palette[clr][600]};
-    `}
-    ${bld &&
-    css`
-      font-weight: ${typography.fontWeightBold};
-    `}
-    ${udl &&
-    css`
-      text-decoration: underline;
-    `}
-    ${itl &&
-    css`
-      font-style: italic;
+      color: ${palette[tone][600]};
     `}
     ${dsb &&
     css`
       color: ${palette.text.disabled};
     `}
-    ${ico &&
+    ${acc &&
     css`
-      margin-left: 0.875rem;
+      margin-left: 0.375rem;
     `}
   `}
 `;
 
-/**
- * Internal DataFieldIcon component
- *
- * @internal
- */
-const DataFieldIcon = styled.i<IDataFieldProps>`
-  ${({ theme: { palette }, acc }) => css`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 0.625rem;
-    width: 0.625rem;
-    margin-right: 0.25rem;
-    color: ${palette[acc!][600]};
-  `}
-`;
-
-export { DataFieldIcon, DD, DL, DT, htmlElement, TextLink, TextRoot };
+export { DD, DL, DT, htmlElement, TextLink, TextRoot };

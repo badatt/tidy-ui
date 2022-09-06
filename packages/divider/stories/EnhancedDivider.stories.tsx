@@ -89,7 +89,7 @@ export const tones = () => {
             <Text v="h6">tone={Tone[v]}</Text>
             <Text>{text}</Text>
             <Divider.Enhanced tone={Tone[v]}>
-              <Text v="caption" clr={Tone[v]}>
+              <Text v="caption" tone={Tone[v]}>
                 section {i}
               </Text>
             </Divider.Enhanced>

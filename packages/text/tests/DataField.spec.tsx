@@ -3,80 +3,86 @@
  */
 import React from 'react';
 import { render } from '@testing-library/react';
-import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { Icon } from '@tidy-ui/commons';
-import { orchidDark, orchidLight } from '@tidy-ui/commons';
-import { TTone } from '@tidy-ui/types';
-import { DataField } from '../src';
-
-const colors = ['major', 'minor', 'neutral', 'info', 'success', 'warning', 'danger'];
+import { orchidDark, orchidLight, TidyUiProvider } from '@tidy-ui/commons';
+import { Tone, TTone } from '@tidy-ui/types';
+import { DataField, Text } from '../src';
 
 describe('Text', () => {
   it('Basic render', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <DataField lbl="default label" val="default value" />
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Dark mode basic render', () => {
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
+      <TidyUiProvider theme={orchidDark}>
         <DataField lbl="default label" val="default value" />
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
-  it('All color variants', () => {
+  it('Tones', () => {
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
-        {colors.map((c) => (
-          <DataField clr={c as TTone} lbl={c} val={c} key={c} />
-        ))}
-      </ThemeProvider>,
+      <TidyUiProvider theme={orchidDark}>
+        {Object.keys(Tone)
+          .filter((v) => !isNaN(Number(v)))
+          .map((v, i) => (
+            <DataField key={i} tone={Tone[v]} lbl={`${Tone[v]} color`} val={`${Tone[v]} color value`} />
+          ))}
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
-  it('All accent variants', () => {
+  it('Accents', () => {
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
-        {colors.map((c) => (
-          <DataField acc={c as TTone} lbl={c} val={c} key={c} />
-        ))}
-      </ThemeProvider>,
+      <TidyUiProvider theme={orchidDark}>
+        {Object.keys(Tone)
+          .filter((v) => !isNaN(Number(v)))
+          .map((v, i) => (
+            <DataField key={i} acc={Tone[v]} lbl={`${Tone[v]} color`} val={`${Tone[v]} color value`} />
+          ))}
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
-  it('With icons', () => {
+  it('Disabled', () => {
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
-        <DataField ico={<Icon.CheckCircle />} lbl="settings icon" val="settings icon value" />
-        <DataField ico={<Icon.CheckCircle />} lbl="settings icon" acc="major" val="major accent value" />
+      <TidyUiProvider theme={orchidDark}>
+        <DataField dsb lbl="warning accent" val="warning accent disabled value" />
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Custom elements', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidDark}>
         <DataField
-          ico={<Icon.CheckCircle />}
-          lbl="success icon"
-          acc="success"
-          clr="success"
-          val="success color value"
+          lbl={
+            <Text v="caption" uc udl>
+              custom label
+            </Text>
+          }
+          val={<Text v="subtitle2">custom val</Text>}
         />
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
-  it('Other variants', () => {
+  it('Custom margin', () => {
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
-        <DataField bld acc="minor" lbl="minor accent" val="minor accent bold value" />
-        <DataField udl acc="success" lbl="success accent" val="success accent underline value" />
-        <DataField itl acc="info" lbl="info accent" val="info accent italicized value" />
-        <DataField dsb acc="warning" lbl="warning accent" val="warning accent disabled value" />
-      </ThemeProvider>,
+      <TidyUiProvider theme={orchidDark}>
+        <DataField acc="neutral" lbl="default label" val="default value" mgn="0 0 2rem 0" />
+        <DataField acc="neutral" lbl="default label" val="default value" />
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });

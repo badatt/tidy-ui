@@ -64,13 +64,7 @@ const TagGroup = React.forwardRef<HTMLDivElement, ITagGroupProps>((props, ref) =
     }
 
     return (
-      <Icon
-        role="button"
-        height="1.8em"
-        width="1.8em"
-        onClick={handleNewTagButtonClick}
-        ele={<AddNewTagIcon {...rest} />}
-      />
+      <Icon role="button" h="1.8em" w="1.8em" onClick={handleNewTagButtonClick} ele={<AddNewTagIcon {...rest} />} />
     );
   };
 

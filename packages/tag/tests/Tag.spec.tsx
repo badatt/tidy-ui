@@ -72,7 +72,9 @@ describe('Tag', () => {
         {Object.keys(Tone)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Tag tone={Tone[v]}>{Tone[v]}</Tag>
+            <Tag tone={Tone[v]} key={i}>
+              {Tone[v]}
+            </Tag>
           ))}
       </ThemeProvider>,
     );
@@ -85,6 +87,17 @@ describe('Tag', () => {
         <Tag size="sm">html</Tag>
         <Tag>typescript</Tag>
         <Tag size="lg">javascript</Tag>
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Custom dimension', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        <Tag h="3rem" w="10rem">
+          basic
+        </Tag>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();

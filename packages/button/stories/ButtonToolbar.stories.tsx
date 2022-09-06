@@ -57,3 +57,20 @@ export const disabled = () => (
     <IconButton icon={<Icon.Cancel />} variant="outlined" />
   </ButtonToolbar>
 );
+
+export const customDimensions = () => (
+  <ButtonToolbar h="3rem">
+    <IconButton icon={<Icon.AddCircle />} variant="outlined">
+      Add
+    </IconButton>
+    <ButtonGroup>
+      <IconButton icon={<Icon.Add />} variant="outlined" />
+      <IconButton icon={<Icon.CheckCircle />} variant="outlined" />
+      <IconButton icon={<Icon.Info />} variant="outlined" />
+      <IconButton icon={<Icon.Warning />} variant="outlined" />
+      <IconButton icon={<Icon.Dangerous />} variant="outlined" />
+      <IconButton icon={<Icon.Close />} variant="outlined" />
+    </ButtonGroup>
+    <IconButton icon={<Icon.Cancel />} variant="outlined" />
+  </ButtonToolbar>
+);

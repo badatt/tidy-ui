@@ -18,7 +18,7 @@ export const basic = () => {
     <FlexBoxProvider>
       <Ctx.Consumer>
         {({ count }) => (
-          <StyledFlexBox height={height}>
+          <StyledFlexBox h={height}>
             {[...Array(count)].map((c, i) => (
               <StyledFlexItem key={i} style={{ padding: '3rem' }}>
                 <StyledText v={label}>{i}</StyledText>
@@ -41,7 +41,7 @@ export const direction = () => {
             <Text v="h6">{FlexDirection[v]}</Text>
             <Ctx.Consumer>
               {({ count }) => (
-                <StyledFlexBox height={height} fld={FlexDirection[v]}>
+                <StyledFlexBox h={height} fld={FlexDirection[v]}>
                   {[...Array(count)].map((c, i) => (
                     <StyledFlexItem key={i} style={{ padding: '3rem' }}>
                       <StyledText v={label}>{i}</StyledText>
@@ -65,7 +65,7 @@ export const wrap = () => {
           <Text v="h6">nowrap={String(v)}</Text>
           <Ctx.Consumer>
             {({ count }) => (
-              <StyledFlexBox height={height} nowrap={v}>
+              <StyledFlexBox h={height} nowrap={v}>
                 {[...Array(count)].map((c, i) => (
                   <StyledFlexItem key={i} style={{ padding: '3rem' }}>
                     <StyledText v={label}>{i}</StyledText>
@@ -122,7 +122,7 @@ export const gap = () => {
     <FlexBoxProvider>
       <Ctx.Consumer>
         {({ count }) => (
-          <StyledFlexBox gap=".5rem" height={height}>
+          <StyledFlexBox gap=".5rem" h={height}>
             {[...Array(count)].map((c, i) => (
               <StyledFlexItem key={i} style={{ padding: '3rem' }}>
                 <StyledText v={label}>{i}</StyledText>
@@ -140,7 +140,7 @@ export const columnGap = () => {
     <FlexBoxProvider>
       <Ctx.Consumer>
         {({ count }) => (
-          <StyledFlexBox cgp=".5rem" height={height}>
+          <StyledFlexBox cgp=".5rem" h={height}>
             {[...Array(count)].map((c, i) => (
               <StyledFlexItem key={i} style={{ padding: '3rem' }}>
                 <StyledText v={label}>{i}</StyledText>
@@ -158,7 +158,7 @@ export const rowGap = () => {
     <FlexBoxProvider>
       <Ctx.Consumer>
         {({ count }) => (
-          <StyledFlexBox rgp=".5rem" height={height}>
+          <StyledFlexBox rgp=".5rem" h={height}>
             {[...Array(count)].map((c, i) => (
               <StyledFlexItem key={i} style={{ padding: '3rem' }}>
                 <StyledText v={label}>{i}</StyledText>
@@ -181,7 +181,7 @@ export const alignContent = () => {
             <Text v="h6">{AlignContent[v]}</Text>
             <Ctx.Consumer>
               {({ count }) => (
-                <StyledFlexBox height={height} alc={AlignContent[v]}>
+                <StyledFlexBox h={height} alc={AlignContent[v]}>
                   {[...Array(count)].map((c, i) => (
                     <StyledFlexItem key={i} style={{ padding: '3rem' }}>
                       <StyledText v={label}>{i}</StyledText>
@@ -207,7 +207,7 @@ export const alignItems = () => {
             <Text v="h6">{AlignItems[v]}</Text>
             <Ctx.Consumer>
               {({ count }) => (
-                <StyledFlexBox height={height} ali={AlignItems[v]}>
+                <StyledFlexBox h={height} ali={AlignItems[v]}>
                   {[...Array(count)].map((c, i) => (
                     <StyledFlexItem key={i} style={{ padding: '3rem' }}>
                       <StyledText v={label}>{i}</StyledText>
@@ -233,7 +233,7 @@ export const justifyContent = () => {
             <Text v="h6">{JustifyContent[v]}</Text>
             <Ctx.Consumer>
               {({ count }) => (
-                <StyledFlexBox height={height} jsc={JustifyContent[v]}>
+                <StyledFlexBox h={height} jsc={JustifyContent[v]}>
                   {[...Array(count)].map((c, i) => (
                     <StyledFlexItem key={i} style={{ padding: '3rem' }}>
                       <StyledText v={label}>{i}</StyledText>
@@ -255,14 +255,14 @@ export const customMargin = () => {
       <Ctx.Consumer>
         {({ count }) => (
           <>
-            <StyledFlexBox height={height} margin="0 0 3rem 0">
+            <StyledFlexBox h={height} margin="0 0 3rem 0">
               {[...Array(count)].map((c, i) => (
                 <StyledFlexItem key={i} style={{ padding: '3rem' }}>
                   <StyledText v={label}>{i}</StyledText>
                 </StyledFlexItem>
               ))}
             </StyledFlexBox>
-            <StyledFlexBox height={height} margin="0 0 1rem 0">
+            <StyledFlexBox h={height} margin="0 0 1rem 0">
               {[...Array(count)].map((c, i) => (
                 <StyledFlexItem key={i} style={{ padding: '3rem' }}>
                   <StyledText v={label}>{i}</StyledText>

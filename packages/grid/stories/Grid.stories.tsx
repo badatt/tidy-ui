@@ -79,17 +79,19 @@ const GridProvider = ({ children, size = baseCount }) => {
   return (
     <Ctx.Provider value={{ count }}>
       <div style={{ position: 'relative', marginBottom: '1rem' }}>
-        <ButtonGroup>
-          <Button variant="outlined" onClick={increment}>
-            Add
-          </Button>
-          <Button variant="outlined" onClick={decrement}>
-            Remove
-          </Button>
+        <ButtonToolbar>
+          <ButtonGroup>
+            <Button variant="outlined" onClick={increment} w="4rem">
+              Add
+            </Button>
+            <Button variant="outlined" onClick={decrement} w="4rem">
+              Remove
+            </Button>
+          </ButtonGroup>
           <Button variant="simple" tone="danger" onClick={reset}>
             Reset ({count})
           </Button>
-        </ButtonGroup>
+        </ButtonToolbar>
       </div>
       {children}
     </Ctx.Provider>
@@ -206,15 +208,15 @@ export const customLayout = () => {
         <ButtonToolbar>
           {Object.keys(spanning).map((v, i) => (
             <ButtonGroup key={i}>
-              <Button variant="outlined" tone="neutral" onClick={() => decrement(v)}>
+              <Button variant="outlined" onClick={() => decrement(v)} disabled={span[v] === 1}>
                 <ToolBarIconWrap>
                   <Icon.Remove />
                 </ToolBarIconWrap>
               </Button>
-              <Button variant="outlined" disabled tone="neutral">
+              <Button variant="outlined" disabled w="3rem">
                 {v}={span[v]}
               </Button>
-              <Button variant="outlined" tone="neutral" onClick={() => increment(v)}>
+              <Button variant="outlined" onClick={() => increment(v)} disabled={span[v] === 24}>
                 <ToolBarIconWrap>
                   <Icon.Add />
                 </ToolBarIconWrap>

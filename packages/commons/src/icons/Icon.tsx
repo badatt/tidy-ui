@@ -23,23 +23,15 @@ export interface IIconProps extends IBaseProps, React.HTMLAttributes<HTMLDivElem
    * Icon element
    */
   ele: JSX.Element;
-  /**
-   * Height
-   */
-  height?: string;
 
   /**
    * Margin
    */
   margin?: string;
-  /**
-   * Width
-   */
-  width?: string;
 }
 
 /** @internal */
-interface IconComponent
+export interface IconComponent
   extends React.ForwardRefExoticComponent<Omit<IIconProps, 'children'> & React.RefAttributes<HTMLDivElement>> {
   /** @internal */
   Add: typeof AddIcon;
@@ -75,15 +67,15 @@ interface IconComponent
  * Icon wrapper component
  */
 const Icon = React.forwardRef<HTMLDivElement, Omit<IIconProps, 'children'>>((props, ref) => {
-  const { ele, style, height, margin, width, ...rest } = props;
-  const styles = { ...style, height, margin, width };
+  const { ele, style, h, margin, w, ...rest } = props;
+  const styles = { ...style, height: h, margin, width: w };
   const styledIconElement = React.cloneElement(ele, { style: styles });
   return React.createElement('i', { ref, style: styles, ...rest }, styledIconElement);
 }) as IconComponent;
 
 Icon.defaultProps = {
-  height: '1.25em',
-  width: '1.25em',
+  h: '1.25em',
+  w: '1.25em',
 };
 
 Icon.Add = AddIcon;

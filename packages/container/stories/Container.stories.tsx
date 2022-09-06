@@ -59,21 +59,19 @@ export const maxWidth = () => {
     <>
       <ToolBar>
         <ButtonGroup>
-          <ButtonGroup>
-            <Button variant="outlined" onClick={decrement} disabled={maxWidth === 0}>
-              <ToolBarIconWrap>
-                <Icon.Remove />
-              </ToolBarIconWrap>
-            </Button>
-            <Button variant="outlined" disabled tone="neutral">
-              {Screen[maxWidth]}
-            </Button>
-            <Button variant="outlined" onClick={increment} disabled={maxWidth === 4}>
-              <ToolBarIconWrap>
-                <Icon.Add />
-              </ToolBarIconWrap>
-            </Button>
-          </ButtonGroup>
+          <Button variant="outlined" onClick={decrement} disabled={maxWidth === 0}>
+            <ToolBarIconWrap>
+              <Icon.Remove />
+            </ToolBarIconWrap>
+          </Button>
+          <Button variant="outlined" disabled tone="neutral" w="2rem">
+            {Screen[maxWidth]}
+          </Button>
+          <Button variant="outlined" onClick={increment} disabled={maxWidth === 4}>
+            <ToolBarIconWrap>
+              <Icon.Add />
+            </ToolBarIconWrap>
+          </Button>
         </ButtonGroup>
       </ToolBar>
       <Container maxWidth={Screen[maxWidth] as TScreen}>

@@ -8,12 +8,16 @@ import { INewTagInput, ITagGroupProps, ITagProps } from './types';
  * @internal
  */
 const TagRoot = styled.div<ITagProps>`
-  ${({ outlined, size, disabled, icon }) => css`
+  ${({ outlined, size, disabled, icon, h, w }) => css`
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: ${sizeStyles[size!].padding};
     border-radius: 0.25rem;
     font-size: ${sizeStyles[size!].fontSize};
     line-height: ${sizeStyles[size!].lineHeight};
-    width: fit-content;
+    width: ${w || 'fit-content'};
+    height: ${h};
     ${outlined ? outlinedContent : filledContent}
     ${disabled &&
     css`
@@ -22,8 +26,6 @@ const TagRoot = styled.div<ITagProps>`
     `}
     ${icon &&
     css`
-      display: flex;
-      align-items: center;
       gap: 0.25rem;
     `}
   `}

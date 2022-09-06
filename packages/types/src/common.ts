@@ -13,6 +13,10 @@ export interface IStandardProps {
    */
   className?: string;
   /**
+   * css `height` equivalent
+   */
+  h?: string;
+  /**
    * Unique identifier
    */
   id?: string;
@@ -24,6 +28,10 @@ export interface IStandardProps {
    * Inline styles
    */
   style?: CSSProperties;
+  /**
+   * css `weight` equivalent
+   */
+  w?: string;
 }
 
 /**

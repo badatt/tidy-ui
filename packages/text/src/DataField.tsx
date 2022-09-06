@@ -1,5 +1,5 @@
 import React from 'react';
-import { DataFieldIcon, DD, DL, DT } from './components';
+import { DD, DL, DT } from './components';
 import { IDataFieldProps } from './types';
 
 /**
@@ -8,26 +8,19 @@ import { IDataFieldProps } from './types';
  *
  */
 const DataField = React.forwardRef<HTMLDivElement, IDataFieldProps>((props, ref) => {
-  const { className, lbl, val, ico, ...rest } = props;
+  const { className, lbl, val, ...rest } = props;
   return (
-    <DL className={className} ref={ref} role="contentinfo">
-      <DD {...rest} ico={ico}>
-        {ico && <DataFieldIcon {...rest}>{ico}</DataFieldIcon>}
+    <DL className={className} ref={ref} role="contentinfo" {...rest}>
+      <DD mgn={typeof lbl === 'string'} {...rest}>
         {lbl}
       </DD>
-      <DT {...rest} ico={ico}>
-        {val}
-      </DT>
+      <DT {...rest}>{val}</DT>
     </DL>
   );
 });
 
 DataField.defaultProps = {
-  acc: 'major',
-  bld: false,
   dsb: false,
-  itl: false,
-  udl: false,
 };
 
 DataField.displayName = 'DataField';

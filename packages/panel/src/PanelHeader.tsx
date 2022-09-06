@@ -13,8 +13,8 @@ const PanelHeader = React.forwardRef<HTMLDivElement, IPanelHeaderProps>((props, 
       <Icon
         role="button"
         ele={<ActionIcon style={{ transform: expanded ? 'rotate(180deg)' : 'rotate(0deg)' }} />}
-        height="1.5em"
-        width="1.5em"
+        h="1.5em"
+        w="1.5em"
       />
     </PanelHeaderRoot>
   );

@@ -2,29 +2,34 @@ import { HTMLAttributes } from 'react';
 import { IBaseProps, TTone } from '@tidy-ui/types';
 
 /**
+ * Variant
+ */
+export enum Variant {
+  'hero',
+  'title1',
+  'title2',
+  'subtitle1',
+  'subtitle2',
+  'caption',
+  'body1',
+  'body2',
+  'span',
+  'p',
+  'h1',
+  'h2',
+  'h3',
+  'h4',
+  'h5',
+  'h6',
+}
+
+/**
  * Types of text variants
  *
  * @typedef {TVariant}
  * @public
  */
-export type TVariant =
-  | 'hero'
-  | 'title1'
-  | 'title2'
-  | 'subtitle1'
-  | 'subtitle2'
-  | 'caption'
-  | 'body1'
-  | 'body2'
-  | 'code'
-  | 'span'
-  | 'p'
-  | 'h1'
-  | 'h2'
-  | 'h3'
-  | 'h4'
-  | 'h5'
-  | 'h6';
+export type TVariant = keyof typeof Variant;
 
 /**
  * Text props
@@ -50,14 +55,6 @@ export interface ITextProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
    * @default false
    */
   cc?: boolean;
-
-  /**
-   * Sets the color fo the text
-   *
-   * @type {?TTone}
-   * @default undefined
-   */
-  clr?: TTone;
 
   /**
    * If `true`, the text is centered
@@ -108,12 +105,25 @@ export interface ITextProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   lc?: boolean;
 
   /**
+   * Margin, css `margin` equivalent
+   */
+  mgn?: string;
+
+  /**
    * If `true`, the text is truncated inside the width of its parent component
    *
    * @type {?boolean}
    * @default false
    */
   tnc?: boolean;
+
+  /**
+   * Sets the tone fo the text
+   *
+   * @type {?TTone}
+   * @default undefined
+   */
+  tone?: TTone;
 
   /**
    * If `true`, creates the text upper case
@@ -158,22 +168,6 @@ export interface IDataFieldProps extends IBaseProps, HTMLAttributes<HTMLDivEleme
   acc?: TTone;
 
   /**
-   * If `true`, create bold value in the data field
-   *
-   * @type {?boolean}
-   * @default false
-   */
-  bld?: boolean;
-
-  /**
-   * Set the color of the value in data field
-   *
-   * @type {?TTone}
-   * @default undefined
-   */
-  clr?: TTone;
-
-  /**
    * If `true`, the value of the data field is disabled
    *
    * @type {?boolean}
@@ -182,42 +176,31 @@ export interface IDataFieldProps extends IBaseProps, HTMLAttributes<HTMLDivEleme
   dsb?: boolean;
 
   /**
-   * Icon for the label of the data field
-   *
-   * @type {?JSX.Element}
-   * @default undefined
-   */
-  ico?: JSX.Element;
-
-  /**
-   * If `true`, creates italicized value of the data field
-   *
-   * @type {?boolean}
-   * @default false
-   */
-  itl?: boolean;
-
-  /**
    * Label of the data field
    *
-   * @type {?string}
+   * @type {?string | number | JSX.Element}
    * @default undefined
    */
-  lbl?: string;
+  lbl?: string | number | JSX.Element;
 
   /**
-   * If `true`, the value of the data field is underlined
-   *
-   * @type {?boolean}
-   * @default false
+   * Margin, css `margin` equivalent
    */
-  udl?: boolean;
+  mgn?: string;
+
+  /**
+   * Set the color of the value in data field
+   *
+   * @type {?TTone}
+   * @default undefined
+   */
+  tone?: TTone;
 
   /**
    * Value of the data field
    *
-   * @type {?(string | number)}
+   * @type {?(string | number | JSX.Element)}
    * @default undefined
    */
-  val?: string | number;
+  val?: string | number | JSX.Element;
 }

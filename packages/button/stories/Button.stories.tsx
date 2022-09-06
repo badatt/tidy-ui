@@ -113,3 +113,11 @@ export const others = () => (
     </Button>
   </Container>
 );
+
+export const customDimensions = () => (
+  <Container>
+    <Button h="3rem" w="15rem">
+      custom dimension
+    </Button>
+  </Container>
+);

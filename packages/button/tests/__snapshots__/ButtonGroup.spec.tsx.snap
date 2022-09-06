@@ -67,7 +67,6 @@ Object {
 
 .c0 * {
   box-shadow: none !important;
-  opacity: 1 !important;
 }
 
 .c0 > :not(:first-child):not(:last-child) {
@@ -182,7 +181,6 @@ Object {
 
 .c0 * {
   box-shadow: none !important;
-  opacity: 1 !important;
 }
 
 .c0 > :not(:first-child):not(:last-child) {
@@ -352,7 +350,6 @@ Object {
 
 .c0 * {
   box-shadow: none !important;
-  opacity: 1 !important;
 }
 
 .c0 > :not(:first-child):not(:last-child) {
@@ -467,7 +464,293 @@ Object {
 
 .c0 * {
   box-shadow: none !important;
-  opacity: 1 !important;
+}
+
+.c0 > :not(:first-child):not(:last-child) {
+  border-radius: 0 !important;
+}
+
+<div>
+    <div
+      class="c0"
+      role="button"
+    >
+      <button
+        class="c1"
+        role="button"
+      >
+        Button 
+        0
+      </button>
+      <button
+        class="c1"
+        role="button"
+      >
+        Button 
+        1
+      </button>
+      <button
+        class="c1"
+        role="button"
+      >
+        Button 
+        2
+      </button>
+      <button
+        class="c1"
+        role="button"
+      >
+        Button 
+        3
+      </button>
+      <button
+        class="c1"
+        role="button"
+      >
+        Button 
+        4
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Render ButtonGroup Custom dimensions 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c1 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
+  border: none;
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
+}
+
+.c1:hover {
+  background-color: hsla(272,72%,47%,1);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5rem;
+  width: 30rem;
+}
+
+.c0 > :first-child {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.c0 > :last-child {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-left: 0 !important;
+}
+
+.c0 > :not(:first-child):not(:last-child) {
+  border-left: 0 !important;
+}
+
+.c0 * {
+  box-shadow: none !important;
+}
+
+.c0 > :not(:first-child):not(:last-child) {
+  border-radius: 0 !important;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+        role="button"
+      >
+        <button
+          class="c1"
+          role="button"
+        >
+          Button 
+          0
+        </button>
+        <button
+          class="c1"
+          role="button"
+        >
+          Button 
+          1
+        </button>
+        <button
+          class="c1"
+          role="button"
+        >
+          Button 
+          2
+        </button>
+        <button
+          class="c1"
+          role="button"
+        >
+          Button 
+          3
+        </button>
+        <button
+          class="c1"
+          role="button"
+        >
+          Button 
+          4
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": .c1 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(269,100%,95%,1);
+  background-color: hsla(271,81%,56%,1);
+  border: none;
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
+}
+
+.c1:hover {
+  background-color: hsla(272,72%,47%,1);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5rem;
+  width: 30rem;
+}
+
+.c0 > :first-child {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.c0 > :last-child {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-left: 0 !important;
+}
+
+.c0 > :not(:first-child):not(:last-child) {
+  border-left: 0 !important;
+}
+
+.c0 * {
+  box-shadow: none !important;
 }
 
 .c0 > :not(:first-child):not(:last-child) {
@@ -648,7 +931,6 @@ Object {
 
 .c0 * {
   box-shadow: none !important;
-  opacity: 1 !important;
 }
 
 .c0 > :not(:first-child):not(:last-child) {
@@ -775,7 +1057,6 @@ Object {
 
 .c0 * {
   box-shadow: none !important;
-  opacity: 1 !important;
 }
 
 .c0 > :not(:first-child):not(:last-child) {
@@ -958,7 +1239,6 @@ Object {
 
 .c0 * {
   box-shadow: none !important;
-  opacity: 1 !important;
 }
 
 .c0 > :not(:first-child):not(:last-child) {
@@ -1062,7 +1342,6 @@ Object {
 
 .c0 * {
   box-shadow: none !important;
-  opacity: 1 !important;
 }
 
 .c0 > :not(:first-child):not(:last-child) {
@@ -1211,7 +1490,6 @@ Object {
 
 .c0 * {
   box-shadow: none !important;
-  opacity: 1 !important;
 }
 
 .c0 > :not(:first-child):not(:last-child) {
@@ -1328,7 +1606,6 @@ Object {
 
 .c0 * {
   box-shadow: none !important;
-  opacity: 1 !important;
 }
 
 .c0 > :not(:first-child):not(:last-child) {
@@ -1501,7 +1778,6 @@ Object {
 
 .c0 * {
   box-shadow: none !important;
-  opacity: 1 !important;
 }
 
 .c0 > :not(:first-child):not(:last-child) {
@@ -1619,7 +1895,6 @@ Object {
 
 .c0 * {
   box-shadow: none !important;
-  opacity: 1 !important;
 }
 
 .c0 > :not(:first-child):not(:last-child) {
@@ -1794,7 +2069,6 @@ Object {
 
 .c0 * {
   box-shadow: none !important;
-  opacity: 1 !important;
 }
 
 .c0 > :not(:first-child):not(:last-child) {
@@ -1914,7 +2188,6 @@ Object {
 
 .c0 * {
   box-shadow: none !important;
-  opacity: 1 !important;
 }
 
 .c0 > :not(:first-child):not(:last-child) {
