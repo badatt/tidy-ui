@@ -9,6 +9,7 @@ module.exports = {
     '@storybook/addon-toolbars',
     '@storybook/addon-viewport',
     '@storybook/addon-a11y',
+    'storybook-dark-mode',
   ],
   core: {
     builder: 'webpack5',
