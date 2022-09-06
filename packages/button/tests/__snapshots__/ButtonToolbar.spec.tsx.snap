@@ -71,12 +71,6 @@ Object {
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
   border: none;
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
-  background-color: hsla(271,81%,56%,1);
-}
-
-.c1:hover {
-  background-color: hsla(272,72%,47%,1);
 }
 
 .c7 {
@@ -101,12 +95,6 @@ Object {
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
   border: none;
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
-  background-color: hsla(271,81%,56%,1);
-}
-
-.c7:hover {
-  background-color: hsla(272,72%,47%,1);
 }
 
 .c2 {
@@ -462,12 +450,6 @@ Object {
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
   border: none;
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
-  background-color: hsla(271,81%,56%,1);
-}
-
-.c1:hover {
-  background-color: hsla(272,72%,47%,1);
 }
 
 .c7 {
@@ -492,12 +474,6 @@ Object {
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
   border: none;
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
-  background-color: hsla(271,81%,56%,1);
-}
-
-.c7:hover {
-  background-color: hsla(272,72%,47%,1);
 }
 
 .c2 {
@@ -910,12 +886,6 @@ Object {
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
   border: none;
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
-  background-color: hsla(271,81%,56%,1);
-}
-
-.c1:hover {
-  background-color: hsla(272,72%,47%,1);
 }
 
 .c7 {
@@ -940,12 +910,6 @@ Object {
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
   border: none;
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
-  background-color: hsla(271,81%,56%,1);
-}
-
-.c7:hover {
-  background-color: hsla(272,72%,47%,1);
 }
 
 .c2 {
@@ -1303,12 +1267,6 @@ Object {
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
   border: none;
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
-  background-color: hsla(271,81%,56%,1);
-}
-
-.c1:hover {
-  background-color: hsla(272,72%,47%,1);
 }
 
 .c7 {
@@ -1333,12 +1291,6 @@ Object {
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
   border: none;
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
-  background-color: hsla(271,81%,56%,1);
-}
-
-.c7:hover {
-  background-color: hsla(272,72%,47%,1);
 }
 
 .c2 {
@@ -1755,12 +1707,6 @@ Object {
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
   border: none;
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
-  background-color: hsla(271,81%,56%,1);
-}
-
-.c1:hover {
-  background-color: hsla(272,72%,47%,1);
 }
 
 .c7 {
@@ -1785,12 +1731,6 @@ Object {
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
   border: none;
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
-  background-color: hsla(271,81%,56%,1);
-}
-
-.c7:hover {
-  background-color: hsla(272,72%,47%,1);
 }
 
 .c2 {
@@ -2153,12 +2093,6 @@ Object {
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
   border: none;
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
-  background-color: hsla(271,81%,56%,1);
-}
-
-.c1:hover {
-  background-color: hsla(272,72%,47%,1);
 }
 
 .c7 {
@@ -2183,12 +2117,6 @@ Object {
   color: hsla(269,100%,95%,1);
   background-color: hsla(271,81%,56%,1);
   border: none;
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(269,97%,85%,1) 0px 10px 15px -3px,hsla(269,97%,85%,1) 0px 4px 6px -4px;
-  background-color: hsla(271,81%,56%,1);
-}
-
-.c7:hover {
-  background-color: hsla(272,72%,47%,1);
 }
 
 .c2 {
