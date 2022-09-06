@@ -80,6 +80,14 @@ export const disabled = () => (
   </Container>
 );
 
+export const customDimension = () => (
+  <Container>
+    <IconButton icon={<Icon.Add />} h="3rem" w="10rem">
+      Disabled
+    </IconButton>
+  </Container>
+);
+
 export const iconOnly = () => {
   return (
     <Column>

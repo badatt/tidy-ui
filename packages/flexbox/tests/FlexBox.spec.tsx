@@ -41,7 +41,7 @@ describe('FlexBox', () => {
   it('Basic render', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <FlexBoxWrapper height={height} />
+        <FlexBoxWrapper h={height} />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -53,7 +53,7 @@ describe('FlexBox', () => {
         {Object.keys(FlexDirection)
           .filter((i) => !isNaN(Number(i)))
           .map((v) => (
-            <FlexBoxWrapper height={height} fld={FlexDirection[v]} key={v} />
+            <FlexBoxWrapper h={height} fld={FlexDirection[v]} key={v} />
           ))}
       </ThemeProvider>,
     );
@@ -64,7 +64,7 @@ describe('FlexBox', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
         {[true, false].map((v, i) => (
-          <FlexBoxWrapper height={height} nowrap={v} key={i} />
+          <FlexBoxWrapper h={height} nowrap={v} key={i} />
         ))}
       </ThemeProvider>,
     );
@@ -83,7 +83,7 @@ describe('FlexBox', () => {
   it('Centered with height set', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <FlexBoxWrapper ctr height={height} />
+        <FlexBoxWrapper ctr h={height} />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -101,7 +101,7 @@ describe('FlexBox', () => {
   it('Gap', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <FlexBoxWrapper gap="8px" height={height} />
+        <FlexBoxWrapper gap="8px" h={height} />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -110,7 +110,7 @@ describe('FlexBox', () => {
   it('Column gap', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <FlexBoxWrapper cgp="8px" height={height} />
+        <FlexBoxWrapper cgp="8px" h={height} />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -119,7 +119,7 @@ describe('FlexBox', () => {
   it('Row gap', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <FlexBoxWrapper rgp="8px" height={height} />
+        <FlexBoxWrapper rgp="8px" h={height} />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -131,7 +131,7 @@ describe('FlexBox', () => {
         {Object.keys(AlignContent)
           .filter((i) => !isNaN(Number(i)))
           .map((v) => (
-            <FlexBoxWrapper height={height} alc={AlignContent[v]} key={v} />
+            <FlexBoxWrapper h={height} alc={AlignContent[v]} key={v} />
           ))}
       </ThemeProvider>,
     );
@@ -144,7 +144,7 @@ describe('FlexBox', () => {
         {Object.keys(AlignItems)
           .filter((i) => !isNaN(Number(i)))
           .map((v) => (
-            <FlexBoxWrapper height={height} ali={AlignItems[v]} key={v} />
+            <FlexBoxWrapper h={height} ali={AlignItems[v]} key={v} />
           ))}
       </ThemeProvider>,
     );
@@ -157,7 +157,7 @@ describe('FlexBox', () => {
         {Object.keys(JustifyContent)
           .filter((i) => !isNaN(Number(i)))
           .map((v) => (
-            <FlexBoxWrapper height={height} jsc={JustifyContent[v]} key={v} />
+            <FlexBoxWrapper h={height} jsc={JustifyContent[v]} key={v} />
           ))}
       </ThemeProvider>,
     );
@@ -167,7 +167,7 @@ describe('FlexBox', () => {
   it('Width', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <FlexBoxWrapper width="600px" />
+        <FlexBoxWrapper w="600px" />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();

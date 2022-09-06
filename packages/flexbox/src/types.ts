@@ -171,10 +171,6 @@ export interface IFlexBoxProps extends IBaseProps, HTMLAttributes<HTMLDivElement
   gap?: string;
 
   /**
-   * css `height` equivalent
-   */
-  height?: string;
-  /**
    * css `justify-content` equivalent
    *
    * @default 'flex-start'
@@ -197,11 +193,6 @@ export interface IFlexBoxProps extends IBaseProps, HTMLAttributes<HTMLDivElement
    * css `row-gap` equivalent
    */
   rgp?: string;
-
-  /**
-   * css `width` equivalent
-   */
-  width?: string;
 }
 
 /**

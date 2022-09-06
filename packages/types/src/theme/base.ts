@@ -115,13 +115,6 @@ export interface ITypography {
   caption: IText;
 
   /**
-   * A code like text variant
-   *
-   * @type {IText}
-   */
-  code: IText;
-
-  /**
    * Default font size for a component
    *
    * @type {string}
@@ -259,7 +252,7 @@ export interface IText {
   /**
    * Font size, represent `font-size` in css
    *
-   * @type {(number | string)}
+   * @type {(string)}
    */
   fontSize: string;
 
@@ -273,16 +266,23 @@ export interface IText {
   /**
    * Letter spacing, represent `letter-spacing` in css
    *
-   * @type {(number | string)}
+   * @type {(string)}
    */
   letterSpacing: string;
 
   /**
    * Line height, represent `line-height` in css
    *
-   * @type {(number | string)}
+   * @type {(number)}
    */
   lineHeight: number;
+
+  /**
+   * Margin at the bottom
+   *
+   * @type {(string)}
+   */
+  marginBottom: string;
 }
 
 /**

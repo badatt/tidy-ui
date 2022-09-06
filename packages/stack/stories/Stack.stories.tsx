@@ -113,7 +113,7 @@ export const align = () => (
             <Text v="h6">{Align[v]}</Text>
             <Ctx.Consumer>
               {({ count }) => (
-                <Stack align={Align[v]} height="10rem">
+                <Stack align={Align[v]} h="10rem">
                   {[...Array(count)].map((v, i) => (
                     <StackItem key={i}>
                       <StyledText v={label}>{i}</StyledText>
@@ -159,7 +159,7 @@ export const customSize = () => (
   <StackProvider>
     <Ctx.Consumer>
       {({ count }) => (
-        <Stack fold height="25rem" width="75rem" align="baseline" gap="0.5rem" style={{ border: '1px dashed gray' }}>
+        <Stack fold h="25rem" w="75rem" align="baseline" gap="0.5rem" style={{ border: '1px dashed gray' }}>
           {[...Array(count)].map((v, i) => (
             <StackItem key={i}>
               <StyledText v={label}>{i}</StyledText>

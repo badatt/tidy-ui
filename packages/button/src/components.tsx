@@ -41,11 +41,13 @@ const ButtonRoot = styled.button<IButtonProps>`
   text-align: center;
   vertical-align: middle;
   transition: all 200ms linear;
-  ${({ size, disabled, stretched, variant, uppercase }) => css`
+  ${({ size, disabled, stretched, variant, uppercase, h, w }) => css`
     font-size: ${sizeStyles[size!].fontSize};
     padding: 0.3em 0.5rem;
     border-radius: 0.3em;
     line-height: 1.5em;
+    height: ${h};
+    width: ${w};
     ${disabled &&
     css`
       cursor: not-allowed;
@@ -77,7 +79,9 @@ const ButtonRoot = styled.button<IButtonProps>`
  */
 const ButtonGroupRoot = styled.div<IButtonGroupProps>`
   display: flex;
-  ${({ vertical, disabled, stretched, unified }) => css`
+  ${({ vertical, disabled, stretched, unified, h, w }) => css`
+    height: ${h};
+    width: ${w};
     ${vertical
       ? css`
           flex-direction: column;
@@ -147,7 +151,7 @@ const ButtonGroupRoot = styled.div<IButtonGroupProps>`
     `}
     & * {
       box-shadow: none !important;
-      opacity: 1 !important;
+      //opacity: 1 !important;
     }
     & > :not(:first-child):not(:last-child) {
       border-radius: 0 !important;
@@ -170,7 +174,9 @@ const ButtonToolbarRoot = styled.div<IButtonToolbarProps>`
       box-shadow: none !important;
     }
   }
-  ${({ disabled }) => css`
+  ${({ disabled, h, w }) => css`
+    height: ${h};
+    width: ${w};
     ${disabled &&
     css`
       cursor: not-allowed !important;
@@ -191,15 +197,17 @@ const IconButtonRoot = styled.button<IIconButtonProps>`
   display: flex;
   justify-content: center;
   align-items: center;
-  ${({ size, disabled, iconOnly, variant, placement }) => css`
+  ${({ size, disabled, iconOnly, variant, placement, h, w }) => css`
     font-size: ${sizeStyles[size!].fontSize};
+    height: ${h};
+    width: ${w};
     ${iconOnly
       ? css`
           padding: 0.3em;
           border-radius: 50%;
         `
       : css`
-          padding: 0;
+          padding: 0.2rem;
           border-radius: 0.4em;
         `}
     ${disabled &&

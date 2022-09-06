@@ -3,11 +3,10 @@
  */
 import React from 'react';
 import { render } from '@testing-library/react';
-import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { Icon } from '@tidy-ui/commons';
-import { orchidDark, orchidLight } from '@tidy-ui/commons';
+import { orchidDark, orchidLight, TidyUiProvider } from '@tidy-ui/commons';
 import { Button } from '../src';
 import { Size, Tone } from '@tidy-ui/types';
 import { Variant } from '../src/types';
@@ -15,87 +14,87 @@ import { Variant } from '../src/types';
 describe('Render Button', () => {
   it('Basic render', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <Button>Basic</Button>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
   it('Basic render in dark', () => {
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
+      <TidyUiProvider theme={orchidDark}>
         <Button>Basic</Button>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Simple Button in dark', () => {
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
+      <TidyUiProvider theme={orchidDark}>
         <Button variant="simple">simple</Button>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Outlined Button in dark', () => {
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
+      <TidyUiProvider theme={orchidDark}>
         <Button variant="outlined">outlined</Button>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Hero Button in dark', () => {
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
+      <TidyUiProvider theme={orchidDark}>
         <Button variant="hero">hero</Button>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Disabled button', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <Button disabled>Disabled</Button>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Loading blocked button', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <Button loading>Loading...</Button>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Stretch full width button', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <Button stretched>Stretched</Button>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Uppercase button', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <Button uppercase>uppercase</Button>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Button with all color variants', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         {Object.values(Tone)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
@@ -103,14 +102,14 @@ describe('Render Button', () => {
               {Tone[v]}
             </Button>
           ))}
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Button with all size variants', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         {Object.values(Size)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
@@ -118,14 +117,14 @@ describe('Render Button', () => {
               size-{Size[v]}
             </Button>
           ))}
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Button with all type variants', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         {Object.values(Variant)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
@@ -133,25 +132,25 @@ describe('Render Button', () => {
               {Variant[v]}
             </Button>
           ))}
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Gradients', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <Button gradient>basic button</Button>
         <Button variant="hero" gradient>
           basic button
         </Button>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
   it('Button with all type variants in dark mode', () => {
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
+      <TidyUiProvider theme={orchidDark}>
         {Object.values(Variant)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
@@ -159,29 +158,40 @@ describe('Render Button', () => {
               {Variant[v]}
             </Button>
           ))}
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
   it('Button with icon', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <Button variant="primary" tone="major">
           <Icon.AddCircle />
           Settings
         </Button>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Button with only icon', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <Button tone="neutral">
           <Icon.AddCircle />
         </Button>
-      </ThemeProvider>,
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Button with custom dimension', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Button h="3rem" w="15rem">
+          custom dimension
+        </Button>
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });

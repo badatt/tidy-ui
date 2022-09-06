@@ -95,7 +95,7 @@ const MessageLabel = styled.div<IMessageProps>`
     text-transform: uppercase;
     font-weight: ${typography.fontWeightBold};
     ${outlined ? outlinedLabel : filledLabel}
-    svg {
+    * {
       height: 0.75rem;
       width: 0.75rem;
     }

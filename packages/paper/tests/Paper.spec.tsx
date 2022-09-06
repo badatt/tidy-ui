@@ -9,17 +9,17 @@ import 'jest-styled-components';
 import { orchidDark, orchidLight } from '@tidy-ui/commons';
 import { Paper } from '../src';
 
+const text = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, veniam ducimus ea reiciendis sed blanditiis
+          impedit quisquam velit praesentium, eius dignissimos. Omnis ad doloribus laudantium expedita accusantium
+          placeat suscipit dolores. Autem iste voluptas deleniti similique accusamus voluptatem dolorem necessitatibus
+          aut natus facere, tenetur sequi culpa beatae praesentium hic aliquam velit molestias illo enim sint
+          repellendus earum quasi est repudiandae. Eveniet?`;
+
 describe('Paper', () => {
   it('Basic render', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Paper>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, veniam ducimus ea reiciendis sed blanditiis
-          impedit quisquam velit praesentium, eius dignissimos. Omnis ad doloribus laudantium expedita accusantium
-          placeat suscipit dolores. Autem iste voluptas deleniti similique accusamus voluptatem dolorem necessitatibus
-          aut natus facere, tenetur sequi culpa beatae praesentium hic aliquam velit molestias illo enim sint
-          repellendus earum quasi est repudiandae. Eveniet?
-        </Paper>
+        <Paper>{text}</Paper>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -28,13 +28,7 @@ describe('Paper', () => {
   it('Dark mode basic render', () => {
     const tree = render(
       <ThemeProvider theme={orchidDark}>
-        <Paper>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, veniam ducimus ea reiciendis sed blanditiis
-          impedit quisquam velit praesentium, eius dignissimos. Omnis ad doloribus laudantium expedita accusantium
-          placeat suscipit dolores. Autem iste voluptas deleniti similique accusamus voluptatem dolorem necessitatibus
-          aut natus facere, tenetur sequi culpa beatae praesentium hic aliquam velit molestias illo enim sint
-          repellendus earum quasi est repudiandae. Eveniet?
-        </Paper>
+        <Paper>{text}</Paper>
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -43,12 +37,19 @@ describe('Paper', () => {
   it('Paper with sharp edges', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <Paper sharp>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, veniam ducimus ea reiciendis sed blanditiis
-          impedit quisquam velit praesentium, eius dignissimos. Omnis ad doloribus laudantium expedita accusantium
-          placeat suscipit dolores. Autem iste voluptas deleniti similique accusamus voluptatem dolorem necessitatibus
-          aut natus facere, tenetur sequi culpa beatae praesentium hic aliquam velit molestias illo enim sint
-          repellendus earum quasi est repudiandae. Eveniet?
+        <Paper sharp>{text}</Paper>
+      </ThemeProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Custom element', () => {
+    const tree = render(
+      <ThemeProvider theme={orchidLight}>
+        <Paper ele={<div style={{ display: 'flex', gap: '1rem' }} />}>
+          <div>{text}</div>
+          <div>{text}</div>
+          <div>{text}</div>
         </Paper>
       </ThemeProvider>,
     );

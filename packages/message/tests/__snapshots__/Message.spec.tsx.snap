@@ -37,7 +37,7 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c1 svg {
+.c1 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -119,7 +119,7 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c1 svg {
+.c1 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -256,7 +256,7 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c1 svg {
+.c1 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -338,7 +338,7 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c1 svg {
+.c1 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -488,7 +488,7 @@ Object {
   border-bottom: 0;
 }
 
-.c1 svg {
+.c1 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -600,7 +600,7 @@ Object {
   border-bottom: 0;
 }
 
-.c1 svg {
+.c1 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -767,7 +767,7 @@ Object {
   border-bottom: 0;
 }
 
-.c1 svg {
+.c1 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -879,7 +879,7 @@ Object {
   border-bottom: 0;
 }
 
-.c1 svg {
+.c1 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -1046,7 +1046,7 @@ Object {
   border-bottom: 0;
 }
 
-.c1 svg {
+.c1 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -1158,7 +1158,7 @@ Object {
   border-bottom: 0;
 }
 
-.c1 svg {
+.c1 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -1312,7 +1312,7 @@ Object {
   color: hsla(270,100%,98%,1);
 }
 
-.c1 svg {
+.c1 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -1344,7 +1344,7 @@ Object {
   color: hsla(327,73%,97%,1);
 }
 
-.c3 svg {
+.c3 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -1376,7 +1376,7 @@ Object {
   color: hsla(0,0%,98%,1);
 }
 
-.c5 svg {
+.c5 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -1408,7 +1408,7 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c7 svg {
+.c7 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -1440,7 +1440,7 @@ Object {
   color: hsla(138,76%,97%,1);
 }
 
-.c9 svg {
+.c9 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -1472,7 +1472,7 @@ Object {
   color: hsla(48,100%,96%,1);
 }
 
-.c11 svg {
+.c11 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -1504,7 +1504,7 @@ Object {
   color: hsla(0,86%,97%,1);
 }
 
-.c13 svg {
+.c13 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -1787,7 +1787,7 @@ Object {
   color: hsla(270,100%,98%,1);
 }
 
-.c1 svg {
+.c1 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -1819,7 +1819,7 @@ Object {
   color: hsla(327,73%,97%,1);
 }
 
-.c3 svg {
+.c3 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -1851,7 +1851,7 @@ Object {
   color: hsla(0,0%,98%,1);
 }
 
-.c5 svg {
+.c5 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -1883,7 +1883,7 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c7 svg {
+.c7 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -1915,7 +1915,7 @@ Object {
   color: hsla(138,76%,97%,1);
 }
 
-.c9 svg {
+.c9 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -1947,7 +1947,7 @@ Object {
   color: hsla(48,100%,96%,1);
 }
 
-.c11 svg {
+.c11 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -1979,7 +1979,7 @@ Object {
   color: hsla(0,86%,97%,1);
 }
 
-.c13 svg {
+.c13 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -2315,7 +2315,7 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c1 svg {
+.c1 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -2393,7 +2393,7 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c1 svg {
+.c1 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -2528,7 +2528,7 @@ Object {
   color: hsla(270,100%,98%,1);
 }
 
-.c1 svg {
+.c1 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -2560,7 +2560,7 @@ Object {
   color: hsla(327,73%,97%,1);
 }
 
-.c3 svg {
+.c3 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -2592,7 +2592,7 @@ Object {
   color: hsla(0,0%,98%,1);
 }
 
-.c5 svg {
+.c5 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -2624,7 +2624,7 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c7 svg {
+.c7 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -2656,7 +2656,7 @@ Object {
   color: hsla(138,76%,97%,1);
 }
 
-.c9 svg {
+.c9 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -2688,7 +2688,7 @@ Object {
   color: hsla(48,100%,96%,1);
 }
 
-.c11 svg {
+.c11 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -2720,7 +2720,7 @@ Object {
   color: hsla(0,86%,97%,1);
 }
 
-.c13 svg {
+.c13 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -3003,7 +3003,7 @@ Object {
   color: hsla(270,100%,98%,1);
 }
 
-.c1 svg {
+.c1 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -3035,7 +3035,7 @@ Object {
   color: hsla(327,73%,97%,1);
 }
 
-.c3 svg {
+.c3 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -3067,7 +3067,7 @@ Object {
   color: hsla(0,0%,98%,1);
 }
 
-.c5 svg {
+.c5 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -3099,7 +3099,7 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c7 svg {
+.c7 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -3131,7 +3131,7 @@ Object {
   color: hsla(138,76%,97%,1);
 }
 
-.c9 svg {
+.c9 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -3163,7 +3163,7 @@ Object {
   color: hsla(48,100%,96%,1);
 }
 
-.c11 svg {
+.c11 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -3195,7 +3195,7 @@ Object {
   color: hsla(0,86%,97%,1);
 }
 
-.c13 svg {
+.c13 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -3544,7 +3544,7 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c1 svg {
+.c1 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -3653,7 +3653,7 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c1 svg {
+.c1 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -3806,7 +3806,7 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c1 svg {
+.c1 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -3892,7 +3892,7 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c1 svg {
+.c1 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -4152,7 +4152,7 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c1 svg {
+.c1 * {
   height: 0.75rem;
   width: 0.75rem;
 }
@@ -4231,7 +4231,7 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c1 svg {
+.c1 * {
   height: 0.75rem;
   width: 0.75rem;
 }

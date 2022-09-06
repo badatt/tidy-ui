@@ -65,7 +65,7 @@ export interface IDividerProps extends IBaseProps, HTMLAttributes<HTMLHRElement>
   density?: TDensity;
 
   /**
-   * Width for vertically aligned, Height for vertically aligned divider
+   * Width for vertically aligned, h for vertically aligned divider
    */
   length?: string;
   /**

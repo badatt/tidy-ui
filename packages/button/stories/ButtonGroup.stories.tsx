@@ -63,6 +63,18 @@ export const disabled = () => (
   </Container>
 );
 
+export const customDimensions = () => (
+  <Container>
+    <ButtonGroup h="5rem" w="30rem">
+      {[...Array(5)].map((c, i) => (
+        <Button variant="outlined" key={i}>
+          Button {i}
+        </Button>
+      ))}
+    </ButtonGroup>
+  </Container>
+);
+
 export const others = () => (
   <Container>
     <Column>

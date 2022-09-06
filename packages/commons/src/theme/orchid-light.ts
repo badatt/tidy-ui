@@ -1,7 +1,7 @@
 import { ITidyUITheme } from '@tidy-ui/types';
 import { defaultBase } from './base';
-import { color } from './colors';
 import { createColor } from './utils';
+import { color } from '.';
 
 const paletteVariant = {
   // Red

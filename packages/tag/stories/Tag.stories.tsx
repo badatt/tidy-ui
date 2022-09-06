@@ -58,3 +58,9 @@ export const sizes = () => (
       ))}
   </Column>
 );
+
+export const customDimensions = () => (
+  <Tag h="3rem" w="10rem">
+    custom dimension
+  </Tag>
+);

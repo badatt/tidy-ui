@@ -1339,14 +1339,10 @@ Object {
     <div>
       <div
         class="c0"
-        height="25rem"
         role="group"
-        width="25rem"
       >
         <div
           class="c1"
-          height="25rem"
-          width="25rem"
         >
           <div>
             1
@@ -1354,8 +1350,6 @@ Object {
         </div>
         <div
           class="c1"
-          height="25rem"
-          width="25rem"
         >
           <div>
             2
@@ -1363,8 +1357,6 @@ Object {
         </div>
         <div
           class="c1"
-          height="25rem"
-          width="25rem"
         >
           <div>
             3
@@ -1372,8 +1364,6 @@ Object {
         </div>
         <div
           class="c1"
-          height="25rem"
-          width="25rem"
         >
           <div>
             4
@@ -1381,8 +1371,6 @@ Object {
         </div>
         <div
           class="c1"
-          height="25rem"
-          width="25rem"
         >
           <div>
             5
@@ -1390,8 +1378,6 @@ Object {
         </div>
         <div
           class="c1"
-          height="25rem"
-          width="25rem"
         >
           <div>
             6
@@ -1399,8 +1385,6 @@ Object {
         </div>
         <div
           class="c1"
-          height="25rem"
-          width="25rem"
         >
           <div>
             7
@@ -1408,8 +1392,6 @@ Object {
         </div>
         <div
           class="c1"
-          height="25rem"
-          width="25rem"
         >
           <div>
             8
@@ -1442,14 +1424,10 @@ Object {
 <div>
     <div
       class="c0"
-      height="25rem"
       role="group"
-      width="25rem"
     >
       <div
         class="c1"
-        height="25rem"
-        width="25rem"
       >
         <div>
           1
@@ -1457,8 +1435,6 @@ Object {
       </div>
       <div
         class="c1"
-        height="25rem"
-        width="25rem"
       >
         <div>
           2
@@ -1466,8 +1442,6 @@ Object {
       </div>
       <div
         class="c1"
-        height="25rem"
-        width="25rem"
       >
         <div>
           3
@@ -1475,8 +1449,6 @@ Object {
       </div>
       <div
         class="c1"
-        height="25rem"
-        width="25rem"
       >
         <div>
           4
@@ -1484,8 +1456,6 @@ Object {
       </div>
       <div
         class="c1"
-        height="25rem"
-        width="25rem"
       >
         <div>
           5
@@ -1493,8 +1463,6 @@ Object {
       </div>
       <div
         class="c1"
-        height="25rem"
-        width="25rem"
       >
         <div>
           6
@@ -1502,8 +1470,6 @@ Object {
       </div>
       <div
         class="c1"
-        height="25rem"
-        width="25rem"
       >
         <div>
           7
@@ -1511,8 +1477,6 @@ Object {
       </div>
       <div
         class="c1"
-        height="25rem"
-        width="25rem"
       >
         <div>
           8

@@ -79,11 +79,6 @@ export interface IStackProps extends IBaseProps, HTMLAttributes<HTMLDivElement> 
   gap?: string;
 
   /**
-   * css `height` equivalent
-   */
-  height?: string;
-
-  /**
    * Justifies content, equivalent to css `justify-content`
    *
    * @default 'flex-start'
@@ -101,9 +96,4 @@ export interface IStackProps extends IBaseProps, HTMLAttributes<HTMLDivElement> 
    * @default 'row'
    */
   order?: TOrder;
-
-  /**
-   * css `width` equivalent
-   */
-  width?: string;
 }

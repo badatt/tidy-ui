@@ -75,7 +75,7 @@ describe('Stack', () => {
   it('Custom size', () => {
     const tree = render(
       <ThemeProvider theme={orchidLight}>
-        <StackWrapper height="25rem" width="25rem" />
+        <StackWrapper h="25rem" w="25rem" />
       </ThemeProvider>,
     );
     expect(tree).toMatchSnapshot();

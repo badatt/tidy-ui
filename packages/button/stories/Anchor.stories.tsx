@@ -7,29 +7,16 @@ export default {
   title: 'Presentation/Button/Anchor',
 };
 
-const Container = styled.div`
-  display: flex;
-  gap: 16px;
-`;
-
-export const basic = () => (
-  <Container>
-    <Anchor href="/?path=/story/anchor--basic">Basic</Anchor>
-  </Container>
-);
+export const basic = () => <Anchor href="/?path=/story/anchor--basic">Basic</Anchor>;
 
 export const disabled = () => (
-  <Container>
-    <Anchor href="/?path=/story/anchor--basic" disabled>
-      disabled
-    </Anchor>
-  </Container>
+  <Anchor href="/?path=/story/anchor--basic" disabled>
+    disabled
+  </Anchor>
 );
 
 export const launchNewTab = () => (
-  <Container>
-    <Anchor href="https://www.google.com/" launch>
-      Google
-    </Anchor>
-  </Container>
+  <Anchor href="https://www.google.com/" launch>
+    Google
+  </Anchor>
 );
