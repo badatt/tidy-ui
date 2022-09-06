@@ -5,8 +5,7 @@ import React, { useContext, useEffect } from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidLight, Actions } from '@tidy-ui/commons';
-import { TidyUiContext, TidyUiProvider } from '../../src';
+import { TidyUiContext, TidyUiProvider, orchidLight, Actions } from '../../src';
 
 describe('TidyUiProvider', () => {
   it('Basic render', () => {
