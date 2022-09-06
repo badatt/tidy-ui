@@ -4,7 +4,15 @@
     "node": true
   },
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint", "react", "simple-import-sort", "typescript-sort-keys", "sort-keys", "jsdoc"],
+  "plugins": [
+    "@typescript-eslint",
+    "react",
+    "unused-imports",
+    "simple-import-sort",
+    "typescript-sort-keys",
+    "sort-keys",
+    "jsdoc"
+  ],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
@@ -13,6 +21,7 @@
     "plugin:jsdoc/recommended"
   ],
   "rules": {
+    "unused-imports/no-unused-imports": "error",
     "sort-keys": 0, // disable default eslint sort-keys
     "sort-keys/sort-keys-fix": 1,
     "@typescript-eslint/no-non-null-assertion": "off",
