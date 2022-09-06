@@ -3,10 +3,9 @@
  */
 import React from 'react';
 import { render } from '@testing-library/react';
-import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidLight } from '@tidy-ui/commons';
+import { orchidLight, TidyUiProvider } from '@tidy-ui/commons';
 import { FlexBox } from '../src';
 import { AlignSelf, IFlexBoxProps, IFlexItemProps, TAlignSelf } from '../src/types';
 
@@ -30,85 +29,85 @@ function FlexBoxWrapper(props: { box: IFlexBoxProps; item: IFlexItemProps }) {
 describe('FlexItem', () => {
   it('Basic render', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <FlexBoxWrapper box={{ h }} item={{}} />
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Flex', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <FlexBoxWrapper box={{ h }} item={{ flx: 'flex-grow' }} />
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Spanning', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <FlexBoxWrapper box={{ h }} item={{ span: 6 }} />
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Flex basis', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <FlexBoxWrapper box={{ h }} item={{ fbs: 'auto' }} />
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Flex shrink', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <FlexBoxWrapper box={{ h }} item={{ fsk: 1 }} />
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Flex grow', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <FlexBoxWrapper box={{ h }} item={{ fgo: 2 }} />
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Order', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <FlexBoxWrapper box={{ h }} item={{ ord: 2 }} />
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Align self', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         {Object.keys(Object.keys(AlignSelf).filter((i) => !isNaN(Number(i))))
           .filter((i) => !isNaN(Number(i)))
           .map((v) => (
             <FlexBoxWrapper box={{ h }} item={{ als: AlignSelf[v] }} key={v} />
           ))}
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Full width', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <FlexBoxWrapper box={{ h }} item={{ fuw: true }} />
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });

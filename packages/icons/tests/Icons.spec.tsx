@@ -3,10 +3,9 @@
  */
 import React from 'react';
 import { render } from '@testing-library/react';
-import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidLight } from '@tidy-ui/commons';
+import { orchidLight, TidyUiProvider } from '@tidy-ui/commons';
 import {
   AddCircleIcon,
   AddIcon,
@@ -68,11 +67,11 @@ const icons = [
 describe('Icons', () => {
   it('Render icons', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         {icons.map((icon, index) => (
           <div key={index}>{icon}</div>
         ))}
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });

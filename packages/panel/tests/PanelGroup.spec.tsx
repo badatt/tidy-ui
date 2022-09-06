@@ -3,10 +3,9 @@
  */
 import React from 'react';
 import { render } from '@testing-library/react';
-import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidDark, orchidLight } from '@tidy-ui/commons';
+import { orchidDark, orchidLight, TidyUiProvider } from '@tidy-ui/commons';
 import { Panel, PanelGroup } from '../src';
 
 const text = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -25,7 +24,7 @@ const text = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
 describe('Panel', () => {
   it('Basic render', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <PanelGroup>
           {[...Array(10)].map((v, i) => (
             <Panel key={i}>
@@ -34,14 +33,14 @@ describe('Panel', () => {
             </Panel>
           ))}
         </PanelGroup>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Dark mode basic render', () => {
     const tree = render(
-      <ThemeProvider theme={orchidDark}>
+      <TidyUiProvider theme={orchidDark}>
         <PanelGroup>
           {[...Array(10)].map((v, i) => (
             <Panel key={i}>
@@ -50,14 +49,14 @@ describe('Panel', () => {
             </Panel>
           ))}
         </PanelGroup>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Some expanded', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <PanelGroup>
           {[...Array(10)].map((v, i) => (
             <Panel key={i} expanded={i % 2 === 0}>
@@ -66,14 +65,14 @@ describe('Panel', () => {
             </Panel>
           ))}
         </PanelGroup>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Custom margin', () => {
     const tree = render(
-      <ThemeProvider theme={orchidLight}>
+      <TidyUiProvider theme={orchidLight}>
         <PanelGroup margin="0 0 1rem 0">
           {[...Array(3)].map((v, i) => (
             <Panel key={i}>
@@ -90,7 +89,7 @@ describe('Panel', () => {
             </Panel>
           ))}
         </PanelGroup>
-      </ThemeProvider>,
+      </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
