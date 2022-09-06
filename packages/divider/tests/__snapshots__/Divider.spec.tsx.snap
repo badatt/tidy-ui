@@ -228,19 +228,6 @@ Object {
 
 .c0 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
-  color: hsla(217,33%,17%,1);
-  font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
-}
-
-.c1 {
-  display: block;
   margin-bottom: 0.325rem;
   font-size: 1.25rem;
   color: hsla(217,33%,17%,1);
@@ -252,61 +239,80 @@ Object {
   line-height: 1.6;
 }
 
+.c1 {
+  display: block;
+  margin-bottom: 0.4375rem;
+  font-size: 0.875rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
 <body>
     <div>
-      <p
-        class="c0"
-        role="contentinfo"
-      >
+      <div>
         <h6
-          class="c1"
+          class="c0"
           role="contentinfo"
         >
           align=
           center
         </h6>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+        <p
+          class="c1"
+          role="contentinfo"
+        >
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
             expedita necessitatibus modi quisquam consequatur!
-      </p>
+        </p>
+      </div>
       <hr
         class="c2"
         role="separator"
       />
-      <p
-        class="c0"
-        role="contentinfo"
-      >
+      <div>
         <h6
-          class="c1"
+          class="c0"
           role="contentinfo"
         >
           align=
           start
         </h6>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+        <p
+          class="c1"
+          role="contentinfo"
+        >
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
             expedita necessitatibus modi quisquam consequatur!
-      </p>
+        </p>
+      </div>
       <hr
         class="c3"
         role="separator"
       />
-      <p
-        class="c0"
-        role="contentinfo"
-      >
+      <div>
         <h6
-          class="c1"
+          class="c0"
           role="contentinfo"
         >
           align=
           end
         </h6>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+        <p
+          class="c1"
+          role="contentinfo"
+        >
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
             expedita necessitatibus modi quisquam consequatur!
-      </p>
+        </p>
+      </div>
       <hr
         class="c4"
         role="separator"
@@ -357,19 +363,6 @@ Object {
 
 .c0 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
-  color: hsla(217,33%,17%,1);
-  font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
-}
-
-.c1 {
-  display: block;
   margin-bottom: 0.325rem;
   font-size: 1.25rem;
   color: hsla(217,33%,17%,1);
@@ -381,60 +374,79 @@ Object {
   line-height: 1.6;
 }
 
+.c1 {
+  display: block;
+  margin-bottom: 0.4375rem;
+  font-size: 0.875rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
 <div>
-    <p
-      class="c0"
-      role="contentinfo"
-    >
+    <div>
       <h6
-        class="c1"
+        class="c0"
         role="contentinfo"
       >
         align=
         center
       </h6>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
             expedita necessitatibus modi quisquam consequatur!
-    </p>
+      </p>
+    </div>
     <hr
       class="c2"
       role="separator"
     />
-    <p
-      class="c0"
-      role="contentinfo"
-    >
+    <div>
       <h6
-        class="c1"
+        class="c0"
         role="contentinfo"
       >
         align=
         start
       </h6>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
             expedita necessitatibus modi quisquam consequatur!
-    </p>
+      </p>
+    </div>
     <hr
       class="c3"
       role="separator"
     />
-    <p
-      class="c0"
-      role="contentinfo"
-    >
+    <div>
       <h6
-        class="c1"
+        class="c0"
         role="contentinfo"
       >
         align=
         end
       </h6>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
             expedita necessitatibus modi quisquam consequatur!
-    </p>
+      </p>
+    </div>
     <hr
       class="c4"
       role="separator"
@@ -722,19 +734,6 @@ Object {
 
 .c0 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
-  color: hsla(217,33%,17%,1);
-  font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
-}
-
-.c1 {
-  display: block;
   margin-bottom: 0.325rem;
   font-size: 1.25rem;
   color: hsla(217,33%,17%,1);
@@ -746,61 +745,80 @@ Object {
   line-height: 1.6;
 }
 
+.c1 {
+  display: block;
+  margin-bottom: 0.4375rem;
+  font-size: 0.875rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
 <body>
     <div>
-      <p
-        class="c0"
-        role="contentinfo"
-      >
+      <div>
         <h6
-          class="c1"
+          class="c0"
           role="contentinfo"
         >
           align=
           center
         </h6>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+        <p
+          class="c1"
+          role="contentinfo"
+        >
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
             expedita necessitatibus modi quisquam consequatur!
-      </p>
+        </p>
+      </div>
       <hr
         class="c2"
         role="separator"
       />
-      <p
-        class="c0"
-        role="contentinfo"
-      >
+      <div>
         <h6
-          class="c1"
+          class="c0"
           role="contentinfo"
         >
           align=
           start
         </h6>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+        <p
+          class="c1"
+          role="contentinfo"
+        >
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
             expedita necessitatibus modi quisquam consequatur!
-      </p>
+        </p>
+      </div>
       <hr
         class="c3"
         role="separator"
       />
-      <p
-        class="c0"
-        role="contentinfo"
-      >
+      <div>
         <h6
-          class="c1"
+          class="c0"
           role="contentinfo"
         >
           align=
           end
         </h6>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+        <p
+          class="c1"
+          role="contentinfo"
+        >
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
             expedita necessitatibus modi quisquam consequatur!
-      </p>
+        </p>
+      </div>
       <hr
         class="c4"
         role="separator"
@@ -851,19 +869,6 @@ Object {
 
 .c0 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
-  color: hsla(217,33%,17%,1);
-  font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
-}
-
-.c1 {
-  display: block;
   margin-bottom: 0.325rem;
   font-size: 1.25rem;
   color: hsla(217,33%,17%,1);
@@ -875,60 +880,79 @@ Object {
   line-height: 1.6;
 }
 
+.c1 {
+  display: block;
+  margin-bottom: 0.4375rem;
+  font-size: 0.875rem;
+  color: hsla(217,33%,17%,1);
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+}
+
 <div>
-    <p
-      class="c0"
-      role="contentinfo"
-    >
+    <div>
       <h6
-        class="c1"
+        class="c0"
         role="contentinfo"
       >
         align=
         center
       </h6>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
             expedita necessitatibus modi quisquam consequatur!
-    </p>
+      </p>
+    </div>
     <hr
       class="c2"
       role="separator"
     />
-    <p
-      class="c0"
-      role="contentinfo"
-    >
+    <div>
       <h6
-        class="c1"
+        class="c0"
         role="contentinfo"
       >
         align=
         start
       </h6>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
             expedita necessitatibus modi quisquam consequatur!
-    </p>
+      </p>
+    </div>
     <hr
       class="c3"
       role="separator"
     />
-    <p
-      class="c0"
-      role="contentinfo"
-    >
+    <div>
       <h6
-        class="c1"
+        class="c0"
         role="contentinfo"
       >
         align=
         end
       </h6>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
             expedita necessitatibus modi quisquam consequatur!
-    </p>
+      </p>
+    </div>
     <hr
       class="c4"
       role="separator"

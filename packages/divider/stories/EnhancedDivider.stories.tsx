@@ -1,5 +1,4 @@
 import React from 'react';
-import { styled } from '@tidy-ui/commons';
 import { Text } from '@tidy-ui/text';
 import { Divider } from '../src';
 import { Density, Position, Variant } from '../src/types';
