@@ -17,7 +17,7 @@ describe('Page reducer', () => {
   });
   it('SetTitle', () => {
     const action: AppActionTypes = {
-      type: Actions.PageActions.SetTitle,
+      type: Actions.Page.SetTitle,
       payload: { title: 'changed title' },
     };
     const mutatedState = reducer(initialState, action);
@@ -25,7 +25,7 @@ describe('Page reducer', () => {
   });
   it('SetTheme', () => {
     const action: AppActionTypes = {
-      type: Actions.PageActions.SetTheme,
+      type: Actions.Page.SetTheme,
       payload: { theme: orchidDark },
     };
     const mutatedState = reducer(initialState, action);

@@ -23,7 +23,7 @@ const TidyUiProvider = (props: ITidyUiProviderProps): JSX.Element => {
       payload: {
         theme,
       },
-      type: Actions.PageActions.SetTheme,
+      type: Actions.Page.SetTheme,
     });
   }, [theme]);
 
