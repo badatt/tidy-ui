@@ -17,7 +17,7 @@ describe('Page reducer', () => {
   });
   it('SetVersion', () => {
     const action: AppActionTypes = {
-      type: Actions.RootActions.SetVersion,
+      type: Actions.Root.SetVersion,
       payload: { version: '2.0.0' },
     };
     const mutatedState = reducer(initialState, action);
@@ -25,7 +25,7 @@ describe('Page reducer', () => {
   });
   it('Reset', () => {
     const action: AppActionTypes = {
-      type: Actions.RootActions.Reset,
+      type: Actions.Root.Reset,
       payload: null,
     };
     const mutatedState = reducer(initialState, action);

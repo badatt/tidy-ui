@@ -1,6 +1,7 @@
 import { AppActionTypes } from '../actions';
 import pageReducer from '../reducers/page.reducer';
 import rootReducer from '../reducers/root.reducer';
+import toasterReducer from '../reducers/toaster.reducer';
 import { IState } from './types';
 
 /**
@@ -16,6 +17,9 @@ const initializer = (initState: IState): IState => {
 const initialState: IState = {
   pageState: {},
   rootState: {},
+  toasterState: {
+    toasts: [],
+  },
 };
 
 /**
@@ -26,10 +30,11 @@ const initialState: IState = {
  * @returns {IState} mutated state
  */
 const mainReducer = (state: IState, actions: AppActionTypes): IState => {
-  const { pageState, rootState } = state;
+  const { pageState, rootState, toasterState } = state;
   return {
     pageState: pageReducer(pageState, actions),
     rootState: rootReducer(rootState, actions),
+    toasterState: toasterReducer(toasterState, actions),
   };
 };
 
