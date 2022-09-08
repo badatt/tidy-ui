@@ -26,7 +26,6 @@ describe('Page reducer', () => {
   it('Reset', () => {
     const action: AppActionTypes = {
       type: Actions.Root.Reset,
-      payload: null,
     };
     const mutatedState = reducer(initialState, action);
     expect(mutatedState.version).toEqual('');

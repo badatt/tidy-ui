@@ -27,9 +27,9 @@ export interface IPageState {
 const reducer = (prevState: IPageState, action: AppActionTypes): IPageState => {
   switch (action.type) {
     case PageActions.SetTitle:
-      return { ...prevState, title: action.payload.title };
+      return { ...prevState, title: action.payload?.title };
     case PageActions.SetTheme:
-      return { ...prevState, theme: action.payload.theme };
+      return { ...prevState, theme: action.payload?.theme };
     default:
       return { ...prevState };
   }

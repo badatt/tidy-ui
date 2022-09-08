@@ -21,9 +21,7 @@ describe('TidyUiContext', () => {
     const tree = render(
       <TidyUiContext.Consumer>
         {({ state, dispatch }) => (
-          <div onClick={() => dispatch({ type: Actions.RootActions.Reset, payload: null })}>
-            hello {state.pageState.title}
-          </div>
+          <div onClick={() => dispatch({ type: Actions.Root.Reset, payload: null })}>hello {state.pageState.title}</div>
         )}
       </TidyUiContext.Consumer>,
     );
