@@ -7,6 +7,7 @@ import { ActionMap } from './types';
 export enum ToasterActions {
   AddToast = 'ADD_TOAST',
   ClearAll = 'CLEAR_ALL',
+  PopToast = 'POP_TOAST',
   RemoveToast = 'REMOVE_TOAST',
 }
 
@@ -31,6 +32,10 @@ type ToasterPayload = {
    * Clears toast container
    */
   [ToasterActions.ClearAll]: null;
+  /**
+   * Pops the last toast
+   */
+  [ToasterActions.PopToast]: null;
   /**
    * Removes the toast from toast container
    */

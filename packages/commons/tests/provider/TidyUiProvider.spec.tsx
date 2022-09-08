@@ -22,7 +22,7 @@ describe('TidyUiProvider', () => {
       const { state, dispatch } = useContext(TidyUiContext);
       useEffect(() => {
         dispatch({
-          type: Actions.RootActions.SetVersion,
+          type: Actions.Root.SetVersion,
           payload: { version: '1.0.0' },
         });
       }, []);

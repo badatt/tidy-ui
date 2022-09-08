@@ -14,7 +14,7 @@ export type ActionMap<M extends { [index: string]: any }> = {
         /**
          * Payload to the action
          */
-        payload: M[Key];
+        payload?: M[Key];
         /**
          * Type of the action
          */
