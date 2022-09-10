@@ -1,11 +1,10 @@
 import { PageActions, PageActionTypes } from './page.actions';
 import { RootActions, RootActionTypes } from './root.actions';
-import { ToasterActions, ToasterActionTypes } from './toaster.actions';
 
 /**
  * Tidy UI components internal actions
  */
-export type AppActionTypes = PageActionTypes | RootActionTypes | ToasterActionTypes;
+export type AppActionTypes = PageActionTypes | RootActionTypes;
 
 /**
  * Tidy UI context actions
@@ -13,7 +12,6 @@ export type AppActionTypes = PageActionTypes | RootActionTypes | ToasterActionTy
 const Actions = {
   Page: PageActions,
   Root: RootActions,
-  Toaster: ToasterActions,
 };
 
 export { Actions };
