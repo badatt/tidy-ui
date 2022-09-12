@@ -1,3 +1,5 @@
+import clone from './clone';
+
 /**
  * Queue Item
  */
@@ -24,10 +26,27 @@ class Queue<T extends TQueueItemType> {
    * @param {T[]} items default items to the queue
    */
   constructor(items?: T[]) {
-    console.log('Creating queue');
     this.items = Object.assign({}, items);
     this.head = 0;
     this.tail = Object.keys(this.items).length;
+  }
+
+  /**
+   * Clears the queue
+   */
+  clear() {
+    this.items = {};
+    this.head = 0;
+    this.tail = 0;
+  }
+
+  /**
+   * Gets a clone of this instance
+   *
+   * @returns {Queue<T>} cloned queue
+   */
+  copy(): Queue<T> {
+    return clone.deep(this);
   }
 
   /**
@@ -48,7 +67,6 @@ class Queue<T extends TQueueItemType> {
   enqueue(item: T) {
     this.items[this.tail] = item;
     this.tail++;
-    console.log('Q => len', this.length);
   }
   /**
    * returns item from the queue
