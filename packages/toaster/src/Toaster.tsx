@@ -1,5 +1,5 @@
 import React from 'react';
-import { styled, TidyUiContext, usePortal } from '@tidy-ui/commons';
+import { styled, usePortal } from '@tidy-ui/commons';
 import { IToast, IToasterProps } from './types';
 
 const ToasterRoot = styled.div`
