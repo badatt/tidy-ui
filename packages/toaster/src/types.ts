@@ -1,5 +1,24 @@
-import { HTMLAttributes } from 'react';
+import React, { HTMLAttributes } from 'react';
 import { IBaseProps } from '@tidy-ui/types';
+
+/**
+ * ToastItem
+ */
+export type TToastItem = string | JSX.Element | React.ReactNode;
+
+/**
+ * Toast
+ */
+export interface IToast {
+  /**
+   * Id
+   */
+  id?: string;
+  /**
+   * Item
+   */
+  item?: TToastItem;
+}
 
 /**
  * Toaster props
