@@ -1,7 +1,7 @@
 import React from 'react';
-import { Actions, css, hsla, color, styled, TidyUiContext } from '@tidy-ui/commons';
+import { css, hsla, color, styled } from '@tidy-ui/commons';
 import { Button, ButtonGroup, IconButton } from '@tidy-ui/button';
-import { Toaster } from '../src';
+import { Toaster, useToaster } from '../src';
 
 const ToastContent = styled.div`
   ${({ theme: { palette, layout } }) => css`
@@ -19,16 +19,13 @@ export default {
 };
 
 export const withToaster = () => {
+  const { toaster } = useToaster();
   const ele = <ToastContent>{Date.now()}</ToastContent>;
 
   return (
-    <div>
-      <ButtonGroup>
-        <Button onClick={() => null}>Add</Button>
-        <Button onClick={() => null}>Pop</Button>
-        <Button onClick={() => null}>Clear</Button>
-      </ButtonGroup>
-      <Toaster timeout="infinite" />
-    </div>
+    <ButtonGroup>
+      <Button onClick={() => toaster.add(ele)}>Add</Button>
+      <Button onClick={() => toaster.clear()}>Clear</Button>
+    </ButtonGroup>
   );
 };
