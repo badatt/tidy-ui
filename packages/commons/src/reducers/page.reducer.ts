@@ -31,7 +31,7 @@ const reducer = (prevState: IPageState, action: AppActionTypes): IPageState => {
     case PageActions.SetTheme:
       return { ...prevState, theme: action.payload?.theme };
     default:
-      return { ...prevState };
+      return prevState;
   }
 };
 

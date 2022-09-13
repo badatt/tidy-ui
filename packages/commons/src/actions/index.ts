@@ -1,3 +1,5 @@
+export { ActionMap } from './types';
+
 import { PageActions, PageActionTypes } from './page.actions';
 import { RootActions, RootActionTypes } from './root.actions';
 
