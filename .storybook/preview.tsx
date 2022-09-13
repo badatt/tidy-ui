@@ -11,7 +11,8 @@ import {
   GlobalFont,
   GlobalReset,
   GlobalDefault,
-} from '@tidy-ui/commons';
+} from '../packages/commons/src';
+import { Toaster } from '../packages/toaster/src';
 import additionalViePorts from './viewports';
 import { light, dark } from './theme';
 
@@ -54,13 +55,13 @@ export const withTheme: DecoratorFn = (StoryFn, context) => {
         <>
           <GlobalReset />
           <GlobalFont />
-          <TidyUiProvider theme={orchidLight}>
+          <TidyUiProvider theme={orchidLight} toaster={<Toaster />}>
             <GlobalDefault />
             <ThemeBlock left padding={padding}>
               <StoryFn />
             </ThemeBlock>
           </TidyUiProvider>
-          <TidyUiProvider theme={orchidDark}>
+          <TidyUiProvider theme={orchidDark} toaster={<Toaster />}>
             <GlobalDefault />
             <ThemeBlock padding={padding}>
               <StoryFn />
@@ -74,7 +75,7 @@ export const withTheme: DecoratorFn = (StoryFn, context) => {
         <>
           <GlobalReset />
           <GlobalFont />
-          <TidyUiProvider theme={storyTheme}>
+          <TidyUiProvider theme={storyTheme} toaster={<Toaster />}>
             <GlobalDefault />
             <ThemeBlock filled padding={padding}>
               <StoryFn />

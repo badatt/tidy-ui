@@ -29,7 +29,7 @@ const reducer = (prevState: IRootState, action: AppActionTypes): IRootState => {
     case RootActions.SetVersion:
       return { ...initialState, version: action.payload?.version };
     default:
-      return { ...prevState };
+      return prevState;
   }
 };
 

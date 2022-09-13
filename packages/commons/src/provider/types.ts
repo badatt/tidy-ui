@@ -1,4 +1,4 @@
-import { Dispatch, Key, ReactNode } from 'react';
+import React, { Dispatch, Key, ReactNode } from 'react';
 import { ITidyUITheme } from '@tidy-ui/types';
 import { AppActionTypes } from '../actions';
 import { IState } from '../reducers/types';
@@ -26,6 +26,11 @@ export interface ITidyUiProviderProps {
    * theme
    */
   theme?: ITidyUITheme;
+
+  /**
+   * ToasterProvider
+   */
+  toaster?: JSX.Element;
 }
 
 /**

@@ -14,7 +14,7 @@ const { Consumer, Provider } = TidyUiContext;
  * @returns {JSX.Element} JSX Element
  */
 const TidyUiProvider = (props: ITidyUiProviderProps): JSX.Element => {
-  const { children, theme, ...rest } = props;
+  const { children, theme, toaster, ...rest } = props;
   const [state, dispatch] = React.useReducer(mainReducer, initialState, initializer);
   const value = React.useMemo(() => ({ theme, ...rest }), [theme, rest]);
 
@@ -30,7 +30,7 @@ const TidyUiProvider = (props: ITidyUiProviderProps): JSX.Element => {
   return (
     <Provider value={{ ...value, dispatch, state }}>
       <ThemeProvider theme={theme} {...rest}>
-        {children}
+        {toaster ? React.cloneElement(toaster, {}, children) : children}
       </ThemeProvider>
     </Provider>
   );
