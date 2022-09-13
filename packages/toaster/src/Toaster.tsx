@@ -1,17 +1,8 @@
 import React from 'react';
-import { styled, usePortal } from '@tidy-ui/commons';
-import { IToast, IToasterProps } from './types';
-
-const ToasterRoot = styled.div`
-  position: absolute;
-  display: block;
-  bottom: 8px;
-`;
-
-const ToastItem = styled.div`
-  margin: 0.5rem 1rem;
-  transition: all cubic-bezier(0.075, 0.82, 0.165, 1);
-`;
+import { usePortal } from '@tidy-ui/commons';
+import ToasterProvider from './provider/ToasterProvider';
+import { ToasterContainer } from './ToasterContainer';
+import { IToasterProps } from './types';
 
 /**
  * Toaster
@@ -20,18 +11,16 @@ const ToastItem = styled.div`
  * @returns {React.FC} react component
  */
 const Toaster: React.FC<IToasterProps> = (props: IToasterProps) => {
-  const { timeout } = props;
-  const [toasts, setToasts] = React.useState<IToast[]>([]);
+  const { children, ...rest } = props;
   const { Portal } = usePortal();
 
   return (
-    <Portal>
-      <ToasterRoot role="toaster">
-        {toasts?.map((v, i) => {
-          return <ToastItem key={i}>{v.item}</ToastItem>;
-        })}
-      </ToasterRoot>
-    </Portal>
+    <ToasterProvider>
+      {children}
+      <Portal>
+        <ToasterContainer {...rest} />
+      </Portal>
+    </ToasterProvider>
   );
 };
 
