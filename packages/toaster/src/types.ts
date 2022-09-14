@@ -2,9 +2,22 @@ import React from 'react';
 import { IBaseProps } from '@tidy-ui/types';
 
 /**
+ * Closable
+ */
+interface IClosable {
+  /**
+   * Callback (if any) after the message widget is closed
+   *
+   * @type {?((e?: any | undefined) => void)}
+   */
+  // eslint-disable-next-line  @typescript-eslint/no-explicit-any
+  onClose?: (e?: any | undefined) => void;
+}
+
+/**
  * ToastItem
  */
-export type TToastItem = string | JSX.Element | React.ReactNode;
+export type TToastItem = React.ReactElement<IClosable>;
 
 /**
  * Toast
