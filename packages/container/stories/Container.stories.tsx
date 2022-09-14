@@ -64,7 +64,7 @@ export const maxWidth = () => {
               <Icon.Remove />
             </ToolBarIconWrap>
           </Button>
-          <Button variant="outlined" disabled tone="neutral" w="2rem">
+          <Button disabled w="2rem">
             {Screen[maxWidth]}
           </Button>
           <Button variant="outlined" onClick={increment} disabled={maxWidth === 4}>

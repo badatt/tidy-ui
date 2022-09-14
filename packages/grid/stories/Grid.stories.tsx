@@ -213,7 +213,7 @@ export const customLayout = () => {
                   <Icon.Remove />
                 </ToolBarIconWrap>
               </Button>
-              <Button variant="outlined" disabled w="3rem">
+              <Button disabled w="3rem">
                 {v}={span[v]}
               </Button>
               <Button variant="outlined" onClick={() => increment(v)} disabled={span[v] === 24}>
