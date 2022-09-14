@@ -1,6 +1,8 @@
 import React from 'react';
 import { styled } from '@tidy-ui/commons';
 import ToasterContext from './provider/ToasterContext';
+import { ToasterActions } from './actions';
+import { queue, toastSize } from './reducers';
 import { IToasterProps } from './types';
 import useToaster from './useToaster';
 
@@ -22,8 +24,8 @@ const ToastItem = styled.div`
  * @returns {JSX.Element} react component
  */
 const ToasterContainer: React.FC<IToasterProps> = (props: IToasterProps): JSX.Element => {
-  const { timeout } = props;
-  const { state } = React.useContext(ToasterContext);
+  const { timeout, limit } = props;
+  const { state, dispatch } = React.useContext(ToasterContext);
   const { toaster } = useToaster();
 
   /**
@@ -39,9 +41,22 @@ const ToasterContainer: React.FC<IToasterProps> = (props: IToasterProps): JSX.El
     }
   };
 
+  React.useEffect(() => {
+    const poller = setInterval(() => {
+      if (queue.length > 0 && toastSize.current < Number(limit || Number.MAX_SAFE_INTEGER)) {
+        const queueItem = queue.dequeue();
+        dispatch({
+          payload: { item: queueItem.item },
+          type: ToasterActions.AddToast,
+        });
+      }
+    }, 0);
+    return () => clearInterval(poller);
+  }, []);
+
   return (
     <ToasterRoot role="toaster">
-      {state.toasts?.map((v, i) => {
+      {state.toasts.map((v, i) => {
         autoRemoveToast(v.id);
         return <ToastItem key={i}>{v.item}</ToastItem>;
       })}

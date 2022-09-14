@@ -1,4 +1,4 @@
-import { Dispatch } from 'react';
+import React from 'react';
 import { ToasterActionTypes } from '../actions';
 import { IToasterState } from '../reducers/types';
 
@@ -9,7 +9,7 @@ export interface IToasterContext {
   /**
    * Action dispatcher
    */
-  dispatch: Dispatch<ToasterActionTypes>;
+  dispatch: React.Dispatch<ToasterActionTypes>;
   /**
    * State of the application
    */
