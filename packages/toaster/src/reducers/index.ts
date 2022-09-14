@@ -60,6 +60,7 @@ const reducer = (prevState: IToasterState, action: ToasterActionTypes): IToaster
     }
     case ToasterActions.Clear: {
       toastSize.reset();
+      queue.clear();
       return { ...prevState, toasts: [] };
     }
     case ToasterActions.QueueToast: {

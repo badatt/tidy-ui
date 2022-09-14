@@ -1,10 +1,9 @@
 import React from 'react';
-import { styled } from '@tidy-ui/commons';
+import { createChainedFunction, styled } from '@tidy-ui/commons';
 import ToasterContext from './provider/ToasterContext';
 import { ToasterActions } from './actions';
 import { queue, toastSize } from './reducers';
-import { IToasterProps } from './types';
-import useToaster from './useToaster';
+import { IToast, IToasterProps } from './types';
 
 const ToasterRoot = styled.div`
   position: absolute;
@@ -14,7 +13,6 @@ const ToasterRoot = styled.div`
 
 const ToastItem = styled.div`
   margin: 0.5rem 1rem;
-  transition: all cubic-bezier(0.075, 0.82, 0.165, 1);
 `;
 
 /**
@@ -26,7 +24,6 @@ const ToastItem = styled.div`
 const ToasterContainer: React.FC<IToasterProps> = (props: IToasterProps): JSX.Element => {
   const { timeout, limit } = props;
   const { state, dispatch } = React.useContext(ToasterContext);
-  const { toaster } = useToaster();
 
   /**
    * Auto remove toast callback
@@ -36,7 +33,10 @@ const ToasterContainer: React.FC<IToasterProps> = (props: IToasterProps): JSX.El
   const autoRemoveToast = (id?: string) => {
     if (typeof timeout === 'number') {
       setTimeout(() => {
-        toaster.remove(id);
+        dispatch({
+          payload: { id },
+          type: ToasterActions.RemoveToast,
+        });
       }, timeout);
     }
   };
@@ -54,11 +54,28 @@ const ToasterContainer: React.FC<IToasterProps> = (props: IToasterProps): JSX.El
     return () => clearInterval(poller);
   }, []);
 
+  /** @internal */
+  const renderItem = (t: IToast) => {
+    if (t.item) {
+      const { onClose, ...rest } = t.item.props;
+      return React.cloneElement(t.item, {
+        ...rest,
+        onClose: createChainedFunction(onClose, () =>
+          dispatch({
+            payload: { id: t.id },
+            type: ToasterActions.RemoveToast,
+          }),
+        ),
+      });
+    }
+    return null;
+  };
+
   return (
     <ToasterRoot role="toaster">
       {state.toasts.map((v, i) => {
         autoRemoveToast(v.id);
-        return <ToastItem key={i}>{v.item}</ToastItem>;
+        return <ToastItem key={i}>{renderItem(v)}</ToastItem>;
       })}
     </ToasterRoot>
   );

@@ -16,11 +16,6 @@ export interface IToaster {
    * Pushes toast
    */
   push: (item: TToastItem) => void;
-
-  /**
-   * Removes toast
-   */
-  remove: (id?: string) => void;
 }
 
 /**
@@ -47,15 +42,10 @@ const useToaster = (): IUseToasterFnReturn => {
   );
 
   const clear = React.useCallback(() => dispatch({ type: ToasterActions.Clear }), []);
-  const remove = React.useCallback(
-    (id?: string) => dispatch({ payload: { id }, type: ToasterActions.RemoveToast }),
-    [],
-  );
 
   const toaster: IToaster = {
     clear,
     push,
-    remove,
   };
 
   return { toaster };
