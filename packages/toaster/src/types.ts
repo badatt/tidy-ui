@@ -1,10 +1,5 @@
-import React, { HTMLAttributes } from 'react';
+import React from 'react';
 import { IBaseProps } from '@tidy-ui/types';
-
-/**
- * ToasterProvider props
- */
-export interface IToasterPRovider extends IBaseProps, HTMLAttributes<HTMLDivElement> {}
 
 /**
  * ToastItem
@@ -28,21 +23,15 @@ export interface IToast {
 /**
  * Toaster props
  */
-export interface IToasterProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
+export interface IToasterProps extends IBaseProps {
   /**
-   * Timeout for toasts, in seconds
+   * Maximum number of toasts that a toaster can toss at any instant
+   */
+  limit?: number;
+  /**
+   * Timeout for toasts, in milliseconds
    *
    * @default 5000
    */
   timeout?: number | 'infinite';
-}
-
-/**
- * ToastItem props
- */
-export interface IToastItemProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
-  /**
-   * css `margin` equivalent
-   */
-  margin?: string;
 }

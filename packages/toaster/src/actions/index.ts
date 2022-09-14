@@ -7,6 +7,7 @@ import { TToastItem } from '../types';
 export enum ToasterActions {
   AddToast = 'ADD_TOAST',
   Clear = 'CLEAR',
+  QueueToast = 'QUEUE_TOAST',
   RemoveToast = 'REMOVE_TOAST',
 }
 
@@ -27,6 +28,15 @@ type ToasterPayLoad = {
    * Clears all toasts
    */
   [ToasterActions.Clear]: null;
+  /**
+   * Add toast
+   */
+  [ToasterActions.QueueToast]: {
+    /**
+     * Item to add
+     */
+    item?: TToastItem;
+  };
   /**
    * Removes toast
    */

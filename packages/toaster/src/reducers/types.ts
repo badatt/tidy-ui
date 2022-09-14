@@ -7,5 +7,5 @@ export interface IToasterState {
   /**
    * Toasts
    */
-  toasts?: IToast[];
+  toasts: IToast[];
 }

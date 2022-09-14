@@ -24,7 +24,7 @@ export const withToaster = () => {
 
   return (
     <ButtonGroup>
-      <Button onClick={() => toaster.add(ele)}>Add</Button>
+      <Button onClick={() => toaster.push(ele)}>Add</Button>
       <Button onClick={() => toaster.clear()}>Clear</Button>
     </ButtonGroup>
   );

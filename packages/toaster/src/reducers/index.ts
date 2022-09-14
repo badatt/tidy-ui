@@ -1,5 +1,30 @@
+import { Queue } from '@tidy-ui/commons';
 import { ToasterActions, ToasterActionTypes } from '../actions';
+import { IToast } from '../types';
 import { IToasterState } from './types';
+
+const queue = new Queue<IToast>();
+const toastSize = {
+  current: 0,
+  /**
+   * Decrements toast size
+   */
+  decrement() {
+    this.current -= 1;
+  },
+  /**
+   * Increments toast size
+   */
+  increment() {
+    this.current += 1;
+  },
+  /**
+   * Resets size
+   */
+  reset() {
+    this.current = 0;
+  },
+};
 
 /**
  * Initial state
@@ -30,15 +55,25 @@ const reducer = (prevState: IToasterState, action: ToasterActionTypes): IToaster
     case ToasterActions.AddToast: {
       const toasts = prevState.toasts;
       toasts?.push({ id: Date.now().toString(), item: action.payload?.item });
+      toastSize.increment();
       return { ...prevState, toasts };
     }
     case ToasterActions.Clear: {
+      toastSize.reset();
       return { ...prevState, toasts: [] };
+    }
+    case ToasterActions.QueueToast: {
+      queue.enqueue({
+        id: Date.now.toString(),
+        item: action.payload?.item,
+      });
+      return prevState;
     }
     case ToasterActions.RemoveToast: {
       const isExists = prevState.toasts?.some((t) => t.id === action.payload?.id);
       if (isExists) {
         const toasts = prevState.toasts?.filter((t) => t.id !== action.payload?.id);
+        toastSize.decrement();
         return { ...prevState, toasts };
       }
       return prevState;
@@ -48,4 +83,4 @@ const reducer = (prevState: IToasterState, action: ToasterActionTypes): IToaster
   }
 };
 
-export { initializer, initialState, reducer };
+export { initializer, initialState, queue, reducer, toastSize };

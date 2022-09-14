@@ -8,14 +8,14 @@ import { TToastItem } from './types';
  */
 export interface IToaster {
   /**
-   * Add toast
-   */
-  add: (item: TToastItem) => void;
-
-  /**
    * Clears all toasts
    */
   clear: () => void;
+
+  /**
+   * Pushes toast
+   */
+  push: (item: TToastItem) => void;
 
   /**
    * Removes toast
@@ -41,8 +41,8 @@ export interface IUseToasterFnReturn {
 const useToaster = (): IUseToasterFnReturn => {
   const { dispatch } = React.useContext(ToasterContext);
 
-  const add = React.useCallback(
-    (item: TToastItem) => dispatch({ payload: { item }, type: ToasterActions.AddToast }),
+  const push = React.useCallback(
+    (item: TToastItem) => dispatch({ payload: { item }, type: ToasterActions.QueueToast }),
     [],
   );
 
@@ -53,8 +53,8 @@ const useToaster = (): IUseToasterFnReturn => {
   );
 
   const toaster: IToaster = {
-    add,
     clear,
+    push,
     remove,
   };
 
