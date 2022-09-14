@@ -22,7 +22,7 @@ const TextProvider = ({ children }) => {
           <Button variant="outlined" onClick={decrement} disabled={variant === 0}>
             <Icon ele={<Icon.ExpandLess />} style={{ transform: 'rotate(-45deg)' }} />
           </Button>
-          <Button variant="outlined" disabled w="5rem">
+          <Button disabled w="5rem">
             {Variant[variant]}
           </Button>
           <Button variant="outlined" onClick={increment} disabled={variant === 15}>

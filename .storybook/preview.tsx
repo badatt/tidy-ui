@@ -55,13 +55,13 @@ export const withTheme: DecoratorFn = (StoryFn, context) => {
         <>
           <GlobalReset />
           <GlobalFont />
-          <TidyUiProvider theme={orchidLight} toaster={<Toaster />}>
+          <TidyUiProvider theme={orchidLight} toaster={<Toaster limit={5} />}>
             <GlobalDefault />
             <ThemeBlock left padding={padding}>
               <StoryFn />
             </ThemeBlock>
           </TidyUiProvider>
-          <TidyUiProvider theme={orchidDark} toaster={<Toaster />}>
+          <TidyUiProvider theme={orchidDark} toaster={<Toaster limit={5} />}>
             <GlobalDefault />
             <ThemeBlock padding={padding}>
               <StoryFn />
@@ -75,7 +75,7 @@ export const withTheme: DecoratorFn = (StoryFn, context) => {
         <>
           <GlobalReset />
           <GlobalFont />
-          <TidyUiProvider theme={storyTheme} toaster={<Toaster />}>
+          <TidyUiProvider theme={storyTheme} toaster={<Toaster limit={5} />}>
             <GlobalDefault />
             <ThemeBlock filled padding={padding}>
               <StoryFn />
