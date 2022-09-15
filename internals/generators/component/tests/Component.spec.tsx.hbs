@@ -3,26 +3,25 @@
  */
 import React from 'react';
 import { render } from '@testing-library/react';
-import { ThemeProvider } from 'styled-components';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidDark, orchidLight } from '@tidy-ui/commons';
+import { orchidDark, orchidLight, TidyUiProvider } from '@tidy-ui/commons';
 import { {{ properCase name }} } from '../src';
 
 describe('{{ properCase name }}', () => {
   it('Basic render', () => {
     const tree = render(
-        <ThemeProvider theme={orchidLight}>
+        <TidyUiProvider theme={orchidLight}>
           <{{properCase name}}>basic</{{properCase name}}>
-        </ThemeProvider>,
+        </TidyUiProvider>,
       );
     expect(tree).toMatchSnapshot();
   });
   it('Dark mode basic render', () => {
     const tree = render(
-        <ThemeProvider theme={orchidDark}>
+        <TidyUiProvider theme={orchidDark}>
          <{{properCase name}}>basic</{{properCase name}}>
-        </ThemeProvider>,
+        </TidyUiProvider>,
       );
     expect(tree).toMatchSnapshot();
   });
