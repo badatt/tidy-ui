@@ -1,4 +1,3 @@
-import clone from './clone';
 
 /**
  * Queue Item
