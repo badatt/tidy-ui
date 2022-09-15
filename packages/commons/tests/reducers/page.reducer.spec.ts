@@ -13,7 +13,7 @@ describe('Page reducer', () => {
       payload: {},
     };
     const mutatedState = reducer(initialState, action as AppActionTypes);
-    expect(mutatedState.title).toEqual('default title');
+    expect(mutatedState.title).toEqual(initialState.title);
   });
   it('SetTitle', () => {
     const action: AppActionTypes = {
@@ -23,6 +23,13 @@ describe('Page reducer', () => {
     const mutatedState = reducer(initialState, action);
     expect(mutatedState.title).toEqual('changed title');
   });
+  it('SetTitle empty payload', () => {
+    const action: AppActionTypes = {
+      type: Actions.Page.SetTitle,
+    };
+    const mutatedState = reducer(initialState, action);
+    expect(mutatedState.title).toEqual(undefined);
+  });
   it('SetTheme', () => {
     const action: AppActionTypes = {
       type: Actions.Page.SetTheme,
@@ -30,5 +37,12 @@ describe('Page reducer', () => {
     };
     const mutatedState = reducer(initialState, action);
     expect(mutatedState.theme).toEqual(orchidDark);
+  });
+  it('SetTheme empty payload', () => {
+    const action: AppActionTypes = {
+      type: Actions.Page.SetTheme,
+    };
+    const mutatedState = reducer(initialState, action);
+    expect(mutatedState.theme).toEqual(undefined);
   });
 });
