@@ -39,4 +39,13 @@ describe('TidyUiProvider', () => {
     );
     expect(tree).toMatchSnapshot();
   });
+
+  it('Toaster', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight} toaster={<div>toaster placeholder</div>}>
+        <div>Hello</div>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
 });

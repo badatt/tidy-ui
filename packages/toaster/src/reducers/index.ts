@@ -54,9 +54,12 @@ const reducer = (prevState: IToasterState, action: ToasterActionTypes): IToaster
   switch (action.type) {
     case ToasterActions.AddToast: {
       const toasts = prevState.toasts;
-      toasts?.push({ id: Date.now().toString(), item: action.payload?.item });
-      toastSize.increment();
-      return { ...prevState, toasts };
+      if (action.payload?.item) {
+        toasts.push({ id: Date.now().toString(), item: action.payload.item });
+        toastSize.increment();
+        return { ...prevState, toasts };
+      }
+      return prevState;
     }
     case ToasterActions.Clear: {
       toastSize.reset();
@@ -64,16 +67,18 @@ const reducer = (prevState: IToasterState, action: ToasterActionTypes): IToaster
       return { ...prevState, toasts: [] };
     }
     case ToasterActions.QueueToast: {
-      queue.enqueue({
-        id: Date.now.toString(),
-        item: action.payload?.item,
-      });
+      if (action.payload?.item) {
+        queue.enqueue({
+          id: Date.now.toString(),
+          item: action.payload.item,
+        });
+      }
       return prevState;
     }
     case ToasterActions.RemoveToast: {
-      const isExists = prevState.toasts?.some((t) => t.id === action.payload?.id);
+      const isExists = prevState.toasts.some((t) => t.id === action.payload?.id);
       if (isExists) {
-        const toasts = prevState.toasts?.filter((t) => t.id !== action.payload?.id);
+        const toasts = prevState.toasts.filter((t) => t.id !== action.payload!.id);
         toastSize.decrement();
         return { ...prevState, toasts };
       }

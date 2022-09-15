@@ -41,18 +41,9 @@ class Queue<T extends TQueueItemType> {
   }
 
   /**
-   * Gets a clone of this instance
-   *
-   * @returns {Queue<T>} cloned queue
-   */
-  copy(): Queue<T> {
-    return clone.deep(this);
-  }
-
-  /**
    * Check if the item exists in the queue
    *
-   * @param {T} item check if item aleady exists in the queue
+   * @param {T} item check if item already exists in the queue
    * @returns {boolean} true if item exists
    */
   has(item: T): boolean {

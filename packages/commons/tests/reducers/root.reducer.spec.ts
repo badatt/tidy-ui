@@ -13,7 +13,7 @@ describe('Page reducer', () => {
       payload: {},
     };
     const mutatedState = reducer(initialState, action as AppActionTypes);
-    expect(mutatedState.version).toEqual('1.0.0');
+    expect(mutatedState.version).toEqual(initialState.version);
   });
   it('SetVersion', () => {
     const action: AppActionTypes = {
@@ -22,6 +22,13 @@ describe('Page reducer', () => {
     };
     const mutatedState = reducer(initialState, action);
     expect(mutatedState.version).toEqual('2.0.0');
+  });
+  it('SetVersion empty payload', () => {
+    const action: AppActionTypes = {
+      type: Actions.Root.SetVersion,
+    };
+    const mutatedState = reducer(initialState, action);
+    expect(mutatedState.version).toEqual(undefined);
   });
   it('Reset', () => {
     const action: AppActionTypes = {
