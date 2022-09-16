@@ -63,7 +63,9 @@ export const outlined = () => (
 
 export const closable = () => (
   <Container>
-    <Message closable>{text}</Message>
+    <Message closable onClose={() => console.log('closed')}>
+      {text}
+    </Message>
     <Message closable outlined>
       {text}
     </Message>

@@ -1,29 +1,7 @@
-import React from 'react';
-import { css, Icon, styled } from '@tidy-ui/commons';
+import { css, styled } from '@tidy-ui/commons';
 import { IPalette } from '@tidy-ui/types';
 import { filledContent, filledLabel, outlinedContent, outlinedLabel } from './styles';
 import { IMessageProps } from './types';
-
-/**
- * MessageLabel icon
- *
- * @internal
- * @param {IMessageProps} p
- */
-const MessageLabelIcon = (p: IMessageProps) => {
-  switch (p.tone) {
-    case 'info':
-      return <Icon.Info />;
-    case 'success':
-      return <Icon.CheckCircle />;
-    case 'warning':
-      return <Icon.Warning />;
-    case 'danger':
-      return <Icon.Dangerous />;
-    default:
-      return null;
-  }
-};
 
 /**
  * Internal Message root component
@@ -44,9 +22,9 @@ const MessageRoot = styled.div<IMessageProps>`
  * @param {boolean} isDark isDark check
  * @param {IPalette} palette theme palette
  * @param {string} color color string
- * @returns {any} color
+ * @returns {string} color in hsla
  */
-const closeButtonColor = (isDark: boolean, palette: IPalette, color: string) => {
+const closeButtonColor = (isDark: boolean, palette: IPalette, color: string): string => {
   return isDark ? palette[color][400] : palette[color][600];
 };
 
@@ -120,4 +98,4 @@ const MessageContent = styled.div<IMessageProps>`
   `}
 `;
 
-export { CloseButton, MessageContent, MessageLabel, MessageLabelIcon, MessageRoot };
+export { CloseButton, MessageContent, MessageLabel, MessageRoot };

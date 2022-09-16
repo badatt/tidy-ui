@@ -1,6 +1,6 @@
 import React from 'react';
-import { Icon, useIsMounted, useTimeout } from '@tidy-ui/commons';
-import { CloseButton, MessageContent, MessageLabel, MessageLabelIcon, MessageRoot } from './components';
+import { Icon, TonedIcon, useIsMounted } from '@tidy-ui/commons';
+import { CloseButton, MessageContent, MessageLabel, MessageRoot } from './components';
 import { IMessageProps } from './types';
 
 /**
@@ -9,21 +9,19 @@ import { IMessageProps } from './types';
  *
  */
 const Message = React.forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
-  const { children, className, closable, ele, onClose, duration, ...rest } = props;
+  const { children, className, closable, ele, onClose, ...rest } = props;
 
   const isMounted = useIsMounted();
   const [isHidden, setHidden] = React.useState<boolean>(false);
-  const { clear } = useTimeout(onClose, duration, typeof duration === 'number' && duration > 0);
 
   const handleClose = React.useCallback(
     (e: React.MouseEvent<HTMLElement>) => {
       onClose?.(e);
-      clear();
       if (isMounted()) {
         setHidden(true);
       }
     },
-    [isMounted, onClose, clear],
+    [isMounted, onClose],
   );
 
   if (isHidden) {
@@ -34,7 +32,7 @@ const Message = React.forwardRef<HTMLDivElement, IMessageProps>((props, ref) => 
     <MessageRoot className={className} ref={ref} role="note" {...rest}>
       {!props.withoutLabel && (
         <MessageLabel {...rest}>
-          <MessageLabelIcon {...rest} />
+          <TonedIcon {...rest} />
           {rest.tone}
         </MessageLabel>
       )}
@@ -50,7 +48,6 @@ const Message = React.forwardRef<HTMLDivElement, IMessageProps>((props, ref) => 
 
 Message.defaultProps = {
   closable: false,
-  duration: 0,
   outlined: false,
   sharp: false,
   stretched: false,
