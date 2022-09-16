@@ -38,7 +38,6 @@ Object {
   display: block;
   margin-bottom: 0.4375rem;
   font-size: 0.875rem;
-  color: hsla(217,33%,17%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.01071em;
   -moz-letter-spacing: 0.01071em;
@@ -149,7 +148,6 @@ Object {
   display: block;
   margin-bottom: 0.4375rem;
   font-size: 0.875rem;
-  color: hsla(217,33%,17%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.01071em;
   -moz-letter-spacing: 0.01071em;
@@ -319,7 +317,6 @@ Object {
   display: block;
   margin-bottom: 0.4375rem;
   font-size: 0.875rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.01071em;
   -moz-letter-spacing: 0.01071em;
@@ -332,7 +329,6 @@ Object {
   display: block;
   margin-bottom: 0.375rem;
   font-size: 0.75rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.03333em;
   -moz-letter-spacing: 0.03333em;
@@ -483,7 +479,6 @@ Object {
   display: block;
   margin-bottom: 0.4375rem;
   font-size: 0.875rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.01071em;
   -moz-letter-spacing: 0.01071em;
@@ -496,7 +491,6 @@ Object {
   display: block;
   margin-bottom: 0.375rem;
   font-size: 0.75rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.03333em;
   -moz-letter-spacing: 0.03333em;
@@ -702,7 +696,6 @@ Object {
   display: block;
   margin-bottom: 0.4375rem;
   font-size: 0.875rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.01071em;
   -moz-letter-spacing: 0.01071em;
@@ -715,7 +708,6 @@ Object {
   display: block;
   margin-bottom: 0.375rem;
   font-size: 0.75rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.03333em;
   -moz-letter-spacing: 0.03333em;
@@ -866,7 +858,6 @@ Object {
   display: block;
   margin-bottom: 0.4375rem;
   font-size: 0.875rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.01071em;
   -moz-letter-spacing: 0.01071em;
@@ -879,7 +870,6 @@ Object {
   display: block;
   margin-bottom: 0.375rem;
   font-size: 0.75rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.03333em;
   -moz-letter-spacing: 0.03333em;
@@ -1081,7 +1071,6 @@ Object {
   display: block;
   margin-bottom: 0.4375rem;
   font-size: 0.875rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.01071em;
   -moz-letter-spacing: 0.01071em;
@@ -1192,7 +1181,6 @@ Object {
   display: block;
   margin-bottom: 0.4375rem;
   font-size: 0.875rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.01071em;
   -moz-letter-spacing: 0.01071em;
@@ -1382,7 +1370,6 @@ Object {
   display: block;
   margin-bottom: 0.325rem;
   font-size: 1.25rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 500;
   -webkit-letter-spacing: 0.0075em;
   -moz-letter-spacing: 0.0075em;
@@ -1395,7 +1382,6 @@ Object {
   display: block;
   margin-bottom: 0.4375rem;
   font-size: 0.875rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.01071em;
   -moz-letter-spacing: 0.01071em;
@@ -1408,7 +1394,6 @@ Object {
   display: block;
   margin-bottom: 0.375rem;
   font-size: 0.75rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.03333em;
   -moz-letter-spacing: 0.03333em;
@@ -1600,7 +1585,6 @@ Object {
   display: block;
   margin-bottom: 0.325rem;
   font-size: 1.25rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 500;
   -webkit-letter-spacing: 0.0075em;
   -moz-letter-spacing: 0.0075em;
@@ -1613,7 +1597,6 @@ Object {
   display: block;
   margin-bottom: 0.4375rem;
   font-size: 0.875rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.01071em;
   -moz-letter-spacing: 0.01071em;
@@ -1626,7 +1609,6 @@ Object {
   display: block;
   margin-bottom: 0.375rem;
   font-size: 0.75rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.03333em;
   -moz-letter-spacing: 0.03333em;
@@ -1861,7 +1843,6 @@ Object {
   display: block;
   margin-bottom: 0.325rem;
   font-size: 1.25rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 500;
   -webkit-letter-spacing: 0.0075em;
   -moz-letter-spacing: 0.0075em;
@@ -1874,7 +1855,6 @@ Object {
   display: block;
   margin-bottom: 0.4375rem;
   font-size: 0.875rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.01071em;
   -moz-letter-spacing: 0.01071em;
@@ -1887,7 +1867,6 @@ Object {
   display: block;
   margin-bottom: 0.375rem;
   font-size: 0.75rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.03333em;
   -moz-letter-spacing: 0.03333em;
@@ -2059,7 +2038,6 @@ Object {
   display: block;
   margin-bottom: 0.325rem;
   font-size: 1.25rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 500;
   -webkit-letter-spacing: 0.0075em;
   -moz-letter-spacing: 0.0075em;
@@ -2072,7 +2050,6 @@ Object {
   display: block;
   margin-bottom: 0.4375rem;
   font-size: 0.875rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.01071em;
   -moz-letter-spacing: 0.01071em;
@@ -2085,7 +2062,6 @@ Object {
   display: block;
   margin-bottom: 0.375rem;
   font-size: 0.75rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.03333em;
   -moz-letter-spacing: 0.03333em;
@@ -2394,7 +2370,6 @@ Object {
   display: block;
   margin-bottom: 0.325rem;
   font-size: 1.25rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 500;
   -webkit-letter-spacing: 0.0075em;
   -moz-letter-spacing: 0.0075em;
@@ -2407,7 +2382,6 @@ Object {
   display: block;
   margin-bottom: 0.4375rem;
   font-size: 0.875rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.01071em;
   -moz-letter-spacing: 0.01071em;
@@ -2420,7 +2394,6 @@ Object {
   display: block;
   margin-bottom: 0.375rem;
   font-size: 0.75rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.03333em;
   -moz-letter-spacing: 0.03333em;
@@ -2962,7 +2935,6 @@ Object {
   display: block;
   margin-bottom: 0.325rem;
   font-size: 1.25rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 500;
   -webkit-letter-spacing: 0.0075em;
   -moz-letter-spacing: 0.0075em;
@@ -2975,7 +2947,6 @@ Object {
   display: block;
   margin-bottom: 0.4375rem;
   font-size: 0.875rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.01071em;
   -moz-letter-spacing: 0.01071em;
@@ -2988,7 +2959,6 @@ Object {
   display: block;
   margin-bottom: 0.375rem;
   font-size: 0.75rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.03333em;
   -moz-letter-spacing: 0.03333em;
@@ -3555,7 +3525,6 @@ Object {
   display: block;
   margin-bottom: 0.325rem;
   font-size: 1.25rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 500;
   -webkit-letter-spacing: 0.0075em;
   -moz-letter-spacing: 0.0075em;
@@ -3568,7 +3537,6 @@ Object {
   display: block;
   margin-bottom: 0.4375rem;
   font-size: 0.875rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.01071em;
   -moz-letter-spacing: 0.01071em;
@@ -4051,7 +4019,6 @@ Object {
   display: block;
   margin-bottom: 0.325rem;
   font-size: 1.25rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 500;
   -webkit-letter-spacing: 0.0075em;
   -moz-letter-spacing: 0.0075em;
@@ -4064,7 +4031,6 @@ Object {
   display: block;
   margin-bottom: 0.4375rem;
   font-size: 0.875rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.01071em;
   -moz-letter-spacing: 0.01071em;
@@ -4602,7 +4568,6 @@ Object {
   display: block;
   margin-bottom: 0.325rem;
   font-size: 1.25rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 500;
   -webkit-letter-spacing: 0.0075em;
   -moz-letter-spacing: 0.0075em;
@@ -4615,7 +4580,6 @@ Object {
   display: block;
   margin-bottom: 0.4375rem;
   font-size: 0.875rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.01071em;
   -moz-letter-spacing: 0.01071em;
@@ -4628,7 +4592,6 @@ Object {
   display: block;
   margin-bottom: 0.375rem;
   font-size: 0.75rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.03333em;
   -moz-letter-spacing: 0.03333em;
@@ -5020,7 +4983,6 @@ Object {
   display: block;
   margin-bottom: 0.325rem;
   font-size: 1.25rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 500;
   -webkit-letter-spacing: 0.0075em;
   -moz-letter-spacing: 0.0075em;
@@ -5033,7 +4995,6 @@ Object {
   display: block;
   margin-bottom: 0.4375rem;
   font-size: 0.875rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.01071em;
   -moz-letter-spacing: 0.01071em;
@@ -5046,7 +5007,6 @@ Object {
   display: block;
   margin-bottom: 0.375rem;
   font-size: 0.75rem;
-  color: hsla(210,40%,96%,1);
   font-weight: 400;
   -webkit-letter-spacing: 0.03333em;
   -moz-letter-spacing: 0.03333em;
