@@ -11,7 +11,7 @@ import { IBaseProps } from '@tidy-ui/types';
  */
 export interface IPaperProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * Element that encloses the card
+   * Element that encloses the paper
    */
   ele?: JSX.Element;
   /**

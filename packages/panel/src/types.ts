@@ -39,7 +39,7 @@ export interface IPanelProps extends IBaseProps, HTMLAttributes<HTMLDivElement> 
  */
 export interface IPanelHeaderProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * Element that encloses the card
+   * Element that encloses the header
    */
   ele?: JSX.Element;
 }
@@ -49,7 +49,7 @@ export interface IPanelHeaderProps extends IBaseProps, HTMLAttributes<HTMLDivEle
  */
 export interface IPanelBodyProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * Element that encloses the card
+   * Element that encloses the body
    */
   ele?: JSX.Element;
   /**
