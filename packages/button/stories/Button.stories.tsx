@@ -17,7 +17,7 @@ const Container = styled.div`
 
 const Column = styled.div`
   & > * {
-    margin-bottom: 8px;
+    margin-bottom: 1rem;
   }
 `;
 

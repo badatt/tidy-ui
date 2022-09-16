@@ -5,7 +5,6 @@ import { IBaseProps, TSize, TTone } from '@tidy-ui/types';
  * Variant
  */
 export enum Variant {
-  'basic',
   'hero',
   'outlined',
   'primary',

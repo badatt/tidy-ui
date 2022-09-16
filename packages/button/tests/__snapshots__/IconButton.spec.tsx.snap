@@ -19,14 +19,15 @@ Object {
   font-size: 0.875rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c0:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1 {
@@ -121,14 +122,15 @@ Object {
   font-size: 0.875rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c0:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1 {
@@ -278,14 +280,14 @@ Object {
   font-size: 0.875rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
 }
 
 .c0:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(274,66%,32%,0.7) 0px 10px 15px -3px, hsla(274,66%,32%,0.7) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1 {
@@ -380,14 +382,14 @@ Object {
   font-size: 0.875rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
 }
 
 .c0:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(274,66%,32%,0.7) 0px 10px 15px -3px, hsla(274,66%,32%,0.7) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1 {
@@ -539,14 +541,15 @@ Object {
   width: 10rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c0:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1 {
@@ -643,14 +646,15 @@ Object {
   width: 10rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c0:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1 {
@@ -802,9 +806,11 @@ Object {
   border-radius: 0.4em;
   cursor: not-allowed;
   opacity: 0.5;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c1 {
@@ -905,9 +911,11 @@ Object {
   border-radius: 0.4em;
   cursor: not-allowed;
   opacity: 0.5;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c1 {
@@ -1061,14 +1069,15 @@ Object {
   font-size: 0.875rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c0:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c4 {
@@ -1087,14 +1096,15 @@ Object {
   font-size: 0.875rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(326,78%,95%,1);
-  background-color: hsla(333,71%,51%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(327,73%,97%,1);
+  background-color: hsla(330,81%,60%,1);
+  border: 1px solid hsla(335,78%,42%,0.4);
+  box-shadow: 0px 1px 0px hsla(326,78%,95%,1);
 }
 
 .c4:hover {
-  background-color: hsla(335,78%,42%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(329,86%,70%,1) 0px 10px 15px -3px, hsla(329,86%,70%,1) 0px 4px 6px -4px;
+  background-color: hsla(333,71%,51%,1);
 }
 
 .c5 {
@@ -1113,14 +1123,15 @@ Object {
   font-size: 0.875rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(0,0%,96%,1);
-  background-color: hsla(0,0%,32%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(0,0%,98%,1);
+  background-color: hsla(0,0%,45%,1);
+  border: 1px solid hsla(0,0%,25%,0.4);
+  box-shadow: 0px 1px 0px hsla(0,0%,96%,1);
 }
 
 .c5:hover {
-  background-color: hsla(0,0%,25%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(0,0%,64%,1) 0px 10px 15px -3px, hsla(0,0%,64%,1) 0px 4px 6px -4px;
+  background-color: hsla(0,0%,32%,1);
 }
 
 .c6 {
@@ -1139,14 +1150,15 @@ Object {
   font-size: 0.875rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(214,95%,93%,1);
-  background-color: hsla(221,83%,53%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(214,100%,97%,1);
+  background-color: hsla(217,91%,60%,1);
+  border: 1px solid hsla(224,76%,48%,0.4);
+  box-shadow: 0px 1px 0px hsla(214,95%,93%,1);
 }
 
 .c6:hover {
-  background-color: hsla(224,76%,48%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(213,94%,68%,1) 0px 10px 15px -3px, hsla(213,94%,68%,1) 0px 4px 6px -4px;
+  background-color: hsla(221,83%,53%,1);
 }
 
 .c7 {
@@ -1165,14 +1177,15 @@ Object {
   font-size: 0.875rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(141,84%,93%,1);
-  background-color: hsla(142,76%,36%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(138,76%,97%,1);
+  background-color: hsla(142,71%,45%,1);
+  border: 1px solid hsla(142,72%,29%,0.4);
+  box-shadow: 0px 1px 0px hsla(141,84%,93%,1);
 }
 
 .c7:hover {
-  background-color: hsla(142,72%,29%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(142,69%,58%,1) 0px 10px 15px -3px, hsla(142,69%,58%,1) 0px 4px 6px -4px;
+  background-color: hsla(142,76%,36%,1);
 }
 
 .c8 {
@@ -1191,14 +1204,15 @@ Object {
   font-size: 0.875rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(48,96%,89%,1);
-  background-color: hsla(32,95%,44%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(48,100%,96%,1);
+  background-color: hsla(38,92%,50%,1);
+  border: 1px solid hsla(26,90%,37%,0.4);
+  box-shadow: 0px 1px 0px hsla(48,96%,89%,1);
 }
 
 .c8:hover {
-  background-color: hsla(26,90%,37%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(43,96%,56%,1) 0px 10px 15px -3px, hsla(43,96%,56%,1) 0px 4px 6px -4px;
+  background-color: hsla(32,95%,44%,1);
 }
 
 .c9 {
@@ -1217,14 +1231,15 @@ Object {
   font-size: 0.875rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(0,93%,94%,1);
-  background-color: hsla(0,72%,51%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(0,86%,97%,1);
+  background-color: hsla(0,84%,60%,1);
+  border: 1px solid hsla(0,74%,42%,0.4);
+  box-shadow: 0px 1px 0px hsla(0,93%,94%,1);
 }
 
 .c9:hover {
-  background-color: hsla(0,74%,42%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(0,91%,71%,1) 0px 10px 15px -3px, hsla(0,91%,71%,1) 0px 4px 6px -4px;
+  background-color: hsla(0,72%,51%,1);
 }
 
 .c1 {
@@ -1493,14 +1508,15 @@ Object {
   font-size: 0.875rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c0:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c4 {
@@ -1519,14 +1535,15 @@ Object {
   font-size: 0.875rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(326,78%,95%,1);
-  background-color: hsla(333,71%,51%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(327,73%,97%,1);
+  background-color: hsla(330,81%,60%,1);
+  border: 1px solid hsla(335,78%,42%,0.4);
+  box-shadow: 0px 1px 0px hsla(326,78%,95%,1);
 }
 
 .c4:hover {
-  background-color: hsla(335,78%,42%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(329,86%,70%,1) 0px 10px 15px -3px, hsla(329,86%,70%,1) 0px 4px 6px -4px;
+  background-color: hsla(333,71%,51%,1);
 }
 
 .c5 {
@@ -1545,14 +1562,15 @@ Object {
   font-size: 0.875rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(0,0%,96%,1);
-  background-color: hsla(0,0%,32%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(0,0%,98%,1);
+  background-color: hsla(0,0%,45%,1);
+  border: 1px solid hsla(0,0%,25%,0.4);
+  box-shadow: 0px 1px 0px hsla(0,0%,96%,1);
 }
 
 .c5:hover {
-  background-color: hsla(0,0%,25%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(0,0%,64%,1) 0px 10px 15px -3px, hsla(0,0%,64%,1) 0px 4px 6px -4px;
+  background-color: hsla(0,0%,32%,1);
 }
 
 .c6 {
@@ -1571,14 +1589,15 @@ Object {
   font-size: 0.875rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(214,95%,93%,1);
-  background-color: hsla(221,83%,53%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(214,100%,97%,1);
+  background-color: hsla(217,91%,60%,1);
+  border: 1px solid hsla(224,76%,48%,0.4);
+  box-shadow: 0px 1px 0px hsla(214,95%,93%,1);
 }
 
 .c6:hover {
-  background-color: hsla(224,76%,48%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(213,94%,68%,1) 0px 10px 15px -3px, hsla(213,94%,68%,1) 0px 4px 6px -4px;
+  background-color: hsla(221,83%,53%,1);
 }
 
 .c7 {
@@ -1597,14 +1616,15 @@ Object {
   font-size: 0.875rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(141,84%,93%,1);
-  background-color: hsla(142,76%,36%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(138,76%,97%,1);
+  background-color: hsla(142,71%,45%,1);
+  border: 1px solid hsla(142,72%,29%,0.4);
+  box-shadow: 0px 1px 0px hsla(141,84%,93%,1);
 }
 
 .c7:hover {
-  background-color: hsla(142,72%,29%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(142,69%,58%,1) 0px 10px 15px -3px, hsla(142,69%,58%,1) 0px 4px 6px -4px;
+  background-color: hsla(142,76%,36%,1);
 }
 
 .c8 {
@@ -1623,14 +1643,15 @@ Object {
   font-size: 0.875rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(48,96%,89%,1);
-  background-color: hsla(32,95%,44%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(48,100%,96%,1);
+  background-color: hsla(38,92%,50%,1);
+  border: 1px solid hsla(26,90%,37%,0.4);
+  box-shadow: 0px 1px 0px hsla(48,96%,89%,1);
 }
 
 .c8:hover {
-  background-color: hsla(26,90%,37%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(43,96%,56%,1) 0px 10px 15px -3px, hsla(43,96%,56%,1) 0px 4px 6px -4px;
+  background-color: hsla(32,95%,44%,1);
 }
 
 .c9 {
@@ -1649,14 +1670,15 @@ Object {
   font-size: 0.875rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(0,93%,94%,1);
-  background-color: hsla(0,72%,51%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(0,86%,97%,1);
+  background-color: hsla(0,84%,60%,1);
+  border: 1px solid hsla(0,74%,42%,0.4);
+  box-shadow: 0px 1px 0px hsla(0,93%,94%,1);
 }
 
 .c9:hover {
-  background-color: hsla(0,74%,42%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(0,91%,71%,1) 0px 10px 15px -3px, hsla(0,91%,71%,1) 0px 4px 6px -4px;
+  background-color: hsla(0,72%,51%,1);
 }
 
 .c1 {
@@ -1980,14 +2002,15 @@ Object {
   font-size: 0.5rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c0:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c4 {
@@ -2006,14 +2029,15 @@ Object {
   font-size: 0.625rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c4:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c5 {
@@ -2032,14 +2056,15 @@ Object {
   font-size: 0.75rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c5:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c6 {
@@ -2058,14 +2083,15 @@ Object {
   font-size: 0.875rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c6:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c7 {
@@ -2084,14 +2110,15 @@ Object {
   font-size: 1.125rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c7:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c8 {
@@ -2110,14 +2137,15 @@ Object {
   font-size: 1.5rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c8:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c9 {
@@ -2136,14 +2164,15 @@ Object {
   font-size: 2rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c9:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1 {
@@ -2412,14 +2441,15 @@ Object {
   font-size: 0.5rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c0:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c4 {
@@ -2438,14 +2468,15 @@ Object {
   font-size: 0.625rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c4:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c5 {
@@ -2464,14 +2495,15 @@ Object {
   font-size: 0.75rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c5:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c6 {
@@ -2490,14 +2522,15 @@ Object {
   font-size: 0.875rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c6:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c7 {
@@ -2516,14 +2549,15 @@ Object {
   font-size: 1.125rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c7:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c8 {
@@ -2542,14 +2576,15 @@ Object {
   font-size: 1.5rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c8:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c9 {
@@ -2568,14 +2603,15 @@ Object {
   font-size: 2rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c9:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1 {
@@ -2899,14 +2935,15 @@ Object {
   font-size: 0.875rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c0:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c4 {
@@ -2925,9 +2962,8 @@ Object {
   font-size: 0.875rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(271,81%,56%,1);
-  background-color: hsla(270,100%,98%,1);
-  border: 1px solid hsla(269,97%,85%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(271,91%,65%,1);
 }
 
 .c4:hover {
@@ -3055,14 +3091,15 @@ Object {
   font-size: 0.875rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c0:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c4 {
@@ -3081,9 +3118,8 @@ Object {
   font-size: 0.875rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(271,81%,56%,1);
-  background-color: hsla(270,100%,98%,1);
-  border: 1px solid hsla(269,97%,85%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(271,91%,65%,1);
 }
 
 .c4:hover {
@@ -3266,14 +3302,15 @@ Object {
   font-size: 0.5rem;
   padding: 0.3em;
   border-radius: 50%;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c0:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c3 {
@@ -3292,14 +3329,15 @@ Object {
   font-size: 0.625rem;
   padding: 0.3em;
   border-radius: 50%;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c3:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c4 {
@@ -3318,14 +3356,15 @@ Object {
   font-size: 0.75rem;
   padding: 0.3em;
   border-radius: 50%;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c4:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c5 {
@@ -3344,14 +3383,15 @@ Object {
   font-size: 0.875rem;
   padding: 0.3em;
   border-radius: 50%;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c5:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c6 {
@@ -3370,14 +3410,15 @@ Object {
   font-size: 1.125rem;
   padding: 0.3em;
   border-radius: 50%;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c6:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c7 {
@@ -3396,14 +3437,15 @@ Object {
   font-size: 1.5rem;
   padding: 0.3em;
   border-radius: 50%;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c7:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c8 {
@@ -3422,14 +3464,15 @@ Object {
   font-size: 2rem;
   padding: 0.3em;
   border-radius: 50%;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c8:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1 {
@@ -3641,14 +3684,15 @@ Object {
   font-size: 0.5rem;
   padding: 0.3em;
   border-radius: 50%;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c0:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c3 {
@@ -3667,14 +3711,15 @@ Object {
   font-size: 0.625rem;
   padding: 0.3em;
   border-radius: 50%;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c3:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c4 {
@@ -3693,14 +3738,15 @@ Object {
   font-size: 0.75rem;
   padding: 0.3em;
   border-radius: 50%;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c4:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c5 {
@@ -3719,14 +3765,15 @@ Object {
   font-size: 0.875rem;
   padding: 0.3em;
   border-radius: 50%;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c5:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c6 {
@@ -3745,14 +3792,15 @@ Object {
   font-size: 1.125rem;
   padding: 0.3em;
   border-radius: 50%;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c6:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c7 {
@@ -3771,14 +3819,15 @@ Object {
   font-size: 1.5rem;
   padding: 0.3em;
   border-radius: 50%;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c7:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c8 {
@@ -3797,14 +3846,15 @@ Object {
   font-size: 2rem;
   padding: 0.3em;
   border-radius: 50%;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c8:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1 {
@@ -4071,14 +4121,15 @@ Object {
   font-size: 0.875rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c0:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c4 {
@@ -4100,14 +4151,15 @@ Object {
   -webkit-flex-direction: row-reverse;
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c4:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1 {
@@ -4253,14 +4305,15 @@ Object {
   font-size: 0.875rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c0:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c4 {
@@ -4282,14 +4335,15 @@ Object {
   -webkit-flex-direction: row-reverse;
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
-  border: none;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(271,91%,65%,1);
+  border: 1px solid hsla(272,72%,47%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
 .c4:hover {
-  background-color: hsla(272,72%,47%,1);
-  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(270,95%,75%,1) 0px 10px 15px -3px, hsla(270,95%,75%,1) 0px 4px 6px -4px;
+  background-color: hsla(271,81%,56%,1);
 }
 
 .c1 {

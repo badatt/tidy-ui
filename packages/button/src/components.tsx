@@ -1,5 +1,5 @@
 import { css, styled } from '@tidy-ui/commons';
-import { basic, hero, outlined, primary, simple, sizeStyles } from './styles';
+import { hero, outlined, primary, simple, sizeStyles } from './styles';
 import { IAnchorProps, IButtonGroupProps, IButtonProps, IButtonToolbarProps, IIconButtonProps } from './types';
 
 /**
@@ -65,7 +65,6 @@ const ButtonRoot = styled.button<IButtonProps>`
       text-transform: uppercase;
     `}
     ${variant === 'simple' && simple}
-    ${variant === 'basic' && basic}
     ${variant === 'primary' && primary}
     ${variant === 'outlined' && outlined}
     ${variant === 'hero' && hero}
