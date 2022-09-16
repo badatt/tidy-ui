@@ -1,30 +1,12 @@
 import { HTMLAttributes } from 'react';
-import { IBaseProps, TTone } from '@tidy-ui/types';
+import { IBaseProps, IClosable, TTone } from '@tidy-ui/types';
 
 /**
  * Message props
  */
-export interface IMessageProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
+export interface IMessageProps extends IBaseProps, IClosable, HTMLAttributes<HTMLDivElement> {
   /**
-   * It `true`, creates a closable message widget with a close button at top right corner
-   *
-   * @type {?boolean}
-   * @default false
-   */
-  closable?: boolean;
-
-  /**
-   * Delay timer to remove the message widget.
-   * When set to 0, the message is not removed automatically
-   * (in milliseconds)
-   *
-   * @type {?number}
-   * @default 0
-   */
-  duration?: number;
-
-  /**
-   * Element that encloses the card
+   * Element that encloses the message
    */
   ele?: JSX.Element;
 
@@ -32,14 +14,6 @@ export interface IMessageProps extends IBaseProps, HTMLAttributes<HTMLDivElement
    * Margin, css `margin` equivalent
    */
   margin?: string;
-
-  /**
-   * Callback (if any) after the message widget is closed
-   *
-   * @type {?((e?: any | undefined) => void)}
-   */
-  // eslint-disable-next-line  @typescript-eslint/no-explicit-any
-  onClose?: (e?: any | undefined) => void;
 
   /**
    * If `true`, creates outlined message widget, won't fill

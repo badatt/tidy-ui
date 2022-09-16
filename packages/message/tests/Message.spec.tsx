@@ -136,20 +136,4 @@ describe('Message', () => {
     expect(closeButton).not.toBeVisible();
     expect(mockCallback).toBeCalled();
   });
-  it('Closable message with duration and onClose callback', () => {
-    jest.useFakeTimers();
-    const mockCallback = jest.fn();
-    const tree = render(
-      <TidyUiProvider theme={orchidLight}>
-        <Message closable duration={2000} onClose={mockCallback} outlined>
-          {text}
-        </Message>
-      </TidyUiProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-    setTimeout(() => {
-      expect(mockCallback).toBeCalled();
-    }, 2500);
-    jest.runAllTimers();
-  });
 });
