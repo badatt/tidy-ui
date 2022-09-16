@@ -35,6 +35,26 @@ export interface IStandardProps {
 }
 
 /**
+ * Closable component
+ */
+export interface IClosable {
+  /**
+   * It `true`, creates a closable message widget with a close button at top right corner
+   *
+   * @type {?boolean}
+   * @default false
+   */
+  closable?: boolean;
+  /**
+   * Callback (if any) after the message widget is closed
+   *
+   * @type {?((e?: any | undefined) => void)}
+   */
+  // eslint-disable-next-line  @typescript-eslint/no-explicit-any
+  onClose?: (e?: any | undefined) => void;
+}
+
+/**
  * Props with `as`
  */
 export interface IBaseProps<A extends ElementType | string = ElementType> extends IStandardProps {
