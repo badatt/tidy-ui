@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - 'Github-CI,-share-built-output-from-vet-job-to-publish-packages#103'
 
 jobs:
   publish:
