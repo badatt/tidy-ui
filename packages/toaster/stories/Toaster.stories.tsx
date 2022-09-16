@@ -1,6 +1,6 @@
 import React from 'react';
-import { css, hsla, color, styled, Icon } from '@tidy-ui/commons';
-import { Button, ButtonGroup, IconButton } from '@tidy-ui/button';
+import { css, hsla, color, styled } from '@tidy-ui/commons';
+import { Button, ButtonGroup } from '@tidy-ui/button';
 import { Tag } from '@tidy-ui/tag';
 import { Toaster, useToaster } from '../src';
 
