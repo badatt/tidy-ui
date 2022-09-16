@@ -25,11 +25,6 @@ const TextRoot = styled.div<ITextProps>`
       margin-bottom: ${typography[v!].marginBottom};
     `}
     font-size: ${typography[v!].fontSize};
-    ${!dsb &&
-    !tone &&
-    css`
-      color: ${palette.text.primary};
-    `}
     ${!bld &&
     css`
       font-weight: ${typography[v!].fontWeight};
