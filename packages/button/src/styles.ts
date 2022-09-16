@@ -30,8 +30,80 @@ const sizeStyles = {
   },
 };
 
-const filledButtonBg = css<IButtonProps>`
+/**
+ * Styles for a simple type button
+ *
+ * @internal
+ */
+const simple = css<IButtonProps>`
+  ${({ theme: { palette, isDark }, tone, disabled }) => css`
+    color: ${isDark ? palette[tone!][400] : palette[tone!][800]};
+    background-color: transparent;
+    border: none;
+    ${!disabled &&
+    css`
+      &:hover {
+        background-color: ${isDark ? palette[tone!][900] : palette[tone!][200]};
+      }
+    `}
+  `}
+`;
+
+/**
+ * Styles for a primary button
+ *
+ * @internal
+ */
+const primary = css<IButtonProps>`
+  ${({ theme: { palette, isDark }, tone, disabled }) => css`
+    font-weight: 600;
+    color: ${palette[tone!][50]};
+    background-color: ${palette[tone!][500]};
+    border: 1px solid ${hsla(palette[tone!].shades[700], 0.4)};
+    ${!isDark &&
+    css`
+      box-shadow: 0px 1px 0px ${palette[tone!][100]};
+    `}
+    ${!disabled &&
+    css`
+      &:hover {
+        background-color: ${palette[tone!][600]};
+      }
+    `}
+  `}
+`;
+
+/**
+ * Styles for an outline button
+ *
+ * @internal
+ */
+const outlined = css<IButtonProps>`
+  ${({ theme: { palette, isDark }, tone, disabled }) => css`
+    color: ${isDark ? palette[tone!][100] : palette[tone!][900]};
+    border: 1px solid ${palette[tone!][500]};
+    ${!disabled &&
+    css`
+      &:hover {
+        background-color: ${isDark ? palette[tone!][800] : palette[tone!][200]};
+      }
+    `}
+  `}
+`;
+
+/**
+ * Styles for a hero type button
+ *
+ * @internal
+ */
+const hero = css<IButtonProps>`
   ${({ theme: { palette, isDark }, tone, disabled, gradient }) => css`
+    padding: 1rem 1.5rem;
+    font-size: 3rem;
+    line-height: 2.125rem;
+    color: ${palette[tone!][50]};
+    border: none;
+    width: 100%;
     ${!disabled &&
     css`
       ${isDark
@@ -59,106 +131,4 @@ const filledButtonBg = css<IButtonProps>`
   `}
 `;
 
-/**
- * Styles for a simple type button
- *
- * @internal
- */
-const simple = css<IButtonProps>`
-  ${({ theme: { palette, isDark }, tone, disabled }) => css`
-    color: ${isDark ? palette[tone!][400] : palette[tone!][600]};
-    background-color: transparent;
-    border: none;
-    ${!disabled &&
-    css`
-      &:hover {
-        background-color: ${isDark ? hsla(palette[tone!].shades[900], 0.4) : palette[tone!][200]};
-      }
-    `}
-  `}
-`;
-
-/**
- * Styles for a basic type button
- *
- * @internal
- */
-const basic = css<IButtonProps>`
-  ${({ theme: { palette, isDark }, tone, disabled }) => css`
-    color: ${isDark ? palette[tone!][300] : palette[tone!][600]};
-    background-color: ${isDark ? hsla(palette[tone!].shades[900], 0.7) : palette[tone!][200]};
-    border: none;
-    ${!disabled &&
-    css`
-      &:hover {
-        background-color: ${isDark ? hsla(palette[tone!].shades[800], 0.8) : palette[tone!][300]};
-        box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-          ${isDark ? hsla(palette[tone!].shades[900], 0.4) : palette[tone!][400]} 0px 10px 15px -3px,
-          ${isDark ? hsla(palette[tone!].shades[900], 0.4) : palette[tone!][400]} 0px 4px 6px -4px;
-      }
-    `}
-  `}
-`;
-
-/**
- * Styles for a primary button
- *
- * @internal
- */
-const primary = css<IButtonProps>`
-  ${({ theme: { palette, isDark }, tone, disabled }) => css`
-    color: ${palette[tone!][100]};
-    background-color: ${palette[tone!][600]};
-    border: none;
-    ${!disabled &&
-    css`
-      &:hover {
-        background-color: ${palette[tone!][700]};
-        box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
-          ${isDark ? hsla(palette[tone!].shades[900], 0.7) : palette[tone!][400]} 0px 10px 15px -3px,
-          ${isDark ? hsla(palette[tone!].shades[900], 0.7) : palette[tone!][400]} 0px 4px 6px -4px;
-      }
-    `}
-  `}
-`;
-
-/**
- * Styles for an outline button
- *
- * @internal
- */
-const outlined = css<IButtonProps>`
-  ${({ theme: { palette, isDark }, tone, disabled }) => css`
-    color: ${isDark ? palette[tone!][400] : palette[tone!][600]};
-    background-color: ${isDark ? hsla(palette[tone!].shades[900], 0.3) : palette[tone!][50]};
-    border: 1px solid ${isDark ? palette[tone!][600] : palette[tone!][300]};
-    ${!disabled &&
-    css`
-      &:hover {
-        background-color: ${isDark ? hsla(palette[tone!].shades[900], 0.5) : palette[tone!][200]};
-      }
-    `}
-  `}
-`;
-
-/**
- * Styles for a hero type button
- *
- * @internal
- */
-const hero = css<IButtonProps>`
-  ${({ theme: { palette }, tone }) => css`
-    padding: 1rem 1.5rem;
-    border-radius: 0.75rem;
-    font-size: 3rem;
-    line-height: 2.125rem;
-    color: ${palette[tone!][100]};
-    border: none;
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-    ${filledButtonBg}
-  `}
-`;
-
-export { basic, hero, outlined, primary, simple, sizeStyles };
+export { hero, outlined, primary, simple, sizeStyles };
