@@ -1,5 +1,5 @@
 import { HTMLAttributes, HtmlHTMLAttributes } from 'react';
-import { IBaseProps, TTone } from '@tidy-ui/types';
+import { IBaseProps, IClosable, TTone } from '@tidy-ui/types';
 
 /**
  * Size
@@ -26,7 +26,7 @@ export type TSize = keyof typeof Size;
  * @augments {HTMLAttributes<HTMLDivElement>}
  * @public
  */
-export interface ITagProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
+export interface ITagProps extends IBaseProps, IClosable, HTMLAttributes<HTMLDivElement> {
   /**
    * If `true`, the tag is disabled
    *
@@ -42,14 +42,6 @@ export interface ITagProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
    * @default null
    */
   icon?: JSX.Element;
-
-  /**
-   * Callback (if any) after the tag widget is closed
-   *
-   * @type {?((e?: any | undefined) => void)}
-   */
-  // eslint-disable-next-line  @typescript-eslint/no-explicit-any
-  onClose?: (e?: any | undefined) => void;
 
   /**
    * If `true`, creates outlined tag widget, it won't fill
