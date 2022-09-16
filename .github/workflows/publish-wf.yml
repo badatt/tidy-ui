@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - 'Github-CI,-share-built-output-from-vet-job-to-publish-packages#103'
 
 jobs:
   vet:
@@ -51,6 +52,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
+      - name: Upload builded project
+        uses: actions/upload-artifact@v3
+        with:
+          name: tidy-ui-build
+          path: ${GITHUB_WORKSPACE}
+
   publishNpm:
     name: publish npm packages
     needs: vet
@@ -64,23 +71,16 @@ jobs:
         shell: bash
 
     steps:
-      - name: Check out the code
-        uses: actions/checkout@v2
+      - name: Download builded artifact
+        uses: actions/download-artifact@v3
         with:
-          fetch-depth: 0
-          token: ${{ secrets.PAT_GITHUB  }}
+          name: tidy-ui-build
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
           node-version: '14.18.x'
           registry-url: https://registry.npmjs.org/
-
-      - name: Install Dependencies
-        run: yarn bootstrap
-
-      - name: Build
-        run: yarn build
 
       - name: Configure Git User
         run: |
