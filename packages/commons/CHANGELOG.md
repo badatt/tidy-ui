@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.12.3](https://github.com/badatt/tidy-ui/compare/v0.12.2...v0.12.3) (2022-09-16)
+
+
+### Features
+
+* toned icon component ([74e8101](https://github.com/badatt/tidy-ui/commit/74e810104526524c6cadb05b8dfdd3c364b2c1bc))
+
+
+
+
+
 ## [0.12.2](https://github.com/badatt/tidy-ui/compare/v0.12.1...v0.12.2) (2022-09-15)
 
 
