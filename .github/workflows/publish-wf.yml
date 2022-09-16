@@ -56,7 +56,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: tidy-ui-build
-          path: ${GITHUB_WORKSPACE}
+          path: ${{GITHUB_WORKSPACE}}
 
   publishNpm:
     name: publish npm packages
