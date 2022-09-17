@@ -5,8 +5,9 @@ const PanelRoot = styled.div<IPanelProps>`
   display: flex;
   flex-direction: column;
   width: 100%;
-  ${({ theme: { layout, palette, isDark }, margin }) => css`
+  ${({ theme: { layout, palette, isDark }, margin, w }) => css`
     margin: ${margin};
+    width: ${w};
     border: 1px solid ${isDark ? palette.neutral[700] : palette.neutral[400]};
     border-radius: ${layout.radius};
     background-color: ${isDark ? hsla(palette.neutral.shades[900], 0.3) : palette.neutral[50]};
@@ -34,11 +35,22 @@ const PanelBodyRoot = styled.div<IPanelBodyProps>`
   padding: 0rem 1rem;
   transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
   visibility: visible;
-  ${({ visible }) => css`
+  ${({ visible, h }) => css`
     visibility: ${visible ? 'visible' : 'hidden'};
     opacity: ${visible ? '1' : '0'};
     height: ${visible ? 'fit-content' : '0'};
     padding-bottom: ${visible ? '1rem' : '0'};
+    ${visible
+      ? css`
+          height: ${h || 'fit-content'};
+        `
+      : css`
+          height: 0;
+        `}
+    ${h &&
+    css`
+      overflow-y: auto;
+    `}
   `}
 `;
 

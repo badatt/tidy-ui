@@ -46,6 +46,13 @@ export const customMargin = () => (
   </>
 );
 
+export const customDimension = () => (
+  <Panel w="30rem">
+    <Panel.Header>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Panel.Header>
+    <Panel.Body h="25rem">{text}</Panel.Body>
+  </Panel>
+);
+
 export const customHeaderElement = () => (
   <Panel>
     <Panel.Header ele={<div style={{ fontWeight: 'bold' }} />}>
