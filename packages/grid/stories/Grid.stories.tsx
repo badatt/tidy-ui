@@ -1,6 +1,6 @@
 import React, { createContext, useState } from 'react';
 import { color, css, hsla, Icon, styled } from '@tidy-ui/commons';
-import { Button, ButtonGroup, ButtonToolbar } from '@tidy-ui/button';
+import { Button, ButtonGroup, ButtonCluster } from '@tidy-ui/button';
 import { Text } from '@tidy-ui/text';
 import { Grid } from '../src';
 import { IGridProps, IItemProps } from '../src/types';
@@ -79,7 +79,7 @@ const GridProvider = ({ children, size = baseCount }) => {
   return (
     <Ctx.Provider value={{ count }}>
       <div style={{ position: 'relative', marginBottom: '1rem' }}>
-        <ButtonToolbar>
+        <ButtonCluster>
           <ButtonGroup>
             <Button variant="outlined" onClick={increment} w="4rem">
               Add
@@ -91,7 +91,7 @@ const GridProvider = ({ children, size = baseCount }) => {
           <Button variant="simple" tone="danger" onClick={reset}>
             Reset ({count})
           </Button>
-        </ButtonToolbar>
+        </ButtonCluster>
       </div>
       {children}
     </Ctx.Provider>
@@ -205,7 +205,7 @@ export const customLayout = () => {
   return (
     <GridProvider>
       <ToolBar>
-        <ButtonToolbar>
+        <ButtonCluster>
           {Object.keys(spanning).map((v, i) => (
             <ButtonGroup key={i}>
               <Button variant="outlined" onClick={() => decrement(v)} disabled={span[v] === 1}>
@@ -226,7 +226,7 @@ export const customLayout = () => {
           <Button variant="simple" tone="danger" onClick={reset}>
             Reset
           </Button>
-        </ButtonToolbar>
+        </ButtonCluster>
       </ToolBar>
       <Ctx.Consumer>
         {({ count }) => (

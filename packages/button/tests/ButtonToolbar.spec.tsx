@@ -7,7 +7,7 @@ import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { Icon } from '@tidy-ui/commons';
 import { orchidLight, TidyUiProvider } from '@tidy-ui/commons';
-import { ButtonGroup, ButtonToolbar, IconButton } from '../src';
+import { ButtonGroup, ButtonCluster, IconButton } from '../src';
 
 const GroupedButtons = () => (
   <>
@@ -26,24 +26,24 @@ const GroupedButtons = () => (
   </>
 );
 
-describe('Render ButtonToolbar', () => {
+describe('Render ButtonCluster', () => {
   it('Basic render', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <ButtonToolbar>
+        <ButtonCluster>
           <GroupedButtons />
-        </ButtonToolbar>
+        </ButtonCluster>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
-  it('Disabled ButtonToolbar', () => {
+  it('Disabled ButtonCluster', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <ButtonToolbar disabled>
+        <ButtonCluster disabled>
           <GroupedButtons />
-        </ButtonToolbar>
+        </ButtonCluster>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -52,9 +52,9 @@ describe('Render ButtonToolbar', () => {
   it('Custom dimension', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <ButtonToolbar h="5rem" w="25rem">
+        <ButtonCluster h="5rem" w="25rem">
           <GroupedButtons />
-        </ButtonToolbar>
+        </ButtonCluster>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();

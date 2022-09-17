@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, ButtonGroup, ButtonToolbar } from '@tidy-ui/button';
+import { Button, ButtonGroup, ButtonCluster } from '@tidy-ui/button';
 import { Text } from '@tidy-ui/text';
 import { FlexBox } from '../src';
 import { AlignSelf, IFlexItemProps, TAlignSelf } from '../src/types';
@@ -42,7 +42,7 @@ export const span = () => {
   return (
     <FlexBoxProvider size={4}>
       <FlexBox jsc="flex-end">
-        <ButtonToolbar>
+        <ButtonCluster>
           <ButtonGroup>
             <Button variant="simple" tone="minor" onClick={increment}>
               Increase span
@@ -54,7 +54,7 @@ export const span = () => {
           <Button variant="simple" tone="neutral" onClick={reset}>
             Reset ({span})
           </Button>
-        </ButtonToolbar>
+        </ButtonCluster>
       </FlexBox>
       <Ctx.Consumer>
         {({ count }) => (
