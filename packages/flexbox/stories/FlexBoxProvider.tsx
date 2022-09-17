@@ -18,6 +18,8 @@ export interface IFlexBoxProvider extends IBaseProps {
 
 const LabelFlexBox = styled(FlexBox)<IFlexBoxProps>`
   overflow: auto;
+  height: 20px;
+  width: 20px;
   ${({ theme: { isDark } }) =>
     isDark
       ? css`
@@ -30,10 +32,10 @@ const LabelFlexBox = styled(FlexBox)<IFlexBoxProps>`
         `}
 `;
 
-const LabelFlexItem = styled(FlexBox.Item)<IFlexItemProps>`
+const LabelFlexItem = styled(FlexBox)<IFlexItemProps>`
   position: relative;
-  height: 24px;
-  width: 24px;
+  height: 20px;
+  width: 20px;
   ${({ theme: { isDark } }) =>
     isDark
       ? css`
@@ -72,11 +74,11 @@ const FlexBoxProvider = ({ children, size }: IFlexBoxProvider) => {
             Reset ({count})
           </Button>
         </ButtonCluster>
-        <FlexBox gap="0.5rem" ali="center">
-          <LabelFlexBox h="24px" w="24px" />
-          <Text>FlexBox</Text>
+        <FlexBox gap="0.5rem">
+          <LabelFlexBox />
+          <Text.span>FlexBox</Text.span>
           <LabelFlexItem />
-          <Text>FlexItem</Text>
+          <Text.span>FlexItem</Text.span>
         </FlexBox>
       </FlexBox>
       <br />

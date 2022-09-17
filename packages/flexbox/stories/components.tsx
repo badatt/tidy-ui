@@ -1,4 +1,4 @@
-import { color, css, hsla, styled } from '@tidy-ui/commons';
+import { color, css, hsla, styled } from '../../commons/src';
 import { Text } from '../../text/src';
 import { FlexBox } from '../src';
 import { IFlexBoxProps, IFlexItemProps } from '../src/types';
@@ -30,27 +30,18 @@ const StyledFlexItem = styled(FlexBox.Item)<IFlexItemProps>`
         `}
 `;
 
-const StyledText = styled(Text)`
+const StyledText = styled(Text.h3)`
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
 `;
 
-const StyledTextLabel = styled(Text)`
+const StyledTextLabel = styled(Text.caption)`
   position: absolute;
   transform: translate(-50%, 100%);
   top: 50%;
   left: 50%;
 `;
 
-/** @internal */
-const Divider = styled.hr<{
-  /** @internal */
-  margin: string;
-}>`
-  margin: ${({ margin }) => margin} 0;
-  border-top: 1px solid hsla(0, 0%, 32%, 0.7);
-`;
-
-export { Divider, StyledFlexBox, StyledFlexItem, StyledText, StyledTextLabel };
+export { StyledFlexBox, StyledFlexItem, StyledText, StyledTextLabel };

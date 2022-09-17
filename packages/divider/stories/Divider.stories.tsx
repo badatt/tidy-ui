@@ -1,6 +1,6 @@
 import React from 'react';
-import { styled } from '../../commons/src';
 import { Text } from '../../text/src';
+import { FlexBox } from '../../flexbox/src';
 import { Divider } from '../src';
 import { Density, Position, Variant } from '../src/types';
 import { Shade, Tone } from '../../types/src';
@@ -9,15 +9,6 @@ export default {
   component: Divider,
   title: 'Layout/Divider/Divider',
 };
-
-const Container = styled.div`
-  display: flex;
-`;
-
-const Column = styled.div`
-  display: flex;
-  flex-direction: column;
-`;
 
 const text = `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -28,7 +19,7 @@ export const basic = () => {
     <>
       {[...Array(3)].map((v, i) => (
         <React.Fragment key={i}>
-          <Text>{text}</Text>
+          <Text.body1>{text}</Text.body1>
           <Divider />
         </React.Fragment>
       ))}
@@ -38,14 +29,14 @@ export const basic = () => {
 
 export const vertical = () => {
   return (
-    <Container>
+    <FlexBox nowrap>
       {[...Array(3)].map((v, i) => (
         <React.Fragment key={i}>
-          <Text>{text}</Text>
+          <Text.body1>{text}</Text.body1>
           <Divider vertical />
         </React.Fragment>
       ))}
-    </Container>
+    </FlexBox>
   );
 };
 
@@ -56,8 +47,8 @@ export const density = () => {
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
           <React.Fragment key={i}>
-            <Text v="h6">density={Density[v]}</Text>
-            <Text>{text}</Text>
+            <Text.h6>density={Density[v]}</Text.h6>
+            <Text.body1>{text}</Text.body1>
             <Divider density={Density[v]} />
           </React.Fragment>
         ))}
@@ -73,8 +64,8 @@ export const shades = () => {
         .reverse()
         .map((v, i) => (
           <React.Fragment key={i}>
-            <Text v="h6">shade={Shade[v]}</Text>
-            <Text>{text}</Text>
+            <Text.h6>shade={Shade[v]}</Text.h6>
+            <Text.body1>{text}</Text.body1>
             <Divider shade={Shade[v]} />
           </React.Fragment>
         ))}
@@ -89,8 +80,8 @@ export const tones = () => {
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
           <React.Fragment key={i}>
-            <Text v="h6">tone={Tone[v]}</Text>
-            <Text>{text}</Text>
+            <Text.h6>tone={Tone[v]}</Text.h6>
+            <Text.body1>{text}</Text.body1>
             <Divider tone={Tone[v]} />
           </React.Fragment>
         ))}
@@ -105,8 +96,8 @@ export const variants = () => {
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
           <React.Fragment key={i}>
-            <Text v="h6">variant={Variant[v]}</Text>
-            <Text>{text}</Text>
+            <Text.h6>variant={Variant[v]}</Text.h6>
+            <Text.body1>{text}</Text.body1>
             <Divider variant={Variant[v]} />
           </React.Fragment>
         ))}
@@ -119,7 +110,7 @@ export const customMargin = () => {
     <>
       {[...Array(3)].map((v, i) => (
         <React.Fragment key={i}>
-          <Text>{text}</Text>
+          <Text.body1>{text}</Text.body1>
           <Divider margin="2rem" />
         </React.Fragment>
       ))}
@@ -129,36 +120,36 @@ export const customMargin = () => {
 
 export const customVerticalAlignment = () => {
   return (
-    <Container>
+    <FlexBox nowrap>
       {Object.keys(Position)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
           <React.Fragment key={i}>
             <div>
-              <Text v="h6">align={Position[v]}</Text>
-              <Text>{text}</Text>
+              <Text.h6>align={Position[v]}</Text.h6>
+              <Text.body1>{text}</Text.body1>
             </div>
             <Divider vertical align={Position[v]} length="2rem" />
           </React.Fragment>
         ))}
-    </Container>
+    </FlexBox>
   );
 };
 
 export const customHorizontalAlignment = () => {
   return (
-    <Column>
+    <FlexBox fld="column">
       {Object.keys(Position)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
           <React.Fragment key={i}>
             <div>
-              <Text v="h6">align={Position[v]}</Text>
-              <Text>{text}</Text>
+              <Text.h6>align={Position[v]}</Text.h6>
+              <Text.body1>{text}</Text.body1>
             </div>
             <Divider align={Position[v]} length="2rem" />
           </React.Fragment>
         ))}
-    </Column>
+    </FlexBox>
   );
 };

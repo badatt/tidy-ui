@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { Button, ButtonGroup, ButtonCluster } from '../../button/src';
 import { Text } from '../../text/src';
+import { Divider } from '../../divider/src';
 import { FlexBox } from '../src';
 import { AlignSelf, IFlexItemProps } from '../src/types';
 import { Ctx, FlexBoxProvider } from './FlexBoxProvider';
-import { Divider, StyledFlexBox, StyledFlexItem, StyledText, StyledTextLabel } from './components';
+import { StyledFlexBox, StyledFlexItem, StyledText, StyledTextLabel } from './components';
 
 export default {
   component: FlexBox.Item,
@@ -22,7 +23,7 @@ export const basic = () => {
           <StyledFlexBox h={height}>
             {[...Array(count)].map((c, i) => (
               <StyledFlexItem key={i} style={{ padding: '3rem' }}>
-                <StyledText v={label}>{i}</StyledText>
+                <StyledText>{i}</StyledText>
               </StyledFlexItem>
             ))}
           </StyledFlexBox>
@@ -61,7 +62,7 @@ export const span = () => {
           <StyledFlexBox h={height}>
             {[...Array(count)].map((c, i) => (
               <StyledFlexItem key={i} span={span as SpanType} style={st}>
-                <StyledText v={label}>{i}</StyledText>
+                <StyledText>{i}</StyledText>
                 <StyledTextLabel>span={span}</StyledTextLabel>
               </StyledFlexItem>
             ))}
@@ -82,8 +83,8 @@ export const flexGrow = () => {
               const grow = count === 4 ? 1 : Math.floor(Math.random() * Array(count).length);
               return (
                 <StyledFlexItem fgo={grow} key={i} style={{ padding: '3rem' }}>
-                  <StyledText v={label}>{i}</StyledText>
-                  <StyledTextLabel v="caption">grow={grow}</StyledTextLabel>
+                  <StyledText>{i}</StyledText>
+                  <StyledTextLabel>grow={grow}</StyledTextLabel>
                 </StyledFlexItem>
               );
             })}
@@ -104,8 +105,8 @@ export const order = () => {
               const order = count === 6 ? 0 : Math.floor(Math.random() * Array(count).length);
               return (
                 <StyledFlexItem ord={order} key={i} style={{ padding: '3rem' }}>
-                  <StyledText v={label}>{i}</StyledText>
-                  <StyledTextLabel v="caption">order={order}</StyledTextLabel>
+                  <StyledText>{i}</StyledText>
+                  <StyledTextLabel>order={order}</StyledTextLabel>
                 </StyledFlexItem>
               );
             })}
@@ -123,7 +124,7 @@ export const alignSelf = () => {
         .filter((i) => !isNaN(Number(i)))
         .map((v) => (
           <FlexBoxProvider key={v} size={10}>
-            <Text v="h6">{AlignSelf[v]}</Text>
+            <Text.h5>{AlignSelf[v]}</Text.h5>
             <Ctx.Consumer>
               {({ count }) => (
                 <StyledFlexBox h={height} alc="normal" jsc="normal">
@@ -131,10 +132,8 @@ export const alignSelf = () => {
                     const als = i % 2 == 0 ? AlignSelf[v] : 'normal';
                     return (
                       <StyledFlexItem key={i} als={als} style={{ padding: '3rem' }}>
-                        <StyledText v={label}>{i}</StyledText>
-                        <StyledTextLabel v="caption" tnc>
-                          {als}
-                        </StyledTextLabel>
+                        <StyledText>{i}</StyledText>
+                        <StyledTextLabel tnc>{als}</StyledTextLabel>
                       </StyledFlexItem>
                     );
                   })}
@@ -156,7 +155,7 @@ export const fullWidth = () => {
           <StyledFlexBox h={height}>
             {[...Array(count)].map((c, i) => (
               <StyledFlexItem key={i} style={{ padding: '3rem' }} fuw>
-                <StyledText v={label}>{i}</StyledText>
+                <StyledText>{i}</StyledText>
               </StyledFlexItem>
             ))}
           </StyledFlexBox>
