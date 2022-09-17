@@ -93,7 +93,7 @@ export const withToaster = () => {
     <Notification w="20rem" outlined>
       <NotificationText />
       <ButtonCluster stretched>
-        <Button tone="minor" variant="simple">
+        <Button tone="danger" variant="simple">
           Cancel
         </Button>
         <Button tone="success" variant="primary">
@@ -105,8 +105,12 @@ export const withToaster = () => {
 
   return (
     <ButtonGroup>
-      <Button onClick={() => toaster.push(ele)}>Add</Button>
-      <Button onClick={() => toaster.clear()}>Clear</Button>
+      <Button variant="outlined" onClick={() => toaster.push(ele)}>
+        Add
+      </Button>
+      <Button variant="outlined" onClick={() => toaster.clear()}>
+        Clear
+      </Button>
     </ButtonGroup>
   );
 };
@@ -130,7 +134,7 @@ export const customElement = () => (
 );
 
 export const onCloseAction = () => (
-  <Notification w="20rem" onClose={() => alert('Notification close action')}>
+  <Notification w="20rem" onClose={() => alert('Notification will be closed now')}>
     <NotificationText />
   </Notification>
 );

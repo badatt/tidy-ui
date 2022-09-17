@@ -42,13 +42,9 @@ const CloseButton = styled.i<INotificationProps>`
   ${({ theme: { palette, isDark }, tone, outlined }) => css`
     ${outlined
       ? css`
-          top: 26px;
-          right: 2px;
           color: ${closeButtonColor(isDark, palette, tone!)};
         `
       : css`
-          top: 24px;
-          right: 2px;
           color: ${palette[tone!][50]};
         `}
   `}
