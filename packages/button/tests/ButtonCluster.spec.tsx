@@ -5,8 +5,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { Icon } from '@tidy-ui/commons';
-import { orchidLight, TidyUiProvider } from '@tidy-ui/commons';
+import { Icon, orchidLight, TidyUiProvider } from '../../commons/src';
 import { ButtonGroup, ButtonCluster, IconButton, Button } from '../src';
 
 const GroupedButtons = () => (

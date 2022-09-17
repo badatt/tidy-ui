@@ -5,8 +5,8 @@ import React from 'react';
 import { render, cleanup } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidDark, orchidLight, TidyUiProvider } from '@tidy-ui/commons';
-import { Tone } from '@tidy-ui/types';
+import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
+import { Tone } from '../../types/src';
 import { Card } from '../src';
 
 const text = `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et totam eius ducimus unde voluptatibus asperiores fuga

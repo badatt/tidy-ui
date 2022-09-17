@@ -1,10 +1,10 @@
 import React from 'react';
-import { Divider } from '@tidy-ui/divider';
+import { Divider } from '../../divider/src';
 import { Stack } from '../src';
 import { Align, Justify, Order } from '../src/types';
 import { StackProvider, Ctx } from './StackProvider';
 import { StackItem, StyledText } from './components';
-import { Text } from '@tidy-ui/text';
+import { Text } from '../../text/src';
 
 export default {
   component: Stack,

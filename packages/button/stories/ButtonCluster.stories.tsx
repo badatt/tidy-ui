@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon } from '@tidy-ui/commons';
+import { Icon } from '../../commons/src';
 import { ButtonGroup, ButtonCluster, IconButton, Button } from '../src';
 
 export default {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { styled } from '@tidy-ui/commons';
+import { styled } from '../../commons/src';
 import { Button, ButtonGroup } from '../src';
 
 export default {

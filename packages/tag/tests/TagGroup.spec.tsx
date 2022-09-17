@@ -5,7 +5,7 @@ import React from 'react';
 import { fireEvent, getAllByRole, getByRole, render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { Icon, orchidDark, orchidLight, TidyUiProvider } from '@tidy-ui/commons';
+import { Icon, orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
 import { Tag, TagGroup } from '../src';
 
 describe('TagGroup', () => {

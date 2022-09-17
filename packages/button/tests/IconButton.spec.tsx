@@ -5,10 +5,9 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { Icon } from '@tidy-ui/commons';
-import { orchidDark, orchidLight, TidyUiProvider } from '@tidy-ui/commons';
+import { Icon, orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
 import { IconButton } from '../src';
-import { Size, Tone } from '@tidy-ui/types';
+import { Size, Tone } from '../../types/src';
 
 describe('Render Button', () => {
   it('Basic render', () => {

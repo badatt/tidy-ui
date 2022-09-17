@@ -1,5 +1,5 @@
-import { color, css, hsla, styled } from '@tidy-ui/commons';
-import { Text } from '@tidy-ui/text';
+import { color, css, hsla, styled } from '../../commons/src';
+import { Text } from '../../text/src';
 
 const StackItem = styled.div`
   padding: 3rem;

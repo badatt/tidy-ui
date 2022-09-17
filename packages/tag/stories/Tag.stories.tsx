@@ -1,8 +1,7 @@
 import React from 'react';
-import { Icon } from '@tidy-ui/commons';
-import { styled } from '@tidy-ui/commons';
+import { Icon, styled } from '../../commons/src';
 import { Tag } from '../src';
-import { Tone } from '@tidy-ui/types';
+import { Tone } from '../../types/src';
 import { Size } from '../src/types';
 
 export default {

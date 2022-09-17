@@ -5,9 +5,9 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidDark, orchidLight, styled, TidyUiProvider } from '@tidy-ui/commons';
+import { orchidDark, orchidLight, styled, TidyUiProvider } from '../../commons/src';
 import { Container } from '../src';
-import { Screen } from '@tidy-ui/types';
+import { Screen } from '../../types/src';
 
 const InnerDiv = styled.div`
   background-color: #cfe8fc;

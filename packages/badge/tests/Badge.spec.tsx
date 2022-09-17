@@ -5,10 +5,9 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { Icon } from '@tidy-ui/commons';
-import { orchidDark, orchidLight, TidyUiProvider } from '@tidy-ui/commons';
+import { Icon, orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
 import { Badge } from '../src';
-import { Tone } from '@tidy-ui/types';
+import { Tone } from '../../types/src';
 
 describe('Badge', () => {
   it('Basic render', () => {

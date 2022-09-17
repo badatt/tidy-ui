@@ -1,7 +1,7 @@
 import React from 'react';
-import { styled } from '@tidy-ui/commons';
+import { styled } from '../../commons/src';
 import { Card } from '../src';
-import { Tone } from '@tidy-ui/types';
+import { Tone } from '../../types/src';
 
 export default {
   component: Card,

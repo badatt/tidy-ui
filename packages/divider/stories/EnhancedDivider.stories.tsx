@@ -1,8 +1,8 @@
 import React from 'react';
-import { Text } from '@tidy-ui/text';
+import { Text } from '../../text/src';
 import { Divider } from '../src';
 import { Density, Position, Variant } from '../src/types';
-import { Shade, Tone } from '@tidy-ui/types';
+import { Shade, Tone } from '../../types/src';
 
 export default {
   component: Divider,

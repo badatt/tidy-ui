@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import { color, css, hsla, Icon, styled } from '@tidy-ui/commons';
-import { Screen } from '@tidy-ui/types';
+import { color, css, hsla, Icon, styled } from '../../commons/src';
+import { Screen, TScreen } from '../../types/src';
 import { Container } from '../src';
 import { IContainerProps } from '../src/types';
-import { Button, ButtonGroup } from '@tidy-ui/button';
-import { TScreen } from '@tidy-ui/types';
+import { Button, ButtonGroup } from '../../button/src';
 
 export default {
   component: Container,

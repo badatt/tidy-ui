@@ -5,8 +5,8 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidDark, orchidLight, TidyUiProvider } from '@tidy-ui/commons';
-import { Divider } from '@tidy-ui/divider';
+import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
+import { Divider } from '../../divider/src';
 import { Stack } from '../src';
 import { Align, IStackProps, Justify, Order } from '../src/types';
 
