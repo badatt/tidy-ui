@@ -100,6 +100,26 @@ describe('Message', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('Custom dimension', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Message margin="0 0 1rem 0" h="10rem" w="20rem" closable>
+          {text}
+        </Message>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Custom margin', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Message margin="0 0 1rem 0">{text}</Message>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
   it('Closable message without any callback', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>

@@ -9,10 +9,9 @@ import { IMessageProps } from './types';
  * @internal
  */
 const MessageRoot = styled.div<IMessageProps>`
-  ${({ stretched, margin }) => css`
+  ${({ stretched, margin, w }) => css`
     margin: ${margin};
-    width: ${stretched ? '100%' : 'fit-content'};
-    position: relative;
+    width: ${w};
   `}
 `;
 
@@ -37,18 +36,13 @@ const CloseButton = styled.i<IMessageProps>`
   ${({ theme: { palette, isDark }, tone, outlined }) => css`
     height: 1rem;
     width: 1rem;
-    position: absolute;
-    color: ${palette[tone!][50]};
+    //color: ${palette[tone!][50]};
     cursor: pointer;
     ${outlined
       ? css`
-          top: 26px;
-          right: 2px;
           color: ${closeButtonColor(isDark, palette, tone!)};
         `
       : css`
-          top: 24px;
-          right: 2px;
           color: ${palette[tone!][50]};
         `}
   `}
@@ -86,9 +80,11 @@ const MessageLabel = styled.div<IMessageProps>`
  * @internal
  */
 const MessageContent = styled.div<IMessageProps>`
-  ${({ theme: { layout }, sharp, stretched, withoutLabel, outlined }) => css`
+  display: flex;
+  ${({ theme: { layout }, sharp, stretched, withoutLabel, outlined, h }) => css`
     padding: 0.75rem 1rem;
     border-radius: ${!sharp && layout.radius};
+    height: ${h};
     ${!withoutLabel &&
     css`
       border-top-left-radius: 0;

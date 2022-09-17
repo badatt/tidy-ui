@@ -4,13 +4,6 @@ exports[`Message Basic render 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -37,12 +30,16 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c1 * {
+.c0 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c2 {
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -56,11 +53,11 @@ Object {
 <body>
     <div>
       <div
-        class="c0"
+        class=""
         role="note"
       >
         <div
-          class="c1"
+          class="c0"
         >
           <svg
             aria-hidden="true"
@@ -76,7 +73,7 @@ Object {
           info
         </div>
         <div
-          class="c2"
+          class="c1"
         >
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -86,13 +83,6 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -119,12 +109,16 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c1 * {
+.c0 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c2 {
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -137,11 +131,11 @@ Object {
 
 <div>
     <div
-      class="c0"
+      class=""
       role="note"
     >
       <div
-        class="c1"
+        class="c0"
       >
         <svg
           aria-hidden="true"
@@ -157,7 +151,7 @@ Object {
         info
       </div>
       <div
-        class="c2"
+        class="c1"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -223,13 +217,6 @@ exports[`Message Basic render in dark mode 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -256,12 +243,16 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c1 * {
+.c0 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c2 {
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -275,11 +266,11 @@ Object {
 <body>
     <div>
       <div
-        class="c0"
+        class=""
         role="note"
       >
         <div
-          class="c1"
+          class="c0"
         >
           <svg
             aria-hidden="true"
@@ -295,7 +286,7 @@ Object {
           info
         </div>
         <div
-          class="c2"
+          class="c1"
         >
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -305,13 +296,6 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -338,12 +322,16 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c1 * {
+.c0 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c2 {
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -356,11 +344,11 @@ Object {
 
 <div>
     <div
-      class="c0"
+      class=""
       role="note"
     >
       <div
-        class="c1"
+        class="c0"
       >
         <svg
           aria-hidden="true"
@@ -376,7 +364,7 @@ Object {
         info
       </div>
       <div
-        class="c2"
+        class="c1"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -441,25 +429,14 @@ Object {
 exports[`Message Closable message with an onClose callback 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c0 {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c2 {
+  "baseElement": .c2 {
   height: 1rem;
   width: 1rem;
-  position: absolute;
-  color: hsla(214,100%,97%,1);
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(221,83%,53%,1);
 }
 
-.c1 {
+.c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -488,12 +465,16 @@ Object {
   border-bottom: 0;
 }
 
-.c1 * {
+.c0 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c3 {
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -508,11 +489,11 @@ Object {
 <body>
     <div>
       <div
-        class="c0"
+        class=""
         role="note"
       >
         <div
-          class="c1"
+          class="c0"
         >
           <svg
             aria-hidden="true"
@@ -527,51 +508,45 @@ Object {
           </svg>
           info
         </div>
-        <i
-          class="c2"
-          role="button"
-        >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
-        </i>
         <div
-          class="c3"
+          class="c1"
         >
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
       eaque!
+          <i
+            class="c2"
+            role="button"
+          >
+            <i
+              style="height: 1.25em; width: 1.25em;"
+            >
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
+          </i>
         </div>
       </div>
     </div>
   </body>,
-  "container": .c0 {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c2 {
+  "container": .c2 {
   height: 1rem;
   width: 1rem;
-  position: absolute;
-  color: hsla(214,100%,97%,1);
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(221,83%,53%,1);
 }
 
-.c1 {
+.c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -600,12 +575,16 @@ Object {
   border-bottom: 0;
 }
 
-.c1 * {
+.c0 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c3 {
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -619,11 +598,11 @@ Object {
 
 <div>
     <div
-      class="c0"
+      class=""
       role="note"
     >
       <div
-        class="c1"
+        class="c0"
       >
         <svg
           aria-hidden="true"
@@ -638,28 +617,33 @@ Object {
         </svg>
         info
       </div>
-      <i
-        class="c2"
-        role="button"
-      >
-        <svg
-          aria-hidden="true"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-          />
-        </svg>
-      </i>
       <div
-        class="c3"
+        class="c1"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
       eaque!
+        <i
+          class="c2"
+          role="button"
+        >
+          <i
+            style="height: 1.25em; width: 1.25em;"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
+        </i>
       </div>
     </div>
   </div>,
@@ -720,25 +704,14 @@ Object {
 exports[`Message Closable message without any callback 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c0 {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c2 {
+  "baseElement": .c2 {
   height: 1rem;
   width: 1rem;
-  position: absolute;
-  color: hsla(214,100%,97%,1);
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(213,94%,68%,1);
 }
 
-.c1 {
+.c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -767,12 +740,16 @@ Object {
   border-bottom: 0;
 }
 
-.c1 * {
+.c0 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c3 {
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -782,6 +759,284 @@ Object {
   color: hsla(213,94%,68%,1);
   background-color: hsla(224,64%,33%,0.3);
   border: 1px solid hsla(221,83%,53%,1);
+}
+
+<body>
+    <div>
+      <div
+        class=""
+        role="note"
+      >
+        <div
+          class="c0"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+            />
+          </svg>
+          info
+        </div>
+        <div
+          class="c1"
+        >
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
+      ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
+      eaque!
+          <i
+            class="c2"
+            role="button"
+          >
+            <i
+              style="height: 1.25em; width: 1.25em;"
+            >
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
+          </i>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .c2 {
+  height: 1rem;
+  width: 1rem;
+  cursor: pointer;
+  color: hsla(213,94%,68%,1);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.25rem 1rem;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: hsla(213,94%,68%,1);
+  background-color: hsla(226,71%,40%,0.8);
+  border: 1px solid hsla(221,83%,53%,1);
+  border-bottom: 0;
+}
+
+.c0 * {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border-top-left-radius: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: hsla(213,94%,68%,1);
+  background-color: hsla(224,64%,33%,0.3);
+  border: 1px solid hsla(221,83%,53%,1);
+}
+
+<div>
+    <div
+      class=""
+      role="note"
+    >
+      <div
+        class="c0"
+      >
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+          />
+        </svg>
+        info
+      </div>
+      <div
+        class="c1"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
+      ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
+      eaque!
+        <i
+          class="c2"
+          role="button"
+        >
+          <i
+            style="height: 1.25em; width: 1.25em;"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
+        </i>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Message Custom dimension 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  margin: 0 0 1rem 0;
+  width: 20rem;
+}
+
+.c3 {
+  height: 1rem;
+  width: 1rem;
+  cursor: pointer;
+  color: hsla(214,100%,97%,1);
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.25rem 1rem;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: hsla(221,83%,53%,1);
+  color: hsla(214,100%,97%,1);
+}
+
+.c1 * {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  height: 10rem;
+  border-top-left-radius: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: hsla(217,91%,60%,1);
+  color: hsla(214,100%,97%,1);
 }
 
 <body>
@@ -806,48 +1061,47 @@ Object {
           </svg>
           info
         </div>
-        <i
-          class="c2"
-          role="button"
-        >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
-        </i>
         <div
-          class="c3"
+          class="c2"
         >
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
       eaque!
+          <i
+            class="c3"
+            role="button"
+          >
+            <i
+              style="height: 1.25em; width: 1.25em;"
+            >
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
+          </i>
         </div>
       </div>
     </div>
   </body>,
   "container": .c0 {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
+  margin: 0 0 1rem 0;
+  width: 20rem;
 }
 
-.c2 {
+.c3 {
   height: 1rem;
   width: 1rem;
-  position: absolute;
-  color: hsla(214,100%,97%,1);
   cursor: pointer;
-  top: 26px;
-  right: 2px;
-  color: hsla(213,94%,68%,1);
+  color: hsla(214,100%,97%,1);
 }
 
 .c1 {
@@ -873,10 +1127,8 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  color: hsla(213,94%,68%,1);
-  background-color: hsla(226,71%,40%,0.8);
-  border: 1px solid hsla(221,83%,53%,1);
-  border-bottom: 0;
+  background-color: hsla(221,83%,53%,1);
+  color: hsla(214,100%,97%,1);
 }
 
 .c1 * {
@@ -884,16 +1136,20 @@ Object {
   width: 0.75rem;
 }
 
-.c3 {
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
+  height: 10rem;
   border-top-left-radius: 0;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(213,94%,68%,1);
-  background-color: hsla(224,64%,33%,0.3);
-  border: 1px solid hsla(221,83%,53%,1);
+  background-color: hsla(217,91%,60%,1);
+  color: hsla(214,100%,97%,1);
 }
 
 <div>
@@ -917,9 +1173,234 @@ Object {
         </svg>
         info
       </div>
-      <i
+      <div
         class="c2"
-        role="button"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
+      ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
+      eaque!
+        <i
+          class="c3"
+          role="button"
+        >
+          <i
+            style="height: 1.25em; width: 1.25em;"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
+        </i>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Message Custom margin 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  margin: 0 0 1rem 0;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.25rem 1rem;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: hsla(221,83%,53%,1);
+  color: hsla(214,100%,97%,1);
+}
+
+.c1 * {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border-top-left-radius: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: hsla(217,91%,60%,1);
+  color: hsla(214,100%,97%,1);
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+        role="note"
+      >
+        <div
+          class="c1"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
+            />
+          </svg>
+          info
+        </div>
+        <div
+          class="c2"
+        >
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
+      ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
+      eaque!
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  margin: 0 0 1rem 0;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.25rem 1rem;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: hsla(221,83%,53%,1);
+  color: hsla(214,100%,97%,1);
+}
+
+.c1 * {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border-top-left-radius: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: hsla(217,91%,60%,1);
+  color: hsla(214,100%,97%,1);
+}
+
+<div>
+    <div
+      class="c0"
+      role="note"
+    >
+      <div
+        class="c1"
       >
         <svg
           aria-hidden="true"
@@ -929,12 +1410,13 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
           />
         </svg>
-      </i>
+        info
+      </div>
       <div
-        class="c3"
+        class="c2"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -1000,13 +1482,6 @@ exports[`Message Message in dark mode with all color variants 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1033,12 +1508,12 @@ Object {
   color: hsla(270,100%,98%,1);
 }
 
-.c1 * {
+.c0 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c3 {
+.c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1065,12 +1540,12 @@ Object {
   color: hsla(327,73%,97%,1);
 }
 
-.c3 * {
+.c2 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c5 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1097,12 +1572,12 @@ Object {
   color: hsla(0,0%,98%,1);
 }
 
-.c5 * {
+.c4 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c7 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1129,12 +1604,12 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c7 * {
+.c6 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c9 {
+.c8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1161,12 +1636,12 @@ Object {
   color: hsla(138,76%,97%,1);
 }
 
-.c9 * {
+.c8 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c11 {
+.c10 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1193,12 +1668,12 @@ Object {
   color: hsla(48,100%,96%,1);
 }
 
-.c11 * {
+.c10 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c13 {
+.c12 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1225,12 +1700,16 @@ Object {
   color: hsla(0,86%,97%,1);
 }
 
-.c13 * {
+.c12 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c2 {
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -1241,7 +1720,11 @@ Object {
   color: hsla(270,100%,98%,1);
 }
 
-.c4 {
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -1252,7 +1735,11 @@ Object {
   color: hsla(327,73%,97%,1);
 }
 
-.c6 {
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -1263,7 +1750,11 @@ Object {
   color: hsla(0,0%,98%,1);
 }
 
-.c8 {
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -1274,7 +1765,11 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c10 {
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -1285,7 +1780,11 @@ Object {
   color: hsla(138,76%,97%,1);
 }
 
-.c12 {
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -1296,7 +1795,11 @@ Object {
   color: hsla(48,100%,96%,1);
 }
 
-.c14 {
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -1310,16 +1813,16 @@ Object {
 <body>
     <div>
       <div
-        class="c0"
+        class=""
         role="note"
       >
         <div
-          class="c1"
+          class="c0"
         >
           major
         </div>
         <div
-          class="c2"
+          class="c1"
         >
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -1327,16 +1830,16 @@ Object {
         </div>
       </div>
       <div
-        class="c0"
+        class=""
         role="note"
       >
         <div
-          class="c3"
+          class="c2"
         >
           minor
         </div>
         <div
-          class="c4"
+          class="c3"
         >
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -1344,16 +1847,16 @@ Object {
         </div>
       </div>
       <div
-        class="c0"
+        class=""
         role="note"
       >
         <div
-          class="c5"
+          class="c4"
         >
           neutral
         </div>
         <div
-          class="c6"
+          class="c5"
         >
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -1361,11 +1864,11 @@ Object {
         </div>
       </div>
       <div
-        class="c0"
+        class=""
         role="note"
       >
         <div
-          class="c7"
+          class="c6"
         >
           <svg
             aria-hidden="true"
@@ -1381,7 +1884,7 @@ Object {
           info
         </div>
         <div
-          class="c8"
+          class="c7"
         >
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -1389,11 +1892,11 @@ Object {
         </div>
       </div>
       <div
-        class="c0"
+        class=""
         role="note"
       >
         <div
-          class="c9"
+          class="c8"
         >
           <svg
             aria-hidden="true"
@@ -1409,7 +1912,7 @@ Object {
           success
         </div>
         <div
-          class="c10"
+          class="c9"
         >
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -1417,11 +1920,11 @@ Object {
         </div>
       </div>
       <div
-        class="c0"
+        class=""
         role="note"
       >
         <div
-          class="c11"
+          class="c10"
         >
           <svg
             aria-hidden="true"
@@ -1437,7 +1940,7 @@ Object {
           warning
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -1445,11 +1948,11 @@ Object {
         </div>
       </div>
       <div
-        class="c0"
+        class=""
         role="note"
       >
         <div
-          class="c13"
+          class="c12"
         >
           <svg
             aria-hidden="true"
@@ -1465,7 +1968,7 @@ Object {
           danger
         </div>
         <div
-          class="c14"
+          class="c13"
         >
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -1475,13 +1978,6 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1508,12 +2004,12 @@ Object {
   color: hsla(270,100%,98%,1);
 }
 
-.c1 * {
+.c0 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c3 {
+.c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1540,12 +2036,12 @@ Object {
   color: hsla(327,73%,97%,1);
 }
 
-.c3 * {
+.c2 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c5 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1572,12 +2068,12 @@ Object {
   color: hsla(0,0%,98%,1);
 }
 
-.c5 * {
+.c4 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c7 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1604,12 +2100,12 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c7 * {
+.c6 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c9 {
+.c8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1636,12 +2132,12 @@ Object {
   color: hsla(138,76%,97%,1);
 }
 
-.c9 * {
+.c8 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c11 {
+.c10 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1668,12 +2164,12 @@ Object {
   color: hsla(48,100%,96%,1);
 }
 
-.c11 * {
+.c10 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c13 {
+.c12 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1700,12 +2196,16 @@ Object {
   color: hsla(0,86%,97%,1);
 }
 
-.c13 * {
+.c12 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c2 {
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -1716,7 +2216,11 @@ Object {
   color: hsla(270,100%,98%,1);
 }
 
-.c4 {
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -1727,7 +2231,11 @@ Object {
   color: hsla(327,73%,97%,1);
 }
 
-.c6 {
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -1738,7 +2246,11 @@ Object {
   color: hsla(0,0%,98%,1);
 }
 
-.c8 {
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -1749,7 +2261,11 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c10 {
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -1760,7 +2276,11 @@ Object {
   color: hsla(138,76%,97%,1);
 }
 
-.c12 {
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -1771,7 +2291,11 @@ Object {
   color: hsla(48,100%,96%,1);
 }
 
-.c14 {
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -1784,16 +2308,16 @@ Object {
 
 <div>
     <div
-      class="c0"
+      class=""
       role="note"
     >
       <div
-        class="c1"
+        class="c0"
       >
         major
       </div>
       <div
-        class="c2"
+        class="c1"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -1801,16 +2325,16 @@ Object {
       </div>
     </div>
     <div
-      class="c0"
+      class=""
       role="note"
     >
       <div
-        class="c3"
+        class="c2"
       >
         minor
       </div>
       <div
-        class="c4"
+        class="c3"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -1818,16 +2342,16 @@ Object {
       </div>
     </div>
     <div
-      class="c0"
+      class=""
       role="note"
     >
       <div
-        class="c5"
+        class="c4"
       >
         neutral
       </div>
       <div
-        class="c6"
+        class="c5"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -1835,11 +2359,11 @@ Object {
       </div>
     </div>
     <div
-      class="c0"
+      class=""
       role="note"
     >
       <div
-        class="c7"
+        class="c6"
       >
         <svg
           aria-hidden="true"
@@ -1855,7 +2379,7 @@ Object {
         info
       </div>
       <div
-        class="c8"
+        class="c7"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -1863,11 +2387,11 @@ Object {
       </div>
     </div>
     <div
-      class="c0"
+      class=""
       role="note"
     >
       <div
-        class="c9"
+        class="c8"
       >
         <svg
           aria-hidden="true"
@@ -1883,7 +2407,7 @@ Object {
         success
       </div>
       <div
-        class="c10"
+        class="c9"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -1891,11 +2415,11 @@ Object {
       </div>
     </div>
     <div
-      class="c0"
+      class=""
       role="note"
     >
       <div
-        class="c11"
+        class="c10"
       >
         <svg
           aria-hidden="true"
@@ -1911,7 +2435,7 @@ Object {
         warning
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -1919,11 +2443,11 @@ Object {
       </div>
     </div>
     <div
-      class="c0"
+      class=""
       role="note"
     >
       <div
-        class="c13"
+        class="c12"
       >
         <svg
           aria-hidden="true"
@@ -1939,7 +2463,7 @@ Object {
         danger
       </div>
       <div
-        class="c14"
+        class="c13"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -2005,11 +2529,6 @@ exports[`Message Message stretched to full width 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  width: 100%;
-  position: relative;
-}
-
-.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2036,12 +2555,16 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c1 * {
+.c0 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c2 {
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -2053,11 +2576,11 @@ Object {
 <body>
     <div>
       <div
-        class="c0"
+        class=""
         role="note"
       >
         <div
-          class="c1"
+          class="c0"
         >
           <svg
             aria-hidden="true"
@@ -2073,7 +2596,7 @@ Object {
           info
         </div>
         <div
-          class="c2"
+          class="c1"
         >
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -2083,11 +2606,6 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  width: 100%;
-  position: relative;
-}
-
-.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2114,12 +2632,16 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c1 * {
+.c0 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c2 {
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -2130,11 +2652,11 @@ Object {
 
 <div>
     <div
-      class="c0"
+      class=""
       role="note"
     >
       <div
-        class="c1"
+        class="c0"
       >
         <svg
           aria-hidden="true"
@@ -2150,7 +2672,7 @@ Object {
         info
       </div>
       <div
-        class="c2"
+        class="c1"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -2216,13 +2738,6 @@ exports[`Message Message with all color variants 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2249,12 +2764,12 @@ Object {
   color: hsla(270,100%,98%,1);
 }
 
-.c1 * {
+.c0 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c3 {
+.c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2281,12 +2796,12 @@ Object {
   color: hsla(327,73%,97%,1);
 }
 
-.c3 * {
+.c2 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c5 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2313,12 +2828,12 @@ Object {
   color: hsla(0,0%,98%,1);
 }
 
-.c5 * {
+.c4 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c7 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2345,12 +2860,12 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c7 * {
+.c6 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c9 {
+.c8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2377,12 +2892,12 @@ Object {
   color: hsla(138,76%,97%,1);
 }
 
-.c9 * {
+.c8 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c11 {
+.c10 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2409,12 +2924,12 @@ Object {
   color: hsla(48,100%,96%,1);
 }
 
-.c11 * {
+.c10 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c13 {
+.c12 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2441,12 +2956,16 @@ Object {
   color: hsla(0,86%,97%,1);
 }
 
-.c13 * {
+.c12 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c2 {
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -2457,7 +2976,11 @@ Object {
   color: hsla(270,100%,98%,1);
 }
 
-.c4 {
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -2468,7 +2991,11 @@ Object {
   color: hsla(327,73%,97%,1);
 }
 
-.c6 {
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -2479,7 +3006,11 @@ Object {
   color: hsla(0,0%,98%,1);
 }
 
-.c8 {
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -2490,7 +3021,11 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c10 {
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -2501,7 +3036,11 @@ Object {
   color: hsla(138,76%,97%,1);
 }
 
-.c12 {
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -2512,7 +3051,11 @@ Object {
   color: hsla(48,100%,96%,1);
 }
 
-.c14 {
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -2526,16 +3069,16 @@ Object {
 <body>
     <div>
       <div
-        class="c0"
+        class=""
         role="note"
       >
         <div
-          class="c1"
+          class="c0"
         >
           major
         </div>
         <div
-          class="c2"
+          class="c1"
         >
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -2543,16 +3086,16 @@ Object {
         </div>
       </div>
       <div
-        class="c0"
+        class=""
         role="note"
       >
         <div
-          class="c3"
+          class="c2"
         >
           minor
         </div>
         <div
-          class="c4"
+          class="c3"
         >
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -2560,16 +3103,16 @@ Object {
         </div>
       </div>
       <div
-        class="c0"
+        class=""
         role="note"
       >
         <div
-          class="c5"
+          class="c4"
         >
           neutral
         </div>
         <div
-          class="c6"
+          class="c5"
         >
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -2577,11 +3120,11 @@ Object {
         </div>
       </div>
       <div
-        class="c0"
+        class=""
         role="note"
       >
         <div
-          class="c7"
+          class="c6"
         >
           <svg
             aria-hidden="true"
@@ -2597,7 +3140,7 @@ Object {
           info
         </div>
         <div
-          class="c8"
+          class="c7"
         >
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -2605,11 +3148,11 @@ Object {
         </div>
       </div>
       <div
-        class="c0"
+        class=""
         role="note"
       >
         <div
-          class="c9"
+          class="c8"
         >
           <svg
             aria-hidden="true"
@@ -2625,7 +3168,7 @@ Object {
           success
         </div>
         <div
-          class="c10"
+          class="c9"
         >
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -2633,11 +3176,11 @@ Object {
         </div>
       </div>
       <div
-        class="c0"
+        class=""
         role="note"
       >
         <div
-          class="c11"
+          class="c10"
         >
           <svg
             aria-hidden="true"
@@ -2653,7 +3196,7 @@ Object {
           warning
         </div>
         <div
-          class="c12"
+          class="c11"
         >
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -2661,11 +3204,11 @@ Object {
         </div>
       </div>
       <div
-        class="c0"
+        class=""
         role="note"
       >
         <div
-          class="c13"
+          class="c12"
         >
           <svg
             aria-hidden="true"
@@ -2681,7 +3224,7 @@ Object {
           danger
         </div>
         <div
-          class="c14"
+          class="c13"
         >
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -2691,13 +3234,6 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2724,12 +3260,12 @@ Object {
   color: hsla(270,100%,98%,1);
 }
 
-.c1 * {
+.c0 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c3 {
+.c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2756,12 +3292,12 @@ Object {
   color: hsla(327,73%,97%,1);
 }
 
-.c3 * {
+.c2 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c5 {
+.c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2788,12 +3324,12 @@ Object {
   color: hsla(0,0%,98%,1);
 }
 
-.c5 * {
+.c4 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c7 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2820,12 +3356,12 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c7 * {
+.c6 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c9 {
+.c8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2852,12 +3388,12 @@ Object {
   color: hsla(138,76%,97%,1);
 }
 
-.c9 * {
+.c8 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c11 {
+.c10 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2884,12 +3420,12 @@ Object {
   color: hsla(48,100%,96%,1);
 }
 
-.c11 * {
+.c10 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c13 {
+.c12 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2916,12 +3452,16 @@ Object {
   color: hsla(0,86%,97%,1);
 }
 
-.c13 * {
+.c12 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c2 {
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -2932,7 +3472,11 @@ Object {
   color: hsla(270,100%,98%,1);
 }
 
-.c4 {
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -2943,7 +3487,11 @@ Object {
   color: hsla(327,73%,97%,1);
 }
 
-.c6 {
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -2954,7 +3502,11 @@ Object {
   color: hsla(0,0%,98%,1);
 }
 
-.c8 {
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -2965,7 +3517,11 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c10 {
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -2976,7 +3532,11 @@ Object {
   color: hsla(138,76%,97%,1);
 }
 
-.c12 {
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -2987,7 +3547,11 @@ Object {
   color: hsla(48,100%,96%,1);
 }
 
-.c14 {
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -3000,16 +3564,16 @@ Object {
 
 <div>
     <div
-      class="c0"
+      class=""
       role="note"
     >
       <div
-        class="c1"
+        class="c0"
       >
         major
       </div>
       <div
-        class="c2"
+        class="c1"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -3017,16 +3581,16 @@ Object {
       </div>
     </div>
     <div
-      class="c0"
+      class=""
       role="note"
     >
       <div
-        class="c3"
+        class="c2"
       >
         minor
       </div>
       <div
-        class="c4"
+        class="c3"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -3034,16 +3598,16 @@ Object {
       </div>
     </div>
     <div
-      class="c0"
+      class=""
       role="note"
     >
       <div
-        class="c5"
+        class="c4"
       >
         neutral
       </div>
       <div
-        class="c6"
+        class="c5"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -3051,11 +3615,11 @@ Object {
       </div>
     </div>
     <div
-      class="c0"
+      class=""
       role="note"
     >
       <div
-        class="c7"
+        class="c6"
       >
         <svg
           aria-hidden="true"
@@ -3071,7 +3635,7 @@ Object {
         info
       </div>
       <div
-        class="c8"
+        class="c7"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -3079,11 +3643,11 @@ Object {
       </div>
     </div>
     <div
-      class="c0"
+      class=""
       role="note"
     >
       <div
-        class="c9"
+        class="c8"
       >
         <svg
           aria-hidden="true"
@@ -3099,7 +3663,7 @@ Object {
         success
       </div>
       <div
-        class="c10"
+        class="c9"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -3107,11 +3671,11 @@ Object {
       </div>
     </div>
     <div
-      class="c0"
+      class=""
       role="note"
     >
       <div
-        class="c11"
+        class="c10"
       >
         <svg
           aria-hidden="true"
@@ -3127,7 +3691,7 @@ Object {
         warning
       </div>
       <div
-        class="c12"
+        class="c11"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -3135,11 +3699,11 @@ Object {
       </div>
     </div>
     <div
-      class="c0"
+      class=""
       role="note"
     >
       <div
-        class="c13"
+        class="c12"
       >
         <svg
           aria-hidden="true"
@@ -3155,7 +3719,7 @@ Object {
         danger
       </div>
       <div
-        class="c14"
+        class="c13"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -3220,25 +3784,14 @@ Object {
 exports[`Message Message with close button 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c0 {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c2 {
+  "baseElement": .c2 {
   height: 1rem;
   width: 1rem;
-  position: absolute;
-  color: hsla(214,100%,97%,1);
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(214,100%,97%,1);
 }
 
-.c1 {
+.c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3265,12 +3818,16 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c1 * {
+.c0 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c3 {
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -3284,11 +3841,11 @@ Object {
 <body>
     <div>
       <div
-        class="c0"
+        class=""
         role="note"
       >
         <div
-          class="c1"
+          class="c0"
         >
           <svg
             aria-hidden="true"
@@ -3303,51 +3860,45 @@ Object {
           </svg>
           info
         </div>
-        <i
-          class="c2"
-          role="button"
-        >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
-        </i>
         <div
-          class="c3"
+          class="c1"
         >
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
       eaque!
+          <i
+            class="c2"
+            role="button"
+          >
+            <i
+              style="height: 1.25em; width: 1.25em;"
+            >
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
+          </i>
         </div>
       </div>
     </div>
   </body>,
-  "container": .c0 {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c2 {
+  "container": .c2 {
   height: 1rem;
   width: 1rem;
-  position: absolute;
-  color: hsla(214,100%,97%,1);
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(214,100%,97%,1);
 }
 
-.c1 {
+.c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3374,12 +3925,16 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c1 * {
+.c0 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c3 {
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -3392,11 +3947,11 @@ Object {
 
 <div>
     <div
-      class="c0"
+      class=""
       role="note"
     >
       <div
-        class="c1"
+        class="c0"
       >
         <svg
           aria-hidden="true"
@@ -3411,28 +3966,33 @@ Object {
         </svg>
         info
       </div>
-      <i
-        class="c2"
-        role="button"
-      >
-        <svg
-          aria-hidden="true"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-          />
-        </svg>
-      </i>
       <div
-        class="c3"
+        class="c1"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
       eaque!
+        <i
+          class="c2"
+          role="button"
+        >
+          <i
+            style="height: 1.25em; width: 1.25em;"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
+        </i>
       </div>
     </div>
   </div>,
@@ -3494,13 +4054,6 @@ exports[`Message Message with custom element 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3527,12 +4080,16 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c1 * {
+.c0 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c2 {
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -3546,11 +4103,11 @@ Object {
 <body>
     <div>
       <div
-        class="c0"
+        class=""
         role="note"
       >
         <div
-          class="c1"
+          class="c0"
         >
           <svg
             aria-hidden="true"
@@ -3566,7 +4123,7 @@ Object {
           info
         </div>
         <div
-          class="c2"
+          class="c1"
         >
           <div
             style="display: flex;"
@@ -3580,13 +4137,6 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3613,12 +4163,16 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c1 * {
+.c0 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c2 {
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   border-top-left-radius: 0;
@@ -3631,11 +4185,11 @@ Object {
 
 <div>
     <div
-      class="c0"
+      class=""
       role="note"
     >
       <div
-        class="c1"
+        class="c0"
       >
         <svg
           aria-hidden="true"
@@ -3651,7 +4205,7 @@ Object {
         info
       </div>
       <div
-        class="c2"
+        class="c1"
       >
         <div
           style="display: flex;"
@@ -3721,13 +4275,10 @@ exports[`Message Message with no label 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   width: -webkit-fit-content;
@@ -3740,11 +4291,11 @@ Object {
 <body>
     <div>
       <div
-        class="c0"
+        class=""
         role="note"
       >
         <div
-          class="c1"
+          class="c0"
         >
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -3754,13 +4305,10 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
   width: -webkit-fit-content;
@@ -3772,11 +4320,11 @@ Object {
 
 <div>
     <div
-      class="c0"
+      class=""
       role="note"
     >
       <div
-        class="c1"
+        class="c0"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -3842,13 +4390,6 @@ exports[`Message Message with sharp label 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3873,12 +4414,16 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c1 * {
+.c0 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c2 {
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-top-left-radius: 0;
   width: -webkit-fit-content;
@@ -3891,11 +4436,11 @@ Object {
 <body>
     <div>
       <div
-        class="c0"
+        class=""
         role="note"
       >
         <div
-          class="c1"
+          class="c0"
         >
           <svg
             aria-hidden="true"
@@ -3911,7 +4456,7 @@ Object {
           info
         </div>
         <div
-          class="c2"
+          class="c1"
         >
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -3921,13 +4466,6 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  position: relative;
-}
-
-.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3952,12 +4490,16 @@ Object {
   color: hsla(214,100%,97%,1);
 }
 
-.c1 * {
+.c0 * {
   height: 0.75rem;
   width: 0.75rem;
 }
 
-.c2 {
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding: 0.75rem 1rem;
   border-top-left-radius: 0;
   width: -webkit-fit-content;
@@ -3969,11 +4511,11 @@ Object {
 
 <div>
     <div
-      class="c0"
+      class=""
       role="note"
     >
       <div
-        class="c1"
+        class="c0"
       >
         <svg
           aria-hidden="true"
@@ -3989,7 +4531,7 @@ Object {
         info
       </div>
       <div
-        class="c2"
+        class="c1"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus

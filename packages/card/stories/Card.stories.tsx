@@ -107,3 +107,14 @@ export const customElement = () => (
     </Card.Main>
   </Container>
 );
+
+export const customDimensions = () => (
+  <Container>
+    <Card h="9rem">{text}</Card>
+    <Card.Main h="15rem">
+      <Card.Header>Lorem ipsum dolor sit.</Card.Header>
+      <Card.Body>{text}</Card.Body>
+      <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
+    </Card.Main>
+  </Container>
+);
