@@ -1,5 +1,7 @@
 import React from 'react';
-import { styled } from '../../commons/src';
+import { Text } from '../../text/src';
+import { FlexBox } from '../../flexbox/src';
+import { Grid } from '../../grid/src';
 import { Card } from '../src';
 import { Tone } from '../../types/src';
 
@@ -8,113 +10,170 @@ export default {
   title: 'Presentation/Card',
 };
 
-const Container = styled.div`
-  display: flex;
-  gap: 16px;
-  margin-bottom: 16px;
-`;
-
-const text = `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et totam eius ducimus unde voluptatibus asperiores fuga
-      accusantium voluptates non nam sit beatae, modi quas animi autem aliquid. Exercitationem, veniam sapiente!
-    `;
+const ContentHeader = () => <Text.h5>Lorem ipsum dolor sit.</Text.h5>;
+const ContentBody = () => (
+  <Text.body1>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et totam eius ducimus unde voluptatibus asperiores fuga
+    accusantium voluptates non nam sit beatae, modi quas animi autem aliquid. Exercitationem, veniam sapiente!
+  </Text.body1>
+);
+const ContentFooter = () => <Text.body2>Lorem ipsum dolor sit amet consectetur.</Text.body2>;
 
 export const basic = () => (
-  <Container>
-    <Card>{text}</Card>
+  <FlexBox gap="1rem" nowrap>
+    <Card>
+      <ContentBody />
+    </Card>
     <Card.Main>
-      <Card.Header>Lorem ipsum dolor sit.</Card.Header>
-      <Card.Body>{text}</Card.Body>
-      <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
+      <Card.Header>
+        <ContentHeader />
+      </Card.Header>
+      <Card.Body>
+        <ContentBody />
+      </Card.Body>
+      <Card.Footer>
+        <ContentFooter />
+      </Card.Footer>
     </Card.Main>
-  </Container>
+  </FlexBox>
 );
 
 export const sharp = () => (
-  <Container>
-    <Card sharp>{text}</Card>
+  <FlexBox gap="1rem" nowrap>
+    <Card sharp>
+      <ContentBody />
+    </Card>
     <Card.Main sharp>
-      <Card.Header>Lorem ipsum dolor sit.</Card.Header>
-      <Card.Body>{text}</Card.Body>
-      <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
+      <Card.Header>
+        <ContentHeader />
+      </Card.Header>
+      <Card.Body>
+        <ContentBody />
+      </Card.Body>
+      <Card.Footer>
+        <ContentFooter />
+      </Card.Footer>
     </Card.Main>
-  </Container>
+  </FlexBox>
 );
 
 export const accents = () => (
-  <>
-    <Container>
+  <FlexBox gap="1rem" fld="column">
+    <Grid gap={16}>
       {Object.values(Tone)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
-          <Card accent={Tone[v]} key={i}>
-            {text}
-          </Card>
+          <Grid.Item xs={12} sm={12} md={8} lg={6} xl={6}>
+            <Card accent={Tone[v]} key={i}>
+              <ContentBody />
+            </Card>
+          </Grid.Item>
         ))}
-    </Container>
-    <Container>
+    </Grid>
+    <Grid gap={16}>
       {Object.values(Tone)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
-          <Card.Main accent={Tone[v]} key={i} accentPosition="left">
-            <Card.Header>Lorem ipsum dolor sit.</Card.Header>
-            <Card.Body>{text}</Card.Body>
-            <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
-          </Card.Main>
+          <Grid.Item xs={12} sm={12} md={8} lg={6} xl={6}>
+            <Card.Main accent={Tone[v]} key={i} accentPosition="left">
+              <Card.Header>
+                <ContentHeader />
+              </Card.Header>
+              <Card.Body>
+                <ContentBody />
+              </Card.Body>
+              <Card.Footer>
+                <ContentFooter />
+              </Card.Footer>
+            </Card.Main>
+          </Grid.Item>
         ))}
-    </Container>
-  </>
+    </Grid>
+  </FlexBox>
 );
 
 export const linked = () => (
-  <Container>
-    <Card href="https://google.com">{text}</Card>
+  <FlexBox gap="1rem" nowrap>
+    <Card href="https://google.com">
+      <ContentBody />
+    </Card>
     <Card.Main>
-      <Card.Header href="https://google.com">Lorem ipsum dolor sit.</Card.Header>
-      <Card.Body>{text}</Card.Body>
-      <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
+      <Card.Header href="https://google.com">
+        <ContentHeader />
+      </Card.Header>
+      <Card.Body>
+        <ContentBody />
+      </Card.Body>
+      <Card.Footer>
+        <ContentFooter />
+      </Card.Footer>
     </Card.Main>
-  </Container>
+  </FlexBox>
 );
 
 export const divided = () => (
-  <Container>
+  <FlexBox gap="1rem" nowrap>
     <Card.Main>
-      <Card.Header divided>Lorem ipsum dolor sit.</Card.Header>
-      <Card.Body>{text}</Card.Body>
-      <Card.Footer divided>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
+      <Card.Header divided>
+        <ContentHeader />
+      </Card.Header>
+      <Card.Body>
+        <ContentBody />
+      </Card.Body>
+      <Card.Footer divided>
+        <ContentFooter />
+      </Card.Footer>
     </Card.Main>
     <Card.Main sharp>
-      <Card.Header divided>Lorem ipsum dolor sit.</Card.Header>
-      <Card.Body>{text}</Card.Body>
-      <Card.Footer divided>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
+      <Card.Header divided>
+        <ContentHeader />
+      </Card.Header>
+      <Card.Body>
+        <ContentBody />
+      </Card.Body>
+      <Card.Footer divided>
+        <ContentFooter />
+      </Card.Footer>
     </Card.Main>
-  </Container>
+  </FlexBox>
 );
 
 export const customElement = () => (
-  <Container>
-    <Card ele={<div style={{ display: 'flex' }} />}>
-      <div>{text}</div>
-      <div>{text}</div>
+  <FlexBox gap="1rem" nowrap>
+    <Card ele={<FlexBox nowrap gap="0.5rem" />}>
+      <ContentBody />
+      <ContentBody />
     </Card>
     <Card.Main>
-      <Card.Header>Lorem ipsum dolor sit.</Card.Header>
-      <Card.Body ele={<div style={{ display: 'flex' }} />}>
-        <div>{text}</div>
-        <div>{text}</div>
+      <Card.Header>
+        <ContentHeader />
+      </Card.Header>
+      <Card.Body ele={<FlexBox nowrap gap="0.5rem" />}>
+        <ContentBody />
+        <ContentBody />
       </Card.Body>
-      <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
+      <Card.Footer>
+        <ContentFooter />
+      </Card.Footer>
     </Card.Main>
-  </Container>
+  </FlexBox>
 );
 
 export const customDimensions = () => (
-  <Container>
-    <Card h="9rem">{text}</Card>
+  <FlexBox gap="1rem" nowrap>
+    <Card h="9rem">
+      <ContentBody />
+    </Card>
     <Card.Main h="15rem">
-      <Card.Header>Lorem ipsum dolor sit.</Card.Header>
-      <Card.Body>{text}</Card.Body>
-      <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
+      <Card.Header>
+        <ContentHeader />
+      </Card.Header>
+      <Card.Body>
+        <ContentBody />
+      </Card.Body>
+      <Card.Footer>
+        <ContentFooter />
+      </Card.Footer>
     </Card.Main>
-  </Container>
+  </FlexBox>
 );

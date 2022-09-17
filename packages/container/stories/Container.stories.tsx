@@ -3,7 +3,8 @@ import { color, css, hsla, Icon, styled } from '../../commons/src';
 import { Screen, TScreen } from '../../types/src';
 import { Container } from '../src';
 import { IContainerProps } from '../src/types';
-import { Button, ButtonGroup } from '../../button/src';
+import { IconButton, ButtonCluster } from '../../button/src';
+import { Text } from '../../text/src';
 
 export default {
   component: Container,
@@ -24,18 +25,13 @@ const InnerDiv = styled.div<IContainerProps>`
         `}
 `;
 
-const Content = () => <InnerDiv></InnerDiv>;
+const Content = () => <InnerDiv />;
 
 const ToolBar = styled.div`
   display: block;
   position: absolute;
   top: 1rem;
   right: 1rem;
-`;
-
-const ToolBarIconWrap = styled.i`
-  height: 1rem;
-  width: 1rem;
 `;
 
 export const basic = () => (
@@ -57,21 +53,27 @@ export const maxWidth = () => {
   return (
     <>
       <ToolBar>
-        <ButtonGroup>
-          <Button variant="outlined" onClick={decrement} disabled={maxWidth === 0}>
-            <ToolBarIconWrap>
-              <Icon.Remove />
-            </ToolBarIconWrap>
-          </Button>
-          <Button disabled w="2rem">
+        <ButtonCluster>
+          <IconButton
+            icon={<Icon.Remove />}
+            variant="outlined"
+            onClick={decrement}
+            disabled={maxWidth === 0}
+            iconOnly
+            size="sm"
+          />
+          <Text.h6 style={{ width: '2rem' }} ctr>
             {Screen[maxWidth]}
-          </Button>
-          <Button variant="outlined" onClick={increment} disabled={maxWidth === 4}>
-            <ToolBarIconWrap>
-              <Icon.Add />
-            </ToolBarIconWrap>
-          </Button>
-        </ButtonGroup>
+          </Text.h6>
+          <IconButton
+            icon={<Icon.Add />}
+            variant="outlined"
+            onClick={increment}
+            disabled={maxWidth === 4}
+            iconOnly
+            size="sm"
+          />
+        </ButtonCluster>
       </ToolBar>
       <Container maxWidth={Screen[maxWidth] as TScreen}>
         <Content />

@@ -1,5 +1,6 @@
 import React from 'react';
-import { Icon, styled } from '../../commons/src';
+import { Icon } from '../../commons/src';
+import { FlexBox } from '../../flexbox/src';
 import { IconButton } from '../src';
 import { Size, Tone } from '../../types/src';
 
@@ -8,26 +9,11 @@ export default {
   title: 'Presentation/Button/IconButton',
 };
 
-const Container = styled.div`
-  display: flex;
-  gap: 16px;
-`;
-
-const Column = styled.div`
-  & > * {
-    margin-bottom: 8px;
-  }
-`;
-
-export const basic = () => (
-  <Container>
-    <IconButton icon={<Icon.Add />}>Add</IconButton>
-  </Container>
-);
+export const basic = () => <IconButton icon={<Icon.Add />}>Add</IconButton>;
 
 export const tones = () => {
   return (
-    <Container>
+    <FlexBox gap="1rem">
       {Object.values(Tone)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
@@ -35,21 +21,21 @@ export const tones = () => {
             {Tone[v]}
           </IconButton>
         ))}
-    </Container>
+    </FlexBox>
   );
 };
 
 export const placement = () => (
-  <Container>
+  <FlexBox gap="1rem">
     <IconButton icon={<Icon.AddCircle />}>Left</IconButton>
     <IconButton icon={<Icon.AddCircle />} placement="right">
       Right
     </IconButton>
-  </Container>
+  </FlexBox>
 );
 
 export const sizes = () => (
-  <Column>
+  <FlexBox gap="1rem" fld="column" ali="flex-start">
     {Object.values(Size)
       .filter((i) => !isNaN(Number(i)))
       .map((v, i) => (
@@ -57,44 +43,40 @@ export const sizes = () => (
           {Size[v]}
         </IconButton>
       ))}
-  </Column>
+  </FlexBox>
 );
 
 export const types = () => (
-  <Container>
+  <FlexBox gap="1rem">
     <IconButton icon={<Icon.AddCircle />} variant="primary">
       Primary
     </IconButton>
     <IconButton icon={<Icon.Close />} variant="outlined">
       Outlined
     </IconButton>
-  </Container>
+  </FlexBox>
 );
 
 export const disabled = () => (
-  <Container>
-    <IconButton icon={<Icon.Add />} disabled>
-      Disabled
-    </IconButton>
-  </Container>
+  <IconButton icon={<Icon.Add />} disabled>
+    Disabled
+  </IconButton>
 );
 
 export const customDimension = () => (
-  <Container>
-    <IconButton icon={<Icon.Add />} h="3rem" w="10rem">
-      Disabled
-    </IconButton>
-  </Container>
+  <IconButton icon={<Icon.Add />} h="3rem" w="12rem">
+    custom dimension
+  </IconButton>
 );
 
 export const iconOnly = () => {
   return (
-    <Column>
+    <FlexBox gap="1rem" fld="column" ali="flex-start">
       {Object.values(Size)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
           <IconButton icon={<Icon.Add />} iconOnly size={Size[v]} key={i} />
         ))}
-    </Column>
+    </FlexBox>
   );
 };

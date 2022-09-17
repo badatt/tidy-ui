@@ -100,7 +100,7 @@ const hero = css<IButtonProps>`
   ${({ theme: { palette, isDark }, tone, disabled, gradient }) => css`
     padding: 1rem 1.5rem;
     font-size: 3rem;
-    line-height: 2.125rem;
+    line-height: 3rem;
     color: ${palette[tone!][50]};
     border: none;
     width: 100%;
