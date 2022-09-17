@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, ButtonGroup, ButtonToolbar } from '@tidy-ui/button';
+import { Button, ButtonCluster, ButtonGroup } from '@tidy-ui/button';
 import { IBaseProps } from '@tidy-ui/types';
 
 const baseCount = 10;
@@ -24,7 +24,7 @@ const StackProvider = ({ children, size }: IStackProvider) => {
   const reset = () => setCount(size || baseCount);
   return (
     <Ctx.Provider value={{ count }}>
-      <ButtonToolbar>
+      <ButtonCluster>
         <ButtonGroup>
           <Button variant="outlined" onClick={increment} w="4rem">
             Add
@@ -36,7 +36,7 @@ const StackProvider = ({ children, size }: IStackProvider) => {
         <Button variant="simple" tone="danger" onClick={reset}>
           Reset ({count})
         </Button>
-      </ButtonToolbar>
+      </ButtonCluster>
       <br />
       {children}
     </Ctx.Provider>

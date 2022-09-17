@@ -1,14 +1,14 @@
 import React from 'react';
 import { Icon } from '@tidy-ui/commons';
-import { ButtonGroup, ButtonToolbar, IconButton } from '../src';
+import { ButtonGroup, ButtonCluster, IconButton } from '../src';
 
 export default {
-  component: ButtonToolbar,
-  title: 'Presentation/Button/ButtonToolbar',
+  component: ButtonCluster,
+  title: 'Presentation/Button/ButtonCluster',
 };
 
 export const basic = () => (
-  <ButtonToolbar>
+  <ButtonCluster>
     <IconButton icon={<Icon.AddCircle />}>Add</IconButton>
     <ButtonGroup>
       <IconButton icon={<Icon.Add />} />
@@ -21,11 +21,11 @@ export const basic = () => (
     <IconButton icon={<Icon.Close />} placement="right">
       Delete
     </IconButton>
-  </ButtonToolbar>
+  </ButtonCluster>
 );
 
 export const outlined = () => (
-  <ButtonToolbar>
+  <ButtonCluster>
     <IconButton icon={<Icon.AddCircle />} variant="outlined">
       Add
     </IconButton>
@@ -38,11 +38,11 @@ export const outlined = () => (
       <IconButton icon={<Icon.Cancel />} variant="outlined" />
     </ButtonGroup>
     <IconButton icon={<Icon.Close />} variant="outlined" />
-  </ButtonToolbar>
+  </ButtonCluster>
 );
 
 export const disabled = () => (
-  <ButtonToolbar disabled>
+  <ButtonCluster disabled>
     <IconButton icon={<Icon.AddCircle />} variant="outlined">
       Add
     </IconButton>
@@ -55,11 +55,11 @@ export const disabled = () => (
       <IconButton icon={<Icon.Close />} variant="outlined" />
     </ButtonGroup>
     <IconButton icon={<Icon.Cancel />} variant="outlined" />
-  </ButtonToolbar>
+  </ButtonCluster>
 );
 
 export const customDimensions = () => (
-  <ButtonToolbar h="3rem">
+  <ButtonCluster h="3rem">
     <IconButton icon={<Icon.AddCircle />} variant="outlined">
       Add
     </IconButton>
@@ -72,5 +72,5 @@ export const customDimensions = () => (
       <IconButton icon={<Icon.Close />} variant="outlined" />
     </ButtonGroup>
     <IconButton icon={<Icon.Cancel />} variant="outlined" />
-  </ButtonToolbar>
+  </ButtonCluster>
 );

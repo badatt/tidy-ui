@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Render ButtonToolbar Basic render 1`] = `
+exports[`Render ButtonCluster Basic render 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c5 {
@@ -837,7 +837,7 @@ Object {
 }
 `;
 
-exports[`Render ButtonToolbar Custom dimension 1`] = `
+exports[`Render ButtonCluster Custom dimension 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c5 {
@@ -1678,7 +1678,7 @@ Object {
 }
 `;
 
-exports[`Render ButtonToolbar Disabled ButtonToolbar 1`] = `
+exports[`Render ButtonCluster Disabled ButtonCluster 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c5 {

@@ -299,7 +299,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Features
 
 * added ButtonGroup to Button component ([d4c63a2](https://github.com/badatt/tidy-ui/commit/d4c63a2d1b47f802a035da602d2213b2b5c8dc34))
-* added ButtonToolbar to button component ([8070448](https://github.com/badatt/tidy-ui/commit/8070448efe3c79710b04a48243c39588465bec3d))
+* added ButtonCluster to button component ([8070448](https://github.com/badatt/tidy-ui/commit/8070448efe3c79710b04a48243c39588465bec3d))
 * added IconButton to button component ([125fc6a](https://github.com/badatt/tidy-ui/commit/125fc6a7dcbd2de756cc026944392520d50d9b38))
 
 
@@ -321,7 +321,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Features
 
 * added ButtonGroup to Button component ([d4c63a2](https://github.com/badatt/tidy-ui/commit/d4c63a2d1b47f802a035da602d2213b2b5c8dc34))
-* added ButtonToolbar to button component ([8070448](https://github.com/badatt/tidy-ui/commit/8070448efe3c79710b04a48243c39588465bec3d))
+* added ButtonCluster to button component ([8070448](https://github.com/badatt/tidy-ui/commit/8070448efe3c79710b04a48243c39588465bec3d))
 * added IconButton to button component ([125fc6a](https://github.com/badatt/tidy-ui/commit/125fc6a7dcbd2de756cc026944392520d50d9b38))
 
 
@@ -339,7 +339,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Features
 
 * added ButtonGroup to Button component ([d4c63a2](https://github.com/badatt/tidy-ui/commit/d4c63a2d1b47f802a035da602d2213b2b5c8dc34))
-* added ButtonToolbar to button component ([8070448](https://github.com/badatt/tidy-ui/commit/8070448efe3c79710b04a48243c39588465bec3d))
+* added ButtonCluster to button component ([8070448](https://github.com/badatt/tidy-ui/commit/8070448efe3c79710b04a48243c39588465bec3d))
 * added IconButton to button component ([125fc6a](https://github.com/badatt/tidy-ui/commit/125fc6a7dcbd2de756cc026944392520d50d9b38))
 
 
@@ -405,7 +405,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Features
 
 * added ButtonGroup to Button component ([d34a1f1](https://github.com/badatt/tidy-ui/commit/d34a1f1655a037121193d32c87626f5f520bea62))
-* added ButtonToolbar to button component ([3938bd4](https://github.com/badatt/tidy-ui/commit/3938bd4a7f86e93adc91c4f8b0d6c410f40eeb1b))
+* added ButtonCluster to button component ([3938bd4](https://github.com/badatt/tidy-ui/commit/3938bd4a7f86e93adc91c4f8b0d6c410f40eeb1b))
 * added IconButton to button component ([2f12bbc](https://github.com/badatt/tidy-ui/commit/2f12bbc5c3e18236747f68daa1825bae2333c158))
 
 

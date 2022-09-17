@@ -236,14 +236,14 @@ export interface IButtonGroupProps extends IBaseProps, HTMLAttributes<HTMLDivEle
 }
 
 /**
- * ButtonToolbar props
+ * ButtonCluster props
  *
- * @typedef {IButtonToolbarProps}
- * @interface IButtonToolbarProps
+ * @typedef {IButtonClusterProps}
+ * @interface IButtonClusterProps
  * @augments {HTMLAttributes<HTMLDivElement>}
  * @public
  */
-export interface IButtonToolbarProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
+export interface IButtonClusterProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
    * If `true`, disables the toolbar
    *

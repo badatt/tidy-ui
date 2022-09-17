@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, ButtonGroup, ButtonToolbar } from '@tidy-ui/button';
+import { Button, ButtonCluster, ButtonGroup } from '@tidy-ui/button';
 import { Icon } from '@tidy-ui/commons';
 import { Variant } from '../src/types';
 
@@ -17,7 +17,7 @@ const TextProvider = ({ children }) => {
   const reset = () => setVariant(Variant.body1);
   return (
     <Ctx.Provider value={{ variant }}>
-      <ButtonToolbar>
+      <ButtonCluster>
         <ButtonGroup>
           <Button variant="outlined" onClick={decrement} disabled={variant === 0}>
             <Icon ele={<Icon.ExpandLess />} style={{ transform: 'rotate(-45deg)' }} />
@@ -32,7 +32,7 @@ const TextProvider = ({ children }) => {
         <Button variant="simple" tone="danger" onClick={reset}>
           Reset ({Variant[Variant.body1]})
         </Button>
-      </ButtonToolbar>
+      </ButtonCluster>
       <br />
       {children}
     </Ctx.Provider>

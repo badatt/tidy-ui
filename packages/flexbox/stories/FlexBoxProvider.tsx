@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, ButtonGroup, ButtonToolbar } from '@tidy-ui/button';
+import { Button, ButtonCluster, ButtonGroup } from '@tidy-ui/button';
 import { color, css, hsla, styled } from '@tidy-ui/commons';
 import { Text } from '@tidy-ui/text';
 import { IBaseProps } from '@tidy-ui/types';
@@ -59,7 +59,7 @@ const FlexBoxProvider = ({ children, size }: IFlexBoxProvider) => {
   return (
     <Ctx.Provider value={{ count }}>
       <FlexBox jsc="space-between" alc="center">
-        <ButtonToolbar>
+        <ButtonCluster>
           <ButtonGroup>
             <Button variant="outlined" onClick={increment} w="4rem">
               Add
@@ -71,7 +71,7 @@ const FlexBoxProvider = ({ children, size }: IFlexBoxProvider) => {
           <Button variant="simple" tone="danger" onClick={reset}>
             Reset ({count})
           </Button>
-        </ButtonToolbar>
+        </ButtonCluster>
         <FlexBox gap="0.5rem" ali="center">
           <LabelFlexBox h="24px" w="24px" />
           <Text>FlexBox</Text>

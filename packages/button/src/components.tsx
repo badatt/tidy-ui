@@ -1,6 +1,6 @@
 import { css, styled } from '@tidy-ui/commons';
 import { hero, outlined, primary, simple, sizeStyles } from './styles';
-import { IAnchorProps, IButtonGroupProps, IButtonProps, IButtonToolbarProps, IIconButtonProps } from './types';
+import { IAnchorProps, IButtonClusterProps, IButtonGroupProps, IButtonProps, IIconButtonProps } from './types';
 
 /**
  * Internal root component with styles
@@ -163,7 +163,7 @@ const ButtonGroupRoot = styled.div<IButtonGroupProps>`
  *
  * @internal
  */
-const ButtonToolbarRoot = styled.div<IButtonToolbarProps>`
+const ButtonClusterRoot = styled.div<IButtonClusterProps>`
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
@@ -296,9 +296,9 @@ const IconButtonChildWrapper = styled.span<IIconButtonProps>`
 
 export {
   AnchorRoot,
+  ButtonClusterRoot,
   ButtonGroupRoot,
   ButtonRoot,
-  ButtonToolbarRoot,
   IconButtonChildWrapper,
   IconButtonIcon,
   IconButtonIconOnlyWrapper,
