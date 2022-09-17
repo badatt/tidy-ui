@@ -24,8 +24,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(214,100%,97%,1);
 }
 
@@ -84,14 +82,14 @@ Object {
 
 .c5 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <body>
@@ -107,17 +105,22 @@ Object {
             class="c2"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
           <div
             class="c3"
@@ -170,8 +173,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(214,100%,97%,1);
 }
 
@@ -230,14 +231,14 @@ Object {
 
 .c5 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <div>
@@ -252,17 +253,22 @@ Object {
           class="c2"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
         <div
           class="c3"
@@ -371,8 +377,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(214,100%,97%,1);
 }
 
@@ -431,14 +435,14 @@ Object {
 
 .c5 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <body>
@@ -454,17 +458,22 @@ Object {
             class="c2"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
           <div
             class="c3"
@@ -517,8 +526,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(214,100%,97%,1);
 }
 
@@ -577,14 +584,14 @@ Object {
 
 .c5 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <div>
@@ -599,17 +606,22 @@ Object {
           class="c2"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
         <div
           class="c3"
@@ -718,8 +730,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(214,100%,97%,1);
 }
 
@@ -778,14 +788,14 @@ Object {
 
 .c6 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 .c5 {
@@ -821,17 +831,22 @@ Object {
             class="c2"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
           <div
             class="c3"
@@ -895,8 +910,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(214,100%,97%,1);
 }
 
@@ -955,14 +968,14 @@ Object {
 
 .c6 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 .c5 {
@@ -997,17 +1010,22 @@ Object {
           class="c2"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
         <div
           class="c3"
@@ -1127,8 +1145,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(214,100%,97%,1);
 }
 
@@ -1199,14 +1215,14 @@ Object {
 
 .c6 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <body>
@@ -1222,17 +1238,22 @@ Object {
             class="c2"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
           <div
             class="c3"
@@ -1290,8 +1311,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(214,100%,97%,1);
 }
 
@@ -1362,14 +1381,14 @@ Object {
 
 .c6 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <div>
@@ -1384,17 +1403,22 @@ Object {
           class="c2"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
         <div
           class="c3"
@@ -1526,8 +1550,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(214,100%,97%,1);
 }
 
@@ -1586,14 +1608,14 @@ Object {
 
 .c5 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <body>
@@ -1609,17 +1631,22 @@ Object {
             class="c2"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
           <div
             class="c3"
@@ -1660,17 +1687,22 @@ Object {
             class="c2"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
           <div
             class="c3"
@@ -1741,8 +1773,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(214,100%,97%,1);
 }
 
@@ -1801,14 +1831,14 @@ Object {
 
 .c5 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <div>
@@ -1823,17 +1853,22 @@ Object {
           class="c2"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
         <div
           class="c3"
@@ -1874,17 +1909,22 @@ Object {
           class="c2"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
         <div
           class="c3"
@@ -1993,8 +2033,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(214,100%,97%,1);
 }
 
@@ -2053,14 +2091,14 @@ Object {
 
 .c5 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <body>
@@ -2076,17 +2114,22 @@ Object {
             class="c2"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
           <div
             class="c3"
@@ -2139,8 +2182,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(214,100%,97%,1);
 }
 
@@ -2199,14 +2240,14 @@ Object {
 
 .c5 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <div>
@@ -2221,17 +2262,22 @@ Object {
           class="c2"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
         <div
           class="c3"
@@ -2391,14 +2437,14 @@ Object {
 
 .c4 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <body>
@@ -2512,14 +2558,14 @@ Object {
 
 .c4 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <div>
@@ -2637,8 +2683,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(214,100%,97%,1);
 }
 
@@ -2697,14 +2741,14 @@ Object {
 
 .c5 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <body>
@@ -2720,17 +2764,22 @@ Object {
             class="c2"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
           <div
             class="c3"
@@ -2783,8 +2832,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(214,100%,97%,1);
 }
 
@@ -2843,14 +2890,14 @@ Object {
 
 .c5 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <div>
@@ -2865,17 +2912,22 @@ Object {
           class="c2"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
         <div
           class="c3"
@@ -2984,8 +3036,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(214,100%,97%,1);
 }
 
@@ -3044,14 +3094,14 @@ Object {
 
 .c5 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <body>
@@ -3067,17 +3117,22 @@ Object {
             class="c2"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
           <div
             class="c3"
@@ -3130,8 +3185,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(214,100%,97%,1);
 }
 
@@ -3190,14 +3243,14 @@ Object {
 
 .c5 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <div>
@@ -3212,17 +3265,22 @@ Object {
           class="c2"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
         <div
           class="c3"
@@ -3440,8 +3498,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(271,81%,56%,1);
 }
 
@@ -3449,8 +3505,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(333,71%,51%,1);
 }
 
@@ -3458,8 +3512,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(0,0%,32%,1);
 }
 
@@ -3467,8 +3519,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(221,83%,53%,1);
 }
 
@@ -3476,8 +3526,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(142,76%,36%,1);
 }
 
@@ -3485,8 +3533,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(32,95%,44%,1);
 }
 
@@ -3494,8 +3540,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(0,72%,51%,1);
 }
 
@@ -3647,14 +3691,14 @@ Object {
 
 .c4 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <body>
@@ -3670,17 +3714,22 @@ Object {
             class="c2"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
         </div>
         <div
@@ -3705,17 +3754,22 @@ Object {
             class="c6"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
         </div>
         <div
@@ -3740,17 +3794,22 @@ Object {
             class="c8"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
         </div>
         <div
@@ -3775,17 +3834,22 @@ Object {
             class="c10"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
           <div
             class="c11"
@@ -3826,17 +3890,22 @@ Object {
             class="c14"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
           <div
             class="c15"
@@ -3877,17 +3946,22 @@ Object {
             class="c17"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
           <div
             class="c18"
@@ -3928,17 +4002,22 @@ Object {
             class="c20"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
           <div
             class="c21"
@@ -4100,8 +4179,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(271,81%,56%,1);
 }
 
@@ -4109,8 +4186,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(333,71%,51%,1);
 }
 
@@ -4118,8 +4193,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(0,0%,32%,1);
 }
 
@@ -4127,8 +4200,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(221,83%,53%,1);
 }
 
@@ -4136,8 +4207,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(142,76%,36%,1);
 }
 
@@ -4145,8 +4214,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(32,95%,44%,1);
 }
 
@@ -4154,8 +4221,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(0,72%,51%,1);
 }
 
@@ -4307,14 +4372,14 @@ Object {
 
 .c4 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <div>
@@ -4329,17 +4394,22 @@ Object {
           class="c2"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
       </div>
       <div
@@ -4364,17 +4434,22 @@ Object {
           class="c6"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
       </div>
       <div
@@ -4399,17 +4474,22 @@ Object {
           class="c8"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
       </div>
       <div
@@ -4434,17 +4514,22 @@ Object {
           class="c10"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
         <div
           class="c11"
@@ -4485,17 +4570,22 @@ Object {
           class="c14"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
         <div
           class="c15"
@@ -4536,17 +4626,22 @@ Object {
           class="c17"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
         <div
           class="c18"
@@ -4587,17 +4682,22 @@ Object {
           class="c20"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
         <div
           class="c21"
@@ -4815,8 +4915,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(270,95%,75%,1);
 }
 
@@ -4824,8 +4922,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(329,86%,70%,1);
 }
 
@@ -4833,8 +4929,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(0,0%,64%,1);
 }
 
@@ -4842,8 +4936,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(213,94%,68%,1);
 }
 
@@ -4851,8 +4943,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(142,69%,58%,1);
 }
 
@@ -4860,8 +4950,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(43,96%,56%,1);
 }
 
@@ -4869,8 +4957,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(0,91%,71%,1);
 }
 
@@ -5022,14 +5108,14 @@ Object {
 
 .c4 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <body>
@@ -5045,17 +5131,22 @@ Object {
             class="c2"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
         </div>
         <div
@@ -5080,17 +5171,22 @@ Object {
             class="c6"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
         </div>
         <div
@@ -5115,17 +5211,22 @@ Object {
             class="c8"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
         </div>
         <div
@@ -5150,17 +5251,22 @@ Object {
             class="c10"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
           <div
             class="c11"
@@ -5201,17 +5307,22 @@ Object {
             class="c14"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
           <div
             class="c15"
@@ -5252,17 +5363,22 @@ Object {
             class="c17"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
           <div
             class="c18"
@@ -5303,17 +5419,22 @@ Object {
             class="c20"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
           <div
             class="c21"
@@ -5475,8 +5596,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(270,95%,75%,1);
 }
 
@@ -5484,8 +5603,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(329,86%,70%,1);
 }
 
@@ -5493,8 +5610,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(0,0%,64%,1);
 }
 
@@ -5502,8 +5617,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(213,94%,68%,1);
 }
 
@@ -5511,8 +5624,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(142,69%,58%,1);
 }
 
@@ -5520,8 +5631,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(43,96%,56%,1);
 }
 
@@ -5529,8 +5638,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 26px;
-  right: 2px;
   color: hsla(0,91%,71%,1);
 }
 
@@ -5682,14 +5789,14 @@ Object {
 
 .c4 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <div>
@@ -5704,17 +5811,22 @@ Object {
           class="c2"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
       </div>
       <div
@@ -5739,17 +5851,22 @@ Object {
           class="c6"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
       </div>
       <div
@@ -5774,17 +5891,22 @@ Object {
           class="c8"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
       </div>
       <div
@@ -5809,17 +5931,22 @@ Object {
           class="c10"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
         <div
           class="c11"
@@ -5860,17 +5987,22 @@ Object {
           class="c14"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
         <div
           class="c15"
@@ -5911,17 +6043,22 @@ Object {
           class="c17"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
         <div
           class="c18"
@@ -5962,17 +6099,22 @@ Object {
           class="c20"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
         <div
           class="c21"
@@ -6080,8 +6222,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(214,100%,97%,1);
 }
 
@@ -6140,14 +6280,14 @@ Object {
 
 .c5 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <body>
@@ -6163,17 +6303,22 @@ Object {
             class="c2"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
           <div
             class="c3"
@@ -6225,8 +6370,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(214,100%,97%,1);
 }
 
@@ -6285,14 +6428,14 @@ Object {
 
 .c5 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <div>
@@ -6307,17 +6450,22 @@ Object {
           class="c2"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
         <div
           class="c3"
@@ -6528,8 +6676,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(270,100%,98%,1);
 }
 
@@ -6537,8 +6683,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(327,73%,97%,1);
 }
 
@@ -6546,8 +6690,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(0,0%,98%,1);
 }
 
@@ -6555,8 +6697,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(214,100%,97%,1);
 }
 
@@ -6564,8 +6704,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(138,76%,97%,1);
 }
 
@@ -6573,8 +6711,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(48,100%,96%,1);
 }
 
@@ -6582,8 +6718,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(0,86%,97%,1);
 }
 
@@ -6735,14 +6869,14 @@ Object {
 
 .c4 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <body>
@@ -6758,17 +6892,22 @@ Object {
             class="c2"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
         </div>
         <div
@@ -6793,17 +6932,22 @@ Object {
             class="c6"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
         </div>
         <div
@@ -6828,17 +6972,22 @@ Object {
             class="c8"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
         </div>
         <div
@@ -6863,17 +7012,22 @@ Object {
             class="c10"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
           <div
             class="c11"
@@ -6914,17 +7068,22 @@ Object {
             class="c14"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
           <div
             class="c15"
@@ -6965,17 +7124,22 @@ Object {
             class="c17"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
           <div
             class="c18"
@@ -7016,17 +7180,22 @@ Object {
             class="c20"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
           <div
             class="c21"
@@ -7181,8 +7350,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(270,100%,98%,1);
 }
 
@@ -7190,8 +7357,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(327,73%,97%,1);
 }
 
@@ -7199,8 +7364,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(0,0%,98%,1);
 }
 
@@ -7208,8 +7371,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(214,100%,97%,1);
 }
 
@@ -7217,8 +7378,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(138,76%,97%,1);
 }
 
@@ -7226,8 +7385,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(48,100%,96%,1);
 }
 
@@ -7235,8 +7392,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(0,86%,97%,1);
 }
 
@@ -7388,14 +7543,14 @@ Object {
 
 .c4 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <div>
@@ -7410,17 +7565,22 @@ Object {
           class="c2"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
       </div>
       <div
@@ -7445,17 +7605,22 @@ Object {
           class="c6"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
       </div>
       <div
@@ -7480,17 +7645,22 @@ Object {
           class="c8"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
       </div>
       <div
@@ -7515,17 +7685,22 @@ Object {
           class="c10"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
         <div
           class="c11"
@@ -7566,17 +7741,22 @@ Object {
           class="c14"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
         <div
           class="c15"
@@ -7617,17 +7797,22 @@ Object {
           class="c17"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
         <div
           class="c18"
@@ -7668,17 +7853,22 @@ Object {
           class="c20"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
         <div
           class="c21"
@@ -7862,8 +8052,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(214,100%,97%,1);
 }
 
@@ -7893,14 +8081,14 @@ Object {
 
 .c4 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <body>
@@ -7916,17 +8104,22 @@ Object {
             class="c2"
             role="button"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+            <i
+              style="height: 1.25em; width: 1.25em;"
             >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.25em; width: 1.25em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                />
+              </svg>
+            </i>
           </i>
         </div>
         <div
@@ -7963,8 +8156,6 @@ Object {
   height: 1rem;
   width: 1rem;
   cursor: pointer;
-  top: 24px;
-  right: 2px;
   color: hsla(214,100%,97%,1);
 }
 
@@ -7994,14 +8185,14 @@ Object {
 
 .c4 {
   display: block;
-  margin-bottom: 0.4375rem;
-  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <div>
@@ -8016,17 +8207,22 @@ Object {
           class="c2"
           role="button"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <i
+            style="height: 1.25em; width: 1.25em;"
           >
-            <path
-              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </i>
         </i>
       </div>
       <div

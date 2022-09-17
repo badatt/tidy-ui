@@ -21,7 +21,7 @@ describe('EnhancedDivider', () => {
       <TidyUiProvider theme={orchidLight}>
         {[...Array(3)].map((v, i) => (
           <React.Fragment key={i}>
-            <Text>{text}</Text>
+            <Text.body1>{text}</Text.body1>
             <Divider.Enhanced />
           </React.Fragment>
         ))}
@@ -35,7 +35,7 @@ describe('EnhancedDivider', () => {
       <TidyUiProvider theme={orchidDark}>
         {[...Array(3)].map((v, i) => (
           <React.Fragment key={i}>
-            <Text>{text}</Text>
+            <Text.body1>{text}</Text.body1>
             <Divider.Enhanced />
           </React.Fragment>
         ))}
@@ -49,9 +49,9 @@ describe('EnhancedDivider', () => {
       <TidyUiProvider theme={orchidDark}>
         {[...Array(3)].map((v, i) => (
           <React.Fragment key={i}>
-            <Text>{text}</Text>
+            <Text.body1>{text}</Text.body1>
             <Divider.Enhanced>
-              <Text v="caption">section {i}</Text>
+              <Text.caption>section {i}</Text.caption>
             </Divider.Enhanced>
           </React.Fragment>
         ))}
@@ -66,10 +66,10 @@ describe('EnhancedDivider', () => {
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
             <React.Fragment key={i}>
-              <Text v="h6">density={Density[v]}</Text>
-              <Text>{text}</Text>
+              <Text.h6>density={Density[v]}</Text.h6>
+              <Text.body1>{text}</Text.body1>
               <Divider.Enhanced density={Density[v]}>
-                <Text v="caption">section {i}</Text>
+                <Text.caption>section {i}</Text.caption>
               </Divider.Enhanced>
             </React.Fragment>
           ))}
@@ -85,10 +85,10 @@ describe('EnhancedDivider', () => {
           .reverse()
           .map((v, i) => (
             <React.Fragment key={i}>
-              <Text v="h6">shade={Shade[v]}</Text>
-              <Text>{text}</Text>
+              <Text.h6>shade={Shade[v]}</Text.h6>
+              <Text.body1>{text}</Text.body1>
               <Divider.Enhanced shade={Shade[v]}>
-                <Text v="caption">section {i}</Text>
+                <Text.caption>section {i}</Text.caption>
               </Divider.Enhanced>
             </React.Fragment>
           ))}
@@ -103,12 +103,10 @@ describe('EnhancedDivider', () => {
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
             <React.Fragment key={i}>
-              <Text v="h6">tone={Tone[v]}</Text>
-              <Text>{text}</Text>
+              <Text.h6>tone={Tone[v]}</Text.h6>
+              <Text.body1>{text}</Text.body1>
               <Divider.Enhanced tone={Tone[v]}>
-                <Text v="caption" tone={Tone[v]}>
-                  section {i}
-                </Text>
+                <Text.caption tone={Tone[v]}>section {i}</Text.caption>
               </Divider.Enhanced>
             </React.Fragment>
           ))}
@@ -123,10 +121,10 @@ describe('EnhancedDivider', () => {
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
             <React.Fragment key={i}>
-              <Text v="h6">variant={Variant[v]}</Text>
-              <Text>{text}</Text>
+              <Text.h6>variant={Variant[v]}</Text.h6>
+              <Text.body1>{text}</Text.body1>
               <Divider.Enhanced variant={Variant[v]}>
-                <Text v="caption">section {i}</Text>
+                <Text.caption>section {i}</Text.caption>
               </Divider.Enhanced>
             </React.Fragment>
           ))}
@@ -139,9 +137,9 @@ describe('EnhancedDivider', () => {
       <TidyUiProvider theme={orchidDark}>
         {[...Array(3)].map((v, i) => (
           <React.Fragment key={i}>
-            <Text>{text}</Text>
+            <Text.body1>{text}</Text.body1>
             <Divider.Enhanced margin="2rem">
-              <Text v="caption">section {i}</Text>
+              <Text.caption>section {i}</Text.caption>
             </Divider.Enhanced>
           </React.Fragment>
         ))}
@@ -156,10 +154,10 @@ describe('EnhancedDivider', () => {
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
             <React.Fragment key={i}>
-              <Text v="h6">justify={Position[v]}</Text>
-              <Text>{text}</Text>
+              <Text.h6>justify={Position[v]}</Text.h6>
+              <Text.body1>{text}</Text.body1>
               <Divider.Enhanced justify={Position[v]}>
-                <Text v="caption">section {i}</Text>
+                <Text.caption>section {i}</Text.caption>
               </Divider.Enhanced>
             </React.Fragment>
           ))}

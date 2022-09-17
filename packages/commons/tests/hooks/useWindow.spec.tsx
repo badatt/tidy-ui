@@ -5,8 +5,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidLight, TidyUiProvider } from '../../commons/src';
-import { useWindow } from '../../src';
+import { orchidLight, TidyUiProvider, useWindow } from '../../src';
 
 describe('useTheme', () => {
   it('Should return window', () => {
