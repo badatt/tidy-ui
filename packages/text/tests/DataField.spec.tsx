@@ -6,7 +6,7 @@ import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidDark, orchidLight, TidyUiProvider } from '@tidy-ui/commons';
-import { Tone, TTone } from '@tidy-ui/types';
+import { Tone } from '@tidy-ui/types';
 import { DataField, Text } from '../src';
 
 describe('Text', () => {
@@ -66,11 +66,11 @@ describe('Text', () => {
       <TidyUiProvider theme={orchidDark}>
         <DataField
           lbl={
-            <Text v="caption" uc udl>
+            <Text.caption uc udl>
               custom label
-            </Text>
+            </Text.caption>
           }
-          val={<Text v="subtitle2">custom val</Text>}
+          val={<Text.subtitle2>custom val</Text.subtitle2>}
         />
       </TidyUiProvider>,
     );

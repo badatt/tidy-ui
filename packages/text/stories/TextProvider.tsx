@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button, ButtonCluster, ButtonGroup } from '@tidy-ui/button';
-import { Icon } from '@tidy-ui/commons';
+import { Button, ButtonCluster, ButtonGroup } from '../../button/src';
+import { Icon } from '../../commons/src';
 import { Variant } from '../src/types';
 
 const Ctx = React.createContext({ variant: Variant.body1 });

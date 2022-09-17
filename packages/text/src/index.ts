@@ -1,2 +1,2 @@
 export * from './DataField';
-export * from './Text';
+export { Text } from './Text';
