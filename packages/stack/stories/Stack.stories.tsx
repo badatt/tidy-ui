@@ -11,8 +11,6 @@ export default {
   title: 'Layout/Stack',
 };
 
-const label = 'h3';
-
 export const basic = () => (
   <StackProvider>
     <Ctx.Consumer>
@@ -20,7 +18,7 @@ export const basic = () => (
         <Stack>
           {[...Array(count)].map((v, i) => (
             <StackItem key={i}>
-              <StyledText v={label}>{i}</StyledText>
+              <StyledText>{i}</StyledText>
             </StackItem>
           ))}
         </Stack>
@@ -36,7 +34,7 @@ export const divider = () => (
         <Stack divider={<Divider vertical />}>
           {[...Array(count)].map((v, i) => (
             <StackItem key={i}>
-              <StyledText v={label}>{i}</StyledText>
+              <StyledText>{i}</StyledText>
             </StackItem>
           ))}
         </Stack>
@@ -52,7 +50,7 @@ export const gap = () => (
         <Stack gap="1rem">
           {[...Array(count)].map((v, i) => (
             <StackItem key={i}>
-              <StyledText v={label}>{i}</StyledText>
+              <StyledText>{i}</StyledText>
             </StackItem>
           ))}
         </Stack>
@@ -68,7 +66,7 @@ export const fold = () => (
         <Stack fold>
           {[...Array(count)].map((v, i) => (
             <StackItem key={i}>
-              <StyledText v={label}>{i}</StyledText>
+              <StyledText>{i}</StyledText>
             </StackItem>
           ))}
         </Stack>
@@ -84,13 +82,13 @@ export const order = () => (
       .map((v, i) => (
         <>
           <StackProvider key={i}>
-            <Text v="h6">{Order[v]}</Text>
+            <Text.h6>{Order[v]}</Text.h6>
             <Ctx.Consumer>
               {({ count }) => (
                 <Stack order={Order[v]}>
                   {[...Array(count)].map((v, i) => (
                     <StackItem key={i}>
-                      <StyledText v={label}>{i}</StyledText>
+                      <StyledText>{i}</StyledText>
                     </StackItem>
                   ))}
                 </Stack>
@@ -110,13 +108,13 @@ export const align = () => (
       .map((v, i) => (
         <>
           <StackProvider key={i}>
-            <Text v="h6">{Align[v]}</Text>
+            <Text.h6>{Align[v]}</Text.h6>
             <Ctx.Consumer>
               {({ count }) => (
                 <Stack align={Align[v]} h="10rem">
                   {[...Array(count)].map((v, i) => (
                     <StackItem key={i}>
-                      <StyledText v={label}>{i}</StyledText>
+                      <StyledText>{i}</StyledText>
                     </StackItem>
                   ))}
                 </Stack>
@@ -136,13 +134,13 @@ export const justify = () => (
       .map((v, i) => (
         <>
           <StackProvider key={i}>
-            <Text v="h6">{Justify[v]}</Text>
+            <Text.h6>{Justify[v]}</Text.h6>
             <Ctx.Consumer>
               {({ count }) => (
                 <Stack justify={Justify[v]}>
                   {[...Array(count)].map((v, i) => (
                     <StackItem key={i}>
-                      <StyledText v={label}>{i}</StyledText>
+                      <StyledText>{i}</StyledText>
                     </StackItem>
                   ))}
                 </Stack>
@@ -162,7 +160,7 @@ export const customSize = () => (
         <Stack fold h="25rem" w="75rem" align="baseline" gap="0.5rem" style={{ border: '1px dashed gray' }}>
           {[...Array(count)].map((v, i) => (
             <StackItem key={i}>
-              <StyledText v={label}>{i}</StyledText>
+              <StyledText>{i}</StyledText>
             </StackItem>
           ))}
         </Stack>
@@ -179,14 +177,14 @@ export const customMargin = () => (
           <Stack margin="0 0 2rem 0">
             {[...Array(count)].map((v, i) => (
               <StackItem key={i}>
-                <StyledText v={label}>{i}</StyledText>
+                <StyledText>{i}</StyledText>
               </StackItem>
             ))}
           </Stack>
           <Stack>
             {[...Array(count)].map((v, i) => (
               <StackItem key={i}>
-                <StyledText v={label}>{i}</StyledText>
+                <StyledText>{i}</StyledText>
               </StackItem>
             ))}
           </Stack>

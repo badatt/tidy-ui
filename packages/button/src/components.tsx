@@ -249,7 +249,7 @@ const IconButtonIconOnlyWrapper = styled.span<IIconButtonProps>`
   ${({ iconOnly }) => css`
     ${iconOnly
       ? css`
-          padding: 0.4em;
+          padding: 0.2em;
         `
       : css`
           padding: 0.4em 0.6em;
@@ -269,8 +269,8 @@ const IconButtonIcon = styled.i<IIconButtonProps>`
   ${({ iconOnly }) => css`
     ${iconOnly
       ? css`
-          height: 1.8em;
-          width: 1.8em;
+          height: 1.4em;
+          width: 1.4em;
         `
       : css`
           height: 1.2em;

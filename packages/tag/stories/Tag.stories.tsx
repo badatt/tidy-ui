@@ -1,5 +1,6 @@
 import React from 'react';
-import { Icon, styled } from '../../commons/src';
+import { Icon } from '../../commons/src';
+import { FlexBox } from '../../flexbox/src';
 import { Tag } from '../src';
 import { Tone } from '../../types/src';
 import { Size } from '../src/types';
@@ -9,33 +10,22 @@ export default {
   title: 'Presentation/Tag/Tag',
 };
 
-const Container = styled.div`
-  display: flex;
-  gap: 1rem;
-`;
-
-const Column = styled.div`
-  & > * {
-    margin-bottom: 8px;
-  }
-`;
-
 export const basic = () => <Tag>basic</Tag>;
 
 export const icon = () => <Tag icon={<Icon.CheckCircle />}>with icon</Tag>;
 
 export const tones = () => (
-  <Container>
+  <FlexBox gap="1rem">
     {Object.keys(Tone)
       .filter((i) => !isNaN(Number(i)))
       .map((v, i) => (
         <Tag tone={Tone[v]}>{Tone[v]}</Tag>
       ))}
-  </Container>
+  </FlexBox>
 );
 
 export const outlined = () => (
-  <Container>
+  <FlexBox gap="1rem">
     {Object.keys(Tone)
       .filter((i) => !isNaN(Number(i)))
       .map((v, i) => (
@@ -43,19 +33,19 @@ export const outlined = () => (
           {Tone[v]}
         </Tag>
       ))}
-  </Container>
+  </FlexBox>
 );
 
 export const disabled = () => <Tag disabled>disabled</Tag>;
 
 export const sizes = () => (
-  <Column>
+  <FlexBox fld="column" gap="1rem">
     {Object.keys(Size)
       .filter((i) => !isNaN(Number(i)))
       .map((v, i) => (
         <Tag size={Size[v]}>size = {Size[v]}</Tag>
       ))}
-  </Column>
+  </FlexBox>
 );
 
 export const customDimensions = () => (

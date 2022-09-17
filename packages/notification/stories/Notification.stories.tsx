@@ -5,6 +5,7 @@ import { useToaster } from '../../toaster/src';
 import { Button, ButtonCluster, ButtonGroup } from '../../button/src';
 import { Text } from '../../text/src';
 import { FlexBox } from '../../flexbox/src';
+import { Grid } from '../../grid/src';
 import { Notification } from '../src';
 
 export default {
@@ -13,13 +14,13 @@ export default {
 };
 
 const NotificationText = () => (
-  <Text>
+  <Text.body1>
     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed animi dicta, dolores, facilis eaque dolore maxime
     corrupti alias inventore minus dolorum ea accusamus nihil! Harum commodi officiis corporis veritatis autem. Lorem
     ipsum dolor sit, amet consectetur adipisicing elit. Commodi odit voluptate earum architecto soluta cupiditate
     necessitatibus laudantium sapiente expedita doloremque, veniam unde sit eligendi omnis similique natus quasi!
     Sapiente, ullam.
-  </Text>
+  </Text.body1>
 );
 
 export const basic = () => (
@@ -35,27 +36,31 @@ export const sharp = () => (
 );
 
 export const tones = () => (
-  <>
+  <Grid gap={16}>
     {Object.keys(Tone)
       .filter((i) => !isNaN(Number(i)))
       .map((v, i) => (
-        <Notification key={i} tone={Tone[v]} w="20rem" margin="0 0 1rem 0">
-          <NotificationText />
-        </Notification>
+        <Grid.Item xs={12} sm={12} md={8} lg={6} xl={6}>
+          <Notification key={i} tone={Tone[v]}>
+            <NotificationText />
+          </Notification>
+        </Grid.Item>
       ))}
-  </>
+  </Grid>
 );
 
 export const outlined = () => (
-  <>
+  <Grid gap={16}>
     {Object.keys(Tone)
       .filter((i) => !isNaN(Number(i)))
       .map((v, i) => (
-        <Notification key={i} tone={Tone[v]} w="20rem" outlined margin="0 0 1rem 0">
-          <NotificationText />
-        </Notification>
+        <Grid.Item xs={12} sm={12} md={8} lg={6} xl={6}>
+          <Notification key={i} tone={Tone[v]} outlined>
+            <NotificationText />
+          </Notification>
+        </Grid.Item>
       ))}
-  </>
+  </Grid>
 );
 
 export const nonClosable = () => (
@@ -65,14 +70,7 @@ export const nonClosable = () => (
 );
 
 export const customLabel = () => (
-  <Notification
-    w="20rem"
-    label={
-      <Text v="h4" mgn="0">
-        Hello there !
-      </Text>
-    }
-  >
+  <Notification w="20rem" label={<Text.h4 mgn="0">Hello there !</Text.h4>}>
     <NotificationText />
   </Notification>
 );
