@@ -62,6 +62,18 @@ describe('Panel', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('Custom dimension', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Panel w="30rem">
+          <Panel.Header>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Panel.Header>
+          <Panel.Body h="25rem">{text}</Panel.Body>
+        </Panel>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
   it('Custom header element', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
