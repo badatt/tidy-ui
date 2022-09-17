@@ -7,7 +7,7 @@ import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { Icon } from '@tidy-ui/commons';
 import { orchidLight, TidyUiProvider } from '@tidy-ui/commons';
-import { ButtonGroup, ButtonCluster, IconButton } from '../src';
+import { ButtonGroup, ButtonCluster, IconButton, Button } from '../src';
 
 const GroupedButtons = () => (
   <>
@@ -42,6 +42,17 @@ describe('Render ButtonCluster', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <ButtonCluster disabled>
+          <GroupedButtons />
+        </ButtonCluster>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Stretched ButtonCluster', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <ButtonCluster stretched>
           <GroupedButtons />
         </ButtonCluster>
       </TidyUiProvider>,

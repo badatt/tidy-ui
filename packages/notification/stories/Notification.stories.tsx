@@ -2,7 +2,7 @@ import React from 'react';
 import { Icon, styled } from '@tidy-ui/commons';
 import { Tone } from '@tidy-ui/types';
 import { useToaster } from '../../toaster/src';
-import { Button, ButtonGroup, ButtonCluster } from '../../button/src';
+import { Button, ButtonCluster, ButtonGroup } from '../../button/src';
 import { Text } from '../../text/src';
 import { FlexBox } from '../../flexbox/src';
 import { Notification } from '../src';
@@ -94,11 +94,11 @@ export const withToaster = () => {
   const ele = (
     <Notification w="20rem" outlined>
       <NotificationText />
-      <ButtonCluster>
+      <ButtonCluster stretched>
         <Button tone="minor" variant="simple">
           Cancel
         </Button>
-        <Button tone="success" variant="basic">
+        <Button tone="success" variant="primary">
           Agree
         </Button>
       </ButtonCluster>

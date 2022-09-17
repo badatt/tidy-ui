@@ -9,7 +9,7 @@ import { IMessageProps } from './types';
  * @internal
  */
 const MessageRoot = styled.div<IMessageProps>`
-  ${({ stretched, margin, w }) => css`
+  ${({ margin, w }) => css`
     margin: ${margin};
     width: ${w};
   `}

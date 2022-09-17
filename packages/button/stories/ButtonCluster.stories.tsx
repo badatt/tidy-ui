@@ -1,6 +1,6 @@
 import React from 'react';
 import { Icon } from '@tidy-ui/commons';
-import { ButtonGroup, ButtonCluster, IconButton } from '../src';
+import { ButtonGroup, ButtonCluster, IconButton, Button } from '../src';
 
 export default {
   component: ButtonCluster,
@@ -38,6 +38,15 @@ export const outlined = () => (
       <IconButton icon={<Icon.Cancel />} variant="outlined" />
     </ButtonGroup>
     <IconButton icon={<Icon.Close />} variant="outlined" />
+  </ButtonCluster>
+);
+
+export const stretched = () => (
+  <ButtonCluster stretched>
+    <Button variant="simple" tone="danger">
+      Cancel
+    </Button>
+    <Button tone="success">Ok</Button>
   </ButtonCluster>
 );
 
