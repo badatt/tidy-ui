@@ -42,6 +42,17 @@ describe('Paper', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('Custom dimension', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Paper h="25rem" w="25rem">
+          {text}
+        </Paper>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
   it('Custom element', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>

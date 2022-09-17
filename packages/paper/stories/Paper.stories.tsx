@@ -33,6 +33,12 @@ export const basic = () => <Paper>{text}</Paper>;
 
 export const sharp = () => <Paper sharp>{text}</Paper>;
 
+export const customDimension = () => (
+  <Paper h="20rem" w="20rem">
+    {text}
+  </Paper>
+);
+
 export const customElement = () => (
   <Paper ele={<div style={{ display: 'flex', gap: '1rem' }} />}>
     <div>{text}</div>
