@@ -7,17 +7,7 @@ import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidLight, TidyUiProvider } from '../../commons/src';
 import { FlexBox } from '../src';
-import {
-  AlignContent,
-  AlignItems,
-  FlexDirection,
-  IFlexBoxProps,
-  JustifyContent,
-  TAlignContent,
-  TAlignItems,
-  TFlexDirection,
-  TJustifyContent,
-} from '../src/types';
+import { AlignContent, AlignItems, FlexDirection, IFlexBoxProps, JustifyContent } from '../src/types';
 
 const height = '350px';
 

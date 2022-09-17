@@ -1,6 +1,8 @@
 import React, { createContext, useState } from 'react';
 import { color, css, hsla, Icon, styled } from '../../commons/src';
-import { Button, ButtonGroup, ButtonCluster } from '../../button/src';
+import { Button, ButtonGroup, ButtonCluster, IconButton } from '../../button/src';
+import { Divider } from '../../divider/src';
+import { Stack } from '../../stack/src';
 import { Text } from '../../text/src';
 import { Grid } from '../src';
 import { IGridProps, IItemProps } from '../src/types';
@@ -36,14 +38,14 @@ const TextWrap = styled.div<IItemProps>`
         `}
 `;
 
-const StyledText = styled(Text)`
+const StyledText = styled(Text.h3)`
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
 `;
 
-const StyledTextLabel = styled(Text)`
+const StyledTextLabel = styled(Text.caption)`
   position: absolute;
   transform: translate(-50%, 100%);
   top: 50%;
@@ -55,11 +57,6 @@ const ToolBar = styled.div`
   position: absolute;
   top: 1rem;
   right: 1rem;
-`;
-
-const ToolBarIconWrap = styled.i`
-  height: 1rem;
-  width: 1rem;
 `;
 
 const baseCount = 24;
@@ -107,7 +104,7 @@ export const basic = () => {
             {[...Array(count)].map((c, i) => (
               <Grid.Item key={i}>
                 <TextWrap style={{ padding: '3rem' }}>
-                  <StyledText v="h3">{i}</StyledText>
+                  <StyledText>{i}</StyledText>
                 </TextWrap>
               </Grid.Item>
             ))}
@@ -127,7 +124,7 @@ export const fixed = () => {
             {[...Array(count)].map((c, i) => (
               <Grid.Item key={i}>
                 <TextWrap style={{ padding: '3rem' }}>
-                  <StyledText v="h3">{i}</StyledText>
+                  <StyledText>{i}</StyledText>
                 </TextWrap>
               </Grid.Item>
             ))}
@@ -147,7 +144,7 @@ export const gutter = () => {
             {[...Array(count)].map((c, i) => (
               <Grid.Item key={i}>
                 <TextWrap style={{ padding: '3rem' }}>
-                  <StyledText v="h3">{i}</StyledText>
+                  <StyledText>{i}</StyledText>
                 </TextWrap>
               </Grid.Item>
             ))}
@@ -184,7 +181,7 @@ export const gap = () => {
             {[...Array(count)].map((c, i) => (
               <Grid.Item key={i}>
                 <TextWrap style={{ padding: '3rem' }}>
-                  <StyledText v="h3">{i}</StyledText>
+                  <StyledText>{i}</StyledText>
                   <StyledTextLabel>gap={space}</StyledTextLabel>
                 </TextWrap>
               </Grid.Item>
@@ -205,28 +202,32 @@ export const customLayout = () => {
   return (
     <GridProvider>
       <ToolBar>
-        <ButtonCluster>
+        <Stack divider={<Divider vertical />} gap="1rem">
           {Object.keys(spanning).map((v, i) => (
-            <ButtonGroup key={i}>
-              <Button variant="outlined" onClick={() => decrement(v)} disabled={span[v] === 1}>
-                <ToolBarIconWrap>
-                  <Icon.Remove />
-                </ToolBarIconWrap>
-              </Button>
-              <Button disabled w="3rem">
+            <ButtonCluster key={i}>
+              <IconButton
+                icon={<Icon ele={<Icon.Remove />} h="1rem" w="1rem" />}
+                variant="outlined"
+                onClick={() => decrement(v)}
+                disabled={span[v] === 1}
+                size="xs"
+              />
+              <Text.body1 style={{ width: '3rem' }} ctr mgn="0">
                 {v}={span[v]}
-              </Button>
-              <Button variant="outlined" onClick={() => increment(v)} disabled={span[v] === 24}>
-                <ToolBarIconWrap>
-                  <Icon.Add />
-                </ToolBarIconWrap>
-              </Button>
-            </ButtonGroup>
+              </Text.body1>
+              <IconButton
+                icon={<Icon ele={<Icon.Add />} h="1rem" w="1rem" />}
+                variant="outlined"
+                onClick={() => increment(v)}
+                disabled={span[v] === 24}
+                size="xs"
+              />
+            </ButtonCluster>
           ))}
           <Button variant="simple" tone="danger" onClick={reset}>
             Reset
           </Button>
-        </ButtonCluster>
+        </Stack>
       </ToolBar>
       <Ctx.Consumer>
         {({ count }) => (
@@ -234,7 +235,7 @@ export const customLayout = () => {
             {[...Array(count)].map((c, i) => (
               <Grid.Item key={i} xs={span.xs} sm={span.sm} md={span.md} lg={span.lg} xl={span.xl}>
                 <TextWrap style={{ padding: '3rem' }}>
-                  <StyledText v="h3">{i}</StyledText>
+                  <StyledText>{i}</StyledText>
                   <StyledTextLabel>
                     {span.xs},{span.sm},{span.md},{span.lg},{span.xl}
                   </StyledTextLabel>
@@ -258,7 +259,7 @@ export const customMargin = () => {
               {[...Array(count)].map((c, i) => (
                 <Grid.Item key={i}>
                   <TextWrap style={{ padding: '3rem' }}>
-                    <StyledText v="h3">{i}</StyledText>
+                    <StyledText>{i}</StyledText>
                   </TextWrap>
                 </Grid.Item>
               ))}
@@ -267,7 +268,7 @@ export const customMargin = () => {
               {[...Array(count)].map((c, i) => (
                 <Grid.Item key={i}>
                   <TextWrap style={{ padding: '3rem' }}>
-                    <StyledText v="h3">{i}</StyledText>
+                    <StyledText>{i}</StyledText>
                   </TextWrap>
                 </Grid.Item>
               ))}
