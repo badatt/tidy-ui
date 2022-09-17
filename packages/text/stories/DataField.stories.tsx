@@ -1,7 +1,7 @@
 import React from 'react';
-import { styled } from '@tidy-ui/commons';
+import { styled } from '../../commons/src';
 import { Text, DataField } from '../src';
-import { Tone } from '@tidy-ui/types';
+import { Tone } from '../../types/src';
 
 export default {
   component: DataField,
@@ -46,11 +46,11 @@ export const customElements = () => (
   <Column>
     <DataField
       lbl={
-        <Text v="caption" uc udl>
+        <Text.caption uc udl>
           custom label
-        </Text>
+        </Text.caption>
       }
-      val={<Text v="subtitle2">custom val</Text>}
+      val={<Text.subtitle2>custom val</Text.subtitle2>}
     />
   </Column>
 );

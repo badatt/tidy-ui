@@ -1,8 +1,7 @@
 import React from 'react';
-import { styled } from '@tidy-ui/commons';
-import { Text } from '../src';
+import { Text, TextBase } from '../src/Text';
 import { TVariant, Variant } from '../src/types';
-import { Tone } from '@tidy-ui/types';
+import { Tone } from '../../types/src';
 import { Ctx, TextProvider } from './TextProvider';
 
 export default {
@@ -12,28 +11,18 @@ export default {
 
 const text = `the quick brown fox jumps over the lazy dog`;
 
-export const basic = () => (
+export const basic = () => <Text.body1>basic text: {text}</Text.body1>;
+
+export const variants = () => (
   <TextProvider>
     <Ctx.Consumer>
       {({ variant }) => (
-        <Text v={Variant[variant] as TVariant}>
+        <TextBase v={Variant[variant] as TVariant}>
           {Variant[variant]}: {text}
-        </Text>
+        </TextBase>
       )}
     </Ctx.Consumer>
   </TextProvider>
-);
-
-export const variants = () => (
-  <>
-    {Object.keys(Variant)
-      .filter((v) => !isNaN(Number(v)))
-      .map((v, i) => (
-        <Text v={Variant[v]} key={i}>
-          {Variant[v]}: {text}
-        </Text>
-      ))}
-  </>
 );
 
 export const tones = () => (
@@ -44,9 +33,9 @@ export const tones = () => (
           {Object.keys(Tone)
             .filter((v) => !isNaN(Number(v)))
             .map((v, i) => (
-              <Text v={Variant[variant] as TVariant} tone={Tone[v]} key={i}>
+              <TextBase v={Variant[variant] as TVariant} tone={Tone[v]} key={i}>
                 {Tone[v]}: {text}
-              </Text>
+              </TextBase>
             ))}
         </>
       )}
@@ -58,9 +47,9 @@ export const bold = () => (
   <TextProvider>
     <Ctx.Consumer>
       {({ variant }) => (
-        <Text v={Variant[variant] as TVariant} bld>
+        <TextBase v={Variant[variant] as TVariant} bld>
           {text}
-        </Text>
+        </TextBase>
       )}
     </Ctx.Consumer>
   </TextProvider>
@@ -70,9 +59,9 @@ export const italic = () => (
   <TextProvider>
     <Ctx.Consumer>
       {({ variant }) => (
-        <Text v={Variant[variant] as TVariant} itl>
+        <TextBase v={Variant[variant] as TVariant} itl>
           {text}
-        </Text>
+        </TextBase>
       )}
     </Ctx.Consumer>
   </TextProvider>
@@ -82,9 +71,9 @@ export const underline = () => (
   <TextProvider>
     <Ctx.Consumer>
       {({ variant }) => (
-        <Text v={Variant[variant] as TVariant} udl>
+        <TextBase v={Variant[variant] as TVariant} udl>
           {text}
-        </Text>
+        </TextBase>
       )}
     </Ctx.Consumer>
   </TextProvider>
@@ -94,9 +83,9 @@ export const camelCase = () => (
   <TextProvider>
     <Ctx.Consumer>
       {({ variant }) => (
-        <Text v={Variant[variant] as TVariant} cc>
+        <TextBase v={Variant[variant] as TVariant} cc>
           {text}
-        </Text>
+        </TextBase>
       )}
     </Ctx.Consumer>
   </TextProvider>
@@ -106,9 +95,9 @@ export const lowerCase = () => (
   <TextProvider>
     <Ctx.Consumer>
       {({ variant }) => (
-        <Text v={Variant[variant] as TVariant} lc>
+        <TextBase v={Variant[variant] as TVariant} lc>
           {text}
-        </Text>
+        </TextBase>
       )}
     </Ctx.Consumer>
   </TextProvider>
@@ -118,9 +107,9 @@ export const upperCase = () => (
   <TextProvider>
     <Ctx.Consumer>
       {({ variant }) => (
-        <Text v={Variant[variant] as TVariant} uc>
+        <TextBase v={Variant[variant] as TVariant} uc>
           {text}
-        </Text>
+        </TextBase>
       )}
     </Ctx.Consumer>
   </TextProvider>
@@ -130,9 +119,9 @@ export const disabled = () => (
   <TextProvider>
     <Ctx.Consumer>
       {({ variant }) => (
-        <Text v={Variant[variant] as TVariant} dsb>
+        <TextBase v={Variant[variant] as TVariant} dsb>
           {text}
-        </Text>
+        </TextBase>
       )}
     </Ctx.Consumer>
   </TextProvider>
@@ -142,9 +131,9 @@ export const centered = () => (
   <TextProvider>
     <Ctx.Consumer>
       {({ variant }) => (
-        <Text v={Variant[variant] as TVariant} ctr>
+        <TextBase v={Variant[variant] as TVariant} ctr>
           {text}
-        </Text>
+        </TextBase>
       )}
     </Ctx.Consumer>
   </TextProvider>
@@ -154,9 +143,9 @@ export const extended = () => (
   <TextProvider>
     <Ctx.Consumer>
       {({ variant }) => (
-        <Text v={Variant[variant] as TVariant} exd>
+        <TextBase v={Variant[variant] as TVariant} exd>
           {text}
-        </Text>
+        </TextBase>
       )}
     </Ctx.Consumer>
   </TextProvider>
@@ -166,9 +155,9 @@ export const linked = () => (
   <TextProvider>
     <Ctx.Consumer>
       {({ variant }) => (
-        <Text href="https://google.com" v={Variant[variant] as TVariant}>
+        <TextBase href="https://google.com" v={Variant[variant] as TVariant}>
           {text}
-        </Text>
+        </TextBase>
       )}
     </Ctx.Consumer>
   </TextProvider>
@@ -178,9 +167,9 @@ export const truncate = () => (
   <TextProvider>
     <Ctx.Consumer>
       {({ variant }) => (
-        <Text tnc style={{ width: '6em' }} v={Variant[variant] as TVariant}>
+        <TextBase tnc style={{ width: '6em' }} v={Variant[variant] as TVariant}>
           {text}
-        </Text>
+        </TextBase>
       )}
     </Ctx.Consumer>
   </TextProvider>
@@ -191,10 +180,10 @@ export const customMargin = () => (
     <Ctx.Consumer>
       {({ variant }) => (
         <>
-          <Text mgn="0 0 5rem 0" v={Variant[variant] as TVariant}>
+          <TextBase mgn="0 0 5rem 0" v={Variant[variant] as TVariant}>
             {text}
-          </Text>
-          <Text v={Variant[variant] as TVariant}>{text}</Text>
+          </TextBase>
+          <TextBase v={Variant[variant] as TVariant}>{text}</TextBase>
         </>
       )}
     </Ctx.Consumer>
