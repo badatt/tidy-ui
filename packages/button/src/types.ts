@@ -251,4 +251,12 @@ export interface IButtonClusterProps extends IBaseProps, HTMLAttributes<HTMLDivE
    * @default false
    */
   disabled?: boolean;
+
+  /**
+   * If `true`, the component is stretched to full width, equally distributing the buttons width
+   *
+   * @type {?boolean}
+   * @default false
+   */
+  stretched?: boolean;
 }

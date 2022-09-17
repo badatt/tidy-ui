@@ -18,6 +18,7 @@ const ButtonCluster = React.forwardRef<HTMLDivElement, IButtonClusterProps>((pro
 
 ButtonCluster.defaultProps = {
   disabled: false,
+  stretched: false,
 };
 
 ButtonCluster.displayName = 'ButtonCluster';

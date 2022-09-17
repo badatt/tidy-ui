@@ -172,7 +172,7 @@ const ButtonClusterRoot = styled.div<IButtonClusterProps>`
       box-shadow: none !important;
     }
   }
-  ${({ disabled, h, w }) => css`
+  ${({ disabled, h, w, stretched }) => css`
     height: ${h};
     width: ${w};
     ${disabled &&
@@ -181,6 +181,15 @@ const ButtonClusterRoot = styled.div<IButtonClusterProps>`
       opacity: 0.6 !important;
       & * {
         cursor: not-allowed !important;
+      }
+    `}
+    ${stretched &&
+    css`
+      width: 100% !important;
+      & * {
+        flex-grow: 1 !important;
+        flex-shrink: 1 !important;
+        flex-basis: 1% !important;
       }
     `}
   `}
