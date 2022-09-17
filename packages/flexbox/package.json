@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/flexbox",
-  "version": "0.12.4",
+  "version": "0.12.5",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:flexbox",
@@ -23,8 +23,8 @@
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.1.1",
     "@rollup/plugin-replace": "^3.0.1",
-    "@tidy-ui/button": "^0.12.4",
-    "@tidy-ui/text": "^0.12.4",
+    "@tidy-ui/button": "^0.12.5",
+    "@tidy-ui/text": "^0.12.5",
     "@types/react": "^18.0.0",
     "@types/styled-components": "^5.1.17",
     "is-ci-cli": "^2.2.0",

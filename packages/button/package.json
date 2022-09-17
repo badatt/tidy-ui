@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/button",
-  "version": "0.12.4",
+  "version": "0.12.5",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:button",
