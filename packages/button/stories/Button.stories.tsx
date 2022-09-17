@@ -1,5 +1,6 @@
 import React from 'react';
-import { Icon, styled } from '../../commons/src';
+import { Icon } from '../../commons/src';
+import { FlexBox } from '../../flexbox/src';
 import { Button } from '../src';
 import { Variant } from '../src/types';
 import { Size, Tone } from '../../types/src';
@@ -9,26 +10,11 @@ export default {
   title: 'Presentation/Button/Button',
 };
 
-const Container = styled.div`
-  display: flex;
-  gap: 16px;
-`;
-
-const Column = styled.div`
-  & > * {
-    margin-bottom: 1rem;
-  }
-`;
-
-export const basic = () => (
-  <Container>
-    <Button>basic button</Button>
-  </Container>
-);
+export const basic = () => <Button>basic button</Button>;
 
 export const tones = () => {
   return (
-    <Container>
+    <FlexBox gap="1rem">
       {Object.values(Tone)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
@@ -36,13 +22,13 @@ export const tones = () => {
             {Tone[v]}
           </Button>
         ))}
-    </Container>
+    </FlexBox>
   );
 };
 
 export const sizes = () => {
   return (
-    <Column>
+    <FlexBox gap="1rem" fld="column" ali="flex-start">
       {Object.keys(Size)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
@@ -50,13 +36,13 @@ export const sizes = () => {
             size-{Size[v]}
           </Button>
         ))}
-    </Column>
+    </FlexBox>
   );
 };
 
 export const variants = () => {
   return (
-    <Column>
+    <FlexBox gap="1rem" fld="column" ali="flex-start">
       {Object.values(Variant)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
@@ -64,44 +50,26 @@ export const variants = () => {
             {Variant[v]}
           </Button>
         ))}
-    </Column>
+    </FlexBox>
   );
 };
 
 export const gradient = () => (
-  <Column>
-    <Button variant="hero" gradient>
-      basic button
-    </Button>
-  </Column>
+  <Button variant="hero" gradient>
+    Gradient
+  </Button>
 );
 
-export const disabled = () => (
-  <Container>
-    <Button disabled>disabled</Button>
-  </Container>
-);
+export const disabled = () => <Button disabled>disabled</Button>;
 
-export const loading = () => (
-  <Container>
-    <Button loading>Loading...</Button>
-  </Container>
-);
+export const loading = () => <Button loading>Loading...</Button>;
 
-export const stretched = () => (
-  <Container>
-    <Button stretched>stretched</Button>
-  </Container>
-);
+export const stretched = () => <Button stretched>stretched</Button>;
 
-export const uppercase = () => (
-  <Container>
-    <Button uppercase>uppercase</Button>
-  </Container>
-);
+export const uppercase = () => <Button uppercase>uppercase</Button>;
 
 export const others = () => (
-  <Container>
+  <FlexBox gap="1rem">
     <Button variant="primary" tone="major">
       <Icon ele={<Icon.AddCircle />} margin="0 8px 0 0" />
       Settings
@@ -109,13 +77,11 @@ export const others = () => (
     <Button tone="neutral">
       <Icon ele={<Icon.CheckCircle />} />
     </Button>
-  </Container>
+  </FlexBox>
 );
 
 export const customDimensions = () => (
-  <Container>
-    <Button h="3rem" w="15rem">
-      custom dimension
-    </Button>
-  </Container>
+  <Button h="3rem" w="15rem">
+    custom dimension
+  </Button>
 );

@@ -1,6 +1,8 @@
 import React from 'react';
-import { Icon, styled } from '../../commons/src';
+import { Icon } from '../../commons/src';
+import { FlexBox } from '../../flexbox/src';
 import { Tone } from '../../types/src';
+import { Text } from '../../text/src';
 import { Badge } from '../src';
 
 export default {
@@ -8,25 +10,22 @@ export default {
   title: 'Presentation/Badge',
 };
 
-const Container = styled.div`
-  display: flex;
-  gap: 2rem;
-`;
-
 export const basic = () => (
-  <Container>
+  <FlexBox gap="2rem">
     <Badge data={120}>
       <Icon ele={<Icon.Dangerous />} />
     </Badge>
     <Badge data={99}>
-      <div style={{ fontSize: '1em' }}>Mails</div>
+      <div style={{ fontSize: '1em' }}>
+        <Text.body1>Mails</Text.body1>
+      </div>
     </Badge>
-  </Container>
+  </FlexBox>
 );
 
 export const tones = () => {
   return (
-    <Container>
+    <FlexBox gap="2rem">
       {Object.values(Tone)
         .filter((i) => !isNaN(Number(i)))
         .map((t, i) => (
@@ -34,13 +33,13 @@ export const tones = () => {
             <Icon ele={<Icon.Dangerous />} />
           </Badge>
         ))}
-    </Container>
+    </FlexBox>
   );
 };
 
 export const outlined = () => {
   return (
-    <Container>
+    <FlexBox gap="2rem">
       {Object.values(Tone)
         .filter((i) => !isNaN(Number(i)))
         .map((t, i) => (
@@ -48,33 +47,29 @@ export const outlined = () => {
             <Icon ele={<Icon.Dangerous />} />
           </Badge>
         ))}
-    </Container>
+    </FlexBox>
   );
 };
 
 export const maxValue = () => (
-  <Container>
-    <Badge data={198} max={150}>
-      <Icon ele={<Icon.Dangerous />} />
-    </Badge>
-  </Container>
+  <Badge data={198} max={150}>
+    <Icon ele={<Icon.Dangerous />} />
+  </Badge>
 );
 
 export const dotted = () => (
-  <Container>
-    <Badge dotted tone="warning">
-      <Icon ele={<Icon.Dangerous />} />
-    </Badge>
-  </Container>
+  <Badge dotted tone="warning">
+    <Icon ele={<Icon.Dangerous />} />
+  </Badge>
 );
 
 export const blinking = () => (
-  <Container>
+  <FlexBox gap="2rem">
     <Badge dotted tone="success" blink>
       <Icon ele={<Icon.Dangerous />} />
     </Badge>
     <Badge data={9} tone="minor" blink>
       <Icon ele={<Icon.Dangerous />} />
     </Badge>
-  </Container>
+  </FlexBox>
 );

@@ -151,7 +151,7 @@ export interface IIconButtonProps extends IBaseProps, HTMLAttributes<HTMLButtonE
    *
    * @type {?JSX.Element}
    */
-  icon?: JSX.Element;
+  icon: JSX.Element;
 
   /**
    * If `true`, creates a circular button with icon inside

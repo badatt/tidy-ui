@@ -1,5 +1,5 @@
 import React from 'react';
-import { styled } from '../../commons/src';
+import { FlexBox } from '../../flexbox/src';
 import { Button, ButtonGroup } from '../src';
 
 export default {
@@ -7,40 +7,25 @@ export default {
   title: 'Presentation/Button/ButtonGroup',
 };
 
-const Container = styled.div`
-  display: flex;
-  gap: 16px;
-`;
-
-const Column = styled.div`
-  & > * {
-    margin-bottom: 8px;
-  }
-`;
-
 export const basic = () => (
-  <Container>
-    <ButtonGroup>
-      {[...Array(5)].map((c, i) => (
-        <Button variant="outlined" key={i}>
-          Button {i}
-        </Button>
-      ))}
-    </ButtonGroup>
-  </Container>
+  <ButtonGroup>
+    {[...Array(5)].map((c, i) => (
+      <Button variant="outlined" key={i}>
+        Button {i}
+      </Button>
+    ))}
+  </ButtonGroup>
 );
 
 export const stretched = () => (
-  <Container>
-    <ButtonGroup stretched>
-      <Button variant="outlined">button 1</Button>
-      <Button variant="outlined">button 2</Button>
-    </ButtonGroup>
-  </Container>
+  <ButtonGroup stretched>
+    <Button variant="outlined">button 1</Button>
+    <Button variant="outlined">button 2</Button>
+  </ButtonGroup>
 );
 
 export const verticalAligned = () => (
-  <Container>
+  <FlexBox>
     <ButtonGroup vertical>
       {[...Array(5)].map((c, i) => (
         <Button variant="outlined" key={i}>
@@ -48,36 +33,32 @@ export const verticalAligned = () => (
         </Button>
       ))}
     </ButtonGroup>
-  </Container>
+  </FlexBox>
 );
 
 export const disabled = () => (
-  <Container>
-    <ButtonGroup disabled>
-      {[...Array(5)].map((c, i) => (
-        <Button variant="outlined" key={i}>
-          Button {i}
-        </Button>
-      ))}
-    </ButtonGroup>
-  </Container>
+  <ButtonGroup disabled>
+    {[...Array(5)].map((c, i) => (
+      <Button variant="outlined" key={i}>
+        Button {i}
+      </Button>
+    ))}
+  </ButtonGroup>
 );
 
 export const customDimensions = () => (
-  <Container>
-    <ButtonGroup h="5rem" w="30rem">
-      {[...Array(5)].map((c, i) => (
-        <Button variant="outlined" key={i}>
-          Button {i}
-        </Button>
-      ))}
-    </ButtonGroup>
-  </Container>
+  <ButtonGroup h="5rem" w="30rem">
+    {[...Array(5)].map((c, i) => (
+      <Button variant="outlined" key={i}>
+        Button {i}
+      </Button>
+    ))}
+  </ButtonGroup>
 );
 
 export const others = () => (
-  <Container>
-    <Column>
+  <FlexBox gap="1rem">
+    <FlexBox gap="1rem" fld="column">
       <ButtonGroup>
         {[...Array(5)].map((c, i) => (
           <Button variant="primary" key={i}>
@@ -106,7 +87,7 @@ export const others = () => (
           </Button>
         ))}
       </ButtonGroup>
-      <Container>
+      <FlexBox gap="1rem">
         <ButtonGroup vertical>
           {[...Array(5)].map((c, i) => (
             <Button variant="primary" key={i}>
@@ -135,7 +116,7 @@ export const others = () => (
             </Button>
           ))}
         </ButtonGroup>
-      </Container>
-    </Column>
-  </Container>
+      </FlexBox>
+    </FlexBox>
+  </FlexBox>
 );
