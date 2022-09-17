@@ -150,7 +150,6 @@ const ButtonGroupRoot = styled.div<IButtonGroupProps>`
     `}
     & * {
       box-shadow: none !important;
-      //opacity: 1 !important;
     }
     & > :not(:first-child):not(:last-child) {
       border-radius: 0 !important;
