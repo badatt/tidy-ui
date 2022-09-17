@@ -154,6 +154,20 @@ describe('Card', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('Custom dimensions', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Card h="9rem">{text}</Card>
+        <Card.Main h="15rem">
+          <Card.Header>Lorem ipsum dolor sit.</Card.Header>
+          <Card.Body>{text}</Card.Body>
+          <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
+        </Card.Main>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
   describe('Invalid text children for CardMain', () => {
     let consoleOutput: string[] = [];
     const mockedError = (output) => consoleOutput.push(output);

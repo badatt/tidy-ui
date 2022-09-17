@@ -53,11 +53,13 @@ const LaunchIcon = styled(Icon.Launch)`
 `;
 
 const cardStyles = css<ICardProps>`
-  ${({ theme: { palette, layout }, sharp, accent, accentPosition, href, margin }) => css`
+  ${({ theme: { palette, layout }, sharp, accent, accentPosition, href, margin, h, w }) => css`
     background-color: ${palette.background.card};
     box-shadow: ${layout.shadow};
     color: ${palette.text.primary};
     margin: ${margin};
+    height: ${h};
+    width: ${w};
     ${!sharp &&
     css`
       border-radius: ${layout.radius};

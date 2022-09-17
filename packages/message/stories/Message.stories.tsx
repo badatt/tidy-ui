@@ -79,6 +79,15 @@ export const customMargin = () => (
   </>
 );
 
+export const customDimensions = () => (
+  <>
+    <Message margin="0 0 1rem 0" h="10rem" w="20rem" closable>
+      {text}
+    </Message>
+    <Message outlined>{text}</Message>
+  </>
+);
+
 export const customElement = () => (
   <Message ele={<div style={{ display: 'flex', gap: '1rem' }} />}>
     <div>{text}</div>
