@@ -5,11 +5,11 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidDark, orchidLight, TidyUiProvider } from '@tidy-ui/commons';
+import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
 import { Divider } from '../src';
-import { Text } from '@tidy-ui/text';
+import { Text } from '../../text/src';
 import { Density, Position, Variant } from '../src/types';
-import { Shade, Tone } from '@tidy-ui/types';
+import { Shade, Tone } from '../../types/src';
 
 const text = `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas

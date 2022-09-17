@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { Button, ButtonGroup, ButtonCluster } from '@tidy-ui/button';
-import { Text } from '@tidy-ui/text';
+import { Button, ButtonGroup, ButtonCluster } from '../../button/src';
+import { Text } from '../../text/src';
 import { FlexBox } from '../src';
-import { AlignSelf, IFlexItemProps, TAlignSelf } from '../src/types';
+import { AlignSelf, IFlexItemProps } from '../src/types';
 import { Ctx, FlexBoxProvider } from './FlexBoxProvider';
 import { Divider, StyledFlexBox, StyledFlexItem, StyledText, StyledTextLabel } from './components';
 

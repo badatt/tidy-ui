@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { styled } from '@tidy-ui/commons';
 import { Tag, TagGroup } from '../src';
 
 export default {

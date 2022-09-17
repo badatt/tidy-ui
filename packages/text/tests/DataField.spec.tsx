@@ -5,8 +5,8 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidDark, orchidLight, TidyUiProvider } from '@tidy-ui/commons';
-import { Tone } from '@tidy-ui/types';
+import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
+import { Tone } from '../../types/src';
 import { DataField, Text } from '../src';
 
 describe('Text', () => {

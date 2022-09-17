@@ -1,5 +1,4 @@
 import React from 'react';
-import { styled } from '@tidy-ui/commons';
 import { Paper } from '../src';
 
 export default {

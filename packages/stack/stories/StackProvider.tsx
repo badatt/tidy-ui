@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button, ButtonCluster, ButtonGroup } from '@tidy-ui/button';
-import { IBaseProps } from '@tidy-ui/types';
+import { Button, ButtonCluster, ButtonGroup } from '../../button/src';
+import { IBaseProps } from '../../types/src';
 
 const baseCount = 10;
 

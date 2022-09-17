@@ -6,8 +6,8 @@ import { act } from 'react-dom/test-utils';
 import { fireEvent, getByRole, render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidDark, orchidLight, TidyUiProvider } from '@tidy-ui/commons';
-import { Tone } from '@tidy-ui/types';
+import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
+import { Tone } from '../../types/src';
 import { Message } from '../src';
 
 const text = `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente

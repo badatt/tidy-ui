@@ -1,8 +1,8 @@
 import React from 'react';
-import { Button, ButtonCluster, ButtonGroup } from '@tidy-ui/button';
-import { color, css, hsla, styled } from '@tidy-ui/commons';
-import { Text } from '@tidy-ui/text';
-import { IBaseProps } from '@tidy-ui/types';
+import { Button, ButtonCluster, ButtonGroup } from '../../button/src';
+import { color, css, hsla, styled } from '../../commons/src';
+import { Text } from '../../text/src';
+import { IBaseProps } from '../../types/src';
 import { FlexBox } from '../src';
 import { IFlexBoxProps, IFlexItemProps } from '../src/types';
 

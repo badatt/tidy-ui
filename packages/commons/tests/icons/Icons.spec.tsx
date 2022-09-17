@@ -5,7 +5,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidLight, TidyUiProvider } from '@tidy-ui/commons';
+import { orchidLight, TidyUiProvider } from '../../commons/src';
 import { Icon } from '../../src';
 
 const icons = [

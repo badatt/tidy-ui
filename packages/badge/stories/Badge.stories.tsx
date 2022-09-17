@@ -1,7 +1,6 @@
 import React from 'react';
-import { Icon } from '@tidy-ui/commons';
-import { styled } from '@tidy-ui/commons';
-import { Tone } from '@tidy-ui/types';
+import { Icon, styled } from '../../commons/src';
+import { Tone } from '../../types/src';
 import { Badge } from '../src';
 
 export default {

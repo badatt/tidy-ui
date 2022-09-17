@@ -5,7 +5,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidDark, orchidLight, TidyUiProvider } from '@tidy-ui/commons';
+import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
 import { TextBase } from '../src/Text';
 import { Variant } from '../src/types';
 

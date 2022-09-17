@@ -1,7 +1,7 @@
 import React from 'react';
-import { css, hsla, color, styled } from '@tidy-ui/commons';
-import { Button, ButtonGroup } from '@tidy-ui/button';
-import { Tag } from '@tidy-ui/tag';
+import { css, hsla, color, styled } from '../../commons/src';
+import { Button, ButtonGroup } from '../../button/src';
+import { Tag } from '../../tag/src';
 import { Toaster, useToaster } from '../src';
 
 const ToastContent = styled.div`
