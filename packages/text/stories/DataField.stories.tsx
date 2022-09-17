@@ -1,5 +1,5 @@
 import React from 'react';
-import { styled } from '../../commons/src';
+import { Grid } from '../../grid/src';
 import { Text, DataField } from '../src';
 import { Tone } from '../../types/src';
 
@@ -8,51 +8,43 @@ export default {
   title: 'Presentation/Text/DataField',
 };
 
-const Column = styled.div`
-  & > * {
-    margin-bottom: 16px;
-  }
-`;
-
 export const basic = () => <DataField lbl="default label" val="default value" />;
 
 export const tones = () => (
-  <Column>
+  <Grid gap={24}>
     {Object.keys(Tone)
       .filter((v) => !isNaN(Number(v)))
       .map((v, i) => (
-        <DataField tone={Tone[v]} lbl={`${Tone[v]} color`} val={`${Tone[v]} color value`} />
+        <Grid.Item>
+          <DataField tone={Tone[v]} lbl={`${Tone[v]} color`} val={`${Tone[v]} color value`} />
+        </Grid.Item>
       ))}
-  </Column>
+  </Grid>
 );
 
 export const accents = () => (
-  <Column>
+  <Grid gap={24}>
     {Object.keys(Tone)
       .filter((v) => !isNaN(Number(v)))
       .map((v, i) => (
-        <DataField acc={Tone[v]} lbl={`${Tone[v]} color`} val={`${Tone[v]} color value`} />
+        <Grid.Item>
+          <DataField acc={Tone[v]} lbl={`${Tone[v]} color`} val={`${Tone[v]} color value`} />
+        </Grid.Item>
       ))}
-  </Column>
+  </Grid>
 );
 
-export const disabled = () => (
-  <Column>
-    <DataField dsb lbl="warning accent" val="warning accent disabled value" />
-  </Column>
-);
+export const disabled = () => <DataField dsb lbl="warning accent" val="warning accent disabled value" />;
 
 export const customElements = () => (
-  <Column>
-    <DataField
-      lbl={
-        <Text.caption uc udl>
-          custom label
-        </Text.caption>
-      }
-      val={<Text.subtitle2>custom val</Text.subtitle2>}
-    />
-  </Column>
+  <DataField
+    lbl={
+      <Text.caption uc udl>
+        custom label
+      </Text.caption>
+    }
+    val={<Text.subtitle2>custom val</Text.subtitle2>}
+  />
 );
 
 export const customMargin = () => (

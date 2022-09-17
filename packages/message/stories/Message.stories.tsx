@@ -1,96 +1,115 @@
 import React from 'react';
-import { styled } from '../../commons/src';
-import { Message } from '../src';
+import { FlexBox } from '../../flexbox/src';
+import { Text } from '../../text/src';
 import { Tone } from '../../types/src';
+import { Message } from '../src';
 
 export default {
   component: Message,
   title: 'Presentation/Message',
 };
 
-const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-`;
-
-const text = `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
-      ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
-      eaque!`;
+const Content = () => (
+  <Text.body1>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
+    ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
+    eaque!
+  </Text.body1>
+);
 
 export const basic = () => (
-  <Container>
-    <Message>{text}</Message>
-  </Container>
+  <Message>
+    <Content />
+  </Message>
 );
 
 export const sharp = () => (
-  <Container>
-    <Message sharp>{text}</Message>
-  </Container>
+  <Message sharp>
+    <Content />
+  </Message>
 );
 
 export const withoutLabel = () => (
-  <Container>
-    <Message withoutLabel>{text}</Message>
-    <Message sharp withoutLabel>
-      {text}
+  <FlexBox gap="1rem">
+    <Message withoutLabel>
+      <Content />
     </Message>
-  </Container>
+    <Message sharp withoutLabel>
+      <Content />
+    </Message>
+  </FlexBox>
 );
 
 export const tones = () => (
-  <Container>
+  <FlexBox gap="1rem">
     {Object.keys(Tone)
       .filter((i) => !isNaN(Number(i)))
       .map((v, i) => (
-        <Message tone={Tone[v]}>{text}</Message>
+        <Message tone={Tone[v]}>
+          <Content />
+        </Message>
       ))}
-  </Container>
+  </FlexBox>
 );
 
 export const outlined = () => (
-  <Container>
+  <FlexBox gap="1rem">
     {Object.keys(Tone)
       .filter((i) => !isNaN(Number(i)))
       .map((v, i) => (
         <Message tone={Tone[v]} outlined>
-          {text}
+          <Content />
         </Message>
       ))}
-  </Container>
+  </FlexBox>
 );
 
 export const closable = () => (
-  <Container>
+  <FlexBox gap="1rem">
     <Message closable onClose={() => console.log('closed')}>
-      {text}
+      <Content />
     </Message>
     <Message closable outlined>
-      {text}
+      <Content />
     </Message>
-  </Container>
+  </FlexBox>
 );
 
 export const customMargin = () => (
   <>
-    <Message margin="0 0 1rem 0">{text}</Message>
-    <Message outlined>{text}</Message>
+    <Message margin="0 0 1rem 0">
+      <Content />
+    </Message>
+    <Message outlined>
+      <Content />
+    </Message>
   </>
 );
 
 export const customDimensions = () => (
   <>
     <Message margin="0 0 1rem 0" h="10rem" w="20rem" closable>
-      {text}
+      <Content />
     </Message>
-    <Message outlined>{text}</Message>
+    <Message outlined>
+      <Content />
+    </Message>
   </>
 );
 
 export const customElement = () => (
-  <Message ele={<div style={{ display: 'flex', gap: '1rem' }} />}>
-    <div>{text}</div>
-    <div>{text}</div>
+  <Message ele={<FlexBox nowrap gap="1rem" />}>
+    <div>
+      <Content />
+    </div>
+    <div>
+      <Content />
+    </div>
+  </Message>
+);
+
+export const onCloseAction = () => (
+  <Message closable onClose={() => alert('Message will be closed now')}>
+    <Content />
   </Message>
 );

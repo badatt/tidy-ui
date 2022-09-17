@@ -62,9 +62,9 @@ export const maxWidth = () => {
             iconOnly
             size="sm"
           />
-          <Text.h6 style={{ width: '2rem' }} ctr>
+          <Text.body1 style={{ width: '2rem' }} ctr>
             {Screen[maxWidth]}
-          </Text.h6>
+          </Text.body1>
           <IconButton
             icon={<Icon.Add />}
             variant="outlined"

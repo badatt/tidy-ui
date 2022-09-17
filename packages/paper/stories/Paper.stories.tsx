@@ -1,4 +1,6 @@
 import React from 'react';
+import { Text } from '../../text/src';
+import { FlexBox } from '../../flexbox/src';
 import { Paper } from '../src';
 
 export default {
@@ -28,20 +30,28 @@ const text = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
         officiis accusantium recusandae, delectus ut natus deleniti voluptates possimus consequatur sunt sit libero sed
         adipisci, reprehenderit eos! Deserunt eum ex mollitia debitis assumenda.`;
 
-export const basic = () => <Paper>{text}</Paper>;
+export const basic = () => (
+  <Paper>
+    <Text.body1>{text}</Text.body1>
+  </Paper>
+);
 
-export const sharp = () => <Paper sharp>{text}</Paper>;
+export const sharp = () => (
+  <Paper sharp>
+    <Text.body1>{text}</Text.body1>
+  </Paper>
+);
 
 export const customDimension = () => (
   <Paper h="20rem" w="20rem">
-    {text}
+    <Text.body1>{text}</Text.body1>
   </Paper>
 );
 
 export const customElement = () => (
-  <Paper ele={<div style={{ display: 'flex', gap: '1rem' }} />}>
-    <div>{text}</div>
-    <div>{text}</div>
-    <div>{text}</div>
+  <Paper ele={<FlexBox nowrap gap="0.5rem" />}>
+    <Text.body1>{text}</Text.body1>
+    <Text.body1>{text}</Text.body1>
+    <Text.body1>{text}</Text.body1>
   </Paper>
 );

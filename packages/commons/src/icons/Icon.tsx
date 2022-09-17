@@ -18,7 +18,7 @@ import WarningIcon from './WarningIcon';
 /**
  * Icon props
  */
-export interface IIconProps extends IBaseProps, React.HTMLAttributes<HTMLDivElement> {
+interface IIconProps extends IBaseProps, React.HTMLAttributes<HTMLDivElement> {
   /**
    * Icon element
    */
@@ -31,7 +31,7 @@ export interface IIconProps extends IBaseProps, React.HTMLAttributes<HTMLDivElem
 }
 
 /** @internal */
-export interface IconComponent
+interface IconComponent
   extends React.ForwardRefExoticComponent<Omit<IIconProps, 'children'> & React.RefAttributes<HTMLDivElement>> {
   /** @internal */
   Add: typeof AddIcon;

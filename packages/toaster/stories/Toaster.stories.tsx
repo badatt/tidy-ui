@@ -1,18 +1,11 @@
 import React from 'react';
-import { css, hsla, color, styled } from '../../commons/src';
+import { Icon } from '../../commons/src';
 import { Button, ButtonGroup } from '../../button/src';
-import { Tag } from '../../tag/src';
+import { FlexBox } from '../../flexbox/src';
+import { Message } from '../../message/src';
+import { Notification } from '../../notification/src';
+import { Text } from '../../text/src';
 import { Toaster, useToaster } from '../src';
-
-const ToastContent = styled.div`
-  ${({ theme: { palette, layout } }) => css`
-    display: flex;
-    padding: 0.5rem 0.5rem;
-    border-radius: ${layout.radius};
-    color: ${palette.text.primary};
-    background-color: ${hsla(color.purple[800], 0.3)};
-  `}
-`;
 
 export default {
   component: Toaster,
@@ -21,24 +14,45 @@ export default {
 
 export const basic = () => {
   const { toaster } = useToaster();
-  const ele = <ToastContent>{Date.now()}</ToastContent>;
+  const ele = (
+    <Message withoutLabel ele={<FlexBox gap="0.5rem" />} tone="success">
+      <Icon ele={<Icon.CheckCircle />} />
+      <Text.body1 mgn="0">Successfully uploaded</Text.body1>
+    </Message>
+  );
 
   return (
     <ButtonGroup>
-      <Button onClick={() => toaster.push(ele)}>Add</Button>
-      <Button onClick={() => toaster.clear()}>Clear</Button>
+      <Button variant="outlined" onClick={() => toaster.push(ele)}>
+        Add
+      </Button>
+      <Button variant="outlined" onClick={() => toaster.clear()}>
+        Clear
+      </Button>
     </ButtonGroup>
   );
 };
 
 export const closable = () => {
   const { toaster } = useToaster();
-  const ele = <Tag>{Date.now()}</Tag>;
+
+  const ele = (
+    <Notification w="18rem" outlined>
+      <Text.body1>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam omnis iusto doloribus voluptatibus natus! At,
+        ducimus? Corrupti, alias. Officia maiores esse fuga totam dolore eius vitae iusto labore sequi ad.
+      </Text.body1>
+    </Notification>
+  );
 
   return (
     <ButtonGroup>
-      <Button onClick={() => toaster.push(ele)}>Add</Button>
-      <Button onClick={() => toaster.clear()}>Clear</Button>
+      <Button variant="outlined" onClick={() => toaster.push(ele)}>
+        Add
+      </Button>
+      <Button variant="outlined" onClick={() => toaster.clear()}>
+        Clear
+      </Button>
     </ButtonGroup>
   );
 };
