@@ -1770,7 +1770,7 @@ Object {
   line-height: 1.5em;
   padding: 1rem 1.5rem;
   font-size: 3rem;
-  line-height: 2.125rem;
+  line-height: 3rem;
   color: hsla(270,100%,98%,1);
   border: none;
   width: 100%;
@@ -1956,7 +1956,7 @@ Object {
   line-height: 1.5em;
   padding: 1rem 1.5rem;
   font-size: 3rem;
-  line-height: 2.125rem;
+  line-height: 3rem;
   color: hsla(270,100%,98%,1);
   border: none;
   width: 100%;
@@ -2197,7 +2197,7 @@ Object {
   line-height: 1.5em;
   padding: 1rem 1.5rem;
   font-size: 3rem;
-  line-height: 2.125rem;
+  line-height: 3rem;
   color: hsla(270,100%,98%,1);
   border: none;
   width: 100%;
@@ -2382,7 +2382,7 @@ Object {
   line-height: 1.5em;
   padding: 1rem 1.5rem;
   font-size: 3rem;
-  line-height: 2.125rem;
+  line-height: 3rem;
   color: hsla(270,100%,98%,1);
   border: none;
   width: 100%;
@@ -3330,7 +3330,7 @@ Object {
   line-height: 1.5em;
   padding: 1rem 1.5rem;
   font-size: 3rem;
-  line-height: 2.125rem;
+  line-height: 3rem;
   color: hsla(270,100%,98%,1);
   border: none;
   width: 100%;
@@ -3429,7 +3429,7 @@ Object {
   line-height: 1.5em;
   padding: 1rem 1.5rem;
   font-size: 3rem;
-  line-height: 2.125rem;
+  line-height: 3rem;
   color: hsla(270,100%,98%,1);
   border: none;
   width: 100%;
@@ -3543,7 +3543,7 @@ Object {
   line-height: 1.5em;
   padding: 1rem 1.5rem;
   font-size: 3rem;
-  line-height: 2.125rem;
+  line-height: 3rem;
   color: hsla(270,100%,98%,1);
   border: none;
   width: 100%;
@@ -3596,7 +3596,7 @@ Object {
   line-height: 1.5em;
   padding: 1rem 1.5rem;
   font-size: 3rem;
-  line-height: 2.125rem;
+  line-height: 3rem;
   color: hsla(270,100%,98%,1);
   border: none;
   width: 100%;

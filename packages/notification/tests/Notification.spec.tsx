@@ -14,13 +14,13 @@ import { useToaster } from '../../toaster/src';
 import { act } from 'react-dom/test-utils';
 
 const NotificationText = () => (
-  <Text>
+  <Text.body1>
     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed animi dicta, dolores, facilis eaque dolore maxime
     corrupti alias inventore minus dolorum ea accusamus nihil! Harum commodi officiis corporis veritatis autem. Lorem
     ipsum dolor sit, amet consectetur adipisicing elit. Commodi odit voluptate earum architecto soluta cupiditate
     necessitatibus laudantium sapiente expedita doloremque, veniam unde sit eligendi omnis similique natus quasi!
     Sapiente, ullam.
-  </Text>
+  </Text.body1>
 );
 
 export const ToasterWrapper = () => {
@@ -130,7 +130,7 @@ describe('Notification', () => {
   it('Custom label', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Notification label={<Text v="h4">Hello there !</Text>}>
+        <Notification label={<Text.h4>Hello there !</Text.h4>}>
           <NotificationText />
         </Notification>
       </TidyUiProvider>,

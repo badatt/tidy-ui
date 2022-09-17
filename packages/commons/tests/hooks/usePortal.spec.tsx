@@ -5,8 +5,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidLight } from '../../commons/src';
-import { usePortal, TidyUiProvider } from '../../src';
+import { orchidLight, usePortal, TidyUiProvider } from '../../src';
 
 describe('usePortal', () => {
   it('Should create Portal on body', () => {

@@ -5,8 +5,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
-import { useTheme } from '../../src';
+import { orchidDark, orchidLight, TidyUiProvider, useTheme } from '../../src';
 
 describe('useTheme', () => {
   it('Should return light theme props', () => {

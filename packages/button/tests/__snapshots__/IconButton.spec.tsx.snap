@@ -3476,7 +3476,7 @@ Object {
 }
 
 .c1 {
-  padding: 0.4em;
+  padding: 0.2em;
 }
 
 .c2 {
@@ -3492,8 +3492,8 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 1.8em;
-  width: 1.8em;
+  height: 1.4em;
+  width: 1.4em;
 }
 
 <body>
@@ -3858,7 +3858,7 @@ Object {
 }
 
 .c1 {
-  padding: 0.4em;
+  padding: 0.2em;
 }
 
 .c2 {
@@ -3874,8 +3874,8 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 1.8em;
-  width: 1.8em;
+  height: 1.4em;
+  width: 1.4em;
 }
 
 <div>
