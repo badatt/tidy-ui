@@ -88,7 +88,7 @@ export const customMargin = () => (
 
 export const customDimensions = () => (
   <>
-    <Message margin="0 0 1rem 0" h="10rem" w="20rem" closable>
+    <Message margin="0 0 1rem 0" h="12rem" w="20rem" closable>
       <Content />
     </Message>
     <Message outlined>
