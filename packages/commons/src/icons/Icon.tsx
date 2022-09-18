@@ -5,6 +5,7 @@ import AddIcon from './AddIcon';
 import CancelIcon from './CancelIcon';
 import CheckCircleIcon from './CheckCircleIcon';
 import CloseIcon from './CloseIcon';
+import CopyAllIcon from './CopyAllIcon';
 import DangerousIcon from './DangerousIcon';
 import ExpandLessIcon from './ExpandLessIcon';
 import ExpandMoreIcon from './ExpandMoreIcon';
@@ -43,6 +44,8 @@ interface IconComponent
   CheckCircle: typeof CheckCircleIcon;
   /** @internal */
   Close: typeof CloseIcon;
+  /** @internal */
+  CopyAll: typeof CopyAllIcon;
   /** @internal */
   Dangerous: typeof DangerousIcon;
   /** @internal */
@@ -83,6 +86,7 @@ Icon.AddCircle = AddCircleIcon;
 Icon.Cancel = CancelIcon;
 Icon.CheckCircle = CheckCircleIcon;
 Icon.Close = CloseIcon;
+Icon.CopyAll = CopyAllIcon;
 Icon.Dangerous = DangerousIcon;
 Icon.ExpandLess = ExpandLessIcon;
 Icon.ExpandMore = ExpandMoreIcon;
