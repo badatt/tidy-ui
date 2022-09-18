@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/layout",
-  "version": "0.12.6",
+  "version": "0.13.0",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:layout",
@@ -13,11 +13,11 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/container": "^0.12.6",
-    "@tidy-ui/divider": "^0.12.6",
-    "@tidy-ui/flexbox": "^0.12.6",
-    "@tidy-ui/grid": "^0.12.6",
-    "@tidy-ui/stack": "^0.12.6"
+    "@tidy-ui/container": "^0.13.0",
+    "@tidy-ui/divider": "^0.13.0",
+    "@tidy-ui/flexbox": "^0.13.0",
+    "@tidy-ui/grid": "^0.13.0",
+    "@tidy-ui/stack": "^0.13.0"
   },
   "peerDependencies": {
     "react": "^18.0.0",

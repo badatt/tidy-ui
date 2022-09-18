@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.13.0](https://github.com/badatt/tidy-ui/compare/v0.12.6...v0.13.0) (2022-09-18)
+
+
+### Features
+
+* added code component ([8b18ad8](https://github.com/badatt/tidy-ui/commit/8b18ad853fee6e2aaaf92b8db9c0a98b6c084f3e))
+* added color slate ([96cf4b3](https://github.com/badatt/tidy-ui/commit/96cf4b36542bda1fdf85c6201459dfa4b95bb2a7))
+* added CopyAll icon ([48697f4](https://github.com/badatt/tidy-ui/commit/48697f4efbe1388f603b00f708fa1b99b1882a22))
+
+
+
+
+
 ## [0.12.6](https://github.com/badatt/tidy-ui/compare/v0.12.5...v0.12.6) (2022-09-17)
 
 **Note:** Version bump only for package tidy-ui
