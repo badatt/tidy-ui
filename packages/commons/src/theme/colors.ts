@@ -441,8 +441,69 @@ const red: Record<number, IHsla> = {
   },
 };
 
-//export { amber, blue, green, neutral, pink, purple, red };
+const slate: Record<number, IHsla> = {
+  100: {
+    alpha: 1,
+    hue: 210,
+    luminosity: 96,
+    saturation: 40,
+  },
+  200: {
+    alpha: 1,
+    hue: 214,
+    luminosity: 91,
+    saturation: 32,
+  },
+  300: {
+    alpha: 1,
+    hue: 213,
+    luminosity: 84,
+    saturation: 27,
+  },
+  400: {
+    alpha: 1,
+    hue: 215,
+    luminosity: 65,
+    saturation: 20,
+  },
+  50: {
+    alpha: 1,
+    hue: 210,
+    luminosity: 98,
+    saturation: 40,
+  },
+  500: {
+    alpha: 1,
+    hue: 215,
+    luminosity: 47,
+    saturation: 16,
+  },
+  600: {
+    alpha: 1,
+    hue: 215,
+    luminosity: 35,
+    saturation: 19,
+  },
+  700: {
+    alpha: 1,
+    hue: 215,
+    luminosity: 27,
+    saturation: 25,
+  },
+  800: {
+    alpha: 1,
+    hue: 217,
+    luminosity: 17,
+    saturation: 33,
+  },
+  900: {
+    alpha: 1,
+    hue: 222,
+    luminosity: 11,
+    saturation: 47,
+  },
+};
 
-const color = { amber, blue, green, neutral, pink, purple, red };
+const color = { amber, blue, green, neutral, pink, purple, red, slate };
 
 export { color };
