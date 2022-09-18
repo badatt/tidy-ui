@@ -75,7 +75,7 @@ const ToolTip = styled.div<ICodeProps & IToolTipProps>`
   transition: opacity 0.3s;
   ${({ theme: { isDark, palette }, visible }) => css`
     opacity: ${visible ? '1' : '0'};
-    color: ${isDark ? palette.neutral[200] : palette.neutral[200]};
+    color: ${palette.neutral[200]};
     background-color: ${isDark ? palette.neutral[500] : palette.neutral[800]};
   `}
   &::after {
