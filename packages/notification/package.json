@@ -53,9 +53,10 @@
     "react-ui",
     "components",
     "ui",
-    "ui-components"
+    "ui-components",
+    "notification"
   ],
-  "description": "tidy-ui react component library; 'notification package",
+  "description": "Notification component can be used to represent notifications on a page based on the importance level, powered by various styles (with theming) and settings. Use this component with Toaster to throw auto-closable notifications on a page",
   "publishConfig": {
     "access": "public"
   },
