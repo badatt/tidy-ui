@@ -40,7 +40,7 @@ export const tones = () => (
     {Object.keys(Tone)
       .filter((i) => !isNaN(Number(i)))
       .map((v, i) => (
-        <Grid.Item xs={12} sm={12} md={8} lg={6} xl={6}>
+        <Grid.Item xs={12} sm={12} md={8} lg={6} xl={6} key={i}>
           <Notification key={i} tone={Tone[v]}>
             <NotificationText />
           </Notification>
@@ -54,7 +54,7 @@ export const outlined = () => (
     {Object.keys(Tone)
       .filter((i) => !isNaN(Number(i)))
       .map((v, i) => (
-        <Grid.Item xs={12} sm={12} md={8} lg={6} xl={6}>
+        <Grid.Item xs={12} sm={12} md={8} lg={6} xl={6} key={i}>
           <Notification key={i} tone={Tone[v]} outlined>
             <NotificationText />
           </Notification>

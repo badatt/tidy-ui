@@ -10,6 +10,12 @@ import {
 } from './components';
 import { INotificationProps } from './types';
 
+/**
+ * Notification component can be used to represent notifications on a page
+ * based on the importance level, powered by various styles
+ * (with theming) and settings. Use this component with
+ * Toaster to throw auto-closable notifications on a page
+ */
 const Notification = React.forwardRef<HTMLDivElement, INotificationProps>((props, ref) => {
   const { children, icon, label, ele, closable, onClose, ...rest } = props;
   const isMounted = useIsMounted();
