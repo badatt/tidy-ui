@@ -16,6 +16,7 @@ const icons = [
   <Icon.CheckCircle />,
   <Icon.CheckCircle isOutlined />,
   <Icon.Close />,
+  <Icon.CopyAll />,
   <Icon.Dangerous />,
   <Icon.Dangerous isOutlined />,
   <Icon.ExpandLess />,
