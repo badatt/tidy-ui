@@ -21,7 +21,7 @@ const BadgeRoot = styled.span<IBadgeProps>`
     position: relative;
     width: fit-content;
     ${hidden ? null : getBadge(dotted)}
-    color: ${isDark ? palette.neutral[400] : palette.neutral[600]};
+    color: ${isDark ? palette.neutral[400] : palette.neutral[800]};
   `}
 `;
 

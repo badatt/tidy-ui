@@ -58,8 +58,8 @@ const primary = css<IButtonProps>`
   ${({ theme: { palette, isDark }, tone, disabled }) => css`
     font-weight: 600;
     color: ${palette[tone!][50]};
-    background-color: ${palette[tone!][500]};
-    border: 1px solid ${hsla(palette[tone!].shades[700], 0.4)};
+    background-color: ${palette[tone!][700]};
+    border: 1px solid ${hsla(palette[tone!].shades[900], 0.4)};
     ${!isDark &&
     css`
       box-shadow: 0px 1px 0px ${palette[tone!][100]};
@@ -67,7 +67,7 @@ const primary = css<IButtonProps>`
     ${!disabled &&
     css`
       &:hover {
-        background-color: ${palette[tone!][600]};
+        background-color: ${palette[tone!][800]};
       }
     `}
   `}
@@ -81,7 +81,7 @@ const primary = css<IButtonProps>`
 const outlined = css<IButtonProps>`
   ${({ theme: { palette, isDark }, tone, disabled }) => css`
     color: ${isDark ? palette[tone!][100] : palette[tone!][900]};
-    border: 1px solid ${palette[tone!][500]};
+    border: 1px solid ${palette[tone!][600]};
     ${!disabled &&
     css`
       &:hover {
@@ -117,15 +117,15 @@ const hero = css<IButtonProps>`
     `}
     ${gradient
       ? css`
-          background: linear-gradient(90deg, ${palette['major'][600]} 0%, ${palette['minor'][600]} 100%);
+          background: linear-gradient(90deg, ${palette['major'][700]} 0%, ${palette['minor'][700]} 100%);
           &:hover {
-            background: linear-gradient(90deg, ${palette['major'][700]} 0%, ${palette['minor'][700]} 100%);
+            background: linear-gradient(90deg, ${palette['major'][800]} 0%, ${palette['minor'][800]} 100%);
           }
         `
       : css`
-          background-color: ${palette[tone!][600]};
+          background-color: ${palette[tone!][700]};
           &:hover {
-            background-color: ${palette[tone!][700]};
+            background-color: ${palette[tone!][800]};
           }
         `}
   `}

@@ -32,6 +32,11 @@ export interface IPanelProps extends IBaseProps, HTMLAttributes<HTMLDivElement> 
    * Margin, css `margin` equivalent
    */
   margin?: string;
+
+  /**
+   * If `true`, no border applied
+   */
+  noBorder?: boolean;
 }
 
 /**
@@ -68,4 +73,9 @@ export interface IPanelGroupProps extends IBaseProps, HTMLAttributes<HTMLDivElem
    * Margin, css `margin` equivalent
    */
   margin?: string;
+
+  /**
+   * If `true`, no separator between panels
+   */
+  noSeparator?: boolean;
 }

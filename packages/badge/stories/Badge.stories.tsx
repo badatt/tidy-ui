@@ -16,9 +16,7 @@ export const basic = () => (
       <Icon ele={<Icon.Dangerous />} />
     </Badge>
     <Badge data={99}>
-      <div style={{ fontSize: '1em' }}>
-        <Text.body1>Mails</Text.body1>
-      </div>
+      <Text.body1>Mails</Text.body1>
     </Badge>
   </FlexBox>
 );
