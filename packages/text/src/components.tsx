@@ -14,7 +14,7 @@ const TextLink = styled.a<ITextProps>`
  * @internal
  */
 const TextRoot = styled.div<ITextProps>`
-  ${({ theme: { palette, typography }, v, tone, bld, udl, itl, uc, lc, cc, dsb, exd, ctr, mgn, tnc }) => css`
+  ${({ theme: { palette, typography, isDark }, v, tone, bld, udl, itl, uc, lc, cc, dsb, exd, ctr, mgn, tnc }) => css`
     display: block;
     ${mgn &&
     css`
@@ -34,7 +34,7 @@ const TextRoot = styled.div<ITextProps>`
     ${!dsb &&
     tone &&
     css`
-      color: ${palette[tone][600]};
+      color: ${isDark ? palette[tone][500] : palette[tone][600]};
     `}
     ${bld &&
     css`
@@ -164,7 +164,7 @@ const DD = styled.dd<IDataFieldProps>`
  * @internal
  */
 const DT = styled.dt<IDataFieldProps>`
-  ${({ theme: { palette }, tone, dsb, acc }) => css`
+  ${({ theme: { palette, isDark }, tone, dsb, acc }) => css`
     ${!dsb &&
     !tone &&
     css`
@@ -173,7 +173,7 @@ const DT = styled.dt<IDataFieldProps>`
     ${!dsb &&
     tone &&
     css`
-      color: ${palette[tone][600]};
+      color: ${isDark ? palette[tone][500] : palette[tone][600]};
     `}
     ${dsb &&
     css`

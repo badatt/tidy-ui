@@ -22,8 +22,8 @@ const blinkingEffect = () => {
  */
 const filledBadgeColor = css<IBadgeProps>`
   ${({ theme: { palette }, tone }) => css`
-    color: ${palette[tone!][100]};
-    background-color: ${palette[tone!][600]};
+    color: ${palette[tone!][50]};
+    background-color: ${palette[tone!][700]};
   `}
 `;
 
@@ -34,9 +34,9 @@ const filledBadgeColor = css<IBadgeProps>`
  */
 const outlineBadgeColor = css<IBadgeProps>`
   ${({ theme: { palette, isDark }, tone }) => css`
-    color: ${isDark ? palette[tone!][400] : palette[tone!][600]};
-    background-color: ${isDark ? hsla(palette[tone!].shades[900], 0.3) : palette[tone!][50]};
-    border: 0.5px solid ${isDark ? palette[tone!][600] : palette[tone!][300]};
+    color: ${isDark ? palette[tone!][300] : palette[tone!][800]};
+    background-color: ${isDark ? hsla(palette[tone!].shades[900], 0.3) : palette[tone!][100]};
+    border: 0.5px solid ${palette[tone!][600]};
   `}
 `;
 

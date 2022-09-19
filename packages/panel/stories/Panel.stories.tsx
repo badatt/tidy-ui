@@ -118,3 +118,14 @@ export const customBodyElement = () => (
     </Panel.Body>
   </Panel>
 );
+
+export const noBorder = () => (
+  <Panel noBorder>
+    <Panel.Header>
+      <ContentHeader />
+    </Panel.Header>
+    <Panel.Body>
+      <ContentBody />
+    </Panel.Body>
+  </Panel>
+);

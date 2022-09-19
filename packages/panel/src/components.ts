@@ -1,16 +1,18 @@
-import { css, hsla, Icon, styled } from '@tidy-ui/commons';
-import { IPanelBodyProps, IPanelProps } from './types';
+import { color, css, hsla, Icon, styled } from '@tidy-ui/commons';
+import { IPanelBodyProps, IPanelGroupProps, IPanelProps } from './types';
 
 const PanelRoot = styled.div<IPanelProps>`
   display: flex;
   flex-direction: column;
   width: 100%;
-  ${({ theme: { layout, palette, isDark }, margin, w }) => css`
+  ${({ theme: { layout, isDark }, margin, noBorder, w }) => css`
     margin: ${margin};
     width: ${w};
-    border: 1px solid ${isDark ? palette.neutral[700] : palette.neutral[400]};
-    border-radius: ${layout.radius};
-    background-color: ${isDark ? hsla(palette.neutral.shades[900], 0.3) : palette.neutral[50]};
+    ${!noBorder &&
+    css`
+      border: 1px solid ${isDark ? hsla(color.slate[600]) : hsla(color.slate[400])};
+      border-radius: ${layout.radius};
+    `}
   `}
 `;
 
@@ -23,10 +25,17 @@ const PanelHeaderRoot = styled.div`
   padding: 1rem 1rem;
 `;
 
-const ActionIcon = styled(Icon.ExpandMore)`
-  ${({ theme: { palette, isDark } }) => css`
-    color: ${isDark ? palette.neutral[500] : palette.neutral[700]};
-  `}
+/** @internal */
+interface IActionIconProps {
+  /** @internal */
+  expanded?: boolean;
+}
+
+const ActionIcon = styled(Icon.ExpandMore)<IActionIconProps>`
+  ${({ expanded }) =>
+    css`
+      transform: ${expanded ? 'rotate(180deg)' : 'rotate(0deg)'};
+    `}
   transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
 `;
 
@@ -54,19 +63,33 @@ const PanelBodyRoot = styled.div<IPanelBodyProps>`
   `}
 `;
 
-const PanelGroupRoot = styled.div<IPanelProps>`
-  ${({ theme: { layout, palette, isDark }, margin }) => css`
+const PanelGroupRoot = styled.div<IPanelGroupProps>`
+  ${({ theme: { layout, isDark }, margin, noSeparator }) => css`
     margin: ${margin};
-    border: 1px solid ${isDark ? palette.neutral[700] : palette.neutral[400]};
     border-radius: ${layout.radius};
-    & > * {
-      border: 0;
+    & > :first-child {
+      border-bottom-left-radius: 0 !important;
+      border-bottom-right-radius: 0 !important;
+      border-bottom: 0 !important;
+    }
+    & > :last-child {
+      border-top-left-radius: 0 !important;
+      border-top-right-radius: 0 !important;
+      border-top: 0 !important;
+    }
+    & > :not(:first-child):not(:last-child) {
+      border-top: 0 !important;
+      border-bottom: 0 !important;
+      border-radius: 0 !important;
     }
 
-    & > :not(:last-child)::after {
-      content: '';
-      border-bottom: 0.5px solid ${isDark ? palette.neutral[700] : palette.neutral[400]};
-    }
+    ${!noSeparator &&
+    css`
+      & > :not(:last-child)::after {
+        content: '';
+        border-bottom: 1px solid ${isDark ? hsla(color.slate[600]) : hsla(color.slate[400])};
+      }
+    `}
   `}
 `;
 

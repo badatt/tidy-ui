@@ -122,4 +122,16 @@ describe('Panel', () => {
     });
     expect(queryByRole(container, 'presentation')).toBeVisible();
   });
+
+  it('No border', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Panel noBorder>
+          <Panel.Header>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Panel.Header>
+          <Panel.Body>{text}</Panel.Body>
+        </Panel>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
 });

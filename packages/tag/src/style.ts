@@ -34,7 +34,7 @@ const sizeStyles = {
  */
 const filledContent = css<ITagProps>`
   ${({ theme: { palette }, tone }) => css`
-    background-color: ${palette[tone!][500]};
+    background-color: ${palette[tone!][700]};
     color: ${palette[tone!][50]};
   `}
 `;
@@ -46,9 +46,9 @@ const filledContent = css<ITagProps>`
  */
 const outlinedContent = css<ITagProps>`
   ${({ theme: { palette, isDark }, tone }) => css`
-    color: ${isDark ? palette[tone!][400] : palette[tone!][600]};
+    color: ${isDark ? palette[tone!][300] : palette[tone!][800]};
     background-color: ${isDark ? hsla(palette[tone!].shades[900], 0.3) : palette[tone!][100]};
-    border: 1px solid ${isDark ? palette[tone!][600] : palette[tone!][300]};
+    border: 1px solid ${palette[tone!][600]};
   `}
 `;
 

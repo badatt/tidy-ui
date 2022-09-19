@@ -83,3 +83,33 @@ export const customMargin = () => (
     </PanelGroup>
   </>
 );
+
+export const noBorder = () => (
+  <PanelGroup>
+    {[...Array(10)].map((v, i) => (
+      <Panel key={i} noBorder>
+        <Panel.Header>
+          <ContentHeader />
+        </Panel.Header>
+        <Panel.Body>
+          <ContentBody />
+        </Panel.Body>
+      </Panel>
+    ))}
+  </PanelGroup>
+);
+
+export const noSeparator = () => (
+  <PanelGroup noSeparator>
+    {[...Array(10)].map((v, i) => (
+      <Panel key={i} noBorder>
+        <Panel.Header>
+          <ContentHeader />
+        </Panel.Header>
+        <Panel.Body>
+          <ContentBody />
+        </Panel.Body>
+      </Panel>
+    ))}
+  </PanelGroup>
+);

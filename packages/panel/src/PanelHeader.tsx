@@ -10,12 +10,7 @@ const PanelHeader = React.forwardRef<HTMLDivElement, IPanelHeaderProps>((props, 
   return (
     <PanelHeaderRoot className={className} ref={ref} role="heading" {...rest} onClick={toggle}>
       {ele ? React.cloneElement(ele, {}, children) : children}
-      <Icon
-        role="button"
-        ele={<ActionIcon style={{ transform: expanded ? 'rotate(180deg)' : 'rotate(0deg)' }} />}
-        h="1.5em"
-        w="1.5em"
-      />
+      <Icon role="button" ele={<ActionIcon expanded={expanded} />} h="1.5em" w="1.5em" />
     </PanelHeaderRoot>
   );
 });
