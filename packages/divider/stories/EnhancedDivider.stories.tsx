@@ -1,8 +1,8 @@
 import React from 'react';
 import { Text } from '../../text/src';
 import { Divider } from '../src';
-import { Density, Position, Variant } from '../src/types';
-import { Shade, Tone } from '../../types/src';
+import { Density, Position } from '../src/types';
+import { Shade, Tone, Border } from '../../types/src';
 
 export default {
   component: Divider,
@@ -99,13 +99,13 @@ export const tones = () => {
 export const variants = () => {
   return (
     <>
-      {Object.keys(Variant)
+      {Object.keys(Border)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
           <React.Fragment key={i}>
-            <Text.h6>variant={Variant[v]}</Text.h6>
+            <Text.h6>variant={Border[v]}</Text.h6>
             <Text.body1>{text}</Text.body1>
-            <Divider.Enhanced variant={Variant[v]}>
+            <Divider.Enhanced variant={Border[v]}>
               <Text.caption>section {i}</Text.caption>
             </Divider.Enhanced>
           </React.Fragment>

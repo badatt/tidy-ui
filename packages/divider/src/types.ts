@@ -1,23 +1,5 @@
 import { HTMLAttributes } from 'react';
-import { IBaseProps, TShade, TTone } from '@tidy-ui/types';
-
-/**
- * Variants
- */
-export enum Variant {
-  'dashed',
-  'dotted',
-  'double',
-  'groove',
-  'hidden',
-  'ridge',
-  'solid',
-}
-
-/**
- * Divider style props
- */
-export type TVariant = keyof typeof Variant;
+import { IBaseProps, TBorder, TShade, TTone } from '@tidy-ui/types';
 
 /**
  * Density
@@ -92,7 +74,7 @@ export interface IDividerProps extends IBaseProps, HTMLAttributes<HTMLHRElement>
    *
    * @default 'solid'
    */
-  variant?: TVariant;
+  variant?: TBorder;
 
   /**
    * If `true`, set the divider vertically
@@ -143,5 +125,5 @@ export interface IEnhancedDividerProps extends IBaseProps, HTMLAttributes<HTMLDi
    *
    * @default 'solid'
    */
-  variant?: TVariant;
+  variant?: TBorder;
 }
