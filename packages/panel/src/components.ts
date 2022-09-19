@@ -31,7 +31,7 @@ interface IActionIconProps {
   expanded?: boolean;
 }
 
-const ActionIcon = styled(Icon.ExpandMore)<IActionIconProps>`
+const ActionIcon = styled.i<IActionIconProps>`
   ${({ expanded }) =>
     css`
       transform: ${expanded ? 'rotate(180deg)' : 'rotate(0deg)'};
