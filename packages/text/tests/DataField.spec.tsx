@@ -29,6 +29,19 @@ describe('Text', () => {
   });
   it('Tones', () => {
     const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        {Object.keys(Tone)
+          .filter((v) => !isNaN(Number(v)))
+          .map((v, i) => (
+            <DataField key={i} tone={Tone[v]} lbl={`${Tone[v]} color`} val={`${Tone[v]} color value`} />
+          ))}
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Tones in dark', () => {
+    const tree = render(
       <TidyUiProvider theme={orchidDark}>
         {Object.keys(Tone)
           .filter((v) => !isNaN(Number(v)))
@@ -39,6 +52,7 @@ describe('Text', () => {
     );
     expect(tree).toMatchSnapshot();
   });
+
   it('Accents', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>

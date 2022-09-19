@@ -8,6 +8,7 @@ import 'jest-styled-components';
 import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
 import { TextBase } from '../src/Text';
 import { Variant } from '../src/types';
+import { Tone } from '@tidy-ui/types';
 
 const text = `the quick brown fox jumps over the lazy dog`;
 
@@ -51,9 +52,27 @@ describe('Text', () => {
       it('Tones', () => {
         const tree = render(
           <TidyUiProvider theme={orchidLight} key={i}>
-            <TextBase v={Variant[v]}>
-              {Variant[v]}: {text}
-            </TextBase>
+            {Object.keys(Tone)
+              .filter((t) => !isNaN(Number(t)))
+              .map((t, i) => (
+                <TextBase v={Variant[v]} tone={Tone[t]} key={i}>
+                  {Variant[v]}: {Tone[t]} {text}
+                </TextBase>
+              ))}
+          </TidyUiProvider>,
+        );
+        expect(tree).toMatchSnapshot();
+      });
+      it('Tones in dark', () => {
+        const tree = render(
+          <TidyUiProvider theme={orchidDark} key={i}>
+            {Object.keys(Tone)
+              .filter((t) => !isNaN(Number(t)))
+              .map((t, i) => (
+                <TextBase v={Variant[v]} tone={Tone[t]} key={i}>
+                  {Variant[v]}: {Tone[t]} {text}
+                </TextBase>
+              ))}
           </TidyUiProvider>,
         );
         expect(tree).toMatchSnapshot();
@@ -152,16 +171,6 @@ describe('Text', () => {
         const tree = render(
           <TidyUiProvider theme={orchidLight} key={i}>
             <TextBase v={Variant[v]} href="https://google.com">
-              {Variant[v]}: {text}
-            </TextBase>
-          </TidyUiProvider>,
-        );
-        expect(tree).toMatchSnapshot();
-      });
-      it('', () => {
-        const tree = render(
-          <TidyUiProvider theme={orchidLight} key={i}>
-            <TextBase v={Variant[v]}>
               {Variant[v]}: {text}
             </TextBase>
           </TidyUiProvider>,

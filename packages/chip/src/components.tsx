@@ -1,4 +1,5 @@
 import { css, styled } from '@tidy-ui/commons';
+import { IPalette, TTone } from '@tidy-ui/types';
 import { filledStyle, outlinedStyle, sizeStyles } from './styles';
 import { IChipProps } from './types';
 
@@ -47,13 +48,17 @@ const ChipRoot = styled.div<IChipProps>`
   `}
 `;
 
+/** @internal */
+const outlinedChipIconColor = (isDark: boolean, palette: IPalette, tone: TTone) =>
+  isDark ? palette[tone!][700] : palette[tone!][400];
+
 const ChipIcon = styled.i<IChipProps>`
   height: 1.5em;
   width: 1.5em;
   ${({ theme: { isDark, palette }, tone, outlined }) => css`
     ${outlined
       ? css`
-          color: ${isDark ? palette[tone!][700] : palette[tone!][400]};
+          color: ${outlinedChipIconColor(isDark, palette, tone!)};
         `
       : css`
           color: ${palette[tone!][400]};
