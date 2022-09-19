@@ -1452,6 +1452,369 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  color: hsla(0,0%,0%,0.6);
+  margin-bottom: 0.5rem;
+}
+
+.c1 {
+  color: hsla(271,81%,56%,1);
+}
+
+.c2 {
+  color: hsla(333,71%,51%,1);
+}
+
+.c3 {
+  color: hsla(0,0%,32%,1);
+}
+
+.c4 {
+  color: hsla(221,83%,53%,1);
+}
+
+.c5 {
+  color: hsla(142,76%,36%,1);
+}
+
+.c6 {
+  color: hsla(32,95%,44%,1);
+}
+
+.c7 {
+  color: hsla(0,72%,51%,1);
+}
+
+<body>
+    <div>
+      <div
+        class=""
+        role="contentinfo"
+      >
+        <dd
+          class="c0"
+        >
+          major color
+        </dd>
+        <dt
+          class="c1"
+        >
+          major color value
+        </dt>
+      </div>
+      <div
+        class=""
+        role="contentinfo"
+      >
+        <dd
+          class="c0"
+        >
+          minor color
+        </dd>
+        <dt
+          class="c2"
+        >
+          minor color value
+        </dt>
+      </div>
+      <div
+        class=""
+        role="contentinfo"
+      >
+        <dd
+          class="c0"
+        >
+          neutral color
+        </dd>
+        <dt
+          class="c3"
+        >
+          neutral color value
+        </dt>
+      </div>
+      <div
+        class=""
+        role="contentinfo"
+      >
+        <dd
+          class="c0"
+        >
+          info color
+        </dd>
+        <dt
+          class="c4"
+        >
+          info color value
+        </dt>
+      </div>
+      <div
+        class=""
+        role="contentinfo"
+      >
+        <dd
+          class="c0"
+        >
+          success color
+        </dd>
+        <dt
+          class="c5"
+        >
+          success color value
+        </dt>
+      </div>
+      <div
+        class=""
+        role="contentinfo"
+      >
+        <dd
+          class="c0"
+        >
+          warning color
+        </dd>
+        <dt
+          class="c6"
+        >
+          warning color value
+        </dt>
+      </div>
+      <div
+        class=""
+        role="contentinfo"
+      >
+        <dd
+          class="c0"
+        >
+          danger color
+        </dd>
+        <dt
+          class="c7"
+        >
+          danger color value
+        </dt>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: hsla(0,0%,0%,0.6);
+  margin-bottom: 0.5rem;
+}
+
+.c1 {
+  color: hsla(271,81%,56%,1);
+}
+
+.c2 {
+  color: hsla(333,71%,51%,1);
+}
+
+.c3 {
+  color: hsla(0,0%,32%,1);
+}
+
+.c4 {
+  color: hsla(221,83%,53%,1);
+}
+
+.c5 {
+  color: hsla(142,76%,36%,1);
+}
+
+.c6 {
+  color: hsla(32,95%,44%,1);
+}
+
+.c7 {
+  color: hsla(0,72%,51%,1);
+}
+
+<div>
+    <div
+      class=""
+      role="contentinfo"
+    >
+      <dd
+        class="c0"
+      >
+        major color
+      </dd>
+      <dt
+        class="c1"
+      >
+        major color value
+      </dt>
+    </div>
+    <div
+      class=""
+      role="contentinfo"
+    >
+      <dd
+        class="c0"
+      >
+        minor color
+      </dd>
+      <dt
+        class="c2"
+      >
+        minor color value
+      </dt>
+    </div>
+    <div
+      class=""
+      role="contentinfo"
+    >
+      <dd
+        class="c0"
+      >
+        neutral color
+      </dd>
+      <dt
+        class="c3"
+      >
+        neutral color value
+      </dt>
+    </div>
+    <div
+      class=""
+      role="contentinfo"
+    >
+      <dd
+        class="c0"
+      >
+        info color
+      </dd>
+      <dt
+        class="c4"
+      >
+        info color value
+      </dt>
+    </div>
+    <div
+      class=""
+      role="contentinfo"
+    >
+      <dd
+        class="c0"
+      >
+        success color
+      </dd>
+      <dt
+        class="c5"
+      >
+        success color value
+      </dt>
+    </div>
+    <div
+      class=""
+      role="contentinfo"
+    >
+      <dd
+        class="c0"
+      >
+        warning color
+      </dd>
+      <dt
+        class="c6"
+      >
+        warning color value
+      </dt>
+    </div>
+    <div
+      class=""
+      role="contentinfo"
+    >
+      <dd
+        class="c0"
+      >
+        danger color
+      </dd>
+      <dt
+        class="c7"
+      >
+        danger color value
+      </dt>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Text Tones in dark 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: hsla(0,0%,100%,0.7);
   margin-bottom: 0.5rem;
 }
