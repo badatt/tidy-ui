@@ -1,4 +1,4 @@
-import { color, css, hsla, Icon, styled } from '@tidy-ui/commons';
+import { color, css, hsla, styled } from '@tidy-ui/commons';
 import { IPanelBodyProps, IPanelGroupProps, IPanelProps } from './types';
 
 const PanelRoot = styled.div<IPanelProps>`
