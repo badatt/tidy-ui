@@ -5,15 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.13.1](https://github.com/badatt/tidy-ui/compare/v0.13.0...v0.13.1) (2022-09-19)
 
-**Note:** Version bump only for package @tidy-ui/code
-
-
-
-
-
-# [0.13.0](https://github.com/badatt/tidy-ui/compare/v0.12.6...v0.13.0) (2022-09-18)
-
 
 ### Features
 
-* added code component ([8b18ad8](https://github.com/badatt/tidy-ui/commit/8b18ad853fee6e2aaaf92b8db9c0a98b6c084f3e))
+* added Chip component ([e153b9a](https://github.com/badatt/tidy-ui/commit/e153b9a286f681fc3c060e377cdc2c870005391d))
