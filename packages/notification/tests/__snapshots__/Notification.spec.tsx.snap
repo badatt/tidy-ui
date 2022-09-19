@@ -16,7 +16,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(217,91%,60%,1);
+  background-color: hsla(224,76%,48%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -165,7 +165,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(217,91%,60%,1);
+  background-color: hsla(224,76%,48%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -369,7 +369,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(217,91%,60%,1);
+  background-color: hsla(224,76%,48%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -518,7 +518,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(217,91%,60%,1);
+  background-color: hsla(224,76%,48%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -722,7 +722,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(217,91%,60%,1);
+  background-color: hsla(224,76%,48%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -902,7 +902,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(217,91%,60%,1);
+  background-color: hsla(224,76%,48%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -1137,7 +1137,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(217,91%,60%,1);
+  background-color: hsla(224,76%,48%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -1303,7 +1303,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(217,91%,60%,1);
+  background-color: hsla(224,76%,48%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -1525,7 +1525,7 @@ Object {
   padding: 1rem;
   margin: 0 0 1rem 0;
   border-radius: 0.5rem;
-  background-color: hsla(217,91%,60%,1);
+  background-color: hsla(224,76%,48%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -1542,7 +1542,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(217,91%,60%,1);
+  background-color: hsla(224,76%,48%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -1748,7 +1748,7 @@ Object {
   padding: 1rem;
   margin: 0 0 1rem 0;
   border-radius: 0.5rem;
-  background-color: hsla(217,91%,60%,1);
+  background-color: hsla(224,76%,48%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -1765,7 +1765,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(217,91%,60%,1);
+  background-color: hsla(224,76%,48%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -2025,7 +2025,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(217,91%,60%,1);
+  background-color: hsla(224,76%,48%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -2174,7 +2174,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(217,91%,60%,1);
+  background-color: hsla(224,76%,48%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -2378,7 +2378,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(217,91%,60%,1);
+  background-color: hsla(224,76%,48%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -2499,7 +2499,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(217,91%,60%,1);
+  background-color: hsla(224,76%,48%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -2675,7 +2675,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(217,91%,60%,1);
+  background-color: hsla(224,76%,48%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -2824,7 +2824,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(217,91%,60%,1);
+  background-color: hsla(224,76%,48%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -3028,7 +3028,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(217,91%,60%,1);
+  background-color: hsla(224,76%,48%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -3177,7 +3177,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(217,91%,60%,1);
+  background-color: hsla(224,76%,48%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -3382,8 +3382,8 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(217,33%,17%,1);
-  background-color: hsla(270,100%,98%,1);
-  border: 1px solid hsla(269,97%,85%,1);
+  background-color: hsla(216,56%,98%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c5 {
@@ -3400,8 +3400,8 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(217,33%,17%,1);
-  background-color: hsla(327,73%,97%,1);
-  border: 1px solid hsla(327,87%,82%,1);
+  background-color: hsla(216,56%,98%,1);
+  border: 1px solid hsla(329,86%,70%,1);
 }
 
 .c7 {
@@ -3418,8 +3418,8 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(217,33%,17%,1);
-  background-color: hsla(0,0%,98%,1);
-  border: 1px solid hsla(0,0%,83%,1);
+  background-color: hsla(216,56%,98%,1);
+  border: 1px solid hsla(0,0%,64%,1);
 }
 
 .c9 {
@@ -3436,8 +3436,8 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(217,33%,17%,1);
-  background-color: hsla(214,100%,97%,1);
-  border: 1px solid hsla(212,96%,78%,1);
+  background-color: hsla(216,56%,98%,1);
+  border: 1px solid hsla(213,94%,68%,1);
 }
 
 .c13 {
@@ -3454,8 +3454,8 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(217,33%,17%,1);
-  background-color: hsla(138,76%,97%,1);
-  border: 1px solid hsla(142,77%,73%,1);
+  background-color: hsla(216,56%,98%,1);
+  border: 1px solid hsla(142,69%,58%,1);
 }
 
 .c16 {
@@ -3472,8 +3472,8 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(217,33%,17%,1);
-  background-color: hsla(48,100%,96%,1);
-  border: 1px solid hsla(46,97%,65%,1);
+  background-color: hsla(216,56%,98%,1);
+  border: 1px solid hsla(43,96%,56%,1);
 }
 
 .c19 {
@@ -3490,8 +3490,8 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(217,33%,17%,1);
-  background-color: hsla(0,86%,97%,1);
-  border: 1px solid hsla(0,94%,82%,1);
+  background-color: hsla(216,56%,98%,1);
+  border: 1px solid hsla(0,91%,71%,1);
 }
 
 .c2 {
@@ -4063,8 +4063,8 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(217,33%,17%,1);
-  background-color: hsla(270,100%,98%,1);
-  border: 1px solid hsla(269,97%,85%,1);
+  background-color: hsla(216,56%,98%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c5 {
@@ -4081,8 +4081,8 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(217,33%,17%,1);
-  background-color: hsla(327,73%,97%,1);
-  border: 1px solid hsla(327,87%,82%,1);
+  background-color: hsla(216,56%,98%,1);
+  border: 1px solid hsla(329,86%,70%,1);
 }
 
 .c7 {
@@ -4099,8 +4099,8 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(217,33%,17%,1);
-  background-color: hsla(0,0%,98%,1);
-  border: 1px solid hsla(0,0%,83%,1);
+  background-color: hsla(216,56%,98%,1);
+  border: 1px solid hsla(0,0%,64%,1);
 }
 
 .c9 {
@@ -4117,8 +4117,8 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(217,33%,17%,1);
-  background-color: hsla(214,100%,97%,1);
-  border: 1px solid hsla(212,96%,78%,1);
+  background-color: hsla(216,56%,98%,1);
+  border: 1px solid hsla(213,94%,68%,1);
 }
 
 .c13 {
@@ -4135,8 +4135,8 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(217,33%,17%,1);
-  background-color: hsla(138,76%,97%,1);
-  border: 1px solid hsla(142,77%,73%,1);
+  background-color: hsla(216,56%,98%,1);
+  border: 1px solid hsla(142,69%,58%,1);
 }
 
 .c16 {
@@ -4153,8 +4153,8 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(217,33%,17%,1);
-  background-color: hsla(48,100%,96%,1);
-  border: 1px solid hsla(46,97%,65%,1);
+  background-color: hsla(216,56%,98%,1);
+  border: 1px solid hsla(43,96%,56%,1);
 }
 
 .c19 {
@@ -4171,8 +4171,8 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(217,33%,17%,1);
-  background-color: hsla(0,86%,97%,1);
-  border: 1px solid hsla(0,94%,82%,1);
+  background-color: hsla(216,56%,98%,1);
+  border: 1px solid hsla(0,91%,71%,1);
 }
 
 .c2 {
@@ -4799,7 +4799,7 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(210,40%,96%,1);
-  background-color: hsla(274,66%,32%,1);
+  background-color: hsla(222,47%,11%,1);
   border: 1px solid hsla(271,81%,56%,1);
 }
 
@@ -4817,7 +4817,7 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(210,40%,96%,1);
-  background-color: hsla(336,69%,30%,1);
+  background-color: hsla(222,47%,11%,1);
   border: 1px solid hsla(333,71%,51%,1);
 }
 
@@ -4835,7 +4835,7 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(210,40%,96%,1);
-  background-color: hsla(0,0%,9%,1);
+  background-color: hsla(222,47%,11%,1);
   border: 1px solid hsla(0,0%,32%,1);
 }
 
@@ -4853,7 +4853,7 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(210,40%,96%,1);
-  background-color: hsla(224,64%,33%,1);
+  background-color: hsla(222,47%,11%,1);
   border: 1px solid hsla(221,83%,53%,1);
 }
 
@@ -4871,7 +4871,7 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(210,40%,96%,1);
-  background-color: hsla(144,61%,20%,1);
+  background-color: hsla(222,47%,11%,1);
   border: 1px solid hsla(142,76%,36%,1);
 }
 
@@ -4889,7 +4889,7 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(210,40%,96%,1);
-  background-color: hsla(22,78%,26%,1);
+  background-color: hsla(222,47%,11%,1);
   border: 1px solid hsla(32,95%,44%,1);
 }
 
@@ -4907,7 +4907,7 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(210,40%,96%,1);
-  background-color: hsla(0,63%,31%,1);
+  background-color: hsla(222,47%,11%,1);
   border: 1px solid hsla(0,72%,51%,1);
 }
 
@@ -5480,7 +5480,7 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(210,40%,96%,1);
-  background-color: hsla(274,66%,32%,1);
+  background-color: hsla(222,47%,11%,1);
   border: 1px solid hsla(271,81%,56%,1);
 }
 
@@ -5498,7 +5498,7 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(210,40%,96%,1);
-  background-color: hsla(336,69%,30%,1);
+  background-color: hsla(222,47%,11%,1);
   border: 1px solid hsla(333,71%,51%,1);
 }
 
@@ -5516,7 +5516,7 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(210,40%,96%,1);
-  background-color: hsla(0,0%,9%,1);
+  background-color: hsla(222,47%,11%,1);
   border: 1px solid hsla(0,0%,32%,1);
 }
 
@@ -5534,7 +5534,7 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(210,40%,96%,1);
-  background-color: hsla(224,64%,33%,1);
+  background-color: hsla(222,47%,11%,1);
   border: 1px solid hsla(221,83%,53%,1);
 }
 
@@ -5552,7 +5552,7 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(210,40%,96%,1);
-  background-color: hsla(144,61%,20%,1);
+  background-color: hsla(222,47%,11%,1);
   border: 1px solid hsla(142,76%,36%,1);
 }
 
@@ -5570,7 +5570,7 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(210,40%,96%,1);
-  background-color: hsla(22,78%,26%,1);
+  background-color: hsla(222,47%,11%,1);
   border: 1px solid hsla(32,95%,44%,1);
 }
 
@@ -5588,7 +5588,7 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(210,40%,96%,1);
-  background-color: hsla(0,63%,31%,1);
+  background-color: hsla(222,47%,11%,1);
   border: 1px solid hsla(0,72%,51%,1);
 }
 
@@ -6214,7 +6214,7 @@ Object {
   -ms-flex-direction: column;
   flex-direction: column;
   padding: 1rem;
-  background-color: hsla(217,91%,60%,1);
+  background-color: hsla(224,76%,48%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -6362,7 +6362,7 @@ Object {
   -ms-flex-direction: column;
   flex-direction: column;
   padding: 1rem;
-  background-color: hsla(217,91%,60%,1);
+  background-color: hsla(224,76%,48%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -6566,7 +6566,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -6583,7 +6583,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(330,81%,60%,1);
+  background-color: hsla(335,78%,42%,1);
   color: hsla(327,73%,97%,1);
 }
 
@@ -6600,7 +6600,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(0,0%,45%,1);
+  background-color: hsla(0,0%,25%,1);
   color: hsla(0,0%,98%,1);
 }
 
@@ -6617,7 +6617,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(217,91%,60%,1);
+  background-color: hsla(224,76%,48%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -6634,7 +6634,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(142,71%,45%,1);
+  background-color: hsla(142,72%,29%,1);
   color: hsla(138,76%,97%,1);
 }
 
@@ -6651,7 +6651,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(38,92%,50%,1);
+  background-color: hsla(26,90%,37%,1);
   color: hsla(48,100%,96%,1);
 }
 
@@ -6668,7 +6668,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(0,84%,60%,1);
+  background-color: hsla(0,74%,42%,1);
   color: hsla(0,86%,97%,1);
 }
 
@@ -7240,7 +7240,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -7257,7 +7257,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(330,81%,60%,1);
+  background-color: hsla(335,78%,42%,1);
   color: hsla(327,73%,97%,1);
 }
 
@@ -7274,7 +7274,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(0,0%,45%,1);
+  background-color: hsla(0,0%,25%,1);
   color: hsla(0,0%,98%,1);
 }
 
@@ -7291,7 +7291,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(217,91%,60%,1);
+  background-color: hsla(224,76%,48%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -7308,7 +7308,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(142,71%,45%,1);
+  background-color: hsla(142,72%,29%,1);
   color: hsla(138,76%,97%,1);
 }
 
@@ -7325,7 +7325,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(38,92%,50%,1);
+  background-color: hsla(26,90%,37%,1);
   color: hsla(48,100%,96%,1);
 }
 
@@ -7342,7 +7342,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(0,84%,60%,1);
+  background-color: hsla(0,74%,42%,1);
   color: hsla(0,86%,97%,1);
 }
 
@@ -8044,7 +8044,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(217,91%,60%,1);
+  background-color: hsla(224,76%,48%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -8148,7 +8148,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(217,91%,60%,1);
+  background-color: hsla(224,76%,48%,1);
   color: hsla(214,100%,97%,1);
 }
 

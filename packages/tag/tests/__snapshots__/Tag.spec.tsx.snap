@@ -23,7 +23,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -57,7 +57,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -146,7 +146,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
   gap: 0.25rem;
 }
@@ -203,7 +203,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
   gap: 0.25rem;
 }
@@ -314,7 +314,7 @@ Object {
   line-height: 1rem;
   width: 10rem;
   height: 3rem;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -347,7 +347,7 @@ Object {
   line-height: 1rem;
   width: 10rem;
   height: 3rem;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -436,7 +436,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
   cursor: not-allowed;
   opacity: 0.5;
@@ -473,7 +473,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
   cursor: not-allowed;
   opacity: 0.5;
@@ -565,9 +565,9 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(271,81%,56%,1);
+  color: hsla(273,67%,39%,1);
   background-color: hsla(269,100%,95%,1);
-  border: 1px solid hsla(269,97%,85%,1);
+  border: 1px solid hsla(271,81%,56%,1);
 }
 
 <body>
@@ -600,9 +600,9 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(271,81%,56%,1);
+  color: hsla(273,67%,39%,1);
   background-color: hsla(269,100%,95%,1);
-  border: 1px solid hsla(269,97%,85%,1);
+  border: 1px solid hsla(271,81%,56%,1);
 }
 
 <div>
@@ -690,7 +690,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(270,95%,75%,1);
+  color: hsla(269,97%,85%,1);
   background-color: hsla(274,66%,32%,0.3);
   border: 1px solid hsla(271,81%,56%,1);
 }
@@ -725,7 +725,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(270,95%,75%,1);
+  color: hsla(269,97%,85%,1);
   background-color: hsla(274,66%,32%,0.3);
   border: 1px solid hsla(271,81%,56%,1);
 }
@@ -815,7 +815,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
   gap: 0.25rem;
 }
@@ -866,7 +866,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
   gap: 0.25rem;
 }
@@ -972,7 +972,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -996,7 +996,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(330,81%,60%,1);
+  background-color: hsla(335,78%,42%,1);
   color: hsla(327,73%,97%,1);
 }
 
@@ -1020,7 +1020,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(0,0%,45%,1);
+  background-color: hsla(0,0%,25%,1);
   color: hsla(0,0%,98%,1);
 }
 
@@ -1044,7 +1044,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(217,91%,60%,1);
+  background-color: hsla(224,76%,48%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -1068,7 +1068,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(142,71%,45%,1);
+  background-color: hsla(142,72%,29%,1);
   color: hsla(138,76%,97%,1);
 }
 
@@ -1092,7 +1092,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(38,92%,50%,1);
+  background-color: hsla(26,90%,37%,1);
   color: hsla(48,100%,96%,1);
 }
 
@@ -1116,7 +1116,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(0,84%,60%,1);
+  background-color: hsla(0,74%,42%,1);
   color: hsla(0,86%,97%,1);
 }
 
@@ -1186,7 +1186,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -1210,7 +1210,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(330,81%,60%,1);
+  background-color: hsla(335,78%,42%,1);
   color: hsla(327,73%,97%,1);
 }
 
@@ -1234,7 +1234,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(0,0%,45%,1);
+  background-color: hsla(0,0%,25%,1);
   color: hsla(0,0%,98%,1);
 }
 
@@ -1258,7 +1258,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(217,91%,60%,1);
+  background-color: hsla(224,76%,48%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -1282,7 +1282,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(142,71%,45%,1);
+  background-color: hsla(142,72%,29%,1);
   color: hsla(138,76%,97%,1);
 }
 
@@ -1306,7 +1306,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(38,92%,50%,1);
+  background-color: hsla(26,90%,37%,1);
   color: hsla(48,100%,96%,1);
 }
 
@@ -1330,7 +1330,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(0,84%,60%,1);
+  background-color: hsla(0,74%,42%,1);
   color: hsla(0,86%,97%,1);
 }
 
@@ -1455,7 +1455,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -1479,7 +1479,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -1503,7 +1503,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -1549,7 +1549,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -1573,7 +1573,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -1597,7 +1597,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
 }
 

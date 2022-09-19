@@ -12,7 +12,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 <body>
@@ -51,7 +51,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 <div>
@@ -145,7 +145,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c0::after {
@@ -170,8 +170,8 @@ Object {
   padding: 0px;
   height: 0.5rem;
   border-radius: 0.25rem;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(272,72%,47%,1);
 }
 
 <body>
@@ -208,7 +208,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c0::after {
@@ -233,8 +233,8 @@ Object {
   padding: 0px;
   height: 0.5rem;
   border-radius: 0.25rem;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(272,72%,47%,1);
 }
 
 <div>
@@ -326,7 +326,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c0::after {
@@ -353,8 +353,8 @@ Object {
   padding: 0px;
   height: 0.5rem;
   border-radius: 0.25rem;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(272,72%,47%,1);
 }
 
 <body>
@@ -391,7 +391,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c0::after {
@@ -418,8 +418,8 @@ Object {
   padding: 0px;
   height: 0.5rem;
   border-radius: 0.25rem;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(272,72%,47%,1);
 }
 
 <div>
@@ -511,7 +511,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c0::after {
@@ -541,8 +541,8 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(272,72%,47%,1);
 }
 
 <body>
@@ -580,7 +580,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c0::after {
@@ -610,8 +610,8 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(272,72%,47%,1);
 }
 
 <div>
@@ -704,7 +704,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 <body>
@@ -742,7 +742,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 <div>
@@ -835,7 +835,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c0::after {
@@ -865,8 +865,8 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(272,72%,47%,1);
 }
 
 <body>
@@ -904,7 +904,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c0::after {
@@ -934,8 +934,8 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(272,72%,47%,1);
 }
 
 <div>
@@ -1058,7 +1058,7 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(270,95%,75%,1);
+  color: hsla(269,97%,85%,1);
   background-color: hsla(274,66%,32%,0.3);
   border: 0.5px solid hsla(271,81%,56%,1);
 }
@@ -1102,7 +1102,7 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(329,86%,70%,1);
+  color: hsla(327,87%,82%,1);
   background-color: hsla(336,69%,30%,0.3);
   border: 0.5px solid hsla(333,71%,51%,1);
 }
@@ -1146,7 +1146,7 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(0,0%,64%,1);
+  color: hsla(0,0%,83%,1);
   background-color: hsla(0,0%,9%,0.3);
   border: 0.5px solid hsla(0,0%,32%,1);
 }
@@ -1190,7 +1190,7 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(213,94%,68%,1);
+  color: hsla(212,96%,78%,1);
   background-color: hsla(224,64%,33%,0.3);
   border: 0.5px solid hsla(221,83%,53%,1);
 }
@@ -1234,7 +1234,7 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(142,69%,58%,1);
+  color: hsla(142,77%,73%,1);
   background-color: hsla(144,61%,20%,0.3);
   border: 0.5px solid hsla(142,76%,36%,1);
 }
@@ -1278,7 +1278,7 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(43,96%,56%,1);
+  color: hsla(46,97%,65%,1);
   background-color: hsla(22,78%,26%,0.3);
   border: 0.5px solid hsla(32,95%,44%,1);
 }
@@ -1322,7 +1322,7 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(0,91%,71%,1);
+  color: hsla(0,94%,82%,1);
   background-color: hsla(0,63%,31%,0.3);
   border: 0.5px solid hsla(0,72%,51%,1);
 }
@@ -1524,7 +1524,7 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(270,95%,75%,1);
+  color: hsla(269,97%,85%,1);
   background-color: hsla(274,66%,32%,0.3);
   border: 0.5px solid hsla(271,81%,56%,1);
 }
@@ -1568,7 +1568,7 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(329,86%,70%,1);
+  color: hsla(327,87%,82%,1);
   background-color: hsla(336,69%,30%,0.3);
   border: 0.5px solid hsla(333,71%,51%,1);
 }
@@ -1612,7 +1612,7 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(0,0%,64%,1);
+  color: hsla(0,0%,83%,1);
   background-color: hsla(0,0%,9%,0.3);
   border: 0.5px solid hsla(0,0%,32%,1);
 }
@@ -1656,7 +1656,7 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(213,94%,68%,1);
+  color: hsla(212,96%,78%,1);
   background-color: hsla(224,64%,33%,0.3);
   border: 0.5px solid hsla(221,83%,53%,1);
 }
@@ -1700,7 +1700,7 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(142,69%,58%,1);
+  color: hsla(142,77%,73%,1);
   background-color: hsla(144,61%,20%,0.3);
   border: 0.5px solid hsla(142,76%,36%,1);
 }
@@ -1744,7 +1744,7 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(43,96%,56%,1);
+  color: hsla(46,97%,65%,1);
   background-color: hsla(22,78%,26%,0.3);
   border: 0.5px solid hsla(32,95%,44%,1);
 }
@@ -1788,7 +1788,7 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(0,91%,71%,1);
+  color: hsla(0,94%,82%,1);
   background-color: hsla(0,63%,31%,0.3);
   border: 0.5px solid hsla(0,72%,51%,1);
 }
@@ -2015,7 +2015,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c0::after {
@@ -2045,8 +2045,8 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(272,72%,47%,1);
 }
 
 .c1 {
@@ -2058,7 +2058,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c1::after {
@@ -2088,8 +2088,8 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(326,78%,95%,1);
-  background-color: hsla(333,71%,51%,1);
+  color: hsla(327,73%,97%,1);
+  background-color: hsla(335,78%,42%,1);
 }
 
 .c2 {
@@ -2101,7 +2101,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c2::after {
@@ -2131,8 +2131,8 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(0,0%,96%,1);
-  background-color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,98%,1);
+  background-color: hsla(0,0%,25%,1);
 }
 
 .c3 {
@@ -2144,7 +2144,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c3::after {
@@ -2174,8 +2174,8 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(214,95%,93%,1);
-  background-color: hsla(221,83%,53%,1);
+  color: hsla(214,100%,97%,1);
+  background-color: hsla(224,76%,48%,1);
 }
 
 .c4 {
@@ -2187,7 +2187,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c4::after {
@@ -2217,8 +2217,8 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(141,84%,93%,1);
-  background-color: hsla(142,76%,36%,1);
+  color: hsla(138,76%,97%,1);
+  background-color: hsla(142,72%,29%,1);
 }
 
 .c5 {
@@ -2230,7 +2230,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c5::after {
@@ -2260,8 +2260,8 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(48,96%,89%,1);
-  background-color: hsla(32,95%,44%,1);
+  color: hsla(48,100%,96%,1);
+  background-color: hsla(26,90%,37%,1);
 }
 
 .c6 {
@@ -2273,7 +2273,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c6::after {
@@ -2303,8 +2303,8 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(0,93%,94%,1);
-  background-color: hsla(0,72%,51%,1);
+  color: hsla(0,86%,97%,1);
+  background-color: hsla(0,74%,42%,1);
 }
 
 <body>
@@ -2474,7 +2474,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c0::after {
@@ -2504,8 +2504,8 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(272,72%,47%,1);
 }
 
 .c1 {
@@ -2517,7 +2517,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c1::after {
@@ -2547,8 +2547,8 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(326,78%,95%,1);
-  background-color: hsla(333,71%,51%,1);
+  color: hsla(327,73%,97%,1);
+  background-color: hsla(335,78%,42%,1);
 }
 
 .c2 {
@@ -2560,7 +2560,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c2::after {
@@ -2590,8 +2590,8 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(0,0%,96%,1);
-  background-color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,98%,1);
+  background-color: hsla(0,0%,25%,1);
 }
 
 .c3 {
@@ -2603,7 +2603,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c3::after {
@@ -2633,8 +2633,8 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(214,95%,93%,1);
-  background-color: hsla(221,83%,53%,1);
+  color: hsla(214,100%,97%,1);
+  background-color: hsla(224,76%,48%,1);
 }
 
 .c4 {
@@ -2646,7 +2646,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c4::after {
@@ -2676,8 +2676,8 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(141,84%,93%,1);
-  background-color: hsla(142,76%,36%,1);
+  color: hsla(138,76%,97%,1);
+  background-color: hsla(142,72%,29%,1);
 }
 
 .c5 {
@@ -2689,7 +2689,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c5::after {
@@ -2719,8 +2719,8 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(48,96%,89%,1);
-  background-color: hsla(32,95%,44%,1);
+  color: hsla(48,100%,96%,1);
+  background-color: hsla(26,90%,37%,1);
 }
 
 .c6 {
@@ -2732,7 +2732,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c6::after {
@@ -2762,8 +2762,8 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(0,93%,94%,1);
-  background-color: hsla(0,72%,51%,1);
+  color: hsla(0,86%,97%,1);
+  background-color: hsla(0,74%,42%,1);
 }
 
 <div>
@@ -2988,7 +2988,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c0::after {
@@ -3018,9 +3018,9 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(271,81%,56%,1);
-  background-color: hsla(270,100%,98%,1);
-  border: 0.5px solid hsla(269,97%,85%,1);
+  color: hsla(273,67%,39%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 0.5px solid hsla(271,81%,56%,1);
 }
 
 .c1 {
@@ -3032,7 +3032,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c1::after {
@@ -3062,9 +3062,9 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(333,71%,51%,1);
-  background-color: hsla(327,73%,97%,1);
-  border: 0.5px solid hsla(327,87%,82%,1);
+  color: hsla(336,74%,35%,1);
+  background-color: hsla(326,78%,95%,1);
+  border: 0.5px solid hsla(333,71%,51%,1);
 }
 
 .c2 {
@@ -3076,7 +3076,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c2::after {
@@ -3106,9 +3106,9 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(0,0%,32%,1);
-  background-color: hsla(0,0%,98%,1);
-  border: 0.5px solid hsla(0,0%,83%,1);
+  color: hsla(0,0%,15%,1);
+  background-color: hsla(0,0%,96%,1);
+  border: 0.5px solid hsla(0,0%,32%,1);
 }
 
 .c3 {
@@ -3120,7 +3120,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c3::after {
@@ -3150,9 +3150,9 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(221,83%,53%,1);
-  background-color: hsla(214,100%,97%,1);
-  border: 0.5px solid hsla(212,96%,78%,1);
+  color: hsla(226,71%,40%,1);
+  background-color: hsla(214,95%,93%,1);
+  border: 0.5px solid hsla(221,83%,53%,1);
 }
 
 .c4 {
@@ -3164,7 +3164,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c4::after {
@@ -3194,9 +3194,9 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(142,76%,36%,1);
-  background-color: hsla(138,76%,97%,1);
-  border: 0.5px solid hsla(142,77%,73%,1);
+  color: hsla(143,64%,24%,1);
+  background-color: hsla(141,84%,93%,1);
+  border: 0.5px solid hsla(142,76%,36%,1);
 }
 
 .c5 {
@@ -3208,7 +3208,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c5::after {
@@ -3238,9 +3238,9 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(32,95%,44%,1);
-  background-color: hsla(48,100%,96%,1);
-  border: 0.5px solid hsla(46,97%,65%,1);
+  color: hsla(23,83%,31%,1);
+  background-color: hsla(48,96%,89%,1);
+  border: 0.5px solid hsla(32,95%,44%,1);
 }
 
 .c6 {
@@ -3252,7 +3252,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c6::after {
@@ -3282,9 +3282,9 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(0,72%,51%,1);
-  background-color: hsla(0,86%,97%,1);
-  border: 0.5px solid hsla(0,94%,82%,1);
+  color: hsla(0,70%,35%,1);
+  background-color: hsla(0,93%,94%,1);
+  border: 0.5px solid hsla(0,72%,51%,1);
 }
 
 <body>
@@ -3454,7 +3454,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c0::after {
@@ -3484,9 +3484,9 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(271,81%,56%,1);
-  background-color: hsla(270,100%,98%,1);
-  border: 0.5px solid hsla(269,97%,85%,1);
+  color: hsla(273,67%,39%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 0.5px solid hsla(271,81%,56%,1);
 }
 
 .c1 {
@@ -3498,7 +3498,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c1::after {
@@ -3528,9 +3528,9 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(333,71%,51%,1);
-  background-color: hsla(327,73%,97%,1);
-  border: 0.5px solid hsla(327,87%,82%,1);
+  color: hsla(336,74%,35%,1);
+  background-color: hsla(326,78%,95%,1);
+  border: 0.5px solid hsla(333,71%,51%,1);
 }
 
 .c2 {
@@ -3542,7 +3542,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c2::after {
@@ -3572,9 +3572,9 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(0,0%,32%,1);
-  background-color: hsla(0,0%,98%,1);
-  border: 0.5px solid hsla(0,0%,83%,1);
+  color: hsla(0,0%,15%,1);
+  background-color: hsla(0,0%,96%,1);
+  border: 0.5px solid hsla(0,0%,32%,1);
 }
 
 .c3 {
@@ -3586,7 +3586,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c3::after {
@@ -3616,9 +3616,9 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(221,83%,53%,1);
-  background-color: hsla(214,100%,97%,1);
-  border: 0.5px solid hsla(212,96%,78%,1);
+  color: hsla(226,71%,40%,1);
+  background-color: hsla(214,95%,93%,1);
+  border: 0.5px solid hsla(221,83%,53%,1);
 }
 
 .c4 {
@@ -3630,7 +3630,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c4::after {
@@ -3660,9 +3660,9 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(142,76%,36%,1);
-  background-color: hsla(138,76%,97%,1);
-  border: 0.5px solid hsla(142,77%,73%,1);
+  color: hsla(143,64%,24%,1);
+  background-color: hsla(141,84%,93%,1);
+  border: 0.5px solid hsla(142,76%,36%,1);
 }
 
 .c5 {
@@ -3674,7 +3674,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c5::after {
@@ -3704,9 +3704,9 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(32,95%,44%,1);
-  background-color: hsla(48,100%,96%,1);
-  border: 0.5px solid hsla(46,97%,65%,1);
+  color: hsla(23,83%,31%,1);
+  background-color: hsla(48,96%,89%,1);
+  border: 0.5px solid hsla(32,95%,44%,1);
 }
 
 .c6 {
@@ -3718,7 +3718,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c6::after {
@@ -3748,9 +3748,9 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(0,72%,51%,1);
-  background-color: hsla(0,86%,97%,1);
-  border: 0.5px solid hsla(0,94%,82%,1);
+  color: hsla(0,70%,35%,1);
+  background-color: hsla(0,93%,94%,1);
+  border: 0.5px solid hsla(0,72%,51%,1);
 }
 
 <div>
@@ -3975,7 +3975,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c0::after {
@@ -4005,8 +4005,8 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(272,72%,47%,1);
 }
 
 <body>
@@ -4044,7 +4044,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c0::after {
@@ -4074,8 +4074,8 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(272,72%,47%,1);
 }
 
 <div>
@@ -4168,7 +4168,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 <body>
@@ -4207,7 +4207,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 <div>
@@ -4301,7 +4301,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c0::after {
@@ -4331,8 +4331,8 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(272,72%,47%,1);
 }
 
 <body>
@@ -4370,7 +4370,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c0::after {
@@ -4400,8 +4400,8 @@ Object {
   font-size: 0.625rem;
   overflow: hidden;
   white-space: nowrap;
-  color: hsla(269,100%,95%,1);
-  background-color: hsla(271,81%,56%,1);
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(272,72%,47%,1);
 }
 
 <div>

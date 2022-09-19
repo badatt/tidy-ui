@@ -1457,31 +1457,31 @@ Object {
 }
 
 .c1 {
-  color: hsla(271,81%,56%,1);
+  color: hsla(271,91%,65%,1);
 }
 
 .c2 {
-  color: hsla(333,71%,51%,1);
+  color: hsla(330,81%,60%,1);
 }
 
 .c3 {
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,45%,1);
 }
 
 .c4 {
-  color: hsla(221,83%,53%,1);
+  color: hsla(217,91%,60%,1);
 }
 
 .c5 {
-  color: hsla(142,76%,36%,1);
+  color: hsla(142,71%,45%,1);
 }
 
 .c6 {
-  color: hsla(32,95%,44%,1);
+  color: hsla(38,92%,50%,1);
 }
 
 .c7 {
-  color: hsla(0,72%,51%,1);
+  color: hsla(0,84%,60%,1);
 }
 
 <body>
@@ -1611,31 +1611,31 @@ Object {
 }
 
 .c1 {
-  color: hsla(271,81%,56%,1);
+  color: hsla(271,91%,65%,1);
 }
 
 .c2 {
-  color: hsla(333,71%,51%,1);
+  color: hsla(330,81%,60%,1);
 }
 
 .c3 {
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,45%,1);
 }
 
 .c4 {
-  color: hsla(221,83%,53%,1);
+  color: hsla(217,91%,60%,1);
 }
 
 .c5 {
-  color: hsla(142,76%,36%,1);
+  color: hsla(142,71%,45%,1);
 }
 
 .c6 {
-  color: hsla(32,95%,44%,1);
+  color: hsla(38,92%,50%,1);
 }
 
 .c7 {
-  color: hsla(0,72%,51%,1);
+  color: hsla(0,84%,60%,1);
 }
 
 <div>

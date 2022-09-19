@@ -3555,7 +3555,7 @@ Object {
   -ms-letter-spacing: 0.03333em;
   letter-spacing: 0.03333em;
   line-height: 1.66;
-  color: hsla(271,81%,56%,1);
+  color: hsla(271,91%,65%,1);
 }
 
 .c7 {
@@ -3568,7 +3568,7 @@ Object {
   -ms-letter-spacing: 0.03333em;
   letter-spacing: 0.03333em;
   line-height: 1.66;
-  color: hsla(333,71%,51%,1);
+  color: hsla(330,81%,60%,1);
 }
 
 .c9 {
@@ -3581,7 +3581,7 @@ Object {
   -ms-letter-spacing: 0.03333em;
   letter-spacing: 0.03333em;
   line-height: 1.66;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,45%,1);
 }
 
 .c11 {
@@ -3594,7 +3594,7 @@ Object {
   -ms-letter-spacing: 0.03333em;
   letter-spacing: 0.03333em;
   line-height: 1.66;
-  color: hsla(221,83%,53%,1);
+  color: hsla(217,91%,60%,1);
 }
 
 .c13 {
@@ -3607,7 +3607,7 @@ Object {
   -ms-letter-spacing: 0.03333em;
   letter-spacing: 0.03333em;
   line-height: 1.66;
-  color: hsla(142,76%,36%,1);
+  color: hsla(142,71%,45%,1);
 }
 
 .c15 {
@@ -3620,7 +3620,7 @@ Object {
   -ms-letter-spacing: 0.03333em;
   letter-spacing: 0.03333em;
   line-height: 1.66;
-  color: hsla(32,95%,44%,1);
+  color: hsla(38,92%,50%,1);
 }
 
 .c17 {
@@ -3633,7 +3633,7 @@ Object {
   -ms-letter-spacing: 0.03333em;
   letter-spacing: 0.03333em;
   line-height: 1.66;
-  color: hsla(0,72%,51%,1);
+  color: hsla(0,84%,60%,1);
 }
 
 <body>
@@ -4049,7 +4049,7 @@ Object {
   -ms-letter-spacing: 0.03333em;
   letter-spacing: 0.03333em;
   line-height: 1.66;
-  color: hsla(271,81%,56%,1);
+  color: hsla(271,91%,65%,1);
 }
 
 .c7 {
@@ -4062,7 +4062,7 @@ Object {
   -ms-letter-spacing: 0.03333em;
   letter-spacing: 0.03333em;
   line-height: 1.66;
-  color: hsla(333,71%,51%,1);
+  color: hsla(330,81%,60%,1);
 }
 
 .c9 {
@@ -4075,7 +4075,7 @@ Object {
   -ms-letter-spacing: 0.03333em;
   letter-spacing: 0.03333em;
   line-height: 1.66;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,45%,1);
 }
 
 .c11 {
@@ -4088,7 +4088,7 @@ Object {
   -ms-letter-spacing: 0.03333em;
   letter-spacing: 0.03333em;
   line-height: 1.66;
-  color: hsla(221,83%,53%,1);
+  color: hsla(217,91%,60%,1);
 }
 
 .c13 {
@@ -4101,7 +4101,7 @@ Object {
   -ms-letter-spacing: 0.03333em;
   letter-spacing: 0.03333em;
   line-height: 1.66;
-  color: hsla(142,76%,36%,1);
+  color: hsla(142,71%,45%,1);
 }
 
 .c15 {
@@ -4114,7 +4114,7 @@ Object {
   -ms-letter-spacing: 0.03333em;
   letter-spacing: 0.03333em;
   line-height: 1.66;
-  color: hsla(32,95%,44%,1);
+  color: hsla(38,92%,50%,1);
 }
 
 .c17 {
@@ -4127,7 +4127,7 @@ Object {
   -ms-letter-spacing: 0.03333em;
   letter-spacing: 0.03333em;
   line-height: 1.66;
-  color: hsla(0,72%,51%,1);
+  color: hsla(0,84%,60%,1);
 }
 
 <div>
