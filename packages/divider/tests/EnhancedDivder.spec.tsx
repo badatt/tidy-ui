@@ -8,8 +8,8 @@ import 'jest-styled-components';
 import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
 import { Divider } from '../src';
 import { Text } from '../../text/src';
-import { Density, Position, Variant } from '../src/types';
-import { Shade, Tone } from '../../types/src';
+import { Density, Position } from '../src/types';
+import { Shade, Tone, Border } from '../../types/src';
 
 const text = `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -117,13 +117,13 @@ describe('EnhancedDivider', () => {
   it('Variants', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
-        {Object.keys(Variant)
+        {Object.keys(Border)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
             <React.Fragment key={i}>
-              <Text.h6>variant={Variant[v]}</Text.h6>
+              <Text.h6>variant={Border[v]}</Text.h6>
               <Text.body1>{text}</Text.body1>
-              <Divider.Enhanced variant={Variant[v]}>
+              <Divider.Enhanced variant={Border[v]}>
                 <Text.caption>section {i}</Text.caption>
               </Divider.Enhanced>
             </React.Fragment>

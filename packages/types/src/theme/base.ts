@@ -349,3 +349,50 @@ export const Shade = [50, 100, 200, 300, 400, 500, 600, 700, 800, 900] as const;
  * @public
  */
 export type TShade = typeof Shade[number];
+
+/**
+ * Border type
+ */
+export enum Border {
+  'dashed',
+  'dotted',
+  'double',
+  'groove',
+  'hidden',
+  'ridge',
+  'solid',
+}
+
+/**
+ * Border type
+ *
+ * @typedef {TBorder}
+ * @public
+ */
+export type TBorder = keyof typeof Border;
+
+/**
+ * Positioning
+ */
+export enum Positioning {
+  'top-left',
+  'top-center',
+  'top-right',
+  'right-top',
+  'right-center',
+  'right-bottom',
+  'bottom-right',
+  'bottom-center',
+  'bottom-left',
+  'left-bottom',
+  'left-center',
+  'left-top',
+}
+
+/**
+ * Positioning type
+ *
+ * @typedef {TPositioning}
+ * @public
+ */
+export type TPositioning = keyof typeof Positioning;
