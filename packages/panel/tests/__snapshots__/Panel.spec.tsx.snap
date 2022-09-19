@@ -67,22 +67,25 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <i
+            class="c2"
             role="button"
-            style="height: 1.5em; width: 1.5em;"
           >
-            <svg
-              aria-hidden="true"
-              class="c2"
-              fill="currentColor"
-              focusable="false"
+            <i
               style="height: 1.5em; width: 1.5em;"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
             >
-              <path
-                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.5em; width: 1.5em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                />
+              </svg>
+            </i>
           </i>
         </div>
         <div
@@ -168,22 +171,25 @@ Object {
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
         <i
+          class="c2"
           role="button"
-          style="height: 1.5em; width: 1.5em;"
         >
-          <svg
-            aria-hidden="true"
-            class="c2"
-            fill="currentColor"
-            focusable="false"
+          <i
             style="height: 1.5em; width: 1.5em;"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
           >
-            <path
-              d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.5em; width: 1.5em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </i>
         </i>
       </div>
       <div
@@ -330,22 +336,25 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <i
+            class="c2"
             role="button"
-            style="height: 1.5em; width: 1.5em;"
           >
-            <svg
-              aria-hidden="true"
-              class="c2"
-              fill="currentColor"
-              focusable="false"
+            <i
               style="height: 1.5em; width: 1.5em;"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
             >
-              <path
-                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.5em; width: 1.5em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                />
+              </svg>
+            </i>
           </i>
         </div>
         <div
@@ -469,22 +478,25 @@ Object {
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
         <i
+          class="c2"
           role="button"
-          style="height: 1.5em; width: 1.5em;"
         >
-          <svg
-            aria-hidden="true"
-            class="c2"
-            fill="currentColor"
-            focusable="false"
+          <i
             style="height: 1.5em; width: 1.5em;"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
           >
-            <path
-              d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.5em; width: 1.5em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </i>
         </i>
       </div>
       <div
@@ -663,22 +675,25 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <i
+            class="c2"
             role="button"
-            style="height: 1.5em; width: 1.5em;"
           >
-            <svg
-              aria-hidden="true"
-              class="c2"
-              fill="currentColor"
-              focusable="false"
+            <i
               style="height: 1.5em; width: 1.5em;"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
             >
-              <path
-                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.5em; width: 1.5em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                />
+              </svg>
+            </i>
           </i>
         </div>
         <div
@@ -766,22 +781,25 @@ Object {
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
         <i
+          class="c2"
           role="button"
-          style="height: 1.5em; width: 1.5em;"
         >
-          <svg
-            aria-hidden="true"
-            class="c2"
-            fill="currentColor"
-            focusable="false"
+          <i
             style="height: 1.5em; width: 1.5em;"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
           >
-            <path
-              d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.5em; width: 1.5em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </i>
         </i>
       </div>
       <div
@@ -928,22 +946,25 @@ Object {
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </div>
           <i
+            class="c2"
             role="button"
-            style="height: 1.5em; width: 1.5em;"
           >
-            <svg
-              aria-hidden="true"
-              class="c2"
-              fill="currentColor"
-              focusable="false"
+            <i
               style="height: 1.5em; width: 1.5em;"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
             >
-              <path
-                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.5em; width: 1.5em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                />
+              </svg>
+            </i>
           </i>
         </div>
         <div
@@ -1033,22 +1054,25 @@ Object {
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </div>
         <i
+          class="c2"
           role="button"
-          style="height: 1.5em; width: 1.5em;"
         >
-          <svg
-            aria-hidden="true"
-            class="c2"
-            fill="currentColor"
-            focusable="false"
+          <i
             style="height: 1.5em; width: 1.5em;"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
           >
-            <path
-              d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.5em; width: 1.5em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </i>
         </i>
       </div>
       <div
@@ -1205,22 +1229,25 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <i
+            class="c2"
             role="button"
-            style="height: 1.5em; width: 1.5em;"
           >
-            <svg
-              aria-hidden="true"
-              class="c2"
-              fill="currentColor"
-              focusable="false"
+            <i
               style="height: 1.5em; width: 1.5em;"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
             >
-              <path
-                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.5em; width: 1.5em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                />
+              </svg>
+            </i>
           </i>
         </div>
         <div
@@ -1251,22 +1278,25 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <i
+            class="c2"
             role="button"
-            style="height: 1.5em; width: 1.5em;"
           >
-            <svg
-              aria-hidden="true"
-              class="c2"
-              fill="currentColor"
-              focusable="false"
+            <i
               style="height: 1.5em; width: 1.5em;"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
             >
-              <path
-                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.5em; width: 1.5em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                />
+              </svg>
+            </i>
           </i>
         </div>
         <div
@@ -1366,22 +1396,25 @@ Object {
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
         <i
+          class="c2"
           role="button"
-          style="height: 1.5em; width: 1.5em;"
         >
-          <svg
-            aria-hidden="true"
-            class="c2"
-            fill="currentColor"
-            focusable="false"
+          <i
             style="height: 1.5em; width: 1.5em;"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
           >
-            <path
-              d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.5em; width: 1.5em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </i>
         </i>
       </div>
       <div
@@ -1412,22 +1445,25 @@ Object {
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
         <i
+          class="c2"
           role="button"
-          style="height: 1.5em; width: 1.5em;"
         >
-          <svg
-            aria-hidden="true"
-            class="c2"
-            fill="currentColor"
-            focusable="false"
+          <i
             style="height: 1.5em; width: 1.5em;"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
           >
-            <path
-              d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.5em; width: 1.5em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </i>
         </i>
       </div>
       <div
@@ -1570,22 +1606,25 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <i
+            class="c2"
             role="button"
-            style="height: 1.5em; width: 1.5em;"
           >
-            <svg
-              aria-hidden="true"
-              class="c2"
-              fill="currentColor"
-              focusable="false"
+            <i
               style="height: 1.5em; width: 1.5em;"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
             >
-              <path
-                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.5em; width: 1.5em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                />
+              </svg>
+            </i>
           </i>
         </div>
         <div
@@ -1671,22 +1710,25 @@ Object {
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
         <i
+          class="c2"
           role="button"
-          style="height: 1.5em; width: 1.5em;"
         >
-          <svg
-            aria-hidden="true"
-            class="c2"
-            fill="currentColor"
-            focusable="false"
+          <i
             style="height: 1.5em; width: 1.5em;"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
           >
-            <path
-              d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.5em; width: 1.5em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </i>
         </i>
       </div>
       <div
@@ -1827,22 +1869,25 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <i
+            class="c2"
             role="button"
-            style="height: 1.5em; width: 1.5em;"
           >
-            <svg
-              aria-hidden="true"
-              class="c2"
-              fill="currentColor"
-              focusable="false"
+            <i
               style="height: 1.5em; width: 1.5em;"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
             >
-              <path
-                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
-              />
-            </svg>
+              <svg
+                aria-hidden="true"
+                fill="currentColor"
+                focusable="false"
+                style="height: 1.5em; width: 1.5em;"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                />
+              </svg>
+            </i>
           </i>
         </div>
         <div
@@ -1926,22 +1971,25 @@ Object {
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
         <i
+          class="c2"
           role="button"
-          style="height: 1.5em; width: 1.5em;"
         >
-          <svg
-            aria-hidden="true"
-            class="c2"
-            fill="currentColor"
-            focusable="false"
+          <i
             style="height: 1.5em; width: 1.5em;"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
           >
-            <path
-              d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
-            />
-          </svg>
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.5em; width: 1.5em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </i>
         </i>
       </div>
       <div

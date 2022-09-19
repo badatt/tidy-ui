@@ -50,7 +50,7 @@ const ChipRoot = styled.div<IChipProps>`
 
 /** @internal */
 const outlinedChipIconColor = (isDark: boolean, palette: IPalette, tone: TTone) =>
-  isDark ? palette[tone!][700] : palette[tone!][400];
+  isDark ? palette[tone][700] : palette[tone][400];
 
 const ChipIcon = styled.i<IChipProps>`
   height: 1.5em;
