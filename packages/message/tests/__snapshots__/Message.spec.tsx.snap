@@ -26,7 +26,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(221,83%,53%,1);
+  background-color: hsla(226,71%,40%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -46,8 +46,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(217,91%,60%,1);
   color: hsla(214,100%,97%,1);
+  background-color: hsla(224,76%,48%,1);
 }
 
 <body>
@@ -105,7 +105,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(221,83%,53%,1);
+  background-color: hsla(226,71%,40%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -125,8 +125,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(217,91%,60%,1);
   color: hsla(214,100%,97%,1);
+  background-color: hsla(224,76%,48%,1);
 }
 
 <div>
@@ -239,7 +239,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(221,83%,53%,1);
+  background-color: hsla(226,71%,40%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -259,8 +259,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(217,91%,60%,1);
   color: hsla(214,100%,97%,1);
+  background-color: hsla(224,76%,48%,1);
 }
 
 <body>
@@ -318,7 +318,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(221,83%,53%,1);
+  background-color: hsla(226,71%,40%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -338,8 +338,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(217,91%,60%,1);
   color: hsla(214,100%,97%,1);
+  background-color: hsla(224,76%,48%,1);
 }
 
 <div>
@@ -459,9 +459,9 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  color: hsla(221,83%,53%,1);
-  background-color: hsla(214,95%,93%,1);
-  border: 1px solid hsla(212,96%,78%,1);
+  color: hsla(224,76%,48%,1);
+  background-color: hsla(214,95%,93%,0.4);
+  border: 1px solid hsla(213,94%,68%,1);
   border-bottom: 0;
 }
 
@@ -481,9 +481,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(221,83%,53%,1);
-  background-color: hsla(214,100%,97%,1);
-  border: 1px solid hsla(212,96%,78%,1);
+  color: hsla(224,76%,48%,1);
+  border: 1px solid hsla(213,94%,68%,1);
 }
 
 <body>
@@ -569,9 +568,9 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  color: hsla(221,83%,53%,1);
-  background-color: hsla(214,95%,93%,1);
-  border: 1px solid hsla(212,96%,78%,1);
+  color: hsla(224,76%,48%,1);
+  background-color: hsla(214,95%,93%,0.4);
+  border: 1px solid hsla(213,94%,68%,1);
   border-bottom: 0;
 }
 
@@ -591,9 +590,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(221,83%,53%,1);
-  background-color: hsla(214,100%,97%,1);
-  border: 1px solid hsla(212,96%,78%,1);
+  color: hsla(224,76%,48%,1);
+  border: 1px solid hsla(213,94%,68%,1);
 }
 
 <div>
@@ -734,9 +732,9 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  color: hsla(213,94%,68%,1);
-  background-color: hsla(226,71%,40%,0.8);
-  border: 1px solid hsla(221,83%,53%,1);
+  color: hsla(212,96%,78%,1);
+  background-color: hsla(224,64%,33%,0.4);
+  border: 1px solid hsla(217,91%,60%,1);
   border-bottom: 0;
 }
 
@@ -756,9 +754,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(213,94%,68%,1);
-  background-color: hsla(224,64%,33%,0.3);
-  border: 1px solid hsla(221,83%,53%,1);
+  color: hsla(212,96%,78%,1);
+  border: 1px solid hsla(217,91%,60%,1);
 }
 
 <body>
@@ -844,9 +841,9 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  color: hsla(213,94%,68%,1);
-  background-color: hsla(226,71%,40%,0.8);
-  border: 1px solid hsla(221,83%,53%,1);
+  color: hsla(212,96%,78%,1);
+  background-color: hsla(224,64%,33%,0.4);
+  border: 1px solid hsla(217,91%,60%,1);
   border-bottom: 0;
 }
 
@@ -866,9 +863,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: hsla(213,94%,68%,1);
-  background-color: hsla(224,64%,33%,0.3);
-  border: 1px solid hsla(221,83%,53%,1);
+  color: hsla(212,96%,78%,1);
+  border: 1px solid hsla(217,91%,60%,1);
 }
 
 <div>
@@ -1014,7 +1010,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(221,83%,53%,1);
+  background-color: hsla(226,71%,40%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -1035,8 +1031,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(217,91%,60%,1);
   color: hsla(214,100%,97%,1);
+  background-color: hsla(224,76%,48%,1);
 }
 
 <body>
@@ -1127,7 +1123,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(221,83%,53%,1);
+  background-color: hsla(226,71%,40%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -1148,8 +1144,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(217,91%,60%,1);
   color: hsla(214,100%,97%,1);
+  background-color: hsla(224,76%,48%,1);
 }
 
 <div>
@@ -1287,7 +1283,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(221,83%,53%,1);
+  background-color: hsla(226,71%,40%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -1307,8 +1303,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(217,91%,60%,1);
   color: hsla(214,100%,97%,1);
+  background-color: hsla(224,76%,48%,1);
 }
 
 <body>
@@ -1370,7 +1366,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(221,83%,53%,1);
+  background-color: hsla(226,71%,40%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -1390,8 +1386,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(217,91%,60%,1);
   color: hsla(214,100%,97%,1);
+  background-color: hsla(224,76%,48%,1);
 }
 
 <div>
@@ -1504,7 +1500,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(271,81%,56%,1);
+  background-color: hsla(273,67%,39%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -1536,7 +1532,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(333,71%,51%,1);
+  background-color: hsla(336,74%,35%,1);
   color: hsla(327,73%,97%,1);
 }
 
@@ -1568,7 +1564,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(0,0%,32%,1);
+  background-color: hsla(0,0%,15%,1);
   color: hsla(0,0%,98%,1);
 }
 
@@ -1600,7 +1596,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(221,83%,53%,1);
+  background-color: hsla(226,71%,40%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -1632,7 +1628,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(142,76%,36%,1);
+  background-color: hsla(143,64%,24%,1);
   color: hsla(138,76%,97%,1);
 }
 
@@ -1664,7 +1660,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(32,95%,44%,1);
+  background-color: hsla(23,83%,31%,1);
   color: hsla(48,100%,96%,1);
 }
 
@@ -1696,7 +1692,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(0,72%,51%,1);
+  background-color: hsla(0,70%,35%,1);
   color: hsla(0,86%,97%,1);
 }
 
@@ -1716,8 +1712,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
   color: hsla(270,100%,98%,1);
+  background-color: hsla(272,72%,47%,1);
 }
 
 .c3 {
@@ -1731,8 +1727,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(330,81%,60%,1);
   color: hsla(327,73%,97%,1);
+  background-color: hsla(335,78%,42%,1);
 }
 
 .c5 {
@@ -1746,8 +1742,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(0,0%,45%,1);
   color: hsla(0,0%,98%,1);
+  background-color: hsla(0,0%,25%,1);
 }
 
 .c7 {
@@ -1761,8 +1757,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(217,91%,60%,1);
   color: hsla(214,100%,97%,1);
+  background-color: hsla(224,76%,48%,1);
 }
 
 .c9 {
@@ -1776,8 +1772,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(142,71%,45%,1);
   color: hsla(138,76%,97%,1);
+  background-color: hsla(142,72%,29%,1);
 }
 
 .c11 {
@@ -1791,8 +1787,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(38,92%,50%,1);
   color: hsla(48,100%,96%,1);
+  background-color: hsla(26,90%,37%,1);
 }
 
 .c13 {
@@ -1806,8 +1802,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(0,84%,60%,1);
   color: hsla(0,86%,97%,1);
+  background-color: hsla(0,74%,42%,1);
 }
 
 <body>
@@ -2000,7 +1996,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(271,81%,56%,1);
+  background-color: hsla(273,67%,39%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -2032,7 +2028,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(333,71%,51%,1);
+  background-color: hsla(336,74%,35%,1);
   color: hsla(327,73%,97%,1);
 }
 
@@ -2064,7 +2060,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(0,0%,32%,1);
+  background-color: hsla(0,0%,15%,1);
   color: hsla(0,0%,98%,1);
 }
 
@@ -2096,7 +2092,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(221,83%,53%,1);
+  background-color: hsla(226,71%,40%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -2128,7 +2124,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(142,76%,36%,1);
+  background-color: hsla(143,64%,24%,1);
   color: hsla(138,76%,97%,1);
 }
 
@@ -2160,7 +2156,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(32,95%,44%,1);
+  background-color: hsla(23,83%,31%,1);
   color: hsla(48,100%,96%,1);
 }
 
@@ -2192,7 +2188,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(0,72%,51%,1);
+  background-color: hsla(0,70%,35%,1);
   color: hsla(0,86%,97%,1);
 }
 
@@ -2212,8 +2208,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
   color: hsla(270,100%,98%,1);
+  background-color: hsla(272,72%,47%,1);
 }
 
 .c3 {
@@ -2227,8 +2223,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(330,81%,60%,1);
   color: hsla(327,73%,97%,1);
+  background-color: hsla(335,78%,42%,1);
 }
 
 .c5 {
@@ -2242,8 +2238,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(0,0%,45%,1);
   color: hsla(0,0%,98%,1);
+  background-color: hsla(0,0%,25%,1);
 }
 
 .c7 {
@@ -2257,8 +2253,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(217,91%,60%,1);
   color: hsla(214,100%,97%,1);
+  background-color: hsla(224,76%,48%,1);
 }
 
 .c9 {
@@ -2272,8 +2268,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(142,71%,45%,1);
   color: hsla(138,76%,97%,1);
+  background-color: hsla(142,72%,29%,1);
 }
 
 .c11 {
@@ -2287,8 +2283,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(38,92%,50%,1);
   color: hsla(48,100%,96%,1);
+  background-color: hsla(26,90%,37%,1);
 }
 
 .c13 {
@@ -2302,8 +2298,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(0,84%,60%,1);
   color: hsla(0,86%,97%,1);
+  background-color: hsla(0,74%,42%,1);
 }
 
 <div>
@@ -2551,7 +2547,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(221,83%,53%,1);
+  background-color: hsla(226,71%,40%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -2569,8 +2565,8 @@ Object {
   border-radius: 0.5rem;
   border-top-left-radius: 0;
   width: 100%;
-  background-color: hsla(217,91%,60%,1);
   color: hsla(214,100%,97%,1);
+  background-color: hsla(224,76%,48%,1);
 }
 
 <body>
@@ -2628,7 +2624,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(221,83%,53%,1);
+  background-color: hsla(226,71%,40%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -2646,8 +2642,8 @@ Object {
   border-radius: 0.5rem;
   border-top-left-radius: 0;
   width: 100%;
-  background-color: hsla(217,91%,60%,1);
   color: hsla(214,100%,97%,1);
+  background-color: hsla(224,76%,48%,1);
 }
 
 <div>
@@ -2760,7 +2756,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(271,81%,56%,1);
+  background-color: hsla(273,67%,39%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -2792,7 +2788,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(333,71%,51%,1);
+  background-color: hsla(336,74%,35%,1);
   color: hsla(327,73%,97%,1);
 }
 
@@ -2824,7 +2820,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(0,0%,32%,1);
+  background-color: hsla(0,0%,15%,1);
   color: hsla(0,0%,98%,1);
 }
 
@@ -2856,7 +2852,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(221,83%,53%,1);
+  background-color: hsla(226,71%,40%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -2888,7 +2884,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(142,76%,36%,1);
+  background-color: hsla(143,64%,24%,1);
   color: hsla(138,76%,97%,1);
 }
 
@@ -2920,7 +2916,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(32,95%,44%,1);
+  background-color: hsla(23,83%,31%,1);
   color: hsla(48,100%,96%,1);
 }
 
@@ -2952,7 +2948,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(0,72%,51%,1);
+  background-color: hsla(0,70%,35%,1);
   color: hsla(0,86%,97%,1);
 }
 
@@ -2972,8 +2968,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
   color: hsla(270,100%,98%,1);
+  background-color: hsla(272,72%,47%,1);
 }
 
 .c3 {
@@ -2987,8 +2983,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(330,81%,60%,1);
   color: hsla(327,73%,97%,1);
+  background-color: hsla(335,78%,42%,1);
 }
 
 .c5 {
@@ -3002,8 +2998,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(0,0%,45%,1);
   color: hsla(0,0%,98%,1);
+  background-color: hsla(0,0%,25%,1);
 }
 
 .c7 {
@@ -3017,8 +3013,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(217,91%,60%,1);
   color: hsla(214,100%,97%,1);
+  background-color: hsla(224,76%,48%,1);
 }
 
 .c9 {
@@ -3032,8 +3028,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(142,71%,45%,1);
   color: hsla(138,76%,97%,1);
+  background-color: hsla(142,72%,29%,1);
 }
 
 .c11 {
@@ -3047,8 +3043,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(38,92%,50%,1);
   color: hsla(48,100%,96%,1);
+  background-color: hsla(26,90%,37%,1);
 }
 
 .c13 {
@@ -3062,8 +3058,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(0,84%,60%,1);
   color: hsla(0,86%,97%,1);
+  background-color: hsla(0,74%,42%,1);
 }
 
 <body>
@@ -3256,7 +3252,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(271,81%,56%,1);
+  background-color: hsla(273,67%,39%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -3288,7 +3284,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(333,71%,51%,1);
+  background-color: hsla(336,74%,35%,1);
   color: hsla(327,73%,97%,1);
 }
 
@@ -3320,7 +3316,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(0,0%,32%,1);
+  background-color: hsla(0,0%,15%,1);
   color: hsla(0,0%,98%,1);
 }
 
@@ -3352,7 +3348,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(221,83%,53%,1);
+  background-color: hsla(226,71%,40%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -3384,7 +3380,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(142,76%,36%,1);
+  background-color: hsla(143,64%,24%,1);
   color: hsla(138,76%,97%,1);
 }
 
@@ -3416,7 +3412,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(32,95%,44%,1);
+  background-color: hsla(23,83%,31%,1);
   color: hsla(48,100%,96%,1);
 }
 
@@ -3448,7 +3444,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(0,72%,51%,1);
+  background-color: hsla(0,70%,35%,1);
   color: hsla(0,86%,97%,1);
 }
 
@@ -3468,8 +3464,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
   color: hsla(270,100%,98%,1);
+  background-color: hsla(272,72%,47%,1);
 }
 
 .c3 {
@@ -3483,8 +3479,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(330,81%,60%,1);
   color: hsla(327,73%,97%,1);
+  background-color: hsla(335,78%,42%,1);
 }
 
 .c5 {
@@ -3498,8 +3494,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(0,0%,45%,1);
   color: hsla(0,0%,98%,1);
+  background-color: hsla(0,0%,25%,1);
 }
 
 .c7 {
@@ -3513,8 +3509,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(217,91%,60%,1);
   color: hsla(214,100%,97%,1);
+  background-color: hsla(224,76%,48%,1);
 }
 
 .c9 {
@@ -3528,8 +3524,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(142,71%,45%,1);
   color: hsla(138,76%,97%,1);
+  background-color: hsla(142,72%,29%,1);
 }
 
 .c11 {
@@ -3543,8 +3539,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(38,92%,50%,1);
   color: hsla(48,100%,96%,1);
+  background-color: hsla(26,90%,37%,1);
 }
 
 .c13 {
@@ -3558,8 +3554,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(0,84%,60%,1);
   color: hsla(0,86%,97%,1);
+  background-color: hsla(0,74%,42%,1);
 }
 
 <div>
@@ -3814,7 +3810,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(221,83%,53%,1);
+  background-color: hsla(226,71%,40%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -3834,8 +3830,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(217,91%,60%,1);
   color: hsla(214,100%,97%,1);
+  background-color: hsla(224,76%,48%,1);
 }
 
 <body>
@@ -3921,7 +3917,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(221,83%,53%,1);
+  background-color: hsla(226,71%,40%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -3941,8 +3937,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(217,91%,60%,1);
   color: hsla(214,100%,97%,1);
+  background-color: hsla(224,76%,48%,1);
 }
 
 <div>
@@ -4076,7 +4072,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(221,83%,53%,1);
+  background-color: hsla(226,71%,40%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -4096,8 +4092,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(217,91%,60%,1);
   color: hsla(214,100%,97%,1);
+  background-color: hsla(224,76%,48%,1);
 }
 
 <body>
@@ -4159,7 +4155,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(221,83%,53%,1);
+  background-color: hsla(226,71%,40%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -4179,8 +4175,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(217,91%,60%,1);
   color: hsla(214,100%,97%,1);
+  background-color: hsla(224,76%,48%,1);
 }
 
 <div>
@@ -4284,8 +4280,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(217,91%,60%,1);
   color: hsla(214,100%,97%,1);
+  background-color: hsla(224,76%,48%,1);
 }
 
 <body>
@@ -4314,8 +4310,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(217,91%,60%,1);
   color: hsla(214,100%,97%,1);
+  background-color: hsla(224,76%,48%,1);
 }
 
 <div>
@@ -4410,7 +4406,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(221,83%,53%,1);
+  background-color: hsla(226,71%,40%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -4429,8 +4425,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(217,91%,60%,1);
   color: hsla(214,100%,97%,1);
+  background-color: hsla(224,76%,48%,1);
 }
 
 <body>
@@ -4486,7 +4482,7 @@ Object {
   font-size: 0.625rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: hsla(221,83%,53%,1);
+  background-color: hsla(226,71%,40%,1);
   color: hsla(214,100%,97%,1);
 }
 
@@ -4505,8 +4501,8 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(217,91%,60%,1);
   color: hsla(214,100%,97%,1);
+  background-color: hsla(224,76%,48%,1);
 }
 
 <div>

@@ -12,9 +12,8 @@ Object {
   -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
-  border: 1px solid hsla(0,0%,64%,1);
+  border: 1px solid hsla(215,20%,65%,1);
   border-radius: 0.5rem;
-  background-color: hsla(0,0%,98%,1);
 }
 
 .c1 {
@@ -36,7 +35,9 @@ Object {
 }
 
 .c2 {
-  color: hsla(0,0%,25%,1);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
 }
@@ -113,9 +114,8 @@ Object {
   -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
-  border: 1px solid hsla(0,0%,64%,1);
+  border: 1px solid hsla(215,20%,65%,1);
   border-radius: 0.5rem;
-  background-color: hsla(0,0%,98%,1);
 }
 
 .c1 {
@@ -137,7 +137,9 @@ Object {
 }
 
 .c2 {
-  color: hsla(0,0%,25%,1);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
 }
@@ -269,9 +271,8 @@ Object {
   -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
-  border: 1px solid hsla(0,0%,64%,1);
+  border: 1px solid hsla(215,20%,65%,1);
   border-radius: 0.5rem;
-  background-color: hsla(0,0%,98%,1);
 }
 
 .c1 {
@@ -293,7 +294,9 @@ Object {
 }
 
 .c2 {
-  color: hsla(0,0%,25%,1);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
 }
@@ -408,9 +411,8 @@ Object {
   -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
-  border: 1px solid hsla(0,0%,64%,1);
+  border: 1px solid hsla(215,20%,65%,1);
   border-radius: 0.5rem;
-  background-color: hsla(0,0%,98%,1);
 }
 
 .c1 {
@@ -432,7 +434,9 @@ Object {
 }
 
 .c2 {
-  color: hsla(0,0%,25%,1);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
 }
@@ -603,9 +607,8 @@ Object {
   flex-direction: column;
   width: 100%;
   width: 30rem;
-  border: 1px solid hsla(0,0%,64%,1);
+  border: 1px solid hsla(215,20%,65%,1);
   border-radius: 0.5rem;
-  background-color: hsla(0,0%,98%,1);
 }
 
 .c1 {
@@ -627,7 +630,9 @@ Object {
 }
 
 .c2 {
-  color: hsla(0,0%,25%,1);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
 }
@@ -706,9 +711,8 @@ Object {
   flex-direction: column;
   width: 100%;
   width: 30rem;
-  border: 1px solid hsla(0,0%,64%,1);
+  border: 1px solid hsla(215,20%,65%,1);
   border-radius: 0.5rem;
-  background-color: hsla(0,0%,98%,1);
 }
 
 .c1 {
@@ -730,7 +734,9 @@ Object {
 }
 
 .c2 {
-  color: hsla(0,0%,25%,1);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
 }
@@ -863,9 +869,8 @@ Object {
   -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
-  border: 1px solid hsla(0,0%,64%,1);
+  border: 1px solid hsla(215,20%,65%,1);
   border-radius: 0.5rem;
-  background-color: hsla(0,0%,98%,1);
 }
 
 .c1 {
@@ -887,7 +892,9 @@ Object {
 }
 
 .c2 {
-  color: hsla(0,0%,25%,1);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
 }
@@ -968,9 +975,8 @@ Object {
   -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
-  border: 1px solid hsla(0,0%,64%,1);
+  border: 1px solid hsla(215,20%,65%,1);
   border-radius: 0.5rem;
-  background-color: hsla(0,0%,98%,1);
 }
 
 .c1 {
@@ -992,7 +998,9 @@ Object {
 }
 
 .c2 {
-  color: hsla(0,0%,25%,1);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
 }
@@ -1129,9 +1137,8 @@ Object {
   flex-direction: column;
   width: 100%;
   margin: 0 0 1rem 0;
-  border: 1px solid hsla(0,0%,64%,1);
+  border: 1px solid hsla(215,20%,65%,1);
   border-radius: 0.5rem;
-  background-color: hsla(0,0%,98%,1);
 }
 
 .c4 {
@@ -1143,9 +1150,8 @@ Object {
   -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
-  border: 1px solid hsla(0,0%,64%,1);
+  border: 1px solid hsla(215,20%,65%,1);
   border-radius: 0.5rem;
-  background-color: hsla(0,0%,98%,1);
 }
 
 .c1 {
@@ -1167,7 +1173,9 @@ Object {
 }
 
 .c2 {
-  color: hsla(0,0%,25%,1);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
 }
@@ -1291,9 +1299,8 @@ Object {
   flex-direction: column;
   width: 100%;
   margin: 0 0 1rem 0;
-  border: 1px solid hsla(0,0%,64%,1);
+  border: 1px solid hsla(215,20%,65%,1);
   border-radius: 0.5rem;
-  background-color: hsla(0,0%,98%,1);
 }
 
 .c4 {
@@ -1305,9 +1312,8 @@ Object {
   -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
-  border: 1px solid hsla(0,0%,64%,1);
+  border: 1px solid hsla(215,20%,65%,1);
   border-radius: 0.5rem;
-  background-color: hsla(0,0%,98%,1);
 }
 
 .c1 {
@@ -1329,7 +1335,9 @@ Object {
 }
 
 .c2 {
-  color: hsla(0,0%,25%,1);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
 }
@@ -1507,9 +1515,8 @@ Object {
   -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
-  border: 1px solid hsla(0,0%,25%,1);
+  border: 1px solid hsla(215,19%,35%,1);
   border-radius: 0.5rem;
-  background-color: hsla(0,0%,9%,0.3);
 }
 
 .c1 {
@@ -1531,7 +1538,9 @@ Object {
 }
 
 .c2 {
-  color: hsla(0,0%,45%,1);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
 }
@@ -1608,9 +1617,8 @@ Object {
   -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
-  border: 1px solid hsla(0,0%,25%,1);
+  border: 1px solid hsla(215,19%,35%,1);
   border-radius: 0.5rem;
-  background-color: hsla(0,0%,9%,0.3);
 }
 
 .c1 {
@@ -1632,7 +1640,264 @@ Object {
 }
 
 .c2 {
-  color: hsla(0,0%,45%,1);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+}
+
+.c3 {
+  display: block;
+  padding: 0rem 1rem;
+  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  visibility: visible;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  padding-bottom: 0;
+  height: 0;
+}
+
+<div>
+    <div
+      class="c0"
+      role="article"
+    >
+      <div
+        class="c1"
+        role="heading"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <i
+          role="button"
+          style="height: 1.5em; width: 1.5em;"
+        >
+          <svg
+            aria-hidden="true"
+            class="c2"
+            fill="currentColor"
+            focusable="false"
+            style="height: 1.5em; width: 1.5em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+            />
+          </svg>
+        </i>
+      </div>
+      <div
+        class="c3"
+        role="presentation"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
+          itaque quos earum! Ex, neque, unde officia accusamus necessitatibus, quas incidunt architecto a impedit ut
+          ullam. Veritatis saepe placeat ipsum aliquid laudantium quod, reprehenderit recusandae quas mollitia pariatur?
+          Eos dolorum numquam voluptatum sapiente, accusantium voluptate animi odio tempora totam reprehenderit adipisci
+          nulla praesentium exercitationem architecto quaerat. Explicabo quis dolores incidunt. Animi obcaecati quis
+          pariatur minus, non praesentium. Voluptatum magnam laborum nemo molestias amet architecto, maiores blanditiis
+          omnis sunt quae similique aliquid delectus est animi eligendi voluptate? Nulla voluptatum excepturi, tempora
+          voluptates cum dolore facere, ducimus officiis ut dolores vero necessitatibus numquam aliquam sapiente ab
+          eligendi, alias provident beatae tempore iure itaque possimus. Ullam dignissimos explicabo eum. Provident
+          architecto ipsum, nobis explicabo repudiandae quaerat nemo deleniti asperiores ex voluptatibus reprehenderit
+          cumque fugit non quos doloribus reiciendis nihil. Omnis cupiditate vel iure placeat cumque repellat
+          necessitatibus voluptate qui!
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Panel No border 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 1rem 1rem;
+}
+
+.c2 {
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+}
+
+.c3 {
+  display: block;
+  padding: 0rem 1rem;
+  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  visibility: visible;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  padding-bottom: 0;
+  height: 0;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+        role="article"
+      >
+        <div
+          class="c1"
+          role="heading"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          <i
+            role="button"
+            style="height: 1.5em; width: 1.5em;"
+          >
+            <svg
+              aria-hidden="true"
+              class="c2"
+              fill="currentColor"
+              focusable="false"
+              style="height: 1.5em; width: 1.5em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+            </svg>
+          </i>
+        </div>
+        <div
+          class="c3"
+          role="presentation"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
+          itaque quos earum! Ex, neque, unde officia accusamus necessitatibus, quas incidunt architecto a impedit ut
+          ullam. Veritatis saepe placeat ipsum aliquid laudantium quod, reprehenderit recusandae quas mollitia pariatur?
+          Eos dolorum numquam voluptatum sapiente, accusantium voluptate animi odio tempora totam reprehenderit adipisci
+          nulla praesentium exercitationem architecto quaerat. Explicabo quis dolores incidunt. Animi obcaecati quis
+          pariatur minus, non praesentium. Voluptatum magnam laborum nemo molestias amet architecto, maiores blanditiis
+          omnis sunt quae similique aliquid delectus est animi eligendi voluptate? Nulla voluptatum excepturi, tempora
+          voluptates cum dolore facere, ducimus officiis ut dolores vero necessitatibus numquam aliquam sapiente ab
+          eligendi, alias provident beatae tempore iure itaque possimus. Ullam dignissimos explicabo eum. Provident
+          architecto ipsum, nobis explicabo repudiandae quaerat nemo deleniti asperiores ex voluptatibus reprehenderit
+          cumque fugit non quos doloribus reiciendis nihil. Omnis cupiditate vel iure placeat cumque repellat
+          necessitatibus voluptate qui!
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 1rem 1rem;
+}
+
+.c2 {
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
 }

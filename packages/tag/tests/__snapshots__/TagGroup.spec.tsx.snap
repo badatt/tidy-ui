@@ -23,7 +23,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -47,7 +47,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -71,7 +71,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -95,7 +95,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
   cursor: not-allowed;
   opacity: 0.5;
@@ -121,7 +121,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
   gap: 0.25rem;
 }
@@ -269,7 +269,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -293,7 +293,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -317,7 +317,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -341,7 +341,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
   cursor: not-allowed;
   opacity: 0.5;
@@ -367,7 +367,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
   gap: 0.25rem;
 }
@@ -570,7 +570,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -594,7 +594,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -618,7 +618,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -642,7 +642,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
   cursor: not-allowed;
   opacity: 0.5;
@@ -668,7 +668,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
   gap: 0.25rem;
 }
@@ -818,7 +818,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -842,7 +842,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -866,7 +866,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
 }
 
@@ -890,7 +890,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
   cursor: not-allowed;
   opacity: 0.5;
@@ -916,7 +916,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
   gap: 0.25rem;
 }
@@ -1121,7 +1121,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
   gap: 0.25rem;
 }
@@ -1296,7 +1296,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
   gap: 0.25rem;
 }
@@ -1526,7 +1526,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
   gap: 0.25rem;
 }
@@ -1701,7 +1701,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
   gap: 0.25rem;
 }
@@ -1931,7 +1931,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
   gap: 0.25rem;
 }
@@ -2106,7 +2106,7 @@ Object {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  background-color: hsla(271,91%,65%,1);
+  background-color: hsla(272,72%,47%,1);
   color: hsla(270,100%,98%,1);
   gap: 0.25rem;
 }
