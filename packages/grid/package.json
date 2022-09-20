@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/grid",
-  "version": "0.13.1",
+  "version": "0.13.2",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:grid",
@@ -13,7 +13,7 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/commons": "^0.13.1"
+    "@tidy-ui/commons": "^0.13.2"
   },
   "peerDependencies": {
     "react": "^18.0.0",
