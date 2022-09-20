@@ -1,9 +1,9 @@
 {
-  "name": "@tidy-ui/chip",
-  "version": "0.13.1",
+  "name": "@tidy-ui/border",
+  "version": "0.0.0",
   "readme": "README.md",
   "scripts": {
-    "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:chip",
+    "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:border",
     "build:md": "markdown-include ../../.markdown.json",
     "clean": "rimraf -rf dist && rimraf -rf build",
     "postinstall": "rm -rf node_modules/@types/react-native",
@@ -53,9 +53,10 @@
     "react-ui",
     "components",
     "ui",
-    "ui-components"
+    "ui-components",
+    "border"
   ],
-  "description": "Chip component can be used to display a badge to highlight a state. It comes with various sizes, tones. It can embed an icon, make it clickable & create an outlined variant",
+  "description": "Border component can be used to highlight border of a single component or a collection of them. You can add a descriptor inside the border at various positioning.",
   "publishConfig": {
     "access": "public"
   },
