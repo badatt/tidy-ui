@@ -10,7 +10,7 @@ import { IBorderProps } from './types';
 const Border = React.forwardRef<HTMLDivElement, IBorderProps>((props, ref) => {
   const { children, className, content, ...rest } = props;
   return (
-    <BorderRoot ref={ref} role="border" className={className} {...rest}>
+    <BorderRoot ref={ref} role="presentation" className={className} {...rest}>
       {content && <BorderContent {...rest}>{content}</BorderContent>}
       {children}
     </BorderRoot>
