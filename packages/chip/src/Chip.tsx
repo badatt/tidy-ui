@@ -8,9 +8,9 @@ import { IChipProps } from './types';
  * create an outlined variant
  */
 const Chip = React.forwardRef<HTMLDivElement, IChipProps>((props, ref) => {
-  const { children, icon, ...rest } = props;
+  const { children, className, icon, ...rest } = props;
   return (
-    <ChipRoot ref={ref} role="chip" {...rest} icon={icon}>
+    <ChipRoot ref={ref} role="status" className={className} {...rest} icon={icon}>
       {icon && <ChipIcon {...rest}>{icon}</ChipIcon>}
       {children}
     </ChipRoot>
