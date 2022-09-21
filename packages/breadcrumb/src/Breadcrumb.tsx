@@ -15,7 +15,7 @@ interface BreadcrumbComponent
  * limited to desired number of items, powered by theming
  */
 const Breadcrumb = React.forwardRef<HTMLOListElement, IBreadcrumbProps>((props, ref) => {
-  const { children, className, limit, separator, onExpand, ...rest } = props;
+  const { children, className, limit, separator, onExpand, noActive, ...rest } = props;
   const childrenArray = React.Children.toArray(children);
   const [expanded, setExpanded] = React.useState(childrenArray.length > limit! ? false : true);
 
@@ -29,6 +29,10 @@ const Breadcrumb = React.forwardRef<HTMLOListElement, IBreadcrumbProps>((props, 
   const renderChildren = React.useCallback(
     (items: Array<Exclude<React.ReactNode, boolean | null | undefined>>) => {
       return React.Children.map(items, (c, i) => {
+        if (i == items.length - 1) {
+          const ele = c as React.ReactElement;
+          c = React.cloneElement(ele, { ...ele.props, active: !noActive });
+        }
         const childNode = <BreadcrumbItemWrapper {...rest}>{c}</BreadcrumbItemWrapper>;
         return [childNode, i < items.length - 1 ? renderSeparator() : null];
       });
@@ -58,6 +62,7 @@ const Breadcrumb = React.forwardRef<HTMLOListElement, IBreadcrumbProps>((props, 
 }) as BreadcrumbComponent;
 
 Breadcrumb.defaultProps = {
+  noActive: false,
   separator: '/',
   tone: 'major',
 };

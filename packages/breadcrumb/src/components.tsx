@@ -12,20 +12,34 @@ const BreadcrumbItemWrapper = styled.li<IBreadCrumbItemWrapperProps>`
   `}
 `;
 
+const activeItemStyle = css<IBreadcrumbItemProps>`
+  ${({ theme: { palette, isDark } }) => css`
+    text-decoration: none;
+    cursor: auto;
+    pointer-events: none;
+    color: ${isDark ? palette.neutral[400] : palette.neutral[700]};
+  `}
+`;
+
+const inactiveItemStyle = css<IBreadcrumbItemProps>`
+  cursor: pointer;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  transition: background-size 0.2s ease-in-out;
+  &:hover,
+  &:focus {
+    background-size: 100% 0.1em;
+  }
+`;
+
 const BreadcrumbItemRoot = styled.a<IBreadcrumbItemProps>`
-  ${({ theme: { typography, palette, isDark }, active }) => css`
+  ${({ theme: { typography }, active }) => css`
     font-size: ${typography.fontSize};
-    ${active
-      ? css`
-          text-decoration: none;
-          cursor: auto;
-          pointer-events: none;
-          color: ${isDark ? palette.neutral[400] : palette.neutral[700]};
-        `
-      : css`
-          cursor: pointer;
-          text-decoration: underline;
-        `}
+    ${active ? activeItemStyle : inactiveItemStyle}
   `}
 `;
 

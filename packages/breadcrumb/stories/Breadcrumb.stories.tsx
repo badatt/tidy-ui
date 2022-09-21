@@ -46,16 +46,16 @@ export const tones = () => (
   </FlexBox>
 );
 
-export const activeItem = () => (
-  <Breadcrumb>
+export const manualActive = () => (
+  <Breadcrumb noActive>
     <Breadcrumb.Item href="#">link 1</Breadcrumb.Item>
     <Breadcrumb.Item href="#">link 2</Breadcrumb.Item>
     <Breadcrumb.Item href="#">link 3</Breadcrumb.Item>
-    <Breadcrumb.Item href="#">link 4</Breadcrumb.Item>
-    <Breadcrumb.Item href="#">link 5</Breadcrumb.Item>
     <Breadcrumb.Item href="#" active>
-      active item
+      link 4
     </Breadcrumb.Item>
+    <Breadcrumb.Item href="#">link 5</Breadcrumb.Item>
+    <Breadcrumb.Item href="#">item 6</Breadcrumb.Item>
   </Breadcrumb>
 );
 

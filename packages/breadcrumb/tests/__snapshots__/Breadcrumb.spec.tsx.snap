@@ -1,0 +1,3525 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumb Basic render 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.c1 {
+  color: hsla(271,81%,56%,1);
+}
+
+.c2 {
+  font-size: 0.875rem;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c2:hover,
+.c2:focus {
+  background-size: 100% 0.1em;
+}
+
+.c4 {
+  font-size: 0.875rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: auto;
+  pointer-events: none;
+  color: hsla(0,0%,25%,1);
+}
+
+.c3 {
+  color: hsla(0,0%,45%,1);
+}
+
+<body>
+    <div>
+      <ol
+        class="c0"
+        role="list"
+      >
+        <li
+          class="c1"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 1
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c1"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 2
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c1"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 3
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c1"
+        >
+          <a
+            class="c4"
+            href="#"
+            role="link"
+          >
+            link 4
+          </a>
+        </li>
+      </ol>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.c1 {
+  color: hsla(271,81%,56%,1);
+}
+
+.c2 {
+  font-size: 0.875rem;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c2:hover,
+.c2:focus {
+  background-size: 100% 0.1em;
+}
+
+.c4 {
+  font-size: 0.875rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: auto;
+  pointer-events: none;
+  color: hsla(0,0%,25%,1);
+}
+
+.c3 {
+  color: hsla(0,0%,45%,1);
+}
+
+<div>
+    <ol
+      class="c0"
+      role="list"
+    >
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 1
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 2
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 3
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c1"
+      >
+        <a
+          class="c4"
+          href="#"
+          role="link"
+        >
+          link 4
+        </a>
+      </li>
+    </ol>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Breadcrumb Custom expanded 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.c1 {
+  color: hsla(271,81%,56%,1);
+}
+
+.c2 {
+  font-size: 0.875rem;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c2:hover,
+.c2:focus {
+  background-size: 100% 0.1em;
+}
+
+.c4 {
+  font-size: 0.875rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: auto;
+  pointer-events: none;
+  color: hsla(0,0%,25%,1);
+}
+
+.c3 {
+  color: hsla(0,0%,45%,1);
+}
+
+<body>
+    <div>
+      <ol
+        class="c0"
+        role="list"
+      >
+        <li
+          class="c1"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 1
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c1"
+        >
+          <a
+            class="c2"
+            role="link"
+          >
+            ...
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c1"
+        >
+          <a
+            class="c4"
+            href="#"
+            role="link"
+          >
+            link 6
+          </a>
+        </li>
+      </ol>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.c1 {
+  color: hsla(271,81%,56%,1);
+}
+
+.c2 {
+  font-size: 0.875rem;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c2:hover,
+.c2:focus {
+  background-size: 100% 0.1em;
+}
+
+.c4 {
+  font-size: 0.875rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: auto;
+  pointer-events: none;
+  color: hsla(0,0%,25%,1);
+}
+
+.c3 {
+  color: hsla(0,0%,45%,1);
+}
+
+<div>
+    <ol
+      class="c0"
+      role="list"
+    >
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 1
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          role="link"
+        >
+          ...
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c1"
+      >
+        <a
+          class="c4"
+          href="#"
+          role="link"
+        >
+          link 6
+        </a>
+      </li>
+    </ol>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Breadcrumb Custom separator 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c3 {
+  border-color: hsla(0,0%,45%,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-style: solid;
+  margin: 0 0.5rem;
+  border-width: 0px thin 0px 0px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.c1 {
+  color: hsla(271,81%,56%,1);
+}
+
+.c2 {
+  font-size: 0.875rem;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c2:hover,
+.c2:focus {
+  background-size: 100% 0.1em;
+}
+
+.c4 {
+  font-size: 0.875rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: auto;
+  pointer-events: none;
+  color: hsla(0,0%,25%,1);
+}
+
+<body>
+    <div>
+      <ol
+        class="c0"
+        role="list"
+      >
+        <li
+          class="c1"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 1
+          </a>
+        </li>
+        <hr
+          class="c3"
+          role="separator"
+        />
+        <li
+          class="c1"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 2
+          </a>
+        </li>
+        <hr
+          class="c3"
+          role="separator"
+        />
+        <li
+          class="c1"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 3
+          </a>
+        </li>
+        <hr
+          class="c3"
+          role="separator"
+        />
+        <li
+          class="c1"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 4
+          </a>
+        </li>
+        <hr
+          class="c3"
+          role="separator"
+        />
+        <li
+          class="c1"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 5
+          </a>
+        </li>
+        <hr
+          class="c3"
+          role="separator"
+        />
+        <li
+          class="c1"
+        >
+          <a
+            class="c4"
+            href="#"
+            role="link"
+          >
+            active item
+          </a>
+        </li>
+      </ol>
+    </div>
+  </body>,
+  "container": .c3 {
+  border-color: hsla(0,0%,45%,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-style: solid;
+  margin: 0 0.5rem;
+  border-width: 0px thin 0px 0px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.c1 {
+  color: hsla(271,81%,56%,1);
+}
+
+.c2 {
+  font-size: 0.875rem;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c2:hover,
+.c2:focus {
+  background-size: 100% 0.1em;
+}
+
+.c4 {
+  font-size: 0.875rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: auto;
+  pointer-events: none;
+  color: hsla(0,0%,25%,1);
+}
+
+<div>
+    <ol
+      class="c0"
+      role="list"
+    >
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 1
+        </a>
+      </li>
+      <hr
+        class="c3"
+        role="separator"
+      />
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 2
+        </a>
+      </li>
+      <hr
+        class="c3"
+        role="separator"
+      />
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 3
+        </a>
+      </li>
+      <hr
+        class="c3"
+        role="separator"
+      />
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 4
+        </a>
+      </li>
+      <hr
+        class="c3"
+        role="separator"
+      />
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 5
+        </a>
+      </li>
+      <hr
+        class="c3"
+        role="separator"
+      />
+      <li
+        class="c1"
+      >
+        <a
+          class="c4"
+          href="#"
+          role="link"
+        >
+          active item
+        </a>
+      </li>
+    </ol>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Breadcrumb Dark mode basic render 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.c1 {
+  color: hsla(271,91%,65%,1);
+}
+
+.c2 {
+  font-size: 0.875rem;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c2:hover,
+.c2:focus {
+  background-size: 100% 0.1em;
+}
+
+.c4 {
+  font-size: 0.875rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: auto;
+  pointer-events: none;
+  color: hsla(0,0%,64%,1);
+}
+
+.c3 {
+  color: hsla(0,0%,45%,1);
+}
+
+<body>
+    <div>
+      <ol
+        class="c0"
+        role="list"
+      >
+        <li
+          class="c1"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 1
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c1"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 2
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c1"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 3
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c1"
+        >
+          <a
+            class="c4"
+            href="#"
+            role="link"
+          >
+            link 4
+          </a>
+        </li>
+      </ol>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.c1 {
+  color: hsla(271,91%,65%,1);
+}
+
+.c2 {
+  font-size: 0.875rem;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c2:hover,
+.c2:focus {
+  background-size: 100% 0.1em;
+}
+
+.c4 {
+  font-size: 0.875rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: auto;
+  pointer-events: none;
+  color: hsla(0,0%,64%,1);
+}
+
+.c3 {
+  color: hsla(0,0%,45%,1);
+}
+
+<div>
+    <ol
+      class="c0"
+      role="list"
+    >
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 1
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 2
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 3
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c1"
+      >
+        <a
+          class="c4"
+          href="#"
+          role="link"
+        >
+          link 4
+        </a>
+      </li>
+    </ol>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Breadcrumb Expanded 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.c1 {
+  color: hsla(271,81%,56%,1);
+}
+
+.c2 {
+  font-size: 0.875rem;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c2:hover,
+.c2:focus {
+  background-size: 100% 0.1em;
+}
+
+.c4 {
+  font-size: 0.875rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: auto;
+  pointer-events: none;
+  color: hsla(0,0%,25%,1);
+}
+
+.c3 {
+  color: hsla(0,0%,45%,1);
+}
+
+<body>
+    <div>
+      <ol
+        class="c0"
+        role="list"
+      >
+        <li
+          class="c1"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 1
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c1"
+        >
+          <a
+            class="c2"
+            role="link"
+          >
+            ...
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c1"
+        >
+          <a
+            class="c4"
+            href="#"
+            role="link"
+          >
+            link 6
+          </a>
+        </li>
+      </ol>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.c1 {
+  color: hsla(271,81%,56%,1);
+}
+
+.c2 {
+  font-size: 0.875rem;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c2:hover,
+.c2:focus {
+  background-size: 100% 0.1em;
+}
+
+.c4 {
+  font-size: 0.875rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: auto;
+  pointer-events: none;
+  color: hsla(0,0%,25%,1);
+}
+
+.c3 {
+  color: hsla(0,0%,45%,1);
+}
+
+<div>
+    <ol
+      class="c0"
+      role="list"
+    >
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 1
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          role="link"
+        >
+          ...
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c1"
+      >
+        <a
+          class="c4"
+          href="#"
+          role="link"
+        >
+          link 6
+        </a>
+      </li>
+    </ol>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Breadcrumb Limited 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.c1 {
+  color: hsla(271,81%,56%,1);
+}
+
+.c2 {
+  font-size: 0.875rem;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c2:hover,
+.c2:focus {
+  background-size: 100% 0.1em;
+}
+
+.c4 {
+  font-size: 0.875rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: auto;
+  pointer-events: none;
+  color: hsla(0,0%,25%,1);
+}
+
+.c3 {
+  color: hsla(0,0%,45%,1);
+}
+
+<body>
+    <div>
+      <ol
+        class="c0"
+        role="list"
+      >
+        <li
+          class="c1"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 1
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c1"
+        >
+          <a
+            class="c2"
+            role="link"
+          >
+            ...
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c1"
+        >
+          <a
+            class="c4"
+            href="#"
+            role="link"
+          >
+            link 6
+          </a>
+        </li>
+      </ol>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.c1 {
+  color: hsla(271,81%,56%,1);
+}
+
+.c2 {
+  font-size: 0.875rem;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c2:hover,
+.c2:focus {
+  background-size: 100% 0.1em;
+}
+
+.c4 {
+  font-size: 0.875rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: auto;
+  pointer-events: none;
+  color: hsla(0,0%,25%,1);
+}
+
+.c3 {
+  color: hsla(0,0%,45%,1);
+}
+
+<div>
+    <ol
+      class="c0"
+      role="list"
+    >
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 1
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          role="link"
+        >
+          ...
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c1"
+      >
+        <a
+          class="c4"
+          href="#"
+          role="link"
+        >
+          link 6
+        </a>
+      </li>
+    </ol>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Breadcrumb Set active item manually 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.c1 {
+  color: hsla(271,81%,56%,1);
+}
+
+.c2 {
+  font-size: 0.875rem;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c2:hover,
+.c2:focus {
+  background-size: 100% 0.1em;
+}
+
+.c4 {
+  font-size: 0.875rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: auto;
+  pointer-events: none;
+  color: hsla(0,0%,25%,1);
+}
+
+.c3 {
+  color: hsla(0,0%,45%,1);
+}
+
+<body>
+    <div>
+      <ol
+        class="c0"
+        role="list"
+      >
+        <li
+          class="c1"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 1
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c1"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 2
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c1"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 3
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c1"
+        >
+          <a
+            class="c4"
+            href="#"
+            role="link"
+          >
+            link 4
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c1"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 5
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c1"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            item 6
+          </a>
+        </li>
+      </ol>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.c1 {
+  color: hsla(271,81%,56%,1);
+}
+
+.c2 {
+  font-size: 0.875rem;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c2:hover,
+.c2:focus {
+  background-size: 100% 0.1em;
+}
+
+.c4 {
+  font-size: 0.875rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: auto;
+  pointer-events: none;
+  color: hsla(0,0%,25%,1);
+}
+
+.c3 {
+  color: hsla(0,0%,45%,1);
+}
+
+<div>
+    <ol
+      class="c0"
+      role="list"
+    >
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 1
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 2
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 3
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c1"
+      >
+        <a
+          class="c4"
+          href="#"
+          role="link"
+        >
+          link 4
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 5
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          item 6
+        </a>
+      </li>
+    </ol>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Breadcrumb Tones 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.c1 {
+  color: hsla(271,81%,56%,1);
+}
+
+.c5 {
+  color: hsla(333,71%,51%,1);
+}
+
+.c6 {
+  color: hsla(0,0%,32%,1);
+}
+
+.c7 {
+  color: hsla(221,83%,53%,1);
+}
+
+.c8 {
+  color: hsla(142,76%,36%,1);
+}
+
+.c9 {
+  color: hsla(32,95%,44%,1);
+}
+
+.c10 {
+  color: hsla(0,72%,51%,1);
+}
+
+.c2 {
+  font-size: 0.875rem;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c2:hover,
+.c2:focus {
+  background-size: 100% 0.1em;
+}
+
+.c4 {
+  font-size: 0.875rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: auto;
+  pointer-events: none;
+  color: hsla(0,0%,25%,1);
+}
+
+.c3 {
+  color: hsla(0,0%,45%,1);
+}
+
+<body>
+    <div>
+      <ol
+        class="c0"
+        role="list"
+      >
+        <li
+          class="c1"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 1
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c1"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 2
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c1"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 3
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c1"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 4
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c1"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 5
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c1"
+        >
+          <a
+            class="c4"
+            href="#"
+            role="link"
+          >
+            link 6
+          </a>
+        </li>
+      </ol>
+      <ol
+        class="c0"
+        role="list"
+      >
+        <li
+          class="c5"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 1
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c5"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 2
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c5"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 3
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c5"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 4
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c5"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 5
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c5"
+        >
+          <a
+            class="c4"
+            href="#"
+            role="link"
+          >
+            link 6
+          </a>
+        </li>
+      </ol>
+      <ol
+        class="c0"
+        role="list"
+      >
+        <li
+          class="c6"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 1
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c6"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 2
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c6"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 3
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c6"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 4
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c6"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 5
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c6"
+        >
+          <a
+            class="c4"
+            href="#"
+            role="link"
+          >
+            link 6
+          </a>
+        </li>
+      </ol>
+      <ol
+        class="c0"
+        role="list"
+      >
+        <li
+          class="c7"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 1
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c7"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 2
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c7"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 3
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c7"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 4
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c7"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 5
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c7"
+        >
+          <a
+            class="c4"
+            href="#"
+            role="link"
+          >
+            link 6
+          </a>
+        </li>
+      </ol>
+      <ol
+        class="c0"
+        role="list"
+      >
+        <li
+          class="c8"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 1
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c8"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 2
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c8"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 3
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c8"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 4
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c8"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 5
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c8"
+        >
+          <a
+            class="c4"
+            href="#"
+            role="link"
+          >
+            link 6
+          </a>
+        </li>
+      </ol>
+      <ol
+        class="c0"
+        role="list"
+      >
+        <li
+          class="c9"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 1
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c9"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 2
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c9"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 3
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c9"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 4
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c9"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 5
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c9"
+        >
+          <a
+            class="c4"
+            href="#"
+            role="link"
+          >
+            link 6
+          </a>
+        </li>
+      </ol>
+      <ol
+        class="c0"
+        role="list"
+      >
+        <li
+          class="c10"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 1
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c10"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 2
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c10"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 3
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c10"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 4
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c10"
+        >
+          <a
+            class="c2"
+            href="#"
+            role="link"
+          >
+            link 5
+          </a>
+        </li>
+        <div
+          class="c3"
+        >
+          /
+        </div>
+        <li
+          class="c10"
+        >
+          <a
+            class="c4"
+            href="#"
+            role="link"
+          >
+            link 6
+          </a>
+        </li>
+      </ol>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.c1 {
+  color: hsla(271,81%,56%,1);
+}
+
+.c5 {
+  color: hsla(333,71%,51%,1);
+}
+
+.c6 {
+  color: hsla(0,0%,32%,1);
+}
+
+.c7 {
+  color: hsla(221,83%,53%,1);
+}
+
+.c8 {
+  color: hsla(142,76%,36%,1);
+}
+
+.c9 {
+  color: hsla(32,95%,44%,1);
+}
+
+.c10 {
+  color: hsla(0,72%,51%,1);
+}
+
+.c2 {
+  font-size: 0.875rem;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c2:hover,
+.c2:focus {
+  background-size: 100% 0.1em;
+}
+
+.c4 {
+  font-size: 0.875rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: auto;
+  pointer-events: none;
+  color: hsla(0,0%,25%,1);
+}
+
+.c3 {
+  color: hsla(0,0%,45%,1);
+}
+
+<div>
+    <ol
+      class="c0"
+      role="list"
+    >
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 1
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 2
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 3
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 4
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c1"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 5
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c1"
+      >
+        <a
+          class="c4"
+          href="#"
+          role="link"
+        >
+          link 6
+        </a>
+      </li>
+    </ol>
+    <ol
+      class="c0"
+      role="list"
+    >
+      <li
+        class="c5"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 1
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c5"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 2
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c5"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 3
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c5"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 4
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c5"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 5
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c5"
+      >
+        <a
+          class="c4"
+          href="#"
+          role="link"
+        >
+          link 6
+        </a>
+      </li>
+    </ol>
+    <ol
+      class="c0"
+      role="list"
+    >
+      <li
+        class="c6"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 1
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c6"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 2
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c6"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 3
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c6"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 4
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c6"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 5
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c6"
+      >
+        <a
+          class="c4"
+          href="#"
+          role="link"
+        >
+          link 6
+        </a>
+      </li>
+    </ol>
+    <ol
+      class="c0"
+      role="list"
+    >
+      <li
+        class="c7"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 1
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c7"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 2
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c7"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 3
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c7"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 4
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c7"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 5
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c7"
+      >
+        <a
+          class="c4"
+          href="#"
+          role="link"
+        >
+          link 6
+        </a>
+      </li>
+    </ol>
+    <ol
+      class="c0"
+      role="list"
+    >
+      <li
+        class="c8"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 1
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c8"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 2
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c8"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 3
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c8"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 4
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c8"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 5
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c8"
+      >
+        <a
+          class="c4"
+          href="#"
+          role="link"
+        >
+          link 6
+        </a>
+      </li>
+    </ol>
+    <ol
+      class="c0"
+      role="list"
+    >
+      <li
+        class="c9"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 1
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c9"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 2
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c9"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 3
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c9"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 4
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c9"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 5
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c9"
+      >
+        <a
+          class="c4"
+          href="#"
+          role="link"
+        >
+          link 6
+        </a>
+      </li>
+    </ol>
+    <ol
+      class="c0"
+      role="list"
+    >
+      <li
+        class="c10"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 1
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c10"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 2
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c10"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 3
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c10"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 4
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c10"
+      >
+        <a
+          class="c2"
+          href="#"
+          role="link"
+        >
+          link 5
+        </a>
+      </li>
+      <div
+        class="c3"
+      >
+        /
+      </div>
+      <li
+        class="c10"
+      >
+        <a
+          class="c4"
+          href="#"
+          role="link"
+        >
+          link 6
+        </a>
+      </li>
+    </ol>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
