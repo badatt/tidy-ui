@@ -12,6 +12,13 @@ export interface IBreadcrumbProps extends IBaseProps, HTMLAttributes<HTMLOListEl
   limit?: number;
 
   /**
+   * If `true`, WON'T set the last time as active
+   *
+   * @default false
+   */
+  noActive?: boolean;
+
+  /**
    * callback when the collapsed breadcrumb got expanded
    */
   onExpand?: (event: MouseEvent) => void;
