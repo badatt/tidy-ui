@@ -8,7 +8,7 @@ const BreadcrumbRoot = styled.ol<IBreadcrumbProps>`
 
 const BreadcrumbItemWrapper = styled.li<IBreadCrumbItemWrapperProps>`
   ${({ theme: { palette, isDark }, tone }) => css`
-    color: ${isDark ? palette[tone!][500] : palette[tone!][600]};
+    color: ${isDark ? palette[tone!][500] : palette[tone!][700]};
   `}
 `;
 
@@ -17,7 +17,7 @@ const activeItemStyle = css<IBreadcrumbItemProps>`
     text-decoration: none;
     cursor: auto;
     pointer-events: none;
-    color: ${isDark ? palette.neutral[400] : palette.neutral[700]};
+    color: ${isDark ? palette.neutral[400] : palette.neutral[800]};
   `}
 `;
 
