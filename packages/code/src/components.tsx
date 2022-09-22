@@ -1,4 +1,4 @@
-import { color, createFontStyle, css, hsla, Icon, styled } from '@tidy-ui/commons';
+import { color, css, hsla, Icon, styled } from '@tidy-ui/commons';
 import { ICodeProps } from './types';
 
 const IconStyle = css<ICodeProps>`
