@@ -10,16 +10,16 @@ type Font = keyof ITypography;
 /**
  * Creates font styles for a given typographical text type
  *
- * @param {string }text typographical text type
+ * @param {string} variant typographical text type
  * @returns {FlattenInterpolation} css
  */
-const font = (text: Font): FlattenInterpolation<ThemeProps<ITidyUITheme>> => css`
+const createFontStyle = (variant: Font): FlattenInterpolation<ThemeProps<ITidyUITheme>> => css`
   ${({ theme: { typography } }) => css`
-    font-size: ${typography[text].fontSize};
-    font-weight: ${typography[text].fontWeight};
-    letter-spacing: ${typography[text].letterSpacing};
-    line-height: ${typography[text].lineHeight};
+    font-size: ${typography[variant].fontSize};
+    font-weight: ${typography[variant].fontWeight};
+    letter-spacing: ${typography[variant].letterSpacing};
+    line-height: ${typography[variant].lineHeight};
   `}
 `;
 
-export default font;
+export default createFontStyle;
