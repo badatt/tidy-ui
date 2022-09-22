@@ -13,7 +13,7 @@ type Font = keyof ITypography;
  * @param {string} variant typographical text type
  * @returns {FlattenInterpolation} css
  */
-const createFontStyle = (variant: Font): FlattenInterpolation<ThemeProps<ITidyUITheme>> => css`
+const createFontStyle = (variant: Font = 'body1'): FlattenInterpolation<ThemeProps<ITidyUITheme>> => css`
   ${({ theme: { typography } }) => css`
     font-size: ${typography[variant].fontSize};
     font-weight: ${typography[variant].fontWeight};
