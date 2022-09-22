@@ -12,7 +12,7 @@ export default {
 };
 
 const InnerDiv = styled.div<IContainerProps>`
-  height: 100vh;
+  height: 100%;
   ${({ theme: { isDark } }) =>
     isDark
       ? css`
@@ -84,6 +84,12 @@ export const maxWidth = () => {
 
 export const noGutters = () => (
   <Container gutter="0">
+    <Content />
+  </Container>
+);
+
+export const customHeight = () => (
+  <Container h="20rem">
     <Content />
   </Container>
 );

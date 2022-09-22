@@ -64,4 +64,15 @@ describe('Container', () => {
     );
     expect(tree).toMatchSnapshot();
   });
+
+  it('Custom height', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Container h="25rem">
+          <Content />
+        </Container>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
 });
