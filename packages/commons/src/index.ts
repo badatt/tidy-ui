@@ -5,5 +5,6 @@ export * from './icons';
 export * from './media';
 export * from './provider';
 export * from './reducers';
+export * from './styles';
 export * from './theme';
 export * from './utils';

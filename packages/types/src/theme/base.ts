@@ -11,6 +11,13 @@ import { DefaultTheme } from 'styled-components';
  */
 export interface ITidyUIBaseTheme extends DefaultTheme {
   /**
+   * Global font settings
+   *
+   * @type {IFont}
+   */
+  font: IFont;
+
+  /**
    * Layout configuration
    *
    * @type {ILayout}
@@ -115,41 +122,6 @@ export interface ITypography {
   caption: IText;
 
   /**
-   * Default font size for a component
-   *
-   * @type {string}
-   */
-  fontSize: string;
-
-  /**
-   * Default bold font weight value
-   *
-   * @type {number}
-   */
-  fontWeightBold: number;
-
-  /**
-   * Default light weight font value
-   *
-   * @type {number}
-   */
-  fontWeightLight: number;
-
-  /**
-   * Default medium font weight value
-   *
-   * @type {number}
-   */
-  fontWeightMedium: number;
-
-  /**
-   * Default regular font weight value
-   *
-   * @type {number}
-   */
-  fontWeightRegular: number;
-
-  /**
    * Most significant titles, similar to hero. Represent `h1` tag in html
    *
    * @type {IText}
@@ -239,6 +211,60 @@ export interface ITypography {
    * @type {IText}
    */
   title2: IText;
+}
+
+/**
+ * Font contract
+ */
+export interface IFont {
+  /**
+   * Default bold font weight value
+   *
+   * @type {number}
+   */
+  bold: number;
+
+  /**
+   * Font family
+   *
+   * @type {string}
+   */
+  family: string;
+
+  /**
+   * Default light weight font value
+   *
+   * @type {number}
+   */
+  light: number;
+
+  /**
+   * Default medium font weight value
+   *
+   * @type {number}
+   */
+  medium: number;
+
+  /**
+   * Mono type font family
+   *
+   * @type {string}
+   */
+  mono: string;
+
+  /**
+   * Default regular font weight value
+   *
+   * @type {number}
+   */
+  regular: number;
+
+  /**
+   * Default font size for a component
+   *
+   * @type {string}
+   */
+  size: string;
 }
 
 /**
