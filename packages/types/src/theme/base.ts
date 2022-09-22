@@ -396,3 +396,21 @@ export enum Positioning {
  * @public
  */
 export type TPositioning = keyof typeof Positioning;
+
+/**
+ * Direction
+ */
+export enum Direction {
+  'top',
+  'right',
+  'bottom',
+  'left',
+}
+
+/**
+ * Direction type
+ *
+ * @typedef {TDirection}
+ * @public
+ */
+export type TDirection = keyof typeof Direction;
