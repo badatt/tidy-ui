@@ -3,6 +3,16 @@ import { ITidyUIBaseTheme } from '@tidy-ui/types';
 // screens https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 
 const defaultBase: ITidyUIBaseTheme = {
+  font: {
+    bold: 700,
+    family:
+      'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Oxygen, Cantarell, sans-serif`',
+    light: 200,
+    medium: 400,
+    mono: 'ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace',
+    regular: 500,
+    size: '0.875rem',
+  },
   layout: {
     radius: '0.5rem',
     screens: {
@@ -47,11 +57,6 @@ const defaultBase: ITidyUIBaseTheme = {
       lineHeight: 1.66,
       marginBottom: '0.375rem',
     },
-    fontSize: '0.875rem',
-    fontWeightBold: 700,
-    fontWeightLight: 200,
-    fontWeightMedium: 400,
-    fontWeightRegular: 500,
     h1: {
       fontSize: '6rem',
       fontWeight: 300,
