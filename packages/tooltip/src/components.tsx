@@ -1,4 +1,4 @@
-import { css, styled } from '@tidy-ui/commons';
+import { createFontStyle, css, styled } from '@tidy-ui/commons';
 import { ITooltipProps } from './types';
 
 const bgColor = css`

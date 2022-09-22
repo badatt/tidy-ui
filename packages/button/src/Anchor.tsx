@@ -21,6 +21,8 @@ const Anchor = React.forwardRef<HTMLAnchorElement, IAnchorProps>((props, ref) =>
 Anchor.defaultProps = {
   disabled: false,
   launch: false,
+  size: 'md',
+  tone: 'major',
 };
 
 Anchor.displayName = 'Anchor';

@@ -1,4 +1,4 @@
-import { css, styled } from '@tidy-ui/commons';
+import { createFontStyle, css, styled } from '@tidy-ui/commons';
 import { IPalette } from '@tidy-ui/types';
 import { filledContent, filledLabel, outlinedContent, outlinedLabel } from './styles';
 import { INotificationProps } from './types';
@@ -65,6 +65,7 @@ interface ILableAllowed {
  */
 const NotificationContent = styled.div<INotificationProps & ILableAllowed>`
   width: fit-content;
+  ${createFontStyle()}
   ${({ withoutLabel, isLabelAllowed }) => css`
     ${isLabelAllowed &&
     css`
@@ -84,15 +85,15 @@ const NotificationLabel = styled.div<INotificationProps>`
   align-items: center;
   gap: 0.5rem;
   width: fit-content;
-  font-size: 1rem;
   text-transform: capitalize;
   margin-bottom: 0.5em;
+  ${createFontStyle('h6')}
   svg {
     height: 1.5rem;
     width: 1.5rem;
   }
-  ${({ theme: { typography }, outlined }) => css`
-    font-weight: ${typography.fontWeightBold};
+  ${({ theme: { font }, outlined }) => css`
+    font-weight: ${font.regular};
     ${outlined ? outlinedLabel : filledLabel}
   `}
 `;

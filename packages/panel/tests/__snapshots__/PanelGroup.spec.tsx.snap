@@ -32,6 +32,13 @@ Object {
   vertical-align: middle;
   cursor: pointer;
   padding: 1rem 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
 }
 
 .c3 {
@@ -48,6 +55,13 @@ Object {
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   visibility: visible;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   visibility: hidden;
   opacity: 0;
   height: 0;
@@ -610,6 +624,13 @@ Object {
   vertical-align: middle;
   cursor: pointer;
   padding: 1rem 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
 }
 
 .c3 {
@@ -626,6 +647,13 @@ Object {
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   visibility: visible;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   visibility: hidden;
   opacity: 0;
   height: 0;
@@ -1243,6 +1271,13 @@ Object {
   vertical-align: middle;
   cursor: pointer;
   padding: 1rem 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
 }
 
 .c3 {
@@ -1259,6 +1294,13 @@ Object {
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   visibility: visible;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   visibility: hidden;
   opacity: 0;
   height: 0;
@@ -1707,6 +1749,13 @@ Object {
   vertical-align: middle;
   cursor: pointer;
   padding: 1rem 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
 }
 
 .c3 {
@@ -1723,6 +1772,13 @@ Object {
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   visibility: visible;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   visibility: hidden;
   opacity: 0;
   height: 0;
@@ -2226,6 +2282,13 @@ Object {
   vertical-align: middle;
   cursor: pointer;
   padding: 1rem 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
 }
 
 .c3 {
@@ -2242,6 +2305,13 @@ Object {
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   visibility: visible;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   visibility: hidden;
   opacity: 0;
   height: 0;
@@ -2804,6 +2874,13 @@ Object {
   vertical-align: middle;
   cursor: pointer;
   padding: 1rem 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
 }
 
 .c3 {
@@ -2820,6 +2897,13 @@ Object {
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   visibility: visible;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   visibility: hidden;
   opacity: 0;
   height: 0;
@@ -3435,6 +3519,13 @@ Object {
   vertical-align: middle;
   cursor: pointer;
   padding: 1rem 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
 }
 
 .c3 {
@@ -3451,6 +3542,13 @@ Object {
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   visibility: visible;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   visibility: hidden;
   opacity: 0;
   height: 0;
@@ -4006,6 +4104,13 @@ Object {
   vertical-align: middle;
   cursor: pointer;
   padding: 1rem 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
 }
 
 .c3 {
@@ -4022,6 +4127,13 @@ Object {
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   visibility: visible;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   visibility: hidden;
   opacity: 0;
   height: 0;
@@ -4632,6 +4744,13 @@ Object {
   vertical-align: middle;
   cursor: pointer;
   padding: 1rem 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
 }
 
 .c3 {
@@ -4648,6 +4767,13 @@ Object {
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   visibility: visible;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   visibility: hidden;
   opacity: 0;
   height: 0;
@@ -5208,6 +5334,13 @@ Object {
   vertical-align: middle;
   cursor: pointer;
   padding: 1rem 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
 }
 
 .c3 {
@@ -5224,6 +5357,13 @@ Object {
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   visibility: visible;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   visibility: hidden;
   opacity: 0;
   height: 0;
@@ -5841,6 +5981,13 @@ Object {
   vertical-align: middle;
   cursor: pointer;
   padding: 1rem 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
 }
 
 .c3 {
@@ -5857,6 +6004,13 @@ Object {
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   visibility: visible;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   visibility: hidden;
   opacity: 0;
   height: 0;
@@ -6414,6 +6568,13 @@ Object {
   vertical-align: middle;
   cursor: pointer;
   padding: 1rem 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
 }
 
 .c3 {
@@ -6430,6 +6591,13 @@ Object {
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   visibility: visible;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   visibility: hidden;
   opacity: 0;
   height: 0;
@@ -7042,6 +7210,13 @@ Object {
   vertical-align: middle;
   cursor: pointer;
   padding: 1rem 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
 }
 
 .c3 {
@@ -7066,6 +7241,13 @@ Object {
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   visibility: visible;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   visibility: visible;
   opacity: 1;
   height: -webkit-fit-content;
@@ -7083,6 +7265,13 @@ Object {
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   visibility: visible;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   visibility: hidden;
   opacity: 0;
   height: 0;
@@ -7645,6 +7834,13 @@ Object {
   vertical-align: middle;
   cursor: pointer;
   padding: 1rem 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
 }
 
 .c3 {
@@ -7669,6 +7865,13 @@ Object {
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   visibility: visible;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   visibility: visible;
   opacity: 1;
   height: -webkit-fit-content;
@@ -7686,6 +7889,13 @@ Object {
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
   visibility: visible;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   visibility: hidden;
   opacity: 0;
   height: 0;

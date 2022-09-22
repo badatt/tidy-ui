@@ -15,14 +15,14 @@ Object {
 
 .c0 {
   display: block;
-  margin-bottom: 0.5rem;
   font-size: 1rem;
-  font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
   -moz-letter-spacing: 0.00938em;
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
 }
 
 <body>
@@ -77,14 +77,14 @@ Object {
 
 .c0 {
   display: block;
-  margin-bottom: 0.5rem;
   font-size: 1rem;
-  font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
   -moz-letter-spacing: 0.00938em;
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
 }
 
 <div>
@@ -226,26 +226,26 @@ Object {
 
 .c0 {
   display: block;
-  margin-bottom: 0.325rem;
   font-size: 1.25rem;
-  font-weight: 500;
   -webkit-letter-spacing: 0.0075em;
   -moz-letter-spacing: 0.0075em;
   -ms-letter-spacing: 0.0075em;
   letter-spacing: 0.0075em;
   line-height: 1.6;
+  font-weight: 500;
+  margin-bottom: 0.325rem;
 }
 
 .c1 {
   display: block;
-  margin-bottom: 0.5rem;
   font-size: 1rem;
-  font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
   -moz-letter-spacing: 0.00938em;
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
 }
 
 <body>
@@ -359,26 +359,26 @@ Object {
 
 .c0 {
   display: block;
-  margin-bottom: 0.325rem;
   font-size: 1.25rem;
-  font-weight: 500;
   -webkit-letter-spacing: 0.0075em;
   -moz-letter-spacing: 0.0075em;
   -ms-letter-spacing: 0.0075em;
   letter-spacing: 0.0075em;
   line-height: 1.6;
+  font-weight: 500;
+  margin-bottom: 0.325rem;
 }
 
 .c1 {
   display: block;
-  margin-bottom: 0.5rem;
   font-size: 1rem;
-  font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
   -moz-letter-spacing: 0.00938em;
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
 }
 
 <div>
@@ -515,14 +515,14 @@ Object {
 
 .c0 {
   display: block;
-  margin-bottom: 0.5rem;
   font-size: 1rem;
-  font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
   -moz-letter-spacing: 0.00938em;
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
 }
 
 <body>
@@ -577,14 +577,14 @@ Object {
 
 .c0 {
   display: block;
-  margin-bottom: 0.5rem;
   font-size: 1rem;
-  font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
   -moz-letter-spacing: 0.00938em;
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
 }
 
 <div>
@@ -726,26 +726,26 @@ Object {
 
 .c0 {
   display: block;
-  margin-bottom: 0.325rem;
   font-size: 1.25rem;
-  font-weight: 500;
   -webkit-letter-spacing: 0.0075em;
   -moz-letter-spacing: 0.0075em;
   -ms-letter-spacing: 0.0075em;
   letter-spacing: 0.0075em;
   line-height: 1.6;
+  font-weight: 500;
+  margin-bottom: 0.325rem;
 }
 
 .c1 {
   display: block;
-  margin-bottom: 0.5rem;
   font-size: 1rem;
-  font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
   -moz-letter-spacing: 0.00938em;
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
 }
 
 <body>
@@ -859,26 +859,26 @@ Object {
 
 .c0 {
   display: block;
-  margin-bottom: 0.325rem;
   font-size: 1.25rem;
-  font-weight: 500;
   -webkit-letter-spacing: 0.0075em;
   -moz-letter-spacing: 0.0075em;
   -ms-letter-spacing: 0.0075em;
   letter-spacing: 0.0075em;
   line-height: 1.6;
+  font-weight: 500;
+  margin-bottom: 0.325rem;
 }
 
 .c1 {
   display: block;
-  margin-bottom: 0.5rem;
   font-size: 1rem;
-  font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
   -moz-letter-spacing: 0.00938em;
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
 }
 
 <div>
@@ -1015,14 +1015,14 @@ Object {
 
 .c0 {
   display: block;
-  margin-bottom: 0.5rem;
   font-size: 1rem;
-  font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
   -moz-letter-spacing: 0.00938em;
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
 }
 
 <body>
@@ -1077,14 +1077,14 @@ Object {
 
 .c0 {
   display: block;
-  margin-bottom: 0.5rem;
   font-size: 1rem;
-  font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
   -moz-letter-spacing: 0.00938em;
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
 }
 
 <div>
@@ -1214,26 +1214,26 @@ Object {
 
 .c0 {
   display: block;
-  margin-bottom: 0.325rem;
   font-size: 1.25rem;
-  font-weight: 500;
   -webkit-letter-spacing: 0.0075em;
   -moz-letter-spacing: 0.0075em;
   -ms-letter-spacing: 0.0075em;
   letter-spacing: 0.0075em;
   line-height: 1.6;
+  font-weight: 500;
+  margin-bottom: 0.325rem;
 }
 
 .c1 {
   display: block;
-  margin-bottom: 0.5rem;
   font-size: 1rem;
-  font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
   -moz-letter-spacing: 0.00938em;
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
 }
 
 <body>
@@ -1329,26 +1329,26 @@ Object {
 
 .c0 {
   display: block;
-  margin-bottom: 0.325rem;
   font-size: 1.25rem;
-  font-weight: 500;
   -webkit-letter-spacing: 0.0075em;
   -moz-letter-spacing: 0.0075em;
   -ms-letter-spacing: 0.0075em;
   letter-spacing: 0.0075em;
   line-height: 1.6;
+  font-weight: 500;
+  margin-bottom: 0.325rem;
 }
 
 .c1 {
   display: block;
-  margin-bottom: 0.5rem;
   font-size: 1rem;
-  font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
   -moz-letter-spacing: 0.00938em;
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
 }
 
 <div>
@@ -1569,26 +1569,26 @@ Object {
 
 .c0 {
   display: block;
-  margin-bottom: 0.325rem;
   font-size: 1.25rem;
-  font-weight: 500;
   -webkit-letter-spacing: 0.0075em;
   -moz-letter-spacing: 0.0075em;
   -ms-letter-spacing: 0.0075em;
   letter-spacing: 0.0075em;
   line-height: 1.6;
+  font-weight: 500;
+  margin-bottom: 0.325rem;
 }
 
 .c1 {
   display: block;
-  margin-bottom: 0.5rem;
   font-size: 1rem;
-  font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
   -moz-letter-spacing: 0.00938em;
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
 }
 
 <body>
@@ -1887,26 +1887,26 @@ Object {
 
 .c0 {
   display: block;
-  margin-bottom: 0.325rem;
   font-size: 1.25rem;
-  font-weight: 500;
   -webkit-letter-spacing: 0.0075em;
   -moz-letter-spacing: 0.0075em;
   -ms-letter-spacing: 0.0075em;
   letter-spacing: 0.0075em;
   line-height: 1.6;
+  font-weight: 500;
+  margin-bottom: 0.325rem;
 }
 
 .c1 {
   display: block;
-  margin-bottom: 0.5rem;
   font-size: 1rem;
-  font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
   -moz-letter-spacing: 0.00938em;
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
 }
 
 <div>
@@ -2230,26 +2230,26 @@ Object {
 
 .c0 {
   display: block;
-  margin-bottom: 0.325rem;
   font-size: 1.25rem;
-  font-weight: 500;
   -webkit-letter-spacing: 0.0075em;
   -moz-letter-spacing: 0.0075em;
   -ms-letter-spacing: 0.0075em;
   letter-spacing: 0.0075em;
   line-height: 1.6;
+  font-weight: 500;
+  margin-bottom: 0.325rem;
 }
 
 .c1 {
   display: block;
-  margin-bottom: 0.5rem;
   font-size: 1rem;
-  font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
   -moz-letter-spacing: 0.00938em;
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
 }
 
 <body>
@@ -2461,26 +2461,26 @@ Object {
 
 .c0 {
   display: block;
-  margin-bottom: 0.325rem;
   font-size: 1.25rem;
-  font-weight: 500;
   -webkit-letter-spacing: 0.0075em;
   -moz-letter-spacing: 0.0075em;
   -ms-letter-spacing: 0.0075em;
   letter-spacing: 0.0075em;
   line-height: 1.6;
+  font-weight: 500;
+  margin-bottom: 0.325rem;
 }
 
 .c1 {
   display: block;
-  margin-bottom: 0.5rem;
   font-size: 1rem;
-  font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
   -moz-letter-spacing: 0.00938em;
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
 }
 
 <div>
@@ -2747,26 +2747,26 @@ Object {
 
 .c0 {
   display: block;
-  margin-bottom: 0.325rem;
   font-size: 1.25rem;
-  font-weight: 500;
   -webkit-letter-spacing: 0.0075em;
   -moz-letter-spacing: 0.0075em;
   -ms-letter-spacing: 0.0075em;
   letter-spacing: 0.0075em;
   line-height: 1.6;
+  font-weight: 500;
+  margin-bottom: 0.325rem;
 }
 
 .c1 {
   display: block;
-  margin-bottom: 0.5rem;
   font-size: 1rem;
-  font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
   -moz-letter-spacing: 0.00938em;
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
 }
 
 <body>
@@ -2978,26 +2978,26 @@ Object {
 
 .c0 {
   display: block;
-  margin-bottom: 0.325rem;
   font-size: 1.25rem;
-  font-weight: 500;
   -webkit-letter-spacing: 0.0075em;
   -moz-letter-spacing: 0.0075em;
   -ms-letter-spacing: 0.0075em;
   letter-spacing: 0.0075em;
   line-height: 1.6;
+  font-weight: 500;
+  margin-bottom: 0.325rem;
 }
 
 .c1 {
   display: block;
-  margin-bottom: 0.5rem;
   font-size: 1rem;
-  font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
   -moz-letter-spacing: 0.00938em;
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
 }
 
 <div>
@@ -3204,14 +3204,14 @@ Object {
 
 .c0 {
   display: block;
-  margin-bottom: 0.5rem;
   font-size: 1rem;
-  font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
   -moz-letter-spacing: 0.00938em;
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
 }
 
 <body>
@@ -3270,14 +3270,14 @@ Object {
 
 .c0 {
   display: block;
-  margin-bottom: 0.5rem;
   font-size: 1rem;
-  font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
   -moz-letter-spacing: 0.00938em;
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
 }
 
 <div>

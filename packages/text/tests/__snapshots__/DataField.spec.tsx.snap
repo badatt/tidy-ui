@@ -773,14 +773,14 @@ Object {
   "asFragment": [Function],
   "baseElement": .c1 {
   display: block;
-  margin-bottom: 0.375rem;
   font-size: 0.75rem;
-  font-weight: 400;
   -webkit-letter-spacing: 0.03333em;
   -moz-letter-spacing: 0.03333em;
   -ms-letter-spacing: 0.03333em;
   letter-spacing: 0.03333em;
   line-height: 1.66;
+  font-weight: 400;
+  margin-bottom: 0.375rem;
   -webkit-text-decoration: underline;
   text-decoration: underline;
   text-transform: uppercase;
@@ -788,14 +788,14 @@ Object {
 
 .c3 {
   display: block;
-  margin-bottom: 0.75rem;
   font-size: 1.5rem;
-  font-weight: 400;
   -webkit-letter-spacing: 0em;
   -moz-letter-spacing: 0em;
   -ms-letter-spacing: 0em;
   letter-spacing: 0em;
   line-height: 1.334;
+  font-weight: 400;
+  margin-bottom: 0.75rem;
 }
 
 .c0 {
@@ -849,14 +849,14 @@ Object {
   </body>,
   "container": .c1 {
   display: block;
-  margin-bottom: 0.375rem;
   font-size: 0.75rem;
-  font-weight: 400;
   -webkit-letter-spacing: 0.03333em;
   -moz-letter-spacing: 0.03333em;
   -ms-letter-spacing: 0.03333em;
   letter-spacing: 0.03333em;
   line-height: 1.66;
+  font-weight: 400;
+  margin-bottom: 0.375rem;
   -webkit-text-decoration: underline;
   text-decoration: underline;
   text-transform: uppercase;
@@ -864,14 +864,14 @@ Object {
 
 .c3 {
   display: block;
-  margin-bottom: 0.75rem;
   font-size: 1.5rem;
-  font-weight: 400;
   -webkit-letter-spacing: 0em;
   -moz-letter-spacing: 0em;
   -ms-letter-spacing: 0em;
   letter-spacing: 0em;
   line-height: 1.334;
+  font-weight: 400;
+  margin-bottom: 0.75rem;
 }
 
 .c0 {

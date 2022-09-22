@@ -1,4 +1,4 @@
-import { color, css, hsla, styled } from '@tidy-ui/commons';
+import { color, createFontStyle, css, hsla, styled } from '@tidy-ui/commons';
 import { IPanelBodyProps, IPanelGroupProps, IPanelProps } from './types';
 
 const PanelRoot = styled.div<IPanelProps>`
@@ -23,6 +23,7 @@ const PanelHeaderRoot = styled.div`
   vertical-align: middle;
   cursor: pointer;
   padding: 1rem 1rem;
+  ${createFontStyle('h6')}
 `;
 
 /** @internal */
@@ -44,6 +45,7 @@ const PanelBodyRoot = styled.div<IPanelBodyProps>`
   padding: 0rem 1rem;
   transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
   visibility: visible;
+  ${createFontStyle()}
   ${({ visible, h }) => css`
     visibility: ${visible ? 'visible' : 'hidden'};
     opacity: ${visible ? '1' : '0'};

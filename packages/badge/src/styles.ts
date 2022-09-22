@@ -68,7 +68,7 @@ const badgeBase = css<IBadgeProps>`
  * @internal
  */
 const standardBadge = css<IBadgeProps>`
-  ${({ data, outlined }) => css`
+  ${({ theme: { font }, data, outlined }) => css`
     &::after {
       content: ${`'${data}'`};
       ${badgeBase}
@@ -79,6 +79,7 @@ const standardBadge = css<IBadgeProps>`
       height: 1rem;
       border-radius: 0.5rem;
       font-size: 0.625rem;
+      font-family: ${font.mono};
       overflow: hidden;
       white-space: nowrap;
       ${outlined ? outlineBadgeColor : filledBadgeColor}

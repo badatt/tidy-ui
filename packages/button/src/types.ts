@@ -127,6 +127,22 @@ export interface IAnchorProps extends IBaseProps, AnchorHTMLAttributes<HTMLAncho
    * @default false
    */
   launch?: boolean;
+
+  /**
+   * The size of the component
+   *
+   * @type {?TSize}
+   * @default 'md'
+   */
+  size?: TSize;
+
+  /**
+   * The color of the component
+   *
+   * @type {?TTone}
+   * @default 'major'
+   */
+  tone?: TTone;
 }
 
 /**

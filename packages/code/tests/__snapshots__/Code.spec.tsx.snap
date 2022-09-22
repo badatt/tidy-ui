@@ -28,10 +28,11 @@ Object {
 }
 
 .c1 {
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: auto;
   padding: 1rem;
   line-height: 1.45;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 1rem;
   border-radius: 0.5rem;
   background-color: hsla(214,32%,91%,1);
 }
@@ -129,10 +130,11 @@ export default App;
 }
 
 .c1 {
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: auto;
   padding: 1rem;
   line-height: 1.45;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 1rem;
   border-radius: 0.5rem;
   background-color: hsla(214,32%,91%,1);
 }
@@ -285,10 +287,11 @@ Object {
 }
 
 .c1 {
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: auto;
   padding: 1rem;
   line-height: 1.45;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 1rem;
   border-radius: 0.5rem;
   background-color: hsla(214,32%,91%,1);
 }
@@ -378,10 +381,11 @@ Object {
 }
 
 .c1 {
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: auto;
   padding: 1rem;
   line-height: 1.45;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 1rem;
   border-radius: 0.5rem;
   background-color: hsla(214,32%,91%,1);
 }
@@ -526,10 +530,11 @@ Object {
 }
 
 .c1 {
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: auto;
   padding: 1rem;
   line-height: 1.45;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 1rem;
   border-radius: 0.5rem;
   background-color: hsla(217,33%,17%,1);
 }
@@ -619,10 +624,11 @@ Object {
 }
 
 .c1 {
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: auto;
   padding: 1rem;
   line-height: 1.45;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 1rem;
   border-radius: 0.5rem;
   background-color: hsla(217,33%,17%,1);
 }
@@ -767,10 +773,11 @@ Object {
 }
 
 .c1 {
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: auto;
   padding: 1rem;
   line-height: 1.45;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 1rem;
   border-radius: 0.5rem;
   background-color: hsla(214,32%,91%,1);
 }
@@ -860,10 +867,11 @@ Object {
 }
 
 .c1 {
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: auto;
   padding: 1rem;
   line-height: 1.45;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 1rem;
   border-radius: 0.5rem;
   background-color: hsla(214,32%,91%,1);
 }
@@ -1008,10 +1016,11 @@ Object {
 }
 
 .c1 {
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: auto;
   padding: 1rem;
   line-height: 1.45;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 1rem;
   border-radius: 0.5rem;
   background-color: hsla(214,32%,91%,1);
 }
@@ -1101,10 +1110,11 @@ Object {
 }
 
 .c1 {
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: auto;
   padding: 1rem;
   line-height: 1.45;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 1rem;
   border-radius: 0.5rem;
   background-color: hsla(214,32%,91%,1);
 }
@@ -1251,10 +1261,11 @@ Object {
 }
 
 .c1 {
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: auto;
   padding: 1rem;
   line-height: 1.45;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 1rem;
   border-radius: 0.5rem;
   background-color: hsla(214,32%,91%,1);
 }
@@ -1354,10 +1365,11 @@ export default App;
 }
 
 .c1 {
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: auto;
   padding: 1rem;
   line-height: 1.45;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 1rem;
   border-radius: 0.5rem;
   background-color: hsla(214,32%,91%,1);
 }
@@ -1520,10 +1532,11 @@ Object {
 }
 
 .c1 {
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: auto;
   padding: 1rem;
   line-height: 1.45;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 1rem;
   border-radius: 0.5rem;
   background-color: hsla(214,32%,91%,1);
 }
@@ -1670,10 +1683,11 @@ export default App;
 }
 
 .c1 {
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: auto;
   padding: 1rem;
   line-height: 1.45;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 1rem;
   border-radius: 0.5rem;
   background-color: hsla(214,32%,91%,1);
 }
@@ -1865,10 +1879,11 @@ Object {
 }
 
 .c1 {
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: auto;
   padding: 1rem;
   line-height: 1.45;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 1rem;
   border-radius: 0.5rem;
   background-color: hsla(217,33%,17%,1);
 }
@@ -1966,10 +1981,11 @@ export default App;
 }
 
 .c1 {
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: auto;
   padding: 1rem;
   line-height: 1.45;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 1rem;
   border-radius: 0.5rem;
   background-color: hsla(217,33%,17%,1);
 }
@@ -2122,10 +2138,11 @@ Object {
 }
 
 .c1 {
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: auto;
   padding: 1rem;
   line-height: 1.45;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 1rem;
   border-radius: 0.5rem;
   background-color: hsla(214,32%,91%,1);
 }
@@ -2213,10 +2230,11 @@ Object {
 }
 
 .c1 {
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: auto;
   padding: 1rem;
   line-height: 1.45;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 1rem;
   border-radius: 0.5rem;
   background-color: hsla(214,32%,91%,1);
 }
@@ -2340,10 +2358,11 @@ Object {
 }
 
 .c1 {
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: auto;
   padding: 1rem;
   line-height: 1.45;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 1rem;
   border-radius: 0.5rem;
   background-color: hsla(214,32%,91%,1);
 }
@@ -2376,10 +2395,11 @@ export default App;
 }
 
 .c1 {
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: auto;
   padding: 1rem;
   line-height: 1.45;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 1rem;
   border-radius: 0.5rem;
   background-color: hsla(214,32%,91%,1);
 }

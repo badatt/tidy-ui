@@ -2,7 +2,6 @@ import React from 'react';
 import { Stack } from '../../stack/src';
 import { Tag } from '../../tag/src';
 import { FlexBox } from '../../flexbox/src';
-import { Text } from '../../text/src';
 import { Panel } from '../src';
 
 export default {
@@ -11,7 +10,7 @@ export default {
 };
 
 const ContentBody = () => (
-  <Text.body1>
+  <>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam itaque quos
     earum! Ex, neque, unde officia accusamus necessitatibus, quas incidunt architecto a impedit ut ullam. Veritatis
     saepe placeat ipsum aliquid laudantium quod, reprehenderit recusandae quas mollitia pariatur? Eos dolorum numquam
@@ -23,10 +22,10 @@ const ContentBody = () => (
     iure itaque possimus. Ullam dignissimos explicabo eum. Provident architecto ipsum, nobis explicabo repudiandae
     quaerat nemo deleniti asperiores ex voluptatibus reprehenderit cumque fugit non quos doloribus reiciendis nihil.
     Omnis cupiditate vel iure placeat cumque repellat necessitatibus voluptate qui!
-  </Text.body1>
+  </>
 );
 
-const ContentHeader = () => <Text.subtitle2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Text.subtitle2>;
+const ContentHeader = () => <>Lorem ipsum dolor sit amet consectetur adipisicing elit.</>;
 
 export const basic = () => (
   <Panel>

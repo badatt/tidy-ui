@@ -10,6 +10,13 @@ Object {
   border-radius: 0.5rem;
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <body>
@@ -33,6 +40,13 @@ Object {
   border-radius: 0.5rem;
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <div>
@@ -113,6 +127,13 @@ Object {
   border-radius: 0.5rem;
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   overflow-y: auto;
 }
 
@@ -139,6 +160,13 @@ Object {
   border-radius: 0.5rem;
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   overflow-y: auto;
 }
 
@@ -218,6 +246,13 @@ Object {
   border-radius: 0.5rem;
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <body>
@@ -261,6 +296,13 @@ Object {
   border-radius: 0.5rem;
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <div>
@@ -359,6 +401,13 @@ Object {
   border-radius: 0.5rem;
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(210,40%,96%,1);
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <body>
@@ -382,6 +431,13 @@ Object {
   border-radius: 0.5rem;
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(210,40%,96%,1);
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <div>
@@ -459,6 +515,13 @@ Object {
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <body>
@@ -481,6 +544,13 @@ Object {
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <div>

@@ -1,4 +1,4 @@
-import { color, css, hsla, Icon, styled } from '@tidy-ui/commons';
+import { color, createFontStyle, css, hsla, Icon, styled } from '@tidy-ui/commons';
 import { ICodeProps } from './types';
 
 const IconStyle = css<ICodeProps>`
@@ -45,11 +45,12 @@ const CodeRoot = styled.div<ICodeProps>`
 `;
 
 const Content = styled.pre<ICodeProps>`
-  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
   overflow: auto;
   padding: 1rem;
   line-height: 1.45;
-  ${({ theme: { layout, isDark } }) => css`
+  ${({ theme: { font, layout, isDark } }) => css`
+    font-family: ${font.mono};
+    font-size: ${font.size};
     border-radius: ${layout.radius};
     background-color: ${isDark ? hsla(color.slate[800]) : hsla(color.slate[200])};
   `}

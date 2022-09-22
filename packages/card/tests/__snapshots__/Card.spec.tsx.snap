@@ -4,8 +4,14 @@ exports[`Card Basic render 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.334;
   position: relative;
-  font-weight: 700;
   padding-top: 1rem;
   padding-right: 1rem;
   padding-bottom: 0.5rem;
@@ -15,6 +21,13 @@ Object {
 
 .c0 {
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -29,6 +42,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -40,6 +60,13 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
 }
 
 .c3 {
@@ -84,8 +111,14 @@ Object {
     </div>
   </body>,
   "container": .c2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.334;
   position: relative;
-  font-weight: 700;
   padding-top: 1rem;
   padding-right: 1rem;
   padding-bottom: 0.5rem;
@@ -95,6 +128,13 @@ Object {
 
 .c0 {
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -109,6 +149,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -120,6 +167,13 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
 }
 
 .c3 {
@@ -219,8 +273,14 @@ exports[`Card Basic render in dark mode 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.334;
   position: relative;
-  font-weight: 700;
   padding-top: 1rem;
   padding-right: 1rem;
   padding-bottom: 0.5rem;
@@ -230,6 +290,13 @@ Object {
 
 .c0 {
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(217,33%,17%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(210,40%,96%,1);
@@ -244,6 +311,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(217,33%,17%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(210,40%,96%,1);
@@ -255,6 +329,13 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
 }
 
 .c3 {
@@ -299,8 +380,14 @@ Object {
     </div>
   </body>,
   "container": .c2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.334;
   position: relative;
-  font-weight: 700;
   padding-top: 1rem;
   padding-right: 1rem;
   padding-bottom: 0.5rem;
@@ -310,6 +397,13 @@ Object {
 
 .c0 {
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(217,33%,17%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(210,40%,96%,1);
@@ -324,6 +418,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(217,33%,17%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(210,40%,96%,1);
@@ -335,6 +436,13 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
 }
 
 .c3 {
@@ -434,8 +542,14 @@ exports[`Card Card divided 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.334;
   position: relative;
-  font-weight: 700;
   padding-top: 1rem;
   padding-right: 1rem;
   padding-bottom: 0.5rem;
@@ -452,6 +566,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -466,6 +587,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -476,6 +604,13 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   border-top: 1px solid hsla(0,0%,0%,0.12);
 }
 
@@ -538,8 +673,14 @@ Object {
     </div>
   </body>,
   "container": .c1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.334;
   position: relative;
-  font-weight: 700;
   padding-top: 1rem;
   padding-right: 1rem;
   padding-bottom: 0.5rem;
@@ -556,6 +697,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -570,6 +718,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -580,6 +735,13 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   border-top: 1px solid hsla(0,0%,0%,0.12);
 }
 
@@ -697,8 +859,14 @@ exports[`Card Card with accent variants 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c8 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.334;
   position: relative;
-  font-weight: 700;
   padding-top: 1rem;
   padding-right: 1rem;
   padding-bottom: 0.5rem;
@@ -708,6 +876,13 @@ Object {
 
 .c0 {
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -717,6 +892,13 @@ Object {
 
 .c1 {
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -726,6 +908,13 @@ Object {
 
 .c2 {
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -735,6 +924,13 @@ Object {
 
 .c3 {
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -744,6 +940,13 @@ Object {
 
 .c4 {
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -753,6 +956,13 @@ Object {
 
 .c5 {
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -762,6 +972,13 @@ Object {
 
 .c6 {
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -777,6 +994,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -792,6 +1016,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -807,6 +1038,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -822,6 +1060,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -837,6 +1082,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -852,6 +1104,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -867,6 +1126,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -879,6 +1145,13 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
 }
 
 .c9 {
@@ -1121,8 +1394,14 @@ Object {
     </div>
   </body>,
   "container": .c8 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.334;
   position: relative;
-  font-weight: 700;
   padding-top: 1rem;
   padding-right: 1rem;
   padding-bottom: 0.5rem;
@@ -1132,6 +1411,13 @@ Object {
 
 .c0 {
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1141,6 +1427,13 @@ Object {
 
 .c1 {
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1150,6 +1443,13 @@ Object {
 
 .c2 {
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1159,6 +1459,13 @@ Object {
 
 .c3 {
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1168,6 +1475,13 @@ Object {
 
 .c4 {
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1177,6 +1491,13 @@ Object {
 
 .c5 {
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1186,6 +1507,13 @@ Object {
 
 .c6 {
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1201,6 +1529,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1216,6 +1551,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1231,6 +1573,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1246,6 +1595,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1261,6 +1617,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1276,6 +1639,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1291,6 +1661,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1303,6 +1680,13 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
 }
 
 .c9 {
@@ -1600,8 +1984,14 @@ exports[`Card Card with sharp corners 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.334;
   position: relative;
-  font-weight: 700;
   padding-top: 1rem;
   padding-right: 1rem;
   padding-bottom: 0.5rem;
@@ -1611,6 +2001,13 @@ Object {
 
 .c0 {
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1624,6 +2021,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1634,6 +2038,13 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
 }
 
 .c3 {
@@ -1678,8 +2089,14 @@ Object {
     </div>
   </body>,
   "container": .c2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.334;
   position: relative;
-  font-weight: 700;
   padding-top: 1rem;
   padding-right: 1rem;
   padding-bottom: 0.5rem;
@@ -1689,6 +2106,13 @@ Object {
 
 .c0 {
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1702,6 +2126,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1712,6 +2143,13 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
 }
 
 .c3 {
@@ -1811,8 +2249,14 @@ exports[`Card Custom dimensions 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.334;
   position: relative;
-  font-weight: 700;
   padding-top: 1rem;
   padding-right: 1rem;
   padding-bottom: 0.5rem;
@@ -1822,6 +2266,13 @@ Object {
 
 .c0 {
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1837,6 +2288,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1849,6 +2307,13 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
 }
 
 .c3 {
@@ -1893,8 +2358,14 @@ Object {
     </div>
   </body>,
   "container": .c2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.334;
   position: relative;
-  font-weight: 700;
   padding-top: 1rem;
   padding-right: 1rem;
   padding-bottom: 0.5rem;
@@ -1904,6 +2375,13 @@ Object {
 
 .c0 {
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1919,6 +2397,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -1931,6 +2416,13 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
 }
 
 .c3 {
@@ -2037,6 +2529,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -2070,6 +2569,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -2158,6 +2664,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -2184,6 +2697,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -2258,8 +2778,14 @@ exports[`Card With wrapper element 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.334;
   position: relative;
-  font-weight: 700;
   padding-top: 1rem;
   padding-right: 1rem;
   padding-bottom: 0.5rem;
@@ -2270,6 +2796,13 @@ Object {
 
 .c0 {
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -2284,6 +2817,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -2295,6 +2835,13 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   border-top: 1px solid hsla(0,0%,0%,0.12);
 }
 
@@ -2348,8 +2895,14 @@ Object {
     </div>
   </body>,
   "container": .c2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.334;
   position: relative;
-  font-weight: 700;
   padding-top: 1rem;
   padding-right: 1rem;
   padding-bottom: 0.5rem;
@@ -2360,6 +2913,13 @@ Object {
 
 .c0 {
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -2374,6 +2934,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -2385,6 +2952,13 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   border-top: 1px solid hsla(0,0%,0%,0.12);
 }
 
@@ -2492,23 +3066,29 @@ Object {
 exports[`Card card with link 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c2 {
-  position: relative;
-  font-weight: 700;
-  padding-top: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
-  width: 100%;
-}
-
-.c4 {
+  "baseElement": .c4 {
   display: none;
   position: absolute;
   height: 2.5rem;
   width: 2.5rem;
   top: 0;
   right: 0;
+}
+
+.c2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.334;
+  position: relative;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  width: 100%;
 }
 
 .c5 {
@@ -2522,6 +3102,13 @@ Object {
 
 .c0 {
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -2541,6 +3128,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -2559,6 +3153,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -2575,6 +3176,13 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
 }
 
 .c6 {
@@ -2671,23 +3279,29 @@ Object {
       </section>
     </div>
   </body>,
-  "container": .c2 {
-  position: relative;
-  font-weight: 700;
-  padding-top: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
-  width: 100%;
-}
-
-.c4 {
+  "container": .c4 {
   display: none;
   position: absolute;
   height: 2.5rem;
   width: 2.5rem;
   top: 0;
   right: 0;
+}
+
+.c2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.334;
+  position: relative;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  width: 100%;
 }
 
 .c5 {
@@ -2701,6 +3315,13 @@ Object {
 
 .c0 {
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -2720,6 +3341,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -2738,6 +3366,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(0,100%,100%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(217,33%,17%,1);
@@ -2754,6 +3389,13 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
 }
 
 .c6 {
@@ -2905,23 +3547,29 @@ Object {
 exports[`Card card with link in dark mode 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c2 {
-  position: relative;
-  font-weight: 700;
-  padding-top: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
-  width: 100%;
-}
-
-.c4 {
+  "baseElement": .c4 {
   display: none;
   position: absolute;
   height: 2.5rem;
   width: 2.5rem;
   top: 0;
   right: 0;
+}
+
+.c2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.334;
+  position: relative;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  width: 100%;
 }
 
 .c5 {
@@ -2935,6 +3583,13 @@ Object {
 
 .c0 {
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(217,33%,17%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(210,40%,96%,1);
@@ -2954,6 +3609,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(217,33%,17%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(210,40%,96%,1);
@@ -2972,6 +3634,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(217,33%,17%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(210,40%,96%,1);
@@ -2988,6 +3657,13 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
 }
 
 .c6 {
@@ -3084,23 +3760,29 @@ Object {
       </section>
     </div>
   </body>,
-  "container": .c2 {
-  position: relative;
-  font-weight: 700;
-  padding-top: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
-  width: 100%;
-}
-
-.c4 {
+  "container": .c4 {
   display: none;
   position: absolute;
   height: 2.5rem;
   width: 2.5rem;
   top: 0;
   right: 0;
+}
+
+.c2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.334;
+  position: relative;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  width: 100%;
 }
 
 .c5 {
@@ -3114,6 +3796,13 @@ Object {
 
 .c0 {
   padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(217,33%,17%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(210,40%,96%,1);
@@ -3133,6 +3822,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(217,33%,17%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(210,40%,96%,1);
@@ -3151,6 +3847,13 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   background-color: hsla(217,33%,17%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   color: hsla(210,40%,96%,1);
@@ -3167,6 +3870,13 @@ Object {
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
 }
 
 .c6 {
