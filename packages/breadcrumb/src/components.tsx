@@ -1,4 +1,4 @@
-import { css, styled } from '@tidy-ui/commons';
+import { createFontStyle, css, styled } from '@tidy-ui/commons';
 import { IBreadcrumbItemProps, IBreadCrumbItemWrapperProps, IBreadcrumbProps } from './types';
 
 const BreadcrumbRoot = styled.ol<IBreadcrumbProps>`
@@ -13,7 +13,8 @@ const BreadcrumbItemWrapper = styled.li<IBreadCrumbItemWrapperProps>`
 `;
 
 const activeItemStyle = css<IBreadcrumbItemProps>`
-  ${({ theme: { palette, isDark } }) => css`
+  ${({ theme: { font, palette, isDark } }) => css`
+    font-weight: ${font.medium};
     text-decoration: none;
     cursor: auto;
     pointer-events: none;
@@ -34,17 +35,21 @@ const inactiveItemStyle = css<IBreadcrumbItemProps>`
   &:focus {
     background-size: 100% 0.1em;
   }
+  ${({ theme: { font } }) => css`
+    font-weight: ${font.regular};
+  `}
 `;
 
 const BreadcrumbItemRoot = styled.a<IBreadcrumbItemProps>`
-  ${({ theme: { typography }, active }) => css`
-    font-size: ${typography.fontSize};
+  ${({ active }) => css`
+    ${createFontStyle()}
     ${active ? activeItemStyle : inactiveItemStyle}
   `}
 `;
 
 const BreadcrumbSeparator = styled.div`
   ${({ theme: { palette } }) => css`
+    ${createFontStyle()}
     color: ${palette.neutral[500]};
   `}
 `;

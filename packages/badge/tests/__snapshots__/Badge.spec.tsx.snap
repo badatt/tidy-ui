@@ -539,6 +539,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(270,100%,98%,1);
@@ -608,6 +609,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(270,100%,98%,1);
@@ -863,6 +865,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(270,100%,98%,1);
@@ -932,6 +935,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(270,100%,98%,1);
@@ -1056,6 +1060,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(269,97%,85%,1);
@@ -1100,6 +1105,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(327,87%,82%,1);
@@ -1144,6 +1150,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(0,0%,83%,1);
@@ -1188,6 +1195,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(212,96%,78%,1);
@@ -1232,6 +1240,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(142,77%,73%,1);
@@ -1276,6 +1285,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(46,97%,65%,1);
@@ -1320,6 +1330,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(0,94%,82%,1);
@@ -1522,6 +1533,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(269,97%,85%,1);
@@ -1566,6 +1578,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(327,87%,82%,1);
@@ -1610,6 +1623,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(0,0%,83%,1);
@@ -1654,6 +1668,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(212,96%,78%,1);
@@ -1698,6 +1713,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(142,77%,73%,1);
@@ -1742,6 +1758,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(46,97%,65%,1);
@@ -1786,6 +1803,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(0,94%,82%,1);
@@ -2043,6 +2061,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(270,100%,98%,1);
@@ -2086,6 +2105,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(327,73%,97%,1);
@@ -2129,6 +2149,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(0,0%,98%,1);
@@ -2172,6 +2193,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(214,100%,97%,1);
@@ -2215,6 +2237,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(138,76%,97%,1);
@@ -2258,6 +2281,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(48,100%,96%,1);
@@ -2301,6 +2325,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(0,86%,97%,1);
@@ -2502,6 +2527,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(270,100%,98%,1);
@@ -2545,6 +2571,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(327,73%,97%,1);
@@ -2588,6 +2615,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(0,0%,98%,1);
@@ -2631,6 +2659,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(214,100%,97%,1);
@@ -2674,6 +2703,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(138,76%,97%,1);
@@ -2717,6 +2747,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(48,100%,96%,1);
@@ -2760,6 +2791,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(0,86%,97%,1);
@@ -3016,6 +3048,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(273,67%,39%,1);
@@ -3060,6 +3093,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(336,74%,35%,1);
@@ -3104,6 +3138,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(0,0%,15%,1);
@@ -3148,6 +3183,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(226,71%,40%,1);
@@ -3192,6 +3228,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(143,64%,24%,1);
@@ -3236,6 +3273,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(23,83%,31%,1);
@@ -3280,6 +3318,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(0,70%,35%,1);
@@ -3482,6 +3521,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(273,67%,39%,1);
@@ -3526,6 +3566,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(336,74%,35%,1);
@@ -3570,6 +3611,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(0,0%,15%,1);
@@ -3614,6 +3656,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(226,71%,40%,1);
@@ -3658,6 +3701,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(143,64%,24%,1);
@@ -3702,6 +3746,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(23,83%,31%,1);
@@ -3746,6 +3791,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(0,70%,35%,1);
@@ -4003,6 +4049,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(270,100%,98%,1);
@@ -4072,6 +4119,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(270,100%,98%,1);
@@ -4329,6 +4377,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(270,100%,98%,1);
@@ -4398,6 +4447,7 @@ Object {
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
   white-space: nowrap;
   color: hsla(270,100%,98%,1);

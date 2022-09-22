@@ -11,7 +11,7 @@ const defaultBase: ITidyUIBaseTheme = {
     medium: 400,
     mono: 'ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace',
     regular: 500,
-    size: '0.875rem',
+    size: '1rem',
   },
   layout: {
     radius: '0.5rem',

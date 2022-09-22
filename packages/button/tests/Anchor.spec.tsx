@@ -5,6 +5,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
+import { Size, Tone } from '../../types/src';
 import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
 import { Anchor } from '../src';
 
@@ -25,6 +26,37 @@ describe('Render Anchor', () => {
     );
     expect(tree).toMatchSnapshot();
   });
+
+  it('Tones', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        {Object.values(Tone)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v, i) => (
+            <Anchor href="/?path=/story/anchor--basic" tone={Tone[v]} key={i}>
+              {Tone[v]}
+            </Anchor>
+          ))}
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Sizes', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        {Object.keys(Size)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v, i) => (
+            <Anchor href="/?path=/story/anchor--basic" size={Size[v]} key={i}>
+              size-{Size[v]}
+            </Anchor>
+          ))}
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
   it('External anchor link', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>

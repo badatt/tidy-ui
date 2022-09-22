@@ -14,64 +14,89 @@ const TextLink = styled.a<ITextProps>`
  * @internal
  */
 const TextRoot = styled.div<ITextProps>`
-  ${({ theme: { palette, typography, isDark }, v, tone, bld, udl, itl, uc, lc, cc, dsb, exd, ctr, mgn, tnc }) => css`
+  ${({
+    theme: { palette, font, typography, isDark },
+    v,
+    tone,
+    bld,
+    udl,
+    itl,
+    uc,
+    lc,
+    cc,
+    dsb,
+    exd,
+    ctr,
+    mgn,
+    tnc,
+  }) => css`
     display: block;
-    ${mgn &&
-    css`
-      margin: ${mgn};
-    `}
-    ${!mgn &&
-    css`
-      margin-bottom: ${typography[v!].marginBottom};
-    `}
     font-size: ${typography[v!].fontSize};
-    ${!bld &&
-    css`
-      font-weight: ${typography[v!].fontWeight};
-    `}
     letter-spacing: ${typography[v!].letterSpacing};
     line-height: ${typography[v!].lineHeight};
+
+    ${bld
+      ? css`
+          font-weight: ${font.bold};
+        `
+      : css`
+          font-weight: ${typography[v!].fontWeight};
+        `}
+
+    ${mgn
+      ? css`
+          margin: ${mgn};
+        `
+      : css`
+          margin-bottom: ${typography[v!].marginBottom};
+        `}
+    
     ${!dsb &&
     tone &&
     css`
       color: ${isDark ? palette[tone][500] : palette[tone][600]};
     `}
-    ${bld &&
-    css`
-      font-weight: ${typography.fontWeightBold};
-    `}
+
     ${udl &&
     css`
       text-decoration: underline;
     `}
+    
     ${itl &&
     css`
       font-style: italic;
     `}
+    
     ${uc &&
     css`
       text-transform: uppercase;
     `}
+    
     ${lc &&
     css`
       text-transform: lowercase;
     `}
+    
     ${cc &&
     css`
       text-transform: capitalize;
     `}
+    
     ${dsb &&
     css`
       color: ${palette.text.disabled};
     `}
+    
     ${exd &&
     css`
       width: 100%;
     `}
+    
     ${ctr &&
     css`
       text-align: center;
     `}
+    
     ${tnc &&
     css`
       overflow: hidden;

@@ -1,4 +1,4 @@
-import { css, styled } from '@tidy-ui/commons';
+import { createFontStyle, css, styled } from '@tidy-ui/commons';
 import { IPalette } from '@tidy-ui/types';
 import { filledContent, filledLabel, outlinedContent, outlinedLabel } from './styles';
 import { IMessageProps } from './types';
@@ -54,7 +54,7 @@ const CloseButton = styled.i<IMessageProps>`
  * @internal
  */
 const MessageLabel = styled.div<IMessageProps>`
-  ${({ theme: { layout, typography }, sharp, outlined }) => css`
+  ${({ theme: { font, layout }, sharp, outlined }) => css`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,8 +64,8 @@ const MessageLabel = styled.div<IMessageProps>`
     width: fit-content;
     padding: 0.25rem 1rem;
     font-size: 0.625rem;
+    font-weight: ${font.bold};
     text-transform: uppercase;
-    font-weight: ${typography.fontWeightBold};
     ${outlined ? outlinedLabel : filledLabel}
     * {
       height: 0.75rem;
@@ -81,6 +81,7 @@ const MessageLabel = styled.div<IMessageProps>`
  */
 const MessageContent = styled.div<IMessageProps>`
   display: flex;
+  ${createFontStyle()}
   ${({ theme: { layout }, sharp, stretched, withoutLabel, outlined, h }) => css`
     padding: 0.75rem 1rem;
     border-radius: ${!sharp && layout.radius};

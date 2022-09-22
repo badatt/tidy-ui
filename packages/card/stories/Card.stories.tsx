@@ -1,5 +1,4 @@
 import React from 'react';
-import { Text } from '../../text/src';
 import { FlexBox } from '../../flexbox/src';
 import { Grid } from '../../grid/src';
 import { Card } from '../src';
@@ -10,14 +9,14 @@ export default {
   title: 'Presentation/Card',
 };
 
-const ContentHeader = () => <Text.h5>Lorem ipsum dolor sit.</Text.h5>;
+const ContentHeader = () => <>Lorem ipsum dolor sit.</>;
 const ContentBody = () => (
-  <Text.body1>
+  <>
     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et totam eius ducimus unde voluptatibus asperiores fuga
     accusantium voluptates non nam sit beatae, modi quas animi autem aliquid. Exercitationem, veniam sapiente!
-  </Text.body1>
+  </>
 );
-const ContentFooter = () => <Text.body2>Lorem ipsum dolor sit amet consectetur.</Text.body2>;
+const ContentFooter = () => <>Lorem ipsum dolor sit amet consectetur.</>;
 
 export const basic = () => (
   <FlexBox gap="1rem" nowrap>

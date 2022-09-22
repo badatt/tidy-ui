@@ -12,11 +12,17 @@ Object {
 }
 
 .c1 {
-  color: hsla(271,81%,56%,1);
+  color: hsla(272,72%,47%,1);
 }
 
 .c2 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -27,6 +33,7 @@ Object {
   background-repeat: no-repeat;
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
+  font-weight: 500;
 }
 
 .c2:hover,
@@ -35,15 +42,29 @@ Object {
 }
 
 .c4 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  font-weight: 400;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
-  color: hsla(0,0%,25%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c3 {
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   color: hsla(0,0%,45%,1);
 }
 
@@ -124,11 +145,17 @@ Object {
 }
 
 .c1 {
-  color: hsla(271,81%,56%,1);
+  color: hsla(272,72%,47%,1);
 }
 
 .c2 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -139,6 +166,7 @@ Object {
   background-repeat: no-repeat;
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
+  font-weight: 500;
 }
 
 .c2:hover,
@@ -147,15 +175,29 @@ Object {
 }
 
 .c4 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  font-weight: 400;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
-  color: hsla(0,0%,25%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c3 {
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   color: hsla(0,0%,45%,1);
 }
 
@@ -291,11 +333,17 @@ Object {
 }
 
 .c1 {
-  color: hsla(271,81%,56%,1);
+  color: hsla(272,72%,47%,1);
 }
 
 .c2 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -306,6 +354,7 @@ Object {
   background-repeat: no-repeat;
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
+  font-weight: 500;
 }
 
 .c2:hover,
@@ -314,15 +363,29 @@ Object {
 }
 
 .c4 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  font-weight: 400;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
-  color: hsla(0,0%,25%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c3 {
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   color: hsla(0,0%,45%,1);
 }
 
@@ -386,11 +449,17 @@ Object {
 }
 
 .c1 {
-  color: hsla(271,81%,56%,1);
+  color: hsla(272,72%,47%,1);
 }
 
 .c2 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -401,6 +470,7 @@ Object {
   background-repeat: no-repeat;
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
+  font-weight: 500;
 }
 
 .c2:hover,
@@ -409,15 +479,29 @@ Object {
 }
 
 .c4 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  font-weight: 400;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
-  color: hsla(0,0%,25%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c3 {
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   color: hsla(0,0%,45%,1);
 }
 
@@ -546,11 +630,17 @@ Object {
 }
 
 .c1 {
-  color: hsla(271,81%,56%,1);
+  color: hsla(272,72%,47%,1);
 }
 
 .c2 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -561,6 +651,7 @@ Object {
   background-repeat: no-repeat;
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
+  font-weight: 500;
 }
 
 .c2:hover,
@@ -569,12 +660,19 @@ Object {
 }
 
 .c4 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  font-weight: 400;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
-  color: hsla(0,0%,25%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 <body>
@@ -691,11 +789,17 @@ Object {
 }
 
 .c1 {
-  color: hsla(271,81%,56%,1);
+  color: hsla(272,72%,47%,1);
 }
 
 .c2 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -706,6 +810,7 @@ Object {
   background-repeat: no-repeat;
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
+  font-weight: 500;
 }
 
 .c2:hover,
@@ -714,12 +819,19 @@ Object {
 }
 
 .c4 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  font-weight: 400;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
-  color: hsla(0,0%,25%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 <div>
@@ -885,7 +997,13 @@ Object {
 }
 
 .c2 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -896,6 +1014,7 @@ Object {
   background-repeat: no-repeat;
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
+  font-weight: 500;
 }
 
 .c2:hover,
@@ -904,7 +1023,14 @@ Object {
 }
 
 .c4 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  font-weight: 400;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: auto;
@@ -913,6 +1039,13 @@ Object {
 }
 
 .c3 {
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   color: hsla(0,0%,45%,1);
 }
 
@@ -997,7 +1130,13 @@ Object {
 }
 
 .c2 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1008,6 +1147,7 @@ Object {
   background-repeat: no-repeat;
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
+  font-weight: 500;
 }
 
 .c2:hover,
@@ -1016,7 +1156,14 @@ Object {
 }
 
 .c4 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  font-weight: 400;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: auto;
@@ -1025,6 +1172,13 @@ Object {
 }
 
 .c3 {
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   color: hsla(0,0%,45%,1);
 }
 
@@ -1160,11 +1314,17 @@ Object {
 }
 
 .c1 {
-  color: hsla(271,81%,56%,1);
+  color: hsla(272,72%,47%,1);
 }
 
 .c2 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1175,6 +1335,7 @@ Object {
   background-repeat: no-repeat;
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
+  font-weight: 500;
 }
 
 .c2:hover,
@@ -1183,15 +1344,29 @@ Object {
 }
 
 .c4 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  font-weight: 400;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
-  color: hsla(0,0%,25%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c3 {
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   color: hsla(0,0%,45%,1);
 }
 
@@ -1255,11 +1430,17 @@ Object {
 }
 
 .c1 {
-  color: hsla(271,81%,56%,1);
+  color: hsla(272,72%,47%,1);
 }
 
 .c2 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1270,6 +1451,7 @@ Object {
   background-repeat: no-repeat;
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
+  font-weight: 500;
 }
 
 .c2:hover,
@@ -1278,15 +1460,29 @@ Object {
 }
 
 .c4 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  font-weight: 400;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
-  color: hsla(0,0%,25%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c3 {
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   color: hsla(0,0%,45%,1);
 }
 
@@ -1405,11 +1601,17 @@ Object {
 }
 
 .c1 {
-  color: hsla(271,81%,56%,1);
+  color: hsla(272,72%,47%,1);
 }
 
 .c2 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1420,6 +1622,7 @@ Object {
   background-repeat: no-repeat;
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
+  font-weight: 500;
 }
 
 .c2:hover,
@@ -1428,15 +1631,29 @@ Object {
 }
 
 .c4 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  font-weight: 400;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
-  color: hsla(0,0%,25%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c3 {
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   color: hsla(0,0%,45%,1);
 }
 
@@ -1500,11 +1717,17 @@ Object {
 }
 
 .c1 {
-  color: hsla(271,81%,56%,1);
+  color: hsla(272,72%,47%,1);
 }
 
 .c2 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1515,6 +1738,7 @@ Object {
   background-repeat: no-repeat;
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
+  font-weight: 500;
 }
 
 .c2:hover,
@@ -1523,15 +1747,29 @@ Object {
 }
 
 .c4 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  font-weight: 400;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
-  color: hsla(0,0%,25%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c3 {
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   color: hsla(0,0%,45%,1);
 }
 
@@ -1650,11 +1888,17 @@ Object {
 }
 
 .c1 {
-  color: hsla(271,81%,56%,1);
+  color: hsla(272,72%,47%,1);
 }
 
 .c2 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1665,6 +1909,7 @@ Object {
   background-repeat: no-repeat;
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
+  font-weight: 500;
 }
 
 .c2:hover,
@@ -1673,15 +1918,29 @@ Object {
 }
 
 .c4 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  font-weight: 400;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
-  color: hsla(0,0%,25%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c3 {
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   color: hsla(0,0%,45%,1);
 }
 
@@ -1794,11 +2053,17 @@ Object {
 }
 
 .c1 {
-  color: hsla(271,81%,56%,1);
+  color: hsla(272,72%,47%,1);
 }
 
 .c2 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1809,6 +2074,7 @@ Object {
   background-repeat: no-repeat;
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
+  font-weight: 500;
 }
 
 .c2:hover,
@@ -1817,15 +2083,29 @@ Object {
 }
 
 .c4 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  font-weight: 400;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
-  color: hsla(0,0%,25%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c3 {
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   color: hsla(0,0%,45%,1);
 }
 
@@ -1993,35 +2273,41 @@ Object {
 }
 
 .c1 {
-  color: hsla(271,81%,56%,1);
+  color: hsla(272,72%,47%,1);
 }
 
 .c5 {
-  color: hsla(333,71%,51%,1);
+  color: hsla(335,78%,42%,1);
 }
 
 .c6 {
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,25%,1);
 }
 
 .c7 {
-  color: hsla(221,83%,53%,1);
+  color: hsla(224,76%,48%,1);
 }
 
 .c8 {
-  color: hsla(142,76%,36%,1);
+  color: hsla(142,72%,29%,1);
 }
 
 .c9 {
-  color: hsla(32,95%,44%,1);
+  color: hsla(26,90%,37%,1);
 }
 
 .c10 {
-  color: hsla(0,72%,51%,1);
+  color: hsla(0,74%,42%,1);
 }
 
 .c2 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -2032,6 +2318,7 @@ Object {
   background-repeat: no-repeat;
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
+  font-weight: 500;
 }
 
 .c2:hover,
@@ -2040,15 +2327,29 @@ Object {
 }
 
 .c4 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  font-weight: 400;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
-  color: hsla(0,0%,25%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c3 {
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   color: hsla(0,0%,45%,1);
 }
 
@@ -2737,35 +3038,41 @@ Object {
 }
 
 .c1 {
-  color: hsla(271,81%,56%,1);
+  color: hsla(272,72%,47%,1);
 }
 
 .c5 {
-  color: hsla(333,71%,51%,1);
+  color: hsla(335,78%,42%,1);
 }
 
 .c6 {
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,25%,1);
 }
 
 .c7 {
-  color: hsla(221,83%,53%,1);
+  color: hsla(224,76%,48%,1);
 }
 
 .c8 {
-  color: hsla(142,76%,36%,1);
+  color: hsla(142,72%,29%,1);
 }
 
 .c9 {
-  color: hsla(32,95%,44%,1);
+  color: hsla(26,90%,37%,1);
 }
 
 .c10 {
-  color: hsla(0,72%,51%,1);
+  color: hsla(0,74%,42%,1);
 }
 
 .c2 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   cursor: pointer;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -2776,6 +3083,7 @@ Object {
   background-repeat: no-repeat;
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
+  font-weight: 500;
 }
 
 .c2:hover,
@@ -2784,15 +3092,29 @@ Object {
 }
 
 .c4 {
-  font-size: 0.875rem;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  font-weight: 400;
   -webkit-text-decoration: none;
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
-  color: hsla(0,0%,25%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c3 {
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   color: hsla(0,0%,45%,1);
 }
 

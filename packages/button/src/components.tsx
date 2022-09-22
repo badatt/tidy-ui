@@ -1,4 +1,4 @@
-import { css, styled } from '@tidy-ui/commons';
+import { css, hsla, styled } from '@tidy-ui/commons';
 import { hero, outlined, primary, simple, sizeStyles } from './styles';
 import { IAnchorProps, IButtonClusterProps, IButtonGroupProps, IButtonProps, IIconButtonProps } from './types';
 
@@ -8,20 +8,33 @@ import { IAnchorProps, IButtonClusterProps, IButtonGroupProps, IButtonProps, IIc
  * @internal
  */
 const AnchorRoot = styled.a<IAnchorProps>`
-  ${({ theme: { palette, isDark }, disabled }) => css`
+  ${({ theme: { palette, isDark }, disabled, size, tone }) => css`
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: ${isDark ? palette['major'][400] : palette['major'][600]};
-    ${disabled &&
-    css`
-      cursor: not-allowed;
-      pointer-events: none;
-      opacity: 0.6;
-    `}
-    &:hover {
-      text-decoration: underline;
-    }
+    font-size: calc(${sizeStyles[size!].fontSize} + 0.1em);
+    color: ${isDark ? palette[tone!][400] : palette[tone!][600]};
+    ${disabled
+      ? css`
+          cursor: not-allowed;
+          pointer-events: none;
+          opacity: 0.6;
+        `
+      : css`
+          background-image: linear-gradient(
+            ${hsla(palette[tone!].shades[500], 0.7)},
+            ${hsla(palette[tone!].shades[500], 0.7)}
+          );
+          background-size: 100% 0em;
+          background-position-y: 100%;
+          background-repeat: no-repeat;
+          transition: background-size 0.2s ease-in-out;
+          :hover,
+          :active,
+          :focus {
+            background-size: 100% 25%;
+          }
+        `}
   `};
 `;
 

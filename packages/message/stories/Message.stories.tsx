@@ -1,6 +1,5 @@
 import React from 'react';
 import { FlexBox } from '../../flexbox/src';
-import { Text } from '../../text/src';
 import { Tone } from '../../types/src';
 import { Message } from '../src';
 
@@ -10,11 +9,11 @@ export default {
 };
 
 const Content = () => (
-  <Text.body1>
+  <>
     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
     ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
     eaque!
-  </Text.body1>
+  </>
 );
 
 export const basic = () => (

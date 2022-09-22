@@ -14,12 +14,20 @@ Object {
   align-items: center;
   -webkit-text-decoration: none;
   text-decoration: none;
+  font-size: calc(0.875rem + 0.1em);
   color: hsla(271,81%,56%,1);
+  background-image: linear-gradient( hsla(271,91%,65%,0.7), hsla(271,91%,65%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
 }
 
-.c0:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
+.c0:hover,
+.c0:active,
+.c0:focus {
+  background-size: 100% 25%;
 }
 
 <body>
@@ -45,12 +53,20 @@ Object {
   align-items: center;
   -webkit-text-decoration: none;
   text-decoration: none;
+  font-size: calc(0.875rem + 0.1em);
   color: hsla(271,81%,56%,1);
+  background-image: linear-gradient( hsla(271,91%,65%,0.7), hsla(271,91%,65%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
 }
 
-.c0:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
+.c0:hover,
+.c0:active,
+.c0:focus {
+  background-size: 100% 25%;
 }
 
 <div>
@@ -131,15 +147,11 @@ Object {
   align-items: center;
   -webkit-text-decoration: none;
   text-decoration: none;
+  font-size: calc(0.875rem + 0.1em);
   color: hsla(271,81%,56%,1);
   cursor: not-allowed;
   pointer-events: none;
   opacity: 0.6;
-}
-
-.c0:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
 }
 
 <body>
@@ -166,15 +178,11 @@ Object {
   align-items: center;
   -webkit-text-decoration: none;
   text-decoration: none;
+  font-size: calc(0.875rem + 0.1em);
   color: hsla(271,81%,56%,1);
   cursor: not-allowed;
   pointer-events: none;
   opacity: 0.6;
-}
-
-.c0:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
 }
 
 <div>
@@ -256,15 +264,11 @@ Object {
   align-items: center;
   -webkit-text-decoration: none;
   text-decoration: none;
+  font-size: calc(0.875rem + 0.1em);
   color: hsla(270,95%,75%,1);
   cursor: not-allowed;
   pointer-events: none;
   opacity: 0.6;
-}
-
-.c0:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
 }
 
 <body>
@@ -291,15 +295,11 @@ Object {
   align-items: center;
   -webkit-text-decoration: none;
   text-decoration: none;
+  font-size: calc(0.875rem + 0.1em);
   color: hsla(270,95%,75%,1);
   cursor: not-allowed;
   pointer-events: none;
   opacity: 0.6;
-}
-
-.c0:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
 }
 
 <div>
@@ -381,12 +381,20 @@ Object {
   align-items: center;
   -webkit-text-decoration: none;
   text-decoration: none;
+  font-size: calc(0.875rem + 0.1em);
   color: hsla(271,81%,56%,1);
+  background-image: linear-gradient( hsla(271,91%,65%,0.7), hsla(271,91%,65%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
 }
 
-.c0:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
+.c0:hover,
+.c0:active,
+.c0:focus {
+  background-size: 100% 25%;
 }
 
 <body>
@@ -428,12 +436,20 @@ Object {
   align-items: center;
   -webkit-text-decoration: none;
   text-decoration: none;
+  font-size: calc(0.875rem + 0.1em);
   color: hsla(271,81%,56%,1);
+  background-image: linear-gradient( hsla(271,91%,65%,0.7), hsla(271,91%,65%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
 }
 
-.c0:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
+.c0:hover,
+.c0:active,
+.c0:focus {
+  background-size: 100% 25%;
 }
 
 <div>
@@ -530,12 +546,20 @@ Object {
   align-items: center;
   -webkit-text-decoration: none;
   text-decoration: none;
+  font-size: calc(0.875rem + 0.1em);
   color: hsla(270,95%,75%,1);
+  background-image: linear-gradient( hsla(271,91%,65%,0.7), hsla(271,91%,65%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
 }
 
-.c0:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
+.c0:hover,
+.c0:active,
+.c0:focus {
+  background-size: 100% 25%;
 }
 
 <body>
@@ -577,12 +601,20 @@ Object {
   align-items: center;
   -webkit-text-decoration: none;
   text-decoration: none;
+  font-size: calc(0.875rem + 0.1em);
   color: hsla(270,95%,75%,1);
+  background-image: linear-gradient( hsla(271,91%,65%,0.7), hsla(271,91%,65%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
 }
 
-.c0:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
+.c0:hover,
+.c0:active,
+.c0:focus {
+  background-size: 100% 25%;
 }
 
 <div>
@@ -679,12 +711,20 @@ Object {
   align-items: center;
   -webkit-text-decoration: none;
   text-decoration: none;
+  font-size: calc(0.875rem + 0.1em);
   color: hsla(270,95%,75%,1);
+  background-image: linear-gradient( hsla(271,91%,65%,0.7), hsla(271,91%,65%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
 }
 
-.c0:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
+.c0:hover,
+.c0:active,
+.c0:focus {
+  background-size: 100% 25%;
 }
 
 <body>
@@ -710,12 +750,20 @@ Object {
   align-items: center;
   -webkit-text-decoration: none;
   text-decoration: none;
+  font-size: calc(0.875rem + 0.1em);
   color: hsla(270,95%,75%,1);
+  background-image: linear-gradient( hsla(271,91%,65%,0.7), hsla(271,91%,65%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
 }
 
-.c0:hover {
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
+.c0:hover,
+.c0:active,
+.c0:focus {
+  background-size: 100% 25%;
 }
 
 <div>
@@ -726,6 +774,1126 @@ Object {
       target="_top"
     >
       simple link
+    </a>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Render Anchor Sizes 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: calc(0.5rem + 0.1em);
+  color: hsla(271,81%,56%,1);
+  background-image: linear-gradient( hsla(271,91%,65%,0.7), hsla(271,91%,65%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c0:hover,
+.c0:active,
+.c0:focus {
+  background-size: 100% 25%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: calc(0.625rem + 0.1em);
+  color: hsla(271,81%,56%,1);
+  background-image: linear-gradient( hsla(271,91%,65%,0.7), hsla(271,91%,65%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c1:hover,
+.c1:active,
+.c1:focus {
+  background-size: 100% 25%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: calc(0.75rem + 0.1em);
+  color: hsla(271,81%,56%,1);
+  background-image: linear-gradient( hsla(271,91%,65%,0.7), hsla(271,91%,65%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c2:hover,
+.c2:active,
+.c2:focus {
+  background-size: 100% 25%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: calc(0.875rem + 0.1em);
+  color: hsla(271,81%,56%,1);
+  background-image: linear-gradient( hsla(271,91%,65%,0.7), hsla(271,91%,65%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c3:hover,
+.c3:active,
+.c3:focus {
+  background-size: 100% 25%;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: calc(1.125rem + 0.1em);
+  color: hsla(271,81%,56%,1);
+  background-image: linear-gradient( hsla(271,91%,65%,0.7), hsla(271,91%,65%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c4:hover,
+.c4:active,
+.c4:focus {
+  background-size: 100% 25%;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: calc(1.5rem + 0.1em);
+  color: hsla(271,81%,56%,1);
+  background-image: linear-gradient( hsla(271,91%,65%,0.7), hsla(271,91%,65%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c5:hover,
+.c5:active,
+.c5:focus {
+  background-size: 100% 25%;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: calc(2rem + 0.1em);
+  color: hsla(271,81%,56%,1);
+  background-image: linear-gradient( hsla(271,91%,65%,0.7), hsla(271,91%,65%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c6:hover,
+.c6:active,
+.c6:focus {
+  background-size: 100% 25%;
+}
+
+<body>
+    <div>
+      <a
+        class="c0"
+        href="/?path=/story/anchor--basic"
+        role="link"
+        target="_top"
+      >
+        size-
+        xxs
+      </a>
+      <a
+        class="c1"
+        href="/?path=/story/anchor--basic"
+        role="link"
+        target="_top"
+      >
+        size-
+        xs
+      </a>
+      <a
+        class="c2"
+        href="/?path=/story/anchor--basic"
+        role="link"
+        target="_top"
+      >
+        size-
+        sm
+      </a>
+      <a
+        class="c3"
+        href="/?path=/story/anchor--basic"
+        role="link"
+        target="_top"
+      >
+        size-
+        md
+      </a>
+      <a
+        class="c4"
+        href="/?path=/story/anchor--basic"
+        role="link"
+        target="_top"
+      >
+        size-
+        lg
+      </a>
+      <a
+        class="c5"
+        href="/?path=/story/anchor--basic"
+        role="link"
+        target="_top"
+      >
+        size-
+        xl
+      </a>
+      <a
+        class="c6"
+        href="/?path=/story/anchor--basic"
+        role="link"
+        target="_top"
+      >
+        size-
+        xxl
+      </a>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: calc(0.5rem + 0.1em);
+  color: hsla(271,81%,56%,1);
+  background-image: linear-gradient( hsla(271,91%,65%,0.7), hsla(271,91%,65%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c0:hover,
+.c0:active,
+.c0:focus {
+  background-size: 100% 25%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: calc(0.625rem + 0.1em);
+  color: hsla(271,81%,56%,1);
+  background-image: linear-gradient( hsla(271,91%,65%,0.7), hsla(271,91%,65%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c1:hover,
+.c1:active,
+.c1:focus {
+  background-size: 100% 25%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: calc(0.75rem + 0.1em);
+  color: hsla(271,81%,56%,1);
+  background-image: linear-gradient( hsla(271,91%,65%,0.7), hsla(271,91%,65%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c2:hover,
+.c2:active,
+.c2:focus {
+  background-size: 100% 25%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: calc(0.875rem + 0.1em);
+  color: hsla(271,81%,56%,1);
+  background-image: linear-gradient( hsla(271,91%,65%,0.7), hsla(271,91%,65%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c3:hover,
+.c3:active,
+.c3:focus {
+  background-size: 100% 25%;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: calc(1.125rem + 0.1em);
+  color: hsla(271,81%,56%,1);
+  background-image: linear-gradient( hsla(271,91%,65%,0.7), hsla(271,91%,65%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c4:hover,
+.c4:active,
+.c4:focus {
+  background-size: 100% 25%;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: calc(1.5rem + 0.1em);
+  color: hsla(271,81%,56%,1);
+  background-image: linear-gradient( hsla(271,91%,65%,0.7), hsla(271,91%,65%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c5:hover,
+.c5:active,
+.c5:focus {
+  background-size: 100% 25%;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: calc(2rem + 0.1em);
+  color: hsla(271,81%,56%,1);
+  background-image: linear-gradient( hsla(271,91%,65%,0.7), hsla(271,91%,65%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c6:hover,
+.c6:active,
+.c6:focus {
+  background-size: 100% 25%;
+}
+
+<div>
+    <a
+      class="c0"
+      href="/?path=/story/anchor--basic"
+      role="link"
+      target="_top"
+    >
+      size-
+      xxs
+    </a>
+    <a
+      class="c1"
+      href="/?path=/story/anchor--basic"
+      role="link"
+      target="_top"
+    >
+      size-
+      xs
+    </a>
+    <a
+      class="c2"
+      href="/?path=/story/anchor--basic"
+      role="link"
+      target="_top"
+    >
+      size-
+      sm
+    </a>
+    <a
+      class="c3"
+      href="/?path=/story/anchor--basic"
+      role="link"
+      target="_top"
+    >
+      size-
+      md
+    </a>
+    <a
+      class="c4"
+      href="/?path=/story/anchor--basic"
+      role="link"
+      target="_top"
+    >
+      size-
+      lg
+    </a>
+    <a
+      class="c5"
+      href="/?path=/story/anchor--basic"
+      role="link"
+      target="_top"
+    >
+      size-
+      xl
+    </a>
+    <a
+      class="c6"
+      href="/?path=/story/anchor--basic"
+      role="link"
+      target="_top"
+    >
+      size-
+      xxl
+    </a>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Render Anchor Tones 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: calc(0.875rem + 0.1em);
+  color: hsla(271,81%,56%,1);
+  background-image: linear-gradient( hsla(271,91%,65%,0.7), hsla(271,91%,65%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c0:hover,
+.c0:active,
+.c0:focus {
+  background-size: 100% 25%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: calc(0.875rem + 0.1em);
+  color: hsla(333,71%,51%,1);
+  background-image: linear-gradient( hsla(330,81%,60%,0.7), hsla(330,81%,60%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c1:hover,
+.c1:active,
+.c1:focus {
+  background-size: 100% 25%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: calc(0.875rem + 0.1em);
+  color: hsla(0,0%,32%,1);
+  background-image: linear-gradient( hsla(0,0%,45%,0.7), hsla(0,0%,45%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c2:hover,
+.c2:active,
+.c2:focus {
+  background-size: 100% 25%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: calc(0.875rem + 0.1em);
+  color: hsla(221,83%,53%,1);
+  background-image: linear-gradient( hsla(217,91%,60%,0.7), hsla(217,91%,60%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c3:hover,
+.c3:active,
+.c3:focus {
+  background-size: 100% 25%;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: calc(0.875rem + 0.1em);
+  color: hsla(142,76%,36%,1);
+  background-image: linear-gradient( hsla(142,71%,45%,0.7), hsla(142,71%,45%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c4:hover,
+.c4:active,
+.c4:focus {
+  background-size: 100% 25%;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: calc(0.875rem + 0.1em);
+  color: hsla(32,95%,44%,1);
+  background-image: linear-gradient( hsla(38,92%,50%,0.7), hsla(38,92%,50%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c5:hover,
+.c5:active,
+.c5:focus {
+  background-size: 100% 25%;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: calc(0.875rem + 0.1em);
+  color: hsla(0,72%,51%,1);
+  background-image: linear-gradient( hsla(0,84%,60%,0.7), hsla(0,84%,60%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c6:hover,
+.c6:active,
+.c6:focus {
+  background-size: 100% 25%;
+}
+
+<body>
+    <div>
+      <a
+        class="c0"
+        href="/?path=/story/anchor--basic"
+        role="link"
+        target="_top"
+      >
+        major
+      </a>
+      <a
+        class="c1"
+        href="/?path=/story/anchor--basic"
+        role="link"
+        target="_top"
+      >
+        minor
+      </a>
+      <a
+        class="c2"
+        href="/?path=/story/anchor--basic"
+        role="link"
+        target="_top"
+      >
+        neutral
+      </a>
+      <a
+        class="c3"
+        href="/?path=/story/anchor--basic"
+        role="link"
+        target="_top"
+      >
+        info
+      </a>
+      <a
+        class="c4"
+        href="/?path=/story/anchor--basic"
+        role="link"
+        target="_top"
+      >
+        success
+      </a>
+      <a
+        class="c5"
+        href="/?path=/story/anchor--basic"
+        role="link"
+        target="_top"
+      >
+        warning
+      </a>
+      <a
+        class="c6"
+        href="/?path=/story/anchor--basic"
+        role="link"
+        target="_top"
+      >
+        danger
+      </a>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: calc(0.875rem + 0.1em);
+  color: hsla(271,81%,56%,1);
+  background-image: linear-gradient( hsla(271,91%,65%,0.7), hsla(271,91%,65%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c0:hover,
+.c0:active,
+.c0:focus {
+  background-size: 100% 25%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: calc(0.875rem + 0.1em);
+  color: hsla(333,71%,51%,1);
+  background-image: linear-gradient( hsla(330,81%,60%,0.7), hsla(330,81%,60%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c1:hover,
+.c1:active,
+.c1:focus {
+  background-size: 100% 25%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: calc(0.875rem + 0.1em);
+  color: hsla(0,0%,32%,1);
+  background-image: linear-gradient( hsla(0,0%,45%,0.7), hsla(0,0%,45%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c2:hover,
+.c2:active,
+.c2:focus {
+  background-size: 100% 25%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: calc(0.875rem + 0.1em);
+  color: hsla(221,83%,53%,1);
+  background-image: linear-gradient( hsla(217,91%,60%,0.7), hsla(217,91%,60%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c3:hover,
+.c3:active,
+.c3:focus {
+  background-size: 100% 25%;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: calc(0.875rem + 0.1em);
+  color: hsla(142,76%,36%,1);
+  background-image: linear-gradient( hsla(142,71%,45%,0.7), hsla(142,71%,45%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c4:hover,
+.c4:active,
+.c4:focus {
+  background-size: 100% 25%;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: calc(0.875rem + 0.1em);
+  color: hsla(32,95%,44%,1);
+  background-image: linear-gradient( hsla(38,92%,50%,0.7), hsla(38,92%,50%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c5:hover,
+.c5:active,
+.c5:focus {
+  background-size: 100% 25%;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: calc(0.875rem + 0.1em);
+  color: hsla(0,72%,51%,1);
+  background-image: linear-gradient( hsla(0,84%,60%,0.7), hsla(0,84%,60%,0.7) );
+  background-size: 100% 0em;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+}
+
+.c6:hover,
+.c6:active,
+.c6:focus {
+  background-size: 100% 25%;
+}
+
+<div>
+    <a
+      class="c0"
+      href="/?path=/story/anchor--basic"
+      role="link"
+      target="_top"
+    >
+      major
+    </a>
+    <a
+      class="c1"
+      href="/?path=/story/anchor--basic"
+      role="link"
+      target="_top"
+    >
+      minor
+    </a>
+    <a
+      class="c2"
+      href="/?path=/story/anchor--basic"
+      role="link"
+      target="_top"
+    >
+      neutral
+    </a>
+    <a
+      class="c3"
+      href="/?path=/story/anchor--basic"
+      role="link"
+      target="_top"
+    >
+      info
+    </a>
+    <a
+      class="c4"
+      href="/?path=/story/anchor--basic"
+      role="link"
+      target="_top"
+    >
+      success
+    </a>
+    <a
+      class="c5"
+      href="/?path=/story/anchor--basic"
+      role="link"
+      target="_top"
+    >
+      warning
+    </a>
+    <a
+      class="c6"
+      href="/?path=/story/anchor--basic"
+      role="link"
+      target="_top"
+    >
+      danger
     </a>
   </div>,
   "debug": [Function],

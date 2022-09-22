@@ -1,26 +1,5 @@
-import { css, Icon, styled } from '@tidy-ui/commons';
+import { createFontStyle, css, Icon, styled } from '@tidy-ui/commons';
 import { ICardFooterProps, ICardHeaderProps, ICardProps } from './types';
-
-/**
- * Internal CardHeader root component
- *
- * @internal
- */
-const CardHeaderRoot = styled.header<ICardHeaderProps>`
-  ${({ theme: { typography, palette }, divided }) => css`
-    position: relative;
-    font-weight: ${typography.fontWeightBold};
-    padding-top: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 0.5rem;
-    padding-left: 1rem;
-    width: 100%;
-    ${divided &&
-    css`
-      border-bottom: 1px solid ${palette.divider};
-    `}
-  `}
-`;
 
 /**
  * Internal styled anchor tag
@@ -36,24 +15,9 @@ const Link = styled.a`
   right: 0;
 `;
 
-/**
- * Internal styled LaunchIcon
- *
- * @internal
- */
-const LaunchIcon = styled(Icon.Launch)`
-  ${({ theme: { palette, isDark } }) => css`
-    height: 1.25rem;
-    width: 1.25rem;
-    top: 0.5rem;
-    right: 0.5rem;
-    position: absolute;
-    color: ${isDark ? palette['neutral'][500] : palette['neutral'][400]};
-  `}
-`;
-
 const cardStyles = css<ICardProps>`
   ${({ theme: { palette, layout }, sharp, accent, accentPosition, href, margin, h, w }) => css`
+    ${createFontStyle()}
     background-color: ${palette.background.card};
     box-shadow: ${layout.shadow};
     color: ${palette.text.primary};
@@ -73,6 +37,43 @@ const cardStyles = css<ICardProps>`
   &:hover ${Link} {
     display: block;
   }
+`;
+
+/**
+ * Internal CardHeader root component
+ *
+ * @internal
+ */
+const CardHeaderRoot = styled.header<ICardHeaderProps>`
+  ${({ theme: { palette }, divided }) => css`
+    ${createFontStyle('h5')}
+    position: relative;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    width: 100%;
+    ${divided &&
+    css`
+      border-bottom: 1px solid ${palette.divider};
+    `}
+  `}
+`;
+
+/**
+ * Internal styled LaunchIcon
+ *
+ * @internal
+ */
+const LaunchIcon = styled(Icon.Launch)`
+  ${({ theme: { palette, isDark } }) => css`
+    height: 1.25rem;
+    width: 1.25rem;
+    top: 0.5rem;
+    right: 0.5rem;
+    position: absolute;
+    color: ${isDark ? palette['neutral'][500] : palette['neutral'][400]};
+  `}
 `;
 
 const CardRoot = styled.section<ICardProps>`
@@ -101,6 +102,7 @@ const CardFooterRoot = styled.footer<ICardFooterProps>`
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+  ${createFontStyle('body2')}
   ${({ theme: { palette }, divided }) => css`
     ${divided &&
     css`

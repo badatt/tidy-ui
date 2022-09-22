@@ -1,4 +1,4 @@
-import { css, styled } from '@tidy-ui/commons';
+import { createFontStyle, css, styled } from '@tidy-ui/commons';
 import { IPaperProps } from './types';
 
 /**
@@ -17,6 +17,7 @@ const PaperRoot = styled.section<IPaperProps>`
     box-shadow: ${layout.shadow};
     color: ${palette.text.primary};
     margin-bottom: ${margin};
+    ${createFontStyle()}
     ${h &&
     css`
       overflow-y: auto;
