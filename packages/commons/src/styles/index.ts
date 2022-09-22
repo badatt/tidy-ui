@@ -1,1 +1,1 @@
-export { default as font } from './font';
+export { default as createFontStyle } from './font';
