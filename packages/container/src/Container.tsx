@@ -7,6 +7,7 @@ const ContainerRoot = styled.div<IContainerProps>`
     theme: {
       layout: { screens },
     },
+    h,
     fixed,
     maxWidth,
     gutter,
@@ -15,6 +16,7 @@ const ContainerRoot = styled.div<IContainerProps>`
     margin-right: auto;
     display: block;
     box-sizing: border-box;
+    height: ${h || '100%'};
     ${maxWidth &&
     css`
       max-width: ${screens[maxWidth].breakpoint}px;

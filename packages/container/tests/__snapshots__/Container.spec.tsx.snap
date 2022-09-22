@@ -8,6 +8,7 @@ Object {
   margin-right: auto;
   display: block;
   box-sizing: border-box;
+  height: 100%;
   padding: 0 1.5rem;
 }
 
@@ -33,6 +34,114 @@ Object {
   margin-right: auto;
   display: block;
   box-sizing: border-box;
+  height: 100%;
+  padding: 0 1.5rem;
+}
+
+.c1 {
+  background-color: #cfe8fc;
+  height: 100vh;
+}
+
+<div>
+    <div
+      class="c0"
+      role="main"
+    >
+      <div
+        class="c1"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Container Custom height 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-sizing: border-box;
+  height: 25rem;
+  padding: 0 1.5rem;
+}
+
+.c1 {
+  background-color: #cfe8fc;
+  height: 100vh;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+        role="main"
+      >
+        <div
+          class="c1"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-sizing: border-box;
+  height: 25rem;
   padding: 0 1.5rem;
 }
 
@@ -113,6 +222,7 @@ Object {
   margin-right: auto;
   display: block;
   box-sizing: border-box;
+  height: 100%;
   padding: 0 1.5rem;
 }
 
@@ -168,6 +278,7 @@ Object {
   margin-right: auto;
   display: block;
   box-sizing: border-box;
+  height: 100%;
   padding: 0 1.5rem;
 }
 
@@ -278,6 +389,7 @@ Object {
   margin-right: auto;
   display: block;
   box-sizing: border-box;
+  height: 100%;
   max-width: 576px;
   padding: 0 1.5rem;
 }
@@ -287,6 +399,7 @@ Object {
   margin-right: auto;
   display: block;
   box-sizing: border-box;
+  height: 100%;
   max-width: 768px;
   padding: 0 1.5rem;
 }
@@ -296,6 +409,7 @@ Object {
   margin-right: auto;
   display: block;
   box-sizing: border-box;
+  height: 100%;
   max-width: 992px;
   padding: 0 1.5rem;
 }
@@ -305,6 +419,7 @@ Object {
   margin-right: auto;
   display: block;
   box-sizing: border-box;
+  height: 100%;
   max-width: 1200px;
   padding: 0 1.5rem;
 }
@@ -314,6 +429,7 @@ Object {
   margin-right: auto;
   display: block;
   box-sizing: border-box;
+  height: 100%;
   max-width: 1400px;
   padding: 0 1.5rem;
 }
@@ -372,6 +488,7 @@ Object {
   margin-right: auto;
   display: block;
   box-sizing: border-box;
+  height: 100%;
   max-width: 576px;
   padding: 0 1.5rem;
 }
@@ -381,6 +498,7 @@ Object {
   margin-right: auto;
   display: block;
   box-sizing: border-box;
+  height: 100%;
   max-width: 768px;
   padding: 0 1.5rem;
 }
@@ -390,6 +508,7 @@ Object {
   margin-right: auto;
   display: block;
   box-sizing: border-box;
+  height: 100%;
   max-width: 992px;
   padding: 0 1.5rem;
 }
@@ -399,6 +518,7 @@ Object {
   margin-right: auto;
   display: block;
   box-sizing: border-box;
+  height: 100%;
   max-width: 1200px;
   padding: 0 1.5rem;
 }
@@ -408,6 +528,7 @@ Object {
   margin-right: auto;
   display: block;
   box-sizing: border-box;
+  height: 100%;
   max-width: 1400px;
   padding: 0 1.5rem;
 }
@@ -521,6 +642,7 @@ Object {
   margin-right: auto;
   display: block;
   box-sizing: border-box;
+  height: 100%;
   padding: 0 0;
 }
 
@@ -546,6 +668,7 @@ Object {
   margin-right: auto;
   display: block;
   box-sizing: border-box;
+  height: 100%;
   padding: 0 0;
 }
 
