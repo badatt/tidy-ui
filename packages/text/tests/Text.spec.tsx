@@ -16,7 +16,19 @@ describe('Text', () => {
   it('Basic render', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <TextBase>{text}</TextBase>
+        <TextBase>
+          basic text: {text}
+          <b>bold text: {text}</b>
+          basic text: {text}
+          <u>underlined text: {text}</u>
+          basic text: {text}
+          <i>italic text: {text}</i>
+          basic text: {text}
+          <code>code text: {text}</code>
+          basic text: {text}
+          <s>strike text: {text}</s>
+          basic text: {text}
+        </TextBase>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -25,7 +37,19 @@ describe('Text', () => {
   it('Dark mode basic', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
-        <TextBase>{text}</TextBase>
+        <TextBase>
+          basic text: {text}
+          <b>bold text: {text}</b>
+          basic text: {text}
+          <u>underlined text: {text}</u>
+          basic text: {text}
+          <i>italic text: {text}</i>
+          basic text: {text}
+          <code>code text: {text}</code>
+          basic text: {text}
+          <s>strike text: {text}</s>
+          basic text: {text}
+        </TextBase>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();

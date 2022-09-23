@@ -21,6 +21,37 @@ Object {
         class="c0"
         role="contentinfo"
       >
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <b>
+          bold text: 
+          the quick brown fox jumps over the lazy dog
+        </b>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <u>
+          underlined text: 
+          the quick brown fox jumps over the lazy dog
+        </u>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <i>
+          italic text: 
+          the quick brown fox jumps over the lazy dog
+        </i>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <code>
+          code text: 
+          the quick brown fox jumps over the lazy dog
+        </code>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <s>
+          strike text: 
+          the quick brown fox jumps over the lazy dog
+        </s>
+        basic text: 
         the quick brown fox jumps over the lazy dog
       </p>
     </div>
@@ -42,6 +73,37 @@ Object {
       class="c0"
       role="contentinfo"
     >
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <b>
+        bold text: 
+        the quick brown fox jumps over the lazy dog
+      </b>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <u>
+        underlined text: 
+        the quick brown fox jumps over the lazy dog
+      </u>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <i>
+        italic text: 
+        the quick brown fox jumps over the lazy dog
+      </i>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <code>
+        code text: 
+        the quick brown fox jumps over the lazy dog
+      </code>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <s>
+        strike text: 
+        the quick brown fox jumps over the lazy dog
+      </s>
+      basic text: 
       the quick brown fox jumps over the lazy dog
     </p>
   </div>,
@@ -6776,6 +6838,37 @@ Object {
         class="c0"
         role="contentinfo"
       >
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <b>
+          bold text: 
+          the quick brown fox jumps over the lazy dog
+        </b>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <u>
+          underlined text: 
+          the quick brown fox jumps over the lazy dog
+        </u>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <i>
+          italic text: 
+          the quick brown fox jumps over the lazy dog
+        </i>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <code>
+          code text: 
+          the quick brown fox jumps over the lazy dog
+        </code>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <s>
+          strike text: 
+          the quick brown fox jumps over the lazy dog
+        </s>
+        basic text: 
         the quick brown fox jumps over the lazy dog
       </p>
     </div>
@@ -6797,6 +6890,37 @@ Object {
       class="c0"
       role="contentinfo"
     >
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <b>
+        bold text: 
+        the quick brown fox jumps over the lazy dog
+      </b>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <u>
+        underlined text: 
+        the quick brown fox jumps over the lazy dog
+      </u>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <i>
+        italic text: 
+        the quick brown fox jumps over the lazy dog
+      </i>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <code>
+        code text: 
+        the quick brown fox jumps over the lazy dog
+      </code>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <s>
+        strike text: 
+        the quick brown fox jumps over the lazy dog
+      </s>
+      basic text: 
       the quick brown fox jumps over the lazy dog
     </p>
   </div>,

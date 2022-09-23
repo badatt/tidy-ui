@@ -299,7 +299,7 @@ Object {
   line-height: 1.5;
   background-color: hsla(217,33%,17%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(210,40%,96%,1);
+  color: hsla(210,12%,81%,1);
   border-radius: 0.5rem;
 }
 
@@ -320,7 +320,7 @@ Object {
   line-height: 1.5;
   background-color: hsla(217,33%,17%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(210,40%,96%,1);
+  color: hsla(210,12%,81%,1);
   border-radius: 0.5rem;
 }
 
@@ -406,7 +406,7 @@ Object {
   line-height: 1.5;
   background-color: hsla(217,33%,17%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(210,40%,96%,1);
+  color: hsla(210,12%,81%,1);
   border-radius: 0.5rem;
 }
 
@@ -427,7 +427,7 @@ Object {
   line-height: 1.5;
   background-color: hsla(217,33%,17%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(210,40%,96%,1);
+  color: hsla(210,12%,81%,1);
   border-radius: 0.5rem;
 }
 
@@ -3592,7 +3592,7 @@ Object {
   line-height: 1.5;
   background-color: hsla(217,33%,17%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(210,40%,96%,1);
+  color: hsla(210,12%,81%,1);
   border-radius: 0.5rem;
   cursor: pointer;
 }
@@ -3618,7 +3618,7 @@ Object {
   line-height: 1.5;
   background-color: hsla(217,33%,17%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(210,40%,96%,1);
+  color: hsla(210,12%,81%,1);
   border-radius: 0.5rem;
 }
 
@@ -3643,7 +3643,7 @@ Object {
   line-height: 1.5;
   background-color: hsla(217,33%,17%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(210,40%,96%,1);
+  color: hsla(210,12%,81%,1);
   border-radius: 0.5rem;
   cursor: pointer;
 }
@@ -3805,7 +3805,7 @@ Object {
   line-height: 1.5;
   background-color: hsla(217,33%,17%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(210,40%,96%,1);
+  color: hsla(210,12%,81%,1);
   border-radius: 0.5rem;
   cursor: pointer;
 }
@@ -3831,7 +3831,7 @@ Object {
   line-height: 1.5;
   background-color: hsla(217,33%,17%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(210,40%,96%,1);
+  color: hsla(210,12%,81%,1);
   border-radius: 0.5rem;
 }
 
@@ -3856,7 +3856,7 @@ Object {
   line-height: 1.5;
   background-color: hsla(217,33%,17%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(210,40%,96%,1);
+  color: hsla(210,12%,81%,1);
   border-radius: 0.5rem;
   cursor: pointer;
 }
