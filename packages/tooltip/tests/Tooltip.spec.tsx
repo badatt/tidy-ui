@@ -12,7 +12,18 @@ describe('Tooltip', () => {
   it('Basic render', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Tooltip>basic</Tooltip>
+        <Tooltip content="Lorem ipsum dolor sit amet consectetur" direction="right">
+          Right
+        </Tooltip>
+        <Tooltip content="Lorem ipsum dolor sit amet consectetur" direction="top">
+          Top
+        </Tooltip>
+        <Tooltip content="Lorem ipsum dolor sit amet consectetur" direction="bottom">
+          Bottom
+        </Tooltip>
+        <Tooltip content="Lorem ipsum dolor sit amet consectetur" direction="left">
+          Left
+        </Tooltip>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -20,7 +31,18 @@ describe('Tooltip', () => {
   it('Dark mode basic render', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
-        <Tooltip>basic</Tooltip>
+        <Tooltip content="Lorem ipsum dolor sit amet consectetur" direction="right">
+          Right
+        </Tooltip>
+        <Tooltip content="Lorem ipsum dolor sit amet consectetur" direction="top">
+          Top
+        </Tooltip>
+        <Tooltip content="Lorem ipsum dolor sit amet consectetur" direction="bottom">
+          Bottom
+        </Tooltip>
+        <Tooltip content="Lorem ipsum dolor sit amet consectetur" direction="left">
+          Left
+        </Tooltip>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();

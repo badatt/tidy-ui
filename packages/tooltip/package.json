@@ -53,9 +53,10 @@
     "react-ui",
     "components",
     "ui",
-    "ui-components"
+    "ui-components",
+    "tooltip"
   ],
-  "description": "tidy-ui react component library; 'tooltip package",
+  "description": "Tooltip can be used to represent rich tooltips for your components in a page. It comes with settings like direction, theming etc.",
   "publishConfig": {
     "access": "public"
   },
