@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.13.5](https://github.com/badatt/tidy-ui/compare/v0.13.4...v0.13.5) (2022-09-23)
+
+
+### Features
+
+* text code change ([ff8e590](https://github.com/badatt/tidy-ui/commit/ff8e5901cca59e509a34fa3709af71bfa05106d9))
+
+
+
+
+
 ## [0.13.4](https://github.com/badatt/tidy-ui/compare/v0.13.3...v0.13.4) (2022-09-23)
 
 **Note:** Version bump only for package @tidy-ui/card

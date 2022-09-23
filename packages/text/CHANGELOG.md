@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.13.5](https://github.com/badatt/tidy-ui/compare/v0.13.4...v0.13.5) (2022-09-23)
+
+
+### Features
+
+* added inline text variants b, u, i, s ([57715ec](https://github.com/badatt/tidy-ui/commit/57715ec999b337cd8130e0f3dea4fbbf52f8b8e0))
+* text code change ([ff8e590](https://github.com/badatt/tidy-ui/commit/ff8e5901cca59e509a34fa3709af71bfa05106d9))
+
+
+
+
+
 ## [0.13.4](https://github.com/badatt/tidy-ui/compare/v0.13.3...v0.13.4) (2022-09-23)
 
 **Note:** Version bump only for package @tidy-ui/text
