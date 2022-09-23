@@ -275,7 +275,7 @@ const IconButtonIconOnlyWrapper = styled.span<IIconButtonProps>`
  *
  * @internal
  */
-const IconButtonIcon = styled(Icon)<Partial<IIconButtonProps>>`
+const IconButtonIcon = styled.span<Partial<IIconButtonProps>>`
   display: flex;
   justify-content: center;
   align-items: center;
