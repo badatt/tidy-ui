@@ -3,13 +3,13 @@ import { ITooltipProps } from './types';
 
 const bgColor = css`
   ${({ theme: { palette, isDark } }) => css`
-    ${isDark ? palette.neutral[700] : palette.neutral[800]}
+    ${isDark ? palette.neutral[400] : palette.neutral[800]}
   `}
 `;
 
 const color = css`
-  ${({ theme: { palette } }) => css`
-    ${palette.neutral[100]}
+  ${({ theme: { palette, isDark } }) => css`
+    ${isDark ? palette.neutral[900] : palette.neutral[100]}
   `}
 `;
 
