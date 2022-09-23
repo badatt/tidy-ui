@@ -16,7 +16,7 @@ const theme: ITidyUITheme = {
     ...paletteVariant,
     text: {
       disabled: 'hsla(0, 0%, 100%, 0.5)',
-      primary: 'hsla(210, 40%, 96%, 1)',
+      primary: 'hsla(210, 12%, 81%, 1)',
       secondary: 'hsla(0, 0%, 100%, 0.7)',
     },
   },

@@ -4948,7 +4948,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  color: hsla(210,40%,96%,1);
+  color: hsla(210,12%,81%,1);
   background-color: hsla(222,47%,11%,1);
   border: 1px solid hsla(271,81%,56%,1);
 }
@@ -4966,7 +4966,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  color: hsla(210,40%,96%,1);
+  color: hsla(210,12%,81%,1);
   background-color: hsla(222,47%,11%,1);
   border: 1px solid hsla(333,71%,51%,1);
 }
@@ -4984,7 +4984,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  color: hsla(210,40%,96%,1);
+  color: hsla(210,12%,81%,1);
   background-color: hsla(222,47%,11%,1);
   border: 1px solid hsla(0,0%,32%,1);
 }
@@ -5002,7 +5002,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  color: hsla(210,40%,96%,1);
+  color: hsla(210,12%,81%,1);
   background-color: hsla(222,47%,11%,1);
   border: 1px solid hsla(221,83%,53%,1);
 }
@@ -5020,7 +5020,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  color: hsla(210,40%,96%,1);
+  color: hsla(210,12%,81%,1);
   background-color: hsla(222,47%,11%,1);
   border: 1px solid hsla(142,76%,36%,1);
 }
@@ -5038,7 +5038,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  color: hsla(210,40%,96%,1);
+  color: hsla(210,12%,81%,1);
   background-color: hsla(222,47%,11%,1);
   border: 1px solid hsla(32,95%,44%,1);
 }
@@ -5056,7 +5056,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  color: hsla(210,40%,96%,1);
+  color: hsla(210,12%,81%,1);
   background-color: hsla(222,47%,11%,1);
   border: 1px solid hsla(0,72%,51%,1);
 }
@@ -5632,7 +5632,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  color: hsla(210,40%,96%,1);
+  color: hsla(210,12%,81%,1);
   background-color: hsla(222,47%,11%,1);
   border: 1px solid hsla(271,81%,56%,1);
 }
@@ -5650,7 +5650,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  color: hsla(210,40%,96%,1);
+  color: hsla(210,12%,81%,1);
   background-color: hsla(222,47%,11%,1);
   border: 1px solid hsla(333,71%,51%,1);
 }
@@ -5668,7 +5668,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  color: hsla(210,40%,96%,1);
+  color: hsla(210,12%,81%,1);
   background-color: hsla(222,47%,11%,1);
   border: 1px solid hsla(0,0%,32%,1);
 }
@@ -5686,7 +5686,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  color: hsla(210,40%,96%,1);
+  color: hsla(210,12%,81%,1);
   background-color: hsla(222,47%,11%,1);
   border: 1px solid hsla(221,83%,53%,1);
 }
@@ -5704,7 +5704,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  color: hsla(210,40%,96%,1);
+  color: hsla(210,12%,81%,1);
   background-color: hsla(222,47%,11%,1);
   border: 1px solid hsla(142,76%,36%,1);
 }
@@ -5722,7 +5722,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  color: hsla(210,40%,96%,1);
+  color: hsla(210,12%,81%,1);
   background-color: hsla(222,47%,11%,1);
   border: 1px solid hsla(32,95%,44%,1);
 }
@@ -5740,7 +5740,7 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  color: hsla(210,40%,96%,1);
+  color: hsla(210,12%,81%,1);
   background-color: hsla(222,47%,11%,1);
   border: 1px solid hsla(0,72%,51%,1);
 }
