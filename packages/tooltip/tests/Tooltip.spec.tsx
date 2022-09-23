@@ -12,16 +12,16 @@ describe('Tooltip', () => {
   it('Basic render', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Tooltip content="Lorem ipsum dolor sit amet consectetur" direction="right">
+        <Tooltip aria-label="Lorem ipsum dolor sit amet consectetur" direction="right">
           Right
         </Tooltip>
-        <Tooltip content="Lorem ipsum dolor sit amet consectetur" direction="top">
+        <Tooltip aria-label="Lorem ipsum dolor sit amet consectetur" direction="top">
           Top
         </Tooltip>
-        <Tooltip content="Lorem ipsum dolor sit amet consectetur" direction="bottom">
+        <Tooltip aria-label="Lorem ipsum dolor sit amet consectetur" direction="bottom">
           Bottom
         </Tooltip>
-        <Tooltip content="Lorem ipsum dolor sit amet consectetur" direction="left">
+        <Tooltip aria-label="Lorem ipsum dolor sit amet consectetur" direction="left">
           Left
         </Tooltip>
       </TidyUiProvider>,
@@ -31,16 +31,16 @@ describe('Tooltip', () => {
   it('Dark mode basic render', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
-        <Tooltip content="Lorem ipsum dolor sit amet consectetur" direction="right">
+        <Tooltip aria-label="Lorem ipsum dolor sit amet consectetur" direction="right">
           Right
         </Tooltip>
-        <Tooltip content="Lorem ipsum dolor sit amet consectetur" direction="top">
+        <Tooltip aria-label="Lorem ipsum dolor sit amet consectetur" direction="top">
           Top
         </Tooltip>
-        <Tooltip content="Lorem ipsum dolor sit amet consectetur" direction="bottom">
+        <Tooltip aria-label="Lorem ipsum dolor sit amet consectetur" direction="bottom">
           Bottom
         </Tooltip>
-        <Tooltip content="Lorem ipsum dolor sit amet consectetur" direction="left">
+        <Tooltip aria-label="Lorem ipsum dolor sit amet consectetur" direction="left">
           Left
         </Tooltip>
       </TidyUiProvider>,

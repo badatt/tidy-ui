@@ -54,7 +54,8 @@ const caretTop = css`
 
 const tooltipTop = css`
   ${tooltipStyle}
-  top: calc(-0.8rem - 0.8em - 5px);
+  bottom: calc(100% + 5px);
+  left: 0;
 `;
 
 //-------
@@ -82,6 +83,7 @@ const caretBottom = css`
 const tooltipBottom = css`
   ${tooltipStyle}
   top: calc(100% + 5px);
+  left: 0;
 `;
 
 //-------
@@ -101,10 +103,10 @@ const tooltipLeft = css`
 const TooltipRoot = styled.div<ITooltipProps>`
   position: relative;
 
-  ${({ content, direction }) => css`
+  ${({ direction, wrap, w }) => css`
     &::before {
       display: none;
-      content: '${content}';
+      content: attr(aria-label);
       ${direction == 'top' && tooltipTop}
       ${direction == 'right' && tooltipRight}
       ${direction == 'bottom' && tooltipBottom}
@@ -120,10 +122,27 @@ const TooltipRoot = styled.div<ITooltipProps>`
     &:hover,
     &:active,
     &:focus {
-      &::before,
-      &::after {
-        display: inline-block;
-      }
+      ${wrap
+        ? css`
+            &::before {
+              width: max-content;
+              max-width: ${w};
+              word-wrap: break-word;
+              white-space: pre-line;
+              border-collapse: separate;
+              display: block;
+              position: absolute;
+            }
+            &::after {
+              display: inline-block;
+            }
+          `
+        : css`
+            &::before,
+            &::after {
+              display: inline-block;
+            }
+          `}
     }
   `}
 `;
