@@ -18,11 +18,11 @@ const IconButton = React.forwardRef<HTMLButtonElement, IIconButtonProps>((props,
     <IconButtonRoot className={className} role="button" ref={ref} {...rest}>
       {children ? (
         <IconButtonIconWrapper {...rest}>
-          <IconButtonIcon {...rest}>{icon}</IconButtonIcon>
+          <IconButtonIcon ele={icon} iconOnly={rest.iconOnly} />
         </IconButtonIconWrapper>
       ) : (
         <IconButtonIconOnlyWrapper {...rest}>
-          <IconButtonIcon {...rest}>{icon}</IconButtonIcon>
+          <IconButtonIcon ele={icon} iconOnly={rest.iconOnly} />
         </IconButtonIconOnlyWrapper>
       )}
       {children && <IconButtonChildWrapper {...rest}>{children}</IconButtonChildWrapper>}
