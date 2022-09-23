@@ -32,7 +32,7 @@ interface IActionIconProps {
   expanded?: boolean;
 }
 
-const ActionIcon = styled(Icon)<IActionIconProps>`
+const ActionIcon = styled.span<IActionIconProps>`
   min-width: 1.5rem;
   height: 1.5rem;
   width: 1.5rem;

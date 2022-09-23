@@ -39,13 +39,9 @@ const Message = React.forwardRef<HTMLDivElement, IMessageProps>((props, ref) => 
       <MessageContent {...rest}>
         {ele ? React.cloneElement(ele, {}, children) : children}
         {closable && (
-          <CloseButton
-            ele={<Icon.Close />}
-            onClick={handleClose}
-            tone={rest.tone}
-            outlined={rest.outlined}
-            role="button"
-          />
+          <CloseButton onClick={handleClose} tone={rest.tone} outlined={rest.outlined} role="button">
+            <Icon.Close />
+          </CloseButton>
         )}
       </MessageContent>
     </MessageRoot>

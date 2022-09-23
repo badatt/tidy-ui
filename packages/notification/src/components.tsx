@@ -1,4 +1,4 @@
-import { createFontStyle, css, Icon, styled } from '@tidy-ui/commons';
+import { createFontStyle, css, styled } from '@tidy-ui/commons';
 import { IPalette } from '@tidy-ui/types';
 import { filledContent, filledLabel, outlinedContent, outlinedLabel } from './styles';
 import { INotificationProps } from './types';
@@ -35,7 +35,7 @@ const closeButtonColor = (isDark: boolean, palette: IPalette, color: string): st
  *
  * @internal
  */
-const CloseButton = styled(Icon)<Pick<INotificationProps, 'tone' | 'outlined'>>`
+const CloseButton = styled.span<INotificationProps>`
   height: 1rem;
   width: 1rem;
   cursor: pointer;

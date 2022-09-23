@@ -11,7 +11,11 @@ const Chip = React.forwardRef<HTMLDivElement, IChipProps>((props, ref) => {
   const { children, className, icon, ...rest } = props;
   return (
     <ChipRoot ref={ref} role="status" className={className} {...rest} icon={icon}>
-      {icon && <ChipIcon ele={icon} outlined={rest.outlined} tone={rest.tone} />}
+      {icon && (
+        <ChipIcon outlined={rest.outlined} tone={rest.tone}>
+          {icon}
+        </ChipIcon>
+      )}
       {children}
     </ChipRoot>
   );
