@@ -6,10 +6,6 @@ import { IBaseProps, TDirection, TSize, TTone } from '@tidy-ui/types';
  */
 export interface ITooltipProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * Title content of the tooltip
-   */
-  content?: string;
-  /**
    * Direction of the tooltip
    *
    * @type {?TDirection}
@@ -27,4 +23,11 @@ export interface ITooltipProps extends IBaseProps, HTMLAttributes<HTMLDivElement
    * @type {?TTone}
    */
   tone?: TTone;
+
+  /**
+   * Wraps lengthy content
+   *
+   * @default false
+   */
+  wrap?: boolean;
 }
