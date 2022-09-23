@@ -3713,6 +3713,12 @@ Object {
   box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
+.c1 {
+  height: 1.5em;
+  width: 1.5em;
+  margin: 0 0.25em 0 0;
+}
+
 <body>
     <div>
       <button
@@ -3720,36 +3726,32 @@ Object {
         disabled=""
         role="button"
       >
-        <i
-          style="height: 1.5em; margin: 0px 0.25em 0px 0px; width: 1.5em;"
+        <svg
+          class="c1"
+          enable-background="new 0 0 0 0"
+          version="1.1"
+          viewBox="0 0 100 100"
+          x="0px"
+          xlink:href="http://www.w3.org/1999/xlink"
+          xml:space="preserve"
+          xmlns="http://www.w3.org/2000/svg"
+          y="0px"
         >
-          <svg
-            enable-background="new 0 0 0 0"
-            style="height: 1.5em; margin: 0px 0.25em 0px 0px; width: 1.5em;"
-            version="1.1"
-            viewBox="0 0 100 100"
-            x="0px"
-            xlink:href="http://www.w3.org/1999/xlink"
-            xml:space="preserve"
-            xmlns="http://www.w3.org/2000/svg"
-            y="0px"
+          <path
+            d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50"
+            fill="currentColor"
           >
-            <path
-              d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50"
-              fill="currentColor"
-            >
-              <animatetransform
-                attributeName="transform"
-                attributeType="XML"
-                dur="1s"
-                from="0 50 50"
-                repeatCount="indefinite"
-                to="360 50 50"
-                type="rotate"
-              />
-            </path>
-          </svg>
-        </i>
+            <animatetransform
+              attributeName="transform"
+              attributeType="XML"
+              dur="1s"
+              from="0 50 50"
+              repeatCount="indefinite"
+              to="360 50 50"
+              type="rotate"
+            />
+          </path>
+        </svg>
         Loading...
       </button>
     </div>
@@ -3794,42 +3796,44 @@ Object {
   box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
+.c1 {
+  height: 1.5em;
+  width: 1.5em;
+  margin: 0 0.25em 0 0;
+}
+
 <div>
     <button
       class="c0"
       disabled=""
       role="button"
     >
-      <i
-        style="height: 1.5em; margin: 0px 0.25em 0px 0px; width: 1.5em;"
+      <svg
+        class="c1"
+        enable-background="new 0 0 0 0"
+        version="1.1"
+        viewBox="0 0 100 100"
+        x="0px"
+        xlink:href="http://www.w3.org/1999/xlink"
+        xml:space="preserve"
+        xmlns="http://www.w3.org/2000/svg"
+        y="0px"
       >
-        <svg
-          enable-background="new 0 0 0 0"
-          style="height: 1.5em; margin: 0px 0.25em 0px 0px; width: 1.5em;"
-          version="1.1"
-          viewBox="0 0 100 100"
-          x="0px"
-          xlink:href="http://www.w3.org/1999/xlink"
-          xml:space="preserve"
-          xmlns="http://www.w3.org/2000/svg"
-          y="0px"
+        <path
+          d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50"
+          fill="currentColor"
         >
-          <path
-            d="M73,50c0-12.7-10.3-23-23-23S27,37.3,27,50 M30.9,50c0-10.5,8.5-19.1,19.1-19.1S69.1,39.5,69.1,50"
-            fill="currentColor"
-          >
-            <animatetransform
-              attributeName="transform"
-              attributeType="XML"
-              dur="1s"
-              from="0 50 50"
-              repeatCount="indefinite"
-              to="360 50 50"
-              type="rotate"
-            />
-          </path>
-        </svg>
-      </i>
+          <animatetransform
+            attributeName="transform"
+            attributeType="XML"
+            dur="1s"
+            from="0 50 50"
+            repeatCount="indefinite"
+            to="360 50 50"
+            type="rotate"
+          />
+        </path>
+      </svg>
       Loading...
     </button>
   </div>,

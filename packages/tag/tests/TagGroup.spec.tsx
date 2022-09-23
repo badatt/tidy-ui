@@ -43,7 +43,7 @@ describe('TagGroup', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('TagGroup mutating by bluing the input', () => {
+  it('TagGroup mutating by blurring the input', () => {
     const tags = ['react', 'java', 'cloud', 'scss'];
     const mockOnAddNewTag = jest.fn();
     const mockOnCloseTag = jest.fn();

@@ -187,10 +187,10 @@ Object {
           class="c5"
           role="listitem"
         >
-          <i
+          <span
             style="height: 1.25em; width: 1.25em;"
           >
-            <i
+            <span
               style="height: 1.25em; width: 1.25em;"
             >
               <svg
@@ -205,10 +205,11 @@ Object {
                   d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
                 />
               </svg>
-            </i>
-          </i>
+            </span>
+          </span>
           kotlin
-          <i
+          <span
+            role="button"
             style="height: 1.25em; width: 1.25em;"
           >
             <svg
@@ -216,7 +217,6 @@ Object {
               class="c6"
               fill="currentColor"
               focusable="false"
-              role="button"
               style="height: 1.25em; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -225,9 +225,9 @@ Object {
                 d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
               />
             </svg>
-          </i>
+          </span>
         </div>
-        <i
+        <span
           role="button"
           style="height: 1.8em; width: 1.8em;"
         >
@@ -245,7 +245,7 @@ Object {
               d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"
             />
           </svg>
-        </i>
+        </span>
       </div>
     </div>
   </body>,
@@ -432,10 +432,10 @@ Object {
         class="c5"
         role="listitem"
       >
-        <i
+        <span
           style="height: 1.25em; width: 1.25em;"
         >
-          <i
+          <span
             style="height: 1.25em; width: 1.25em;"
           >
             <svg
@@ -450,10 +450,11 @@ Object {
                 d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
               />
             </svg>
-          </i>
-        </i>
+          </span>
+        </span>
         kotlin
-        <i
+        <span
+          role="button"
           style="height: 1.25em; width: 1.25em;"
         >
           <svg
@@ -461,7 +462,6 @@ Object {
             class="c6"
             fill="currentColor"
             focusable="false"
-            role="button"
             style="height: 1.25em; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -470,9 +470,9 @@ Object {
               d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
             />
           </svg>
-        </i>
+        </span>
       </div>
-      <i
+      <span
         role="button"
         style="height: 1.8em; width: 1.8em;"
       >
@@ -490,7 +490,7 @@ Object {
             d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"
           />
         </svg>
-      </i>
+      </span>
     </div>
   </div>,
   "debug": [Function],
@@ -735,10 +735,10 @@ Object {
           class="c5"
           role="listitem"
         >
-          <i
+          <span
             style="height: 1.25em; width: 1.25em;"
           >
-            <i
+            <span
               style="height: 1.25em; width: 1.25em;"
             >
               <svg
@@ -753,10 +753,11 @@ Object {
                   d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
                 />
               </svg>
-            </i>
-          </i>
+            </span>
+          </span>
           kotlin
-          <i
+          <span
+            role="button"
             style="height: 1.25em; width: 1.25em;"
           >
             <svg
@@ -764,7 +765,6 @@ Object {
               class="c6"
               fill="currentColor"
               focusable="false"
-              role="button"
               style="height: 1.25em; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -773,9 +773,9 @@ Object {
                 d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
               />
             </svg>
-          </i>
+          </span>
         </div>
-        <i
+        <span
           role="button"
           style="height: 1.8em; width: 1.8em;"
         >
@@ -794,7 +794,7 @@ Object {
               d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"
             />
           </svg>
-        </i>
+        </span>
       </div>
     </div>
   </body>,
@@ -982,10 +982,10 @@ Object {
         class="c5"
         role="listitem"
       >
-        <i
+        <span
           style="height: 1.25em; width: 1.25em;"
         >
-          <i
+          <span
             style="height: 1.25em; width: 1.25em;"
           >
             <svg
@@ -1000,10 +1000,11 @@ Object {
                 d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
               />
             </svg>
-          </i>
-        </i>
+          </span>
+        </span>
         kotlin
-        <i
+        <span
+          role="button"
           style="height: 1.25em; width: 1.25em;"
         >
           <svg
@@ -1011,7 +1012,6 @@ Object {
             class="c6"
             fill="currentColor"
             focusable="false"
-            role="button"
             style="height: 1.25em; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -1020,9 +1020,9 @@ Object {
               d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
             />
           </svg>
-        </i>
+        </span>
       </div>
-      <i
+      <span
         role="button"
         style="height: 1.8em; width: 1.8em;"
       >
@@ -1041,7 +1041,7 @@ Object {
             d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"
           />
         </svg>
-      </i>
+      </span>
     </div>
   </div>,
   "debug": [Function],
@@ -1098,7 +1098,7 @@ Object {
 }
 `;
 
-exports[`TagGroup TagGroup mutating by bluing the input 1`] = `
+exports[`TagGroup TagGroup mutating by blurring the input 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c1 {
@@ -1163,7 +1163,8 @@ Object {
           role="listitem"
         >
           react
-          <i
+          <span
+            role="button"
             style="height: 1.25em; width: 1.25em;"
           >
             <svg
@@ -1171,7 +1172,6 @@ Object {
               class="c2"
               fill="currentColor"
               focusable="false"
-              role="button"
               style="height: 1.25em; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -1180,14 +1180,15 @@ Object {
                 d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
               />
             </svg>
-          </i>
+          </span>
         </div>
         <div
           class="c1"
           role="listitem"
         >
           java
-          <i
+          <span
+            role="button"
             style="height: 1.25em; width: 1.25em;"
           >
             <svg
@@ -1195,7 +1196,6 @@ Object {
               class="c2"
               fill="currentColor"
               focusable="false"
-              role="button"
               style="height: 1.25em; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -1204,14 +1204,15 @@ Object {
                 d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
               />
             </svg>
-          </i>
+          </span>
         </div>
         <div
           class="c1"
           role="listitem"
         >
           cloud
-          <i
+          <span
+            role="button"
             style="height: 1.25em; width: 1.25em;"
           >
             <svg
@@ -1219,7 +1220,6 @@ Object {
               class="c2"
               fill="currentColor"
               focusable="false"
-              role="button"
               style="height: 1.25em; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -1228,14 +1228,15 @@ Object {
                 d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
               />
             </svg>
-          </i>
+          </span>
         </div>
         <div
           class="c1"
           role="listitem"
         >
           scss
-          <i
+          <span
+            role="button"
             style="height: 1.25em; width: 1.25em;"
           >
             <svg
@@ -1243,7 +1244,6 @@ Object {
               class="c2"
               fill="currentColor"
               focusable="false"
-              role="button"
               style="height: 1.25em; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -1252,9 +1252,9 @@ Object {
                 d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
               />
             </svg>
-          </i>
+          </span>
         </div>
-        <i
+        <span
           role="button"
           style="height: 1.8em; width: 1.8em;"
         >
@@ -1272,7 +1272,7 @@ Object {
               d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"
             />
           </svg>
-        </i>
+        </span>
       </div>
     </div>
   </body>,
@@ -1337,7 +1337,8 @@ Object {
         role="listitem"
       >
         react
-        <i
+        <span
+          role="button"
           style="height: 1.25em; width: 1.25em;"
         >
           <svg
@@ -1345,7 +1346,6 @@ Object {
             class="c2"
             fill="currentColor"
             focusable="false"
-            role="button"
             style="height: 1.25em; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -1354,14 +1354,15 @@ Object {
               d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
             />
           </svg>
-        </i>
+        </span>
       </div>
       <div
         class="c1"
         role="listitem"
       >
         java
-        <i
+        <span
+          role="button"
           style="height: 1.25em; width: 1.25em;"
         >
           <svg
@@ -1369,7 +1370,6 @@ Object {
             class="c2"
             fill="currentColor"
             focusable="false"
-            role="button"
             style="height: 1.25em; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -1378,14 +1378,15 @@ Object {
               d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
             />
           </svg>
-        </i>
+        </span>
       </div>
       <div
         class="c1"
         role="listitem"
       >
         cloud
-        <i
+        <span
+          role="button"
           style="height: 1.25em; width: 1.25em;"
         >
           <svg
@@ -1393,7 +1394,6 @@ Object {
             class="c2"
             fill="currentColor"
             focusable="false"
-            role="button"
             style="height: 1.25em; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -1402,14 +1402,15 @@ Object {
               d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
             />
           </svg>
-        </i>
+        </span>
       </div>
       <div
         class="c1"
         role="listitem"
       >
         scss
-        <i
+        <span
+          role="button"
           style="height: 1.25em; width: 1.25em;"
         >
           <svg
@@ -1417,7 +1418,6 @@ Object {
             class="c2"
             fill="currentColor"
             focusable="false"
-            role="button"
             style="height: 1.25em; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -1426,9 +1426,9 @@ Object {
               d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
             />
           </svg>
-        </i>
+        </span>
       </div>
-      <i
+      <span
         role="button"
         style="height: 1.8em; width: 1.8em;"
       >
@@ -1446,7 +1446,7 @@ Object {
             d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"
           />
         </svg>
-      </i>
+      </span>
     </div>
   </div>,
   "debug": [Function],
@@ -1568,7 +1568,8 @@ Object {
           role="listitem"
         >
           react
-          <i
+          <span
+            role="button"
             style="height: 1.25em; width: 1.25em;"
           >
             <svg
@@ -1576,7 +1577,6 @@ Object {
               class="c2"
               fill="currentColor"
               focusable="false"
-              role="button"
               style="height: 1.25em; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -1585,14 +1585,15 @@ Object {
                 d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
               />
             </svg>
-          </i>
+          </span>
         </div>
         <div
           class="c1"
           role="listitem"
         >
           java
-          <i
+          <span
+            role="button"
             style="height: 1.25em; width: 1.25em;"
           >
             <svg
@@ -1600,7 +1601,6 @@ Object {
               class="c2"
               fill="currentColor"
               focusable="false"
-              role="button"
               style="height: 1.25em; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -1609,14 +1609,15 @@ Object {
                 d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
               />
             </svg>
-          </i>
+          </span>
         </div>
         <div
           class="c1"
           role="listitem"
         >
           cloud
-          <i
+          <span
+            role="button"
             style="height: 1.25em; width: 1.25em;"
           >
             <svg
@@ -1624,7 +1625,6 @@ Object {
               class="c2"
               fill="currentColor"
               focusable="false"
-              role="button"
               style="height: 1.25em; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -1633,14 +1633,15 @@ Object {
                 d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
               />
             </svg>
-          </i>
+          </span>
         </div>
         <div
           class="c1"
           role="listitem"
         >
           scss
-          <i
+          <span
+            role="button"
             style="height: 1.25em; width: 1.25em;"
           >
             <svg
@@ -1648,7 +1649,6 @@ Object {
               class="c2"
               fill="currentColor"
               focusable="false"
-              role="button"
               style="height: 1.25em; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -1657,9 +1657,9 @@ Object {
                 d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
               />
             </svg>
-          </i>
+          </span>
         </div>
-        <i
+        <span
           role="button"
           style="height: 1.8em; width: 1.8em;"
         >
@@ -1677,7 +1677,7 @@ Object {
               d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"
             />
           </svg>
-        </i>
+        </span>
       </div>
     </div>
   </body>,
@@ -1742,7 +1742,8 @@ Object {
         role="listitem"
       >
         react
-        <i
+        <span
+          role="button"
           style="height: 1.25em; width: 1.25em;"
         >
           <svg
@@ -1750,7 +1751,6 @@ Object {
             class="c2"
             fill="currentColor"
             focusable="false"
-            role="button"
             style="height: 1.25em; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -1759,14 +1759,15 @@ Object {
               d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
             />
           </svg>
-        </i>
+        </span>
       </div>
       <div
         class="c1"
         role="listitem"
       >
         java
-        <i
+        <span
+          role="button"
           style="height: 1.25em; width: 1.25em;"
         >
           <svg
@@ -1774,7 +1775,6 @@ Object {
             class="c2"
             fill="currentColor"
             focusable="false"
-            role="button"
             style="height: 1.25em; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -1783,14 +1783,15 @@ Object {
               d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
             />
           </svg>
-        </i>
+        </span>
       </div>
       <div
         class="c1"
         role="listitem"
       >
         cloud
-        <i
+        <span
+          role="button"
           style="height: 1.25em; width: 1.25em;"
         >
           <svg
@@ -1798,7 +1799,6 @@ Object {
             class="c2"
             fill="currentColor"
             focusable="false"
-            role="button"
             style="height: 1.25em; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -1807,14 +1807,15 @@ Object {
               d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
             />
           </svg>
-        </i>
+        </span>
       </div>
       <div
         class="c1"
         role="listitem"
       >
         scss
-        <i
+        <span
+          role="button"
           style="height: 1.25em; width: 1.25em;"
         >
           <svg
@@ -1822,7 +1823,6 @@ Object {
             class="c2"
             fill="currentColor"
             focusable="false"
-            role="button"
             style="height: 1.25em; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -1831,9 +1831,9 @@ Object {
               d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
             />
           </svg>
-        </i>
+        </span>
       </div>
-      <i
+      <span
         role="button"
         style="height: 1.8em; width: 1.8em;"
       >
@@ -1851,7 +1851,7 @@ Object {
             d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"
           />
         </svg>
-      </i>
+      </span>
     </div>
   </div>,
   "debug": [Function],
@@ -1973,7 +1973,8 @@ Object {
           role="listitem"
         >
           react
-          <i
+          <span
+            role="button"
             style="height: 1.25em; width: 1.25em;"
           >
             <svg
@@ -1981,7 +1982,6 @@ Object {
               class="c2"
               fill="currentColor"
               focusable="false"
-              role="button"
               style="height: 1.25em; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -1990,14 +1990,15 @@ Object {
                 d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
               />
             </svg>
-          </i>
+          </span>
         </div>
         <div
           class="c1"
           role="listitem"
         >
           java
-          <i
+          <span
+            role="button"
             style="height: 1.25em; width: 1.25em;"
           >
             <svg
@@ -2005,7 +2006,6 @@ Object {
               class="c2"
               fill="currentColor"
               focusable="false"
-              role="button"
               style="height: 1.25em; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -2014,14 +2014,15 @@ Object {
                 d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
               />
             </svg>
-          </i>
+          </span>
         </div>
         <div
           class="c1"
           role="listitem"
         >
           cloud
-          <i
+          <span
+            role="button"
             style="height: 1.25em; width: 1.25em;"
           >
             <svg
@@ -2029,7 +2030,6 @@ Object {
               class="c2"
               fill="currentColor"
               focusable="false"
-              role="button"
               style="height: 1.25em; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -2038,14 +2038,15 @@ Object {
                 d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
               />
             </svg>
-          </i>
+          </span>
         </div>
         <div
           class="c1"
           role="listitem"
         >
           scss
-          <i
+          <span
+            role="button"
             style="height: 1.25em; width: 1.25em;"
           >
             <svg
@@ -2053,7 +2054,6 @@ Object {
               class="c2"
               fill="currentColor"
               focusable="false"
-              role="button"
               style="height: 1.25em; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -2062,9 +2062,9 @@ Object {
                 d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
               />
             </svg>
-          </i>
+          </span>
         </div>
-        <i
+        <span
           role="button"
           style="height: 1.8em; width: 1.8em;"
         >
@@ -2082,7 +2082,7 @@ Object {
               d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"
             />
           </svg>
-        </i>
+        </span>
       </div>
     </div>
   </body>,
@@ -2147,7 +2147,8 @@ Object {
         role="listitem"
       >
         react
-        <i
+        <span
+          role="button"
           style="height: 1.25em; width: 1.25em;"
         >
           <svg
@@ -2155,7 +2156,6 @@ Object {
             class="c2"
             fill="currentColor"
             focusable="false"
-            role="button"
             style="height: 1.25em; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -2164,14 +2164,15 @@ Object {
               d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
             />
           </svg>
-        </i>
+        </span>
       </div>
       <div
         class="c1"
         role="listitem"
       >
         java
-        <i
+        <span
+          role="button"
           style="height: 1.25em; width: 1.25em;"
         >
           <svg
@@ -2179,7 +2180,6 @@ Object {
             class="c2"
             fill="currentColor"
             focusable="false"
-            role="button"
             style="height: 1.25em; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -2188,14 +2188,15 @@ Object {
               d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
             />
           </svg>
-        </i>
+        </span>
       </div>
       <div
         class="c1"
         role="listitem"
       >
         cloud
-        <i
+        <span
+          role="button"
           style="height: 1.25em; width: 1.25em;"
         >
           <svg
@@ -2203,7 +2204,6 @@ Object {
             class="c2"
             fill="currentColor"
             focusable="false"
-            role="button"
             style="height: 1.25em; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -2212,14 +2212,15 @@ Object {
               d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
             />
           </svg>
-        </i>
+        </span>
       </div>
       <div
         class="c1"
         role="listitem"
       >
         scss
-        <i
+        <span
+          role="button"
           style="height: 1.25em; width: 1.25em;"
         >
           <svg
@@ -2227,7 +2228,6 @@ Object {
             class="c2"
             fill="currentColor"
             focusable="false"
-            role="button"
             style="height: 1.25em; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -2236,9 +2236,9 @@ Object {
               d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
             />
           </svg>
-        </i>
+        </span>
       </div>
-      <i
+      <span
         role="button"
         style="height: 1.8em; width: 1.8em;"
       >
@@ -2256,7 +2256,7 @@ Object {
             d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"
           />
         </svg>
-      </i>
+      </span>
     </div>
   </div>,
   "debug": [Function],

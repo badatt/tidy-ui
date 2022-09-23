@@ -460,6 +460,7 @@ Object {
   "baseElement": .c2 {
   height: 1rem;
   width: 1rem;
+  min-width: 1rem;
   cursor: pointer;
   color: hsla(221,83%,53%,1);
 }
@@ -548,27 +549,25 @@ Object {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
       eaque!
-          <i
+          <span
             class="c2"
             role="button"
+            style="height: 1.25em; width: 1.25em;"
+            tone="info"
           >
-            <i
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
               style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-hidden="true"
-                fill="currentColor"
-                focusable="false"
-                style="height: 1.25em; width: 1.25em;"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-                />
-              </svg>
-            </i>
-          </i>
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </span>
         </div>
       </div>
     </div>
@@ -576,6 +575,7 @@ Object {
   "container": .c2 {
   height: 1rem;
   width: 1rem;
+  min-width: 1rem;
   cursor: pointer;
   color: hsla(221,83%,53%,1);
 }
@@ -663,27 +663,25 @@ Object {
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
       eaque!
-        <i
+        <span
           class="c2"
           role="button"
+          style="height: 1.25em; width: 1.25em;"
+          tone="info"
         >
-          <i
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
             style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              style="height: 1.25em; width: 1.25em;"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
-          </i>
-        </i>
+            <path
+              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+            />
+          </svg>
+        </span>
       </div>
     </div>
   </div>,
@@ -747,6 +745,7 @@ Object {
   "baseElement": .c2 {
   height: 1rem;
   width: 1rem;
+  min-width: 1rem;
   cursor: pointer;
   color: hsla(213,94%,68%,1);
 }
@@ -835,27 +834,25 @@ Object {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
       eaque!
-          <i
+          <span
             class="c2"
             role="button"
+            style="height: 1.25em; width: 1.25em;"
+            tone="info"
           >
-            <i
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
               style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-hidden="true"
-                fill="currentColor"
-                focusable="false"
-                style="height: 1.25em; width: 1.25em;"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-                />
-              </svg>
-            </i>
-          </i>
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </span>
         </div>
       </div>
     </div>
@@ -863,6 +860,7 @@ Object {
   "container": .c2 {
   height: 1rem;
   width: 1rem;
+  min-width: 1rem;
   cursor: pointer;
   color: hsla(213,94%,68%,1);
 }
@@ -950,27 +948,25 @@ Object {
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
       eaque!
-        <i
+        <span
           class="c2"
           role="button"
+          style="height: 1.25em; width: 1.25em;"
+          tone="info"
         >
-          <i
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
             style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              style="height: 1.25em; width: 1.25em;"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
-          </i>
-        </i>
+            <path
+              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+            />
+          </svg>
+        </span>
       </div>
     </div>
   </div>,
@@ -1039,6 +1035,7 @@ Object {
 .c3 {
   height: 1rem;
   width: 1rem;
+  min-width: 1rem;
   cursor: pointer;
   color: hsla(214,100%,97%,1);
 }
@@ -1126,27 +1123,25 @@ Object {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
       eaque!
-          <i
+          <span
             class="c3"
             role="button"
+            style="height: 1.25em; width: 1.25em;"
+            tone="info"
           >
-            <i
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
               style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-hidden="true"
-                fill="currentColor"
-                focusable="false"
-                style="height: 1.25em; width: 1.25em;"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-                />
-              </svg>
-            </i>
-          </i>
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </span>
         </div>
       </div>
     </div>
@@ -1159,6 +1154,7 @@ Object {
 .c3 {
   height: 1rem;
   width: 1rem;
+  min-width: 1rem;
   cursor: pointer;
   color: hsla(214,100%,97%,1);
 }
@@ -1245,27 +1241,25 @@ Object {
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
       eaque!
-        <i
+        <span
           class="c3"
           role="button"
+          style="height: 1.25em; width: 1.25em;"
+          tone="info"
         >
-          <i
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
             style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              style="height: 1.25em; width: 1.25em;"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
-          </i>
-        </i>
+            <path
+              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+            />
+          </svg>
+        </span>
       </div>
     </div>
   </div>,
@@ -4077,6 +4071,7 @@ Object {
   "baseElement": .c2 {
   height: 1rem;
   width: 1rem;
+  min-width: 1rem;
   cursor: pointer;
   color: hsla(214,100%,97%,1);
 }
@@ -4163,27 +4158,25 @@ Object {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
       eaque!
-          <i
+          <span
             class="c2"
             role="button"
+            style="height: 1.25em; width: 1.25em;"
+            tone="info"
           >
-            <i
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
               style="height: 1.25em; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                aria-hidden="true"
-                fill="currentColor"
-                focusable="false"
-                style="height: 1.25em; width: 1.25em;"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-                />
-              </svg>
-            </i>
-          </i>
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </span>
         </div>
       </div>
     </div>
@@ -4191,6 +4184,7 @@ Object {
   "container": .c2 {
   height: 1rem;
   width: 1rem;
+  min-width: 1rem;
   cursor: pointer;
   color: hsla(214,100%,97%,1);
 }
@@ -4276,27 +4270,25 @@ Object {
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
       eaque!
-        <i
+        <span
           class="c2"
           role="button"
+          style="height: 1.25em; width: 1.25em;"
+          tone="info"
         >
-          <i
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
             style="height: 1.25em; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              style="height: 1.25em; width: 1.25em;"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
-              />
-            </svg>
-          </i>
-        </i>
+            <path
+              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+            />
+          </svg>
+        </span>
       </div>
     </div>
   </div>,
