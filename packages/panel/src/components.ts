@@ -1,4 +1,4 @@
-import { color, createFontStyle, css, hsla, styled } from '@tidy-ui/commons';
+import { color, createFontStyle, css, hsla, Icon, styled } from '@tidy-ui/commons';
 import { IPanelBodyProps, IPanelGroupProps, IPanelProps } from './types';
 
 const PanelRoot = styled.div<IPanelProps>`
@@ -32,7 +32,10 @@ interface IActionIconProps {
   expanded?: boolean;
 }
 
-const ActionIcon = styled.i<IActionIconProps>`
+const ActionIcon = styled(Icon)<IActionIconProps>`
+  min-width: 1.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
   ${({ expanded }) =>
     css`
       transform: ${expanded ? 'rotate(180deg)' : 'rotate(0deg)'};
