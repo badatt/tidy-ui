@@ -97,6 +97,16 @@ describe('Text', () => {
         );
         expect(tree).toMatchSnapshot();
       });
+      it('Strike', () => {
+        const tree = render(
+          <TidyUiProvider theme={orchidLight} key={i}>
+            <TextBase v={Variant[v]} stk>
+              {Variant[v]}: {text}
+            </TextBase>
+          </TidyUiProvider>,
+        );
+        expect(tree).toMatchSnapshot();
+      });
       it('Underline', () => {
         const tree = render(
           <TidyUiProvider theme={orchidLight} key={i}>

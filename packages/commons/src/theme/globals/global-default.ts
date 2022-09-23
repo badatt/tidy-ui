@@ -4,7 +4,7 @@ import { IGlobalDefault } from '@tidy-ui/types';
 import { css } from '..';
 
 const GlobalDefault = createGlobalStyle<IGlobalDefault>`
-  ${({ theme: { palette } }) => css`
+  ${({ theme: { font, palette } }) => css`
     html {
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
@@ -38,6 +38,19 @@ const GlobalDefault = createGlobalStyle<IGlobalDefault>`
       cursor: pointer;
       display: inline-block;
       line-height: 1;
+    }
+
+    b {
+      font-weight: ${font.bold};
+    }
+    u {
+      text-decoration: underline;
+    }
+    i {
+      font-style: italic;
+    }
+    s {
+      text-decoration: line-through;
     }
   `}
 `;

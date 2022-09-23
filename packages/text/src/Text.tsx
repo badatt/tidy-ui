@@ -56,7 +56,7 @@ const TextBase = React.forwardRef<HTMLElement, ITextProps>((props, ref) => {
       {children}
       {href && (
         <TextLink role="link" href={href}>
-          <Icon ele={<Icon.Link />} h="0.9em" w="0.9em" style={{ transform: 'translate(0, 0.175em) rotate(-45deg)' }} />
+          <Icon.Link />
         </TextLink>
       )}
     </TextRoot>
@@ -101,6 +101,7 @@ TextBase.defaultProps = {
   exd: false,
   itl: false,
   lc: false,
+  stk: false,
   tnc: false,
   uc: false,
   udl: false,

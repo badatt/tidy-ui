@@ -11,7 +11,15 @@ export default {
 
 const text = `the quick brown fox jumps over the lazy dog`;
 
-export const basic = () => <Text.body1>basic text: {text}</Text.body1>;
+export const basic = () => (
+  <Text.body1>
+    basic text: {text}
+    <b>basic text: {text}</b>
+    <u>basic text: {text}</u>
+    <i>basic text: {text}</i>
+    <s>basic text: {text}</s>
+  </Text.body1>
+);
 
 export const variants = () => (
   <TextProvider>
@@ -72,6 +80,18 @@ export const underline = () => (
     <Ctx.Consumer>
       {({ variant }) => (
         <TextBase v={Variant[variant] as TVariant} udl>
+          {text}
+        </TextBase>
+      )}
+    </Ctx.Consumer>
+  </TextProvider>
+);
+
+export const strike = () => (
+  <TextProvider>
+    <Ctx.Consumer>
+      {({ variant }) => (
+        <TextBase v={Variant[variant] as TVariant} stk>
           {text}
         </TextBase>
       )}
