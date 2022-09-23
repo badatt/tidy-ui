@@ -13,7 +13,7 @@ const Tag = React.forwardRef<HTMLDivElement, ITagProps>((props, ref) => {
     <TagRoot className={className} ref={ref} role="listitem" icon={icon || onClose} {...rest}>
       {icon && <Icon ele={icon} />}
       {children}
-      {onClose && <Icon ele={<TagCloseIcon onClick={onClose} role="button" />} />}
+      {onClose && <Icon ele={<TagCloseIcon onClick={onClose} />} role="button" />}
     </TagRoot>
   );
 });

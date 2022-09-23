@@ -315,6 +315,12 @@ const IconButtonChildWrapper = styled.span<IIconButtonProps>`
   `}
 `;
 
+const LoadingIcon = styled(Icon.RotatingCircle)`
+  height: 1.5em;
+  width: 1.5em;
+  margin: 0 0.25em 0 0;
+`;
+
 export {
   AnchorRoot,
   ButtonClusterRoot,
@@ -325,4 +331,5 @@ export {
   IconButtonIconOnlyWrapper,
   IconButtonIconWrapper,
   IconButtonRoot,
+  LoadingIcon,
 };

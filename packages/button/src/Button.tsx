@@ -1,6 +1,5 @@
 import React from 'react';
-import { Icon } from '@tidy-ui/commons';
-import { ButtonRoot } from './components';
+import { ButtonRoot, LoadingIcon } from './components';
 import { IButtonProps } from './types';
 
 /**
@@ -12,7 +11,7 @@ const Button = React.forwardRef<HTMLButtonElement, IButtonProps>((props, ref) =>
   const { children, loading, disabled, ...rest } = props;
   return (
     <ButtonRoot role="button" ref={ref} {...rest} disabled={disabled || loading}>
-      {loading && <Icon ele={<Icon.RotatingCircle />} h="1.5em" w="1.5em" margin="0 0.25em 0 0" />}
+      {loading && <LoadingIcon />}
       {children}
     </ButtonRoot>
   );

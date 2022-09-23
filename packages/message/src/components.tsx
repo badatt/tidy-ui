@@ -36,7 +36,7 @@ const CloseButton = styled(Icon)<IMessageProps>`
   ${({ theme: { palette, isDark }, tone, outlined }) => css`
     height: 1rem;
     width: 1rem;
-    //color: ${palette[tone!][50]};
+    min-width: 1rem;
     cursor: pointer;
     ${outlined
       ? css`

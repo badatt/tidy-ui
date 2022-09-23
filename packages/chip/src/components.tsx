@@ -52,7 +52,7 @@ const ChipRoot = styled.div<IChipProps>`
 const outlinedChipIconColor = (isDark: boolean, palette: IPalette, tone: TTone) =>
   isDark ? palette[tone][700] : palette[tone][400];
 
-const ChipIcon = styled(Icon)<IChipProps>`
+const ChipIcon = styled(Icon)<Pick<IChipProps, 'tone' | 'outlined'>>`
   height: 1.5em;
   width: 1.5em;
   ${({ theme: { isDark, palette }, tone, outlined }) => css`
