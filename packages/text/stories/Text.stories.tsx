@@ -32,7 +32,17 @@ export const variants = () => (
     <Ctx.Consumer>
       {({ variant }) => (
         <TextBase v={Variant[variant] as TVariant}>
-          {Variant[variant]}: {text}
+          {Variant[variant]}: basic text: {text}
+          <b>bold text: {text}</b>
+          basic text: {text}
+          <u>underlined text: {text}</u>
+          basic text: {text}
+          <i>italic text: {text}</i>
+          basic text: {text}
+          <code>code text: {text}</code>
+          basic text: {text}
+          <s>strike text: {text}</s>
+          basic text: {text}
         </TextBase>
       )}
     </Ctx.Consumer>
