@@ -11902,6 +11902,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -11934,22 +11939,17 @@ Object {
           href="https://google.com"
           role="link"
         >
-          <span
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-              />
-            </svg>
-          </span>
+            <path
+              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+            />
+          </svg>
         </a>
       </h1>
     </div>
@@ -11959,6 +11959,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -11990,22 +11995,17 @@ Object {
         href="https://google.com"
         role="link"
       >
-        <span
-          style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-            />
-          </svg>
-        </span>
+          <path
+            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+          />
+        </svg>
       </a>
     </h1>
   </div>,
@@ -12071,6 +12071,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -12103,22 +12108,17 @@ Object {
           href="https://google.com"
           role="link"
         >
-          <span
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-              />
-            </svg>
-          </span>
+            <path
+              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+            />
+          </svg>
         </a>
       </h2>
     </div>
@@ -12128,6 +12128,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -12159,22 +12164,17 @@ Object {
         href="https://google.com"
         role="link"
       >
-        <span
-          style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-            />
-          </svg>
-        </span>
+          <path
+            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+          />
+        </svg>
       </a>
     </h2>
   </div>,
@@ -12240,6 +12240,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -12272,22 +12277,17 @@ Object {
           href="https://google.com"
           role="link"
         >
-          <span
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-              />
-            </svg>
-          </span>
+            <path
+              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+            />
+          </svg>
         </a>
       </h3>
     </div>
@@ -12297,6 +12297,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -12328,22 +12333,17 @@ Object {
         href="https://google.com"
         role="link"
       >
-        <span
-          style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-            />
-          </svg>
-        </span>
+          <path
+            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+          />
+        </svg>
       </a>
     </h3>
   </div>,
@@ -12409,6 +12409,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -12441,22 +12446,17 @@ Object {
           href="https://google.com"
           role="link"
         >
-          <span
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-              />
-            </svg>
-          </span>
+            <path
+              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+            />
+          </svg>
         </a>
       </h4>
     </div>
@@ -12466,6 +12466,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -12497,22 +12502,17 @@ Object {
         href="https://google.com"
         role="link"
       >
-        <span
-          style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-            />
-          </svg>
-        </span>
+          <path
+            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+          />
+        </svg>
       </a>
     </h4>
   </div>,
@@ -12578,6 +12578,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -12610,22 +12615,17 @@ Object {
           href="https://google.com"
           role="link"
         >
-          <span
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-              />
-            </svg>
-          </span>
+            <path
+              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+            />
+          </svg>
         </a>
       </h5>
     </div>
@@ -12635,6 +12635,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -12666,22 +12671,17 @@ Object {
         href="https://google.com"
         role="link"
       >
-        <span
-          style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-            />
-          </svg>
-        </span>
+          <path
+            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+          />
+        </svg>
       </a>
     </h5>
   </div>,
@@ -12747,6 +12747,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -12779,22 +12784,17 @@ Object {
           href="https://google.com"
           role="link"
         >
-          <span
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-              />
-            </svg>
-          </span>
+            <path
+              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+            />
+          </svg>
         </a>
       </p>
     </div>
@@ -12804,6 +12804,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -12835,22 +12840,17 @@ Object {
         href="https://google.com"
         role="link"
       >
-        <span
-          style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-            />
-          </svg>
-        </span>
+          <path
+            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+          />
+        </svg>
       </a>
     </p>
   </div>,
@@ -12916,6 +12916,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -12948,22 +12953,17 @@ Object {
           href="https://google.com"
           role="link"
         >
-          <span
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-              />
-            </svg>
-          </span>
+            <path
+              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+            />
+          </svg>
         </a>
       </p>
     </div>
@@ -12973,6 +12973,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -13004,22 +13009,17 @@ Object {
         href="https://google.com"
         role="link"
       >
-        <span
-          style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-            />
-          </svg>
-        </span>
+          <path
+            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+          />
+        </svg>
       </a>
     </p>
   </div>,
@@ -13085,6 +13085,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -13117,22 +13122,17 @@ Object {
           href="https://google.com"
           role="link"
         >
-          <span
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-              />
-            </svg>
-          </span>
+            <path
+              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+            />
+          </svg>
         </a>
       </p>
     </div>
@@ -13142,6 +13142,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -13173,22 +13178,17 @@ Object {
         href="https://google.com"
         role="link"
       >
-        <span
-          style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-            />
-          </svg>
-        </span>
+          <path
+            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+          />
+        </svg>
       </a>
     </p>
   </div>,
@@ -13254,6 +13254,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -13286,22 +13291,17 @@ Object {
           href="https://google.com"
           role="link"
         >
-          <span
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-              />
-            </svg>
-          </span>
+            <path
+              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+            />
+          </svg>
         </a>
       </span>
     </div>
@@ -13311,6 +13311,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -13342,22 +13347,17 @@ Object {
         href="https://google.com"
         role="link"
       >
-        <span
-          style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-            />
-          </svg>
-        </span>
+          <path
+            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+          />
+        </svg>
       </a>
     </span>
   </div>,
@@ -13423,6 +13423,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -13455,22 +13460,17 @@ Object {
           href="https://google.com"
           role="link"
         >
-          <span
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-              />
-            </svg>
-          </span>
+            <path
+              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+            />
+          </svg>
         </a>
       </p>
     </div>
@@ -13480,6 +13480,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -13511,22 +13516,17 @@ Object {
         href="https://google.com"
         role="link"
       >
-        <span
-          style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-            />
-          </svg>
-        </span>
+          <path
+            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+          />
+        </svg>
       </a>
     </p>
   </div>,
@@ -13592,6 +13592,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -13624,22 +13629,17 @@ Object {
           href="https://google.com"
           role="link"
         >
-          <span
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-              />
-            </svg>
-          </span>
+            <path
+              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+            />
+          </svg>
         </a>
       </h1>
     </div>
@@ -13649,6 +13649,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -13680,22 +13685,17 @@ Object {
         href="https://google.com"
         role="link"
       >
-        <span
-          style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-            />
-          </svg>
-        </span>
+          <path
+            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+          />
+        </svg>
       </a>
     </h1>
   </div>,
@@ -13761,6 +13761,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -13793,22 +13798,17 @@ Object {
           href="https://google.com"
           role="link"
         >
-          <span
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-              />
-            </svg>
-          </span>
+            <path
+              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+            />
+          </svg>
         </a>
       </h2>
     </div>
@@ -13818,6 +13818,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -13849,22 +13854,17 @@ Object {
         href="https://google.com"
         role="link"
       >
-        <span
-          style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-            />
-          </svg>
-        </span>
+          <path
+            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+          />
+        </svg>
       </a>
     </h2>
   </div>,
@@ -13930,6 +13930,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -13962,22 +13967,17 @@ Object {
           href="https://google.com"
           role="link"
         >
-          <span
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-              />
-            </svg>
-          </span>
+            <path
+              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+            />
+          </svg>
         </a>
       </h3>
     </div>
@@ -13987,6 +13987,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -14018,22 +14023,17 @@ Object {
         href="https://google.com"
         role="link"
       >
-        <span
-          style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-            />
-          </svg>
-        </span>
+          <path
+            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+          />
+        </svg>
       </a>
     </h3>
   </div>,
@@ -14099,6 +14099,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -14131,22 +14136,17 @@ Object {
           href="https://google.com"
           role="link"
         >
-          <span
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-              />
-            </svg>
-          </span>
+            <path
+              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+            />
+          </svg>
         </a>
       </h4>
     </div>
@@ -14156,6 +14156,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -14187,22 +14192,17 @@ Object {
         href="https://google.com"
         role="link"
       >
-        <span
-          style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-            />
-          </svg>
-        </span>
+          <path
+            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+          />
+        </svg>
       </a>
     </h4>
   </div>,
@@ -14268,6 +14268,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -14300,22 +14305,17 @@ Object {
           href="https://google.com"
           role="link"
         >
-          <span
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-              />
-            </svg>
-          </span>
+            <path
+              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+            />
+          </svg>
         </a>
       </h5>
     </div>
@@ -14325,6 +14325,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -14356,22 +14361,17 @@ Object {
         href="https://google.com"
         role="link"
       >
-        <span
-          style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-            />
-          </svg>
-        </span>
+          <path
+            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+          />
+        </svg>
       </a>
     </h5>
   </div>,
@@ -14437,6 +14437,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -14469,22 +14474,17 @@ Object {
           href="https://google.com"
           role="link"
         >
-          <span
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-              />
-            </svg>
-          </span>
+            <path
+              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+            />
+          </svg>
         </a>
       </h6>
     </div>
@@ -14494,6 +14494,11 @@ Object {
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  -webkit-transform: translate(0,0.175em) rotate(-45deg);
+  -ms-transform: translate(0,0.175em) rotate(-45deg);
+  transform: translate(0,0.175em) rotate(-45deg);
 }
 
 .c0 {
@@ -14525,22 +14530,17 @@ Object {
         href="https://google.com"
         role="link"
       >
-        <span
-          style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
+        <svg
+          aria-hidden="true"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            style="transform: translate(0, 0.175em) rotate(-45deg); height: 0.9em; width: 0.9em;"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
-            />
-          </svg>
-        </span>
+          <path
+            d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+          />
+        </svg>
       </a>
     </h6>
   </div>,
@@ -16212,6 +16212,1718 @@ Object {
   font-weight: 500;
   margin-bottom: 0.325rem;
   text-transform: lowercase;
+}
+
+<div>
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      h6
+      : 
+      the quick brown fox jumps over the lazy dog
+    </h6>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Text Strike 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: block;
+  font-size: 6rem;
+  -webkit-letter-spacing: -0.01562em;
+  -moz-letter-spacing: -0.01562em;
+  -ms-letter-spacing: -0.01562em;
+  letter-spacing: -0.01562em;
+  line-height: 1.167;
+  font-weight: 300;
+  margin-bottom: 3rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<body>
+    <div>
+      <h1
+        class="c0"
+        role="contentinfo"
+      >
+        hero
+        : 
+        the quick brown fox jumps over the lazy dog
+      </h1>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: block;
+  font-size: 6rem;
+  -webkit-letter-spacing: -0.01562em;
+  -moz-letter-spacing: -0.01562em;
+  -ms-letter-spacing: -0.01562em;
+  letter-spacing: -0.01562em;
+  line-height: 1.167;
+  font-weight: 300;
+  margin-bottom: 3rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<div>
+    <h1
+      class="c0"
+      role="contentinfo"
+    >
+      hero
+      : 
+      the quick brown fox jumps over the lazy dog
+    </h1>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Text Strike 2`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: block;
+  font-size: 3.75rem;
+  -webkit-letter-spacing: -0.00833em;
+  -moz-letter-spacing: -0.00833em;
+  -ms-letter-spacing: -0.00833em;
+  letter-spacing: -0.00833em;
+  line-height: 1.2;
+  font-weight: 300;
+  margin-bottom: 1.875rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<body>
+    <div>
+      <h2
+        class="c0"
+        role="contentinfo"
+      >
+        title1
+        : 
+        the quick brown fox jumps over the lazy dog
+      </h2>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: block;
+  font-size: 3.75rem;
+  -webkit-letter-spacing: -0.00833em;
+  -moz-letter-spacing: -0.00833em;
+  -ms-letter-spacing: -0.00833em;
+  letter-spacing: -0.00833em;
+  line-height: 1.2;
+  font-weight: 300;
+  margin-bottom: 1.875rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<div>
+    <h2
+      class="c0"
+      role="contentinfo"
+    >
+      title1
+      : 
+      the quick brown fox jumps over the lazy dog
+    </h2>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Text Strike 3`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: block;
+  font-size: 3rem;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.167;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<body>
+    <div>
+      <h3
+        class="c0"
+        role="contentinfo"
+      >
+        title2
+        : 
+        the quick brown fox jumps over the lazy dog
+      </h3>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: block;
+  font-size: 3rem;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.167;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<div>
+    <h3
+      class="c0"
+      role="contentinfo"
+    >
+      title2
+      : 
+      the quick brown fox jumps over the lazy dog
+    </h3>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Text Strike 4`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: block;
+  font-size: 2.125rem;
+  -webkit-letter-spacing: 0.00735em;
+  -moz-letter-spacing: 0.00735em;
+  -ms-letter-spacing: 0.00735em;
+  letter-spacing: 0.00735em;
+  line-height: 1.235;
+  font-weight: 400;
+  margin-bottom: 1.0625rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<body>
+    <div>
+      <h4
+        class="c0"
+        role="contentinfo"
+      >
+        subtitle1
+        : 
+        the quick brown fox jumps over the lazy dog
+      </h4>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: block;
+  font-size: 2.125rem;
+  -webkit-letter-spacing: 0.00735em;
+  -moz-letter-spacing: 0.00735em;
+  -ms-letter-spacing: 0.00735em;
+  letter-spacing: 0.00735em;
+  line-height: 1.235;
+  font-weight: 400;
+  margin-bottom: 1.0625rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<div>
+    <h4
+      class="c0"
+      role="contentinfo"
+    >
+      subtitle1
+      : 
+      the quick brown fox jumps over the lazy dog
+    </h4>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Text Strike 5`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: block;
+  font-size: 1.5rem;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.334;
+  font-weight: 400;
+  margin-bottom: 0.75rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<body>
+    <div>
+      <h5
+        class="c0"
+        role="contentinfo"
+      >
+        subtitle2
+        : 
+        the quick brown fox jumps over the lazy dog
+      </h5>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: block;
+  font-size: 1.5rem;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.334;
+  font-weight: 400;
+  margin-bottom: 0.75rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<div>
+    <h5
+      class="c0"
+      role="contentinfo"
+    >
+      subtitle2
+      : 
+      the quick brown fox jumps over the lazy dog
+    </h5>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Text Strike 6`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: block;
+  font-size: 0.75rem;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+  font-weight: 400;
+  margin-bottom: 0.375rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<body>
+    <div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        caption
+        : 
+        the quick brown fox jumps over the lazy dog
+      </p>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: block;
+  font-size: 0.75rem;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+  font-weight: 400;
+  margin-bottom: 0.375rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<div>
+    <p
+      class="c0"
+      role="contentinfo"
+    >
+      caption
+      : 
+      the quick brown fox jumps over the lazy dog
+    </p>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Text Strike 7`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: block;
+  font-size: 1rem;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<body>
+    <div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        body1
+        : 
+        the quick brown fox jumps over the lazy dog
+      </p>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: block;
+  font-size: 1rem;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<div>
+    <p
+      class="c0"
+      role="contentinfo"
+    >
+      body1
+      : 
+      the quick brown fox jumps over the lazy dog
+    </p>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Text Strike 8`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: block;
+  font-size: 0.875rem;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+  font-weight: 400;
+  margin-bottom: 0.4375rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<body>
+    <div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        body2
+        : 
+        the quick brown fox jumps over the lazy dog
+      </p>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: block;
+  font-size: 0.875rem;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+  font-weight: 400;
+  margin-bottom: 0.4375rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<div>
+    <p
+      class="c0"
+      role="contentinfo"
+    >
+      body2
+      : 
+      the quick brown fox jumps over the lazy dog
+    </p>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Text Strike 9`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: block;
+  font-size: 0.875rem;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+  font-weight: 400;
+  margin-bottom: 0.4375rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<body>
+    <div>
+      <span
+        class="c0"
+        role="contentinfo"
+      >
+        span
+        : 
+        the quick brown fox jumps over the lazy dog
+      </span>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: block;
+  font-size: 0.875rem;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
+  font-weight: 400;
+  margin-bottom: 0.4375rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<div>
+    <span
+      class="c0"
+      role="contentinfo"
+    >
+      span
+      : 
+      the quick brown fox jumps over the lazy dog
+    </span>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Text Strike 10`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: block;
+  font-size: 1rem;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<body>
+    <div>
+      <p
+        class="c0"
+        role="contentinfo"
+      >
+        p
+        : 
+        the quick brown fox jumps over the lazy dog
+      </p>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: block;
+  font-size: 1rem;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<div>
+    <p
+      class="c0"
+      role="contentinfo"
+    >
+      p
+      : 
+      the quick brown fox jumps over the lazy dog
+    </p>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Text Strike 11`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: block;
+  font-size: 6rem;
+  -webkit-letter-spacing: -0.01562em;
+  -moz-letter-spacing: -0.01562em;
+  -ms-letter-spacing: -0.01562em;
+  letter-spacing: -0.01562em;
+  line-height: 1.167;
+  font-weight: 300;
+  margin-bottom: 3rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<body>
+    <div>
+      <h1
+        class="c0"
+        role="contentinfo"
+      >
+        h1
+        : 
+        the quick brown fox jumps over the lazy dog
+      </h1>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: block;
+  font-size: 6rem;
+  -webkit-letter-spacing: -0.01562em;
+  -moz-letter-spacing: -0.01562em;
+  -ms-letter-spacing: -0.01562em;
+  letter-spacing: -0.01562em;
+  line-height: 1.167;
+  font-weight: 300;
+  margin-bottom: 3rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<div>
+    <h1
+      class="c0"
+      role="contentinfo"
+    >
+      h1
+      : 
+      the quick brown fox jumps over the lazy dog
+    </h1>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Text Strike 12`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: block;
+  font-size: 3.75rem;
+  -webkit-letter-spacing: -0.00833em;
+  -moz-letter-spacing: -0.00833em;
+  -ms-letter-spacing: -0.00833em;
+  letter-spacing: -0.00833em;
+  line-height: 1.2;
+  font-weight: 300;
+  margin-bottom: 1.875rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<body>
+    <div>
+      <h2
+        class="c0"
+        role="contentinfo"
+      >
+        h2
+        : 
+        the quick brown fox jumps over the lazy dog
+      </h2>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: block;
+  font-size: 3.75rem;
+  -webkit-letter-spacing: -0.00833em;
+  -moz-letter-spacing: -0.00833em;
+  -ms-letter-spacing: -0.00833em;
+  letter-spacing: -0.00833em;
+  line-height: 1.2;
+  font-weight: 300;
+  margin-bottom: 1.875rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<div>
+    <h2
+      class="c0"
+      role="contentinfo"
+    >
+      h2
+      : 
+      the quick brown fox jumps over the lazy dog
+    </h2>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Text Strike 13`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: block;
+  font-size: 3rem;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.167;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<body>
+    <div>
+      <h3
+        class="c0"
+        role="contentinfo"
+      >
+        h3
+        : 
+        the quick brown fox jumps over the lazy dog
+      </h3>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: block;
+  font-size: 3rem;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.167;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<div>
+    <h3
+      class="c0"
+      role="contentinfo"
+    >
+      h3
+      : 
+      the quick brown fox jumps over the lazy dog
+    </h3>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Text Strike 14`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: block;
+  font-size: 2.125rem;
+  -webkit-letter-spacing: 0.00735em;
+  -moz-letter-spacing: 0.00735em;
+  -ms-letter-spacing: 0.00735em;
+  letter-spacing: 0.00735em;
+  line-height: 1.235;
+  font-weight: 400;
+  margin-bottom: 1.0625rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<body>
+    <div>
+      <h4
+        class="c0"
+        role="contentinfo"
+      >
+        h4
+        : 
+        the quick brown fox jumps over the lazy dog
+      </h4>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: block;
+  font-size: 2.125rem;
+  -webkit-letter-spacing: 0.00735em;
+  -moz-letter-spacing: 0.00735em;
+  -ms-letter-spacing: 0.00735em;
+  letter-spacing: 0.00735em;
+  line-height: 1.235;
+  font-weight: 400;
+  margin-bottom: 1.0625rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<div>
+    <h4
+      class="c0"
+      role="contentinfo"
+    >
+      h4
+      : 
+      the quick brown fox jumps over the lazy dog
+    </h4>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Text Strike 15`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: block;
+  font-size: 1.5rem;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.334;
+  font-weight: 400;
+  margin-bottom: 0.75rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<body>
+    <div>
+      <h5
+        class="c0"
+        role="contentinfo"
+      >
+        h5
+        : 
+        the quick brown fox jumps over the lazy dog
+      </h5>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: block;
+  font-size: 1.5rem;
+  -webkit-letter-spacing: 0em;
+  -moz-letter-spacing: 0em;
+  -ms-letter-spacing: 0em;
+  letter-spacing: 0em;
+  line-height: 1.334;
+  font-weight: 400;
+  margin-bottom: 0.75rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<div>
+    <h5
+      class="c0"
+      role="contentinfo"
+    >
+      h5
+      : 
+      the quick brown fox jumps over the lazy dog
+    </h5>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Text Strike 16`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: block;
+  font-size: 1.25rem;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
+  font-weight: 500;
+  margin-bottom: 0.325rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
+}
+
+<body>
+    <div>
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        h6
+        : 
+        the quick brown fox jumps over the lazy dog
+      </h6>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: block;
+  font-size: 1.25rem;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
+  font-weight: 500;
+  margin-bottom: 0.325rem;
+  -webkit-text-decoration: line-through;
+  text-decoration: line-through;
 }
 
 <div>

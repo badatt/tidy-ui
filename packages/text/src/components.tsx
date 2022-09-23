@@ -6,6 +6,9 @@ const TextLink = styled.a<ITextProps>`
   cursor: pointer;
   opacity: 0.6;
   margin-left: 0.2em;
+  height: 0.9em;
+  width: 0.9em;
+  transform: translate(0, 0.175em) rotate(-45deg);
 `;
 
 /**
@@ -29,6 +32,7 @@ const TextRoot = styled.div<ITextProps>`
     ctr,
     mgn,
     tnc,
+    stk,
   }) => css`
     display: block;
     font-size: ${typography[v!].fontSize};
@@ -102,6 +106,11 @@ const TextRoot = styled.div<ITextProps>`
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
+    `}
+
+    ${stk &&
+    css`
+      text-decoration: line-through;
     `}
 
     &:hover ${TextLink} {

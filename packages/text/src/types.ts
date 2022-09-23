@@ -97,7 +97,7 @@ export interface ITextProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   itl?: boolean;
 
   /**
-   * If `true`, the text is lowe cased
+   * If `true`, the text is lower cased
    *
    * @type {?boolean}
    * @default false
@@ -108,6 +108,13 @@ export interface ITextProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
    * Margin, css `margin` equivalent
    */
   mgn?: string;
+
+  /**
+   * If `true`, the text is strike through
+   *
+   * @default false
+   */
+  stk?: boolean;
 
   /**
    * If `true`, the text is truncated inside the width of its parent component
