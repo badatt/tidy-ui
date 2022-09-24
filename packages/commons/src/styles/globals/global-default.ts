@@ -1,7 +1,7 @@
 /* istanbul ignore file */
 import { createGlobalStyle } from 'styled-components';
 import { IGlobalDefault } from '@tidy-ui/types';
-import { color, css, hsla } from '..';
+import { color, css, hsla } from '../../theme';
 
 const GlobalDefault = createGlobalStyle<IGlobalDefault>`
   ${({ theme: { font, palette, isDark } }) => css`
