@@ -5,14 +5,14 @@ Object {
   "asFragment": [Function],
   "baseElement": .c0 {
   display: block;
-  font-size: 0.875rem;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  font-size: 1rem;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   font-weight: 400;
-  margin-bottom: 0.4375rem;
+  margin-bottom: 0.5rem;
 }
 
 <body>
@@ -53,19 +53,91 @@ Object {
         </s>
         basic text: 
         the quick brown fox jumps over the lazy dog
+        <em>
+          emphasized text: 
+          the quick brown fox jumps over the lazy dog
+        </em>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <strong>
+          strong text: 
+          the quick brown fox jumps over the lazy dog
+        </strong>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <small>
+          small text: 
+          the quick brown fox jumps over the lazy dog
+        </small>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <mark>
+          mark text: 
+          the quick brown fox jumps over the lazy dog
+        </mark>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <del>
+          del text: 
+          the quick brown fox jumps over the lazy dog
+        </del>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <ins>
+          ins text: 
+          the quick brown fox jumps over the lazy dog
+        </ins>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <sub>
+          sub text: 
+          the quick brown fox jumps over the lazy dog
+        </sub>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <sup>
+          sub text: 
+          the quick brown fox jumps over the lazy dog
+        </sup>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <blockquote>
+          blockquote: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab numquam praesentium odit nam accusantium saepe optio tempora maiores ipsum quo laborum, repudiandae quis, aut quod accusamus neque. Unde, accusamus et?
+        </blockquote>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <abbr
+          title="abbr text: the quick brown fox jumps over the lazy dog"
+        >
+          ABR
+        </abbr>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <address>
+          address text: 
+          
+Written by John Doe.
+Visit us at:
+Example.com
+Box 564, Disneyland
+USA
+
+        </address>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
       </p>
     </div>
   </body>,
   "container": .c0 {
   display: block;
-  font-size: 0.875rem;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  font-size: 1rem;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   font-weight: 400;
-  margin-bottom: 0.4375rem;
+  margin-bottom: 0.5rem;
 }
 
 <div>
@@ -103,6 +175,78 @@ Object {
         strike text: 
         the quick brown fox jumps over the lazy dog
       </s>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <em>
+        emphasized text: 
+        the quick brown fox jumps over the lazy dog
+      </em>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <strong>
+        strong text: 
+        the quick brown fox jumps over the lazy dog
+      </strong>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <small>
+        small text: 
+        the quick brown fox jumps over the lazy dog
+      </small>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <mark>
+        mark text: 
+        the quick brown fox jumps over the lazy dog
+      </mark>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <del>
+        del text: 
+        the quick brown fox jumps over the lazy dog
+      </del>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <ins>
+        ins text: 
+        the quick brown fox jumps over the lazy dog
+      </ins>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <sub>
+        sub text: 
+        the quick brown fox jumps over the lazy dog
+      </sub>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <sup>
+        sub text: 
+        the quick brown fox jumps over the lazy dog
+      </sup>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <blockquote>
+        blockquote: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab numquam praesentium odit nam accusantium saepe optio tempora maiores ipsum quo laborum, repudiandae quis, aut quod accusamus neque. Unde, accusamus et?
+      </blockquote>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <abbr
+        title="abbr text: the quick brown fox jumps over the lazy dog"
+      >
+        ABR
+      </abbr>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <address>
+        address text: 
+        
+Written by John Doe.
+Visit us at:
+Example.com
+Box 564, Disneyland
+USA
+
+      </address>
       basic text: 
       the quick brown fox jumps over the lazy dog
     </p>
@@ -6822,14 +6966,14 @@ Object {
   "asFragment": [Function],
   "baseElement": .c0 {
   display: block;
-  font-size: 0.875rem;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  font-size: 1rem;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   font-weight: 400;
-  margin-bottom: 0.4375rem;
+  margin-bottom: 0.5rem;
 }
 
 <body>
@@ -6870,19 +7014,91 @@ Object {
         </s>
         basic text: 
         the quick brown fox jumps over the lazy dog
+        <em>
+          emphasized text: 
+          the quick brown fox jumps over the lazy dog
+        </em>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <strong>
+          strong text: 
+          the quick brown fox jumps over the lazy dog
+        </strong>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <small>
+          small text: 
+          the quick brown fox jumps over the lazy dog
+        </small>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <mark>
+          mark text: 
+          the quick brown fox jumps over the lazy dog
+        </mark>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <del>
+          del text: 
+          the quick brown fox jumps over the lazy dog
+        </del>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <ins>
+          ins text: 
+          the quick brown fox jumps over the lazy dog
+        </ins>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <sub>
+          sub text: 
+          the quick brown fox jumps over the lazy dog
+        </sub>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <sup>
+          sub text: 
+          the quick brown fox jumps over the lazy dog
+        </sup>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <blockquote>
+          blockquote: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab numquam praesentium odit nam accusantium saepe optio tempora maiores ipsum quo laborum, repudiandae quis, aut quod accusamus neque. Unde, accusamus et?
+        </blockquote>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <abbr
+          title="abbr text: the quick brown fox jumps over the lazy dog"
+        >
+          ABR
+        </abbr>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
+        <address>
+          address text: 
+          
+Written by John Doe.
+Visit us at:
+Example.com
+Box 564, Disneyland
+USA
+
+        </address>
+        basic text: 
+        the quick brown fox jumps over the lazy dog
       </p>
     </div>
   </body>,
   "container": .c0 {
   display: block;
-  font-size: 0.875rem;
-  -webkit-letter-spacing: 0.01071em;
-  -moz-letter-spacing: 0.01071em;
-  -ms-letter-spacing: 0.01071em;
-  letter-spacing: 0.01071em;
-  line-height: 1.43;
+  font-size: 1rem;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
   font-weight: 400;
-  margin-bottom: 0.4375rem;
+  margin-bottom: 0.5rem;
 }
 
 <div>
@@ -6920,6 +7136,78 @@ Object {
         strike text: 
         the quick brown fox jumps over the lazy dog
       </s>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <em>
+        emphasized text: 
+        the quick brown fox jumps over the lazy dog
+      </em>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <strong>
+        strong text: 
+        the quick brown fox jumps over the lazy dog
+      </strong>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <small>
+        small text: 
+        the quick brown fox jumps over the lazy dog
+      </small>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <mark>
+        mark text: 
+        the quick brown fox jumps over the lazy dog
+      </mark>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <del>
+        del text: 
+        the quick brown fox jumps over the lazy dog
+      </del>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <ins>
+        ins text: 
+        the quick brown fox jumps over the lazy dog
+      </ins>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <sub>
+        sub text: 
+        the quick brown fox jumps over the lazy dog
+      </sub>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <sup>
+        sub text: 
+        the quick brown fox jumps over the lazy dog
+      </sup>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <blockquote>
+        blockquote: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab numquam praesentium odit nam accusantium saepe optio tempora maiores ipsum quo laborum, repudiandae quis, aut quod accusamus neque. Unde, accusamus et?
+      </blockquote>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <abbr
+        title="abbr text: the quick brown fox jumps over the lazy dog"
+      >
+        ABR
+      </abbr>
+      basic text: 
+      the quick brown fox jumps over the lazy dog
+      <address>
+        address text: 
+        
+Written by John Doe.
+Visit us at:
+Example.com
+Box 564, Disneyland
+USA
+
+      </address>
       basic text: 
       the quick brown fox jumps over the lazy dog
     </p>

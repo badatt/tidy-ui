@@ -27,7 +27,7 @@ export const parameters = {
 };
 
 const ThemeBlock = styled.div<{ left?: boolean; filled?: boolean; padding?: string }>(
-  ({ left, filled, padding, theme: { palette } }) =>
+  ({ left, filled, padding }) =>
     css`
       position: absolute;
       top: 0;
@@ -39,7 +39,6 @@ const ThemeBlock = styled.div<{ left?: boolean; filled?: boolean; padding?: stri
       bottom: 0;
       overflow: auto;
       padding: ${padding};
-      background: ${palette.background.default};
     `,
 );
 

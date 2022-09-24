@@ -10,9 +10,16 @@ export default {
 };
 
 const text = `the quick brown fox jumps over the lazy dog`;
+const address = `
+Written by John Doe.
+Visit us at:
+Example.com
+Box 564, Disneyland
+USA
+`;
 
-export const basic = () => (
-  <Text.body1>
+const HtmlTagVariants = () => (
+  <>
     basic text: {text}
     <b>bold text: {text}</b>
     basic text: {text}
@@ -24,6 +31,37 @@ export const basic = () => (
     basic text: {text}
     <s>strike text: {text}</s>
     basic text: {text}
+    <em>emphasized text: {text}</em>
+    basic text: {text}
+    <strong>strong text: {text}</strong>
+    basic text: {text}
+    <small>small text: {text}</small>
+    basic text: {text}
+    <mark>mark text: {text}</mark>
+    basic text: {text}
+    <del>del text: {text}</del>
+    basic text: {text}
+    <ins>ins text: {text}</ins>
+    basic text: {text}
+    <sub>sub text: {text}</sub>
+    basic text: {text}
+    <sup>sub text: {text}</sup>
+    basic text: {text}
+    <blockquote>
+      blockquote: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab numquam praesentium odit nam accusantium
+      saepe optio tempora maiores ipsum quo laborum, repudiandae quis, aut quod accusamus neque. Unde, accusamus et?
+    </blockquote>
+    basic text: {text}
+    <abbr title={`abbr text: ${text}`}>ABR</abbr>
+    basic text: {text}
+    <address>address text: {address}</address>
+    basic text: {text}
+  </>
+);
+
+export const basic = () => (
+  <Text.body1>
+    <HtmlTagVariants />
   </Text.body1>
 );
 
@@ -32,17 +70,7 @@ export const variants = () => (
     <Ctx.Consumer>
       {({ variant }) => (
         <TextBase v={Variant[variant] as TVariant}>
-          {Variant[variant]}: basic text: {text}
-          <b>bold text: {text}</b>
-          basic text: {text}
-          <u>underlined text: {text}</u>
-          basic text: {text}
-          <i>italic text: {text}</i>
-          basic text: {text}
-          <code>code text: {text}</code>
-          basic text: {text}
-          <s>strike text: {text}</s>
-          basic text: {text}
+          <HtmlTagVariants />
         </TextBase>
       )}
     </Ctx.Consumer>

@@ -6,29 +6,66 @@ import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
-import { TextBase } from '../src/Text';
+import { Text, TextBase } from '../src/Text';
 import { Variant } from '../src/types';
 import { Tone } from '@tidy-ui/types';
 
 const text = `the quick brown fox jumps over the lazy dog`;
+const address = `
+Written by John Doe.
+Visit us at:
+Example.com
+Box 564, Disneyland
+USA
+`;
+const HtmlTagVariants = () => (
+  <>
+    basic text: {text}
+    <b>bold text: {text}</b>
+    basic text: {text}
+    <u>underlined text: {text}</u>
+    basic text: {text}
+    <i>italic text: {text}</i>
+    basic text: {text}
+    <code>code text: {text}</code>
+    basic text: {text}
+    <s>strike text: {text}</s>
+    basic text: {text}
+    <em>emphasized text: {text}</em>
+    basic text: {text}
+    <strong>strong text: {text}</strong>
+    basic text: {text}
+    <small>small text: {text}</small>
+    basic text: {text}
+    <mark>mark text: {text}</mark>
+    basic text: {text}
+    <del>del text: {text}</del>
+    basic text: {text}
+    <ins>ins text: {text}</ins>
+    basic text: {text}
+    <sub>sub text: {text}</sub>
+    basic text: {text}
+    <sup>sub text: {text}</sup>
+    basic text: {text}
+    <blockquote>
+      blockquote: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab numquam praesentium odit nam accusantium
+      saepe optio tempora maiores ipsum quo laborum, repudiandae quis, aut quod accusamus neque. Unde, accusamus et?
+    </blockquote>
+    basic text: {text}
+    <abbr title={`abbr text: ${text}`}>ABR</abbr>
+    basic text: {text}
+    <address>address text: {address}</address>
+    basic text: {text}
+  </>
+);
 
 describe('Text', () => {
   it('Basic render', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <TextBase>
-          basic text: {text}
-          <b>bold text: {text}</b>
-          basic text: {text}
-          <u>underlined text: {text}</u>
-          basic text: {text}
-          <i>italic text: {text}</i>
-          basic text: {text}
-          <code>code text: {text}</code>
-          basic text: {text}
-          <s>strike text: {text}</s>
-          basic text: {text}
-        </TextBase>
+        <Text.body1>
+          <HtmlTagVariants />
+        </Text.body1>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -37,19 +74,9 @@ describe('Text', () => {
   it('Dark mode basic', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
-        <TextBase>
-          basic text: {text}
-          <b>bold text: {text}</b>
-          basic text: {text}
-          <u>underlined text: {text}</u>
-          basic text: {text}
-          <i>italic text: {text}</i>
-          basic text: {text}
-          <code>code text: {text}</code>
-          basic text: {text}
-          <s>strike text: {text}</s>
-          basic text: {text}
-        </TextBase>
+        <Text.body1>
+          <HtmlTagVariants />
+        </Text.body1>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
