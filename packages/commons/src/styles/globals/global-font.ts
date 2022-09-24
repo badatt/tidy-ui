@@ -1,7 +1,7 @@
 /* istanbul ignore file */
 import { createGlobalStyle } from 'styled-components';
 import { IGlobalFont } from '@tidy-ui/types';
-import { css } from '..';
+import { css } from '../../theme';
 
 const GlobalFont = createGlobalStyle<IGlobalFont>`
   ${({ url, family }) => css`
