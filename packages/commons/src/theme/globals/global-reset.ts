@@ -18,6 +18,10 @@ const GlobalReset = createGlobalStyle`
       display: none;
     }
 
+    abbr[title] {
+      text-decoration: none;
+    }
+
     body {
       line-height: 1;
     }

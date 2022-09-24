@@ -13,6 +13,7 @@ const GlobalDefault = createGlobalStyle<IGlobalDefault>`
 
     body {
       color: ${palette.text.primary};
+      background: ${palette.background.default};
       min-height: 100vh;
       height: 100%;
       letter-spacing: 0.025rem;
@@ -40,19 +41,24 @@ const GlobalDefault = createGlobalStyle<IGlobalDefault>`
       line-height: 1;
     }
 
-    b {
+    /** Text styles */
+    b,
+    strong {
       margin: 0 1ch;
       font-weight: ${font.bold};
     }
-    u {
+    u,
+    ins {
       margin: 0 1ch;
       text-decoration: underline;
     }
-    i {
+    i,
+    em {
       margin: 0 1ch;
       font-style: italic;
     }
-    s {
+    s,
+    del {
       margin: 0 1ch;
       text-decoration: line-through;
     }
@@ -60,10 +66,55 @@ const GlobalDefault = createGlobalStyle<IGlobalDefault>`
       margin: 0 1ch;
       font-family: ${font.mono};
       font-weight: ${font.regular};
-      padding: 0 0.25em;
+      padding: 0 0.2em;
       border-radius: 4px;
-      background-color: ${isDark ? hsla(color.yellow[800], 0.7) : hsla(color.yellow[100])};
-      color: ${hsla(color.red[500])};
+      border: 1px solid ${isDark ? hsla(color.slate[700]) : hsla(color.slate[300])};
+      background-color: ${isDark ? hsla(color.slate[800]) : hsla(color.slate[200])};
+      color: ${isDark ? hsla(color.orange[500]) : hsla(color.orange[700])};
+    }
+    small {
+      margin: 0 1ch;
+      font-size: 0.8em;
+    }
+    mark {
+      margin: 0 1ch;
+      background-color: ${isDark ? hsla(color.yellow[500]) : hsla(color.yellow[200])};
+    }
+    sub {
+      margin-right: 1ch;
+      vertical-align: sub;
+      font-size: 0.8em;
+    }
+    sup {
+      margin-right: 1ch;
+      vertical-align: super;
+      font-size: 0.8em;
+    }
+    blockquote {
+      padding-left: 1rem;
+      margin: 1rem 0;
+      position: relative;
+      &::before {
+        content: '';
+        background-color: currentColor;
+        width: 4px;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        display: block;
+        position: absolute;
+        border-radius: 8px;
+      }
+    }
+    abbr {
+      margin: 0 1ch;
+      border-bottom: 1px dotted currentColor;
+    }
+    address {
+      display: block;
+      white-space: pre;
+      font-style: italic;
+      font-weight: ${font.regular};
     }
   `}
 `;
