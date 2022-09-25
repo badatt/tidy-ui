@@ -13,6 +13,7 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
+    "@tidy-ui/border": "^0.13.7",
     "@tidy-ui/container": "^0.13.7",
     "@tidy-ui/divider": "^0.13.7",
     "@tidy-ui/flexbox": "^0.13.7",
@@ -44,6 +45,7 @@
     "components",
     "ui",
     "ui-components",
+    "border",
     "container",
     "divider",
     "flexbox",
@@ -51,7 +53,7 @@
     "grid",
     "stack"
   ],
-  "description": "Tidy UI layout components",
+  "description": "Tidy UI layout group components",
   "publishConfig": {
     "access": "public"
   },

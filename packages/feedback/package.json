@@ -1,9 +1,9 @@
 {
-  "name": "@tidy-ui/presentation",
-  "version": "0.13.7",
+  "name": "@tidy-ui/feedback",
+  "version": "0.0.0",
   "readme": "README.md",
   "scripts": {
-    "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:presentation",
+    "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:feedback",
     "build:md": "markdown-include ../../.markdown.json",
     "clean": "rimraf -rf dist && rimraf -rf build",
     "postinstall": "rm -rf node_modules/@types/react-native",
@@ -13,17 +13,8 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/badge": "^0.13.7",
-    "@tidy-ui/button": "^0.13.7",
-    "@tidy-ui/card": "^0.13.7",
-    "@tidy-ui/chip": "^0.13.7",
-    "@tidy-ui/code": "^0.13.7",
-    "@tidy-ui/message": "^0.13.7",
-    "@tidy-ui/panel": "^0.13.7",
-    "@tidy-ui/paper": "^0.13.7",
-    "@tidy-ui/tag": "^0.13.7",
-    "@tidy-ui/text": "^0.13.7",
-    "@tidy-ui/tooltip": "^0.13.7"
+    "@tidy-ui/notification": "^0.13.7",
+    "@tidy-ui/toaster": "^0.13.7"
   },
   "peerDependencies": {
     "react": "^18.0.0",
@@ -50,21 +41,11 @@
     "components",
     "ui",
     "ui-components",
-    "presentation",
-    "badge",
-    "anchor",
-    "button",
-    "button-group",
-    "button-toolbar",
-    "icon-button",
-    "card",
-    "message",
-    "panel",
-    "paper",
-    "tag",
-    "text"
+    "feedback",
+    "notification",
+    "toaster"
   ],
-  "description": "Tidy UI presentation group components",
+  "description": "Tidy UI feedback group components",
   "publishConfig": {
     "access": "public"
   },

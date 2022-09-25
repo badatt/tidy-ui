@@ -827,12 +827,12 @@ Object {
         <dd
           class="c0"
         >
-          <p
+          <span
             class="c1"
             role="contentinfo"
           >
             custom label
-          </p>
+          </span>
         </dd>
         <dt
           class="c2"
@@ -902,12 +902,12 @@ Object {
       <dd
         class="c0"
       >
-        <p
+        <span
           class="c1"
           role="contentinfo"
         >
           custom label
-        </p>
+        </span>
       </dd>
       <dt
         class="c2"

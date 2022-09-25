@@ -1,5 +1,5 @@
 import { css, styled } from '@tidy-ui/commons';
-import { IDataFieldProps, ITextProps, TVariant } from './types';
+import { IDataFieldProps, ITextProps } from './types';
 
 const TextLink = styled.a<ITextProps>`
   display: none;
@@ -120,42 +120,6 @@ const TextRoot = styled.div<ITextProps>`
 `;
 
 /**
- * Resolves html tag
- *
- * @param {ITextProps} props props
- * @returns {string} html element
- */
-const htmlElement = (props: ITextProps): TVariant => {
-  switch (props.v) {
-    case 'h1':
-    case 'hero':
-      return 'h1';
-    case 'h2':
-    case 'title1':
-      return 'h2';
-    case 'h3':
-    case 'title2':
-      return 'h3';
-    case 'h4':
-    case 'subtitle1':
-      return 'h4';
-    case 'h5':
-    case 'subtitle2':
-      return 'h5';
-    case 'h6':
-      return 'h6';
-    case 'p':
-    case 'body1':
-    case 'body2':
-      return 'p';
-    case 'span':
-      return 'span';
-    default:
-      return 'p';
-  }
-};
-
-/**
  * Internal DL component
  *
  * @internal
@@ -220,4 +184,4 @@ const DT = styled.dt<IDataFieldProps>`
   `}
 `;
 
-export { DD, DL, DT, htmlElement, TextLink, TextRoot };
+export { DD, DL, DT, TextLink, TextRoot };
