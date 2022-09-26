@@ -1,6 +1,6 @@
 import React from 'react';
 import { Icon } from '../../commons/src';
-import { Tone } from '../../types/src';
+import { Tone } from '../../commons/src';
 import { useToaster } from '../../toaster/src';
 import { Button, ButtonCluster, ButtonGroup } from '../../button/src';
 import { Text } from '../../text/src';

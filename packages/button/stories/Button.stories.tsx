@@ -3,7 +3,7 @@ import { Icon } from '../../commons/src';
 import { FlexBox } from '../../flexbox/src';
 import { Button } from '../src';
 import { Variant } from '../src/types';
-import { Size, Tone } from '../../types/src';
+import { Size, Tone } from '../../commons/src';
 
 export default {
   component: Button,

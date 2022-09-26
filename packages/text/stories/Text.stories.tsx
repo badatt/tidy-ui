@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text } from '../src/Text';
 import { TVariant, Variant } from '../src/types';
-import { Tone } from '../../types/src';
+import { Tone } from '../../commons/src';
 import { Ctx, TextProvider } from './TextProvider';
 
 export default {

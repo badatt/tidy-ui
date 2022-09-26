@@ -2,7 +2,7 @@ import React from 'react';
 import { Text } from '../../text/src';
 import { Divider } from '../src';
 import { Density, Position } from '../src/types';
-import { Shade, Tone, Border } from '../../types/src';
+import { Shade, Tone, Border } from '../../commons/src';
 
 export default {
   component: Divider,

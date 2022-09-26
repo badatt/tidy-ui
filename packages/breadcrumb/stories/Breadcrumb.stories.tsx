@@ -1,7 +1,7 @@
 import React from 'react';
 import { Divider } from '../../divider/src';
 import { FlexBox } from '../../flexbox/src';
-import { Tone } from '../../types/src';
+import { Tone } from '../../commons/src';
 import { Breadcrumb } from '../src';
 
 export default {

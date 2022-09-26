@@ -1,5 +1,5 @@
 import React from 'react';
-import { Size, Tone } from '../../types/src';
+import { Size, Tone } from '../../commons/src';
 import { FlexBox } from '../../flexbox/src';
 import { Anchor } from '../src';
 

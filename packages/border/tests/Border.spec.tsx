@@ -6,7 +6,7 @@ import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
-import { Positioning, Tone, Border as Borders, Shade } from '../../types/src';
+import { Positioning, Tone, Border as Borders, Shade } from '../../commons/src';
 import { Chip } from '../../chip/src';
 import { FlexBox } from '../../flexbox/src';
 import { Text } from '../../text/src';

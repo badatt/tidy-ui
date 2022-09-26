@@ -8,7 +8,7 @@ import 'jest-styled-components';
 import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
 import { Divider } from '../../divider/src';
 import { FlexBox } from '../../flexbox/src';
-import { Tone } from '../../types/src';
+import { Tone } from '../../commons/src';
 import { Breadcrumb } from '../src';
 
 describe('Breadcrumb', () => {
