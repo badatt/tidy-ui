@@ -1,4 +1,4 @@
-import { IColor, IHsla } from '@tidy-ui/types';
+import { IColor, IHsla } from './types';
 
 /**
  * Creates hsla color representation

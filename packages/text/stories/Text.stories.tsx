@@ -45,7 +45,7 @@ const HtmlTagVariants = () => (
     basic text: {text}
     <sub>sub text: {text}</sub>
     basic text: {text}
-    <sup>sub text: {text}</sup>
+    <sup>sup text: {text}</sup>
     basic text: {text}
     <blockquote>
       blockquote: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab numquam praesentium odit nam accusantium

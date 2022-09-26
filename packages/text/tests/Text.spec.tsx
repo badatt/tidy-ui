@@ -5,10 +5,9 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
+import { orchidDark, orchidLight, TidyUiProvider, Tone } from '../../commons/src';
 import { Text } from '../src/Text';
 import { Variant } from '../src/types';
-import { Tone } from '@tidy-ui/types';
 
 const text = `the quick brown fox jumps over the lazy dog`;
 const address = `

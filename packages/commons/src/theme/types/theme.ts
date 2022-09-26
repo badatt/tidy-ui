@@ -1,4 +1,5 @@
-import { ITidyUIBaseTheme } from './base';
+import { DefaultTheme } from 'styled-components';
+import { IFont, ILayout, ITypography } from './base';
 
 /**
  * GlobalFont
@@ -31,16 +32,30 @@ export interface IGlobalDefault {
  *
  * @typedef {ITidyUITheme}
  * @interface ITidyUITheme
- * @augments {ITidyUIBaseTheme}
+ * @augments {DefaultTheme}
  * @public
  */
-export interface ITidyUITheme extends ITidyUIBaseTheme {
+export interface ITidyUITheme extends DefaultTheme {
+  /**
+   * Global font settings
+   *
+   * @type {IFont}
+   */
+  font: IFont;
+
   /**
    * Whether the theme is dark
    *
    * @type {boolean}
    */
   isDark: boolean;
+
+  /**
+   * Layout configuration
+   *
+   * @type {ILayout}
+   */
+  layout: ILayout;
 
   /**
    * An identifiable & meaningful name to the theme
@@ -55,6 +70,13 @@ export interface ITidyUITheme extends ITidyUIBaseTheme {
    * @type {IPalette}
    */
   palette: IPalette;
+
+  /**
+   * Typography configuration
+   *
+   * @type {ITypography}
+   */
+  typography: ITypography;
 }
 
 /**

@@ -1,5 +1,5 @@
 import { createFontStyle, css, styled } from '@tidy-ui/commons';
-import { IPalette } from '@tidy-ui/types';
+import { IPalette } from '@tidy-ui/commons';
 import { filledContent, filledLabel, outlinedContent, outlinedLabel } from './styles';
 import { IMessageProps } from './types';
 

@@ -1,36 +1,4 @@
 /* eslint-disable typescript-sort-keys/string-enum */
-import { DefaultTheme } from 'styled-components';
-
-/**
- * Base theme contract
- *
- * @typedef {ITidyUIBaseTheme}
- * @interface ITidyUIBaseTheme
- * @augments {DefaultTheme}
- * @public
- */
-export interface ITidyUIBaseTheme extends DefaultTheme {
-  /**
-   * Global font settings
-   *
-   * @type {IFont}
-   */
-  font: IFont;
-
-  /**
-   * Layout configuration
-   *
-   * @type {ILayout}
-   */
-  layout: ILayout;
-
-  /**
-   * Typography configuration
-   *
-   * @type {ITypography}
-   */
-  typography: ITypography;
-}
 
 /**
  * Screen size enum

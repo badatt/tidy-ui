@@ -1,5 +1,6 @@
 import { HTMLAttributes } from 'react';
-import { IBaseProps, TBorder, TShade, TTone } from '@tidy-ui/types';
+import { TBorder, TShade, TTone } from '@tidy-ui/commons';
+import { IBaseProps } from '@tidy-ui/types';
 
 /**
  * Density

@@ -1,5 +1,5 @@
-import { ITidyUITheme } from '@tidy-ui/types';
 import { defaultBase } from './base';
+import { ITidyUITheme } from './types';
 import { createColor } from './utils';
 import { color } from '.';
 

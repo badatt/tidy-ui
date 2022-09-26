@@ -1,5 +1,6 @@
 import { HTMLAttributes } from 'react';
-import { IBaseProps, TSize, TTone } from '@tidy-ui/types';
+import { TSize, TTone } from '@tidy-ui/commons';
+import { IBaseProps } from '@tidy-ui/types';
 
 /**
  * Chip props

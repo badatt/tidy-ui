@@ -1,5 +1,6 @@
 import { HTMLAttributes } from 'react';
-import { IBaseProps, TBorder, TPositioning, TShade, TTone } from '@tidy-ui/types';
+import { TBorder, TPositioning, TShade, TTone } from '@tidy-ui/commons';
+import { IBaseProps } from '@tidy-ui/types';
 
 /**
  * Border props
