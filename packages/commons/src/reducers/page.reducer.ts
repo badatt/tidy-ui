@@ -1,6 +1,6 @@
-import { ITidyUITheme } from '@tidy-ui/types';
 import { AppActionTypes } from '../actions';
 import { PageActions } from '../actions/page.actions';
+import { ITidyUITheme } from '../theme/types';
 
 /**
  * Page state props

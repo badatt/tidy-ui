@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { TTone } from '@tidy-ui/types';
+import { TTone } from '../theme/types';
 import { Icon } from './Icon';
 
 /**

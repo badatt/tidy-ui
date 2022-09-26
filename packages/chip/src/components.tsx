@@ -1,5 +1,4 @@
-import { css, styled } from '@tidy-ui/commons';
-import { IPalette, TTone } from '@tidy-ui/types';
+import { css, IPalette, styled, TTone } from '@tidy-ui/commons';
 import { filledStyle, outlinedStyle, sizeStyles } from './styles';
 import { IChipProps } from './types';
 

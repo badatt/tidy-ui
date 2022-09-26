@@ -1,4 +1,4 @@
-import { ITidyUITheme } from '@tidy-ui/types';
+import { ITidyUITheme } from '../theme/types';
 
 /** @internal */
 interface IDeviceThemeProps {

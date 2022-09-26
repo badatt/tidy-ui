@@ -1,4 +1,4 @@
-import { IHsla } from '@tidy-ui/types';
+import { IHsla } from './types';
 
 const neutral: Record<number, IHsla> = {
   100: {

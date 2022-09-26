@@ -1,8 +1,6 @@
-import { ITidyUIBaseTheme } from '@tidy-ui/types';
-
 // screens https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 
-const defaultBase: ITidyUIBaseTheme = {
+const defaultBase = {
   font: {
     bold: 700,
     family:

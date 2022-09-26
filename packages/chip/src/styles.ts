@@ -1,6 +1,5 @@
 import { CSSProperties } from 'react';
-import { css, hsla } from '@tidy-ui/commons';
-import { TSize } from '@tidy-ui/types';
+import { css, hsla, TSize } from '@tidy-ui/commons';
 import { IChipProps } from './types';
 
 /**

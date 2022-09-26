@@ -1,5 +1,5 @@
 import { useTheme as useStyledTheme } from 'styled-components';
-import { ITidyUITheme } from '@tidy-ui/types';
+import { ITidyUITheme } from '../theme/types';
 
 /**
  * React hook to get the theme attributes

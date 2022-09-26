@@ -1,5 +1,6 @@
 import { HTMLAttributes } from 'react';
-import { IBaseProps, TDirection, TSize, TTone } from '@tidy-ui/types';
+import { TDirection, TSize, TTone } from '@tidy-ui/commons';
+import { IBaseProps } from '@tidy-ui/types';
 
 /**
  * Tooltip props

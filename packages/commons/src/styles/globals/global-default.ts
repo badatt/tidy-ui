@@ -1,16 +1,9 @@
 /* istanbul ignore file */
 import { createGlobalStyle } from 'styled-components';
-import { IGlobalDefault } from '@tidy-ui/types';
-import { color, css, hsla } from '../../theme';
+import { color, css, hsla, IGlobalDefault } from '../../theme';
 
 const GlobalDefault = createGlobalStyle<IGlobalDefault>`
   ${({ theme: { font, palette, isDark } }) => css`
-    html {
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      font-size: 16px;
-    }
-
     body {
       color: ${palette.text.primary};
       background: ${palette.background.default};
@@ -18,6 +11,7 @@ const GlobalDefault = createGlobalStyle<IGlobalDefault>`
       height: 100%;
       letter-spacing: 0.025rem;
       line-height: 1;
+      font-size: 16px;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
       text-rendering: optimizeLegibility;
