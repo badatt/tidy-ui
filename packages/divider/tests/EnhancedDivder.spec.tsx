@@ -9,7 +9,7 @@ import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
 import { Divider } from '../src';
 import { Text } from '../../text/src';
 import { Density, Position } from '../src/types';
-import { Shade, Tone, Border } from '../../types/src';
+import { Shade, Tone, Border } from '../../commons/src';
 
 const text = `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas

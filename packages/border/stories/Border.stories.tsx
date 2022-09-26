@@ -1,5 +1,5 @@
 import React from 'react';
-import { Positioning, Tone, Border as Borders, Shade } from '../../types/src';
+import { Positioning, Tone, Border as Borders, Shade } from '../../commons/src';
 import { Chip } from '../../chip/src';
 import { FlexBox } from '../../flexbox/src';
 import { Text } from '../../text/src';

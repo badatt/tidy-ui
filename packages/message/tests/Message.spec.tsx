@@ -7,7 +7,7 @@ import { fireEvent, getByRole, render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
-import { Tone } from '../../types/src';
+import { Tone } from '../../commons/src';
 import { Message } from '../src';
 
 const text = `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente

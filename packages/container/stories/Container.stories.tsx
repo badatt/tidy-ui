@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { color, css, hsla, Icon, styled } from '../../commons/src';
-import { Screen, TScreen } from '../../types/src';
+import { Screen, TScreen } from '../../commons/src';
 import { Container } from '../src';
 import { IContainerProps } from '../src/types';
 import { IconButton, ButtonCluster } from '../../button/src';

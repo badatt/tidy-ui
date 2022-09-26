@@ -8,7 +8,7 @@ import 'jest-styled-components';
 import { Icon, orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
 import { Notification } from '../src';
 import { Text } from '../../text/src';
-import { Tone } from '../../types/src';
+import { Tone } from '../../commons/src';
 import { FlexBox } from '../../flexbox/src';
 import { useToaster } from '../../toaster/src';
 import { act } from 'react-dom/test-utils';

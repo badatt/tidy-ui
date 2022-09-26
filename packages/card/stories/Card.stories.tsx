@@ -2,7 +2,7 @@ import React from 'react';
 import { FlexBox } from '../../flexbox/src';
 import { Grid } from '../../grid/src';
 import { Card } from '../src';
-import { Tone } from '../../types/src';
+import { Tone } from '../../commons/src';
 
 export default {
   component: Card,

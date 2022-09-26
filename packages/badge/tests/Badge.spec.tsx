@@ -7,7 +7,7 @@ import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { Icon, orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
 import { Badge } from '../src';
-import { Tone } from '../../types/src';
+import { Tone } from '../../commons/src';
 
 describe('Badge', () => {
   it('Basic render', () => {

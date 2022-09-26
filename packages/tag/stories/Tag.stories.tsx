@@ -2,7 +2,7 @@ import React from 'react';
 import { Icon } from '../../commons/src';
 import { FlexBox } from '../../flexbox/src';
 import { Tag } from '../src';
-import { Tone } from '../../types/src';
+import { Tone } from '../../commons/src';
 import { Size } from '../src/types';
 
 export default {

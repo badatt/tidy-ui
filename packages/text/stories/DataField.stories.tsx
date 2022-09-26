@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid } from '../../grid/src';
 import { Text, DataField } from '../src';
-import { Tone } from '../../types/src';
+import { Tone } from '../../commons/src';
 
 export default {
   component: DataField,

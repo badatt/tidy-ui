@@ -2,7 +2,7 @@ import React from 'react';
 import { Icon } from '../../commons/src';
 import { FlexBox } from '../../flexbox/src';
 import { IconButton } from '../src';
-import { Size, Tone } from '../../types/src';
+import { Size, Tone } from '../../commons/src';
 
 export default {
   component: IconButton,
