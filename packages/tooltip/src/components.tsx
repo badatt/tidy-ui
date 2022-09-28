@@ -1,16 +1,12 @@
-import { css, styled } from '@tidy-ui/commons';
+import { color, css, hsla, styled } from '@tidy-ui/commons';
 import { ITooltipProps } from './types';
 
 const bgColor = css`
-  ${({ theme: { palette, isDark } }) => css`
-    ${isDark ? palette.neutral[400] : palette.neutral[800]}
-  `}
+  ${hsla(color.slate[900])}
 `;
 
-const color = css`
-  ${({ theme: { palette, isDark } }) => css`
-    ${isDark ? palette.neutral[900] : palette.neutral[100]}
-  `}
+const textColor = css`
+  ${hsla(color.slate[300])}
 `;
 
 const caretStyle = css`
@@ -31,7 +27,7 @@ const tooltipStyle = css`
   border-radius: 0.2rem;
   width: fit-content;
   background-color: ${bgColor};
-  color: ${color};
+  color: ${textColor};
   z-index: 1000000;
   text-align: center;
   text-decoration: none;
