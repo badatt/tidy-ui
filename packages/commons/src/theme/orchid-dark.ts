@@ -8,15 +8,15 @@ const theme: ITidyUITheme = {
   ...defaultBase,
   palette: {
     background: {
-      card: 'hsla(217, 33%, 17%, 1)',
-      default: 'hsla(222, 47%, 11%, 1)',
-      paper: 'hsla(217, 33%, 17%, 1)',
+      card: 'hsla(214, 13%, 20%, 1)',
+      default: 'hsla(215, 15%, 16%, 1)',
+      paper: 'hsla(214, 13%, 20%, 1)',
     },
     divider: 'hsla(0, 0%, 100%, 0.12)',
     ...paletteVariant,
     text: {
       disabled: 'hsla(0, 0%, 100%, 0.5)',
-      primary: 'hsla(210, 12%, 81%, 1)',
+      primary: 'hsla(210, 19%, 73%, 1)',
       secondary: 'hsla(0, 0%, 100%, 0.7)',
     },
   },
