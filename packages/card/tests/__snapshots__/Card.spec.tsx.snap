@@ -297,9 +297,9 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
-  background-color: hsla(217,33%,17%,1);
+  background-color: hsla(214,13%,20%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(210,12%,81%,1);
+  color: hsla(210,19%,73%,1);
   border-radius: 0.5rem;
 }
 
@@ -318,9 +318,9 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
-  background-color: hsla(217,33%,17%,1);
+  background-color: hsla(214,13%,20%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(210,12%,81%,1);
+  color: hsla(210,19%,73%,1);
   border-radius: 0.5rem;
 }
 
@@ -404,9 +404,9 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
-  background-color: hsla(217,33%,17%,1);
+  background-color: hsla(214,13%,20%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(210,12%,81%,1);
+  color: hsla(210,19%,73%,1);
   border-radius: 0.5rem;
 }
 
@@ -425,9 +425,9 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
-  background-color: hsla(217,33%,17%,1);
+  background-color: hsla(214,13%,20%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(210,12%,81%,1);
+  color: hsla(210,19%,73%,1);
   border-radius: 0.5rem;
 }
 
@@ -3069,10 +3069,15 @@ Object {
   "baseElement": .c4 {
   display: none;
   position: absolute;
-  height: 2.5rem;
-  width: 2.5rem;
   top: 0;
   right: 0;
+  padding: 0.5rem;
+  background-color: hsla(215,20%,65%,0.1);
+  border-radius: 50%;
+}
+
+.c4:hover {
+  background-color: hsla(215,20%,65%,0.2);
 }
 
 .c2 {
@@ -3096,7 +3101,6 @@ Object {
   width: 1.25rem;
   top: 0.5rem;
   right: 0.5rem;
-  position: absolute;
   color: hsla(0,0%,64%,1);
 }
 
@@ -3117,7 +3121,10 @@ Object {
 }
 
 .c0:hover .c3 {
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .c1 {
@@ -3142,7 +3149,10 @@ Object {
 }
 
 .c1:hover .c3 {
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .c8 {
@@ -3168,7 +3178,10 @@ Object {
 }
 
 .c8:hover .c3 {
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .c7 {
@@ -3282,10 +3295,15 @@ Object {
   "container": .c4 {
   display: none;
   position: absolute;
-  height: 2.5rem;
-  width: 2.5rem;
   top: 0;
   right: 0;
+  padding: 0.5rem;
+  background-color: hsla(215,20%,65%,0.1);
+  border-radius: 50%;
+}
+
+.c4:hover {
+  background-color: hsla(215,20%,65%,0.2);
 }
 
 .c2 {
@@ -3309,7 +3327,6 @@ Object {
   width: 1.25rem;
   top: 0.5rem;
   right: 0.5rem;
-  position: absolute;
   color: hsla(0,0%,64%,1);
 }
 
@@ -3330,7 +3347,10 @@ Object {
 }
 
 .c0:hover .c3 {
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .c1 {
@@ -3355,7 +3375,10 @@ Object {
 }
 
 .c1:hover .c3 {
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .c8 {
@@ -3381,7 +3404,10 @@ Object {
 }
 
 .c8:hover .c3 {
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .c7 {
@@ -3550,10 +3576,15 @@ Object {
   "baseElement": .c4 {
   display: none;
   position: absolute;
-  height: 2.5rem;
-  width: 2.5rem;
   top: 0;
   right: 0;
+  padding: 0.5rem;
+  background-color: hsla(215,20%,65%,0.1);
+  border-radius: 50%;
+}
+
+.c4:hover {
+  background-color: hsla(215,20%,65%,0.2);
 }
 
 .c2 {
@@ -3577,7 +3608,6 @@ Object {
   width: 1.25rem;
   top: 0.5rem;
   right: 0.5rem;
-  position: absolute;
   color: hsla(0,0%,45%,1);
 }
 
@@ -3590,15 +3620,18 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
-  background-color: hsla(217,33%,17%,1);
+  background-color: hsla(214,13%,20%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(210,12%,81%,1);
+  color: hsla(210,19%,73%,1);
   border-radius: 0.5rem;
   cursor: pointer;
 }
 
 .c0:hover .c3 {
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .c1 {
@@ -3616,14 +3649,17 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
-  background-color: hsla(217,33%,17%,1);
+  background-color: hsla(214,13%,20%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(210,12%,81%,1);
+  color: hsla(210,19%,73%,1);
   border-radius: 0.5rem;
 }
 
 .c1:hover .c3 {
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .c8 {
@@ -3641,15 +3677,18 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
-  background-color: hsla(217,33%,17%,1);
+  background-color: hsla(214,13%,20%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(210,12%,81%,1);
+  color: hsla(210,19%,73%,1);
   border-radius: 0.5rem;
   cursor: pointer;
 }
 
 .c8:hover .c3 {
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .c7 {
@@ -3763,10 +3802,15 @@ Object {
   "container": .c4 {
   display: none;
   position: absolute;
-  height: 2.5rem;
-  width: 2.5rem;
   top: 0;
   right: 0;
+  padding: 0.5rem;
+  background-color: hsla(215,20%,65%,0.1);
+  border-radius: 50%;
+}
+
+.c4:hover {
+  background-color: hsla(215,20%,65%,0.2);
 }
 
 .c2 {
@@ -3790,7 +3834,6 @@ Object {
   width: 1.25rem;
   top: 0.5rem;
   right: 0.5rem;
-  position: absolute;
   color: hsla(0,0%,45%,1);
 }
 
@@ -3803,15 +3846,18 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
-  background-color: hsla(217,33%,17%,1);
+  background-color: hsla(214,13%,20%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(210,12%,81%,1);
+  color: hsla(210,19%,73%,1);
   border-radius: 0.5rem;
   cursor: pointer;
 }
 
 .c0:hover .c3 {
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .c1 {
@@ -3829,14 +3875,17 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
-  background-color: hsla(217,33%,17%,1);
+  background-color: hsla(214,13%,20%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(210,12%,81%,1);
+  color: hsla(210,19%,73%,1);
   border-radius: 0.5rem;
 }
 
 .c1:hover .c3 {
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .c8 {
@@ -3854,15 +3903,18 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
-  background-color: hsla(217,33%,17%,1);
+  background-color: hsla(214,13%,20%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(210,12%,81%,1);
+  color: hsla(210,19%,73%,1);
   border-radius: 0.5rem;
   cursor: pointer;
 }
 
 .c8:hover .c3 {
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .c7 {

@@ -1,5 +1,4 @@
-import { createFontStyle, css, styled } from '@tidy-ui/commons';
-import { IPalette } from '@tidy-ui/commons';
+import { createFontStyle, css, IPalette, styled } from '@tidy-ui/commons';
 import { filledContent, filledLabel, outlinedContent, outlinedLabel } from './styles';
 import { IMessageProps } from './types';
 
@@ -37,7 +36,11 @@ const CloseButton = styled.span<IMessageProps>`
     height: 1rem;
     width: 1rem;
     min-width: 1rem;
+    display: none;
     cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 2px;
     ${outlined
       ? css`
           color: ${closeButtonColor(isDark, palette, tone!)};
@@ -80,7 +83,7 @@ const MessageLabel = styled.div<IMessageProps>`
  * @internal
  */
 const MessageContent = styled.div<IMessageProps>`
-  display: flex;
+  position: relative;
   ${createFontStyle()}
   ${({ theme: { layout }, sharp, stretched, withoutLabel, outlined, h }) => css`
     padding: 0.75rem 1rem;
@@ -93,6 +96,9 @@ const MessageContent = styled.div<IMessageProps>`
     width: ${stretched ? '100%' : 'fit-content'};
     ${outlined ? outlinedContent : filledContent}
   `}
+  &:hover ${CloseButton} {
+    display: block;
+  }
 `;
 
 export { CloseButton, MessageContent, MessageLabel, MessageRoot };

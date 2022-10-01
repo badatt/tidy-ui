@@ -2,6 +2,25 @@ import { css, IPalette, styled, TTone } from '@tidy-ui/commons';
 import { filledStyle, outlinedStyle, sizeStyles } from './styles';
 import { IChipProps } from './types';
 
+/** @internal */
+const outlinedChipIconColor = (isDark: boolean, palette: IPalette, tone: TTone) =>
+  isDark ? palette[tone][700] : palette[tone][400];
+
+const ChipIcon = styled.span<IChipProps>`
+  height: 1.5em;
+  width: 1.5em;
+  opacity: 0.8;
+  ${({ theme: { isDark, palette }, tone, outlined }) => css`
+    ${outlined
+      ? css`
+          color: ${outlinedChipIconColor(isDark, palette, tone!)};
+        `
+      : css`
+          color: ${palette[tone!][400]};
+        `}
+  `}
+`;
+
 const ChipRoot = styled.div<IChipProps>`
   display: flex;
   align-items: center;
@@ -45,24 +64,9 @@ const ChipRoot = styled.div<IChipProps>`
     `}
     ${outlined ? outlinedStyle : filledStyle}
   `}
-`;
-
-/** @internal */
-const outlinedChipIconColor = (isDark: boolean, palette: IPalette, tone: TTone) =>
-  isDark ? palette[tone][700] : palette[tone][400];
-
-const ChipIcon = styled.span<IChipProps>`
-  height: 1.5em;
-  width: 1.5em;
-  ${({ theme: { isDark, palette }, tone, outlined }) => css`
-    ${outlined
-      ? css`
-          color: ${outlinedChipIconColor(isDark, palette, tone!)};
-        `
-      : css`
-          color: ${palette[tone!][400]};
-        `}
-  `}
+  &:hover ${ChipIcon} {
+    opacity: 1;
+  }
 `;
 
 export { ChipIcon, ChipRoot };

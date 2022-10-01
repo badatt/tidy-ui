@@ -1,4 +1,4 @@
-import { createFontStyle, css, Icon, styled } from '@tidy-ui/commons';
+import { color, createFontStyle, css, hsla, Icon, styled } from '@tidy-ui/commons';
 import { ICardFooterProps, ICardHeaderProps, ICardProps } from './types';
 
 /**
@@ -9,10 +9,14 @@ import { ICardFooterProps, ICardHeaderProps, ICardProps } from './types';
 const Link = styled.a`
   display: none;
   position: absolute;
-  height: 2.5rem;
-  width: 2.5rem;
   top: 0;
   right: 0;
+  padding: 0.5rem;
+  background-color: ${hsla(color.slate[400], 0.1)};
+  border-radius: 50%;
+  &:hover {
+    background-color: ${hsla(color.slate[400], 0.2)};
+  }
 `;
 
 const cardStyles = css<ICardProps>`
@@ -35,7 +39,7 @@ const cardStyles = css<ICardProps>`
     `}
   `}
   &:hover ${Link} {
-    display: block;
+    display: flex;
   }
 `;
 
@@ -71,7 +75,6 @@ const LaunchIcon = styled(Icon.Launch)`
     width: 1.25rem;
     top: 0.5rem;
     right: 0.5rem;
-    position: absolute;
     color: ${isDark ? palette['neutral'][500] : palette['neutral'][400]};
   `}
 `;

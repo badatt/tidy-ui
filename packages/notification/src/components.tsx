@@ -1,22 +1,7 @@
-import { createFontStyle, css, styled } from '@tidy-ui/commons';
+import { color, createFontStyle, css, hsla, styled } from '@tidy-ui/commons';
 import { IPalette } from '@tidy-ui/commons';
 import { filledContent, filledLabel, outlinedContent, outlinedLabel } from './styles';
 import { INotificationProps } from './types';
-
-/** @internal */
-const NotificationRoot = styled.div<INotificationProps>`
-  width: fit-content;
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
-  ${({ theme: { layout }, sharp, outlined, margin, h, w }) => css`
-    height: ${h};
-    width: ${w};
-    margin: ${margin};
-    border-radius: ${!sharp && layout.radius};
-    ${outlined ? outlinedContent : filledContent}
-  `}
-`;
 
 /**
  * Close button color
@@ -36,9 +21,13 @@ const closeButtonColor = (isDark: boolean, palette: IPalette, color: string): st
  * @internal
  */
 const CloseButton = styled.span<INotificationProps>`
-  height: 1rem;
-  width: 1rem;
+  height: 2rem;
+  width: 2rem;
   cursor: pointer;
+  visibility: hidden;
+  padding: 4px;
+  border-radius: 50%;
+  background-color: ${hsla(color.slate[700], 0.1)};
   ${({ theme: { palette, isDark }, tone, outlined }) => css`
     ${outlined
       ? css`
@@ -48,6 +37,27 @@ const CloseButton = styled.span<INotificationProps>`
           color: ${palette[tone!][50]};
         `}
   `}
+  &:hover {
+    background-color: ${hsla(color.slate[700], 0.2)};
+  }
+`;
+
+/** @internal */
+const NotificationRoot = styled.div<INotificationProps>`
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  ${({ theme: { layout }, sharp, outlined, margin, h, w }) => css`
+    height: ${h};
+    width: ${w};
+    margin: ${margin};
+    border-radius: ${!sharp && layout.radius};
+    ${outlined ? outlinedContent : filledContent}
+  `}
+  &:hover ${CloseButton} {
+    visibility: visible;
+  }
 `;
 
 /** @internal */
