@@ -7,10 +7,13 @@ import { IButtonGroupProps } from './types';
  *
  */
 const ButtonGroup = React.forwardRef<HTMLDivElement, IButtonGroupProps>((props, ref) => {
-  const { children, ...rest } = props;
+  const { children, disabled, ...rest } = props;
   return (
     <ButtonGroupRoot role="button" ref={ref} {...rest}>
-      {children}
+      {React.Children.map(children, (c) => {
+        const child = c as React.ReactElement;
+        return React.cloneElement(child, { disabled });
+      })}
     </ButtonGroupRoot>
   );
 });

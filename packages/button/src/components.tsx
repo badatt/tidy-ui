@@ -91,7 +91,7 @@ const ButtonRoot = styled.button<IButtonProps>`
  */
 const ButtonGroupRoot = styled.div<IButtonGroupProps>`
   display: flex;
-  ${({ vertical, disabled, stretched, unified, h, w }) => css`
+  ${({ vertical, stretched, unified, h, w }) => css`
     height: ${h};
     width: ${w};
     ${vertical
@@ -140,18 +140,6 @@ const ButtonGroupRoot = styled.div<IButtonGroupProps>`
             border-left: 0 !important;
           }
         `}
-    ${disabled &&
-    css`
-      cursor: not-allowed !important;
-      opacity: 0.6 !important;
-      & * {
-        cursor: not-allowed !important;
-        box-shadow: none !important;
-        &:hover {
-          box-shadow: none !important;
-        }
-      }
-    `}
     ${stretched &&
     css`
       width: 100% !important;
@@ -185,17 +173,9 @@ const ButtonClusterRoot = styled.div<IButtonClusterProps>`
       box-shadow: none !important;
     }
   }
-  ${({ disabled, h, w, stretched }) => css`
+  ${({ h, w, stretched }) => css`
     height: ${h};
     width: ${w};
-    ${disabled &&
-    css`
-      cursor: not-allowed !important;
-      opacity: 0.6 !important;
-      & * {
-        cursor: not-allowed !important;
-      }
-    `}
     ${stretched &&
     css`
       width: 100% !important;

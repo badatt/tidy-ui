@@ -1812,11 +1812,12 @@ Object {
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(274,66%,32%,1);
-  border: 1px solid hsla(271,81%,56%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c1:hover {
-  background-color: hsla(269,100%,92%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 .c2 {
@@ -1998,11 +1999,12 @@ Object {
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(274,66%,32%,1);
-  border: 1px solid hsla(271,81%,56%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c1:hover {
-  background-color: hsla(269,100%,92%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 .c2 {
@@ -2239,11 +2241,12 @@ Object {
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(269,100%,95%,1);
-  border: 1px solid hsla(271,81%,56%,1);
+  border: 1px solid hsla(272,72%,47%,1);
 }
 
 .c1:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(273,67%,39%,0.2);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c2 {
@@ -2424,11 +2427,12 @@ Object {
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(269,100%,95%,1);
-  border: 1px solid hsla(271,81%,56%,1);
+  border: 1px solid hsla(272,72%,47%,1);
 }
 
 .c1:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(273,67%,39%,0.2);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c2 {
@@ -3924,11 +3928,12 @@ Object {
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(269,100%,95%,1);
-  border: 1px solid hsla(271,81%,56%,1);
+  border: 1px solid hsla(272,72%,47%,1);
 }
 
 .c0:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(273,67%,39%,0.2);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 <body>
@@ -3971,11 +3976,12 @@ Object {
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(269,100%,95%,1);
-  border: 1px solid hsla(271,81%,56%,1);
+  border: 1px solid hsla(272,72%,47%,1);
 }
 
 .c0:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(273,67%,39%,0.2);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 <div>
