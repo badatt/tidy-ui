@@ -81,11 +81,12 @@ const primary = css<IButtonProps>`
 const outlined = css<IButtonProps>`
   ${({ theme: { palette, isDark }, tone, disabled }) => css`
     color: ${isDark ? palette[tone!][100] : palette[tone!][900]};
-    border: 1px solid ${palette[tone!][600]};
+    border: 1px solid ${isDark ? palette[tone!][700] : palette[tone!][400]};
     ${!disabled &&
     css`
       &:hover {
-        background-color: ${isDark ? palette[tone!][800] : palette[tone!][200]};
+        background-color: ${isDark ? hsla(palette[tone!].shades[800], 0.2) : palette[tone!][100]};
+        border: 1px solid ${isDark ? palette[tone!][400] : palette[tone!][900]};
       }
     `}
   `}

@@ -2961,11 +2961,12 @@ Object {
   padding: 0.2rem;
   border-radius: 0.4em;
   color: hsla(274,66%,32%,1);
-  border: 1px solid hsla(271,81%,56%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c4:hover {
-  background-color: hsla(269,100%,92%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 .c1 {
@@ -3117,11 +3118,12 @@ Object {
   padding: 0.2rem;
   border-radius: 0.4em;
   color: hsla(274,66%,32%,1);
-  border: 1px solid hsla(271,81%,56%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c4:hover {
-  background-color: hsla(269,100%,92%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 .c1 {
