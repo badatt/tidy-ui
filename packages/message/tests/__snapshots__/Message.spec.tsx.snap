@@ -36,10 +36,7 @@ Object {
 }
 
 .c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -122,10 +119,7 @@ Object {
 }
 
 .c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -263,10 +257,7 @@ Object {
 }
 
 .c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -349,10 +340,7 @@ Object {
 }
 
 .c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -457,11 +445,15 @@ Object {
 exports[`Message Closable message with an onClose callback 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c2 {
+  "baseElement": .c3 {
   height: 1rem;
   width: 1rem;
   min-width: 1rem;
+  display: none;
   cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 2px;
   color: hsla(221,83%,53%,1);
 }
 
@@ -500,10 +492,7 @@ Object {
 }
 
 .c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -519,6 +508,10 @@ Object {
   width: fit-content;
   color: hsla(224,76%,48%,1);
   border: 1px solid hsla(213,94%,68%,1);
+}
+
+.c1:hover .c2 {
+  display: block;
 }
 
 <body>
@@ -550,7 +543,8 @@ Object {
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
       eaque!
           <span
-            class="c2"
+            class="c2 c3"
+            data-test-id="close-button"
             role="button"
           >
             <svg
@@ -569,11 +563,15 @@ Object {
       </div>
     </div>
   </body>,
-  "container": .c2 {
+  "container": .c3 {
   height: 1rem;
   width: 1rem;
   min-width: 1rem;
+  display: none;
   cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 2px;
   color: hsla(221,83%,53%,1);
 }
 
@@ -612,10 +610,7 @@ Object {
 }
 
 .c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -631,6 +626,10 @@ Object {
   width: fit-content;
   color: hsla(224,76%,48%,1);
   border: 1px solid hsla(213,94%,68%,1);
+}
+
+.c1:hover .c2 {
+  display: block;
 }
 
 <div>
@@ -661,7 +660,8 @@ Object {
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
       eaque!
         <span
-          class="c2"
+          class="c2 c3"
+          data-test-id="close-button"
           role="button"
         >
           <svg
@@ -736,11 +736,15 @@ Object {
 exports[`Message Closable message without any callback 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c2 {
+  "baseElement": .c3 {
   height: 1rem;
   width: 1rem;
   min-width: 1rem;
+  display: none;
   cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 2px;
   color: hsla(213,94%,68%,1);
 }
 
@@ -779,10 +783,7 @@ Object {
 }
 
 .c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -798,6 +799,10 @@ Object {
   width: fit-content;
   color: hsla(212,96%,78%,1);
   border: 1px solid hsla(217,91%,60%,1);
+}
+
+.c1:hover .c2 {
+  display: block;
 }
 
 <body>
@@ -829,7 +834,8 @@ Object {
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
       eaque!
           <span
-            class="c2"
+            class="c2 c3"
+            data-test-id="close-button"
             role="button"
           >
             <svg
@@ -848,11 +854,15 @@ Object {
       </div>
     </div>
   </body>,
-  "container": .c2 {
+  "container": .c3 {
   height: 1rem;
   width: 1rem;
   min-width: 1rem;
+  display: none;
   cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 2px;
   color: hsla(213,94%,68%,1);
 }
 
@@ -891,10 +901,7 @@ Object {
 }
 
 .c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -910,6 +917,10 @@ Object {
   width: fit-content;
   color: hsla(212,96%,78%,1);
   border: 1px solid hsla(217,91%,60%,1);
+}
+
+.c1:hover .c2 {
+  display: block;
 }
 
 <div>
@@ -940,7 +951,8 @@ Object {
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
       eaque!
         <span
-          class="c2"
+          class="c2 c3"
+          data-test-id="close-button"
           role="button"
         >
           <svg
@@ -1020,11 +1032,15 @@ Object {
   width: 20rem;
 }
 
-.c3 {
+.c4 {
   height: 1rem;
   width: 1rem;
   min-width: 1rem;
+  display: none;
   cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 2px;
   color: hsla(214,100%,97%,1);
 }
 
@@ -1061,10 +1077,7 @@ Object {
 }
 
 .c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1081,6 +1094,10 @@ Object {
   width: fit-content;
   color: hsla(214,100%,97%,1);
   background-color: hsla(224,76%,48%,1);
+}
+
+.c2:hover .c3 {
+  display: block;
 }
 
 <body>
@@ -1112,7 +1129,8 @@ Object {
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
       eaque!
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="close-button"
             role="button"
           >
             <svg
@@ -1136,11 +1154,15 @@ Object {
   width: 20rem;
 }
 
-.c3 {
+.c4 {
   height: 1rem;
   width: 1rem;
   min-width: 1rem;
+  display: none;
   cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 2px;
   color: hsla(214,100%,97%,1);
 }
 
@@ -1177,10 +1199,7 @@ Object {
 }
 
 .c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1197,6 +1216,10 @@ Object {
   width: fit-content;
   color: hsla(214,100%,97%,1);
   background-color: hsla(224,76%,48%,1);
+}
+
+.c2:hover .c3 {
+  display: block;
 }
 
 <div>
@@ -1227,7 +1250,8 @@ Object {
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
       eaque!
         <span
-          class="c3"
+          class="c3 c4"
+          data-test-id="close-button"
           role="button"
         >
           <svg
@@ -1339,10 +1363,7 @@ Object {
 }
 
 .c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1429,10 +1450,7 @@ Object {
 }
 
 .c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1762,10 +1780,7 @@ Object {
 }
 
 .c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1784,10 +1799,7 @@ Object {
 }
 
 .c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1806,10 +1818,7 @@ Object {
 }
 
 .c5 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1828,10 +1837,7 @@ Object {
 }
 
 .c7 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1850,10 +1856,7 @@ Object {
 }
 
 .c9 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1872,10 +1875,7 @@ Object {
 }
 
 .c11 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1894,10 +1894,7 @@ Object {
 }
 
 .c13 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -2307,10 +2304,7 @@ Object {
 }
 
 .c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -2329,10 +2323,7 @@ Object {
 }
 
 .c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -2351,10 +2342,7 @@ Object {
 }
 
 .c5 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -2373,10 +2361,7 @@ Object {
 }
 
 .c7 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -2395,10 +2380,7 @@ Object {
 }
 
 .c9 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -2417,10 +2399,7 @@ Object {
 }
 
 .c11 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -2439,10 +2418,7 @@ Object {
 }
 
 .c13 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -2715,10 +2691,7 @@ Object {
 }
 
 .c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -2799,10 +2772,7 @@ Object {
 }
 
 .c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -3130,10 +3100,7 @@ Object {
 }
 
 .c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -3152,10 +3119,7 @@ Object {
 }
 
 .c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -3174,10 +3138,7 @@ Object {
 }
 
 .c5 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -3196,10 +3157,7 @@ Object {
 }
 
 .c7 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -3218,10 +3176,7 @@ Object {
 }
 
 .c9 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -3240,10 +3195,7 @@ Object {
 }
 
 .c11 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -3262,10 +3214,7 @@ Object {
 }
 
 .c13 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -3675,10 +3624,7 @@ Object {
 }
 
 .c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -3697,10 +3643,7 @@ Object {
 }
 
 .c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -3719,10 +3662,7 @@ Object {
 }
 
 .c5 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -3741,10 +3681,7 @@ Object {
 }
 
 .c7 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -3763,10 +3700,7 @@ Object {
 }
 
 .c9 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -3785,10 +3719,7 @@ Object {
 }
 
 .c11 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -3807,10 +3738,7 @@ Object {
 }
 
 .c13 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -4050,11 +3978,15 @@ Object {
 exports[`Message Message with close button 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c2 {
+  "baseElement": .c3 {
   height: 1rem;
   width: 1rem;
   min-width: 1rem;
+  display: none;
   cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 2px;
   color: hsla(214,100%,97%,1);
 }
 
@@ -4091,10 +4023,7 @@ Object {
 }
 
 .c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -4110,6 +4039,10 @@ Object {
   width: fit-content;
   color: hsla(214,100%,97%,1);
   background-color: hsla(224,76%,48%,1);
+}
+
+.c1:hover .c2 {
+  display: block;
 }
 
 <body>
@@ -4141,7 +4074,8 @@ Object {
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
       eaque!
           <span
-            class="c2"
+            class="c2 c3"
+            data-test-id="close-button"
             role="button"
           >
             <svg
@@ -4160,11 +4094,15 @@ Object {
       </div>
     </div>
   </body>,
-  "container": .c2 {
+  "container": .c3 {
   height: 1rem;
   width: 1rem;
   min-width: 1rem;
+  display: none;
   cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 2px;
   color: hsla(214,100%,97%,1);
 }
 
@@ -4201,10 +4139,7 @@ Object {
 }
 
 .c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -4220,6 +4155,10 @@ Object {
   width: fit-content;
   color: hsla(214,100%,97%,1);
   background-color: hsla(224,76%,48%,1);
+}
+
+.c1:hover .c2 {
+  display: block;
 }
 
 <div>
@@ -4250,7 +4189,8 @@ Object {
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
       eaque!
         <span
-          class="c2"
+          class="c2 c3"
+          data-test-id="close-button"
           role="button"
         >
           <svg
@@ -4358,10 +4298,7 @@ Object {
 }
 
 .c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -4448,10 +4385,7 @@ Object {
 }
 
 .c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -4561,10 +4495,7 @@ exports[`Message Message with no label 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -4598,10 +4529,7 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -4720,10 +4648,7 @@ Object {
 }
 
 .c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -4803,10 +4728,7 @@ Object {
 }
 
 .c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;

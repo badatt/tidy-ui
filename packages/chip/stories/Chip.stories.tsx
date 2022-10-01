@@ -133,7 +133,14 @@ export const clickable = () => {
         {Object.keys(Tone)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Chip key={i} tone={Tone[v]} clickable onClick={() => alert(`Clicked ${Tone[v]}`)}>
+            <Chip
+              key={i}
+              tone={Tone[v]}
+              clickable
+              icon={<Icon.AddCircle />}
+              placement="left"
+              onClick={() => alert(`Clicked ${Tone[v]}`)}
+            >
               {Tone[v]}
             </Chip>
           ))}
@@ -142,7 +149,15 @@ export const clickable = () => {
         {Object.keys(Tone)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Chip key={i} tone={Tone[v]} outlined clickable onClick={() => alert(`Clicked outlined ${Tone[v]}`)}>
+            <Chip
+              key={i}
+              tone={Tone[v]}
+              outlined
+              clickable
+              icon={<Icon.AddCircle />}
+              placement="left"
+              onClick={() => alert(`Clicked outlined ${Tone[v]}`)}
+            >
               {Tone[v]}
             </Chip>
           ))}

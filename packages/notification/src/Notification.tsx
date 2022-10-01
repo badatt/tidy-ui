@@ -40,7 +40,13 @@ const Notification = React.forwardRef<HTMLDivElement, INotificationProps>((props
     <NotificationRoot ref={ref} role="alert" {...rest}>
       <NotificationHeader closable={closable}>
         {closable && (
-          <CloseButton onClick={handleClose} outlined={rest.outlined} tone={rest.tone} role="button">
+          <CloseButton
+            onClick={handleClose}
+            outlined={rest.outlined}
+            tone={rest.tone}
+            data-test-id="close-button"
+            role="button"
+          >
             <Icon.Close />
           </CloseButton>
         )}

@@ -1,5 +1,6 @@
 import { HTMLAttributes } from 'react';
-import { IBaseProps, IClosable, TTone } from '@tidy-ui/types';
+import { TTone } from '@tidy-ui/commons';
+import { IBaseProps, IClosable } from '@tidy-ui/types';
 
 /**
  * Message props

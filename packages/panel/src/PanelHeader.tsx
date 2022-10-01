@@ -10,7 +10,7 @@ const PanelHeader = React.forwardRef<HTMLDivElement, IPanelHeaderProps>((props, 
   return (
     <PanelHeaderRoot className={className} ref={ref} role="heading" {...rest} onClick={toggle}>
       {ele ? React.cloneElement(ele, {}, children) : children}
-      <ActionIcon expanded={expanded} role="button">
+      <ActionIcon expanded={expanded} data-test-id="toggle-button" role="button">
         <Icon.ExpandMore />
       </ActionIcon>
     </PanelHeaderRoot>

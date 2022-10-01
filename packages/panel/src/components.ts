@@ -16,16 +16,6 @@ const PanelRoot = styled.div<IPanelProps>`
   `}
 `;
 
-const PanelHeaderRoot = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  vertical-align: middle;
-  cursor: pointer;
-  padding: 1rem 1rem;
-  ${createFontStyle('h6')}
-`;
-
 /** @internal */
 interface IActionIconProps {
   /** @internal */
@@ -36,11 +26,30 @@ const ActionIcon = styled.span<IActionIconProps>`
   min-width: 1.5rem;
   height: 1.5rem;
   width: 1.5rem;
+  background-color: ${hsla(color.slate[400], 0.3)};
+  border-radius: 50%;
+  display: none;
+  transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
   ${({ expanded }) =>
     css`
       transform: ${expanded ? 'rotate(180deg)' : 'rotate(0deg)'};
     `}
-  transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  &:hover {
+    background-color: ${hsla(color.slate[500], 0.4)};
+  }
+`;
+
+const PanelHeaderRoot = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 1rem 1rem;
+  ${createFontStyle('h6')}
+  &:hover ${ActionIcon} {
+    display: block;
+  }
 `;
 
 const PanelBodyRoot = styled.div<IPanelBodyProps>`

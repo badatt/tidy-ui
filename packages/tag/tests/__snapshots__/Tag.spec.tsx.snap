@@ -153,6 +153,11 @@ Object {
 
 .c1 {
   cursor: pointer;
+  opacity: 0.2;
+}
+
+.c1:hover {
+  opacity: 1;
 }
 
 <body>
@@ -210,6 +215,11 @@ Object {
 
 .c1 {
   cursor: pointer;
+  opacity: 0.2;
+}
+
+.c1:hover {
+  opacity: 1;
 }
 
 <div>

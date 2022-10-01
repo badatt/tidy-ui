@@ -841,7 +841,14 @@ Object {
 exports[`Chip Icon on left 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c0 {
+  "baseElement": .c2 {
+  height: 1.5em;
+  width: 1.5em;
+  opacity: 0.8;
+  color: hsla(270,95%,75%,1);
+}
+
+.c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -873,10 +880,8 @@ Object {
   background-color: hsla(272,72%,47%,1);
 }
 
-.c1 {
-  height: 1.5em;
-  width: 1.5em;
-  color: hsla(270,95%,75%,1);
+.c0:hover .c1 {
+  opacity: 1;
 }
 
 <body>
@@ -886,7 +891,7 @@ Object {
         role="status"
       >
         <span
-          class="c1"
+          class="c1 c2"
         >
           <svg
             aria-hidden="true"
@@ -904,7 +909,14 @@ Object {
       </div>
     </div>
   </body>,
-  "container": .c0 {
+  "container": .c2 {
+  height: 1.5em;
+  width: 1.5em;
+  opacity: 0.8;
+  color: hsla(270,95%,75%,1);
+}
+
+.c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -936,10 +948,8 @@ Object {
   background-color: hsla(272,72%,47%,1);
 }
 
-.c1 {
-  height: 1.5em;
-  width: 1.5em;
-  color: hsla(270,95%,75%,1);
+.c0:hover .c1 {
+  opacity: 1;
 }
 
 <div>
@@ -948,7 +958,7 @@ Object {
       role="status"
     >
       <span
-        class="c1"
+        class="c1 c2"
       >
         <svg
           aria-hidden="true"
@@ -1022,7 +1032,14 @@ Object {
 exports[`Chip Icon on outlined chip 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c0 {
+  "baseElement": .c2 {
+  height: 1.5em;
+  width: 1.5em;
+  opacity: 0.8;
+  color: hsla(270,95%,75%,1);
+}
+
+.c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1055,10 +1072,8 @@ Object {
   border: 1px solid hsla(269,97%,85%,1);
 }
 
-.c1 {
-  height: 1.5em;
-  width: 1.5em;
-  color: hsla(270,95%,75%,1);
+.c0:hover .c1 {
+  opacity: 1;
 }
 
 <body>
@@ -1068,7 +1083,7 @@ Object {
         role="status"
       >
         <span
-          class="c1"
+          class="c1 c2"
         >
           <svg
             aria-hidden="true"
@@ -1086,7 +1101,14 @@ Object {
       </div>
     </div>
   </body>,
-  "container": .c0 {
+  "container": .c2 {
+  height: 1.5em;
+  width: 1.5em;
+  opacity: 0.8;
+  color: hsla(270,95%,75%,1);
+}
+
+.c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1119,10 +1141,8 @@ Object {
   border: 1px solid hsla(269,97%,85%,1);
 }
 
-.c1 {
-  height: 1.5em;
-  width: 1.5em;
-  color: hsla(270,95%,75%,1);
+.c0:hover .c1 {
+  opacity: 1;
 }
 
 <div>
@@ -1131,7 +1151,7 @@ Object {
       role="status"
     >
       <span
-        class="c1"
+        class="c1 c2"
       >
         <svg
           aria-hidden="true"
@@ -1205,7 +1225,14 @@ Object {
 exports[`Chip Icon on outlined chip in dark 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c0 {
+  "baseElement": .c2 {
+  height: 1.5em;
+  width: 1.5em;
+  opacity: 0.8;
+  color: hsla(272,72%,47%,1);
+}
+
+.c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1238,10 +1265,8 @@ Object {
   border: 1px solid hsla(271,81%,56%,1);
 }
 
-.c1 {
-  height: 1.5em;
-  width: 1.5em;
-  color: hsla(272,72%,47%,1);
+.c0:hover .c1 {
+  opacity: 1;
 }
 
 <body>
@@ -1251,7 +1276,7 @@ Object {
         role="status"
       >
         <span
-          class="c1"
+          class="c1 c2"
         >
           <svg
             aria-hidden="true"
@@ -1269,7 +1294,14 @@ Object {
       </div>
     </div>
   </body>,
-  "container": .c0 {
+  "container": .c2 {
+  height: 1.5em;
+  width: 1.5em;
+  opacity: 0.8;
+  color: hsla(272,72%,47%,1);
+}
+
+.c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1302,10 +1334,8 @@ Object {
   border: 1px solid hsla(271,81%,56%,1);
 }
 
-.c1 {
-  height: 1.5em;
-  width: 1.5em;
-  color: hsla(272,72%,47%,1);
+.c0:hover .c1 {
+  opacity: 1;
 }
 
 <div>
@@ -1314,7 +1344,7 @@ Object {
       role="status"
     >
       <span
-        class="c1"
+        class="c1 c2"
       >
         <svg
           aria-hidden="true"
@@ -1388,7 +1418,14 @@ Object {
 exports[`Chip Icon on right 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c0 {
+  "baseElement": .c2 {
+  height: 1.5em;
+  width: 1.5em;
+  opacity: 0.8;
+  color: hsla(270,95%,75%,1);
+}
+
+.c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1420,10 +1457,8 @@ Object {
   background-color: hsla(272,72%,47%,1);
 }
 
-.c1 {
-  height: 1.5em;
-  width: 1.5em;
-  color: hsla(270,95%,75%,1);
+.c0:hover .c1 {
+  opacity: 1;
 }
 
 <body>
@@ -1433,7 +1468,7 @@ Object {
         role="status"
       >
         <span
-          class="c1"
+          class="c1 c2"
         >
           <svg
             aria-hidden="true"
@@ -1451,7 +1486,14 @@ Object {
       </div>
     </div>
   </body>,
-  "container": .c0 {
+  "container": .c2 {
+  height: 1.5em;
+  width: 1.5em;
+  opacity: 0.8;
+  color: hsla(270,95%,75%,1);
+}
+
+.c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1483,10 +1525,8 @@ Object {
   background-color: hsla(272,72%,47%,1);
 }
 
-.c1 {
-  height: 1.5em;
-  width: 1.5em;
-  color: hsla(270,95%,75%,1);
+.c0:hover .c1 {
+  opacity: 1;
 }
 
 <div>
@@ -1495,7 +1535,7 @@ Object {
       role="status"
     >
       <span
-        class="c1"
+        class="c1 c2"
       >
         <svg
           aria-hidden="true"

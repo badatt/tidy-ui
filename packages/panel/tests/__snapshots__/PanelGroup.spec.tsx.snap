@@ -16,6 +16,24 @@ Object {
   border-radius: 0.5rem;
 }
 
+.c4 {
+  min-width: 1.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: hsla(215,20%,65%,0.3);
+  border-radius: 50%;
+  display: none;
+  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.c4:hover {
+  background-color: hsla(215,16%,47%,0.4);
+}
+
 .c2 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -41,18 +59,11 @@ Object {
   line-height: 1.6;
 }
 
-.c3 {
-  min-width: 1.5rem;
-  height: 1.5rem;
-  width: 1.5rem;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
-  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+.c2:hover .c3 {
+  display: block;
 }
 
-.c4 {
+.c5 {
   display: block;
   padding: 0rem 1rem;
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
@@ -115,7 +126,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -132,7 +144,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -159,7 +171,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -176,7 +189,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -203,7 +216,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -220,7 +234,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -247,7 +261,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -264,7 +279,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -291,7 +306,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -308,7 +324,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -335,7 +351,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -352,7 +369,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -379,7 +396,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -396,7 +414,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -423,7 +441,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -440,7 +459,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -467,7 +486,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -484,7 +504,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -511,7 +531,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -528,7 +549,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -561,6 +582,24 @@ Object {
   border-radius: 0.5rem;
 }
 
+.c4 {
+  min-width: 1.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: hsla(215,20%,65%,0.3);
+  border-radius: 50%;
+  display: none;
+  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.c4:hover {
+  background-color: hsla(215,16%,47%,0.4);
+}
+
 .c2 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -586,18 +625,11 @@ Object {
   line-height: 1.6;
 }
 
-.c3 {
-  min-width: 1.5rem;
-  height: 1.5rem;
-  width: 1.5rem;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
-  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+.c2:hover .c3 {
+  display: block;
 }
 
-.c4 {
+.c5 {
   display: block;
   padding: 0rem 1rem;
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
@@ -659,7 +691,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -676,7 +709,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -703,7 +736,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -720,7 +754,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -747,7 +781,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -764,7 +799,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -791,7 +826,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -808,7 +844,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -835,7 +871,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -852,7 +889,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -879,7 +916,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -896,7 +934,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -923,7 +961,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -940,7 +979,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -967,7 +1006,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -984,7 +1024,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -1011,7 +1051,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -1028,7 +1069,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -1055,7 +1096,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -1072,7 +1114,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -1161,6 +1203,24 @@ Object {
   border-radius: 0.5rem;
 }
 
+.c4 {
+  min-width: 1.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: hsla(215,20%,65%,0.3);
+  border-radius: 50%;
+  display: none;
+  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.c4:hover {
+  background-color: hsla(215,16%,47%,0.4);
+}
+
 .c2 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1186,18 +1246,11 @@ Object {
   line-height: 1.6;
 }
 
-.c3 {
-  min-width: 1.5rem;
-  height: 1.5rem;
-  width: 1.5rem;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
-  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+.c2:hover .c3 {
+  display: block;
 }
 
-.c4 {
+.c5 {
   display: block;
   padding: 0rem 1rem;
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
@@ -1245,29 +1298,29 @@ Object {
   border-bottom: 1px solid hsla(215,20%,65%,1);
 }
 
-.c5 {
+.c6 {
   border-radius: 0.5rem;
 }
 
-.c5 > :first-child {
+.c6 > :first-child {
   border-bottom-left-radius: 0 !important;
   border-bottom-right-radius: 0 !important;
   border-bottom: 0 !important;
 }
 
-.c5 > :last-child {
+.c6 > :last-child {
   border-top-left-radius: 0 !important;
   border-top-right-radius: 0 !important;
   border-top: 0 !important;
 }
 
-.c5 > :not(:first-child):not(:last-child) {
+.c6 > :not(:first-child):not(:last-child) {
   border-top: 0 !important;
   border-bottom: 0 !important;
   border-radius: 0 !important;
 }
 
-.c5 > :not(:last-child)::after {
+.c6 > :not(:last-child)::after {
   content: '';
   border-bottom: 1px solid hsla(215,20%,65%,1);
 }
@@ -1288,7 +1341,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -1305,7 +1359,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -1332,7 +1386,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -1349,7 +1404,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -1376,7 +1431,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -1393,7 +1449,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -1412,7 +1468,7 @@ Object {
         </div>
       </div>
       <div
-        class="c5"
+        class="c6"
         role="article"
       >
         <div
@@ -1425,7 +1481,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -1442,7 +1499,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -1469,7 +1526,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -1486,7 +1544,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -1513,7 +1571,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -1530,7 +1589,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -1557,7 +1616,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -1574,7 +1634,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -1607,6 +1667,24 @@ Object {
   border-radius: 0.5rem;
 }
 
+.c4 {
+  min-width: 1.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: hsla(215,20%,65%,0.3);
+  border-radius: 50%;
+  display: none;
+  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.c4:hover {
+  background-color: hsla(215,16%,47%,0.4);
+}
+
 .c2 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1632,18 +1710,11 @@ Object {
   line-height: 1.6;
 }
 
-.c3 {
-  min-width: 1.5rem;
-  height: 1.5rem;
-  width: 1.5rem;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
-  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+.c2:hover .c3 {
+  display: block;
 }
 
-.c4 {
+.c5 {
   display: block;
   padding: 0rem 1rem;
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
@@ -1691,29 +1762,29 @@ Object {
   border-bottom: 1px solid hsla(215,20%,65%,1);
 }
 
-.c5 {
+.c6 {
   border-radius: 0.5rem;
 }
 
-.c5 > :first-child {
+.c6 > :first-child {
   border-bottom-left-radius: 0 !important;
   border-bottom-right-radius: 0 !important;
   border-bottom: 0 !important;
 }
 
-.c5 > :last-child {
+.c6 > :last-child {
   border-top-left-radius: 0 !important;
   border-top-right-radius: 0 !important;
   border-top: 0 !important;
 }
 
-.c5 > :not(:first-child):not(:last-child) {
+.c6 > :not(:first-child):not(:last-child) {
   border-top: 0 !important;
   border-bottom: 0 !important;
   border-radius: 0 !important;
 }
 
-.c5 > :not(:last-child)::after {
+.c6 > :not(:last-child)::after {
   content: '';
   border-bottom: 1px solid hsla(215,20%,65%,1);
 }
@@ -1733,7 +1804,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -1750,7 +1822,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -1777,7 +1849,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -1794,7 +1867,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -1821,7 +1894,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -1838,7 +1912,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -1857,7 +1931,7 @@ Object {
       </div>
     </div>
     <div
-      class="c5"
+      class="c6"
       role="article"
     >
       <div
@@ -1870,7 +1944,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -1887,7 +1962,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -1914,7 +1989,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -1931,7 +2007,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -1958,7 +2034,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -1975,7 +2052,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -2002,7 +2079,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -2019,7 +2097,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -2108,6 +2186,24 @@ Object {
   border-radius: 0.5rem;
 }
 
+.c4 {
+  min-width: 1.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: hsla(215,20%,65%,0.3);
+  border-radius: 50%;
+  display: none;
+  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.c4:hover {
+  background-color: hsla(215,16%,47%,0.4);
+}
+
 .c2 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2133,18 +2229,11 @@ Object {
   line-height: 1.6;
 }
 
-.c3 {
-  min-width: 1.5rem;
-  height: 1.5rem;
-  width: 1.5rem;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
-  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+.c2:hover .c3 {
+  display: block;
 }
 
-.c4 {
+.c5 {
   display: block;
   padding: 0rem 1rem;
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
@@ -2207,7 +2296,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -2224,7 +2314,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -2251,7 +2341,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -2268,7 +2359,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -2295,7 +2386,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -2312,7 +2404,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -2339,7 +2431,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -2356,7 +2449,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -2383,7 +2476,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -2400,7 +2494,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -2427,7 +2521,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -2444,7 +2539,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -2471,7 +2566,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -2488,7 +2584,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -2515,7 +2611,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -2532,7 +2629,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -2559,7 +2656,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -2576,7 +2674,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -2603,7 +2701,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -2620,7 +2719,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -2653,6 +2752,24 @@ Object {
   border-radius: 0.5rem;
 }
 
+.c4 {
+  min-width: 1.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: hsla(215,20%,65%,0.3);
+  border-radius: 50%;
+  display: none;
+  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.c4:hover {
+  background-color: hsla(215,16%,47%,0.4);
+}
+
 .c2 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2678,18 +2795,11 @@ Object {
   line-height: 1.6;
 }
 
-.c3 {
-  min-width: 1.5rem;
-  height: 1.5rem;
-  width: 1.5rem;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
-  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+.c2:hover .c3 {
+  display: block;
 }
 
-.c4 {
+.c5 {
   display: block;
   padding: 0rem 1rem;
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
@@ -2751,7 +2861,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -2768,7 +2879,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -2795,7 +2906,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -2812,7 +2924,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -2839,7 +2951,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -2856,7 +2969,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -2883,7 +2996,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -2900,7 +3014,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -2927,7 +3041,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -2944,7 +3059,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -2971,7 +3086,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -2988,7 +3104,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -3015,7 +3131,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -3032,7 +3149,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -3059,7 +3176,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -3076,7 +3194,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -3103,7 +3221,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -3120,7 +3239,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -3147,7 +3266,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -3164,7 +3284,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -3251,6 +3371,24 @@ Object {
   width: 100%;
 }
 
+.c4 {
+  min-width: 1.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: hsla(215,20%,65%,0.3);
+  border-radius: 50%;
+  display: none;
+  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.c4:hover {
+  background-color: hsla(215,16%,47%,0.4);
+}
+
 .c2 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3276,18 +3414,11 @@ Object {
   line-height: 1.6;
 }
 
-.c3 {
-  min-width: 1.5rem;
-  height: 1.5rem;
-  width: 1.5rem;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
-  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+.c2:hover .c3 {
+  display: block;
 }
 
-.c4 {
+.c5 {
   display: block;
   padding: 0rem 1rem;
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
@@ -3345,7 +3476,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -3362,7 +3494,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -3389,7 +3521,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -3406,7 +3539,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -3433,7 +3566,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -3450,7 +3584,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -3477,7 +3611,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -3494,7 +3629,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -3521,7 +3656,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -3538,7 +3674,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -3565,7 +3701,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -3582,7 +3719,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -3609,7 +3746,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -3626,7 +3764,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -3653,7 +3791,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -3670,7 +3809,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -3697,7 +3836,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -3714,7 +3854,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -3741,7 +3881,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -3758,7 +3899,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -3789,6 +3930,24 @@ Object {
   width: 100%;
 }
 
+.c4 {
+  min-width: 1.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: hsla(215,20%,65%,0.3);
+  border-radius: 50%;
+  display: none;
+  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.c4:hover {
+  background-color: hsla(215,16%,47%,0.4);
+}
+
 .c2 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3814,18 +3973,11 @@ Object {
   line-height: 1.6;
 }
 
-.c3 {
-  min-width: 1.5rem;
-  height: 1.5rem;
-  width: 1.5rem;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
-  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+.c2:hover .c3 {
+  display: block;
 }
 
-.c4 {
+.c5 {
   display: block;
   padding: 0rem 1rem;
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
@@ -3882,7 +4034,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -3899,7 +4052,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -3926,7 +4079,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -3943,7 +4097,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -3970,7 +4124,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -3987,7 +4142,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -4014,7 +4169,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -4031,7 +4187,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -4058,7 +4214,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -4075,7 +4232,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -4102,7 +4259,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -4119,7 +4277,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -4146,7 +4304,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -4163,7 +4322,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -4190,7 +4349,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -4207,7 +4367,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -4234,7 +4394,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -4251,7 +4412,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -4278,7 +4439,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -4295,7 +4457,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -4382,6 +4544,24 @@ Object {
   width: 100%;
 }
 
+.c4 {
+  min-width: 1.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: hsla(215,20%,65%,0.3);
+  border-radius: 50%;
+  display: none;
+  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.c4:hover {
+  background-color: hsla(215,16%,47%,0.4);
+}
+
 .c2 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4407,18 +4587,11 @@ Object {
   line-height: 1.6;
 }
 
-.c3 {
-  min-width: 1.5rem;
-  height: 1.5rem;
-  width: 1.5rem;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
-  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+.c2:hover .c3 {
+  display: block;
 }
 
-.c4 {
+.c5 {
   display: block;
   padding: 0rem 1rem;
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
@@ -4481,7 +4654,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -4498,7 +4672,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -4525,7 +4699,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -4542,7 +4717,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -4569,7 +4744,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -4586,7 +4762,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -4613,7 +4789,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -4630,7 +4807,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -4657,7 +4834,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -4674,7 +4852,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -4701,7 +4879,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -4718,7 +4897,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -4745,7 +4924,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -4762,7 +4942,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -4789,7 +4969,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -4806,7 +4987,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -4833,7 +5014,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -4850,7 +5032,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -4877,7 +5059,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -4894,7 +5077,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -4925,6 +5108,24 @@ Object {
   width: 100%;
 }
 
+.c4 {
+  min-width: 1.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: hsla(215,20%,65%,0.3);
+  border-radius: 50%;
+  display: none;
+  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.c4:hover {
+  background-color: hsla(215,16%,47%,0.4);
+}
+
 .c2 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4950,18 +5151,11 @@ Object {
   line-height: 1.6;
 }
 
-.c3 {
-  min-width: 1.5rem;
-  height: 1.5rem;
-  width: 1.5rem;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
-  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+.c2:hover .c3 {
+  display: block;
 }
 
-.c4 {
+.c5 {
   display: block;
   padding: 0rem 1rem;
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
@@ -5023,7 +5217,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -5040,7 +5235,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -5067,7 +5262,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -5084,7 +5280,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -5111,7 +5307,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -5128,7 +5325,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -5155,7 +5352,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -5172,7 +5370,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -5199,7 +5397,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -5216,7 +5415,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -5243,7 +5442,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -5260,7 +5460,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -5287,7 +5487,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -5304,7 +5505,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -5331,7 +5532,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -5348,7 +5550,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -5375,7 +5577,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -5392,7 +5595,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -5419,7 +5622,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -5436,7 +5640,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -5525,6 +5729,24 @@ Object {
   border-radius: 0.5rem;
 }
 
+.c4 {
+  min-width: 1.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: hsla(215,20%,65%,0.3);
+  border-radius: 50%;
+  display: none;
+  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.c4:hover {
+  background-color: hsla(215,16%,47%,0.4);
+}
+
 .c2 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -5550,18 +5772,11 @@ Object {
   line-height: 1.6;
 }
 
-.c3 {
-  min-width: 1.5rem;
-  height: 1.5rem;
-  width: 1.5rem;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
-  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+.c2:hover .c3 {
+  display: block;
 }
 
-.c4 {
+.c5 {
   display: block;
   padding: 0rem 1rem;
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
@@ -5619,7 +5834,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -5636,7 +5852,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -5663,7 +5879,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -5680,7 +5897,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -5707,7 +5924,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -5724,7 +5942,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -5751,7 +5969,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -5768,7 +5987,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -5795,7 +6014,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -5812,7 +6032,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -5839,7 +6059,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -5856,7 +6077,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -5883,7 +6104,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -5900,7 +6122,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -5927,7 +6149,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -5944,7 +6167,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -5971,7 +6194,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -5988,7 +6212,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -6015,7 +6239,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -6032,7 +6257,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -6065,6 +6290,24 @@ Object {
   border-radius: 0.5rem;
 }
 
+.c4 {
+  min-width: 1.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: hsla(215,20%,65%,0.3);
+  border-radius: 50%;
+  display: none;
+  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.c4:hover {
+  background-color: hsla(215,16%,47%,0.4);
+}
+
 .c2 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6090,18 +6333,11 @@ Object {
   line-height: 1.6;
 }
 
-.c3 {
-  min-width: 1.5rem;
-  height: 1.5rem;
-  width: 1.5rem;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
-  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+.c2:hover .c3 {
+  display: block;
 }
 
-.c4 {
+.c5 {
   display: block;
   padding: 0rem 1rem;
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
@@ -6158,7 +6394,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -6175,7 +6412,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -6202,7 +6439,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -6219,7 +6457,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -6246,7 +6484,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -6263,7 +6502,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -6290,7 +6529,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -6307,7 +6547,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -6334,7 +6574,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -6351,7 +6592,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -6378,7 +6619,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -6395,7 +6637,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -6422,7 +6664,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -6439,7 +6682,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -6466,7 +6709,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -6483,7 +6727,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -6510,7 +6754,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -6527,7 +6772,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -6554,7 +6799,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -6571,7 +6817,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -6660,6 +6906,42 @@ Object {
   border-radius: 0.5rem;
 }
 
+.c4 {
+  min-width: 1.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: hsla(215,20%,65%,0.3);
+  border-radius: 50%;
+  display: none;
+  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.c4:hover {
+  background-color: hsla(215,16%,47%,0.4);
+}
+
+.c6 {
+  min-width: 1.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: hsla(215,20%,65%,0.3);
+  border-radius: 50%;
+  display: none;
+  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.c6:hover {
+  background-color: hsla(215,16%,47%,0.4);
+}
+
 .c2 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6685,29 +6967,11 @@ Object {
   line-height: 1.6;
 }
 
-.c3 {
-  min-width: 1.5rem;
-  height: 1.5rem;
-  width: 1.5rem;
-  -webkit-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
-  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
-  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+.c2:hover .c3 {
+  display: block;
 }
 
 .c5 {
-  min-width: 1.5rem;
-  height: 1.5rem;
-  width: 1.5rem;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
-  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
-}
-
-.c4 {
   display: block;
   padding: 0rem 1rem;
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
@@ -6731,7 +6995,7 @@ Object {
   height: fit-content;
 }
 
-.c6 {
+.c7 {
   display: block;
   padding: 0rem 1rem;
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
@@ -6794,7 +7058,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -6811,7 +7076,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -6838,7 +7103,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c5"
+              class="c3 c6"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -6855,7 +7121,7 @@ Object {
             </span>
           </div>
           <div
-            class="c6"
+            class="c7"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -6882,7 +7148,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -6899,7 +7166,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -6926,7 +7193,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c5"
+              class="c3 c6"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -6943,7 +7211,7 @@ Object {
             </span>
           </div>
           <div
-            class="c6"
+            class="c7"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -6970,7 +7238,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -6987,7 +7256,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -7014,7 +7283,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c5"
+              class="c3 c6"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -7031,7 +7301,7 @@ Object {
             </span>
           </div>
           <div
-            class="c6"
+            class="c7"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -7058,7 +7328,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -7075,7 +7346,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -7102,7 +7373,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c5"
+              class="c3 c6"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -7119,7 +7391,7 @@ Object {
             </span>
           </div>
           <div
-            class="c6"
+            class="c7"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -7146,7 +7418,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c3"
+              class="c3 c4"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -7163,7 +7436,7 @@ Object {
             </span>
           </div>
           <div
-            class="c4"
+            class="c5"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -7190,7 +7463,8 @@ Object {
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <span
-              class="c5"
+              class="c3 c6"
+              data-test-id="toggle-button"
               role="button"
             >
               <svg
@@ -7207,7 +7481,7 @@ Object {
             </span>
           </div>
           <div
-            class="c6"
+            class="c7"
             role="presentation"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -7240,6 +7514,42 @@ Object {
   border-radius: 0.5rem;
 }
 
+.c4 {
+  min-width: 1.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: hsla(215,20%,65%,0.3);
+  border-radius: 50%;
+  display: none;
+  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.c4:hover {
+  background-color: hsla(215,16%,47%,0.4);
+}
+
+.c6 {
+  min-width: 1.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: hsla(215,20%,65%,0.3);
+  border-radius: 50%;
+  display: none;
+  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.c6:hover {
+  background-color: hsla(215,16%,47%,0.4);
+}
+
 .c2 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7265,29 +7575,11 @@ Object {
   line-height: 1.6;
 }
 
-.c3 {
-  min-width: 1.5rem;
-  height: 1.5rem;
-  width: 1.5rem;
-  -webkit-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
-  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
-  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
+.c2:hover .c3 {
+  display: block;
 }
 
 .c5 {
-  min-width: 1.5rem;
-  height: 1.5rem;
-  width: 1.5rem;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
-  transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
-}
-
-.c4 {
   display: block;
   padding: 0rem 1rem;
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
@@ -7311,7 +7603,7 @@ Object {
   height: fit-content;
 }
 
-.c6 {
+.c7 {
   display: block;
   padding: 0rem 1rem;
   -webkit-transition: all 200ms cubic-bezier(0.075,0.82,0.165,1);
@@ -7373,7 +7665,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -7390,7 +7683,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -7417,7 +7710,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c5"
+            class="c3 c6"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -7434,7 +7728,7 @@ Object {
           </span>
         </div>
         <div
-          class="c6"
+          class="c7"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -7461,7 +7755,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -7478,7 +7773,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -7505,7 +7800,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c5"
+            class="c3 c6"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -7522,7 +7818,7 @@ Object {
           </span>
         </div>
         <div
-          class="c6"
+          class="c7"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -7549,7 +7845,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -7566,7 +7863,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -7593,7 +7890,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c5"
+            class="c3 c6"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -7610,7 +7908,7 @@ Object {
           </span>
         </div>
         <div
-          class="c6"
+          class="c7"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -7637,7 +7935,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -7654,7 +7953,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -7681,7 +7980,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c5"
+            class="c3 c6"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -7698,7 +7998,7 @@ Object {
           </span>
         </div>
         <div
-          class="c6"
+          class="c7"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -7725,7 +8025,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c3"
+            class="c3 c4"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -7742,7 +8043,7 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -7769,7 +8070,8 @@ Object {
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           <span
-            class="c5"
+            class="c3 c6"
+            data-test-id="toggle-button"
             role="button"
           >
             <svg
@@ -7786,7 +8088,7 @@ Object {
           </span>
         </div>
         <div
-          class="c6"
+          class="c7"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam

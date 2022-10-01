@@ -44,7 +44,7 @@ export const tones = () => (
     {Object.keys(Tone)
       .filter((i) => !isNaN(Number(i)))
       .map((v, i) => (
-        <Message tone={Tone[v]}>
+        <Message key={i} tone={Tone[v]}>
           <Content />
         </Message>
       ))}
@@ -56,7 +56,7 @@ export const outlined = () => (
     {Object.keys(Tone)
       .filter((i) => !isNaN(Number(i)))
       .map((v, i) => (
-        <Message tone={Tone[v]} outlined>
+        <Message key={i} tone={Tone[v]} outlined>
           <Content />
         </Message>
       ))}

@@ -38,6 +38,10 @@ const TagRoot = styled.div<ITagProps>`
  */
 const TagCloseIcon = styled(Icon.Close)<ITagProps>`
   cursor: pointer;
+  opacity: 0.2;
+  &:hover {
+    opacity: 1;
+  }
 `;
 
 /**
@@ -65,7 +69,11 @@ const AddNewTagIcon = styled(Icon.AddCircle)<ITagGroupProps>`
   ${({ theme: { isDark, palette }, tone }) => css`
     cursor: pointer;
     color: ${isDark ? palette[tone!][400] : palette[tone!][600]};
+    opacity: 0.2;
   `}
+  &:hover {
+    opacity: 1;
+  }
 `;
 
 /**
