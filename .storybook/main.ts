@@ -10,8 +10,16 @@ module.exports = {
     '@storybook/addon-viewport',
     '@storybook/addon-a11y',
     'storybook-dark-mode',
+    '@storybook/addon-mdx-gfm',
   ],
+  framework: {
+    name: '@storybook/react-webpack5',
+    options: {},
+  },
+  docs: {
+    autodocs: true,
+  },
   core: {
-    builder: 'webpack5',
+    disableTelemetry: true,
   },
 };
