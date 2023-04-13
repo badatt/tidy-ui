@@ -342,7 +342,7 @@ export const Shade = [50, 100, 200, 300, 400, 500, 600, 700, 800, 900] as const;
  * @typedef {TShade}
  * @public
  */
-export type TShade = typeof Shade[number];
+export type TShade = (typeof Shade)[number];
 
 /**
  * Border type

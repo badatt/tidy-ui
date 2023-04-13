@@ -24,7 +24,7 @@ const LabelFlexBox = styled(FlexBox)<IFlexBoxProps>`
     isDark
       ? css`
           background-color: ${hsla(color.amber[900], 0.2)};
-          color: ${hsla(color.amber[300])}; ;
+          color: ${hsla(color.amber[300])};
         `
       : css`
           background-color: ${hsla(color.amber[100], 0.8)};

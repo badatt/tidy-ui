@@ -19,15 +19,15 @@ jobs:
 
     steps:
       - name: Check out the code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
           token: ${{ secrets.PAT_GITHUB  }}
 
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: '14.18.x'
+          node-version: '18.16.0'
           registry-url: https://registry.npmjs.org/
 
       - name: Install Dependencies
