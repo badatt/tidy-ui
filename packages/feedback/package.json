@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/feedback",
-  "version": "0.14.1",
+  "version": "0.16.0",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:feedback",
@@ -13,8 +13,8 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/notification": "^0.14.1",
-    "@tidy-ui/toaster": "^0.14.1"
+    "@tidy-ui/notification": "^0.16.0",
+    "@tidy-ui/toaster": "^0.16.0"
   },
   "peerDependencies": {
     "react": "^18.0.0",
