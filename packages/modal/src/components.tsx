@@ -2,7 +2,7 @@ import { color, hsla, styled } from '@tidy-ui/commons';
 import { IModalProps } from './types';
 
 /**
- * Internal Message root component
+ * Internal Modal root component
  *
  * @internal
  */
@@ -21,6 +21,11 @@ const ModalRoot = styled.div<IModalProps>`
   height: 100%;
 `;
 
+/**
+ * Internal ModalContent component
+ *
+ * @internal
+ */
 const ModalContent = styled.div<IModalProps>``;
 
 export { ModalContent, ModalRoot };
