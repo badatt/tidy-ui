@@ -65,7 +65,7 @@ export const outlined = () => (
 
 export const closable = () => (
   <FlexBox gap="1rem">
-    <Message closable onClose={() => console.log('closed')}>
+    <Message closable onClose={() => alert('Message will be closed now')}>
       <Content />
     </Message>
     <Message closable outlined>
