@@ -39,14 +39,14 @@ export interface IStandardProps {
  */
 export interface IClosable {
   /**
-   * It `true`, creates a closable message widget with a close button at top right corner
+   * It `true`, creates a closable widget with a close button at top right corner
    *
    * @type {?boolean}
    * @default false
    */
   closable?: boolean;
   /**
-   * Callback (if any) after the message widget is closed
+   * Callback (if any) after the widget is closed
    *
    * @type {?((e?: any | undefined) => void)}
    */

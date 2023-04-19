@@ -1,6 +1,8 @@
 export { default as useEscaper } from './useEscaper';
 export { default as useHash } from './useHash';
 export { default as useIsMounted } from './useIsMounted';
+export { default as useKeyDown } from './useKeyDown';
+export { default as useKeyPress } from './useKeyPress';
 export { default as usePortal } from './usePortal';
 export { default as useTheme } from './useTheme';
 export { default as useTimeout } from './useTimeout';
