@@ -69,7 +69,6 @@ describe('Modal', () => {
 
   it('On backdrop click empty', () => {
     const mockSetOpen = jest.fn();
-    const mockSetClose = jest.fn();
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <button onClick={mockSetOpen} data-testid="open-btn">
