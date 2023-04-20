@@ -41,6 +41,18 @@ describe('Drawer', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('Drawer on right', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <button data-testid="open-btn">Open</button>
+        <Drawer isOpen anchor="right">
+          menu
+        </Drawer>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
   it('Drawer is in closed state', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
