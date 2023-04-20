@@ -9,7 +9,7 @@ import { IModalProps } from './types';
  * only the component child under Modal
  */
 const Modal = React.forwardRef<HTMLDivElement, IModalProps>((props, ref) => {
-  const { children, className, isOpen, onBackdropClick, ...rest } = props;
+  const { children, isOpen, onBackdropClick, ...rest } = props;
 
   const isMounted = useIsMounted();
   const { Portal } = usePortal();
@@ -30,13 +30,15 @@ const Modal = React.forwardRef<HTMLDivElement, IModalProps>((props, ref) => {
 
   return (
     <Portal>
-      <ModalRoot className={className} ref={ref} role="modal" onClick={handleClose} {...rest}>
+      <ModalRoot ref={ref} role="modal" onClick={handleClose} {...rest}>
         <ModalContent onClick={(e) => e.stopPropagation()}>{children}</ModalContent>
       </ModalRoot>
     </Portal>
   );
 });
 
-Modal.defaultProps = {};
+Modal.defaultProps = {
+  isOpen: false,
+};
 
 export { Modal };

@@ -105,12 +105,8 @@ export const withToaster = () => {
 
   return (
     <ButtonGroup>
-      <Button variant="outlined" onClick={() => toaster.push(ele)}>
-        Add
-      </Button>
-      <Button variant="outlined" onClick={() => toaster.clear()}>
-        Clear
-      </Button>
+      <Button onClick={() => toaster.push(ele)}>Add</Button>
+      <Button onClick={() => toaster.clear()}>Clear</Button>
     </ButtonGroup>
   );
 };

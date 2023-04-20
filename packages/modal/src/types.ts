@@ -13,7 +13,7 @@ export interface IModalProps extends IBaseProps, HTMLAttributes<HTMLDivElement> 
   isOpen?: boolean;
 
   /**
-   * Callback (if any) after the widget is closed
+   * Callback (if any) when the backdrop clicked
    *
    * @type {?((e?: any | undefined) => void)}
    */

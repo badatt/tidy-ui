@@ -10,17 +10,15 @@ export default {
 export const basic = () => (
   <ButtonGroup>
     {[...Array(5)].map((c, i) => (
-      <Button variant="outlined" key={i}>
-        Button {i}
-      </Button>
+      <Button key={i}>Button {i}</Button>
     ))}
   </ButtonGroup>
 );
 
 export const stretched = () => (
   <ButtonGroup stretched>
-    <Button variant="outlined">button 1</Button>
-    <Button variant="outlined">button 2</Button>
+    <Button>button 1</Button>
+    <Button>button 2</Button>
   </ButtonGroup>
 );
 
@@ -28,9 +26,7 @@ export const verticalAligned = () => (
   <FlexBox>
     <ButtonGroup vertical>
       {[...Array(5)].map((c, i) => (
-        <Button variant="outlined" key={i}>
-          Button {i}
-        </Button>
+        <Button key={i}>Button {i}</Button>
       ))}
     </ButtonGroup>
   </FlexBox>
@@ -39,9 +35,7 @@ export const verticalAligned = () => (
 export const disabled = () => (
   <ButtonGroup disabled>
     {[...Array(5)].map((c, i) => (
-      <Button variant="outlined" key={i}>
-        Button {i}
-      </Button>
+      <Button key={i}>Button {i}</Button>
     ))}
   </ButtonGroup>
 );
@@ -49,9 +43,7 @@ export const disabled = () => (
 export const customDimensions = () => (
   <ButtonGroup h="5rem" w="30rem">
     {[...Array(5)].map((c, i) => (
-      <Button variant="outlined" key={i}>
-        Button {i}
-      </Button>
+      <Button key={i}>Button {i}</Button>
     ))}
   </ButtonGroup>
 );
@@ -68,16 +60,12 @@ export const others = () => (
       </ButtonGroup>
       <ButtonGroup>
         {[...Array(5)].map((c, i) => (
-          <Button variant="outlined" key={i}>
-            outlined {i}
-          </Button>
+          <Button key={i}>outlined {i}</Button>
         ))}
       </ButtonGroup>
       <ButtonGroup unified>
         {[...Array(5)].map((c, i) => (
-          <Button variant="outlined" key={i}>
-            unified {i}
-          </Button>
+          <Button key={i}>unified {i}</Button>
         ))}
       </ButtonGroup>
       <ButtonGroup>
@@ -97,16 +85,12 @@ export const others = () => (
         </ButtonGroup>
         <ButtonGroup vertical>
           {[...Array(5)].map((c, i) => (
-            <Button variant="outlined" key={i}>
-              outlined {i}
-            </Button>
+            <Button key={i}>outlined {i}</Button>
           ))}
         </ButtonGroup>
         <ButtonGroup unified vertical>
           {[...Array(5)].map((c, i) => (
-            <Button variant="outlined" key={i}>
-              unified {i}
-            </Button>
+            <Button key={i}>unified {i}</Button>
           ))}
         </ButtonGroup>
         <ButtonGroup vertical>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ButtonRoot, LoadingIcon } from './components';
+import { ButtonRoot, IconButtonIcon, IconButtonIconOnlyWrapper, LoadingIcon } from './components';
 import { IButtonProps } from './types';
 
 /**
@@ -8,11 +8,19 @@ import { IButtonProps } from './types';
  *
  */
 const Button = React.forwardRef<HTMLButtonElement, IButtonProps>((props, ref) => {
-  const { children, loading, disabled, ...rest } = props;
+  const { children, loading, disabled, icon, ...rest } = props;
   return (
-    <ButtonRoot role="button" ref={ref} {...rest} disabled={disabled || loading}>
-      {loading && <LoadingIcon />}
-      {children}
+    <ButtonRoot role="button" ref={ref} disabled={disabled || loading} icon={icon} {...rest}>
+      {icon ? (
+        <IconButtonIconOnlyWrapper {...rest}>
+          <IconButtonIcon iconOnly>{icon}</IconButtonIcon>
+        </IconButtonIconOnlyWrapper>
+      ) : (
+        <>
+          {loading && <LoadingIcon />}
+          {children}
+        </>
+      )}
     </ButtonRoot>
   );
 });
@@ -25,7 +33,7 @@ Button.defaultProps = {
   stretched: false,
   tone: 'major',
   uppercase: false,
-  variant: 'primary',
+  variant: 'outlined',
 };
 
 Button.displayName = 'Button';

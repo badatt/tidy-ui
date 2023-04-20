@@ -38,8 +38,8 @@ describe('Render ButtonGroup', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <ButtonGroup stretched>
-          <Button variant="outlined">button 1</Button>
-          <Button variant="outlined">button 2</Button>
+          <Button>button 1</Button>
+          <Button>button 2</Button>
         </ButtonGroup>
       </TidyUiProvider>,
     );

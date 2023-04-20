@@ -132,4 +132,10 @@ const hero = css<IButtonProps>`
   `}
 `;
 
-export { hero, outlined, primary, simple, sizeStyles };
+const iconOnly = css<IButtonProps>`
+  ${({ theme: { palette, isDark }, tone }) => css`
+    color: ${isDark ? palette[tone!][400] : palette[tone!][800]};
+  `}
+`;
+
+export { hero, iconOnly, outlined, primary, simple, sizeStyles };

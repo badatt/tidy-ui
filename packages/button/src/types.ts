@@ -57,6 +57,13 @@ export interface IButtonProps extends IBaseProps, HTMLAttributes<HTMLButtonEleme
   gradient?: boolean;
 
   /**
+   * Mandatory icon to embed inside the button
+   *
+   * @type {?JSX.Element}
+   */
+  icon?: JSX.Element;
+
+  /**
    * If `true`, the button is disabled, blocked for actions and a loader is added
    *
    * @type {?boolean}

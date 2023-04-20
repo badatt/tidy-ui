@@ -13,7 +13,8 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/breadcrumb": "^0.18.0"
+    "@tidy-ui/breadcrumb": "^0.18.0",
+    "@tidy-ui/modal": "^0.18.0"
   },
   "peerDependencies": {
     "react": "^18.0.0",

@@ -85,3 +85,15 @@ export const customDimensions = () => (
     custom dimension
   </Button>
 );
+
+export const iconOnly = () => {
+  return (
+    <FlexBox gap="1rem">
+      {Object.values(Tone)
+        .filter((i) => !isNaN(Number(i)))
+        .map((v, i) => (
+          <Button icon={<Icon.Menu />} tone={Tone[v]} key={i} />
+        ))}
+    </FlexBox>
+  );
+};
