@@ -13,7 +13,9 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/breadcrumb": "^0.18.1"
+    "@tidy-ui/breadcrumb": "^0.18.1",
+    "@tidy-ui/drawer": "^0.18.1",
+    "@tidy-ui/modal": "^0.18.1"
   },
   "peerDependencies": {
     "react": "^18.0.0",
@@ -41,7 +43,9 @@
     "ui",
     "ui-components",
     "navigation",
-    "breadcrumb"
+    "breadcrumb",
+    "drawer",
+    "modal"
   ],
   "description": "Tidy UI navigation group components",
   "publishConfig": {
