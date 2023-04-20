@@ -36,7 +36,7 @@ IconButton.defaultProps = {
   placement: 'left',
   size: 'md',
   tone: 'major',
-  variant: 'primary',
+  variant: 'outlined',
 };
 
 IconButton.displayName = 'IconButton';

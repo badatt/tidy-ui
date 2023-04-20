@@ -32,15 +32,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c0:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 <body>
@@ -82,15 +80,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c0:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 <div>
@@ -187,14 +183,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
+  color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(272,72%,47%,1);
 }
 
 .c0:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(273,67%,39%,0.2);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 <body>
@@ -236,14 +231,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
+  color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(272,72%,47%,1);
 }
 
 .c0:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(273,67%,39%,0.2);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 <div>
@@ -252,6 +246,1784 @@ Object {
       role="button"
     >
       Basic
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Render Button Button only icon with all color variants 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(273,67%,39%,1);
+}
+
+.c3 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(336,74%,35%,1);
+}
+
+.c4 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(0,0%,15%,1);
+}
+
+.c5 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(226,71%,40%,1);
+}
+
+.c6 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(143,64%,24%,1);
+}
+
+.c7 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(23,83%,31%,1);
+}
+
+.c8 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(0,70%,35%,1);
+}
+
+.c1 {
+  padding: 0.4em 0.6em;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 1.4em;
+  width: 1.4em;
+}
+
+<body>
+    <div>
+      <button
+        class="c0"
+        role="button"
+      >
+        <span
+          class="c1"
+        >
+          <span
+            class="c2"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+          </span>
+        </span>
+      </button>
+      <button
+        class="c3"
+        role="button"
+      >
+        <span
+          class="c1"
+        >
+          <span
+            class="c2"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+          </span>
+        </span>
+      </button>
+      <button
+        class="c4"
+        role="button"
+      >
+        <span
+          class="c1"
+        >
+          <span
+            class="c2"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+          </span>
+        </span>
+      </button>
+      <button
+        class="c5"
+        role="button"
+      >
+        <span
+          class="c1"
+        >
+          <span
+            class="c2"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+          </span>
+        </span>
+      </button>
+      <button
+        class="c6"
+        role="button"
+      >
+        <span
+          class="c1"
+        >
+          <span
+            class="c2"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+          </span>
+        </span>
+      </button>
+      <button
+        class="c7"
+        role="button"
+      >
+        <span
+          class="c1"
+        >
+          <span
+            class="c2"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+          </span>
+        </span>
+      </button>
+      <button
+        class="c8"
+        role="button"
+      >
+        <span
+          class="c1"
+        >
+          <span
+            class="c2"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+          </span>
+        </span>
+      </button>
+    </div>
+  </body>,
+  "container": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(273,67%,39%,1);
+}
+
+.c3 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(336,74%,35%,1);
+}
+
+.c4 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(0,0%,15%,1);
+}
+
+.c5 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(226,71%,40%,1);
+}
+
+.c6 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(143,64%,24%,1);
+}
+
+.c7 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(23,83%,31%,1);
+}
+
+.c8 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(0,70%,35%,1);
+}
+
+.c1 {
+  padding: 0.4em 0.6em;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 1.4em;
+  width: 1.4em;
+}
+
+<div>
+    <button
+      class="c0"
+      role="button"
+    >
+      <span
+        class="c1"
+      >
+        <span
+          class="c2"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+    <button
+      class="c3"
+      role="button"
+    >
+      <span
+        class="c1"
+      >
+        <span
+          class="c2"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+    <button
+      class="c4"
+      role="button"
+    >
+      <span
+        class="c1"
+      >
+        <span
+          class="c2"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+    <button
+      class="c5"
+      role="button"
+    >
+      <span
+        class="c1"
+      >
+        <span
+          class="c2"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+    <button
+      class="c6"
+      role="button"
+    >
+      <span
+        class="c1"
+      >
+        <span
+          class="c2"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+    <button
+      class="c7"
+      role="button"
+    >
+      <span
+        class="c1"
+      >
+        <span
+          class="c2"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+    <button
+      class="c8"
+      role="button"
+    >
+      <span
+        class="c1"
+      >
+        <span
+          class="c2"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Render Button Button only icon with all color variants in dark 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(270,95%,75%,1);
+}
+
+.c3 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(329,86%,70%,1);
+}
+
+.c4 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(0,0%,64%,1);
+}
+
+.c5 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(213,94%,68%,1);
+}
+
+.c6 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(142,69%,58%,1);
+}
+
+.c7 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(43,96%,56%,1);
+}
+
+.c8 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(0,91%,71%,1);
+}
+
+.c1 {
+  padding: 0.4em 0.6em;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 1.4em;
+  width: 1.4em;
+}
+
+<body>
+    <div>
+      <button
+        class="c0"
+        role="button"
+      >
+        <span
+          class="c1"
+        >
+          <span
+            class="c2"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+          </span>
+        </span>
+      </button>
+      <button
+        class="c3"
+        role="button"
+      >
+        <span
+          class="c1"
+        >
+          <span
+            class="c2"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+          </span>
+        </span>
+      </button>
+      <button
+        class="c4"
+        role="button"
+      >
+        <span
+          class="c1"
+        >
+          <span
+            class="c2"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+          </span>
+        </span>
+      </button>
+      <button
+        class="c5"
+        role="button"
+      >
+        <span
+          class="c1"
+        >
+          <span
+            class="c2"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+          </span>
+        </span>
+      </button>
+      <button
+        class="c6"
+        role="button"
+      >
+        <span
+          class="c1"
+        >
+          <span
+            class="c2"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+          </span>
+        </span>
+      </button>
+      <button
+        class="c7"
+        role="button"
+      >
+        <span
+          class="c1"
+        >
+          <span
+            class="c2"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+          </span>
+        </span>
+      </button>
+      <button
+        class="c8"
+        role="button"
+      >
+        <span
+          class="c1"
+        >
+          <span
+            class="c2"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+          </span>
+        </span>
+      </button>
+    </div>
+  </body>,
+  "container": .c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(270,95%,75%,1);
+}
+
+.c3 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(329,86%,70%,1);
+}
+
+.c4 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(0,0%,64%,1);
+}
+
+.c5 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(213,94%,68%,1);
+}
+
+.c6 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(142,69%,58%,1);
+}
+
+.c7 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(43,96%,56%,1);
+}
+
+.c8 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-size: 0.875rem;
+  padding: 0.3em 0.5rem;
+  border-radius: 0.3em;
+  line-height: 1.5em;
+  color: hsla(0,91%,71%,1);
+}
+
+.c1 {
+  padding: 0.4em 0.6em;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 1.4em;
+  width: 1.4em;
+}
+
+<div>
+    <button
+      class="c0"
+      role="button"
+    >
+      <span
+        class="c1"
+      >
+        <span
+          class="c2"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+    <button
+      class="c3"
+      role="button"
+    >
+      <span
+        class="c1"
+      >
+        <span
+          class="c2"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+    <button
+      class="c4"
+      role="button"
+    >
+      <span
+        class="c1"
+      >
+        <span
+          class="c2"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+    <button
+      class="c5"
+      role="button"
+    >
+      <span
+        class="c1"
+      >
+        <span
+          class="c2"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+    <button
+      class="c6"
+      role="button"
+    >
+      <span
+        class="c1"
+      >
+        <span
+          class="c2"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+    <button
+      class="c7"
+      role="button"
+    >
+      <span
+        class="c1"
+      >
+        <span
+          class="c2"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+            />
+          </svg>
+        </span>
+      </span>
+    </button>
+    <button
+      class="c8"
+      role="button"
+    >
+      <span
+        class="c1"
+      >
+        <span
+          class="c2"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+            />
+          </svg>
+        </span>
+      </span>
     </button>
   </div>,
   "debug": [Function],
@@ -340,15 +2112,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c0:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 .c1 {
@@ -380,15 +2150,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(327,73%,97%,1);
-  background-color: hsla(335,78%,42%,1);
-  border: 1px solid hsla(336,69%,30%,0.4);
-  box-shadow: 0px 1px 0px hsla(326,78%,95%,1);
+  color: hsla(336,69%,30%,1);
+  border: 1px solid hsla(329,86%,70%,1);
 }
 
 .c1:hover {
-  background-color: hsla(336,74%,35%,1);
+  background-color: hsla(326,78%,95%,1);
+  border: 1px solid hsla(336,69%,30%,1);
 }
 
 .c2 {
@@ -420,15 +2188,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(0,0%,98%,1);
-  background-color: hsla(0,0%,25%,1);
-  border: 1px solid hsla(0,0%,9%,0.4);
-  box-shadow: 0px 1px 0px hsla(0,0%,96%,1);
+  color: hsla(0,0%,9%,1);
+  border: 1px solid hsla(0,0%,64%,1);
 }
 
 .c2:hover {
-  background-color: hsla(0,0%,15%,1);
+  background-color: hsla(0,0%,96%,1);
+  border: 1px solid hsla(0,0%,9%,1);
 }
 
 .c3 {
@@ -460,15 +2226,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(214,100%,97%,1);
-  background-color: hsla(224,76%,48%,1);
-  border: 1px solid hsla(224,64%,33%,0.4);
-  box-shadow: 0px 1px 0px hsla(214,95%,93%,1);
+  color: hsla(224,64%,33%,1);
+  border: 1px solid hsla(213,94%,68%,1);
 }
 
 .c3:hover {
-  background-color: hsla(226,71%,40%,1);
+  background-color: hsla(214,95%,93%,1);
+  border: 1px solid hsla(224,64%,33%,1);
 }
 
 .c4 {
@@ -500,15 +2264,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(138,76%,97%,1);
-  background-color: hsla(142,72%,29%,1);
-  border: 1px solid hsla(144,61%,20%,0.4);
-  box-shadow: 0px 1px 0px hsla(141,84%,93%,1);
+  color: hsla(144,61%,20%,1);
+  border: 1px solid hsla(142,69%,58%,1);
 }
 
 .c4:hover {
-  background-color: hsla(143,64%,24%,1);
+  background-color: hsla(141,84%,93%,1);
+  border: 1px solid hsla(144,61%,20%,1);
 }
 
 .c5 {
@@ -540,15 +2302,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(48,100%,96%,1);
-  background-color: hsla(26,90%,37%,1);
-  border: 1px solid hsla(22,78%,26%,0.4);
-  box-shadow: 0px 1px 0px hsla(48,96%,89%,1);
+  color: hsla(22,78%,26%,1);
+  border: 1px solid hsla(43,96%,56%,1);
 }
 
 .c5:hover {
-  background-color: hsla(23,83%,31%,1);
+  background-color: hsla(48,96%,89%,1);
+  border: 1px solid hsla(22,78%,26%,1);
 }
 
 .c6 {
@@ -580,15 +2340,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(0,86%,97%,1);
-  background-color: hsla(0,74%,42%,1);
-  border: 1px solid hsla(0,63%,31%,0.4);
-  box-shadow: 0px 1px 0px hsla(0,93%,94%,1);
+  color: hsla(0,63%,31%,1);
+  border: 1px solid hsla(0,91%,71%,1);
 }
 
 .c6:hover {
-  background-color: hsla(0,70%,35%,1);
+  background-color: hsla(0,93%,94%,1);
+  border: 1px solid hsla(0,63%,31%,1);
 }
 
 <body>
@@ -666,15 +2424,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c0:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 .c1 {
@@ -706,15 +2462,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(327,73%,97%,1);
-  background-color: hsla(335,78%,42%,1);
-  border: 1px solid hsla(336,69%,30%,0.4);
-  box-shadow: 0px 1px 0px hsla(326,78%,95%,1);
+  color: hsla(336,69%,30%,1);
+  border: 1px solid hsla(329,86%,70%,1);
 }
 
 .c1:hover {
-  background-color: hsla(336,74%,35%,1);
+  background-color: hsla(326,78%,95%,1);
+  border: 1px solid hsla(336,69%,30%,1);
 }
 
 .c2 {
@@ -746,15 +2500,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(0,0%,98%,1);
-  background-color: hsla(0,0%,25%,1);
-  border: 1px solid hsla(0,0%,9%,0.4);
-  box-shadow: 0px 1px 0px hsla(0,0%,96%,1);
+  color: hsla(0,0%,9%,1);
+  border: 1px solid hsla(0,0%,64%,1);
 }
 
 .c2:hover {
-  background-color: hsla(0,0%,15%,1);
+  background-color: hsla(0,0%,96%,1);
+  border: 1px solid hsla(0,0%,9%,1);
 }
 
 .c3 {
@@ -786,15 +2538,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(214,100%,97%,1);
-  background-color: hsla(224,76%,48%,1);
-  border: 1px solid hsla(224,64%,33%,0.4);
-  box-shadow: 0px 1px 0px hsla(214,95%,93%,1);
+  color: hsla(224,64%,33%,1);
+  border: 1px solid hsla(213,94%,68%,1);
 }
 
 .c3:hover {
-  background-color: hsla(226,71%,40%,1);
+  background-color: hsla(214,95%,93%,1);
+  border: 1px solid hsla(224,64%,33%,1);
 }
 
 .c4 {
@@ -826,15 +2576,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(138,76%,97%,1);
-  background-color: hsla(142,72%,29%,1);
-  border: 1px solid hsla(144,61%,20%,0.4);
-  box-shadow: 0px 1px 0px hsla(141,84%,93%,1);
+  color: hsla(144,61%,20%,1);
+  border: 1px solid hsla(142,69%,58%,1);
 }
 
 .c4:hover {
-  background-color: hsla(143,64%,24%,1);
+  background-color: hsla(141,84%,93%,1);
+  border: 1px solid hsla(144,61%,20%,1);
 }
 
 .c5 {
@@ -866,15 +2614,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(48,100%,96%,1);
-  background-color: hsla(26,90%,37%,1);
-  border: 1px solid hsla(22,78%,26%,0.4);
-  box-shadow: 0px 1px 0px hsla(48,96%,89%,1);
+  color: hsla(22,78%,26%,1);
+  border: 1px solid hsla(43,96%,56%,1);
 }
 
 .c5:hover {
-  background-color: hsla(23,83%,31%,1);
+  background-color: hsla(48,96%,89%,1);
+  border: 1px solid hsla(22,78%,26%,1);
 }
 
 .c6 {
@@ -906,15 +2652,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(0,86%,97%,1);
-  background-color: hsla(0,74%,42%,1);
-  border: 1px solid hsla(0,63%,31%,0.4);
-  box-shadow: 0px 1px 0px hsla(0,93%,94%,1);
+  color: hsla(0,63%,31%,1);
+  border: 1px solid hsla(0,91%,71%,1);
 }
 
 .c6:hover {
-  background-color: hsla(0,70%,35%,1);
+  background-color: hsla(0,93%,94%,1);
+  border: 1px solid hsla(0,63%,31%,1);
 }
 
 <div>
@@ -1047,15 +2791,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c0:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 .c1 {
@@ -1087,15 +2829,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c1:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 .c2 {
@@ -1127,15 +2867,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c2:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 .c3 {
@@ -1167,15 +2905,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c3:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 .c4 {
@@ -1207,15 +2943,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c4:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 .c5 {
@@ -1247,15 +2981,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c5:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 .c6 {
@@ -1287,15 +3019,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c6:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 <body>
@@ -1380,15 +3110,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c0:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 .c1 {
@@ -1420,15 +3148,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c1:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 .c2 {
@@ -1460,15 +3186,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c2:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 .c3 {
@@ -1500,15 +3224,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c3:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 .c4 {
@@ -1540,15 +3262,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c4:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 .c5 {
@@ -1580,15 +3300,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c5:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 .c6 {
@@ -1620,15 +3338,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c6:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 <div>
@@ -2626,15 +4342,13 @@ Object {
   line-height: 1.5em;
   height: 3rem;
   width: 15rem;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c0:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 <body>
@@ -2678,15 +4392,13 @@ Object {
   line-height: 1.5em;
   height: 3rem;
   width: 15rem;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c0:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 <div>
@@ -2960,15 +4672,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(0,0%,98%,1);
-  background-color: hsla(0,0%,25%,1);
-  border: 1px solid hsla(0,0%,9%,0.4);
-  box-shadow: 0px 1px 0px hsla(0,0%,96%,1);
+  color: hsla(0,0%,9%,1);
+  border: 1px solid hsla(0,0%,64%,1);
 }
 
 .c0:hover {
-  background-color: hsla(0,0%,15%,1);
+  background-color: hsla(0,0%,96%,1);
+  border: 1px solid hsla(0,0%,9%,1);
 }
 
 <body>
@@ -3020,15 +4730,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(0,0%,98%,1);
-  background-color: hsla(0,0%,25%,1);
-  border: 1px solid hsla(0,0%,9%,0.4);
-  box-shadow: 0px 1px 0px hsla(0,0%,96%,1);
+  color: hsla(0,0%,9%,1);
+  border: 1px solid hsla(0,0%,64%,1);
 }
 
 .c0:hover {
-  background-color: hsla(0,0%,15%,1);
+  background-color: hsla(0,0%,96%,1);
+  border: 1px solid hsla(0,0%,9%,1);
 }
 
 <div>
@@ -3139,11 +4847,8 @@ Object {
   opacity: 0.6;
   -webkit-transition: none;
   transition: none;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 <body>
@@ -3190,11 +4895,8 @@ Object {
   opacity: 0.6;
   -webkit-transition: none;
   transition: none;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 <div>
@@ -3292,15 +4994,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c0:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 .c1 {
@@ -3391,15 +5091,13 @@ Object {
   padding: 0.3em 0.5rem;
   border-radius: 0.3em;
   line-height: 1.5em;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c0:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 .c1 {
@@ -3710,11 +5408,8 @@ Object {
   opacity: 0.6;
   -webkit-transition: none;
   transition: none;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c1 {
@@ -3793,11 +5488,8 @@ Object {
   opacity: 0.6;
   -webkit-transition: none;
   transition: none;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c1 {
@@ -4235,15 +5927,13 @@ Object {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c0:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 <body>
@@ -4291,15 +5981,13 @@ Object {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c0:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 <div>
@@ -4397,15 +6085,13 @@ Object {
   border-radius: 0.3em;
   line-height: 1.5em;
   text-transform: uppercase;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c0:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 <body>
@@ -4448,15 +6134,13 @@ Object {
   border-radius: 0.3em;
   line-height: 1.5em;
   text-transform: uppercase;
-  font-weight: 600;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
-  border: 1px solid hsla(274,66%,32%,0.4);
-  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
+  color: hsla(274,66%,32%,1);
+  border: 1px solid hsla(270,95%,75%,1);
 }
 
 .c0:hover {
-  background-color: hsla(273,67%,39%,1);
+  background-color: hsla(269,100%,95%,1);
+  border: 1px solid hsla(274,66%,32%,1);
 }
 
 <div>

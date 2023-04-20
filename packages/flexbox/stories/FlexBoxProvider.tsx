@@ -63,10 +63,10 @@ const FlexBoxProvider = ({ children, size }: IFlexBoxProvider) => {
       <FlexBox jsc="space-between" alc="center">
         <ButtonCluster>
           <ButtonGroup>
-            <Button variant="outlined" onClick={increment} w="4rem">
+            <Button onClick={increment} w="4rem">
               Add
             </Button>
-            <Button variant="outlined" onClick={decrement} w="4rem">
+            <Button onClick={decrement} w="4rem">
               Remove
             </Button>
           </ButtonGroup>

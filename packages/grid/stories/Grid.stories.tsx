@@ -78,10 +78,10 @@ const GridProvider = ({ children, size = baseCount }) => {
       <div style={{ position: 'relative', marginBottom: '1rem' }}>
         <ButtonCluster>
           <ButtonGroup>
-            <Button variant="outlined" onClick={increment} w="4rem">
+            <Button onClick={increment} w="4rem">
               Add
             </Button>
-            <Button variant="outlined" onClick={decrement} w="4rem">
+            <Button onClick={decrement} w="4rem">
               Remove
             </Button>
           </ButtonGroup>

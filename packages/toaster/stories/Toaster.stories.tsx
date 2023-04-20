@@ -23,12 +23,8 @@ export const basic = () => {
 
   return (
     <ButtonGroup>
-      <Button variant="outlined" onClick={() => toaster.push(ele)}>
-        Add
-      </Button>
-      <Button variant="outlined" onClick={() => toaster.clear()}>
-        Clear
-      </Button>
+      <Button onClick={() => toaster.push(ele)}>Add</Button>
+      <Button onClick={() => toaster.clear()}>Clear</Button>
     </ButtonGroup>
   );
 };
@@ -47,12 +43,8 @@ export const closable = () => {
 
   return (
     <ButtonGroup>
-      <Button variant="outlined" onClick={() => toaster.push(ele)}>
-        Add
-      </Button>
-      <Button variant="outlined" onClick={() => toaster.clear()}>
-        Clear
-      </Button>
+      <Button onClick={() => toaster.push(ele)}>Add</Button>
+      <Button onClick={() => toaster.clear()}>Clear</Button>
     </ButtonGroup>
   );
 };

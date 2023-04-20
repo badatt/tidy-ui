@@ -1,5 +1,5 @@
 import { css, hsla, Icon, styled } from '@tidy-ui/commons';
-import { hero, outlined, primary, simple, sizeStyles } from './styles';
+import { hero, iconOnly, outlined, primary, simple, sizeStyles } from './styles';
 import { IAnchorProps, IButtonClusterProps, IButtonGroupProps, IButtonProps, IIconButtonProps } from './types';
 
 /**
@@ -54,7 +54,7 @@ const ButtonRoot = styled.button<IButtonProps>`
   text-align: center;
   vertical-align: middle;
   transition: all 200ms linear;
-  ${({ size, disabled, stretched, variant, uppercase, h, w }) => css`
+  ${({ size, disabled, stretched, variant, icon, uppercase, h, w }) => css`
     font-size: ${sizeStyles[size!].fontSize};
     padding: 0.3em 0.5rem;
     border-radius: 0.3em;
@@ -77,10 +77,11 @@ const ButtonRoot = styled.button<IButtonProps>`
     css`
       text-transform: uppercase;
     `}
-    ${variant === 'simple' && simple}
-    ${variant === 'primary' && primary}
-    ${variant === 'outlined' && outlined}
-    ${variant === 'hero' && hero}
+    ${variant === 'simple' && !icon && simple}
+    ${variant === 'primary' && !icon && primary}
+    ${variant === 'outlined' && !icon && outlined}
+    ${variant === 'hero' && !icon && hero}
+    ${icon && iconOnly}
   `}
 `;
 

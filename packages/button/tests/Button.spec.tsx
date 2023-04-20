@@ -40,7 +40,7 @@ describe('Render Button', () => {
   it('Outlined Button in dark', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
-        <Button variant="outlined">outlined</Button>
+        <Button>outlined</Button>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -190,6 +190,32 @@ describe('Render Button', () => {
         <Button h="3rem" w="15rem">
           custom dimension
         </Button>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Button only icon with all color variants', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        {Object.values(Tone)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v, i) => (
+            <Button icon={<Icon.Menu />} tone={Tone[v]} key={i} />
+          ))}
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Button only icon with all color variants in dark', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidDark}>
+        {Object.values(Tone)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v, i) => (
+            <Button icon={<Icon.Menu />} tone={Tone[v]} key={i} />
+          ))}
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();

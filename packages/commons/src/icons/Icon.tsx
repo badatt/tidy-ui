@@ -12,6 +12,7 @@ import ExpandMoreIcon from './ExpandMoreIcon';
 import InfoIcon from './InfoIcon';
 import LaunchIcon from './LaunchIcon';
 import LinkIcon from './LinkIcon';
+import MenuIcon from './MenuIcon';
 import RemoveIcon from './RemoveIcon';
 import RotatingCircleIcon from './RotatingCircleIcon';
 import WarningIcon from './WarningIcon';
@@ -59,6 +60,8 @@ export interface IconComponent
   /** @internal */
   Link: typeof LinkIcon;
   /** @internal */
+  Menu: typeof MenuIcon;
+  /** @internal */
   Remove: typeof RemoveIcon;
   /** @internal */
   RotatingCircle: typeof RotatingCircleIcon;
@@ -93,6 +96,7 @@ Icon.ExpandMore = ExpandMoreIcon;
 Icon.Info = InfoIcon;
 Icon.Launch = LaunchIcon;
 Icon.Link = LinkIcon;
+Icon.Menu = MenuIcon;
 Icon.Remove = RemoveIcon;
 Icon.RotatingCircle = RotatingCircleIcon;
 Icon.Warning = WarningIcon;
