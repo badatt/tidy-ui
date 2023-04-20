@@ -1,6 +1,11 @@
 import { color, css, hsla, styled } from '@tidy-ui/commons';
 import { IDrawerProps } from './types';
 
+/**
+ * Internal Drawer root component
+ *
+ * @internal
+ */
 const DrawerRoot = styled.div<IDrawerProps>`
   z-index: ${Number.MAX_SAFE_INTEGER};
   position: fixed;
@@ -15,6 +20,11 @@ const DrawerRoot = styled.div<IDrawerProps>`
   `}
 `;
 
+/**
+ * Internal Drawer content component
+ *
+ * @internal
+ */
 const DrawerContent = styled.div<IDrawerProps>`
   display: flex;
   flex-direction: column;
@@ -25,6 +35,11 @@ const DrawerContent = styled.div<IDrawerProps>`
   `}
 `;
 
+/**
+ * Internal Drawer close section component
+ *
+ * @internal
+ */
 const CloseSection = styled.div<IDrawerProps>`
   display: flex;
   ${({ anchor }) => css`
@@ -32,6 +47,11 @@ const CloseSection = styled.div<IDrawerProps>`
   `}
 `;
 
+/**
+ * Internal close button component
+ *
+ * @internal
+ */
 const CloseButton = styled.button<IDrawerProps>`
   padding: 0.5rem;
   ${({ theme: { palette } }) => css`

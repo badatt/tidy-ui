@@ -3,6 +3,11 @@ import { Icon, useIsMounted, usePortal } from '@tidy-ui/commons';
 import { CloseButton, CloseSection, DrawerContent, DrawerRoot } from './components';
 import { IDrawerProps } from './types';
 
+/**
+ * Drawer can be used for menu section in your app.
+ * You can use Drawer to launch a portal
+ * emerge from left/right side of the page
+ */
 const Drawer = React.forwardRef<HTMLDivElement, IDrawerProps>((props, ref) => {
   const { children, isOpen, onClose, ...rest } = props;
 
