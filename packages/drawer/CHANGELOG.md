@@ -5,15 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.18.1](https://github.com/badatt/tidy-ui/compare/v0.18.0...v0.18.1) (2023-04-20)
 
-**Note:** Version bump only for package @tidy-ui/modal
-
-
-
-
-
-# [0.18.0](https://github.com/badatt/tidy-ui/compare/v0.17.0...v0.18.0) (2023-04-19)
-
 
 ### Features
 
-* added modal component ([1aeec5c](https://github.com/badatt/tidy-ui/commit/1aeec5ccf715763f63cbca124361c5b96a178078))
+* added Drawer component ([da2663a](https://github.com/badatt/tidy-ui/commit/da2663a18a2eb3f9b5cebafeab55015a0f596d31))
