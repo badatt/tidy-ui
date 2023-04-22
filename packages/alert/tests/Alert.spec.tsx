@@ -12,7 +12,9 @@ describe('Alert', () => {
   it('Basic render', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Alert>basic</Alert>
+        <Alert>
+          <Alert.Title>Title</Alert.Title>content<Alert.Footer>footer</Alert.Footer>
+        </Alert>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -20,7 +22,54 @@ describe('Alert', () => {
   it('Dark mode basic render', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
-        <Alert>basic</Alert>
+        <Alert>
+          <Alert.Title>Title</Alert.Title>content<Alert.Footer>footer</Alert.Footer>
+        </Alert>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('With custom elements', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Alert ele={<div />}>
+          <Alert.Title ele={<div />}>custom title element</Alert.Title>body
+          <Alert.Footer ele={<div />}>custom footer</Alert.Footer>
+        </Alert>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Filled', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Alert filled>
+          <Alert.Title>Title</Alert.Title>content<Alert.Footer>footer</Alert.Footer>
+        </Alert>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Blunt', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Alert sharp={false}>
+          <Alert.Title>Title</Alert.Title>content<Alert.Footer>footer</Alert.Footer>
+        </Alert>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Blunt and filled', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Alert sharp={false} filled>
+          <Alert.Title>Title</Alert.Title>content<Alert.Footer>footer</Alert.Footer>
+        </Alert>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
