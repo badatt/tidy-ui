@@ -27,14 +27,15 @@ const Breadcrumb = React.forwardRef<HTMLOListElement, IBreadcrumbProps>((props, 
   }, [separator]);
 
   const renderChildren = React.useCallback(
-    (items: Array<Exclude<React.ReactNode, boolean | null | undefined>>) => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    (items: any) => {
       return React.Children.map(items, (c, i) => {
         if (i == items.length - 1) {
           const ele = c as React.ReactElement;
           c = React.cloneElement(ele, { ...ele.props, active: !noActive });
         }
         const childNode = (
-          <BreadcrumbItemWrapper key={i} {...rest}>
+          <BreadcrumbItemWrapper key={c?.props?.href} {...rest}>
             {c}
           </BreadcrumbItemWrapper>
         );
