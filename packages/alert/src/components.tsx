@@ -1,6 +1,11 @@
 import { createFontStyle, css, styled } from '@tidy-ui/commons';
 import { IAlertFooterProps, IAlertProps, IAlertTitleProps } from './types';
 
+/**
+ * Normal Alert styles
+ *
+ * @internal
+ */
 const alertStyles = css<IAlertProps>`
   ${({ theme: { palette, layout }, sharp, status }) => css`
     background-color: ${palette.background.card};
@@ -14,6 +19,11 @@ const alertStyles = css<IAlertProps>`
   `}
 `;
 
+/**
+ * Filled Alert styles
+ *
+ * @internal
+ */
 const alertFilledStyle = css<IAlertProps>`
   ${({ theme: { palette, layout }, sharp, status }) => css`
     color: ${palette[status!][50]};
@@ -51,6 +61,11 @@ const AlertFooterRoot = styled.footer<IAlertFooterProps>`
   padding-top: 0.5rem;
 `;
 
+/**
+ * Internal AlertIcon
+ *
+ * @internal
+ */
 const AlertIcon = styled.span<IAlertProps>`
   padding-right: 1rem;
   ${({ theme: { palette, isDark }, filled, status }) => css`
@@ -65,11 +80,21 @@ const AlertIcon = styled.span<IAlertProps>`
   }
 `;
 
+/**
+ * Internal AlertContent composes of Title, Footer and inside text
+ *
+ * @internal
+ */
 const AlertContent = styled.div<IAlertProps>`
   display: flex;
   flex-direction: column;
 `;
 
+/**
+ * Internal AlertTitle root component
+ *
+ * @internal
+ */
 const AlertTitleRoot = styled.div<IAlertTitleProps>`
   padding-bottom: 0.5rem;
 `;
