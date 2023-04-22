@@ -280,6 +280,24 @@ export interface IText {
 }
 
 /**
+ * Status enum
+ */
+export enum Status {
+  'info',
+  'success',
+  'warning',
+  'danger',
+}
+
+/**
+ * Status for components
+ *
+ * @typedef {TStatus}
+ * @public
+ */
+export type TStatus = keyof typeof Status;
+
+/**
  * Tone enum
  */
 export enum Tone {

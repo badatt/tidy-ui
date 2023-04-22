@@ -7,6 +7,7 @@ import CheckCircleIcon from './CheckCircleIcon';
 import CloseIcon from './CloseIcon';
 import CopyAllIcon from './CopyAllIcon';
 import DangerousIcon from './DangerousIcon';
+import ErrorIcon from './ErrorIcon';
 import ExpandLessIcon from './ExpandLessIcon';
 import ExpandMoreIcon from './ExpandMoreIcon';
 import InfoIcon from './InfoIcon';
@@ -15,6 +16,7 @@ import LinkIcon from './LinkIcon';
 import MenuIcon from './MenuIcon';
 import RemoveIcon from './RemoveIcon';
 import RotatingCircleIcon from './RotatingCircleIcon';
+import SuccessIcon from './SuccessIcon';
 import WarningIcon from './WarningIcon';
 
 /**
@@ -50,6 +52,8 @@ export interface IconComponent
   /** @internal */
   Dangerous: typeof DangerousIcon;
   /** @internal */
+  Error: typeof ErrorIcon;
+  /** @internal */
   ExpandLess: typeof ExpandLessIcon;
   /** @internal */
   ExpandMore: typeof ExpandMoreIcon;
@@ -65,6 +69,8 @@ export interface IconComponent
   Remove: typeof RemoveIcon;
   /** @internal */
   RotatingCircle: typeof RotatingCircleIcon;
+  /** @internal */
+  Success: typeof SuccessIcon;
   /** @internal */
   Warning: typeof WarningIcon;
 }
@@ -91,6 +97,7 @@ Icon.CheckCircle = CheckCircleIcon;
 Icon.Close = CloseIcon;
 Icon.CopyAll = CopyAllIcon;
 Icon.Dangerous = DangerousIcon;
+Icon.Error = ErrorIcon;
 Icon.ExpandLess = ExpandLessIcon;
 Icon.ExpandMore = ExpandMoreIcon;
 Icon.Info = InfoIcon;
@@ -99,6 +106,7 @@ Icon.Link = LinkIcon;
 Icon.Menu = MenuIcon;
 Icon.Remove = RemoveIcon;
 Icon.RotatingCircle = RotatingCircleIcon;
+Icon.Success = SuccessIcon;
 Icon.Warning = WarningIcon;
 
 export { Icon };

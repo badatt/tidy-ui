@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { TTone } from '../theme/types';
+import { TStatus, TTone } from '../theme/types';
 import { Icon } from './Icon';
 
 /**
@@ -14,20 +14,20 @@ export default <
     /**
      * Tone of the icon
      */
-    tone?: TTone;
+    status?: TStatus | TTone;
   },
 >(
   props: T,
 ): JSX.Element => {
-  switch (props.tone) {
+  switch (props.status) {
     case 'info':
-      return <Icon.Info />;
+      return <Icon.Info isOutlined />;
     case 'success':
-      return <Icon.CheckCircle />;
+      return <Icon.Success />;
     case 'warning':
-      return <Icon.Warning />;
+      return <Icon.Warning isOutlined />;
     case 'danger':
-      return <Icon.Dangerous />;
+      return <Icon.Error isOutlined />;
     default:
       return <></>;
   }
