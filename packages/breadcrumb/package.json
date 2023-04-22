@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/breadcrumb",
-  "version": "0.20.1",
+  "version": "0.20.2",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:breadcrumb",
