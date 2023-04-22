@@ -37,7 +37,7 @@ Object {
     </div>
     <div
       class="c0"
-      role="modal"
+      role="navigation"
     >
       <div
         class=""
@@ -222,7 +222,7 @@ Object {
     <div
       class="c0"
       data-testid="outer-element"
-      role="modal"
+      role="navigation"
     >
       <div
         class=""
@@ -332,7 +332,7 @@ Object {
     <div
       class="c0"
       data-testid="outer-element"
-      role="modal"
+      role="navigation"
     >
       <div
         class=""

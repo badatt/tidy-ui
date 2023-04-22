@@ -3,7 +3,7 @@
 exports[`Card Basic render 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c2 {
+  "baseElement": .c1 {
   font-size: 1.5rem;
   font-weight: 400;
   -webkit-letter-spacing: 0em;
@@ -21,20 +21,6 @@ Object {
 
 .c0 {
   padding: 1rem;
-  font-size: 1rem;
-  font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
-  background-color: hsla(0,100%,100%,1);
-  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(217,33%,17%,1);
-  border-radius: 0.5rem;
-}
-
-.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -55,7 +41,7 @@ Object {
   border-radius: 0.5rem;
 }
 
-.c4 {
+.c3 {
   padding-top: 0.5rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
@@ -69,7 +55,7 @@ Object {
   line-height: 1.43;
 }
 
-.c3 {
+.c2 {
   padding: 0.5rem 1rem;
 }
 
@@ -84,17 +70,17 @@ Object {
     
       </section>
       <section
-        class="c1"
+        class="c0"
         role="article"
       >
         <header
-          class="c2"
+          class="c1"
           role="heading"
         >
           Lorem ipsum dolor sit.
         </header>
         <div
-          class="c3"
+          class="c2"
           role="presentation"
         >
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et totam eius ducimus unde voluptatibus asperiores fuga
@@ -102,7 +88,7 @@ Object {
     
         </div>
         <footer
-          class="c4"
+          class="c3"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur.
@@ -110,7 +96,7 @@ Object {
       </section>
     </div>
   </body>,
-  "container": .c2 {
+  "container": .c1 {
   font-size: 1.5rem;
   font-weight: 400;
   -webkit-letter-spacing: 0em;
@@ -128,20 +114,6 @@ Object {
 
 .c0 {
   padding: 1rem;
-  font-size: 1rem;
-  font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
-  background-color: hsla(0,100%,100%,1);
-  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(217,33%,17%,1);
-  border-radius: 0.5rem;
-}
-
-.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -162,7 +134,7 @@ Object {
   border-radius: 0.5rem;
 }
 
-.c4 {
+.c3 {
   padding-top: 0.5rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
@@ -176,7 +148,7 @@ Object {
   line-height: 1.43;
 }
 
-.c3 {
+.c2 {
   padding: 0.5rem 1rem;
 }
 
@@ -190,17 +162,17 @@ Object {
     
     </section>
     <section
-      class="c1"
+      class="c0"
       role="article"
     >
       <header
-        class="c2"
+        class="c1"
         role="heading"
       >
         Lorem ipsum dolor sit.
       </header>
       <div
-        class="c3"
+        class="c2"
         role="presentation"
       >
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et totam eius ducimus unde voluptatibus asperiores fuga
@@ -208,7 +180,7 @@ Object {
     
       </div>
       <footer
-        class="c4"
+        class="c3"
         role="presentation"
       >
         Lorem ipsum dolor sit amet consectetur.
@@ -272,7 +244,7 @@ Object {
 exports[`Card Basic render in dark mode 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c2 {
+  "baseElement": .c1 {
   font-size: 1.5rem;
   font-weight: 400;
   -webkit-letter-spacing: 0em;
@@ -290,20 +262,6 @@ Object {
 
 .c0 {
   padding: 1rem;
-  font-size: 1rem;
-  font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
-  background-color: hsla(214,13%,20%,1);
-  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(210,19%,73%,1);
-  border-radius: 0.5rem;
-}
-
-.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -324,7 +282,7 @@ Object {
   border-radius: 0.5rem;
 }
 
-.c4 {
+.c3 {
   padding-top: 0.5rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
@@ -338,7 +296,7 @@ Object {
   line-height: 1.43;
 }
 
-.c3 {
+.c2 {
   padding: 0.5rem 1rem;
 }
 
@@ -353,17 +311,17 @@ Object {
     
       </section>
       <section
-        class="c1"
+        class="c0"
         role="article"
       >
         <header
-          class="c2"
+          class="c1"
           role="heading"
         >
           Lorem ipsum dolor sit.
         </header>
         <div
-          class="c3"
+          class="c2"
           role="presentation"
         >
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et totam eius ducimus unde voluptatibus asperiores fuga
@@ -371,7 +329,7 @@ Object {
     
         </div>
         <footer
-          class="c4"
+          class="c3"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur.
@@ -379,7 +337,7 @@ Object {
       </section>
     </div>
   </body>,
-  "container": .c2 {
+  "container": .c1 {
   font-size: 1.5rem;
   font-weight: 400;
   -webkit-letter-spacing: 0em;
@@ -397,20 +355,6 @@ Object {
 
 .c0 {
   padding: 1rem;
-  font-size: 1rem;
-  font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
-  background-color: hsla(214,13%,20%,1);
-  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(210,19%,73%,1);
-  border-radius: 0.5rem;
-}
-
-.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -431,7 +375,7 @@ Object {
   border-radius: 0.5rem;
 }
 
-.c4 {
+.c3 {
   padding-top: 0.5rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
@@ -445,7 +389,7 @@ Object {
   line-height: 1.43;
 }
 
-.c3 {
+.c2 {
   padding: 0.5rem 1rem;
 }
 
@@ -459,17 +403,17 @@ Object {
     
     </section>
     <section
-      class="c1"
+      class="c0"
       role="article"
     >
       <header
-        class="c2"
+        class="c1"
         role="heading"
       >
         Lorem ipsum dolor sit.
       </header>
       <div
-        class="c3"
+        class="c2"
         role="presentation"
       >
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et totam eius ducimus unde voluptatibus asperiores fuga
@@ -477,7 +421,7 @@ Object {
     
       </div>
       <footer
-        class="c4"
+        class="c3"
         role="presentation"
       >
         Lorem ipsum dolor sit amet consectetur.
@@ -559,6 +503,7 @@ Object {
 }
 
 .c0 {
+  padding: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -580,6 +525,7 @@ Object {
 }
 
 .c4 {
+  padding: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -690,6 +636,7 @@ Object {
 }
 
 .c0 {
+  padding: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -711,6 +658,7 @@ Object {
 }
 
 .c4 {
+  padding: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -876,6 +824,13 @@ Object {
 
 .c0 {
   padding: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -892,6 +847,13 @@ Object {
 
 .c1 {
   padding: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -908,6 +870,13 @@ Object {
 
 .c2 {
   padding: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -924,6 +893,13 @@ Object {
 
 .c3 {
   padding: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -940,6 +916,13 @@ Object {
 
 .c4 {
   padding: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -956,6 +939,13 @@ Object {
 
 .c5 {
   padding: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -972,6 +962,13 @@ Object {
 
 .c6 {
   padding: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -987,6 +984,7 @@ Object {
 }
 
 .c7 {
+  padding: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1009,6 +1007,7 @@ Object {
 }
 
 .c11 {
+  padding: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1031,6 +1030,7 @@ Object {
 }
 
 .c12 {
+  padding: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1053,6 +1053,7 @@ Object {
 }
 
 .c13 {
+  padding: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1075,6 +1076,7 @@ Object {
 }
 
 .c14 {
+  padding: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1097,6 +1099,7 @@ Object {
 }
 
 .c15 {
+  padding: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1119,6 +1122,7 @@ Object {
 }
 
 .c16 {
+  padding: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1411,6 +1415,13 @@ Object {
 
 .c0 {
   padding: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1427,6 +1438,13 @@ Object {
 
 .c1 {
   padding: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1443,6 +1461,13 @@ Object {
 
 .c2 {
   padding: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1459,6 +1484,13 @@ Object {
 
 .c3 {
   padding: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1475,6 +1507,13 @@ Object {
 
 .c4 {
   padding: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1491,6 +1530,13 @@ Object {
 
 .c5 {
   padding: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1507,6 +1553,13 @@ Object {
 
 .c6 {
   padding: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1522,6 +1575,7 @@ Object {
 }
 
 .c7 {
+  padding: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1544,6 +1598,7 @@ Object {
 }
 
 .c11 {
+  padding: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1566,6 +1621,7 @@ Object {
 }
 
 .c12 {
+  padding: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1588,6 +1644,7 @@ Object {
 }
 
 .c13 {
+  padding: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1610,6 +1667,7 @@ Object {
 }
 
 .c14 {
+  padding: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1632,6 +1690,7 @@ Object {
 }
 
 .c15 {
+  padding: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1654,6 +1713,7 @@ Object {
 }
 
 .c16 {
+  padding: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1983,7 +2043,7 @@ Object {
 exports[`Card Card with sharp corners 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c2 {
+  "baseElement": .c1 {
   font-size: 1.5rem;
   font-weight: 400;
   -webkit-letter-spacing: 0em;
@@ -2001,19 +2061,6 @@ Object {
 
 .c0 {
   padding: 1rem;
-  font-size: 1rem;
-  font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
-  background-color: hsla(0,100%,100%,1);
-  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(217,33%,17%,1);
-}
-
-.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2033,7 +2080,7 @@ Object {
   color: hsla(217,33%,17%,1);
 }
 
-.c4 {
+.c3 {
   padding-top: 0.5rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
@@ -2047,7 +2094,7 @@ Object {
   line-height: 1.43;
 }
 
-.c3 {
+.c2 {
   padding: 0.5rem 1rem;
 }
 
@@ -2062,17 +2109,17 @@ Object {
     
       </section>
       <section
-        class="c1"
+        class="c0"
         role="article"
       >
         <header
-          class="c2"
+          class="c1"
           role="heading"
         >
           Lorem ipsum dolor sit.
         </header>
         <div
-          class="c3"
+          class="c2"
           role="presentation"
         >
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et totam eius ducimus unde voluptatibus asperiores fuga
@@ -2080,7 +2127,7 @@ Object {
     
         </div>
         <footer
-          class="c4"
+          class="c3"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur.
@@ -2088,7 +2135,7 @@ Object {
       </section>
     </div>
   </body>,
-  "container": .c2 {
+  "container": .c1 {
   font-size: 1.5rem;
   font-weight: 400;
   -webkit-letter-spacing: 0em;
@@ -2106,19 +2153,6 @@ Object {
 
 .c0 {
   padding: 1rem;
-  font-size: 1rem;
-  font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
-  background-color: hsla(0,100%,100%,1);
-  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(217,33%,17%,1);
-}
-
-.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2138,7 +2172,7 @@ Object {
   color: hsla(217,33%,17%,1);
 }
 
-.c4 {
+.c3 {
   padding-top: 0.5rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
@@ -2152,7 +2186,7 @@ Object {
   line-height: 1.43;
 }
 
-.c3 {
+.c2 {
   padding: 0.5rem 1rem;
 }
 
@@ -2166,17 +2200,17 @@ Object {
     
     </section>
     <section
-      class="c1"
+      class="c0"
       role="article"
     >
       <header
-        class="c2"
+        class="c1"
         role="heading"
       >
         Lorem ipsum dolor sit.
       </header>
       <div
-        class="c3"
+        class="c2"
         role="presentation"
       >
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et totam eius ducimus unde voluptatibus asperiores fuga
@@ -2184,7 +2218,7 @@ Object {
     
       </div>
       <footer
-        class="c4"
+        class="c3"
         role="presentation"
       >
         Lorem ipsum dolor sit amet consectetur.
@@ -2266,6 +2300,13 @@ Object {
 
 .c0 {
   padding: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -2281,6 +2322,7 @@ Object {
 }
 
 .c1 {
+  padding: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2375,6 +2417,13 @@ Object {
 
 .c0 {
   padding: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -2390,6 +2439,7 @@ Object {
 }
 
 .c1 {
+  padding: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2518,266 +2568,10 @@ Object {
 }
 `;
 
-exports[`Card Invalid children for CardMain Invalid children for CardMain 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  font-size: 1rem;
-  font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
-  background-color: hsla(0,100%,100%,1);
-  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(217,33%,17%,1);
-  border-radius: 0.5rem;
-}
-
-<body>
-    <div>
-      <section
-        class="c0"
-        role="article"
-      >
-        <div>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et totam eius ducimus unde voluptatibus asperiores fuga
-      accusantium voluptates non nam sit beatae, modi quas animi autem aliquid. Exercitationem, veniam sapiente!
-    
-        </div>
-        <div>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et totam eius ducimus unde voluptatibus asperiores fuga
-      accusantium voluptates non nam sit beatae, modi quas animi autem aliquid. Exercitationem, veniam sapiente!
-    
-        </div>
-      </section>
-    </div>
-  </body>,
-  "container": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  font-size: 1rem;
-  font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
-  background-color: hsla(0,100%,100%,1);
-  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(217,33%,17%,1);
-  border-radius: 0.5rem;
-}
-
-<div>
-    <section
-      class="c0"
-      role="article"
-    >
-      <div>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et totam eius ducimus unde voluptatibus asperiores fuga
-      accusantium voluptates non nam sit beatae, modi quas animi autem aliquid. Exercitationem, veniam sapiente!
-    
-      </div>
-      <div>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et totam eius ducimus unde voluptatibus asperiores fuga
-      accusantium voluptates non nam sit beatae, modi quas animi autem aliquid. Exercitationem, veniam sapiente!
-    
-      </div>
-    </section>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Card Invalid text children for CardMain Invalid text children for CardMain 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  font-size: 1rem;
-  font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
-  background-color: hsla(0,100%,100%,1);
-  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(217,33%,17%,1);
-  border-radius: 0.5rem;
-}
-
-<body>
-    <div>
-      <section
-        class="c0"
-        role="article"
-      >
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et totam eius ducimus unde voluptatibus asperiores fuga
-      accusantium voluptates non nam sit beatae, modi quas animi autem aliquid. Exercitationem, veniam sapiente!
-    
-      </section>
-    </div>
-  </body>,
-  "container": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  font-size: 1rem;
-  font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
-  background-color: hsla(0,100%,100%,1);
-  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(217,33%,17%,1);
-  border-radius: 0.5rem;
-}
-
-<div>
-    <section
-      class="c0"
-      role="article"
-    >
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et totam eius ducimus unde voluptatibus asperiores fuga
-      accusantium voluptates non nam sit beatae, modi quas animi autem aliquid. Exercitationem, veniam sapiente!
-    
-    </section>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
 exports[`Card With wrapper element 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c2 {
+  "baseElement": .c1 {
   font-size: 1.5rem;
   font-weight: 400;
   -webkit-letter-spacing: 0em;
@@ -2796,20 +2590,6 @@ Object {
 
 .c0 {
   padding: 1rem;
-  font-size: 1rem;
-  font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
-  background-color: hsla(0,100%,100%,1);
-  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(217,33%,17%,1);
-  border-radius: 0.5rem;
-}
-
-.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2830,7 +2610,7 @@ Object {
   border-radius: 0.5rem;
 }
 
-.c4 {
+.c3 {
   padding-top: 0.5rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
@@ -2845,7 +2625,7 @@ Object {
   border-top: 1px solid hsla(0,0%,0%,0.12);
 }
 
-.c3 {
+.c2 {
   padding: 0.5rem 1rem;
 }
 
@@ -2862,11 +2642,11 @@ Object {
         </div>
       </section>
       <section
-        class="c1"
+        class="c0"
         role="article"
       >
         <header
-          class="c2"
+          class="c1"
           role="heading"
         >
           <div>
@@ -2874,7 +2654,7 @@ Object {
           </div>
         </header>
         <div
-          class="c3"
+          class="c2"
           role="presentation"
         >
           <div>
@@ -2884,7 +2664,7 @@ Object {
           </div>
         </div>
         <footer
-          class="c4"
+          class="c3"
           role="presentation"
         >
           <div>
@@ -2894,7 +2674,7 @@ Object {
       </section>
     </div>
   </body>,
-  "container": .c2 {
+  "container": .c1 {
   font-size: 1.5rem;
   font-weight: 400;
   -webkit-letter-spacing: 0em;
@@ -2913,20 +2693,6 @@ Object {
 
 .c0 {
   padding: 1rem;
-  font-size: 1rem;
-  font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
-  background-color: hsla(0,100%,100%,1);
-  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(217,33%,17%,1);
-  border-radius: 0.5rem;
-}
-
-.c1 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2947,7 +2713,7 @@ Object {
   border-radius: 0.5rem;
 }
 
-.c4 {
+.c3 {
   padding-top: 0.5rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
@@ -2962,7 +2728,7 @@ Object {
   border-top: 1px solid hsla(0,0%,0%,0.12);
 }
 
-.c3 {
+.c2 {
   padding: 0.5rem 1rem;
 }
 
@@ -2978,11 +2744,11 @@ Object {
       </div>
     </section>
     <section
-      class="c1"
+      class="c0"
       role="article"
     >
       <header
-        class="c2"
+        class="c1"
         role="heading"
       >
         <div>
@@ -2990,7 +2756,7 @@ Object {
         </div>
       </header>
       <div
-        class="c3"
+        class="c2"
         role="presentation"
       >
         <div>
@@ -3000,7 +2766,7 @@ Object {
         </div>
       </div>
       <footer
-        class="c4"
+        class="c3"
         role="presentation"
       >
         <div>
@@ -3106,6 +2872,13 @@ Object {
 
 .c0 {
   padding: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -3128,6 +2901,7 @@ Object {
 }
 
 .c1 {
+  padding: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3149,35 +2923,6 @@ Object {
 }
 
 .c1:hover .c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.c8 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  font-size: 1rem;
-  font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
-  background-color: hsla(0,100%,100%,1);
-  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(217,33%,17%,1);
-  border-radius: 0.5rem;
-  cursor: pointer;
-}
-
-.c8:hover .c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3261,7 +3006,7 @@ Object {
         </footer>
       </section>
       <section
-        class="c8"
+        class="c0"
         href="https://google.com"
         role="article"
       >
@@ -3332,6 +3077,13 @@ Object {
 
 .c0 {
   padding: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -3354,6 +3106,7 @@ Object {
 }
 
 .c1 {
+  padding: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3375,35 +3128,6 @@ Object {
 }
 
 .c1:hover .c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.c8 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  font-size: 1rem;
-  font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
-  background-color: hsla(0,100%,100%,1);
-  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(217,33%,17%,1);
-  border-radius: 0.5rem;
-  cursor: pointer;
-}
-
-.c8:hover .c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3486,7 +3210,7 @@ Object {
       </footer>
     </section>
     <section
-      class="c8"
+      class="c0"
       href="https://google.com"
       role="article"
     >
@@ -3613,6 +3337,13 @@ Object {
 
 .c0 {
   padding: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -3635,6 +3366,7 @@ Object {
 }
 
 .c1 {
+  padding: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3656,35 +3388,6 @@ Object {
 }
 
 .c1:hover .c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.c8 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  font-size: 1rem;
-  font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
-  background-color: hsla(214,13%,20%,1);
-  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(210,19%,73%,1);
-  border-radius: 0.5rem;
-  cursor: pointer;
-}
-
-.c8:hover .c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3768,7 +3471,7 @@ Object {
         </footer>
       </section>
       <section
-        class="c8"
+        class="c0"
         href="https://google.com"
         role="article"
       >
@@ -3839,6 +3542,13 @@ Object {
 
 .c0 {
   padding: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -3861,6 +3571,7 @@ Object {
 }
 
 .c1 {
+  padding: 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3882,35 +3593,6 @@ Object {
 }
 
 .c1:hover .c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.c8 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  font-size: 1rem;
-  font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
-  background-color: hsla(214,13%,20%,1);
-  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(210,19%,73%,1);
-  border-radius: 0.5rem;
-  cursor: pointer;
-}
-
-.c8:hover .c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3993,7 +3675,7 @@ Object {
       </footer>
     </section>
     <section
-      class="c8"
+      class="c0"
       href="https://google.com"
       role="article"
     >

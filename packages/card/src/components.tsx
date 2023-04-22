@@ -79,17 +79,13 @@ const LaunchIcon = styled(Icon.Launch)`
   `}
 `;
 
-const CardRoot = styled.section<ICardProps>`
-  padding: 1rem;
-  ${cardStyles}
-`;
-
 /**
  * Internal Card root component
  *
  * @internal
  */
-const CardMainRoot = styled.section<ICardProps>`
+const CardRoot = styled.section<ICardProps>`
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   ${cardStyles}
@@ -123,4 +119,4 @@ const CardBodyRoot = styled.div`
   padding: 0.5rem 1rem;
 `;
 
-export { CardBodyRoot, CardFooterRoot, CardHeaderRoot, CardMainRoot, CardRoot, LaunchIcon, Link };
+export { CardBodyRoot, CardFooterRoot, CardHeaderRoot, CardRoot, LaunchIcon, Link };
