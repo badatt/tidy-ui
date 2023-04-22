@@ -22,11 +22,11 @@ describe('Card', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Card>{text}</Card>
-        <Card.Main>
+        <Card>
           <Card.Header>Lorem ipsum dolor sit.</Card.Header>
           <Card.Body>{text}</Card.Body>
           <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
-        </Card.Main>
+        </Card>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -35,11 +35,11 @@ describe('Card', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
         <Card>{text}</Card>
-        <Card.Main>
+        <Card>
           <Card.Header>Lorem ipsum dolor sit.</Card.Header>
           <Card.Body>{text}</Card.Body>
           <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
-        </Card.Main>
+        </Card>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -48,11 +48,11 @@ describe('Card', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Card sharp>{text}</Card>
-        <Card.Main sharp>
+        <Card sharp>
           <Card.Header>Lorem ipsum dolor sit.</Card.Header>
           <Card.Body>{text}</Card.Body>
           <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
-        </Card.Main>
+        </Card>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -61,16 +61,16 @@ describe('Card', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Card href="https://google.com">{text}</Card>
-        <Card.Main>
+        <Card>
           <Card.Header href="https://google.com">Lorem ipsum dolor sit.</Card.Header>
           <Card.Body>{text}</Card.Body>
           <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
-        </Card.Main>
-        <Card.Main href="https://google.com">
+        </Card>
+        <Card href="https://google.com">
           <Card.Header>Lorem ipsum dolor sit.</Card.Header>
           <Card.Body>{text}</Card.Body>
           <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
-        </Card.Main>
+        </Card>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -80,16 +80,16 @@ describe('Card', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
         <Card href="https://google.com">{text}</Card>
-        <Card.Main>
+        <Card>
           <Card.Header href="https://google.com">Lorem ipsum dolor sit.</Card.Header>
           <Card.Body>{text}</Card.Body>
           <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
-        </Card.Main>
-        <Card.Main href="https://google.com">
+        </Card>
+        <Card href="https://google.com">
           <Card.Header>Lorem ipsum dolor sit.</Card.Header>
           <Card.Body>{text}</Card.Body>
           <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
-        </Card.Main>
+        </Card>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -107,11 +107,11 @@ describe('Card', () => {
         {Object.values(Tone)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Card.Main accent={Tone[v]} key={i} accentPosition="left">
+            <Card accent={Tone[v]} key={i} accentPosition="left">
               <Card.Header>Lorem ipsum dolor sit.</Card.Header>
               <Card.Body>{text}</Card.Body>
               <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
-            </Card.Main>
+            </Card>
           ))}
       </TidyUiProvider>,
     );
@@ -121,16 +121,16 @@ describe('Card', () => {
   it('Card divided', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Card.Main>
+        <Card>
           <Card.Header divided>Lorem ipsum dolor sit.</Card.Header>
           <Card.Body>{text}</Card.Body>
           <Card.Footer divided>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
-        </Card.Main>
-        <Card.Main sharp>
+        </Card>
+        <Card sharp>
           <Card.Header divided>Lorem ipsum dolor sit.</Card.Header>
           <Card.Body>{text}</Card.Body>
           <Card.Footer divided>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
-        </Card.Main>
+        </Card>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -140,7 +140,7 @@ describe('Card', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Card ele={<div />}>{text}</Card>
-        <Card.Main>
+        <Card>
           <Card.Header ele={<div />} divided>
             Lorem ipsum dolor sit.
           </Card.Header>
@@ -148,7 +148,7 @@ describe('Card', () => {
           <Card.Footer ele={<div />} divided>
             Lorem ipsum dolor sit amet consectetur.
           </Card.Footer>
-        </Card.Main>
+        </Card>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -158,49 +158,13 @@ describe('Card', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Card h="9rem">{text}</Card>
-        <Card.Main h="15rem">
+        <Card h="15rem">
           <Card.Header>Lorem ipsum dolor sit.</Card.Header>
           <Card.Body>{text}</Card.Body>
           <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
-        </Card.Main>
+        </Card>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
-  });
-
-  describe('Invalid text children for CardMain', () => {
-    let consoleOutput: string[] = [];
-    const mockedError = (output) => consoleOutput.push(output);
-    beforeEach(() => (console.error = mockedError));
-
-    it('Invalid text children for CardMain', () => {
-      const tree = render(
-        <TidyUiProvider theme={orchidLight}>
-          <Card.Main>{text}</Card.Main>
-        </TidyUiProvider>,
-      );
-      expect(tree).toMatchSnapshot();
-      expect(consoleOutput[0]).toEqual(`Warning: Failed %s type: %s%s`);
-    });
-  });
-
-  describe('Invalid children for CardMain', () => {
-    let consoleOutput: string[] = [];
-    const mockedError = (output) => consoleOutput.push(output);
-    beforeEach(() => (console.error = mockedError));
-
-    it('Invalid children for CardMain', () => {
-      const tree = render(
-        <TidyUiProvider theme={orchidLight}>
-          <Card.Main>
-            <div>{text}</div>
-            <div>{text}</div>
-          </Card.Main>
-        </TidyUiProvider>,
-      );
-      expect(tree).toMatchSnapshot();
-      expect(consoleOutput[0]).toEqual(`Warning: Failed %s type: %s%s`);
-      console.error = originalError;
-    });
   });
 });

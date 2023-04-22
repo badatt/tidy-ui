@@ -23,7 +23,7 @@ export const basic = () => (
     <Card>
       <ContentBody />
     </Card>
-    <Card.Main>
+    <Card>
       <Card.Header>
         <ContentHeader />
       </Card.Header>
@@ -33,7 +33,7 @@ export const basic = () => (
       <Card.Footer>
         <ContentFooter />
       </Card.Footer>
-    </Card.Main>
+    </Card>
   </FlexBox>
 );
 
@@ -42,7 +42,7 @@ export const sharp = () => (
     <Card sharp>
       <ContentBody />
     </Card>
-    <Card.Main sharp>
+    <Card sharp>
       <Card.Header>
         <ContentHeader />
       </Card.Header>
@@ -52,7 +52,7 @@ export const sharp = () => (
       <Card.Footer>
         <ContentFooter />
       </Card.Footer>
-    </Card.Main>
+    </Card>
   </FlexBox>
 );
 
@@ -62,8 +62,8 @@ export const accents = () => (
       {Object.values(Tone)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
-          <Grid.Item xs={12} sm={12} md={8} lg={6} xl={6}>
-            <Card accent={Tone[v]} key={i}>
+          <Grid.Item key={i} xs={12} sm={12} md={8} lg={6} xl={6}>
+            <Card accent={Tone[v]}>
               <ContentBody />
             </Card>
           </Grid.Item>
@@ -73,8 +73,8 @@ export const accents = () => (
       {Object.values(Tone)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
-          <Grid.Item xs={12} sm={12} md={8} lg={6} xl={6}>
-            <Card.Main accent={Tone[v]} key={i} accentPosition="left">
+          <Grid.Item key={i} xs={12} sm={12} md={8} lg={6} xl={6}>
+            <Card accent={Tone[v]} accentPosition="left">
               <Card.Header>
                 <ContentHeader />
               </Card.Header>
@@ -84,7 +84,7 @@ export const accents = () => (
               <Card.Footer>
                 <ContentFooter />
               </Card.Footer>
-            </Card.Main>
+            </Card>
           </Grid.Item>
         ))}
     </Grid>
@@ -96,7 +96,7 @@ export const linked = () => (
     <Card href="https://google.com">
       <ContentBody />
     </Card>
-    <Card.Main>
+    <Card>
       <Card.Header href="https://google.com">
         <ContentHeader />
       </Card.Header>
@@ -106,13 +106,13 @@ export const linked = () => (
       <Card.Footer>
         <ContentFooter />
       </Card.Footer>
-    </Card.Main>
+    </Card>
   </FlexBox>
 );
 
 export const divided = () => (
   <FlexBox gap="1rem" nowrap>
-    <Card.Main>
+    <Card>
       <Card.Header divided>
         <ContentHeader />
       </Card.Header>
@@ -122,8 +122,8 @@ export const divided = () => (
       <Card.Footer divided>
         <ContentFooter />
       </Card.Footer>
-    </Card.Main>
-    <Card.Main sharp>
+    </Card>
+    <Card sharp>
       <Card.Header divided>
         <ContentHeader />
       </Card.Header>
@@ -133,7 +133,7 @@ export const divided = () => (
       <Card.Footer divided>
         <ContentFooter />
       </Card.Footer>
-    </Card.Main>
+    </Card>
   </FlexBox>
 );
 
@@ -143,7 +143,7 @@ export const customElement = () => (
       <ContentBody />
       <ContentBody />
     </Card>
-    <Card.Main>
+    <Card>
       <Card.Header>
         <ContentHeader />
       </Card.Header>
@@ -154,7 +154,7 @@ export const customElement = () => (
       <Card.Footer>
         <ContentFooter />
       </Card.Footer>
-    </Card.Main>
+    </Card>
   </FlexBox>
 );
 
@@ -163,7 +163,7 @@ export const customDimensions = () => (
     <Card h="9rem">
       <ContentBody />
     </Card>
-    <Card.Main h="15rem">
+    <Card h="15rem">
       <Card.Header>
         <ContentHeader />
       </Card.Header>
@@ -173,6 +173,6 @@ export const customDimensions = () => (
       <Card.Footer>
         <ContentFooter />
       </Card.Footer>
-    </Card.Main>
+    </Card>
   </FlexBox>
 );

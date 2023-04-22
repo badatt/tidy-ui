@@ -30,7 +30,7 @@ const Modal = React.forwardRef<HTMLDivElement, IModalProps>((props, ref) => {
 
   return (
     <Portal>
-      <ModalRoot ref={ref} role="modal" onClick={handleClose} {...rest}>
+      <ModalRoot ref={ref} role="navigation" onClick={handleClose} {...rest}>
         <ModalContent onClick={(e) => e.stopPropagation()}>{children}</ModalContent>
       </ModalRoot>
     </Portal>
@@ -40,5 +40,7 @@ const Modal = React.forwardRef<HTMLDivElement, IModalProps>((props, ref) => {
 Modal.defaultProps = {
   isOpen: false,
 };
+
+Modal.displayName = 'Modal';
 
 export { Modal };

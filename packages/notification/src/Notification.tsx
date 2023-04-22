@@ -52,7 +52,7 @@ const Notification = React.forwardRef<HTMLDivElement, INotificationProps>((props
         )}
         {isLabelAllowed && !props.withoutLabel && (
           <NotificationLabel {...rest}>
-            {icon || <TonedIcon tone={rest.tone} />}
+            {icon || <TonedIcon status={rest.tone} />}
             {label || rest.tone}
           </NotificationLabel>
         )}

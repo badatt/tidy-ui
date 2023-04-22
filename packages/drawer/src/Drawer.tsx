@@ -30,7 +30,7 @@ const Drawer = React.forwardRef<HTMLDivElement, IDrawerProps>((props, ref) => {
 
   return (
     <Portal>
-      <DrawerRoot ref={ref} role="drawer" {...rest}>
+      <DrawerRoot ref={ref} role="navigation" {...rest}>
         <DrawerContent {...rest}>
           <CloseSection {...rest}>
             <CloseButton onClick={handleClose} role="button">
@@ -47,5 +47,7 @@ const Drawer = React.forwardRef<HTMLDivElement, IDrawerProps>((props, ref) => {
 Drawer.defaultProps = {
   anchor: 'left',
 };
+
+Drawer.displayName = 'Drawer';
 
 export { Drawer };

@@ -57,7 +57,7 @@ Object {
     </div>
     <div
       class="c0"
-      role="drawer"
+      role="navigation"
     >
       <div
         class="c1"
@@ -209,7 +209,7 @@ Object {
     </div>
     <div
       class="c0"
-      role="drawer"
+      role="navigation"
     >
       <div
         class="c1"
@@ -434,7 +434,7 @@ Object {
     </div>
     <div
       class="c0"
-      role="drawer"
+      role="navigation"
     >
       <div
         class="c1"
@@ -586,7 +586,7 @@ Object {
     </div>
     <div
       class="c0"
-      role="drawer"
+      role="navigation"
     >
       <div
         class="c1"

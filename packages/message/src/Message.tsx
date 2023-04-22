@@ -32,7 +32,7 @@ const Message = React.forwardRef<HTMLDivElement, IMessageProps>((props, ref) => 
     <MessageRoot className={className} ref={ref} role="note" {...rest}>
       {!props.withoutLabel && (
         <MessageLabel {...rest}>
-          <TonedIcon {...rest} />
+          <TonedIcon status={rest.tone} />
           {rest.tone}
         </MessageLabel>
       )}
