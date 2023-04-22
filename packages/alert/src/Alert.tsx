@@ -14,7 +14,9 @@ interface AlertComponent extends React.ForwardRefExoticComponent<IAlertProps & R
 }
 
 /**
- * kl
+ * Alert can be used to throw any alerts in the application.
+ * You can have both actionable alerts as well as just notification
+ * purpose based alerts
  */
 const Alert = React.forwardRef<HTMLDivElement, IAlertProps>((props, ref) => {
   const { children, ele, ...rest } = props;

@@ -66,7 +66,7 @@ export interface IAlertFooterProps extends IBaseProps, HTMLAttributes<HTMLDivEle
  */
 export interface IAlertTitleProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * Element that encloses the footer
+   * Element that encloses the title
    */
   ele?: JSX.Element;
 }
