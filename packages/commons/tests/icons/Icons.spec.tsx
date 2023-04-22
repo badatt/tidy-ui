@@ -19,6 +19,8 @@ const icons = [
   <Icon.CopyAll />,
   <Icon.Dangerous />,
   <Icon.Dangerous isOutlined />,
+  <Icon.Error />,
+  <Icon.Error isOutlined />,
   <Icon.ExpandLess />,
   <Icon.ExpandMore />,
   <Icon.Info />,
@@ -27,7 +29,9 @@ const icons = [
   <Icon.Link />,
   <Icon.RotatingCircle />,
   <Icon.Remove />,
-  <Icon.Warning />,
+  <Icon.Success />,
+  <Icon.Success />,
+  <Icon.Warning isOutlined />,
   <Icon.Warning isOutlined />,
 ];
 
