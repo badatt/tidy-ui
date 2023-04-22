@@ -17,7 +17,9 @@ const PanelContextProvider = (props: IPanelProps): JSX.Element => {
     setExpanded(!expanded);
   }, [expanded]);
 
-  return <PanelContext.Provider value={{ expanded, toggle }}>{children}</PanelContext.Provider>;
+  const panelContextValue = React.useMemo(() => ({ expanded, toggle }), [expanded, toggle]);
+
+  return <PanelContext.Provider value={panelContextValue}>{children}</PanelContext.Provider>;
 };
 
 export { PanelContext, PanelContextProvider };

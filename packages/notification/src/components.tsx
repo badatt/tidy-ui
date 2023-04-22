@@ -1,5 +1,4 @@
-import { color, createFontStyle, css, hsla, styled } from '@tidy-ui/commons';
-import { IPalette } from '@tidy-ui/commons';
+import { color, createFontStyle, css, hsla, IPalette, styled } from '@tidy-ui/commons';
 import { filledContent, filledLabel, outlinedContent, outlinedLabel } from './styles';
 import { INotificationProps } from './types';
 

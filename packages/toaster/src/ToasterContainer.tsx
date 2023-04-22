@@ -73,9 +73,9 @@ const ToasterContainer: React.FC<IToasterProps> = (props: IToasterProps): JSX.El
 
   return (
     <ToasterRoot role="toaster">
-      {state.toasts.map((v, i) => {
+      {state.toasts.map((v) => {
         autoRemoveToast(v.id);
-        return <ToastItem key={i}>{renderItem(v)}</ToastItem>;
+        return <ToastItem key={v.id}>{renderItem(v)}</ToastItem>;
       })}
     </ToasterRoot>
   );

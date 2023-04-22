@@ -33,7 +33,11 @@ const Breadcrumb = React.forwardRef<HTMLOListElement, IBreadcrumbProps>((props, 
           const ele = c as React.ReactElement;
           c = React.cloneElement(ele, { ...ele.props, active: !noActive });
         }
-        const childNode = <BreadcrumbItemWrapper {...rest}>{c}</BreadcrumbItemWrapper>;
+        const childNode = (
+          <BreadcrumbItemWrapper key={i} {...rest}>
+            {c}
+          </BreadcrumbItemWrapper>
+        );
         return [childNode, i < items.length - 1 ? renderSeparator() : null];
       });
     },
@@ -54,7 +58,9 @@ const Breadcrumb = React.forwardRef<HTMLOListElement, IBreadcrumbProps>((props, 
         ? renderChildren(React.Children.toArray(children))
         : renderChildren([
             childrenArray[0],
-            <BreadcrumbItem onClick={handleExpand}>...</BreadcrumbItem>,
+            <BreadcrumbItem key={1} onClick={handleExpand}>
+              ...
+            </BreadcrumbItem>,
             childrenArray[childrenArray.length - 1],
           ])}
     </BreadcrumbRoot>
