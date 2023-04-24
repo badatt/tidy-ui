@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.21.0](https://github.com/badatt/tidy-ui/compare/v0.20.2...v0.21.0) (2023-04-24)
+
+**Note:** Version bump only for package @tidy-ui/panel
+
+
+
+
+
 ## [0.20.2](https://github.com/badatt/tidy-ui/compare/v0.20.1...v0.20.2) (2023-04-22)
 
 **Note:** Version bump only for package @tidy-ui/panel
