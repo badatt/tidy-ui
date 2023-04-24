@@ -52,13 +52,10 @@ const CardHeaderRoot = styled.header<ICardHeaderProps>`
   ${({ theme: { palette }, divided }) => css`
     ${createFontStyle('h5')}
     position: relative;
-    padding-top: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 0.5rem;
-    padding-left: 1rem;
     width: 100%;
     ${divided &&
     css`
+      padding-bottom: 0.25rem;
       border-bottom: 1px solid ${palette.divider};
     `}
   `}
@@ -97,14 +94,11 @@ const CardRoot = styled.section<ICardProps>`
  * @internal
  */
 const CardFooterRoot = styled.footer<ICardFooterProps>`
-  padding-top: 0.5rem;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
   ${createFontStyle('body2')}
   ${({ theme: { palette }, divided }) => css`
     ${divided &&
     css`
+      padding-top: 0.25rem;
       border-top: 1px solid ${palette.divider};
     `}
   `}
@@ -116,7 +110,7 @@ const CardFooterRoot = styled.footer<ICardFooterProps>`
  * @internal
  */
 const CardBodyRoot = styled.div`
-  padding: 0.5rem 1rem;
+  padding: 0.25rem 0;
 `;
 
 export { CardBodyRoot, CardFooterRoot, CardHeaderRoot, CardRoot, LaunchIcon, Link };
