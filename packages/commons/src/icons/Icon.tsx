@@ -104,15 +104,7 @@ export interface IconComponent
  */
 const Icon = React.forwardRef<HTMLDivElement, Omit<IIconProps, 'children'>>((props, ref) => {
   const { ele, style, h, margin, w, ...rest } = props;
-  const styles = {
-    ...style,
-    alignItems: 'center',
-    display: 'flex',
-    height: h,
-    justifyContent: 'center',
-    margin,
-    width: w,
-  };
+  const styles = { ...style, height: h, margin, width: w };
   const styledIconElement = React.cloneElement(ele, { style: styles });
   return React.createElement('span', { ref, style: styles, ...rest }, styledIconElement);
 }) as IconComponent;

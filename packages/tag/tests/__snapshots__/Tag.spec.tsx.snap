@@ -169,14 +169,14 @@ Object {
         html
         <span
           role="button"
-          style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+          style="height: 1.25em; width: 1.25em;"
         >
           <svg
             aria-hidden="true"
             class="c1"
             fill="currentColor"
             focusable="false"
-            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+            style="height: 1.25em; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -230,14 +230,14 @@ Object {
       html
       <span
         role="button"
-        style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+        style="height: 1.25em; width: 1.25em;"
       >
         <svg
           aria-hidden="true"
           class="c1"
           fill="currentColor"
           focusable="false"
-          style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+          style="height: 1.25em; width: 1.25em;"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -837,13 +837,13 @@ Object {
         role="listitem"
       >
         <span
-          style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+          style="height: 1.25em; width: 1.25em;"
         >
           <svg
             aria-hidden="true"
             fill="currentColor"
             focusable="false"
-            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+            style="height: 1.25em; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -887,13 +887,13 @@ Object {
       role="listitem"
     >
       <span
-        style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+        style="height: 1.25em; width: 1.25em;"
       >
         <svg
           aria-hidden="true"
           fill="currentColor"
           focusable="false"
-          style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+          style="height: 1.25em; width: 1.25em;"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
