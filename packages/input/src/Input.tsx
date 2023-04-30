@@ -7,14 +7,16 @@ import { MonthInput } from './MonthInput';
 import { NumberInput } from './NumberInput';
 import { PasswordInput } from './PasswordInput';
 import { SearchInput } from './SearchInput';
+import { TelephoneInput } from './TelephoneInput';
 import { TextInput } from './TextInput';
 import { TimeInput } from './TimeInput';
 import { ITextInputProps } from './types';
+import { UrlInput } from './UrlInput';
 import { WeekInput } from './WeekInput';
 
 /** @internal */
 interface InputComponent
-  extends React.ForwardRefExoticComponent<ITextInputProps & React.RefAttributes<HTMLInputElement>> {
+  extends React.ForwardRefExoticComponent<Omit<ITextInputProps, 'children'> & React.RefAttributes<HTMLInputElement>> {
   /** @internal */
   Date: typeof DateInput;
   /** @internal */
@@ -32,9 +34,13 @@ interface InputComponent
   /** @internal */
   Search: typeof SearchInput;
   /** @internal */
+  Telephone: typeof TelephoneInput;
+  /** @internal */
   Text: typeof TextInput;
   /** @internal */
   Time: typeof TimeInput;
+  /** @internal */
+  Url: typeof UrlInput;
   /** @internal */
   Week: typeof WeekInput;
 }
@@ -61,8 +67,10 @@ Input.Month = MonthInput;
 Input.Number = NumberInput;
 Input.Password = PasswordInput;
 Input.Search = SearchInput;
+Input.Telephone = TelephoneInput;
 Input.Text = TextInput;
 Input.Time = TimeInput;
+Input.Url = UrlInput;
 Input.Week = WeekInput;
 
 export { Input };

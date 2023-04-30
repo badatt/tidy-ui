@@ -4,7 +4,7 @@ import { ITextInputProps } from './types';
 
 const MonthInput = React.forwardRef<HTMLInputElement, Omit<ITextInputProps, 'children'>>((props, ref) => {
   const { ...rest } = props;
-  return <DateInput type="month" {...rest} />;
+  return <DateInput ref={ref} type="month" {...rest} />;
 });
 
 MonthInput.defaultProps = {

@@ -1,0 +1,5968 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Basic render 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(213,27%,84%,1);
+}
+
+.c1::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c1:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+      >
+        <input
+          class="c1"
+          placeholder="basic"
+          role="form"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(213,27%,84%,1);
+}
+
+.c1::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c1:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+<div>
+    <div
+      class="c0"
+    >
+      <input
+        class="c1"
+        placeholder="basic"
+        role="form"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Input Caption 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(213,27%,84%,1);
+}
+
+.c1::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c1:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+.c2 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+  margin-top: 8px;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+      >
+        <input
+          class="c1"
+          placeholder="Enter name"
+          role="form"
+        />
+        <div
+          class="c2"
+          placeholder="Enter name"
+        >
+          Caption
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(213,27%,84%,1);
+}
+
+.c1::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c1:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+.c2 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+  margin-top: 8px;
+}
+
+<div>
+    <div
+      class="c0"
+    >
+      <input
+        class="c1"
+        placeholder="Enter name"
+        role="form"
+      />
+      <div
+        class="c2"
+        placeholder="Enter name"
+      >
+        Caption
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Input Dark mode basic render 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(215,19%,35%,1);
+}
+
+.c1::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c1:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+      >
+        <input
+          class="c1"
+          placeholder="basic"
+          role="form"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(215,19%,35%,1);
+}
+
+.c1::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c1:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+<div>
+    <div
+      class="c0"
+    >
+      <input
+        class="c1"
+        placeholder="basic"
+        role="form"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Input Disabled 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.6;
+  -webkit-transition: none;
+  transition: none;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(213,27%,84%,1);
+}
+
+.c1::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c1:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+      >
+        <input
+          class="c1"
+          disabled=""
+          placeholder="disabled value"
+          role="form"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.6;
+  -webkit-transition: none;
+  transition: none;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(213,27%,84%,1);
+}
+
+.c1::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c1:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+<div>
+    <div
+      class="c0"
+    >
+      <input
+        class="c1"
+        disabled=""
+        placeholder="disabled value"
+        role="form"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Input Password visibility check 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c2 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(213,27%,84%,1);
+}
+
+.c2::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c2::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c2:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c2:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+.c0 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  isolation: isolate;
+}
+
+.c0 > :first-child {
+  left: 0;
+}
+
+.c0 > :last-child {
+  right: 0;
+}
+
+.c0 input {
+  padding-inline-start: calc(2.5em * 1);
+  padding-inline-end: calc(2.5em * 1);
+}
+
+.c0 > div:first-child > input {
+  padding-inline-start: calc(1rem * 1);
+}
+
+.c0 > div:last-child > input {
+  padding-inline-end: calc(1rem * 1);
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 2;
+  font-size: calc(1rem * 1);
+  height: calc(2.5em * 1);
+  width: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  color: hsla(215,20%,65%,1);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+        placeholder="password"
+        role="group"
+        value="pass"
+      >
+        <div
+          class="c1"
+        >
+          <input
+            class="c2"
+            placeholder="password"
+            role="form"
+            value="pass"
+          />
+        </div>
+        <div
+          class="c3"
+          placeholder="password"
+          role="button"
+          value="pass"
+        >
+          <span
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+              <path
+                d="M12 6c3.79 0 7.17 2.13 8.82 5.5C19.17 14.87 15.79 17 12 17s-7.17-2.13-8.82-5.5C4.83 8.13 8.21 6 12 6m0-2C7 4 2.73 7.11 1 11.5 2.73 15.89 7 19 12 19s9.27-3.11 11-7.5C21.27 7.11 17 4 12 4zm0 5c1.38 0 2.5 1.12 2.5 2.5S13.38 14 12 14s-2.5-1.12-2.5-2.5S10.62 9 12 9m0-2c-2.48 0-4.5 2.02-4.5 4.5S9.52 16 12 16s4.5-2.02 4.5-4.5S14.48 7 12 7z"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c2 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(213,27%,84%,1);
+}
+
+.c2::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c2::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c2:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c2:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+.c0 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  isolation: isolate;
+}
+
+.c0 > :first-child {
+  left: 0;
+}
+
+.c0 > :last-child {
+  right: 0;
+}
+
+.c0 input {
+  padding-inline-start: calc(2.5em * 1);
+  padding-inline-end: calc(2.5em * 1);
+}
+
+.c0 > div:first-child > input {
+  padding-inline-start: calc(1rem * 1);
+}
+
+.c0 > div:last-child > input {
+  padding-inline-end: calc(1rem * 1);
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 2;
+  font-size: calc(1rem * 1);
+  height: calc(2.5em * 1);
+  width: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  color: hsla(215,20%,65%,1);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+<div>
+    <div
+      class="c0"
+      placeholder="password"
+      role="group"
+      value="pass"
+    >
+      <div
+        class="c1"
+      >
+        <input
+          class="c2"
+          placeholder="password"
+          role="form"
+          value="pass"
+        />
+      </div>
+      <div
+        class="c3"
+        placeholder="password"
+        role="button"
+        value="pass"
+      >
+        <span
+          style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0V0z"
+              fill="none"
+            />
+            <path
+              d="M12 6c3.79 0 7.17 2.13 8.82 5.5C19.17 14.87 15.79 17 12 17s-7.17-2.13-8.82-5.5C4.83 8.13 8.21 6 12 6m0-2C7 4 2.73 7.11 1 11.5 2.73 15.89 7 19 12 19s9.27-3.11 11-7.5C21.27 7.11 17 4 12 4zm0 5c1.38 0 2.5 1.12 2.5 2.5S13.38 14 12 14s-2.5-1.12-2.5-2.5S10.62 9 12 9m0-2c-2.48 0-4.5 2.02-4.5 4.5S9.52 16 12 16s4.5-2.02 4.5-4.5S14.48 7 12 7z"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Input Sizes 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 0.75);
+  font-size: calc(1rem * 0.75);
+  line-height: calc(1.5 * 0.75);
+  border-style: solid;
+  border-radius: calc(0.375rem * 0.75);
+  padding-inline-start: calc(1rem * 0.75);
+  padding-inline-end: calc(1rem * 0.75);
+  border-color: hsla(213,27%,84%,1);
+}
+
+.c1::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c1:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+.c2 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 0.85);
+  font-size: calc(1rem * 0.85);
+  line-height: calc(1.5 * 0.85);
+  border-style: solid;
+  border-radius: calc(0.375rem * 0.85);
+  padding-inline-start: calc(1rem * 0.85);
+  padding-inline-end: calc(1rem * 0.85);
+  border-color: hsla(213,27%,84%,1);
+}
+
+.c2::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c2::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c2:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c2:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+.c3 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 0.9);
+  font-size: calc(1rem * 0.9);
+  line-height: calc(1.5 * 0.9);
+  border-style: solid;
+  border-radius: calc(0.375rem * 0.9);
+  padding-inline-start: calc(1rem * 0.9);
+  padding-inline-end: calc(1rem * 0.9);
+  border-color: hsla(213,27%,84%,1);
+}
+
+.c3::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c3::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c3:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c3:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+.c4 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(213,27%,84%,1);
+}
+
+.c4::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c4::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c4:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c4:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+.c5 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1.2);
+  font-size: calc(1rem * 1.2);
+  line-height: calc(1.5 * 1.2);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1.2);
+  padding-inline-start: calc(1rem * 1.2);
+  padding-inline-end: calc(1rem * 1.2);
+  border-color: hsla(213,27%,84%,1);
+}
+
+.c5::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c5::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c5:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c5::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c5:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c5::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c5:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c5:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+.c6 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1.4);
+  font-size: calc(1rem * 1.4);
+  line-height: calc(1.5 * 1.4);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1.4);
+  padding-inline-start: calc(1rem * 1.4);
+  padding-inline-end: calc(1rem * 1.4);
+  border-color: hsla(213,27%,84%,1);
+}
+
+.c6::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c6::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c6:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c6::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c6:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c6::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c6:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c6:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+.c7 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1.6);
+  font-size: calc(1rem * 1.6);
+  line-height: calc(1.5 * 1.6);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1.6);
+  padding-inline-start: calc(1rem * 1.6);
+  padding-inline-end: calc(1rem * 1.6);
+  border-color: hsla(213,27%,84%,1);
+}
+
+.c7::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c7::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c7:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c7::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c7:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c7::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c7:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c7:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+      >
+        <input
+          class="c1"
+          placeholder="xxs"
+          role="form"
+        />
+      </div>
+      <div
+        class="c0"
+      >
+        <input
+          class="c2"
+          placeholder="xs"
+          role="form"
+        />
+      </div>
+      <div
+        class="c0"
+      >
+        <input
+          class="c3"
+          placeholder="sm"
+          role="form"
+        />
+      </div>
+      <div
+        class="c0"
+      >
+        <input
+          class="c4"
+          placeholder="md"
+          role="form"
+        />
+      </div>
+      <div
+        class="c0"
+      >
+        <input
+          class="c5"
+          placeholder="lg"
+          role="form"
+        />
+      </div>
+      <div
+        class="c0"
+      >
+        <input
+          class="c6"
+          placeholder="xl"
+          role="form"
+        />
+      </div>
+      <div
+        class="c0"
+      >
+        <input
+          class="c7"
+          placeholder="xxl"
+          role="form"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 0.75);
+  font-size: calc(1rem * 0.75);
+  line-height: calc(1.5 * 0.75);
+  border-style: solid;
+  border-radius: calc(0.375rem * 0.75);
+  padding-inline-start: calc(1rem * 0.75);
+  padding-inline-end: calc(1rem * 0.75);
+  border-color: hsla(213,27%,84%,1);
+}
+
+.c1::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c1:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+.c2 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 0.85);
+  font-size: calc(1rem * 0.85);
+  line-height: calc(1.5 * 0.85);
+  border-style: solid;
+  border-radius: calc(0.375rem * 0.85);
+  padding-inline-start: calc(1rem * 0.85);
+  padding-inline-end: calc(1rem * 0.85);
+  border-color: hsla(213,27%,84%,1);
+}
+
+.c2::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c2::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c2:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c2:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+.c3 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 0.9);
+  font-size: calc(1rem * 0.9);
+  line-height: calc(1.5 * 0.9);
+  border-style: solid;
+  border-radius: calc(0.375rem * 0.9);
+  padding-inline-start: calc(1rem * 0.9);
+  padding-inline-end: calc(1rem * 0.9);
+  border-color: hsla(213,27%,84%,1);
+}
+
+.c3::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c3::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c3:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c3:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+.c4 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(213,27%,84%,1);
+}
+
+.c4::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c4::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c4:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c4:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+.c5 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1.2);
+  font-size: calc(1rem * 1.2);
+  line-height: calc(1.5 * 1.2);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1.2);
+  padding-inline-start: calc(1rem * 1.2);
+  padding-inline-end: calc(1rem * 1.2);
+  border-color: hsla(213,27%,84%,1);
+}
+
+.c5::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c5::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c5:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c5::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c5:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c5::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c5:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c5:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+.c6 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1.4);
+  font-size: calc(1rem * 1.4);
+  line-height: calc(1.5 * 1.4);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1.4);
+  padding-inline-start: calc(1rem * 1.4);
+  padding-inline-end: calc(1rem * 1.4);
+  border-color: hsla(213,27%,84%,1);
+}
+
+.c6::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c6::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c6:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c6::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c6:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c6::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c6:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c6:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+.c7 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1.6);
+  font-size: calc(1rem * 1.6);
+  line-height: calc(1.5 * 1.6);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1.6);
+  padding-inline-start: calc(1rem * 1.6);
+  padding-inline-end: calc(1rem * 1.6);
+  border-color: hsla(213,27%,84%,1);
+}
+
+.c7::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c7::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c7:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c7::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c7:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c7::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c7:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c7:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+<div>
+    <div
+      class="c0"
+    >
+      <input
+        class="c1"
+        placeholder="xxs"
+        role="form"
+      />
+    </div>
+    <div
+      class="c0"
+    >
+      <input
+        class="c2"
+        placeholder="xs"
+        role="form"
+      />
+    </div>
+    <div
+      class="c0"
+    >
+      <input
+        class="c3"
+        placeholder="sm"
+        role="form"
+      />
+    </div>
+    <div
+      class="c0"
+    >
+      <input
+        class="c4"
+        placeholder="md"
+        role="form"
+      />
+    </div>
+    <div
+      class="c0"
+    >
+      <input
+        class="c5"
+        placeholder="lg"
+        role="form"
+      />
+    </div>
+    <div
+      class="c0"
+    >
+      <input
+        class="c6"
+        placeholder="xl"
+        role="form"
+      />
+    </div>
+    <div
+      class="c0"
+    >
+      <input
+        class="c7"
+        placeholder="xxl"
+        role="form"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Input Status 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(212,96%,78%,1);
+}
+
+.c1::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1:hover {
+  border-color: hsla(217,91%,60%,1);
+}
+
+.c1:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+.c3 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(142,77%,73%,1);
+}
+
+.c3::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c3::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c3:hover {
+  border-color: hsla(142,71%,45%,1);
+}
+
+.c3:focus-visible {
+  z-index: 1;
+  border-color: hsla(142,71%,45%,1);
+  box-shadow: hsla(142,71%,45%,1) 0px 0px 0px 1px;
+}
+
+.c5 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(46,97%,65%,1);
+}
+
+.c5::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c5::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c5:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c5::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c5:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c5::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c5:hover {
+  border-color: hsla(38,92%,50%,1);
+}
+
+.c5:focus-visible {
+  z-index: 1;
+  border-color: hsla(38,92%,50%,1);
+  box-shadow: hsla(38,92%,50%,1) 0px 0px 0px 1px;
+}
+
+.c7 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(0,94%,82%,1);
+}
+
+.c7::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c7::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c7:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c7::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c7:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c7::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c7:hover {
+  border-color: hsla(0,84%,60%,1);
+}
+
+.c7:focus-visible {
+  z-index: 1;
+  border-color: hsla(0,84%,60%,1);
+  box-shadow: hsla(0,84%,60%,1) 0px 0px 0px 1px;
+}
+
+.c2 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+  margin-top: 8px;
+  color: hsla(217,91%,60%,1);
+}
+
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+  margin-top: 8px;
+  color: hsla(142,71%,45%,1);
+}
+
+.c6 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+  margin-top: 8px;
+  color: hsla(38,92%,50%,1);
+}
+
+.c8 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+  margin-top: 8px;
+  color: hsla(0,84%,60%,1);
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+      >
+        <input
+          class="c1"
+          placeholder="info"
+          role="form"
+        />
+        <div
+          class="c2"
+          placeholder="info"
+        >
+          Caption
+        </div>
+      </div>
+      <div
+        class="c0"
+      >
+        <input
+          class="c3"
+          placeholder="success"
+          role="form"
+        />
+        <div
+          class="c4"
+          placeholder="success"
+        >
+          Caption
+        </div>
+      </div>
+      <div
+        class="c0"
+      >
+        <input
+          class="c5"
+          placeholder="warning"
+          role="form"
+        />
+        <div
+          class="c6"
+          placeholder="warning"
+        >
+          Caption
+        </div>
+      </div>
+      <div
+        class="c0"
+      >
+        <input
+          class="c7"
+          placeholder="danger"
+          role="form"
+        />
+        <div
+          class="c8"
+          placeholder="danger"
+        >
+          Caption
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(212,96%,78%,1);
+}
+
+.c1::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1:hover {
+  border-color: hsla(217,91%,60%,1);
+}
+
+.c1:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+.c3 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(142,77%,73%,1);
+}
+
+.c3::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c3::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c3:hover {
+  border-color: hsla(142,71%,45%,1);
+}
+
+.c3:focus-visible {
+  z-index: 1;
+  border-color: hsla(142,71%,45%,1);
+  box-shadow: hsla(142,71%,45%,1) 0px 0px 0px 1px;
+}
+
+.c5 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(46,97%,65%,1);
+}
+
+.c5::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c5::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c5:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c5::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c5:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c5::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c5:hover {
+  border-color: hsla(38,92%,50%,1);
+}
+
+.c5:focus-visible {
+  z-index: 1;
+  border-color: hsla(38,92%,50%,1);
+  box-shadow: hsla(38,92%,50%,1) 0px 0px 0px 1px;
+}
+
+.c7 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(0,94%,82%,1);
+}
+
+.c7::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c7::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c7:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c7::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c7:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c7::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c7:hover {
+  border-color: hsla(0,84%,60%,1);
+}
+
+.c7:focus-visible {
+  z-index: 1;
+  border-color: hsla(0,84%,60%,1);
+  box-shadow: hsla(0,84%,60%,1) 0px 0px 0px 1px;
+}
+
+.c2 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+  margin-top: 8px;
+  color: hsla(217,91%,60%,1);
+}
+
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+  margin-top: 8px;
+  color: hsla(142,71%,45%,1);
+}
+
+.c6 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+  margin-top: 8px;
+  color: hsla(38,92%,50%,1);
+}
+
+.c8 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.03333em;
+  -moz-letter-spacing: 0.03333em;
+  -ms-letter-spacing: 0.03333em;
+  letter-spacing: 0.03333em;
+  line-height: 1.66;
+  margin-top: 8px;
+  color: hsla(0,84%,60%,1);
+}
+
+<div>
+    <div
+      class="c0"
+    >
+      <input
+        class="c1"
+        placeholder="info"
+        role="form"
+      />
+      <div
+        class="c2"
+        placeholder="info"
+      >
+        Caption
+      </div>
+    </div>
+    <div
+      class="c0"
+    >
+      <input
+        class="c3"
+        placeholder="success"
+        role="form"
+      />
+      <div
+        class="c4"
+        placeholder="success"
+      >
+        Caption
+      </div>
+    </div>
+    <div
+      class="c0"
+    >
+      <input
+        class="c5"
+        placeholder="warning"
+        role="form"
+      />
+      <div
+        class="c6"
+        placeholder="warning"
+      >
+        Caption
+      </div>
+    </div>
+    <div
+      class="c0"
+    >
+      <input
+        class="c7"
+        placeholder="danger"
+        role="form"
+      />
+      <div
+        class="c8"
+        placeholder="danger"
+      >
+        Caption
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Input Stretched 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: 100%;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(213,27%,84%,1);
+}
+
+.c1::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c1:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+      >
+        <input
+          class="c1"
+          placeholder="stretched value"
+          role="form"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: 100%;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(213,27%,84%,1);
+}
+
+.c1::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c1:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+<div>
+    <div
+      class="c0"
+    >
+      <input
+        class="c1"
+        placeholder="stretched value"
+        role="form"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Input Types 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(213,27%,84%,1);
+}
+
+.c1::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c1:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+.c2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  isolation: isolate;
+}
+
+.c2 > :first-child {
+  left: 0;
+}
+
+.c2 > :last-child {
+  right: 0;
+}
+
+.c2 input {
+  padding-inline-start: calc(2.5em * 1);
+  padding-inline-end: calc(2.5em * 1);
+}
+
+.c2 > div:first-child > input {
+  padding-inline-start: calc(1rem * 1);
+}
+
+.c2 > div:last-child > input {
+  padding-inline-end: calc(1rem * 1);
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 2;
+  font-size: calc(1rem * 1);
+  height: calc(2.5em * 1);
+  width: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  color: hsla(215,20%,65%,1);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 2;
+  font-size: calc(1rem * 1);
+  height: calc(2.5em * 1);
+  width: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  color: hsla(215,20%,65%,1);
+  font-weight: 500;
+  pointer-events: none;
+}
+
+.c4::-webkit-datetime-edit-text {
+  color: hsla(215,16%,47%,1);
+  padding: 0 0.2em;
+}
+
+.c4::-webkit-datetime-edit-day-field {
+  color: hsla(215,16%,47%,1);
+}
+
+.c4::-webkit-datetime-edit-month-field {
+  color: hsla(215,16%,47%,1);
+}
+
+.c4::-webkit-datetime-edit-year-field {
+  color: hsla(215,16%,47%,1);
+}
+
+.c5::-webkit-datetime-edit-hour-field {
+  color: hsla(215,16%,47%,1);
+}
+
+.c5::-webkit-datetime-edit-minute-field {
+  color: hsla(215,16%,47%,1);
+}
+
+.c7::-webkit-datetime-edit-text {
+  color: hsla(215,16%,47%,1);
+  padding: 0 0.2em;
+}
+
+.c7::-webkit-datetime-edit-hour-field {
+  color: hsla(215,16%,47%,1);
+}
+
+.c7::-webkit-datetime-edit-minute-field {
+  color: hsla(215,16%,47%,1);
+}
+
+.c6::-webkit-datetime-edit-week-field {
+  color: hsla(215,16%,47%,1);
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+      >
+        <input
+          class="c1"
+          placeholder="Simple input"
+          role="form"
+        />
+      </div>
+      <div
+        class="c2"
+        placeholder="Password input"
+        role="group"
+      >
+        <div
+          class="c0"
+        >
+          <input
+            class="c1"
+            placeholder="Password input"
+            role="form"
+            type="password"
+          />
+        </div>
+        <div
+          class="c3"
+          placeholder="Password input"
+          role="button"
+        >
+          <span
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0V0zm0 0h24v24H0V0zm0 0h24v24H0V0zm0 0h24v24H0V0z"
+                fill="none"
+              />
+              <path
+                d="M12 6c3.79 0 7.17 2.13 8.82 5.5-.59 1.22-1.42 2.27-2.41 3.12l1.41 1.41c1.39-1.23 2.49-2.77 3.18-4.53C21.27 7.11 17 4 12 4c-1.27 0-2.49.2-3.64.57l1.65 1.65C10.66 6.09 11.32 6 12 6zm-1.07 1.14L13 9.21c.57.25 1.03.71 1.28 1.28l2.07 2.07c.08-.34.14-.7.14-1.07C16.5 9.01 14.48 7 12 7c-.37 0-.72.05-1.07.14zM2.01 3.87l2.68 2.68C3.06 7.83 1.77 9.53 1 11.5 2.73 15.89 7 19 12 19c1.52 0 2.98-.29 4.32-.82l3.42 3.42 1.41-1.41L3.42 2.45 2.01 3.87zm7.5 7.5l2.61 2.61c-.04.01-.08.02-.12.02-1.38 0-2.5-1.12-2.5-2.5 0-.05.01-.08.01-.13zm-3.4-3.4l1.75 1.75c-.23.55-.36 1.15-.36 1.78 0 2.48 2.02 4.5 4.5 4.5.63 0 1.23-.13 1.77-.36l.98.98c-.88.24-1.8.38-2.75.38-3.79 0-7.17-2.13-8.82-5.5.7-1.43 1.72-2.61 2.93-3.53z"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+      <div
+        class="c2"
+        placeholder="Number input"
+        role="group"
+      >
+        <div
+          class="c0"
+        >
+          <input
+            class="c1"
+            placeholder="Number input"
+            role="form"
+            type="number"
+          />
+        </div>
+      </div>
+      <div
+        class="c2"
+        role="group"
+      >
+        <div
+          class="c0"
+        >
+          <input
+            class="c1 c4"
+            role="form"
+            type="date"
+          />
+        </div>
+      </div>
+      <div
+        class="c2 c5"
+        role="group"
+        type="datetime-local"
+      >
+        <div
+          class="c0"
+        >
+          <input
+            class="c1 c4 c5"
+            role="form"
+            type="datetime-local"
+          />
+        </div>
+      </div>
+      <div
+        class="c2"
+        role="group"
+        type="month"
+      >
+        <div
+          class="c0"
+        >
+          <input
+            class="c1 c4"
+            role="form"
+            type="month"
+          />
+        </div>
+      </div>
+      <div
+        class="c2 c6"
+        role="group"
+        type="week"
+      >
+        <div
+          class="c0"
+        >
+          <input
+            class="c1 c4 c6"
+            role="form"
+            type="week"
+          />
+        </div>
+      </div>
+      <div
+        class="c2"
+        role="group"
+      >
+        <div
+          class="c0"
+        >
+          <input
+            class="c1 c7"
+            role="form"
+            type="time"
+          />
+        </div>
+      </div>
+      <div
+        class="c2"
+        placeholder="Email input"
+        role="group"
+      >
+        <div
+          class="c0"
+        >
+          <input
+            class="c1"
+            placeholder="Email input"
+            role="form"
+            type="email"
+          />
+        </div>
+        <div
+          class="c8"
+          placeholder="Email input"
+        >
+          <span
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+      <div
+        class="c2"
+        placeholder="Search input"
+        role="group"
+      >
+        <div
+          class="c8"
+          placeholder="Search input"
+        >
+          <span
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+              <path
+                d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+              />
+            </svg>
+          </span>
+        </div>
+        <div
+          class="c0"
+        >
+          <input
+            class="c1"
+            placeholder="Search input"
+            role="form"
+            type="search"
+          />
+        </div>
+      </div>
+      <div
+        class="c2"
+        placeholder="Telephone input"
+        role="group"
+      >
+        <div
+          class="c0"
+        >
+          <input
+            class="c1"
+            placeholder="Telephone input"
+            role="form"
+            type="tel"
+          />
+        </div>
+        <div
+          class="c8"
+          placeholder="Telephone input"
+        >
+          <span
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+              <path
+                d="M6.54 5c.06.89.21 1.76.45 2.59l-1.2 1.2c-.41-1.2-.67-2.47-.76-3.79h1.51m9.86 12.02c.85.24 1.72.39 2.6.45v1.49c-1.32-.09-2.59-.35-3.8-.75l1.2-1.19M7.5 3H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.49c0-.55-.45-1-1-1-1.24 0-2.45-.2-3.57-.57-.1-.04-.21-.05-.31-.05-.26 0-.51.1-.71.29l-2.2 2.2c-2.83-1.45-5.15-3.76-6.59-6.59l2.2-2.2c.28-.28.36-.67.25-1.02C8.7 6.45 8.5 5.25 8.5 4c0-.55-.45-1-1-1z"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+      <div
+        class="c2"
+        placeholder="URL input"
+        role="group"
+      >
+        <div
+          class="c0"
+        >
+          <input
+            class="c1"
+            placeholder="URL input"
+            role="form"
+            type="url"
+          />
+        </div>
+        <div
+          class="c8"
+          placeholder="URL input"
+        >
+          <span
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(213,27%,84%,1);
+}
+
+.c1::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c1:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+.c2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  isolation: isolate;
+}
+
+.c2 > :first-child {
+  left: 0;
+}
+
+.c2 > :last-child {
+  right: 0;
+}
+
+.c2 input {
+  padding-inline-start: calc(2.5em * 1);
+  padding-inline-end: calc(2.5em * 1);
+}
+
+.c2 > div:first-child > input {
+  padding-inline-start: calc(1rem * 1);
+}
+
+.c2 > div:last-child > input {
+  padding-inline-end: calc(1rem * 1);
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 2;
+  font-size: calc(1rem * 1);
+  height: calc(2.5em * 1);
+  width: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  color: hsla(215,20%,65%,1);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 2;
+  font-size: calc(1rem * 1);
+  height: calc(2.5em * 1);
+  width: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  color: hsla(215,20%,65%,1);
+  font-weight: 500;
+  pointer-events: none;
+}
+
+.c4::-webkit-datetime-edit-text {
+  color: hsla(215,16%,47%,1);
+  padding: 0 0.2em;
+}
+
+.c4::-webkit-datetime-edit-day-field {
+  color: hsla(215,16%,47%,1);
+}
+
+.c4::-webkit-datetime-edit-month-field {
+  color: hsla(215,16%,47%,1);
+}
+
+.c4::-webkit-datetime-edit-year-field {
+  color: hsla(215,16%,47%,1);
+}
+
+.c5::-webkit-datetime-edit-hour-field {
+  color: hsla(215,16%,47%,1);
+}
+
+.c5::-webkit-datetime-edit-minute-field {
+  color: hsla(215,16%,47%,1);
+}
+
+.c7::-webkit-datetime-edit-text {
+  color: hsla(215,16%,47%,1);
+  padding: 0 0.2em;
+}
+
+.c7::-webkit-datetime-edit-hour-field {
+  color: hsla(215,16%,47%,1);
+}
+
+.c7::-webkit-datetime-edit-minute-field {
+  color: hsla(215,16%,47%,1);
+}
+
+.c6::-webkit-datetime-edit-week-field {
+  color: hsla(215,16%,47%,1);
+}
+
+<div>
+    <div
+      class="c0"
+    >
+      <input
+        class="c1"
+        placeholder="Simple input"
+        role="form"
+      />
+    </div>
+    <div
+      class="c2"
+      placeholder="Password input"
+      role="group"
+    >
+      <div
+        class="c0"
+      >
+        <input
+          class="c1"
+          placeholder="Password input"
+          role="form"
+          type="password"
+        />
+      </div>
+      <div
+        class="c3"
+        placeholder="Password input"
+        role="button"
+      >
+        <span
+          style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0V0zm0 0h24v24H0V0zm0 0h24v24H0V0zm0 0h24v24H0V0z"
+              fill="none"
+            />
+            <path
+              d="M12 6c3.79 0 7.17 2.13 8.82 5.5-.59 1.22-1.42 2.27-2.41 3.12l1.41 1.41c1.39-1.23 2.49-2.77 3.18-4.53C21.27 7.11 17 4 12 4c-1.27 0-2.49.2-3.64.57l1.65 1.65C10.66 6.09 11.32 6 12 6zm-1.07 1.14L13 9.21c.57.25 1.03.71 1.28 1.28l2.07 2.07c.08-.34.14-.7.14-1.07C16.5 9.01 14.48 7 12 7c-.37 0-.72.05-1.07.14zM2.01 3.87l2.68 2.68C3.06 7.83 1.77 9.53 1 11.5 2.73 15.89 7 19 12 19c1.52 0 2.98-.29 4.32-.82l3.42 3.42 1.41-1.41L3.42 2.45 2.01 3.87zm7.5 7.5l2.61 2.61c-.04.01-.08.02-.12.02-1.38 0-2.5-1.12-2.5-2.5 0-.05.01-.08.01-.13zm-3.4-3.4l1.75 1.75c-.23.55-.36 1.15-.36 1.78 0 2.48 2.02 4.5 4.5 4.5.63 0 1.23-.13 1.77-.36l.98.98c-.88.24-1.8.38-2.75.38-3.79 0-7.17-2.13-8.82-5.5.7-1.43 1.72-2.61 2.93-3.53z"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+    <div
+      class="c2"
+      placeholder="Number input"
+      role="group"
+    >
+      <div
+        class="c0"
+      >
+        <input
+          class="c1"
+          placeholder="Number input"
+          role="form"
+          type="number"
+        />
+      </div>
+    </div>
+    <div
+      class="c2"
+      role="group"
+    >
+      <div
+        class="c0"
+      >
+        <input
+          class="c1 c4"
+          role="form"
+          type="date"
+        />
+      </div>
+    </div>
+    <div
+      class="c2 c5"
+      role="group"
+      type="datetime-local"
+    >
+      <div
+        class="c0"
+      >
+        <input
+          class="c1 c4 c5"
+          role="form"
+          type="datetime-local"
+        />
+      </div>
+    </div>
+    <div
+      class="c2"
+      role="group"
+      type="month"
+    >
+      <div
+        class="c0"
+      >
+        <input
+          class="c1 c4"
+          role="form"
+          type="month"
+        />
+      </div>
+    </div>
+    <div
+      class="c2 c6"
+      role="group"
+      type="week"
+    >
+      <div
+        class="c0"
+      >
+        <input
+          class="c1 c4 c6"
+          role="form"
+          type="week"
+        />
+      </div>
+    </div>
+    <div
+      class="c2"
+      role="group"
+    >
+      <div
+        class="c0"
+      >
+        <input
+          class="c1 c7"
+          role="form"
+          type="time"
+        />
+      </div>
+    </div>
+    <div
+      class="c2"
+      placeholder="Email input"
+      role="group"
+    >
+      <div
+        class="c0"
+      >
+        <input
+          class="c1"
+          placeholder="Email input"
+          role="form"
+          type="email"
+        />
+      </div>
+      <div
+        class="c8"
+        placeholder="Email input"
+      >
+        <span
+          style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+    <div
+      class="c2"
+      placeholder="Search input"
+      role="group"
+    >
+      <div
+        class="c8"
+        placeholder="Search input"
+      >
+        <span
+          style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0V0z"
+              fill="none"
+            />
+            <path
+              d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+            />
+          </svg>
+        </span>
+      </div>
+      <div
+        class="c0"
+      >
+        <input
+          class="c1"
+          placeholder="Search input"
+          role="form"
+          type="search"
+        />
+      </div>
+    </div>
+    <div
+      class="c2"
+      placeholder="Telephone input"
+      role="group"
+    >
+      <div
+        class="c0"
+      >
+        <input
+          class="c1"
+          placeholder="Telephone input"
+          role="form"
+          type="tel"
+        />
+      </div>
+      <div
+        class="c8"
+        placeholder="Telephone input"
+      >
+        <span
+          style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0V0z"
+              fill="none"
+            />
+            <path
+              d="M6.54 5c.06.89.21 1.76.45 2.59l-1.2 1.2c-.41-1.2-.67-2.47-.76-3.79h1.51m9.86 12.02c.85.24 1.72.39 2.6.45v1.49c-1.32-.09-2.59-.35-3.8-.75l1.2-1.19M7.5 3H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.49c0-.55-.45-1-1-1-1.24 0-2.45-.2-3.57-.57-.1-.04-.21-.05-.31-.05-.26 0-.51.1-.71.29l-2.2 2.2c-2.83-1.45-5.15-3.76-6.59-6.59l2.2-2.2c.28-.28.36-.67.25-1.02C8.7 6.45 8.5 5.25 8.5 4c0-.55-.45-1-1-1z"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+    <div
+      class="c2"
+      placeholder="URL input"
+      role="group"
+    >
+      <div
+        class="c0"
+      >
+        <input
+          class="c1"
+          placeholder="URL input"
+          role="form"
+          type="url"
+        />
+      </div>
+      <div
+        class="c8"
+        placeholder="URL input"
+      >
+        <span
+          style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Input Variants 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(212,96%,78%,1);
+}
+
+.c1::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1:hover {
+  border-color: hsla(217,91%,60%,1);
+}
+
+.c1:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+.c2 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-color: transparent;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  background-color: hsla(213,27%,84%,1);
+}
+
+.c2::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c2::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c2:hover {
+  background-color: hsla(214,32%,91%,1);
+}
+
+.c2:focus-visible {
+  background-color: transparent;
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+.c3 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-color: hsla(212,96%,78%,1);
+}
+
+.c3::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c3::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c3:hover {
+  border-color: hsla(217,91%,60%,1);
+}
+
+.c3:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 1px 0px 0px;
+}
+
+.c4 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+}
+
+.c4::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c4::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+      >
+        <input
+          class="c1"
+          placeholder="outlined"
+          role="form"
+        />
+      </div>
+      <div
+        class="c0"
+      >
+        <input
+          class="c2"
+          placeholder="filled"
+          role="form"
+        />
+      </div>
+      <div
+        class="c0"
+      >
+        <input
+          class="c3"
+          placeholder="underline"
+          role="form"
+        />
+      </div>
+      <div
+        class="c0"
+      >
+        <input
+          class="c4"
+          placeholder="simple"
+          role="form"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(212,96%,78%,1);
+}
+
+.c1::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1:hover {
+  border-color: hsla(217,91%,60%,1);
+}
+
+.c1:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+.c2 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-color: transparent;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  background-color: hsla(213,27%,84%,1);
+}
+
+.c2::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c2::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c2:hover {
+  background-color: hsla(214,32%,91%,1);
+}
+
+.c2:focus-visible {
+  background-color: transparent;
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+.c3 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-color: hsla(212,96%,78%,1);
+}
+
+.c3::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c3::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c3:hover {
+  border-color: hsla(217,91%,60%,1);
+}
+
+.c3:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 1px 0px 0px;
+}
+
+.c4 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+}
+
+.c4::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c4::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+<div>
+    <div
+      class="c0"
+    >
+      <input
+        class="c1"
+        placeholder="outlined"
+        role="form"
+      />
+    </div>
+    <div
+      class="c0"
+    >
+      <input
+        class="c2"
+        placeholder="filled"
+        role="form"
+      />
+    </div>
+    <div
+      class="c0"
+    >
+      <input
+        class="c3"
+        placeholder="underline"
+        role="form"
+      />
+    </div>
+    <div
+      class="c0"
+    >
+      <input
+        class="c4"
+        placeholder="simple"
+        role="form"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Input Variants in dark mode 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(215,19%,35%,1);
+}
+
+.c1::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c1:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+.c2 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-color: transparent;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  background-color: hsla(215,25%,27%,1);
+}
+
+.c2::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c2::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c2:hover {
+  background-color: hsla(215,19%,35%,1);
+}
+
+.c2:focus-visible {
+  background-color: transparent;
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+.c3 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-color: hsla(215,19%,35%,1);
+}
+
+.c3::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c3::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c3:hover {
+  border-color: hsla(215,16%,47%,1);
+}
+
+.c3:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 1px 0px 0px;
+}
+
+.c4 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+}
+
+.c4::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c4::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+      >
+        <input
+          class="c1"
+          placeholder="outlined"
+          role="form"
+        />
+      </div>
+      <div
+        class="c0"
+      >
+        <input
+          class="c2"
+          placeholder="filled"
+          role="form"
+        />
+      </div>
+      <div
+        class="c0"
+      >
+        <input
+          class="c3"
+          placeholder="underline"
+          role="form"
+        />
+      </div>
+      <div
+        class="c0"
+      >
+        <input
+          class="c4"
+          placeholder="simple"
+          role="form"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(215,19%,35%,1);
+}
+
+.c1::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c1:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c1:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c1:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+.c2 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-style: solid;
+  border-color: transparent;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  background-color: hsla(215,25%,27%,1);
+}
+
+.c2::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c2::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c2:hover {
+  background-color: hsla(215,19%,35%,1);
+}
+
+.c2:focus-visible {
+  background-color: transparent;
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 0px 0px 1px;
+}
+
+.c3 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-color: hsla(215,19%,35%,1);
+}
+
+.c3::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c3::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c3:hover {
+  border-color: hsla(215,16%,47%,1);
+}
+
+.c3:focus-visible {
+  z-index: 1;
+  border-color: hsla(217,91%,60%,1);
+  box-shadow: hsla(217,91%,60%,1) 0px 1px 0px 0px;
+}
+
+.c4 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+  line-height: calc(1.5 * 1);
+}
+
+.c4::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c4::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+<div>
+    <div
+      class="c0"
+    >
+      <input
+        class="c1"
+        placeholder="outlined"
+        role="form"
+      />
+    </div>
+    <div
+      class="c0"
+    >
+      <input
+        class="c2"
+        placeholder="filled"
+        role="form"
+      />
+    </div>
+    <div
+      class="c0"
+    >
+      <input
+        class="c3"
+        placeholder="underline"
+        role="form"
+      />
+    </div>
+    <div
+      class="c0"
+    >
+      <input
+        class="c4"
+        placeholder="simple"
+        role="form"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -6,7 +6,7 @@ const InputGroup = React.forwardRef<HTMLDivElement, IInputGroupProps>((props, re
   const { children, ...rest } = props;
 
   return (
-    <InputGroupRoot role="form" ref={ref} {...rest}>
+    <InputGroupRoot role="group" ref={ref} {...rest}>
       {React.Children.map(children, (c) => {
         const child = c as React.ReactElement;
         return React.cloneElement(child, { ...rest });

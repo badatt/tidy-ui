@@ -11,7 +11,7 @@ const StyledDateInput = styled(DateInput)`
 
 const WeekInput = React.forwardRef<HTMLInputElement, Omit<ITextInputProps, 'children'>>((props, ref) => {
   const { ...rest } = props;
-  return <StyledDateInput type="week" {...rest} />;
+  return <StyledDateInput ref={ref} type="week" {...rest} />;
 });
 
 WeekInput.defaultProps = {
