@@ -3,7 +3,7 @@ import { TSize, TStatus } from '@tidy-ui/commons';
 import { IBaseProps } from '@tidy-ui/types';
 
 /**
- * Variant
+ * Input variants
  */
 export enum Variant {
   'outlined',
@@ -13,18 +13,15 @@ export enum Variant {
 }
 
 /**
- * Button variants
+ * Input variants
  *
- * `primary` -> For most significant actions in a page. If at all, only one recommended in a page
+ * `outlined` -> Input with an outline box
  * <br />
- * `outlined` -> Second most significant actions, can be multiple
+ * `filled` -> Filled input without any outline but shaded fill color
  * <br />
- * `hero` -> Like a banner on a page, use this if you want to standout the action you want
- * the user to take
+ * `underline` -> Input with just an underline
  * <br />
- * `basic` -> default actions
- * <br />
- * `simple` -> For ghost actions, use this if you don't want to let user notice that it exists
+ * `simple` -> No styled input
  * <br />
  *
  * @typedef {TVariant}
@@ -52,7 +49,7 @@ export interface ITextInputProps extends IBaseProps, InputHTMLAttributes<HTMLInp
   disabled?: boolean;
 
   /**
-   * Color variant of the Alert, typically used to classify the
+   * Color variant of the component, typically used to classify the
    * information based on its level
    *
    * @type {?TStatus}
@@ -60,7 +57,7 @@ export interface ITextInputProps extends IBaseProps, InputHTMLAttributes<HTMLInp
   status?: TStatus;
 
   /**
-   * If `true`, the button is stretched to full width
+   * If `true`, the component is stretched to full width
    *
    * @type {?boolean}
    * @default false
@@ -89,7 +86,7 @@ export interface ITextInputProps extends IBaseProps, InputHTMLAttributes<HTMLInp
  */
 export interface IInputGroupProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * The variant of the component
+   * If `true`, elements blend inside Input component
    *
    * @type {?boolean}
    * @default false
@@ -118,7 +115,7 @@ export interface IInputGroupProps extends IBaseProps, HTMLAttributes<HTMLDivElem
  */
 export interface IInputElementProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * The variant of the component
+   * If `true`, elements blend inside Input component
    *
    * @type {?boolean}
    * @default false
@@ -139,7 +136,7 @@ export interface IInputElementProps extends IBaseProps, HTMLAttributes<HTMLDivEl
    */
   disabled?: boolean;
   /**
-   * Node
+   * Node enclosed in the element
    */
   node: ReactNode;
 

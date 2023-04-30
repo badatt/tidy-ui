@@ -46,9 +46,8 @@ interface InputComponent
 }
 
 /**
- * Alert can be used to throw any alerts in the application.
- * You can have both actionable alerts as well as just notification
- * purpose based alerts
+ * Input component can be used in forms, a good replacement for
+ * native HTML input tag, powered by many styles and theme support
  */
 const Input = React.forwardRef<HTMLInputElement, Omit<ITextInputProps, 'children'>>((props, ref) => {
   const { ...rest } = props;
