@@ -14,7 +14,7 @@ const StyledDateInput = styled(DateInput)`
 
 const DateTimeInput = React.forwardRef<HTMLInputElement, Omit<ITextInputProps, 'children'>>((props, ref) => {
   const { ...rest } = props;
-  return <StyledDateInput type="datetime-local" {...rest} />;
+  return <StyledDateInput ref={ref} type="datetime-local" {...rest} />;
 });
 
 DateTimeInput.defaultProps = {

@@ -26,14 +26,11 @@ export const frill: Story = {
         </InputGroup>
         <InputGroup>
           <Input.Element node="https://" />
-          <Input placeholder="google" />
+          <Input placeholder="google.com" />
         </InputGroup>
         <InputGroup>
           <Input placeholder="google" />
           <Input.Element node=".com" />
-        </InputGroup>
-        <InputGroup>
-          <Input placeholder="google" />
         </InputGroup>
       </FlexBox>
     );
@@ -56,9 +53,6 @@ export const blend: Story = {
         <InputGroup blend>
           <Input placeholder="500" />
           <Input.Element node={<Icon ele={<Icon.CheckCircle />} />} />
-        </InputGroup>
-        <InputGroup blend>
-          <Input placeholder="500" />
         </InputGroup>
       </FlexBox>
     );

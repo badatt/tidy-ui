@@ -198,16 +198,16 @@ Object {
           role="listitem"
         >
           <span
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
           >
             <span
-              style="height: 1.25em; width: 1.25em;"
+              style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
             >
               <svg
                 aria-hidden="true"
                 fill="currentColor"
                 focusable="false"
-                style="height: 1.25em; width: 1.25em;"
+                style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -220,14 +220,14 @@ Object {
           kotlin
           <span
             role="button"
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
           >
             <svg
               aria-hidden="true"
               class="c6"
               fill="currentColor"
               focusable="false"
-              style="height: 1.25em; width: 1.25em;"
+              style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -239,14 +239,14 @@ Object {
         </div>
         <span
           role="button"
-          style="height: 1.8em; width: 1.8em;"
+          style="align-items: center; display: flex; height: 1.8em; justify-content: center; width: 1.8em;"
         >
           <svg
             aria-hidden="true"
             class="c7"
             fill="currentColor"
             focusable="false"
-            style="height: 1.8em; width: 1.8em;"
+            style="align-items: center; display: flex; height: 1.8em; justify-content: center; width: 1.8em;"
             tone="major"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -453,16 +453,16 @@ Object {
         role="listitem"
       >
         <span
-          style="height: 1.25em; width: 1.25em;"
+          style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
         >
           <span
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
           >
             <svg
               aria-hidden="true"
               fill="currentColor"
               focusable="false"
-              style="height: 1.25em; width: 1.25em;"
+              style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -475,14 +475,14 @@ Object {
         kotlin
         <span
           role="button"
-          style="height: 1.25em; width: 1.25em;"
+          style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
         >
           <svg
             aria-hidden="true"
             class="c6"
             fill="currentColor"
             focusable="false"
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -494,14 +494,14 @@ Object {
       </div>
       <span
         role="button"
-        style="height: 1.8em; width: 1.8em;"
+        style="align-items: center; display: flex; height: 1.8em; justify-content: center; width: 1.8em;"
       >
         <svg
           aria-hidden="true"
           class="c7"
           fill="currentColor"
           focusable="false"
-          style="height: 1.8em; width: 1.8em;"
+          style="align-items: center; display: flex; height: 1.8em; justify-content: center; width: 1.8em;"
           tone="major"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
@@ -766,16 +766,16 @@ Object {
           role="listitem"
         >
           <span
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
           >
             <span
-              style="height: 1.25em; width: 1.25em;"
+              style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
             >
               <svg
                 aria-hidden="true"
                 fill="currentColor"
                 focusable="false"
-                style="height: 1.25em; width: 1.25em;"
+                style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -788,14 +788,14 @@ Object {
           kotlin
           <span
             role="button"
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
           >
             <svg
               aria-hidden="true"
               class="c6"
               fill="currentColor"
               focusable="false"
-              style="height: 1.25em; width: 1.25em;"
+              style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -807,7 +807,7 @@ Object {
         </div>
         <span
           role="button"
-          style="height: 1.8em; width: 1.8em;"
+          style="align-items: center; display: flex; height: 1.8em; justify-content: center; width: 1.8em;"
         >
           <svg
             aria-hidden="true"
@@ -815,7 +815,7 @@ Object {
             fill="currentColor"
             focusable="false"
             margin="0 0 1rem 0"
-            style="height: 1.8em; width: 1.8em;"
+            style="align-items: center; display: flex; height: 1.8em; justify-content: center; width: 1.8em;"
             tone="major"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -1023,16 +1023,16 @@ Object {
         role="listitem"
       >
         <span
-          style="height: 1.25em; width: 1.25em;"
+          style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
         >
           <span
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
           >
             <svg
               aria-hidden="true"
               fill="currentColor"
               focusable="false"
-              style="height: 1.25em; width: 1.25em;"
+              style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1045,14 +1045,14 @@ Object {
         kotlin
         <span
           role="button"
-          style="height: 1.25em; width: 1.25em;"
+          style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
         >
           <svg
             aria-hidden="true"
             class="c6"
             fill="currentColor"
             focusable="false"
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1064,7 +1064,7 @@ Object {
       </div>
       <span
         role="button"
-        style="height: 1.8em; width: 1.8em;"
+        style="align-items: center; display: flex; height: 1.8em; justify-content: center; width: 1.8em;"
       >
         <svg
           aria-hidden="true"
@@ -1072,7 +1072,7 @@ Object {
           fill="currentColor"
           focusable="false"
           margin="0 0 1rem 0"
-          style="height: 1.8em; width: 1.8em;"
+          style="align-items: center; display: flex; height: 1.8em; justify-content: center; width: 1.8em;"
           tone="major"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
@@ -1215,14 +1215,14 @@ Object {
           react
           <span
             role="button"
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
           >
             <svg
               aria-hidden="true"
               class="c2"
               fill="currentColor"
               focusable="false"
-              style="height: 1.25em; width: 1.25em;"
+              style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1239,14 +1239,14 @@ Object {
           java
           <span
             role="button"
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
           >
             <svg
               aria-hidden="true"
               class="c2"
               fill="currentColor"
               focusable="false"
-              style="height: 1.25em; width: 1.25em;"
+              style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1263,14 +1263,14 @@ Object {
           cloud
           <span
             role="button"
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
           >
             <svg
               aria-hidden="true"
               class="c2"
               fill="currentColor"
               focusable="false"
-              style="height: 1.25em; width: 1.25em;"
+              style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1287,14 +1287,14 @@ Object {
           scss
           <span
             role="button"
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
           >
             <svg
               aria-hidden="true"
               class="c2"
               fill="currentColor"
               focusable="false"
-              style="height: 1.25em; width: 1.25em;"
+              style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1306,14 +1306,14 @@ Object {
         </div>
         <span
           role="button"
-          style="height: 1.8em; width: 1.8em;"
+          style="align-items: center; display: flex; height: 1.8em; justify-content: center; width: 1.8em;"
         >
           <svg
             aria-hidden="true"
             class="c3"
             fill="currentColor"
             focusable="false"
-            style="height: 1.8em; width: 1.8em;"
+            style="align-items: center; display: flex; height: 1.8em; justify-content: center; width: 1.8em;"
             tone="major"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -1399,14 +1399,14 @@ Object {
         react
         <span
           role="button"
-          style="height: 1.25em; width: 1.25em;"
+          style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
         >
           <svg
             aria-hidden="true"
             class="c2"
             fill="currentColor"
             focusable="false"
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1423,14 +1423,14 @@ Object {
         java
         <span
           role="button"
-          style="height: 1.25em; width: 1.25em;"
+          style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
         >
           <svg
             aria-hidden="true"
             class="c2"
             fill="currentColor"
             focusable="false"
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1447,14 +1447,14 @@ Object {
         cloud
         <span
           role="button"
-          style="height: 1.25em; width: 1.25em;"
+          style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
         >
           <svg
             aria-hidden="true"
             class="c2"
             fill="currentColor"
             focusable="false"
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1471,14 +1471,14 @@ Object {
         scss
         <span
           role="button"
-          style="height: 1.25em; width: 1.25em;"
+          style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
         >
           <svg
             aria-hidden="true"
             class="c2"
             fill="currentColor"
             focusable="false"
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1490,14 +1490,14 @@ Object {
       </div>
       <span
         role="button"
-        style="height: 1.8em; width: 1.8em;"
+        style="align-items: center; display: flex; height: 1.8em; justify-content: center; width: 1.8em;"
       >
         <svg
           aria-hidden="true"
           class="c3"
           fill="currentColor"
           focusable="false"
-          style="height: 1.8em; width: 1.8em;"
+          style="align-items: center; display: flex; height: 1.8em; justify-content: center; width: 1.8em;"
           tone="major"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
@@ -1640,14 +1640,14 @@ Object {
           react
           <span
             role="button"
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
           >
             <svg
               aria-hidden="true"
               class="c2"
               fill="currentColor"
               focusable="false"
-              style="height: 1.25em; width: 1.25em;"
+              style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1664,14 +1664,14 @@ Object {
           java
           <span
             role="button"
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
           >
             <svg
               aria-hidden="true"
               class="c2"
               fill="currentColor"
               focusable="false"
-              style="height: 1.25em; width: 1.25em;"
+              style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1688,14 +1688,14 @@ Object {
           cloud
           <span
             role="button"
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
           >
             <svg
               aria-hidden="true"
               class="c2"
               fill="currentColor"
               focusable="false"
-              style="height: 1.25em; width: 1.25em;"
+              style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1712,14 +1712,14 @@ Object {
           scss
           <span
             role="button"
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
           >
             <svg
               aria-hidden="true"
               class="c2"
               fill="currentColor"
               focusable="false"
-              style="height: 1.25em; width: 1.25em;"
+              style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1731,14 +1731,14 @@ Object {
         </div>
         <span
           role="button"
-          style="height: 1.8em; width: 1.8em;"
+          style="align-items: center; display: flex; height: 1.8em; justify-content: center; width: 1.8em;"
         >
           <svg
             aria-hidden="true"
             class="c3"
             fill="currentColor"
             focusable="false"
-            style="height: 1.8em; width: 1.8em;"
+            style="align-items: center; display: flex; height: 1.8em; justify-content: center; width: 1.8em;"
             tone="major"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -1824,14 +1824,14 @@ Object {
         react
         <span
           role="button"
-          style="height: 1.25em; width: 1.25em;"
+          style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
         >
           <svg
             aria-hidden="true"
             class="c2"
             fill="currentColor"
             focusable="false"
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1848,14 +1848,14 @@ Object {
         java
         <span
           role="button"
-          style="height: 1.25em; width: 1.25em;"
+          style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
         >
           <svg
             aria-hidden="true"
             class="c2"
             fill="currentColor"
             focusable="false"
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1872,14 +1872,14 @@ Object {
         cloud
         <span
           role="button"
-          style="height: 1.25em; width: 1.25em;"
+          style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
         >
           <svg
             aria-hidden="true"
             class="c2"
             fill="currentColor"
             focusable="false"
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1896,14 +1896,14 @@ Object {
         scss
         <span
           role="button"
-          style="height: 1.25em; width: 1.25em;"
+          style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
         >
           <svg
             aria-hidden="true"
             class="c2"
             fill="currentColor"
             focusable="false"
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1915,14 +1915,14 @@ Object {
       </div>
       <span
         role="button"
-        style="height: 1.8em; width: 1.8em;"
+        style="align-items: center; display: flex; height: 1.8em; justify-content: center; width: 1.8em;"
       >
         <svg
           aria-hidden="true"
           class="c3"
           fill="currentColor"
           focusable="false"
-          style="height: 1.8em; width: 1.8em;"
+          style="align-items: center; display: flex; height: 1.8em; justify-content: center; width: 1.8em;"
           tone="major"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
@@ -2065,14 +2065,14 @@ Object {
           react
           <span
             role="button"
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
           >
             <svg
               aria-hidden="true"
               class="c2"
               fill="currentColor"
               focusable="false"
-              style="height: 1.25em; width: 1.25em;"
+              style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -2089,14 +2089,14 @@ Object {
           java
           <span
             role="button"
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
           >
             <svg
               aria-hidden="true"
               class="c2"
               fill="currentColor"
               focusable="false"
-              style="height: 1.25em; width: 1.25em;"
+              style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -2113,14 +2113,14 @@ Object {
           cloud
           <span
             role="button"
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
           >
             <svg
               aria-hidden="true"
               class="c2"
               fill="currentColor"
               focusable="false"
-              style="height: 1.25em; width: 1.25em;"
+              style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -2137,14 +2137,14 @@ Object {
           scss
           <span
             role="button"
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
           >
             <svg
               aria-hidden="true"
               class="c2"
               fill="currentColor"
               focusable="false"
-              style="height: 1.25em; width: 1.25em;"
+              style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -2156,14 +2156,14 @@ Object {
         </div>
         <span
           role="button"
-          style="height: 1.8em; width: 1.8em;"
+          style="align-items: center; display: flex; height: 1.8em; justify-content: center; width: 1.8em;"
         >
           <svg
             aria-hidden="true"
             class="c3"
             fill="currentColor"
             focusable="false"
-            style="height: 1.8em; width: 1.8em;"
+            style="align-items: center; display: flex; height: 1.8em; justify-content: center; width: 1.8em;"
             tone="major"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -2249,14 +2249,14 @@ Object {
         react
         <span
           role="button"
-          style="height: 1.25em; width: 1.25em;"
+          style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
         >
           <svg
             aria-hidden="true"
             class="c2"
             fill="currentColor"
             focusable="false"
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2273,14 +2273,14 @@ Object {
         java
         <span
           role="button"
-          style="height: 1.25em; width: 1.25em;"
+          style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
         >
           <svg
             aria-hidden="true"
             class="c2"
             fill="currentColor"
             focusable="false"
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2297,14 +2297,14 @@ Object {
         cloud
         <span
           role="button"
-          style="height: 1.25em; width: 1.25em;"
+          style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
         >
           <svg
             aria-hidden="true"
             class="c2"
             fill="currentColor"
             focusable="false"
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2321,14 +2321,14 @@ Object {
         scss
         <span
           role="button"
-          style="height: 1.25em; width: 1.25em;"
+          style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
         >
           <svg
             aria-hidden="true"
             class="c2"
             fill="currentColor"
             focusable="false"
-            style="height: 1.25em; width: 1.25em;"
+            style="align-items: center; display: flex; height: 1.25em; justify-content: center; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2340,14 +2340,14 @@ Object {
       </div>
       <span
         role="button"
-        style="height: 1.8em; width: 1.8em;"
+        style="align-items: center; display: flex; height: 1.8em; justify-content: center; width: 1.8em;"
       >
         <svg
           aria-hidden="true"
           class="c3"
           fill="currentColor"
           focusable="false"
-          style="height: 1.8em; width: 1.8em;"
+          style="align-items: center; display: flex; height: 1.8em; justify-content: center; width: 1.8em;"
           tone="major"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"

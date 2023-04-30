@@ -5,22 +5,22 @@ import { InputGroup } from './InputGroup';
 import { TextInput } from './TextInput';
 import { ITextInputProps } from './types';
 
-const SearchInput = React.forwardRef<HTMLInputElement, Omit<ITextInputProps, 'children'>>((props, ref) => {
+const UrlInput = React.forwardRef<HTMLInputElement, Omit<ITextInputProps, 'children'>>((props, ref) => {
   const { ...rest } = props;
   return (
     <InputGroup blend {...rest}>
-      <InputElement node={<Icon ele={<Icon.Search />} />} />
-      <TextInput ref={ref} type="search" {...rest} />
+      <TextInput ref={ref} type="url" {...rest} />
+      <InputElement node={<Icon ele={<Icon.Link />} />} />
     </InputGroup>
   );
 });
 
-SearchInput.defaultProps = {
+UrlInput.defaultProps = {
   disabled: false,
   sz: 'md',
   variant: 'outlined',
 };
 
-SearchInput.displayName = 'SearchInput';
+UrlInput.displayName = 'UrlInput';
 
-export { SearchInput };
+export { UrlInput };
