@@ -2,6 +2,11 @@ import React from 'react';
 import { InputGroupRoot } from './components';
 import { IInputGroupProps } from './types';
 
+/**
+ * InputGroup can be used to group an Input with InputElements.
+ * This cannot be used to group two or more Inputs, only one Input type should
+ * be used inside this.
+ */
 const InputGroup = React.forwardRef<HTMLDivElement, IInputGroupProps>((props, ref) => {
   const { children, ...rest } = props;
 
