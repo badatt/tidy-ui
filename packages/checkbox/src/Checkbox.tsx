@@ -35,4 +35,6 @@ Checkbox.defaultProps = {
   sz: 'md',
 };
 
+Checkbox.displayName = 'Checkbox';
+
 export { Checkbox };

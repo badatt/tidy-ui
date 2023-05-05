@@ -1,14 +1,14 @@
 import React from 'react';
-import { css, styled } from '@tidy-ui/commons';
+import { {{ properCase name }}Root } from './components';
 import { I{{ properCase name }}Props } from './types';
 
 const {{ properCase name }} = React.forwardRef<HTMLDivElement, I{{ properCase name }}Props>(
   (props, ref) => {
     const { children, ...rest } = props;
     return (
-      <div ref={ref} role="{{ name }}" {...rest}>
+      <{{ properCase name }}Root ref={ref} role="{{ name }}" {...rest}>
         {children}
-      </div>
+      </{{ properCase name }}Root>
     );
   }
 );
@@ -16,5 +16,7 @@ const {{ properCase name }} = React.forwardRef<HTMLDivElement, I{{ properCase na
 {{ properCase name }}.defaultProps = {
   
 };
+
+{{ properCase name }}.displayName = '{{ properCase name }}';
 
 export { {{ properCase name }} };

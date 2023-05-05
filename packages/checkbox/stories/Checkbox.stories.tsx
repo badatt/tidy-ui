@@ -1,8 +1,7 @@
 import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 import { FlexBox } from '../../flexbox/src';
-import { Size, Status } from '../../commons/src';
-import { Text } from '../../text/src';
+import { Status } from '../../commons/src';
 import { Checkbox } from '../src';
 
 const meta: Meta<typeof Checkbox> = {

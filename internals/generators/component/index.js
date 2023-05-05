@@ -42,6 +42,12 @@ module.exports = {
       },
       {
         abortOnFail: true,
+        path: `${componentDest}/{{name}}/src/components.tsx`,
+        templateFile: `${templateDir}/src/components.tsx.hbs`,
+        type: 'add',
+      },
+      {
+        abortOnFail: true,
         path: `${componentDest}/{{name}}/src/index.ts`,
         templateFile: `${templateDir}/src/index.ts.hbs`,
         type: 'add',
