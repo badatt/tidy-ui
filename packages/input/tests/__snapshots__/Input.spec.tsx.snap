@@ -316,13 +316,13 @@ Object {
 }
 
 .c2 {
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.03333em;
-  -moz-letter-spacing: 0.03333em;
-  -ms-letter-spacing: 0.03333em;
-  letter-spacing: 0.03333em;
-  line-height: 1.66;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   margin-top: 8px;
 }
 
@@ -423,13 +423,13 @@ Object {
 }
 
 .c2 {
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.03333em;
-  -moz-letter-spacing: 0.03333em;
-  -ms-letter-spacing: 0.03333em;
-  letter-spacing: 0.03333em;
-  line-height: 1.66;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   margin-top: 8px;
 }
 
@@ -2817,49 +2817,49 @@ Object {
 }
 
 .c2 {
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.03333em;
-  -moz-letter-spacing: 0.03333em;
-  -ms-letter-spacing: 0.03333em;
-  letter-spacing: 0.03333em;
-  line-height: 1.66;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   margin-top: 8px;
   color: hsla(217,91%,60%,1);
 }
 
 .c4 {
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.03333em;
-  -moz-letter-spacing: 0.03333em;
-  -ms-letter-spacing: 0.03333em;
-  letter-spacing: 0.03333em;
-  line-height: 1.66;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   margin-top: 8px;
   color: hsla(142,71%,45%,1);
 }
 
 .c6 {
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.03333em;
-  -moz-letter-spacing: 0.03333em;
-  -ms-letter-spacing: 0.03333em;
-  letter-spacing: 0.03333em;
-  line-height: 1.66;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   margin-top: 8px;
   color: hsla(38,92%,50%,1);
 }
 
 .c8 {
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.03333em;
-  -moz-letter-spacing: 0.03333em;
-  -ms-letter-spacing: 0.03333em;
-  letter-spacing: 0.03333em;
-  line-height: 1.66;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   margin-top: 8px;
   color: hsla(0,84%,60%,1);
 }
@@ -3204,49 +3204,49 @@ Object {
 }
 
 .c2 {
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.03333em;
-  -moz-letter-spacing: 0.03333em;
-  -ms-letter-spacing: 0.03333em;
-  letter-spacing: 0.03333em;
-  line-height: 1.66;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   margin-top: 8px;
   color: hsla(217,91%,60%,1);
 }
 
 .c4 {
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.03333em;
-  -moz-letter-spacing: 0.03333em;
-  -ms-letter-spacing: 0.03333em;
-  letter-spacing: 0.03333em;
-  line-height: 1.66;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   margin-top: 8px;
   color: hsla(142,71%,45%,1);
 }
 
 .c6 {
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.03333em;
-  -moz-letter-spacing: 0.03333em;
-  -ms-letter-spacing: 0.03333em;
-  letter-spacing: 0.03333em;
-  line-height: 1.66;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   margin-top: 8px;
   color: hsla(38,92%,50%,1);
 }
 
 .c8 {
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   font-weight: 400;
-  -webkit-letter-spacing: 0.03333em;
-  -moz-letter-spacing: 0.03333em;
-  -ms-letter-spacing: 0.03333em;
-  letter-spacing: 0.03333em;
-  line-height: 1.66;
+  -webkit-letter-spacing: 0.01071em;
+  -moz-letter-spacing: 0.01071em;
+  -ms-letter-spacing: 0.01071em;
+  letter-spacing: 0.01071em;
+  line-height: 1.43;
   margin-top: 8px;
   color: hsla(0,84%,60%,1);
 }
