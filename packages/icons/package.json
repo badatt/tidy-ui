@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/icons",
-  "version": "0.22.0",
+  "version": "0.23.0",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:icons",
@@ -13,7 +13,7 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/types": "^0.22.0"
+    "@tidy-ui/types": "^0.23.0"
   },
   "peerDependencies": {
     "react": "^18.0.0",
