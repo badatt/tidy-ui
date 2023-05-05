@@ -27,7 +27,7 @@ const TextInputMain = styled.input<ITextInputProps>`
 `;
 
 const TextInputLabel = styled.div<ITextInputProps>`
-  ${createFontStyle('caption')}
+  ${createFontStyle('span')}
   margin-top: 8px;
   ${({ theme: { palette }, status }) => css`
     color: ${status && palette[status][500]};

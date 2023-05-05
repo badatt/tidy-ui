@@ -15,34 +15,6 @@ export default meta;
 
 type Story = StoryObj<typeof Input>;
 
-export const types: Story = {
-  render: () => {
-    const [inputValue, setInputValue] = React.useState();
-    const handleChange = (e) => {
-      setInputValue(e.target.value);
-    };
-    return (
-      <FlexBox gap="2rem">
-        <FlexBox gap="2rem" fld="column" w="350px">
-          <Input placeholder="Simple input" onChange={handleChange} />
-          <Input.Password placeholder="Password input" onChange={handleChange} />
-          <Input.Number placeholder="Number input" onChange={handleChange} />
-          <Input.Date onChange={handleChange} />
-          <Input.DateTime onChange={handleChange} />
-          <Input.Month onChange={handleChange} />
-          <Input.Week onChange={handleChange} />
-          <Input.Time onChange={handleChange} />
-          <Input.Email placeholder="Email input" onChange={handleChange} />
-          <Input.Search placeholder="Search input" onChange={handleChange} />
-          <Input.Telephone placeholder="Telephone input" onChange={handleChange} />
-          <Input.Url placeholder="URL input" onChange={handleChange} />
-        </FlexBox>
-        <FlexBox>{inputValue && <Text.h6>The value is {inputValue}</Text.h6>}</FlexBox>
-      </FlexBox>
-    );
-  },
-};
-
 export const variants: Story = {
   render: () => {
     return (
@@ -170,6 +142,34 @@ export const password: Story = {
           onChange={handleChange}
           placeholder="Password input"
         />
+      </FlexBox>
+    );
+  },
+};
+
+export const types: Story = {
+  render: () => {
+    const [inputValue, setInputValue] = React.useState();
+    const handleChange = (e) => {
+      setInputValue(e.target.value);
+    };
+    return (
+      <FlexBox gap="2rem">
+        <FlexBox gap="2rem" fld="column" w="350px">
+          <Input placeholder="Simple input" onChange={handleChange} />
+          <Input.Password placeholder="Password input" onChange={handleChange} />
+          <Input.Number placeholder="Number input" onChange={handleChange} />
+          <Input.Date onChange={handleChange} />
+          <Input.DateTime onChange={handleChange} />
+          <Input.Month onChange={handleChange} />
+          <Input.Week onChange={handleChange} />
+          <Input.Time onChange={handleChange} />
+          <Input.Email placeholder="Email input" onChange={handleChange} />
+          <Input.Search placeholder="Search input" onChange={handleChange} />
+          <Input.Telephone placeholder="Telephone input" onChange={handleChange} />
+          <Input.Url placeholder="URL input" onChange={handleChange} />
+        </FlexBox>
+        <FlexBox>{inputValue && <Text.h6>The value is {inputValue}</Text.h6>}</FlexBox>
       </FlexBox>
     );
   },
