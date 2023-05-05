@@ -1045,7 +1045,7 @@ Object {
 }
 `;
 
-exports[`Checkbox Filled and checked in dark 1`] = `
+exports[`Checkbox Filled checkbox in dark 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
