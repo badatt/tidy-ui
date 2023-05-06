@@ -26,5 +26,5 @@ export interface IDrawerProps extends IBaseProps, HTMLAttributes<HTMLDivElement>
    * @type {?((e?: any | undefined) => void)}
    */
   // eslint-disable-next-line  @typescript-eslint/no-explicit-any
-  onClose?: (e?: any | undefined) => void;
+  onClose?: (e?: any) => void;
 }

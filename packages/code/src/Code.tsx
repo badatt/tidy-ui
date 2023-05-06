@@ -13,14 +13,13 @@ const Code = React.forwardRef<HTMLDivElement, ICodeProps>((props, ref) => {
   const [copied, setCopied] = React.useState(false);
 
   /** @internal */
-  const handleCopy = () => {
-    navigator.permissions.query({ name: 'clipboard-write' as PermissionName }).then((result) => {
-      if (result.state === 'granted' || result.state === 'prompt') {
-        navigator.clipboard.writeText(codeRef.current?.innerText || '').then(() => {
-          setCopied(true);
-        });
-      }
-    });
+  const handleCopy = async () => {
+    const result = await navigator.permissions.query({ name: 'clipboard-write' as PermissionName });
+    if (result.state === 'granted' || result.state === 'prompt') {
+      navigator.clipboard.writeText(codeRef.current?.innerText ?? '').then(() => {
+        setCopied(true);
+      });
+    }
     setTimeout(() => setCopied(false), 2000);
   };
 

@@ -15,8 +15,8 @@ export interface IModalProps extends IBaseProps, HTMLAttributes<HTMLDivElement> 
   /**
    * Callback (if any) when the backdrop clicked
    *
-   * @type {?((e?: any | undefined) => void)}
+   * @type {?((e?: any) => void)}
    */
   // eslint-disable-next-line  @typescript-eslint/no-explicit-any
-  onBackdropClick?: (e?: any | undefined) => void;
+  onBackdropClick?: (e?: any) => void;
 }

@@ -30,7 +30,7 @@ const commonStyles = css<ITextInputProps>`
   color: inherit;
 
   ${({ disabled, stretched, sz, w }) => css`
-    width: ${stretched ? '100%' : w || 'inherit'};
+    width: ${stretched ? '100%' : w ?? 'inherit'};
     height: calc(2.5em * ${sizeScale[sz!]});
     font-size: calc(1rem * ${sizeScale[sz!]});
     line-height: calc(1.5 * ${sizeScale[sz!]});

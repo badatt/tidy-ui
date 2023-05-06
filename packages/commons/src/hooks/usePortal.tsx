@@ -47,8 +47,8 @@ const usePortal = (props?: IPortalProps): IUsePortalFnReturn => {
 
   React.useEffect(() => {
     const containerEle = typeof props?.container === 'function' ? props.container() : props?.container;
-    const existingParent = props?.id && document.getElementById(props.id);
-    const parent = containerEle || existingParent || document.body;
+    const existingParent = (props?.id && document.getElementById(props.id)) as HTMLElement | null;
+    const parent = containerEle ?? existingParent ?? document.body;
     rootRef.current = parent;
   }, [rootRef, props?.container, props?.id]);
 

@@ -9,8 +9,13 @@ import { IButtonProps } from './types';
  */
 const Button = React.forwardRef<HTMLButtonElement, IButtonProps>((props, ref) => {
   const { children, loading, disabled, icon, ...rest } = props;
+
+  const isDisabled = React.useMemo(() => {
+    return [loading, disabled].some(Boolean);
+  }, [loading, disabled]);
+
   return (
-    <ButtonRoot role="button" ref={ref} disabled={disabled || loading} icon={icon} {...rest}>
+    <ButtonRoot role="button" ref={ref} disabled={isDisabled} icon={icon} {...rest}>
       {icon ? (
         <IconButtonIconOnlyWrapper {...rest}>
           <IconButtonIcon iconOnly>{icon}</IconButtonIcon>

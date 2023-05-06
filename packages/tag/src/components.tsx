@@ -16,7 +16,7 @@ const TagRoot = styled.div<ITagProps>`
     border-radius: 0.25rem;
     font-size: ${sizeStyles[size!].fontSize};
     line-height: ${sizeStyles[size!].lineHeight};
-    width: ${w || 'fit-content'};
+    width: ${w ?? 'fit-content'};
     height: ${h};
     ${outlined ? outlinedContent : filledContent}
     ${disabled &&

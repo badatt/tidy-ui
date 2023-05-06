@@ -65,7 +65,7 @@ const PanelBodyRoot = styled.div<IPanelBodyProps>`
     padding-bottom: ${visible ? '1rem' : '0'};
     ${visible
       ? css`
-          height: ${h || 'fit-content'};
+          height: ${h ?? 'fit-content'};
         `
       : css`
           height: 0;
