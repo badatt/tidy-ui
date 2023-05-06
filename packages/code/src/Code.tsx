@@ -13,13 +13,29 @@ const Code = React.forwardRef<HTMLDivElement, ICodeProps>((props, ref) => {
   const [copied, setCopied] = React.useState(false);
 
   /** @internal */
-  const handleCopy = async () => {
-    const result = await navigator.permissions.query({ name: 'clipboard-write' as PermissionName });
-    if (result.state === 'granted' || result.state === 'prompt') {
-      navigator.clipboard.writeText(codeRef.current?.innerText ?? '').then(() => {
-        setCopied(true);
+  const handleCopy = () => {
+    navigator.permissions
+      .query({ name: 'clipboard-write' as PermissionName })
+      .then((result) => {
+        if (result.state === 'granted' || result.state === 'prompt') {
+          navigator.clipboard
+            .writeText(codeRef.current?.innerText ?? '')
+            .then(() => {
+              setCopied(true);
+            })
+            .catch((e) => {
+              setCopied(false);
+              console.error('Error while writing to clipboard', e);
+            });
+        } else {
+          console.error("'clipboard-write' permission was not granted");
+        }
+      })
+      .catch(() => {
+        setCopied(false);
+        console.error("Error fetching 'clipboard-write' permissions");
       });
-    }
+
     setTimeout(() => setCopied(false), 2000);
   };
 
