@@ -212,7 +212,7 @@ export const customLayout = () => {
                 disabled={span[v] === 1}
                 size="xs"
               />
-              <Text.body1 style={{ width: '3rem' }} ctr mgn="0">
+              <Text.body1 style={{ width: '3rem' }} ctr>
                 {v}={span[v]}
               </Text.body1>
               <IconButton

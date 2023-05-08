@@ -75,7 +75,6 @@ const outlinedTickStyles = css<ICheckboxProps>`
 
 const StyledCheckboxInput = styled.div<ICheckboxProps>`
   display: inline-block;
-  border-radius: 0.2em;
   transition: all 150ms;
 
   ${({ filled, sz }) => css`

@@ -47,13 +47,10 @@ const TextRoot = styled.div<ITextProps>`
           font-weight: ${typography[v!].fontWeight};
         `}
 
-    ${mgn
-      ? css`
-          margin: ${mgn};
-        `
-      : css`
-          margin-bottom: ${typography[v!].marginBottom};
-        `}
+    ${mgn &&
+    css`
+      margin: ${mgn};
+    `}
     
     ${!dsb &&
     tone &&

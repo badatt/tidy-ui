@@ -17,7 +17,7 @@ export const basic = () => {
   const ele = (
     <Message withoutLabel ele={<FlexBox gap="0.5rem" />} tone="success">
       <Icon ele={<Icon.CheckCircle />} />
-      <Text.body1 mgn="0">Successfully uploaded</Text.body1>
+      <Text.body1>Successfully uploaded</Text.body1>
     </Message>
   );
 
