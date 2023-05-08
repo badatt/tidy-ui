@@ -10,6 +10,12 @@ interface RadioComponent extends React.ForwardRefExoticComponent<IRadioProps & R
   Option: typeof RadioOption;
 }
 
+/**
+ * Radio can be used when only one option may be selected
+ * in a choice over a series of options, powered by theming
+ * styles etc. Radio should only have RadioOption elements
+ * as its children
+ */
 const Radio = React.forwardRef<HTMLLIElement, IRadioProps>((props, ref) => {
   const { children, value, vertical, ...rest } = props;
   const joinedValues = React.Children.map(children, (c) => (c as ReactElement).props.value)?.join('');

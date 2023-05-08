@@ -3,6 +3,10 @@ import { useHash } from '@tidy-ui/commons';
 import { RadioOptionInput, RadioOptionLabel, RadioOptionRoot } from './components';
 import { IRadioOptionProps } from './types';
 
+/**
+ * Radio option is one such option in a series of options
+ * under Radio component
+ */
 const RadioOption = React.forwardRef<HTMLInputElement, IRadioOptionProps>((props, ref) => {
   const { children, disabled, sz, value, ...rest } = props;
   const hash = useHash(value, { maxLen: 8 });
