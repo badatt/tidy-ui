@@ -780,7 +780,6 @@ Object {
   letter-spacing: 0.03333em;
   line-height: 1.66;
   font-weight: 400;
-  margin-bottom: 0.375rem;
   -webkit-text-decoration: underline;
   text-decoration: underline;
   text-transform: uppercase;
@@ -795,7 +794,6 @@ Object {
   letter-spacing: 0em;
   line-height: 1.334;
   font-weight: 400;
-  margin-bottom: 0.75rem;
 }
 
 .c0 {
@@ -856,7 +854,6 @@ Object {
   letter-spacing: 0.03333em;
   line-height: 1.66;
   font-weight: 400;
-  margin-bottom: 0.375rem;
   -webkit-text-decoration: underline;
   text-decoration: underline;
   text-transform: uppercase;
@@ -871,7 +868,6 @@ Object {
   letter-spacing: 0em;
   line-height: 1.334;
   font-weight: 400;
-  margin-bottom: 0.75rem;
 }
 
 .c0 {
