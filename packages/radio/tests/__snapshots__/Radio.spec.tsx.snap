@@ -1,0 +1,3165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio Basic render 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  gap: calc(0.5rem * 1);
+}
+
+.c2 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0.2em;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 2px solid hsla(215,16%,47%,1);
+  font-size: calc(1rem * 1);
+}
+
+.c2::after {
+  content: '';
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  border-radius: 50%;
+  width: 0.75em;
+  height: 0.75em;
+}
+
+.c2:hover::after {
+  background-color: hsla(215,16%,47%,1);
+}
+
+.c2:focus {
+  outline: 1px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c2:checked:hover {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked:hover::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c3 {
+  cursor: pointer;
+}
+
+<body>
+    <div>
+      <fieldset
+        class="c0"
+        role="radiogroup"
+      >
+        <div
+          class="c1"
+        >
+          <input
+            checked=""
+            class="c2"
+            id="f4ffb470"
+            name="f4ffb470"
+            role="radio"
+            type="radio"
+            value="opt3"
+          />
+          <label
+            class="c3"
+            for="f4ffb470"
+          >
+            Option 3
+          </label>
+        </div>
+      </fieldset>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  gap: calc(0.5rem * 1);
+}
+
+.c2 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0.2em;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 2px solid hsla(215,16%,47%,1);
+  font-size: calc(1rem * 1);
+}
+
+.c2::after {
+  content: '';
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  border-radius: 50%;
+  width: 0.75em;
+  height: 0.75em;
+}
+
+.c2:hover::after {
+  background-color: hsla(215,16%,47%,1);
+}
+
+.c2:focus {
+  outline: 1px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c2:checked:hover {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked:hover::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c3 {
+  cursor: pointer;
+}
+
+<div>
+    <fieldset
+      class="c0"
+      role="radiogroup"
+    >
+      <div
+        class="c1"
+      >
+        <input
+          checked=""
+          class="c2"
+          id="f4ffb470"
+          name="f4ffb470"
+          role="radio"
+          type="radio"
+          value="opt3"
+        />
+        <label
+          class="c3"
+          for="f4ffb470"
+        >
+          Option 3
+        </label>
+      </div>
+    </fieldset>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Radio Dark mode basic render 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  gap: calc(0.5rem * 1);
+}
+
+.c2 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0.2em;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 2px solid hsla(215,16%,47%,1);
+  font-size: calc(1rem * 1);
+}
+
+.c2::after {
+  content: '';
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  border-radius: 50%;
+  width: 0.75em;
+  height: 0.75em;
+}
+
+.c2:hover::after {
+  background-color: hsla(215,16%,47%,1);
+}
+
+.c2:focus {
+  outline: 1px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c2:checked:hover {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked:hover::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c3 {
+  cursor: pointer;
+}
+
+<body>
+    <div>
+      <fieldset
+        class="c0"
+        role="radiogroup"
+      >
+        <div
+          class="c1"
+        >
+          <input
+            class="c2"
+            id="ae6e7b9e"
+            name="ae6e7b9e"
+            role="radio"
+            type="radio"
+            value="opt1"
+          />
+          <label
+            class="c3"
+            for="ae6e7b9e"
+          >
+            Option 1
+          </label>
+        </div>
+      </fieldset>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  gap: calc(0.5rem * 1);
+}
+
+.c2 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0.2em;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 2px solid hsla(215,16%,47%,1);
+  font-size: calc(1rem * 1);
+}
+
+.c2::after {
+  content: '';
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  border-radius: 50%;
+  width: 0.75em;
+  height: 0.75em;
+}
+
+.c2:hover::after {
+  background-color: hsla(215,16%,47%,1);
+}
+
+.c2:focus {
+  outline: 1px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c2:checked:hover {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked:hover::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c3 {
+  cursor: pointer;
+}
+
+<div>
+    <fieldset
+      class="c0"
+      role="radiogroup"
+    >
+      <div
+        class="c1"
+      >
+        <input
+          class="c2"
+          id="ae6e7b9e"
+          name="ae6e7b9e"
+          role="radio"
+          type="radio"
+          value="opt1"
+        />
+        <label
+          class="c3"
+          for="ae6e7b9e"
+        >
+          Option 1
+        </label>
+      </div>
+    </fieldset>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Radio Disabled 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  gap: calc(0.5rem * 1);
+  opacity: 0.8;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.c2 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0.2em;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 2px solid hsla(215,16%,47%,1);
+  font-size: calc(1rem * 1);
+}
+
+.c2::after {
+  content: '';
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  border-radius: 50%;
+  width: 0.75em;
+  height: 0.75em;
+}
+
+.c2:hover::after {
+  background-color: hsla(215,16%,47%,1);
+}
+
+.c2:focus {
+  outline: 1px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c2:checked:hover {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked:hover::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c3 {
+  cursor: pointer;
+}
+
+<body>
+    <div>
+      <fieldset
+        class="c0"
+        role="radiogroup"
+      >
+        <div
+          class="c1"
+          disabled=""
+        >
+          <input
+            class="c2"
+            id="9b291af1"
+            name="9b291af1"
+            role="radio"
+            type="radio"
+            value="2opt1"
+          />
+          <label
+            class="c3"
+            for="9b291af1"
+          >
+            Option 1
+          </label>
+        </div>
+      </fieldset>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  gap: calc(0.5rem * 1);
+  opacity: 0.8;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.c2 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0.2em;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 2px solid hsla(215,16%,47%,1);
+  font-size: calc(1rem * 1);
+}
+
+.c2::after {
+  content: '';
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  border-radius: 50%;
+  width: 0.75em;
+  height: 0.75em;
+}
+
+.c2:hover::after {
+  background-color: hsla(215,16%,47%,1);
+}
+
+.c2:focus {
+  outline: 1px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c2:checked:hover {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked:hover::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c3 {
+  cursor: pointer;
+}
+
+<div>
+    <fieldset
+      class="c0"
+      role="radiogroup"
+    >
+      <div
+        class="c1"
+        disabled=""
+      >
+        <input
+          class="c2"
+          id="9b291af1"
+          name="9b291af1"
+          role="radio"
+          type="radio"
+          value="2opt1"
+        />
+        <label
+          class="c3"
+          for="9b291af1"
+        >
+          Option 1
+        </label>
+      </div>
+    </fieldset>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Radio Invalid children for Radio Invalid children for Radio 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+<body>
+    <div>
+      <fieldset
+        class="c0"
+        role="radiogroup"
+      >
+        <div>
+          Invalid text
+        </div>
+      </fieldset>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+<div>
+    <fieldset
+      class="c0"
+      role="radiogroup"
+    >
+      <div>
+        Invalid text
+      </div>
+    </fieldset>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Radio Invalid children for Radio No children for Radio 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+<body>
+    <div>
+      <fieldset
+        class="c0"
+        role="radiogroup"
+      />
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+<div>
+    <fieldset
+      class="c0"
+      role="radiogroup"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Radio Sizes 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  gap: calc(0.5rem * 1);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  gap: calc(0.5rem * 1.5);
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  gap: calc(0.5rem * 2);
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  gap: calc(0.5rem * 2.5);
+}
+
+.c2 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0.2em;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 2px solid hsla(215,16%,47%,1);
+  font-size: calc(1rem * 1);
+}
+
+.c2::after {
+  content: '';
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  border-radius: 50%;
+  width: 0.75em;
+  height: 0.75em;
+}
+
+.c2:hover::after {
+  background-color: hsla(215,16%,47%,1);
+}
+
+.c2:focus {
+  outline: 1px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c2:checked:hover {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked:hover::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c5 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0.2em;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 2px solid hsla(215,16%,47%,1);
+  font-size: calc(1rem * 1.5);
+}
+
+.c5::after {
+  content: '';
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  border-radius: 50%;
+  width: 0.75em;
+  height: 0.75em;
+}
+
+.c5:hover::after {
+  background-color: hsla(215,16%,47%,1);
+}
+
+.c5:focus {
+  outline: 1px solid hsla(330,81%,60%,1);
+}
+
+.c5:checked {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c5:checked::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c5:checked:hover {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c5:checked:hover::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c7 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0.2em;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 2px solid hsla(215,16%,47%,1);
+  font-size: calc(1rem * 2);
+}
+
+.c7::after {
+  content: '';
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  border-radius: 50%;
+  width: 0.75em;
+  height: 0.75em;
+}
+
+.c7:hover::after {
+  background-color: hsla(215,16%,47%,1);
+}
+
+.c7:focus {
+  outline: 1px solid hsla(330,81%,60%,1);
+}
+
+.c7:checked {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c7:checked::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c7:checked:hover {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c7:checked:hover::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c9 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0.2em;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 2px solid hsla(215,16%,47%,1);
+  font-size: calc(1rem * 2.5);
+}
+
+.c9::after {
+  content: '';
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  border-radius: 50%;
+  width: 0.75em;
+  height: 0.75em;
+}
+
+.c9:hover::after {
+  background-color: hsla(215,16%,47%,1);
+}
+
+.c9:focus {
+  outline: 1px solid hsla(330,81%,60%,1);
+}
+
+.c9:checked {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c9:checked::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c9:checked:hover {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c9:checked:hover::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c3 {
+  cursor: pointer;
+}
+
+<body>
+    <div>
+      <fieldset
+        class="c0"
+        role="radiogroup"
+      >
+        <div
+          class="c1"
+        >
+          <input
+            class="c2"
+            id="21262a3c"
+            name="c196a9f8"
+            role="radio"
+            type="radio"
+            value="md"
+          />
+          <label
+            class="c3"
+            for="21262a3c"
+          >
+            Option default md
+          </label>
+        </div>
+        <div
+          class="c4"
+        >
+          <input
+            class="c5"
+            id="0e6ba33f"
+            name="c196a9f8"
+            role="radio"
+            type="radio"
+            value="lg"
+          />
+          <label
+            class="c3"
+            for="0e6ba33f"
+          >
+            Option lg
+          </label>
+        </div>
+        <div
+          class="c6"
+        >
+          <input
+            class="c7"
+            id="525a6f3c"
+            name="c196a9f8"
+            role="radio"
+            type="radio"
+            value="xl"
+          />
+          <label
+            class="c3"
+            for="525a6f3c"
+          >
+            Option xl
+          </label>
+        </div>
+        <div
+          class="c8"
+        >
+          <input
+            class="c9"
+            id="82703046"
+            name="c196a9f8"
+            role="radio"
+            type="radio"
+            value="xxl"
+          />
+          <label
+            class="c3"
+            for="82703046"
+          >
+            Option xxl
+          </label>
+        </div>
+      </fieldset>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  gap: calc(0.5rem * 1);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  gap: calc(0.5rem * 1.5);
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  gap: calc(0.5rem * 2);
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  gap: calc(0.5rem * 2.5);
+}
+
+.c2 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0.2em;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 2px solid hsla(215,16%,47%,1);
+  font-size: calc(1rem * 1);
+}
+
+.c2::after {
+  content: '';
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  border-radius: 50%;
+  width: 0.75em;
+  height: 0.75em;
+}
+
+.c2:hover::after {
+  background-color: hsla(215,16%,47%,1);
+}
+
+.c2:focus {
+  outline: 1px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c2:checked:hover {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked:hover::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c5 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0.2em;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 2px solid hsla(215,16%,47%,1);
+  font-size: calc(1rem * 1.5);
+}
+
+.c5::after {
+  content: '';
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  border-radius: 50%;
+  width: 0.75em;
+  height: 0.75em;
+}
+
+.c5:hover::after {
+  background-color: hsla(215,16%,47%,1);
+}
+
+.c5:focus {
+  outline: 1px solid hsla(330,81%,60%,1);
+}
+
+.c5:checked {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c5:checked::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c5:checked:hover {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c5:checked:hover::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c7 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0.2em;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 2px solid hsla(215,16%,47%,1);
+  font-size: calc(1rem * 2);
+}
+
+.c7::after {
+  content: '';
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  border-radius: 50%;
+  width: 0.75em;
+  height: 0.75em;
+}
+
+.c7:hover::after {
+  background-color: hsla(215,16%,47%,1);
+}
+
+.c7:focus {
+  outline: 1px solid hsla(330,81%,60%,1);
+}
+
+.c7:checked {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c7:checked::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c7:checked:hover {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c7:checked:hover::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c9 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0.2em;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 2px solid hsla(215,16%,47%,1);
+  font-size: calc(1rem * 2.5);
+}
+
+.c9::after {
+  content: '';
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  border-radius: 50%;
+  width: 0.75em;
+  height: 0.75em;
+}
+
+.c9:hover::after {
+  background-color: hsla(215,16%,47%,1);
+}
+
+.c9:focus {
+  outline: 1px solid hsla(330,81%,60%,1);
+}
+
+.c9:checked {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c9:checked::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c9:checked:hover {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c9:checked:hover::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c3 {
+  cursor: pointer;
+}
+
+<div>
+    <fieldset
+      class="c0"
+      role="radiogroup"
+    >
+      <div
+        class="c1"
+      >
+        <input
+          class="c2"
+          id="21262a3c"
+          name="c196a9f8"
+          role="radio"
+          type="radio"
+          value="md"
+        />
+        <label
+          class="c3"
+          for="21262a3c"
+        >
+          Option default md
+        </label>
+      </div>
+      <div
+        class="c4"
+      >
+        <input
+          class="c5"
+          id="0e6ba33f"
+          name="c196a9f8"
+          role="radio"
+          type="radio"
+          value="lg"
+        />
+        <label
+          class="c3"
+          for="0e6ba33f"
+        >
+          Option lg
+        </label>
+      </div>
+      <div
+        class="c6"
+      >
+        <input
+          class="c7"
+          id="525a6f3c"
+          name="c196a9f8"
+          role="radio"
+          type="radio"
+          value="xl"
+        />
+        <label
+          class="c3"
+          for="525a6f3c"
+        >
+          Option xl
+        </label>
+      </div>
+      <div
+        class="c8"
+      >
+        <input
+          class="c9"
+          id="82703046"
+          name="c196a9f8"
+          role="radio"
+          type="radio"
+          value="xxl"
+        />
+        <label
+          class="c3"
+          for="82703046"
+        >
+          Option xxl
+        </label>
+      </div>
+    </fieldset>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Radio Statuses 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  gap: calc(0.5rem * 1);
+}
+
+.c2 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0.2em;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 2px solid hsla(215,16%,47%,1);
+  font-size: calc(1rem * 1);
+}
+
+.c2::after {
+  content: '';
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  border-radius: 50%;
+  width: 0.75em;
+  height: 0.75em;
+}
+
+.c2:hover::after {
+  background-color: hsla(215,16%,47%,1);
+}
+
+.c2:focus {
+  outline: 1px solid hsla(217,91%,60%,1);
+}
+
+.c2:checked {
+  border: 2px solid hsla(217,91%,60%,1);
+}
+
+.c2:checked::after {
+  background-color: hsla(217,91%,60%,1);
+}
+
+.c2:checked:hover {
+  border: 2px solid hsla(217,91%,60%,1);
+}
+
+.c2:checked:hover::after {
+  background-color: hsla(217,91%,60%,1);
+}
+
+.c4 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0.2em;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 2px solid hsla(215,16%,47%,1);
+  font-size: calc(1rem * 1);
+}
+
+.c4::after {
+  content: '';
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  border-radius: 50%;
+  width: 0.75em;
+  height: 0.75em;
+}
+
+.c4:hover::after {
+  background-color: hsla(215,16%,47%,1);
+}
+
+.c4:focus {
+  outline: 1px solid hsla(142,71%,45%,1);
+}
+
+.c4:checked {
+  border: 2px solid hsla(142,71%,45%,1);
+}
+
+.c4:checked::after {
+  background-color: hsla(142,71%,45%,1);
+}
+
+.c4:checked:hover {
+  border: 2px solid hsla(142,71%,45%,1);
+}
+
+.c4:checked:hover::after {
+  background-color: hsla(142,71%,45%,1);
+}
+
+.c5 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0.2em;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 2px solid hsla(215,16%,47%,1);
+  font-size: calc(1rem * 1);
+}
+
+.c5::after {
+  content: '';
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  border-radius: 50%;
+  width: 0.75em;
+  height: 0.75em;
+}
+
+.c5:hover::after {
+  background-color: hsla(215,16%,47%,1);
+}
+
+.c5:focus {
+  outline: 1px solid hsla(38,92%,50%,1);
+}
+
+.c5:checked {
+  border: 2px solid hsla(38,92%,50%,1);
+}
+
+.c5:checked::after {
+  background-color: hsla(38,92%,50%,1);
+}
+
+.c5:checked:hover {
+  border: 2px solid hsla(38,92%,50%,1);
+}
+
+.c5:checked:hover::after {
+  background-color: hsla(38,92%,50%,1);
+}
+
+.c6 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0.2em;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 2px solid hsla(215,16%,47%,1);
+  font-size: calc(1rem * 1);
+}
+
+.c6::after {
+  content: '';
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  border-radius: 50%;
+  width: 0.75em;
+  height: 0.75em;
+}
+
+.c6:hover::after {
+  background-color: hsla(215,16%,47%,1);
+}
+
+.c6:focus {
+  outline: 1px solid hsla(0,84%,60%,1);
+}
+
+.c6:checked {
+  border: 2px solid hsla(0,84%,60%,1);
+}
+
+.c6:checked::after {
+  background-color: hsla(0,84%,60%,1);
+}
+
+.c6:checked:hover {
+  border: 2px solid hsla(0,84%,60%,1);
+}
+
+.c6:checked:hover::after {
+  background-color: hsla(0,84%,60%,1);
+}
+
+.c3 {
+  cursor: pointer;
+}
+
+<body>
+    <div>
+      <fieldset
+        class="c0"
+        role="radiogroup"
+      >
+        <div
+          class="c1"
+        >
+          <input
+            class="c2"
+            id="06271baf"
+            name="44ea80ac"
+            role="radio"
+            type="radio"
+            value="info"
+          />
+          <label
+            class="c3"
+            for="06271baf"
+          >
+            Option 
+            info
+          </label>
+        </div>
+        <div
+          class="c1"
+        >
+          <input
+            class="c4"
+            id="aee40884"
+            name="44ea80ac"
+            role="radio"
+            type="radio"
+            value="success"
+          />
+          <label
+            class="c3"
+            for="aee40884"
+          >
+            Option 
+            success
+          </label>
+        </div>
+        <div
+          class="c1"
+        >
+          <input
+            class="c5"
+            id="4bd9354b"
+            name="44ea80ac"
+            role="radio"
+            type="radio"
+            value="warning"
+          />
+          <label
+            class="c3"
+            for="4bd9354b"
+          >
+            Option 
+            warning
+          </label>
+        </div>
+        <div
+          class="c1"
+        >
+          <input
+            class="c6"
+            id="123fd666"
+            name="44ea80ac"
+            role="radio"
+            type="radio"
+            value="danger"
+          />
+          <label
+            class="c3"
+            for="123fd666"
+          >
+            Option 
+            danger
+          </label>
+        </div>
+      </fieldset>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  gap: calc(0.5rem * 1);
+}
+
+.c2 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0.2em;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 2px solid hsla(215,16%,47%,1);
+  font-size: calc(1rem * 1);
+}
+
+.c2::after {
+  content: '';
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  border-radius: 50%;
+  width: 0.75em;
+  height: 0.75em;
+}
+
+.c2:hover::after {
+  background-color: hsla(215,16%,47%,1);
+}
+
+.c2:focus {
+  outline: 1px solid hsla(217,91%,60%,1);
+}
+
+.c2:checked {
+  border: 2px solid hsla(217,91%,60%,1);
+}
+
+.c2:checked::after {
+  background-color: hsla(217,91%,60%,1);
+}
+
+.c2:checked:hover {
+  border: 2px solid hsla(217,91%,60%,1);
+}
+
+.c2:checked:hover::after {
+  background-color: hsla(217,91%,60%,1);
+}
+
+.c4 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0.2em;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 2px solid hsla(215,16%,47%,1);
+  font-size: calc(1rem * 1);
+}
+
+.c4::after {
+  content: '';
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  border-radius: 50%;
+  width: 0.75em;
+  height: 0.75em;
+}
+
+.c4:hover::after {
+  background-color: hsla(215,16%,47%,1);
+}
+
+.c4:focus {
+  outline: 1px solid hsla(142,71%,45%,1);
+}
+
+.c4:checked {
+  border: 2px solid hsla(142,71%,45%,1);
+}
+
+.c4:checked::after {
+  background-color: hsla(142,71%,45%,1);
+}
+
+.c4:checked:hover {
+  border: 2px solid hsla(142,71%,45%,1);
+}
+
+.c4:checked:hover::after {
+  background-color: hsla(142,71%,45%,1);
+}
+
+.c5 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0.2em;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 2px solid hsla(215,16%,47%,1);
+  font-size: calc(1rem * 1);
+}
+
+.c5::after {
+  content: '';
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  border-radius: 50%;
+  width: 0.75em;
+  height: 0.75em;
+}
+
+.c5:hover::after {
+  background-color: hsla(215,16%,47%,1);
+}
+
+.c5:focus {
+  outline: 1px solid hsla(38,92%,50%,1);
+}
+
+.c5:checked {
+  border: 2px solid hsla(38,92%,50%,1);
+}
+
+.c5:checked::after {
+  background-color: hsla(38,92%,50%,1);
+}
+
+.c5:checked:hover {
+  border: 2px solid hsla(38,92%,50%,1);
+}
+
+.c5:checked:hover::after {
+  background-color: hsla(38,92%,50%,1);
+}
+
+.c6 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0.2em;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 2px solid hsla(215,16%,47%,1);
+  font-size: calc(1rem * 1);
+}
+
+.c6::after {
+  content: '';
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  border-radius: 50%;
+  width: 0.75em;
+  height: 0.75em;
+}
+
+.c6:hover::after {
+  background-color: hsla(215,16%,47%,1);
+}
+
+.c6:focus {
+  outline: 1px solid hsla(0,84%,60%,1);
+}
+
+.c6:checked {
+  border: 2px solid hsla(0,84%,60%,1);
+}
+
+.c6:checked::after {
+  background-color: hsla(0,84%,60%,1);
+}
+
+.c6:checked:hover {
+  border: 2px solid hsla(0,84%,60%,1);
+}
+
+.c6:checked:hover::after {
+  background-color: hsla(0,84%,60%,1);
+}
+
+.c3 {
+  cursor: pointer;
+}
+
+<div>
+    <fieldset
+      class="c0"
+      role="radiogroup"
+    >
+      <div
+        class="c1"
+      >
+        <input
+          class="c2"
+          id="06271baf"
+          name="44ea80ac"
+          role="radio"
+          type="radio"
+          value="info"
+        />
+        <label
+          class="c3"
+          for="06271baf"
+        >
+          Option 
+          info
+        </label>
+      </div>
+      <div
+        class="c1"
+      >
+        <input
+          class="c4"
+          id="aee40884"
+          name="44ea80ac"
+          role="radio"
+          type="radio"
+          value="success"
+        />
+        <label
+          class="c3"
+          for="aee40884"
+        >
+          Option 
+          success
+        </label>
+      </div>
+      <div
+        class="c1"
+      >
+        <input
+          class="c5"
+          id="4bd9354b"
+          name="44ea80ac"
+          role="radio"
+          type="radio"
+          value="warning"
+        />
+        <label
+          class="c3"
+          for="4bd9354b"
+        >
+          Option 
+          warning
+        </label>
+      </div>
+      <div
+        class="c1"
+      >
+        <input
+          class="c6"
+          id="123fd666"
+          name="44ea80ac"
+          role="radio"
+          type="radio"
+          value="danger"
+        />
+        <label
+          class="c3"
+          for="123fd666"
+        >
+          Option 
+          danger
+        </label>
+      </div>
+    </fieldset>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Radio Vertical 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  gap: calc(0.5rem * 1);
+}
+
+.c2 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0.2em;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 2px solid hsla(215,16%,47%,1);
+  font-size: calc(1rem * 1);
+}
+
+.c2::after {
+  content: '';
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  border-radius: 50%;
+  width: 0.75em;
+  height: 0.75em;
+}
+
+.c2:hover::after {
+  background-color: hsla(215,16%,47%,1);
+}
+
+.c2:focus {
+  outline: 1px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c2:checked:hover {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked:hover::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c3 {
+  cursor: pointer;
+}
+
+<body>
+    <div>
+      <fieldset
+        class="c0"
+        role="radiogroup"
+      >
+        <div
+          class="c1"
+        >
+          <input
+            class="c2"
+            id="ae6e7b9e"
+            name="08bbc9e0"
+            role="radio"
+            type="radio"
+            value="opt1"
+          />
+          <label
+            class="c3"
+            for="ae6e7b9e"
+          >
+            Option 1
+          </label>
+        </div>
+        <div
+          class="c1"
+        >
+          <input
+            class="c2"
+            id="d036c9f4"
+            name="08bbc9e0"
+            role="radio"
+            type="radio"
+            value="opt2"
+          />
+          <label
+            class="c3"
+            for="d036c9f4"
+          >
+            Option 2
+          </label>
+        </div>
+      </fieldset>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  gap: calc(0.5rem * 1);
+}
+
+.c2 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0.2em;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 2px solid hsla(215,16%,47%,1);
+  font-size: calc(1rem * 1);
+}
+
+.c2::after {
+  content: '';
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  border-radius: 50%;
+  width: 0.75em;
+  height: 0.75em;
+}
+
+.c2:hover::after {
+  background-color: hsla(215,16%,47%,1);
+}
+
+.c2:focus {
+  outline: 1px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c2:checked:hover {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked:hover::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c3 {
+  cursor: pointer;
+}
+
+<div>
+    <fieldset
+      class="c0"
+      role="radiogroup"
+    >
+      <div
+        class="c1"
+      >
+        <input
+          class="c2"
+          id="ae6e7b9e"
+          name="08bbc9e0"
+          role="radio"
+          type="radio"
+          value="opt1"
+        />
+        <label
+          class="c3"
+          for="ae6e7b9e"
+        >
+          Option 1
+        </label>
+      </div>
+      <div
+        class="c1"
+      >
+        <input
+          class="c2"
+          id="d036c9f4"
+          name="08bbc9e0"
+          role="radio"
+          type="radio"
+          value="opt2"
+        />
+        <label
+          class="c3"
+          for="d036c9f4"
+        >
+          Option 2
+        </label>
+      </div>
+    </fieldset>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
