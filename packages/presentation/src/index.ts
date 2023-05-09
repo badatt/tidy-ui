@@ -1,3 +1,4 @@
+export * from '@tidy-ui/alert';
 export * from '@tidy-ui/badge';
 export * from '@tidy-ui/button';
 export * from '@tidy-ui/card';

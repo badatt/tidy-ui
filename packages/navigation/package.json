@@ -43,11 +43,11 @@
     "ui",
     "ui-components",
     "navigation",
-    "breadcrumb",
-    "drawer",
-    "modal"
+    "Breadcrumb",
+    "Drawer",
+    "Modal"
   ],
-  "description": "Tidy UI navigation group components",
+  "description": "Tidy UI navigation group components includes Breadcrumb, Drawer, Modal",
   "publishConfig": {
     "access": "public"
   },

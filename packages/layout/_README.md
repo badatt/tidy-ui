@@ -48,7 +48,11 @@ These are the packages that come under layout class of tidy-ui components
   <thead>
     <tr><th>Package</th><th>Version</th><th>Downloads</th></tr>
   </thead>
-  <tbody>
+  <tr>
+    <td>@tidy-ui/border</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/border"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/border"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/border"></td>
+  </tr>
   <tr>
     <td>@tidy-ui/container</td>
     <td><a href="https://www.npmjs.com/package/@tidy-ui/container"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/container"></a></td>
@@ -68,6 +72,11 @@ These are the packages that come under layout class of tidy-ui components
     <td>@tidy-ui/grid</td>
     <td><a href="https://www.npmjs.com/package/@tidy-ui/grid"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/grid"></a></td>
     <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/grid"></td>
+  </tr>
+  <tr>
+    <td>@tidy-ui/stack</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/stack"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/stack"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/stack"></td>
   </tr>
 </table>
 

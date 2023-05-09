@@ -45,15 +45,15 @@
     "components",
     "ui",
     "ui-components",
-    "border",
-    "container",
-    "divider",
-    "flexbox",
     "layout",
-    "grid",
-    "stack"
+    "Border",
+    "Container",
+    "Divider",
+    "Flexbox",
+    "Grid",
+    "Stack"
   ],
-  "description": "Tidy UI layout group components",
+  "description": "Tidy UI layout group components includes Border, Container, Divider, Flexbox, Grid, Stack",
   "publishConfig": {
     "access": "public"
   },

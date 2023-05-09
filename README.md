@@ -108,22 +108,31 @@ Visit the storybook and start using components in your app.
 
 <div align="center">
   <a href="https://github.com/badatt/tidy-ui/tree/main/packages/presentation">
-    <img src="https://raw.githubusercontent.com/badatt/tidy-ui/main/internals/assets/images/package-card-presentation.png"/>
+    <strong>Presentation</strong>
   </a>
+  &nbsp;
   <a href="https://github.com/badatt/tidy-ui/tree/main/packages/layout">
-    <img src="https://raw.githubusercontent.com/badatt/tidy-ui/main/internals/assets/images/package-card-layout.png"/>
+    <strong>Layout</strong>
   </a>
+  &nbsp;
+  <a href="https://github.com/badatt/tidy-ui/tree/main/packages/form">
+    <strong>Form</strong>
+  </a>
+  &nbsp;
+  <a href="https://github.com/badatt/tidy-ui/tree/main/packages/navigation">
+    <strong>Navigation</strong>
+  </a>
+  &nbsp;
+  <a href="https://github.com/badatt/tidy-ui/tree/main/packages/feedback">
+    <strong>Feedback</strong>
+  </a>
+  <br/>
   <a href="https://github.com/badatt/tidy-ui/tree/main/packages/commons">
-    <img src="https://raw.githubusercontent.com/badatt/tidy-ui/main/internals/assets/images/package-card-commons.png"/>
+    <strong>Commons</strong>
   </a>
-  <a href="https://github.com/badatt/tidy-ui/tree/main/packages/icons">
-    <img src="https://raw.githubusercontent.com/badatt/tidy-ui/main/internals/assets/images/package-card-icons.png"/>
-  </a>
-  <a href="https://github.com/badatt/tidy-ui/tree/main/packages/theme">
-    <img src="https://raw.githubusercontent.com/badatt/tidy-ui/main/internals/assets/images/package-card-theme.png"/>
-  </a>
+  &nbsp;
   <a href="https://github.com/badatt/tidy-ui/tree/main/packages/types">
-    <img src="https://raw.githubusercontent.com/badatt/tidy-ui/main/internals/assets/images/package-card-types.png"/>
+    <strong>Types</strong>
   </a>
 </div>
 
