@@ -1,0 +1,58 @@
+{
+  "name": "@tidy-ui/form",
+  "version": "0.0.0",
+  "readme": "README.md",
+  "scripts": {
+    "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:form",
+    "build:md": "markdown-include ../../.markdown.json",
+    "clean": "rimraf -rf dist && rimraf -rf build",
+    "postinstall": "rm -rf node_modules/@types/react-native",
+    "reset": "yarn clean && rimraf -rf node_modules",
+    "vet": "yarn lint",
+    "yalc:publish": "yarn build && yalc publish",
+    "yalc:push": "yarn build && yalc push"
+  },
+  "dependencies": {
+    "@tidy-ui/checkbox": "^0.24.0",
+    "@tidy-ui/input": "^0.24.0",
+    "@tidy-ui/radio": "^0.24.0"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "styled-components": "^5.3.3"
+  },
+  "main": "dist/index.js",
+  "typings": "dist/src/index.d.ts",
+  "types": "dist/src/index.d.ts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/badatt/tidy-ui"
+  },
+  "author": {
+    "name": "Balu Praveen Datty",
+    "email": "dev.badatt@gmail.om",
+    "url": "https://github.com/badatt"
+  },
+  "keywords": [
+    "react",
+    "styled-components",
+    "css-in-js",
+    "react-ui",
+    "components",
+    "ui",
+    "ui-components",
+    "form",
+    "Checkbox",
+    "Input",
+    "InputGroup",
+    "Radio"
+  ],
+  "description": "Tidy UI form group components includes Checkbox, Input, InputGroup, Radio",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ]
+}
