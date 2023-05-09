@@ -121,6 +121,28 @@ Include required components with in the place holder `...`
 
 Visit the storybook and start using components in your app.
 
+## Packages
+
+These are the packages that come under feedback class of tidy-ui components
+
+<table>
+  <thead>
+    <tr><th>Package</th><th>Version</th><th>Downloads</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>@tidy-ui/notification</td>
+      <td><a href="https://www.npmjs.com/package/@tidy-ui/notification"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/notification"></a></td>
+      <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/notification"></td>
+    </tr>
+    <tr>
+      <td>@tidy-ui/toaster</td>
+      <td><a href="https://www.npmjs.com/package/@tidy-ui/toaster"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/toaster"></a></td>
+      <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/toaster"></td>
+    </tr>
+  </tbody>
+</table>
+
 ---
 
 <p align="center">

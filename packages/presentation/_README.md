@@ -51,6 +51,11 @@ These are the packages that come under presentation class of tidy-ui components
   </thead>
   <tbody>
   <tr>
+    <td>@tidy-ui/alert</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/alert"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/alert"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/alert"></td>
+  </tr>
+  <tr>
     <td>@tidy-ui/badge</td>
     <td><a href="https://www.npmjs.com/package/@tidy-ui/badge"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/badge"></a></td>
     <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/badge"></td>
@@ -64,6 +69,16 @@ These are the packages that come under presentation class of tidy-ui components
     <td>@tidy-ui/card</td>
     <td><a href="https://www.npmjs.com/package/@tidy-ui/card"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/card"></a></td>
     <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/card"></td>
+  </tr>
+  <tr>
+    <td>@tidy-ui/chip</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/chip"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/chip"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/chip"></td>
+  </tr>
+    <tr>
+    <td>@tidy-ui/code</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/code"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/code"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/code"></td>
   </tr>
   <tr>
     <td>@tidy-ui/message</td>
@@ -89,6 +104,11 @@ These are the packages that come under presentation class of tidy-ui components
     <td>@tidy-ui/text</td>
     <td><a href="https://www.npmjs.com/package/@tidy-ui/text"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/text"></a></td>
     <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/text"></td>
+  </tr>
+  <tr>
+    <td>@tidy-ui/tooltip</td>
+    <td><a href="https://www.npmjs.com/package/@tidy-ui/tooltip"><img alt="npm (scoped)" src="https://img.shields.io/npm/v/@tidy-ui/tooltip"></a></td>
+    <td><img alt="npm" src="https://img.shields.io/npm/dw/@tidy-ui/tooltip"></td>
   </tr>
   </tbody>
 </table>

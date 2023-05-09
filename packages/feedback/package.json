@@ -42,10 +42,10 @@
     "ui",
     "ui-components",
     "feedback",
-    "notification",
-    "toaster"
+    "Notification",
+    "Toaster"
   ],
-  "description": "Tidy UI feedback group components",
+  "description": "Tidy UI feedback group components includes Notification, Toaster",
   "publishConfig": {
     "access": "public"
   },
