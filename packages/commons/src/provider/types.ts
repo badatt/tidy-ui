@@ -1,7 +1,7 @@
 import { Dispatch, Key, ReactNode } from 'react';
-import { ITidyUITheme } from '@tidy-ui/commons';
 import { AppActionTypes } from '../actions';
 import { IState } from '../reducers/types';
+import { ITidyUITheme } from '../theme';
 
 /**
  * TidyUiProviderProps props
