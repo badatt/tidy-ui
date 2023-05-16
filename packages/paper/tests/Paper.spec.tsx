@@ -45,7 +45,7 @@ describe('Paper', () => {
   it('Custom dimension', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Paper h="25rem" w="25rem">
+        <Paper height="25rem" width="25rem">
           {text}
         </Paper>
       </TidyUiProvider>,

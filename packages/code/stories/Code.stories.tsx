@@ -26,7 +26,7 @@ export const customMargin = () => (
 );
 
 export const customDimensions = () => (
-  <Code h="10rem" w="30rem">
+  <Code height="10rem" width="30rem">
     {text}
   </Code>
 );

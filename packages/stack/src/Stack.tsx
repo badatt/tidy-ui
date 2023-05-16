@@ -4,15 +4,15 @@ import { IStackProps } from './types';
 
 const StackRoot = styled.div<IStackProps>`
   display: flex;
-  ${({ align, order, justify, gap, fold, margin, h, w }) => css`
+  ${({ align, order, justify, gap, fold, margin, height, width }) => css`
     flex-direction: ${order};
     justify-content: ${justify};
     align-content: ${align};
     gap: ${gap};
     flex-wrap: ${fold ? 'wrap' : 'nowrap'};
     margin: ${margin};
-    height: ${h};
-    width: ${w};
+    height: ${height};
+    width: ${width};
   `}
 `;
 

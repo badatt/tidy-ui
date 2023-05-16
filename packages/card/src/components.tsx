@@ -20,14 +20,14 @@ const Link = styled.a`
 `;
 
 const cardStyles = css<ICardProps>`
-  ${({ theme: { palette, layout }, sharp, accent, accentPosition, href, margin, h, w }) => css`
+  ${({ theme: { palette, layout }, sharp, accent, accentPosition, href, margin, height, width }) => css`
     ${createFontStyle()}
     background-color: ${palette.background.card};
     box-shadow: ${layout.shadow};
     color: ${palette.text.primary};
     margin: ${margin};
-    height: ${h};
-    width: ${w};
+    height: ${height};
+    width: ${width};
     ${!sharp &&
     css`
       border-radius: ${layout.radius};

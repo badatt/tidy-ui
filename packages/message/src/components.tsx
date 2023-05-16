@@ -8,9 +8,9 @@ import { IMessageProps } from './types';
  * @internal
  */
 const MessageRoot = styled.div<IMessageProps>`
-  ${({ margin, w }) => css`
+  ${({ margin, width }) => css`
     margin: ${margin};
-    width: ${w};
+    width: ${width};
   `}
 `;
 
@@ -85,10 +85,10 @@ const MessageLabel = styled.div<IMessageProps>`
 const MessageContent = styled.div<IMessageProps>`
   position: relative;
   ${createFontStyle()}
-  ${({ theme: { layout }, sharp, stretched, withoutLabel, outlined, h }) => css`
+  ${({ theme: { layout }, sharp, stretched, withoutLabel, outlined, height }) => css`
     padding: 0.75rem 1rem;
     border-radius: ${!sharp && layout.radius};
-    height: ${h};
+    height: ${height};
     ${!withoutLabel &&
     css`
       border-top-left-radius: 0;

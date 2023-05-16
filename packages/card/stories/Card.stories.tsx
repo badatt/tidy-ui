@@ -160,10 +160,10 @@ export const customElement = () => (
 
 export const customDimensions = () => (
   <FlexBox gap="1rem" nowrap>
-    <Card h="9rem">
+    <Card height="9rem">
       <ContentBody />
     </Card>
-    <Card h="15rem">
+    <Card height="15rem">
       <Card.Header>
         <ContentHeader />
       </Card.Header>

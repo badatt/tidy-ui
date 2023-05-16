@@ -7,18 +7,18 @@ import { IPaperProps } from './types';
  * @internal
  */
 const PaperRoot = styled.section<IPaperProps>`
-  ${({ theme: { palette, layout }, sharp, margin, h, w }) => css`
+  ${({ theme: { palette, layout }, sharp, margin, height, width }) => css`
     display: block;
     padding: 1rem;
-    height: ${h};
-    width: ${w};
+    height: ${height};
+    width: ${width};
     background-color: ${palette.background.paper};
     border-radius: ${!sharp && layout.radius};
     box-shadow: ${layout.shadow};
     color: ${palette.text.primary};
     margin-bottom: ${margin};
     ${createFontStyle()}
-    ${h &&
+    ${height &&
     css`
       overflow-y: auto;
     `}

@@ -187,7 +187,7 @@ describe('Render Button', () => {
   it('Button with custom dimension', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Button h="3rem" w="15rem">
+        <Button height="3rem" width="15rem">
           custom dimension
         </Button>
       </TidyUiProvider>,

@@ -62,7 +62,7 @@ describe('Render ButtonCluster', () => {
   it('Custom dimension', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <ButtonCluster h="5rem" w="25rem">
+        <ButtonCluster height="5rem" width="25rem">
           <GroupedButtons />
         </ButtonCluster>
       </TidyUiProvider>,

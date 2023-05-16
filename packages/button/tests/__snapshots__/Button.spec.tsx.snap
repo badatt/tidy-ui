@@ -4355,7 +4355,9 @@ Object {
     <div>
       <button
         class="c0"
+        height="3rem"
         role="button"
+        width="15rem"
       >
         custom dimension
       </button>
@@ -4404,7 +4406,9 @@ Object {
 <div>
     <button
       class="c0"
+      height="3rem"
       role="button"
+      width="15rem"
     >
       custom dimension
     </button>

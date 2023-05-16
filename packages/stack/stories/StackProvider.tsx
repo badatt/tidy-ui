@@ -26,10 +26,10 @@ const StackProvider = ({ children, size }: IStackProvider) => {
     <Ctx.Provider value={{ count }}>
       <ButtonCluster>
         <ButtonGroup>
-          <Button onClick={increment} w="4rem">
+          <Button onClick={increment} width="4rem">
             Add
           </Button>
-          <Button onClick={decrement} w="4rem">
+          <Button onClick={decrement} width="4rem">
             Remove
           </Button>
         </ButtonGroup>

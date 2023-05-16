@@ -71,11 +71,11 @@ export const customMargin = () => (
 );
 
 export const customDimension = () => (
-  <Panel w="30rem">
+  <Panel width="30rem">
     <Panel.Header>
       <ContentHeader />
     </Panel.Header>
-    <Panel.Body h="25rem">
+    <Panel.Body height="25rem">
       <ContentBody />
     </Panel.Body>
   </Panel>

@@ -47,9 +47,9 @@ const NotificationRoot = styled.div<INotificationProps>`
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  ${({ theme: { layout }, sharp, outlined, margin, h, w }) => css`
-    height: ${h};
-    width: ${w};
+  ${({ theme: { layout }, sharp, outlined, margin, height, width }) => css`
+    height: ${height};
+    width: ${width};
     margin: ${margin};
     border-radius: ${!sharp && layout.radius};
     ${outlined ? outlinedContent : filledContent}

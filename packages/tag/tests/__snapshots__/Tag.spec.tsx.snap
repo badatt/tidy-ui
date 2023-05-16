@@ -332,7 +332,9 @@ Object {
     <div>
       <div
         class="c0"
+        height="3rem"
         role="listitem"
+        width="10rem"
       >
         basic
       </div>
@@ -364,7 +366,9 @@ Object {
 <div>
     <div
       class="c0"
+      height="3rem"
       role="listitem"
+      width="10rem"
     >
       basic
     </div>

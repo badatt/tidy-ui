@@ -1299,7 +1299,9 @@ Object {
     <div>
       <div
         class="c0"
+        height="10rem"
         role="contentinfo"
+        width="30rem"
       >
         <pre
           class="c1"
@@ -1402,7 +1404,9 @@ export default App;
 <div>
     <div
       class="c0"
+      height="10rem"
       role="contentinfo"
+      width="30rem"
     >
       <pre
         class="c1"

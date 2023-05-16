@@ -104,7 +104,7 @@ describe('Message', () => {
   it('Custom dimension', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Message margin="0 0 1rem 0" h="10rem" w="20rem" closable>
+        <Message margin="0 0 1rem 0" height="10rem" width="20rem" closable>
           {text}
         </Message>
       </TidyUiProvider>,

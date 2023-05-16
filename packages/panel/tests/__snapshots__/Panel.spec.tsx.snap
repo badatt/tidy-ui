@@ -792,6 +792,7 @@ Object {
       <div
         class="c0"
         role="article"
+        width="30rem"
       >
         <div
           class="c1"
@@ -818,6 +819,7 @@ Object {
         </div>
         <div
           class="c4"
+          height="25rem"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -922,6 +924,7 @@ Object {
     <div
       class="c0"
       role="article"
+      width="30rem"
     >
       <div
         class="c1"
@@ -948,6 +951,7 @@ Object {
       </div>
       <div
         class="c4"
+        height="25rem"
         role="presentation"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam

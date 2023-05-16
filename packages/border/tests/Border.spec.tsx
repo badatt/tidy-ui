@@ -15,8 +15,8 @@ import { IBorderProps } from '../src/types';
 
 const BorderWithProps = (props: IBorderProps) => (
   <Border
-    h="15rem"
-    w="25rem"
+    height="15rem"
+    width="25rem"
     padding="1rem"
     content={
       <Chip size="xxs" tone={props.tone || 'neutral'}>
@@ -48,7 +48,7 @@ describe('Border', () => {
   it('Basic render', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Border h="25rem" w="35rem">
+        <Border height="25rem" width="35rem">
           <Content />
         </Border>
       </TidyUiProvider>,
@@ -58,7 +58,7 @@ describe('Border', () => {
   it('Dark mode basic render', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
-        <Border h="25rem" w="35rem">
+        <Border height="25rem" width="35rem">
           <Content />
         </Border>
       </TidyUiProvider>,
@@ -69,7 +69,7 @@ describe('Border', () => {
   it('Padding', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Border h="25rem" w="35rem" padding="3rem">
+        <Border height="25rem" width="35rem" padding="3rem">
           <Content heading="padding 3rem" />
         </Border>
       </TidyUiProvider>,
@@ -79,7 +79,7 @@ describe('Border', () => {
   it('Margin', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Border h="25rem" w="35rem" margin="3rem" padding="1rem">
+        <Border height="25rem" width="35rem" margin="3rem" padding="1rem">
           <Content heading="margin 3rem & padding 1rem" />
         </Border>
       </TidyUiProvider>,
@@ -89,7 +89,7 @@ describe('Border', () => {
   it('Density', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Border h="25rem" w="35rem" density="8px" padding="1rem">
+        <Border height="25rem" width="35rem" density="8px" padding="1rem">
           <Content heading="density 8px" />
         </Border>
       </TidyUiProvider>,
@@ -123,7 +123,7 @@ describe('Border', () => {
   it('Sharp', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Border h="25rem" w="35rem" padding="1rem" sharp>
+        <Border height="25rem" width="35rem" padding="1rem" sharp>
           <Content heading="sharp corner" />
         </Border>
       </TidyUiProvider>,

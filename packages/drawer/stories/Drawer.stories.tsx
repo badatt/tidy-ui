@@ -43,7 +43,7 @@ const MenuItem = ({ children }) => <FlexBox.Item style={{ padding: '0.5rem 1rem'
 
 const Menu = () => {
   return (
-    <FlexBox fld="column" w="200px">
+    <FlexBox fld="column" width="200px">
       {['Account', 'Dashboard', 'Leader', 'Marketplace', 'Settings'].map((c, i) => (
         <MenuItem key={i}>{c}</MenuItem>
       ))}

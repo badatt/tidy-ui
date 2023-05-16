@@ -110,7 +110,7 @@ describe('Render Button', () => {
   it('Custom dimension', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <IconButton icon={<Icon.Add />} h="3rem" w="10rem">
+        <IconButton icon={<Icon.Add />} height="3rem" width="10rem">
           Add
         </IconButton>
       </TidyUiProvider>,

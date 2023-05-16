@@ -49,7 +49,7 @@ export const sizes = () => (
 );
 
 export const customDimensions = () => (
-  <Tag h="3rem" w="10rem">
+  <Tag height="3rem" width="10rem">
     custom dimension
   </Tag>
 );

@@ -9,7 +9,9 @@ import ToasterContext from './ToasterContext';
  * @param {IBaseProps} props ToasterPRovider props
  * @returns {JSX.Element} a component
  */
-const ToasterProvider: React.FC<IBaseProps> = (props: IBaseProps): JSX.Element => {
+const ToasterProvider: React.FC<React.PropsWithChildren<IBaseProps>> = (
+  props: React.PropsWithChildren<IBaseProps>,
+): JSX.Element => {
   const [state, dispatch] = React.useReducer(reducer, initialState, initializer);
 
   const toastedContextValue = React.useMemo(() => ({ dispatch, state }), [dispatch, state]);

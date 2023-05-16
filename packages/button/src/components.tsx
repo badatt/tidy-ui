@@ -54,13 +54,13 @@ const ButtonRoot = styled.button<IButtonProps>`
   text-align: center;
   vertical-align: middle;
   transition: all 200ms linear;
-  ${({ size, disabled, stretched, variant, icon, uppercase, h, w }) => css`
+  ${({ size, disabled, stretched, variant, icon, uppercase, height, width }) => css`
     font-size: ${sizeStyles[size!].fontSize};
     padding: 0.3em 0.5rem;
     border-radius: 0.3em;
     line-height: 1.5em;
-    height: ${h};
-    width: ${w};
+    height: ${height};
+    width: ${width};
     ${disabled &&
     css`
       cursor: not-allowed;
@@ -92,9 +92,9 @@ const ButtonRoot = styled.button<IButtonProps>`
  */
 const ButtonGroupRoot = styled.div<IButtonGroupProps>`
   display: flex;
-  ${({ vertical, stretched, unified, h, w }) => css`
-    height: ${h};
-    width: ${w};
+  ${({ vertical, stretched, unified, height, width }) => css`
+    height: ${height};
+    width: ${width};
     ${vertical
       ? css`
           flex-direction: column;
@@ -174,9 +174,9 @@ const ButtonClusterRoot = styled.div<IButtonClusterProps>`
       box-shadow: none !important;
     }
   }
-  ${({ h, w, stretched }) => css`
-    height: ${h};
-    width: ${w};
+  ${({ height, width, stretched }) => css`
+    height: ${height};
+    width: ${width};
     ${stretched &&
     css`
       width: 100% !important;
@@ -198,10 +198,10 @@ const IconButtonRoot = styled.button<IIconButtonProps>`
   display: flex;
   justify-content: center;
   align-items: center;
-  ${({ size, disabled, iconOnly, variant, placement, h, w }) => css`
+  ${({ size, disabled, iconOnly, variant, placement, height, width }) => css`
     font-size: ${sizeStyles[size!].fontSize};
-    height: ${h};
-    width: ${w};
+    height: ${height};
+    width: ${width};
     ${iconOnly
       ? css`
           padding: 0.3em;

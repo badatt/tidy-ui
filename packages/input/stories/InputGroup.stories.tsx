@@ -18,7 +18,7 @@ type Story = StoryObj<typeof InputGroup>;
 export const frill: Story = {
   render: () => {
     return (
-      <FlexBox gap="1rem" fld="column" w="350px">
+      <FlexBox gap="1rem" fld="column" width="350px">
         <InputGroup>
           <Input.Element node="https://" />
           <Input placeholder="google" />
@@ -40,7 +40,7 @@ export const frill: Story = {
 export const blend: Story = {
   render: () => {
     return (
-      <FlexBox gap="1rem" fld="column" w="450px">
+      <FlexBox gap="1rem" fld="column" width="450px">
         <InputGroup blend>
           <Input.Element node="$" />
           <Input placeholder="500" />

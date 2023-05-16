@@ -1,37 +1,125 @@
-import { AriaRole, CSSProperties, ElementType, HTMLAttributes, ReactNode } from 'react';
+import { ElementType, HTMLAttributes } from 'react';
 
 /**
  * Base props for Tidy UI components
  */
 export interface IStandardProps {
   /**
-   * Children
+   * css `background` equivalent
    */
-  children?: ReactNode;
+  background?: string;
   /**
-   * Additional classes
+   * css `border` equivalent
    */
-  className?: string;
+  border?: string;
+  /**
+   * css `clear` equivalent
+   */
+  clear?:
+    | 'left'
+    | 'right'
+    | 'both'
+    | 'inline-start'
+    | 'inline-end'
+    | 'block-start'
+    | 'block-end'
+    | 'top'
+    | 'bottom'
+    | 'none';
+  /**
+   * css `color` equivalent
+   */
+  color?: string;
+  /**
+   * css `display` equivalent
+   */
+  display?:
+    | 'none'
+    | 'contents'
+    | 'block'
+    | 'inline'
+    | 'inline-block'
+    | 'flex'
+    | 'inline-flex'
+    | 'grid'
+    | 'inline-grid'
+    | 'flow'
+    | 'flow-root'
+    | 'table'
+    | 'inline-table'
+    | 'table-row'
+    | 'list-item'
+    | 'inherit'
+    | 'initial'
+    | 'revert'
+    | 'revert-layer'
+    | 'unset';
+  /**
+   * css `float` equivalent
+   */
+  float?:
+    | 'left'
+    | 'right'
+    | 'top'
+    | 'bottom'
+    | 'none'
+    | 'inline-start'
+    | 'inline-end'
+    | 'block-start'
+    | 'block-end'
+    | 'inherit'
+    | 'initial'
+    | 'revert'
+    | 'revert-layer'
+    | 'unset';
+  /**
+   * css `font` equivalent
+   */
+  font?: string;
   /**
    * css `height` equivalent
    */
-  h?: string;
+  height?: number | string;
   /**
-   * Unique identifier
+   * css `margin` equivalent
    */
-  id?: string;
+  margin?: string;
   /**
-   * Aria role
+   * css `overflow` equivalent
    */
-  role?: AriaRole;
+  overflow?:
+    | 'visible'
+    | 'hidden'
+    | 'clip'
+    | 'scroll'
+    | 'auto'
+    | 'inherit'
+    | 'initial'
+    | 'revert'
+    | 'revert-layer'
+    | 'unset';
   /**
-   * Inline styles
+   * css `padding` equivalent
    */
-  style?: CSSProperties;
+  padding?: string;
+  /**
+   * css `position` equivalent
+   */
+  position?:
+    | 'static'
+    | 'relative'
+    | 'absolute'
+    | 'fixed'
+    | 'sticky'
+    | 'inherit'
+    | 'initial'
+    | 'revert'
+    | 'revert-layer'
+    | 'unset';
   /**
    * css `weight` equivalent
    */
-  w?: string;
+  width?: number | string;
 }
 
 /**

@@ -8,7 +8,7 @@ import { INewTagInput, ITagGroupProps, ITagProps } from './types';
  * @internal
  */
 const TagRoot = styled.div<ITagProps>`
-  ${({ outlined, size, disabled, icon, h, w }) => css`
+  ${({ outlined, size, disabled, icon, height, width }) => css`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,8 +16,8 @@ const TagRoot = styled.div<ITagProps>`
     border-radius: 0.25rem;
     font-size: ${sizeStyles[size!].fontSize};
     line-height: ${sizeStyles[size!].lineHeight};
-    width: ${w ?? 'fit-content'};
-    height: ${h};
+    width: ${width ?? 'fit-content'};
+    height: ${height};
     ${outlined ? outlinedContent : filledContent}
     ${disabled &&
     css`

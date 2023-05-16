@@ -78,10 +78,10 @@ const GridProvider = ({ children, size = baseCount }) => {
       <div style={{ position: 'relative', marginBottom: '1rem' }}>
         <ButtonCluster>
           <ButtonGroup>
-            <Button onClick={increment} w="4rem">
+            <Button onClick={increment} width="4rem">
               Add
             </Button>
-            <Button onClick={decrement} w="4rem">
+            <Button onClick={decrement} width="4rem">
               Remove
             </Button>
           </ButtonGroup>
@@ -206,7 +206,7 @@ export const customLayout = () => {
           {Object.keys(spanning).map((v, i) => (
             <ButtonCluster key={i}>
               <IconButton
-                icon={<Icon ele={<Icon.Remove />} h="1rem" w="1rem" />}
+                icon={<Icon ele={<Icon.Remove />} height="1rem" width="1rem" />}
                 variant="outlined"
                 onClick={() => decrement(v)}
                 disabled={span[v] === 1}
@@ -216,7 +216,7 @@ export const customLayout = () => {
                 {v}={span[v]}
               </Text.body1>
               <IconButton
-                icon={<Icon ele={<Icon.Add />} h="1rem" w="1rem" />}
+                icon={<Icon ele={<Icon.Add />} height="1rem" width="1rem" />}
                 variant="outlined"
                 onClick={() => increment(v)}
                 disabled={span[v] === 24}

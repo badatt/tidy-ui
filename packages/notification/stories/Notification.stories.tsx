@@ -24,13 +24,13 @@ const NotificationText = () => (
 );
 
 export const basic = () => (
-  <Notification w="20rem">
+  <Notification width="20rem">
     <NotificationText />
   </Notification>
 );
 
 export const sharp = () => (
-  <Notification w="20rem" sharp>
+  <Notification width="20rem" sharp>
     <NotificationText />
   </Notification>
 );
@@ -64,25 +64,25 @@ export const outlined = () => (
 );
 
 export const nonClosable = () => (
-  <Notification w="20rem" closable={false}>
+  <Notification width="20rem" closable={false}>
     <NotificationText />
   </Notification>
 );
 
 export const customLabel = () => (
-  <Notification w="20rem" label={<Text.h4>Hello there !</Text.h4>}>
+  <Notification width="20rem" label={<Text.h4>Hello there !</Text.h4>}>
     <NotificationText />
   </Notification>
 );
 
 export const customIcon = () => (
-  <Notification w="20rem" icon={<Icon.Add />}>
+  <Notification width="20rem" icon={<Icon.Add />}>
     <NotificationText />
   </Notification>
 );
 
 export const withoutLabel = () => (
-  <Notification w="20rem" withoutLabel>
+  <Notification width="20rem" withoutLabel>
     <NotificationText />
   </Notification>
 );
@@ -90,7 +90,7 @@ export const withoutLabel = () => (
 export const withToaster = () => {
   const { toaster } = useToaster();
   const ele = (
-    <Notification w="20rem" outlined>
+    <Notification width="20rem" outlined>
       <NotificationText />
       <ButtonCluster stretched>
         <Button tone="danger" variant="simple">
@@ -113,24 +113,24 @@ export const withToaster = () => {
 
 export const customMargin = () => (
   <>
-    <Notification w="20rem" margin="0 0 1rem 0">
+    <Notification width="20rem" margin="0 0 1rem 0">
       <NotificationText />
     </Notification>
-    <Notification w="20rem">
+    <Notification width="20rem">
       <NotificationText />
     </Notification>
   </>
 );
 
 export const customElement = () => (
-  <Notification w="30rem" ele={<FlexBox nowrap />}>
+  <Notification width="30rem" ele={<FlexBox nowrap />}>
     <NotificationText />
     <NotificationText />
   </Notification>
 );
 
 export const onCloseAction = () => (
-  <Notification w="20rem" onClose={() => alert('Notification will be closed now')}>
+  <Notification width="20rem" onClose={() => alert('Notification will be closed now')}>
     <NotificationText />
   </Notification>
 );

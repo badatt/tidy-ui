@@ -41,7 +41,7 @@ export const basic = () => (
 );
 
 export const fixed = () => (
-  <Container fixed>
+  <Container isFixed>
     <Content />
   </Container>
 );
@@ -89,7 +89,7 @@ export const noGutters = () => (
 );
 
 export const customHeight = () => (
-  <Container h="20rem">
+  <Container height="20rem">
     <Content />
   </Container>
 );

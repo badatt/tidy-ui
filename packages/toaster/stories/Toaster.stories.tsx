@@ -33,7 +33,7 @@ export const closable = () => {
   const { toaster } = useToaster();
 
   const ele = (
-    <Notification w="18rem" outlined>
+    <Notification width="18rem" outlined>
       <Text.body1>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam omnis iusto doloribus voluptatibus natus! At,
         ducimus? Corrupti, alias. Officia maiores esse fuga totam dolore eius vitae iusto labore sequi ad.

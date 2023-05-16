@@ -17,7 +17,7 @@ export default meta;
 type Story = StoryObj<typeof Alert>;
 
 const SimpleAlert = (props) => (
-  <Alert filled={props.filled} status={props.status} w={props.width}>
+  <Alert filled={props.filled} status={props.status} width={props.width}>
     <Alert.Title>
       <Text.h6 tone={props.status}>{props.status}</Text.h6>
     </Alert.Title>
@@ -87,7 +87,7 @@ export const withModal: Story = {
           <SimpleAlert status="success" width="350px" onAccept={() => setOpenNormal(false)} />
         </Modal>
         <Modal isOpen={openFilled} onBackdropClick={() => setOpenFilled(false)}>
-          <Alert filled status="danger" w="350px">
+          <Alert filled status="danger" width="350px">
             Lorem ipsum dolor sit amet consectetur adipisicing elit
           </Alert>
         </Modal>

@@ -5,9 +5,9 @@ const PanelRoot = styled.div<IPanelProps>`
   display: flex;
   flex-direction: column;
   width: 100%;
-  ${({ theme: { layout, isDark }, margin, noBorder, w }) => css`
+  ${({ theme: { layout, isDark }, margin, noBorder, width }) => css`
     margin: ${margin};
-    width: ${w};
+    width: ${width};
     ${!noBorder &&
     css`
       border: 1px solid ${isDark ? hsla(color.slate[600]) : hsla(color.slate[400])};
@@ -58,19 +58,19 @@ const PanelBodyRoot = styled.div<IPanelBodyProps>`
   transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
   visibility: visible;
   ${createFontStyle()}
-  ${({ visible, h }) => css`
+  ${({ visible, height }) => css`
     visibility: ${visible ? 'visible' : 'hidden'};
     opacity: ${visible ? '1' : '0'};
     height: ${visible ? 'fit-content' : '0'};
     padding-bottom: ${visible ? '1rem' : '0'};
     ${visible
       ? css`
-          height: ${h ?? 'fit-content'};
+          height: ${height ?? 'fit-content'};
         `
       : css`
           height: 0;
         `}
-    ${h &&
+    ${height &&
     css`
       overflow-y: auto;
     `}

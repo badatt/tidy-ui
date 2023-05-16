@@ -157,8 +157,8 @@ describe('Card', () => {
   it('Custom dimensions', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Card h="9rem">{text}</Card>
-        <Card h="15rem">
+        <Card height="9rem">{text}</Card>
+        <Card height="15rem">
           <Card.Header>Lorem ipsum dolor sit.</Card.Header>
           <Card.Body>{text}</Card.Body>
           <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>

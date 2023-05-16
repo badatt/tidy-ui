@@ -34,7 +34,7 @@ export const basic = () => <Paper>{text}</Paper>;
 export const sharp = () => <Paper sharp>{text}</Paper>;
 
 export const customDimension = () => (
-  <Paper h="20rem" w="20rem">
+  <Paper height="20rem" width="20rem">
     {text}
   </Paper>
 );

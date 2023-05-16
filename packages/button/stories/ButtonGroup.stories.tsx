@@ -41,7 +41,7 @@ export const disabled = () => (
 );
 
 export const customDimensions = () => (
-  <ButtonGroup h="5rem" w="30rem">
+  <ButtonGroup height="5rem" width="30rem">
     {[...Array(5)].map((c, i) => (
       <Button key={i}>Button {i}</Button>
     ))}
