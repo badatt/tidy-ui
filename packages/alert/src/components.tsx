@@ -45,9 +45,9 @@ const AlertRoot = styled.section<IAlertProps>`
   display: flex;
   align-items: center;
   ${createFontStyle()}
-  ${({ filled, h, w }) => css`
-    height: ${h};
-    width: ${w};
+  ${({ filled, height, width }) => css`
+    height: ${height};
+    width: ${width};
     ${filled ? alertFilledStyle : alertStyles}
   `}
 `;

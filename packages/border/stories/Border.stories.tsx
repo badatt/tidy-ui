@@ -13,8 +13,8 @@ export default {
 
 const BorderWithProps = (props: IBorderProps) => (
   <Border
-    h="25rem"
-    w="35rem"
+    height="25rem"
+    width="35rem"
     padding="1rem"
     density="4px"
     align={14}
@@ -45,25 +45,25 @@ const Content = (props: { heading?: string }) => (
 );
 
 export const basic = () => (
-  <Border h="25rem" w="35rem">
+  <Border height="25rem" width="35rem">
     <Content />
   </Border>
 );
 
 export const padding = () => (
-  <Border h="25rem" w="35rem" padding="3rem">
+  <Border height="25rem" width="35rem" padding="3rem">
     <Content heading="padding 3rem" />
   </Border>
 );
 
 export const margin = () => (
-  <Border h="25rem" w="35rem" margin="3rem" padding="1rem">
+  <Border height="25rem" width="35rem" margin="3rem" padding="1rem">
     <Content heading="margin 3rem & padding 1rem" />
   </Border>
 );
 
 export const density = () => (
-  <Border h="25rem" w="35rem" density="8px" padding="1rem">
+  <Border height="25rem" width="35rem" density="8px" padding="1rem">
     <Content heading="density 8px" />
   </Border>
 );
@@ -87,7 +87,7 @@ export const contentPositioning = () => (
 );
 
 export const sharp = () => (
-  <Border h="25rem" w="35rem" padding="1rem" sharp>
+  <Border height="25rem" width="35rem" padding="1rem" sharp>
     <Content heading="sharp corner" />
   </Border>
 );

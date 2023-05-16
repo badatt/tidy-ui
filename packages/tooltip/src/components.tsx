@@ -99,7 +99,7 @@ const tooltipLeft = css`
 const TooltipRoot = styled.div<ITooltipProps>`
   position: relative;
 
-  ${({ direction, wrap, w }) => css`
+  ${({ direction, wrap, width }) => css`
     &::before {
       display: none;
       content: attr(aria-label);
@@ -122,7 +122,7 @@ const TooltipRoot = styled.div<ITooltipProps>`
         ? css`
             &::before {
               width: max-content;
-              max-width: ${w};
+              max-width: ${width};
               word-wrap: break-word;
               white-space: pre-line;
               border-collapse: separate;

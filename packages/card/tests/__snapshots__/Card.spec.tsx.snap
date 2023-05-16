@@ -2282,6 +2282,7 @@ Object {
     <div>
       <section
         class="c0"
+        height="9rem"
         role="article"
       >
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et totam eius ducimus unde voluptatibus asperiores fuga
@@ -2290,6 +2291,7 @@ Object {
       </section>
       <section
         class="c1"
+        height="15rem"
         role="article"
       >
         <header
@@ -2390,6 +2392,7 @@ Object {
 <div>
     <section
       class="c0"
+      height="9rem"
       role="article"
     >
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et totam eius ducimus unde voluptatibus asperiores fuga
@@ -2398,6 +2401,7 @@ Object {
     </section>
     <section
       class="c1"
+      height="15rem"
       role="article"
     >
       <header

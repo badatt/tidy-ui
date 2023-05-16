@@ -29,8 +29,8 @@ const commonStyles = css<ITextInputProps>`
   background: inherit;
   color: inherit;
 
-  ${({ disabled, stretched, sz, w }) => css`
-    width: ${stretched ? '100%' : w ?? 'inherit'};
+  ${({ disabled, stretched, sz, width }) => css`
+    width: ${stretched ? '100%' : width ?? 'inherit'};
     height: calc(2.5em * ${sizeScale[sz!]});
     font-size: calc(1rem * ${sizeScale[sz!]});
     line-height: calc(1.5 * ${sizeScale[sz!]});

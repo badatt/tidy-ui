@@ -1009,7 +1009,9 @@ Object {
     <div>
       <div
         class="c0"
+        height="5rem"
         role="button"
+        width="25rem"
       >
         <button
           class="c1"
@@ -1397,7 +1399,9 @@ Object {
 <div>
     <div
       class="c0"
+      height="5rem"
       role="button"
+      width="25rem"
     >
       <button
         class="c1"

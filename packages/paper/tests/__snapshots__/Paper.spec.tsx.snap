@@ -141,7 +141,9 @@ Object {
     <div>
       <section
         class="c0"
+        height="25rem"
         role="article"
+        width="25rem"
       >
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, veniam ducimus ea reiciendis sed blanditiis
           impedit quisquam velit praesentium, eius dignissimos. Omnis ad doloribus laudantium expedita accusantium
@@ -173,7 +175,9 @@ Object {
 <div>
     <section
       class="c0"
+      height="25rem"
       role="article"
+      width="25rem"
     >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, veniam ducimus ea reiciendis sed blanditiis
           impedit quisquam velit praesentium, eius dignissimos. Omnis ad doloribus laudantium expedita accusantium

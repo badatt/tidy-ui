@@ -16,7 +16,7 @@ const text = `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit mini
           Temporibus, reiciendis.`;
 
 export const basic = () => (
-  <Container gutter="0" h="20rem">
+  <Container gutter="0" height="20rem">
     <FlexBox ctr fuh gap="1rem">
       <Tooltip aria-label="Lorem ipsum dolor sit amet consectetur" direction="right">
         <Button size="lg">Right</Button>
@@ -24,7 +24,7 @@ export const basic = () => (
       <Tooltip aria-label="Lorem ipsum dolor sit amet consectetur" direction="top">
         <Button size="lg">Top</Button>
       </Tooltip>
-      <Tooltip aria-label="Lorem ipsum dolor sit amet consectetur" direction="bottom" w="250px" wrap>
+      <Tooltip aria-label="Lorem ipsum dolor sit amet consectetur" direction="bottom" width="250px" wrap>
         <Button size="lg">bottom</Button>
       </Tooltip>
       <Tooltip aria-label="Lorem ipsum dolor sit amet consectetur" direction="left">
@@ -35,18 +35,18 @@ export const basic = () => (
 );
 
 export const wrapped = () => (
-  <Container gutter="0" h="40rem">
+  <Container gutter="0" height="40rem">
     <FlexBox ctr fuh gap="1rem">
-      <Tooltip aria-label={text} direction="right" w="250px" wrap>
+      <Tooltip aria-label={text} direction="right" width="250px" wrap>
         <Button size="lg">Right</Button>
       </Tooltip>
-      <Tooltip aria-label={text} direction="top" w="250px" wrap>
+      <Tooltip aria-label={text} direction="top" width="250px" wrap>
         <Button size="lg">Top</Button>
       </Tooltip>
-      <Tooltip aria-label={text} direction="bottom" w="250px" wrap>
+      <Tooltip aria-label={text} direction="bottom" width="250px" wrap>
         <Button size="lg">bottom</Button>
       </Tooltip>
-      <Tooltip aria-label={text} direction="left" w="250px" wrap>
+      <Tooltip aria-label={text} direction="left" width="250px" wrap>
         <Button size="lg">Left</Button>
       </Tooltip>
     </FlexBox>

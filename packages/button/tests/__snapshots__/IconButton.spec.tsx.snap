@@ -591,10 +591,14 @@ Object {
     <div>
       <button
         class="c0"
+        height="3rem"
         role="button"
+        width="10rem"
       >
         <span
           class="c1"
+          height="3rem"
+          width="10rem"
         >
           <span
             class="c2"
@@ -614,6 +618,8 @@ Object {
         </span>
         <span
           class="c3"
+          height="3rem"
+          width="10rem"
         >
           Add
         </span>
@@ -693,10 +699,14 @@ Object {
 <div>
     <button
       class="c0"
+      height="3rem"
       role="button"
+      width="10rem"
     >
       <span
         class="c1"
+        height="3rem"
+        width="10rem"
       >
         <span
           class="c2"
@@ -716,6 +726,8 @@ Object {
       </span>
       <span
         class="c3"
+        height="3rem"
+        width="10rem"
       >
         Add
       </span>

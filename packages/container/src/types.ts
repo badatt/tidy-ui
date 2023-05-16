@@ -7,18 +7,18 @@ import { IBaseProps } from '@tidy-ui/types';
  */
 export interface IContainerProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * If `true`, creates a responsive container that changes maximum width based on device breakpoints
-   *
-   * @default false
-   */
-  fixed?: boolean;
-
-  /**
    * Creates a container with left and right padding
    *
    * @default '1.5rem'
    */
   gutter?: string;
+
+  /**
+   * If `true`, creates a responsive container that changes maximum width based on device breakpoints
+   *
+   * @default false
+   */
+  isFixed?: boolean;
 
   /**
    * Maximum width of the container

@@ -28,8 +28,8 @@ const DrawerRoot = styled.div<IDrawerProps>`
 const DrawerContent = styled.div<IDrawerProps>`
   display: flex;
   flex-direction: column;
-  ${({ w, theme: { palette } }) => css`
-    width: ${w};
+  ${({ width, theme: { palette } }) => css`
+    width: ${width};
     height: 100vh;
     background-color: ${palette.background.default};
   `}

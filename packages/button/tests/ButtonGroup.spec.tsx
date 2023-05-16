@@ -101,7 +101,7 @@ describe('Render ButtonGroup', () => {
   it('Custom dimensions', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <ButtonGroup w="30rem" h="5rem">
+        <ButtonGroup width="30rem" height="5rem">
           {[...Array(5)].map((c, i) => (
             <Button key={i}>Button {i}</Button>
           ))}

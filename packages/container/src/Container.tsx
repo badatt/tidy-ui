@@ -1,22 +1,20 @@
 import React from 'react';
-import { css, devices, styled } from '@tidy-ui/commons';
+import { createStandardStyles, css, devices, styled } from '@tidy-ui/commons';
 import { IContainerProps } from './types';
 
 const ContainerRoot = styled.div<IContainerProps>`
+  ${createStandardStyles}
   ${({
     theme: {
       layout: { screens },
     },
-    h,
-    fixed,
+    isFixed,
     maxWidth,
     gutter,
   }) => css`
     margin-left: auto;
     margin-right: auto;
-    display: block;
     box-sizing: border-box;
-    height: ${h ?? '100%'};
     ${maxWidth &&
     css`
       max-width: ${screens[maxWidth].breakpoint}px;
@@ -25,7 +23,7 @@ const ContainerRoot = styled.div<IContainerProps>`
     css`
       padding: 0 ${gutter};
     `}
-    ${fixed &&
+    ${isFixed &&
     css`
       ${devices.mobile} {
         max-width: ${screens.xs.breakpoint}px;
@@ -52,6 +50,7 @@ const ContainerRoot = styled.div<IContainerProps>`
  */
 const Container = React.forwardRef<HTMLDivElement, IContainerProps>((props, ref) => {
   const { children, ...rest } = props;
+  console.log(rest);
   return (
     <ContainerRoot ref={ref} role="main" {...rest}>
       {children}
@@ -60,8 +59,9 @@ const Container = React.forwardRef<HTMLDivElement, IContainerProps>((props, ref)
 });
 
 Container.defaultProps = {
-  fixed: false,
   gutter: '1.5rem',
+  height: '100%',
+  isFixed: false,
 };
 
 Container.displayName = 'Container';

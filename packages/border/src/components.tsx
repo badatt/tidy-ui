@@ -3,9 +3,9 @@ import { IBorderProps } from './types';
 
 const BorderRoot = styled.div<IBorderProps>`
   position: relative;
-  ${({ theme: { palette, layout }, h, w, padding, margin, variant, density, tone, shade, sharp }) => css`
-    height: ${h};
-    width: ${w};
+  ${({ theme: { palette, layout }, height, width, padding, margin, variant, density, tone, shade, sharp }) => css`
+    height: ${height};
+    width: ${width};
     padding: ${padding};
     margin: ${margin};
     border-style: ${variant};

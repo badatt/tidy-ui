@@ -10,7 +10,7 @@ import { IToasterProps } from './types';
  * @param {IToasterProps} props toaster props
  * @returns {React.FC} react component
  */
-const Toaster: React.FC<IToasterProps> = (props: IToasterProps) => {
+const Toaster: React.FC<IToasterProps> = (props: React.PropsWithChildren<IToasterProps>) => {
   const { children, ...rest } = props;
   const { Portal } = usePortal();
 

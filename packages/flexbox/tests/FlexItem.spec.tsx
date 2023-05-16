@@ -9,7 +9,7 @@ import { orchidLight, TidyUiProvider } from '../../commons/src';
 import { FlexBox } from '../src';
 import { AlignSelf, IFlexBoxProps, IFlexItemProps } from '../src/types';
 
-const h = '350px';
+const height = '350px';
 
 function FlexBoxWrapper(props: { box: IFlexBoxProps; item: IFlexItemProps }) {
   return (
@@ -30,7 +30,7 @@ describe('FlexItem', () => {
   it('Basic render', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <FlexBoxWrapper box={{ h }} item={{}} />
+        <FlexBoxWrapper box={{ height }} item={{}} />
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -39,7 +39,7 @@ describe('FlexItem', () => {
   it('Flex', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <FlexBoxWrapper box={{ h }} item={{ flx: 'flex-grow' }} />
+        <FlexBoxWrapper box={{ height }} item={{ flx: 'flex-grow' }} />
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -48,7 +48,7 @@ describe('FlexItem', () => {
   it('Spanning', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <FlexBoxWrapper box={{ h }} item={{ span: 6 }} />
+        <FlexBoxWrapper box={{ height }} item={{ span: 6 }} />
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -57,7 +57,7 @@ describe('FlexItem', () => {
   it('Flex basis', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <FlexBoxWrapper box={{ h }} item={{ fbs: 'auto' }} />
+        <FlexBoxWrapper box={{ height }} item={{ fbs: 'auto' }} />
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -66,7 +66,7 @@ describe('FlexItem', () => {
   it('Flex shrink', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <FlexBoxWrapper box={{ h }} item={{ fsk: 1 }} />
+        <FlexBoxWrapper box={{ height }} item={{ fsk: 1 }} />
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -75,7 +75,7 @@ describe('FlexItem', () => {
   it('Flex grow', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <FlexBoxWrapper box={{ h }} item={{ fgo: 2 }} />
+        <FlexBoxWrapper box={{ height }} item={{ fgo: 2 }} />
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -84,7 +84,7 @@ describe('FlexItem', () => {
   it('Order', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <FlexBoxWrapper box={{ h }} item={{ ord: 2 }} />
+        <FlexBoxWrapper box={{ height }} item={{ ord: 2 }} />
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -96,7 +96,7 @@ describe('FlexItem', () => {
         {Object.keys(Object.keys(AlignSelf).filter((i) => !isNaN(Number(i))))
           .filter((i) => !isNaN(Number(i)))
           .map((v) => (
-            <FlexBoxWrapper box={{ h }} item={{ als: AlignSelf[v] }} key={v} />
+            <FlexBoxWrapper box={{ height }} item={{ als: AlignSelf[v] }} key={v} />
           ))}
       </TidyUiProvider>,
     );
@@ -106,7 +106,7 @@ describe('FlexItem', () => {
   it('Full width', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <FlexBoxWrapper box={{ h }} item={{ fuw: true }} />
+        <FlexBoxWrapper box={{ height }} item={{ fuw: true }} />
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();

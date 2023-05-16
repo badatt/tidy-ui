@@ -1104,10 +1104,14 @@ Object {
     <div>
       <div
         class="c0"
+        height="10rem"
         role="note"
+        width="20rem"
       >
         <div
           class="c1"
+          height="10rem"
+          width="20rem"
         >
           <svg
             aria-hidden="true"
@@ -1124,6 +1128,8 @@ Object {
         </div>
         <div
           class="c2"
+          height="10rem"
+          width="20rem"
         >
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
@@ -1225,10 +1231,14 @@ Object {
 <div>
     <div
       class="c0"
+      height="10rem"
       role="note"
+      width="20rem"
     >
       <div
         class="c1"
+        height="10rem"
+        width="20rem"
       >
         <svg
           aria-hidden="true"
@@ -1245,6 +1255,8 @@ Object {
       </div>
       <div
         class="c2"
+        height="10rem"
+        width="20rem"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus

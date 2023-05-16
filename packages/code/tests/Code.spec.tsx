@@ -59,7 +59,7 @@ describe('Code', () => {
   it('Custom dimensions', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Code h="10rem" w="30rem">
+        <Code height="10rem" width="30rem">
           {text}
         </Code>
       </TidyUiProvider>,

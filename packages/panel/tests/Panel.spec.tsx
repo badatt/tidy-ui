@@ -66,9 +66,9 @@ describe('Panel', () => {
   it('Custom dimension', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Panel w="30rem">
+        <Panel width="30rem">
           <Panel.Header>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Panel.Header>
-          <Panel.Body h="25rem">{text}</Panel.Body>
+          <Panel.Body height="25rem">{text}</Panel.Body>
         </Panel>
       </TidyUiProvider>,
     );

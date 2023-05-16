@@ -47,7 +47,7 @@ export const basic = () => {
         Submit
       </Button>
       <Modal isOpen={open}>
-        <Notification tone="success" w="300px" onClose={() => setOpen(false)} closable>
+        <Notification tone="success" width="300px" onClose={() => setOpen(false)} closable>
           Successfully submitted !
         </Notification>
       </Modal>
@@ -64,7 +64,7 @@ export const onBackdropClick = () => {
         Submit
       </Button>
       <Modal isOpen={open} onBackdropClick={() => setOpen(false)}>
-        <Notification tone="success" w="300px" onClose={() => setOpen(false)} closable>
+        <Notification tone="success" width="300px" onClose={() => setOpen(false)} closable>
           Successfully submitted !
         </Notification>
       </Modal>

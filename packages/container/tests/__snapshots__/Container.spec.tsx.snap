@@ -4,11 +4,10 @@ exports[`Container Basic render 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
   box-sizing: border-box;
-  height: 100%;
   padding: 0 1.5rem;
 }
 
@@ -21,6 +20,7 @@ Object {
     <div>
       <div
         class="c0"
+        height="100%"
         role="main"
       >
         <div
@@ -30,11 +30,10 @@ Object {
     </div>
   </body>,
   "container": .c0 {
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
   box-sizing: border-box;
-  height: 100%;
   padding: 0 1.5rem;
 }
 
@@ -46,6 +45,7 @@ Object {
 <div>
     <div
       class="c0"
+      height="100%"
       role="main"
     >
       <div
@@ -111,11 +111,10 @@ exports[`Container Custom height 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
+  height: 25rem;
   margin-left: auto;
   margin-right: auto;
-  display: block;
   box-sizing: border-box;
-  height: 25rem;
   padding: 0 1.5rem;
 }
 
@@ -128,6 +127,7 @@ Object {
     <div>
       <div
         class="c0"
+        height="25rem"
         role="main"
       >
         <div
@@ -137,11 +137,10 @@ Object {
     </div>
   </body>,
   "container": .c0 {
+  height: 25rem;
   margin-left: auto;
   margin-right: auto;
-  display: block;
   box-sizing: border-box;
-  height: 25rem;
   padding: 0 1.5rem;
 }
 
@@ -153,6 +152,7 @@ Object {
 <div>
     <div
       class="c0"
+      height="25rem"
       role="main"
     >
       <div
@@ -218,11 +218,10 @@ exports[`Container Fixed 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
   box-sizing: border-box;
-  height: 100%;
   padding: 0 1.5rem;
 }
 
@@ -231,40 +230,11 @@ Object {
   height: 100vh;
 }
 
-@media only screen and (min-width:576px) {
-  .c0 {
-    max-width: 576px;
-  }
-}
-
-@media only screen and (min-width:768px) {
-  .c0 {
-    max-width: 768px;
-  }
-}
-
-@media only screen and (min-width:992px) {
-  .c0 {
-    max-width: 992px;
-  }
-}
-
-@media only screen and (min-width:1200px) {
-  .c0 {
-    max-width: 1200px;
-  }
-}
-
-@media only screen and (min-width:1400px) {
-  .c0 {
-    max-width: 1400px;
-  }
-}
-
 <body>
     <div>
       <div
         class="c0"
+        height="100%"
         role="main"
       >
         <div
@@ -274,11 +244,10 @@ Object {
     </div>
   </body>,
   "container": .c0 {
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
   box-sizing: border-box;
-  height: 100%;
   padding: 0 1.5rem;
 }
 
@@ -287,39 +256,10 @@ Object {
   height: 100vh;
 }
 
-@media only screen and (min-width:576px) {
-  .c0 {
-    max-width: 576px;
-  }
-}
-
-@media only screen and (min-width:768px) {
-  .c0 {
-    max-width: 768px;
-  }
-}
-
-@media only screen and (min-width:992px) {
-  .c0 {
-    max-width: 992px;
-  }
-}
-
-@media only screen and (min-width:1200px) {
-  .c0 {
-    max-width: 1200px;
-  }
-}
-
-@media only screen and (min-width:1400px) {
-  .c0 {
-    max-width: 1400px;
-  }
-}
-
 <div>
     <div
       class="c0"
+      height="100%"
       role="main"
     >
       <div
@@ -385,51 +325,46 @@ exports[`Container Max width 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
   box-sizing: border-box;
-  height: 100%;
   max-width: 576px;
   padding: 0 1.5rem;
 }
 
 .c2 {
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
   box-sizing: border-box;
-  height: 100%;
   max-width: 768px;
   padding: 0 1.5rem;
 }
 
 .c3 {
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
   box-sizing: border-box;
-  height: 100%;
   max-width: 992px;
   padding: 0 1.5rem;
 }
 
 .c4 {
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
   box-sizing: border-box;
-  height: 100%;
   max-width: 1200px;
   padding: 0 1.5rem;
 }
 
 .c5 {
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
   box-sizing: border-box;
-  height: 100%;
   max-width: 1400px;
   padding: 0 1.5rem;
 }
@@ -443,6 +378,7 @@ Object {
     <div>
       <div
         class="c0"
+        height="100%"
         role="main"
       >
         <div
@@ -451,6 +387,7 @@ Object {
       </div>
       <div
         class="c2"
+        height="100%"
         role="main"
       >
         <div
@@ -459,6 +396,7 @@ Object {
       </div>
       <div
         class="c3"
+        height="100%"
         role="main"
       >
         <div
@@ -467,6 +405,7 @@ Object {
       </div>
       <div
         class="c4"
+        height="100%"
         role="main"
       >
         <div
@@ -475,6 +414,7 @@ Object {
       </div>
       <div
         class="c5"
+        height="100%"
         role="main"
       >
         <div
@@ -484,51 +424,46 @@ Object {
     </div>
   </body>,
   "container": .c0 {
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
   box-sizing: border-box;
-  height: 100%;
   max-width: 576px;
   padding: 0 1.5rem;
 }
 
 .c2 {
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
   box-sizing: border-box;
-  height: 100%;
   max-width: 768px;
   padding: 0 1.5rem;
 }
 
 .c3 {
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
   box-sizing: border-box;
-  height: 100%;
   max-width: 992px;
   padding: 0 1.5rem;
 }
 
 .c4 {
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
   box-sizing: border-box;
-  height: 100%;
   max-width: 1200px;
   padding: 0 1.5rem;
 }
 
 .c5 {
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
   box-sizing: border-box;
-  height: 100%;
   max-width: 1400px;
   padding: 0 1.5rem;
 }
@@ -541,6 +476,7 @@ Object {
 <div>
     <div
       class="c0"
+      height="100%"
       role="main"
     >
       <div
@@ -549,6 +485,7 @@ Object {
     </div>
     <div
       class="c2"
+      height="100%"
       role="main"
     >
       <div
@@ -557,6 +494,7 @@ Object {
     </div>
     <div
       class="c3"
+      height="100%"
       role="main"
     >
       <div
@@ -565,6 +503,7 @@ Object {
     </div>
     <div
       class="c4"
+      height="100%"
       role="main"
     >
       <div
@@ -573,6 +512,7 @@ Object {
     </div>
     <div
       class="c5"
+      height="100%"
       role="main"
     >
       <div
@@ -638,11 +578,10 @@ exports[`Container No gutters 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
   box-sizing: border-box;
-  height: 100%;
   padding: 0 0;
 }
 
@@ -655,6 +594,7 @@ Object {
     <div>
       <div
         class="c0"
+        height="100%"
         role="main"
       >
         <div
@@ -664,11 +604,10 @@ Object {
     </div>
   </body>,
   "container": .c0 {
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
   box-sizing: border-box;
-  height: 100%;
   padding: 0 0;
 }
 
@@ -680,6 +619,7 @@ Object {
 <div>
     <div
       class="c0"
+      height="100%"
       role="main"
     >
       <div

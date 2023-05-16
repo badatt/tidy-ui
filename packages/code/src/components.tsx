@@ -34,9 +34,9 @@ const CopySuccessIcon = styled(Icon.CheckCircle)`
 const CodeRoot = styled.div<ICodeProps>`
   overflow: auto;
   position: relative;
-  ${({ margin, h, w }) => css`
-    height: ${h};
-    width: ${w};
+  ${({ margin, height, width }) => css`
+    height: ${height};
+    width: ${width};
     margin: ${margin};
   `}
   &:hover ${CopyIcon} {

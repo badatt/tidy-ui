@@ -30,14 +30,10 @@ export interface IRefForwardingComponent<T extends ElementType, P = unknown> {
   /**
    * Default props
    */
-  defaultProps?: Record<string, unknown>;
+  defaultProps: Record<string, unknown>;
 
   /**
    * Display name
    */
-  displayName?: string;
-  /**
-   * prop types
-   */
-  propTypes?: Record<string, unknown>;
+  displayName: string;
 }

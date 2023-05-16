@@ -30,7 +30,7 @@ describe('FlexBox', () => {
   it('Basic render', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <FlexBoxWrapper h={height} />
+        <FlexBoxWrapper height={height} />
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -42,7 +42,7 @@ describe('FlexBox', () => {
         {Object.keys(FlexDirection)
           .filter((i) => !isNaN(Number(i)))
           .map((v) => (
-            <FlexBoxWrapper h={height} fld={FlexDirection[v]} key={v} />
+            <FlexBoxWrapper height={height} fld={FlexDirection[v]} key={v} />
           ))}
       </TidyUiProvider>,
     );
@@ -53,7 +53,7 @@ describe('FlexBox', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         {[true, false].map((v, i) => (
-          <FlexBoxWrapper h={height} nowrap={v} key={i} />
+          <FlexBoxWrapper height={height} nowrap={v} key={i} />
         ))}
       </TidyUiProvider>,
     );
@@ -72,7 +72,7 @@ describe('FlexBox', () => {
   it('Centered with height set', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <FlexBoxWrapper ctr h={height} />
+        <FlexBoxWrapper ctr height={height} />
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -90,7 +90,7 @@ describe('FlexBox', () => {
   it('Gap', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <FlexBoxWrapper gap="8px" h={height} />
+        <FlexBoxWrapper gap="8px" height={height} />
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -99,7 +99,7 @@ describe('FlexBox', () => {
   it('Column gap', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <FlexBoxWrapper cgp="8px" h={height} />
+        <FlexBoxWrapper cgp="8px" height={height} />
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -108,7 +108,7 @@ describe('FlexBox', () => {
   it('Row gap', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <FlexBoxWrapper rgp="8px" h={height} />
+        <FlexBoxWrapper rgp="8px" height={height} />
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -120,7 +120,7 @@ describe('FlexBox', () => {
         {Object.keys(AlignContent)
           .filter((i) => !isNaN(Number(i)))
           .map((v) => (
-            <FlexBoxWrapper h={height} alc={AlignContent[v]} key={v} />
+            <FlexBoxWrapper height={height} alc={AlignContent[v]} key={v} />
           ))}
       </TidyUiProvider>,
     );
@@ -133,7 +133,7 @@ describe('FlexBox', () => {
         {Object.keys(AlignItems)
           .filter((i) => !isNaN(Number(i)))
           .map((v) => (
-            <FlexBoxWrapper h={height} ali={AlignItems[v]} key={v} />
+            <FlexBoxWrapper height={height} ali={AlignItems[v]} key={v} />
           ))}
       </TidyUiProvider>,
     );
@@ -146,7 +146,7 @@ describe('FlexBox', () => {
         {Object.keys(JustifyContent)
           .filter((i) => !isNaN(Number(i)))
           .map((v) => (
-            <FlexBoxWrapper h={height} jsc={JustifyContent[v]} key={v} />
+            <FlexBoxWrapper height={height} jsc={JustifyContent[v]} key={v} />
           ))}
       </TidyUiProvider>,
     );
@@ -156,7 +156,7 @@ describe('FlexBox', () => {
   it('Width', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <FlexBoxWrapper w="600px" />
+        <FlexBoxWrapper width="600px" />
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();

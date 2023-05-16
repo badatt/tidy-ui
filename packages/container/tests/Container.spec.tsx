@@ -31,7 +31,7 @@ describe('Container', () => {
   it('Fixed', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
-        <Container fixed>
+        <Container>
           <Content />
         </Container>
       </TidyUiProvider>,
@@ -68,7 +68,7 @@ describe('Container', () => {
   it('Custom height', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Container h="25rem">
+        <Container height="25rem">
           <Content />
         </Container>
       </TidyUiProvider>,

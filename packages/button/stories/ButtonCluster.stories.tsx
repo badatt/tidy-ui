@@ -68,7 +68,7 @@ export const disabled = () => (
 );
 
 export const customDimensions = () => (
-  <ButtonCluster h="3rem">
+  <ButtonCluster height="3rem">
     <IconButton icon={<Icon.AddCircle />} variant="outlined">
       Add
     </IconButton>

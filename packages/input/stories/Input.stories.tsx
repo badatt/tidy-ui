@@ -18,7 +18,7 @@ type Story = StoryObj<typeof Input>;
 export const variants: Story = {
   render: () => {
     return (
-      <FlexBox gap="1rem" fld="column" w="350px">
+      <FlexBox gap="1rem" fld="column" width="350px">
         {Object.values(Variant)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
@@ -32,7 +32,7 @@ export const variants: Story = {
 export const sizes: Story = {
   render: () => {
     return (
-      <FlexBox gap="1rem" fld="column" w="250px">
+      <FlexBox gap="1rem" fld="column" width="250px">
         {Object.values(Size)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
@@ -46,7 +46,7 @@ export const sizes: Story = {
 export const statuses: Story = {
   render: () => {
     return (
-      <FlexBox gap="1rem" fld="column" w="250px">
+      <FlexBox gap="1rem" fld="column" width="250px">
         {Object.values(Status)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
@@ -66,7 +66,7 @@ export const caption: Story = {
     };
 
     return (
-      <FlexBox gap="1rem" fld="column" w="350px">
+      <FlexBox gap="1rem" fld="column" width="350px">
         <Input caption={`My name is  ${name}`} value={name} onChange={handleChange} placeholder="Enter name" />
       </FlexBox>
     );
@@ -76,7 +76,7 @@ export const caption: Story = {
 export const disabled: Story = {
   render: () => {
     return (
-      <FlexBox gap="1rem" fld="column" w="350px">
+      <FlexBox gap="1rem" fld="column" width="350px">
         <Input placeholder="enabled value" />
         <Input disabled placeholder="disabled value" />
       </FlexBox>
@@ -88,7 +88,7 @@ export const stretched: Story = {
   render: () => {
     return (
       <FlexBox gap="1rem" fld="column">
-        <Input w="200px" placeholder="normal value" />
+        <Input width="200px" placeholder="normal value" />
         <Input stretched placeholder="stretched value" />
       </FlexBox>
     );
@@ -134,7 +134,7 @@ export const password: Story = {
     }, [name]);
 
     return (
-      <FlexBox gap="1rem" fld="column" w="350px">
+      <FlexBox gap="1rem" fld="column" width="350px">
         <Input.Password
           caption={caption}
           status={status}
@@ -155,7 +155,7 @@ export const types: Story = {
     };
     return (
       <FlexBox gap="2rem">
-        <FlexBox gap="2rem" fld="column" w="350px">
+        <FlexBox gap="2rem" fld="column" width="350px">
           <Input placeholder="Simple input" onChange={handleChange} />
           <Input.Password placeholder="Password input" onChange={handleChange} />
           <Input.Number placeholder="Number input" onChange={handleChange} />

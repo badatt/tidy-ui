@@ -64,7 +64,7 @@ export const disabled = () => (
 );
 
 export const customDimension = () => (
-  <IconButton icon={<Icon.Add />} h="3rem" w="12rem">
+  <IconButton icon={<Icon.Add />} height="3rem" width="12rem">
     custom dimension
   </IconButton>
 );

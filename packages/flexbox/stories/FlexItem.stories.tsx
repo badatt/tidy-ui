@@ -20,7 +20,7 @@ export const basic = () => {
     <FlexBoxProvider>
       <Ctx.Consumer>
         {({ count }) => (
-          <StyledFlexBox h={height}>
+          <StyledFlexBox height={height}>
             {[...Array(count)].map((c, i) => (
               <StyledFlexItem key={i} style={{ padding: '3rem' }}>
                 <StyledText>{i}</StyledText>
@@ -59,7 +59,7 @@ export const span = () => {
       </FlexBox>
       <Ctx.Consumer>
         {({ count }) => (
-          <StyledFlexBox h={height}>
+          <StyledFlexBox height={height}>
             {[...Array(count)].map((c, i) => (
               <StyledFlexItem key={i} span={span as SpanType} style={st}>
                 <StyledText>{i}</StyledText>
@@ -78,7 +78,7 @@ export const flexGrow = () => {
     <FlexBoxProvider size={4}>
       <Ctx.Consumer>
         {({ count }) => (
-          <StyledFlexBox h={height}>
+          <StyledFlexBox height={height}>
             {[...Array(count)].map((c, i) => {
               const grow = count === 4 ? 1 : Math.floor(Math.random() * Array(count).length);
               return (
@@ -100,7 +100,7 @@ export const order = () => {
     <FlexBoxProvider size={6}>
       <Ctx.Consumer>
         {({ count }) => (
-          <StyledFlexBox h={height}>
+          <StyledFlexBox height={height}>
             {[...Array(count)].map((c, i) => {
               const order = count === 6 ? 0 : Math.floor(Math.random() * Array(count).length);
               return (
@@ -127,7 +127,7 @@ export const alignSelf = () => {
             <Text.h5>{AlignSelf[v]}</Text.h5>
             <Ctx.Consumer>
               {({ count }) => (
-                <StyledFlexBox h={height} alc="normal" jsc="normal">
+                <StyledFlexBox height={height} alc="normal" jsc="normal">
                   {[...Array(count)].map((c, i) => {
                     const als = i % 2 == 0 ? AlignSelf[v] : 'normal';
                     return (
@@ -152,7 +152,7 @@ export const fullWidth = () => {
     <FlexBoxProvider>
       <Ctx.Consumer>
         {({ count }) => (
-          <StyledFlexBox h={height}>
+          <StyledFlexBox height={height}>
             {[...Array(count)].map((c, i) => (
               <StyledFlexItem key={i} style={{ padding: '3rem' }} fuw>
                 <StyledText>{i}</StyledText>

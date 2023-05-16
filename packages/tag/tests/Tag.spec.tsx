@@ -94,7 +94,7 @@ describe('Tag', () => {
   it('Custom dimension', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Tag h="3rem" w="10rem">
+        <Tag height="3rem" width="10rem">
           basic
         </Tag>
       </TidyUiProvider>,

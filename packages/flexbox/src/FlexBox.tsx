@@ -4,7 +4,7 @@ import { FlexItem } from './FlexItem';
 import { IFlexBoxProps } from './types';
 
 const FlexBoxRoot = styled.div<IFlexBoxProps>`
-  ${({ h, w, fuh, alc, ali, cgp, fld, flow, gap, jsc, rgp, nowrap, margin }) => css`
+  ${({ height, width, fuh, alc, ali, cgp, fld, flow, gap, jsc, rgp, nowrap, margin }) => css`
     display: flex;
     margin: ${margin};
     flex-direction: ${fld};
@@ -20,14 +20,14 @@ const FlexBoxRoot = styled.div<IFlexBoxProps>`
       align-content: ${alc};
     `}
     
-    ${w &&
+    ${width &&
     css`
-      width: ${w};
+      width: ${width};
     `}
     ${!fuh &&
-    h &&
+    height &&
     css`
-      height: ${h};
+      height: ${height};
     `}
     ${fuh &&
     css`
@@ -72,7 +72,7 @@ const FlexBox = React.forwardRef<HTMLDivElement, IFlexBoxProps>((props, ref) => 
       setRest({
         ...rest,
         alc: 'center',
-        fuh: rest.h ? false : true,
+        fuh: rest.height ? false : true,
         jsc: 'center',
       });
     }
