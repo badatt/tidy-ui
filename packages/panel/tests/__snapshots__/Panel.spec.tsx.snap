@@ -81,7 +81,6 @@ Object {
   height: 0;
   padding-bottom: 0;
   height: 0;
-  overflow-y: auto;
 }
 
 <body>
@@ -115,7 +114,6 @@ Object {
         </div>
         <div
           class="c4"
-          height="fit-content"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -212,7 +210,6 @@ Object {
   height: 0;
   padding-bottom: 0;
   height: 0;
-  overflow-y: auto;
 }
 
 <div>
@@ -245,7 +242,6 @@ Object {
       </div>
       <div
         class="c4"
-        height="fit-content"
         role="presentation"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -402,7 +398,6 @@ Object {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  overflow-y: auto;
 }
 
 <body>
@@ -436,7 +431,6 @@ Object {
         </div>
         <div
           class="c4"
-          height="fit-content"
           role="presentation"
         >
           <div
@@ -571,7 +565,6 @@ Object {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  overflow-y: auto;
 }
 
 <div>
@@ -604,7 +597,6 @@ Object {
       </div>
       <div
         class="c4"
-        height="fit-content"
         role="presentation"
       >
         <div
@@ -1112,7 +1104,6 @@ Object {
   height: 0;
   padding-bottom: 0;
   height: 0;
-  overflow-y: auto;
 }
 
 <body>
@@ -1150,7 +1141,6 @@ Object {
         </div>
         <div
           class="c4"
-          height="fit-content"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -1247,7 +1237,6 @@ Object {
   height: 0;
   padding-bottom: 0;
   height: 0;
-  overflow-y: auto;
 }
 
 <div>
@@ -1284,7 +1273,6 @@ Object {
       </div>
       <div
         class="c4"
-        height="fit-content"
         role="presentation"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -1451,7 +1439,6 @@ Object {
   height: 0;
   padding-bottom: 0;
   height: 0;
-  overflow-y: auto;
 }
 
 <body>
@@ -1485,7 +1472,6 @@ Object {
         </div>
         <div
           class="c4"
-          height="fit-content"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -1531,7 +1517,6 @@ Object {
         </div>
         <div
           class="c4"
-          height="fit-content"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -1642,7 +1627,6 @@ Object {
   height: 0;
   padding-bottom: 0;
   height: 0;
-  overflow-y: auto;
 }
 
 <div>
@@ -1675,7 +1659,6 @@ Object {
       </div>
       <div
         class="c4"
-        height="fit-content"
         role="presentation"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -1721,7 +1704,6 @@ Object {
       </div>
       <div
         class="c4"
-        height="fit-content"
         role="presentation"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -1874,7 +1856,6 @@ Object {
   height: 0;
   padding-bottom: 0;
   height: 0;
-  overflow-y: auto;
 }
 
 <body>
@@ -1908,7 +1889,6 @@ Object {
         </div>
         <div
           class="c4"
-          height="fit-content"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -2005,7 +1985,6 @@ Object {
   height: 0;
   padding-bottom: 0;
   height: 0;
-  overflow-y: auto;
 }
 
 <div>
@@ -2038,7 +2017,6 @@ Object {
       </div>
       <div
         class="c4"
-        height="fit-content"
         role="presentation"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -2189,7 +2167,6 @@ Object {
   height: 0;
   padding-bottom: 0;
   height: 0;
-  overflow-y: auto;
 }
 
 <body>
@@ -2223,7 +2200,6 @@ Object {
         </div>
         <div
           class="c4"
-          height="fit-content"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -2318,7 +2294,6 @@ Object {
   height: 0;
   padding-bottom: 0;
   height: 0;
-  overflow-y: auto;
 }
 
 <div>
@@ -2351,7 +2326,6 @@ Object {
       </div>
       <div
         class="c4"
-        height="fit-content"
         role="presentation"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -2504,7 +2478,6 @@ Object {
   height: 0;
   padding-bottom: 0;
   height: 0;
-  overflow-y: auto;
 }
 
 <body>
@@ -2538,7 +2511,6 @@ Object {
         </div>
         <div
           class="c4"
-          height="fit-content"
           role="presentation"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
@@ -2635,7 +2607,6 @@ Object {
   height: 0;
   padding-bottom: 0;
   height: 0;
-  overflow-y: auto;
 }
 
 <div>
@@ -2668,7 +2639,6 @@ Object {
       </div>
       <div
         class="c4"
-        height="fit-content"
         role="presentation"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
