@@ -47,6 +47,32 @@ describe('Panel', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('Visible', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Panel>
+          <Panel.Header>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Panel.Header>
+          <Panel.Body visible>{text}</Panel.Body>
+        </Panel>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Visible with height', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Panel>
+          <Panel.Header>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Panel.Header>
+          <Panel.Body visible height="5rem">
+            {text}
+          </Panel.Body>
+        </Panel>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
   it('Custom margin', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>

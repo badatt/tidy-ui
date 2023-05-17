@@ -127,6 +127,15 @@ describe('Input', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('Custom width', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Input width="300px" placeholder="stretched value" />
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
   it('Password visibility check', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
