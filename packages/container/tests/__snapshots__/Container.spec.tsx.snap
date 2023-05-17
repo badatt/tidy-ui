@@ -230,6 +230,36 @@ Object {
   height: 100vh;
 }
 
+@media only screen and (min-width:576px) {
+  .c0 {
+    max-width: 576px;
+  }
+}
+
+@media only screen and (min-width:768px) {
+  .c0 {
+    max-width: 768px;
+  }
+}
+
+@media only screen and (min-width:992px) {
+  .c0 {
+    max-width: 992px;
+  }
+}
+
+@media only screen and (min-width:1200px) {
+  .c0 {
+    max-width: 1200px;
+  }
+}
+
+@media only screen and (min-width:1400px) {
+  .c0 {
+    max-width: 1400px;
+  }
+}
+
 <body>
     <div>
       <div
@@ -254,6 +284,36 @@ Object {
 .c1 {
   background-color: #cfe8fc;
   height: 100vh;
+}
+
+@media only screen and (min-width:576px) {
+  .c0 {
+    max-width: 576px;
+  }
+}
+
+@media only screen and (min-width:768px) {
+  .c0 {
+    max-width: 768px;
+  }
+}
+
+@media only screen and (min-width:992px) {
+  .c0 {
+    max-width: 992px;
+  }
+}
+
+@media only screen and (min-width:1200px) {
+  .c0 {
+    max-width: 1200px;
+  }
+}
+
+@media only screen and (min-width:1400px) {
+  .c0 {
+    max-width: 1400px;
+  }
 }
 
 <div>

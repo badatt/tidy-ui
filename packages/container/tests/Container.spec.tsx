@@ -31,7 +31,7 @@ describe('Container', () => {
   it('Fixed', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
-        <Container>
+        <Container isFixed>
           <Content />
         </Container>
       </TidyUiProvider>,
