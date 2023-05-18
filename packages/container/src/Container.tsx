@@ -1,9 +1,8 @@
 import React from 'react';
-import { createStandardStyles, css, devices, styled } from '@tidy-ui/commons';
+import { applyStandardOverrideStyles, css, devices, styled } from '@tidy-ui/commons';
 import { IContainerProps } from './types';
 
 const ContainerRoot = styled.div<IContainerProps>`
-  ${createStandardStyles}
   ${({
     theme: {
       layout: { screens },
@@ -42,6 +41,7 @@ const ContainerRoot = styled.div<IContainerProps>`
       }
     `}
   `}
+  ${applyStandardOverrideStyles}
 `;
 
 /**

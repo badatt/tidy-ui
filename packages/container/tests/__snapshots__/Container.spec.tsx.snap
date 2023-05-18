@@ -4,11 +4,11 @@ exports[`Container Basic render 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  height: 100%;
 }
 
 .c1 {
@@ -30,11 +30,11 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  height: 100%;
 }
 
 .c1 {
@@ -111,12 +111,12 @@ exports[`Container Custom background 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  background: grey;
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  background: grey;
+  height: 100%;
 }
 
 .c1 {
@@ -138,12 +138,12 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  background: grey;
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  background: grey;
+  height: 100%;
 }
 
 .c1 {
@@ -220,12 +220,12 @@ exports[`Container Custom border 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  border: 2px solid grey;
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  border: 2px solid grey;
+  height: 100%;
 }
 
 .c1 {
@@ -247,12 +247,12 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  border: 2px solid grey;
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  border: 2px solid grey;
+  height: 100%;
 }
 
 .c1 {
@@ -329,12 +329,12 @@ exports[`Container Custom clear 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  clear: both;
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  clear: both;
+  height: 100%;
 }
 
 .c1 {
@@ -356,12 +356,12 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  clear: both;
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  clear: both;
+  height: 100%;
 }
 
 .c1 {
@@ -438,12 +438,12 @@ exports[`Container Custom color 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  color: grey;
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  color: grey;
+  height: 100%;
 }
 
 .c1 {
@@ -466,12 +466,12 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  color: grey;
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  color: grey;
+  height: 100%;
 }
 
 .c1 {
@@ -549,12 +549,12 @@ exports[`Container Custom display 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  display: block;
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  display: block;
+  height: 100%;
 }
 
 .c1 {
@@ -577,12 +577,12 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  display: block;
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  display: block;
+  height: 100%;
 }
 
 .c1 {
@@ -660,12 +660,12 @@ exports[`Container Custom float 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  float: left;
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  float: left;
+  height: 100%;
 }
 
 .c1 {
@@ -687,12 +687,12 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  float: left;
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  float: left;
+  height: 100%;
 }
 
 .c1 {
@@ -769,12 +769,12 @@ exports[`Container Custom font 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  font: Roboto;
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  font: Roboto;
+  height: 100%;
 }
 
 .c1 {
@@ -796,12 +796,12 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  font: Roboto;
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  font: Roboto;
+  height: 100%;
 }
 
 .c1 {
@@ -878,11 +878,11 @@ exports[`Container Custom height 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  height: 25rem;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  height: 25rem;
 }
 
 .c1 {
@@ -904,11 +904,11 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  height: 25rem;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  height: 25rem;
 }
 
 .c1 {
@@ -985,12 +985,12 @@ exports[`Container Custom margin 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  height: 100%;
-  margin: 25rem;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  height: 100%;
+  margin: 25rem;
 }
 
 .c1 {
@@ -1012,12 +1012,12 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  height: 100%;
-  margin: 25rem;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  height: 100%;
+  margin: 25rem;
 }
 
 .c1 {
@@ -1094,12 +1094,12 @@ exports[`Container Custom overflow 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  height: 100%;
-  overflow: scroll;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  height: 100%;
+  overflow: scroll;
 }
 
 .c1 {
@@ -1122,12 +1122,12 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  height: 100%;
-  overflow: scroll;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  height: 100%;
+  overflow: scroll;
 }
 
 .c1 {
@@ -1205,12 +1205,12 @@ exports[`Container Custom padding 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  height: 100%;
-  padding: 25rem;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  height: 100%;
+  padding: 25rem;
 }
 
 .c1 {
@@ -1232,12 +1232,12 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  height: 100%;
-  padding: 25rem;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  height: 100%;
+  padding: 25rem;
 }
 
 .c1 {
@@ -1314,12 +1314,12 @@ exports[`Container Custom position 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  height: 100%;
-  position: absolute;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  height: 100%;
+  position: absolute;
 }
 
 .c1 {
@@ -1341,12 +1341,12 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  height: 100%;
-  position: absolute;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  height: 100%;
+  position: absolute;
 }
 
 .c1 {
@@ -1423,12 +1423,12 @@ exports[`Container Custom width 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  height: 100%;
-  width: 25rem;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  height: 100%;
+  width: 25rem;
 }
 
 .c1 {
@@ -1451,12 +1451,12 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  height: 100%;
-  width: 25rem;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  height: 100%;
+  width: 25rem;
 }
 
 .c1 {
@@ -1534,11 +1534,11 @@ exports[`Container Fixed 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  height: 100%;
 }
 
 .c1 {
@@ -1590,11 +1590,11 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 1.5rem;
+  height: 100%;
 }
 
 .c1 {
@@ -1701,48 +1701,48 @@ exports[`Container Max width 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   max-width: 576px;
   padding: 0 1.5rem;
+  height: 100%;
 }
 
 .c2 {
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   max-width: 768px;
   padding: 0 1.5rem;
+  height: 100%;
 }
 
 .c3 {
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   max-width: 992px;
   padding: 0 1.5rem;
+  height: 100%;
 }
 
 .c4 {
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   max-width: 1200px;
   padding: 0 1.5rem;
+  height: 100%;
 }
 
 .c5 {
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   max-width: 1400px;
   padding: 0 1.5rem;
+  height: 100%;
 }
 
 .c1 {
@@ -1800,48 +1800,48 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   max-width: 576px;
   padding: 0 1.5rem;
+  height: 100%;
 }
 
 .c2 {
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   max-width: 768px;
   padding: 0 1.5rem;
+  height: 100%;
 }
 
 .c3 {
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   max-width: 992px;
   padding: 0 1.5rem;
+  height: 100%;
 }
 
 .c4 {
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   max-width: 1200px;
   padding: 0 1.5rem;
+  height: 100%;
 }
 
 .c5 {
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   max-width: 1400px;
   padding: 0 1.5rem;
+  height: 100%;
 }
 
 .c1 {
@@ -1954,11 +1954,11 @@ exports[`Container No gutters 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 0;
+  height: 100%;
 }
 
 .c1 {
@@ -1980,11 +1980,11 @@ Object {
     </div>
   </body>,
   "container": .c0 {
-  height: 100%;
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
   padding: 0 0;
+  height: 100%;
 }
 
 .c1 {

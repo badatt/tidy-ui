@@ -1,5 +1,5 @@
 import React from 'react';
-import { css, styled } from '@tidy-ui/commons';
+import { applyStandardOverrideStyles, css, styled } from '@tidy-ui/commons';
 import { FlexItem } from './FlexItem';
 import { IFlexBoxProps } from './types';
 
@@ -50,6 +50,7 @@ const FlexBoxRoot = styled.div<IFlexBoxProps>`
       flex-flow: ${flow};
     `}
   `}
+  ${applyStandardOverrideStyles}
 `;
 
 /** @internal */

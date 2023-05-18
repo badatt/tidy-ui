@@ -1,5 +1,5 @@
 import React from 'react';
-import { css, styled } from '@tidy-ui/commons';
+import { applyStandardOverrideStyles, css, styled } from '@tidy-ui/commons';
 import { IFlexItemProps } from './types';
 
 const FlexItemRoot = styled.div<IFlexItemProps>`
@@ -42,6 +42,7 @@ const FlexItemRoot = styled.div<IFlexItemProps>`
       width: 100%;
     `}
   `}
+  ${applyStandardOverrideStyles}
 `;
 
 /**

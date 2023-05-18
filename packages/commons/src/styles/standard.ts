@@ -1,7 +1,7 @@
 import { IStandardProps } from '@tidy-ui/types';
 import { css } from '../theme';
 
-const createStandardStyles = css<IStandardProps>`
+const applyStandardOverrideStyles = css<IStandardProps>`
   ${({
     background,
     border,
@@ -72,4 +72,4 @@ const createStandardStyles = css<IStandardProps>`
   `}
 `;
 
-export default createStandardStyles;
+export default applyStandardOverrideStyles;
