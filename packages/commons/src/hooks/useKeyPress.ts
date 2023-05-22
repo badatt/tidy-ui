@@ -11,7 +11,6 @@ const useKeyPress = (targetKey: string): boolean => {
 
   // eslint-disable-next-line jsdoc/require-jsdoc
   const downHandler = ({ key }) => {
-    console.log(key);
     if (key === targetKey) {
       setKeyPressed(true);
     }
@@ -19,7 +18,6 @@ const useKeyPress = (targetKey: string): boolean => {
 
   // eslint-disable-next-line jsdoc/require-jsdoc
   const upHandler = ({ key }) => {
-    console.log(key);
     if (key === targetKey) {
       setKeyPressed(false);
     }
