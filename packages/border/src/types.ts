@@ -23,13 +23,9 @@ export interface IBorderProps extends IBaseProps, HTMLAttributes<HTMLDivElement>
   density?: string;
 
   /**
-   * css `margin`, equivalent
+   * If `true`, creates sharp borders
    */
-  margin?: string;
-  /**
-   * css `padding`, equivalent
-   */
-  padding?: string;
+  isSharp?: boolean;
 
   /**
    * Content positioning
@@ -46,11 +42,6 @@ export interface IBorderProps extends IBaseProps, HTMLAttributes<HTMLDivElement>
    * @default 500
    */
   shade?: TShade;
-
-  /**
-   * If `true`, creates sharp borders
-   */
-  sharp?: boolean;
 
   /**
    * The color of the divider

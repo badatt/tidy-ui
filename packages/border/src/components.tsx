@@ -1,19 +1,5 @@
-import { css, styled } from '@tidy-ui/commons';
+import { applyStandardOverrideStyles, css, styled } from '@tidy-ui/commons';
 import { IBorderProps } from './types';
-
-const BorderRoot = styled.div<IBorderProps>`
-  position: relative;
-  ${({ theme: { palette, layout }, height, width, padding, margin, variant, density, tone, shade, sharp }) => css`
-    height: ${height};
-    width: ${width};
-    padding: ${padding};
-    margin: ${margin};
-    border-style: ${variant};
-    border-width: ${density};
-    border-color: ${palette[tone!][shade!]};
-    border-radius: ${sharp ? '0' : layout.radius};
-  `}
-`;
 
 const topLeft = css<IBorderProps>`
   ${({ align }) => css`
@@ -117,7 +103,7 @@ const leftBottom = css<IBorderProps>`
   `}
 `;
 
-const BorderContent = styled.div<IBorderProps>`
+const BorderContent = styled.div<Pick<IBorderProps, 'positioning' | 'align'>>`
   position: absolute;
   padding: 4px;
   ${({ theme: { palette }, positioning }) => css`
@@ -138,6 +124,29 @@ const BorderContent = styled.div<IBorderProps>`
     ${positioning === 'left-center' && leftCenter}
     ${positioning === 'left-bottom' && leftBottom}
   `}
+`;
+
+/** @internal */
+const borderColor = css<IBorderProps>`
+  ${({ theme: { isDark, palette }, tone }) => css`
+    border-color: ${isDark ? palette[tone!][700] : palette[tone!][400]};
+  `}
+`;
+
+const BorderRoot = styled.div<IBorderProps>`
+  position: relative;
+  ${({ theme: { palette, layout }, variant, density, tone, shade, isSharp }) => css`
+    border-style: ${variant};
+    border-width: ${density};
+
+    border-radius: ${isSharp ? '0' : layout.radius};
+    ${shade
+      ? css`
+          border-color: ${palette[tone!][shade]};
+        `
+      : borderColor}
+  `}
+  ${applyStandardOverrideStyles}
 `;
 
 export { BorderContent, BorderRoot };

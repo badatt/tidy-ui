@@ -15,7 +15,6 @@ const BorderWithProps = (props: IBorderProps) => (
   <Border
     height="25rem"
     width="35rem"
-    padding="1rem"
     density="4px"
     align={14}
     content={
@@ -50,18 +49,6 @@ export const basic = () => (
   </Border>
 );
 
-export const padding = () => (
-  <Border height="25rem" width="35rem" padding="3rem">
-    <Content heading="padding 3rem" />
-  </Border>
-);
-
-export const margin = () => (
-  <Border height="25rem" width="35rem" margin="3rem" padding="1rem">
-    <Content heading="margin 3rem & padding 1rem" />
-  </Border>
-);
-
 export const density = () => (
   <Border height="25rem" width="35rem" density="8px" padding="1rem">
     <Content heading="density 8px" />
@@ -87,7 +74,7 @@ export const contentPositioning = () => (
 );
 
 export const sharp = () => (
-  <Border height="25rem" width="35rem" padding="1rem" sharp>
+  <Border height="25rem" width="35rem" padding="1rem" isSharp>
     <Content heading="sharp corner" />
   </Border>
 );
@@ -121,7 +108,7 @@ export const variants = () => (
     {Object.keys(Borders)
       .filter((b) => !isNaN(Number(b)))
       .map((b, i) => (
-        <BorderWithProps key={i} variant={Borders[b]} sharp>
+        <BorderWithProps key={i} variant={Borders[b]} isSharp>
           <Content heading={`Variant  '${Borders[b]}'`} />
         </BorderWithProps>
       ))}

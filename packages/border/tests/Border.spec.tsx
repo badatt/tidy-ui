@@ -123,7 +123,7 @@ describe('Border', () => {
   it('Sharp', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Border height="25rem" width="35rem" padding="1rem" sharp>
+        <Border height="25rem" width="35rem" padding="1rem" isSharp>
           <Content heading="sharp corner" />
         </Border>
       </TidyUiProvider>,
@@ -164,7 +164,7 @@ describe('Border', () => {
         {Object.keys(Borders)
           .filter((b) => !isNaN(Number(b)))
           .map((b, i) => (
-            <BorderWithProps key={i} variant={Borders[b]} sharp>
+            <BorderWithProps key={i} variant={Borders[b]} isSharp>
               <Content heading={`Variant  '${Borders[b]}'`} />
             </BorderWithProps>
           ))}
