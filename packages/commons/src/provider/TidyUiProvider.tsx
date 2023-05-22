@@ -29,7 +29,7 @@ const TidyUiProvider = (props: ITidyUiProviderProps): JSX.Element => {
 
   return (
     <Provider value={{ ...value, dispatch, state }}>
-      <ThemeProvider theme={theme} {...rest}>
+      <ThemeProvider theme={{ ...theme }} {...rest}>
         {toaster ? React.cloneElement(toaster, {}, children) : children}
       </ThemeProvider>
     </Provider>
