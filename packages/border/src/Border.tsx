@@ -8,22 +8,25 @@ import { IBorderProps } from './types';
  * positioning.
  */
 const Border = React.forwardRef<HTMLDivElement, IBorderProps>((props, ref) => {
-  const { children, className, content, ...rest } = props;
+  const { children, ele, content, ...rest } = props;
+  const { align, positioning } = rest;
   return (
-    <BorderRoot ref={ref} role="presentation" className={className} {...rest}>
-      {content && <BorderContent {...rest}>{content}</BorderContent>}
-      {children}
+    <BorderRoot ref={ref} role="presentation" {...rest}>
+      {content && <BorderContent {...{ align, positioning }}>{content}</BorderContent>}
+      {ele ? React.cloneElement(ele, {}, children) : children}
     </BorderRoot>
   );
 });
 
 Border.defaultProps = {
   density: '1px',
+  isSharp: false,
+  padding: '1rem',
   positioning: 'top-left',
-  shade: 500,
-  sharp: false,
   tone: 'neutral',
   variant: 'solid',
 };
+
+Border.displayName = 'Border';
 
 export { Border };
