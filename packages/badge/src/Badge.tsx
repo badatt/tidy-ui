@@ -8,41 +8,47 @@ import { IBadgeProps } from './types';
  *
  */
 const Badge = React.forwardRef<HTMLSpanElement, IBadgeProps>((props, ref) => {
-  const { children, data, max, hidden, show0, dotted, ...rest } = props;
+  const { children, ele, content, max, hidden, isShow0, isDotted, ...rest } = props;
 
-  const [anchorData, setAnchorData] = React.useState(data);
+  const [anchorData, setAnchorData] = React.useState(content);
   const [isAnchorInvisible, setIsAnchorInvisible] = React.useState(hidden);
 
   React.useEffect(() => {
-    if (!dotted && data === undefined) {
+    if (!isDotted && content === undefined) {
       setIsAnchorInvisible(true);
     }
-    if (max && Number(data) > max) {
+    if (max && Number(content) > max) {
       setAnchorData(`${max}+`);
     }
-  }, [data]);
+  }, [content]);
 
   React.useEffect(() => {
     if (!isAnchorInvisible && anchorData == 0) {
-      if (!show0) setIsAnchorInvisible(true);
+      if (!isShow0) setIsAnchorInvisible(true);
     }
-  }, [show0, anchorData]);
+  }, [isShow0, anchorData]);
 
   return (
-    <BadgeRoot ref={ref} role="contentinfo" data={anchorData} dotted={dotted} hidden={isAnchorInvisible} {...rest}>
-      {children}
+    <BadgeRoot
+      ref={ref}
+      role="contentinfo"
+      content={anchorData}
+      isDotted={isDotted}
+      hidden={isAnchorInvisible}
+      {...rest}
+    >
+      {ele ? React.cloneElement(ele, {}, children) : children}
     </BadgeRoot>
   );
 });
 
 Badge.defaultProps = {
-  blink: false,
-  dotted: false,
-  hidden: false,
+  isBlink: false,
+  isDotted: false,
+  isOutlined: false,
+  isShow0: false,
   max: 99,
-  outlined: false,
-  show0: false,
-  tone: 'major',
+  tone: 'neutral',
 };
 
 Badge.displayName = 'Badge';

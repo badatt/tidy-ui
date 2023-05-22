@@ -46,16 +46,15 @@ const outlineBadgeColor = css<IBadgeProps>`
  * @internal
  */
 const badgeBase = css<IBadgeProps>`
-  ${({ blink }) => css`
+  ${({ isBlink }) => css`
     position: absolute;
     display: flex;
     align-items: center;
-    place-content: center;
     top: 0;
     right: 0;
     z-index: 1;
-    transform: translate(60%, -60%);
-    ${blink &&
+    transform: translate(70%, -70%);
+    ${isBlink &&
     css`
       animation: ${blinkingEffect} 1s linear infinite;
     `}
@@ -68,21 +67,19 @@ const badgeBase = css<IBadgeProps>`
  * @internal
  */
 const standardBadge = css<IBadgeProps>`
-  ${({ theme: { font }, data, outlined }) => css`
+  ${({ content, isOutlined }) => css`
     &::after {
-      content: ${`'${data}'`};
+      content: ${`'${content}'`};
       ${badgeBase}
-      min-width: 1rem;
+      min-width: fit-content;
       max-width: 2rem;
-      line-height: 1;
       padding: 0px 0.25rem;
       height: 1rem;
       border-radius: 0.5rem;
       font-size: 0.625rem;
-      font-family: ${font.mono};
       overflow: hidden;
-      white-space: nowrap;
-      ${outlined ? outlineBadgeColor : filledBadgeColor}
+      white-space: pre;
+      ${isOutlined ? outlineBadgeColor : filledBadgeColor}
     }
   `}
 `;
