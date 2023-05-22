@@ -7,12 +7,12 @@ import { IAlertFooterProps, IAlertProps, IAlertTitleProps } from './types';
  * @internal
  */
 const alertStyles = css<IAlertProps>`
-  ${({ theme: { palette, layout }, sharp, status }) => css`
+  ${({ theme: { palette, layout }, isSharp, status }) => css`
     background-color: ${palette.background.card};
     box-shadow: ${layout.shadow};
     color: ${palette.text.primary};
     border-left: 4px solid ${palette[status!][500]};
-    ${!sharp &&
+    ${!isSharp &&
     css`
       border-radius: ${layout.radius};
     `}
@@ -25,10 +25,10 @@ const alertStyles = css<IAlertProps>`
  * @internal
  */
 const alertFilledStyle = css<IAlertProps>`
-  ${({ theme: { palette, layout }, sharp, status }) => css`
+  ${({ theme: { palette, layout }, isSharp, status }) => css`
     color: ${palette[status!][50]};
     background-color: ${palette[status!][700]};
-    ${!sharp &&
+    ${!isSharp &&
     css`
       border-radius: ${layout.radius};
     `}
@@ -45,10 +45,10 @@ const AlertRoot = styled.section<IAlertProps>`
   display: flex;
   align-items: center;
   ${createFontStyle()}
-  ${({ filled, height, width }) => css`
+  ${({ isFilled, height, width }) => css`
     height: ${height};
     width: ${width};
-    ${filled ? alertFilledStyle : alertStyles}
+    ${isFilled ? alertFilledStyle : alertStyles}
   `}
   ${applyStandardOverrideStyles}
 `;
@@ -70,8 +70,8 @@ const AlertFooterRoot = styled.footer<IAlertFooterProps>`
  */
 const AlertIcon = styled.span<IAlertProps>`
   padding-right: 1rem;
-  ${({ theme: { palette, isDark }, filled, status }) => css`
-    ${!filled &&
+  ${({ theme: { palette, isDark }, isFilled, status }) => css`
+    ${!isFilled &&
     css`
       color: ${isDark ? palette[status!][500] : palette[status!][600]};
     `}

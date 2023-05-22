@@ -20,11 +20,11 @@ interface AlertComponent extends React.ForwardRefExoticComponent<IAlertProps & R
  */
 const Alert = React.forwardRef<HTMLDivElement, IAlertProps>((props, ref) => {
   const { children, ele, ...rest } = props;
-  const { filled, status } = rest;
+  const { isFilled, status } = rest;
   const nodes = ele ? React.cloneElement(ele, {}, children) : children;
   return (
     <AlertRoot role="alert" ref={ref} {...rest}>
-      <AlertIcon {...{ filled, status }}>
+      <AlertIcon {...{ isFilled, status }}>
         <TonedIcon status={rest.status} />
       </AlertIcon>
       <AlertContent>{nodes}</AlertContent>
@@ -33,8 +33,8 @@ const Alert = React.forwardRef<HTMLDivElement, IAlertProps>((props, ref) => {
 }) as AlertComponent;
 
 Alert.defaultProps = {
-  filled: false,
-  sharp: true,
+  isFilled: false,
+  isSharp: true,
   status: 'info',
 };
 

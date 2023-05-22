@@ -17,7 +17,7 @@ export default meta;
 type Story = StoryObj<typeof Alert>;
 
 const SimpleAlert = (props) => (
-  <Alert filled={props.filled} status={props.status} width={props.width}>
+  <Alert isFilled={props.filled} status={props.status} width={props.width}>
     <Alert.Title>
       <Text.h6 tone={props.status}>{props.status}</Text.h6>
     </Alert.Title>
@@ -61,7 +61,7 @@ export const filled: Story = {
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
           <Grid.Item key={i} xl={24} xs={24} sm={24} md={24} lg={24}>
-            <Alert filled status={Status[v]}>
+            <Alert isFilled status={Status[v]}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni consequuntur non quis dolor
               perspiciatis, nisi repellat cupiditate maiores, nulla suscipit, dolorum expedita natus accusantium
               blanditiis earum error fugit accusamus?
@@ -87,7 +87,7 @@ export const withModal: Story = {
           <SimpleAlert status="success" width="350px" onAccept={() => setOpenNormal(false)} />
         </Modal>
         <Modal isOpen={openFilled} onBackdropClick={() => setOpenFilled(false)}>
-          <Alert filled status="danger" width="350px">
+          <Alert isFilled status="danger" width="350px">
             Lorem ipsum dolor sit amet consectetur adipisicing elit
           </Alert>
         </Modal>
