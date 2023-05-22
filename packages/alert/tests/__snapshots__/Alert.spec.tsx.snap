@@ -26,7 +26,7 @@ Object {
   border-left: 4px solid hsla(217,91%,60%,1);
 }
 
-.c4 {
+.c3 {
   padding-top: 0.5rem;
 }
 
@@ -41,16 +41,6 @@ Object {
 }
 
 .c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.c3 {
   padding-bottom: 0.5rem;
 }
 
@@ -77,21 +67,17 @@ Object {
         </span>
         <div
           class="c2"
+          role="heading"
         >
-          <div
-            class="c3"
-            role="heading"
-          >
-            Title
-          </div>
-          content
-          <footer
-            class="c4"
-            role="presentation"
-          >
-            footer
-          </footer>
+          Title
         </div>
+        content
+        <footer
+          class="c3"
+          role="presentation"
+        >
+          footer
+        </footer>
       </section>
     </div>
   </body>,
@@ -118,7 +104,7 @@ Object {
   border-left: 4px solid hsla(217,91%,60%,1);
 }
 
-.c4 {
+.c3 {
   padding-top: 0.5rem;
 }
 
@@ -133,16 +119,6 @@ Object {
 }
 
 .c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.c3 {
   padding-bottom: 0.5rem;
 }
 
@@ -168,21 +144,17 @@ Object {
       </span>
       <div
         class="c2"
+        role="heading"
       >
-        <div
-          class="c3"
-          role="heading"
-        >
-          Title
-        </div>
-        content
-        <footer
-          class="c4"
-          role="presentation"
-        >
-          footer
-        </footer>
+        Title
       </div>
+      content
+      <footer
+        class="c3"
+        role="presentation"
+      >
+        footer
+      </footer>
     </section>
   </div>,
   "debug": [Function],
@@ -266,7 +238,7 @@ Object {
   border-radius: 0.5rem;
 }
 
-.c4 {
+.c3 {
   padding-top: 0.5rem;
 }
 
@@ -281,16 +253,6 @@ Object {
 }
 
 .c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.c3 {
   padding-bottom: 0.5rem;
 }
 
@@ -317,21 +279,17 @@ Object {
         </span>
         <div
           class="c2"
+          role="heading"
         >
-          <div
-            class="c3"
-            role="heading"
-          >
-            Title
-          </div>
-          content
-          <footer
-            class="c4"
-            role="presentation"
-          >
-            footer
-          </footer>
+          Title
         </div>
+        content
+        <footer
+          class="c3"
+          role="presentation"
+        >
+          footer
+        </footer>
       </section>
     </div>
   </body>,
@@ -359,7 +317,7 @@ Object {
   border-radius: 0.5rem;
 }
 
-.c4 {
+.c3 {
   padding-top: 0.5rem;
 }
 
@@ -374,16 +332,6 @@ Object {
 }
 
 .c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.c3 {
   padding-bottom: 0.5rem;
 }
 
@@ -409,21 +357,17 @@ Object {
       </span>
       <div
         class="c2"
+        role="heading"
       >
-        <div
-          class="c3"
-          role="heading"
-        >
-          Title
-        </div>
-        content
-        <footer
-          class="c4"
-          role="presentation"
-        >
-          footer
-        </footer>
+        Title
       </div>
+      content
+      <footer
+        class="c3"
+        role="presentation"
+      >
+        footer
+      </footer>
     </section>
   </div>,
   "debug": [Function],
@@ -505,7 +449,7 @@ Object {
   border-radius: 0.5rem;
 }
 
-.c4 {
+.c3 {
   padding-top: 0.5rem;
 }
 
@@ -519,16 +463,6 @@ Object {
 }
 
 .c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.c3 {
   padding-bottom: 0.5rem;
 }
 
@@ -555,21 +489,17 @@ Object {
         </span>
         <div
           class="c2"
+          role="heading"
         >
-          <div
-            class="c3"
-            role="heading"
-          >
-            Title
-          </div>
-          content
-          <footer
-            class="c4"
-            role="presentation"
-          >
-            footer
-          </footer>
+          Title
         </div>
+        content
+        <footer
+          class="c3"
+          role="presentation"
+        >
+          footer
+        </footer>
       </section>
     </div>
   </body>,
@@ -595,7 +525,7 @@ Object {
   border-radius: 0.5rem;
 }
 
-.c4 {
+.c3 {
   padding-top: 0.5rem;
 }
 
@@ -609,16 +539,6 @@ Object {
 }
 
 .c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.c3 {
   padding-bottom: 0.5rem;
 }
 
@@ -644,21 +564,17 @@ Object {
       </span>
       <div
         class="c2"
+        role="heading"
       >
-        <div
-          class="c3"
-          role="heading"
-        >
-          Title
-        </div>
-        content
-        <footer
-          class="c4"
-          role="presentation"
-        >
-          footer
-        </footer>
+        Title
       </div>
+      content
+      <footer
+        class="c3"
+        role="presentation"
+      >
+        footer
+      </footer>
     </section>
   </div>,
   "debug": [Function],
@@ -741,7 +657,7 @@ Object {
   border-left: 4px solid hsla(217,91%,60%,1);
 }
 
-.c4 {
+.c3 {
   padding-top: 0.5rem;
 }
 
@@ -756,16 +672,6 @@ Object {
 }
 
 .c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.c3 {
   padding-bottom: 0.5rem;
 }
 
@@ -792,21 +698,17 @@ Object {
         </span>
         <div
           class="c2"
+          role="heading"
         >
-          <div
-            class="c3"
-            role="heading"
-          >
-            Title
-          </div>
-          content
-          <footer
-            class="c4"
-            role="presentation"
-          >
-            footer
-          </footer>
+          Title
         </div>
+        content
+        <footer
+          class="c3"
+          role="presentation"
+        >
+          footer
+        </footer>
       </section>
     </div>
   </body>,
@@ -833,7 +735,7 @@ Object {
   border-left: 4px solid hsla(217,91%,60%,1);
 }
 
-.c4 {
+.c3 {
   padding-top: 0.5rem;
 }
 
@@ -848,16 +750,6 @@ Object {
 }
 
 .c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.c3 {
   padding-bottom: 0.5rem;
 }
 
@@ -883,21 +775,17 @@ Object {
       </span>
       <div
         class="c2"
+        role="heading"
       >
-        <div
-          class="c3"
-          role="heading"
-        >
-          Title
-        </div>
-        content
-        <footer
-          class="c4"
-          role="presentation"
-        >
-          footer
-        </footer>
+        Title
       </div>
+      content
+      <footer
+        class="c3"
+        role="presentation"
+      >
+        footer
+      </footer>
     </section>
   </div>,
   "debug": [Function],
@@ -978,7 +866,7 @@ Object {
   background-color: hsla(224,76%,48%,1);
 }
 
-.c4 {
+.c3 {
   padding-top: 0.5rem;
 }
 
@@ -992,16 +880,6 @@ Object {
 }
 
 .c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.c3 {
   padding-bottom: 0.5rem;
 }
 
@@ -1028,21 +906,17 @@ Object {
         </span>
         <div
           class="c2"
+          role="heading"
         >
-          <div
-            class="c3"
-            role="heading"
-          >
-            Title
-          </div>
-          content
-          <footer
-            class="c4"
-            role="presentation"
-          >
-            footer
-          </footer>
+          Title
         </div>
+        content
+        <footer
+          class="c3"
+          role="presentation"
+        >
+          footer
+        </footer>
       </section>
     </div>
   </body>,
@@ -1067,7 +941,7 @@ Object {
   background-color: hsla(224,76%,48%,1);
 }
 
-.c4 {
+.c3 {
   padding-top: 0.5rem;
 }
 
@@ -1081,16 +955,6 @@ Object {
 }
 
 .c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.c3 {
   padding-bottom: 0.5rem;
 }
 
@@ -1116,21 +980,17 @@ Object {
       </span>
       <div
         class="c2"
+        role="heading"
       >
-        <div
-          class="c3"
-          role="heading"
-        >
-          Title
-        </div>
-        content
-        <footer
-          class="c4"
-          role="presentation"
-        >
-          footer
-        </footer>
+        Title
       </div>
+      content
+      <footer
+        class="c3"
+        role="presentation"
+      >
+        footer
+      </footer>
     </section>
   </div>,
   "debug": [Function],
@@ -1213,7 +1073,7 @@ Object {
   border-left: 4px solid hsla(217,91%,60%,1);
 }
 
-.c4 {
+.c3 {
   padding-top: 0.5rem;
 }
 
@@ -1228,16 +1088,6 @@ Object {
 }
 
 .c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.c3 {
   padding-bottom: 0.5rem;
 }
 
@@ -1262,28 +1112,24 @@ Object {
             />
           </svg>
         </span>
-        <div
-          class="c2"
-        >
-          <div>
-            <div
-              class="c3"
-              role="heading"
-            >
-              <div>
-                custom title element
-              </div>
+        <div>
+          <div
+            class="c2"
+            role="heading"
+          >
+            <div>
+              custom title element
             </div>
-            body
-            <footer
-              class="c4"
-              role="presentation"
-            >
-              <div>
-                custom footer
-              </div>
-            </footer>
           </div>
+          body
+          <footer
+            class="c3"
+            role="presentation"
+          >
+            <div>
+              custom footer
+            </div>
+          </footer>
         </div>
       </section>
     </div>
@@ -1311,7 +1157,7 @@ Object {
   border-left: 4px solid hsla(217,91%,60%,1);
 }
 
-.c4 {
+.c3 {
   padding-top: 0.5rem;
 }
 
@@ -1326,16 +1172,6 @@ Object {
 }
 
 .c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.c3 {
   padding-bottom: 0.5rem;
 }
 
@@ -1359,28 +1195,24 @@ Object {
           />
         </svg>
       </span>
-      <div
-        class="c2"
-      >
-        <div>
-          <div
-            class="c3"
-            role="heading"
-          >
-            <div>
-              custom title element
-            </div>
+      <div>
+        <div
+          class="c2"
+          role="heading"
+        >
+          <div>
+            custom title element
           </div>
-          body
-          <footer
-            class="c4"
-            role="presentation"
-          >
-            <div>
-              custom footer
-            </div>
-          </footer>
         </div>
+        body
+        <footer
+          class="c3"
+          role="presentation"
+        >
+          <div>
+            custom footer
+          </div>
+        </footer>
       </div>
     </section>
   </div>,

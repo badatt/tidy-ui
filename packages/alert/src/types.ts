@@ -12,11 +12,6 @@ import { IBaseProps } from '@tidy-ui/types';
  */
 export interface IAlertProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * Element that encloses Alert
-   */
-  ele?: JSX.Element;
-
-  /**
    * If `true`, the component filled with status tone
    *
    * @type {?true}

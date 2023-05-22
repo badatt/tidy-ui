@@ -2,7 +2,7 @@ import React from 'react';
 import { TonedIcon } from '@tidy-ui/commons';
 import { AlertFooter } from './AlertFooter';
 import { AlertTitle } from './AlertTitle';
-import { AlertContent, AlertIcon, AlertRoot } from './components';
+import { AlertIcon, AlertRoot } from './components';
 import { IAlertProps } from './types';
 
 /** @internal */
@@ -21,13 +21,12 @@ interface AlertComponent extends React.ForwardRefExoticComponent<IAlertProps & R
 const Alert = React.forwardRef<HTMLDivElement, IAlertProps>((props, ref) => {
   const { children, ele, ...rest } = props;
   const { isFilled, status } = rest;
-  const nodes = ele ? React.cloneElement(ele, {}, children) : children;
   return (
     <AlertRoot role="alert" ref={ref} {...rest}>
       <AlertIcon {...{ isFilled, status }}>
         <TonedIcon status={rest.status} />
       </AlertIcon>
-      <AlertContent>{nodes}</AlertContent>
+      {ele ? React.cloneElement(ele, {}, children) : children}
     </AlertRoot>
   );
 }) as AlertComponent;
