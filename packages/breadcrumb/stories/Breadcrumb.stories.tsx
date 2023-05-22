@@ -47,11 +47,11 @@ export const tones = () => (
 );
 
 export const manualActive = () => (
-  <Breadcrumb noActive>
+  <Breadcrumb isLastItemNotActive>
     <Breadcrumb.Item href="#">link 1</Breadcrumb.Item>
     <Breadcrumb.Item href="#">link 2</Breadcrumb.Item>
     <Breadcrumb.Item href="#">link 3</Breadcrumb.Item>
-    <Breadcrumb.Item href="#" active>
+    <Breadcrumb.Item href="#" isActive>
       link 4
     </Breadcrumb.Item>
     <Breadcrumb.Item href="#">link 5</Breadcrumb.Item>
@@ -66,7 +66,7 @@ export const customSeparator = () => (
     <Breadcrumb.Item href="#">link 3</Breadcrumb.Item>
     <Breadcrumb.Item href="#">link 4</Breadcrumb.Item>
     <Breadcrumb.Item href="#">link 5</Breadcrumb.Item>
-    <Breadcrumb.Item href="#" active>
+    <Breadcrumb.Item href="#" isActive>
       active item
     </Breadcrumb.Item>
   </Breadcrumb>

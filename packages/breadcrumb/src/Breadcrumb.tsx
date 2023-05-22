@@ -1,6 +1,6 @@
 import React from 'react';
 import { BreadcrumbItem } from './BreadcrumbItem';
-import { BreadcrumbItemWrapper, BreadcrumbRoot, BreadcrumbSeparator } from './components';
+import { BreadcrumbRoot, BreadcrumbSeparator } from './components';
 import { IBreadcrumbProps } from './types';
 
 /** @internal */
@@ -15,7 +15,7 @@ interface BreadcrumbComponent
  * limited to desired number of items, powered by theming
  */
 const Breadcrumb = React.forwardRef<HTMLOListElement, IBreadcrumbProps>((props, ref) => {
-  const { children, className, limit, separator, onExpand, noActive, ...rest } = props;
+  const { children, limit, separator, onExpand, isLastItemNotActive, ...rest } = props;
   const childrenArray = React.Children.toArray(children);
   const [expanded, setExpanded] = React.useState(childrenArray.length > limit! ? false : true);
 
@@ -30,16 +30,20 @@ const Breadcrumb = React.forwardRef<HTMLOListElement, IBreadcrumbProps>((props, 
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     (items: any) => {
       return React.Children.map(items, (c, i) => {
+        const ele = c as React.ReactElement;
+        let childElement;
         if (i == items.length - 1) {
-          const ele = c as React.ReactElement;
-          c = React.cloneElement(ele, { ...ele.props, active: !noActive });
+          childElement = React.cloneElement(ele, {
+            ...ele.props,
+            isActive: !isLastItemNotActive,
+          });
+        } else {
+          childElement = React.cloneElement(ele, {
+            ...ele.props,
+            tone: rest.tone || ele.props.tone,
+          });
         }
-        const childNode = (
-          <BreadcrumbItemWrapper key={c?.props?.href} {...rest}>
-            {c}
-          </BreadcrumbItemWrapper>
-        );
-        return [childNode, i < items.length - 1 ? renderSeparator() : null];
+        return [childElement, i < items.length - 1 ? renderSeparator() : null];
       });
     },
     [children, limit, separator],
@@ -54,9 +58,9 @@ const Breadcrumb = React.forwardRef<HTMLOListElement, IBreadcrumbProps>((props, 
   );
 
   return (
-    <BreadcrumbRoot ref={ref} className={className} role="list" {...rest}>
+    <BreadcrumbRoot ref={ref} role="navigation" {...rest}>
       {expanded
-        ? renderChildren(React.Children.toArray(children))
+        ? renderChildren(childrenArray)
         : renderChildren([
             childrenArray[0],
             <BreadcrumbItem key={1} onClick={handleExpand}>
@@ -69,10 +73,11 @@ const Breadcrumb = React.forwardRef<HTMLOListElement, IBreadcrumbProps>((props, 
 }) as BreadcrumbComponent;
 
 Breadcrumb.defaultProps = {
-  noActive: false,
+  isLastItemNotActive: false,
   separator: '/',
-  tone: 'major',
 };
+
+Breadcrumb.displayName = 'Breadcrumb';
 
 Breadcrumb.Item = BreadcrumbItem;
 

@@ -7,17 +7,17 @@ import { IBaseProps } from '@tidy-ui/types';
  */
 export interface IBreadcrumbProps extends IBaseProps, HTMLAttributes<HTMLOListElement> {
   /**
-   * Limit the number of items in the breadcrumb
-   *
-   */
-  limit?: number;
-
-  /**
    * If `true`, WON'T set the last time as active
    *
    * @default false
    */
-  noActive?: boolean;
+  isLastItemNotActive?: boolean;
+
+  /**
+   * Limit the number of items in the breadcrumb
+   *
+   */
+  limit?: number;
 
   /**
    * callback when the collapsed breadcrumb got expanded
@@ -41,19 +41,6 @@ export interface IBreadcrumbProps extends IBaseProps, HTMLAttributes<HTMLOListEl
 }
 
 /**
- * BreadcrumbItemWrapper
- */
-export interface IBreadCrumbItemWrapperProps extends IBaseProps, HTMLAttributes<Partial<HTMLLIElement>> {
-  /**
-   * Sets the tone fo the BreadcrumbItem
-   *
-   * @type {?TTone}
-   * @default undefined
-   */
-  tone?: TTone;
-}
-
-/**
  * BreadCrumbItem props
  */
 export interface IBreadcrumbItemProps extends IBaseProps, AnchorHTMLAttributes<HTMLAnchorElement> {
@@ -62,5 +49,13 @@ export interface IBreadcrumbItemProps extends IBaseProps, AnchorHTMLAttributes<H
    *
    * @default false
    */
-  active?: boolean;
+  isActive?: boolean;
+
+  /**
+   * Sets the tone fo the BreadcrumbItem
+   *
+   * @type {?TTone}
+   * @default undefined
+   */
+  tone?: TTone;
 }

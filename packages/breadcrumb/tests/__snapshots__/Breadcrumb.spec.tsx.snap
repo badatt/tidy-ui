@@ -12,10 +12,6 @@ Object {
 }
 
 .c1 {
-  color: hsla(272,72%,47%,1);
-}
-
-.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -34,14 +30,15 @@ Object {
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
   font-weight: 500;
+  color: hsla(0,0%,25%,1);
 }
 
-.c2:hover,
-.c2:focus {
+.c1:hover,
+.c1:focus {
   background-size: 100% 0.1em;
 }
 
-.c4 {
+.c3 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -54,10 +51,12 @@ Object {
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
+  opacity: 0.6;
   color: hsla(0,0%,15%,1);
+  color: hsla(0,0%,25%,1);
 }
 
-.c3 {
+.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -72,67 +71,51 @@ Object {
     <div>
       <ol
         class="c0"
-        role="list"
+        role="navigation"
       >
-        <li
+        <a
           class="c1"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 1
-          </a>
-        </li>
+          link 1
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
+        <a
           class="c1"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 2
-          </a>
-        </li>
+          link 2
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
+        <a
           class="c1"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 3
-          </a>
-        </li>
+          link 3
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c1"
+        <a
+          class="c3"
+          href="#"
+          role="link"
         >
-          <a
-            class="c4"
-            href="#"
-            role="link"
-          >
-            link 4
-          </a>
-        </li>
+          link 4
+        </a>
       </ol>
     </div>
   </body>,
@@ -145,10 +128,6 @@ Object {
 }
 
 .c1 {
-  color: hsla(272,72%,47%,1);
-}
-
-.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -167,14 +146,15 @@ Object {
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
   font-weight: 500;
+  color: hsla(0,0%,25%,1);
 }
 
-.c2:hover,
-.c2:focus {
+.c1:hover,
+.c1:focus {
   background-size: 100% 0.1em;
 }
 
-.c4 {
+.c3 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -187,10 +167,12 @@ Object {
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
+  opacity: 0.6;
   color: hsla(0,0%,15%,1);
+  color: hsla(0,0%,25%,1);
 }
 
-.c3 {
+.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -204,67 +186,51 @@ Object {
 <div>
     <ol
       class="c0"
-      role="list"
+      role="navigation"
     >
-      <li
+      <a
         class="c1"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 1
-        </a>
-      </li>
+        link 1
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
+      <a
         class="c1"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 2
-        </a>
-      </li>
+        link 2
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
+      <a
         class="c1"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 3
-        </a>
-      </li>
+        link 3
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c1"
+      <a
+        class="c3"
+        href="#"
+        role="link"
       >
-        <a
-          class="c4"
-          href="#"
-          role="link"
-        >
-          link 4
-        </a>
-      </li>
+        link 4
+      </a>
     </ol>
   </div>,
   "debug": [Function],
@@ -333,10 +299,6 @@ Object {
 }
 
 .c1 {
-  color: hsla(272,72%,47%,1);
-}
-
-.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -355,14 +317,15 @@ Object {
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
   font-weight: 500;
+  color: hsla(0,0%,25%,1);
 }
 
-.c2:hover,
-.c2:focus {
+.c1:hover,
+.c1:focus {
   background-size: 100% 0.1em;
 }
 
-.c4 {
+.c3 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -375,10 +338,12 @@ Object {
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
+  opacity: 0.6;
   color: hsla(0,0%,15%,1);
+  color: hsla(0,0%,25%,1);
 }
 
-.c3 {
+.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -393,50 +358,38 @@ Object {
     <div>
       <ol
         class="c0"
-        role="list"
+        role="navigation"
       >
-        <li
+        <a
           class="c1"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 1
-          </a>
-        </li>
+          link 1
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
+        <a
           class="c1"
+          role="link"
         >
-          <a
-            class="c2"
-            role="link"
-          >
-            ...
-          </a>
-        </li>
+          ...
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c1"
+        <a
+          class="c3"
+          href="#"
+          role="link"
         >
-          <a
-            class="c4"
-            href="#"
-            role="link"
-          >
-            link 6
-          </a>
-        </li>
+          link 6
+        </a>
       </ol>
     </div>
   </body>,
@@ -449,10 +402,6 @@ Object {
 }
 
 .c1 {
-  color: hsla(272,72%,47%,1);
-}
-
-.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -471,14 +420,15 @@ Object {
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
   font-weight: 500;
+  color: hsla(0,0%,25%,1);
 }
 
-.c2:hover,
-.c2:focus {
+.c1:hover,
+.c1:focus {
   background-size: 100% 0.1em;
 }
 
-.c4 {
+.c3 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -491,10 +441,12 @@ Object {
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
+  opacity: 0.6;
   color: hsla(0,0%,15%,1);
+  color: hsla(0,0%,25%,1);
 }
 
-.c3 {
+.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -508,50 +460,38 @@ Object {
 <div>
     <ol
       class="c0"
-      role="list"
+      role="navigation"
     >
-      <li
+      <a
         class="c1"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 1
-        </a>
-      </li>
+        link 1
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
+      <a
         class="c1"
+        role="link"
       >
-        <a
-          class="c2"
-          role="link"
-        >
-          ...
-        </a>
-      </li>
+        ...
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c1"
+      <a
+        class="c3"
+        href="#"
+        role="link"
       >
-        <a
-          class="c4"
-          href="#"
-          role="link"
-        >
-          link 6
-        </a>
-      </li>
+        link 6
+      </a>
     </ol>
   </div>,
   "debug": [Function],
@@ -611,7 +551,7 @@ Object {
 exports[`Breadcrumb Custom separator 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c3 {
+  "baseElement": .c2 {
   border-color: hsla(0,0%,45%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
@@ -630,10 +570,6 @@ Object {
 }
 
 .c1 {
-  color: hsla(272,72%,47%,1);
-}
-
-.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -652,14 +588,15 @@ Object {
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
   font-weight: 500;
+  color: hsla(0,0%,25%,1);
 }
 
-.c2:hover,
-.c2:focus {
+.c1:hover,
+.c1:focus {
   background-size: 100% 0.1em;
 }
 
-.c4 {
+.c3 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -672,105 +609,83 @@ Object {
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
+  opacity: 0.6;
   color: hsla(0,0%,15%,1);
+  color: hsla(0,0%,25%,1);
 }
 
 <body>
     <div>
       <ol
         class="c0"
-        role="list"
+        role="navigation"
       >
-        <li
+        <a
           class="c1"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 1
-          </a>
-        </li>
+          link 1
+        </a>
         <hr
-          class="c3"
+          class="c2"
           role="separator"
         />
-        <li
+        <a
           class="c1"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 2
-          </a>
-        </li>
+          link 2
+        </a>
         <hr
-          class="c3"
+          class="c2"
           role="separator"
         />
-        <li
+        <a
           class="c1"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 3
-          </a>
-        </li>
+          link 3
+        </a>
         <hr
-          class="c3"
+          class="c2"
           role="separator"
         />
-        <li
+        <a
           class="c1"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 4
-          </a>
-        </li>
+          link 4
+        </a>
         <hr
-          class="c3"
+          class="c2"
           role="separator"
         />
-        <li
+        <a
           class="c1"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 5
-          </a>
-        </li>
+          link 5
+        </a>
         <hr
-          class="c3"
+          class="c2"
           role="separator"
         />
-        <li
-          class="c1"
+        <a
+          class="c3"
+          href="#"
+          role="link"
         >
-          <a
-            class="c4"
-            href="#"
-            role="link"
-          >
-            active item
-          </a>
-        </li>
+          active item
+        </a>
       </ol>
     </div>
   </body>,
-  "container": .c3 {
+  "container": .c2 {
   border-color: hsla(0,0%,45%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
@@ -789,10 +704,6 @@ Object {
 }
 
 .c1 {
-  color: hsla(272,72%,47%,1);
-}
-
-.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -811,14 +722,15 @@ Object {
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
   font-weight: 500;
+  color: hsla(0,0%,25%,1);
 }
 
-.c2:hover,
-.c2:focus {
+.c1:hover,
+.c1:focus {
   background-size: 100% 0.1em;
 }
 
-.c4 {
+.c3 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -831,100 +743,78 @@ Object {
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
+  opacity: 0.6;
   color: hsla(0,0%,15%,1);
+  color: hsla(0,0%,25%,1);
 }
 
 <div>
     <ol
       class="c0"
-      role="list"
+      role="navigation"
     >
-      <li
+      <a
         class="c1"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 1
-        </a>
-      </li>
+        link 1
+      </a>
       <hr
-        class="c3"
+        class="c2"
         role="separator"
       />
-      <li
+      <a
         class="c1"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 2
-        </a>
-      </li>
+        link 2
+      </a>
       <hr
-        class="c3"
+        class="c2"
         role="separator"
       />
-      <li
+      <a
         class="c1"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 3
-        </a>
-      </li>
+        link 3
+      </a>
       <hr
-        class="c3"
+        class="c2"
         role="separator"
       />
-      <li
+      <a
         class="c1"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 4
-        </a>
-      </li>
+        link 4
+      </a>
       <hr
-        class="c3"
+        class="c2"
         role="separator"
       />
-      <li
+      <a
         class="c1"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 5
-        </a>
-      </li>
+        link 5
+      </a>
       <hr
-        class="c3"
+        class="c2"
         role="separator"
       />
-      <li
-        class="c1"
+      <a
+        class="c3"
+        href="#"
+        role="link"
       >
-        <a
-          class="c4"
-          href="#"
-          role="link"
-        >
-          active item
-        </a>
-      </li>
+        active item
+      </a>
     </ol>
   </div>,
   "debug": [Function],
@@ -993,10 +883,6 @@ Object {
 }
 
 .c1 {
-  color: hsla(271,91%,65%,1);
-}
-
-.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1015,14 +901,15 @@ Object {
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
   font-weight: 500;
+  color: hsla(0,0%,45%,1);
 }
 
-.c2:hover,
-.c2:focus {
+.c1:hover,
+.c1:focus {
   background-size: 100% 0.1em;
 }
 
-.c4 {
+.c3 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1035,10 +922,12 @@ Object {
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
+  opacity: 0.6;
   color: hsla(0,0%,64%,1);
+  color: hsla(0,0%,45%,1);
 }
 
-.c3 {
+.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1053,67 +942,51 @@ Object {
     <div>
       <ol
         class="c0"
-        role="list"
+        role="navigation"
       >
-        <li
+        <a
           class="c1"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 1
-          </a>
-        </li>
+          link 1
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
+        <a
           class="c1"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 2
-          </a>
-        </li>
+          link 2
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
+        <a
           class="c1"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 3
-          </a>
-        </li>
+          link 3
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c1"
+        <a
+          class="c3"
+          href="#"
+          role="link"
         >
-          <a
-            class="c4"
-            href="#"
-            role="link"
-          >
-            link 4
-          </a>
-        </li>
+          link 4
+        </a>
       </ol>
     </div>
   </body>,
@@ -1126,10 +999,6 @@ Object {
 }
 
 .c1 {
-  color: hsla(271,91%,65%,1);
-}
-
-.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1148,14 +1017,15 @@ Object {
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
   font-weight: 500;
+  color: hsla(0,0%,45%,1);
 }
 
-.c2:hover,
-.c2:focus {
+.c1:hover,
+.c1:focus {
   background-size: 100% 0.1em;
 }
 
-.c4 {
+.c3 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1168,10 +1038,12 @@ Object {
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
+  opacity: 0.6;
   color: hsla(0,0%,64%,1);
+  color: hsla(0,0%,45%,1);
 }
 
-.c3 {
+.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1185,67 +1057,51 @@ Object {
 <div>
     <ol
       class="c0"
-      role="list"
+      role="navigation"
     >
-      <li
+      <a
         class="c1"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 1
-        </a>
-      </li>
+        link 1
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
+      <a
         class="c1"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 2
-        </a>
-      </li>
+        link 2
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
+      <a
         class="c1"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 3
-        </a>
-      </li>
+        link 3
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c1"
+      <a
+        class="c3"
+        href="#"
+        role="link"
       >
-        <a
-          class="c4"
-          href="#"
-          role="link"
-        >
-          link 4
-        </a>
-      </li>
+        link 4
+      </a>
     </ol>
   </div>,
   "debug": [Function],
@@ -1314,10 +1170,6 @@ Object {
 }
 
 .c1 {
-  color: hsla(272,72%,47%,1);
-}
-
-.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1336,14 +1188,15 @@ Object {
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
   font-weight: 500;
+  color: hsla(0,0%,25%,1);
 }
 
-.c2:hover,
-.c2:focus {
+.c1:hover,
+.c1:focus {
   background-size: 100% 0.1em;
 }
 
-.c4 {
+.c3 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1356,10 +1209,12 @@ Object {
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
+  opacity: 0.6;
   color: hsla(0,0%,15%,1);
+  color: hsla(0,0%,25%,1);
 }
 
-.c3 {
+.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1374,50 +1229,38 @@ Object {
     <div>
       <ol
         class="c0"
-        role="list"
+        role="navigation"
       >
-        <li
+        <a
           class="c1"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 1
-          </a>
-        </li>
+          link 1
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
+        <a
           class="c1"
+          role="link"
         >
-          <a
-            class="c2"
-            role="link"
-          >
-            ...
-          </a>
-        </li>
+          ...
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c1"
+        <a
+          class="c3"
+          href="#"
+          role="link"
         >
-          <a
-            class="c4"
-            href="#"
-            role="link"
-          >
-            link 6
-          </a>
-        </li>
+          link 6
+        </a>
       </ol>
     </div>
   </body>,
@@ -1430,10 +1273,6 @@ Object {
 }
 
 .c1 {
-  color: hsla(272,72%,47%,1);
-}
-
-.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1452,14 +1291,15 @@ Object {
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
   font-weight: 500;
+  color: hsla(0,0%,25%,1);
 }
 
-.c2:hover,
-.c2:focus {
+.c1:hover,
+.c1:focus {
   background-size: 100% 0.1em;
 }
 
-.c4 {
+.c3 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1472,10 +1312,12 @@ Object {
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
+  opacity: 0.6;
   color: hsla(0,0%,15%,1);
+  color: hsla(0,0%,25%,1);
 }
 
-.c3 {
+.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1489,50 +1331,38 @@ Object {
 <div>
     <ol
       class="c0"
-      role="list"
+      role="navigation"
     >
-      <li
+      <a
         class="c1"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 1
-        </a>
-      </li>
+        link 1
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
+      <a
         class="c1"
+        role="link"
       >
-        <a
-          class="c2"
-          role="link"
-        >
-          ...
-        </a>
-      </li>
+        ...
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c1"
+      <a
+        class="c3"
+        href="#"
+        role="link"
       >
-        <a
-          class="c4"
-          href="#"
-          role="link"
-        >
-          link 6
-        </a>
-      </li>
+        link 6
+      </a>
     </ol>
   </div>,
   "debug": [Function],
@@ -1601,10 +1431,6 @@ Object {
 }
 
 .c1 {
-  color: hsla(272,72%,47%,1);
-}
-
-.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1623,14 +1449,15 @@ Object {
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
   font-weight: 500;
+  color: hsla(0,0%,25%,1);
 }
 
-.c2:hover,
-.c2:focus {
+.c1:hover,
+.c1:focus {
   background-size: 100% 0.1em;
 }
 
-.c4 {
+.c3 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1643,10 +1470,12 @@ Object {
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
+  opacity: 0.6;
   color: hsla(0,0%,15%,1);
+  color: hsla(0,0%,25%,1);
 }
 
-.c3 {
+.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1661,50 +1490,38 @@ Object {
     <div>
       <ol
         class="c0"
-        role="list"
+        role="navigation"
       >
-        <li
+        <a
           class="c1"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 1
-          </a>
-        </li>
+          link 1
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
+        <a
           class="c1"
+          role="link"
         >
-          <a
-            class="c2"
-            role="link"
-          >
-            ...
-          </a>
-        </li>
+          ...
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c1"
+        <a
+          class="c3"
+          href="#"
+          role="link"
         >
-          <a
-            class="c4"
-            href="#"
-            role="link"
-          >
-            link 6
-          </a>
-        </li>
+          link 6
+        </a>
       </ol>
     </div>
   </body>,
@@ -1717,10 +1534,6 @@ Object {
 }
 
 .c1 {
-  color: hsla(272,72%,47%,1);
-}
-
-.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1739,14 +1552,15 @@ Object {
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
   font-weight: 500;
+  color: hsla(0,0%,25%,1);
 }
 
-.c2:hover,
-.c2:focus {
+.c1:hover,
+.c1:focus {
   background-size: 100% 0.1em;
 }
 
-.c4 {
+.c3 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1759,10 +1573,12 @@ Object {
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
+  opacity: 0.6;
   color: hsla(0,0%,15%,1);
+  color: hsla(0,0%,25%,1);
 }
 
-.c3 {
+.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1776,50 +1592,38 @@ Object {
 <div>
     <ol
       class="c0"
-      role="list"
+      role="navigation"
     >
-      <li
+      <a
         class="c1"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 1
-        </a>
-      </li>
+        link 1
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
+      <a
         class="c1"
+        role="link"
       >
-        <a
-          class="c2"
-          role="link"
-        >
-          ...
-        </a>
-      </li>
+        ...
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c1"
+      <a
+        class="c3"
+        href="#"
+        role="link"
       >
-        <a
-          class="c4"
-          href="#"
-          role="link"
-        >
-          link 6
-        </a>
-      </li>
+        link 6
+      </a>
     </ol>
   </div>,
   "debug": [Function],
@@ -1888,10 +1692,6 @@ Object {
 }
 
 .c1 {
-  color: hsla(272,72%,47%,1);
-}
-
-.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1910,14 +1710,15 @@ Object {
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
   font-weight: 500;
+  color: hsla(0,0%,25%,1);
 }
 
-.c2:hover,
-.c2:focus {
+.c1:hover,
+.c1:focus {
   background-size: 100% 0.1em;
 }
 
-.c4 {
+.c3 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1930,10 +1731,12 @@ Object {
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
+  opacity: 0.6;
   color: hsla(0,0%,15%,1);
+  color: hsla(0,0%,25%,1);
 }
 
-.c3 {
+.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -1948,99 +1751,75 @@ Object {
     <div>
       <ol
         class="c0"
-        role="list"
+        role="navigation"
       >
-        <li
+        <a
           class="c1"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 1
-          </a>
-        </li>
+          link 1
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
+        <a
           class="c1"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 2
-          </a>
-        </li>
+          link 2
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
+        <a
           class="c1"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 3
-          </a>
-        </li>
+          link 3
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c1"
-        >
-          <a
-            class="c4"
-            href="#"
-            role="link"
-          >
-            link 4
-          </a>
-        </li>
-        <div
+        <a
           class="c3"
+          href="#"
+          role="link"
+        >
+          link 4
+        </a>
+        <div
+          class="c2"
         >
           /
         </div>
-        <li
+        <a
           class="c1"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 5
-          </a>
-        </li>
+          link 5
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
+        <a
           class="c1"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            item 6
-          </a>
-        </li>
+          item 6
+        </a>
       </ol>
     </div>
   </body>,
@@ -2053,10 +1832,6 @@ Object {
 }
 
 .c1 {
-  color: hsla(272,72%,47%,1);
-}
-
-.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -2075,14 +1850,15 @@ Object {
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
   font-weight: 500;
+  color: hsla(0,0%,25%,1);
 }
 
-.c2:hover,
-.c2:focus {
+.c1:hover,
+.c1:focus {
   background-size: 100% 0.1em;
 }
 
-.c4 {
+.c3 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -2095,10 +1871,12 @@ Object {
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
+  opacity: 0.6;
   color: hsla(0,0%,15%,1);
+  color: hsla(0,0%,25%,1);
 }
 
-.c3 {
+.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -2112,99 +1890,75 @@ Object {
 <div>
     <ol
       class="c0"
-      role="list"
+      role="navigation"
     >
-      <li
+      <a
         class="c1"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 1
-        </a>
-      </li>
+        link 1
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
+      <a
         class="c1"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 2
-        </a>
-      </li>
+        link 2
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
+      <a
         class="c1"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 3
-        </a>
-      </li>
+        link 3
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c1"
-      >
-        <a
-          class="c4"
-          href="#"
-          role="link"
-        >
-          link 4
-        </a>
-      </li>
-      <div
+      <a
         class="c3"
+        href="#"
+        role="link"
+      >
+        link 4
+      </a>
+      <div
+        class="c2"
       >
         /
       </div>
-      <li
+      <a
         class="c1"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 5
-        </a>
-      </li>
+        link 5
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
+      <a
         class="c1"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          item 6
-        </a>
-      </li>
+        item 6
+      </a>
     </ol>
   </div>,
   "debug": [Function],
@@ -2273,34 +2027,6 @@ Object {
 }
 
 .c1 {
-  color: hsla(272,72%,47%,1);
-}
-
-.c5 {
-  color: hsla(335,78%,42%,1);
-}
-
-.c6 {
-  color: hsla(0,0%,25%,1);
-}
-
-.c7 {
-  color: hsla(224,76%,48%,1);
-}
-
-.c8 {
-  color: hsla(142,72%,29%,1);
-}
-
-.c9 {
-  color: hsla(26,90%,37%,1);
-}
-
-.c10 {
-  color: hsla(0,74%,42%,1);
-}
-
-.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -2319,14 +2045,15 @@ Object {
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
   font-weight: 500;
+  color: hsla(272,72%,47%,1);
 }
 
-.c2:hover,
-.c2:focus {
+.c1:hover,
+.c1:focus {
   background-size: 100% 0.1em;
 }
 
-.c4 {
+.c3 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -2339,10 +2066,174 @@ Object {
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
+  opacity: 0.6;
   color: hsla(0,0%,15%,1);
+  color: hsla(0,0%,25%,1);
 }
 
-.c3 {
+.c4 {
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+  font-weight: 500;
+  color: hsla(335,78%,42%,1);
+}
+
+.c4:hover,
+.c4:focus {
+  background-size: 100% 0.1em;
+}
+
+.c5 {
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+  font-weight: 500;
+  color: hsla(0,0%,25%,1);
+}
+
+.c5:hover,
+.c5:focus {
+  background-size: 100% 0.1em;
+}
+
+.c6 {
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+  font-weight: 500;
+  color: hsla(224,76%,48%,1);
+}
+
+.c6:hover,
+.c6:focus {
+  background-size: 100% 0.1em;
+}
+
+.c7 {
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+  font-weight: 500;
+  color: hsla(142,72%,29%,1);
+}
+
+.c7:hover,
+.c7:focus {
+  background-size: 100% 0.1em;
+}
+
+.c8 {
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+  font-weight: 500;
+  color: hsla(26,90%,37%,1);
+}
+
+.c8:hover,
+.c8:focus {
+  background-size: 100% 0.1em;
+}
+
+.c9 {
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+  font-weight: 500;
+  color: hsla(0,74%,42%,1);
+}
+
+.c9:hover,
+.c9:focus {
+  background-size: 100% 0.1em;
+}
+
+.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -2357,675 +2248,507 @@ Object {
     <div>
       <ol
         class="c0"
-        role="list"
+        role="navigation"
       >
-        <li
+        <a
           class="c1"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 1
-          </a>
-        </li>
+          link 1
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
+        <a
           class="c1"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 2
-          </a>
-        </li>
+          link 2
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
+        <a
           class="c1"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 3
-          </a>
-        </li>
+          link 3
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
+        <a
           class="c1"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 4
-          </a>
-        </li>
+          link 4
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
+        <a
           class="c1"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 5
-          </a>
-        </li>
+          link 5
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c1"
+        <a
+          class="c3"
+          href="#"
+          role="link"
         >
-          <a
-            class="c4"
-            href="#"
-            role="link"
-          >
-            link 6
-          </a>
-        </li>
+          link 6
+        </a>
       </ol>
       <ol
         class="c0"
-        role="list"
+        role="navigation"
       >
-        <li
-          class="c5"
+        <a
+          class="c4"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 1
-          </a>
-        </li>
+          link 1
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c5"
+        <a
+          class="c4"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 2
-          </a>
-        </li>
+          link 2
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c5"
+        <a
+          class="c4"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 3
-          </a>
-        </li>
+          link 3
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c5"
+        <a
+          class="c4"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 4
-          </a>
-        </li>
+          link 4
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c5"
+        <a
+          class="c4"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 5
-          </a>
-        </li>
+          link 5
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c5"
+        <a
+          class="c3"
+          href="#"
+          role="link"
         >
-          <a
-            class="c4"
-            href="#"
-            role="link"
-          >
-            link 6
-          </a>
-        </li>
+          link 6
+        </a>
       </ol>
       <ol
         class="c0"
-        role="list"
+        role="navigation"
       >
-        <li
-          class="c6"
+        <a
+          class="c5"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 1
-          </a>
-        </li>
+          link 1
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c6"
+        <a
+          class="c5"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 2
-          </a>
-        </li>
+          link 2
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c6"
+        <a
+          class="c5"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 3
-          </a>
-        </li>
+          link 3
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c6"
+        <a
+          class="c5"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 4
-          </a>
-        </li>
+          link 4
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c6"
+        <a
+          class="c5"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 5
-          </a>
-        </li>
+          link 5
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c6"
+        <a
+          class="c3"
+          href="#"
+          role="link"
         >
-          <a
-            class="c4"
-            href="#"
-            role="link"
-          >
-            link 6
-          </a>
-        </li>
+          link 6
+        </a>
       </ol>
       <ol
         class="c0"
-        role="list"
+        role="navigation"
       >
-        <li
-          class="c7"
+        <a
+          class="c6"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 1
-          </a>
-        </li>
+          link 1
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c7"
+        <a
+          class="c6"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 2
-          </a>
-        </li>
+          link 2
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c7"
+        <a
+          class="c6"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 3
-          </a>
-        </li>
+          link 3
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c7"
+        <a
+          class="c6"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 4
-          </a>
-        </li>
+          link 4
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c7"
+        <a
+          class="c6"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 5
-          </a>
-        </li>
+          link 5
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c7"
+        <a
+          class="c3"
+          href="#"
+          role="link"
         >
-          <a
-            class="c4"
-            href="#"
-            role="link"
-          >
-            link 6
-          </a>
-        </li>
+          link 6
+        </a>
       </ol>
       <ol
         class="c0"
-        role="list"
+        role="navigation"
       >
-        <li
-          class="c8"
+        <a
+          class="c7"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 1
-          </a>
-        </li>
+          link 1
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c8"
+        <a
+          class="c7"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 2
-          </a>
-        </li>
+          link 2
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c8"
+        <a
+          class="c7"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 3
-          </a>
-        </li>
+          link 3
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c8"
+        <a
+          class="c7"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 4
-          </a>
-        </li>
+          link 4
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c8"
+        <a
+          class="c7"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 5
-          </a>
-        </li>
+          link 5
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c8"
+        <a
+          class="c3"
+          href="#"
+          role="link"
         >
-          <a
-            class="c4"
-            href="#"
-            role="link"
-          >
-            link 6
-          </a>
-        </li>
+          link 6
+        </a>
       </ol>
       <ol
         class="c0"
-        role="list"
+        role="navigation"
       >
-        <li
-          class="c9"
+        <a
+          class="c8"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 1
-          </a>
-        </li>
+          link 1
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c9"
+        <a
+          class="c8"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 2
-          </a>
-        </li>
+          link 2
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c9"
+        <a
+          class="c8"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 3
-          </a>
-        </li>
+          link 3
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c9"
+        <a
+          class="c8"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 4
-          </a>
-        </li>
+          link 4
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c9"
+        <a
+          class="c8"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 5
-          </a>
-        </li>
+          link 5
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c9"
+        <a
+          class="c3"
+          href="#"
+          role="link"
         >
-          <a
-            class="c4"
-            href="#"
-            role="link"
-          >
-            link 6
-          </a>
-        </li>
+          link 6
+        </a>
       </ol>
       <ol
         class="c0"
-        role="list"
+        role="navigation"
       >
-        <li
-          class="c10"
+        <a
+          class="c9"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 1
-          </a>
-        </li>
+          link 1
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c10"
+        <a
+          class="c9"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 2
-          </a>
-        </li>
+          link 2
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c10"
+        <a
+          class="c9"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 3
-          </a>
-        </li>
+          link 3
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c10"
+        <a
+          class="c9"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 4
-          </a>
-        </li>
+          link 4
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c10"
+        <a
+          class="c9"
+          href="#"
+          role="link"
         >
-          <a
-            class="c2"
-            href="#"
-            role="link"
-          >
-            link 5
-          </a>
-        </li>
+          link 5
+        </a>
         <div
-          class="c3"
+          class="c2"
         >
           /
         </div>
-        <li
-          class="c10"
+        <a
+          class="c3"
+          href="#"
+          role="link"
         >
-          <a
-            class="c4"
-            href="#"
-            role="link"
-          >
-            link 6
-          </a>
-        </li>
+          link 6
+        </a>
       </ol>
     </div>
   </body>,
@@ -3038,34 +2761,6 @@ Object {
 }
 
 .c1 {
-  color: hsla(272,72%,47%,1);
-}
-
-.c5 {
-  color: hsla(335,78%,42%,1);
-}
-
-.c6 {
-  color: hsla(0,0%,25%,1);
-}
-
-.c7 {
-  color: hsla(224,76%,48%,1);
-}
-
-.c8 {
-  color: hsla(142,72%,29%,1);
-}
-
-.c9 {
-  color: hsla(26,90%,37%,1);
-}
-
-.c10 {
-  color: hsla(0,74%,42%,1);
-}
-
-.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -3084,14 +2779,15 @@ Object {
   -webkit-transition: background-size 0.2s ease-in-out;
   transition: background-size 0.2s ease-in-out;
   font-weight: 500;
+  color: hsla(272,72%,47%,1);
 }
 
-.c2:hover,
-.c2:focus {
+.c1:hover,
+.c1:focus {
   background-size: 100% 0.1em;
 }
 
-.c4 {
+.c3 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -3104,10 +2800,174 @@ Object {
   text-decoration: none;
   cursor: auto;
   pointer-events: none;
+  opacity: 0.6;
   color: hsla(0,0%,15%,1);
+  color: hsla(0,0%,25%,1);
 }
 
-.c3 {
+.c4 {
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+  font-weight: 500;
+  color: hsla(335,78%,42%,1);
+}
+
+.c4:hover,
+.c4:focus {
+  background-size: 100% 0.1em;
+}
+
+.c5 {
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+  font-weight: 500;
+  color: hsla(0,0%,25%,1);
+}
+
+.c5:hover,
+.c5:focus {
+  background-size: 100% 0.1em;
+}
+
+.c6 {
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+  font-weight: 500;
+  color: hsla(224,76%,48%,1);
+}
+
+.c6:hover,
+.c6:focus {
+  background-size: 100% 0.1em;
+}
+
+.c7 {
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+  font-weight: 500;
+  color: hsla(142,72%,29%,1);
+}
+
+.c7:hover,
+.c7:focus {
+  background-size: 100% 0.1em;
+}
+
+.c8 {
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+  font-weight: 500;
+  color: hsla(26,90%,37%,1);
+}
+
+.c8:hover,
+.c8:focus {
+  background-size: 100% 0.1em;
+}
+
+.c9 {
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor,currentColor);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+  font-weight: 500;
+  color: hsla(0,74%,42%,1);
+}
+
+.c9:hover,
+.c9:focus {
+  background-size: 100% 0.1em;
+}
+
+.c2 {
   font-size: 1rem;
   font-weight: 400;
   -webkit-letter-spacing: 0.00938em;
@@ -3121,675 +2981,507 @@ Object {
 <div>
     <ol
       class="c0"
-      role="list"
+      role="navigation"
     >
-      <li
+      <a
         class="c1"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 1
-        </a>
-      </li>
+        link 1
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
+      <a
         class="c1"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 2
-        </a>
-      </li>
+        link 2
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
+      <a
         class="c1"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 3
-        </a>
-      </li>
+        link 3
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
+      <a
         class="c1"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 4
-        </a>
-      </li>
+        link 4
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
+      <a
         class="c1"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 5
-        </a>
-      </li>
+        link 5
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c1"
+      <a
+        class="c3"
+        href="#"
+        role="link"
       >
-        <a
-          class="c4"
-          href="#"
-          role="link"
-        >
-          link 6
-        </a>
-      </li>
+        link 6
+      </a>
     </ol>
     <ol
       class="c0"
-      role="list"
+      role="navigation"
     >
-      <li
-        class="c5"
+      <a
+        class="c4"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 1
-        </a>
-      </li>
+        link 1
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c5"
+      <a
+        class="c4"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 2
-        </a>
-      </li>
+        link 2
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c5"
+      <a
+        class="c4"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 3
-        </a>
-      </li>
+        link 3
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c5"
+      <a
+        class="c4"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 4
-        </a>
-      </li>
+        link 4
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c5"
+      <a
+        class="c4"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 5
-        </a>
-      </li>
+        link 5
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c5"
+      <a
+        class="c3"
+        href="#"
+        role="link"
       >
-        <a
-          class="c4"
-          href="#"
-          role="link"
-        >
-          link 6
-        </a>
-      </li>
+        link 6
+      </a>
     </ol>
     <ol
       class="c0"
-      role="list"
+      role="navigation"
     >
-      <li
-        class="c6"
+      <a
+        class="c5"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 1
-        </a>
-      </li>
+        link 1
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c6"
+      <a
+        class="c5"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 2
-        </a>
-      </li>
+        link 2
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c6"
+      <a
+        class="c5"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 3
-        </a>
-      </li>
+        link 3
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c6"
+      <a
+        class="c5"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 4
-        </a>
-      </li>
+        link 4
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c6"
+      <a
+        class="c5"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 5
-        </a>
-      </li>
+        link 5
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c6"
+      <a
+        class="c3"
+        href="#"
+        role="link"
       >
-        <a
-          class="c4"
-          href="#"
-          role="link"
-        >
-          link 6
-        </a>
-      </li>
+        link 6
+      </a>
     </ol>
     <ol
       class="c0"
-      role="list"
+      role="navigation"
     >
-      <li
-        class="c7"
+      <a
+        class="c6"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 1
-        </a>
-      </li>
+        link 1
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c7"
+      <a
+        class="c6"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 2
-        </a>
-      </li>
+        link 2
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c7"
+      <a
+        class="c6"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 3
-        </a>
-      </li>
+        link 3
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c7"
+      <a
+        class="c6"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 4
-        </a>
-      </li>
+        link 4
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c7"
+      <a
+        class="c6"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 5
-        </a>
-      </li>
+        link 5
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c7"
+      <a
+        class="c3"
+        href="#"
+        role="link"
       >
-        <a
-          class="c4"
-          href="#"
-          role="link"
-        >
-          link 6
-        </a>
-      </li>
+        link 6
+      </a>
     </ol>
     <ol
       class="c0"
-      role="list"
+      role="navigation"
     >
-      <li
-        class="c8"
+      <a
+        class="c7"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 1
-        </a>
-      </li>
+        link 1
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c8"
+      <a
+        class="c7"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 2
-        </a>
-      </li>
+        link 2
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c8"
+      <a
+        class="c7"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 3
-        </a>
-      </li>
+        link 3
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c8"
+      <a
+        class="c7"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 4
-        </a>
-      </li>
+        link 4
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c8"
+      <a
+        class="c7"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 5
-        </a>
-      </li>
+        link 5
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c8"
+      <a
+        class="c3"
+        href="#"
+        role="link"
       >
-        <a
-          class="c4"
-          href="#"
-          role="link"
-        >
-          link 6
-        </a>
-      </li>
+        link 6
+      </a>
     </ol>
     <ol
       class="c0"
-      role="list"
+      role="navigation"
     >
-      <li
-        class="c9"
+      <a
+        class="c8"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 1
-        </a>
-      </li>
+        link 1
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c9"
+      <a
+        class="c8"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 2
-        </a>
-      </li>
+        link 2
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c9"
+      <a
+        class="c8"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 3
-        </a>
-      </li>
+        link 3
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c9"
+      <a
+        class="c8"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 4
-        </a>
-      </li>
+        link 4
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c9"
+      <a
+        class="c8"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 5
-        </a>
-      </li>
+        link 5
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c9"
+      <a
+        class="c3"
+        href="#"
+        role="link"
       >
-        <a
-          class="c4"
-          href="#"
-          role="link"
-        >
-          link 6
-        </a>
-      </li>
+        link 6
+      </a>
     </ol>
     <ol
       class="c0"
-      role="list"
+      role="navigation"
     >
-      <li
-        class="c10"
+      <a
+        class="c9"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 1
-        </a>
-      </li>
+        link 1
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c10"
+      <a
+        class="c9"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 2
-        </a>
-      </li>
+        link 2
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c10"
+      <a
+        class="c9"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 3
-        </a>
-      </li>
+        link 3
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c10"
+      <a
+        class="c9"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 4
-        </a>
-      </li>
+        link 4
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c10"
+      <a
+        class="c9"
+        href="#"
+        role="link"
       >
-        <a
-          class="c2"
-          href="#"
-          role="link"
-        >
-          link 5
-        </a>
-      </li>
+        link 5
+      </a>
       <div
-        class="c3"
+        class="c2"
       >
         /
       </div>
-      <li
-        class="c10"
+      <a
+        class="c3"
+        href="#"
+        role="link"
       >
-        <a
-          class="c4"
-          href="#"
-          role="link"
-        >
-          link 6
-        </a>
-      </li>
+        link 6
+      </a>
     </ol>
   </div>,
   "debug": [Function],

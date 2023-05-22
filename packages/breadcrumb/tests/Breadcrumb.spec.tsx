@@ -76,11 +76,11 @@ describe('Breadcrumb', () => {
   it('Set active item manually', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Breadcrumb noActive>
+        <Breadcrumb isLastItemNotActive>
           <Breadcrumb.Item href="#">link 1</Breadcrumb.Item>
           <Breadcrumb.Item href="#">link 2</Breadcrumb.Item>
           <Breadcrumb.Item href="#">link 3</Breadcrumb.Item>
-          <Breadcrumb.Item href="#" active>
+          <Breadcrumb.Item href="#" isActive>
             link 4
           </Breadcrumb.Item>
           <Breadcrumb.Item href="#">link 5</Breadcrumb.Item>
@@ -99,7 +99,7 @@ describe('Breadcrumb', () => {
           <Breadcrumb.Item href="#">link 3</Breadcrumb.Item>
           <Breadcrumb.Item href="#">link 4</Breadcrumb.Item>
           <Breadcrumb.Item href="#">link 5</Breadcrumb.Item>
-          <Breadcrumb.Item href="#" active>
+          <Breadcrumb.Item href="#" isActive>
             active item
           </Breadcrumb.Item>
         </Breadcrumb>
