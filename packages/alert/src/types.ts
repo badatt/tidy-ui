@@ -22,7 +22,7 @@ export interface IAlertProps extends IBaseProps, HTMLAttributes<HTMLDivElement> 
    * @type {?true}
    * @default false
    */
-  filled?: boolean;
+  isFilled?: boolean;
 
   /**
    * If `true`, the component is created with sharp edges
@@ -30,7 +30,7 @@ export interface IAlertProps extends IBaseProps, HTMLAttributes<HTMLDivElement> 
    * @type {?true}
    * @default false
    */
-  sharp?: boolean;
+  isSharp?: boolean;
 
   /**
    * Color variant of the Alert, typically used to classify the

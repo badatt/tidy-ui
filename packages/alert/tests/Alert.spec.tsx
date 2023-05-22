@@ -45,7 +45,7 @@ describe('Alert', () => {
   it('Filled', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Alert filled>
+        <Alert isFilled>
           <Alert.Title>Title</Alert.Title>content<Alert.Footer>footer</Alert.Footer>
         </Alert>
       </TidyUiProvider>,
@@ -56,7 +56,7 @@ describe('Alert', () => {
   it('Blunt', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Alert sharp={false}>
+        <Alert isSharp={false}>
           <Alert.Title>Title</Alert.Title>content<Alert.Footer>footer</Alert.Footer>
         </Alert>
       </TidyUiProvider>,
@@ -67,7 +67,7 @@ describe('Alert', () => {
   it('Blunt and filled', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Alert sharp={false} filled>
+        <Alert isSharp={false} isFilled>
           <Alert.Title>Title</Alert.Title>content<Alert.Footer>footer</Alert.Footer>
         </Alert>
       </TidyUiProvider>,
