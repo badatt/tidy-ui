@@ -96,6 +96,9 @@ const configBase = {
   external: (id) => !id.startsWith('\0') && !id.startsWith('.') && !id.startsWith('/') && deps.includes(id),
   input: './src/index.ts',
   plugins: commonPlugins,
+  watch: {
+    include: 'src/**',
+  },
 };
 
 const serverConfig = {
