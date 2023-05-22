@@ -4,13 +4,17 @@ import { ITidyUITheme } from '../theme/types';
 /**
  * React hook to get the theme attributes
  *
- * @returns {{isDark: boolean; name: string}} theme props
+ * @returns {ITidyUITheme} theme props
  */
 const useTheme = () => {
   const theme = useStyledTheme() as ITidyUITheme;
   return {
+    font: theme.font,
     isDark: theme.isDark,
+    layout: theme.layout,
     name: theme.name,
+    palette: theme.palette,
+    typography: theme.typography,
   };
 };
 
