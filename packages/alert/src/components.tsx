@@ -68,7 +68,7 @@ const AlertFooterRoot = styled.footer<IAlertFooterProps>`
  *
  * @internal
  */
-const AlertIcon = styled.span<IAlertProps>`
+const AlertIcon = styled.span<Pick<IAlertProps, 'isFilled' | 'status'>>`
   padding-right: 1rem;
   ${({ theme: { palette, isDark }, isFilled, status }) => css`
     ${!isFilled &&
