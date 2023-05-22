@@ -1,4 +1,4 @@
-import { createFontStyle, css, styled } from '@tidy-ui/commons';
+import { applyStandardOverrideStyles, createFontStyle, css, styled } from '@tidy-ui/commons';
 import { IAlertFooterProps, IAlertProps, IAlertTitleProps } from './types';
 
 /**
@@ -50,6 +50,7 @@ const AlertRoot = styled.section<IAlertProps>`
     width: ${width};
     ${filled ? alertFilledStyle : alertStyles}
   `}
+  ${applyStandardOverrideStyles}
 `;
 
 /**
@@ -59,6 +60,7 @@ const AlertRoot = styled.section<IAlertProps>`
  */
 const AlertFooterRoot = styled.footer<IAlertFooterProps>`
   padding-top: 0.5rem;
+  ${applyStandardOverrideStyles}
 `;
 
 /**
@@ -97,6 +99,7 @@ const AlertContent = styled.div<IAlertProps>`
  */
 const AlertTitleRoot = styled.div<IAlertTitleProps>`
   padding-bottom: 0.5rem;
+  ${applyStandardOverrideStyles}
 `;
 
 export { AlertContent, AlertFooterRoot, AlertIcon, AlertRoot, AlertTitleRoot };
