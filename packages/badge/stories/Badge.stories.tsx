@@ -12,10 +12,10 @@ export default {
 
 export const basic = () => (
   <FlexBox gap="2rem">
-    <Badge data={120}>
+    <Badge content={120}>
       <Icon ele={<Icon.Dangerous />} />
     </Badge>
-    <Badge data={99}>
+    <Badge content={99}>
       <Text.body1>Mails</Text.body1>
     </Badge>
   </FlexBox>
@@ -27,7 +27,7 @@ export const tones = () => {
       {Object.values(Tone)
         .filter((i) => !isNaN(Number(i)))
         .map((t, i) => (
-          <Badge data={(i + 1) * 10} tone={Tone[t]} key={i}>
+          <Badge content={(i + 1) * 10} tone={Tone[t]} key={i}>
             <Icon ele={<Icon.Dangerous />} />
           </Badge>
         ))}
@@ -41,7 +41,7 @@ export const outlined = () => {
       {Object.values(Tone)
         .filter((i) => !isNaN(Number(i)))
         .map((t, i) => (
-          <Badge data={(i + 1) * 10} tone={Tone[t]} key={i} outlined>
+          <Badge content={(i + 1) * 10} tone={Tone[t]} key={i} isOutlined>
             <Icon ele={<Icon.Dangerous />} />
           </Badge>
         ))}
@@ -50,23 +50,23 @@ export const outlined = () => {
 };
 
 export const maxValue = () => (
-  <Badge data={198} max={150}>
+  <Badge content={198} max={150}>
     <Icon ele={<Icon.Dangerous />} />
   </Badge>
 );
 
 export const dotted = () => (
-  <Badge dotted tone="warning">
+  <Badge isDotted tone="warning">
     <Icon ele={<Icon.Dangerous />} />
   </Badge>
 );
 
 export const blinking = () => (
   <FlexBox gap="2rem">
-    <Badge dotted tone="success" blink>
+    <Badge isDotted tone="success" isBlink>
       <Icon ele={<Icon.Dangerous />} />
     </Badge>
-    <Badge data={9} tone="minor" blink>
+    <Badge content={9} tone="minor" isBlink>
       <Icon ele={<Icon.Dangerous />} />
     </Badge>
   </FlexBox>

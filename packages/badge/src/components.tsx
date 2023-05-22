@@ -1,4 +1,4 @@
-import { css, styled } from '@tidy-ui/commons';
+import { applyStandardOverrideStyles, css, styled } from '@tidy-ui/commons';
 import { dotBadge, standardBadge } from './styles';
 import { IBadgeProps } from './types';
 
@@ -16,12 +16,13 @@ const getBadge = (isDotted?: boolean) => (isDotted ? dotBadge : standardBadge);
  * @internal
  */
 const BadgeRoot = styled.span<IBadgeProps>`
-  ${({ theme: { palette, isDark }, dotted, hidden }) => css`
+  ${({ theme: { palette, isDark }, isDotted, hidden }) => css`
     display: flex;
     position: relative;
     width: fit-content;
-    ${hidden ? null : getBadge(dotted)}
+    ${hidden ? null : getBadge(isDotted)}
     color: ${isDark ? palette.neutral[400] : palette.neutral[800]};
+    ${applyStandardOverrideStyles}
   `}
 `;
 

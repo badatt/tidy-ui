@@ -13,7 +13,7 @@ describe('Badge', () => {
   it('Basic render', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Badge data={50}>
+        <Badge content={50}>
           <Icon ele={<Icon.Dangerous />} />
         </Badge>
       </TidyUiProvider>,
@@ -36,7 +36,7 @@ describe('Badge', () => {
         {Object.values(Tone)
           .filter((i) => !isNaN(Number(i)))
           .map((t, i) => (
-            <Badge data={(i + 1) * 10} tone={Tone[t]} key={i}>
+            <Badge content={(i + 1) * 10} tone={Tone[t]} key={i}>
               <Icon ele={<Icon.Dangerous />} />
             </Badge>
           ))}
@@ -50,7 +50,7 @@ describe('Badge', () => {
         {Object.values(Tone)
           .filter((i) => !isNaN(Number(i)))
           .map((t, i) => (
-            <Badge data={(i + 1) * 10} tone={Tone[t]} key={i} outlined>
+            <Badge content={(i + 1) * 10} tone={Tone[t]} key={i} isOutlined>
               <Icon ele={<Icon.Dangerous />} />
             </Badge>
           ))}
@@ -64,7 +64,7 @@ describe('Badge', () => {
         {Object.values(Tone)
           .filter((i) => !isNaN(Number(i)))
           .map((t, i) => (
-            <Badge data={(i + 1) * 10} tone={Tone[t]} key={i} outlined>
+            <Badge content={(i + 1) * 10} tone={Tone[t]} key={i} isOutlined>
               <Icon ele={<Icon.Dangerous />} />
             </Badge>
           ))}
@@ -75,7 +75,7 @@ describe('Badge', () => {
   it('Badge without max value should show 99+', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Badge data={198}>
+        <Badge content={198}>
           <Icon ele={<Icon.Dangerous />} />
         </Badge>
       </TidyUiProvider>,
@@ -85,7 +85,7 @@ describe('Badge', () => {
   it('Badge with max value', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Badge data={198} max={150}>
+        <Badge content={198} max={150}>
           <Icon ele={<Icon.Dangerous />} />
         </Badge>
       </TidyUiProvider>,
@@ -95,7 +95,7 @@ describe('Badge', () => {
   it('Badge with a dot', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Badge dotted>
+        <Badge isDotted>
           <Icon ele={<Icon.Dangerous />} />
         </Badge>
       </TidyUiProvider>,
@@ -105,7 +105,7 @@ describe('Badge', () => {
   it('Badge with a dot and it blinks', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Badge dotted blink>
+        <Badge isDotted isBlink>
           <Icon ele={<Icon.Dangerous />} />
         </Badge>
       </TidyUiProvider>,
@@ -115,7 +115,7 @@ describe('Badge', () => {
   it('Badge which is invisible', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Badge hidden data={50}>
+        <Badge hidden content={50}>
           <Icon ele={<Icon.Dangerous />} />
         </Badge>
       </TidyUiProvider>,
@@ -125,7 +125,7 @@ describe('Badge', () => {
   it('Do not show zero value by default', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Badge data={0}>
+        <Badge content={0}>
           <Icon ele={<Icon.Dangerous />} />
         </Badge>
       </TidyUiProvider>,
@@ -135,7 +135,7 @@ describe('Badge', () => {
   it('Force show zero value', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Badge show0 data={0}>
+        <Badge isShow0 content={0}>
           <Icon ele={<Icon.Dangerous />} />
         </Badge>
       </TidyUiProvider>,

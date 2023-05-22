@@ -19,7 +19,7 @@ Object {
     <div>
       <span
         class="c0"
-        data="50"
+        content="50"
         hidden=""
         role="contentinfo"
       >
@@ -57,7 +57,7 @@ Object {
 <div>
     <span
       class="c0"
-      data="50"
+      content="50"
       hidden=""
       role="contentinfo"
     >
@@ -159,19 +159,18 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
   min-width: 0.5rem;
   padding: 0px;
   height: 0.5rem;
   border-radius: 0.25rem;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
+  color: hsla(0,0%,98%,1);
+  background-color: hsla(0,0%,25%,1);
 }
 
 <body>
@@ -222,19 +221,18 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
   min-width: 0.5rem;
   padding: 0px;
   height: 0.5rem;
   border-radius: 0.25rem;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
+  color: hsla(0,0%,98%,1);
+  background-color: hsla(0,0%,25%,1);
 }
 
 <div>
@@ -340,21 +338,20 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
   -webkit-animation: cRUCfN 1s linear infinite;
   animation: cRUCfN 1s linear infinite;
   min-width: 0.5rem;
   padding: 0px;
   height: 0.5rem;
   border-radius: 0.25rem;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
+  color: hsla(0,0%,98%,1);
+  background-color: hsla(0,0%,25%,1);
 }
 
 <body>
@@ -405,21 +402,20 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
   -webkit-animation: cRUCfN 1s linear infinite;
   animation: cRUCfN 1s linear infinite;
   min-width: 0.5rem;
   padding: 0px;
   height: 0.5rem;
   border-radius: 0.25rem;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
+  color: hsla(0,0%,98%,1);
+  background-color: hsla(0,0%,25%,1);
 }
 
 <div>
@@ -525,32 +521,31 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
+  white-space: pre;
+  color: hsla(0,0%,98%,1);
+  background-color: hsla(0,0%,25%,1);
 }
 
 <body>
     <div>
       <span
         class="c0"
-        data="150+"
+        content="150+"
         role="contentinfo"
       >
         <span
@@ -595,31 +590,30 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
+  white-space: pre;
+  color: hsla(0,0%,98%,1);
+  background-color: hsla(0,0%,25%,1);
 }
 
 <div>
     <span
       class="c0"
-      data="150+"
+      content="150+"
       role="contentinfo"
     >
       <span
@@ -851,32 +845,31 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
+  white-space: pre;
+  color: hsla(0,0%,98%,1);
+  background-color: hsla(0,0%,25%,1);
 }
 
 <body>
     <div>
       <span
         class="c0"
-        data="99+"
+        content="99+"
         role="contentinfo"
       >
         <span
@@ -921,31 +914,30 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
+  white-space: pre;
+  color: hsla(0,0%,98%,1);
+  background-color: hsla(0,0%,25%,1);
 }
 
 <div>
     <span
       class="c0"
-      data="99+"
+      content="99+"
       role="contentinfo"
     >
       <span
@@ -1046,23 +1038,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(269,97%,85%,1);
   background-color: hsla(274,66%,32%,0.3);
   border: 0.5px solid hsla(271,81%,56%,1);
@@ -1091,23 +1082,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(327,87%,82%,1);
   background-color: hsla(336,69%,30%,0.3);
   border: 0.5px solid hsla(333,71%,51%,1);
@@ -1136,23 +1126,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(0,0%,83%,1);
   background-color: hsla(0,0%,9%,0.3);
   border: 0.5px solid hsla(0,0%,32%,1);
@@ -1181,23 +1170,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(212,96%,78%,1);
   background-color: hsla(224,64%,33%,0.3);
   border: 0.5px solid hsla(221,83%,53%,1);
@@ -1226,23 +1214,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(142,77%,73%,1);
   background-color: hsla(144,61%,20%,0.3);
   border: 0.5px solid hsla(142,76%,36%,1);
@@ -1271,23 +1258,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(46,97%,65%,1);
   background-color: hsla(22,78%,26%,0.3);
   border: 0.5px solid hsla(32,95%,44%,1);
@@ -1316,23 +1302,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(0,94%,82%,1);
   background-color: hsla(0,63%,31%,0.3);
   border: 0.5px solid hsla(0,72%,51%,1);
@@ -1342,7 +1327,7 @@ Object {
     <div>
       <span
         class="c0"
-        data="10"
+        content="10"
         role="contentinfo"
       >
         <span
@@ -1364,7 +1349,7 @@ Object {
       </span>
       <span
         class="c1"
-        data="20"
+        content="20"
         role="contentinfo"
       >
         <span
@@ -1386,7 +1371,7 @@ Object {
       </span>
       <span
         class="c2"
-        data="30"
+        content="30"
         role="contentinfo"
       >
         <span
@@ -1408,7 +1393,7 @@ Object {
       </span>
       <span
         class="c3"
-        data="40"
+        content="40"
         role="contentinfo"
       >
         <span
@@ -1430,7 +1415,7 @@ Object {
       </span>
       <span
         class="c4"
-        data="50"
+        content="50"
         role="contentinfo"
       >
         <span
@@ -1452,7 +1437,7 @@ Object {
       </span>
       <span
         class="c5"
-        data="60"
+        content="60"
         role="contentinfo"
       >
         <span
@@ -1474,7 +1459,7 @@ Object {
       </span>
       <span
         class="c6"
-        data="70"
+        content="70"
         role="contentinfo"
       >
         <span
@@ -1519,23 +1504,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(269,97%,85%,1);
   background-color: hsla(274,66%,32%,0.3);
   border: 0.5px solid hsla(271,81%,56%,1);
@@ -1564,23 +1548,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(327,87%,82%,1);
   background-color: hsla(336,69%,30%,0.3);
   border: 0.5px solid hsla(333,71%,51%,1);
@@ -1609,23 +1592,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(0,0%,83%,1);
   background-color: hsla(0,0%,9%,0.3);
   border: 0.5px solid hsla(0,0%,32%,1);
@@ -1654,23 +1636,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(212,96%,78%,1);
   background-color: hsla(224,64%,33%,0.3);
   border: 0.5px solid hsla(221,83%,53%,1);
@@ -1699,23 +1680,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(142,77%,73%,1);
   background-color: hsla(144,61%,20%,0.3);
   border: 0.5px solid hsla(142,76%,36%,1);
@@ -1744,23 +1724,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(46,97%,65%,1);
   background-color: hsla(22,78%,26%,0.3);
   border: 0.5px solid hsla(32,95%,44%,1);
@@ -1789,23 +1768,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(0,94%,82%,1);
   background-color: hsla(0,63%,31%,0.3);
   border: 0.5px solid hsla(0,72%,51%,1);
@@ -1814,7 +1792,7 @@ Object {
 <div>
     <span
       class="c0"
-      data="10"
+      content="10"
       role="contentinfo"
     >
       <span
@@ -1836,7 +1814,7 @@ Object {
     </span>
     <span
       class="c1"
-      data="20"
+      content="20"
       role="contentinfo"
     >
       <span
@@ -1858,7 +1836,7 @@ Object {
     </span>
     <span
       class="c2"
-      data="30"
+      content="30"
       role="contentinfo"
     >
       <span
@@ -1880,7 +1858,7 @@ Object {
     </span>
     <span
       class="c3"
-      data="40"
+      content="40"
       role="contentinfo"
     >
       <span
@@ -1902,7 +1880,7 @@ Object {
     </span>
     <span
       class="c4"
-      data="50"
+      content="50"
       role="contentinfo"
     >
       <span
@@ -1924,7 +1902,7 @@ Object {
     </span>
     <span
       class="c5"
-      data="60"
+      content="60"
       role="contentinfo"
     >
       <span
@@ -1946,7 +1924,7 @@ Object {
     </span>
     <span
       class="c6"
-      data="70"
+      content="70"
       role="contentinfo"
     >
       <span
@@ -2047,23 +2025,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(270,100%,98%,1);
   background-color: hsla(272,72%,47%,1);
 }
@@ -2091,23 +2068,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(327,73%,97%,1);
   background-color: hsla(335,78%,42%,1);
 }
@@ -2135,23 +2111,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(0,0%,98%,1);
   background-color: hsla(0,0%,25%,1);
 }
@@ -2179,23 +2154,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(214,100%,97%,1);
   background-color: hsla(224,76%,48%,1);
 }
@@ -2223,23 +2197,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(138,76%,97%,1);
   background-color: hsla(142,72%,29%,1);
 }
@@ -2267,23 +2240,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(48,100%,96%,1);
   background-color: hsla(26,90%,37%,1);
 }
@@ -2311,23 +2283,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(0,86%,97%,1);
   background-color: hsla(0,74%,42%,1);
 }
@@ -2336,7 +2307,7 @@ Object {
     <div>
       <span
         class="c0"
-        data="10"
+        content="10"
         role="contentinfo"
       >
         <span
@@ -2358,7 +2329,7 @@ Object {
       </span>
       <span
         class="c1"
-        data="20"
+        content="20"
         role="contentinfo"
       >
         <span
@@ -2380,7 +2351,7 @@ Object {
       </span>
       <span
         class="c2"
-        data="30"
+        content="30"
         role="contentinfo"
       >
         <span
@@ -2402,7 +2373,7 @@ Object {
       </span>
       <span
         class="c3"
-        data="40"
+        content="40"
         role="contentinfo"
       >
         <span
@@ -2424,7 +2395,7 @@ Object {
       </span>
       <span
         class="c4"
-        data="50"
+        content="50"
         role="contentinfo"
       >
         <span
@@ -2446,7 +2417,7 @@ Object {
       </span>
       <span
         class="c5"
-        data="60"
+        content="60"
         role="contentinfo"
       >
         <span
@@ -2468,7 +2439,7 @@ Object {
       </span>
       <span
         class="c6"
-        data="70"
+        content="70"
         role="contentinfo"
       >
         <span
@@ -2513,23 +2484,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(270,100%,98%,1);
   background-color: hsla(272,72%,47%,1);
 }
@@ -2557,23 +2527,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(327,73%,97%,1);
   background-color: hsla(335,78%,42%,1);
 }
@@ -2601,23 +2570,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(0,0%,98%,1);
   background-color: hsla(0,0%,25%,1);
 }
@@ -2645,23 +2613,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(214,100%,97%,1);
   background-color: hsla(224,76%,48%,1);
 }
@@ -2689,23 +2656,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(138,76%,97%,1);
   background-color: hsla(142,72%,29%,1);
 }
@@ -2733,23 +2699,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(48,100%,96%,1);
   background-color: hsla(26,90%,37%,1);
 }
@@ -2777,23 +2742,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(0,86%,97%,1);
   background-color: hsla(0,74%,42%,1);
 }
@@ -2801,7 +2765,7 @@ Object {
 <div>
     <span
       class="c0"
-      data="10"
+      content="10"
       role="contentinfo"
     >
       <span
@@ -2823,7 +2787,7 @@ Object {
     </span>
     <span
       class="c1"
-      data="20"
+      content="20"
       role="contentinfo"
     >
       <span
@@ -2845,7 +2809,7 @@ Object {
     </span>
     <span
       class="c2"
-      data="30"
+      content="30"
       role="contentinfo"
     >
       <span
@@ -2867,7 +2831,7 @@ Object {
     </span>
     <span
       class="c3"
-      data="40"
+      content="40"
       role="contentinfo"
     >
       <span
@@ -2889,7 +2853,7 @@ Object {
     </span>
     <span
       class="c4"
-      data="50"
+      content="50"
       role="contentinfo"
     >
       <span
@@ -2911,7 +2875,7 @@ Object {
     </span>
     <span
       class="c5"
-      data="60"
+      content="60"
       role="contentinfo"
     >
       <span
@@ -2933,7 +2897,7 @@ Object {
     </span>
     <span
       class="c6"
-      data="70"
+      content="70"
       role="contentinfo"
     >
       <span
@@ -3034,23 +2998,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(273,67%,39%,1);
   background-color: hsla(269,100%,95%,1);
   border: 0.5px solid hsla(271,81%,56%,1);
@@ -3079,23 +3042,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(336,74%,35%,1);
   background-color: hsla(326,78%,95%,1);
   border: 0.5px solid hsla(333,71%,51%,1);
@@ -3124,23 +3086,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(0,0%,15%,1);
   background-color: hsla(0,0%,96%,1);
   border: 0.5px solid hsla(0,0%,32%,1);
@@ -3169,23 +3130,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(226,71%,40%,1);
   background-color: hsla(214,95%,93%,1);
   border: 0.5px solid hsla(221,83%,53%,1);
@@ -3214,23 +3174,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(143,64%,24%,1);
   background-color: hsla(141,84%,93%,1);
   border: 0.5px solid hsla(142,76%,36%,1);
@@ -3259,23 +3218,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(23,83%,31%,1);
   background-color: hsla(48,96%,89%,1);
   border: 0.5px solid hsla(32,95%,44%,1);
@@ -3304,23 +3262,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(0,70%,35%,1);
   background-color: hsla(0,93%,94%,1);
   border: 0.5px solid hsla(0,72%,51%,1);
@@ -3330,7 +3287,7 @@ Object {
     <div>
       <span
         class="c0"
-        data="10"
+        content="10"
         role="contentinfo"
       >
         <span
@@ -3352,7 +3309,7 @@ Object {
       </span>
       <span
         class="c1"
-        data="20"
+        content="20"
         role="contentinfo"
       >
         <span
@@ -3374,7 +3331,7 @@ Object {
       </span>
       <span
         class="c2"
-        data="30"
+        content="30"
         role="contentinfo"
       >
         <span
@@ -3396,7 +3353,7 @@ Object {
       </span>
       <span
         class="c3"
-        data="40"
+        content="40"
         role="contentinfo"
       >
         <span
@@ -3418,7 +3375,7 @@ Object {
       </span>
       <span
         class="c4"
-        data="50"
+        content="50"
         role="contentinfo"
       >
         <span
@@ -3440,7 +3397,7 @@ Object {
       </span>
       <span
         class="c5"
-        data="60"
+        content="60"
         role="contentinfo"
       >
         <span
@@ -3462,7 +3419,7 @@ Object {
       </span>
       <span
         class="c6"
-        data="70"
+        content="70"
         role="contentinfo"
       >
         <span
@@ -3507,23 +3464,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(273,67%,39%,1);
   background-color: hsla(269,100%,95%,1);
   border: 0.5px solid hsla(271,81%,56%,1);
@@ -3552,23 +3508,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(336,74%,35%,1);
   background-color: hsla(326,78%,95%,1);
   border: 0.5px solid hsla(333,71%,51%,1);
@@ -3597,23 +3552,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(0,0%,15%,1);
   background-color: hsla(0,0%,96%,1);
   border: 0.5px solid hsla(0,0%,32%,1);
@@ -3642,23 +3596,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(226,71%,40%,1);
   background-color: hsla(214,95%,93%,1);
   border: 0.5px solid hsla(221,83%,53%,1);
@@ -3687,23 +3640,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(143,64%,24%,1);
   background-color: hsla(141,84%,93%,1);
   border: 0.5px solid hsla(142,76%,36%,1);
@@ -3732,23 +3684,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(23,83%,31%,1);
   background-color: hsla(48,96%,89%,1);
   border: 0.5px solid hsla(32,95%,44%,1);
@@ -3777,23 +3728,22 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: pre;
   color: hsla(0,70%,35%,1);
   background-color: hsla(0,93%,94%,1);
   border: 0.5px solid hsla(0,72%,51%,1);
@@ -3802,7 +3752,7 @@ Object {
 <div>
     <span
       class="c0"
-      data="10"
+      content="10"
       role="contentinfo"
     >
       <span
@@ -3824,7 +3774,7 @@ Object {
     </span>
     <span
       class="c1"
-      data="20"
+      content="20"
       role="contentinfo"
     >
       <span
@@ -3846,7 +3796,7 @@ Object {
     </span>
     <span
       class="c2"
-      data="30"
+      content="30"
       role="contentinfo"
     >
       <span
@@ -3868,7 +3818,7 @@ Object {
     </span>
     <span
       class="c3"
-      data="40"
+      content="40"
       role="contentinfo"
     >
       <span
@@ -3890,7 +3840,7 @@ Object {
     </span>
     <span
       class="c4"
-      data="50"
+      content="50"
       role="contentinfo"
     >
       <span
@@ -3912,7 +3862,7 @@ Object {
     </span>
     <span
       class="c5"
-      data="60"
+      content="60"
       role="contentinfo"
     >
       <span
@@ -3934,7 +3884,7 @@ Object {
     </span>
     <span
       class="c6"
-      data="70"
+      content="70"
       role="contentinfo"
     >
       <span
@@ -4035,32 +3985,31 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
+  white-space: pre;
+  color: hsla(0,0%,98%,1);
+  background-color: hsla(0,0%,25%,1);
 }
 
 <body>
     <div>
       <span
         class="c0"
-        data="50"
+        content="50"
         role="contentinfo"
       >
         <span
@@ -4105,31 +4054,30 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
+  white-space: pre;
+  color: hsla(0,0%,98%,1);
+  background-color: hsla(0,0%,25%,1);
 }
 
 <div>
     <span
       class="c0"
-      data="50"
+      content="50"
       role="contentinfo"
     >
       <span
@@ -4223,7 +4171,7 @@ Object {
     <div>
       <span
         class="c0"
-        data="0"
+        content="0"
         hidden=""
         role="contentinfo"
       >
@@ -4261,7 +4209,7 @@ Object {
 <div>
     <span
       class="c0"
-      data="0"
+      content="0"
       hidden=""
       role="contentinfo"
     >
@@ -4363,32 +4311,31 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
+  white-space: pre;
+  color: hsla(0,0%,98%,1);
+  background-color: hsla(0,0%,25%,1);
 }
 
 <body>
     <div>
       <span
         class="c0"
-        data="0"
+        content="0"
         role="contentinfo"
       >
         <span
@@ -4433,31 +4380,30 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  place-content: center;
   top: 0;
   right: 0;
   z-index: 1;
-  -webkit-transform: translate(60%,-60%);
-  -ms-transform: translate(60%,-60%);
-  transform: translate(60%,-60%);
-  min-width: 1rem;
+  -webkit-transform: translate(70%,-70%);
+  -ms-transform: translate(70%,-70%);
+  transform: translate(70%,-70%);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   max-width: 2rem;
-  line-height: 1;
   padding: 0px 0.25rem;
   height: 1rem;
   border-radius: 0.5rem;
   font-size: 0.625rem;
-  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
   overflow: hidden;
-  white-space: nowrap;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
+  white-space: pre;
+  color: hsla(0,0%,98%,1);
+  background-color: hsla(0,0%,25%,1);
 }
 
 <div>
     <span
       class="c0"
-      data="0"
+      content="0"
       role="contentinfo"
     >
       <span

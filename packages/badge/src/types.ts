@@ -12,19 +12,19 @@ import { IBaseProps } from '@tidy-ui/types';
  */
 export interface IBadgeProps extends IBaseProps, HTMLAttributes<HTMLSpanElement> {
   /**
+   * The content to hold inside the badge
+   *
+   * @type {?(number | string)}
+   */
+  content?: number | string;
+
+  /**
    * If `true`, the badge blinks (1s linear)
    *
    * @type {?boolean}
    * @default false
    */
-  blink?: boolean;
-
-  /**
-   * The data value of the badge
-   *
-   * @type {?(number | string)}
-   */
-  data?: number | string;
+  isBlink?: boolean;
 
   /**
    * If `true`, the badge is a dot, no content included
@@ -32,24 +32,7 @@ export interface IBadgeProps extends IBaseProps, HTMLAttributes<HTMLSpanElement>
    * @type {?boolean}
    * @default false
    */
-  dotted?: boolean;
-
-  /**
-   * If `true`, the badge is removed
-   *
-   * @type {?boolean}
-   * @default false
-   */
-  hidden?: boolean;
-
-  /**
-   * The maximum integer value allowed inside the badge,
-   * if the data value exceeds this max value, a `+` is added as suffix
-   *
-   * @type {?number}
-   * @default 99
-   */
-  max?: number;
+  isDotted?: boolean;
 
   /**
    * If `true`, the badge is outlines, not filled
@@ -57,15 +40,26 @@ export interface IBadgeProps extends IBaseProps, HTMLAttributes<HTMLSpanElement>
    * @type {?boolean}
    * @default false
    */
-  outlined?: boolean;
+  isOutlined?: boolean;
 
   /**
-   * If `true`, the badge is forced to show 0 even the data value is 0
+   * If `true`, the badge is forced to show 0 even the data value is 0.
+   * Applies to only number type content
    *
    * @type {?boolean}
    * @default false
    */
-  show0?: boolean;
+  isShow0?: boolean;
+
+  /**
+   * The maximum integer value allowed inside the badge,
+   * if the data value exceeds this max value, a `+` is added as suffix.
+   * Applies to only number type content
+   *
+   * @type {?number}
+   * @default 99
+   */
+  max?: number;
 
   /**
    * The tone of the badge component
