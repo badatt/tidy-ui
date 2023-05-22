@@ -83,16 +83,6 @@ const AlertIcon = styled.span<IAlertProps>`
 `;
 
 /**
- * Internal AlertContent composes of Title, Footer and inside text
- *
- * @internal
- */
-const AlertContent = styled.div<IAlertProps>`
-  display: flex;
-  flex-direction: column;
-`;
-
-/**
  * Internal AlertTitle root component
  *
  * @internal
@@ -102,4 +92,4 @@ const AlertTitleRoot = styled.div<IAlertTitleProps>`
   ${applyStandardOverrideStyles}
 `;
 
-export { AlertContent, AlertFooterRoot, AlertIcon, AlertRoot, AlertTitleRoot };
+export { AlertFooterRoot, AlertIcon, AlertRoot, AlertTitleRoot };

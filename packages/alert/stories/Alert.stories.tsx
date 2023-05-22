@@ -2,6 +2,7 @@ import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 import { Status } from '../../commons/src';
 import { Button, ButtonCluster } from '../../button/src';
+import { FlexBox } from '../../flexbox/src';
 import { Grid } from '../../grid/src';
 import { Modal } from '../../modal/src';
 import { Text } from '../../text/src';
@@ -17,7 +18,7 @@ export default meta;
 type Story = StoryObj<typeof Alert>;
 
 const SimpleAlert = (props) => (
-  <Alert isFilled={props.filled} status={props.status} width={props.width}>
+  <Alert ele={<FlexBox fld="column" />} isFilled={props.filled} status={props.status} width={props.width}>
     <Alert.Title>
       <Text.h6 tone={props.status}>{props.status}</Text.h6>
     </Alert.Title>
