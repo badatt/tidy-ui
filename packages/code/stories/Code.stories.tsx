@@ -18,17 +18,4 @@ export default App;
 
 export const basic = () => <Code>{text}</Code>;
 
-export const customMargin = () => (
-  <>
-    <Code margin="0 0 1rem 0">{text}</Code>
-    <Code>{text}</Code>
-  </>
-);
-
-export const customDimensions = () => (
-  <Code height="10rem" width="30rem">
-    {text}
-  </Code>
-);
-
-export const noCopy = () => <Code noCopy>{text}</Code>;
+export const noCopy = () => <Code canCopy={false}>{text}</Code>;
