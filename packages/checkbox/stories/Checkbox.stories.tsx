@@ -44,7 +44,7 @@ export const variants: Story = {
         <Checkbox checked={checked} onChange={handleChange}>
           Option 1
         </Checkbox>
-        <Checkbox filled checked={checked} onChange={handleChange}>
+        <Checkbox isFilled checked={checked} onChange={handleChange}>
           Filled Option 1
         </Checkbox>
       </FlexBox>
@@ -95,7 +95,7 @@ export const statuses: Story = {
   },
 };
 
-export const sizes: Story = {
+export const girths: Story = {
   render: () => {
     const [checked, setChecked] = React.useState(false);
 
@@ -108,13 +108,13 @@ export const sizes: Story = {
         <Checkbox checked={checked} onChange={handleChange}>
           md choice
         </Checkbox>
-        <Checkbox sz="lg" checked={checked} onChange={handleChange}>
+        <Checkbox girth="lg" checked={checked} onChange={handleChange}>
           lg choice
         </Checkbox>
-        <Checkbox sz="xl" checked={checked} onChange={handleChange}>
+        <Checkbox girth="xl" checked={checked} onChange={handleChange}>
           xl choice
         </Checkbox>
-        <Checkbox sz="xxl" checked={checked} onChange={handleChange}>
+        <Checkbox girth="xxl" checked={checked} onChange={handleChange}>
           xxl choice
         </Checkbox>
       </FlexBox>
@@ -133,7 +133,7 @@ export const indeterminate: Story = {
       <FlexBox gap="1rem" fld="column">
         <Checkbox
           checked={allChecked}
-          indeterminate={isIndeterminate}
+          isIndeterminate={isIndeterminate}
           onChange={(e) => setCheckedItems([!allChecked, !allChecked, !allChecked])}
         >
           Parent selection

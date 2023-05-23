@@ -39,7 +39,7 @@ describe('Checkbox', () => {
   it('Indeterminate', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Checkbox indeterminate>basic</Checkbox>
+        <Checkbox isIndeterminate>basic</Checkbox>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -58,7 +58,7 @@ describe('Checkbox', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Checkbox>basic</Checkbox>
-        <Checkbox filled>basic</Checkbox>
+        <Checkbox isFilled>basic</Checkbox>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -67,7 +67,7 @@ describe('Checkbox', () => {
   it('Filled and checked', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Checkbox filled checked>
+        <Checkbox isFilled checked>
           basic
         </Checkbox>
       </TidyUiProvider>,
@@ -78,7 +78,7 @@ describe('Checkbox', () => {
   it('Filled checkbox in dark', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
-        <Checkbox filled>basic</Checkbox>
+        <Checkbox isFilled>basic</Checkbox>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();

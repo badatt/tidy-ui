@@ -1,25 +1,18 @@
-import { HTMLAttributes } from 'react';
-import { TSize, TStatus } from '@tidy-ui/commons';
+import { InputHTMLAttributes } from 'react';
+import { TGirth, TStatus } from '@tidy-ui/commons';
 import { IBaseProps } from '@tidy-ui/types';
 
 /**
  * Checkbox props
  */
-export interface ICheckboxProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
+export interface ICheckboxProps extends IBaseProps, InputHTMLAttributes<HTMLDivElement> {
   /**
-   * If `true`, the checkbox is checked
+   * The size of the component
    *
-   * @default false
+   * @type {?TGirth}
+   * @default 'md'
    */
-  checked?: boolean;
-
-  /**
-   * If `true`, the component is disabled
-   *
-   * @type {?boolean}
-   * @default false
-   */
-  disabled?: boolean;
+  girth?: Exclude<TGirth, 'xxs' | 'xs' | 'sm'>;
 
   /**
    * If `true`, the component is filled
@@ -27,7 +20,7 @@ export interface ICheckboxProps extends IBaseProps, HTMLAttributes<HTMLDivElemen
    * @type {?boolean}
    * @default false
    */
-  filled?: boolean;
+  isFilled?: boolean;
 
   /**
    * If `true`, the component is in indeterminate state, for example
@@ -36,7 +29,7 @@ export interface ICheckboxProps extends IBaseProps, HTMLAttributes<HTMLDivElemen
    * @type {?boolean}
    * @default false
    */
-  indeterminate?: boolean;
+  isIndeterminate?: boolean;
 
   /**
    * Color variant of the component, typically used to classify the
@@ -45,12 +38,4 @@ export interface ICheckboxProps extends IBaseProps, HTMLAttributes<HTMLDivElemen
    * @type {?TStatus}
    */
   status?: TStatus;
-
-  /**
-   * The size of the component
-   *
-   * @type {?TSize}
-   * @default 'md'
-   */
-  sz?: Exclude<TSize, 'xxs' | 'xs' | 'sm'>;
 }
