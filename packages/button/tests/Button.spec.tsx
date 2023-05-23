@@ -7,7 +7,7 @@ import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { Icon, orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
 import { Button } from '../src';
-import { Size, Tone } from '../../commons/src';
+import { Girth, Tone } from '../../commons/src';
 import { Variant } from '../src/types';
 
 describe('Render Button', () => {
@@ -106,14 +106,14 @@ describe('Render Button', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('Button with all size variants', () => {
+  it('Button with all girth variants', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        {Object.values(Size)
+        {Object.values(Girth)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Button size={Size[v]} key={i}>
-              size-{Size[v]}
+            <Button girth={Girth[v]} key={i}>
+              girth-{Girth[v]}
             </Button>
           ))}
       </TidyUiProvider>,

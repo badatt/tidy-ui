@@ -7,7 +7,7 @@ import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { Icon, orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
 import { IconButton } from '../src';
-import { Size, Tone } from '../../commons/src';
+import { Girth, Tone } from '../../commons/src';
 
 describe('Render Button', () => {
   it('Basic render', () => {
@@ -53,14 +53,14 @@ describe('Render Button', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('IconButton with all size variants', () => {
+  it('IconButton with all girth variants', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        {Object.values(Size)
+        {Object.values(Girth)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <IconButton icon={<Icon.AddCircle />} size={Size[v]} key={i}>
-              {Size[v]}
+            <IconButton icon={<Icon.AddCircle />} girth={Girth[v]} key={i}>
+              {Girth[v]}
             </IconButton>
           ))}
       </TidyUiProvider>,
@@ -85,10 +85,10 @@ describe('Render Button', () => {
   it('IconButton with only icon', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        {Object.values(Size)
+        {Object.values(Girth)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <IconButton icon={<Icon.AddCircle />} isIconOnly size={Size[v]} key={i} />
+            <IconButton icon={<Icon.AddCircle />} isIconOnly girth={Girth[v]} key={i} />
           ))}
       </TidyUiProvider>,
     );

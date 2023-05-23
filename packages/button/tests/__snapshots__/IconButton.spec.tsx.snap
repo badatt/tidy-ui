@@ -1937,7 +1937,7 @@ Object {
 }
 `;
 
-exports[`Render Button IconButton with all size variants 1`] = `
+exports[`Render Button IconButton with all girth variants 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {

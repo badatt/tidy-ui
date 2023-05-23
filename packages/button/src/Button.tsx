@@ -31,11 +31,11 @@ const Button = React.forwardRef<HTMLButtonElement, IButtonProps>((props, ref) =>
 });
 
 Button.defaultProps = {
+  girth: 'md',
   isGradient: false,
   isLoading: false,
   isStretched: false,
   isUppercase: false,
-  size: 'md',
   tone: 'neutral',
   variant: 'outlined',
 };

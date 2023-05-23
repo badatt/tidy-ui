@@ -33,7 +33,7 @@ const IconButton = React.forwardRef<HTMLButtonElement, IIconButtonProps>((props,
 IconButton.defaultProps = {
   isIconOnly: false,
   placement: 'left',
-  size: 'md',
+  girth: 'md',
   tone: 'neutral',
   variant: 'outlined',
 };

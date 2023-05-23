@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon, Size, Tone } from '../../commons/src';
+import { Icon, Girth, Tone } from '../../commons/src';
 import { FlexBox } from '../../flexbox/src';
 import { IconButton } from '../src';
 
@@ -33,13 +33,13 @@ export const placement = () => (
   </FlexBox>
 );
 
-export const sizes = () => (
+export const girths = () => (
   <FlexBox gap="1rem" fld="column" ali="flex-start">
-    {Object.values(Size)
+    {Object.values(Girth)
       .filter((i) => !isNaN(Number(i)))
       .map((v, i) => (
-        <IconButton icon={<Icon.AddCircle />} size={Size[v]} key={i}>
-          {Size[v]}
+        <IconButton icon={<Icon.AddCircle />} girth={Girth[v]} key={i}>
+          {Girth[v]}
         </IconButton>
       ))}
   </FlexBox>
@@ -71,10 +71,10 @@ export const customDimension = () => (
 export const iconOnly = () => {
   return (
     <FlexBox gap="1rem" fld="column" ali="flex-start">
-      {Object.values(Size)
+      {Object.values(Girth)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
-          <IconButton icon={<Icon.Add />} isIconOnly size={Size[v]} key={i} />
+          <IconButton icon={<Icon.Add />} isIconOnly girth={Girth[v]} key={i} />
         ))}
     </FlexBox>
   );

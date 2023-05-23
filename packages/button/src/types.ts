@@ -1,5 +1,5 @@
 import { AnchorHTMLAttributes, ButtonHTMLAttributes, HTMLAttributes } from 'react';
-import { TSize, TTone } from '@tidy-ui/commons';
+import { TGirth, TTone } from '@tidy-ui/commons';
 import { IBaseProps } from '@tidy-ui/types';
 
 /**
@@ -42,6 +42,14 @@ export type TVariant = keyof typeof Variant;
  */
 export interface IButtonProps extends IBaseProps, ButtonHTMLAttributes<HTMLButtonElement> {
   /**
+   * The girth of the component
+   *
+   * @type {?TGirth}
+   * @default 'md'
+   */
+  girth?: TGirth;
+
+  /**
    * Icon (only) to embed inside the button
    *
    * @type {?JSX.Element}
@@ -77,14 +85,6 @@ export interface IButtonProps extends IBaseProps, ButtonHTMLAttributes<HTMLButto
    * @type {?boolean}
    */
   isUppercase?: boolean;
-
-  /**
-   * The size of the component
-   *
-   * @type {?TSize}
-   * @default 'md'
-   */
-  size?: TSize;
 
   /**
    * The color of the component
@@ -123,10 +123,10 @@ export interface IAnchorProps extends IBaseProps, AnchorHTMLAttributes<HTMLAncho
   /**
    * The size of the component
    *
-   * @type {?TSize}
+   * @type {?TGirth}
    * @default 'md'
    */
-  size?: TSize;
+  girth?: TGirth;
 
   /**
    * The color of the component
@@ -146,6 +146,14 @@ export interface IAnchorProps extends IBaseProps, AnchorHTMLAttributes<HTMLAncho
  * @public
  */
 export interface IIconButtonProps extends IBaseProps, ButtonHTMLAttributes<HTMLButtonElement> {
+  /**
+   * The size of the component
+   *
+   * @type {?TGirth}
+   * @default 'md'
+   */
+  girth?: TGirth;
+
   /**
    * Mandatory icon to embed inside the button
    *
@@ -167,14 +175,6 @@ export interface IIconButtonProps extends IBaseProps, ButtonHTMLAttributes<HTMLB
    * @default 'left'
    */
   placement?: 'left' | 'right';
-
-  /**
-   * The size of the component
-   *
-   * @type {?TSize}
-   * @default 'md'
-   */
-  size?: TSize;
 
   /**
    * The color of the component

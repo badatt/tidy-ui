@@ -2759,7 +2759,7 @@ Object {
 }
 `;
 
-exports[`Render Button Button with all size variants 1`] = `
+exports[`Render Button Button with all girth variants 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
@@ -3034,49 +3034,49 @@ Object {
         class="c0"
         role="button"
       >
-        size-
+        girth-
         xxs
       </button>
       <button
         class="c1"
         role="button"
       >
-        size-
+        girth-
         xs
       </button>
       <button
         class="c2"
         role="button"
       >
-        size-
+        girth-
         sm
       </button>
       <button
         class="c3"
         role="button"
       >
-        size-
+        girth-
         md
       </button>
       <button
         class="c4"
         role="button"
       >
-        size-
+        girth-
         lg
       </button>
       <button
         class="c5"
         role="button"
       >
-        size-
+        girth-
         xl
       </button>
       <button
         class="c6"
         role="button"
       >
-        size-
+        girth-
         xxl
       </button>
     </div>
@@ -3352,49 +3352,49 @@ Object {
       class="c0"
       role="button"
     >
-      size-
+      girth-
       xxs
     </button>
     <button
       class="c1"
       role="button"
     >
-      size-
+      girth-
       xs
     </button>
     <button
       class="c2"
       role="button"
     >
-      size-
+      girth-
       sm
     </button>
     <button
       class="c3"
       role="button"
     >
-      size-
+      girth-
       md
     </button>
     <button
       class="c4"
       role="button"
     >
-      size-
+      girth-
       lg
     </button>
     <button
       class="c5"
       role="button"
     >
-      size-
+      girth-
       xl
     </button>
     <button
       class="c6"
       role="button"
     >
-      size-
+      girth-
       xxl
     </button>
   </div>,
