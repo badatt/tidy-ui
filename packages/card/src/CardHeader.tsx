@@ -21,7 +21,7 @@ const CardHeader = React.forwardRef<HTMLDivElement, ICardHeaderProps>((props, re
 });
 
 CardHeader.defaultProps = {
-  divided: false,
+  isDivided: false,
 };
 
 CardHeader.displayName = 'CardHeader';

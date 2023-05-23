@@ -39,10 +39,10 @@ export const basic = () => (
 
 export const sharp = () => (
   <FlexBox gap="1rem" nowrap>
-    <Card sharp>
+    <Card isSharp>
       <ContentBody />
     </Card>
-    <Card sharp>
+    <Card isSharp>
       <Card.Header>
         <ContentHeader />
       </Card.Header>
@@ -113,24 +113,24 @@ export const linked = () => (
 export const divided = () => (
   <FlexBox gap="1rem" nowrap>
     <Card>
-      <Card.Header divided>
+      <Card.Header isDivided>
         <ContentHeader />
       </Card.Header>
       <Card.Body>
         <ContentBody />
       </Card.Body>
-      <Card.Footer divided>
+      <Card.Footer isDivided>
         <ContentFooter />
       </Card.Footer>
     </Card>
-    <Card sharp>
-      <Card.Header divided>
+    <Card isSharp>
+      <Card.Header isDivided>
         <ContentHeader />
       </Card.Header>
       <Card.Body>
         <ContentBody />
       </Card.Body>
-      <Card.Footer divided>
+      <Card.Footer isDivided>
         <ContentFooter />
       </Card.Footer>
     </Card>
@@ -139,36 +139,25 @@ export const divided = () => (
 
 export const customElement = () => (
   <FlexBox gap="1rem" nowrap>
-    <Card ele={<FlexBox nowrap gap="0.5rem" />}>
-      <ContentBody />
-      <ContentBody />
+    <Card ele={<FlexBox nowrap gap="0.5rem" fld="column" />}>
+      <div>
+        <ContentBody />
+      </div>
+      <div>
+        <ContentBody />
+      </div>
     </Card>
     <Card>
       <Card.Header>
         <ContentHeader />
       </Card.Header>
-      <Card.Body ele={<FlexBox nowrap gap="0.5rem" />}>
-        <ContentBody />
-        <ContentBody />
-      </Card.Body>
-      <Card.Footer>
-        <ContentFooter />
-      </Card.Footer>
-    </Card>
-  </FlexBox>
-);
-
-export const customDimensions = () => (
-  <FlexBox gap="1rem" nowrap>
-    <Card height="9rem">
-      <ContentBody />
-    </Card>
-    <Card height="15rem">
-      <Card.Header>
-        <ContentHeader />
-      </Card.Header>
-      <Card.Body>
-        <ContentBody />
+      <Card.Body ele={<FlexBox nowrap gap="0.5rem" fld="column" />}>
+        <div>
+          <ContentBody />
+        </div>
+        <div>
+          <ContentBody />
+        </div>
       </Card.Body>
       <Card.Footer>
         <ContentFooter />

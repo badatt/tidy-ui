@@ -2239,6 +2239,7 @@ Object {
   color: hsla(217,33%,17%,1);
   height: 9rem;
   border-radius: 0.5rem;
+  height: 9rem;
 }
 
 .c1 {
@@ -2262,6 +2263,7 @@ Object {
   color: hsla(217,33%,17%,1);
   height: 15rem;
   border-radius: 0.5rem;
+  height: 15rem;
 }
 
 .c4 {
@@ -2350,6 +2352,7 @@ Object {
   color: hsla(217,33%,17%,1);
   height: 9rem;
   border-radius: 0.5rem;
+  height: 9rem;
 }
 
 .c1 {
@@ -2373,6 +2376,7 @@ Object {
   color: hsla(217,33%,17%,1);
   height: 15rem;
   border-radius: 0.5rem;
+  height: 15rem;
 }
 
 .c4 {

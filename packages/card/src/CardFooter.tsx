@@ -16,7 +16,7 @@ const CardFooter = React.forwardRef<HTMLDivElement, ICardFooterProps>((props, re
 });
 
 CardFooter.defaultProps = {
-  divided: false,
+  isDivided: false,
 };
 
 CardFooter.displayName = 'CardFooter';
