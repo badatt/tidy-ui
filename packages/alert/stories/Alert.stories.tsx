@@ -25,7 +25,7 @@ const SimpleAlert = (props) => (
     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus nostrum nulla dolorum! Consequatur facere sint
     excepturi amet nulla soluta dolorem ad sequi. Dolorem quod velit quam numquam corporis, tempore maxime!
     <Alert.Footer>
-      <ButtonCluster stretched>
+      <ButtonCluster isStretched>
         <Button variant="simple" tone="neutral" onClick={props.onAccept}>
           Cancel
         </Button>
@@ -95,15 +95,4 @@ export const withModal: Story = {
       </>
     );
   },
-};
-
-export const withCustomElement: Story = {
-  render: () => (
-    <Alert ele={<div />}>
-      <Alert.Title ele={<div />}>custom title element</Alert.Title>Lorem ipsum dolor sit amet consectetur adipisicing
-      elit. Dicta magni consequuntur non quis dolor perspiciatis, nisi repellat cupiditate maiores, nulla suscipit,
-      dolorum expedita natus accusantium blanditiis earum error fugit accusamus?
-      <Alert.Footer ele={<div />}>custom footer</Alert.Footer>
-    </Alert>
-  ),
 };

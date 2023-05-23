@@ -32,8 +32,10 @@ const Card = React.forwardRef<HTMLDivElement, ICardProps>((props, ref) => {
 
 Card.defaultProps = {
   accentPosition: 'top',
-  sharp: false,
+  isSharp: false,
 };
+
+Card.displayName = 'Card';
 
 Card.Body = CardBody;
 Card.Header = CardHeader;

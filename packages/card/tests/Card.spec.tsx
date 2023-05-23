@@ -47,8 +47,8 @@ describe('Card', () => {
   it('Card with sharp corners', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Card sharp>{text}</Card>
-        <Card sharp>
+        <Card isSharp>{text}</Card>
+        <Card isSharp>
           <Card.Header>Lorem ipsum dolor sit.</Card.Header>
           <Card.Body>{text}</Card.Body>
           <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
@@ -122,14 +122,14 @@ describe('Card', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Card>
-          <Card.Header divided>Lorem ipsum dolor sit.</Card.Header>
+          <Card.Header isDivided>Lorem ipsum dolor sit.</Card.Header>
           <Card.Body>{text}</Card.Body>
-          <Card.Footer divided>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
+          <Card.Footer isDivided>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
         </Card>
-        <Card sharp>
-          <Card.Header divided>Lorem ipsum dolor sit.</Card.Header>
+        <Card isSharp>
+          <Card.Header isDivided>Lorem ipsum dolor sit.</Card.Header>
           <Card.Body>{text}</Card.Body>
-          <Card.Footer divided>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
+          <Card.Footer isDivided>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
         </Card>
       </TidyUiProvider>,
     );
@@ -141,11 +141,11 @@ describe('Card', () => {
       <TidyUiProvider theme={orchidLight}>
         <Card ele={<div />}>{text}</Card>
         <Card>
-          <Card.Header ele={<div />} divided>
+          <Card.Header ele={<div />} isDivided>
             Lorem ipsum dolor sit.
           </Card.Header>
           <Card.Body ele={<div />}>{text}</Card.Body>
-          <Card.Footer ele={<div />} divided>
+          <Card.Footer ele={<div />} isDivided>
             Lorem ipsum dolor sit amet consectetur.
           </Card.Footer>
         </Card>

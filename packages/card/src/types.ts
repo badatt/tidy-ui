@@ -41,17 +41,17 @@ export interface ICardProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   href?: string;
 
   /**
-   * css `margin` equivalent
-   */
-  margin?: string;
-
-  /**
    * If `true`, the component is created with sharp edges
    *
    * @type {?boolean}
    * @default false
    */
-  sharp?: boolean;
+  isSharp?: boolean;
+
+  /**
+   * css `margin` equivalent
+   */
+  margin?: string;
 }
 
 /**
@@ -64,17 +64,17 @@ export interface ICardProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
  */
 export interface ICardFooterProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
+   * Element that encloses the footer
+   */
+  ele?: JSX.Element;
+
+  /**
    * If `true`, the footer is separated from body with a divider
    *
    * @type {?boolean}
    * @default false
    */
-  divided?: boolean;
-
-  /**
-   * Element that encloses the footer
-   */
-  ele?: JSX.Element;
+  isDivided?: boolean;
 }
 
 /**
@@ -86,14 +86,6 @@ export interface ICardFooterProps extends IBaseProps, HTMLAttributes<HTMLDivElem
  * @public
  */
 export interface ICardHeaderProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
-  /**
-   * If `true`, header is separated from body with a divider
-   *
-   * @type {?boolean}
-   * @default false
-   */
-  divided?: boolean;
-
   /**
    * Element that encloses the header
    */
@@ -107,6 +99,14 @@ export interface ICardHeaderProps extends IBaseProps, HTMLAttributes<HTMLDivElem
    * @default undefined
    */
   href?: string;
+
+  /**
+   * If `true`, header is separated from body with a divider
+   *
+   * @type {?boolean}
+   * @default false
+   */
+  isDivided?: boolean;
 }
 
 /**

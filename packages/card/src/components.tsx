@@ -1,4 +1,5 @@
-import { color, createFontStyle, css, hsla, Icon, styled } from '@tidy-ui/commons';
+import { applyStandardOverrideStyles, color, createFontStyle, css, hsla, Icon, styled } from '@tidy-ui/commons';
+import { cardStyles } from './styles';
 import { ICardFooterProps, ICardHeaderProps, ICardProps } from './types';
 
 /**
@@ -19,46 +20,23 @@ const Link = styled.a`
   }
 `;
 
-const cardStyles = css<ICardProps>`
-  ${({ theme: { palette, layout }, sharp, accent, accentPosition, href, margin, height, width }) => css`
-    ${createFontStyle()}
-    background-color: ${palette.background.card};
-    box-shadow: ${layout.shadow};
-    color: ${palette.text.primary};
-    margin: ${margin};
-    height: ${height};
-    width: ${width};
-    ${!sharp &&
-    css`
-      border-radius: ${layout.radius};
-    `}
-    ${accent && `border-${accentPosition}: 2px solid ${palette[accent][600]};`}
-    ${href &&
-    css`
-      cursor: pointer;
-    `}
-  `}
-  &:hover ${Link} {
-    display: flex;
-  }
-`;
-
 /**
  * Internal CardHeader root component
  *
  * @internal
  */
 const CardHeaderRoot = styled.header<ICardHeaderProps>`
-  ${({ theme: { palette }, divided }) => css`
+  ${({ theme: { palette }, isDivided }) => css`
     ${createFontStyle('h5')}
     position: relative;
     width: 100%;
-    ${divided &&
+    ${isDivided &&
     css`
       padding-bottom: 0.25rem;
       border-bottom: 1px solid ${palette.divider};
     `}
   `}
+  ${applyStandardOverrideStyles}
 `;
 
 /**
@@ -86,6 +64,10 @@ const CardRoot = styled.section<ICardProps>`
   display: flex;
   flex-direction: column;
   ${cardStyles}
+  &:hover ${Link} {
+    display: flex;
+  }
+  ${applyStandardOverrideStyles}
 `;
 
 /**
@@ -95,13 +77,14 @@ const CardRoot = styled.section<ICardProps>`
  */
 const CardFooterRoot = styled.footer<ICardFooterProps>`
   ${createFontStyle('body2')}
-  ${({ theme: { palette }, divided }) => css`
-    ${divided &&
+  ${({ theme: { palette }, isDivided }) => css`
+    ${isDivided &&
     css`
       padding-top: 0.25rem;
       border-top: 1px solid ${palette.divider};
     `}
   `}
+  ${applyStandardOverrideStyles}
 `;
 
 /**
@@ -111,6 +94,7 @@ const CardFooterRoot = styled.footer<ICardFooterProps>`
  */
 const CardBodyRoot = styled.div`
   padding: 0.25rem 0;
+  ${applyStandardOverrideStyles}
 `;
 
 export { CardBodyRoot, CardFooterRoot, CardHeaderRoot, CardRoot, LaunchIcon, Link };
