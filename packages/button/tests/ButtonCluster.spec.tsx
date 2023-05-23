@@ -51,7 +51,7 @@ describe('Render ButtonCluster', () => {
   it('Stretched ButtonCluster', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <ButtonCluster stretched>
+        <ButtonCluster isStretched>
           <GroupedButtons />
         </ButtonCluster>
       </TidyUiProvider>,

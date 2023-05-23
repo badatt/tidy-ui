@@ -55,18 +55,18 @@ export const variants = () => {
 };
 
 export const gradient = () => (
-  <Button variant="hero" gradient>
+  <Button variant="hero" isGradient>
     Gradient
   </Button>
 );
 
 export const disabled = () => <Button disabled>disabled</Button>;
 
-export const loading = () => <Button loading>Loading...</Button>;
+export const loading = () => <Button isLoading>Loading...</Button>;
 
-export const stretched = () => <Button stretched>stretched</Button>;
+export const stretched = () => <Button isStretched>stretched</Button>;
 
-export const uppercase = () => <Button uppercase>uppercase</Button>;
+export const uppercase = () => <Button isUppercase>uppercase</Button>;
 
 export const others = () => (
   <FlexBox gap="1rem">

@@ -60,7 +60,7 @@ describe('Render Anchor', () => {
   it('External anchor link', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Anchor href="https://www.google.com/" launch>
+        <Anchor href="https://www.google.com/" canLaunch>
           external link
         </Anchor>
       </TidyUiProvider>,
@@ -70,7 +70,7 @@ describe('Render Anchor', () => {
   it('External anchor link dark', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
-        <Anchor href="https://www.google.com/" launch>
+        <Anchor href="https://www.google.com/" canLaunch>
           external link
         </Anchor>
       </TidyUiProvider>,

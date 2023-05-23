@@ -21,7 +21,20 @@ const ButtonCluster = React.forwardRef<HTMLDivElement, IButtonClusterProps>((pro
 
 ButtonCluster.defaultProps = {
   disabled: false,
-  stretched: false,
+  isStretched: false,
+};
+
+ButtonCluster.propTypes = {
+  /** @internal */
+  children: (props, propName, componentName) => {
+    const allowed = ['Anchor', 'Button', 'ButtonGroup', 'IconButton'];
+    const errorMessage = `${componentName} accepts only ${allowed} as children`;
+    const childrenNames = React.Children.map(props[propName], (c) => c.type.displayName);
+    if (childrenNames.length == 0 || !childrenNames.every((c) => allowed.includes(c))) {
+      return new Error(`Invalid nodes. ${errorMessage}`);
+    }
+    return null;
+  },
 };
 
 ButtonCluster.displayName = 'ButtonCluster';

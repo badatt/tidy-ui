@@ -88,7 +88,7 @@ describe('Render Button', () => {
         {Object.values(Size)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <IconButton icon={<Icon.AddCircle />} iconOnly size={Size[v]} key={i} />
+            <IconButton icon={<Icon.AddCircle />} isIconOnly size={Size[v]} key={i} />
           ))}
       </TidyUiProvider>,
     );

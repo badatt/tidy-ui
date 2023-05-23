@@ -8,21 +8,21 @@ import { IButtonProps } from './types';
  *
  */
 const Button = React.forwardRef<HTMLButtonElement, IButtonProps>((props, ref) => {
-  const { children, loading, disabled, icon, ...rest } = props;
+  const { children, isLoading, disabled, icon, ...rest } = props;
 
   const isDisabled = React.useMemo(() => {
-    return [loading, disabled].some(Boolean);
-  }, [loading, disabled]);
+    return [isLoading, disabled].some(Boolean);
+  }, [isLoading, disabled]);
 
   return (
     <ButtonRoot role="button" ref={ref} disabled={isDisabled} icon={icon} {...rest}>
       {icon ? (
-        <IconButtonIconOnlyWrapper {...rest}>
-          <IconButtonIcon iconOnly>{icon}</IconButtonIcon>
+        <IconButtonIconOnlyWrapper>
+          <IconButtonIcon isIconOnly>{icon}</IconButtonIcon>
         </IconButtonIconOnlyWrapper>
       ) : (
         <>
-          {loading && <LoadingIcon />}
+          {isLoading && <LoadingIcon />}
           {children}
         </>
       )}
@@ -31,13 +31,12 @@ const Button = React.forwardRef<HTMLButtonElement, IButtonProps>((props, ref) =>
 });
 
 Button.defaultProps = {
-  disabled: false,
-  gradient: false,
-  loading: false,
+  isGradient: false,
+  isLoading: false,
+  isStretched: false,
+  isUppercase: false,
   size: 'md',
-  stretched: false,
-  tone: 'major',
-  uppercase: false,
+  tone: 'neutral',
   variant: 'outlined',
 };
 

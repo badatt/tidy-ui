@@ -1,8 +1,7 @@
 import React from 'react';
-import { Icon } from '../../commons/src';
+import { Icon, Size, Tone } from '../../commons/src';
 import { FlexBox } from '../../flexbox/src';
 import { IconButton } from '../src';
-import { Size, Tone } from '../../commons/src';
 
 export default {
   component: IconButton,
@@ -75,7 +74,7 @@ export const iconOnly = () => {
       {Object.values(Size)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
-          <IconButton icon={<Icon.Add />} iconOnly size={Size[v]} key={i} />
+          <IconButton icon={<Icon.Add />} isIconOnly size={Size[v]} key={i} />
         ))}
     </FlexBox>
   );

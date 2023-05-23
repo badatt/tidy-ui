@@ -52,7 +52,7 @@ export const disabled = () => (
 
 export const launchNewTab = () => (
   <FlexBox>
-    <Anchor href="https://www.google.com/" launch>
+    <Anchor href="https://www.google.com/" canLaunch>
       Google
     </Anchor>
   </FlexBox>

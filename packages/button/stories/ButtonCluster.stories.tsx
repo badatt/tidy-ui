@@ -24,25 +24,8 @@ export const basic = () => (
   </ButtonCluster>
 );
 
-export const outlined = () => (
-  <ButtonCluster>
-    <IconButton icon={<Icon.AddCircle />} variant="outlined">
-      Add
-    </IconButton>
-    <ButtonGroup>
-      <IconButton icon={<Icon.Add />} variant="outlined" />
-      <IconButton icon={<Icon.CheckCircle />} variant="outlined" />
-      <IconButton icon={<Icon.Info />} variant="outlined" />
-      <IconButton icon={<Icon.Warning />} variant="outlined" />
-      <IconButton icon={<Icon.Dangerous />} variant="outlined" />
-      <IconButton icon={<Icon.Cancel />} variant="outlined" />
-    </ButtonGroup>
-    <IconButton icon={<Icon.Close />} variant="outlined" />
-  </ButtonCluster>
-);
-
 export const stretched = () => (
-  <ButtonCluster stretched>
+  <ButtonCluster isStretched>
     <Button variant="simple" tone="danger">
       Cancel
     </Button>
@@ -52,34 +35,15 @@ export const stretched = () => (
 
 export const disabled = () => (
   <ButtonCluster disabled>
-    <IconButton icon={<Icon.AddCircle />} variant="outlined">
-      Add
-    </IconButton>
+    <IconButton icon={<Icon.AddCircle />}>Add</IconButton>
     <ButtonGroup>
-      <IconButton icon={<Icon.Add />} variant="outlined" />
-      <IconButton icon={<Icon.CheckCircle />} variant="outlined" />
-      <IconButton icon={<Icon.Info />} variant="outlined" />
-      <IconButton icon={<Icon.Warning />} variant="outlined" />
-      <IconButton icon={<Icon.Dangerous />} variant="outlined" />
-      <IconButton icon={<Icon.Close />} variant="outlined" />
+      <IconButton icon={<Icon.Add />} />
+      <IconButton icon={<Icon.CheckCircle />} />
+      <IconButton icon={<Icon.Info />} />
+      <IconButton icon={<Icon.Warning />} />
+      <IconButton icon={<Icon.Dangerous />} />
+      <IconButton icon={<Icon.Close />} />
     </ButtonGroup>
-    <IconButton icon={<Icon.Cancel />} variant="outlined" />
-  </ButtonCluster>
-);
-
-export const customDimensions = () => (
-  <ButtonCluster height="3rem">
-    <IconButton icon={<Icon.AddCircle />} variant="outlined">
-      Add
-    </IconButton>
-    <ButtonGroup>
-      <IconButton icon={<Icon.Add />} variant="outlined" />
-      <IconButton icon={<Icon.CheckCircle />} variant="outlined" />
-      <IconButton icon={<Icon.Info />} variant="outlined" />
-      <IconButton icon={<Icon.Warning />} variant="outlined" />
-      <IconButton icon={<Icon.Dangerous />} variant="outlined" />
-      <IconButton icon={<Icon.Close />} variant="outlined" />
-    </ButtonGroup>
-    <IconButton icon={<Icon.Cancel />} variant="outlined" />
+    <IconButton icon={<Icon.Cancel />} />
   </ButtonCluster>
 );
