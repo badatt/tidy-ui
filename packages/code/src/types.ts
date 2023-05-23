@@ -4,14 +4,11 @@ import { IBaseProps } from '@tidy-ui/types';
 /**
  * Code props
  */
-export interface ICodeProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
+export interface ICodeProps extends IBaseProps, HTMLAttributes<HTMLPreElement> {
   /**
-   * css `margin` equivalent
+   * If `false`, component won't provide copy-to-clipboard button
+   *
+   * @default `true`
    */
-  margin?: string;
-
-  /**
-   * If `true`, component won't provide copy-to-clipboard button
-   */
-  noCopy?: boolean;
+  canCopy?: boolean;
 }

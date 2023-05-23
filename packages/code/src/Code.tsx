@@ -8,7 +8,7 @@ import { ICodeProps } from './types';
  * button is added at the top right corner of the component.
  */
 const Code = React.forwardRef<HTMLDivElement, ICodeProps>((props, ref) => {
-  const { children, noCopy, ...rest } = props;
+  const { children, canCopy, ...rest } = props;
   const codeRef = React.useRef<HTMLPreElement>(null);
   const [copied, setCopied] = React.useState(false);
 
@@ -42,7 +42,7 @@ const Code = React.forwardRef<HTMLDivElement, ICodeProps>((props, ref) => {
   return (
     <CodeRoot ref={ref} role="contentinfo" {...rest}>
       <Content ref={codeRef}>{children}</Content>
-      {!noCopy && (
+      {canCopy && (
         <>
           <ToolTip visible={copied} role="tooltip" data-testid="copy-success-tooltip">
             Copied
@@ -59,7 +59,7 @@ const Code = React.forwardRef<HTMLDivElement, ICodeProps>((props, ref) => {
 });
 
 Code.defaultProps = {
-  noCopy: false,
+  canCopy: true,
 };
 
 Code.propTypes = {
@@ -71,5 +71,7 @@ Code.propTypes = {
     return null;
   },
 };
+
+Code.displayName = 'Code';
 
 export { Code };

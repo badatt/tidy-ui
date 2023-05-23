@@ -46,31 +46,10 @@ describe('Code', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('Custom margin', () => {
-    const tree = render(
-      <TidyUiProvider theme={orchidLight}>
-        <Code margin="0 0 1rem 0">{text}</Code>
-        <Code>{text}</Code>
-      </TidyUiProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('Custom dimensions', () => {
-    const tree = render(
-      <TidyUiProvider theme={orchidLight}>
-        <Code height="10rem" width="30rem">
-          {text}
-        </Code>
-      </TidyUiProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-  });
-
   it('Without copy button', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Code noCopy>{text}</Code>
+        <Code canCopy={false}>{text}</Code>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();

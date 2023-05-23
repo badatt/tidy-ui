@@ -1,15 +1,6 @@
-import { color, css, hsla, Icon, styled } from '@tidy-ui/commons';
+import { applyStandardOverrideStyles, color, css, hsla, Icon, styled } from '@tidy-ui/commons';
+import { IconStyle } from './styles';
 import { ICodeProps } from './types';
-
-const IconStyle = css<ICodeProps>`
-  position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
-  height: 1.8rem;
-  width: 1.8rem;
-  padding: 0.25rem;
-  border-radius: 4px;
-`;
 
 const CopyIcon = styled(Icon.CopyAll)`
   visibility: hidden;
@@ -34,14 +25,10 @@ const CopySuccessIcon = styled(Icon.CheckCircle)`
 const CodeRoot = styled.div<ICodeProps>`
   overflow: auto;
   position: relative;
-  ${({ margin, height, width }) => css`
-    height: ${height};
-    width: ${width};
-    margin: ${margin};
-  `}
   &:hover ${CopyIcon} {
     visibility: visible;
   }
+  ${applyStandardOverrideStyles}
 `;
 
 const Content = styled.pre<ICodeProps>`
@@ -52,7 +39,7 @@ const Content = styled.pre<ICodeProps>`
     font-family: ${font.mono};
     font-size: ${font.size};
     border-radius: ${layout.radius};
-    background-color: ${isDark ? hsla(color.slate[800]) : hsla(color.slate[200])};
+    background-color: ${isDark ? hsla(color.slate[700]) : hsla(color.slate[200])};
   `}
 `;
 
