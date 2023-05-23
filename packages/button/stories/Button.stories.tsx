@@ -3,7 +3,7 @@ import { Icon } from '../../commons/src';
 import { FlexBox } from '../../flexbox/src';
 import { Button } from '../src';
 import { Variant } from '../src/types';
-import { Size, Tone } from '../../commons/src';
+import { Girth, Tone } from '../../commons/src';
 
 export default {
   component: Button,
@@ -26,14 +26,14 @@ export const tones = () => {
   );
 };
 
-export const sizes = () => {
+export const girths = () => {
   return (
     <FlexBox gap="1rem" fld="column" ali="flex-start">
-      {Object.keys(Size)
+      {Object.keys(Girth)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
-          <Button size={Size[v]} key={i}>
-            size-{Size[v]}
+          <Button girth={Girth[v]} key={i}>
+            girth-{Girth[v]}
           </Button>
         ))}
     </FlexBox>

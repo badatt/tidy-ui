@@ -8,11 +8,11 @@ import { IAnchorProps, IButtonClusterProps, IButtonGroupProps, IButtonProps, IIc
  * @internal
  */
 const AnchorRoot = styled.a<IAnchorProps>`
-  ${({ theme: { palette, isDark }, disabled, size, tone }) => css`
+  ${({ theme: { palette, isDark }, disabled, girth, tone }) => css`
     display: flex;
     align-items: center;
     text-decoration: none;
-    font-size: calc(${sizeStyles[size!].fontSize} + 0.1em);
+    font-size: calc(${sizeStyles[girth!].fontSize} + 0.1em);
     color: ${isDark ? palette[tone!][400] : palette[tone!][600]};
     ${disabled
       ? css`
@@ -55,8 +55,8 @@ const ButtonRoot = styled.button<IButtonProps>`
   text-align: center;
   vertical-align: middle;
   transition: all 200ms linear;
-  ${({ size, disabled, isStretched, variant, icon, isUppercase }) => css`
-    font-size: ${sizeStyles[size!].fontSize};
+  ${({ girth, disabled, isStretched, variant, icon, isUppercase }) => css`
+    font-size: ${sizeStyles[girth!].fontSize};
     padding: 0.3em 0.5rem;
     border-radius: 0.3em;
     line-height: 1.5em;
@@ -202,8 +202,8 @@ const IconButtonRoot = styled.button<IIconButtonProps>`
   display: flex;
   justify-content: center;
   align-items: center;
-  ${({ size, disabled, isIconOnly, variant, placement }) => css`
-    font-size: ${sizeStyles[size!].fontSize};
+  ${({ girth, disabled, isIconOnly, variant, placement }) => css`
+    font-size: ${sizeStyles[girth!].fontSize};
     ${isIconOnly
       ? css`
           padding: 0.3em;

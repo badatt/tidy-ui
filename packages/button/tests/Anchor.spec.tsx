@@ -5,7 +5,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { Size, Tone } from '../../commons/src';
+import { Girth, Tone } from '../../commons/src';
 import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
 import { Anchor } from '../src';
 
@@ -42,14 +42,14 @@ describe('Render Anchor', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('Sizes', () => {
+  it('Girths', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        {Object.keys(Size)
+        {Object.keys(Girth)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Anchor href="/?path=/story/anchor--basic" size={Size[v]} key={i}>
-              size-{Size[v]}
+            <Anchor href="/?path=/story/anchor--basic" girth={Girth[v]} key={i}>
+              girth-{Girth[v]}
             </Anchor>
           ))}
       </TidyUiProvider>,

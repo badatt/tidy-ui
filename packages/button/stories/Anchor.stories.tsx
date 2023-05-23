@@ -1,5 +1,5 @@
 import React from 'react';
-import { Size, Tone } from '../../commons/src';
+import { Girth, Tone } from '../../commons/src';
 import { FlexBox } from '../../flexbox/src';
 import { Anchor } from '../src';
 
@@ -28,14 +28,14 @@ export const tones = () => {
   );
 };
 
-export const sizes = () => {
+export const girths = () => {
   return (
     <FlexBox gap="1rem" fld="column" ali="flex-start">
-      {Object.keys(Size)
+      {Object.keys(Girth)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
-          <Anchor href="/?path=/story/anchor--basic" size={Size[v]} key={i}>
-            size-{Size[v]}
+          <Anchor href="/?path=/story/anchor--basic" girth={Girth[v]} key={i}>
+            girth-{Girth[v]}
           </Anchor>
         ))}
     </FlexBox>
