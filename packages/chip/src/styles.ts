@@ -1,11 +1,11 @@
 import { CSSProperties } from 'react';
-import { css, hsla, TSize } from '@tidy-ui/commons';
+import { css, hsla, TGirth } from '@tidy-ui/commons';
 import { IChipProps } from './types';
 
 /**
  * Chip size style variants
  */
-const sizeStyles: Record<TSize, CSSProperties> = {
+const sizeStyles: Record<TGirth, CSSProperties> = {
   lg: {
     fontSize: '1.125rem',
   },
@@ -35,11 +35,11 @@ const sizeStyles: Record<TSize, CSSProperties> = {
  * @internal
  */
 const outlinedStyle = css<IChipProps>`
-  ${({ theme: { palette, isDark }, clickable, tone }) => css`
+  ${({ theme: { palette, isDark }, isClickable, tone }) => css`
     color: ${isDark ? palette[tone!][300] : palette[tone!][800]};
     background-color: ${isDark ? hsla(palette[tone!].shades[900], 0.3) : hsla(palette[tone!].shades[300], 0.2)};
     border: 1px solid ${isDark ? palette[tone!][600] : palette[tone!][300]};
-    ${clickable &&
+    ${isClickable &&
     css`
       &:hover {
         background-color: ${isDark ? hsla(palette[tone!].shades[900], 0.6) : palette[tone!][200]};
@@ -54,10 +54,10 @@ const outlinedStyle = css<IChipProps>`
  * @internal
  */
 const filledStyle = css<IChipProps>`
-  ${({ theme: { palette }, clickable, tone }) => css`
+  ${({ theme: { palette }, isClickable, tone }) => css`
     color: ${palette[tone!][50]};
     background-color: ${palette[tone!][700]};
-    ${clickable &&
+    ${isClickable &&
     css`
       &:hover {
         background-color: ${palette[tone!][800]};

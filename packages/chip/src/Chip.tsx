@@ -8,25 +8,23 @@ import { IChipProps } from './types';
  * create an outlined variant
  */
 const Chip = React.forwardRef<HTMLDivElement, IChipProps>((props, ref) => {
-  const { children, className, icon, ...rest } = props;
+  const { children, ele, icon, ...rest } = props;
+  const { isFilled, tone } = rest;
   return (
-    <ChipRoot ref={ref} role="status" className={className} {...rest} icon={icon}>
-      {icon && (
-        <ChipIcon outlined={rest.outlined} tone={rest.tone}>
-          {icon}
-        </ChipIcon>
-      )}
-      {children}
+    <ChipRoot ref={ref} role="status" {...rest} icon={icon}>
+      {icon && <ChipIcon {...{ isFilled, tone }}>{icon}</ChipIcon>}
+      {ele ? React.cloneElement(ele, {}, children) : children}
     </ChipRoot>
   );
 });
 
 Chip.defaultProps = {
-  clickable: false,
-  disabled: false,
-  outlined: false,
-  size: 'md',
-  tone: 'major',
+  girth: 'md',
+  isClickable: false,
+  isFilled: false,
+  tone: 'neutral',
 };
+
+Chip.displayName = 'Chip';
 
 export { Chip };

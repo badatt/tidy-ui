@@ -19,7 +19,7 @@ const BorderWithProps = (props: IBorderProps) => (
     width="25rem"
     padding="1rem"
     content={
-      <Chip size="xxs" tone={props.tone || 'neutral'}>
+      <Chip girth="xxs" tone={props.tone || 'neutral'}>
         Border
       </Chip>
     }

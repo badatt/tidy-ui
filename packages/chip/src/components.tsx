@@ -1,4 +1,4 @@
-import { css, IPalette, styled, TTone } from '@tidy-ui/commons';
+import { applyStandardOverrideStyles, css, IPalette, styled, TTone } from '@tidy-ui/commons';
 import { filledStyle, outlinedStyle, sizeStyles } from './styles';
 import { IChipProps } from './types';
 
@@ -10,13 +10,13 @@ const ChipIcon = styled.span<IChipProps>`
   height: 1.5em;
   width: 1.5em;
   opacity: 0.8;
-  ${({ theme: { isDark, palette }, tone, outlined }) => css`
-    ${outlined
+  ${({ theme: { isDark, palette }, tone, isFilled }) => css`
+    ${isFilled
       ? css`
-          color: ${outlinedChipIconColor(isDark, palette, tone!)};
+          color: ${palette[tone!][400]};
         `
       : css`
-          color: ${palette[tone!][400]};
+          color: ${outlinedChipIconColor(isDark, palette, tone!)};
         `}
   `}
 `;
@@ -29,8 +29,8 @@ const ChipRoot = styled.div<IChipProps>`
   user-select: none;
   vertical-align: middle;
   width: fit-content;
-  ${({ icon, size, outlined, disabled, clickable, placement }) => css`
-    font-size: ${sizeStyles[size!].fontSize};
+  ${({ icon, girth, isFilled, disabled, isClickable, placement }) => css`
+    font-size: ${sizeStyles[girth!].fontSize};
     flex-direction: ${placement === 'right' ? 'row-reverse' : 'row'};
     ${placement === 'right' &&
     css`
@@ -58,15 +58,16 @@ const ChipRoot = styled.div<IChipProps>`
       opacity: 0.5;
     `}
     ${!disabled &&
-    clickable &&
+    isClickable &&
     css`
       cursor: pointer;
     `}
-    ${outlined ? outlinedStyle : filledStyle}
+    ${isFilled ? filledStyle : outlinedStyle}
   `}
   &:hover ${ChipIcon} {
     opacity: 1;
   }
+  ${applyStandardOverrideStyles}
 `;
 
 export { ChipIcon, ChipRoot };

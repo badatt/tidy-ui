@@ -1,7 +1,7 @@
 import React from 'react';
 import { FlexBox } from '../../flexbox/src';
 import { Chip } from '../src';
-import { Tone, Size, Icon } from '../../commons/src';
+import { Tone, Girth, Icon } from '../../commons/src';
 
 export default {
   component: Chip,
@@ -10,28 +10,28 @@ export default {
 
 export const basic = () => <Chip>basic</Chip>;
 
-export const sizes = () => {
+export const girths = () => {
   return (
     <FlexBox gap="1rem" fld="column" ali="flex-start">
-      {Object.keys(Size)
+      {Object.keys(Girth)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
-          <Chip size={Size[v]} key={i}>
-            Size-{Size[v]}
+          <Chip girth={Girth[v]} key={i}>
+            Girth-{Girth[v]}
           </Chip>
         ))}
     </FlexBox>
   );
 };
 
-export const outlined = () => {
+export const filled = () => {
   return (
     <FlexBox gap="1rem" fld="column" ali="flex-start">
-      {Object.keys(Size)
+      {Object.keys(Girth)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
-          <Chip size={Size[v]} key={i} outlined>
-            Size-{Size[v]}
+          <Chip girth={Girth[v]} key={i} isFilled>
+            Girth-{Girth[v]}
           </Chip>
         ))}
     </FlexBox>
@@ -54,7 +54,7 @@ export const tones = () => {
         {Object.keys(Tone)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Chip key={i} tone={Tone[v]} outlined>
+            <Chip key={i} tone={Tone[v]} isFilled>
               {Tone[v]}
             </Chip>
           ))}
@@ -88,7 +88,7 @@ export const withIcon = () => {
         {Object.keys(Tone)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Chip key={i} tone={Tone[v]} icon={<Icon.AddCircle />} outlined placement="left">
+            <Chip isFilled key={i} tone={Tone[v]} icon={<Icon.AddCircle />} placement="left">
               {Tone[v]}
             </Chip>
           ))}
@@ -97,27 +97,27 @@ export const withIcon = () => {
         {Object.keys(Tone)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Chip key={i} tone={Tone[v]} icon={<Icon.AddCircle />} outlined placement="right">
+            <Chip isFilled key={i} tone={Tone[v]} icon={<Icon.AddCircle />} placement="right">
               {Tone[v]}
             </Chip>
           ))}
       </FlexBox>
       <FlexBox gap="1rem">
         <FlexBox gap="1rem" fld="column" ali="flex-start">
-          {Object.keys(Size)
+          {Object.keys(Girth)
             .filter((i) => !isNaN(Number(i)))
             .map((v, i) => (
-              <Chip size={Size[v]} key={i} icon={<Icon.AddCircle />} placement="left">
-                Size-{Size[v]}
+              <Chip girth={Girth[v]} key={i} icon={<Icon.AddCircle />} placement="left">
+                Girth-{Girth[v]}
               </Chip>
             ))}
         </FlexBox>
         <FlexBox gap="1rem" fld="column" ali="flex-start">
-          {Object.keys(Size)
+          {Object.keys(Girth)
             .filter((i) => !isNaN(Number(i)))
             .map((v, i) => (
-              <Chip size={Size[v]} key={i} icon={<Icon.AddCircle />} placement="right">
-                Size-{Size[v]}
+              <Chip isFilled girth={Girth[v]} key={i} icon={<Icon.AddCircle />} placement="right">
+                Girth-{Girth[v]}
               </Chip>
             ))}
         </FlexBox>
@@ -136,7 +136,7 @@ export const clickable = () => {
             <Chip
               key={i}
               tone={Tone[v]}
-              clickable
+              isClickable
               icon={<Icon.AddCircle />}
               placement="left"
               onClick={() => alert(`Clicked ${Tone[v]}`)}
@@ -150,10 +150,10 @@ export const clickable = () => {
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
             <Chip
+              isFilled
               key={i}
               tone={Tone[v]}
-              outlined
-              clickable
+              isClickable
               icon={<Icon.AddCircle />}
               placement="left"
               onClick={() => alert(`Clicked outlined ${Tone[v]}`)}
@@ -166,4 +166,11 @@ export const clickable = () => {
   );
 };
 
-export const disabled = () => <Chip disabled>disabled</Chip>;
+export const disabled = () => (
+  <FlexBox gap="1rem">
+    <Chip disabled>disabled</Chip>
+    <Chip disabled isFilled>
+      disabled
+    </Chip>
+  </FlexBox>
+);
