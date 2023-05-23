@@ -98,7 +98,7 @@ const outlined = css<IButtonProps>`
  * @internal
  */
 const hero = css<IButtonProps>`
-  ${({ theme: { palette, isDark }, tone, disabled, gradient }) => css`
+  ${({ theme: { palette, isDark }, tone, disabled, isGradient }) => css`
     padding: 1rem 1.5rem;
     font-size: 3rem;
     line-height: 3rem;
@@ -116,7 +116,7 @@ const hero = css<IButtonProps>`
               ${palette[tone!][300]} 0px 10px 15px -3px, ${palette[tone!][300]} 0px 4px 6px -4px;
           `}
     `}
-    ${gradient
+    ${isGradient
       ? css`
           background: linear-gradient(90deg, ${palette['major'][700]} 0%, ${palette['minor'][700]} 100%);
           &:hover {

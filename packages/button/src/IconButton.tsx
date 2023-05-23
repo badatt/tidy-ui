@@ -13,29 +13,28 @@ import { IIconButtonProps } from './types';
  *
  */
 const IconButton = React.forwardRef<HTMLButtonElement, IIconButtonProps>((props, ref) => {
-  const { children, className, icon, ...rest } = props;
+  const { children, icon, ...rest } = props;
   return (
-    <IconButtonRoot className={className} role="button" ref={ref} {...rest}>
+    <IconButtonRoot role="button" ref={ref} {...rest}>
       {children ? (
-        <IconButtonIconWrapper {...rest}>
-          <IconButtonIcon iconOnly={rest.iconOnly}>{icon}</IconButtonIcon>
+        <IconButtonIconWrapper>
+          <IconButtonIcon isIconOnly={rest.isIconOnly}>{icon}</IconButtonIcon>
         </IconButtonIconWrapper>
       ) : (
-        <IconButtonIconOnlyWrapper {...rest}>
-          <IconButtonIcon iconOnly={rest.iconOnly}>{icon}</IconButtonIcon>
+        <IconButtonIconOnlyWrapper isIconOnly={rest.isIconOnly}>
+          <IconButtonIcon isIconOnly={rest.isIconOnly}>{icon}</IconButtonIcon>
         </IconButtonIconOnlyWrapper>
       )}
-      {children && <IconButtonChildWrapper {...rest}>{children}</IconButtonChildWrapper>}
+      {children && <IconButtonChildWrapper placement={rest.placement}>{children}</IconButtonChildWrapper>}
     </IconButtonRoot>
   );
 });
 
 IconButton.defaultProps = {
-  disabled: false,
-  iconOnly: false,
+  isIconOnly: false,
   placement: 'left',
   size: 'md',
-  tone: 'major',
+  tone: 'neutral',
   variant: 'outlined',
 };
 

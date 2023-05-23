@@ -1,4 +1,4 @@
-import { css, hsla, Icon, styled } from '@tidy-ui/commons';
+import { applyStandardOverrideStyles, css, hsla, Icon, styled } from '@tidy-ui/commons';
 import { hero, iconOnly, outlined, primary, simple, sizeStyles } from './styles';
 import { IAnchorProps, IButtonClusterProps, IButtonGroupProps, IButtonProps, IIconButtonProps } from './types';
 
@@ -35,7 +35,8 @@ const AnchorRoot = styled.a<IAnchorProps>`
             background-size: 100% 25%;
           }
         `}
-  `};
+  `}
+  ${applyStandardOverrideStyles}
 `;
 
 /**
@@ -54,26 +55,24 @@ const ButtonRoot = styled.button<IButtonProps>`
   text-align: center;
   vertical-align: middle;
   transition: all 200ms linear;
-  ${({ size, disabled, stretched, variant, icon, uppercase, height, width }) => css`
+  ${({ size, disabled, isStretched, variant, icon, isUppercase }) => css`
     font-size: ${sizeStyles[size!].fontSize};
     padding: 0.3em 0.5rem;
     border-radius: 0.3em;
     line-height: 1.5em;
-    height: ${height};
-    width: ${width};
     ${disabled &&
     css`
       cursor: not-allowed;
       opacity: 0.6;
       transition: none;
     `}
-    ${stretched &&
+    ${isStretched &&
     css`
       width: 100%;
       text-align: center;
       justify-content: center;
     `}
-    ${uppercase &&
+    ${isUppercase &&
     css`
       text-transform: uppercase;
     `}
@@ -83,6 +82,7 @@ const ButtonRoot = styled.button<IButtonProps>`
     ${variant === 'hero' && !icon && hero}
     ${icon && iconOnly}
   `}
+  ${applyStandardOverrideStyles}
 `;
 
 /**
@@ -92,16 +92,14 @@ const ButtonRoot = styled.button<IButtonProps>`
  */
 const ButtonGroupRoot = styled.div<IButtonGroupProps>`
   display: flex;
-  ${({ vertical, stretched, unified, height, width }) => css`
-    height: ${height};
-    width: ${width};
-    ${vertical
+  ${({ isVertical, isStretched, isUnified }) => css`
+    ${isVertical
       ? css`
           flex-direction: column;
           & > :first-child {
             border-bottom-left-radius: 0 !important;
             border-bottom-right-radius: 0 !important;
-            ${unified &&
+            ${isUnified &&
             css`
               border-bottom: 0 !important;
             `}
@@ -109,12 +107,15 @@ const ButtonGroupRoot = styled.div<IButtonGroupProps>`
           & > :last-child {
             border-top-left-radius: 0 !important;
             border-top-right-radius: 0 !important;
-            border-top: 0 !important;
+            ${isUnified &&
+            css`
+              border-top: 0 !important;
+            `}
           }
           & > :not(:first-child):not(:last-child) {
-            border-top: 0 !important;
-            ${unified &&
+            ${isUnified &&
             css`
+              border-top: 0 !important;
               border-bottom: 0 !important;
             `}
           }
@@ -123,7 +124,7 @@ const ButtonGroupRoot = styled.div<IButtonGroupProps>`
           & > :first-child {
             border-top-right-radius: 0 !important;
             border-bottom-right-radius: 0 !important;
-            ${unified &&
+            ${isUnified &&
             css`
               border-right: 0 !important;
             `}
@@ -131,17 +132,20 @@ const ButtonGroupRoot = styled.div<IButtonGroupProps>`
           & > :last-child {
             border-top-left-radius: 0 !important;
             border-bottom-left-radius: 0 !important;
-            border-left: 0 !important;
+            ${isUnified &&
+            css`
+              border-left: 0 !important;
+            `}
           }
           & > :not(:first-child):not(:last-child) {
-            ${unified &&
+            ${isUnified &&
             css`
               border-right: 0 !important;
+              border-left: 0 !important;
             `}
-            border-left: 0 !important;
           }
         `}
-    ${stretched &&
+    ${isStretched &&
     css`
       width: 100% !important;
       & * {
@@ -157,6 +161,7 @@ const ButtonGroupRoot = styled.div<IButtonGroupProps>`
       border-radius: 0 !important;
     }
   `}
+  ${applyStandardOverrideStyles}
 `;
 
 /**
@@ -174,10 +179,8 @@ const ButtonClusterRoot = styled.div<IButtonClusterProps>`
       box-shadow: none !important;
     }
   }
-  ${({ height, width, stretched }) => css`
-    height: ${height};
-    width: ${width};
-    ${stretched &&
+  ${({ isStretched }) => css`
+    ${isStretched &&
     css`
       width: 100% !important;
       & * {
@@ -187,6 +190,7 @@ const ButtonClusterRoot = styled.div<IButtonClusterProps>`
       }
     `}
   `}
+  ${applyStandardOverrideStyles}
 `;
 
 /**
@@ -198,11 +202,9 @@ const IconButtonRoot = styled.button<IIconButtonProps>`
   display: flex;
   justify-content: center;
   align-items: center;
-  ${({ size, disabled, iconOnly, variant, placement, height, width }) => css`
+  ${({ size, disabled, isIconOnly, variant, placement }) => css`
     font-size: ${sizeStyles[size!].fontSize};
-    height: ${height};
-    width: ${width};
-    ${iconOnly
+    ${isIconOnly
       ? css`
           padding: 0.3em;
           border-radius: 50%;
@@ -223,6 +225,7 @@ const IconButtonRoot = styled.button<IIconButtonProps>`
     ${variant === 'primary' && primary}
     ${variant === 'outlined' && outlined}
   `}
+  ${applyStandardOverrideStyles}
 `;
 
 /**
@@ -230,18 +233,18 @@ const IconButtonRoot = styled.button<IIconButtonProps>`
  *
  * @internal
  */
-const IconButtonIconWrapper = styled.span<IIconButtonProps>`
+const IconButtonIconWrapper = styled.span<Partial<IIconButtonProps>>`
   padding: 0.2em;
 `;
 
 /**
- * The Wrapper component for IconOnly variant buttons
+ * The Wrapper component for isIconOnly variant buttons
  *
  * @internal
  */
-const IconButtonIconOnlyWrapper = styled.span<IIconButtonProps>`
-  ${({ iconOnly }) => css`
-    ${iconOnly
+const IconButtonIconOnlyWrapper = styled.span<Partial<IIconButtonProps>>`
+  ${({ isIconOnly }) => css`
+    ${isIconOnly
       ? css`
           padding: 0.2em;
         `
@@ -260,8 +263,8 @@ const IconButtonIcon = styled.span<Partial<IIconButtonProps>>`
   display: flex;
   justify-content: center;
   align-items: center;
-  ${({ iconOnly }) => css`
-    ${iconOnly
+  ${({ isIconOnly }) => css`
+    ${isIconOnly
       ? css`
           height: 1.4em;
           width: 1.4em;
@@ -278,7 +281,7 @@ const IconButtonIcon = styled.span<Partial<IIconButtonProps>>`
  *
  * @internal
  */
-const IconButtonChildWrapper = styled.span<IIconButtonProps>`
+const IconButtonChildWrapper = styled.span<Partial<IIconButtonProps>>`
   display: inline-flex;
   justify-content: center;
   align-items: center;

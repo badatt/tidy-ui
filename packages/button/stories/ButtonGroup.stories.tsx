@@ -1,6 +1,7 @@
 import React from 'react';
 import { FlexBox } from '../../flexbox/src';
-import { Button, ButtonGroup } from '../src';
+import { Button, ButtonGroup, IconButton } from '../src';
+import { Icon } from '../../commons/src';
 
 export default {
   component: ButtonGroup,
@@ -12,11 +13,12 @@ export const basic = () => (
     {[...Array(5)].map((c, i) => (
       <Button key={i}>Button {i}</Button>
     ))}
+    <IconButton icon={<Icon.AddCircle />}></IconButton>
   </ButtonGroup>
 );
 
 export const stretched = () => (
-  <ButtonGroup stretched>
+  <ButtonGroup isStretched>
     <Button>button 1</Button>
     <Button>button 2</Button>
   </ButtonGroup>
@@ -24,7 +26,7 @@ export const stretched = () => (
 
 export const verticalAligned = () => (
   <FlexBox>
-    <ButtonGroup vertical>
+    <ButtonGroup isVertical>
       {[...Array(5)].map((c, i) => (
         <Button key={i}>Button {i}</Button>
       ))}
@@ -34,14 +36,6 @@ export const verticalAligned = () => (
 
 export const disabled = () => (
   <ButtonGroup disabled>
-    {[...Array(5)].map((c, i) => (
-      <Button key={i}>Button {i}</Button>
-    ))}
-  </ButtonGroup>
-);
-
-export const customDimensions = () => (
-  <ButtonGroup height="5rem" width="30rem">
     {[...Array(5)].map((c, i) => (
       <Button key={i}>Button {i}</Button>
     ))}
@@ -63,7 +57,7 @@ export const others = () => (
           <Button key={i}>outlined {i}</Button>
         ))}
       </ButtonGroup>
-      <ButtonGroup unified>
+      <ButtonGroup isUnified>
         {[...Array(5)].map((c, i) => (
           <Button key={i}>unified {i}</Button>
         ))}
@@ -76,24 +70,24 @@ export const others = () => (
         ))}
       </ButtonGroup>
       <FlexBox gap="1rem">
-        <ButtonGroup vertical>
+        <ButtonGroup isVertical>
           {[...Array(5)].map((c, i) => (
             <Button variant="primary" key={i}>
               primary {i}
             </Button>
           ))}
         </ButtonGroup>
-        <ButtonGroup vertical>
+        <ButtonGroup isVertical>
           {[...Array(5)].map((c, i) => (
             <Button key={i}>outlined {i}</Button>
           ))}
         </ButtonGroup>
-        <ButtonGroup unified vertical>
+        <ButtonGroup isUnified isVertical>
           {[...Array(5)].map((c, i) => (
             <Button key={i}>unified {i}</Button>
           ))}
         </ButtonGroup>
-        <ButtonGroup vertical>
+        <ButtonGroup isVertical>
           {[...Array(5)].map((c, i) => (
             <Button variant="simple" key={i}>
               simple {i}

@@ -37,7 +37,7 @@ describe('Render ButtonGroup', () => {
   it('Stretched ButtonGroup', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <ButtonGroup stretched>
+        <ButtonGroup isStretched>
           <Button>button 1</Button>
           <Button>button 2</Button>
         </ButtonGroup>
@@ -49,7 +49,7 @@ describe('Render ButtonGroup', () => {
   it('Vertically aligned ButtonGroup', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <ButtonGroup vertical>
+        <ButtonGroup isVertical>
           {[...Array(5)].map((c, i) => (
             <Button key={i}>Button {i}</Button>
           ))}
@@ -62,7 +62,7 @@ describe('Render ButtonGroup', () => {
   it('Unified ButtonGroup', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <ButtonGroup unified>
+        <ButtonGroup isUnified>
           {[...Array(5)].map((c, i) => (
             <Button key={i}>Button {i}</Button>
           ))}
@@ -75,7 +75,7 @@ describe('Render ButtonGroup', () => {
   it('Vertically unified ButtonGroup', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <ButtonGroup unified vertical>
+        <ButtonGroup isUnified isVertical>
           {[...Array(5)].map((c, i) => (
             <Button key={i}>Button {i}</Button>
           ))}

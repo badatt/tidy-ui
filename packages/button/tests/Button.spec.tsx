@@ -67,7 +67,7 @@ describe('Render Button', () => {
   it('Loading blocked button', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Button loading>Loading...</Button>
+        <Button isLoading>Loading...</Button>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -76,7 +76,7 @@ describe('Render Button', () => {
   it('Stretch full width button', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Button stretched>Stretched</Button>
+        <Button isStretched>Stretched</Button>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -85,7 +85,7 @@ describe('Render Button', () => {
   it('Uppercase button', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Button uppercase>uppercase</Button>
+        <Button isUppercase>uppercase</Button>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -139,8 +139,8 @@ describe('Render Button', () => {
   it('Gradients', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Button gradient>basic button</Button>
-        <Button variant="hero" gradient>
+        <Button isGradient>basic button</Button>
+        <Button variant="hero" isGradient>
           basic button
         </Button>
       </TidyUiProvider>,

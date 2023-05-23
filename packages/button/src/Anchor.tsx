@@ -9,20 +9,20 @@ import { IAnchorProps } from './types';
  *
  */
 const Anchor = React.forwardRef<HTMLAnchorElement, IAnchorProps>((props, ref) => {
-  const { children, launch, ...rest } = props;
+  const { children, canLaunch, ...rest } = props;
   return (
-    <AnchorRoot role="link" ref={ref} {...rest} target={launch ? '_blank' : '_top'}>
+    <AnchorRoot role="link" ref={ref} {...rest} target={canLaunch ? '_blank' : '_top'}>
       {children}
-      {launch && <Icon ele={<Icon.Launch />} />}
+      {canLaunch && <Icon ele={<Icon.Launch />} />}
     </AnchorRoot>
   );
 });
 
 Anchor.defaultProps = {
+  canLaunch: false,
   disabled: false,
-  launch: false,
   size: 'md',
-  tone: 'major',
+  tone: 'neutral',
 };
 
 Anchor.displayName = 'Anchor';
