@@ -7,7 +7,7 @@ import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
 import { Chip } from '../src';
-import { Size, Tone } from '../../commons/src';
+import { Girth, Tone } from '../../commons/src';
 import { Icon } from '../../commons/src';
 
 describe('Chip', () => {
@@ -29,14 +29,14 @@ describe('Chip', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('Sizes', () => {
+  it('Girths', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        {Object.keys(Size)
+        {Object.keys(Girth)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Chip size={Size[v]} key={i}>
-              Size-{Size[v]}
+            <Chip girth={Girth[v]} key={i}>
+              Girth-{Girth[v]}
             </Chip>
           ))}
       </TidyUiProvider>,
@@ -44,19 +44,19 @@ describe('Chip', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('Outlined in light', () => {
+  it('Filled in light', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Chip outlined>outlined</Chip>
+        <Chip isFilled></Chip>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
-  it('Outlined in dark', () => {
+  it('Filled in dark', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
-        <Chip outlined>outlined</Chip>
+        <Chip isFilled></Chip>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -99,10 +99,10 @@ describe('Chip', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('Icon on outlined chip', () => {
+  it('Icon on  chip', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Chip icon={<Icon.AddCircle />} outlined placement="right">
+        <Chip icon={<Icon.AddCircle />} placement="right">
           right
         </Chip>
       </TidyUiProvider>,
@@ -110,10 +110,10 @@ describe('Chip', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('Icon on outlined chip in dark', () => {
+  it('Icon on  chip in dark', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
-        <Chip icon={<Icon.AddCircle />} outlined placement="right">
+        <Chip icon={<Icon.AddCircle />} placement="right">
           right
         </Chip>
       </TidyUiProvider>,
@@ -124,29 +124,25 @@ describe('Chip', () => {
   it('Clickable', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Chip clickable>clickable</Chip>
+        <Chip isClickable>isClickable</Chip>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
-  it('Clickable outlined', () => {
+  it('Clickable', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Chip clickable outlined>
-          clickable
-        </Chip>
+        <Chip isClickable>isClickable</Chip>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
-  it('Clickable outlined in dark', () => {
+  it('Clickable in dark', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
-        <Chip clickable outlined>
-          clickable
-        </Chip>
+        <Chip isClickable>isClickable</Chip>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();

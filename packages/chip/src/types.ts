@@ -1,5 +1,5 @@
 import { HTMLAttributes } from 'react';
-import { TSize, TTone } from '@tidy-ui/commons';
+import { TGirth, TTone } from '@tidy-ui/commons';
 import { IBaseProps } from '@tidy-ui/types';
 
 /**
@@ -7,18 +7,12 @@ import { IBaseProps } from '@tidy-ui/types';
  */
 export interface IChipProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * If `true`, enables click actions
+   * The size of the component
    *
-   * @default false
+   * @type {?TGirth}
+   * @default 'md'
    */
-  clickable?: boolean;
-  /**
-   * If `true`, the button is disabled
-   *
-   * @type {?boolean}
-   * @default false
-   */
-  disabled?: boolean;
+  girth?: TGirth;
   /**
    * Icon to embed inside the chip
    *
@@ -26,25 +20,24 @@ export interface IChipProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
    */
   icon?: JSX.Element;
   /**
-   * If `true`, set the chip outlined variant
+   * If `true`, enables click actions
    *
    * @default false
    */
-  outlined?: boolean;
+  isClickable?: boolean;
 
+  /**
+   * If `true`, set the chip filled variant
+   *
+   * @default false
+   */
+  isFilled?: boolean;
   /**
    * Placement of the icon inside the chip
    *
    * @type {?('left' | 'right')}
    */
   placement?: 'left' | 'right';
-  /**
-   * The size of the component
-   *
-   * @type {?TSize}
-   * @default 'md'
-   */
-  size?: TSize;
 
   /**
    * The color of the component

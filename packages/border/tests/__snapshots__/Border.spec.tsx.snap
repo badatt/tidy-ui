@@ -207,8 +207,9 @@ Object {
   flex-direction: row;
   padding: 0.5em 0.8em;
   border-radius: 1.5em;
-  color: hsla(0,0%,98%,1);
-  background-color: hsla(0,0%,25%,1);
+  color: hsla(0,0%,15%,1);
+  background-color: hsla(0,0%,83%,0.2);
+  border: 1px solid hsla(0,0%,83%,1);
 }
 
 .c1 {
@@ -599,8 +600,9 @@ Object {
   flex-direction: row;
   padding: 0.5em 0.8em;
   border-radius: 1.5em;
-  color: hsla(0,0%,98%,1);
-  background-color: hsla(0,0%,25%,1);
+  color: hsla(0,0%,15%,1);
+  background-color: hsla(0,0%,83%,0.2);
+  border: 1px solid hsla(0,0%,83%,1);
 }
 
 .c1 {
@@ -1764,8 +1766,9 @@ Object {
   flex-direction: row;
   padding: 0.5em 0.8em;
   border-radius: 1.5em;
-  color: hsla(0,0%,98%,1);
-  background-color: hsla(0,0%,25%,1);
+  color: hsla(0,0%,15%,1);
+  background-color: hsla(0,0%,83%,0.2);
+  border: 1px solid hsla(0,0%,83%,1);
 }
 
 .c1 {
@@ -2098,8 +2101,9 @@ Object {
   flex-direction: row;
   padding: 0.5em 0.8em;
   border-radius: 1.5em;
-  color: hsla(0,0%,98%,1);
-  background-color: hsla(0,0%,25%,1);
+  color: hsla(0,0%,15%,1);
+  background-color: hsla(0,0%,83%,0.2);
+  border: 1px solid hsla(0,0%,83%,1);
 }
 
 .c1 {
@@ -2666,8 +2670,9 @@ Object {
   flex-direction: row;
   padding: 0.5em 0.8em;
   border-radius: 1.5em;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
+  color: hsla(273,67%,39%,1);
+  background-color: hsla(269,97%,85%,0.2);
+  border: 1px solid hsla(269,97%,85%,1);
 }
 
 .c4 {
@@ -2695,8 +2700,9 @@ Object {
   flex-direction: row;
   padding: 0.5em 0.8em;
   border-radius: 1.5em;
-  color: hsla(327,73%,97%,1);
-  background-color: hsla(335,78%,42%,1);
+  color: hsla(336,74%,35%,1);
+  background-color: hsla(327,87%,82%,0.2);
+  border: 1px solid hsla(327,87%,82%,1);
 }
 
 .c6 {
@@ -2724,8 +2730,9 @@ Object {
   flex-direction: row;
   padding: 0.5em 0.8em;
   border-radius: 1.5em;
-  color: hsla(0,0%,98%,1);
-  background-color: hsla(0,0%,25%,1);
+  color: hsla(0,0%,15%,1);
+  background-color: hsla(0,0%,83%,0.2);
+  border: 1px solid hsla(0,0%,83%,1);
 }
 
 .c8 {
@@ -2753,8 +2760,9 @@ Object {
   flex-direction: row;
   padding: 0.5em 0.8em;
   border-radius: 1.5em;
-  color: hsla(214,100%,97%,1);
-  background-color: hsla(224,76%,48%,1);
+  color: hsla(226,71%,40%,1);
+  background-color: hsla(212,96%,78%,0.2);
+  border: 1px solid hsla(212,96%,78%,1);
 }
 
 .c10 {
@@ -2782,8 +2790,9 @@ Object {
   flex-direction: row;
   padding: 0.5em 0.8em;
   border-radius: 1.5em;
-  color: hsla(138,76%,97%,1);
-  background-color: hsla(142,72%,29%,1);
+  color: hsla(143,64%,24%,1);
+  background-color: hsla(142,77%,73%,0.2);
+  border: 1px solid hsla(142,77%,73%,1);
 }
 
 .c12 {
@@ -2811,8 +2820,9 @@ Object {
   flex-direction: row;
   padding: 0.5em 0.8em;
   border-radius: 1.5em;
-  color: hsla(48,100%,96%,1);
-  background-color: hsla(26,90%,37%,1);
+  color: hsla(23,83%,31%,1);
+  background-color: hsla(46,97%,65%,0.2);
+  border: 1px solid hsla(46,97%,65%,1);
 }
 
 .c14 {
@@ -2840,8 +2850,9 @@ Object {
   flex-direction: row;
   padding: 0.5em 0.8em;
   border-radius: 1.5em;
-  color: hsla(0,86%,97%,1);
-  background-color: hsla(0,74%,42%,1);
+  color: hsla(0,70%,35%,1);
+  background-color: hsla(0,94%,82%,0.2);
+  border: 1px solid hsla(0,94%,82%,1);
 }
 
 .c1 {
@@ -3087,8 +3098,9 @@ Object {
   flex-direction: row;
   padding: 0.5em 0.8em;
   border-radius: 1.5em;
-  color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,1);
+  color: hsla(273,67%,39%,1);
+  background-color: hsla(269,97%,85%,0.2);
+  border: 1px solid hsla(269,97%,85%,1);
 }
 
 .c4 {
@@ -3116,8 +3128,9 @@ Object {
   flex-direction: row;
   padding: 0.5em 0.8em;
   border-radius: 1.5em;
-  color: hsla(327,73%,97%,1);
-  background-color: hsla(335,78%,42%,1);
+  color: hsla(336,74%,35%,1);
+  background-color: hsla(327,87%,82%,0.2);
+  border: 1px solid hsla(327,87%,82%,1);
 }
 
 .c6 {
@@ -3145,8 +3158,9 @@ Object {
   flex-direction: row;
   padding: 0.5em 0.8em;
   border-radius: 1.5em;
-  color: hsla(0,0%,98%,1);
-  background-color: hsla(0,0%,25%,1);
+  color: hsla(0,0%,15%,1);
+  background-color: hsla(0,0%,83%,0.2);
+  border: 1px solid hsla(0,0%,83%,1);
 }
 
 .c8 {
@@ -3174,8 +3188,9 @@ Object {
   flex-direction: row;
   padding: 0.5em 0.8em;
   border-radius: 1.5em;
-  color: hsla(214,100%,97%,1);
-  background-color: hsla(224,76%,48%,1);
+  color: hsla(226,71%,40%,1);
+  background-color: hsla(212,96%,78%,0.2);
+  border: 1px solid hsla(212,96%,78%,1);
 }
 
 .c10 {
@@ -3203,8 +3218,9 @@ Object {
   flex-direction: row;
   padding: 0.5em 0.8em;
   border-radius: 1.5em;
-  color: hsla(138,76%,97%,1);
-  background-color: hsla(142,72%,29%,1);
+  color: hsla(143,64%,24%,1);
+  background-color: hsla(142,77%,73%,0.2);
+  border: 1px solid hsla(142,77%,73%,1);
 }
 
 .c12 {
@@ -3232,8 +3248,9 @@ Object {
   flex-direction: row;
   padding: 0.5em 0.8em;
   border-radius: 1.5em;
-  color: hsla(48,100%,96%,1);
-  background-color: hsla(26,90%,37%,1);
+  color: hsla(23,83%,31%,1);
+  background-color: hsla(46,97%,65%,0.2);
+  border: 1px solid hsla(46,97%,65%,1);
 }
 
 .c14 {
@@ -3261,8 +3278,9 @@ Object {
   flex-direction: row;
   padding: 0.5em 0.8em;
   border-radius: 1.5em;
-  color: hsla(0,86%,97%,1);
-  background-color: hsla(0,74%,42%,1);
+  color: hsla(0,70%,35%,1);
+  background-color: hsla(0,94%,82%,0.2);
+  border: 1px solid hsla(0,94%,82%,1);
 }
 
 .c1 {
@@ -3563,8 +3581,9 @@ Object {
   flex-direction: row;
   padding: 0.5em 0.8em;
   border-radius: 1.5em;
-  color: hsla(0,0%,98%,1);
-  background-color: hsla(0,0%,25%,1);
+  color: hsla(0,0%,15%,1);
+  background-color: hsla(0,0%,83%,0.2);
+  border: 1px solid hsla(0,0%,83%,1);
 }
 
 .c1 {
@@ -3810,8 +3829,9 @@ Object {
   flex-direction: row;
   padding: 0.5em 0.8em;
   border-radius: 1.5em;
-  color: hsla(0,0%,98%,1);
-  background-color: hsla(0,0%,25%,1);
+  color: hsla(0,0%,15%,1);
+  background-color: hsla(0,0%,83%,0.2);
+  border: 1px solid hsla(0,0%,83%,1);
 }
 
 .c1 {
@@ -4112,8 +4132,9 @@ Object {
   flex-direction: row;
   padding: 0.5em 0.8em;
   border-radius: 1.5em;
-  color: hsla(0,0%,98%,1);
-  background-color: hsla(0,0%,25%,1);
+  color: hsla(0,0%,15%,1);
+  background-color: hsla(0,0%,83%,0.2);
+  border: 1px solid hsla(0,0%,83%,1);
 }
 
 .c1 {
@@ -4185,8 +4206,9 @@ Object {
   flex-direction: row;
   padding: 0.5em 0.8em;
   border-radius: 1.5em;
-  color: hsla(0,0%,98%,1);
-  background-color: hsla(0,0%,25%,1);
+  color: hsla(0,0%,15%,1);
+  background-color: hsla(0,0%,83%,0.2);
+  border: 1px solid hsla(0,0%,83%,1);
 }
 
 .c1 {

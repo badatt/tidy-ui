@@ -18,7 +18,7 @@ const BorderWithProps = (props: IBorderProps) => (
     density="4px"
     align={14}
     content={
-      <Chip size="xxs" tone={props.tone || 'neutral'}>
+      <Chip girth="xxs" tone={props.tone || 'neutral'}>
         Border
       </Chip>
     }
