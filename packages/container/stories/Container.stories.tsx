@@ -59,8 +59,8 @@ export const maxWidth = () => {
             variant="outlined"
             onClick={decrement}
             disabled={maxWidth === 0}
-            iconOnly
-            size="sm"
+            isIconOnly
+            girth="sm"
           />
           <Text.body1 style={{ width: '2rem' }} ctr>
             {Screen[maxWidth]}
@@ -70,8 +70,8 @@ export const maxWidth = () => {
             variant="outlined"
             onClick={increment}
             disabled={maxWidth === 4}
-            iconOnly
-            size="sm"
+            isIconOnly
+            girth="sm"
           />
         </ButtonCluster>
       </ToolBar>
@@ -84,12 +84,6 @@ export const maxWidth = () => {
 
 export const noGutters = () => (
   <Container gutter="0">
-    <Content />
-  </Container>
-);
-
-export const customHeight = () => (
-  <Container height="20rem">
     <Content />
   </Container>
 );
