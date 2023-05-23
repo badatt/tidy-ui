@@ -676,12 +676,10 @@ Object {
       >
         <input
           class="c1"
-          disabled=""
           type="checkbox"
         />
         <div
           class="c2"
-          disabled=""
         >
           <svg
             class="c3 c4"
@@ -757,12 +755,10 @@ Object {
     >
       <input
         class="c1"
-        disabled=""
         type="checkbox"
       />
       <div
         class="c2"
-        disabled=""
       >
         <svg
           class="c3 c4"

@@ -7,32 +7,31 @@ import { ICheckboxProps } from './types';
  * checkbox input type, powered by various styles and states
  */
 const Checkbox = React.forwardRef<HTMLInputElement, ICheckboxProps>((props, ref) => {
-  const { children, checked, indeterminate, ...rest } = props;
+  const { children, ele, checked, isIndeterminate, ...rest } = props;
+  const { isFilled, girth, status } = rest;
 
   const isChecked = React.useMemo(() => {
-    return [checked, indeterminate].some(Boolean);
-  }, [checked, indeterminate]);
+    return [checked, isIndeterminate].some(Boolean);
+  }, [checked, isIndeterminate]);
 
   return (
     <CheckboxRoot ref={ref} role="checkbox" {...rest}>
-      <HiddenCheckboxInput type="checkbox" {...rest} />
-      <StyledCheckboxInput checked={isChecked} {...rest}>
+      <HiddenCheckboxInput type="checkbox" />
+      <StyledCheckboxInput checked={isChecked} {...{ girth, isFilled, status }}>
         <TickIcon viewBox="0 0 24 24">
-          {indeterminate ? <path d="M19 13H5v-2h14v2z" /> : <polyline points="20 6 9 17 4 12" />}
+          {isIndeterminate ? <path d="M19 13H5v-2h14v2z" /> : <polyline points="20 6 9 17 4 12" />}
         </TickIcon>
       </StyledCheckboxInput>
-      {children}
+      {ele ? React.cloneElement(ele, {}, children) : children}
     </CheckboxRoot>
   );
 });
 
 Checkbox.defaultProps = {
-  checked: false,
-  disabled: false,
-  filled: false,
-  indeterminate: false,
+  girth: 'md',
+  isFilled: false,
+  isIndeterminate: false,
   status: 'info',
-  sz: 'md',
 };
 
 Checkbox.displayName = 'Checkbox';
