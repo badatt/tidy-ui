@@ -319,9 +319,9 @@ export enum Tone {
 export type TTone = keyof typeof Tone;
 
 /**
- * Size enum
+ * Girth enum
  */
-export enum Size {
+export enum Girth {
   'xxs',
   'xs',
   'sm',
@@ -332,12 +332,12 @@ export enum Size {
 }
 
 /**
- * Size types for components
+ * Girth types for components
  *
- * @typedef {TSize}
+ * @typedef {TGirth}
  * @public
  */
-export type TSize = keyof typeof Size;
+export type TGirth = keyof typeof Girth;
 
 /**
  * Accent types for components
