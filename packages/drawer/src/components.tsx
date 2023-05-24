@@ -1,4 +1,4 @@
-import { color, css, hsla, styled } from '@tidy-ui/commons';
+import { applyStandardOverrideStyles, color, css, hsla, styled } from '@tidy-ui/commons';
 import { IDrawerProps } from './types';
 
 /**
@@ -28,11 +28,11 @@ const DrawerRoot = styled.div<IDrawerProps>`
 const DrawerContent = styled.div<IDrawerProps>`
   display: flex;
   flex-direction: column;
-  ${({ width, theme: { palette } }) => css`
-    width: ${width};
+  ${({ theme: { palette } }) => css`
     height: 100vh;
     background-color: ${palette.background.default};
   `}
+  ${applyStandardOverrideStyles}
 `;
 
 /**
