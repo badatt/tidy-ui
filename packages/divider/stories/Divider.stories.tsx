@@ -33,7 +33,7 @@ export const vertical = () => {
       {[...Array(3)].map((v, i) => (
         <React.Fragment key={i}>
           <Text.body1>{text}</Text.body1>
-          <Divider vertical />
+          <Divider isVertical />
         </React.Fragment>
       ))}
     </FlexBox>
@@ -105,19 +105,6 @@ export const variants = () => {
   );
 };
 
-export const customMargin = () => {
-  return (
-    <>
-      {[...Array(3)].map((v, i) => (
-        <React.Fragment key={i}>
-          <Text.body1>{text}</Text.body1>
-          <Divider margin="2rem" />
-        </React.Fragment>
-      ))}
-    </>
-  );
-};
-
 export const customVerticalAlignment = () => {
   return (
     <FlexBox nowrap>
@@ -129,7 +116,7 @@ export const customVerticalAlignment = () => {
               <Text.h6>align={Position[v]}</Text.h6>
               <Text.body1>{text}</Text.body1>
             </div>
-            <Divider vertical align={Position[v]} length="2rem" />
+            <Divider isVertical align={Position[v]} length="2rem" />
           </React.Fragment>
         ))}
     </FlexBox>
