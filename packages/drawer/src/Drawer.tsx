@@ -9,7 +9,8 @@ import { IDrawerProps } from './types';
  * emerge from left/right side of the page
  */
 const Drawer = React.forwardRef<HTMLDivElement, IDrawerProps>((props, ref) => {
-  const { children, isOpen, onClose, ...rest } = props;
+  const { children, ele, isOpen, onClose, ...rest } = props;
+  const { anchor } = rest;
 
   const isMounted = useIsMounted();
   const { Portal } = usePortal();
@@ -30,14 +31,14 @@ const Drawer = React.forwardRef<HTMLDivElement, IDrawerProps>((props, ref) => {
 
   return (
     <Portal>
-      <DrawerRoot ref={ref} role="navigation" {...rest}>
+      <DrawerRoot ref={ref} role="navigation" {...{ anchor }}>
         <DrawerContent {...rest}>
-          <CloseSection {...rest}>
+          <CloseSection {...{ anchor }}>
             <CloseButton onClick={handleClose} role="button">
               <Icon ele={<Icon.Close />} />
             </CloseButton>
           </CloseSection>
-          {children}
+          {ele ? React.cloneElement(ele, {}, children) : children}
         </DrawerContent>
       </DrawerRoot>
     </Portal>

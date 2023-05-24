@@ -17,12 +17,8 @@ const SimplePaper = () => (
   <Paper margin="16px">
     <Text.h6>Lorem ipsum, dolor sit amet </Text.h6>
     <Stack gap="8px">
-      <Chip size="xxs" outlined>
-        lorem
-      </Chip>
-      <Chip size="xxs" outlined>
-        ipsum
-      </Chip>
+      <Chip girth="xxs">lorem</Chip>
+      <Chip girth="xxs">ipsum</Chip>
     </Stack>
     <Text.body1>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci est similique ipsa accusamus ex expedita dolore
