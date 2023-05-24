@@ -25,8 +25,6 @@ const Badge = React.forwardRef<HTMLSpanElement, IBadgeProps>((props, ref) => {
     return { anchorData, isAnchorInvisible };
   }, [content, isShow0]);
 
-  console.count(`badge ${content}`);
-
   return (
     <BadgeRoot
       ref={ref}
