@@ -12,8 +12,7 @@ const Code = React.forwardRef<HTMLDivElement, ICodeProps>((props, ref) => {
   const codeRef = React.useRef<HTMLPreElement>(null);
   const [copied, setCopied] = React.useState(false);
 
-  /** @internal */
-  const handleCopy = () => {
+  const handleCopy = React.useCallback(() => {
     navigator.permissions
       .query({ name: 'clipboard-write' as PermissionName })
       .then((result) => {
@@ -37,7 +36,7 @@ const Code = React.forwardRef<HTMLDivElement, ICodeProps>((props, ref) => {
       });
 
     setTimeout(() => setCopied(false), 2000);
-  };
+  }, [codeRef]);
 
   return (
     <CodeRoot ref={ref} role="contentinfo" {...rest}>
