@@ -31,6 +31,10 @@ export interface IStandardProps {
    */
   color?: string;
   /**
+   * css `disabled` equivalent
+   */
+  disabled?: boolean;
+  /**
    * css `display` equivalent
    */
   display?:
@@ -54,6 +58,10 @@ export interface IStandardProps {
     | 'revert'
     | 'revert-layer'
     | 'unset';
+  /**
+   * Element that encloses Alert
+   */
+  ele?: JSX.Element;
   /**
    * css `float` equivalent
    */
@@ -84,6 +92,10 @@ export interface IStandardProps {
    * css `margin` equivalent
    */
   margin?: string;
+  /**
+   * css `opacity` equivalent
+   */
+  opacity?: number;
   /**
    * css `overflow` equivalent
    */
