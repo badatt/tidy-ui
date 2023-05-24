@@ -8,10 +8,12 @@ export interface IStandardProps {
    * css `background` equivalent
    */
   background?: string;
+
   /**
    * css `border` equivalent
    */
   border?: string;
+
   /**
    * css `clear` equivalent
    */
@@ -26,14 +28,17 @@ export interface IStandardProps {
     | 'top'
     | 'bottom'
     | 'none';
+
   /**
    * css `color` equivalent
    */
   color?: string;
+
   /**
    * css `disabled` equivalent
    */
   disabled?: boolean;
+
   /**
    * css `display` equivalent
    */
@@ -58,10 +63,12 @@ export interface IStandardProps {
     | 'revert'
     | 'revert-layer'
     | 'unset';
+
   /**
    * Element that encloses Alert
    */
   ele?: JSX.Element;
+
   /**
    * css `float` equivalent
    */
@@ -80,22 +87,27 @@ export interface IStandardProps {
     | 'revert'
     | 'revert-layer'
     | 'unset';
+
   /**
    * css `font` equivalent
    */
   font?: string;
+
   /**
    * css `height` equivalent
    */
   height?: number | string;
+
   /**
    * css `margin` equivalent
    */
   margin?: string;
+
   /**
    * css `opacity` equivalent
    */
   opacity?: number;
+
   /**
    * css `overflow` equivalent
    */
@@ -110,10 +122,12 @@ export interface IStandardProps {
     | 'revert'
     | 'revert-layer'
     | 'unset';
+
   /**
    * css `padding` equivalent
    */
   padding?: string;
+
   /**
    * css `position` equivalent
    */
@@ -128,6 +142,7 @@ export interface IStandardProps {
     | 'revert'
     | 'revert-layer'
     | 'unset';
+
   /**
    * css `weight` equivalent
    */
