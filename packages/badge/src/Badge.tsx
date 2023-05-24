@@ -10,23 +10,22 @@ import { IBadgeProps } from './types';
 const Badge = React.forwardRef<HTMLSpanElement, IBadgeProps>((props, ref) => {
   const { children, ele, content, max, hidden, isShow0, isDotted, ...rest } = props;
 
-  const [anchorData, setAnchorData] = React.useState(content);
-  const [isAnchorInvisible, setIsAnchorInvisible] = React.useState(hidden);
-
-  React.useEffect(() => {
+  const { anchorData, isAnchorInvisible } = React.useMemo(() => {
+    let isAnchorInvisible = hidden;
+    let anchorData = content;
     if (!isDotted && content === undefined) {
-      setIsAnchorInvisible(true);
+      isAnchorInvisible = true;
     }
     if (max && Number(content) > max) {
-      setAnchorData(`${max}+`);
+      anchorData = `${max}+`;
     }
-  }, [content]);
-
-  React.useEffect(() => {
     if (!isAnchorInvisible && anchorData == 0) {
-      if (!isShow0) setIsAnchorInvisible(true);
+      if (!isShow0) isAnchorInvisible = true;
     }
-  }, [isShow0, anchorData]);
+    return { anchorData, isAnchorInvisible };
+  }, [content, isShow0]);
+
+  console.count(`badge ${content}`);
 
   return (
     <BadgeRoot
