@@ -3,7 +3,28 @@
 exports[`FlexItem Align self 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c1 {
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  height: 350px;
+}
+
+.c1 {
   position: relative;
   display: block;
   min-height: 1px;
@@ -136,28 +157,6 @@ Object {
   -webkit-align-self: flex-end;
   -ms-flex-item-align: end;
   align-self: flex-end;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-align-content: flex-start;
-  -ms-flex-line-pack: start;
-  align-content: flex-start;
-  height: 350px;
-  height: 350px;
 }
 
 <body>
@@ -974,7 +973,28 @@ Object {
       </div>
     </div>
   </body>,
-  "container": .c1 {
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  height: 350px;
+}
+
+.c1 {
   position: relative;
   display: block;
   min-height: 1px;
@@ -1107,28 +1127,6 @@ Object {
   -webkit-align-self: flex-end;
   -ms-flex-item-align: end;
   align-self: flex-end;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-align-content: flex-start;
-  -ms-flex-line-pack: start;
-  align-content: flex-start;
-  height: 350px;
-  height: 350px;
 }
 
 <div>
@@ -2000,13 +1998,7 @@ Object {
 exports[`FlexItem Basic render 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c1 {
-  position: relative;
-  display: block;
-  min-height: 1px;
-}
-
-.c0 {
+  "baseElement": .c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2025,7 +2017,12 @@ Object {
   -ms-flex-line-pack: start;
   align-content: flex-start;
   height: 350px;
-  height: 350px;
+}
+
+.c1 {
+  position: relative;
+  display: block;
+  min-height: 1px;
 }
 
 <body>
@@ -2086,13 +2083,7 @@ Object {
       </div>
     </div>
   </body>,
-  "container": .c1 {
-  position: relative;
-  display: block;
-  min-height: 1px;
-}
-
-.c0 {
+  "container": .c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2111,7 +2102,12 @@ Object {
   -ms-flex-line-pack: start;
   align-content: flex-start;
   height: 350px;
-  height: 350px;
+}
+
+.c1 {
+  position: relative;
+  display: block;
+  min-height: 1px;
 }
 
 <div>
@@ -2227,16 +2223,7 @@ Object {
 exports[`FlexItem Flex 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c1 {
-  position: relative;
-  display: block;
-  min-height: 1px;
-  -webkit-flex: flex-grow;
-  -ms-flex: flex-grow;
-  flex: flex-grow;
-}
-
-.c0 {
+  "baseElement": .c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2255,7 +2242,15 @@ Object {
   -ms-flex-line-pack: start;
   align-content: flex-start;
   height: 350px;
-  height: 350px;
+}
+
+.c1 {
+  position: relative;
+  display: block;
+  min-height: 1px;
+  -webkit-flex: flex-grow;
+  -ms-flex: flex-grow;
+  flex: flex-grow;
 }
 
 <body>
@@ -2316,16 +2311,7 @@ Object {
       </div>
     </div>
   </body>,
-  "container": .c1 {
-  position: relative;
-  display: block;
-  min-height: 1px;
-  -webkit-flex: flex-grow;
-  -ms-flex: flex-grow;
-  flex: flex-grow;
-}
-
-.c0 {
+  "container": .c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2344,7 +2330,15 @@ Object {
   -ms-flex-line-pack: start;
   align-content: flex-start;
   height: 350px;
-  height: 350px;
+}
+
+.c1 {
+  position: relative;
+  display: block;
+  min-height: 1px;
+  -webkit-flex: flex-grow;
+  -ms-flex: flex-grow;
+  flex: flex-grow;
 }
 
 <div>
@@ -2460,16 +2454,7 @@ Object {
 exports[`FlexItem Flex basis 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c1 {
-  position: relative;
-  display: block;
-  min-height: 1px;
-  -webkit-flex-basis: auto;
-  -ms-flex-preferred-size: auto;
-  flex-basis: auto;
-}
-
-.c0 {
+  "baseElement": .c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2488,7 +2473,15 @@ Object {
   -ms-flex-line-pack: start;
   align-content: flex-start;
   height: 350px;
-  height: 350px;
+}
+
+.c1 {
+  position: relative;
+  display: block;
+  min-height: 1px;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
 }
 
 <body>
@@ -2549,16 +2542,7 @@ Object {
       </div>
     </div>
   </body>,
-  "container": .c1 {
-  position: relative;
-  display: block;
-  min-height: 1px;
-  -webkit-flex-basis: auto;
-  -ms-flex-preferred-size: auto;
-  flex-basis: auto;
-}
-
-.c0 {
+  "container": .c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2577,7 +2561,15 @@ Object {
   -ms-flex-line-pack: start;
   align-content: flex-start;
   height: 350px;
-  height: 350px;
+}
+
+.c1 {
+  position: relative;
+  display: block;
+  min-height: 1px;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
 }
 
 <div>
@@ -2693,17 +2685,7 @@ Object {
 exports[`FlexItem Flex grow 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c1 {
-  position: relative;
-  display: block;
-  min-height: 1px;
-  -webkit-box-flex: 2;
-  -webkit-flex-grow: 2;
-  -ms-flex-positive: 2;
-  flex-grow: 2;
-}
-
-.c0 {
+  "baseElement": .c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2722,7 +2704,16 @@ Object {
   -ms-flex-line-pack: start;
   align-content: flex-start;
   height: 350px;
-  height: 350px;
+}
+
+.c1 {
+  position: relative;
+  display: block;
+  min-height: 1px;
+  -webkit-box-flex: 2;
+  -webkit-flex-grow: 2;
+  -ms-flex-positive: 2;
+  flex-grow: 2;
 }
 
 <body>
@@ -2783,17 +2774,7 @@ Object {
       </div>
     </div>
   </body>,
-  "container": .c1 {
-  position: relative;
-  display: block;
-  min-height: 1px;
-  -webkit-box-flex: 2;
-  -webkit-flex-grow: 2;
-  -ms-flex-positive: 2;
-  flex-grow: 2;
-}
-
-.c0 {
+  "container": .c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2812,7 +2793,16 @@ Object {
   -ms-flex-line-pack: start;
   align-content: flex-start;
   height: 350px;
-  height: 350px;
+}
+
+.c1 {
+  position: relative;
+  display: block;
+  min-height: 1px;
+  -webkit-box-flex: 2;
+  -webkit-flex-grow: 2;
+  -ms-flex-positive: 2;
+  flex-grow: 2;
 }
 
 <div>
@@ -2928,16 +2918,7 @@ Object {
 exports[`FlexItem Flex shrink 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c1 {
-  position: relative;
-  display: block;
-  min-height: 1px;
-  -webkit-flex-shrink: 1;
-  -ms-flex-negative: 1;
-  flex-shrink: 1;
-}
-
-.c0 {
+  "baseElement": .c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2956,7 +2937,15 @@ Object {
   -ms-flex-line-pack: start;
   align-content: flex-start;
   height: 350px;
-  height: 350px;
+}
+
+.c1 {
+  position: relative;
+  display: block;
+  min-height: 1px;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
 }
 
 <body>
@@ -3017,16 +3006,7 @@ Object {
       </div>
     </div>
   </body>,
-  "container": .c1 {
-  position: relative;
-  display: block;
-  min-height: 1px;
-  -webkit-flex-shrink: 1;
-  -ms-flex-negative: 1;
-  flex-shrink: 1;
-}
-
-.c0 {
+  "container": .c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3045,7 +3025,15 @@ Object {
   -ms-flex-line-pack: start;
   align-content: flex-start;
   height: 350px;
-  height: 350px;
+}
+
+.c1 {
+  position: relative;
+  display: block;
+  min-height: 1px;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
 }
 
 <div>
@@ -3161,14 +3149,7 @@ Object {
 exports[`FlexItem Full width 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c1 {
-  position: relative;
-  display: block;
-  min-height: 1px;
-  width: 100%;
-}
-
-.c0 {
+  "baseElement": .c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3187,7 +3168,13 @@ Object {
   -ms-flex-line-pack: start;
   align-content: flex-start;
   height: 350px;
-  height: 350px;
+}
+
+.c1 {
+  position: relative;
+  display: block;
+  min-height: 1px;
+  width: 100%;
 }
 
 <body>
@@ -3248,14 +3235,7 @@ Object {
       </div>
     </div>
   </body>,
-  "container": .c1 {
-  position: relative;
-  display: block;
-  min-height: 1px;
-  width: 100%;
-}
-
-.c0 {
+  "container": .c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3274,7 +3254,13 @@ Object {
   -ms-flex-line-pack: start;
   align-content: flex-start;
   height: 350px;
-  height: 350px;
+}
+
+.c1 {
+  position: relative;
+  display: block;
+  min-height: 1px;
+  width: 100%;
 }
 
 <div>
@@ -3390,16 +3376,7 @@ Object {
 exports[`FlexItem Order 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c1 {
-  position: relative;
-  display: block;
-  min-height: 1px;
-  -webkit-order: 2;
-  -ms-flex-order: 2;
-  order: 2;
-}
-
-.c0 {
+  "baseElement": .c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3418,7 +3395,15 @@ Object {
   -ms-flex-line-pack: start;
   align-content: flex-start;
   height: 350px;
-  height: 350px;
+}
+
+.c1 {
+  position: relative;
+  display: block;
+  min-height: 1px;
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
 }
 
 <body>
@@ -3479,16 +3464,7 @@ Object {
       </div>
     </div>
   </body>,
-  "container": .c1 {
-  position: relative;
-  display: block;
-  min-height: 1px;
-  -webkit-order: 2;
-  -ms-flex-order: 2;
-  order: 2;
-}
-
-.c0 {
+  "container": .c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3507,7 +3483,15 @@ Object {
   -ms-flex-line-pack: start;
   align-content: flex-start;
   height: 350px;
-  height: 350px;
+}
+
+.c1 {
+  position: relative;
+  display: block;
+  min-height: 1px;
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
 }
 
 <div>
@@ -3623,14 +3607,7 @@ Object {
 exports[`FlexItem Spanning 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c1 {
-  position: relative;
-  display: block;
-  min-height: 1px;
-  width: 25%;
-}
-
-.c0 {
+  "baseElement": .c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3649,7 +3626,13 @@ Object {
   -ms-flex-line-pack: start;
   align-content: flex-start;
   height: 350px;
-  height: 350px;
+}
+
+.c1 {
+  position: relative;
+  display: block;
+  min-height: 1px;
+  width: 25%;
 }
 
 <body>
@@ -3718,14 +3701,7 @@ Object {
       </div>
     </div>
   </body>,
-  "container": .c1 {
-  position: relative;
-  display: block;
-  min-height: 1px;
-  width: 25%;
-}
-
-.c0 {
+  "container": .c0 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3744,7 +3720,13 @@ Object {
   -ms-flex-line-pack: start;
   align-content: flex-start;
   height: 350px;
-  height: 350px;
+}
+
+.c1 {
+  position: relative;
+  display: block;
+  min-height: 1px;
+  width: 25%;
 }
 
 <div>

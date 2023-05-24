@@ -137,6 +137,7 @@ export interface IFlexBoxProps extends IBaseProps, HTMLAttributes<HTMLDivElement
    * css `column-gap` equivalent
    */
   cgp?: string;
+
   /**
    * If `true`, places the items inside flexbox center both on main and cross axis.
    * Set `align-content` & `justify-content` to center. Set to full height if height is not
@@ -178,11 +179,6 @@ export interface IFlexBoxProps extends IBaseProps, HTMLAttributes<HTMLDivElement
   jsc?: TJustifyContent;
 
   /**
-   * Margin, css `margin` equivalent
-   */
-  margin?: string;
-
-  /**
    * If `true`, sets `flex-wrap: nowrap` the items
    *
    * @default false
@@ -203,20 +199,24 @@ export interface IFlexItemProps extends IBaseProps, HTMLAttributes<HTMLDivElemen
    * css `align-self` equivalent
    */
   als?: TAlignSelf;
+
   /**
    * css `flex-basis` equivalent
    */
   fbs?: string;
+
   /**
    * css `flex-grow` equivalent
    */
   fgo?: number;
+
   /**
    * css `flex` equivalent
    */
   flx?: string;
+
   /**
-   * css `flex=shrink` equivalent
+   * css `flex-shrink` equivalent
    */
   fsk?: number;
 

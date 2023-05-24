@@ -13,6 +13,8 @@ const Ctx = React.createContext({ count: baseCount });
 /** @internal */
 export interface IFlexBoxProvider extends IBaseProps {
   /** @internal */
+  children?: React.ReactNode;
+  /** @internal */
   size?: number;
 }
 
