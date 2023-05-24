@@ -12,6 +12,7 @@ const applyStandardOverrideStyles = css<IStandardProps>`
     font,
     height,
     margin,
+    opacity,
     overflow,
     padding,
     position,
@@ -52,6 +53,10 @@ const applyStandardOverrideStyles = css<IStandardProps>`
     ${margin &&
     css`
       margin: ${margin};
+    `}
+    ${opacity &&
+    css`
+      opacity: ${opacity};
     `}
     ${overflow &&
     css`
