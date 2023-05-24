@@ -48,13 +48,16 @@ export interface IDividerProps extends IBaseProps, HTMLAttributes<HTMLHRElement>
   density?: TDensity;
 
   /**
+   * If `true`, set the divider vertically
+   *
+   * @default false
+   */
+  isVertical?: boolean;
+
+  /**
    * Width for vertically aligned, h for vertically aligned divider
    */
   length?: string;
-  /**
-   * Margins
-   */
-  margin?: string;
   /**
    * Shade of the color of the divider, 50 being low, 900 being high
    *
@@ -62,6 +65,7 @@ export interface IDividerProps extends IBaseProps, HTMLAttributes<HTMLHRElement>
    * @default 500
    */
   shade?: TShade;
+
   /**
    * The color of the divider
    *
@@ -76,13 +80,6 @@ export interface IDividerProps extends IBaseProps, HTMLAttributes<HTMLHRElement>
    * @default 'solid'
    */
   variant?: TBorder;
-
-  /**
-   * If `true`, set the divider vertically
-   *
-   * @default false
-   */
-  vertical?: boolean;
 }
 
 /**
@@ -101,11 +98,6 @@ export interface IEnhancedDividerProps extends IBaseProps, HTMLAttributes<HTMLDi
    * @default 'center'
    */
   justify?: TPosition;
-
-  /**
-   * Margins
-   */
-  margin?: string;
 
   /**
    * Shade of the color of the divider, 50 being low, 900 being high

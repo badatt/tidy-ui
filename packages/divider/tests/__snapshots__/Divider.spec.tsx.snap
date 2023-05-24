@@ -4,13 +4,14 @@ exports[`Divider Basic render 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c1 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c0 {
@@ -65,13 +66,14 @@ Object {
     </div>
   </body>,
   "container": .c1 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c0 {
@@ -181,7 +183,7 @@ exports[`Divider Custom horizontal alignment 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c2 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -189,13 +191,14 @@ Object {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
   width: 2rem;
+  margin: 0.5rem;
 }
 
 .c3 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -203,13 +206,14 @@ Object {
   -webkit-align-self: start;
   -ms-flex-item-align: start;
   align-self: start;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
   width: 2rem;
+  margin: 0.5rem;
 }
 
 .c4 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -217,9 +221,10 @@ Object {
   -webkit-align-self: end;
   -ms-flex-item-align: end;
   align-self: end;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
   width: 2rem;
+  margin: 0.5rem;
 }
 
 .c0 {
@@ -312,7 +317,7 @@ Object {
     </div>
   </body>,
   "container": .c2 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -320,13 +325,14 @@ Object {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
   width: 2rem;
+  margin: 0.5rem;
 }
 
 .c3 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -334,13 +340,14 @@ Object {
   -webkit-align-self: start;
   -ms-flex-item-align: start;
   align-self: start;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
   width: 2rem;
+  margin: 0.5rem;
 }
 
 .c4 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -348,9 +355,10 @@ Object {
   -webkit-align-self: end;
   -ms-flex-item-align: end;
   align-self: end;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
   width: 2rem;
+  margin: 0.5rem;
 }
 
 .c0 {
@@ -498,13 +506,15 @@ exports[`Divider Custom margin 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c1 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 2rem 0;
+  margin: 2rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 2rem;
+  opacity: 0.5;
 }
 
 .c0 {
@@ -530,6 +540,7 @@ Object {
       </p>
       <hr
         class="c1"
+        opacity="0.5"
         role="separator"
       />
       <p
@@ -542,6 +553,7 @@ Object {
       </p>
       <hr
         class="c1"
+        opacity="0.5"
         role="separator"
       />
       <p
@@ -554,18 +566,21 @@ Object {
       </p>
       <hr
         class="c1"
+        opacity="0.5"
         role="separator"
       />
     </div>
   </body>,
   "container": .c1 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 2rem 0;
+  margin: 2rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 2rem;
+  opacity: 0.5;
 }
 
 .c0 {
@@ -590,6 +605,7 @@ Object {
     </p>
     <hr
       class="c1"
+      opacity="0.5"
       role="separator"
     />
     <p
@@ -602,6 +618,7 @@ Object {
     </p>
     <hr
       class="c1"
+      opacity="0.5"
       role="separator"
     />
     <p
@@ -614,6 +631,7 @@ Object {
     </p>
     <hr
       class="c1"
+      opacity="0.5"
       role="separator"
     />
   </div>,
@@ -675,7 +693,7 @@ exports[`Divider Custom vertical alignment 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c2 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -683,13 +701,14 @@ Object {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
-  margin: 0 0.5rem;
+  margin: 0 0.5rem !important;
   border-width: 0px thin 0px 0px;
   height: 2rem;
+  margin: 0.5rem;
 }
 
 .c3 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -697,13 +716,14 @@ Object {
   -webkit-align-self: start;
   -ms-flex-item-align: start;
   align-self: start;
-  margin: 0 0.5rem;
+  margin: 0 0.5rem !important;
   border-width: 0px thin 0px 0px;
   height: 2rem;
+  margin: 0.5rem;
 }
 
 .c4 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -711,9 +731,10 @@ Object {
   -webkit-align-self: end;
   -ms-flex-item-align: end;
   align-self: end;
-  margin: 0 0.5rem;
+  margin: 0 0.5rem !important;
   border-width: 0px thin 0px 0px;
   height: 2rem;
+  margin: 0.5rem;
 }
 
 .c0 {
@@ -806,7 +827,7 @@ Object {
     </div>
   </body>,
   "container": .c2 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -814,13 +835,14 @@ Object {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
-  margin: 0 0.5rem;
+  margin: 0 0.5rem !important;
   border-width: 0px thin 0px 0px;
   height: 2rem;
+  margin: 0.5rem;
 }
 
 .c3 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -828,13 +850,14 @@ Object {
   -webkit-align-self: start;
   -ms-flex-item-align: start;
   align-self: start;
-  margin: 0 0.5rem;
+  margin: 0 0.5rem !important;
   border-width: 0px thin 0px 0px;
   height: 2rem;
+  margin: 0.5rem;
 }
 
 .c4 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -842,9 +865,10 @@ Object {
   -webkit-align-self: end;
   -ms-flex-item-align: end;
   align-self: end;
-  margin: 0 0.5rem;
+  margin: 0 0.5rem !important;
   border-width: 0px thin 0px 0px;
   height: 2rem;
+  margin: 0.5rem;
 }
 
 .c0 {
@@ -992,13 +1016,14 @@ exports[`Divider Dark mode basic render 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c1 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,25%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c0 {
@@ -1053,13 +1078,14 @@ Object {
     </div>
   </body>,
   "container": .c1 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,25%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c0 {
@@ -1169,33 +1195,36 @@ exports[`Divider Density 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c2 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c3 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px medium;
+  margin: 0.5rem;
 }
 
 .c4 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thick;
+  margin: 0.5rem;
 }
 
 .c0 {
@@ -1282,33 +1311,36 @@ Object {
     </div>
   </body>,
   "container": .c2 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c3 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px medium;
+  margin: 0.5rem;
 }
 
 .c4 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thick;
+  margin: 0.5rem;
 }
 
 .c0 {
@@ -1455,8 +1487,9 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c3 {
@@ -1465,8 +1498,9 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c4 {
@@ -1475,8 +1509,9 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c5 {
@@ -1485,8 +1520,9 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c6 {
@@ -1495,8 +1531,9 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c7 {
@@ -1505,8 +1542,9 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c8 {
@@ -1515,8 +1553,9 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c9 {
@@ -1525,8 +1564,9 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c10 {
@@ -1535,8 +1575,9 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c11 {
@@ -1545,8 +1586,9 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c0 {
@@ -1771,8 +1813,9 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c3 {
@@ -1781,8 +1824,9 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c4 {
@@ -1791,8 +1835,9 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c5 {
@@ -1801,8 +1846,9 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c6 {
@@ -1811,8 +1857,9 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c7 {
@@ -1821,8 +1868,9 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c8 {
@@ -1831,8 +1879,9 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c9 {
@@ -1841,8 +1890,9 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c10 {
@@ -1851,8 +1901,9 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c11 {
@@ -1861,8 +1912,9 @@ Object {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c0 {
@@ -2137,73 +2189,80 @@ exports[`Divider Tones 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c2 {
-  border-color: hsla(271,91%,65%,1);
+  border-color: hsla(269,97%,85%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c3 {
-  border-color: hsla(330,81%,60%,1);
+  border-color: hsla(327,87%,82%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c4 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c5 {
-  border-color: hsla(217,91%,60%,1);
+  border-color: hsla(212,96%,78%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c6 {
-  border-color: hsla(142,71%,45%,1);
+  border-color: hsla(142,77%,73%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c7 {
-  border-color: hsla(38,92%,50%,1);
+  border-color: hsla(46,97%,65%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c8 {
-  border-color: hsla(0,84%,60%,1);
+  border-color: hsla(0,94%,82%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c0 {
@@ -2366,73 +2425,80 @@ Object {
     </div>
   </body>,
   "container": .c2 {
-  border-color: hsla(271,91%,65%,1);
+  border-color: hsla(269,97%,85%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c3 {
-  border-color: hsla(330,81%,60%,1);
+  border-color: hsla(327,87%,82%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c4 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c5 {
-  border-color: hsla(217,91%,60%,1);
+  border-color: hsla(212,96%,78%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c6 {
-  border-color: hsla(142,71%,45%,1);
+  border-color: hsla(142,77%,73%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c7 {
-  border-color: hsla(38,92%,50%,1);
+  border-color: hsla(46,97%,65%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c8 {
-  border-color: hsla(0,84%,60%,1);
+  border-color: hsla(0,94%,82%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c0 {
@@ -2650,73 +2716,80 @@ exports[`Divider Variants 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c2 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: dashed;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c3 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: dotted;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c4 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: double;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c5 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: groove;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c6 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: hidden;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c7 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: ridge;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c8 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c0 {
@@ -2879,73 +2952,80 @@ Object {
     </div>
   </body>,
   "container": .c2 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: dashed;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c3 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: dotted;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c4 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: double;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c5 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: groove;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c6 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: hidden;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c7 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: ridge;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c8 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 !important;
   border-width: 0px 0px thin;
+  margin: 0.5rem;
 }
 
 .c0 {
@@ -3163,13 +3243,14 @@ exports[`Divider Vertical 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c1 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0 0.5rem;
+  margin: 0 0.5rem !important;
   border-width: 0px thin 0px 0px;
+  margin: 0.5rem;
 }
 
 .c0 {
@@ -3228,13 +3309,14 @@ Object {
     </div>
   </body>,
   "container": .c1 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   border-style: solid;
-  margin: 0 0.5rem;
+  margin: 0 0.5rem !important;
   border-width: 0px thin 0px 0px;
+  margin: 0.5rem;
 }
 
 .c0 {

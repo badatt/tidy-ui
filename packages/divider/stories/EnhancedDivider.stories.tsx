@@ -114,21 +114,6 @@ export const variants = () => {
   );
 };
 
-export const customMargin = () => {
-  return (
-    <>
-      {[...Array(3)].map((v, i) => (
-        <React.Fragment key={i}>
-          <Text.body1>{text}</Text.body1>
-          <Divider.Enhanced margin="2rem">
-            <Text.caption>section {i}</Text.caption>
-          </Divider.Enhanced>
-        </React.Fragment>
-      ))}
-    </>
-  );
-};
-
 export const justify = () => {
   return (
     <>
