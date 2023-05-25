@@ -1,39 +1,12 @@
 import React from 'react';
-import { css, devices, styled } from '@tidy-ui/commons';
+import { ItemRoot } from './components';
 import { IItemProps } from './types';
 
-/** @internal */
-const getWidth = (span: number) => `width: ${(span / 24) * 100}%`;
-
-const ItemRoot = styled.div<IItemProps>`
-  ${({ xs, sm, md, lg, xl }) => css`
-    float: left;
-    position: relative;
-    min-height: 1px;
-    width: 100%;
-    ${devices.mobile} {
-      ${xs && getWidth(xs)}
-    }
-    ${devices.tablet} {
-      ${sm && getWidth(sm)}
-    }
-    ${devices.laptop} {
-      ${md && getWidth(md)}
-    }
-    ${devices.desktop} {
-      ${lg && getWidth(lg)}
-    }
-    ${devices.tv} {
-      ${xl && getWidth(xl)}
-    }
-  `}
-`;
-
 const Item = React.forwardRef<HTMLDivElement, IItemProps>((props, ref) => {
-  const { children, ...rest } = props;
+  const { children, ele, ...rest } = props;
   return (
     <ItemRoot ref={ref} role="gridcell" {...rest}>
-      {children}
+      {ele ? React.cloneElement(ele, {}, children) : children}
     </ItemRoot>
   );
 });

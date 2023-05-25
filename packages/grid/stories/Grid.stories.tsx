@@ -120,7 +120,7 @@ export const fixed = () => {
     <GridProvider>
       <Ctx.Consumer>
         {({ count }) => (
-          <StyledGrid fixed>
+          <StyledGrid isFixed>
             {[...Array(count)].map((c, i) => (
               <Grid.Item key={i}>
                 <TextWrap style={{ padding: '3rem' }}>
@@ -202,7 +202,7 @@ export const customLayout = () => {
   return (
     <GridProvider>
       <ToolBar>
-        <Stack divider={<Divider vertical />} gap="1rem">
+        <Stack divider={<Divider isVertical />} gap="1rem">
           {Object.keys(spanning).map((v, i) => (
             <ButtonCluster key={i}>
               <IconButton
@@ -210,7 +210,7 @@ export const customLayout = () => {
                 variant="outlined"
                 onClick={() => decrement(v)}
                 disabled={span[v] === 1}
-                size="xs"
+                girth="xs"
               />
               <Text.body1 style={{ width: '3rem' }} ctr>
                 {v}={span[v]}
@@ -220,7 +220,7 @@ export const customLayout = () => {
                 variant="outlined"
                 onClick={() => increment(v)}
                 disabled={span[v] === 24}
-                size="xs"
+                girth="xs"
               />
             </ButtonCluster>
           ))}

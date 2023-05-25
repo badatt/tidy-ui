@@ -1,63 +1,7 @@
 import React from 'react';
-import { css, devices, styled } from '@tidy-ui/commons';
+import { GridRoot } from './components';
 import { Item } from './Item';
 import { IGridProps } from './types';
-
-const GridRoot = styled.div<IGridProps>`
-  margin-right: auto;
-  margin-left: auto;
-  box-sizing: border-box;
-  ${({
-    theme: {
-      layout: { screens },
-    },
-    fixed,
-    gutter,
-    gap,
-    margin,
-  }) => css`
-    margin: ${margin};
-    ${gutter &&
-    css`
-      padding: 0 ${gutter};
-    `}
-    ${gap &&
-    css`
-      margin-left: ${Math.ceil(gap) / -2}px;
-      margin-right: ${Math.floor(gap) / -2}px;
-      & > * {
-        padding-left: ${Math.ceil(gap) / 2}px;
-        padding-right: ${Math.floor(gap) / 2}px;
-        padding-top: ${Math.ceil(gap) / 2}px;
-        padding-bottom: ${Math.floor(gap) / 2}px;
-      }
-    `}
-    ${fixed &&
-    css`
-      ${devices.mobile} {
-        width: ${screens.xs.breakpoint}px;
-      }
-      ${devices.tablet} {
-        width: ${screens.sm.breakpoint}px;
-      }
-      ${devices.laptop} {
-        width: ${screens.md.breakpoint}px;
-      }
-      ${devices.desktop} {
-        width: ${screens.lg.breakpoint}px;
-      }
-      ${devices.tv} {
-        width: ${screens.xl.breakpoint}px;
-      }
-    `}
-  `}
-  &::before,
-  &::after {
-    content: '';
-    clear: both;
-    display: table;
-  }
-`;
 
 /** @internal */
 interface GridComponent extends React.ForwardRefExoticComponent<IGridProps & React.RefAttributes<HTMLDivElement>> {
@@ -70,19 +14,32 @@ interface GridComponent extends React.ForwardRefExoticComponent<IGridProps & Rea
  * Shouldn't be confused with css grid, but a good replacement for it
  */
 const Grid = React.forwardRef<HTMLDivElement, IGridProps>((props, ref) => {
-  const { children, ...rest } = props;
+  const { children, ele, ...rest } = props;
   return (
     <GridRoot ref={ref} role="grid" {...rest}>
-      {children}
+      {ele ? React.cloneElement(ele, {}, children) : children}
     </GridRoot>
   );
 }) as GridComponent;
 
 Grid.defaultProps = {
-  fixed: false,
+  isFixed: false,
 };
 
 Grid.displayName = 'Grid';
+
+Grid.propTypes = {
+  /** @internal */
+  children: (props, propName, componentName) => {
+    const allowed = ['GridItem'];
+    const errorMessage = `${componentName} accepts only ${allowed} as children`;
+    const childrenNames = React.Children.map(props[propName], (c) => c.type.displayName);
+    if (childrenNames.length == 0 || !childrenNames.every((c) => allowed.includes(c))) {
+      return new Error(`Invalid nodes. ${errorMessage}`);
+    }
+    return null;
+  },
+};
 
 Grid.Item = Item;
 

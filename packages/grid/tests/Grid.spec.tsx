@@ -35,7 +35,7 @@ describe('Grid', () => {
   it('Fixed', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Grid fixed>
+        <Grid isFixed>
           <Items />
         </Grid>
       </TidyUiProvider>,
