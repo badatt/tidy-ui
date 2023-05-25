@@ -6,11 +6,6 @@ import { IBaseProps, TCreateArrayWithLengthX, TNumericRange } from '@tidy-ui/typ
  */
 export interface IGridProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * If `true`, creates a responsive grid that changes width based on device breakpoints
-   */
-  fixed?: boolean;
-
-  /**
    * Adds half the value as negative left & right margins (in px) to Row. Also, adds half
    * the value as padding to each Item
    */
@@ -24,9 +19,9 @@ export interface IGridProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   gutter?: string;
 
   /**
-   * Margin, css `margin` equivalent
+   * If `true`, creates a responsive grid that changes width based on device breakpoints
    */
-  margin?: string;
+  isFixed?: boolean;
 }
 
 /**
