@@ -13,7 +13,9 @@ const InputElement = React.forwardRef<HTMLDivElement, Omit<IInputElementProps, '
 });
 
 InputElement.defaultProps = {
-  clickable: false,
+  girth: 'md',
+  isBlend: false,
+  isClickable: false,
 };
 
 InputElement.displayName = 'InputElement';

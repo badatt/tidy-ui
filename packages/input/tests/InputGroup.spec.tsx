@@ -54,16 +54,16 @@ describe('Input', () => {
   it('Blend render', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <InputGroup blend>
+        <InputGroup isBlend>
           <Input.Element node="$" />
           <Input placeholder="500" />
           <Input.Element node="/-" />
         </InputGroup>
-        <InputGroup blend>
+        <InputGroup isBlend>
           <Input.Element node="$" />
           <Input placeholder="500" />
         </InputGroup>
-        <InputGroup blend>
+        <InputGroup isBlend>
           <Input placeholder="500" />
           <Input.Element node="/-" />
         </InputGroup>
@@ -75,16 +75,16 @@ describe('Input', () => {
   it('Blend dark render', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
-        <InputGroup blend>
+        <InputGroup isBlend>
           <Input.Element node="$" />
           <Input placeholder="500" />
           <Input.Element node="/-" />
         </InputGroup>
-        <InputGroup blend>
+        <InputGroup isBlend>
           <Input.Element node="$" />
           <Input placeholder="500" />
         </InputGroup>
-        <InputGroup blend>
+        <InputGroup isBlend>
           <Input placeholder="500" />
           <Input.Element node="/-" />
         </InputGroup>

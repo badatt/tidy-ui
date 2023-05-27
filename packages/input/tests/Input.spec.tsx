@@ -5,7 +5,7 @@ import React from 'react';
 import { act, fireEvent, getByDisplayValue, getByRole, render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidDark, orchidLight, Size, Status, TidyUiProvider } from '../../commons/src';
+import { orchidDark, orchidLight, Girth, Status, TidyUiProvider } from '../../commons/src';
 import { Input } from '../src';
 import { Variant } from '../src/types';
 
@@ -77,10 +77,10 @@ describe('Input', () => {
   it('Sizes', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        {Object.values(Size)
+        {Object.values(Girth)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Input key={i} sz={Size[v]} placeholder={Size[v]} />
+            <Input key={i} girth={Girth[v]} placeholder={Girth[v]} />
           ))}
       </TidyUiProvider>,
     );
@@ -121,7 +121,7 @@ describe('Input', () => {
   it('Stretched', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Input stretched placeholder="stretched value" />
+        <Input isStretched placeholder="stretched value" />
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();

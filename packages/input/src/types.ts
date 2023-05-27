@@ -1,5 +1,5 @@
 import { HTMLAttributes, InputHTMLAttributes, ReactNode } from 'react';
-import { TSize, TStatus } from '@tidy-ui/commons';
+import { TGirth, TStatus } from '@tidy-ui/commons';
 import { IBaseProps } from '@tidy-ui/types';
 
 /**
@@ -41,12 +41,20 @@ export interface ITextInputProps extends IBaseProps, InputHTMLAttributes<HTMLInp
   caption?: string;
 
   /**
-   * If `true`, the component is disabled
+   * The girth of the component
+   *
+   * @type {?TGirth}
+   * @default 'md'
+   */
+  girth?: TGirth;
+
+  /**
+   * If `true`, the component is stretched to full width
    *
    * @type {?boolean}
    * @default false
    */
-  disabled?: boolean;
+  isStretched?: boolean;
 
   /**
    * Color variant of the component, typically used to classify the
@@ -55,22 +63,6 @@ export interface ITextInputProps extends IBaseProps, InputHTMLAttributes<HTMLInp
    * @type {?TStatus}
    */
   status?: TStatus;
-
-  /**
-   * If `true`, the component is stretched to full width
-   *
-   * @type {?boolean}
-   * @default false
-   */
-  stretched?: boolean;
-
-  /**
-   * The size of the component
-   *
-   * @type {?TSize}
-   * @default 'md'
-   */
-  sz?: TSize;
 
   /**
    * The variant of the component
@@ -86,14 +78,6 @@ export interface ITextInputProps extends IBaseProps, InputHTMLAttributes<HTMLInp
  */
 export interface IInputGroupProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * If `true`, elements blend inside Input component
-   *
-   * @type {?boolean}
-   * @default false
-   */
-  blend?: boolean;
-
-  /**
    * If `true`, the component is disabled
    *
    * @type {?boolean}
@@ -102,12 +86,20 @@ export interface IInputGroupProps extends IBaseProps, HTMLAttributes<HTMLDivElem
   disabled?: boolean;
 
   /**
-   * The size of the component
+   * The girth of the component
    *
-   * @type {?TSize}
+   * @type {?TGirth}
    * @default 'md'
    */
-  sz?: TSize;
+  girth?: TGirth;
+
+  /**
+   * If `true`, elements blend inside Input component
+   *
+   * @type {?boolean}
+   * @default false
+   */
+  isBlend?: boolean;
 }
 
 /**
@@ -115,20 +107,6 @@ export interface IInputGroupProps extends IBaseProps, HTMLAttributes<HTMLDivElem
  */
 export interface IInputElementProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * If `true`, elements blend inside Input component
-   *
-   * @type {?boolean}
-   * @default false
-   */
-  blend?: boolean;
-  /**
-   * If `true`, the element is clickable
-   *
-   * @type {?boolean}
-   * @default false
-   */
-  clickable?: boolean;
-  /**
    * If `true`, the component is disabled
    *
    * @type {?boolean}
@@ -136,15 +114,28 @@ export interface IInputElementProps extends IBaseProps, HTMLAttributes<HTMLDivEl
    */
   disabled?: boolean;
   /**
+   * The girth of the component
+   *
+   * @type {?TGirth}
+   * @default 'md'
+   */
+  girth?: TGirth;
+  /**
+   * If `true`, elements blend inside Input component
+   *
+   * @type {?boolean}
+   * @default false
+   */
+  isBlend?: boolean;
+  /**
+   * If `true`, the element is clickable
+   *
+   * @type {?boolean}
+   * @default false
+   */
+  isClickable?: boolean;
+  /**
    * Node enclosed in the element
    */
   node: ReactNode;
-
-  /**
-   * The size of the component
-   *
-   * @type {?TSize}
-   * @default 'md'
-   */
-  sz?: TSize;
 }

@@ -16,7 +16,7 @@ const WeekInput = React.forwardRef<HTMLInputElement, Omit<ITextInputProps, 'chil
 
 WeekInput.defaultProps = {
   disabled: false,
-  sz: 'md',
+  girth: 'md',
   variant: 'outlined',
 };
 

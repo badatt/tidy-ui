@@ -22,17 +22,17 @@ const StyledTextInput = styled(TextInput)`
 `;
 
 const DateInput = React.forwardRef<HTMLInputElement, Omit<ITextInputProps, 'children'>>((props, ref) => {
-  const { ...rest } = props;
+  const { disabled, girth } = props;
   return (
-    <InputGroup blend {...rest}>
-      <StyledTextInput ref={ref} type="date" {...rest} />
+    <InputGroup isBlend {...{ disabled, girth }}>
+      <StyledTextInput ref={ref} type="date" {...props} />
     </InputGroup>
   );
 });
 
 DateInput.defaultProps = {
   disabled: false,
-  sz: 'md',
+  girth: 'md',
   variant: 'outlined',
 };
 

@@ -6,18 +6,18 @@ import { TextInput } from './TextInput';
 import { ITextInputProps } from './types';
 
 const EmailInput = React.forwardRef<HTMLInputElement, Omit<ITextInputProps, 'children'>>((props, ref) => {
-  const { ...rest } = props;
+  const { disabled, girth } = props;
   return (
-    <InputGroup blend {...rest}>
-      <TextInput ref={ref} type="email" {...rest} />
-      <InputElement node={<Icon ele={<Icon.Email isOutlined />} />} />
+    <InputGroup isBlend {...{ disabled, girth }}>
+      <TextInput ref={ref} type="email" {...props} />
+      <InputElement isBlend node={<Icon ele={<Icon.Email isOutlined />} />} {...{ disabled, girth }} />
     </InputGroup>
   );
 });
 
 EmailInput.defaultProps = {
   disabled: false,
-  sz: 'md',
+  girth: 'md',
   variant: 'outlined',
 };
 

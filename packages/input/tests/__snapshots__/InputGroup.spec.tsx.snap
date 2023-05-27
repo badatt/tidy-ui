@@ -34,7 +34,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -135,7 +134,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -295,7 +293,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -396,7 +393,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -611,7 +607,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -810,7 +805,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -1064,7 +1058,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -1263,7 +1256,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -1517,7 +1509,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -1618,7 +1609,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -1778,7 +1768,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -1879,7 +1868,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);

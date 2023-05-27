@@ -29,18 +29,10 @@ const commonStyles = css<ITextInputProps>`
   background: inherit;
   color: inherit;
 
-  ${({ disabled, stretched, sz, width }) => css`
-    width: ${stretched ? '100%' : width ?? 'inherit'};
-    height: calc(2.5em * ${sizeScale[sz!]});
-    font-size: calc(1rem * ${sizeScale[sz!]});
-    line-height: calc(1.5 * ${sizeScale[sz!]});
-    ${disabled &&
-    css`
-      pointer-events: none;
-      cursor: not-allowed;
-      opacity: 0.6;
-      transition: none;
-    `}
+  ${({ isStretched, girth, width }) => css`
+    width: ${isStretched ? '100%' : width ?? 'inherit'};
+    height: calc(2.5em * ${sizeScale[girth!]});
+    font-size: calc(1rem * ${sizeScale[girth!]});
     ::placeholder {
       color: ${hsla(color.slate[500])};
       opacity: 1;
@@ -60,10 +52,10 @@ const outlined = css<ITextInputProps>`
   ${commonStyles}
   border-style: solid;
 
-  ${({ theme: { palette, isDark }, status, sz }) => css`
-    border-radius: calc(0.375rem * ${sizeScale[sz!]});
-    padding-inline-start: calc(1rem * ${sizeScale[sz!]});
-    padding-inline-end: calc(1rem * ${sizeScale[sz!]});
+  ${({ theme: { palette, isDark }, status, girth }) => css`
+    border-radius: calc(0.375rem * ${sizeScale[girth!]});
+    padding-inline-start: calc(1rem * ${sizeScale[girth!]});
+    padding-inline-end: calc(1rem * ${sizeScale[girth!]});
     border-color: ${status ? palette[status][getBorderColor(isDark)] : hsla(color.slate[getBorderColor(isDark)])};
     :hover {
       border-color: ${status ? palette[status][500] : hsla(color.slate[400])};
@@ -81,10 +73,10 @@ const filled = css<ITextInputProps>`
   border-style: solid;
   border-color: transparent;
 
-  ${({ theme: { palette, isDark }, status, sz }) => css`
-    border-radius: calc(0.375rem * ${sizeScale[sz!]});
-    padding-inline-start: calc(1rem * ${sizeScale[sz!]});
-    padding-inline-end: calc(1rem * ${sizeScale[sz!]});
+  ${({ theme: { palette, isDark }, status, girth }) => css`
+    border-radius: calc(0.375rem * ${sizeScale[girth!]});
+    padding-inline-start: calc(1rem * ${sizeScale[girth!]});
+    padding-inline-end: calc(1rem * ${sizeScale[girth!]});
     background-color: ${isDark ? hsla(color.slate[700]) : hsla(color.slate[300])};
     :hover {
       background-color: ${isDark ? hsla(color.slate[600]) : hsla(color.slate[200])};
@@ -177,16 +169,16 @@ const inputGroupBlend = css<IInputGroupProps>`
     right: 0;
   }
 
-  ${({ sz }) => css`
+  ${({ girth }) => css`
     & input {
-      padding-inline-start: calc(2.5em * ${sizeScale[sz!]});
-      padding-inline-end: calc(2.5em * ${sizeScale[sz!]});
+      padding-inline-start: calc(2.5em * ${sizeScale[girth!]});
+      padding-inline-end: calc(2.5em * ${sizeScale[girth!]});
     }
     & > div:first-child > input {
-      padding-inline-start: calc(1rem * ${sizeScale[sz!]});
+      padding-inline-start: calc(1rem * ${sizeScale[girth!]});
     }
     & > div:last-child > input {
-      padding-inline-end: calc(1rem * ${sizeScale[sz!]});
+      padding-inline-end: calc(1rem * ${sizeScale[girth!]});
     }
   `}
 `;
@@ -197,15 +189,15 @@ const inputElementBlend = css<IInputElementProps>`
   justify-content: center;
   position: absolute;
   z-index: 2;
-  ${({ theme: { isDark, typography }, clickable, sz }) => css`
-    font-size: calc(1rem * ${sizeScale[sz!]});
-    height: calc(2.5em * ${sizeScale[sz!]});
-    width: calc(2.5em * ${sizeScale[sz!]});
-    font-size: calc(1rem * ${sizeScale[sz!]});
-    line-height: calc(1.5 * ${sizeScale[sz!]});
+  ${({ theme: { isDark, typography }, isClickable, girth }) => css`
+    font-size: calc(1rem * ${sizeScale[girth!]});
+    height: calc(2.5em * ${sizeScale[girth!]});
+    width: calc(2.5em * ${sizeScale[girth!]});
+    font-size: calc(1rem * ${sizeScale[girth!]});
+    line-height: calc(1.5 * ${sizeScale[girth!]});
     color: ${isDark ? hsla(color.slate[600]) : hsla(color.slate[400])};
     font-weight: ${typography.h6.fontWeight};
-    ${clickable
+    ${isClickable
       ? css`
           cursor: pointer;
         `
