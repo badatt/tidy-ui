@@ -60,10 +60,24 @@ describe('Message', () => {
     );
     expect(tree).toMatchSnapshot();
   });
+  it('Message with all color filled variants', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        {Object.values(Tone)
+          .filter((i) => !isNaN(Number(i)))
+          .map((c) => (
+            <Message tone={Tone[c]} key={c} isFilled>
+              {text}
+            </Message>
+          ))}
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
   it('Message stretched to full width', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Message stretched>{text}</Message>
+        <Message isStretched>{text}</Message>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -87,7 +101,7 @@ describe('Message', () => {
   it('Message with sharp label', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Message sharp>{text}</Message>
+        <Message isSharp>{text}</Message>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -95,27 +109,7 @@ describe('Message', () => {
   it('Message with no label', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Message withoutLabel>{text}</Message>
-      </TidyUiProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('Custom dimension', () => {
-    const tree = render(
-      <TidyUiProvider theme={orchidLight}>
-        <Message margin="0 0 1rem 0" height="10rem" width="20rem" closable>
-          {text}
-        </Message>
-      </TidyUiProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('Custom margin', () => {
-    const tree = render(
-      <TidyUiProvider theme={orchidLight}>
-        <Message margin="0 0 1rem 0">{text}</Message>
+        <Message hasLabel={false}>{text}</Message>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -124,9 +118,7 @@ describe('Message', () => {
   it.skip('Closable message without any callback', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
-        <Message closable outlined>
-          {text}
-        </Message>
+        <Message closable>{text}</Message>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -143,7 +135,7 @@ describe('Message', () => {
     const mockCallback = jest.fn();
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Message closable onClose={mockCallback} outlined>
+        <Message closable onClose={mockCallback}>
           {text}
         </Message>
       </TidyUiProvider>,

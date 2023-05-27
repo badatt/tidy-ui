@@ -1,4 +1,4 @@
-import { createFontStyle, css, IPalette, styled } from '@tidy-ui/commons';
+import { applyStandardOverrideStyles, createFontStyle, css, IPalette, styled } from '@tidy-ui/commons';
 import { filledContent, filledLabel, outlinedContent, outlinedLabel } from './styles';
 import { IMessageProps } from './types';
 
@@ -8,10 +8,7 @@ import { IMessageProps } from './types';
  * @internal
  */
 const MessageRoot = styled.div<IMessageProps>`
-  ${({ margin, width }) => css`
-    margin: ${margin};
-    width: ${width};
-  `}
+  ${applyStandardOverrideStyles}
 `;
 
 /**
@@ -32,7 +29,7 @@ const closeButtonColor = (isDark: boolean, palette: IPalette, color: string): st
  * @internal
  */
 const CloseButton = styled.span<IMessageProps>`
-  ${({ theme: { palette, isDark }, tone, outlined }) => css`
+  ${({ theme: { palette, isDark }, tone, isFilled }) => css`
     height: 1rem;
     width: 1rem;
     min-width: 1rem;
@@ -41,12 +38,12 @@ const CloseButton = styled.span<IMessageProps>`
     position: absolute;
     top: 0;
     right: 2px;
-    ${outlined
+    ${isFilled
       ? css`
-          color: ${closeButtonColor(isDark, palette, tone!)};
+          color: ${palette[tone!][50]};
         `
       : css`
-          color: ${palette[tone!][50]};
+          color: ${closeButtonColor(isDark, palette, tone!)};
         `}
   `}
 `;
@@ -57,19 +54,19 @@ const CloseButton = styled.span<IMessageProps>`
  * @internal
  */
 const MessageLabel = styled.div<IMessageProps>`
-  ${({ theme: { font, layout }, sharp, outlined }) => css`
+  ${({ theme: { font, layout }, isSharp, isFilled }) => css`
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2px;
-    border-top-left-radius: ${!sharp && layout.radius};
-    border-top-right-radius: ${!sharp && layout.radius};
+    border-top-left-radius: ${!isSharp && layout.radius};
+    border-top-right-radius: ${!isSharp && layout.radius};
     width: fit-content;
     padding: 0.25rem 1rem;
     font-size: 0.625rem;
     font-weight: ${font.bold};
     text-transform: uppercase;
-    ${outlined ? outlinedLabel : filledLabel}
+    ${isFilled ? filledLabel : outlinedLabel}
     * {
       height: 0.75rem;
       width: 0.75rem;
@@ -85,16 +82,15 @@ const MessageLabel = styled.div<IMessageProps>`
 const MessageContent = styled.div<IMessageProps>`
   position: relative;
   ${createFontStyle()}
-  ${({ theme: { layout }, sharp, stretched, withoutLabel, outlined, height }) => css`
+  ${({ theme: { layout }, isSharp, isStretched, hasLabel, isFilled }) => css`
     padding: 0.75rem 1rem;
-    border-radius: ${!sharp && layout.radius};
-    height: ${height};
-    ${!withoutLabel &&
+    border-radius: ${!isSharp && layout.radius};
+    ${hasLabel &&
     css`
       border-top-left-radius: 0;
     `}
-    width: ${stretched ? '100%' : 'fit-content'};
-    ${outlined ? outlinedContent : filledContent}
+    width: ${isStretched ? '100%' : 'fit-content'};
+    ${isFilled ? filledContent : outlinedContent}
   `}
   &:hover ${CloseButton} {
     display: block;

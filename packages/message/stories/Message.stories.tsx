@@ -23,17 +23,17 @@ export const basic = () => (
 );
 
 export const sharp = () => (
-  <Message sharp>
+  <Message isSharp>
     <Content />
   </Message>
 );
 
 export const withoutLabel = () => (
   <FlexBox gap="1rem">
-    <Message withoutLabel>
+    <Message hasLabel={false}>
       <Content />
     </Message>
-    <Message sharp withoutLabel>
+    <Message isSharp hasLabel={false}>
       <Content />
     </Message>
   </FlexBox>
@@ -51,12 +51,12 @@ export const tones = () => (
   </FlexBox>
 );
 
-export const outlined = () => (
+export const filled = () => (
   <FlexBox gap="1rem">
     {Object.keys(Tone)
       .filter((i) => !isNaN(Number(i)))
       .map((v, i) => (
-        <Message key={i} tone={Tone[v]} outlined>
+        <Message key={i} tone={Tone[v]} isFilled>
           <Content />
         </Message>
       ))}
@@ -68,32 +68,10 @@ export const closable = () => (
     <Message closable onClose={() => alert('Message will be closed now')}>
       <Content />
     </Message>
-    <Message closable outlined>
+    <Message closable>
       <Content />
     </Message>
   </FlexBox>
-);
-
-export const customMargin = () => (
-  <>
-    <Message margin="0 0 1rem 0">
-      <Content />
-    </Message>
-    <Message outlined>
-      <Content />
-    </Message>
-  </>
-);
-
-export const customDimensions = () => (
-  <>
-    <Message margin="0 0 1rem 0" height="12rem" width="20rem" closable>
-      <Content />
-    </Message>
-    <Message outlined>
-      <Content />
-    </Message>
-  </>
 );
 
 export const customElement = () => (
