@@ -103,13 +103,14 @@ export interface IconComponent
  * Icon wrapper component
  */
 const Icon = React.forwardRef<HTMLDivElement, Omit<IIconProps, 'children'>>((props, ref) => {
-  const { ele, style, height, margin, width, ...rest } = props;
-  const styles = { ...style, height, margin, width };
+  const { ele, style, height, margin, width, display, ...rest } = props;
+  const styles = { ...style, display, height, margin, width };
   const styledIconElement = React.cloneElement(ele, { style: styles });
   return React.createElement('span', { ref, style: styles, ...rest }, styledIconElement);
 }) as IconComponent;
 
 Icon.defaultProps = {
+  display: 'flex',
   height: '1.25em',
   width: '1.25em',
 };
