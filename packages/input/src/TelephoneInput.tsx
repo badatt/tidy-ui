@@ -6,18 +6,18 @@ import { TextInput } from './TextInput';
 import { ITextInputProps } from './types';
 
 const TelephoneInput = React.forwardRef<HTMLInputElement, Omit<ITextInputProps, 'children'>>((props, ref) => {
-  const { ...rest } = props;
+  const { disabled, girth } = props;
   return (
-    <InputGroup blend {...rest}>
-      <TextInput ref={ref} type="tel" {...rest} />
-      <InputElement node={<Icon ele={<Icon.Phone />} />} />
+    <InputGroup isBlend {...{ disabled, girth }}>
+      <TextInput ref={ref} type="tel" {...props} />
+      <InputElement node={<Icon ele={<Icon.Phone />} />} isBlend {...{ disabled, girth }} />
     </InputGroup>
   );
 });
 
 TelephoneInput.defaultProps = {
   disabled: false,
-  sz: 'md',
+  girth: 'md',
   variant: 'outlined',
 };
 

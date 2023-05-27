@@ -3,13 +3,12 @@ import { DateInput } from './DateInput';
 import { ITextInputProps } from './types';
 
 const MonthInput = React.forwardRef<HTMLInputElement, Omit<ITextInputProps, 'children'>>((props, ref) => {
-  const { ...rest } = props;
-  return <DateInput ref={ref} type="month" {...rest} />;
+  return <DateInput ref={ref} type="month" {...props} />;
 });
 
 MonthInput.defaultProps = {
   disabled: false,
-  sz: 'md',
+  girth: 'md',
   variant: 'outlined',
 };
 

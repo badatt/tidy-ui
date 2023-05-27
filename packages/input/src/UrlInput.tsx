@@ -6,18 +6,18 @@ import { TextInput } from './TextInput';
 import { ITextInputProps } from './types';
 
 const UrlInput = React.forwardRef<HTMLInputElement, Omit<ITextInputProps, 'children'>>((props, ref) => {
-  const { ...rest } = props;
+  const { disabled, girth } = props;
   return (
-    <InputGroup blend {...rest}>
-      <TextInput ref={ref} type="url" {...rest} />
-      <InputElement node={<Icon ele={<Icon.Link />} />} />
+    <InputGroup isBlend {...{ disabled, girth }}>
+      <TextInput ref={ref} type="url" {...props} />
+      <InputElement node={<Icon ele={<Icon.Link />} />} isBlend {...{ disabled, girth }} />
     </InputGroup>
   );
 });
 
 UrlInput.defaultProps = {
   disabled: false,
-  sz: 'md',
+  girth: 'md',
   variant: 'outlined',
 };
 

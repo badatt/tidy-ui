@@ -1,4 +1,4 @@
-import { createFontStyle, css, styled } from '@tidy-ui/commons';
+import { applyStandardOverrideStyles, createFontStyle, css, styled } from '@tidy-ui/commons';
 import {
   filled,
   inputElementBlend,
@@ -24,6 +24,7 @@ const TextInputMain = styled.input<ITextInputProps>`
     ${variant === 'underline' && underline}
     ${variant === 'simple' && simple}
   `}
+  ${applyStandardOverrideStyles}
 `;
 
 const TextInputLabel = styled.div<ITextInputProps>`
@@ -39,15 +40,17 @@ const TextInputLabel = styled.div<ITextInputProps>`
  * @Internal
  */
 const InputGroupRoot = styled.div<IInputGroupProps>`
-  ${({ blend }) => css`
-    ${blend ? inputGroupBlend : inputGroupFrill}
+  ${({ isBlend }) => css`
+    ${isBlend ? inputGroupBlend : inputGroupFrill}
   `}
+  ${applyStandardOverrideStyles}
 `;
 
 const InputElementRoot = styled.div<IInputElementProps>`
-  ${({ blend }) => css`
-    ${blend ? inputElementBlend : inputElementFrill}
+  ${({ isBlend }) => css`
+    ${isBlend ? inputElementBlend : inputElementFrill}
   `}
+  ${applyStandardOverrideStyles}
 `;
 
 export { InputElementRoot, InputGroupRoot, TextInputLabel, TextInputMain, TextInputRoot };

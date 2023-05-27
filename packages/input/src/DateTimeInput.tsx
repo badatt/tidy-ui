@@ -19,7 +19,7 @@ const DateTimeInput = React.forwardRef<HTMLInputElement, Omit<ITextInputProps, '
 
 DateTimeInput.defaultProps = {
   disabled: false,
-  sz: 'md',
+  girth: 'md',
   variant: 'outlined',
 };
 

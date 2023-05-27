@@ -34,7 +34,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -124,7 +123,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -269,7 +267,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -338,7 +335,6 @@ Object {
         />
         <div
           class="c2"
-          placeholder="Enter name"
         >
           Caption
         </div>
@@ -376,7 +372,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -444,7 +439,6 @@ Object {
       />
       <div
         class="c2"
-        placeholder="Enter name"
       >
         Caption
       </div>
@@ -538,12 +532,12 @@ Object {
   width: 300px;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
   padding-inline-end: calc(1rem * 1);
   border-color: hsla(213,27%,84%,1);
+  width: 300px;
 }
 
 .c1::-webkit-input-placeholder {
@@ -629,12 +623,12 @@ Object {
   width: 300px;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
   padding-inline-end: calc(1rem * 1);
   border-color: hsla(213,27%,84%,1);
+  width: 300px;
 }
 
 .c1::-webkit-input-placeholder {
@@ -775,7 +769,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -865,7 +858,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -1010,12 +1002,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
-  pointer-events: none;
-  cursor: not-allowed;
-  opacity: 0.6;
-  -webkit-transition: none;
-  transition: none;
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -1106,12 +1092,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
-  pointer-events: none;
-  cursor: not-allowed;
-  opacity: 0.6;
-  -webkit-transition: none;
-  transition: none;
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -1257,7 +1237,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -1363,9 +1342,7 @@ Object {
     <div>
       <div
         class="c0"
-        placeholder="password"
         role="group"
-        value="pass"
       >
         <div
           class="c1"
@@ -1384,13 +1361,13 @@ Object {
           value="pass"
         >
           <span
-            style="height: 1.25em; width: 1.25em;"
+            style="display: flex; height: 1.25em; width: 1.25em;"
           >
             <svg
               aria-hidden="true"
               fill="currentColor"
               focusable="false"
-              style="height: 1.25em; width: 1.25em;"
+              style="display: flex; height: 1.25em; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1438,7 +1415,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -1543,9 +1519,7 @@ Object {
 <div>
     <div
       class="c0"
-      placeholder="password"
       role="group"
-      value="pass"
     >
       <div
         class="c1"
@@ -1564,13 +1538,13 @@ Object {
         value="pass"
       >
         <span
-          style="height: 1.25em; width: 1.25em;"
+          style="display: flex; height: 1.25em; width: 1.25em;"
         >
           <svg
             aria-hidden="true"
             fill="currentColor"
             focusable="false"
-            style="height: 1.25em; width: 1.25em;"
+            style="display: flex; height: 1.25em; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1674,7 +1648,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 0.75);
   font-size: calc(1rem * 0.75);
-  line-height: calc(1.5 * 0.75);
   border-style: solid;
   border-radius: calc(0.375rem * 0.75);
   padding-inline-start: calc(1rem * 0.75);
@@ -1740,7 +1713,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 0.85);
   font-size: calc(1rem * 0.85);
-  line-height: calc(1.5 * 0.85);
   border-style: solid;
   border-radius: calc(0.375rem * 0.85);
   padding-inline-start: calc(1rem * 0.85);
@@ -1806,7 +1778,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 0.9);
   font-size: calc(1rem * 0.9);
-  line-height: calc(1.5 * 0.9);
   border-style: solid;
   border-radius: calc(0.375rem * 0.9);
   padding-inline-start: calc(1rem * 0.9);
@@ -1872,7 +1843,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -1938,7 +1908,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1.2);
   font-size: calc(1rem * 1.2);
-  line-height: calc(1.5 * 1.2);
   border-style: solid;
   border-radius: calc(0.375rem * 1.2);
   padding-inline-start: calc(1rem * 1.2);
@@ -2004,7 +1973,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1.4);
   font-size: calc(1rem * 1.4);
-  line-height: calc(1.5 * 1.4);
   border-style: solid;
   border-radius: calc(0.375rem * 1.4);
   padding-inline-start: calc(1rem * 1.4);
@@ -2070,7 +2038,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1.6);
   font-size: calc(1rem * 1.6);
-  line-height: calc(1.5 * 1.6);
   border-style: solid;
   border-radius: calc(0.375rem * 1.6);
   padding-inline-start: calc(1rem * 1.6);
@@ -2214,7 +2181,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 0.75);
   font-size: calc(1rem * 0.75);
-  line-height: calc(1.5 * 0.75);
   border-style: solid;
   border-radius: calc(0.375rem * 0.75);
   padding-inline-start: calc(1rem * 0.75);
@@ -2280,7 +2246,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 0.85);
   font-size: calc(1rem * 0.85);
-  line-height: calc(1.5 * 0.85);
   border-style: solid;
   border-radius: calc(0.375rem * 0.85);
   padding-inline-start: calc(1rem * 0.85);
@@ -2346,7 +2311,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 0.9);
   font-size: calc(1rem * 0.9);
-  line-height: calc(1.5 * 0.9);
   border-style: solid;
   border-radius: calc(0.375rem * 0.9);
   padding-inline-start: calc(1rem * 0.9);
@@ -2412,7 +2376,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -2478,7 +2441,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1.2);
   font-size: calc(1rem * 1.2);
-  line-height: calc(1.5 * 1.2);
   border-style: solid;
   border-radius: calc(0.375rem * 1.2);
   padding-inline-start: calc(1rem * 1.2);
@@ -2544,7 +2506,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1.4);
   font-size: calc(1rem * 1.4);
-  line-height: calc(1.5 * 1.4);
   border-style: solid;
   border-radius: calc(0.375rem * 1.4);
   padding-inline-start: calc(1rem * 1.4);
@@ -2610,7 +2571,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1.6);
   font-size: calc(1rem * 1.6);
-  line-height: calc(1.5 * 1.6);
   border-style: solid;
   border-radius: calc(0.375rem * 1.6);
   padding-inline-start: calc(1rem * 1.6);
@@ -2809,7 +2769,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -2875,7 +2834,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -2941,7 +2899,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -3007,7 +2964,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -3113,7 +3069,6 @@ Object {
         />
         <div
           class="c2"
-          placeholder="info"
         >
           Caption
         </div>
@@ -3128,7 +3083,6 @@ Object {
         />
         <div
           class="c4"
-          placeholder="success"
         >
           Caption
         </div>
@@ -3143,7 +3097,6 @@ Object {
         />
         <div
           class="c6"
-          placeholder="warning"
         >
           Caption
         </div>
@@ -3158,7 +3111,6 @@ Object {
         />
         <div
           class="c8"
-          placeholder="danger"
         >
           Caption
         </div>
@@ -3196,7 +3148,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -3262,7 +3213,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -3328,7 +3278,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -3394,7 +3343,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -3499,7 +3447,6 @@ Object {
       />
       <div
         class="c2"
-        placeholder="info"
       >
         Caption
       </div>
@@ -3514,7 +3461,6 @@ Object {
       />
       <div
         class="c4"
-        placeholder="success"
       >
         Caption
       </div>
@@ -3529,7 +3475,6 @@ Object {
       />
       <div
         class="c6"
-        placeholder="warning"
       >
         Caption
       </div>
@@ -3544,7 +3489,6 @@ Object {
       />
       <div
         class="c8"
-        placeholder="danger"
       >
         Caption
       </div>
@@ -3638,7 +3582,6 @@ Object {
   width: 100%;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -3728,7 +3671,6 @@ Object {
   width: 100%;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -3873,7 +3815,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -4055,7 +3996,6 @@ Object {
       </div>
       <div
         class="c2"
-        placeholder="Password input"
         role="group"
       >
         <div
@@ -4074,13 +4014,13 @@ Object {
           role="button"
         >
           <span
-            style="height: 1.25em; width: 1.25em;"
+            style="display: flex; height: 1.25em; width: 1.25em;"
           >
             <svg
               aria-hidden="true"
               fill="currentColor"
               focusable="false"
-              style="height: 1.25em; width: 1.25em;"
+              style="display: flex; height: 1.25em; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -4096,20 +4036,14 @@ Object {
         </div>
       </div>
       <div
-        class="c2"
-        placeholder="Number input"
-        role="group"
+        class="c0"
       >
-        <div
-          class="c0"
-        >
-          <input
-            class="c1"
-            placeholder="Number input"
-            role="form"
-            type="number"
-          />
-        </div>
+        <input
+          class="c1"
+          placeholder="Number input"
+          role="form"
+          type="number"
+        />
       </div>
       <div
         class="c2"
@@ -4126,9 +4060,8 @@ Object {
         </div>
       </div>
       <div
-        class="c2 c5"
+        class="c2"
         role="group"
-        type="datetime-local"
       >
         <div
           class="c0"
@@ -4143,7 +4076,6 @@ Object {
       <div
         class="c2"
         role="group"
-        type="month"
       >
         <div
           class="c0"
@@ -4156,9 +4088,8 @@ Object {
         </div>
       </div>
       <div
-        class="c2 c6"
+        class="c2"
         role="group"
-        type="week"
       >
         <div
           class="c0"
@@ -4186,7 +4117,6 @@ Object {
       </div>
       <div
         class="c2"
-        placeholder="Email input"
         role="group"
       >
         <div
@@ -4201,16 +4131,15 @@ Object {
         </div>
         <div
           class="c8"
-          placeholder="Email input"
         >
           <span
-            style="height: 1.25em; width: 1.25em;"
+            style="display: flex; height: 1.25em; width: 1.25em;"
           >
             <svg
               aria-hidden="true"
               fill="currentColor"
               focusable="false"
-              style="height: 1.25em; width: 1.25em;"
+              style="display: flex; height: 1.25em; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -4223,21 +4152,19 @@ Object {
       </div>
       <div
         class="c2"
-        placeholder="Search input"
         role="group"
       >
         <div
           class="c8"
-          placeholder="Search input"
         >
           <span
-            style="height: 1.25em; width: 1.25em;"
+            style="display: flex; height: 1.25em; width: 1.25em;"
           >
             <svg
               aria-hidden="true"
               fill="currentColor"
               focusable="false"
-              style="height: 1.25em; width: 1.25em;"
+              style="display: flex; height: 1.25em; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -4264,7 +4191,6 @@ Object {
       </div>
       <div
         class="c2"
-        placeholder="Telephone input"
         role="group"
       >
         <div
@@ -4279,16 +4205,15 @@ Object {
         </div>
         <div
           class="c8"
-          placeholder="Telephone input"
         >
           <span
-            style="height: 1.25em; width: 1.25em;"
+            style="display: flex; height: 1.25em; width: 1.25em;"
           >
             <svg
               aria-hidden="true"
               fill="currentColor"
               focusable="false"
-              style="height: 1.25em; width: 1.25em;"
+              style="display: flex; height: 1.25em; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -4305,7 +4230,6 @@ Object {
       </div>
       <div
         class="c2"
-        placeholder="URL input"
         role="group"
       >
         <div
@@ -4320,16 +4244,15 @@ Object {
         </div>
         <div
           class="c8"
-          placeholder="URL input"
         >
           <span
-            style="height: 1.25em; width: 1.25em;"
+            style="display: flex; height: 1.25em; width: 1.25em;"
           >
             <svg
               aria-hidden="true"
               fill="currentColor"
               focusable="false"
-              style="height: 1.25em; width: 1.25em;"
+              style="display: flex; height: 1.25em; width: 1.25em;"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -4373,7 +4296,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -4554,7 +4476,6 @@ Object {
     </div>
     <div
       class="c2"
-      placeholder="Password input"
       role="group"
     >
       <div
@@ -4573,13 +4494,13 @@ Object {
         role="button"
       >
         <span
-          style="height: 1.25em; width: 1.25em;"
+          style="display: flex; height: 1.25em; width: 1.25em;"
         >
           <svg
             aria-hidden="true"
             fill="currentColor"
             focusable="false"
-            style="height: 1.25em; width: 1.25em;"
+            style="display: flex; height: 1.25em; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4595,20 +4516,14 @@ Object {
       </div>
     </div>
     <div
-      class="c2"
-      placeholder="Number input"
-      role="group"
+      class="c0"
     >
-      <div
-        class="c0"
-      >
-        <input
-          class="c1"
-          placeholder="Number input"
-          role="form"
-          type="number"
-        />
-      </div>
+      <input
+        class="c1"
+        placeholder="Number input"
+        role="form"
+        type="number"
+      />
     </div>
     <div
       class="c2"
@@ -4625,9 +4540,8 @@ Object {
       </div>
     </div>
     <div
-      class="c2 c5"
+      class="c2"
       role="group"
-      type="datetime-local"
     >
       <div
         class="c0"
@@ -4642,7 +4556,6 @@ Object {
     <div
       class="c2"
       role="group"
-      type="month"
     >
       <div
         class="c0"
@@ -4655,9 +4568,8 @@ Object {
       </div>
     </div>
     <div
-      class="c2 c6"
+      class="c2"
       role="group"
-      type="week"
     >
       <div
         class="c0"
@@ -4685,7 +4597,6 @@ Object {
     </div>
     <div
       class="c2"
-      placeholder="Email input"
       role="group"
     >
       <div
@@ -4700,16 +4611,15 @@ Object {
       </div>
       <div
         class="c8"
-        placeholder="Email input"
       >
         <span
-          style="height: 1.25em; width: 1.25em;"
+          style="display: flex; height: 1.25em; width: 1.25em;"
         >
           <svg
             aria-hidden="true"
             fill="currentColor"
             focusable="false"
-            style="height: 1.25em; width: 1.25em;"
+            style="display: flex; height: 1.25em; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4722,21 +4632,19 @@ Object {
     </div>
     <div
       class="c2"
-      placeholder="Search input"
       role="group"
     >
       <div
         class="c8"
-        placeholder="Search input"
       >
         <span
-          style="height: 1.25em; width: 1.25em;"
+          style="display: flex; height: 1.25em; width: 1.25em;"
         >
           <svg
             aria-hidden="true"
             fill="currentColor"
             focusable="false"
-            style="height: 1.25em; width: 1.25em;"
+            style="display: flex; height: 1.25em; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4763,7 +4671,6 @@ Object {
     </div>
     <div
       class="c2"
-      placeholder="Telephone input"
       role="group"
     >
       <div
@@ -4778,16 +4685,15 @@ Object {
       </div>
       <div
         class="c8"
-        placeholder="Telephone input"
       >
         <span
-          style="height: 1.25em; width: 1.25em;"
+          style="display: flex; height: 1.25em; width: 1.25em;"
         >
           <svg
             aria-hidden="true"
             fill="currentColor"
             focusable="false"
-            style="height: 1.25em; width: 1.25em;"
+            style="display: flex; height: 1.25em; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4804,7 +4710,6 @@ Object {
     </div>
     <div
       class="c2"
-      placeholder="URL input"
       role="group"
     >
       <div
@@ -4819,16 +4724,15 @@ Object {
       </div>
       <div
         class="c8"
-        placeholder="URL input"
       >
         <span
-          style="height: 1.25em; width: 1.25em;"
+          style="display: flex; height: 1.25em; width: 1.25em;"
         >
           <svg
             aria-hidden="true"
             fill="currentColor"
             focusable="false"
-            style="height: 1.25em; width: 1.25em;"
+            style="display: flex; height: 1.25em; width: 1.25em;"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -4928,7 +4832,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -4994,7 +4897,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-color: transparent;
   border-radius: calc(0.375rem * 1);
@@ -5062,7 +4964,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-bottom: 1px;
   border-bottom-style: solid;
   border-color: hsla(212,96%,78%,1);
@@ -5126,7 +5027,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
 }
 
 .c4::-webkit-input-placeholder {
@@ -5228,7 +5128,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -5294,7 +5193,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-color: transparent;
   border-radius: calc(0.375rem * 1);
@@ -5362,7 +5260,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-bottom: 1px;
   border-bottom-style: solid;
   border-color: hsla(212,96%,78%,1);
@@ -5426,7 +5323,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
 }
 
 .c4::-webkit-input-placeholder {
@@ -5583,7 +5479,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -5649,7 +5544,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-color: transparent;
   border-radius: calc(0.375rem * 1);
@@ -5717,7 +5611,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-bottom: 1px;
   border-bottom-style: solid;
   border-color: hsla(215,19%,35%,1);
@@ -5781,7 +5674,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
 }
 
 .c4::-webkit-input-placeholder {
@@ -5883,7 +5775,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-radius: calc(0.375rem * 1);
   padding-inline-start: calc(1rem * 1);
@@ -5949,7 +5840,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-style: solid;
   border-color: transparent;
   border-radius: calc(0.375rem * 1);
@@ -6017,7 +5907,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
   border-bottom: 1px;
   border-bottom-style: solid;
   border-color: hsla(215,19%,35%,1);
@@ -6081,7 +5970,6 @@ Object {
   width: inherit;
   height: calc(2.5em * 1);
   font-size: calc(1rem * 1);
-  line-height: calc(1.5 * 1);
 }
 
 .c4::-webkit-input-placeholder {

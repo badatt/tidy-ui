@@ -4,7 +4,7 @@ import { Icon } from '../../commons/src';
 import { FlexBox } from '../../flexbox/src';
 import { Input, InputGroup } from '../src';
 import { Variant } from '../src/types';
-import { Size } from '../../commons/src';
+import { Girth } from '../../commons/src';
 
 const meta: Meta<typeof InputGroup> = {
   title: 'Form/InputGroup',
@@ -41,16 +41,16 @@ export const blend: Story = {
   render: () => {
     return (
       <FlexBox gap="1rem" fld="column" width="450px">
-        <InputGroup blend>
+        <InputGroup isBlend>
           <Input.Element node="$" />
           <Input placeholder="500" />
           <Input.Element node={<Icon ele={<Icon.CheckCircle />} />} />
         </InputGroup>
-        <InputGroup blend>
+        <InputGroup isBlend>
           <Input.Element node="$" />
           <Input placeholder="500" />
         </InputGroup>
-        <InputGroup blend>
+        <InputGroup isBlend>
           <Input placeholder="500" />
           <Input.Element node={<Icon ele={<Icon.CheckCircle />} />} />
         </InputGroup>

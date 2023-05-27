@@ -4,17 +4,18 @@ import { ITextInputProps } from './types';
 
 const TextInput = React.forwardRef<HTMLInputElement, Omit<ITextInputProps, 'children'>>((props, ref) => {
   const { caption, ...rest } = props;
+  const { status } = rest;
   return (
     <TextInputRoot>
       <TextInputMain ref={ref} role="form" {...rest} />
-      {caption && <TextInputLabel {...rest}>{caption}</TextInputLabel>}
+      {caption && <TextInputLabel {...{ status }}>{caption}</TextInputLabel>}
     </TextInputRoot>
   );
 });
 
 TextInput.defaultProps = {
   disabled: false,
-  sz: 'md',
+  girth: 'md',
   variant: 'outlined',
 };
 

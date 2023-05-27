@@ -4,7 +4,7 @@ import { FlexBox } from '../../flexbox/src';
 import { Text } from '../../text/src';
 import { Input } from '../src';
 import { Variant } from '../src/types';
-import { Size, Status, TStatus } from '../../commons/src';
+import { Girth, Status, TStatus } from '../../commons/src';
 
 const meta: Meta<typeof Input> = {
   title: 'Form/Input',
@@ -29,14 +29,14 @@ export const variants: Story = {
   },
 };
 
-export const sizes: Story = {
+export const Girths: Story = {
   render: () => {
     return (
       <FlexBox gap="1rem" fld="column" width="250px">
-        {Object.values(Size)
+        {Object.values(Girth)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Input key={i} sz={Size[v]} placeholder={Size[v]} />
+            <Input key={i} girth={Girth[v]} placeholder={Girth[v]} />
           ))}
       </FlexBox>
     );
@@ -89,7 +89,7 @@ export const stretched: Story = {
     return (
       <FlexBox gap="1rem" fld="column">
         <Input width="200px" placeholder="normal value" />
-        <Input stretched placeholder="stretched value" />
+        <Input isStretched placeholder="stretched value" />
       </FlexBox>
     );
   },

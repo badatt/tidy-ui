@@ -8,22 +8,20 @@ import { IInputGroupProps } from './types';
  * be used inside this.
  */
 const InputGroup = React.forwardRef<HTMLDivElement, IInputGroupProps>((props, ref) => {
-  const { children, ...rest } = props;
+  const { children, disabled, girth, isBlend } = props;
 
   return (
-    <InputGroupRoot role="group" ref={ref} {...rest}>
+    <InputGroupRoot role="group" ref={ref} {...{ disabled, girth, isBlend }}>
       {React.Children.map(children, (c) => {
         const child = c as React.ReactElement;
-        return React.cloneElement(child, { ...rest });
+        return React.cloneElement(child, { ...child.props, disabled, girth, isBlend });
       })}
     </InputGroupRoot>
   );
 });
 
 InputGroup.defaultProps = {
-  blend: false,
-  disabled: false,
-  sz: 'md',
+  girth: 'md',
 };
 
 InputGroup.displayName = 'InputGroup';

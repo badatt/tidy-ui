@@ -18,17 +18,17 @@ const StyledTextInput = styled(TextInput)`
 `;
 
 const TimeInput = React.forwardRef<HTMLInputElement, Omit<ITextInputProps, 'children'>>((props, ref) => {
-  const { ...rest } = props;
+  const { disabled, girth } = props;
   return (
-    <InputGroup blend {...rest}>
-      <StyledTextInput ref={ref} type="time" {...rest} />
+    <InputGroup isBlend {...{ disabled, girth }}>
+      <StyledTextInput ref={ref} type="time" {...props} />
     </InputGroup>
   );
 });
 
 TimeInput.defaultProps = {
   disabled: false,
-  sz: 'md',
+  girth: 'md',
   variant: 'outlined',
 };
 

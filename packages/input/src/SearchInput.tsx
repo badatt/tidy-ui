@@ -6,18 +6,18 @@ import { TextInput } from './TextInput';
 import { ITextInputProps } from './types';
 
 const SearchInput = React.forwardRef<HTMLInputElement, Omit<ITextInputProps, 'children'>>((props, ref) => {
-  const { ...rest } = props;
+  const { disabled, girth } = props;
   return (
-    <InputGroup blend {...rest}>
-      <InputElement node={<Icon ele={<Icon.Search />} />} />
-      <TextInput ref={ref} type="search" {...rest} />
+    <InputGroup isBlend {...{ disabled, girth }}>
+      <InputElement node={<Icon ele={<Icon.Search />} />} isBlend {...{ disabled, girth }} />
+      <TextInput ref={ref} type="search" {...props} />
     </InputGroup>
   );
 });
 
 SearchInput.defaultProps = {
   disabled: false,
-  sz: 'md',
+  girth: 'md',
   variant: 'outlined',
 };
 
