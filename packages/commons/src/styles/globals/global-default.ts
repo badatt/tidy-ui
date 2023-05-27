@@ -4,7 +4,8 @@ import { color, css, hsla, IGlobalDefault } from '../../theme';
 
 const GlobalDefault = createGlobalStyle<IGlobalDefault>`
   ${({ theme: { font, palette, isDark } }) => css`
-    *:disabled {
+    *:disabled,
+    *[disabled] {
       pointer-events: none;
       cursor: not-allowed;
       opacity: 0.6;

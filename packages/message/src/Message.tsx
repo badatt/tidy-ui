@@ -9,7 +9,8 @@ import { IMessageProps } from './types';
  *
  */
 const Message = React.forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
-  const { children, className, closable, ele, onClose, ...rest } = props;
+  const { children, closable, ele, onClose, ...rest } = props;
+  const { isFilled, isSharp, isStretched, hasLabel, tone } = props;
 
   const isMounted = useIsMounted();
   const [isHidden, setHidden] = React.useState<boolean>(false);
@@ -29,23 +30,17 @@ const Message = React.forwardRef<HTMLDivElement, IMessageProps>((props, ref) => 
   }
 
   return (
-    <MessageRoot className={className} ref={ref} role="note" {...rest}>
-      {!props.withoutLabel && (
-        <MessageLabel {...rest}>
-          <TonedIcon status={rest.tone} />
-          {rest.tone}
+    <MessageRoot ref={ref} role="note" {...rest}>
+      {hasLabel && (
+        <MessageLabel {...{ isFilled, isSharp, tone }}>
+          <TonedIcon status={tone} />
+          {tone}
         </MessageLabel>
       )}
-      <MessageContent {...rest}>
+      <MessageContent {...{ hasLabel, isFilled, isSharp, isStretched, tone }}>
         {ele ? React.cloneElement(ele, {}, children) : children}
         {closable && (
-          <CloseButton
-            onClick={handleClose}
-            tone={rest.tone}
-            outlined={rest.outlined}
-            data-test-id="close-button"
-            role="button"
-          >
+          <CloseButton onClick={handleClose} tone={tone} isFilled={isFilled} data-test-id="close-button" role="button">
             <Icon.Close />
           </CloseButton>
         )}
@@ -56,11 +51,11 @@ const Message = React.forwardRef<HTMLDivElement, IMessageProps>((props, ref) => 
 
 Message.defaultProps = {
   closable: false,
-  outlined: false,
-  sharp: false,
-  stretched: false,
-  tone: 'info',
-  withoutLabel: false,
+  hasLabel: true,
+  isFilled: false,
+  isSharp: false,
+  isStretched: true,
+  tone: 'neutral',
 };
 
 Message.displayName = 'Message';
