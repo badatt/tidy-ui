@@ -4,6 +4,13 @@ import { color, css, hsla, IGlobalDefault } from '../../theme';
 
 const GlobalDefault = createGlobalStyle<IGlobalDefault>`
   ${({ theme: { font, palette, isDark } }) => css`
+    *:disabled {
+      pointer-events: none;
+      cursor: not-allowed;
+      opacity: 0.6;
+      transition: none;
+    }
+
     body {
       color: ${palette.text.primary};
       background: ${palette.background.default};
