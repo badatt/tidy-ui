@@ -17,11 +17,10 @@ import { INotificationProps } from './types';
  */
 const Notification = React.forwardRef<HTMLDivElement, INotificationProps>((props, ref) => {
   const { children, icon, label, ele, closable, onClose, ...rest } = props;
+  const { hasLabel, isFilled, tone } = props;
   const isMounted = useIsMounted();
   const [isHidden, setHidden] = React.useState<boolean>(false);
-  const isLabelAllowed = [Tone[Tone.info], Tone[Tone.success], Tone[Tone.warning], Tone[Tone.danger]].includes(
-    props.tone!,
-  );
+  const isLabelAllowed = [Tone[Tone.info], Tone[Tone.success], Tone[Tone.warning], Tone[Tone.danger]].includes(tone!);
 
   const handleClose = React.useCallback(
     (e: React.MouseEvent<HTMLElement>) => {
@@ -39,25 +38,19 @@ const Notification = React.forwardRef<HTMLDivElement, INotificationProps>((props
   return (
     <NotificationRoot ref={ref} role="alert" {...rest}>
       <NotificationHeader closable={closable}>
+        {isLabelAllowed && hasLabel && (
+          <NotificationLabel {...{ isFilled, tone }}>
+            {icon ?? <TonedIcon status={tone} />}
+            {label ?? tone}
+          </NotificationLabel>
+        )}
         {closable && (
-          <CloseButton
-            onClick={handleClose}
-            outlined={rest.outlined}
-            tone={rest.tone}
-            data-test-id="close-button"
-            role="button"
-          >
+          <CloseButton onClick={handleClose} role="button" {...{ isFilled, tone }}>
             <Icon.Close />
           </CloseButton>
         )}
-        {isLabelAllowed && !props.withoutLabel && (
-          <NotificationLabel {...rest}>
-            {icon ?? <TonedIcon status={rest.tone} />}
-            {label ?? rest.tone}
-          </NotificationLabel>
-        )}
       </NotificationHeader>
-      <NotificationContent {...rest} isLabelAllowed={isLabelAllowed}>
+      <NotificationContent {...{ hasLabel, isLabelAllowed }}>
         {ele ? React.cloneElement(ele, {}, children) : children}
       </NotificationContent>
     </NotificationRoot>
@@ -66,10 +59,12 @@ const Notification = React.forwardRef<HTMLDivElement, INotificationProps>((props
 
 Notification.defaultProps = {
   closable: true,
-  outlined: false,
-  sharp: false,
-  tone: 'info',
-  withoutLabel: false,
+  hasLabel: true,
+  isFilled: false,
+  isSharp: false,
+  tone: 'neutral',
 };
+
+Notification.displayName = 'Notification';
 
 export { Notification };

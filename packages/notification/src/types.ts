@@ -7,9 +7,12 @@ import { IBaseProps, IClosable } from '@tidy-ui/types';
  */
 export interface INotificationProps extends IBaseProps, IClosable, HTMLAttributes<HTMLDivElement> {
   /**
-   * Element that encloses the notification
+   * If `false`, label wont be added to the notification widget
+   *
+   * @type {?boolean}
+   * @default true
    */
-  ele?: JSX.Element;
+  hasLabel?: boolean;
 
   /**
    * Sets custom icon
@@ -17,22 +20,12 @@ export interface INotificationProps extends IBaseProps, IClosable, HTMLAttribute
   icon?: JSX.Element;
 
   /**
-   * Sets custom label
-   */
-  label?: JSX.Element;
-
-  /**
-   * Margin, css `margin` equivalent
-   */
-  margin?: string;
-
-  /**
-   * If `true`, creates outlined notification widget, won't fill
+   * If `true`, creates filled notification widget
    *
    * @type {?boolean}
    * @default false
    */
-  outlined?: boolean;
+  isFilled?: boolean;
 
   /**
    * If `true`, creates sharp corners for the notification widget
@@ -40,7 +33,12 @@ export interface INotificationProps extends IBaseProps, IClosable, HTMLAttribute
    * @type {?boolean}
    * @default false
    */
-  sharp?: boolean;
+  isSharp?: boolean;
+
+  /**
+   * Sets custom label
+   */
+  label?: JSX.Element;
 
   /**
    * Color variant of the notification, typically used to classify the
@@ -49,12 +47,4 @@ export interface INotificationProps extends IBaseProps, IClosable, HTMLAttribute
    * @type {?TTone}
    */
   tone?: TTone;
-
-  /**
-   * If `true`, label wont be added to the notification widget
-   *
-   * @type {?boolean}
-   * @default false
-   */
-  withoutLabel?: boolean;
 }
