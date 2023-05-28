@@ -36,7 +36,7 @@ describe('Paper', () => {
   it('Paper with sharp edges', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Paper sharp>{text}</Paper>
+        <Paper isSharp>{text}</Paper>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
