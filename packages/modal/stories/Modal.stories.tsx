@@ -1,9 +1,10 @@
 import React from 'react';
 import { Button } from '../../button/src';
+import { FlexBox } from '../../flexbox/src';
 import { Chip } from '../../chip/src';
 import { Stack } from '../../stack/src';
 import { Paper } from '../../paper/src';
-import { Notification } from '../../notification/src';
+import { Alert } from '../../alert/src';
 import { Text } from '../../text/src';
 import { Modal } from '../src';
 
@@ -16,12 +17,8 @@ const SimplePaper = () => (
   <Paper margin="16px">
     <Text.h6>Lorem ipsum, dolor sit amet </Text.h6>
     <Stack gap="8px">
-      <Chip size="xxs" outlined>
-        lorem
-      </Chip>
-      <Chip size="xxs" outlined>
-        ipsum
-      </Chip>
+      <Chip girth="xxs">lorem</Chip>
+      <Chip girth="xxs">ipsum</Chip>
     </Stack>
     <Text.body1>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci est similique ipsa accusamus ex expedita dolore
@@ -41,33 +38,44 @@ const SimplePaper = () => (
 export const basic = () => {
   const [open, setOpen] = React.useState(false);
   return (
-    <>
+    <FlexBox width="400px">
       <SimplePaper />
-      <Button stretched onClick={() => setOpen(true)}>
+      <Button isStretched variant="primary" tone="major" onClick={() => setOpen(true)}>
         Submit
       </Button>
       <Modal isOpen={open}>
-        <Notification tone="success" width="300px" onClose={() => setOpen(false)} closable>
-          Successfully submitted !
-        </Notification>
+        <Alert ele={<FlexBox fld="column" />} status="success" width="400px">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto perferendis quaerat ad reprehenderit vel enim
+          adipisci nostrum dolorum! Atque id voluptate autem vitae possimus hic totam, blanditiis quisquam neque culpa.
+          <Alert.Footer width="100%">
+            <Button isStretched variant="simple" onClick={() => setOpen(false)}>
+              Ok
+            </Button>
+          </Alert.Footer>
+        </Alert>
       </Modal>
-    </>
+    </FlexBox>
   );
 };
 
 export const onBackdropClick = () => {
   const [open, setOpen] = React.useState(false);
   return (
-    <>
+    <FlexBox width="400px">
       <SimplePaper />
-      <Button stretched onClick={() => setOpen(true)}>
+      <Button isStretched variant="primary" tone="major" onClick={() => setOpen(true)}>
         Submit
       </Button>
-      <Modal isOpen={open} onBackdropClick={() => setOpen(false)}>
-        <Notification tone="success" width="300px" onClose={() => setOpen(false)} closable>
-          Successfully submitted !
-        </Notification>
+      <Modal isOpen={open} onBackdropClick={() => setOpen(false)} width="400px" background="white">
+        <Alert ele={<FlexBox fld="column" />} status="danger" width="400px">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla delectus quisquam fugit alias numquam eligendi
+          minima fuga libero, labore magnam recusandae voluptas autem. Debitis laboriosam aperiam, odio unde repellat
+          facere.
+          <Alert.Footer width="100%">
+            <Text.caption>Please contact support for any queries.</Text.caption>
+          </Alert.Footer>
+        </Alert>
       </Modal>
-    </>
+    </FlexBox>
   );
 };

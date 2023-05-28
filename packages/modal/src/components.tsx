@@ -1,4 +1,4 @@
-import { color, hsla, styled } from '@tidy-ui/commons';
+import { applyStandardOverrideStyles, color, hsla, styled } from '@tidy-ui/commons';
 import { IModalProps } from './types';
 
 /**
@@ -26,6 +26,8 @@ const ModalRoot = styled.div<IModalProps>`
  *
  * @internal
  */
-const ModalContent = styled.div<IModalProps>``;
+const ModalContent = styled.div<IModalProps>`
+  ${applyStandardOverrideStyles}
+`;
 
 export { ModalContent, ModalRoot };

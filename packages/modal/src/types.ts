@@ -1,17 +1,10 @@
 import { HTMLAttributes } from 'react';
-import { IBaseProps } from '@tidy-ui/types';
+import { IBaseProps, IClosable } from '@tidy-ui/types';
 
 /**
  * Modal props
  */
-export interface IModalProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
-  /**
-   * If `true`, opens the modal
-   *
-   * @default false
-   */
-  isOpen?: boolean;
-
+export interface IModalProps extends IBaseProps, IClosable, HTMLAttributes<HTMLDivElement> {
   /**
    * Callback (if any) when the backdrop clicked
    *

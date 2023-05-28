@@ -53,7 +53,7 @@ describe('Modal', () => {
         <button onClick={mockSetOpen} data-testid="open-btn">
           Submit
         </button>
-        <Modal isOpen={true} onBackdropClick={mockSetClose} data-testid="outer-element">
+        <Modal isOpen onBackdropClick={mockSetClose}>
           <div>Successfully submitted !</div>
         </Modal>
       </TidyUiProvider>,
@@ -62,7 +62,7 @@ describe('Modal', () => {
     const openBtn = tree.getByTestId('open-btn');
     fireEvent.click(openBtn);
     expect(mockSetOpen).toHaveBeenCalledTimes(1);
-    const outerElement = tree.getByTestId('outer-element');
+    const outerElement = tree.getByRole('navigation');
     fireEvent.click(outerElement);
     expect(mockSetClose).toHaveBeenCalledTimes(1);
   });
@@ -74,7 +74,7 @@ describe('Modal', () => {
         <button onClick={mockSetOpen} data-testid="open-btn">
           Submit
         </button>
-        <Modal isOpen={true} data-testid="outer-element">
+        <Modal isOpen data-testid="outer-element">
           <div>Successfully submitted !</div>
         </Modal>
       </TidyUiProvider>,
@@ -83,7 +83,7 @@ describe('Modal', () => {
     const openBtn = tree.getByTestId('open-btn');
     fireEvent.click(openBtn);
     expect(mockSetOpen).toHaveBeenCalledTimes(1);
-    const outerElement = tree.getByTestId('outer-element');
+    const outerElement = tree.getByRole('navigation');
     fireEvent.click(outerElement);
   });
 });

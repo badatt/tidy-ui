@@ -221,7 +221,6 @@ Object {
     </div>
     <div
       class="c0"
-      data-testid="outer-element"
       role="navigation"
     >
       <div
@@ -331,11 +330,11 @@ Object {
     </div>
     <div
       class="c0"
-      data-testid="outer-element"
       role="navigation"
     >
       <div
         class=""
+        data-testid="outer-element"
       >
         <div>
           Successfully submitted !
