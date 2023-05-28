@@ -8,7 +8,7 @@ const PanelHeader = React.forwardRef<HTMLDivElement, IPanelHeaderProps>((props, 
   const { children, ele, isToggleVisible, ...rest } = props;
   const { isExpanded, toggle } = React.useContext(PanelContext) as IPanelContext;
   return (
-    <PanelHeaderRoot ref={ref} role="heading" {...rest} onClick={toggle}>
+    <PanelHeaderRoot ref={ref} role="heading" onClick={toggle} isExpanded={isExpanded} {...rest}>
       {isToggleVisible && (
         <ActionIcon isExpanded={isExpanded} role="button">
           <Icon.ExpandMore />

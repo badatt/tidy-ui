@@ -42,6 +42,23 @@ export const basic = () => (
   </PanelGroup>
 );
 
+export const accent = () => (
+  <PanelGroup hasSeparator>
+    {[...Array(10)].map((v, i) => (
+      <Panel key={i}>
+        <Panel.Header isToggleVisible accent="major">
+          <Text.body1>
+            <ContentHeader />
+          </Text.body1>
+        </Panel.Header>
+        <Panel.Body accent="major">
+          <ContentBody />
+        </Panel.Body>
+      </Panel>
+    ))}
+  </PanelGroup>
+);
+
 export const someExpanded = () => (
   <PanelGroup>
     {[...Array(10)].map((v, i) => (
@@ -64,7 +81,7 @@ export const withSeparator = () => (
     {[...Array(10)].map((v, i) => (
       <Panel key={i}>
         <Panel.Header isToggleVisible>
-          <Text.body1 udl>
+          <Text.body1>
             <ContentHeader />
           </Text.body1>
         </Panel.Header>

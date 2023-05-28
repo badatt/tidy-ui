@@ -135,8 +135,8 @@ describe('Panel', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Panel>
-          <Panel.Header>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Panel.Header>
-          <Panel.Body>{text}</Panel.Body>
+          <Panel.Header accent="major">Lorem ipsum dolor sit amet consectetur adipisicing elit.</Panel.Header>
+          <Panel.Body accent="major">{text}</Panel.Body>
         </Panel>
       </TidyUiProvider>,
     );
