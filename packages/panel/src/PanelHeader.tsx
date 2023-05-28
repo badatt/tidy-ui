@@ -5,16 +5,20 @@ import { PanelContext } from './PanelContextProvider';
 import { IPanelContext, IPanelHeaderProps } from './types';
 
 const PanelHeader = React.forwardRef<HTMLDivElement, IPanelHeaderProps>((props, ref) => {
-  const { children, className, ele, ...rest } = props;
-  const { expanded, toggle } = React.useContext(PanelContext) as IPanelContext;
+  const { children, ele, isToggleVisible, ...rest } = props;
+  const { isExpanded, toggle } = React.useContext(PanelContext) as IPanelContext;
   return (
-    <PanelHeaderRoot className={className} ref={ref} role="heading" {...rest} onClick={toggle}>
+    <PanelHeaderRoot ref={ref} role="heading" {...rest} onClick={toggle}>
+      {isToggleVisible && (
+        <ActionIcon isExpanded={isExpanded} role="button">
+          <Icon.ExpandMore />
+        </ActionIcon>
+      )}
       {ele ? React.cloneElement(ele, {}, children) : children}
-      <ActionIcon expanded={expanded} data-test-id="toggle-button" role="button">
-        <Icon.ExpandMore />
-      </ActionIcon>
     </PanelHeaderRoot>
   );
 });
+
+PanelHeader.displayName = 'PanelHeader';
 
 export { PanelHeader };
