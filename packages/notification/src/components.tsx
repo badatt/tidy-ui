@@ -1,4 +1,4 @@
-import { color, createFontStyle, css, hsla, IPalette, styled } from '@tidy-ui/commons';
+import { applyStandardOverrideStyles, color, createFontStyle, css, hsla, IPalette, styled } from '@tidy-ui/commons';
 import { filledContent, filledLabel, outlinedContent, outlinedLabel } from './styles';
 import { INotificationProps } from './types';
 
@@ -20,6 +20,8 @@ const closeButtonColor = (isDark: boolean, palette: IPalette, color: string): st
  * @internal
  */
 const CloseButton = styled.span<INotificationProps>`
+  position: absolute;
+  right: 0;
   height: 2rem;
   width: 2rem;
   cursor: pointer;
@@ -27,13 +29,13 @@ const CloseButton = styled.span<INotificationProps>`
   padding: 4px;
   border-radius: 50%;
   background-color: ${hsla(color.slate[700], 0.1)};
-  ${({ theme: { palette, isDark }, tone, outlined }) => css`
-    ${outlined
+  ${({ theme: { palette, isDark }, tone, isFilled }) => css`
+    ${isFilled
       ? css`
-          color: ${closeButtonColor(isDark, palette, tone!)};
+          color: ${palette[tone!][50]};
         `
       : css`
-          color: ${palette[tone!][50]};
+          color: ${closeButtonColor(isDark, palette, tone!)};
         `}
   `}
   &:hover {
@@ -47,16 +49,14 @@ const NotificationRoot = styled.div<INotificationProps>`
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  ${({ theme: { layout }, sharp, outlined, margin, height, width }) => css`
-    height: ${height};
-    width: ${width};
-    margin: ${margin};
-    border-radius: ${!sharp && layout.radius};
-    ${outlined ? outlinedContent : filledContent}
+  ${({ theme: { layout }, isSharp, isFilled }) => css`
+    border-radius: ${!isSharp && layout.radius};
+    ${isFilled ? filledContent : outlinedContent}
   `}
   &:hover ${CloseButton} {
     visibility: visible;
   }
+  ${applyStandardOverrideStyles}
 `;
 
 /** @internal */
@@ -75,10 +75,10 @@ interface ILableAllowed {
 const NotificationContent = styled.div<INotificationProps & ILableAllowed>`
   width: fit-content;
   ${createFontStyle()}
-  ${({ withoutLabel, isLabelAllowed }) => css`
+  ${({ hasLabel, isLabelAllowed }) => css`
     ${isLabelAllowed &&
     css`
-      margin-left: ${withoutLabel ? 0 : '2rem'};
+      margin-left: ${hasLabel ? '2rem' : 0};
     `}
   `}
 `;
@@ -95,25 +95,19 @@ const NotificationLabel = styled.div<INotificationProps>`
   gap: 0.5rem;
   width: fit-content;
   text-transform: capitalize;
-  margin-bottom: 0.5em;
   ${createFontStyle('h6')}
   svg {
     height: 1.5rem;
     width: 1.5rem;
   }
-  ${({ theme: { font }, outlined }) => css`
-    font-weight: ${font.regular};
-    ${outlined ? outlinedLabel : filledLabel}
+  ${({ isFilled }) => css`
+    ${isFilled ? filledLabel : outlinedLabel}
   `}
 `;
 
 const NotificationHeader = styled.div<INotificationProps>`
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  ${({ closable }) => css`
-    flex-direction: ${closable ? 'row-reverse' : 'row'};
-  `}
+  position: relative;
 `;
 
 export { CloseButton, NotificationContent, NotificationHeader, NotificationLabel, NotificationRoot };

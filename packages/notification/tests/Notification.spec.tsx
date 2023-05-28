@@ -65,7 +65,7 @@ describe('Notification', () => {
   it('Sharp', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Notification sharp>
+        <Notification isSharp>
           <NotificationText />
         </Notification>
       </TidyUiProvider>,
@@ -88,13 +88,13 @@ describe('Notification', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('Outlined', () => {
+  it('Filled', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         {Object.keys(Tone)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Notification key={i} tone={Tone[v]} outlined>
+            <Notification key={i} tone={Tone[v]} isFilled>
               <NotificationText />
             </Notification>
           ))}
@@ -103,13 +103,13 @@ describe('Notification', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('Outlined dark', () => {
+  it('Filled dark', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
         {Object.keys(Tone)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Notification key={i} tone={Tone[v]} outlined>
+            <Notification key={i} tone={Tone[v]} isFilled>
               <NotificationText />
             </Notification>
           ))}
@@ -153,7 +153,7 @@ describe('Notification', () => {
   it('Without label', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Notification withoutLabel>
+        <Notification hasLabel={false}>
           <NotificationText />
         </Notification>
       </TidyUiProvider>,
@@ -199,7 +199,7 @@ describe('Notification', () => {
     const { container } = tree;
     act(() => {
       userEvent.hover(container);
-      const closeButton = screen.getByTestId('close-button');
+      const closeButton = screen.getByRole('button');
       fireEvent.click(closeButton);
       expect(closeButton).not.toBeVisible();
     });
@@ -217,7 +217,7 @@ describe('Notification', () => {
     const { container } = tree;
     act(() => {
       userEvent.hover(container);
-      const closeButton = screen.getByTestId('close-button');
+      const closeButton = screen.getByRole('button');
       fireEvent.click(closeButton);
       expect(closeButton).not.toBeVisible();
     });

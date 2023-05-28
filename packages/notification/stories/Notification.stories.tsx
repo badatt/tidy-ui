@@ -30,7 +30,7 @@ export const basic = () => (
 );
 
 export const sharp = () => (
-  <Notification width="20rem" sharp>
+  <Notification width="20rem" isSharp>
     <NotificationText />
   </Notification>
 );
@@ -49,13 +49,13 @@ export const tones = () => (
   </Grid>
 );
 
-export const outlined = () => (
+export const filled = () => (
   <Grid gap={16}>
     {Object.keys(Tone)
       .filter((i) => !isNaN(Number(i)))
       .map((v, i) => (
         <Grid.Item xs={12} sm={12} md={8} lg={6} xl={6} key={i}>
-          <Notification key={i} tone={Tone[v]} outlined>
+          <Notification key={i} tone={Tone[v]} isFilled>
             <NotificationText />
           </Notification>
         </Grid.Item>
@@ -64,25 +64,25 @@ export const outlined = () => (
 );
 
 export const nonClosable = () => (
-  <Notification width="20rem" closable={false}>
+  <Notification width="20rem" closable={false} tone="info">
     <NotificationText />
   </Notification>
 );
 
 export const customLabel = () => (
-  <Notification width="20rem" label={<Text.h4>Hello there !</Text.h4>}>
+  <Notification width="20rem" tone="info" label={<Text.h4>Hello there !</Text.h4>}>
     <NotificationText />
   </Notification>
 );
 
 export const customIcon = () => (
-  <Notification width="20rem" icon={<Icon.Add />}>
+  <Notification width="20rem" tone="info" icon={<Icon.Email />}>
     <NotificationText />
   </Notification>
 );
 
 export const withoutLabel = () => (
-  <Notification width="20rem" withoutLabel>
+  <Notification width="20rem" hasLabel={false}>
     <NotificationText />
   </Notification>
 );
@@ -90,9 +90,9 @@ export const withoutLabel = () => (
 export const withToaster = () => {
   const { toaster } = useToaster();
   const ele = (
-    <Notification width="20rem" outlined>
+    <Notification width="20rem">
       <NotificationText />
-      <ButtonCluster stretched>
+      <ButtonCluster isStretched>
         <Button tone="danger" variant="simple">
           Cancel
         </Button>
@@ -110,17 +110,6 @@ export const withToaster = () => {
     </ButtonGroup>
   );
 };
-
-export const customMargin = () => (
-  <>
-    <Notification width="20rem" margin="0 0 1rem 0">
-      <NotificationText />
-    </Notification>
-    <Notification width="20rem">
-      <NotificationText />
-    </Notification>
-  </>
-);
 
 export const customElement = () => (
   <Notification width="30rem" ele={<FlexBox nowrap />}>
