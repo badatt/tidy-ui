@@ -1,4 +1,4 @@
-import { createFontStyle, css, styled } from '@tidy-ui/commons';
+import { applyStandardOverrideStyles, createFontStyle, css, styled } from '@tidy-ui/commons';
 import { IPaperProps } from './types';
 
 /**
@@ -7,21 +7,15 @@ import { IPaperProps } from './types';
  * @internal
  */
 const PaperRoot = styled.section<IPaperProps>`
-  ${({ theme: { palette, layout }, sharp, margin, height, width }) => css`
+  ${({ theme: { palette, layout }, isSharp }) => css`
     display: block;
     padding: 1rem;
-    height: ${height};
-    width: ${width};
     background-color: ${palette.background.paper};
-    border-radius: ${!sharp && layout.radius};
+    border-radius: ${!isSharp && layout.radius};
     box-shadow: ${layout.shadow};
     color: ${palette.text.primary};
-    margin-bottom: ${margin};
     ${createFontStyle()}
-    ${height &&
-    css`
-      overflow-y: auto;
-    `}
+    ${applyStandardOverrideStyles}
   `}
 `;
 

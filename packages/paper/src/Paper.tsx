@@ -17,7 +17,7 @@ const Paper = React.forwardRef<HTMLDivElement, IPaperProps>((props, ref) => {
 });
 
 Paper.defaultProps = {
-  sharp: false,
+  isSharp: false,
 };
 
 Paper.displayName = 'Paper';

@@ -15,14 +15,10 @@ export interface IPaperProps extends IBaseProps, HTMLAttributes<HTMLDivElement> 
    */
   ele?: JSX.Element;
   /**
-   * Margin, css `margin` equivalent
-   */
-  margin?: string;
-  /**
    * If `true`, the component is created with sharp edges
    *
    * @type {?boolean}
    * @default false
    */
-  sharp?: boolean;
+  isSharp?: boolean;
 }

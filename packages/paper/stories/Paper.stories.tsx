@@ -31,13 +31,7 @@ const text = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
 
 export const basic = () => <Paper>{text}</Paper>;
 
-export const sharp = () => <Paper sharp>{text}</Paper>;
-
-export const customDimension = () => (
-  <Paper height="20rem" width="20rem">
-    {text}
-  </Paper>
-);
+export const sharp = () => <Paper isSharp>{text}</Paper>;
 
 export const customElement = () => (
   <Paper ele={<FlexBox nowrap gap="0.5rem" />}>

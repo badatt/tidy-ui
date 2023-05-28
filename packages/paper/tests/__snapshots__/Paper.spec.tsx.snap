@@ -121,8 +121,6 @@ Object {
   "baseElement": .c0 {
   display: block;
   padding: 1rem;
-  height: 25rem;
-  width: 25rem;
   background-color: hsla(0,100%,100%,1);
   border-radius: 0.5rem;
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
@@ -134,7 +132,8 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
-  overflow-y: auto;
+  height: 25rem;
+  width: 25rem;
 }
 
 <body>
@@ -156,8 +155,6 @@ Object {
   "container": .c0 {
   display: block;
   padding: 1rem;
-  height: 25rem;
-  width: 25rem;
   background-color: hsla(0,100%,100%,1);
   border-radius: 0.5rem;
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
@@ -169,7 +166,8 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
-  overflow-y: auto;
+  height: 25rem;
+  width: 25rem;
 }
 
 <div>
