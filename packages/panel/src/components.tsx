@@ -1,5 +1,5 @@
 import { applyStandardOverrideStyles, color, createFontStyle, css, hsla, styled } from '@tidy-ui/commons';
-import { IPanelBodyProps, IPanelGroupProps, IPanelProps } from './types';
+import { IPanelBodyProps, IPanelGroupProps, IPanelHeaderProps, IPanelProps } from './types';
 
 const PanelRoot = styled.div<IPanelProps>`
   display: flex;
@@ -29,30 +29,38 @@ const ActionIcon = styled.span<IActionIconProps>`
   }
 `;
 
-const PanelHeaderRoot = styled.div`
+const PanelHeaderRoot = styled.div<IPanelHeaderProps>`
   display: flex;
   align-items: center;
   gap: 0.5rem;
   vertical-align: middle;
   cursor: pointer;
-  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-left: 2px solid transparent;
+  ${({ theme: { palette }, accent, isExpanded }) => css`
+    ${isExpanded &&
+    css`
+      ${accent && `border-left: 2px solid ${palette[accent][600]};`}
+    `}
+  `}
   ${applyStandardOverrideStyles}
 `;
 
 const PanelBodyRoot = styled.div<IPanelBodyProps>`
   display: block;
-  //padding: 0rem 1rem;
   transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
   visibility: visible;
+  border-left: 2px solid transparent;
   ${createFontStyle()}
-  ${({ isVisible, height }) => css`
+  ${({ theme: { palette }, accent, isVisible, height }) => css`
     visibility: ${isVisible ? 'visible' : 'hidden'};
     opacity: ${isVisible ? '1' : '0'};
     height: ${isVisible ? 'fit-content' : '0'};
-    padding-bottom: ${isVisible ? '1rem' : '0'};
+    padding: 0 0.5rem;
     ${isVisible
       ? css`
           height: ${height ?? 'fit-content'};
+          ${accent && `border-left: 2px solid ${palette[accent][600]};`}
         `
       : css`
           height: 0;
@@ -70,9 +78,8 @@ const PanelGroupRoot = styled.div<IPanelGroupProps>`
     margin: ${margin};
     ${hasSeparator &&
     css`
-      & > :not(:last-child)::after {
-        content: '';
-        border-bottom: 1px solid ${isDark ? hsla(color.slate[600]) : hsla(color.slate[400])};
+      & > :not(:last-child) {
+        border-bottom: 1px solid ${isDark ? hsla(color.slate[700]) : hsla(color.slate[300])};
       }
     `}
   `}

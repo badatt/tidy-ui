@@ -2,6 +2,7 @@ import React from 'react';
 import { Text } from '../../text/src';
 import { FlexBox } from '../../flexbox/src';
 import { Panel } from '../src';
+import { Tone } from '@tidy-ui/commons';
 
 export default {
   component: Panel,
@@ -37,6 +38,25 @@ export const basic = () => (
       <ContentBody />
     </Panel.Body>
   </Panel>
+);
+
+export const accents = () => (
+  <>
+    {Object.values(Tone)
+      .filter((i) => !isNaN(Number(i)))
+      .map((v, i) => (
+        <Panel key={i}>
+          <Panel.Header accent={Tone[v]}>
+            <Text.body1 udl>
+              <ContentHeader />
+            </Text.body1>
+          </Panel.Header>
+          <Panel.Body accent={Tone[v]}>
+            <ContentBody />
+          </Panel.Body>
+        </Panel>
+      ))}
+  </>
 );
 
 export const withToggleVisible = () => (
