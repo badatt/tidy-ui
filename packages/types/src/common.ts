@@ -161,6 +161,12 @@ export interface IClosable {
    */
   closable?: boolean;
   /**
+   * If `true`, opens the component
+   *
+   * @default false
+   */
+  isOpen?: boolean;
+  /**
    * Callback (if any) after the widget is closed
    *
    * @type {?((e?: any | undefined) => void)}
