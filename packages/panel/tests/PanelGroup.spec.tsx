@@ -59,7 +59,7 @@ describe('Panel', () => {
       <TidyUiProvider theme={orchidLight}>
         <PanelGroup>
           {[...Array(10)].map((v, i) => (
-            <Panel key={i} expanded={i % 2 === 0}>
+            <Panel key={i} isExpanded={i % 2 === 0}>
               <Panel.Header>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Panel.Header>
               <Panel.Body>{text}</Panel.Body>
             </Panel>
@@ -94,44 +94,12 @@ describe('Panel', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('No borders', () => {
+  it('With eparator', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <PanelGroup>
-          {[...Array(10)].map((v, i) => (
-            <Panel key={i} noBorder>
-              <Panel.Header>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Panel.Header>
-              <Panel.Body>{text}</Panel.Body>
-            </Panel>
-          ))}
-        </PanelGroup>
-      </TidyUiProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('No separator', () => {
-    const tree = render(
-      <TidyUiProvider theme={orchidLight}>
-        <PanelGroup noSeparator>
+        <PanelGroup hasSeparator>
           {[...Array(10)].map((v, i) => (
             <Panel key={i}>
-              <Panel.Header>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Panel.Header>
-              <Panel.Body>{text}</Panel.Body>
-            </Panel>
-          ))}
-        </PanelGroup>
-      </TidyUiProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('No border and no separator', () => {
-    const tree = render(
-      <TidyUiProvider theme={orchidLight}>
-        <PanelGroup noSeparator>
-          {[...Array(10)].map((v, i) => (
-            <Panel key={i} noBorder>
               <Panel.Header>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Panel.Header>
               <Panel.Body>{text}</Panel.Body>
             </Panel>

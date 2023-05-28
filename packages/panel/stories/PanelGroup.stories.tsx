@@ -30,7 +30,9 @@ export const basic = () => (
     {[...Array(10)].map((v, i) => (
       <Panel key={i}>
         <Panel.Header>
-          <ContentHeader />
+          <Text.body1 udl>
+            <ContentHeader />
+          </Text.body1>
         </Panel.Header>
         <Panel.Body>
           <ContentBody />
@@ -43,9 +45,11 @@ export const basic = () => (
 export const someExpanded = () => (
   <PanelGroup>
     {[...Array(10)].map((v, i) => (
-      <Panel key={i} expanded={i % 2 === 0}>
-        <Panel.Header>
-          <ContentHeader />
+      <Panel key={i} isExpanded={i % 2 === 0}>
+        <Panel.Header isToggleVisible>
+          <Text.body1 udl>
+            <ContentHeader />
+          </Text.body1>
         </Panel.Header>
         <Panel.Body>
           <ContentBody />
@@ -55,56 +59,14 @@ export const someExpanded = () => (
   </PanelGroup>
 );
 
-export const customMargin = () => (
-  <>
-    <PanelGroup margin="0 0 1rem 0">
-      {[...Array(3)].map((v, i) => (
-        <Panel key={i}>
-          <Panel.Header>
-            <ContentHeader />
-          </Panel.Header>
-          <Panel.Body>
-            <ContentBody />
-          </Panel.Body>
-        </Panel>
-      ))}
-    </PanelGroup>
-    <PanelGroup>
-      {[...Array(4)].map((v, i) => (
-        <Panel key={i}>
-          <Panel.Header>
-            <ContentHeader />
-          </Panel.Header>
-          <Panel.Body>
-            <ContentBody />
-          </Panel.Body>
-        </Panel>
-      ))}
-    </PanelGroup>
-  </>
-);
-
-export const noBorder = () => (
-  <PanelGroup>
+export const withSeparator = () => (
+  <PanelGroup hasSeparator>
     {[...Array(10)].map((v, i) => (
-      <Panel key={i} noBorder>
-        <Panel.Header>
-          <ContentHeader />
-        </Panel.Header>
-        <Panel.Body>
-          <ContentBody />
-        </Panel.Body>
-      </Panel>
-    ))}
-  </PanelGroup>
-);
-
-export const noSeparator = () => (
-  <PanelGroup noSeparator>
-    {[...Array(10)].map((v, i) => (
-      <Panel key={i} noBorder>
-        <Panel.Header>
-          <ContentHeader />
+      <Panel key={i}>
+        <Panel.Header isToggleVisible>
+          <Text.body1 udl>
+            <ContentHeader />
+          </Text.body1>
         </Panel.Header>
         <Panel.Body>
           <ContentBody />

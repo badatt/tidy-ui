@@ -1,6 +1,5 @@
 import React from 'react';
-import { Stack } from '../../stack/src';
-import { Tag } from '../../tag/src';
+import { Text } from '../../text/src';
 import { FlexBox } from '../../flexbox/src';
 import { Panel } from '../src';
 
@@ -30,7 +29,22 @@ const ContentHeader = () => <>Lorem ipsum dolor sit amet consectetur adipisicing
 export const basic = () => (
   <Panel>
     <Panel.Header>
-      <ContentHeader />
+      <Text.body1 udl>
+        <ContentHeader />
+      </Text.body1>
+    </Panel.Header>
+    <Panel.Body>
+      <ContentBody />
+    </Panel.Body>
+  </Panel>
+);
+
+export const withToggleVisible = () => (
+  <Panel>
+    <Panel.Header isToggleVisible>
+      <Text.body1 udl>
+        <ContentHeader />
+      </Text.body1>
     </Panel.Header>
     <Panel.Body>
       <ContentBody />
@@ -39,9 +53,11 @@ export const basic = () => (
 );
 
 export const expanded = () => (
-  <Panel expanded>
+  <Panel isExpanded>
     <Panel.Header>
-      <ContentHeader />
+      <Text.body1 udl>
+        <ContentHeader />
+      </Text.body1>
     </Panel.Header>
     <Panel.Body>
       <ContentBody />
@@ -49,49 +65,10 @@ export const expanded = () => (
   </Panel>
 );
 
-export const customMargin = () => (
-  <>
-    <Panel margin="0 0 1rem 0">
-      <Panel.Header>
-        <ContentHeader />
-      </Panel.Header>
-      <Panel.Body>
-        <ContentBody />
-      </Panel.Body>
-    </Panel>
-    <Panel>
-      <Panel.Header>
-        <ContentHeader />
-      </Panel.Header>
-      <Panel.Body>
-        <ContentBody />
-      </Panel.Body>
-    </Panel>
-  </>
-);
-
-export const customDimension = () => (
-  <Panel width="30rem">
-    <Panel.Header>
-      <ContentHeader />
-    </Panel.Header>
-    <Panel.Body height="25rem">
-      <ContentBody />
-    </Panel.Body>
-  </Panel>
-);
-
-export const customHeaderElement = () => (
+export const customHeader = () => (
   <Panel>
-    <Panel.Header ele={<FlexBox.Item fgo={1} />}>
-      <FlexBox ali="center" gap="5rem">
-        <ContentHeader />
-        <Stack gap="0.5rem">
-          <Tag>Lorem</Tag>
-          <Tag tone="success">Ipsum</Tag>
-          <Tag tone="info">Dolor</Tag>
-        </Stack>
-      </FlexBox>
+    <Panel.Header ele={<Text.h6 />}>
+      <ContentHeader />
     </Panel.Header>
     <Panel.Body>
       <ContentBody />
@@ -99,10 +76,12 @@ export const customHeaderElement = () => (
   </Panel>
 );
 
-export const customBodyElement = () => (
-  <Panel expanded>
+export const customBody = () => (
+  <Panel isExpanded>
     <Panel.Header>
-      <ContentHeader />
+      <Text.body1 udl>
+        <ContentHeader />
+      </Text.body1>
     </Panel.Header>
     <Panel.Body ele={<FlexBox gap="0.5rem" nowrap />}>
       <div>
@@ -114,17 +93,6 @@ export const customBodyElement = () => (
       <div>
         <ContentBody />
       </div>
-    </Panel.Body>
-  </Panel>
-);
-
-export const noBorder = () => (
-  <Panel noBorder>
-    <Panel.Header>
-      <ContentHeader />
-    </Panel.Header>
-    <Panel.Body>
-      <ContentBody />
     </Panel.Body>
   </Panel>
 );

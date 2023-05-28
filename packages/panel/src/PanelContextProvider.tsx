@@ -11,13 +11,13 @@ const PanelContext = React.createContext<IPanelContext | null>(null);
  */
 const PanelContextProvider = (props: IPanelProps): JSX.Element => {
   const { children } = props;
-  const [expanded, setExpanded] = React.useState(props.expanded);
+  const [isExpanded, setIsExpanded] = React.useState(props.isExpanded);
 
   const toggle = React.useCallback(() => {
-    setExpanded(!expanded);
-  }, [expanded]);
+    setIsExpanded(!isExpanded);
+  }, [isExpanded]);
 
-  const panelContextValue = React.useMemo(() => ({ expanded, toggle }), [expanded, toggle]);
+  const panelContextValue = React.useMemo(() => ({ isExpanded, toggle }), [isExpanded, toggle]);
 
   return <PanelContext.Provider value={panelContextValue}>{children}</PanelContext.Provider>;
 };

@@ -52,7 +52,7 @@ describe('Panel', () => {
       <TidyUiProvider theme={orchidLight}>
         <Panel>
           <Panel.Header>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Panel.Header>
-          <Panel.Body visible>{text}</Panel.Body>
+          <Panel.Body isVisible>{text}</Panel.Body>
         </Panel>
       </TidyUiProvider>,
     );
@@ -64,7 +64,7 @@ describe('Panel', () => {
       <TidyUiProvider theme={orchidLight}>
         <Panel>
           <Panel.Header>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Panel.Header>
-          <Panel.Body visible height="5rem">
+          <Panel.Body isVisible height="5rem">
             {text}
           </Panel.Body>
         </Panel>
@@ -118,7 +118,7 @@ describe('Panel', () => {
   it('Custom body element', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Panel expanded>
+        <Panel isExpanded>
           <Panel.Header>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Panel.Header>
           <Panel.Body ele={<div style={{ display: 'flex' }} />}>
             <div>{text}</div>
@@ -144,23 +144,11 @@ describe('Panel', () => {
 
     act(() => {
       userEvent.hover(container);
-      const panelIcon = getByTestId(container, 'toggle-button');
+      const panelIcon = getByRole(container, 'button');
       expect(queryByRole(container, 'presentation')).toBeNull();
       expect(panelIcon).toBeVisible();
       fireEvent.click(panelIcon);
     });
     expect(queryByRole(container, 'presentation')).toBeVisible();
-  });
-
-  it('No border', () => {
-    const tree = render(
-      <TidyUiProvider theme={orchidLight}>
-        <Panel noBorder>
-          <Panel.Header>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Panel.Header>
-          <Panel.Body>{text}</Panel.Body>
-        </Panel>
-      </TidyUiProvider>,
-    );
-    expect(tree).toMatchSnapshot();
   });
 });

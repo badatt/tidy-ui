@@ -10,7 +10,7 @@ export interface IPanelContext {
    *
    * @default false
    */
-  expanded?: boolean;
+  isExpanded?: boolean;
 
   /**
    * Toggle expand/close of the panel
@@ -27,16 +27,7 @@ export interface IPanelProps extends IBaseProps, HTMLAttributes<HTMLDivElement> 
    *
    * @default false
    */
-  expanded?: boolean;
-  /**
-   * Margin, css `margin` equivalent
-   */
-  margin?: string;
-
-  /**
-   * If `true`, no border applied
-   */
-  noBorder?: boolean;
+  isExpanded?: boolean;
 }
 
 /**
@@ -44,9 +35,9 @@ export interface IPanelProps extends IBaseProps, HTMLAttributes<HTMLDivElement> 
  */
 export interface IPanelHeaderProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * Element that encloses the header
+   * If `true`, shows a toggle button on the panel header
    */
-  ele?: JSX.Element;
+  isToggleVisible?: boolean;
 }
 
 /**
@@ -54,15 +45,11 @@ export interface IPanelHeaderProps extends IBaseProps, HTMLAttributes<HTMLDivEle
  */
 export interface IPanelBodyProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * Element that encloses the body
-   */
-  ele?: JSX.Element;
-  /**
    * If `true`, set the body visible
    *
    * @default false
    */
-  visible?: boolean;
+  isVisible?: boolean;
 }
 
 /**
@@ -70,12 +57,7 @@ export interface IPanelBodyProps extends IBaseProps, HTMLAttributes<HTMLDivEleme
  */
 export interface IPanelGroupProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * Margin, css `margin` equivalent
+   * If `true`, adds a separator between panels
    */
-  margin?: string;
-
-  /**
-   * If `true`, no separator between panels
-   */
-  noSeparator?: boolean;
+  hasSeparator?: boolean;
 }
