@@ -8,7 +8,8 @@ import { ITagGroupProps } from './types';
  *
  */
 const TagGroup = React.forwardRef<HTMLDivElement, ITagGroupProps>((props, ref) => {
-  const { children, onAddNewTag, size, ...rest } = props;
+  const { children, onAddNewTag, ...rest } = props;
+  const { girth, tone } = rest;
 
   const [typing, setTyping] = React.useState(false);
   const [inputValue, setInputValue] = React.useState('');
@@ -52,13 +53,13 @@ const TagGroup = React.forwardRef<HTMLDivElement, ITagGroupProps>((props, ref) =
       return (
         <NewTagInput
           {...rest}
-          withSize={size}
           value={inputValue}
           // eslint-disable-next-line  @typescript-eslint/no-explicit-any
           onChange={(e: any) => setInputValue(e.target.value)}
           onBlur={handleInputConfirm}
           onKeyDown={handleEnterKeyPress}
           role="textbox"
+          {...{ girth }}
         />
       );
     }
@@ -69,13 +70,13 @@ const TagGroup = React.forwardRef<HTMLDivElement, ITagGroupProps>((props, ref) =
         height="1.8em"
         width="1.8em"
         onClick={handleNewTagButtonClick}
-        ele={<AddNewTagIcon {...rest} />}
+        ele={<AddNewTagIcon {...{ tone }} />}
       />
     );
   };
 
   return (
-    <TagGroupRoot ref={ref} role="listbox" size={size} {...rest}>
+    <TagGroupRoot ref={ref} role="listbox" {...rest}>
       {children}
       {renderTagGroupActions()}
     </TagGroupRoot>
@@ -83,8 +84,8 @@ const TagGroup = React.forwardRef<HTMLDivElement, ITagGroupProps>((props, ref) =
 });
 
 TagGroup.defaultProps = {
-  size: 'md',
-  tone: 'major',
+  girth: 'md',
+  tone: 'neutral',
 };
 
 TagGroup.displayName = 'TagGroup';

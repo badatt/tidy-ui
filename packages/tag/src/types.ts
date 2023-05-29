@@ -1,23 +1,11 @@
 import { HTMLAttributes, HtmlHTMLAttributes } from 'react';
-import { TTone } from '@tidy-ui/commons';
+import { TGirth, TTone } from '@tidy-ui/commons';
 import { IBaseProps, IClosable } from '@tidy-ui/types';
 
 /**
- * Size
+ * TagGirth
  */
-export enum Size {
-  'sm',
-  'md',
-  'lg',
-}
-
-/**
- * Size variants of the tag component
- *
- * @typedef {TSize}
- * @public
- */
-export type TSize = keyof typeof Size;
+type TagGirth = Extract<TGirth, 'sm' | 'md' | 'lg'>;
 
 /**
  * Tag properties
@@ -29,12 +17,12 @@ export type TSize = keyof typeof Size;
  */
 export interface ITagProps extends IBaseProps, IClosable, HTMLAttributes<HTMLDivElement> {
   /**
-   * If `true`, the tag is disabled
+   * The girth of the component
    *
-   * @type {?boolean}
-   * @default false
+   * @type {?TagGirth}
+   * @default 'md'
    */
-  disabled?: boolean;
+  girth?: TagGirth;
 
   /**
    * Icon to be added to the tag
@@ -50,16 +38,7 @@ export interface ITagProps extends IBaseProps, IClosable, HTMLAttributes<HTMLDiv
    * @type {?boolean}
    * @default false
    */
-  outlined?: boolean;
-
-  /**
-   * The size of the component
-   *
-   *
-   * @type {?TSize}
-   * @default 'md'
-   */
-  size?: TSize;
+  isFilled?: boolean;
 
   /**
    * Color variant of the tag widget, typically used to classify the
@@ -81,9 +60,12 @@ export interface ITagProps extends IBaseProps, IClosable, HTMLAttributes<HTMLDiv
  */
 export interface ITagGroupProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * Margin, css `margin` equivalent
+   * The girth of the component
+   *
+   * @type {?TagGirth}
+   * @default 'md'
    */
-  margin?: string;
+  girth?: TagGirth;
 
   /**
    * On add callback
@@ -92,14 +74,6 @@ export interface ITagGroupProps extends IBaseProps, HTMLAttributes<HTMLDivElemen
    */
   // eslint-disable-next-line  @typescript-eslint/no-explicit-any
   onAddNewTag?: (v: any) => void;
-
-  /**
-   * The size of the add new tag button
-   *
-   * @type {?TSize}
-   * @default 'md'
-   */
-  size?: TSize;
 
   /**
    * Color variant of the add new tag button
@@ -115,17 +89,17 @@ export interface ITagGroupProps extends IBaseProps, HTMLAttributes<HTMLDivElemen
  */
 export interface INewTagInput extends IBaseProps, HtmlHTMLAttributes<HTMLInputElement> {
   /**
+   * The girth of the component
+   *
+   * @type {?TagGirth}
+   * @default 'md'
+   */
+  girth?: TagGirth;
+  /**
    * Color variant of the add new tag button
    *
    * @type {?TTone}
    * @default 'major'
    */
   tone?: TTone;
-  /**
-   * The size of the add new tag input
-   *
-   * @type {?TSize}
-   * @default 'md'
-   */
-  withSize?: TSize;
 }

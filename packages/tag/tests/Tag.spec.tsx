@@ -29,19 +29,19 @@ describe('Tag', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('Outlined tag', () => {
+  it('Filled tag', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Tag outlined>html</Tag>
+        <Tag isFilled>html</Tag>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
-  it('Outlined tag in dark mode', () => {
+  it('Filled tag in dark mode', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
-        <Tag outlined>html</Tag>
+        <Tag isFilled>html</Tag>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -83,20 +83,9 @@ describe('Tag', () => {
   it('Tags with all magnitude variants', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Tag size="sm">html</Tag>
+        <Tag girth="sm">html</Tag>
         <Tag>typescript</Tag>
-        <Tag size="lg">javascript</Tag>
-      </TidyUiProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('Custom dimension', () => {
-    const tree = render(
-      <TidyUiProvider theme={orchidLight}>
-        <Tag height="3rem" width="10rem">
-          basic
-        </Tag>
+        <Tag girth="lg">javascript</Tag>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();

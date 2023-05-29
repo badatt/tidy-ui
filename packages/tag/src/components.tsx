@@ -1,5 +1,5 @@
-import { css, hsla, Icon, styled } from '@tidy-ui/commons';
-import { filledContent, outlinedContent, sizeStyles } from './style';
+import { applyStandardOverrideStyles, css, hsla, Icon, styled } from '@tidy-ui/commons';
+import { filledContent, outlinedContent, sizeStyles } from './styles';
 import { INewTagInput, ITagGroupProps, ITagProps } from './types';
 
 /**
@@ -8,27 +8,22 @@ import { INewTagInput, ITagGroupProps, ITagProps } from './types';
  * @internal
  */
 const TagRoot = styled.div<ITagProps>`
-  ${({ outlined, size, disabled, icon, height, width }) => css`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: ${sizeStyles[size!].padding};
-    border-radius: 0.25rem;
-    font-size: ${sizeStyles[size!].fontSize};
-    line-height: ${sizeStyles[size!].lineHeight};
-    width: ${width ?? 'fit-content'};
-    height: ${height};
-    ${outlined ? outlinedContent : filledContent}
-    ${disabled &&
-    css`
-      cursor: not-allowed;
-      opacity: 0.5;
-    `}
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.25rem;
+  width: fit-content;
+  ${({ isFilled, girth, icon }) => css`
+    padding: ${sizeStyles[girth!].padding};
+    font-size: ${sizeStyles[girth!].fontSize};
+    line-height: ${sizeStyles[girth!].lineHeight};
+    ${isFilled ? filledContent : outlinedContent}
     ${icon &&
     css`
       gap: 0.25rem;
     `}
   `}
+  ${applyStandardOverrideStyles}
 `;
 
 /**
@@ -50,14 +45,14 @@ const TagCloseIcon = styled(Icon.Close)<ITagProps>`
  * @internal
  */
 const TagGroupRoot = styled.div<ITagGroupProps>`
-  ${({ size, margin }) => css`
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    font-size: ${sizeStyles[size!].fontSize};
-    gap: 0.5rem;
-    margin: ${margin};
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  ${({ girth }) => css`
+    font-size: ${sizeStyles[girth!].fontSize};
   `}
+  ${applyStandardOverrideStyles}
 `;
 
 /**
@@ -82,17 +77,17 @@ const AddNewTagIcon = styled(Icon.AddCircle)<ITagGroupProps>`
  * @internal
  */
 const NewTagInput = styled.input<INewTagInput>`
-  ${({ theme: { isDark, palette }, tone, withSize }) => css`
-    width: ${sizeStyles[withSize!].addNewTagInputWidth};
-    outline: none;
+  outline: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.3s ease-in-out;
+  ${({ theme: { isDark, palette }, tone, girth }) => css`
+    width: ${sizeStyles[girth!].addNewTagInputWidth};
     color: ${isDark ? palette[tone!][400] : palette[tone!][600]};
-    background-color: ${isDark ? hsla(palette[tone!].shades[900], 0.1) : palette[tone!][50]};
     border: 1px solid ${palette[tone!][400]};
-    transition: border-color 0.3s ease-in-out;
-    padding: ${sizeStyles[withSize!].padding};
-    border-radius: 0.25rem;
-    font-size: ${sizeStyles[withSize!].fontSize};
-    line-height: ${sizeStyles[withSize!].lineHeight};
+    background-color: ${isDark ? hsla(palette[tone!].shades[900], 0.1) : palette[tone!][50]};
+    padding: ${sizeStyles[girth!].padding};
+    font-size: ${sizeStyles[girth!].fontSize};
+    line-height: ${sizeStyles[girth!].lineHeight};
     &:focus {
       border: 0;
       outline: 2px solid ${palette[tone!][500]};

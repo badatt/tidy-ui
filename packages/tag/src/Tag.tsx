@@ -8,14 +8,14 @@ import { ITagProps } from './types';
  *
  */
 const Tag = React.forwardRef<HTMLDivElement, ITagProps>((props, ref) => {
-  const { children, className, icon, onClose, ...rest } = props;
+  const { children, icon, onClose, ...rest } = props;
 
   const gapRequired = React.useMemo(() => {
     return [icon, onClose].some(Boolean);
   }, [icon, onClose]);
 
   return (
-    <TagRoot className={className} ref={ref} role="listitem" icon={gapRequired} {...rest}>
+    <TagRoot ref={ref} role="listitem" icon={gapRequired} {...rest}>
       {icon && <Icon ele={icon} />}
       {children}
       {onClose && <Icon ele={<TagCloseIcon onClick={onClose} />} role="button" />}
@@ -24,9 +24,9 @@ const Tag = React.forwardRef<HTMLDivElement, ITagProps>((props, ref) => {
 });
 
 Tag.defaultProps = {
-  outlined: false,
-  size: 'md',
-  tone: 'major',
+  girth: 'md',
+  isFilled: false,
+  tone: 'neutral',
 };
 
 Tag.displayName = 'Tag';

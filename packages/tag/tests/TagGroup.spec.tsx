@@ -13,9 +13,9 @@ describe('TagGroup', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <TagGroup>
-          <Tag size="sm">html</Tag>
+          <Tag girth="sm">html</Tag>
           <Tag>typescript</Tag>
-          <Tag size="lg">javascript</Tag>
+          <Tag girth="lg">javascript</Tag>
           <Tag disabled>cloud</Tag>
           <Tag icon={<Icon ele={<Icon.CheckCircle />} />} onClose={jest.fn()}>
             kotlin
@@ -30,9 +30,9 @@ describe('TagGroup', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <TagGroup margin="0 0 1rem 0">
-          <Tag size="sm">html</Tag>
+          <Tag girth="sm">html</Tag>
           <Tag>typescript</Tag>
-          <Tag size="lg">javascript</Tag>
+          <Tag girth="lg">javascript</Tag>
           <Tag disabled>cloud</Tag>
           <Tag icon={<Icon ele={<Icon.CheckCircle />} />} onClose={jest.fn()}>
             kotlin
@@ -49,9 +49,9 @@ describe('TagGroup', () => {
     const mockOnCloseTag = jest.fn();
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
-        <TagGroup size="sm" onAddNewTag={mockOnAddNewTag}>
+        <TagGroup girth="sm" onAddNewTag={mockOnAddNewTag}>
           {tags.map((t) => (
-            <Tag size="sm" key={t} onClose={() => mockOnCloseTag(t)}>
+            <Tag girth="sm" key={t} onClose={() => mockOnCloseTag(t)}>
               {t}
             </Tag>
           ))}
@@ -75,9 +75,9 @@ describe('TagGroup', () => {
     const mockOnCloseTag = jest.fn();
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <TagGroup size="sm" onAddNewTag={mockOnAddNewTag}>
+        <TagGroup girth="sm" onAddNewTag={mockOnAddNewTag}>
           {tags.map((t) => (
-            <Tag size="sm" key={t} onClose={() => mockOnCloseTag(t)}>
+            <Tag girth="sm" key={t} onClose={() => mockOnCloseTag(t)}>
               {t}
             </Tag>
           ))}
@@ -102,9 +102,9 @@ describe('TagGroup', () => {
     const tags = ['react', 'java', 'cloud', 'scss'];
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
-        <TagGroup size="sm">
+        <TagGroup girth="sm">
           {tags.map((t) => (
-            <Tag size="sm" key={t} onClose={jest.fn()}>
+            <Tag girth="sm" key={t} onClose={jest.fn()}>
               {t}
             </Tag>
           ))}
