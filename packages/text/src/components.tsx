@@ -1,4 +1,4 @@
-import { css, styled } from '@tidy-ui/commons';
+import { applyStandardOverrideStyles, css, styled } from '@tidy-ui/commons';
 import { IDataFieldProps, ITextProps } from './types';
 
 const TextLink = styled.a<ITextProps>`
@@ -30,7 +30,6 @@ const TextRoot = styled.div<ITextProps>`
     dsb,
     exd,
     ctr,
-    mgn,
     tnc,
     stk,
   }) => css`
@@ -47,11 +46,6 @@ const TextRoot = styled.div<ITextProps>`
           font-weight: ${typography[v!].fontWeight};
         `}
 
-    ${mgn &&
-    css`
-      margin: ${mgn};
-    `}
-    
     ${!dsb &&
     tone &&
     css`
@@ -114,6 +108,7 @@ const TextRoot = styled.div<ITextProps>`
       display: inline-block;
     }
   `}
+  ${applyStandardOverrideStyles}
 `;
 
 /**
@@ -122,10 +117,7 @@ const TextRoot = styled.div<ITextProps>`
  * @internal
  */
 const DL = styled.div<IDataFieldProps>`
-  ${({ mgn }) =>
-    css`
-      margin: ${mgn};
-    `}
+  ${applyStandardOverrideStyles}
 `;
 
 /**
@@ -134,12 +126,12 @@ const DL = styled.div<IDataFieldProps>`
  * @internal
  */
 const DD = styled.dd<IDataFieldProps>`
-  ${({ theme: { palette }, acc, mgn }) => css`
+  ${({ theme: { palette }, acc }) => css`
     display: flex;
     justify-content: start;
     align-items: center;
     color: ${palette.text.secondary};
-    margin-bottom: ${mgn && '0.5rem'};
+    margin-bottom: 0.5rem;
     ${acc &&
     css`
       &::before {

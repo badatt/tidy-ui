@@ -46,10 +46,3 @@ export const customElements = () => (
     val={<Text.subtitle2>custom val</Text.subtitle2>}
   />
 );
-
-export const customMargin = () => (
-  <>
-    <DataField acc="neutral" lbl="default label" val="default value" mgn="0 0 2rem 0" />
-    <DataField acc="neutral" lbl="default label" val="default value" />
-  </>
-);

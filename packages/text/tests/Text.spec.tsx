@@ -272,15 +272,5 @@ describe('Text', () => {
         );
         expect(tree).toMatchSnapshot();
       });
-      it('Custom margin', () => {
-        const tree = render(
-          <TidyUiProvider theme={orchidLight} key={i}>
-            <Text.base mgn="0 0 5rem 0" v={Variant[v]}>
-              {Variant[v]}: {text}
-            </Text.base>
-          </TidyUiProvider>,
-        );
-        expect(tree).toMatchSnapshot();
-      });
     });
 });

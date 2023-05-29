@@ -90,14 +90,4 @@ describe('Text', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-
-  it('Custom margin', () => {
-    const tree = render(
-      <TidyUiProvider theme={orchidDark}>
-        <DataField acc="neutral" lbl="default label" val="default value" mgn="0 0 2rem 0" />
-        <DataField acc="neutral" lbl="default label" val="default value" />
-      </TidyUiProvider>,
-    );
-    expect(tree).toMatchSnapshot();
-  });
 });

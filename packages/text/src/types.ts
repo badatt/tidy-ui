@@ -106,11 +106,6 @@ export interface ITextProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   lc?: boolean;
 
   /**
-   * Margin, css `margin` equivalent
-   */
-  mgn?: string;
-
-  /**
    * If `true`, the text is strike through
    *
    * @default false
@@ -190,11 +185,6 @@ export interface IDataFieldProps extends IBaseProps, HTMLAttributes<HTMLDivEleme
    * @default undefined
    */
   lbl?: string | number | JSX.Element;
-
-  /**
-   * Margin, css `margin` equivalent
-   */
-  mgn?: string;
 
   /**
    * Set the color of the value in data field
