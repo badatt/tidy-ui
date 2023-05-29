@@ -56,13 +56,13 @@ describe('Radio', () => {
       <TidyUiProvider theme={orchidLight}>
         <Radio>
           <Radio.Option value="md">Option default md</Radio.Option>
-          <Radio.Option sz="lg" value="lg">
+          <Radio.Option girth="lg" value="lg">
             Option lg
           </Radio.Option>
-          <Radio.Option sz="xl" value="xl">
+          <Radio.Option girth="xl" value="xl">
             Option xl
           </Radio.Option>
-          <Radio.Option sz="xxl" value="xxl">
+          <Radio.Option girth="xxl" value="xxl">
             Option xxl
           </Radio.Option>
         </Radio>
@@ -74,7 +74,7 @@ describe('Radio', () => {
   it('Vertical', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Radio vertical>
+        <Radio isVertical>
           <Radio.Option value="opt1">Option 1</Radio.Option>
           <Radio.Option value="opt2">Option 2</Radio.Option>
         </Radio>

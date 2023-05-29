@@ -1,5 +1,5 @@
 import { HTMLAttributes, InputHTMLAttributes } from 'react';
-import { TSize, TStatus } from '@tidy-ui/commons';
+import { TGirth, TStatus } from '@tidy-ui/commons';
 import { IBaseProps } from '@tidy-ui/types';
 
 /**
@@ -7,17 +7,17 @@ import { IBaseProps } from '@tidy-ui/types';
  */
 export interface IRadioProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * Value for the option
-   */
-  value?: string;
-
-  /**
    * If `true`, aligns the options are aligned vertically
    *
    * @type {?boolean}
    * @default false
    */
-  vertical?: boolean;
+  isVertical?: boolean;
+
+  /**
+   * Value for the option
+   */
+  value?: string;
 }
 
 /**
@@ -25,12 +25,12 @@ export interface IRadioProps extends IBaseProps, HTMLAttributes<HTMLDivElement> 
  */
 export interface IRadioOptionProps extends IBaseProps, InputHTMLAttributes<HTMLInputElement> {
   /**
-   * If `true`, the component is disabled
+   * The size of the component
    *
-   * @type {?boolean}
-   * @default false
+   * @type {?TGirth}
+   * @default 'md'
    */
-  disabled?: boolean;
+  girth?: Exclude<TGirth, 'xxs' | 'xs' | 'sm'>;
 
   /**
    * Color variant of the component, typically used to classify the
@@ -39,14 +39,6 @@ export interface IRadioOptionProps extends IBaseProps, InputHTMLAttributes<HTMLI
    * @type {?TStatus}
    */
   status?: TStatus;
-
-  /**
-   * The size of the component
-   *
-   * @type {?TSize}
-   * @default 'md'
-   */
-  sz?: Exclude<TSize, 'xxs' | 'xs' | 'sm'>;
 
   /**
    * Value for the option

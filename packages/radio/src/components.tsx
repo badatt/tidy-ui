@@ -1,4 +1,4 @@
-import { color, css, hsla, IPalette, styled } from '@tidy-ui/commons';
+import { applyStandardOverrideStyles, color, createFontStyle, css, hsla, IPalette, styled } from '@tidy-ui/commons';
 import { IRadioOptionProps, IRadioProps } from './types';
 
 const sizeScale = {
@@ -11,23 +11,18 @@ const sizeScale = {
 const RadioRoot = styled.fieldset<IRadioProps>`
   display: flex;
   gap: 1em;
-  ${({ vertical }) => css`
-    flex-direction: ${vertical ? 'column' : 'row'};
+  ${({ isVertical }) => css`
+    flex-direction: ${isVertical ? 'column' : 'row'};
   `}
+  ${applyStandardOverrideStyles}
 `;
 
-const RadioOptionRoot = styled.div<Pick<IRadioOptionProps, 'sz' | 'disabled'>>`
+const RadioOptionRoot = styled.div<Pick<IRadioOptionProps, 'girth' | 'disabled'>>`
   display: flex;
   align-items: center;
   cursor: pointer;
-  ${({ sz, disabled }) => css`
-    gap: calc(0.5rem * ${sizeScale[sz!]});
-    ${disabled &&
-    css`
-      opacity: 0.8;
-      cursor: not-allowed;
-      pointer-events: none;
-    `}
+  ${({ girth }) => css`
+    gap: calc(0.5rem * ${sizeScale[girth!]});
   `}
 `;
 
@@ -63,8 +58,8 @@ const RadioOptionInput = styled.input<IRadioOptionProps>`
     }
   }
 
-  ${({ theme: { palette }, status, sz }) => css`
-    font-size: calc(1rem * ${sizeScale[sz!]});
+  ${({ theme: { palette }, status, girth }) => css`
+    font-size: calc(1rem * ${sizeScale[girth!]});
     :focus {
       outline: 1px solid ${getColor(palette, status)};
     }
@@ -86,6 +81,8 @@ const RadioOptionInput = styled.input<IRadioOptionProps>`
 
 const RadioOptionLabel = styled.label`
   cursor: pointer;
+  ${createFontStyle()}
+  ${applyStandardOverrideStyles}
 `;
 
 export { RadioOptionInput, RadioOptionLabel, RadioOptionRoot, RadioRoot };

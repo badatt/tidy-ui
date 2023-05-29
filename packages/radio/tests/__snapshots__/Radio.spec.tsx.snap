@@ -97,6 +97,13 @@ Object {
 
 .c3 {
   cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <body>
@@ -221,6 +228,13 @@ Object {
 
 .c3 {
   cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <div>
@@ -400,6 +414,13 @@ Object {
 
 .c3 {
   cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <body>
@@ -523,6 +544,13 @@ Object {
 
 .c3 {
   cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <div>
@@ -629,9 +657,6 @@ Object {
   align-items: center;
   cursor: pointer;
   gap: calc(0.5rem * 1);
-  opacity: 0.8;
-  cursor: not-allowed;
-  pointer-events: none;
 }
 
 .c2 {
@@ -704,6 +729,13 @@ Object {
 
 .c3 {
   cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <body>
@@ -718,6 +750,7 @@ Object {
         >
           <input
             class="c2"
+            disabled=""
             id="9b291af1"
             name="9b291af1"
             role="radio"
@@ -756,9 +789,6 @@ Object {
   align-items: center;
   cursor: pointer;
   gap: calc(0.5rem * 1);
-  opacity: 0.8;
-  cursor: not-allowed;
-  pointer-events: none;
 }
 
 .c2 {
@@ -831,6 +861,13 @@ Object {
 
 .c3 {
   cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <div>
@@ -844,6 +881,7 @@ Object {
       >
         <input
           class="c2"
+          disabled=""
           id="9b291af1"
           name="9b291af1"
           role="radio"
@@ -1447,6 +1485,13 @@ Object {
 
 .c3 {
   cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <body>
@@ -1867,6 +1912,13 @@ Object {
 
 .c3 {
   cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <div>
@@ -2303,6 +2355,13 @@ Object {
 
 .c3 {
   cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <body>
@@ -2688,6 +2747,13 @@ Object {
 
 .c3 {
   cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <div>
@@ -2924,6 +2990,13 @@ Object {
 
 .c3 {
   cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <body>
@@ -3065,6 +3138,13 @@ Object {
 
 .c3 {
   cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
 }
 
 <div>
