@@ -62,16 +62,16 @@ export interface IStackProps extends IBaseProps, HTMLAttributes<HTMLDivElement> 
   align?: TAlign;
 
   /**
-   * Stack item separator
-   */
-  divider?: React.ReactNode;
-
-  /**
    * If `true`, wraps the elements. css `wrap` equivalent
    *
    * @default false
    */
-  fold?: boolean;
+  canFold?: boolean;
+
+  /**
+   * Stack item separator
+   */
+  divider?: React.ReactNode;
 
   /**
    * css `gap` equivalent
@@ -84,11 +84,6 @@ export interface IStackProps extends IBaseProps, HTMLAttributes<HTMLDivElement> 
    * @default 'flex-start'
    */
   justify?: TJustify;
-
-  /**
-   * Margin, css `margin` equivalent
-   */
-  margin?: string;
 
   /**
    * Direction to arrange the elements inside the Stack

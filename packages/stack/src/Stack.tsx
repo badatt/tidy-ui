@@ -1,26 +1,6 @@
 import React from 'react';
-import { css, styled } from '@tidy-ui/commons';
+import { StackItem, StackRoot } from './components';
 import { IStackProps } from './types';
-
-const StackRoot = styled.div<IStackProps>`
-  display: flex;
-  ${({ align, order, justify, gap, fold, margin, height, width }) => css`
-    flex-direction: ${order};
-    justify-content: ${justify};
-    align-content: ${align};
-    gap: ${gap};
-    flex-wrap: ${fold ? 'wrap' : 'nowrap'};
-    margin: ${margin};
-    height: ${height};
-    width: ${width};
-  `}
-`;
-
-const StackItem = styled.div<IStackProps>`
-  ${({ align }) => css`
-    align-self: ${align};
-  `}
-`;
 
 /**
  * Stack, as the name says, can be used to stack any react component, plain html
@@ -29,12 +9,12 @@ const StackItem = styled.div<IStackProps>`
  * styling options like alignment, wrap, gap etc.
  */
 const Stack = React.forwardRef<HTMLDivElement, IStackProps>((props, ref) => {
-  const { children, className, divider, ...rest } = props;
+  const { children, divider, ...rest } = props;
   const count = React.Children.count(children);
   return (
-    <StackRoot ref={ref} role="group" className={className} {...rest}>
+    <StackRoot ref={ref} role="group" {...rest}>
       {React.Children.map(children, (child, i) => {
-        const childNode = <StackItem {...rest}>{child}</StackItem>;
+        const childNode = <StackItem align={props.align}>{child}</StackItem>;
         return [childNode, i < count - 1 ? divider : null];
       })}
     </StackRoot>
@@ -43,7 +23,9 @@ const Stack = React.forwardRef<HTMLDivElement, IStackProps>((props, ref) => {
 
 Stack.defaultProps = {
   align: 'flex-start',
-  fold: false,
+  canFold: false,
+  justify: 'flex-start',
+  order: 'row',
 };
 
 Stack.displayName = 'Stack';

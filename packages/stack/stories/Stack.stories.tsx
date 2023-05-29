@@ -31,7 +31,7 @@ export const divider = () => (
   <StackProvider>
     <Ctx.Consumer>
       {({ count }) => (
-        <Stack divider={<Divider vertical />}>
+        <Stack divider={<Divider isVertical />}>
           {[...Array(count)].map((v, i) => (
             <StackItem key={i}>
               <StyledText>{i}</StyledText>
@@ -63,7 +63,7 @@ export const fold = () => (
   <StackProvider size={24}>
     <Ctx.Consumer>
       {({ count }) => (
-        <Stack fold>
+        <Stack canFold>
           {[...Array(count)].map((v, i) => (
             <StackItem key={i}>
               <StyledText>{i}</StyledText>
@@ -157,7 +157,7 @@ export const customSize = () => (
   <StackProvider>
     <Ctx.Consumer>
       {({ count }) => (
-        <Stack fold height="25rem" width="75rem" align="baseline" gap="0.5rem" style={{ border: '1px dashed gray' }}>
+        <Stack canFold height="25rem" width="75rem" align="baseline" gap="0.5rem" style={{ border: '1px dashed gray' }}>
           {[...Array(count)].map((v, i) => (
             <StackItem key={i}>
               <StyledText>{i}</StyledText>

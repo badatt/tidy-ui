@@ -9,6 +9,8 @@ const Ctx = React.createContext({ count: baseCount });
 /** @internal */
 export interface IStackProvider extends IBaseProps {
   /** @internal */
+  children: React.ReactNode;
+  /** @internal */
   size?: number;
 }
 
