@@ -47,4 +47,14 @@ describe('Tooltip', () => {
     );
     expect(tree).toMatchSnapshot();
   });
+  it('Wrapped', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Tooltip canWrap aria-label="Lorem ipsum dolor sit amet consectetur" direction="right">
+          Right
+        </Tooltip>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
 });

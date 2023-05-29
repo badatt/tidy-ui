@@ -111,4 +111,15 @@ describe('FlexItem', () => {
     );
     expect(tree).toMatchSnapshot();
   });
+
+  it('Custom element', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <FlexBox>
+          <FlexBox.Item ele={<div />}>sample</FlexBox.Item>
+        </FlexBox>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
 });

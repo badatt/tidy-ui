@@ -2,11 +2,14 @@
  * @jest-environment jsdom
  */
 import React from 'react';
-import { render } from '@testing-library/react';
+import { cleanup, render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
 import { Panel, PanelGroup } from '../src';
+
+afterEach(cleanup);
+const originalError = console.error;
 
 const text = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
           itaque quos earum! Ex, neque, unde officia accusamus necessitatibus, quas incidunt architecto a impedit ut
@@ -108,5 +111,51 @@ describe('Panel', () => {
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
+  });
+
+  it('With eparator in dark', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidDark}>
+        <PanelGroup hasSeparator>
+          {[...Array(10)].map((v, i) => (
+            <Panel key={i}>
+              <Panel.Header>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Panel.Header>
+              <Panel.Body>{text}</Panel.Body>
+            </Panel>
+          ))}
+        </PanelGroup>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  describe('Invalid children for PanelGroup', () => {
+    let consoleOutput: string[] = [];
+    const mockedError = (output) => consoleOutput.push(output);
+    beforeEach(() => (console.error = mockedError));
+
+    it('Invalid children for PanelGroup', () => {
+      const tree = render(
+        <TidyUiProvider theme={orchidLight}>
+          <PanelGroup>
+            <div>Invalid text</div>
+          </PanelGroup>
+        </TidyUiProvider>,
+      );
+      expect(tree).toMatchSnapshot();
+      expect(consoleOutput[0]).toEqual(`Warning: Failed %s type: %s%s`);
+      console.error = originalError;
+    });
+
+    it('No children for PanelGroup', () => {
+      const tree = render(
+        <TidyUiProvider theme={orchidLight}>
+          <PanelGroup></PanelGroup>
+        </TidyUiProvider>,
+      );
+      expect(tree).toMatchSnapshot();
+      expect(consoleOutput[0]).toEqual(`Warning: Failed %s type: %s%s`);
+      console.error = originalError;
+    });
   });
 });

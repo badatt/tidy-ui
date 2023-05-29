@@ -56,7 +56,7 @@ describe('Chip', () => {
   it('Filled in dark', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
-        <Chip isFilled></Chip>
+        <Chip isFilled icon={<Icon.AddCircle />}></Chip>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -99,7 +99,7 @@ describe('Chip', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('Icon on  chip', () => {
+  it('Icon on chip', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Chip icon={<Icon.AddCircle />} placement="right">
@@ -110,7 +110,7 @@ describe('Chip', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('Icon on  chip in dark', () => {
+  it('Icon on chip in dark', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
         <Chip icon={<Icon.AddCircle />} placement="right">
@@ -130,10 +130,12 @@ describe('Chip', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('Clickable', () => {
+  it('Clickable filled', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Chip isClickable>isClickable</Chip>
+        <Chip isFilled isClickable>
+          isClickable
+        </Chip>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -152,6 +154,15 @@ describe('Chip', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Chip disabled>disabled</Chip>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Custom element', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Chip ele={<div />}>basic</Chip>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();

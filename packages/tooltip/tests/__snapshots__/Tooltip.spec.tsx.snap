@@ -1181,3 +1181,218 @@ Object {
   "unmount": [Function],
 }
 `;
+
+exports[`Tooltip Wrapped 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  position: relative;
+}
+
+.c0::before {
+  display: none;
+  content: attr(aria-label);
+  position: absolute;
+  font-size: 0.8rem;
+  padding: 0.4em 0.6em;
+  border-radius: 0.2rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: hsla(222,47%,11%,1);
+  color: hsla(213,27%,84%,1);
+  z-index: 1000000;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-shadow: none;
+  text-transform: none;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  overflow-wrap: break-word;
+  white-space: pre;
+  pointer-events: none;
+  border-radius: 3px;
+  left: calc(100% + 5px);
+  top: calc(50% - 0.4rem - 0.4em);
+}
+
+.c0::after {
+  display: none;
+  content: '';
+  position: absolute;
+  z-index: 1000001;
+  border-width: 5px;
+  border-style: solid;
+  width: 0px;
+  height: 0px;
+  pointer-events: none;
+  top: calc(50% - 5px);
+  left: calc(100% - 5px);
+  border-color: transparent  hsla(222,47%,11%,1) transparent transparent;
+}
+
+.c0:hover::before,
+.c0:active::before,
+.c0:focus::before {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  word-wrap: break-word;
+  white-space: pre-line;
+  border-collapse: separate;
+  display: block;
+  position: absolute;
+}
+
+.c0:hover::after,
+.c0:active::after,
+.c0:focus::after {
+  display: inline-block;
+}
+
+<body>
+    <div>
+      <div
+        aria-label="Lorem ipsum dolor sit amet consectetur"
+        class="c0"
+        direction="right"
+        role="tooltip"
+      >
+        Right
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  position: relative;
+}
+
+.c0::before {
+  display: none;
+  content: attr(aria-label);
+  position: absolute;
+  font-size: 0.8rem;
+  padding: 0.4em 0.6em;
+  border-radius: 0.2rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: hsla(222,47%,11%,1);
+  color: hsla(213,27%,84%,1);
+  z-index: 1000000;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-shadow: none;
+  text-transform: none;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  overflow-wrap: break-word;
+  white-space: pre;
+  pointer-events: none;
+  border-radius: 3px;
+  left: calc(100% + 5px);
+  top: calc(50% - 0.4rem - 0.4em);
+}
+
+.c0::after {
+  display: none;
+  content: '';
+  position: absolute;
+  z-index: 1000001;
+  border-width: 5px;
+  border-style: solid;
+  width: 0px;
+  height: 0px;
+  pointer-events: none;
+  top: calc(50% - 5px);
+  left: calc(100% - 5px);
+  border-color: transparent  hsla(222,47%,11%,1) transparent transparent;
+}
+
+.c0:hover::before,
+.c0:active::before,
+.c0:focus::before {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  word-wrap: break-word;
+  white-space: pre-line;
+  border-collapse: separate;
+  display: block;
+  position: absolute;
+}
+
+.c0:hover::after,
+.c0:active::after,
+.c0:focus::after {
+  display: inline-block;
+}
+
+<div>
+    <div
+      aria-label="Lorem ipsum dolor sit amet consectetur"
+      class="c0"
+      direction="right"
+      role="tooltip"
+    >
+      Right
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

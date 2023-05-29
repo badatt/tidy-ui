@@ -80,4 +80,16 @@ describe('Drawer', () => {
     const closeBtn = tree.getByRole('button');
     fireEvent.click(closeBtn);
   });
+
+  it('Custom element', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidDark}>
+        <button data-testid="open-btn">Open</button>
+        <Drawer isOpen ele={<div />}>
+          menu
+        </Drawer>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
 });

@@ -172,4 +172,14 @@ describe('Border', () => {
     );
     expect(tree).toMatchSnapshot();
   });
+  it('Custom element', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Border ele={<div />}>
+          <Content />
+        </Border>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
 });

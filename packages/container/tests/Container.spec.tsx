@@ -207,4 +207,15 @@ describe('Container', () => {
     );
     expect(tree).toMatchSnapshot();
   });
+
+  it('Custom element', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Container ele={<div />}>
+          <Content />
+        </Container>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
 });
