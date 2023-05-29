@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Button, ButtonGroup, ButtonCluster } from '../../button/src';
 import { Text } from '../../text/src';
 import { Divider } from '../../divider/src';
@@ -35,7 +35,7 @@ export const basic = () => {
 
 export const span = () => {
   type SpanType = Required<IFlexItemProps>['span'];
-  const [span, setSpan] = useState<SpanType>(4);
+  const [span, setSpan] = React.useState<SpanType>(4);
   const increment = () => setSpan((span + 1) as SpanType);
   const decrement = () => span > 0 && setSpan((span - 1) as SpanType);
   const reset = () => setSpan(4);
