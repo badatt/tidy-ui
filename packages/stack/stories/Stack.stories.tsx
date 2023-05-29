@@ -168,28 +168,3 @@ export const customSize = () => (
     </Ctx.Consumer>
   </StackProvider>
 );
-
-export const customMargin = () => (
-  <StackProvider>
-    <Ctx.Consumer>
-      {({ count }) => (
-        <>
-          <Stack margin="0 0 2rem 0">
-            {[...Array(count)].map((v, i) => (
-              <StackItem key={i}>
-                <StyledText>{i}</StyledText>
-              </StackItem>
-            ))}
-          </Stack>
-          <Stack>
-            {[...Array(count)].map((v, i) => (
-              <StackItem key={i}>
-                <StyledText>{i}</StyledText>
-              </StackItem>
-            ))}
-          </Stack>
-        </>
-      )}
-    </Ctx.Consumer>
-  </StackProvider>
-);
