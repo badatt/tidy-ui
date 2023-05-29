@@ -1,9 +1,8 @@
 import React from 'react';
 import { Icon } from '../../commons/src';
 import { FlexBox } from '../../flexbox/src';
-import { Tag } from '../src';
 import { Tone } from '../../commons/src';
-import { Size } from '../src/types';
+import { Tag } from '../src';
 
 export default {
   component: Tag,
@@ -19,37 +18,29 @@ export const tones = () => (
     {Object.keys(Tone)
       .filter((i) => !isNaN(Number(i)))
       .map((v, i) => (
-        <Tag tone={Tone[v]}>{Tone[v]}</Tag>
-      ))}
-  </FlexBox>
-);
-
-export const outlined = () => (
-  <FlexBox gap="1rem">
-    {Object.keys(Tone)
-      .filter((i) => !isNaN(Number(i)))
-      .map((v, i) => (
-        <Tag tone={Tone[v]} outlined>
+        <Tag tone={Tone[v]} key={Tone[v]}>
           {Tone[v]}
         </Tag>
       ))}
   </FlexBox>
 );
 
-export const disabled = () => <Tag disabled>disabled</Tag>;
-
-export const sizes = () => (
-  <FlexBox fld="column" gap="1rem">
-    {Object.keys(Size)
+export const filled = () => (
+  <FlexBox gap="1rem">
+    {Object.keys(Tone)
       .filter((i) => !isNaN(Number(i)))
       .map((v, i) => (
-        <Tag size={Size[v]}>size = {Size[v]}</Tag>
+        <Tag tone={Tone[v]} key={Tone[v]} isFilled>
+          {Tone[v]}
+        </Tag>
       ))}
   </FlexBox>
 );
 
-export const customDimensions = () => (
-  <Tag height="3rem" width="10rem">
-    custom dimension
-  </Tag>
+export const Girths = () => (
+  <FlexBox fld="column" gap="1rem">
+    <Tag girth="sm">size = sm</Tag>
+    <Tag girth="md">size = md</Tag>
+    <Tag girth="lg">size = lg</Tag>
+  </FlexBox>
 );
