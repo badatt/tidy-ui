@@ -6,7 +6,7 @@ const getShade = (isDark) => (isDark ? 700 : 300);
 
 const DividerRoot = styled.hr<IDividerProps>`
   ${({ theme: { palette, isDark }, align, length, tone, shade, density, variant, margin, isVertical }) => css`
-    border-color: ${palette[tone!][shade || getShade(isDark)]};
+    border-color: ${palette[tone!][shade ?? getShade(isDark)]};
     flex-shrink: 0;
     border-style: ${variant};
     align-self: ${align};
@@ -45,7 +45,7 @@ const EnhancedDividerRoot = styled.div<IEnhancedDividerProps>`
 
 const Separator = styled.hr<IEnhancedDividerProps>`
   ${({ theme: { palette, isDark }, tone, shade, density, variant }) => css`
-    border-color: ${palette[tone!][shade || getShade(isDark)]};
+    border-color: ${palette[tone!][shade ?? getShade(isDark)]};
     border-width: 0px 0px ${density};
     border-style: ${variant};
     flex-grow: 1;

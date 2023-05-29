@@ -96,6 +96,19 @@ describe('Radio', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('Custom element', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Radio value="opt3">
+          <Radio.Option value="opt3" ele={<div />}>
+            Option 3
+          </Radio.Option>
+        </Radio>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
   describe('Invalid children for Radio', () => {
     let consoleOutput: string[] = [];
     const mockedError = (output) => consoleOutput.push(output);

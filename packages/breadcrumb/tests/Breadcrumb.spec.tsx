@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 import React from 'react';
-import { act, fireEvent, getByText, render } from '@testing-library/react';
+import { act, cleanup, fireEvent, getByText, render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
@@ -10,6 +10,9 @@ import { Divider } from '../../divider/src';
 import { FlexBox } from '../../flexbox/src';
 import { Tone } from '../../commons/src';
 import { Breadcrumb } from '../src';
+
+afterEach(cleanup);
+const originalError = console.error;
 
 describe('Breadcrumb', () => {
   it('Basic render', () => {
@@ -127,6 +130,20 @@ describe('Breadcrumb', () => {
       fireEvent.click(expandButton);
     });
   });
+
+  it('Custom element', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Breadcrumb>
+          <Breadcrumb.Item href="#" ele={<a />}>
+            link 1
+          </Breadcrumb.Item>
+        </Breadcrumb>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
   it('Custom expanded', () => {
     const mockCb = jest.fn();
     const tree = render(
@@ -147,6 +164,36 @@ describe('Breadcrumb', () => {
     act(() => {
       fireEvent.click(expandButton);
       expect(mockCb).toBeCalled();
+    });
+  });
+
+  describe('Invalid children for Breadcrumb', () => {
+    let consoleOutput: string[] = [];
+    const mockedError = (output) => consoleOutput.push(output);
+    beforeEach(() => (console.error = mockedError));
+
+    it('Invalid children for Breadcrumb', () => {
+      const tree = render(
+        <TidyUiProvider theme={orchidLight}>
+          <Breadcrumb>
+            <div>Invalid text</div>
+          </Breadcrumb>
+        </TidyUiProvider>,
+      );
+      expect(tree).toMatchSnapshot();
+      expect(consoleOutput[0]).toEqual(`Warning: Failed %s type: %s%s`);
+      console.error = originalError;
+    });
+
+    it('No children for Breadcrumb', () => {
+      const tree = render(
+        <TidyUiProvider theme={orchidLight}>
+          <Breadcrumb></Breadcrumb>
+        </TidyUiProvider>,
+      );
+      expect(tree).toMatchSnapshot();
+      expect(consoleOutput[0]).toEqual(`Warning: Failed %s type: %s%s`);
+      console.error = originalError;
     });
   });
 });

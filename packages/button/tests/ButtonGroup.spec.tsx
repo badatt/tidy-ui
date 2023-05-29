@@ -2,11 +2,14 @@
  * @jest-environment jsdom
  */
 import React from 'react';
-import { render } from '@testing-library/react';
+import { cleanup, render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
 import { Button, ButtonGroup } from '../src';
+
+afterEach(cleanup);
+const originalError = console.error;
 
 describe('Render ButtonGroup', () => {
   it('Basic render', () => {
@@ -109,5 +112,35 @@ describe('Render ButtonGroup', () => {
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
+  });
+
+  describe('Invalid children for ButtonGroup', () => {
+    let consoleOutput: string[] = [];
+    const mockedError = (output) => consoleOutput.push(output);
+    beforeEach(() => (console.error = mockedError));
+
+    it('Invalid children for ButtonGroup', () => {
+      const tree = render(
+        <TidyUiProvider theme={orchidLight}>
+          <ButtonGroup>
+            <div>Invalid text</div>
+          </ButtonGroup>
+        </TidyUiProvider>,
+      );
+      expect(tree).toMatchSnapshot();
+      expect(consoleOutput[0]).toEqual(`Warning: Failed %s type: %s%s`);
+      console.error = originalError;
+    });
+
+    it('No children for ButtonGroup', () => {
+      const tree = render(
+        <TidyUiProvider theme={orchidLight}>
+          <ButtonGroup></ButtonGroup>
+        </TidyUiProvider>,
+      );
+      expect(tree).toMatchSnapshot();
+      expect(consoleOutput[0]).toEqual(`Warning: Failed %s type: %s%s`);
+      console.error = originalError;
+    });
   });
 });

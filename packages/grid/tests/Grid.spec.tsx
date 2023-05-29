@@ -2,12 +2,15 @@
  * @jest-environment jsdom
  */
 import React from 'react';
-import { render } from '@testing-library/react';
+import { cleanup, render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidLight, TidyUiProvider } from '../../commons/src';
 import { Grid } from '../src';
 import { IItemProps } from '../src/types';
+
+afterEach(cleanup);
+const originalError = console.error;
 
 const count = 24;
 
@@ -74,17 +77,55 @@ describe('Grid', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('Custom marginr', () => {
+  it('Custom element', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Grid margin="0 0 3rem 0">
-          <Items />
-        </Grid>
-        <Grid>
-          <Items />
+        <Grid ele={<div />}>
+          <Items xs={24} sm={16} md={12} lg={8} xl={4} />
         </Grid>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
+  });
+
+  it('Custom item element', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Grid>
+          <Grid.Item ele={<div />}>sample</Grid.Item>
+        </Grid>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  describe('Invalid children for Grid', () => {
+    let consoleOutput: string[] = [];
+    const mockedError = (output) => consoleOutput.push(output);
+    beforeEach(() => (console.error = mockedError));
+
+    it('Invalid children for Grid', () => {
+      const tree = render(
+        <TidyUiProvider theme={orchidLight}>
+          <Grid>
+            <Grid>Invalid text</Grid>
+          </Grid>
+        </TidyUiProvider>,
+      );
+      expect(tree).toMatchSnapshot();
+      expect(consoleOutput[0]).toEqual(`Warning: Failed %s type: %s%s`);
+      console.error = originalError;
+    });
+
+    it('No children for Grid', () => {
+      const tree = render(
+        <TidyUiProvider theme={orchidLight}>
+          <Grid></Grid>
+        </TidyUiProvider>,
+      );
+      expect(tree).toMatchSnapshot();
+      expect(consoleOutput[0]).toEqual(`Warning: Failed %s type: %s%s`);
+      console.error = originalError;
+    });
   });
 });

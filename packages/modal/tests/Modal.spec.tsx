@@ -86,4 +86,28 @@ describe('Modal', () => {
     const outerElement = tree.getByRole('navigation');
     fireEvent.click(outerElement);
   });
+
+  it('Custom element', () => {
+    const mockSetOpen = jest.fn();
+    const mockSetClose = jest.fn();
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <button onClick={mockSetOpen} data-testid="open-btn">
+          Submit
+        </button>
+        <Modal isOpen={true} ele={<div />}>
+          <div onClick={mockSetClose} data-testid="inner-element">
+            Successfully submitted !
+          </div>
+        </Modal>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+    const openBtn = tree.getByTestId('open-btn');
+    fireEvent.click(openBtn);
+    expect(mockSetOpen).toHaveBeenCalledTimes(1);
+    const innerElement = tree.getByTestId('inner-element');
+    fireEvent.click(innerElement);
+    expect(mockSetClose).toHaveBeenCalledTimes(1);
+  });
 });

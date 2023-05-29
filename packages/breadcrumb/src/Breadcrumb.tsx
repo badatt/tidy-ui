@@ -40,7 +40,7 @@ const Breadcrumb = React.forwardRef<HTMLOListElement, IBreadcrumbProps>((props, 
         } else {
           childElement = React.cloneElement(ele, {
             ...ele.props,
-            tone: rest.tone || ele.props.tone,
+            tone: rest.tone ?? ele.props.tone,
           });
         }
         return [childElement, i < items.length - 1 ? renderSeparator() : null];

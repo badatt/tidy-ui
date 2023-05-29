@@ -180,4 +180,15 @@ describe('FlexBox', () => {
     );
     expect(tree).toMatchSnapshot();
   });
+
+  it('Custom element', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <FlexBox height={height} ele={<div />}>
+          sample
+        </FlexBox>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
 });

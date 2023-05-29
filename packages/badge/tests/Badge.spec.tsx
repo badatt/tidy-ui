@@ -142,4 +142,14 @@ describe('Badge', () => {
     );
     expect(tree).toMatchSnapshot();
   });
+  it('Custom element', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Badge ele={<div>Mail</div>} content={5}>
+          <Icon ele={<Icon.Dangerous />} />
+        </Badge>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
 });

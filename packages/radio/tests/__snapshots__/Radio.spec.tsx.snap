@@ -317,6 +317,327 @@ Object {
 }
 `;
 
+exports[`Radio Custom element 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  gap: calc(0.5rem * 1);
+}
+
+.c2 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0.2em;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 2px solid hsla(215,16%,47%,1);
+  font-size: calc(1rem * 1);
+}
+
+.c2::after {
+  content: '';
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  border-radius: 50%;
+  width: 0.75em;
+  height: 0.75em;
+}
+
+.c2:hover::after {
+  background-color: hsla(215,16%,47%,1);
+}
+
+.c2:focus {
+  outline: 1px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c2:checked:hover {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked:hover::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c3 {
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+}
+
+<body>
+    <div>
+      <fieldset
+        class="c0"
+        role="radiogroup"
+      >
+        <div
+          class="c1"
+        >
+          <input
+            checked=""
+            class="c2"
+            id="f4ffb470"
+            name="f4ffb470"
+            role="radio"
+            type="radio"
+            value="opt3"
+          />
+          <label
+            class="c3"
+            for="f4ffb470"
+          >
+            <div>
+              Option 3
+            </div>
+          </label>
+        </div>
+      </fieldset>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  gap: calc(0.5rem * 1);
+}
+
+.c2 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  margin: 0.2em;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 50%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 2px solid hsla(215,16%,47%,1);
+  font-size: calc(1rem * 1);
+}
+
+.c2::after {
+  content: '';
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  border-radius: 50%;
+  width: 0.75em;
+  height: 0.75em;
+}
+
+.c2:hover::after {
+  background-color: hsla(215,16%,47%,1);
+}
+
+.c2:focus {
+  outline: 1px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c2:checked:hover {
+  border: 2px solid hsla(330,81%,60%,1);
+}
+
+.c2:checked:hover::after {
+  background-color: hsla(330,81%,60%,1);
+}
+
+.c3 {
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+}
+
+<div>
+    <fieldset
+      class="c0"
+      role="radiogroup"
+    >
+      <div
+        class="c1"
+      >
+        <input
+          checked=""
+          class="c2"
+          id="f4ffb470"
+          name="f4ffb470"
+          role="radio"
+          type="radio"
+          value="opt3"
+        />
+        <label
+          class="c3"
+          for="f4ffb470"
+        >
+          <div>
+            Option 3
+          </div>
+        </label>
+      </div>
+    </fieldset>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
 exports[`Radio Dark mode basic render 1`] = `
 Object {
   "asFragment": [Function],

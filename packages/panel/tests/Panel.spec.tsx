@@ -3,12 +3,16 @@
  */
 import React from 'react';
 import { act } from 'react-dom/test-utils';
-import { fireEvent, getByRole, getByTestId, queryByRole, render } from '@testing-library/react';
+import { cleanup, fireEvent, getByRole, getByTestId, queryByRole, render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
 import { Panel } from '../src';
+import { Tone } from '@tidy-ui/commons';
+
+afterEach(cleanup);
+const originalError = console.error;
 
 const text = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
           itaque quos earum! Ex, neque, unde officia accusamus necessitatibus, quas incidunt architecto a impedit ut
@@ -59,6 +63,18 @@ describe('Panel', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('Toggle visible', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Panel>
+          <Panel.Header isToggleVisible>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Panel.Header>
+          <Panel.Body isVisible>{text}</Panel.Body>
+        </Panel>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
   it('Visible with height', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
@@ -73,17 +89,21 @@ describe('Panel', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('Custom margin', () => {
+  it('Accent', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Panel margin="0 0 1rem 0">
-          <Panel.Header>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Panel.Header>
-          <Panel.Body>{text}</Panel.Body>
-        </Panel>
-        <Panel>
-          <Panel.Header>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Panel.Header>
-          <Panel.Body>{text}</Panel.Body>
-        </Panel>
+        {Object.values(Tone)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v, i) => (
+            <Panel key={i}>
+              <Panel.Header accent={Tone[v]}>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas odit minima facere quo, quidem
+                officiis et. Optio maiores eius deserunt, perspiciatis magnam tenetur nemo assumenda non commodi fugiat?
+                Animi, necessitatibus!
+              </Panel.Header>
+              <Panel.Body accent={Tone[v]}>{text}</Panel.Body>
+            </Panel>
+          ))}
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -131,11 +151,13 @@ describe('Panel', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it.skip('Toggle expand panel', () => {
+  it('Toggle expand panel', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Panel>
-          <Panel.Header accent="major">Lorem ipsum dolor sit amet consectetur adipisicing elit.</Panel.Header>
+          <Panel.Header accent="major" isToggleVisible>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </Panel.Header>
           <Panel.Body accent="major">{text}</Panel.Body>
         </Panel>
       </TidyUiProvider>,
@@ -150,5 +172,60 @@ describe('Panel', () => {
       fireEvent.click(panelIcon);
     });
     expect(queryByRole(container, 'presentation')).toBeVisible();
+  });
+
+  it('Toggle expand panel with custom height', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Panel>
+          <Panel.Header accent="major" isToggleVisible>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </Panel.Header>
+          <Panel.Body accent="major" height="250px">
+            {text}
+          </Panel.Body>
+        </Panel>
+      </TidyUiProvider>,
+    );
+    const { container } = tree;
+
+    act(() => {
+      userEvent.hover(container);
+      const panelIcon = getByRole(container, 'button');
+      expect(queryByRole(container, 'presentation')).toBeNull();
+      expect(panelIcon).toBeVisible();
+      fireEvent.click(panelIcon);
+    });
+    expect(queryByRole(container, 'presentation')).toBeVisible();
+  });
+
+  describe('Invalid children for Panel', () => {
+    let consoleOutput: string[] = [];
+    const mockedError = (output) => consoleOutput.push(output);
+    beforeEach(() => (console.error = mockedError));
+
+    it('Invalid children for Panel', () => {
+      const tree = render(
+        <TidyUiProvider theme={orchidLight}>
+          <Panel>
+            <div>Invalid text</div>
+          </Panel>
+        </TidyUiProvider>,
+      );
+      expect(tree).toMatchSnapshot();
+      expect(consoleOutput[0]).toEqual(`Warning: Failed %s type: %s%s`);
+      console.error = originalError;
+    });
+
+    it('No children for Panel', () => {
+      const tree = render(
+        <TidyUiProvider theme={orchidLight}>
+          <Panel></Panel>
+        </TidyUiProvider>,
+      );
+      expect(tree).toMatchSnapshot();
+      expect(consoleOutput[0]).toEqual(`Warning: Failed %s type: %s%s`);
+      console.error = originalError;
+    });
   });
 });

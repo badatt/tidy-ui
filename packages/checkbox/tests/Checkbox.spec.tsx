@@ -83,4 +83,13 @@ describe('Checkbox', () => {
     );
     expect(tree).toMatchSnapshot();
   });
+
+  it('Custom element', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Checkbox ele={<div />}>basic</Checkbox>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
 });

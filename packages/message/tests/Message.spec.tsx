@@ -74,6 +74,20 @@ describe('Message', () => {
     );
     expect(tree).toMatchSnapshot();
   });
+  it('Message with all color filled variants dark mode', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidDark}>
+        {Object.values(Tone)
+          .filter((i) => !isNaN(Number(i)))
+          .map((c) => (
+            <Message tone={Tone[c]} key={c} isFilled>
+              {text}
+            </Message>
+          ))}
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
   it('Message stretched to full width', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
@@ -125,7 +139,7 @@ describe('Message', () => {
     const { container } = tree;
     act(() => {
       userEvent.hover(container);
-      const closeButton = screen.getByTestId('close-button');
+      const closeButton = screen.getByRole('button');
       expect(closeButton).toBeVisible();
       fireEvent.click(closeButton);
       expect(closeButton).not.toBeVisible();
