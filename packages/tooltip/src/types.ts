@@ -1,11 +1,17 @@
 import { HTMLAttributes } from 'react';
-import { TDirection, TSize, TTone } from '@tidy-ui/commons';
+import { TDirection, TGirth, TTone } from '@tidy-ui/commons';
 import { IBaseProps } from '@tidy-ui/types';
 
 /**
  * Tooltip props
  */
 export interface ITooltipProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
+  /**
+   * Wraps lengthy content
+   *
+   * @default false
+   */
+  canWrap?: boolean;
   /**
    * Direction of the tooltip
    *
@@ -15,20 +21,14 @@ export interface ITooltipProps extends IBaseProps, HTMLAttributes<HTMLDivElement
   /**
    * Size of the tooltip
    *
-   * @type {?TSize}
+   * @type {?TGirth}
    */
-  size?: TSize;
+  girth?: TGirth;
+
   /**
    * Tone of the tooltip
    *
    * @type {?TTone}
    */
   tone?: TTone;
-
-  /**
-   * Wraps lengthy content
-   *
-   * @default false
-   */
-  wrap?: boolean;
 }

@@ -19,35 +19,35 @@ export const basic = () => (
   <Container gutter="0" height="20rem">
     <FlexBox ctr fuh gap="1rem">
       <Tooltip aria-label="Lorem ipsum dolor sit amet consectetur" direction="right">
-        <Button size="lg">Right</Button>
+        <Button girth="lg">Right</Button>
       </Tooltip>
       <Tooltip aria-label="Lorem ipsum dolor sit amet consectetur" direction="top">
-        <Button size="lg">Top</Button>
+        <Button girth="lg">Top</Button>
       </Tooltip>
-      <Tooltip aria-label="Lorem ipsum dolor sit amet consectetur" direction="bottom" width="250px" wrap>
-        <Button size="lg">bottom</Button>
+      <Tooltip aria-label="Lorem ipsum dolor sit amet consectetur" direction="bottom" width="250px" canWrap>
+        <Button girth="lg">bottom</Button>
       </Tooltip>
       <Tooltip aria-label="Lorem ipsum dolor sit amet consectetur" direction="left">
-        <Button size="lg">Left</Button>
+        <Button girth="lg">Left</Button>
       </Tooltip>
     </FlexBox>
   </Container>
 );
 
-export const wrapped = () => (
+export const canWrapped = () => (
   <Container gutter="0" height="40rem">
     <FlexBox ctr fuh gap="1rem">
-      <Tooltip aria-label={text} direction="right" width="250px" wrap>
-        <Button size="lg">Right</Button>
+      <Tooltip aria-label={text} direction="right" width="250px" canWrap>
+        <Button girth="lg">Right</Button>
       </Tooltip>
-      <Tooltip aria-label={text} direction="top" width="250px" wrap>
-        <Button size="lg">Top</Button>
+      <Tooltip aria-label={text} direction="top" width="250px" canWrap>
+        <Button girth="lg">Top</Button>
       </Tooltip>
-      <Tooltip aria-label={text} direction="bottom" width="250px" wrap>
-        <Button size="lg">bottom</Button>
+      <Tooltip aria-label={text} direction="bottom" width="250px" canWrap>
+        <Button girth="lg">bottom</Button>
       </Tooltip>
-      <Tooltip aria-label={text} direction="left" width="250px" wrap>
-        <Button size="lg">Left</Button>
+      <Tooltip aria-label={text} direction="left" width="250px" canWrap>
+        <Button girth="lg">Left</Button>
       </Tooltip>
     </FlexBox>
   </Container>
