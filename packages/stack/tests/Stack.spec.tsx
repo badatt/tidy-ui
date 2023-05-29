@@ -45,7 +45,7 @@ describe('Stack', () => {
   it('Divider', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <StackWrapper divider={<Divider vertical />} />
+        <StackWrapper divider={<Divider isVertical />} />
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -81,7 +81,7 @@ describe('Stack', () => {
   it('Fold', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <StackWrapper fold />
+        <StackWrapper canFold />
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
