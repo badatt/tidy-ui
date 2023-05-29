@@ -8,19 +8,27 @@ import { IRadioOptionProps } from './types';
  * under Radio component
  */
 const RadioOption = React.forwardRef<HTMLInputElement, IRadioOptionProps>((props, ref) => {
-  const { children, disabled, sz, value, ...rest } = props;
+  const { children, checked, defaultChecked, disabled, ele, girth, onChange, value, name, status, ...rest } = props;
   const hash = useHash(value, { maxLen: 8 });
   return (
-    <RadioOptionRoot sz={sz} disabled={disabled}>
-      <RadioOptionInput id={hash} ref={ref} sz={sz} value={value} role="radio" type="radio" {...rest} />
-      <RadioOptionLabel htmlFor={hash}>{children}</RadioOptionLabel>
+    <RadioOptionRoot {...{ disabled, girth }}>
+      <RadioOptionInput
+        id={hash}
+        ref={ref}
+        {...{ checked, defaultChecked, disabled, girth, name, onChange, status, value }}
+        role="radio"
+        type="radio"
+      />
+      <RadioOptionLabel htmlFor={hash} {...rest}>
+        {ele ? React.cloneElement(ele, {}, children) : children}
+      </RadioOptionLabel>
     </RadioOptionRoot>
   );
 });
 
 RadioOption.defaultProps = {
   disabled: false,
-  sz: 'md',
+  girth: 'md',
 };
 
 RadioOption.displayName = 'RadioOption';

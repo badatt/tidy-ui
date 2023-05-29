@@ -68,17 +68,17 @@ export const sizes: Story = {
     };
     return (
       <FlexBox gap="1rem" fld="column">
-        <Radio vertical onChange={handleChange}>
+        <Radio isVertical onChange={handleChange}>
           <Radio.Option value="md">
             <Text.body1>Option default md</Text.body1>
           </Radio.Option>
-          <Radio.Option sz="lg" value="lg">
+          <Radio.Option girth="lg" value="lg">
             <Text.h6>Option lg</Text.h6>
           </Radio.Option>
-          <Radio.Option sz="xl" value="xl">
+          <Radio.Option girth="xl" value="xl">
             <Text.h4>Option xl</Text.h4>
           </Radio.Option>
-          <Radio.Option sz="xxl" value="xxl">
+          <Radio.Option girth="xxl" value="xxl">
             <Text.h3>Option xxl</Text.h3>
           </Radio.Option>
         </Radio>

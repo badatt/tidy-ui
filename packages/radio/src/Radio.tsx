@@ -16,25 +16,25 @@ interface RadioComponent extends React.ForwardRefExoticComponent<IRadioProps & R
  * styles etc. Radio should only have RadioOption elements
  * as its children
  */
-const Radio = React.forwardRef<HTMLLIElement, IRadioProps>((props, ref) => {
-  const { children, value, vertical, ...rest } = props;
+const Radio = React.forwardRef<HTMLDivElement, IRadioProps>((props, ref) => {
+  const { children, value, isVertical, onChange, ...rest } = props;
   const joinedValues = React.Children.map(children, (c) => (c as ReactElement).props.value)?.join('');
 
   const name = useHash(joinedValues, { maxLen: 8 });
 
   return (
-    <RadioRoot role="radiogroup" vertical={vertical}>
+    <RadioRoot ref={ref} role="radiogroup" isVertical={isVertical} {...rest}>
       {React.Children.map(children, (c) => {
         const child = c as React.ReactElement;
         const defaultChecked = value && child.props.value == value;
-        return React.cloneElement(child, { defaultChecked, name, ref, ...rest });
+        return React.cloneElement(child, { ...child.props, defaultChecked, name, onChange });
       })}
     </RadioRoot>
   );
 }) as RadioComponent;
 
 Radio.defaultProps = {
-  vertical: false,
+  isVertical: false,
 };
 
 Radio.propTypes = {
