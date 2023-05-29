@@ -105,17 +105,6 @@ const Text: IText = {
 };
 
 TextBase.defaultProps = {
-  bld: false,
-  cc: false,
-  ctr: false,
-  dsb: false,
-  exd: false,
-  itl: false,
-  lc: false,
-  stk: false,
-  tnc: false,
-  uc: false,
-  udl: false,
   v: 'body1',
 };
 

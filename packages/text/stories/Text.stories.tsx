@@ -260,18 +260,3 @@ export const truncate = () => (
     </Ctx.Consumer>
   </TextProvider>
 );
-
-export const customMargin = () => (
-  <TextProvider>
-    <Ctx.Consumer>
-      {({ variant }) => (
-        <>
-          <Text.base mgn="0 0 5rem 0" v={Variant[variant] as TVariant}>
-            {text}
-          </Text.base>
-          <Text.base v={Variant[variant] as TVariant}>{text}</Text.base>
-        </>
-      )}
-    </Ctx.Consumer>
-  </TextProvider>
-);

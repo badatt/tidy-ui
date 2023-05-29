@@ -9,19 +9,16 @@ import { IDataFieldProps } from './types';
  */
 const DataField = React.forwardRef<HTMLDivElement, IDataFieldProps>((props, ref) => {
   const { className, lbl, val, ...rest } = props;
+  const { tone, dsb, acc } = rest;
   return (
     <DL className={className} ref={ref} role="contentinfo" {...rest}>
-      <DD mgn={typeof lbl === 'string'} {...rest}>
-        {lbl}
-      </DD>
-      <DT {...rest}>{val}</DT>
+      <DD {...{ acc }}>{lbl}</DD>
+      <DT {...{ acc, dsb, tone }}>{val}</DT>
     </DL>
   );
 });
 
-DataField.defaultProps = {
-  dsb: false,
-};
+DataField.defaultProps = {};
 
 DataField.displayName = 'DataField';
 
