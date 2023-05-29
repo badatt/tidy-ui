@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import React from 'react';
 import md5 from '../crypto/md5';
 import sha1 from '../crypto/sha1';
 import sha256 from '../crypto/sha256';
@@ -54,7 +54,7 @@ export interface IUseHashOptions {
  * @returns {string | undefined} hashed string
  */
 const useHash = (inp?: string, options?: IUseHashOptions): string | undefined => {
-  return useMemo(() => {
+  return React.useMemo(() => {
     const hash = genHash(inp, options?.alg);
     return options?.maxLen ? hash?.substring(0, options.maxLen) : hash;
   }, [inp]);

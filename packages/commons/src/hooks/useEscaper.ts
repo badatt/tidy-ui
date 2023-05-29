@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import React from 'react';
 
 /**
  * React hook to escape special characters in a given string
@@ -7,7 +7,7 @@ import { useMemo } from 'react';
  * @returns {string | undefined} escaped string
  */
 const useEscaper = (inp?: string): string | undefined => {
-  return useMemo(() => inp?.replace(/[\W]+/g, '-'), [inp]); //NOSONAR
+  return React.useMemo(() => inp?.replace(/[\W]+/g, '-'), [inp]); //NOSONAR
 };
 
 export default useEscaper;
