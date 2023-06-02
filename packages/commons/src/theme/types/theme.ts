@@ -267,6 +267,10 @@ export interface IColor {
    */
   900: string;
   /**
+   * shade with 950 units
+   */
+  950: string;
+  /**
    * All shades
    */
   shades: Record<number, IHsla>;

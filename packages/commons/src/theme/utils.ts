@@ -28,6 +28,7 @@ const createColor = (p: Record<number, IHsla>): IColor => {
     700: hsla(p[700]),
     800: hsla(p[800]),
     900: hsla(p[900]),
+    950: hsla(p[950]),
     shades: p,
   };
 };
