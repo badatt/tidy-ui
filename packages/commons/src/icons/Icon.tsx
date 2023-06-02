@@ -17,6 +17,7 @@ import InfoIcon from './InfoIcon';
 import LaunchIcon from './LaunchIcon';
 import LinkIcon from './LinkIcon';
 import MenuIcon from './MenuIcon';
+import PersonIcon from './PersonIcon';
 import PhoneIcon from './PhoneIcon';
 import RemoveIcon from './RemoveIcon';
 import RotatingCircleIcon from './RotatingCircleIcon';
@@ -80,6 +81,8 @@ export interface IconComponent
   /** @internal */
   Menu: typeof MenuIcon;
   /** @internal */
+  Person: typeof PersonIcon;
+  /** @internal */
   Phone: typeof PhoneIcon;
   /** @internal */
   Remove: typeof RemoveIcon;
@@ -132,6 +135,7 @@ Icon.Info = InfoIcon;
 Icon.Launch = LaunchIcon;
 Icon.Link = LinkIcon;
 Icon.Menu = MenuIcon;
+Icon.Person = PersonIcon;
 Icon.Phone = PhoneIcon;
 Icon.Remove = RemoveIcon;
 Icon.RotatingCircle = RotatingCircleIcon;

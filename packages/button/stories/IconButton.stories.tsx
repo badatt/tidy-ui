@@ -62,12 +62,6 @@ export const disabled = () => (
   </IconButton>
 );
 
-export const customDimension = () => (
-  <IconButton icon={<Icon.Add />} height="3rem" width="12rem">
-    custom dimension
-  </IconButton>
-);
-
 export const iconOnly = () => {
   return (
     <FlexBox gap="1rem" fld="column" ali="flex-start">

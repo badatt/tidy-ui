@@ -352,7 +352,7 @@ export type TAccent = keyof typeof Tone;
  */
 
 // eslint-disable-next-line jsdoc/require-jsdoc
-export const Shade = [50, 100, 200, 300, 400, 500, 600, 700, 800, 900] as const;
+export const Shade = [50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950] as const;
 
 /**
  * Shade of color
