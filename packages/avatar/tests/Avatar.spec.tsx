@@ -11,18 +11,18 @@ import { Avatar } from '../src';
 describe('Avatar', () => {
   it('Basic render', () => {
     const tree = render(
-        <TidyUiProvider theme={orchidLight}>
-          <Avatar>basic</Avatar>
-        </TidyUiProvider>,
-      );
+      <TidyUiProvider theme={orchidLight}>
+        <Avatar>basic</Avatar>
+      </TidyUiProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
   it('Dark mode basic render', () => {
     const tree = render(
-        <TidyUiProvider theme={orchidDark}>
-         <Avatar>basic</Avatar>
-        </TidyUiProvider>,
-      );
+      <TidyUiProvider theme={orchidDark}>
+        <Avatar>basic</Avatar>
+      </TidyUiProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
 });
