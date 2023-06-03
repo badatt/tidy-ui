@@ -1,7 +1,7 @@
 import baseStyled, { css as baseCss, ThemedCssFunction, ThemedStyledInterface } from 'styled-components';
 
 export { color } from './colors';
-export { hsla } from './utils';
+export * from './utils';
 
 import { ITidyUITheme } from './types';
 export * from './types';

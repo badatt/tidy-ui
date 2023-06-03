@@ -1,6 +1,6 @@
-import { IHsla } from './types';
+import { IHsla, TShade } from './types';
 
-const slate: Record<number, IHsla> = {
+const slate: Record<TShade, IHsla> = {
   100: { alpha: 1, hue: 210, luminosity: 96, saturation: 40 },
   200: { alpha: 1, hue: 214, luminosity: 91, saturation: 32 },
   300: { alpha: 1, hue: 213, luminosity: 84, saturation: 27 },
@@ -14,7 +14,7 @@ const slate: Record<number, IHsla> = {
   950: { alpha: 1, hue: 229, luminosity: 5, saturation: 84 },
 };
 
-const gray: Record<number, IHsla> = {
+const gray: Record<TShade, IHsla> = {
   100: { alpha: 1, hue: 220, luminosity: 96, saturation: 14 },
   200: { alpha: 1, hue: 220, luminosity: 91, saturation: 13 },
   300: { alpha: 1, hue: 216, luminosity: 84, saturation: 12 },
@@ -28,7 +28,7 @@ const gray: Record<number, IHsla> = {
   950: { alpha: 1, hue: 224, luminosity: 4, saturation: 71 },
 };
 
-const zinc: Record<number, IHsla> = {
+const zinc: Record<TShade, IHsla> = {
   100: { alpha: 1, hue: 240, luminosity: 96, saturation: 5 },
   200: { alpha: 1, hue: 240, luminosity: 90, saturation: 6 },
   300: { alpha: 1, hue: 240, luminosity: 84, saturation: 5 },
@@ -42,7 +42,7 @@ const zinc: Record<number, IHsla> = {
   950: { alpha: 1, hue: 240, luminosity: 4, saturation: 10 },
 };
 
-const neutral: Record<number, IHsla> = {
+const neutral: Record<TShade, IHsla> = {
   100: { alpha: 1, hue: 0, luminosity: 96, saturation: 0 },
   200: { alpha: 1, hue: 0, luminosity: 90, saturation: 0 },
   300: { alpha: 1, hue: 0, luminosity: 83, saturation: 0 },
@@ -56,7 +56,7 @@ const neutral: Record<number, IHsla> = {
   950: { alpha: 1, hue: 0, luminosity: 4, saturation: 0 },
 };
 
-const stone: Record<number, IHsla> = {
+const stone: Record<TShade, IHsla> = {
   100: { alpha: 1, hue: 60, luminosity: 96, saturation: 5 },
   200: { alpha: 1, hue: 20, luminosity: 90, saturation: 6 },
   300: { alpha: 1, hue: 24, luminosity: 83, saturation: 6 },
@@ -70,7 +70,7 @@ const stone: Record<number, IHsla> = {
   950: { alpha: 1, hue: 20, luminosity: 4, saturation: 14 },
 };
 
-const red: Record<number, IHsla> = {
+const red: Record<TShade, IHsla> = {
   100: { alpha: 1, hue: 0, luminosity: 94, saturation: 93 },
   200: { alpha: 1, hue: 0, luminosity: 89, saturation: 96 },
   300: { alpha: 1, hue: 0, luminosity: 82, saturation: 94 },
@@ -84,7 +84,7 @@ const red: Record<number, IHsla> = {
   950: { alpha: 1, hue: 0, luminosity: 15, saturation: 75 },
 };
 
-const orange: Record<number, IHsla> = {
+const orange: Record<TShade, IHsla> = {
   100: { alpha: 1, hue: 34, luminosity: 92, saturation: 100 },
   200: { alpha: 1, hue: 32, luminosity: 83, saturation: 98 },
   300: { alpha: 1, hue: 31, luminosity: 72, saturation: 97 },
@@ -98,7 +98,7 @@ const orange: Record<number, IHsla> = {
   950: { alpha: 1, hue: 13, luminosity: 15, saturation: 81 },
 };
 
-const amber: Record<number, IHsla> = {
+const amber: Record<TShade, IHsla> = {
   100: { alpha: 1, hue: 48, luminosity: 89, saturation: 96 },
   200: { alpha: 1, hue: 48, luminosity: 77, saturation: 97 },
   300: { alpha: 1, hue: 46, luminosity: 65, saturation: 97 },
@@ -112,7 +112,7 @@ const amber: Record<number, IHsla> = {
   950: { alpha: 1, hue: 21, luminosity: 14, saturation: 92 },
 };
 
-const yellow: Record<number, IHsla> = {
+const yellow: Record<TShade, IHsla> = {
   100: { alpha: 1, hue: 55, luminosity: 88, saturation: 97 },
   200: { alpha: 1, hue: 53, luminosity: 77, saturation: 98 },
   300: { alpha: 1, hue: 50, luminosity: 64, saturation: 98 },
@@ -126,7 +126,7 @@ const yellow: Record<number, IHsla> = {
   950: { alpha: 1, hue: 26, luminosity: 14, saturation: 83 },
 };
 
-const lime: Record<number, IHsla> = {
+const lime: Record<TShade, IHsla> = {
   100: { alpha: 1, hue: 80, luminosity: 89, saturation: 89 },
   200: { alpha: 1, hue: 81, luminosity: 80, saturation: 88 },
   300: { alpha: 1, hue: 82, luminosity: 67, saturation: 85 },
@@ -140,7 +140,7 @@ const lime: Record<number, IHsla> = {
   950: { alpha: 1, hue: 89, luminosity: 10, saturation: 80 },
 };
 
-const green: Record<number, IHsla> = {
+const green: Record<TShade, IHsla> = {
   100: { alpha: 1, hue: 141, luminosity: 93, saturation: 84 },
   200: { alpha: 1, hue: 141, luminosity: 85, saturation: 79 },
   300: { alpha: 1, hue: 142, luminosity: 73, saturation: 77 },
@@ -154,7 +154,7 @@ const green: Record<number, IHsla> = {
   950: { alpha: 1, hue: 145, luminosity: 10, saturation: 80 },
 };
 
-const emerald: Record<number, IHsla> = {
+const emerald: Record<TShade, IHsla> = {
   100: { alpha: 1, hue: 149, luminosity: 90, saturation: 80 },
   200: { alpha: 1, hue: 152, luminosity: 80, saturation: 76 },
   300: { alpha: 1, hue: 156, luminosity: 67, saturation: 72 },
@@ -168,7 +168,7 @@ const emerald: Record<number, IHsla> = {
   950: { alpha: 1, hue: 166, luminosity: 9, saturation: 91 },
 };
 
-const teal: Record<number, IHsla> = {
+const teal: Record<TShade, IHsla> = {
   100: { alpha: 1, hue: 167, luminosity: 89, saturation: 85 },
   200: { alpha: 1, hue: 168, luminosity: 78, saturation: 84 },
   300: { alpha: 1, hue: 171, luminosity: 64, saturation: 77 },
@@ -182,7 +182,7 @@ const teal: Record<number, IHsla> = {
   950: { alpha: 1, hue: 179, luminosity: 10, saturation: 84 },
 };
 
-const cyan: Record<number, IHsla> = {
+const cyan: Record<TShade, IHsla> = {
   100: { alpha: 1, hue: 185, luminosity: 90, saturation: 96 },
   200: { alpha: 1, hue: 186, luminosity: 82, saturation: 94 },
   300: { alpha: 1, hue: 187, luminosity: 69, saturation: 92 },
@@ -196,7 +196,7 @@ const cyan: Record<number, IHsla> = {
   950: { alpha: 1, hue: 197, luminosity: 15, saturation: 79 },
 };
 
-const sky: Record<number, IHsla> = {
+const sky: Record<TShade, IHsla> = {
   100: { alpha: 1, hue: 204, luminosity: 94, saturation: 94 },
   200: { alpha: 1, hue: 201, luminosity: 86, saturation: 94 },
   300: { alpha: 1, hue: 199, luminosity: 74, saturation: 95 },
@@ -210,7 +210,7 @@ const sky: Record<number, IHsla> = {
   950: { alpha: 1, hue: 204, luminosity: 16, saturation: 80 },
 };
 
-const blue: Record<number, IHsla> = {
+const blue: Record<TShade, IHsla> = {
   100: { alpha: 1, hue: 214, luminosity: 93, saturation: 95 },
   200: { alpha: 1, hue: 213, luminosity: 87, saturation: 97 },
   300: { alpha: 1, hue: 212, luminosity: 78, saturation: 96 },
@@ -224,7 +224,7 @@ const blue: Record<number, IHsla> = {
   950: { alpha: 1, hue: 226, luminosity: 21, saturation: 57 },
 };
 
-const indigo: Record<number, IHsla> = {
+const indigo: Record<TShade, IHsla> = {
   100: { alpha: 1, hue: 226, luminosity: 94, saturation: 100 },
   200: { alpha: 1, hue: 228, luminosity: 89, saturation: 96 },
   300: { alpha: 1, hue: 230, luminosity: 82, saturation: 94 },
@@ -238,7 +238,7 @@ const indigo: Record<number, IHsla> = {
   950: { alpha: 1, hue: 244, luminosity: 20, saturation: 47 },
 };
 
-const violet: Record<number, IHsla> = {
+const violet: Record<TShade, IHsla> = {
   100: { alpha: 1, hue: 251, luminosity: 95, saturation: 91 },
   200: { alpha: 1, hue: 251, luminosity: 92, saturation: 95 },
   300: { alpha: 1, hue: 252, luminosity: 85, saturation: 95 },
@@ -252,7 +252,7 @@ const violet: Record<number, IHsla> = {
   950: { alpha: 1, hue: 261, luminosity: 23, saturation: 73 },
 };
 
-const purple: Record<number, IHsla> = {
+const purple: Record<TShade, IHsla> = {
   100: { alpha: 1, hue: 269, luminosity: 95, saturation: 100 },
   200: { alpha: 1, hue: 269, luminosity: 92, saturation: 100 },
   300: { alpha: 1, hue: 269, luminosity: 85, saturation: 97 },
@@ -266,7 +266,7 @@ const purple: Record<number, IHsla> = {
   950: { alpha: 1, hue: 274, luminosity: 21, saturation: 87 },
 };
 
-const fuchsia: Record<number, IHsla> = {
+const fuchsia: Record<TShade, IHsla> = {
   100: { alpha: 1, hue: 287, luminosity: 95, saturation: 100 },
   200: { alpha: 1, hue: 288, luminosity: 91, saturation: 96 },
   300: { alpha: 1, hue: 291, luminosity: 83, saturation: 93 },
@@ -280,7 +280,7 @@ const fuchsia: Record<number, IHsla> = {
   950: { alpha: 1, hue: 297, luminosity: 16, saturation: 90 },
 };
 
-const pink: Record<number, IHsla> = {
+const pink: Record<TShade, IHsla> = {
   100: { alpha: 1, hue: 326, luminosity: 95, saturation: 78 },
   200: { alpha: 1, hue: 326, luminosity: 90, saturation: 85 },
   300: { alpha: 1, hue: 327, luminosity: 82, saturation: 87 },
@@ -294,7 +294,7 @@ const pink: Record<number, IHsla> = {
   950: { alpha: 1, hue: 336, luminosity: 17, saturation: 84 },
 };
 
-const rose: Record<number, IHsla> = {
+const rose: Record<TShade, IHsla> = {
   100: { alpha: 1, hue: 356, luminosity: 95, saturation: 100 },
   200: { alpha: 1, hue: 353, luminosity: 90, saturation: 96 },
   300: { alpha: 1, hue: 353, luminosity: 82, saturation: 96 },

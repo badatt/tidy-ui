@@ -1,3 +1,4 @@
+export { default as useColor } from './useColor';
 export { default as useEscaper } from './useEscaper';
 export { default as useHash } from './useHash';
 export { default as useIsMounted } from './useIsMounted';
