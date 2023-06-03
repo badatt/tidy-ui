@@ -1,67 +1,48 @@
 import React from 'react';
-import { applyStandardOverrideStyles, color, css, hsla, styled } from '@tidy-ui/commons';
-import { IAvatarProps } from './types';
-
-/**
- * Size styles
- *
- * @internal
- */
-const sizeStyles = {
-  lg: {
-    fontSize: '4rem',
-  },
-  md: {
-    fontSize: '3rem',
-  },
-  sm: {
-    fontSize: '2rem',
-  },
-  xl: {
-    fontSize: '6rem',
-  },
-  xs: {
-    fontSize: '1.5rem',
-  },
-  xxl: {
-    fontSize: '8rem',
-  },
-  xxs: {
-    fontSize: '1rem',
-  },
-};
+import { applyStandardOverrideStyles, css, styled, TGirth, useColor } from '@tidy-ui/commons';
+import { accentStyle, avatarIcon, avatarImage, avatarText, badgeStyles } from './styles';
+import { IAvatarBadgeProps, IAvatarGroupProps, IAvatarProps } from './types';
 
 const AvatarRoot = styled.div<IAvatarProps>`
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  ${({ accent }) => css`
+    ${accent && accentStyle}
+  `}
+  ${applyStandardOverrideStyles}
+`;
+
+const AvatarWrap = styled.div<IAvatarProps>`
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-
-  ${({ theme: { isDark }, girth }) => css`
-    font-size: ${sizeStyles[girth!].fontSize};
-    height: ${sizeStyles[girth!].fontSize};
-    width: ${sizeStyles[girth!].fontSize};
-    background-color: ${isDark ? hsla(color.slate[600]) : hsla(color.slate[400])};
-  `}
-  color: white;
-  ${applyStandardOverrideStyles}
+  border-width: 0.15em;
+  border-style: solid;
+  border-color: transparent;
 `;
 
 const AvatarIcon = styled.span<IAvatarProps>`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 0.8em;
-  width: 0.8em;
+  border-radius: 50%;
+  ${avatarIcon}
 `;
 
-const AvatarImage = styled.img`
-  border-radius: 50%;
+const AvatarImage = styled.img<IAvatarProps>`
   object-fit: cover;
+  border-radius: 50%;
+  ${avatarImage}
 `;
 
 /** @internal */
 interface IAvatarNameProps {
+  /** @internal */
+  girth?: TGirth;
   /** @internal */
   name: string;
 }
@@ -70,20 +51,47 @@ const AvatarNameText = styled.span<IAvatarProps>`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 0.6em;
   vertical-align: middle;
+  border-radius: 50%;
+  ${avatarText}
+  ${applyStandardOverrideStyles}
 `;
 
 /** @internal */
 const AvatarName = (props: IAvatarNameProps) => {
-  const { name } = props;
+  const { name, girth } = props;
+
+  const { contrastColor, mainColor } = useColor({ text: name });
+
   const initials = React.useMemo(() => {
-    return name
-      .split(' ')
-      .map((n) => n.charAt(0))
-      .join('');
+    const splitName = name.split(' ');
+    if (splitName.length == 1) return splitName[0].charAt(0).toUpperCase();
+    return `${splitName[0].charAt(0)}${splitName[splitName.length - 1].charAt(0)}`.toUpperCase();
   }, [name]);
-  return <AvatarNameText>{initials}</AvatarNameText>;
+
+  return (
+    <AvatarNameText {...{ background: mainColor, color: contrastColor, girth }}>
+      <span>{initials}</span>
+    </AvatarNameText>
+  );
 };
 
-export { AvatarIcon, AvatarImage, AvatarName, AvatarRoot };
+const AvatarBadgeRoot = styled.div<IAvatarBadgeProps>`
+  ${badgeStyles}
+`;
+
+const AvatarGroupRoot = styled.div<IAvatarGroupProps>`
+  display: flex;
+  flex-direction: row-reverse;
+
+  & :not(:last-child) {
+    margin-left: -0.8em;
+  }
+
+  & div > div {
+    border-color: ${(props) => props.theme.palette.background.default};
+  }
+  ${applyStandardOverrideStyles}
+`;
+
+export { AvatarBadgeRoot, AvatarGroupRoot, AvatarIcon, AvatarImage, AvatarName, AvatarRoot, AvatarWrap };
