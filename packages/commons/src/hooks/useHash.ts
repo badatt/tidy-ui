@@ -1,4 +1,5 @@
 import React from 'react';
+import BKDRHash from '../crypto/bkdr';
 import md5 from '../crypto/md5';
 import sha1 from '../crypto/sha1';
 import sha256 from '../crypto/sha256';
@@ -10,7 +11,7 @@ import sha256 from '../crypto/sha256';
  * @param {string} alg algorithm used for hashing
  * @returns {string | undefined} hashed string
  */
-const genHash = (inp?: string, alg?: string): string | undefined => {
+const genHash = (inp?: string, alg?: string): string | number | undefined => {
   if (inp) {
     switch (alg) {
       case 'MD5':
@@ -19,6 +20,8 @@ const genHash = (inp?: string, alg?: string): string | undefined => {
         return sha1(inp);
       case 'SHA256':
         return sha256(inp);
+      case 'BKDR':
+        return BKDRHash(inp);
       default:
         return sha256(inp);
     }
@@ -36,7 +39,7 @@ export interface IUseHashOptions {
    *
    * @default 'SHA256'
    */
-  alg?: 'SHA256' | 'SHA1' | 'MD5';
+  alg?: 'SHA256' | 'SHA1' | 'MD5' | 'BKDR';
 
   /**
    * Maximum length of the generated hash to return
@@ -51,12 +54,13 @@ export interface IUseHashOptions {
  *
  * @param {string} inp input string to hash
  * @param {IUseHashOptions} options hashing options
- * @returns {string | undefined} hashed string
+ * @returns {string | number | undefined} hashed string
  */
-const useHash = (inp?: string, options?: IUseHashOptions): string | undefined => {
+const useHash = (inp?: string, options?: IUseHashOptions): string | number | undefined => {
   return React.useMemo(() => {
     const hash = genHash(inp, options?.alg);
-    return options?.maxLen ? hash?.substring(0, options.maxLen) : hash;
+    if (typeof hash === 'string') return options?.maxLen ? hash?.substring(0, options.maxLen) : hash;
+    else return hash;
   }, [inp]);
 };
 

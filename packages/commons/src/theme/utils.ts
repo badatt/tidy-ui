@@ -1,4 +1,4 @@
-import { IColor, IHsla } from './types';
+import { IColor, IHsla, IRgb } from './types';
 
 /**
  * Creates hsla color representation
@@ -9,6 +9,14 @@ import { IColor, IHsla } from './types';
  */
 const hsla = (p: IHsla, alpha: number = p.alpha): string =>
   `hsla(${p.hue}, ${p.saturation}%, ${p.luminosity}%, ${alpha})`;
+
+/**
+ * Creates rgb color representation
+ *
+ * @param {IRgb} rgb RGB attributes
+ * @returns {string} rgb representation of the color
+ */
+const rgb = (rgb: IRgb): string => `rgb(${rgb.r}, ${rgb.g}, ${rgb.b})`;
 
 /**
  * Creates color shades for a color
@@ -33,4 +41,26 @@ const createColor = (p: Record<number, IHsla>): IColor => {
   };
 };
 
-export { createColor, hsla };
+/**
+ * Convert HSL to RGB
+ *
+ * @param {number} h Hue ∈ [0, 360)
+ * @param {number} s Saturation ∈ [0, 100]
+ * @param {number} l Lightness ∈ [0, 100]
+ * @returns {IRgb} r, g, b ∈ [0, 255]
+ */
+const hsl2rgb = (h: number, s: number, l: number): IRgb => {
+  /** @internal */
+  const k = (n) => (n + h / 30) % 12;
+  const a = s * Math.min(l, 1 - l);
+  /** @internal */
+  const f = (n) => l - a * Math.max(-1, Math.min(k(n) - 3, Math.min(9 - k(n), 1)));
+  const rgb = [255 * f(0), 255 * f(8), 255 * f(4)];
+  return {
+    b: rgb[2],
+    g: rgb[1],
+    r: rgb[0],
+  };
+};
+
+export { createColor, hsl2rgb, hsla, rgb };

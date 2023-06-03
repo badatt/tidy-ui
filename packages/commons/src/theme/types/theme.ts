@@ -1,5 +1,5 @@
 import { DefaultTheme } from 'styled-components';
-import { IFont, ILayout, ITypography } from './base';
+import { IFont, ILayout, ITypography, TShade } from './base';
 
 /**
  * GlobalFont
@@ -273,7 +273,7 @@ export interface IColor {
   /**
    * All shades
    */
-  shades: Record<number, IHsla>;
+  shades: Record<TShade, IHsla>;
 }
 
 /**
@@ -300,4 +300,22 @@ export interface IHsla {
    * Saturation attribute
    */
   saturation: number;
+}
+
+/**
+ * Color contract for rgb color representation
+ */
+export interface IRgb {
+  /**
+   * B component
+   */
+  b: number;
+  /**
+   * G component
+   */
+  g: number;
+  /**
+   * R component
+   */
+  r: number;
 }
