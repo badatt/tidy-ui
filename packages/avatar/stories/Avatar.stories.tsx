@@ -2,7 +2,8 @@ import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 import { Avatar } from '../src';
 import { FlexBox } from '../../flexbox';
-import { Girth } from '../../commons/src';
+import { Girth, color, hsla } from '../../commons/src';
+import { Icon } from '@tidy-ui/commons';
 
 const meta: Meta<typeof Avatar> = {
   title: 'Presentation/Avatar',
@@ -15,7 +16,11 @@ type Story = StoryObj<typeof Avatar>;
 
 export const basic: Story = {
   render: () => {
-    return <Avatar />;
+    return (
+      <FlexBox>
+        <Avatar />
+      </FlexBox>
+    );
   },
 };
 
@@ -49,8 +54,64 @@ export const withName = () => {
       {Object.keys(Girth)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
-          <Avatar name="Balu Praveen" girth={Girth[v]} key={i} />
+          <Avatar name={`Girth${Girth[v]} ${i}Ipsum`} girth={Girth[v]} key={i} />
         ))}
     </FlexBox>
   );
+};
+
+export const withIcon = () => {
+  return (
+    <FlexBox gap="1rem" fld="column" ali="flex-start">
+      {Object.keys(Girth)
+        .filter((i) => !isNaN(Number(i)))
+        .map((v, i) => (
+          <Avatar icon={<Icon.RotatingCircle />} girth={Girth[v]} key={i} />
+        ))}
+    </FlexBox>
+  );
+};
+
+export const accent = () => {
+  return (
+    <FlexBox gap="1rem" fld="column" ali="flex-start">
+      {Object.keys(Girth)
+        .filter((i) => !isNaN(Number(i)))
+        .map((v, i) => (
+          <Avatar girth={Girth[v]} accent={hsla(color.green[600])} key={i} />
+        ))}
+    </FlexBox>
+  );
+};
+
+export const withBadge = () => {
+  return (
+    <FlexBox gap="1rem" fld="column" ali="flex-start">
+      {Object.keys(Girth)
+        .filter((i) => !isNaN(Number(i)))
+        .map((v, i) => (
+          <Avatar src="https://bit.ly/sage-adebayo" girth={Girth[v]} key={i}>
+            <Avatar.Badge tone={hsla(color.green[600])} />
+          </Avatar>
+        ))}
+    </FlexBox>
+  );
+};
+
+export const group: Story = {
+  render: () => {
+    return (
+      <FlexBox fld="row">
+        <Avatar.Group>
+          <Avatar />
+          <Avatar />
+          <Avatar />
+          <Avatar />
+          <Avatar />
+          <Avatar />
+          <Avatar />
+        </Avatar.Group>
+      </FlexBox>
+    );
+  },
 };

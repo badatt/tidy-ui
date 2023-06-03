@@ -7,19 +7,48 @@ import { IBaseProps } from '@tidy-ui/types';
  */
 export interface IAvatarProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * Girth (size) of the Avatar component
+   * Border color for the avatar
+   */
+  accent?: string;
+  /**
+   * Girth (size)
    */
   girth?: TGirth;
   /**
-   * Icon for the Avatar incase src is not given
+   * Icon to render inside incase src is not given
    */
   icon?: JSX.Element;
   /**
    * Name of the avatar
    */
   name?: string;
+
   /**
    * Image source for the avatar
    */
   src?: string;
+}
+
+/**
+ * AvatarBadgeProps
+ */
+export interface IAvatarBadgeProps {
+  /**
+   * Border color for the avatar
+   */
+  accent?: string;
+  /**
+   * Tone of the AvatarBadge
+   */
+  tone?: string;
+}
+
+/**
+ * AvatarGroup props
+ */
+export interface IAvatarGroupProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
+  /**
+   * Maximum number of avatars to be allowed
+   */
+  max?: number;
 }
