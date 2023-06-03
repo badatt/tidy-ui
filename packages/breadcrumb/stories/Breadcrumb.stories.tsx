@@ -60,7 +60,7 @@ export const manualActive = () => (
 );
 
 export const customSeparator = () => (
-  <Breadcrumb separator={<Divider vertical />}>
+  <Breadcrumb separator={<Divider isVertical />}>
     <Breadcrumb.Item href="#">link 1</Breadcrumb.Item>
     <Breadcrumb.Item href="#">link 2</Breadcrumb.Item>
     <Breadcrumb.Item href="#">link 3</Breadcrumb.Item>
