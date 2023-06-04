@@ -1,6 +1,3 @@
-/* eslint-disable */
-/* istanbul ignore file */
-
 import bkdr from '../crypto/bkdr';
 import { hsl2rgb, IRgb } from '../theme';
 
@@ -11,11 +8,11 @@ interface IHue {
   /**
    * maximum value of hue
    */
-  max: number;
+  max?: number;
   /**
    * minimum value of hue
    */
-  min: number;
+  min?: number;
 }
 
 /**
@@ -69,8 +66,8 @@ class ColorHash {
     }
     this.hueRanges = options.hue.map(function (range) {
       return {
-        max: typeof range.max === 'undefined' ? 360 : range.max,
-        min: typeof range.min === 'undefined' ? 0 : range.min,
+        max: range.max ?? 360,
+        min: range.min ?? 0,
       };
     });
   }
@@ -89,7 +86,7 @@ class ColorHash {
 
     if (this.hueRanges.length) {
       const range = this.hueRanges[hash % this.hueRanges.length];
-      h = (((hash / this.hueRanges.length) % hueResolution) * (range.max - range.min)) / hueResolution + range.min;
+      h = (((hash / this.hueRanges.length) % hueResolution) * (range.max! - range.min!)) / hueResolution + range.min!;
     } else {
       h = hash % 359; // note that 359 is a prime
     }
