@@ -84,8 +84,8 @@ const AvatarGroupRoot = styled.div<IAvatarGroupProps>`
   display: flex;
   flex-direction: row-reverse;
 
-  & :not(:last-child) {
-    margin-left: -0.8em;
+  & > :not(:last-child) {
+    margin-left: -0.6em;
   }
 
   & div > div {
@@ -94,4 +94,13 @@ const AvatarGroupRoot = styled.div<IAvatarGroupProps>`
   ${applyStandardOverrideStyles}
 `;
 
-export { AvatarBadgeRoot, AvatarGroupRoot, AvatarIcon, AvatarImage, AvatarName, AvatarRoot, AvatarWrap };
+export {
+  AvatarBadgeRoot,
+  AvatarGroupRoot,
+  AvatarIcon,
+  AvatarImage,
+  AvatarName,
+  AvatarNameText,
+  AvatarRoot,
+  AvatarWrap,
+};

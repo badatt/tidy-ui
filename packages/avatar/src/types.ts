@@ -48,6 +48,10 @@ export interface IAvatarBadgeProps {
  */
 export interface IAvatarGroupProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
+   * Girth (size)
+   */
+  girth?: TGirth;
+  /**
    * Maximum number of avatars to be allowed
    */
   max?: number;
