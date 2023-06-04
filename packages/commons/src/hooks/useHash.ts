@@ -59,7 +59,7 @@ export interface IUseHashOptions {
 const useHash = (inp?: string, options?: IUseHashOptions): string | number | undefined => {
   return React.useMemo(() => {
     const hash = genHash(inp, options?.alg);
-    if (typeof hash === 'string') return options?.maxLen ? hash?.substring(0, options.maxLen) : hash;
+    if (typeof hash === 'string') return options?.maxLen ? hash.substring(0, options.maxLen) : hash;
     else return hash;
   }, [inp]);
 };
