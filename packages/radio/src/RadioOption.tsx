@@ -13,7 +13,7 @@ const RadioOption = React.forwardRef<HTMLInputElement, IRadioOptionProps>((props
   return (
     <RadioOptionRoot {...{ disabled, girth }}>
       <RadioOptionInput
-        id={hash}
+        id={`${hash}`}
         ref={ref}
         {...{ checked, defaultChecked, disabled, girth, name, onChange, status, value }}
         role="radio"

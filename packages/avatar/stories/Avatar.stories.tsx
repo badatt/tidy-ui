@@ -102,14 +102,15 @@ export const group: Story = {
   render: () => {
     return (
       <FlexBox fld="row">
-        <Avatar.Group>
-          <Avatar />
-          <Avatar />
-          <Avatar />
-          <Avatar />
-          <Avatar />
-          <Avatar />
-          <Avatar />
+        <Avatar.Group max={3}>
+          <Avatar src="https://bit.ly/sage-adebayo">
+            <Avatar.Badge tone={hsla(color.green[600])} />
+          </Avatar>
+          <Avatar src="https://bit.ly/ryan-florence" />
+          <Avatar src="https://bit.ly/dan-abramov" />
+          <Avatar name="Kola Tiol" />
+          <Avatar src="https://bit.ly/prosper-baba" />
+          <Avatar src="https://bit.ly/code-beast" />
         </Avatar.Group>
       </FlexBox>
     );

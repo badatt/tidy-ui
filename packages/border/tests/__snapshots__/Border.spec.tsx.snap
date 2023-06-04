@@ -2067,6 +2067,17 @@ Object {
   width: 25rem;
 }
 
+.c12 {
+  position: relative;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.5rem;
+  border-color: hsla(0,0%,4%,1);
+  height: 15rem;
+  padding: 1rem;
+  width: 25rem;
+}
+
 <body>
     <div>
       <div
@@ -2249,6 +2260,24 @@ Object {
         </div>
         basic
       </div>
+      <div
+        class="c12"
+        height="15rem"
+        role="presentation"
+        width="25rem"
+      >
+        <div
+          class="c1"
+        >
+          <div
+            class="c2"
+            role="status"
+          >
+            Border
+          </div>
+        </div>
+        basic
+      </div>
     </div>
   </body>,
   "container": .c2 {
@@ -2397,6 +2426,17 @@ Object {
   border-width: 1px;
   border-radius: 0.5rem;
   border-color: hsla(0,0%,9%,1);
+  height: 15rem;
+  padding: 1rem;
+  width: 25rem;
+}
+
+.c12 {
+  position: relative;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.5rem;
+  border-color: hsla(0,0%,4%,1);
   height: 15rem;
   padding: 1rem;
   width: 25rem;
@@ -2567,6 +2607,24 @@ Object {
     </div>
     <div
       class="c11"
+      height="15rem"
+      role="presentation"
+      width="25rem"
+    >
+      <div
+        class="c1"
+      >
+        <div
+          class="c2"
+          role="status"
+        >
+          Border
+        </div>
+      </div>
+      basic
+    </div>
+    <div
+      class="c12"
       height="15rem"
       role="presentation"
       width="25rem"

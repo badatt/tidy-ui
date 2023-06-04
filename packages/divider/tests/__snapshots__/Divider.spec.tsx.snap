@@ -1482,7 +1482,7 @@ exports[`Divider Shades 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c2 {
-  border-color: hsla(0,0%,9%,1);
+  border-color: hsla(0,0%,4%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -1493,7 +1493,7 @@ Object {
 }
 
 .c3 {
-  border-color: hsla(0,0%,15%,1);
+  border-color: hsla(0,0%,9%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -1504,7 +1504,7 @@ Object {
 }
 
 .c4 {
-  border-color: hsla(0,0%,25%,1);
+  border-color: hsla(0,0%,15%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -1515,7 +1515,7 @@ Object {
 }
 
 .c5 {
-  border-color: hsla(0,0%,32%,1);
+  border-color: hsla(0,0%,25%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -1526,7 +1526,7 @@ Object {
 }
 
 .c6 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,32%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -1537,7 +1537,7 @@ Object {
 }
 
 .c7 {
-  border-color: hsla(0,0%,64%,1);
+  border-color: hsla(0,0%,45%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -1548,7 +1548,7 @@ Object {
 }
 
 .c8 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,64%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -1559,7 +1559,7 @@ Object {
 }
 
 .c9 {
-  border-color: hsla(0,0%,90%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -1570,7 +1570,7 @@ Object {
 }
 
 .c10 {
-  border-color: hsla(0,0%,96%,1);
+  border-color: hsla(0,0%,90%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -1581,6 +1581,17 @@ Object {
 }
 
 .c11 {
+  border-color: hsla(0,0%,96%,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-style: solid;
+  margin: 0.5rem 0 !important;
+  border-width: 0px 0px thin;
+  margin: 0.5rem;
+}
+
+.c12 {
   border-color: hsla(0,0%,98%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
@@ -1620,7 +1631,7 @@ Object {
         role="contentinfo"
       >
         shade=
-        900
+        950
       </h6>
       <p
         class="c1"
@@ -1639,7 +1650,7 @@ Object {
         role="contentinfo"
       >
         shade=
-        800
+        900
       </h6>
       <p
         class="c1"
@@ -1658,7 +1669,7 @@ Object {
         role="contentinfo"
       >
         shade=
-        700
+        800
       </h6>
       <p
         class="c1"
@@ -1677,7 +1688,7 @@ Object {
         role="contentinfo"
       >
         shade=
-        600
+        700
       </h6>
       <p
         class="c1"
@@ -1696,7 +1707,7 @@ Object {
         role="contentinfo"
       >
         shade=
-        500
+        600
       </h6>
       <p
         class="c1"
@@ -1715,7 +1726,7 @@ Object {
         role="contentinfo"
       >
         shade=
-        400
+        500
       </h6>
       <p
         class="c1"
@@ -1734,7 +1745,7 @@ Object {
         role="contentinfo"
       >
         shade=
-        300
+        400
       </h6>
       <p
         class="c1"
@@ -1753,7 +1764,7 @@ Object {
         role="contentinfo"
       >
         shade=
-        200
+        300
       </h6>
       <p
         class="c1"
@@ -1772,7 +1783,7 @@ Object {
         role="contentinfo"
       >
         shade=
-        100
+        200
       </h6>
       <p
         class="c1"
@@ -1791,7 +1802,7 @@ Object {
         role="contentinfo"
       >
         shade=
-        50
+        100
       </h6>
       <p
         class="c1"
@@ -1805,10 +1816,29 @@ Object {
         class="c11"
         role="separator"
       />
+      <h6
+        class="c0"
+        role="contentinfo"
+      >
+        shade=
+        50
+      </h6>
+      <p
+        class="c1"
+        role="contentinfo"
+      >
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+      </p>
+      <hr
+        class="c12"
+        role="separator"
+      />
     </div>
   </body>,
   "container": .c2 {
-  border-color: hsla(0,0%,9%,1);
+  border-color: hsla(0,0%,4%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -1819,7 +1849,7 @@ Object {
 }
 
 .c3 {
-  border-color: hsla(0,0%,15%,1);
+  border-color: hsla(0,0%,9%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -1830,7 +1860,7 @@ Object {
 }
 
 .c4 {
-  border-color: hsla(0,0%,25%,1);
+  border-color: hsla(0,0%,15%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -1841,7 +1871,7 @@ Object {
 }
 
 .c5 {
-  border-color: hsla(0,0%,32%,1);
+  border-color: hsla(0,0%,25%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -1852,7 +1882,7 @@ Object {
 }
 
 .c6 {
-  border-color: hsla(0,0%,45%,1);
+  border-color: hsla(0,0%,32%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -1863,7 +1893,7 @@ Object {
 }
 
 .c7 {
-  border-color: hsla(0,0%,64%,1);
+  border-color: hsla(0,0%,45%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -1874,7 +1904,7 @@ Object {
 }
 
 .c8 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,64%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -1885,7 +1915,7 @@ Object {
 }
 
 .c9 {
-  border-color: hsla(0,0%,90%,1);
+  border-color: hsla(0,0%,83%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -1896,7 +1926,7 @@ Object {
 }
 
 .c10 {
-  border-color: hsla(0,0%,96%,1);
+  border-color: hsla(0,0%,90%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -1907,6 +1937,17 @@ Object {
 }
 
 .c11 {
+  border-color: hsla(0,0%,96%,1);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-style: solid;
+  margin: 0.5rem 0 !important;
+  border-width: 0px 0px thin;
+  margin: 0.5rem;
+}
+
+.c12 {
   border-color: hsla(0,0%,98%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
@@ -1945,7 +1986,7 @@ Object {
       role="contentinfo"
     >
       shade=
-      900
+      950
     </h6>
     <p
       class="c1"
@@ -1964,7 +2005,7 @@ Object {
       role="contentinfo"
     >
       shade=
-      800
+      900
     </h6>
     <p
       class="c1"
@@ -1983,7 +2024,7 @@ Object {
       role="contentinfo"
     >
       shade=
-      700
+      800
     </h6>
     <p
       class="c1"
@@ -2002,7 +2043,7 @@ Object {
       role="contentinfo"
     >
       shade=
-      600
+      700
     </h6>
     <p
       class="c1"
@@ -2021,7 +2062,7 @@ Object {
       role="contentinfo"
     >
       shade=
-      500
+      600
     </h6>
     <p
       class="c1"
@@ -2040,7 +2081,7 @@ Object {
       role="contentinfo"
     >
       shade=
-      400
+      500
     </h6>
     <p
       class="c1"
@@ -2059,7 +2100,7 @@ Object {
       role="contentinfo"
     >
       shade=
-      300
+      400
     </h6>
     <p
       class="c1"
@@ -2078,7 +2119,7 @@ Object {
       role="contentinfo"
     >
       shade=
-      200
+      300
     </h6>
     <p
       class="c1"
@@ -2097,7 +2138,7 @@ Object {
       role="contentinfo"
     >
       shade=
-      100
+      200
     </h6>
     <p
       class="c1"
@@ -2116,7 +2157,7 @@ Object {
       role="contentinfo"
     >
       shade=
-      50
+      100
     </h6>
     <p
       class="c1"
@@ -2128,6 +2169,25 @@ Object {
     </p>
     <hr
       class="c11"
+      role="separator"
+    />
+    <h6
+      class="c0"
+      role="contentinfo"
+    >
+      shade=
+      50
+    </h6>
+    <p
+      class="c1"
+      role="contentinfo"
+    >
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
+            cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
+            expedita necessitatibus modi quisquam consequatur!
+    </p>
+    <hr
+      class="c12"
       role="separator"
     />
   </div>,
