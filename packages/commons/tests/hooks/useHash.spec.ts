@@ -42,4 +42,9 @@ describe('useIsMounted', () => {
     const hook = renderHook(() => useHash(undefined, { maxLen: 9 }));
     expect(typeof hook.result.current).toEqual('undefined');
   });
+  it('Should generate hash with BKDR', () => {
+    const hook = renderHook(() => useHash(input, { alg: 'BKDR' }));
+    expect(typeof hook.result.current).toEqual('number');
+    expect(hook.result.current).toEqual(281143655938687);
+  });
 });

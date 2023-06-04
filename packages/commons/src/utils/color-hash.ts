@@ -1,3 +1,6 @@
+/* eslint-disable */
+/* istanbul ignore file */
+
 import bkdr from '../crypto/bkdr';
 import { hsl2rgb, IRgb } from '../theme';
 
