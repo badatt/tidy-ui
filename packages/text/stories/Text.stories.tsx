@@ -50,6 +50,7 @@ const HtmlTagVariants = () => (
     <blockquote>
       blockquote: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab numquam praesentium odit nam accusantium
       saepe optio tempora maiores ipsum quo laborum, repudiandae quis, aut quod accusamus neque. Unde, accusamus et?
+      <span>-- Lorem</span>
     </blockquote>
     basic text: {text}
     <abbr title={`abbr text: ${text}`}>ABR</abbr>
