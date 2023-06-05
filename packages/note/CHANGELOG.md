@@ -5,15 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [0.26.0](https://github.com/badatt/tidy-ui/compare/v0.25.4...v0.26.0) (2023-06-05)
 
-**Note:** Version bump only for package @tidy-ui/avatar
-
-
-
-
-
-## [0.25.4](https://github.com/badatt/tidy-ui/compare/v0.25.3...v0.25.4) (2023-06-04)
-
 
 ### Features
 
-* added Avatar component ([9c89754](https://github.com/badatt/tidy-ui/commit/9c8975443e34c9c5f0c4da4360e72eb67725e047))
+* added Note component ([07a0c61](https://github.com/badatt/tidy-ui/commit/07a0c61ab6af6f1bd2db8a34cfd1d60f1767e6e6))

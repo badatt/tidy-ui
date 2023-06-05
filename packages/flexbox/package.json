@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/flexbox",
-  "version": "0.25.4",
+  "version": "0.26.0",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:flexbox",
@@ -13,7 +13,7 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/commons": "^0.25.4"
+    "@tidy-ui/commons": "^0.26.0"
   },
   "peerDependencies": {
     "react": "^18.0.0",
