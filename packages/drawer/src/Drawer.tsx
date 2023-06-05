@@ -19,7 +19,7 @@ const Drawer = React.forwardRef<HTMLDivElement, IDrawerProps>((props, ref) => {
     (e: React.MouseEvent<HTMLElement>) => {
       e.stopPropagation();
       if (isMounted()) {
-        onClose?.(e);
+        onClose(e);
       }
     },
     [isMounted, onClose],
