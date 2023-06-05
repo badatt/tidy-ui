@@ -1,4 +1,4 @@
-import { ColorHash } from '../../src/utils/color-hash';
+import { ColorHash } from '../../src/utils';
 
 const inp = 'Hello World';
 

@@ -93,9 +93,12 @@ const GlobalDefault = createGlobalStyle<IGlobalDefault>`
       font-size: 0.8em;
     }
     blockquote {
+      display: block;
       padding-left: 1rem;
       margin: 1rem 0;
       position: relative;
+      font-style: italic;
+      color: ${hsla(color.slate[500])};
       &::before {
         content: '';
         background-color: currentColor;
@@ -106,6 +109,13 @@ const GlobalDefault = createGlobalStyle<IGlobalDefault>`
         display: block;
         position: absolute;
         border-radius: 8px;
+        opacity: 0.5;
+      }
+      & > span {
+        margin-top: 0.5em;
+        display: block;
+        font-size: 0.8em;
+        text-align: end;
       }
     }
     abbr {
