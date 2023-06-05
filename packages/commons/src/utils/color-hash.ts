@@ -112,4 +112,4 @@ class ColorHash {
   }
 }
 
-export { ColorHash };
+export default ColorHash;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { IRgb, rgb } from '../theme';
-import { ColorHash } from '../utils/color-hash';
+import { ColorHash } from '../utils';
 
 /**
  * useColor return type
