@@ -6,7 +6,7 @@ import { IDrawerProps } from './types';
  *
  * @internal
  */
-const DrawerRoot = styled.div<IDrawerProps>`
+const DrawerRoot = styled.div<Pick<IDrawerProps, 'anchor'>>`
   z-index: ${Number.MAX_SAFE_INTEGER};
   position: fixed;
   background-color: ${hsla(color.slate[900], 0.7)};
@@ -25,7 +25,7 @@ const DrawerRoot = styled.div<IDrawerProps>`
  *
  * @internal
  */
-const DrawerContent = styled.div<IDrawerProps>`
+const DrawerContent = styled.div`
   display: flex;
   flex-direction: column;
   ${({ theme: { palette } }) => css`
@@ -40,7 +40,7 @@ const DrawerContent = styled.div<IDrawerProps>`
  *
  * @internal
  */
-const CloseSection = styled.div<IDrawerProps>`
+const CloseSection = styled.div<Pick<IDrawerProps, 'anchor'>>`
   display: flex;
   ${({ anchor }) => css`
     flex-direction: ${anchor === 'left' ? 'row-reverse' : 'row'};
@@ -52,7 +52,7 @@ const CloseSection = styled.div<IDrawerProps>`
  *
  * @internal
  */
-const CloseButton = styled.button<IDrawerProps>`
+const CloseButton = styled.button`
   padding: 0.5rem;
   ${({ theme: { palette } }) => css`
     color: ${palette.text.primary};

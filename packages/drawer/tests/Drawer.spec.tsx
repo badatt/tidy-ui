@@ -32,20 +32,24 @@ describe('Drawer', () => {
   });
 
   it('Dark mode basic render', () => {
+    const mockSetClose = jest.fn();
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
         <button data-testid="open-btn">Open</button>
-        <Drawer isOpen>menu</Drawer>
+        <Drawer isOpen onClose={mockSetClose}>
+          menu
+        </Drawer>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
   it('Drawer on right', () => {
+    const mockSetClose = jest.fn();
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <button data-testid="open-btn">Open</button>
-        <Drawer isOpen anchor="right">
+        <Drawer isOpen anchor="right" onClose={mockSetClose}>
           menu
         </Drawer>
       </TidyUiProvider>,
@@ -54,16 +58,19 @@ describe('Drawer', () => {
   });
 
   it('Drawer is in closed state', () => {
+    const mockSetClose = jest.fn();
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
         <button data-testid="open-btn">Open</button>
-        <Drawer isOpen={false}>menu</Drawer>
+        <Drawer isOpen={false} onClose={mockSetClose}>
+          menu
+        </Drawer>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
   });
 
-  it('No close handler', () => {
+  /*   it('No close handler', () => {
     const mockSetOpen = jest.fn();
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
@@ -79,13 +86,14 @@ describe('Drawer', () => {
     expect(mockSetOpen).toHaveBeenCalledTimes(1);
     const closeBtn = tree.getByRole('button');
     fireEvent.click(closeBtn);
-  });
+  }); */
 
   it('Custom element', () => {
+    const mockSetClose = jest.fn();
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
         <button data-testid="open-btn">Open</button>
-        <Drawer isOpen ele={<div />}>
+        <Drawer isOpen ele={<div />} onClose={mockSetClose}>
           menu
         </Drawer>
       </TidyUiProvider>,

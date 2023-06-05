@@ -18,7 +18,7 @@ export interface IDrawerProps extends IBaseProps, HTMLAttributes<HTMLDivElement>
    *
    * @default false
    */
-  isOpen?: boolean;
+  isOpen: boolean;
 
   /**
    * Callback when the drawer is closed
@@ -26,5 +26,5 @@ export interface IDrawerProps extends IBaseProps, HTMLAttributes<HTMLDivElement>
    * @type {?((e?: any | undefined) => void)}
    */
   // eslint-disable-next-line  @typescript-eslint/no-explicit-any
-  onClose?: (e?: any) => void;
+  onClose: (e?: any) => void;
 }
