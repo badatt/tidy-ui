@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.27.0](https://github.com/badatt/tidy-ui/compare/v0.26.0...v0.27.0) (2023-06-08)
+
+**Note:** Version bump only for package @tidy-ui/checkbox
+
+
+
+
+
 # [0.26.0](https://github.com/badatt/tidy-ui/compare/v0.25.4...v0.26.0) (2023-06-05)
 
 **Note:** Version bump only for package @tidy-ui/checkbox
