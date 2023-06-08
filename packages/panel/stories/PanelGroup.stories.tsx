@@ -43,10 +43,10 @@ export const basic = () => (
 );
 
 export const accent = () => (
-  <PanelGroup hasSeparator>
+  <PanelGroup>
     {[...Array(10)].map((v, i) => (
       <Panel key={i}>
-        <Panel.Header isToggleVisible accent="major">
+        <Panel.Header accent="major">
           <Text.body1>
             <ContentHeader />
           </Text.body1>
