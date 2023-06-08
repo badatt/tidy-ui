@@ -4,10 +4,10 @@ import { I{{ properCase name }}Props } from './types';
 
 const {{ properCase name }} = React.forwardRef<HTMLDivElement, I{{ properCase name }}Props>(
   (props, ref) => {
-    const { children, ...rest } = props;
+    const { children, ele, ...rest } = props;
     return (
       <{{ properCase name }}Root ref={ref} role="{{ name }}" {...rest}>
-        {children}
+        {ele ? React.cloneElement(ele, {}, children) : children}
       </{{ properCase name }}Root>
     );
   }

@@ -1,6 +1,8 @@
-import { styled } from '@tidy-ui/commons';
+import { applyStandardOverrideStyles, styled } from '@tidy-ui/commons';
 import { I{{ properCase name }}Props } from './types';
 
-const {{ properCase name }}Root = styled.div<I{{ properCase name }}Props>``;
+const {{ properCase name }}Root = styled.div<I{{ properCase name }}Props>`
+  ${applyStandardOverrideStyles}  
+`;
 
 export { {{ properCase name }}Root };
