@@ -40,7 +40,7 @@ jobs:
       - name: Publish patch version
         run: |
           npm --version
-          npx lerna --verison
+          lerna --verison
           npm whoami
           echo "This is token ${NODE_AUTH_TOKEN}"
           curl https://registry.npmjs.org/-/org/badatt/package
