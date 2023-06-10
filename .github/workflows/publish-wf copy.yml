@@ -1,0 +1,39 @@
+name: Publish fix
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches:
+      - main
+      - 'release/**'
+
+jobs:
+  publish:
+    name: publish test
+    runs-on: ubuntu-latest
+    env:
+      CI: true
+      FORCE_COLOR: true
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.PAT_GITHUB  }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18.16.0'
+          registry-url: https://registry.npmjs.org/
+
+      - name: Publish patch version
+        run: |
+          npm whoami
+        env:
+          GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
