@@ -35,7 +35,7 @@ jobs:
         run: |
           npm --version
           npm whoami
-          echo ${NODE_AUTH_TOKEN}
+          echo "This is token ${NODE_AUTH_TOKEN}"
           npm access list packages badatt @tidy-ui/commons
         env:
           GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
