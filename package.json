@@ -4,7 +4,9 @@
   "readme": "README.md",
   "scripts": {
     "bootstrap": "npx lerna bootstrap && yarn install && npx husky install",
-    "build": "npx lerna run build",
+    "build": "yarn build:pre && yarn build:other",
+    "build:other": "npx lerna run build --ignore @tidy-ui/types --ignore @tidy-ui/commons --parallel",
+    "build:pre": "npx lerna run build --scope @tidy-ui/types --scope @tidy-ui/commons",
     "build-storybook": "storybook build",
     "build:md": "markdown-include .markdown.json && npx lerna exec -- yarn build:md",
     "clean": "rimraf -rf coverage && npx lerna exec -- yarn clean",
