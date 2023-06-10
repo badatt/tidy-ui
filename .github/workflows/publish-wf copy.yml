@@ -31,9 +31,16 @@ jobs:
           node-version: '18.16.0'
           registry-url: https://registry.npmjs.org/
 
+      - name: Install Dependencies
+        run: yarn install
+
+      - name: Bootstraps
+        run: yarn bootstrap
+
       - name: Publish patch version
         run: |
           npm --version
+          npx lerna --verison
           npm whoami
           echo "This is token ${NODE_AUTH_TOKEN}"
           curl https://registry.npmjs.org/-/org/badatt/package
