@@ -107,7 +107,9 @@ describe('Message', () => {
   it('Message with custom element', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Message ele={<div style={{ display: 'flex' }} />}>{text}</Message>
+        <Message ele={<div style={{ display: 'flex' }} />} label="Label">
+          {text}
+        </Message>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();

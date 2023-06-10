@@ -1,6 +1,6 @@
 import React from 'react';
 import { Icon, useIsMounted, usePortal } from '@tidy-ui/commons';
-import { CloseButton, CloseSection, DrawerContent, DrawerRoot } from './components';
+import { CloseButton, DrawerContent, DrawerRoot } from './components';
 import { IDrawerProps } from './types';
 
 /**
@@ -33,11 +33,9 @@ const Drawer = React.forwardRef<HTMLDivElement, IDrawerProps>((props, ref) => {
     <Portal>
       <DrawerRoot ref={ref} role="navigation" {...{ anchor }}>
         <DrawerContent {...rest}>
-          <CloseSection {...{ anchor }}>
-            <CloseButton onClick={handleClose} role="button">
-              <Icon ele={<Icon.Close />} />
-            </CloseButton>
-          </CloseSection>
+          <CloseButton onClick={handleClose} role="button" {...{ anchor }}>
+            <Icon ele={<Icon.Close />} />
+          </CloseButton>
           {ele ? React.cloneElement(ele, {}, children) : children}
         </DrawerContent>
       </DrawerRoot>

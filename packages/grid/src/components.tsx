@@ -63,7 +63,6 @@ const ItemRoot = styled.div<IItemProps>`
   ${({ xs, sm, md, lg, xl }) => css`
     float: left;
     position: relative;
-    min-height: 1px;
     width: 100%;
     ${devices.mobile} {
       ${xs && getWidth(xs)}

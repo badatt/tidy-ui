@@ -2741,9 +2741,12 @@ Object {
   position: absolute;
   top: 0;
   right: 0;
+  -webkit-transform: translate(30%,-30%);
+  -ms-transform: translate(30%,-30%);
+  transform: translate(30%,-30%);
   padding: 0.5rem;
   background-color: hsla(215,20%,65%,0.1);
-  border-radius: 50%;
+  border-radius: 0.5rem;
 }
 
 .c4:hover {
@@ -2938,9 +2941,12 @@ Object {
   position: absolute;
   top: 0;
   right: 0;
+  -webkit-transform: translate(30%,-30%);
+  -ms-transform: translate(30%,-30%);
+  transform: translate(30%,-30%);
   padding: 0.5rem;
   background-color: hsla(215,20%,65%,0.1);
-  border-radius: 50%;
+  border-radius: 0.5rem;
 }
 
 .c4:hover {
@@ -3190,9 +3196,12 @@ Object {
   position: absolute;
   top: 0;
   right: 0;
+  -webkit-transform: translate(30%,-30%);
+  -ms-transform: translate(30%,-30%);
+  transform: translate(30%,-30%);
   padding: 0.5rem;
   background-color: hsla(215,20%,65%,0.1);
-  border-radius: 50%;
+  border-radius: 0.5rem;
 }
 
 .c4:hover {
@@ -3387,9 +3396,12 @@ Object {
   position: absolute;
   top: 0;
   right: 0;
+  -webkit-transform: translate(30%,-30%);
+  -ms-transform: translate(30%,-30%);
+  transform: translate(30%,-30%);
   padding: 0.5rem;
   background-color: hsla(215,20%,65%,0.1);
-  border-radius: 50%;
+  border-radius: 0.5rem;
 }
 
 .c4:hover {
