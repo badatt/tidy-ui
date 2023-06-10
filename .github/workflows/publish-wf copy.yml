@@ -33,6 +33,7 @@ jobs:
 
       - name: Publish patch version
         run: |
+          npm --version
           npm whoami
         env:
           GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
