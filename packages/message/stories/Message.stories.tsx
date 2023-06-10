@@ -68,14 +68,14 @@ export const closable = () => (
     <Message closable onClose={() => alert('Message will be closed now')}>
       <Content />
     </Message>
-    <Message closable>
+    <Message closable isFilled tone="info">
       <Content />
     </Message>
   </FlexBox>
 );
 
 export const customElement = () => (
-  <Message ele={<FlexBox nowrap gap="1rem" />}>
+  <Message ele={<FlexBox nowrap gap="1rem" />} label="Label">
     <div>
       <Content />
     </div>

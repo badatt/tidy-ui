@@ -89,6 +89,11 @@ export const withoutLabel = () => (
 
 export const withToaster = () => {
   const { toaster } = useToaster();
+  React.useEffect(() => {
+    return () => {
+      toaster.clear();
+    };
+  }, []);
   const ele = (
     <Notification width="20rem">
       <NotificationText />

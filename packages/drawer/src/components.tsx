@@ -26,6 +26,7 @@ const DrawerRoot = styled.div<Pick<IDrawerProps, 'anchor'>>`
  * @internal
  */
 const DrawerContent = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
   ${({ theme: { palette } }) => css`
@@ -52,11 +53,26 @@ const CloseSection = styled.div<Pick<IDrawerProps, 'anchor'>>`
  *
  * @internal
  */
-const CloseButton = styled.button`
+const CloseButton = styled.button<Pick<IDrawerProps, 'anchor'>>`
   padding: 0.5rem;
-  ${({ theme: { palette } }) => css`
+  position: absolute;
+  z-index: 1;
+  background-color: ${hsla(color.slate[700], 0.1)};
+  ${({ theme: { palette }, anchor }) => css`
     color: ${palette.text.primary};
+    ${anchor === 'left'
+      ? css`
+          top: 0;
+          right: 0;
+        `
+      : css`
+          top: 0;
+          left: 0;
+        `}
   `}
+  &:hover {
+    background-color: ${hsla(color.slate[700], 0.2)};
+  }
 `;
 
 export { CloseButton, CloseSection, DrawerContent, DrawerRoot };

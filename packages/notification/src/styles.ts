@@ -1,4 +1,4 @@
-import { css } from '@tidy-ui/commons';
+import { css, hsla } from '@tidy-ui/commons';
 import { INotificationProps } from './types';
 
 /**
@@ -7,9 +7,9 @@ import { INotificationProps } from './types';
  * @internal
  */
 const filledContent = css<INotificationProps>`
-  ${({ theme: { palette }, tone }) => css`
-    background-color: ${palette[tone!][700]};
+  ${({ theme: { palette, isDark }, tone }) => css`
     color: ${palette[tone!][50]};
+    background-color: ${isDark ? hsla(palette[tone!].shades[700], 0.5) : hsla(palette[tone!].shades[700], 0.9)};
   `}
 `;
 
@@ -20,9 +20,9 @@ const filledContent = css<INotificationProps>`
  */
 const outlinedContent = css<INotificationProps>`
   ${({ theme: { palette, isDark }, tone }) => css`
-    color: ${palette.text.primary};
-    background-color: ${palette.background.default};
-    border: 1px solid ${isDark ? palette[tone!][600] : palette[tone!][400]};
+    color: ${isDark ? palette[tone!][300] : palette[tone!][700]};
+    border: 1px solid ${isDark ? hsla(palette[tone!].shades[900], 0.7) : palette[tone!][400]};
+    background-color: ${isDark ? hsla(palette[tone!].shades[700], 0.1) : hsla(palette[tone!].shades[200], 0.4)};
   `}
 `;
 

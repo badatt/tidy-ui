@@ -1,4 +1,4 @@
-import { applyStandardOverrideStyles, createFontStyle, css, IPalette, styled } from '@tidy-ui/commons';
+import { applyStandardOverrideStyles, color, createFontStyle, css, hsla, IPalette, styled } from '@tidy-ui/commons';
 import { filledContent, filledLabel, outlinedContent, outlinedLabel } from './styles';
 import { IMessageProps } from './types';
 
@@ -29,15 +29,18 @@ const closeButtonColor = (isDark: boolean, palette: IPalette, color: string): st
  * @internal
  */
 const CloseButton = styled.span<IMessageProps>`
-  ${({ theme: { palette, isDark }, tone, isFilled }) => css`
-    height: 1rem;
-    width: 1rem;
-    min-width: 1rem;
-    display: none;
-    cursor: pointer;
-    position: absolute;
-    top: 0;
-    right: 2px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(-10%, 10%);
+  height: 2rem;
+  width: 2rem;
+  visibility: hidden;
+  cursor: pointer;
+  padding: 0.25rem;
+  background-color: ${hsla(color.slate[700], 0.1)};
+  ${({ theme: { palette, isDark, layout }, tone, isFilled }) => css`
+    border-radius: ${layout.radius};
     ${isFilled
       ? css`
           color: ${palette[tone!][50]};
@@ -46,6 +49,9 @@ const CloseButton = styled.span<IMessageProps>`
           color: ${closeButtonColor(isDark, palette, tone!)};
         `}
   `}
+  &:hover {
+    background-color: ${hsla(color.slate[700], 0.2)};
+  }
 `;
 
 /**
@@ -85,6 +91,7 @@ const MessageContent = styled.div<IMessageProps>`
   ${({ theme: { layout }, isSharp, isStretched, hasLabel, isFilled }) => css`
     padding: 0.75rem 1rem;
     border-radius: ${!isSharp && layout.radius};
+    box-shadow: ${layout.shadow};
     ${hasLabel &&
     css`
       border-top-left-radius: 0;
@@ -93,7 +100,7 @@ const MessageContent = styled.div<IMessageProps>`
     ${isFilled ? filledContent : outlinedContent}
   `}
   &:hover ${CloseButton} {
-    display: block;
+    visibility: visible;
   }
 `;
 

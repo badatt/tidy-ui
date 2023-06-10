@@ -7,8 +7,8 @@ import { IMessageProps } from './types';
  * @internal
  */
 const filledLabel = css<IMessageProps>`
-  ${({ theme: { palette }, tone }) => css`
-    background-color: ${palette[tone!][800]};
+  ${({ theme: { palette, isDark }, tone }) => css`
+    background-color: ${isDark ? hsla(palette[tone!].shades[800], 0.5) : hsla(palette[tone!].shades[800], 1)};
     color: ${palette[tone!][50]};
   `}
 `;
@@ -21,8 +21,8 @@ const filledLabel = css<IMessageProps>`
 const outlinedLabel = css<IMessageProps>`
   ${({ theme: { palette, isDark }, tone }) => css`
     color: ${isDark ? palette[tone!][300] : palette[tone!][700]};
-    background-color: ${isDark ? hsla(palette[tone!].shades[900], 0.4) : hsla(palette[tone!].shades[100], 0.4)};
-    border: 1px solid ${isDark ? palette[tone!][500] : palette[tone!][400]};
+    border: 1px solid ${isDark ? hsla(palette[tone!].shades[900], 0.7) : palette[tone!][400]};
+    background-color: ${isDark ? hsla(palette[tone!].shades[700], 0.1) : hsla(palette[tone!].shades[200], 0.4)};
     border-bottom: 0;
   `}
 `;
@@ -33,9 +33,9 @@ const outlinedLabel = css<IMessageProps>`
  * @internal
  */
 const filledContent = css<IMessageProps>`
-  ${({ theme: { palette }, tone }) => css`
+  ${({ theme: { palette, isDark }, tone }) => css`
     color: ${palette[tone!][50]};
-    background-color: ${palette[tone!][700]};
+    background-color: ${isDark ? hsla(palette[tone!].shades[700], 0.5) : hsla(palette[tone!].shades[700], 0.9)};
   `}
 `;
 
@@ -47,7 +47,8 @@ const filledContent = css<IMessageProps>`
 const outlinedContent = css<IMessageProps>`
   ${({ theme: { palette, isDark }, tone }) => css`
     color: ${isDark ? palette[tone!][300] : palette[tone!][700]};
-    border: 1px solid ${isDark ? palette[tone!][500] : palette[tone!][400]};
+    border: 1px solid ${isDark ? hsla(palette[tone!].shades[900], 0.7) : palette[tone!][400]};
+    background-color: ${isDark ? hsla(palette[tone!].shades[700], 0.1) : hsla(palette[tone!].shades[200], 0.4)};
   `}
 `;
 

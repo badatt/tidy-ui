@@ -9,7 +9,7 @@ import { IMessageProps } from './types';
  *
  */
 const Message = React.forwardRef<HTMLDivElement, IMessageProps>((props, ref) => {
-  const { children, closable, ele, onClose, ...rest } = props;
+  const { children, closable, ele, label, onClose, ...rest } = props;
   const { isFilled, isSharp, isStretched, hasLabel, tone } = props;
 
   const isMounted = useIsMounted();
@@ -34,7 +34,7 @@ const Message = React.forwardRef<HTMLDivElement, IMessageProps>((props, ref) => 
       {hasLabel && (
         <MessageLabel {...{ isFilled, isSharp, tone }}>
           <TonedIcon status={tone} />
-          {tone}
+          {label ?? tone}
         </MessageLabel>
       )}
       <MessageContent {...{ hasLabel, isFilled, isSharp, isStretched, tone }}>

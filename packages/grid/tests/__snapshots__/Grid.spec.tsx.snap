@@ -19,7 +19,6 @@ Object {
 .c1 {
   float: left;
   position: relative;
-  min-height: 1px;
   width: 100%;
 }
 
@@ -222,7 +221,6 @@ Object {
 .c1 {
   float: left;
   position: relative;
-  min-height: 1px;
   width: 100%;
 }
 
@@ -480,7 +478,6 @@ Object {
 .c1 {
   float: left;
   position: relative;
-  min-height: 1px;
   width: 100%;
 }
 
@@ -685,7 +682,6 @@ Object {
 .c1 {
   float: left;
   position: relative;
-  min-height: 1px;
   width: 100%;
 }
 
@@ -945,7 +941,6 @@ Object {
 .c1 {
   float: left;
   position: relative;
-  min-height: 1px;
   width: 100%;
 }
 
@@ -1012,7 +1007,6 @@ Object {
 .c1 {
   float: left;
   position: relative;
-  min-height: 1px;
   width: 100%;
 }
 
@@ -1134,7 +1128,6 @@ Object {
 .c1 {
   float: left;
   position: relative;
-  min-height: 1px;
   width: 100%;
 }
 
@@ -1337,7 +1330,6 @@ Object {
 .c1 {
   float: left;
   position: relative;
-  min-height: 1px;
   width: 100%;
 }
 
@@ -1595,7 +1587,6 @@ Object {
 .c1 {
   float: left;
   position: relative;
-  min-height: 1px;
   width: 100%;
 }
 
@@ -1828,7 +1819,6 @@ Object {
 .c1 {
   float: left;
   position: relative;
-  min-height: 1px;
   width: 100%;
 }
 
@@ -2117,7 +2107,6 @@ Object {
 .c1 {
   float: left;
   position: relative;
-  min-height: 1px;
   width: 100%;
 }
 
@@ -2321,7 +2310,6 @@ Object {
 .c1 {
   float: left;
   position: relative;
-  min-height: 1px;
   width: 100%;
 }
 
@@ -2796,7 +2784,6 @@ Object {
 .c1 {
   float: left;
   position: relative;
-  min-height: 1px;
   width: 100%;
 }
 
@@ -3008,7 +2995,6 @@ Object {
 .c1 {
   float: left;
   position: relative;
-  min-height: 1px;
   width: 100%;
 }
 

@@ -12,9 +12,12 @@ const Link = styled.a`
   position: absolute;
   top: 0;
   right: 0;
+  transform: translate(30%, -30%);
   padding: 0.5rem;
   background-color: ${hsla(color.slate[400], 0.1)};
-  border-radius: 50%;
+  ${({ theme: { layout } }) => css`
+    border-radius: ${layout.radius};
+  `}
   &:hover {
     background-color: ${hsla(color.slate[400], 0.2)};
   }

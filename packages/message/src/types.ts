@@ -39,6 +39,11 @@ export interface IMessageProps extends IBaseProps, IClosable, HTMLAttributes<HTM
   isStretched?: boolean;
 
   /**
+   * Custom label
+   */
+  label?: React.ReactNode;
+
+  /**
    * Color variant of the message, typically used to classify the
    * information based on its level
    *
