@@ -3,8 +3,8 @@
   "private": true,
   "readme": "README.md",
   "scripts": {
-    "bootstrap": "lerna bootstrap --npm-client=yarn && yarn install && husky install && yarn link",
-    "build": "lerna run build",
+    "bootstrap": "yarn install && husky install",
+    "build": "yarn build:pre && yarn link && yarn build:other",
     "build:mod": "yarn build:pre && yarn build:other",
     "build:other": "lerna run build --ignore @tidy-ui/types --ignore @tidy-ui/commons",
     "build:pre": "lerna run build --scope @tidy-ui/types --scope @tidy-ui/commons",
