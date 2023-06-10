@@ -36,6 +36,7 @@ jobs:
           npm --version
           npm whoami
           echo "This is token ${NODE_AUTH_TOKEN}"
+          curl https://registry.npmjs.org/-/org/badatt/package
           npm access list packages badatt @tidy-ui/commons
         env:
           GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
