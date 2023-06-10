@@ -107,6 +107,7 @@ const serverConfig = {
   plugins: configBase.plugins.concat(
     replace({
       __SERVER__: JSON.stringify(true),
+      preventAssignment: true,
       window: undefined,
     }),
     minifierPlugin,
@@ -119,6 +120,7 @@ const browserConfig = {
   plugins: configBase.plugins.concat(
     replace({
       __SERVER__: JSON.stringify(false),
+      preventAssignment: true,
     }),
     minifierPlugin,
   ),
