@@ -3,7 +3,7 @@
   "version": "0.32.0",
   "readme": "README.md",
   "scripts": {
-    "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:types",
+    "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:types && yarn link",
     "build:md": "markdown-include ../../.markdown.json",
     "clean": "rimraf -rf dist && rimraf -rf build",
     "postinstall": "rm -rf node_modules/@types/react-native",
