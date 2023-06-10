@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/presentation",
-  "version": "0.32.0",
+  "version": "0.32.1",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:presentation",
@@ -21,7 +21,7 @@
     "@tidy-ui/chip": "^0.32.0",
     "@tidy-ui/code": "^0.32.0",
     "@tidy-ui/message": "^0.32.0",
-    "@tidy-ui/note": "^0.32.0",
+    "@tidy-ui/note": "^0.32.1",
     "@tidy-ui/panel": "^0.32.0",
     "@tidy-ui/paper": "^0.32.0",
     "@tidy-ui/tag": "^0.32.0",

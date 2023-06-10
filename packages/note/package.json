@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/note",
-  "version": "0.32.0",
+  "version": "0.32.1",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:note",
