@@ -12,5 +12,6 @@
     "version": {
       "message": "chore: publish %s"
     }
-  }
+  },
+  "useWorkspaces": true
 }
