@@ -5,7 +5,7 @@
   "scripts": {
     "bootstrap": "npx lerna bootstrap && yarn install && npx husky install",
     "build": "yarn build:pre && yarn build:other",
-    "build:other": "npx lerna run build --ignore @tidy-ui/types --ignore @tidy-ui/commons --parallel --concurrency=4",
+    "build:other": "npx lerna run build --ignore @tidy-ui/types --ignore @tidy-ui/commons",
     "build:pre": "npx lerna run build --scope @tidy-ui/types --scope @tidy-ui/commons",
     "build-storybook": "storybook build",
     "build:md": "markdown-include .markdown.json && npx lerna exec -- yarn build:md",
