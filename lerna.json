@@ -1,4 +1,5 @@
 {
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "version": "0.32.1",
   "npmClient": "yarn",
   "packages": [
@@ -12,6 +13,5 @@
     "version": {
       "message": "chore: publish %s"
     }
-  },
-  "useWorkspaces": true
+  }
 }
