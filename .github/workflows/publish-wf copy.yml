@@ -35,6 +35,7 @@ jobs:
         run: |
           npm --version
           npm whoami
+          npm access list packages badatt @tidy-ui/commons
         env:
           GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
