@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/presentation",
-  "version": "0.32.1",
+  "version": "0.32.2",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:presentation",
@@ -13,7 +13,7 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/alert": "^0.32.0",
+    "@tidy-ui/alert": "^0.32.2",
     "@tidy-ui/avatar": "^0.32.0",
     "@tidy-ui/badge": "^0.32.0",
     "@tidy-ui/button": "^0.32.0",
