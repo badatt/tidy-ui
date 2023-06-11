@@ -30,9 +30,6 @@ jobs:
           node-version: '18.16.0'
           registry-url: https://registry.npmjs.org/
 
-      - name: Install Dependencies
-        run: yarn install
-
       - name: Bootstrap
         run: yarn bootstrap
 
@@ -58,21 +55,21 @@ jobs:
 
       - name: Publish patch version
         if: "${{ !startsWith(github.event.head_commit.message, 'chore: release') }}"
-        run: "npx lerna publish patch -m 'chore: publish patch %s' --conventional-commits --create-release github -y"
+        run: "lerna publish patch -m 'chore: publish patch %s' --conventional-commits --create-release github -y"
         env:
           GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Publish minor version
         if: "${{ startsWith(github.event.head_commit.message, 'chore: release minor') }}"
-        run: "npx lerna publish minor -m 'chore: publish minor %s' --force-publish --conventional-commits --create-release github -y"
+        run: "lerna publish minor -m 'chore: publish minor %s' --force-publish --conventional-commits --create-release github -y"
         env:
           GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Publish major version
         if: "${{ startsWith(github.event.head_commit.message, 'chore: release major') }}"
-        run: "npx lerna publish major -m 'chore: publish major %s' --force-publish --conventional-commits --create-release github -y"
+        run: "lerna publish major -m 'chore: publish major %s' --force-publish --conventional-commits --create-release github -y"
         env:
           GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
