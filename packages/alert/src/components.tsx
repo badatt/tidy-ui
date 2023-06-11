@@ -26,7 +26,7 @@ const AlertRoot = styled.section<IAlertProps>`
  * @internal
  */
 const AlertFooterRoot = styled.footer<IAlertFooterProps>`
-  padding-top: 0.5rem;
+  padding-top: 1rem;
   ${applyStandardOverrideStyles}
 `;
 
