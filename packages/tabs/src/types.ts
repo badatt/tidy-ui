@@ -77,4 +77,9 @@ export interface ITabPanelsProps extends IBaseProps, HTMLAttributes<HTMLDivEleme
 /**
  * TabPanelProps
  */
-export interface ITabPanelProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {}
+export interface ITabPanelProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
+  /**
+   * If `true`, loads TabPanel on-demand
+   */
+  isLazy?: boolean;
+}
