@@ -1,0 +1,2280 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs Basic render 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  cursor: pointer;
+  overflow-x: auto;
+}
+
+.c2 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid hsla(214,32%,91%,1);
+  border-bottom: 4px solid hsla(330,81%,60%,1);
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c4 {
+  padding-top: 1rem;
+  display: inline-block;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+        role="tablist"
+      >
+        <div
+          class="c1"
+          role="tabs"
+        >
+          <div
+            class="c2"
+            role="tab"
+          >
+            Tab 1
+          </div>
+        </div>
+        <div
+          class="c3"
+          role="tabpanels"
+        >
+          <div
+            class="c4"
+            role="tabpanel"
+          >
+            Tab Panel1
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  cursor: pointer;
+  overflow-x: auto;
+}
+
+.c2 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid hsla(214,32%,91%,1);
+  border-bottom: 4px solid hsla(330,81%,60%,1);
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c4 {
+  padding-top: 1rem;
+  display: inline-block;
+}
+
+<div>
+    <div
+      class="c0"
+      role="tablist"
+    >
+      <div
+        class="c1"
+        role="tabs"
+      >
+        <div
+          class="c2"
+          role="tab"
+        >
+          Tab 1
+        </div>
+      </div>
+      <div
+        class="c3"
+        role="tabpanels"
+      >
+        <div
+          class="c4"
+          role="tabpanel"
+        >
+          Tab Panel1
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Tabs Custom elements 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  cursor: pointer;
+  overflow-x: auto;
+}
+
+.c2 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid hsla(214,32%,91%,1);
+  border-bottom: 4px solid hsla(330,81%,60%,1);
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c4 {
+  padding-top: 1rem;
+  display: inline-block;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+        role="tablist"
+      >
+        <div>
+          <div
+            class="c1"
+            role="tabs"
+          >
+            <div
+              class="c2"
+              role="tab"
+            >
+              <div>
+                Tab 1
+              </div>
+            </div>
+          </div>
+          <div
+            class="c3"
+            role="tabpanels"
+          >
+            <div
+              class="c4"
+              role="tabpanel"
+            >
+              <div>
+                Tab Panel1
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  cursor: pointer;
+  overflow-x: auto;
+}
+
+.c2 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid hsla(214,32%,91%,1);
+  border-bottom: 4px solid hsla(330,81%,60%,1);
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c4 {
+  padding-top: 1rem;
+  display: inline-block;
+}
+
+<div>
+    <div
+      class="c0"
+      role="tablist"
+    >
+      <div>
+        <div
+          class="c1"
+          role="tabs"
+        >
+          <div
+            class="c2"
+            role="tab"
+          >
+            <div>
+              Tab 1
+            </div>
+          </div>
+        </div>
+        <div
+          class="c3"
+          role="tabpanels"
+        >
+          <div
+            class="c4"
+            role="tabpanel"
+          >
+            <div>
+              Tab Panel1
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Tabs Dark mode basic render 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  cursor: pointer;
+  overflow-x: auto;
+}
+
+.c2 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid hsla(215,25%,27%,1);
+  border-bottom: 4px solid hsla(330,81%,60%,1);
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c4 {
+  padding-top: 1rem;
+  display: inline-block;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+        role="tablist"
+      >
+        <div
+          class="c1"
+          role="tabs"
+        >
+          <div
+            class="c2"
+            role="tab"
+          >
+            Tab 1
+          </div>
+        </div>
+        <div
+          class="c3"
+          role="tabpanels"
+        >
+          <div
+            class="c4"
+            role="tabpanel"
+          >
+            Tab Panel1
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  cursor: pointer;
+  overflow-x: auto;
+}
+
+.c2 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid hsla(215,25%,27%,1);
+  border-bottom: 4px solid hsla(330,81%,60%,1);
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c4 {
+  padding-top: 1rem;
+  display: inline-block;
+}
+
+<div>
+    <div
+      class="c0"
+      role="tablist"
+    >
+      <div
+        class="c1"
+        role="tabs"
+      >
+        <div
+          class="c2"
+          role="tab"
+        >
+          Tab 1
+        </div>
+      </div>
+      <div
+        class="c3"
+        role="tabpanels"
+      >
+        <div
+          class="c4"
+          role="tabpanel"
+        >
+          Tab Panel1
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Tabs Full width 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  cursor: pointer;
+  overflow-x: auto;
+  border-bottom: 2px solid hsla(214,32%,91%,1);
+}
+
+.c2 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+  border-bottom: 4px solid hsla(330,81%,60%,1);
+}
+
+.c3 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c5 {
+  padding-top: 1rem;
+  display: inline-block;
+}
+
+.c6 {
+  padding-top: 1rem;
+  display: none;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+        role="tablist"
+      >
+        <div
+          class="c1"
+          role="tabs"
+        >
+          <div
+            class="c2"
+            role="tab"
+          >
+            Tab 1
+          </div>
+          <div
+            class="c3"
+            role="tab"
+          >
+            Tab 2
+          </div>
+          <div
+            class="c3"
+            role="tab"
+          >
+            Tab 3
+          </div>
+        </div>
+        <div
+          class="c4"
+          role="tabpanels"
+        >
+          <div
+            class="c5"
+            role="tabpanel"
+          >
+            Tab Panel1
+          </div>
+          <div
+            class="c6"
+            role="tabpanel"
+          >
+            Tab Panel2
+          </div>
+          <div
+            class="c6"
+            role="tabpanel"
+          >
+            Tab Panel3
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  cursor: pointer;
+  overflow-x: auto;
+  border-bottom: 2px solid hsla(214,32%,91%,1);
+}
+
+.c2 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+  border-bottom: 4px solid hsla(330,81%,60%,1);
+}
+
+.c3 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c5 {
+  padding-top: 1rem;
+  display: inline-block;
+}
+
+.c6 {
+  padding-top: 1rem;
+  display: none;
+}
+
+<div>
+    <div
+      class="c0"
+      role="tablist"
+    >
+      <div
+        class="c1"
+        role="tabs"
+      >
+        <div
+          class="c2"
+          role="tab"
+        >
+          Tab 1
+        </div>
+        <div
+          class="c3"
+          role="tab"
+        >
+          Tab 2
+        </div>
+        <div
+          class="c3"
+          role="tab"
+        >
+          Tab 3
+        </div>
+      </div>
+      <div
+        class="c4"
+        role="tabpanels"
+      >
+        <div
+          class="c5"
+          role="tabpanel"
+        >
+          Tab Panel1
+        </div>
+        <div
+          class="c6"
+          role="tabpanel"
+        >
+          Tab Panel2
+        </div>
+        <div
+          class="c6"
+          role="tabpanel"
+        >
+          Tab Panel3
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Tabs Full width dark 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  cursor: pointer;
+  overflow-x: auto;
+  border-bottom: 2px solid hsla(215,25%,27%,1);
+}
+
+.c2 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+  border-bottom: 4px solid hsla(330,81%,60%,1);
+}
+
+.c3 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c5 {
+  padding-top: 1rem;
+  display: inline-block;
+}
+
+.c6 {
+  padding-top: 1rem;
+  display: none;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+        role="tablist"
+      >
+        <div
+          class="c1"
+          role="tabs"
+        >
+          <div
+            class="c2"
+            role="tab"
+          >
+            Tab 1
+          </div>
+          <div
+            class="c3"
+            role="tab"
+          >
+            Tab 2
+          </div>
+          <div
+            class="c3"
+            role="tab"
+          >
+            Tab 3
+          </div>
+        </div>
+        <div
+          class="c4"
+          role="tabpanels"
+        >
+          <div
+            class="c5"
+            role="tabpanel"
+          >
+            Tab Panel1
+          </div>
+          <div
+            class="c6"
+            role="tabpanel"
+          >
+            Tab Panel2
+          </div>
+          <div
+            class="c6"
+            role="tabpanel"
+          >
+            Tab Panel3
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  cursor: pointer;
+  overflow-x: auto;
+  border-bottom: 2px solid hsla(215,25%,27%,1);
+}
+
+.c2 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+  border-bottom: 4px solid hsla(330,81%,60%,1);
+}
+
+.c3 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c5 {
+  padding-top: 1rem;
+  display: inline-block;
+}
+
+.c6 {
+  padding-top: 1rem;
+  display: none;
+}
+
+<div>
+    <div
+      class="c0"
+      role="tablist"
+    >
+      <div
+        class="c1"
+        role="tabs"
+      >
+        <div
+          class="c2"
+          role="tab"
+        >
+          Tab 1
+        </div>
+        <div
+          class="c3"
+          role="tab"
+        >
+          Tab 2
+        </div>
+        <div
+          class="c3"
+          role="tab"
+        >
+          Tab 3
+        </div>
+      </div>
+      <div
+        class="c4"
+        role="tabpanels"
+      >
+        <div
+          class="c5"
+          role="tabpanel"
+        >
+          Tab Panel1
+        </div>
+        <div
+          class="c6"
+          role="tabpanel"
+        >
+          Tab Panel2
+        </div>
+        <div
+          class="c6"
+          role="tabpanel"
+        >
+          Tab Panel3
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Tabs Initial active index 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  cursor: pointer;
+  overflow-x: auto;
+}
+
+.c2 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid hsla(214,32%,91%,1);
+}
+
+.c3 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid hsla(214,32%,91%,1);
+  border-bottom: 4px solid hsla(330,81%,60%,1);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c5 {
+  padding-top: 1rem;
+  display: none;
+}
+
+.c6 {
+  padding-top: 1rem;
+  display: inline-block;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+        role="tablist"
+      >
+        <div
+          class="c1"
+          role="tabs"
+        >
+          <div
+            class="c2"
+            role="tab"
+          >
+            Tab 1
+          </div>
+          <div
+            class="c3"
+            role="tab"
+          >
+            Tab 2
+          </div>
+          <div
+            class="c2"
+            role="tab"
+          >
+            Tab 3
+          </div>
+        </div>
+        <div
+          class="c4"
+          role="tabpanels"
+        >
+          <div
+            class="c5"
+            role="tabpanel"
+          >
+            Tab Panel1
+          </div>
+          <div
+            class="c6"
+            role="tabpanel"
+          >
+            Tab Panel2
+          </div>
+          <div
+            class="c5"
+            role="tabpanel"
+          >
+            Tab Panel3
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  cursor: pointer;
+  overflow-x: auto;
+}
+
+.c2 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid hsla(214,32%,91%,1);
+}
+
+.c3 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid hsla(214,32%,91%,1);
+  border-bottom: 4px solid hsla(330,81%,60%,1);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c5 {
+  padding-top: 1rem;
+  display: none;
+}
+
+.c6 {
+  padding-top: 1rem;
+  display: inline-block;
+}
+
+<div>
+    <div
+      class="c0"
+      role="tablist"
+    >
+      <div
+        class="c1"
+        role="tabs"
+      >
+        <div
+          class="c2"
+          role="tab"
+        >
+          Tab 1
+        </div>
+        <div
+          class="c3"
+          role="tab"
+        >
+          Tab 2
+        </div>
+        <div
+          class="c2"
+          role="tab"
+        >
+          Tab 3
+        </div>
+      </div>
+      <div
+        class="c4"
+        role="tabpanels"
+      >
+        <div
+          class="c5"
+          role="tabpanel"
+        >
+          Tab Panel1
+        </div>
+        <div
+          class="c6"
+          role="tabpanel"
+        >
+          Tab Panel2
+        </div>
+        <div
+          class="c5"
+          role="tabpanel"
+        >
+          Tab Panel3
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Tabs Justified tabs 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  cursor: pointer;
+  overflow-x: auto;
+}
+
+.c1 > * {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.c2 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid hsla(214,32%,91%,1);
+  border-bottom: 4px solid hsla(330,81%,60%,1);
+}
+
+.c3 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid hsla(214,32%,91%,1);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c5 {
+  padding-top: 1rem;
+  display: inline-block;
+}
+
+.c6 {
+  padding-top: 1rem;
+  display: none;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+        role="tablist"
+      >
+        <div
+          class="c1"
+          role="tabs"
+        >
+          <div
+            class="c2"
+            role="tab"
+          >
+            Tab 1
+          </div>
+          <div
+            class="c3"
+            role="tab"
+          >
+            Tab 2
+          </div>
+          <div
+            class="c3"
+            role="tab"
+          >
+            Tab 3
+          </div>
+        </div>
+        <div
+          class="c4"
+          role="tabpanels"
+        >
+          <div
+            class="c5"
+            role="tabpanel"
+          >
+            Tab Panel1
+          </div>
+          <div
+            class="c6"
+            role="tabpanel"
+          >
+            Tab Panel2
+          </div>
+          <div
+            class="c6"
+            role="tabpanel"
+          >
+            Tab Panel3
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  cursor: pointer;
+  overflow-x: auto;
+}
+
+.c1 > * {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.c2 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid hsla(214,32%,91%,1);
+  border-bottom: 4px solid hsla(330,81%,60%,1);
+}
+
+.c3 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid hsla(214,32%,91%,1);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c5 {
+  padding-top: 1rem;
+  display: inline-block;
+}
+
+.c6 {
+  padding-top: 1rem;
+  display: none;
+}
+
+<div>
+    <div
+      class="c0"
+      role="tablist"
+    >
+      <div
+        class="c1"
+        role="tabs"
+      >
+        <div
+          class="c2"
+          role="tab"
+        >
+          Tab 1
+        </div>
+        <div
+          class="c3"
+          role="tab"
+        >
+          Tab 2
+        </div>
+        <div
+          class="c3"
+          role="tab"
+        >
+          Tab 3
+        </div>
+      </div>
+      <div
+        class="c4"
+        role="tabpanels"
+      >
+        <div
+          class="c5"
+          role="tabpanel"
+        >
+          Tab Panel1
+        </div>
+        <div
+          class="c6"
+          role="tabpanel"
+        >
+          Tab Panel2
+        </div>
+        <div
+          class="c6"
+          role="tabpanel"
+        >
+          Tab Panel3
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Tabs Lazy tabs 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  cursor: pointer;
+  overflow-x: auto;
+}
+
+.c2 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid hsla(214,32%,91%,1);
+  border-bottom: 4px solid hsla(330,81%,60%,1);
+}
+
+.c3 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid hsla(214,32%,91%,1);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c5 {
+  padding-top: 1rem;
+  display: inline-block;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+        role="tablist"
+      >
+        <div
+          class="c1"
+          role="tabs"
+        >
+          <div
+            class="c2"
+            role="tab"
+          >
+            Tab 1
+          </div>
+          <div
+            class="c3"
+            role="tab"
+          >
+            Tab 2
+          </div>
+        </div>
+        <div
+          class="c4"
+          role="tabpanels"
+        >
+          <div
+            class="c5"
+            role="tabpanel"
+          >
+            Tab Panel1
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  cursor: pointer;
+  overflow-x: auto;
+}
+
+.c2 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid hsla(214,32%,91%,1);
+  border-bottom: 4px solid hsla(330,81%,60%,1);
+}
+
+.c3 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid hsla(214,32%,91%,1);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c5 {
+  padding-top: 1rem;
+  display: inline-block;
+}
+
+<div>
+    <div
+      class="c0"
+      role="tablist"
+    >
+      <div
+        class="c1"
+        role="tabs"
+      >
+        <div
+          class="c2"
+          role="tab"
+        >
+          Tab 1
+        </div>
+        <div
+          class="c3"
+          role="tab"
+        >
+          Tab 2
+        </div>
+      </div>
+      <div
+        class="c4"
+        role="tabpanels"
+      >
+        <div
+          class="c5"
+          role="tabpanel"
+        >
+          Tab Panel1
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Tabs Switch a tab 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  cursor: pointer;
+  overflow-x: auto;
+}
+
+.c2 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid hsla(214,32%,91%,1);
+  border-bottom: 4px solid hsla(330,81%,60%,1);
+}
+
+.c3 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid hsla(214,32%,91%,1);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c5 {
+  padding-top: 1rem;
+  display: inline-block;
+}
+
+.c6 {
+  padding-top: 1rem;
+  display: none;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+        role="tablist"
+      >
+        <div
+          class="c1"
+          role="tabs"
+        >
+          <div
+            class="c2"
+            role="tab"
+          >
+            Tab 1
+          </div>
+          <div
+            class="c3"
+            role="tab"
+          >
+            Tab 2
+          </div>
+        </div>
+        <div
+          class="c4"
+          role="tabpanels"
+        >
+          <div
+            class="c5"
+            role="tabpanel"
+          >
+            Tab Panel1
+          </div>
+          <div
+            class="c6"
+            role="tabpanel"
+          >
+            Tab Panel2
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  cursor: pointer;
+  overflow-x: auto;
+}
+
+.c2 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid hsla(214,32%,91%,1);
+  border-bottom: 4px solid hsla(330,81%,60%,1);
+}
+
+.c3 {
+  white-space: nowrap;
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid hsla(214,32%,91%,1);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c5 {
+  padding-top: 1rem;
+  display: inline-block;
+}
+
+.c6 {
+  padding-top: 1rem;
+  display: none;
+}
+
+<div>
+    <div
+      class="c0"
+      role="tablist"
+    >
+      <div
+        class="c1"
+        role="tabs"
+      >
+        <div
+          class="c2"
+          role="tab"
+        >
+          Tab 1
+        </div>
+        <div
+          class="c3"
+          role="tab"
+        >
+          Tab 2
+        </div>
+      </div>
+      <div
+        class="c4"
+        role="tabpanels"
+      >
+        <div
+          class="c5"
+          role="tabpanel"
+        >
+          Tab Panel1
+        </div>
+        <div
+          class="c6"
+          role="tabpanel"
+        >
+          Tab Panel2
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
