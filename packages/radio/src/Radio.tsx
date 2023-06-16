@@ -37,19 +37,6 @@ Radio.defaultProps = {
   isVertical: false,
 };
 
-Radio.propTypes = {
-  /** @internal */
-  children: (props, propName, componentName) => {
-    const allowed = ['RadioOption'];
-    const errorMessage = `${componentName} accepts only ${allowed} as children`;
-    const childrenNames = React.Children.map(props[propName], (c) => c.type.displayName);
-    if (childrenNames.length == 0 || !childrenNames.every((c) => allowed.includes(c))) {
-      return new Error(`Invalid nodes. ${errorMessage}`);
-    }
-    return null;
-  },
-};
-
 Radio.displayName = 'Radio';
 
 Radio.Option = RadioOption;
