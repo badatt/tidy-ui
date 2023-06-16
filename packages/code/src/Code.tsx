@@ -61,16 +61,6 @@ Code.defaultProps = {
   canCopy: true,
 };
 
-Code.propTypes = {
-  /** @internal */
-  children: (props, propName, componentName) => {
-    if (typeof props[propName] !== 'string') {
-      return new Error(`Only text node is allowed under '${componentName}'`);
-    }
-    return null;
-  },
-};
-
 Code.displayName = 'Code';
 
 export { Code };
