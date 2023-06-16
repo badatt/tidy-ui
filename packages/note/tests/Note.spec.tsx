@@ -17,10 +17,20 @@ describe('Note', () => {
     );
     expect(tree).toMatchSnapshot();
   });
+
   it('Dark mode basic render', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
         <Note>basic</Note>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Custom element', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Note ele={<div />}>basic</Note>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();

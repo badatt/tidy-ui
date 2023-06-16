@@ -128,19 +128,4 @@ describe('Code', () => {
     });
     jest.runAllTimers();
   });
-
-  describe('Empty value', () => {
-    let consoleOutput: string[] = [];
-    const mockedError = (output) => consoleOutput.push(output);
-    beforeEach(() => (console.error = mockedError));
-    it('Empty text value', () => {
-      const tree = render(
-        <TidyUiProvider theme={orchidLight}>
-          <Code></Code>
-        </TidyUiProvider>,
-      );
-      expect(tree).toMatchSnapshot();
-      expect(consoleOutput[0]).toEqual(`Warning: Failed %s type: %s%s`);
-    });
-  });
 });

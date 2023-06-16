@@ -4464,6 +4464,18 @@
   resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-14.4.3.tgz#af975e367743fa91989cd666666aec31a8f50591"
   integrity sha512-kCUc5MEwaEMakkO5x7aoD+DLi02ehmEM2QCGWvNqAS1dV/fAvORWEjnjsEIvml59M7Y5kCkWN6fCCyPOe8OL6Q==
 
+"@tidy-ui/commons@^0.23.0":
+  version "0.23.1"
+  resolved "https://registry.yarnpkg.com/@tidy-ui/commons/-/commons-0.23.1.tgz#7635f1cf522f66610a7465c2593885a2ed5079a2"
+  integrity sha512-xBMI20DNIPPjStPkGNgkRgofrLVPwbNoOtBdLDFIVKfYLOMJYlf/RgGl1u+09Kxtx4sNZKxzhwaoTIaxoqsAYg==
+  dependencies:
+    "@tidy-ui/types" "^0.23.1"
+
+"@tidy-ui/types@^0.23.1":
+  version "0.23.1"
+  resolved "https://registry.yarnpkg.com/@tidy-ui/types/-/types-0.23.1.tgz#2f52251f6053c71216e42bca8c4fdb1af3337672"
+  integrity sha512-1l0m8MwnePaYWTVl7teTvJRaBy0L2Z5jkW3AKpqVbL09o5KLLIRN3nFrH01UpJyvkmk34PsHFv1bqeBNk9D4+g==
+
 "@tootallnate/once@1":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"

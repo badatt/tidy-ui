@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 import React from 'react';
-import { fireEvent, getByText, render } from '@testing-library/react';
+import { fireEvent, getByText, render, renderHook } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { act } from 'react-dom/test-utils';
@@ -11,6 +11,7 @@ import { Toaster, useToaster } from '../src';
 import ToasterContext from '../src/provider/ToasterContext';
 import { initializer, queue, reducer } from '../src/reducers';
 import { ToasterContainer } from '../src/ToasterContainer';
+import { ToasterActions } from '../src/actions';
 
 const TestToast = styled.div<{ onClose: any }>``;
 
@@ -103,5 +104,11 @@ describe('Toaster', () => {
       fireEvent.click(clearButton);
     });
     setTimeout(() => {}, 100);
+  });
+
+  it('Context', () => {
+    const hook = renderHook(() => React.useContext(ToasterContext));
+    const { dispatch } = hook.result.current;
+    expect(dispatch({ type: ToasterActions.Clear })).toBeNull();
   });
 });

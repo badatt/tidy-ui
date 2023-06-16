@@ -37,18 +37,6 @@ const DrawerContent = styled.div`
 `;
 
 /**
- * Internal Drawer close section component
- *
- * @internal
- */
-const CloseSection = styled.div<Pick<IDrawerProps, 'anchor'>>`
-  display: flex;
-  ${({ anchor }) => css`
-    flex-direction: ${anchor === 'left' ? 'row-reverse' : 'row'};
-  `}
-`;
-
-/**
  * Internal close button component
  *
  * @internal
@@ -75,4 +63,4 @@ const CloseButton = styled.button<Pick<IDrawerProps, 'anchor'>>`
   }
 `;
 
-export { CloseButton, CloseSection, DrawerContent, DrawerRoot };
+export { CloseButton, DrawerContent, DrawerRoot };

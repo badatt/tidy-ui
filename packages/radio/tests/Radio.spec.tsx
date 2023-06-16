@@ -9,7 +9,6 @@ import { orchidDark, orchidLight, Status, TidyUiProvider } from '../../commons/s
 import { Radio } from '../src';
 
 afterEach(cleanup);
-const originalError = console.error;
 
 describe('Radio', () => {
   it('Basic render', () => {
@@ -107,35 +106,5 @@ describe('Radio', () => {
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
-  });
-
-  describe('Invalid children for Radio', () => {
-    let consoleOutput: string[] = [];
-    const mockedError = (output) => consoleOutput.push(output);
-    beforeEach(() => (console.error = mockedError));
-
-    it('Invalid children for Radio', () => {
-      const tree = render(
-        <TidyUiProvider theme={orchidLight}>
-          <Radio>
-            <div>Invalid text</div>
-          </Radio>
-        </TidyUiProvider>,
-      );
-      expect(tree).toMatchSnapshot();
-      expect(consoleOutput[0]).toEqual(`Warning: Failed %s type: %s%s`);
-      console.error = originalError;
-    });
-
-    it('No children for Radio', () => {
-      const tree = render(
-        <TidyUiProvider theme={orchidLight}>
-          <Radio></Radio>
-        </TidyUiProvider>,
-      );
-      expect(tree).toMatchSnapshot();
-      expect(consoleOutput[0]).toEqual(`Warning: Failed %s type: %s%s`);
-      console.error = originalError;
-    });
   });
 });

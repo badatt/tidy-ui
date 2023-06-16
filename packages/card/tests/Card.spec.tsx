@@ -14,10 +14,8 @@ const text = `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et totam
     `;
 
 afterEach(cleanup);
-const originalError = console.error;
 
 describe('Card', () => {
-  afterEach(() => (console.error = originalError));
   it('Basic render', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>

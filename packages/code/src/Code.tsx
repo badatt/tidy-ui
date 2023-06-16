@@ -38,6 +38,8 @@ const Code = React.forwardRef<HTMLDivElement, ICodeProps>((props, ref) => {
     setTimeout(() => setCopied(false), 2000);
   }, [codeRef]);
 
+  console.log('is Copied ', copied);
+
   return (
     <CodeRoot ref={ref} role="contentinfo" {...rest}>
       <Content ref={codeRef}>{children}</Content>
