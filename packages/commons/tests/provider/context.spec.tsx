@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 import React from 'react';
-import { render } from '@testing-library/react';
+import { render, renderHook } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { Actions, TidyUiContext, initialState } from '../../src';
@@ -26,5 +26,11 @@ describe('TidyUiContext', () => {
       </TidyUiContext.Consumer>,
     );
     expect(tree).toMatchSnapshot();
+  });
+
+  it('Context', () => {
+    const hook = renderHook(() => React.useContext(TidyUiContext));
+    const { dispatch } = hook.result.current;
+    expect(dispatch({ type: Actions.Root.Reset })).toBeNull();
   });
 });

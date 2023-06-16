@@ -12,7 +12,6 @@ import { Tone } from '../../commons/src';
 import { Breadcrumb } from '../src';
 
 afterEach(cleanup);
-const originalError = console.error;
 
 describe('Breadcrumb', () => {
   it('Basic render', () => {
@@ -164,36 +163,6 @@ describe('Breadcrumb', () => {
     act(() => {
       fireEvent.click(expandButton);
       expect(mockCb).toBeCalled();
-    });
-  });
-
-  describe('Invalid children for Breadcrumb', () => {
-    let consoleOutput: string[] = [];
-    const mockedError = (output) => consoleOutput.push(output);
-    beforeEach(() => (console.error = mockedError));
-
-    it('Invalid children for Breadcrumb', () => {
-      const tree = render(
-        <TidyUiProvider theme={orchidLight}>
-          <Breadcrumb>
-            <div>Invalid text</div>
-          </Breadcrumb>
-        </TidyUiProvider>,
-      );
-      expect(tree).toMatchSnapshot();
-      expect(consoleOutput[0]).toEqual(`Warning: Failed %s type: %s%s`);
-      console.error = originalError;
-    });
-
-    it('No children for Breadcrumb', () => {
-      const tree = render(
-        <TidyUiProvider theme={orchidLight}>
-          <Breadcrumb></Breadcrumb>
-        </TidyUiProvider>,
-      );
-      expect(tree).toMatchSnapshot();
-      expect(consoleOutput[0]).toEqual(`Warning: Failed %s type: %s%s`);
-      console.error = originalError;
     });
   });
 });

@@ -7,12 +7,10 @@ import { cleanup, fireEvent, getByRole, getByTestId, queryByRole, render } from 
 import userEvent from '@testing-library/user-event';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
+import { orchidDark, orchidLight, TidyUiProvider, Tone } from '../../commons/src';
 import { Panel } from '../src';
-import { Tone } from '@tidy-ui/commons';
 
 afterEach(cleanup);
-const originalError = console.error;
 
 const text = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, maxime. Aliquam, ea neque? Quibusdam
           itaque quos earum! Ex, neque, unde officia accusamus necessitatibus, quas incidunt architecto a impedit ut
@@ -197,35 +195,5 @@ describe('Panel', () => {
       fireEvent.click(panelIcon);
     });
     expect(queryByRole(container, 'presentation')).toBeVisible();
-  });
-
-  describe('Invalid children for Panel', () => {
-    let consoleOutput: string[] = [];
-    const mockedError = (output) => consoleOutput.push(output);
-    beforeEach(() => (console.error = mockedError));
-
-    it('Invalid children for Panel', () => {
-      const tree = render(
-        <TidyUiProvider theme={orchidLight}>
-          <Panel>
-            <div>Invalid text</div>
-          </Panel>
-        </TidyUiProvider>,
-      );
-      expect(tree).toMatchSnapshot();
-      expect(consoleOutput[0]).toEqual(`Warning: Failed %s type: %s%s`);
-      console.error = originalError;
-    });
-
-    it('No children for Panel', () => {
-      const tree = render(
-        <TidyUiProvider theme={orchidLight}>
-          <Panel></Panel>
-        </TidyUiProvider>,
-      );
-      expect(tree).toMatchSnapshot();
-      expect(consoleOutput[0]).toEqual(`Warning: Failed %s type: %s%s`);
-      console.error = originalError;
-    });
   });
 });

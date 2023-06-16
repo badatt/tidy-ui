@@ -6,7 +6,7 @@ import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
-import { Divider } from '../src';
+import { DividerEnhanced } from '../src';
 import { Text } from '../../text/src';
 import { Density, Position } from '../src/types';
 import { Shade, Tone, Border } from '../../commons/src';
@@ -22,7 +22,7 @@ describe('EnhancedDivider', () => {
         {[...Array(3)].map((v, i) => (
           <React.Fragment key={i}>
             <Text.body1>{text}</Text.body1>
-            <Divider.Enhanced />
+            <DividerEnhanced />
           </React.Fragment>
         ))}
       </TidyUiProvider>,
@@ -36,7 +36,7 @@ describe('EnhancedDivider', () => {
         {[...Array(3)].map((v, i) => (
           <React.Fragment key={i}>
             <Text.body1>{text}</Text.body1>
-            <Divider.Enhanced />
+            <DividerEnhanced />
           </React.Fragment>
         ))}
       </TidyUiProvider>,
@@ -50,9 +50,9 @@ describe('EnhancedDivider', () => {
         {[...Array(3)].map((v, i) => (
           <React.Fragment key={i}>
             <Text.body1>{text}</Text.body1>
-            <Divider.Enhanced>
+            <DividerEnhanced>
               <Text.caption>section {i}</Text.caption>
-            </Divider.Enhanced>
+            </DividerEnhanced>
           </React.Fragment>
         ))}
       </TidyUiProvider>,
@@ -68,9 +68,9 @@ describe('EnhancedDivider', () => {
             <React.Fragment key={i}>
               <Text.h6>density={Density[v]}</Text.h6>
               <Text.body1>{text}</Text.body1>
-              <Divider.Enhanced density={Density[v]}>
+              <DividerEnhanced density={Density[v]}>
                 <Text.caption>section {i}</Text.caption>
-              </Divider.Enhanced>
+              </DividerEnhanced>
             </React.Fragment>
           ))}
       </TidyUiProvider>,
@@ -87,9 +87,9 @@ describe('EnhancedDivider', () => {
             <React.Fragment key={i}>
               <Text.h6>shade={Shade[v]}</Text.h6>
               <Text.body1>{text}</Text.body1>
-              <Divider.Enhanced shade={Shade[v]}>
+              <DividerEnhanced shade={Shade[v]}>
                 <Text.caption>section {i}</Text.caption>
-              </Divider.Enhanced>
+              </DividerEnhanced>
             </React.Fragment>
           ))}
       </TidyUiProvider>,
@@ -105,9 +105,9 @@ describe('EnhancedDivider', () => {
             <React.Fragment key={i}>
               <Text.h6>tone={Tone[v]}</Text.h6>
               <Text.body1>{text}</Text.body1>
-              <Divider.Enhanced tone={Tone[v]}>
+              <DividerEnhanced tone={Tone[v]}>
                 <Text.caption tone={Tone[v]}>section {i}</Text.caption>
-              </Divider.Enhanced>
+              </DividerEnhanced>
             </React.Fragment>
           ))}
       </TidyUiProvider>,
@@ -123,9 +123,9 @@ describe('EnhancedDivider', () => {
             <React.Fragment key={i}>
               <Text.h6>variant={Border[v]}</Text.h6>
               <Text.body1>{text}</Text.body1>
-              <Divider.Enhanced variant={Border[v]}>
+              <DividerEnhanced variant={Border[v]}>
                 <Text.caption>section {i}</Text.caption>
-              </Divider.Enhanced>
+              </DividerEnhanced>
             </React.Fragment>
           ))}
       </TidyUiProvider>,
@@ -138,9 +138,9 @@ describe('EnhancedDivider', () => {
         {[...Array(3)].map((v, i) => (
           <React.Fragment key={i}>
             <Text.body1>{text}</Text.body1>
-            <Divider.Enhanced margin="2rem">
+            <DividerEnhanced margin="2rem">
               <Text.caption>section {i}</Text.caption>
-            </Divider.Enhanced>
+            </DividerEnhanced>
           </React.Fragment>
         ))}
       </TidyUiProvider>,
@@ -156,9 +156,9 @@ describe('EnhancedDivider', () => {
             <React.Fragment key={i}>
               <Text.h6>justify={Position[v]}</Text.h6>
               <Text.body1>{text}</Text.body1>
-              <Divider.Enhanced justify={Position[v]}>
+              <DividerEnhanced justify={Position[v]}>
                 <Text.caption>section {i}</Text.caption>
-              </Divider.Enhanced>
+              </DividerEnhanced>
             </React.Fragment>
           ))}
       </TidyUiProvider>,
