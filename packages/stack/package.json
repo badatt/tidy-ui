@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/stack",
-  "version": "0.36.2",
+  "version": "0.37.0",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:stack",
@@ -13,7 +13,7 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/commons": "^0.36.2"
+    "@tidy-ui/commons": "^0.37.0"
   },
   "peerDependencies": {
     "react": "^18.0.0",
