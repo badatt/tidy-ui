@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/badge",
-  "version": "0.37.1",
+  "version": "0.37.2",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:badge",
@@ -15,7 +15,7 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/commons": "^0.37.1"
+    "@tidy-ui/commons": "^0.37.2"
   },
   "peerDependencies": {
     "react": "^18.0.0",
