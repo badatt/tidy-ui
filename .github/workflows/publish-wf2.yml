@@ -38,9 +38,8 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
-      - name: Publish patch version
-        if: "${{ !startsWith(github.event.head_commit.message, 'chore: release') }}"
-        run: npm whoami
+      - name: Publish minor version
+        run: yarn publish:minor
         env:
           GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
