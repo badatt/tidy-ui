@@ -33,6 +33,9 @@ jobs:
       - name: Bootstrap
         run: yarn bootstrap
 
+      - name: Build
+        run: yarn build
+
       - name: Configure Git User
         run: |
           git config --global user.name 'github-actions[bot]'
