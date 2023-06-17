@@ -1,9 +1,9 @@
-name: Publish packages
+name: Test
 
 on:
   push:
     branches:
-      - 1main
+      - main
 
 jobs:
   publish:
@@ -33,21 +33,6 @@ jobs:
       - name: Bootstrap
         run: yarn bootstrap
 
-      - name: Vet
-        run: yarn vet
-
-      - name: Build
-        run: yarn build
-
-      - name: Test
-        run: yarn test
-
-      - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-github-action@v1.8
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-
       - name: Configure Git User
         run: |
           git config --global user.name 'github-actions[bot]'
@@ -55,21 +40,7 @@ jobs:
 
       - name: Publish patch version
         if: "${{ !startsWith(github.event.head_commit.message, 'chore: release') }}"
-        run: yarn publish:patch
-        env:
-          GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-      - name: Publish minor version
-        if: "${{ startsWith(github.event.head_commit.message, 'chore: release minor') }}"
-        run: yarn publish:minor
-        env:
-          GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-      - name: Publish major version
-        if: "${{ startsWith(github.event.head_commit.message, 'chore: release major') }}"
-        run: yarn publish:major
+        run: npm whoami
         env:
           GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

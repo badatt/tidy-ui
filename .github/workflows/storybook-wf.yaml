@@ -3,7 +3,7 @@ name: Publish storybook
 on:
   push:
     branches:
-      - main
+      - 1main
 
 jobs:
   vet:
