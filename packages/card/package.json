@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/card",
-  "version": "0.35.0",
+  "version": "0.36.0",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:card",
@@ -13,7 +13,7 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/commons": "^0.35.0"
+    "@tidy-ui/commons": "^0.36.0"
   },
   "peerDependencies": {
     "react": "^18.0.0",
