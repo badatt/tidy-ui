@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/tooltip",
-  "version": "0.37.2",
+  "version": "0.37.3",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:tooltip",
@@ -13,7 +13,7 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/commons": "^0.37.2"
+    "@tidy-ui/commons": "^0.37.3"
   },
   "peerDependencies": {
     "react": "^18.0.0",
