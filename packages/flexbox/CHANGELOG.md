@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.37.4](https://github.com/badatt/tidy-ui/compare/v0.37.3...v0.37.4) (2023-06-17)
+
+**Note:** Version bump only for package @tidy-ui/flexbox
+
+
+
+
+
 ## [0.37.3](https://github.com/badatt/tidy-ui/compare/v0.37.2...v0.37.3) (2023-06-17)
 
 **Note:** Version bump only for package @tidy-ui/flexbox
