@@ -56,8 +56,8 @@ jobs:
       - name: Publish patch version
         if: "${{ !startsWith(github.event.head_commit.message, 'chore: release') }}"
         run: |
-          npm set "//registry.npmjs.org/:_authToken" ${{ secrets.NPM_TOKEN }}
-          yarn publish:patch
+          cd packages/types
+          npm publish
         env:
           GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
