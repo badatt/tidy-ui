@@ -27,6 +27,24 @@ describe('Note', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('Reality render', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Note isReal>reality</Note>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Dark mode reality render', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidDark}>
+        <Note isReal>reality</Note>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
   it('Custom element', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
