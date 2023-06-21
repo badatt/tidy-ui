@@ -15,7 +15,8 @@
   "dependencies": {
     "@tidy-ui/breadcrumb": "^0.37.9",
     "@tidy-ui/drawer": "^0.37.9",
-    "@tidy-ui/modal": "^0.37.9"
+    "@tidy-ui/modal": "^0.37.9",
+    "@tidy-ui/tabs": "^0.37.9"
   },
   "peerDependencies": {
     "react": "^18.0.0",
