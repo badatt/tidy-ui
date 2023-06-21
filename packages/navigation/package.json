@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/navigation",
-  "version": "0.37.9",
+  "version": "0.38.0",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:navigation",
@@ -13,10 +13,10 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/breadcrumb": "^0.37.9",
-    "@tidy-ui/drawer": "^0.37.9",
-    "@tidy-ui/modal": "^0.37.9",
-    "@tidy-ui/tabs": "^0.37.9"
+    "@tidy-ui/breadcrumb": "^0.38.0",
+    "@tidy-ui/drawer": "^0.38.0",
+    "@tidy-ui/modal": "^0.38.0",
+    "@tidy-ui/tabs": "^0.38.0"
   },
   "peerDependencies": {
     "react": "^18.0.0",
