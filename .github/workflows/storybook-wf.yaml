@@ -1,4 +1,4 @@
-name: Publish storybook
+name: Release docs
 
 on:
   push:
