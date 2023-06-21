@@ -73,7 +73,7 @@ jobs:
           GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
 
       - name: Publish to NPM
-        run: yarn publish:npm
+        run: npm run publish:npm
         env:
           GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
