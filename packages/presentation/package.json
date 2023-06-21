@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/presentation",
-  "version": "0.37.7",
+  "version": "0.37.8",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:presentation",
@@ -13,20 +13,20 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/alert": "^0.37.7",
-    "@tidy-ui/avatar": "^0.37.7",
-    "@tidy-ui/badge": "^0.37.7",
-    "@tidy-ui/button": "^0.37.7",
-    "@tidy-ui/card": "^0.37.7",
-    "@tidy-ui/chip": "^0.37.7",
-    "@tidy-ui/code": "^0.37.7",
-    "@tidy-ui/message": "^0.37.7",
-    "@tidy-ui/note": "^0.37.7",
-    "@tidy-ui/panel": "^0.37.7",
-    "@tidy-ui/paper": "^0.37.7",
-    "@tidy-ui/tag": "^0.37.7",
-    "@tidy-ui/text": "^0.37.7",
-    "@tidy-ui/tooltip": "^0.37.7"
+    "@tidy-ui/alert": "^0.37.8",
+    "@tidy-ui/avatar": "^0.37.8",
+    "@tidy-ui/badge": "^0.37.8",
+    "@tidy-ui/button": "^0.37.8",
+    "@tidy-ui/card": "^0.37.8",
+    "@tidy-ui/chip": "^0.37.8",
+    "@tidy-ui/code": "^0.37.8",
+    "@tidy-ui/message": "^0.37.8",
+    "@tidy-ui/note": "^0.37.8",
+    "@tidy-ui/panel": "^0.37.8",
+    "@tidy-ui/paper": "^0.37.8",
+    "@tidy-ui/tag": "^0.37.8",
+    "@tidy-ui/text": "^0.37.8",
+    "@tidy-ui/tooltip": "^0.37.8"
   },
   "peerDependencies": {
     "react": "^18.0.0",
