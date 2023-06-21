@@ -54,23 +54,26 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
-      - name: Publish patch version
+      - name: Release patch version
         if: "${{ !startsWith(github.event.head_commit.message, 'chore: release') }}"
-        run: yarn publish:patch
+        run: yarn release:patch
         env:
           GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - name: Publish minor version
+      - name: Release minor version
         if: "${{ startsWith(github.event.head_commit.message, 'chore: release minor') }}"
-        run: yarn publish:minor
+        run: yarn release:minor
         env:
           GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - name: Publish major version
+      - name: Release major version
         if: "${{ startsWith(github.event.head_commit.message, 'chore: release major') }}"
-        run: yarn publish:major
+        run: yarn release:major
+        env:
+          GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
+
+      - name: Publish to NPM
+        run: yarn publish:npm
         env:
           GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
