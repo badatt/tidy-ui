@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/button",
-  "version": "0.37.8",
+  "version": "0.37.9",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:button",
@@ -13,7 +13,7 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/commons": "^0.37.8"
+    "@tidy-ui/commons": "^0.37.9"
   },
   "peerDependencies": {
     "react": "^18.0.0",
