@@ -31,9 +31,6 @@ jobs:
           registry-url: https://registry.npmjs.org/
           always-auth: false
 
-      - name: npm ci
-        run: npm ci
-
       - name: Bootstrap
         run: yarn bootstrap
 
