@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/toaster",
-  "version": "0.37.5",
+  "version": "0.37.6",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:toaster",
@@ -13,7 +13,7 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/commons": "^0.37.5"
+    "@tidy-ui/commons": "^0.37.6"
   },
   "peerDependencies": {
     "react": "^18.0.0",
