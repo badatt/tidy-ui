@@ -32,12 +32,13 @@ Object {
   background: inherit;
   color: inherit;
   width: inherit;
-  height: calc(2.5em * 1);
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   font-size: calc(1rem * 1);
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(213,27%,84%,1);
 }
 
@@ -132,12 +133,13 @@ Object {
   background: inherit;
   color: inherit;
   width: inherit;
-  height: calc(2.5em * 1);
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   font-size: calc(1rem * 1);
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(213,27%,84%,1);
   display: -webkit-box;
   display: -webkit-flex;
@@ -291,12 +293,13 @@ Object {
   background: inherit;
   color: inherit;
   width: inherit;
-  height: calc(2.5em * 1);
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   font-size: calc(1rem * 1);
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(213,27%,84%,1);
 }
 
@@ -391,12 +394,13 @@ Object {
   background: inherit;
   color: inherit;
   width: inherit;
-  height: calc(2.5em * 1);
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   font-size: calc(1rem * 1);
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(213,27%,84%,1);
   display: -webkit-box;
   display: -webkit-flex;
@@ -605,12 +609,13 @@ Object {
   background: inherit;
   color: inherit;
   width: inherit;
-  height: calc(2.5em * 1);
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   font-size: calc(1rem * 1);
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(215,19%,35%,1);
 }
 
@@ -803,12 +808,13 @@ Object {
   background: inherit;
   color: inherit;
   width: inherit;
-  height: calc(2.5em * 1);
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   font-size: calc(1rem * 1);
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(215,19%,35%,1);
 }
 
@@ -1056,12 +1062,13 @@ Object {
   background: inherit;
   color: inherit;
   width: inherit;
-  height: calc(2.5em * 1);
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   font-size: calc(1rem * 1);
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(213,27%,84%,1);
 }
 
@@ -1254,12 +1261,13 @@ Object {
   background: inherit;
   color: inherit;
   width: inherit;
-  height: calc(2.5em * 1);
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   font-size: calc(1rem * 1);
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(213,27%,84%,1);
 }
 
@@ -1507,12 +1515,13 @@ Object {
   background: inherit;
   color: inherit;
   width: inherit;
-  height: calc(2.5em * 1);
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   font-size: calc(1rem * 1);
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(215,19%,35%,1);
 }
 
@@ -1607,12 +1616,13 @@ Object {
   background: inherit;
   color: inherit;
   width: inherit;
-  height: calc(2.5em * 1);
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   font-size: calc(1rem * 1);
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(215,19%,35%,1);
   display: -webkit-box;
   display: -webkit-flex;
@@ -1766,12 +1776,13 @@ Object {
   background: inherit;
   color: inherit;
   width: inherit;
-  height: calc(2.5em * 1);
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   font-size: calc(1rem * 1);
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(215,19%,35%,1);
 }
 
@@ -1866,12 +1877,13 @@ Object {
   background: inherit;
   color: inherit;
   width: inherit;
-  height: calc(2.5em * 1);
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   font-size: calc(1rem * 1);
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(215,19%,35%,1);
   display: -webkit-box;
   display: -webkit-flex;
