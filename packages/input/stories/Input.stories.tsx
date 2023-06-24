@@ -22,7 +22,7 @@ export const variants: Story = {
         {Object.values(Variant)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Input key={i} variant={Variant[v]} placeholder={Variant[v]} />
+            <Input key={v} variant={Variant[v]} placeholder={Variant[v]} />
           ))}
       </FlexBox>
     );
@@ -36,7 +36,7 @@ export const Girths: Story = {
         {Object.values(Girth)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Input key={i} girth={Girth[v]} placeholder={Girth[v]} />
+            <Input key={v} girth={Girth[v]} placeholder={Girth[v]} />
           ))}
       </FlexBox>
     );
@@ -50,7 +50,7 @@ export const statuses: Story = {
         {Object.values(Status)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Input key={i} status={Status[v]} placeholder={Status[v]} />
+            <Input key={v} status={Status[v]} placeholder={Status[v]} />
           ))}
       </FlexBox>
     );

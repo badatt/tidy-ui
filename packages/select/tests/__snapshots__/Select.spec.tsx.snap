@@ -1,0 +1,3300 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select Basic render 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(213,27%,84%,1);
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+}
+
+.c0::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c0::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c0:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c1 {
+  cursor: pointer;
+  text-shadow: none;
+  background-color: hsla(214,32%,91%,1);
+}
+
+<body>
+    <div>
+      <select
+        class="c0"
+        role="select"
+      >
+        <option
+          class="c1"
+          disabled=""
+          hidden=""
+          role="option"
+          value="none"
+        >
+          Select one
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-1"
+        >
+          Option 1
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-2"
+        >
+          Option 2
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-3"
+        >
+          Option 3
+        </option>
+      </select>
+    </div>
+  </body>,
+  "container": .c0 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(213,27%,84%,1);
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+}
+
+.c0::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c0::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c0:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c1 {
+  cursor: pointer;
+  text-shadow: none;
+  background-color: hsla(214,32%,91%,1);
+}
+
+<div>
+    <select
+      class="c0"
+      role="select"
+    >
+      <option
+        class="c1"
+        disabled=""
+        hidden=""
+        role="option"
+        value="none"
+      >
+        Select one
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-1"
+      >
+        Option 1
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-2"
+      >
+        Option 2
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-3"
+      >
+        Option 3
+      </option>
+    </select>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Select Dark mode basic render 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(215,19%,35%,1);
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+}
+
+.c0::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c0::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c0:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c1 {
+  cursor: pointer;
+  text-shadow: none;
+  background-color: hsla(217,33%,17%,1);
+}
+
+<body>
+    <div>
+      <select
+        class="c0"
+        role="select"
+      >
+        <option
+          class="c1"
+          disabled=""
+          hidden=""
+          role="option"
+          value="none"
+        >
+          Select one
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-1"
+        >
+          Option 1
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-2"
+        >
+          Option 2
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-3"
+        >
+          Option 3
+        </option>
+      </select>
+    </div>
+  </body>,
+  "container": .c0 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(215,19%,35%,1);
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+}
+
+.c0::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c0::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c0:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c1 {
+  cursor: pointer;
+  text-shadow: none;
+  background-color: hsla(217,33%,17%,1);
+}
+
+<div>
+    <select
+      class="c0"
+      role="select"
+    >
+      <option
+        class="c1"
+        disabled=""
+        hidden=""
+        role="option"
+        value="none"
+      >
+        Select one
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-1"
+      >
+        Option 1
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-2"
+      >
+        Option 2
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-3"
+      >
+        Option 3
+      </option>
+    </select>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Select Girths 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 0.75);
+  padding-inline-start: calc(1rem * 0.75);
+  padding-inline-end: calc(1rem * 0.75);
+  border-color: hsla(213,27%,84%,1);
+  height: calc(2.5em * 0.75);
+  font-size: calc(1rem * 0.75);
+}
+
+.c0::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c0::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c0:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c2 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 0.85);
+  padding-inline-start: calc(1rem * 0.85);
+  padding-inline-end: calc(1rem * 0.85);
+  border-color: hsla(213,27%,84%,1);
+  height: calc(2.5em * 0.85);
+  font-size: calc(1rem * 0.85);
+}
+
+.c2::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c2::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c2:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c3 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 0.9);
+  padding-inline-start: calc(1rem * 0.9);
+  padding-inline-end: calc(1rem * 0.9);
+  border-color: hsla(213,27%,84%,1);
+  height: calc(2.5em * 0.9);
+  font-size: calc(1rem * 0.9);
+}
+
+.c3::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c3::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c3:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c4 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(213,27%,84%,1);
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+}
+
+.c4::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c4::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c4:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c5 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1.2);
+  padding-inline-start: calc(1rem * 1.2);
+  padding-inline-end: calc(1rem * 1.2);
+  border-color: hsla(213,27%,84%,1);
+  height: calc(2.5em * 1.2);
+  font-size: calc(1rem * 1.2);
+}
+
+.c5::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c5::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c5:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c5::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c5:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c5::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c5:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c6 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1.4);
+  padding-inline-start: calc(1rem * 1.4);
+  padding-inline-end: calc(1rem * 1.4);
+  border-color: hsla(213,27%,84%,1);
+  height: calc(2.5em * 1.4);
+  font-size: calc(1rem * 1.4);
+}
+
+.c6::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c6::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c6:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c6::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c6:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c6::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c6:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c7 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1.6);
+  padding-inline-start: calc(1rem * 1.6);
+  padding-inline-end: calc(1rem * 1.6);
+  border-color: hsla(213,27%,84%,1);
+  height: calc(2.5em * 1.6);
+  font-size: calc(1rem * 1.6);
+}
+
+.c7::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c7::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c7:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c7::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c7:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c7::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c7:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c1 {
+  cursor: pointer;
+  text-shadow: none;
+  background-color: hsla(214,32%,91%,1);
+}
+
+<body>
+    <div>
+      <select
+        class="c0"
+        role="select"
+      >
+        <option
+          class="c1"
+          disabled=""
+          hidden=""
+          role="option"
+          value="none"
+        >
+          Select one
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-1"
+        >
+          Option 1
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-2"
+        >
+          Option 2
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-3"
+        >
+          Option 3
+        </option>
+      </select>
+      <select
+        class="c2"
+        role="select"
+      >
+        <option
+          class="c1"
+          disabled=""
+          hidden=""
+          role="option"
+          value="none"
+        >
+          Select one
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-1"
+        >
+          Option 1
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-2"
+        >
+          Option 2
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-3"
+        >
+          Option 3
+        </option>
+      </select>
+      <select
+        class="c3"
+        role="select"
+      >
+        <option
+          class="c1"
+          disabled=""
+          hidden=""
+          role="option"
+          value="none"
+        >
+          Select one
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-1"
+        >
+          Option 1
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-2"
+        >
+          Option 2
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-3"
+        >
+          Option 3
+        </option>
+      </select>
+      <select
+        class="c4"
+        role="select"
+      >
+        <option
+          class="c1"
+          disabled=""
+          hidden=""
+          role="option"
+          value="none"
+        >
+          Select one
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-1"
+        >
+          Option 1
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-2"
+        >
+          Option 2
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-3"
+        >
+          Option 3
+        </option>
+      </select>
+      <select
+        class="c5"
+        role="select"
+      >
+        <option
+          class="c1"
+          disabled=""
+          hidden=""
+          role="option"
+          value="none"
+        >
+          Select one
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-1"
+        >
+          Option 1
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-2"
+        >
+          Option 2
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-3"
+        >
+          Option 3
+        </option>
+      </select>
+      <select
+        class="c6"
+        role="select"
+      >
+        <option
+          class="c1"
+          disabled=""
+          hidden=""
+          role="option"
+          value="none"
+        >
+          Select one
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-1"
+        >
+          Option 1
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-2"
+        >
+          Option 2
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-3"
+        >
+          Option 3
+        </option>
+      </select>
+      <select
+        class="c7"
+        role="select"
+      >
+        <option
+          class="c1"
+          disabled=""
+          hidden=""
+          role="option"
+          value="none"
+        >
+          Select one
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-1"
+        >
+          Option 1
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-2"
+        >
+          Option 2
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-3"
+        >
+          Option 3
+        </option>
+      </select>
+    </div>
+  </body>,
+  "container": .c0 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 0.75);
+  padding-inline-start: calc(1rem * 0.75);
+  padding-inline-end: calc(1rem * 0.75);
+  border-color: hsla(213,27%,84%,1);
+  height: calc(2.5em * 0.75);
+  font-size: calc(1rem * 0.75);
+}
+
+.c0::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c0::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c0:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c2 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 0.85);
+  padding-inline-start: calc(1rem * 0.85);
+  padding-inline-end: calc(1rem * 0.85);
+  border-color: hsla(213,27%,84%,1);
+  height: calc(2.5em * 0.85);
+  font-size: calc(1rem * 0.85);
+}
+
+.c2::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c2::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c2:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c3 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 0.9);
+  padding-inline-start: calc(1rem * 0.9);
+  padding-inline-end: calc(1rem * 0.9);
+  border-color: hsla(213,27%,84%,1);
+  height: calc(2.5em * 0.9);
+  font-size: calc(1rem * 0.9);
+}
+
+.c3::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c3::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c3:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c4 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(213,27%,84%,1);
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+}
+
+.c4::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c4::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c4:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c5 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1.2);
+  padding-inline-start: calc(1rem * 1.2);
+  padding-inline-end: calc(1rem * 1.2);
+  border-color: hsla(213,27%,84%,1);
+  height: calc(2.5em * 1.2);
+  font-size: calc(1rem * 1.2);
+}
+
+.c5::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c5::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c5:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c5::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c5:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c5::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c5:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c6 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1.4);
+  padding-inline-start: calc(1rem * 1.4);
+  padding-inline-end: calc(1rem * 1.4);
+  border-color: hsla(213,27%,84%,1);
+  height: calc(2.5em * 1.4);
+  font-size: calc(1rem * 1.4);
+}
+
+.c6::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c6::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c6:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c6::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c6:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c6::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c6:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c7 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1.6);
+  padding-inline-start: calc(1rem * 1.6);
+  padding-inline-end: calc(1rem * 1.6);
+  border-color: hsla(213,27%,84%,1);
+  height: calc(2.5em * 1.6);
+  font-size: calc(1rem * 1.6);
+}
+
+.c7::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c7::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c7:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c7::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c7:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c7::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c7:hover {
+  border-color: hsla(215,20%,65%,1);
+}
+
+.c1 {
+  cursor: pointer;
+  text-shadow: none;
+  background-color: hsla(214,32%,91%,1);
+}
+
+<div>
+    <select
+      class="c0"
+      role="select"
+    >
+      <option
+        class="c1"
+        disabled=""
+        hidden=""
+        role="option"
+        value="none"
+      >
+        Select one
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-1"
+      >
+        Option 1
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-2"
+      >
+        Option 2
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-3"
+      >
+        Option 3
+      </option>
+    </select>
+    <select
+      class="c2"
+      role="select"
+    >
+      <option
+        class="c1"
+        disabled=""
+        hidden=""
+        role="option"
+        value="none"
+      >
+        Select one
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-1"
+      >
+        Option 1
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-2"
+      >
+        Option 2
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-3"
+      >
+        Option 3
+      </option>
+    </select>
+    <select
+      class="c3"
+      role="select"
+    >
+      <option
+        class="c1"
+        disabled=""
+        hidden=""
+        role="option"
+        value="none"
+      >
+        Select one
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-1"
+      >
+        Option 1
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-2"
+      >
+        Option 2
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-3"
+      >
+        Option 3
+      </option>
+    </select>
+    <select
+      class="c4"
+      role="select"
+    >
+      <option
+        class="c1"
+        disabled=""
+        hidden=""
+        role="option"
+        value="none"
+      >
+        Select one
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-1"
+      >
+        Option 1
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-2"
+      >
+        Option 2
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-3"
+      >
+        Option 3
+      </option>
+    </select>
+    <select
+      class="c5"
+      role="select"
+    >
+      <option
+        class="c1"
+        disabled=""
+        hidden=""
+        role="option"
+        value="none"
+      >
+        Select one
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-1"
+      >
+        Option 1
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-2"
+      >
+        Option 2
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-3"
+      >
+        Option 3
+      </option>
+    </select>
+    <select
+      class="c6"
+      role="select"
+    >
+      <option
+        class="c1"
+        disabled=""
+        hidden=""
+        role="option"
+        value="none"
+      >
+        Select one
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-1"
+      >
+        Option 1
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-2"
+      >
+        Option 2
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-3"
+      >
+        Option 3
+      </option>
+    </select>
+    <select
+      class="c7"
+      role="select"
+    >
+      <option
+        class="c1"
+        disabled=""
+        hidden=""
+        role="option"
+        value="none"
+      >
+        Select one
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-1"
+      >
+        Option 1
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-2"
+      >
+        Option 2
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-3"
+      >
+        Option 3
+      </option>
+    </select>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Select Statuses 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(212,96%,78%,1);
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+}
+
+.c0::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c0::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c0:hover {
+  border-color: hsla(217,91%,60%,1);
+}
+
+.c2 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(142,77%,73%,1);
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+}
+
+.c2::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c2::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c2:hover {
+  border-color: hsla(142,71%,45%,1);
+}
+
+.c3 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(46,97%,65%,1);
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+}
+
+.c3::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c3::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c3:hover {
+  border-color: hsla(38,92%,50%,1);
+}
+
+.c4 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(0,94%,82%,1);
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+}
+
+.c4::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c4::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c4:hover {
+  border-color: hsla(0,84%,60%,1);
+}
+
+.c1 {
+  cursor: pointer;
+  text-shadow: none;
+  background-color: hsla(214,32%,91%,1);
+}
+
+<body>
+    <div>
+      <select
+        class="c0"
+        role="select"
+      >
+        <option
+          class="c1"
+          disabled=""
+          hidden=""
+          role="option"
+          value="none"
+        >
+          Select one
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-1"
+        >
+          Option 1
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-2"
+        >
+          Option 2
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-3"
+        >
+          Option 3
+        </option>
+      </select>
+      <select
+        class="c2"
+        role="select"
+      >
+        <option
+          class="c1"
+          disabled=""
+          hidden=""
+          role="option"
+          value="none"
+        >
+          Select one
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-1"
+        >
+          Option 1
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-2"
+        >
+          Option 2
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-3"
+        >
+          Option 3
+        </option>
+      </select>
+      <select
+        class="c3"
+        role="select"
+      >
+        <option
+          class="c1"
+          disabled=""
+          hidden=""
+          role="option"
+          value="none"
+        >
+          Select one
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-1"
+        >
+          Option 1
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-2"
+        >
+          Option 2
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-3"
+        >
+          Option 3
+        </option>
+      </select>
+      <select
+        class="c4"
+        role="select"
+      >
+        <option
+          class="c1"
+          disabled=""
+          hidden=""
+          role="option"
+          value="none"
+        >
+          Select one
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-1"
+        >
+          Option 1
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-2"
+        >
+          Option 2
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-3"
+        >
+          Option 3
+        </option>
+      </select>
+    </div>
+  </body>,
+  "container": .c0 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(212,96%,78%,1);
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+}
+
+.c0::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c0::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c0:hover {
+  border-color: hsla(217,91%,60%,1);
+}
+
+.c2 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(142,77%,73%,1);
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+}
+
+.c2::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c2::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c2:hover {
+  border-color: hsla(142,71%,45%,1);
+}
+
+.c3 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(46,97%,65%,1);
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+}
+
+.c3::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c3::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c3:hover {
+  border-color: hsla(38,92%,50%,1);
+}
+
+.c4 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(0,94%,82%,1);
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+}
+
+.c4::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c4::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c4:hover {
+  border-color: hsla(0,84%,60%,1);
+}
+
+.c1 {
+  cursor: pointer;
+  text-shadow: none;
+  background-color: hsla(214,32%,91%,1);
+}
+
+<div>
+    <select
+      class="c0"
+      role="select"
+    >
+      <option
+        class="c1"
+        disabled=""
+        hidden=""
+        role="option"
+        value="none"
+      >
+        Select one
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-1"
+      >
+        Option 1
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-2"
+      >
+        Option 2
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-3"
+      >
+        Option 3
+      </option>
+    </select>
+    <select
+      class="c2"
+      role="select"
+    >
+      <option
+        class="c1"
+        disabled=""
+        hidden=""
+        role="option"
+        value="none"
+      >
+        Select one
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-1"
+      >
+        Option 1
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-2"
+      >
+        Option 2
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-3"
+      >
+        Option 3
+      </option>
+    </select>
+    <select
+      class="c3"
+      role="select"
+    >
+      <option
+        class="c1"
+        disabled=""
+        hidden=""
+        role="option"
+        value="none"
+      >
+        Select one
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-1"
+      >
+        Option 1
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-2"
+      >
+        Option 2
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-3"
+      >
+        Option 3
+      </option>
+    </select>
+    <select
+      class="c4"
+      role="select"
+    >
+      <option
+        class="c1"
+        disabled=""
+        hidden=""
+        role="option"
+        value="none"
+      >
+        Select one
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-1"
+      >
+        Option 1
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-2"
+      >
+        Option 2
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-3"
+      >
+        Option 3
+      </option>
+    </select>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Select Statuses in dark 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(221,83%,53%,1);
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+}
+
+.c0::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c0::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c0:hover {
+  border-color: hsla(217,91%,60%,1);
+}
+
+.c2 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(142,76%,36%,1);
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+}
+
+.c2::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c2::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c2:hover {
+  border-color: hsla(142,71%,45%,1);
+}
+
+.c3 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(32,95%,44%,1);
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+}
+
+.c3::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c3::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c3:hover {
+  border-color: hsla(38,92%,50%,1);
+}
+
+.c4 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(0,72%,51%,1);
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+}
+
+.c4::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c4::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c4:hover {
+  border-color: hsla(0,84%,60%,1);
+}
+
+.c1 {
+  cursor: pointer;
+  text-shadow: none;
+  background-color: hsla(217,33%,17%,1);
+}
+
+<body>
+    <div>
+      <select
+        class="c0"
+        role="select"
+      >
+        <option
+          class="c1"
+          disabled=""
+          hidden=""
+          role="option"
+          value="none"
+        >
+          Select one
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-1"
+        >
+          Option 1
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-2"
+        >
+          Option 2
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-3"
+        >
+          Option 3
+        </option>
+      </select>
+      <select
+        class="c2"
+        role="select"
+      >
+        <option
+          class="c1"
+          disabled=""
+          hidden=""
+          role="option"
+          value="none"
+        >
+          Select one
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-1"
+        >
+          Option 1
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-2"
+        >
+          Option 2
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-3"
+        >
+          Option 3
+        </option>
+      </select>
+      <select
+        class="c3"
+        role="select"
+      >
+        <option
+          class="c1"
+          disabled=""
+          hidden=""
+          role="option"
+          value="none"
+        >
+          Select one
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-1"
+        >
+          Option 1
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-2"
+        >
+          Option 2
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-3"
+        >
+          Option 3
+        </option>
+      </select>
+      <select
+        class="c4"
+        role="select"
+      >
+        <option
+          class="c1"
+          disabled=""
+          hidden=""
+          role="option"
+          value="none"
+        >
+          Select one
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-1"
+        >
+          Option 1
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-2"
+        >
+          Option 2
+        </option>
+        <option
+          class="c1"
+          role="option"
+          value="option-3"
+        >
+          Option 3
+        </option>
+      </select>
+    </div>
+  </body>,
+  "container": .c0 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(221,83%,53%,1);
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+}
+
+.c0::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c0:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c0::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c0:hover {
+  border-color: hsla(217,91%,60%,1);
+}
+
+.c2 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(142,76%,36%,1);
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+}
+
+.c2::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c2:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c2::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c2:hover {
+  border-color: hsla(142,71%,45%,1);
+}
+
+.c3 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(32,95%,44%,1);
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+}
+
+.c3::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c3:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c3::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c3:hover {
+  border-color: hsla(38,92%,50%,1);
+}
+
+.c4 {
+  cursor: pointer;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  border-style: solid;
+  border-radius: calc(0.375rem * 1);
+  padding-inline-start: calc(1rem * 1);
+  padding-inline-end: calc(1rem * 1);
+  border-color: hsla(0,72%,51%,1);
+  height: calc(2.5em * 1);
+  font-size: calc(1rem * 1);
+}
+
+.c4::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c4::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c4:hover {
+  border-color: hsla(0,84%,60%,1);
+}
+
+.c1 {
+  cursor: pointer;
+  text-shadow: none;
+  background-color: hsla(217,33%,17%,1);
+}
+
+<div>
+    <select
+      class="c0"
+      role="select"
+    >
+      <option
+        class="c1"
+        disabled=""
+        hidden=""
+        role="option"
+        value="none"
+      >
+        Select one
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-1"
+      >
+        Option 1
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-2"
+      >
+        Option 2
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-3"
+      >
+        Option 3
+      </option>
+    </select>
+    <select
+      class="c2"
+      role="select"
+    >
+      <option
+        class="c1"
+        disabled=""
+        hidden=""
+        role="option"
+        value="none"
+      >
+        Select one
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-1"
+      >
+        Option 1
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-2"
+      >
+        Option 2
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-3"
+      >
+        Option 3
+      </option>
+    </select>
+    <select
+      class="c3"
+      role="select"
+    >
+      <option
+        class="c1"
+        disabled=""
+        hidden=""
+        role="option"
+        value="none"
+      >
+        Select one
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-1"
+      >
+        Option 1
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-2"
+      >
+        Option 2
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-3"
+      >
+        Option 3
+      </option>
+    </select>
+    <select
+      class="c4"
+      role="select"
+    >
+      <option
+        class="c1"
+        disabled=""
+        hidden=""
+        role="option"
+        value="none"
+      >
+        Select one
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-1"
+      >
+        Option 1
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-2"
+      >
+        Option 2
+      </option>
+      <option
+        class="c1"
+        role="option"
+        value="option-3"
+      >
+        Option 3
+      </option>
+    </select>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
