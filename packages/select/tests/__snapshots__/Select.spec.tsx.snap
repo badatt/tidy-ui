@@ -14,11 +14,12 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(213,27%,84%,1);
-  height: calc(2.5em * 1);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
 }
 
@@ -110,11 +111,12 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(213,27%,84%,1);
-  height: calc(2.5em * 1);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
 }
 
@@ -261,11 +263,12 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(215,19%,35%,1);
-  height: calc(2.5em * 1);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
 }
 
@@ -357,11 +360,12 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(215,19%,35%,1);
-  height: calc(2.5em * 1);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
 }
 
@@ -508,12 +512,13 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 0.75);
-  padding-inline-start: calc(1rem * 0.75);
-  padding-inline-end: calc(1rem * 0.75);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(213,27%,84%,1);
-  height: calc(2.5em * 0.75);
-  font-size: calc(1rem * 0.75);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  font-size: calc(1rem * 0.5);
 }
 
 .c0::-webkit-input-placeholder {
@@ -559,12 +564,13 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 0.85);
-  padding-inline-start: calc(1rem * 0.85);
-  padding-inline-end: calc(1rem * 0.85);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(213,27%,84%,1);
-  height: calc(2.5em * 0.85);
-  font-size: calc(1rem * 0.85);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  font-size: calc(1rem * 0.7);
 }
 
 .c2::-webkit-input-placeholder {
@@ -610,12 +616,13 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 0.9);
-  padding-inline-start: calc(1rem * 0.9);
-  padding-inline-end: calc(1rem * 0.9);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(213,27%,84%,1);
-  height: calc(2.5em * 0.9);
-  font-size: calc(1rem * 0.9);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  font-size: calc(1rem * 0.85);
 }
 
 .c3::-webkit-input-placeholder {
@@ -661,11 +668,12 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(213,27%,84%,1);
-  height: calc(2.5em * 1);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
 }
 
@@ -712,12 +720,13 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 1.2);
-  padding-inline-start: calc(1rem * 1.2);
-  padding-inline-end: calc(1rem * 1.2);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(213,27%,84%,1);
-  height: calc(2.5em * 1.2);
-  font-size: calc(1rem * 1.2);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  font-size: calc(1rem * 1.5);
 }
 
 .c5::-webkit-input-placeholder {
@@ -763,12 +772,13 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 1.4);
-  padding-inline-start: calc(1rem * 1.4);
-  padding-inline-end: calc(1rem * 1.4);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(213,27%,84%,1);
-  height: calc(2.5em * 1.4);
-  font-size: calc(1rem * 1.4);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  font-size: calc(1rem * 2);
 }
 
 .c6::-webkit-input-placeholder {
@@ -814,12 +824,13 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 1.6);
-  padding-inline-start: calc(1rem * 1.6);
-  padding-inline-end: calc(1rem * 1.6);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(213,27%,84%,1);
-  height: calc(2.5em * 1.6);
-  font-size: calc(1rem * 1.6);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  font-size: calc(1rem * 2.5);
 }
 
 .c7::-webkit-input-placeholder {
@@ -1120,12 +1131,13 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 0.75);
-  padding-inline-start: calc(1rem * 0.75);
-  padding-inline-end: calc(1rem * 0.75);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(213,27%,84%,1);
-  height: calc(2.5em * 0.75);
-  font-size: calc(1rem * 0.75);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  font-size: calc(1rem * 0.5);
 }
 
 .c0::-webkit-input-placeholder {
@@ -1171,12 +1183,13 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 0.85);
-  padding-inline-start: calc(1rem * 0.85);
-  padding-inline-end: calc(1rem * 0.85);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(213,27%,84%,1);
-  height: calc(2.5em * 0.85);
-  font-size: calc(1rem * 0.85);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  font-size: calc(1rem * 0.7);
 }
 
 .c2::-webkit-input-placeholder {
@@ -1222,12 +1235,13 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 0.9);
-  padding-inline-start: calc(1rem * 0.9);
-  padding-inline-end: calc(1rem * 0.9);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(213,27%,84%,1);
-  height: calc(2.5em * 0.9);
-  font-size: calc(1rem * 0.9);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  font-size: calc(1rem * 0.85);
 }
 
 .c3::-webkit-input-placeholder {
@@ -1273,11 +1287,12 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(213,27%,84%,1);
-  height: calc(2.5em * 1);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
 }
 
@@ -1324,12 +1339,13 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 1.2);
-  padding-inline-start: calc(1rem * 1.2);
-  padding-inline-end: calc(1rem * 1.2);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(213,27%,84%,1);
-  height: calc(2.5em * 1.2);
-  font-size: calc(1rem * 1.2);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  font-size: calc(1rem * 1.5);
 }
 
 .c5::-webkit-input-placeholder {
@@ -1375,12 +1391,13 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 1.4);
-  padding-inline-start: calc(1rem * 1.4);
-  padding-inline-end: calc(1rem * 1.4);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(213,27%,84%,1);
-  height: calc(2.5em * 1.4);
-  font-size: calc(1rem * 1.4);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  font-size: calc(1rem * 2);
 }
 
 .c6::-webkit-input-placeholder {
@@ -1426,12 +1443,13 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 1.6);
-  padding-inline-start: calc(1rem * 1.6);
-  padding-inline-end: calc(1rem * 1.6);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(213,27%,84%,1);
-  height: calc(2.5em * 1.6);
-  font-size: calc(1rem * 1.6);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  font-size: calc(1rem * 2.5);
 }
 
 .c7::-webkit-input-placeholder {
@@ -1787,11 +1805,12 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(212,96%,78%,1);
-  height: calc(2.5em * 1);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
 }
 
@@ -1838,11 +1857,12 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(142,77%,73%,1);
-  height: calc(2.5em * 1);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
 }
 
@@ -1889,11 +1909,12 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(46,97%,65%,1);
-  height: calc(2.5em * 1);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
 }
 
@@ -1940,11 +1961,12 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(0,94%,82%,1);
-  height: calc(2.5em * 1);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
 }
 
@@ -2141,11 +2163,12 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(212,96%,78%,1);
-  height: calc(2.5em * 1);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
 }
 
@@ -2192,11 +2215,12 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(142,77%,73%,1);
-  height: calc(2.5em * 1);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
 }
 
@@ -2243,11 +2267,12 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(46,97%,65%,1);
-  height: calc(2.5em * 1);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
 }
 
@@ -2294,11 +2319,12 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(0,94%,82%,1);
-  height: calc(2.5em * 1);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
 }
 
@@ -2550,11 +2576,12 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(221,83%,53%,1);
-  height: calc(2.5em * 1);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
 }
 
@@ -2601,11 +2628,12 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(142,76%,36%,1);
-  height: calc(2.5em * 1);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
 }
 
@@ -2652,11 +2680,12 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(32,95%,44%,1);
-  height: calc(2.5em * 1);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
 }
 
@@ -2703,11 +2732,12 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(0,72%,51%,1);
-  height: calc(2.5em * 1);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
 }
 
@@ -2904,11 +2934,12 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(221,83%,53%,1);
-  height: calc(2.5em * 1);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
 }
 
@@ -2955,11 +2986,12 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(142,76%,36%,1);
-  height: calc(2.5em * 1);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
 }
 
@@ -3006,11 +3038,12 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(32,95%,44%,1);
-  height: calc(2.5em * 1);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
 }
 
@@ -3057,11 +3090,12 @@ Object {
   background: inherit;
   color: inherit;
   border-style: solid;
-  border-radius: calc(0.375rem * 1);
-  padding-inline-start: calc(1rem * 1);
-  padding-inline-end: calc(1rem * 1);
+  border-radius: 0.375em;
+  padding-inline-start: 0.5em;
+  padding-inline-end: 0.5em;
   border-color: hsla(0,72%,51%,1);
-  height: calc(2.5em * 1);
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
 }
 

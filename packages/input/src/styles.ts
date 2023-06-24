@@ -7,13 +7,13 @@ import { IInputElementProps, IInputGroupProps, ITextInputProps } from './types';
 const getBorderColor = (isDark: boolean): number => (isDark ? 600 : 300);
 
 const sizeScale = {
-  lg: 1.2,
+  lg: 1.5,
   md: 1,
-  sm: 0.9,
-  xl: 1.4,
-  xs: 0.85,
-  xxl: 1.6,
-  xxs: 0.75,
+  sm: 0.85,
+  xl: 2,
+  xs: 0.7,
+  xxl: 2.5,
+  xxs: 0.5,
 };
 
 const commonStyles = css<ITextInputProps>`
@@ -31,7 +31,8 @@ const commonStyles = css<ITextInputProps>`
 
   ${({ isStretched, girth, width }) => css`
     width: ${isStretched ? '100%' : width ?? 'inherit'};
-    height: calc(2.5em * ${sizeScale[girth!]});
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     font-size: calc(1rem * ${sizeScale[girth!]});
     ::placeholder {
       color: ${hsla(color.slate[500])};
@@ -52,10 +53,10 @@ const outlined = css<ITextInputProps>`
   ${commonStyles}
   border-style: solid;
 
-  ${({ theme: { palette, isDark }, status, girth }) => css`
-    border-radius: calc(0.375rem * ${sizeScale[girth!]});
-    padding-inline-start: calc(1rem * ${sizeScale[girth!]});
-    padding-inline-end: calc(1rem * ${sizeScale[girth!]});
+  ${({ theme: { palette, isDark }, status }) => css`
+    border-radius: 0.375em;
+    padding-inline-start: 0.5em;
+    padding-inline-end: 0.5em;
     border-color: ${status ? palette[status][getBorderColor(isDark)] : hsla(color.slate[getBorderColor(isDark)])};
     :hover {
       border-color: ${status ? palette[status][500] : hsla(color.slate[400])};
@@ -73,10 +74,10 @@ const filled = css<ITextInputProps>`
   border-style: solid;
   border-color: transparent;
 
-  ${({ theme: { palette, isDark }, status, girth }) => css`
-    border-radius: calc(0.375rem * ${sizeScale[girth!]});
-    padding-inline-start: calc(1rem * ${sizeScale[girth!]});
-    padding-inline-end: calc(1rem * ${sizeScale[girth!]});
+  ${({ theme: { palette, isDark }, status }) => css`
+    border-radius: 0.375em;
+    padding-inline-start: 0.5em;
+    padding-inline-end: 0.5em;
     background-color: ${isDark ? hsla(color.slate[700]) : hsla(color.slate[300])};
     :hover {
       background-color: ${isDark ? hsla(color.slate[600]) : hsla(color.slate[200])};
