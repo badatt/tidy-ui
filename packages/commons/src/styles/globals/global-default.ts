@@ -128,6 +128,25 @@ const GlobalDefault = createGlobalStyle<IGlobalDefault>`
       font-style: italic;
       font-weight: ${font.regular};
     }
+    /* Table defaults */
+    table {
+      border-collapse: collapse;
+      border: 1px solid ${isDark ? hsla(color.slate[700]) : hsla(color.slate[400])};
+    }
+    td,
+    th {
+      border: 1px solid ${isDark ? hsla(color.slate[700]) : hsla(color.slate[400])};
+      padding: 10px 20px;
+    }
+    th {
+      background-color: ${isDark ? hsla(color.gray[900]) : hsla(color.gray[300])};
+    }
+    td {
+      text-align: center;
+    }
+    caption {
+      padding: 10px;
+    }
   `}
 `;
 
