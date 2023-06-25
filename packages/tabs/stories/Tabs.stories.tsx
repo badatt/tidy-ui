@@ -64,12 +64,12 @@ export const basic: Story = {
       <TabsGroup>
         <Tabs>
           {[...Array(tabCount)].map((c, i) => (
-            <Tab key={i}>Tab {i}</Tab>
+            <Tab key={c}>Tab {i}</Tab>
           ))}
         </Tabs>
         <TabPanels>
           {[...Array(tabCount)].map((c, i) => (
-            <TabPanel key={i}>
+            <TabPanel key={c}>
               <PanelContent />
             </TabPanel>
           ))}
@@ -85,12 +85,12 @@ export const lazy: Story = {
       <TabsGroup>
         <Tabs>
           {[...Array(tabCount)].map((c, i) => (
-            <Tab key={i}>Tab {i}</Tab>
+            <Tab key={c}>Tab {i}</Tab>
           ))}
         </Tabs>
         <TabPanels isLazy>
           {[...Array(tabCount)].map((c, i) => (
-            <TabPanel key={i}>
+            <TabPanel key={c}>
               <PanelContent />
             </TabPanel>
           ))}
@@ -106,12 +106,12 @@ export const whenTabChangeEvents: Story = {
       <TabsGroup>
         <Tabs whenTabChange={(e) => alert(JSON.stringify(e))}>
           {[...Array(tabCount)].map((c, i) => (
-            <Tab key={i}>Tab {i}</Tab>
+            <Tab key={c}>Tab {i}</Tab>
           ))}
         </Tabs>
         <TabPanels>
           {[...Array(tabCount)].map((c, i) => (
-            <TabPanel key={i}>
+            <TabPanel key={c}>
               <PanelContent />
             </TabPanel>
           ))}
@@ -127,12 +127,12 @@ export const justify: Story = {
       <TabsGroup>
         <Tabs canJustify>
           {[...Array(tabCount)].map((c, i) => (
-            <Tab key={i}>Tab {i}</Tab>
+            <Tab key={c}>Tab {i}</Tab>
           ))}
         </Tabs>
         <TabPanels>
           {[...Array(tabCount)].map((c, i) => (
-            <TabPanel key={i}>
+            <TabPanel key={c}>
               <PanelContent />
             </TabPanel>
           ))}
@@ -148,12 +148,12 @@ export const fullWidth: Story = {
       <TabsGroup>
         <Tabs hasFullWidth>
           {[...Array(tabCount)].map((c, i) => (
-            <Tab key={i}>Tab {i}</Tab>
+            <Tab key={c}>Tab {i}</Tab>
           ))}
         </Tabs>
         <TabPanels>
           {[...Array(tabCount)].map((c, i) => (
-            <TabPanel key={i}>
+            <TabPanel key={c}>
               <PanelContent />
             </TabPanel>
           ))}
@@ -187,14 +187,14 @@ export const customTabStyle: Story = {
       <TabsGroup>
         <Tabs hasDefaultStyle={false}>
           {[...Array(tabCount)].map((c, i) => (
-            <Tab key={i} ele={<StyledTab />}>
+            <Tab key={c} ele={<StyledTab />}>
               Tab {i}
             </Tab>
           ))}
         </Tabs>
         <TabPanels>
           {[...Array(tabCount)].map((c, i) => (
-            <TabPanel key={i}>
+            <TabPanel key={c}>
               <PanelContent />
             </TabPanel>
           ))}

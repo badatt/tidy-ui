@@ -10,7 +10,6 @@ const TabsGroupRoot = styled.div<ITabsGroupProps>`
 const TabsRoot = styled.div<ITabsProps>`
   display: flex;
   flex-direction: row;
-  cursor: pointer;
   overflow-x: auto;
 
   ${({ theme: { isDark }, canJustify, hasFullWidth, hasDefaultStyle }) => css`
@@ -44,6 +43,7 @@ interface ExtendedTabRootProps extends ITabProps {
 
 const TabRoot = styled.div<ExtendedTabRootProps>`
   white-space: nowrap;
+  cursor: pointer;
   transition: border-color 0.3s ease-in-out;
   ${({ theme: { palette, isDark }, hasDefaultStyle, hasFullWidth, isActive }) => css`
     ${hasDefaultStyle &&
