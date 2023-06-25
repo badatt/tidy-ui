@@ -1,4 +1,5 @@
 #include "../../internals/md/banner-logo.md"
+
 <h1 align="center">
   @tidy-ui/table
   <a href="https://www.npmjs.com/package/@tidy-ui/table">

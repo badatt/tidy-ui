@@ -31,38 +31,20 @@
     "additives_debug_tags": [],
     "additives_n": 2,
     "additives_old_n": 2,
-    "additives_old_tags": [
-      "en:e330",
-      "en:e160c"
-    ],
-    "additives_original_tags": [
-      "en:e330",
-      "en:e160c"
-    ],
-    "additives_prev_original_tags": [
-      "en:e330",
-      "en:e160c"
-    ],
-    "additives_tags": [
-      "en:e160c",
-      "en:e330"
-    ],
+    "additives_old_tags": ["en:e330", "en:e160c"],
+    "additives_original_tags": ["en:e330", "en:e160c"],
+    "additives_prev_original_tags": ["en:e330", "en:e160c"],
+    "additives_tags": ["en:e160c", "en:e330"],
     "allergens": "en:milk",
     "allergens_from_ingredients": "en:milk, milk",
     "allergens_from_user": "(en) Milk",
-    "allergens_hierarchy": [
-      "en:milk"
-    ],
+    "allergens_hierarchy": ["en:milk"],
     "allergens_lc": "en",
-    "allergens_tags": [
-      "en:milk"
-    ],
+    "allergens_tags": ["en:milk"],
     "amino_acids_prev_tags": [],
     "amino_acids_tags": [],
     "brands": "Popchips",
-    "brands_tags": [
-      "popchips"
-    ],
+    "brands_tags": ["popchips"],
     "carbon_footprint_from_known_ingredients_debug": "en:potato 54% x 0.6 = 32.4 g - ",
     "carbon_footprint_percent_of_known_ingredients": 54,
     "categories": "Plant-based foods and beverages,Plant-based foods,Snacks,Cereals and potatoes,Salty snacks,Appetizers,Chips and fries,Crisps,Potato crisps,Potato crisps in sunflower oil",
@@ -112,9 +94,7 @@
       "ciqual_food_name:fr": "Chips de pommes de terre, standard"
     },
     "checkers_tags": [],
-    "ciqual_food_name_tags": [
-      "potato-crisps"
-    ],
+    "ciqual_food_name_tags": ["potato-crisps"],
     "cities_tags": [],
     "code": "5060292302201",
     "codes_tags": [
@@ -147,15 +127,9 @@
       "aleene"
     ],
     "countries": "France,United Kingdom",
-    "countries_hierarchy": [
-      "en:france",
-      "en:united-kingdom"
-    ],
+    "countries_hierarchy": ["en:france", "en:united-kingdom"],
     "countries_lc": "en",
-    "countries_tags": [
-      "en:france",
-      "en:united-kingdom"
-    ],
+    "countries_tags": ["en:france", "en:united-kingdom"],
     "created_t": 1433338177,
     "creator": "kyzh",
     "data_quality_bugs_tags": [],
@@ -193,14 +167,8 @@
       "en:ecoscore-production-system-no-label"
     ],
     "data_sources": "App - yuka, Apps, App - Horizon",
-    "data_sources_tags": [
-      "app-yuka",
-      "apps",
-      "app-horizon"
-    ],
-    "debug_param_sorted_langs": [
-      "en"
-    ],
+    "data_sources_tags": ["app-yuka", "apps", "app-horizon"],
+    "debug_param_sorted_langs": ["en"],
     "ecoscore_data": {
       "adjustments": {
         "origins_of_ingredients": {
@@ -214,9 +182,7 @@
           ],
           "epi_score": 0,
           "epi_value": -5,
-          "origins_from_origins_field": [
-            "en:unknown"
-          ],
+          "origins_from_origins_field": ["en:unknown"],
           "transportation_score": 0,
           "transportation_scores": {
             "ad": 0,
@@ -670,10 +636,7 @@
             "en:e160c",
             "en:e330"
           ],
-          "nutrition": [
-            "en:flavouring",
-            "en:Oak smoked sea salti yeast extract"
-          ]
+          "nutrition": ["en:flavouring", "en:Oak smoked sea salti yeast extract"]
         },
         "uncharacterized_ingredients_mass_proportion": {
           "impact": 0.0244618467395455,
@@ -692,13 +655,8 @@
     "ecoscore_extended_data_version": "4",
     "ecoscore_grade": "b",
     "ecoscore_score": 67,
-    "ecoscore_tags": [
-      "b"
-    ],
-    "editors": [
-      "kyzh",
-      "tacite"
-    ],
+    "ecoscore_tags": ["b"],
+    "editors": ["kyzh", "tacite"],
     "editors_tags": [
       "kiliweb",
       "openfoodfacts-contributors",
@@ -718,17 +676,10 @@
     "emb_codes_20141016": "",
     "emb_codes_orig": "",
     "emb_codes_tags": [],
-    "entry_dates_tags": [
-      "2015-06-03",
-      "2015-06",
-      "2015"
-    ],
+    "entry_dates_tags": ["2015-06-03", "2015-06", "2015"],
     "expiration_date": "11/05/2016",
     "food_groups": "en:appetizers",
-    "food_groups_tags": [
-      "en:salty-snacks",
-      "en:appetizers"
-    ],
+    "food_groups_tags": ["en:salty-snacks", "en:appetizers"],
     "fruits-vegetables-nuts_100g_estimate": 0,
     "generic_name_en": "",
     "generic_name_fr": "",
@@ -1276,25 +1227,12 @@
       }
     ],
     "ingredients_analysis": {
-      "en:non-vegan": [
-        "en:whey-powder",
-        "en:milk"
-      ],
-      "en:palm-oil-content-unknown": [
-        "en:oak-smoked-sea-salti-yeast-extract"
-      ],
-      "en:vegan-status-unknown": [
-        "en:oak-smoked-sea-salti-yeast-extract"
-      ],
-      "en:vegetarian-status-unknown": [
-        "en:oak-smoked-sea-salti-yeast-extract"
-      ]
+      "en:non-vegan": ["en:whey-powder", "en:milk"],
+      "en:palm-oil-content-unknown": ["en:oak-smoked-sea-salti-yeast-extract"],
+      "en:vegan-status-unknown": ["en:oak-smoked-sea-salti-yeast-extract"],
+      "en:vegetarian-status-unknown": ["en:oak-smoked-sea-salti-yeast-extract"]
     },
-    "ingredients_analysis_tags": [
-      "en:palm-oil-free",
-      "en:non-vegan",
-      "en:vegetarian"
-    ],
+    "ingredients_analysis_tags": ["en:palm-oil-free", "en:non-vegan", "en:vegetarian"],
     "ingredients_debug": [
       "54% dried potatoes",
       ",",
@@ -1457,10 +1395,7 @@
       "potato-starch"
     ],
     "ingredients_n": 20,
-    "ingredients_n_tags": [
-      "20",
-      "11-20"
-    ],
+    "ingredients_n_tags": ["20", "11-20"],
     "ingredients_original_tags": [
       "en:potato",
       "en:sunflower-oil",
@@ -1540,18 +1475,10 @@
     "interface_version_modified": "20190830",
     "known_ingredients_n": 35,
     "labels": "Vegetarian,No preservatives,No artificial anything",
-    "labels_hierarchy": [
-      "en:vegetarian",
-      "en:no-preservatives",
-      "en:No artificial anything"
-    ],
+    "labels_hierarchy": ["en:vegetarian", "en:no-preservatives", "en:No artificial anything"],
     "labels_lc": "en",
     "labels_old": "Vegetarian, No preservatives, No artificial anything",
-    "labels_tags": [
-      "en:vegetarian",
-      "en:no-preservatives",
-      "en:no-artificial-anything"
-    ],
+    "labels_tags": ["en:vegetarian", "en:no-preservatives", "en:no-artificial-anything"],
     "lang": "en",
     "languages": {
       "en:english": 5
@@ -1559,24 +1486,11 @@
     "languages_codes": {
       "en": 5
     },
-    "languages_hierarchy": [
-      "en:english"
-    ],
-    "languages_tags": [
-      "en:english",
-      "en:1"
-    ],
-    "last_edit_dates_tags": [
-      "2023-03-24",
-      "2023-03",
-      "2023"
-    ],
+    "languages_hierarchy": ["en:english"],
+    "languages_tags": ["en:english", "en:1"],
+    "last_edit_dates_tags": ["2023-03-24", "2023-03", "2023"],
     "last_editor": "aleene",
-    "last_image_dates_tags": [
-      "2022-06-24",
-      "2022-06",
-      "2022"
-    ],
+    "last_image_dates_tags": ["2022-06-24", "2022-06", "2022"],
     "last_image_t": 1656075071,
     "last_modified_by": "aleene",
     "last_modified_t": 1679645675,
@@ -1584,9 +1498,7 @@
     "link": "",
     "main_countries_tags": [],
     "manufacturing_places": "European Union",
-    "manufacturing_places_tags": [
-      "european-union"
-    ],
+    "manufacturing_places_tags": ["european-union"],
     "max_imgid": "9",
     "minerals_prev_tags": [],
     "minerals_tags": [],
@@ -1614,49 +1526,20 @@
     "nova_groups": "4",
     "nova_groups_markers": {
       "3": [
-        [
-          "categories",
-          "en:salty-snacks"
-        ],
-        [
-          "ingredients",
-          "en:salt"
-        ],
-        [
-          "ingredients",
-          "en:starch"
-        ],
-        [
-          "ingredients",
-          "en:sugar"
-        ],
-        [
-          "ingredients",
-          "en:vegetable-oil"
-        ]
+        ["categories", "en:salty-snacks"],
+        ["ingredients", "en:salt"],
+        ["ingredients", "en:starch"],
+        ["ingredients", "en:sugar"],
+        ["ingredients", "en:vegetable-oil"]
       ],
       "4": [
-        [
-          "additives",
-          "en:e160c"
-        ],
-        [
-          "ingredients",
-          "en:colour"
-        ],
-        [
-          "ingredients",
-          "en:flavouring"
-        ],
-        [
-          "ingredients",
-          "en:whey"
-        ]
+        ["additives", "en:e160c"],
+        ["ingredients", "en:colour"],
+        ["ingredients", "en:flavouring"],
+        ["ingredients", "en:whey"]
       ]
     },
-    "nova_groups_tags": [
-      "en:4-ultra-processed-food-and-drink-products"
-    ],
+    "nova_groups_tags": ["en:4-ultra-processed-food-and-drink-products"],
     "nucleotides_prev_tags": [],
     "nucleotides_tags": [],
     "nutrient_levels": {
@@ -1783,9 +1666,7 @@
     "nutrition_data_prepared_per": "100g",
     "nutrition_grade_fr": "d",
     "nutrition_grades": "d",
-    "nutrition_grades_tags": [
-      "d"
-    ],
+    "nutrition_grades_tags": ["d"],
     "nutrition_score_beverage": 0,
     "nutrition_score_debug": "",
     "nutrition_score_warning_fruits_vegetables_nuts_estimate_from_ingredients": 1,
@@ -1800,17 +1681,11 @@
     "origins_tags": [],
     "other_nutritional_substances_tags": [],
     "packaging": "Plastic,Mixed plastic film-packet",
-    "packaging_hierarchy": [
-      "en:plastic",
-      "en:Mixed plastic film-packet"
-    ],
+    "packaging_hierarchy": ["en:plastic", "en:Mixed plastic film-packet"],
     "packaging_lc": "en",
     "packaging_old": "Plastic, Mixed plastic-packet",
     "packaging_old_before_taxonomization": "Plastic, en:mixed plastic-packet",
-    "packaging_tags": [
-      "en:plastic",
-      "en:mixed-plastic-film-packet"
-    ],
+    "packaging_tags": ["en:plastic", "en:mixed-plastic-film-packet"],
     "packaging_text_en": "",
     "packagings": [
       {
@@ -1823,20 +1698,11 @@
       }
     ],
     "packagings_complete": 0,
-    "photographers_tags": [
-      "kyzh",
-      "kiliweb"
-    ],
+    "photographers_tags": ["kyzh", "kiliweb"],
     "pnns_groups_1": "Salty snacks",
-    "pnns_groups_1_tags": [
-      "salty-snacks",
-      "known"
-    ],
+    "pnns_groups_1_tags": ["salty-snacks", "known"],
     "pnns_groups_2": "Appetizers",
-    "pnns_groups_2_tags": [
-      "appetizers",
-      "known"
-    ],
+    "pnns_groups_2_tags": ["appetizers", "known"],
     "popularity_key": 21900000007,
     "popularity_tags": [
       "bottom-25-percent-scans-2019",
@@ -1990,9 +1856,7 @@
     "stores": "",
     "stores_tags": [],
     "teams": "swipe-studio",
-    "teams_tags": [
-      "swipe-studio"
-    ],
+    "teams_tags": ["swipe-studio"],
     "traces": "",
     "traces_from_ingredients": "",
     "traces_from_user": "(en) ",

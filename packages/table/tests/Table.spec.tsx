@@ -11,18 +11,18 @@ import { Table } from '../src';
 describe('Table', () => {
   it('Basic render', () => {
     const tree = render(
-        <TidyUiProvider theme={orchidLight}>
-          <Table>basic</Table>
-        </TidyUiProvider>,
-      );
+      <TidyUiProvider theme={orchidLight}>
+        <Table>basic</Table>
+      </TidyUiProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
   it('Dark mode basic render', () => {
     const tree = render(
-        <TidyUiProvider theme={orchidDark}>
-         <Table>basic</Table>
-        </TidyUiProvider>,
-      );
+      <TidyUiProvider theme={orchidDark}>
+        <Table>basic</Table>
+      </TidyUiProvider>,
+    );
     expect(tree).toMatchSnapshot();
   });
 });
