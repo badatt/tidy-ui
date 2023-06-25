@@ -53,6 +53,7 @@ const LabelFlexItem = styled(FlexBox)<IFlexItemProps>`
 /** @internal */
 const FlexBoxProvider = ({ children, size }: IFlexBoxProvider) => {
   const [count, setCount] = React.useState(size || baseCount);
+  const ctxValue = React.useMemo(() => ({ count }), [count]);
 
   /** @internal */
   const increment = () => setCount(count + 1);
@@ -61,7 +62,7 @@ const FlexBoxProvider = ({ children, size }: IFlexBoxProvider) => {
   /** @internal */
   const reset = () => setCount(size || baseCount);
   return (
-    <Ctx.Provider value={{ count }}>
+    <Ctx.Provider value={ctxValue}>
       <FlexBox jsc="space-between" alc="center">
         <ButtonCluster>
           <ButtonGroup>
