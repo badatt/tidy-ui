@@ -8,6 +8,11 @@ import { IBaseProps } from '@tidy-ui/types';
 type TableGirth = Extract<TGirth, 'sm' | 'md' | 'lg'>;
 
 /**
+ * Text alignment
+ */
+type TextAlign = 'left' | 'center' | 'right';
+
+/**
  * TableContext props
  */
 export interface ITableContext {
@@ -29,6 +34,10 @@ export interface ITableContext {
  */
 export interface ITableProps extends Omit<IBaseProps, 'border'>, TableHTMLAttributes<HTMLTableElement> {
   /**
+   * Table caption
+   */
+  caption?: JSX.Element | string;
+  /**
    * Spacing between rows
    *
    * @default 'md'
@@ -47,8 +56,22 @@ export interface ITrProps extends IBaseProps, HTMLAttributes<HTMLTableRowElement
 /**
  * ThProps
  */
-export interface IThProps extends IBaseProps, ThHTMLAttributes<HTMLTableCellElement> {}
+export interface IThProps extends IBaseProps, ThHTMLAttributes<HTMLTableCellElement> {
+  /**
+   * Text alignment
+   *
+   * @default 'left'
+   */
+  align?: TextAlign;
+}
 /**
  * TdProps
  */
-export interface ITdProps extends IBaseProps, TdHTMLAttributes<HTMLTableCellElement> {}
+export interface ITdProps extends IBaseProps, TdHTMLAttributes<HTMLTableCellElement> {
+  /**
+   * Text alignment
+   *
+   * @default 'left'
+   */
+  align?: TextAlign;
+}

@@ -1,13 +1,16 @@
 import React from 'react';
-import { TableRoot } from './components';
+import { TableCaption, TableContainer, TableRoot } from './components';
 import { ITableProps } from './types';
 
 const Table = React.forwardRef<HTMLDivElement, ITableProps>((props, ref) => {
-  const { children, ...rest } = props;
+  const { children, caption, ...rest } = props;
   return (
-    <TableRoot ref={ref} role="table" {...rest}>
-      {children}
-    </TableRoot>
+    <TableContainer>
+      <TableRoot ref={ref} role="table" {...rest}>
+        {children}
+      </TableRoot>
+      {caption && <TableCaption>{caption}</TableCaption>}
+    </TableContainer>
   );
 });
 

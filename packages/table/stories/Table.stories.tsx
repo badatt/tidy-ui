@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import data from './nobel-laureate.data.json';
 import { Text } from '../../text/src';
 import { TabsGroup, Tabs, Tab, TabPanel, TabPanels } from '../../tabs/src';
-import { Table, Td, Th, Tr } from '../src';
+import { Table, Td, Th, Tr, Thead, Tbody, Tfoot } from '../src';
 
 const meta: Meta<typeof Table> = {
   title: 'Presentation/Table',
@@ -14,9 +14,9 @@ export default meta;
 
 type Story = StoryObj<typeof Table>;
 
-const TableData = () => (
+const TableData = (props: { count }) => (
   <>
-    <thead>
+    <Thead>
       <Tr>
         <Th>Name</Th>
         <Th>Gender</Th>
@@ -28,9 +28,9 @@ const TableData = () => (
         <Th>Died</Th>
         <Th>Death place</Th>
       </Tr>
-    </thead>
-    <tbody>
-      {data.laureates.slice(1, 100).map((d) => (
+    </Thead>
+    <Tbody>
+      {data.laureates.slice(1, props.count).map((d) => (
         <Tr key={d.id}>
           <Td>
             {d.firstname} {d.surname}
@@ -49,15 +49,16 @@ const TableData = () => (
           </Td>
         </Tr>
       ))}
-    </tbody>
+    </Tbody>
+    <Tfoot></Tfoot>
   </>
 );
 
 export const basic: Story = {
   render: () => {
     return (
-      <Table height="300px">
-        <TableData />
+      <Table>
+        <TableData count={100} />
       </Table>
     );
   },
@@ -67,7 +68,7 @@ export const striped: Story = {
   render: () => {
     return (
       <Table isStriped>
-        <TableData />
+        <TableData count={100} />
       </Table>
     );
   },
@@ -85,21 +86,31 @@ export const girths: Story = {
         <TabPanels>
           <TabPanel>
             <Table>
-              <TableData />
+              <TableData count={100} />
             </Table>
           </TabPanel>
           <TabPanel>
             <Table girth="sm">
-              <TableData />
+              <TableData count={100} />
             </Table>
           </TabPanel>
           <TabPanel>
             <Table girth="lg">
-              <TableData />
+              <TableData count={100} />
             </Table>
           </TabPanel>
         </TabPanels>
       </TabsGroup>
+    );
+  },
+};
+
+export const caption: Story = {
+  render: () => {
+    return (
+      <Table caption="Nobel laureates and their personal details">
+        <TableData count={10} />
+      </Table>
     );
   },
 };

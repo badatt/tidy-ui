@@ -11,7 +11,9 @@ const Td = React.forwardRef<HTMLTableCellElement, ITdProps>((props, ref) => {
   );
 });
 
-Td.defaultProps = {};
+Td.defaultProps = {
+  align: 'left',
+};
 
 Td.displayName = 'Td';
 
