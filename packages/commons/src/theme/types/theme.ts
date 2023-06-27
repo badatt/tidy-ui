@@ -19,11 +19,11 @@ export interface IGlobalFont {
 /**
  * GlobalDefault
  */
-export interface IGlobalDefault {
+export interface ITheme {
   /**
    * theme
    */
-  theme?: ITidyUITheme;
+  theme: ITidyUITheme;
 }
 
 /**
