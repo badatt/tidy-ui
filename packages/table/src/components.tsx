@@ -1,4 +1,4 @@
-import { applyStandardOverrideStyles, color, css, hsla, styled } from '@tidy-ui/commons';
+import { applyStandardOverrideStyles, color, createFontStyle, css, hsla, styled } from '@tidy-ui/commons';
 import { ITableProps, ITdProps, IThProps, ITrProps } from './types';
 
 const sizeScale = {
@@ -7,9 +7,19 @@ const sizeScale = {
   sm: 0.5,
 };
 
+const TableContainer = styled.div`
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+`;
+
 const TableRoot = styled.table<ITableProps>`
   border: none;
-  white-space: nowrap;
   ${({ theme: { isDark }, girth, isStriped }) => css`
     ${isStriped &&
     css`
@@ -43,8 +53,10 @@ const ThRoot = styled.th<IThProps>`
   border-bottom: none;
   padding: 0;
   text-align: left;
-  ${({ theme: { font } }) => css`
+  position: relative;
+  ${({ theme: { font }, align }) => css`
     font-weight: ${font.regular};
+    text-align: ${align};
   `}
   ${applyStandardOverrideStyles}
 `;
@@ -53,12 +65,46 @@ const TdRoot = styled.td<ITdProps>`
   border: none;
   padding: 0;
   text-align: left;
-  ${({ theme: { isDark } }) => css`
+  ${({ theme: { isDark }, align }) => css`
     border-bottom: 1px solid ${isDark ? hsla(color.slate[700], 0.5) : hsla(color.slate[200])};
+    text-align: ${align};
   `}
   ${applyStandardOverrideStyles}
 `;
 
-const Resizer = styled.div``;
+const Resizer = styled.div`
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 3px;
+  cursor: col-resize;
+  user-select: none;
+  height: 100%;
+  ${({ theme: { palette } }) => css`
+    :hover,
+    &.resizing {
+      background-color: ${palette.minor[500]};
+    }
+  `}
+`;
 
-export { Resizer, TableRoot, TdRoot, ThRoot, TrRoot };
+const Thead = styled.thead`
+  ${applyStandardOverrideStyles}
+`;
+
+const Tbody = styled.tbody`
+  ${applyStandardOverrideStyles}
+`;
+
+const Tfoot = styled.tfoot`
+  ${applyStandardOverrideStyles}
+`;
+
+const TableCaption = styled.caption`
+  ${createFontStyle('caption')}
+  flex-shrink:0;
+  width: 100%;
+  padding: 1rem 2rem;
+`;
+
+export { Resizer, TableCaption, TableContainer, TableRoot, Tbody, TdRoot, Tfoot, Thead, ThRoot, TrRoot };
