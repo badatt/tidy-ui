@@ -1,8 +1,8 @@
 /* istanbul ignore file */
 import { createGlobalStyle } from 'styled-components';
-import { color, css, hsla, IGlobalDefault } from '../../theme';
+import { color, css, hsla, ITheme } from '../../theme';
 
-const GlobalDefault = createGlobalStyle<IGlobalDefault>`
+const GlobalDefault = createGlobalStyle<ITheme>`
   ${({ theme: { font, palette, isDark } }) => css`
     *:disabled,
     *[disabled] {

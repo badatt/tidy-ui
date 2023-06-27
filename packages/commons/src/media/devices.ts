@@ -1,22 +1,16 @@
-import { ITidyUITheme } from '../theme/types';
-
-/** @internal */
-interface IDeviceThemeProps {
-  /** *@internal */
-  theme: ITidyUITheme;
-}
+import { ITheme } from '../theme/types';
 
 /**
  * Devices
  *
- * @param {ITidyUITheme} props theme object
+ * @param {ITheme} props theme object
  * @returns {any} devices
  */
 const devices = {
   /**
    * Monitor device
    *
-   * @param {IDeviceThemeProps} device with theme
+   * @param {ITheme} device with theme
    * @returns {string} media query string
    */
   desktop: ({
@@ -25,11 +19,11 @@ const devices = {
         screens: { lg },
       },
     },
-  }: IDeviceThemeProps): string => `@media only screen and (min-width: ${lg.breakpoint}px)`,
+  }: ITheme): string => `@media only screen and (min-width: ${lg.breakpoint}px)`,
   /**
    * Laptop device
    *
-   * @param {IDeviceThemeProps} device with theme
+   * @param {ITheme} device with theme
    * @returns {string} media query string
    */
   laptop: ({
@@ -38,11 +32,11 @@ const devices = {
         screens: { md },
       },
     },
-  }: IDeviceThemeProps): string => `@media only screen and (min-width: ${md.breakpoint}px)`,
+  }: ITheme): string => `@media only screen and (min-width: ${md.breakpoint}px)`,
   /**
    * Mobile device
    *
-   * @param {IDeviceThemeProps} device with theme
+   * @param {ITheme} device with theme
    * @returns {string} media query string
    */
   mobile: ({
@@ -51,11 +45,11 @@ const devices = {
         screens: { xs },
       },
     },
-  }: IDeviceThemeProps): string => `@media only screen and (min-width: ${xs.breakpoint}px)`,
+  }: ITheme): string => `@media only screen and (min-width: ${xs.breakpoint}px)`,
   /**
    * Tablet device
    *
-   * @param {IDeviceThemeProps} device with theme
+   * @param {ITheme} device with theme
    * @returns {string} media query string
    */
   tablet: ({
@@ -64,11 +58,11 @@ const devices = {
         screens: { sm },
       },
     },
-  }: IDeviceThemeProps): string => `@media only screen and (min-width: ${sm.breakpoint}px)`,
+  }: ITheme): string => `@media only screen and (min-width: ${sm.breakpoint}px)`,
   /**
    * Tv device
    *
-   * @param {IDeviceThemeProps} device with theme
+   * @param {ITheme} device with theme
    * @returns {string} media query string
    */
   tv: ({
@@ -77,7 +71,7 @@ const devices = {
         screens: { xl },
       },
     },
-  }: IDeviceThemeProps): string => `@media only screen and (min-width: ${xl.breakpoint}px)`,
+  }: ITheme): string => `@media only screen and (min-width: ${xl.breakpoint}px)`,
 };
 
 export { devices };
