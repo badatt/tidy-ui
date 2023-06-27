@@ -144,9 +144,6 @@ const GlobalDefault = createGlobalStyle<IGlobalDefault>`
     td {
       text-align: center;
     }
-    caption {
-      padding: 10px;
-    }
   `}
 `;
 

@@ -21,12 +21,12 @@ Object {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  cursor: pointer;
   overflow-x: auto;
 }
 
 .c2 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -98,12 +98,12 @@ Object {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  cursor: pointer;
   overflow-x: auto;
 }
 
 .c2 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -230,12 +230,12 @@ Object {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  cursor: pointer;
   overflow-x: auto;
 }
 
 .c2 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -313,12 +313,12 @@ Object {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  cursor: pointer;
   overflow-x: auto;
 }
 
 .c2 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -451,12 +451,12 @@ Object {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  cursor: pointer;
   overflow-x: auto;
 }
 
 .c2 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -528,12 +528,12 @@ Object {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  cursor: pointer;
   overflow-x: auto;
 }
 
 .c2 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -660,13 +660,13 @@ Object {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  cursor: pointer;
   overflow-x: auto;
   border-bottom: 2px solid hsla(214,32%,91%,1);
 }
 
 .c2 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -675,6 +675,7 @@ Object {
 
 .c3 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -773,13 +774,13 @@ Object {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  cursor: pointer;
   overflow-x: auto;
   border-bottom: 2px solid hsla(214,32%,91%,1);
 }
 
 .c2 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -788,6 +789,7 @@ Object {
 
 .c3 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -941,13 +943,13 @@ Object {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  cursor: pointer;
   overflow-x: auto;
   border-bottom: 2px solid hsla(215,25%,27%,1);
 }
 
 .c2 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -956,6 +958,7 @@ Object {
 
 .c3 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -1054,13 +1057,13 @@ Object {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  cursor: pointer;
   overflow-x: auto;
   border-bottom: 2px solid hsla(215,25%,27%,1);
 }
 
 .c2 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -1069,6 +1072,7 @@ Object {
 
 .c3 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -1222,12 +1226,12 @@ Object {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  cursor: pointer;
   overflow-x: auto;
 }
 
 .c2 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -1236,6 +1240,7 @@ Object {
 
 .c3 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -1336,12 +1341,12 @@ Object {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  cursor: pointer;
   overflow-x: auto;
 }
 
 .c2 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -1350,6 +1355,7 @@ Object {
 
 .c3 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -1505,7 +1511,6 @@ Object {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  cursor: pointer;
   overflow-x: auto;
 }
 
@@ -1519,6 +1524,7 @@ Object {
 
 .c2 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -1528,6 +1534,7 @@ Object {
 
 .c3 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -1627,7 +1634,6 @@ Object {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  cursor: pointer;
   overflow-x: auto;
 }
 
@@ -1641,6 +1647,7 @@ Object {
 
 .c2 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -1650,6 +1657,7 @@ Object {
 
 .c3 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -1804,12 +1812,12 @@ Object {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  cursor: pointer;
   overflow-x: auto;
 }
 
 .c2 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -1819,6 +1827,7 @@ Object {
 
 .c3 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -1895,12 +1904,12 @@ Object {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  cursor: pointer;
   overflow-x: auto;
 }
 
 .c2 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -1910,6 +1919,7 @@ Object {
 
 .c3 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -2041,12 +2051,12 @@ Object {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  cursor: pointer;
   overflow-x: auto;
 }
 
 .c2 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -2056,6 +2066,7 @@ Object {
 
 .c3 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -2143,12 +2154,12 @@ Object {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  cursor: pointer;
   overflow-x: auto;
 }
 
 .c2 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
@@ -2158,6 +2169,7 @@ Object {
 
 .c3 {
   white-space: nowrap;
+  cursor: pointer;
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
