@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/drawer",
-  "version": "0.41.0",
+  "version": "0.42.0",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:drawer",
@@ -13,7 +13,7 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/commons": "^0.41.0"
+    "@tidy-ui/commons": "^0.42.0"
   },
   "peerDependencies": {
     "react": "^18.0.0",
