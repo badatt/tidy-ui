@@ -3,8 +3,7 @@
  */
 import React from 'react';
 import { act } from 'react-dom/test-utils';
-import { fireEvent, getByRole, render, screen } from '@testing-library/react';
-import userEvent from '@testing-library/user-event';
+import { fireEvent, render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
@@ -52,7 +51,7 @@ describe('Message', () => {
         {Object.values(Tone)
           .filter((i) => !isNaN(Number(i)))
           .map((c, i) => (
-            <Message tone={Tone[c]} key={i}>
+            <Message tone={Tone[c]} key={c}>
               {text}
             </Message>
           ))}
@@ -88,10 +87,10 @@ describe('Message', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-  it('Message stretched to full width', () => {
+  it('Message fit to content only', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Message isStretched>{text}</Message>
+        <Message isStretched={false}>{text}</Message>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -131,23 +130,35 @@ describe('Message', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it.skip('Closable message without any callback', () => {
+  it('Closable message without any callback', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
         <Message closable>{text}</Message>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
-    const { container } = tree;
     act(() => {
-      userEvent.hover(container);
-      const closeButton = screen.getByRole('button');
-      expect(closeButton).toBeVisible();
+      const closeButton = screen.getByRole('button', { hidden: true });
       fireEvent.click(closeButton);
-      expect(closeButton).not.toBeVisible();
     });
   });
-  it.skip('Closable message with an onClose callback', () => {
+
+  it('Closable message without any callback filled', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidDark}>
+        <Message closable isFilled>
+          {text}
+        </Message>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+    act(() => {
+      const closeButton = screen.getByRole('button', { hidden: true });
+      fireEvent.click(closeButton);
+    });
+  });
+
+  it('Closable message with an onClose callback', () => {
     const mockCallback = jest.fn();
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
@@ -157,13 +168,9 @@ describe('Message', () => {
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
-    const { container } = tree;
     act(() => {
-      userEvent.hover(container);
-      const closeButton = screen.getByTestId('close-button');
-      expect(closeButton).toBeVisible();
+      const closeButton = screen.getByRole('button', { hidden: true });
       fireEvent.click(closeButton);
-      expect(closeButton).not.toBeVisible();
     });
     expect(mockCallback).toBeCalled();
   });

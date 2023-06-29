@@ -30,7 +30,7 @@ export const girths = () => {
       {Object.keys(Girth)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
-          <Avatar girth={Girth[v]} key={i} />
+          <Avatar girth={Girth[v]} key={v} />
         ))}
     </FlexBox>
   );
@@ -42,7 +42,7 @@ export const withImage = () => {
       {Object.keys(Girth)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
-          <Avatar src="https://bit.ly/kent-c-dodds" girth={Girth[v]} key={i} />
+          <Avatar src="https://bit.ly/kent-c-dodds" girth={Girth[v]} key={v} />
         ))}
     </FlexBox>
   );
@@ -54,7 +54,7 @@ export const withName = () => {
       {Object.keys(Girth)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
-          <Avatar name={`Girth${Girth[v]} ${i}Ipsum`} girth={Girth[v]} key={i} />
+          <Avatar name={`Girth${Girth[v]} ${i}Ipsum`} girth={Girth[v]} key={v} />
         ))}
     </FlexBox>
   );
@@ -66,7 +66,7 @@ export const withIcon = () => {
       {Object.keys(Girth)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
-          <Avatar icon={<Icon.RotatingCircle />} girth={Girth[v]} key={i} />
+          <Avatar icon={<Icon.RotatingCircle />} girth={Girth[v]} key={v} />
         ))}
     </FlexBox>
   );
@@ -78,7 +78,7 @@ export const accent = () => {
       {Object.keys(Girth)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
-          <Avatar girth={Girth[v]} accent={hsla(color.green[600])} key={i} />
+          <Avatar girth={Girth[v]} accent={hsla(color.green[600])} key={v} />
         ))}
     </FlexBox>
   );
@@ -90,7 +90,7 @@ export const withBadge = () => {
       {Object.keys(Girth)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
-          <Avatar src="https://bit.ly/sage-adebayo" girth={Girth[v]} key={i}>
+          <Avatar src="https://bit.ly/sage-adebayo" girth={Girth[v]} key={v}>
             <Avatar.Badge tone={hsla(color.green[600])} />
           </Avatar>
         ))}

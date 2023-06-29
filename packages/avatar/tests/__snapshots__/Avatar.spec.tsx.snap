@@ -281,6 +281,15 @@ Object {
 }
 
 .c2 {
+  border-radius: 50%;
+  -webkit-animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  font-size: 3rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.c3 {
   object-fit: cover;
   border-radius: 50%;
   font-size: 3rem;
@@ -288,7 +297,7 @@ Object {
   width: 3rem;
 }
 
-.c3 {
+.c4 {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -312,12 +321,17 @@ Object {
         <div
           class="c1"
         >
-          <img
+          <div
             class="c2"
+          />
+          <img
+            class="c3"
+            role="img"
             src="https://bit.ly/sage-adebayo"
+            style="display: none;"
           />
           <div
-            class="c3"
+            class="c4"
           />
         </div>
       </div>
@@ -360,6 +374,15 @@ Object {
 }
 
 .c2 {
+  border-radius: 50%;
+  -webkit-animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  font-size: 3rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.c3 {
   object-fit: cover;
   border-radius: 50%;
   font-size: 3rem;
@@ -367,7 +390,7 @@ Object {
   width: 3rem;
 }
 
-.c3 {
+.c4 {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -390,12 +413,17 @@ Object {
       <div
         class="c1"
       >
-        <img
+        <div
           class="c2"
+        />
+        <img
+          class="c3"
+          role="img"
           src="https://bit.ly/sage-adebayo"
+          style="display: none;"
         />
         <div
-          class="c3"
+          class="c4"
         />
       </div>
     </div>
@@ -494,6 +522,15 @@ Object {
 }
 
 .c2 {
+  border-radius: 50%;
+  -webkit-animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  font-size: 3rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.c3 {
   object-fit: cover;
   border-radius: 50%;
   font-size: 3rem;
@@ -501,7 +538,7 @@ Object {
   width: 3rem;
 }
 
-.c3 {
+.c4 {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -526,12 +563,17 @@ Object {
         <div
           class="c1"
         >
-          <img
+          <div
             class="c2"
+          />
+          <img
+            class="c3"
+            role="img"
             src="https://bit.ly/sage-adebayo"
+            style="display: none;"
           />
           <div
-            class="c3"
+            class="c4"
           />
         </div>
       </div>
@@ -574,6 +616,15 @@ Object {
 }
 
 .c2 {
+  border-radius: 50%;
+  -webkit-animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  font-size: 3rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.c3 {
   object-fit: cover;
   border-radius: 50%;
   font-size: 3rem;
@@ -581,7 +632,7 @@ Object {
   width: 3rem;
 }
 
-.c3 {
+.c4 {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -605,12 +656,17 @@ Object {
       <div
         class="c1"
       >
-        <img
+        <div
           class="c2"
+        />
+        <img
+          class="c3"
+          role="img"
           src="https://bit.ly/sage-adebayo"
+          style="display: none;"
         />
         <div
-          class="c3"
+          class="c4"
         />
       </div>
     </div>
@@ -1082,6 +1138,213 @@ Object {
             />
           </svg>
         </span>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Avatar Dark mode loaded state check 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50%;
+  border-width: 0.15em;
+  border-style: solid;
+  border-color: transparent;
+}
+
+.c2 {
+  border-radius: 50%;
+  -webkit-animation: 0.8s linear 0s infinite alternate none running eBbwcx;
+  animation: 0.8s linear 0s infinite alternate none running eBbwcx;
+  font-size: 3rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.c3 {
+  object-fit: cover;
+  border-radius: 50%;
+  font-size: 3rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+        role="avatar"
+        src="https://bit.ly/sage-adebayo"
+      >
+        <div
+          class="c1"
+        >
+          <div
+            class="c2"
+          />
+          <img
+            class="c3"
+            role="img"
+            src="https://bit.ly/sage-adebayo"
+            style="display: none;"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50%;
+  border-width: 0.15em;
+  border-style: solid;
+  border-color: transparent;
+}
+
+.c2 {
+  border-radius: 50%;
+  -webkit-animation: 0.8s linear 0s infinite alternate none running eBbwcx;
+  animation: 0.8s linear 0s infinite alternate none running eBbwcx;
+  font-size: 3rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.c3 {
+  object-fit: cover;
+  border-radius: 50%;
+  font-size: 3rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+<div>
+    <div
+      class="c0"
+      role="avatar"
+      src="https://bit.ly/sage-adebayo"
+    >
+      <div
+        class="c1"
+      >
+        <div
+          class="c2"
+        />
+        <img
+          class="c3"
+          role="img"
+          src="https://bit.ly/sage-adebayo"
+          style="display: none;"
+        />
       </div>
     </div>
   </div>,
@@ -2040,6 +2303,15 @@ Object {
 }
 
 .c4 {
+  border-radius: 50%;
+  -webkit-animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  font-size: 3rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.c5 {
   object-fit: cover;
   border-radius: 50%;
   font-size: 3rem;
@@ -2047,7 +2319,7 @@ Object {
   width: 3rem;
 }
 
-.c5 {
+.c6 {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -2111,12 +2383,17 @@ Object {
           <div
             class="c2"
           >
-            <img
+            <div
               class="c4"
+            />
+            <img
+              class="c5"
+              role="img"
               src="https://bit.ly/sage-adebayo"
+              style="display: none;"
             />
             <div
-              class="c5"
+              class="c6"
             />
           </div>
         </div>
@@ -2128,9 +2405,14 @@ Object {
           <div
             class="c2"
           >
-            <img
+            <div
               class="c4"
+            />
+            <img
+              class="c5"
+              role="img"
               src="https://bit.ly/ryan-florence"
+              style="display: none;"
             />
           </div>
         </div>
@@ -2200,6 +2482,15 @@ Object {
 }
 
 .c4 {
+  border-radius: 50%;
+  -webkit-animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  font-size: 3rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.c5 {
   object-fit: cover;
   border-radius: 50%;
   font-size: 3rem;
@@ -2207,7 +2498,7 @@ Object {
   width: 3rem;
 }
 
-.c5 {
+.c6 {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -2270,12 +2561,17 @@ Object {
         <div
           class="c2"
         >
-          <img
+          <div
             class="c4"
+          />
+          <img
+            class="c5"
+            role="img"
             src="https://bit.ly/sage-adebayo"
+            style="display: none;"
           />
           <div
-            class="c5"
+            class="c6"
           />
         </div>
       </div>
@@ -2287,9 +2583,14 @@ Object {
         <div
           class="c2"
         >
-          <img
+          <div
             class="c4"
+          />
+          <img
+            class="c5"
+            role="img"
             src="https://bit.ly/ryan-florence"
+            style="display: none;"
           />
         </div>
       </div>
@@ -2476,6 +2777,15 @@ Object {
 }
 
 .c4 {
+  border-radius: 50%;
+  -webkit-animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  font-size: 3rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.c5 {
   object-fit: cover;
   border-radius: 50%;
   font-size: 3rem;
@@ -2483,7 +2793,7 @@ Object {
   width: 3rem;
 }
 
-.c5 {
+.c6 {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -2547,12 +2857,17 @@ Object {
           <div
             class="c2"
           >
-            <img
+            <div
               class="c4"
+            />
+            <img
+              class="c5"
+              role="img"
               src="https://bit.ly/sage-adebayo"
+              style="display: none;"
             />
             <div
-              class="c5"
+              class="c6"
             />
           </div>
         </div>
@@ -2564,9 +2879,14 @@ Object {
           <div
             class="c2"
           >
-            <img
+            <div
               class="c4"
+            />
+            <img
+              class="c5"
+              role="img"
               src="https://bit.ly/ryan-florence"
+              style="display: none;"
             />
           </div>
         </div>
@@ -2660,6 +2980,15 @@ Object {
 }
 
 .c4 {
+  border-radius: 50%;
+  -webkit-animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  font-size: 3rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.c5 {
   object-fit: cover;
   border-radius: 50%;
   font-size: 3rem;
@@ -2667,7 +2996,7 @@ Object {
   width: 3rem;
 }
 
-.c5 {
+.c6 {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -2730,12 +3059,17 @@ Object {
         <div
           class="c2"
         >
-          <img
+          <div
             class="c4"
+          />
+          <img
+            class="c5"
+            role="img"
             src="https://bit.ly/sage-adebayo"
+            style="display: none;"
           />
           <div
-            class="c5"
+            class="c6"
           />
         </div>
       </div>
@@ -2747,9 +3081,14 @@ Object {
         <div
           class="c2"
         >
-          <img
+          <div
             class="c4"
+          />
+          <img
+            class="c5"
+            role="img"
             src="https://bit.ly/ryan-florence"
+            style="display: none;"
           />
         </div>
       </div>
@@ -2899,6 +3238,15 @@ Object {
 }
 
 .c4 {
+  border-radius: 50%;
+  -webkit-animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  font-size: 3rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.c5 {
   object-fit: cover;
   border-radius: 50%;
   font-size: 3rem;
@@ -2906,7 +3254,7 @@ Object {
   width: 3rem;
 }
 
-.c5 {
+.c6 {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -2970,12 +3318,17 @@ Object {
           <div
             class="c2"
           >
-            <img
+            <div
               class="c4"
+            />
+            <img
+              class="c5"
+              role="img"
               src="https://bit.ly/sage-adebayo"
+              style="display: none;"
             />
             <div
-              class="c5"
+              class="c6"
             />
           </div>
         </div>
@@ -2987,9 +3340,14 @@ Object {
           <div
             class="c2"
           >
-            <img
+            <div
               class="c4"
+            />
+            <img
+              class="c5"
+              role="img"
               src="https://bit.ly/ryan-florence"
+              style="display: none;"
             />
           </div>
         </div>
@@ -3083,6 +3441,15 @@ Object {
 }
 
 .c4 {
+  border-radius: 50%;
+  -webkit-animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  font-size: 3rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.c5 {
   object-fit: cover;
   border-radius: 50%;
   font-size: 3rem;
@@ -3090,7 +3457,7 @@ Object {
   width: 3rem;
 }
 
-.c5 {
+.c6 {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -3153,12 +3520,17 @@ Object {
         <div
           class="c2"
         >
-          <img
+          <div
             class="c4"
+          />
+          <img
+            class="c5"
+            role="img"
             src="https://bit.ly/sage-adebayo"
+            style="display: none;"
           />
           <div
-            class="c5"
+            class="c6"
           />
         </div>
       </div>
@@ -3170,9 +3542,14 @@ Object {
         <div
           class="c2"
         >
-          <img
+          <div
             class="c4"
+          />
+          <img
+            class="c5"
+            role="img"
             src="https://bit.ly/ryan-florence"
+            style="display: none;"
           />
         </div>
       </div>
@@ -3322,6 +3699,15 @@ Object {
 }
 
 .c4 {
+  border-radius: 50%;
+  -webkit-animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  font-size: 3rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.c5 {
   object-fit: cover;
   border-radius: 50%;
   font-size: 3rem;
@@ -3329,7 +3715,7 @@ Object {
   width: 3rem;
 }
 
-.c5 {
+.c6 {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -3393,12 +3779,17 @@ Object {
           <div
             class="c2"
           >
-            <img
+            <div
               class="c4"
+            />
+            <img
+              class="c5"
+              role="img"
               src="https://bit.ly/sage-adebayo"
+              style="display: none;"
             />
             <div
-              class="c5"
+              class="c6"
             />
           </div>
         </div>
@@ -3410,9 +3801,14 @@ Object {
           <div
             class="c2"
           >
-            <img
+            <div
               class="c4"
+            />
+            <img
+              class="c5"
+              role="img"
               src="https://bit.ly/ryan-florence"
+              style="display: none;"
             />
           </div>
         </div>
@@ -3506,6 +3902,15 @@ Object {
 }
 
 .c4 {
+  border-radius: 50%;
+  -webkit-animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  font-size: 3rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.c5 {
   object-fit: cover;
   border-radius: 50%;
   font-size: 3rem;
@@ -3513,7 +3918,7 @@ Object {
   width: 3rem;
 }
 
-.c5 {
+.c6 {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -3576,12 +3981,17 @@ Object {
         <div
           class="c2"
         >
-          <img
+          <div
             class="c4"
+          />
+          <img
+            class="c5"
+            role="img"
             src="https://bit.ly/sage-adebayo"
+            style="display: none;"
           />
           <div
-            class="c5"
+            class="c6"
           />
         </div>
       </div>
@@ -3593,9 +4003,14 @@ Object {
         <div
           class="c2"
         >
-          <img
+          <div
             class="c4"
+          />
+          <img
+            class="c5"
+            role="img"
             src="https://bit.ly/ryan-florence"
+            style="display: none;"
           />
         </div>
       </div>
@@ -3745,6 +4160,15 @@ Object {
 }
 
 .c4 {
+  border-radius: 50%;
+  -webkit-animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  font-size: 3rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.c5 {
   object-fit: cover;
   border-radius: 50%;
   font-size: 3rem;
@@ -3752,7 +4176,7 @@ Object {
   width: 3rem;
 }
 
-.c5 {
+.c6 {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -3816,12 +4240,17 @@ Object {
           <div
             class="c2"
           >
-            <img
+            <div
               class="c4"
+            />
+            <img
+              class="c5"
+              role="img"
               src="https://bit.ly/sage-adebayo"
+              style="display: none;"
             />
             <div
-              class="c5"
+              class="c6"
             />
           </div>
         </div>
@@ -3939,6 +4368,15 @@ Object {
 }
 
 .c4 {
+  border-radius: 50%;
+  -webkit-animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  font-size: 3rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.c5 {
   object-fit: cover;
   border-radius: 50%;
   font-size: 3rem;
@@ -3946,7 +4384,7 @@ Object {
   width: 3rem;
 }
 
-.c5 {
+.c6 {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -4009,12 +4447,17 @@ Object {
         <div
           class="c2"
         >
-          <img
+          <div
             class="c4"
+          />
+          <img
+            class="c5"
+            role="img"
             src="https://bit.ly/sage-adebayo"
+            style="display: none;"
           />
           <div
-            class="c5"
+            class="c6"
           />
         </div>
       </div>
@@ -4328,6 +4771,213 @@ Object {
             </path>
           </svg>
         </span>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Avatar Loaded state check 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50%;
+  border-width: 0.15em;
+  border-style: solid;
+  border-color: transparent;
+}
+
+.c2 {
+  border-radius: 50%;
+  -webkit-animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  font-size: 3rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.c3 {
+  object-fit: cover;
+  border-radius: 50%;
+  font-size: 3rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+        role="avatar"
+        src="https://bit.ly/sage-adebayo"
+      >
+        <div
+          class="c1"
+        >
+          <div
+            class="c2"
+          />
+          <img
+            class="c3"
+            role="img"
+            src="https://bit.ly/sage-adebayo"
+            style="display: none;"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50%;
+  border-width: 0.15em;
+  border-style: solid;
+  border-color: transparent;
+}
+
+.c2 {
+  border-radius: 50%;
+  -webkit-animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  font-size: 3rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.c3 {
+  object-fit: cover;
+  border-radius: 50%;
+  font-size: 3rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+<div>
+    <div
+      class="c0"
+      role="avatar"
+      src="https://bit.ly/sage-adebayo"
+    >
+      <div
+        class="c1"
+      >
+        <div
+          class="c2"
+        />
+        <img
+          class="c3"
+          role="img"
+          src="https://bit.ly/sage-adebayo"
+          style="display: none;"
+        />
       </div>
     </div>
   </div>,

@@ -6,7 +6,7 @@ import { Frame } from '../src';
 import { useTimeout } from '@tidy-ui/commons';
 
 const meta: Meta<typeof Frame> = {
-  title: 'Presentation/Frame',
+  title: 'Layout/Frame',
   component: Frame,
 };
 

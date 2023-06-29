@@ -2,7 +2,7 @@ import React from 'react';
 import { Icon } from '@tidy-ui/commons';
 import { AvatarBadge } from './AvatarBadge';
 import { AvatarGroup } from './AvatarGroup';
-import { AvatarIcon, AvatarImage, AvatarName, AvatarRoot, AvatarWrap } from './components';
+import { AvatarFrame, AvatarIcon, AvatarImage, AvatarName, AvatarRoot, AvatarWrap } from './components';
 import { IAvatarProps } from './types';
 
 /** @internal */
@@ -16,6 +16,7 @@ interface AvatarComponent extends React.ForwardRefExoticComponent<IAvatarProps &
 const Avatar = React.forwardRef<HTMLDivElement, IAvatarProps>((props, ref) => {
   const { children, ...rest } = props;
   const { icon, girth, name, src } = rest;
+  const [isLoaded, setLoaded] = React.useState(false);
 
   const renderChildren = React.useCallback(
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -36,7 +37,13 @@ const Avatar = React.forwardRef<HTMLDivElement, IAvatarProps>((props, ref) => {
     return (
       <AvatarRoot ref={ref} role="avatar" {...rest}>
         <AvatarWrap>
-          <AvatarImage {...{ girth, src }} />
+          {isLoaded ? null : <AvatarFrame {...{ girth }} />}
+          <AvatarImage
+            role="img"
+            {...{ girth, src }}
+            style={isLoaded ? {} : { display: 'none' }}
+            onLoad={() => setLoaded(true)}
+          />
           {renderChildren(children)}
         </AvatarWrap>
       </AvatarRoot>

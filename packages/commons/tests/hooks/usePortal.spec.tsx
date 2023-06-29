@@ -6,6 +6,7 @@ import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidLight, usePortal, TidyUiProvider } from '../../src';
+import * as isValidDom from '../../src/utils/isValidDom';
 
 describe('usePortal', () => {
   it('Should create Portal on body', () => {
@@ -49,6 +50,21 @@ describe('usePortal', () => {
   });
   it('Should work on empty input', () => {
     const TestComponent = () => {
+      const { Portal } = usePortal();
+      return <Portal>portal</Portal>;
+    };
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <div id="sample"></div>
+        <TestComponent />
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+  it('Not a valid dom', () => {
+    const TestComponent = () => {
+      const spy = jest.spyOn(isValidDom, 'default');
+      spy.mockReturnValue(false);
       const { Portal } = usePortal();
       return <Portal>portal</Portal>;
     };

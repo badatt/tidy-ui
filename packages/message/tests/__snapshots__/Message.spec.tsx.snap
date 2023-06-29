@@ -410,15 +410,24 @@ exports[`Message Closable message with an onClose callback 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c3 {
-  height: 1rem;
-  width: 1rem;
-  min-width: 1rem;
-  display: none;
-  cursor: pointer;
   position: absolute;
+  right: 0;
   top: 0;
-  right: 2px;
-  color: hsla(221,83%,53%,1);
+  -webkit-transform: translate(-10%,10%);
+  -ms-transform: translate(-10%,10%);
+  transform: translate(-10%,10%);
+  height: 2rem;
+  width: 2rem;
+  visibility: hidden;
+  cursor: pointer;
+  padding: 0.25rem;
+  background-color: hsla(215,25%,27%,0.1);
+  border-radius: 0.5rem;
+  color: hsla(0,0%,32%,1);
+}
+
+.c3:hover {
+  background-color: hsla(215,25%,27%,0.2);
 }
 
 .c0 {
@@ -444,9 +453,9 @@ Object {
   font-size: 0.625rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: hsla(224,76%,48%,1);
-  background-color: hsla(214,95%,93%,0.4);
-  border: 1px solid hsla(213,94%,68%,1);
+  color: hsla(0,0%,25%,1);
+  border: 1px solid hsla(0,0%,64%,1);
+  background-color: hsla(0,0%,90%,0.4);
   border-bottom: 0;
 }
 
@@ -466,16 +475,16 @@ Object {
   line-height: 1.5;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
+  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: hsla(224,76%,48%,1);
-  border: 1px solid hsla(213,94%,68%,1);
+  width: 100%;
+  color: hsla(0,0%,25%,1);
+  border: 1px solid hsla(0,0%,64%,1);
+  background-color: hsla(0,0%,90%,0.4);
 }
 
 .c1:hover .c2 {
-  display: block;
+  visibility: visible;
 }
 
 <body>
@@ -487,18 +496,7 @@ Object {
         <div
           class="c0"
         >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
-            />
-          </svg>
-          info
+          neutral
         </div>
         <div
           class="c1"
@@ -528,15 +526,24 @@ Object {
     </div>
   </body>,
   "container": .c3 {
-  height: 1rem;
-  width: 1rem;
-  min-width: 1rem;
-  display: none;
-  cursor: pointer;
   position: absolute;
+  right: 0;
   top: 0;
-  right: 2px;
-  color: hsla(221,83%,53%,1);
+  -webkit-transform: translate(-10%,10%);
+  -ms-transform: translate(-10%,10%);
+  transform: translate(-10%,10%);
+  height: 2rem;
+  width: 2rem;
+  visibility: hidden;
+  cursor: pointer;
+  padding: 0.25rem;
+  background-color: hsla(215,25%,27%,0.1);
+  border-radius: 0.5rem;
+  color: hsla(0,0%,32%,1);
+}
+
+.c3:hover {
+  background-color: hsla(215,25%,27%,0.2);
 }
 
 .c0 {
@@ -562,9 +569,9 @@ Object {
   font-size: 0.625rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: hsla(224,76%,48%,1);
-  background-color: hsla(214,95%,93%,0.4);
-  border: 1px solid hsla(213,94%,68%,1);
+  color: hsla(0,0%,25%,1);
+  border: 1px solid hsla(0,0%,64%,1);
+  background-color: hsla(0,0%,90%,0.4);
   border-bottom: 0;
 }
 
@@ -584,16 +591,16 @@ Object {
   line-height: 1.5;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
+  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   border-top-left-radius: 0;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  color: hsla(224,76%,48%,1);
-  border: 1px solid hsla(213,94%,68%,1);
+  width: 100%;
+  color: hsla(0,0%,25%,1);
+  border: 1px solid hsla(0,0%,64%,1);
+  background-color: hsla(0,0%,90%,0.4);
 }
 
 .c1:hover .c2 {
-  display: block;
+  visibility: visible;
 }
 
 <div>
@@ -604,18 +611,7 @@ Object {
       <div
         class="c0"
       >
-        <svg
-          aria-hidden="true"
-          fill="currentColor"
-          focusable="false"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
-          />
-        </svg>
-        info
+        neutral
       </div>
       <div
         class="c1"
@@ -701,15 +697,24 @@ exports[`Message Closable message without any callback 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c3 {
-  height: 1rem;
-  width: 1rem;
-  min-width: 1rem;
-  display: none;
-  cursor: pointer;
   position: absolute;
+  right: 0;
   top: 0;
-  right: 2px;
+  -webkit-transform: translate(-10%,10%);
+  -ms-transform: translate(-10%,10%);
+  transform: translate(-10%,10%);
+  height: 2rem;
+  width: 2rem;
+  visibility: hidden;
+  cursor: pointer;
+  padding: 0.25rem;
+  background-color: hsla(215,25%,27%,0.1);
+  border-radius: 0.5rem;
   color: hsla(0,0%,64%,1);
+}
+
+.c3:hover {
+  background-color: hsla(215,25%,27%,0.2);
 }
 
 .c0 {
@@ -736,8 +741,8 @@ Object {
   font-weight: 700;
   text-transform: uppercase;
   color: hsla(0,0%,83%,1);
-  background-color: hsla(0,0%,9%,0.4);
-  border: 1px solid hsla(0,0%,45%,1);
+  border: 1px solid hsla(0,0%,9%,0.7);
+  background-color: hsla(0,0%,25%,0.1);
   border-bottom: 0;
 }
 
@@ -757,14 +762,16 @@ Object {
   line-height: 1.5;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
+  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   border-top-left-radius: 0;
   width: 100%;
   color: hsla(0,0%,83%,1);
-  border: 1px solid hsla(0,0%,45%,1);
+  border: 1px solid hsla(0,0%,9%,0.7);
+  background-color: hsla(0,0%,25%,0.1);
 }
 
 .c1:hover .c2 {
-  display: block;
+  visibility: visible;
 }
 
 <body>
@@ -806,15 +813,24 @@ Object {
     </div>
   </body>,
   "container": .c3 {
-  height: 1rem;
-  width: 1rem;
-  min-width: 1rem;
-  display: none;
-  cursor: pointer;
   position: absolute;
+  right: 0;
   top: 0;
-  right: 2px;
+  -webkit-transform: translate(-10%,10%);
+  -ms-transform: translate(-10%,10%);
+  transform: translate(-10%,10%);
+  height: 2rem;
+  width: 2rem;
+  visibility: hidden;
+  cursor: pointer;
+  padding: 0.25rem;
+  background-color: hsla(215,25%,27%,0.1);
+  border-radius: 0.5rem;
   color: hsla(0,0%,64%,1);
+}
+
+.c3:hover {
+  background-color: hsla(215,25%,27%,0.2);
 }
 
 .c0 {
@@ -841,8 +857,8 @@ Object {
   font-weight: 700;
   text-transform: uppercase;
   color: hsla(0,0%,83%,1);
-  background-color: hsla(0,0%,9%,0.4);
-  border: 1px solid hsla(0,0%,45%,1);
+  border: 1px solid hsla(0,0%,9%,0.7);
+  background-color: hsla(0,0%,25%,0.1);
   border-bottom: 0;
 }
 
@@ -862,14 +878,16 @@ Object {
   line-height: 1.5;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
+  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   border-top-left-radius: 0;
   width: 100%;
   color: hsla(0,0%,83%,1);
-  border: 1px solid hsla(0,0%,45%,1);
+  border: 1px solid hsla(0,0%,9%,0.7);
+  background-color: hsla(0,0%,25%,0.1);
 }
 
 .c1:hover .c2 {
-  display: block;
+  visibility: visible;
 }
 
 <div>
@@ -905,6 +923,494 @@ Object {
             />
           </svg>
         </span>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Message Closable message without any callback filled 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c3 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transform: translate(-10%,10%);
+  -ms-transform: translate(-10%,10%);
+  transform: translate(-10%,10%);
+  height: 2rem;
+  width: 2rem;
+  visibility: hidden;
+  cursor: pointer;
+  padding: 0.25rem;
+  background-color: hsla(215,25%,27%,0.1);
+  border-radius: 0.5rem;
+  color: hsla(0,0%,98%,1);
+}
+
+.c3:hover {
+  background-color: hsla(215,25%,27%,0.2);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.25rem 1rem;
+  font-size: 0.625rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: hsla(0,0%,15%,0.5);
+  color: hsla(0,0%,98%,1);
+}
+
+.c0 * {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.c1 {
+  position: relative;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
+  border-top-left-radius: 0;
+  width: 100%;
+  color: hsla(0,0%,98%,1);
+  background-color: hsla(0,0%,25%,0.5);
+}
+
+.c1:hover .c2 {
+  visibility: visible;
+}
+
+<body>
+    <div>
+      <div
+        class=""
+        role="note"
+      >
+        <div
+          class="c0"
+        >
+          neutral
+        </div>
+        <div
+          class="c1"
+        >
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
+      ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
+      eaque!
+          <span
+            class="c2 c3"
+            data-test-id="close-button"
+            role="button"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .c3 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transform: translate(-10%,10%);
+  -ms-transform: translate(-10%,10%);
+  transform: translate(-10%,10%);
+  height: 2rem;
+  width: 2rem;
+  visibility: hidden;
+  cursor: pointer;
+  padding: 0.25rem;
+  background-color: hsla(215,25%,27%,0.1);
+  border-radius: 0.5rem;
+  color: hsla(0,0%,98%,1);
+}
+
+.c3:hover {
+  background-color: hsla(215,25%,27%,0.2);
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.25rem 1rem;
+  font-size: 0.625rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: hsla(0,0%,15%,0.5);
+  color: hsla(0,0%,98%,1);
+}
+
+.c0 * {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.c1 {
+  position: relative;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
+  border-top-left-radius: 0;
+  width: 100%;
+  color: hsla(0,0%,98%,1);
+  background-color: hsla(0,0%,25%,0.5);
+}
+
+.c1:hover .c2 {
+  visibility: visible;
+}
+
+<div>
+    <div
+      class=""
+      role="note"
+    >
+      <div
+        class="c0"
+      >
+        neutral
+      </div>
+      <div
+        class="c1"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
+      ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
+      eaque!
+        <span
+          class="c2 c3"
+          data-test-id="close-button"
+          role="button"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Message Message fit to content only 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.25rem 1rem;
+  font-size: 0.625rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: hsla(0,0%,25%,1);
+  border: 1px solid hsla(0,0%,64%,1);
+  background-color: hsla(0,0%,90%,0.4);
+  border-bottom: 0;
+}
+
+.c0 * {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.c1 {
+  position: relative;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
+  border-top-left-radius: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: hsla(0,0%,25%,1);
+  border: 1px solid hsla(0,0%,64%,1);
+  background-color: hsla(0,0%,90%,0.4);
+}
+
+<body>
+    <div>
+      <div
+        class=""
+        role="note"
+      >
+        <div
+          class="c0"
+        >
+          neutral
+        </div>
+        <div
+          class="c1"
+        >
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
+      ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
+      eaque!
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.25rem 1rem;
+  font-size: 0.625rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: hsla(0,0%,25%,1);
+  border: 1px solid hsla(0,0%,64%,1);
+  background-color: hsla(0,0%,90%,0.4);
+  border-bottom: 0;
+}
+
+.c0 * {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.c1 {
+  position: relative;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
+  border-top-left-radius: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: hsla(0,0%,25%,1);
+  border: 1px solid hsla(0,0%,64%,1);
+  background-color: hsla(0,0%,90%,0.4);
+}
+
+<div>
+    <div
+      class=""
+      role="note"
+    >
+      <div
+        class="c0"
+      >
+        neutral
+      </div>
+      <div
+        class="c1"
+      >
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
+      ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
+      eaque!
       </div>
     </div>
   </div>,
@@ -2032,209 +2538,6 @@ Object {
       </div>
       <div
         class="c13"
-      >
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
-      ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
-      eaque!
-      </div>
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Message Message stretched to full width 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: hsla(0,0%,25%,1);
-  border: 1px solid hsla(0,0%,64%,1);
-  background-color: hsla(0,0%,90%,0.4);
-  border-bottom: 0;
-}
-
-.c0 * {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c1 {
-  position: relative;
-  font-size: 1rem;
-  font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  border-top-left-radius: 0;
-  width: 100%;
-  color: hsla(0,0%,25%,1);
-  border: 1px solid hsla(0,0%,64%,1);
-  background-color: hsla(0,0%,90%,0.4);
-}
-
-<body>
-    <div>
-      <div
-        class=""
-        role="note"
-      >
-        <div
-          class="c0"
-        >
-          neutral
-        </div>
-        <div
-          class="c1"
-        >
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
-      ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
-      eaque!
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": .c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 2px;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.25rem 1rem;
-  font-size: 0.625rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: hsla(0,0%,25%,1);
-  border: 1px solid hsla(0,0%,64%,1);
-  background-color: hsla(0,0%,90%,0.4);
-  border-bottom: 0;
-}
-
-.c0 * {
-  height: 0.75rem;
-  width: 0.75rem;
-}
-
-.c1 {
-  position: relative;
-  font-size: 1rem;
-  font-weight: 400;
-  -webkit-letter-spacing: 0.00938em;
-  -moz-letter-spacing: 0.00938em;
-  -ms-letter-spacing: 0.00938em;
-  letter-spacing: 0.00938em;
-  line-height: 1.5;
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  border-top-left-radius: 0;
-  width: 100%;
-  color: hsla(0,0%,25%,1);
-  border: 1px solid hsla(0,0%,64%,1);
-  background-color: hsla(0,0%,90%,0.4);
-}
-
-<div>
-    <div
-      class=""
-      role="note"
-    >
-      <div
-        class="c0"
-      >
-        neutral
-      </div>
-      <div
-        class="c1"
       >
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia nostrum voluptatibus distinctio at sapiente
       ratione blanditiis cum quam fugit commodi odit, hic eius itaque exercitationem vitae voluptates modi accusamus
