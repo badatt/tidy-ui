@@ -278,7 +278,7 @@ Object {
 exports[`Notification Custom Icon 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c3 {
+  "baseElement": .c4 {
   position: absolute;
   right: 0;
   height: 2rem;
@@ -288,10 +288,10 @@ Object {
   padding: 4px;
   border-radius: 50%;
   background-color: hsla(215,25%,27%,0.1);
-  color: hsla(0,0%,32%,1);
+  color: hsla(142,76%,36%,1);
 }
 
-.c3:hover {
+.c4:hover {
   background-color: hsla(215,25%,27%,0.2);
 }
 
@@ -308,16 +308,16 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  color: hsla(0,0%,25%,1);
-  border: 1px solid hsla(0,0%,64%,1);
-  background-color: hsla(0,0%,90%,0.4);
+  color: hsla(142,72%,29%,1);
+  border: 1px solid hsla(142,69%,58%,1);
+  background-color: hsla(141,79%,85%,0.4);
 }
 
-.c0:hover .c2 {
+.c0:hover .c3 {
   visibility: visible;
 }
 
-.c4 {
+.c5 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -328,6 +328,40 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
+  margin-left: 2rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
+  color: hsla(142,76%,36%,1);
+}
+
+.c2 svg {
+  height: 1.5rem;
+  width: 1.5rem;
 }
 
 .c1 {
@@ -338,7 +372,7 @@ Object {
   position: relative;
 }
 
-.c5 {
+.c6 {
   display: block;
   font-size: 1rem;
   -webkit-letter-spacing: 0.00938em;
@@ -358,8 +392,24 @@ Object {
         <div
           class="c1"
         >
+          <div
+            class="c2"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+              />
+            </svg>
+            success
+          </div>
           <span
-            class="c2 c3"
+            class="c3 c4"
             role="button"
           >
             <svg
@@ -376,10 +426,10 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
         >
           <p
-            class="c5"
+            class="c6"
             role="contentinfo"
           >
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed animi dicta, dolores, facilis eaque dolore maxime corrupti alias inventore minus dolorum ea accusamus nihil! Harum commodi officiis corporis veritatis autem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi odit voluptate earum architecto soluta cupiditate necessitatibus laudantium sapiente expedita doloremque, veniam unde sit eligendi omnis similique natus quasi! Sapiente, ullam.
@@ -388,7 +438,7 @@ Object {
       </div>
     </div>
   </body>,
-  "container": .c3 {
+  "container": .c4 {
   position: absolute;
   right: 0;
   height: 2rem;
@@ -398,10 +448,10 @@ Object {
   padding: 4px;
   border-radius: 50%;
   background-color: hsla(215,25%,27%,0.1);
-  color: hsla(0,0%,32%,1);
+  color: hsla(142,76%,36%,1);
 }
 
-.c3:hover {
+.c4:hover {
   background-color: hsla(215,25%,27%,0.2);
 }
 
@@ -418,16 +468,16 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  color: hsla(0,0%,25%,1);
-  border: 1px solid hsla(0,0%,64%,1);
-  background-color: hsla(0,0%,90%,0.4);
+  color: hsla(142,72%,29%,1);
+  border: 1px solid hsla(142,69%,58%,1);
+  background-color: hsla(141,79%,85%,0.4);
 }
 
-.c0:hover .c2 {
+.c0:hover .c3 {
   visibility: visible;
 }
 
-.c4 {
+.c5 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -438,6 +488,40 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
+  margin-left: 2rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
+  color: hsla(142,76%,36%,1);
+}
+
+.c2 svg {
+  height: 1.5rem;
+  width: 1.5rem;
 }
 
 .c1 {
@@ -448,7 +532,7 @@ Object {
   position: relative;
 }
 
-.c5 {
+.c6 {
   display: block;
   font-size: 1rem;
   -webkit-letter-spacing: 0.00938em;
@@ -467,8 +551,24 @@ Object {
       <div
         class="c1"
       >
+        <div
+          class="c2"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+            />
+          </svg>
+          success
+        </div>
         <span
-          class="c2 c3"
+          class="c3 c4"
           role="button"
         >
           <svg
@@ -485,10 +585,10 @@ Object {
         </span>
       </div>
       <div
-        class="c4"
+        class="c5"
       >
         <p
-          class="c5"
+          class="c6"
           role="contentinfo"
         >
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed animi dicta, dolores, facilis eaque dolore maxime corrupti alias inventore minus dolorum ea accusamus nihil! Harum commodi officiis corporis veritatis autem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi odit voluptate earum architecto soluta cupiditate necessitatibus laudantium sapiente expedita doloremque, veniam unde sit eligendi omnis similique natus quasi! Sapiente, ullam.
@@ -890,7 +990,7 @@ Object {
 exports[`Notification Custom label 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c3 {
+  "baseElement": .c5 {
   position: absolute;
   right: 0;
   height: 2rem;
@@ -900,10 +1000,10 @@ Object {
   padding: 4px;
   border-radius: 50%;
   background-color: hsla(215,25%,27%,0.1);
-  color: hsla(0,0%,32%,1);
+  color: hsla(142,76%,36%,1);
 }
 
-.c3:hover {
+.c5:hover {
   background-color: hsla(215,25%,27%,0.2);
 }
 
@@ -920,16 +1020,16 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  color: hsla(0,0%,25%,1);
-  border: 1px solid hsla(0,0%,64%,1);
-  background-color: hsla(0,0%,90%,0.4);
+  color: hsla(142,72%,29%,1);
+  border: 1px solid hsla(142,69%,58%,1);
+  background-color: hsla(141,79%,85%,0.4);
 }
 
-.c0:hover .c2 {
+.c0:hover .c4 {
   visibility: visible;
 }
 
-.c4 {
+.c6 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -940,6 +1040,40 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
+  margin-left: 2rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
+  color: hsla(142,76%,36%,1);
+}
+
+.c2 svg {
+  height: 1.5rem;
+  width: 1.5rem;
 }
 
 .c1 {
@@ -950,7 +1084,18 @@ Object {
   position: relative;
 }
 
-.c5 {
+.c3 {
+  display: block;
+  font-size: 2.125rem;
+  -webkit-letter-spacing: 0.00735em;
+  -moz-letter-spacing: 0.00735em;
+  -ms-letter-spacing: 0.00735em;
+  letter-spacing: 0.00735em;
+  line-height: 1.235;
+  font-weight: 400;
+}
+
+.c7 {
   display: block;
   font-size: 1rem;
   -webkit-letter-spacing: 0.00938em;
@@ -970,8 +1115,29 @@ Object {
         <div
           class="c1"
         >
+          <div
+            class="c2"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2, 4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0, 0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z"
+              />
+            </svg>
+            <h4
+              class="c3"
+              role="contentinfo"
+            >
+              Hello there !
+            </h4>
+          </div>
           <span
-            class="c2 c3"
+            class="c4 c5"
             role="button"
           >
             <svg
@@ -988,10 +1154,10 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c6"
         >
           <p
-            class="c5"
+            class="c7"
             role="contentinfo"
           >
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed animi dicta, dolores, facilis eaque dolore maxime corrupti alias inventore minus dolorum ea accusamus nihil! Harum commodi officiis corporis veritatis autem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi odit voluptate earum architecto soluta cupiditate necessitatibus laudantium sapiente expedita doloremque, veniam unde sit eligendi omnis similique natus quasi! Sapiente, ullam.
@@ -1000,7 +1166,7 @@ Object {
       </div>
     </div>
   </body>,
-  "container": .c3 {
+  "container": .c5 {
   position: absolute;
   right: 0;
   height: 2rem;
@@ -1010,10 +1176,10 @@ Object {
   padding: 4px;
   border-radius: 50%;
   background-color: hsla(215,25%,27%,0.1);
-  color: hsla(0,0%,32%,1);
+  color: hsla(142,76%,36%,1);
 }
 
-.c3:hover {
+.c5:hover {
   background-color: hsla(215,25%,27%,0.2);
 }
 
@@ -1030,16 +1196,16 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  color: hsla(0,0%,25%,1);
-  border: 1px solid hsla(0,0%,64%,1);
-  background-color: hsla(0,0%,90%,0.4);
+  color: hsla(142,72%,29%,1);
+  border: 1px solid hsla(142,69%,58%,1);
+  background-color: hsla(141,79%,85%,0.4);
 }
 
-.c0:hover .c2 {
+.c0:hover .c4 {
   visibility: visible;
 }
 
-.c4 {
+.c6 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -1050,6 +1216,40 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
+  margin-left: 2rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
+  color: hsla(142,76%,36%,1);
+}
+
+.c2 svg {
+  height: 1.5rem;
+  width: 1.5rem;
 }
 
 .c1 {
@@ -1060,7 +1260,18 @@ Object {
   position: relative;
 }
 
-.c5 {
+.c3 {
+  display: block;
+  font-size: 2.125rem;
+  -webkit-letter-spacing: 0.00735em;
+  -moz-letter-spacing: 0.00735em;
+  -ms-letter-spacing: 0.00735em;
+  letter-spacing: 0.00735em;
+  line-height: 1.235;
+  font-weight: 400;
+}
+
+.c7 {
   display: block;
   font-size: 1rem;
   -webkit-letter-spacing: 0.00938em;
@@ -1079,8 +1290,29 @@ Object {
       <div
         class="c1"
       >
+        <div
+          class="c2"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2, 4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0, 0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z"
+            />
+          </svg>
+          <h4
+            class="c3"
+            role="contentinfo"
+          >
+            Hello there !
+          </h4>
+        </div>
         <span
-          class="c2 c3"
+          class="c4 c5"
           role="button"
         >
           <svg
@@ -1097,10 +1329,10 @@ Object {
         </span>
       </div>
       <div
-        class="c4"
+        class="c6"
       >
         <p
-          class="c5"
+          class="c7"
           role="contentinfo"
         >
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed animi dicta, dolores, facilis eaque dolore maxime corrupti alias inventore minus dolorum ea accusamus nihil! Harum commodi officiis corporis veritatis autem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi odit voluptate earum architecto soluta cupiditate necessitatibus laudantium sapiente expedita doloremque, veniam unde sit eligendi omnis similique natus quasi! Sapiente, ullam.
@@ -1556,7 +1788,7 @@ Object {
 exports[`Notification Dark mode basic render 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": .c3 {
+  "baseElement": .c4 {
   position: absolute;
   right: 0;
   height: 2rem;
@@ -1566,10 +1798,10 @@ Object {
   padding: 4px;
   border-radius: 50%;
   background-color: hsla(215,25%,27%,0.1);
-  color: hsla(0,0%,64%,1);
+  color: hsla(142,69%,58%,1);
 }
 
-.c3:hover {
+.c4:hover {
   background-color: hsla(215,25%,27%,0.2);
 }
 
@@ -1586,16 +1818,16 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  color: hsla(0,0%,83%,1);
-  border: 1px solid hsla(0,0%,9%,0.7);
-  background-color: hsla(0,0%,25%,0.1);
+  color: hsla(142,77%,73%,1);
+  border: 1px solid hsla(144,61%,20%,0.7);
+  background-color: hsla(142,72%,29%,0.1);
 }
 
-.c0:hover .c2 {
+.c0:hover .c3 {
   visibility: visible;
 }
 
-.c4 {
+.c5 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -1606,6 +1838,40 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
+  margin-left: 2rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
+  color: hsla(142,69%,58%,1);
+}
+
+.c2 svg {
+  height: 1.5rem;
+  width: 1.5rem;
 }
 
 .c1 {
@@ -1616,7 +1882,7 @@ Object {
   position: relative;
 }
 
-.c5 {
+.c6 {
   display: block;
   font-size: 1rem;
   -webkit-letter-spacing: 0.00938em;
@@ -1636,8 +1902,24 @@ Object {
         <div
           class="c1"
         >
+          <div
+            class="c2"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2, 4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0, 0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z"
+              />
+            </svg>
+            success
+          </div>
           <span
-            class="c2 c3"
+            class="c3 c4"
             role="button"
           >
             <svg
@@ -1654,10 +1936,10 @@ Object {
           </span>
         </div>
         <div
-          class="c4"
+          class="c5"
         >
           <p
-            class="c5"
+            class="c6"
             role="contentinfo"
           >
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed animi dicta, dolores, facilis eaque dolore maxime corrupti alias inventore minus dolorum ea accusamus nihil! Harum commodi officiis corporis veritatis autem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi odit voluptate earum architecto soluta cupiditate necessitatibus laudantium sapiente expedita doloremque, veniam unde sit eligendi omnis similique natus quasi! Sapiente, ullam.
@@ -1666,7 +1948,7 @@ Object {
       </div>
     </div>
   </body>,
-  "container": .c3 {
+  "container": .c4 {
   position: absolute;
   right: 0;
   height: 2rem;
@@ -1676,10 +1958,10 @@ Object {
   padding: 4px;
   border-radius: 50%;
   background-color: hsla(215,25%,27%,0.1);
-  color: hsla(0,0%,64%,1);
+  color: hsla(142,69%,58%,1);
 }
 
-.c3:hover {
+.c4:hover {
   background-color: hsla(215,25%,27%,0.2);
 }
 
@@ -1696,16 +1978,16 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  color: hsla(0,0%,83%,1);
-  border: 1px solid hsla(0,0%,9%,0.7);
-  background-color: hsla(0,0%,25%,0.1);
+  color: hsla(142,77%,73%,1);
+  border: 1px solid hsla(144,61%,20%,0.7);
+  background-color: hsla(142,72%,29%,0.1);
 }
 
-.c0:hover .c2 {
+.c0:hover .c3 {
   visibility: visible;
 }
 
-.c4 {
+.c5 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -1716,6 +1998,40 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
+  margin-left: 2rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  font-weight: 500;
+  -webkit-letter-spacing: 0.0075em;
+  -moz-letter-spacing: 0.0075em;
+  -ms-letter-spacing: 0.0075em;
+  letter-spacing: 0.0075em;
+  line-height: 1.6;
+  color: hsla(142,69%,58%,1);
+}
+
+.c2 svg {
+  height: 1.5rem;
+  width: 1.5rem;
 }
 
 .c1 {
@@ -1726,7 +2042,7 @@ Object {
   position: relative;
 }
 
-.c5 {
+.c6 {
   display: block;
   font-size: 1rem;
   -webkit-letter-spacing: 0.00938em;
@@ -1745,8 +2061,24 @@ Object {
       <div
         class="c1"
       >
+        <div
+          class="c2"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2, 4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0, 0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z"
+            />
+          </svg>
+          success
+        </div>
         <span
-          class="c2 c3"
+          class="c3 c4"
           role="button"
         >
           <svg
@@ -1763,10 +2095,10 @@ Object {
         </span>
       </div>
       <div
-        class="c4"
+        class="c5"
       >
         <p
-          class="c5"
+          class="c6"
           role="contentinfo"
         >
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed animi dicta, dolores, facilis eaque dolore maxime corrupti alias inventore minus dolorum ea accusamus nihil! Harum commodi officiis corporis veritatis autem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi odit voluptate earum architecto soluta cupiditate necessitatibus laudantium sapiente expedita doloremque, veniam unde sit eligendi omnis similique natus quasi! Sapiente, ullam.
@@ -5169,6 +5501,8 @@ exports[`Notification Onclose action 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c3 {
+  position: absolute;
+  right: 0;
   height: 2rem;
   width: 2rem;
   cursor: pointer;
@@ -5176,7 +5510,7 @@ Object {
   padding: 4px;
   border-radius: 50%;
   background-color: hsla(215,25%,27%,0.1);
-  color: hsla(214,100%,97%,1);
+  color: hsla(0,0%,32%,1);
 }
 
 .c3:hover {
@@ -5196,15 +5530,16 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(224,76%,48%,1);
-  color: hsla(214,100%,97%,1);
+  color: hsla(0,0%,25%,1);
+  border: 1px solid hsla(0,0%,64%,1);
+  background-color: hsla(0,0%,90%,0.4);
 }
 
 .c0:hover .c2 {
   visibility: visible;
 }
 
-.c5 {
+.c4 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -5215,42 +5550,6 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
-  margin-left: 2rem;
-}
-
-.c4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  text-transform: capitalize;
-  margin-bottom: 0.5em;
-  font-size: 1.25rem;
-  font-weight: 500;
-  -webkit-letter-spacing: 0.0075em;
-  -moz-letter-spacing: 0.0075em;
-  -ms-letter-spacing: 0.0075em;
-  letter-spacing: 0.0075em;
-  line-height: 1.6;
-  font-weight: 500;
-  color: hsla(214,100%,97%,1);
-}
-
-.c4 svg {
-  height: 1.5rem;
-  width: 1.5rem;
 }
 
 .c1 {
@@ -5258,19 +5557,10 @@ Object {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: row-reverse;
-  -ms-flex-direction: row-reverse;
-  flex-direction: row-reverse;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-flex-direction: row-reverse;
-  -ms-flex-direction: row-reverse;
-  flex-direction: row-reverse;
+  position: relative;
 }
 
-.c6 {
+.c5 {
   display: block;
   font-size: 1rem;
   -webkit-letter-spacing: 0.00938em;
@@ -5279,7 +5569,6 @@ Object {
   letter-spacing: 0.00938em;
   line-height: 1.5;
   font-weight: 400;
-  margin-bottom: 0.5rem;
 }
 
 <body>
@@ -5293,7 +5582,6 @@ Object {
         >
           <span
             class="c2 c3"
-            data-test-id="close-button"
             role="button"
           >
             <svg
@@ -5308,28 +5596,12 @@ Object {
               />
             </svg>
           </span>
-          <div
-            class="c4"
-          >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
-              />
-            </svg>
-            info
-          </div>
         </div>
         <div
-          class="c5"
+          class="c4"
         >
           <p
-            class="c6"
+            class="c5"
             role="contentinfo"
           >
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed animi dicta, dolores, facilis eaque dolore maxime corrupti alias inventore minus dolorum ea accusamus nihil! Harum commodi officiis corporis veritatis autem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi odit voluptate earum architecto soluta cupiditate necessitatibus laudantium sapiente expedita doloremque, veniam unde sit eligendi omnis similique natus quasi! Sapiente, ullam.
@@ -5339,6 +5611,8 @@ Object {
     </div>
   </body>,
   "container": .c3 {
+  position: absolute;
+  right: 0;
   height: 2rem;
   width: 2rem;
   cursor: pointer;
@@ -5346,7 +5620,7 @@ Object {
   padding: 4px;
   border-radius: 50%;
   background-color: hsla(215,25%,27%,0.1);
-  color: hsla(214,100%,97%,1);
+  color: hsla(0,0%,32%,1);
 }
 
 .c3:hover {
@@ -5366,15 +5640,16 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(224,76%,48%,1);
-  color: hsla(214,100%,97%,1);
+  color: hsla(0,0%,25%,1);
+  border: 1px solid hsla(0,0%,64%,1);
+  background-color: hsla(0,0%,90%,0.4);
 }
 
 .c0:hover .c2 {
   visibility: visible;
 }
 
-.c5 {
+.c4 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -5385,42 +5660,6 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
-  margin-left: 2rem;
-}
-
-.c4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  text-transform: capitalize;
-  margin-bottom: 0.5em;
-  font-size: 1.25rem;
-  font-weight: 500;
-  -webkit-letter-spacing: 0.0075em;
-  -moz-letter-spacing: 0.0075em;
-  -ms-letter-spacing: 0.0075em;
-  letter-spacing: 0.0075em;
-  line-height: 1.6;
-  font-weight: 500;
-  color: hsla(214,100%,97%,1);
-}
-
-.c4 svg {
-  height: 1.5rem;
-  width: 1.5rem;
 }
 
 .c1 {
@@ -5428,19 +5667,10 @@ Object {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: row-reverse;
-  -ms-flex-direction: row-reverse;
-  flex-direction: row-reverse;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-flex-direction: row-reverse;
-  -ms-flex-direction: row-reverse;
-  flex-direction: row-reverse;
+  position: relative;
 }
 
-.c6 {
+.c5 {
   display: block;
   font-size: 1rem;
   -webkit-letter-spacing: 0.00938em;
@@ -5449,7 +5679,6 @@ Object {
   letter-spacing: 0.00938em;
   line-height: 1.5;
   font-weight: 400;
-  margin-bottom: 0.5rem;
 }
 
 <div>
@@ -5462,7 +5691,6 @@ Object {
       >
         <span
           class="c2 c3"
-          data-test-id="close-button"
           role="button"
         >
           <svg
@@ -5477,28 +5705,12 @@ Object {
             />
           </svg>
         </span>
-        <div
-          class="c4"
-        >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
-            />
-          </svg>
-          info
-        </div>
       </div>
       <div
-        class="c5"
+        class="c4"
       >
         <p
-          class="c6"
+          class="c5"
           role="contentinfo"
         >
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed animi dicta, dolores, facilis eaque dolore maxime corrupti alias inventore minus dolorum ea accusamus nihil! Harum commodi officiis corporis veritatis autem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi odit voluptate earum architecto soluta cupiditate necessitatibus laudantium sapiente expedita doloremque, veniam unde sit eligendi omnis similique natus quasi! Sapiente, ullam.
@@ -5564,6 +5776,8 @@ exports[`Notification Onclose empty action 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c3 {
+  position: absolute;
+  right: 0;
   height: 2rem;
   width: 2rem;
   cursor: pointer;
@@ -5571,7 +5785,7 @@ Object {
   padding: 4px;
   border-radius: 50%;
   background-color: hsla(215,25%,27%,0.1);
-  color: hsla(214,100%,97%,1);
+  color: hsla(0,0%,32%,1);
 }
 
 .c3:hover {
@@ -5591,15 +5805,16 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(224,76%,48%,1);
-  color: hsla(214,100%,97%,1);
+  color: hsla(0,0%,25%,1);
+  border: 1px solid hsla(0,0%,64%,1);
+  background-color: hsla(0,0%,90%,0.4);
 }
 
 .c0:hover .c2 {
   visibility: visible;
 }
 
-.c5 {
+.c4 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -5610,42 +5825,6 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
-  margin-left: 2rem;
-}
-
-.c4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  text-transform: capitalize;
-  margin-bottom: 0.5em;
-  font-size: 1.25rem;
-  font-weight: 500;
-  -webkit-letter-spacing: 0.0075em;
-  -moz-letter-spacing: 0.0075em;
-  -ms-letter-spacing: 0.0075em;
-  letter-spacing: 0.0075em;
-  line-height: 1.6;
-  font-weight: 500;
-  color: hsla(214,100%,97%,1);
-}
-
-.c4 svg {
-  height: 1.5rem;
-  width: 1.5rem;
 }
 
 .c1 {
@@ -5653,19 +5832,10 @@ Object {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: row-reverse;
-  -ms-flex-direction: row-reverse;
-  flex-direction: row-reverse;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-flex-direction: row-reverse;
-  -ms-flex-direction: row-reverse;
-  flex-direction: row-reverse;
+  position: relative;
 }
 
-.c6 {
+.c5 {
   display: block;
   font-size: 1rem;
   -webkit-letter-spacing: 0.00938em;
@@ -5674,7 +5844,6 @@ Object {
   letter-spacing: 0.00938em;
   line-height: 1.5;
   font-weight: 400;
-  margin-bottom: 0.5rem;
 }
 
 <body>
@@ -5688,7 +5857,6 @@ Object {
         >
           <span
             class="c2 c3"
-            data-test-id="close-button"
             role="button"
           >
             <svg
@@ -5703,28 +5871,12 @@ Object {
               />
             </svg>
           </span>
-          <div
-            class="c4"
-          >
-            <svg
-              aria-hidden="true"
-              fill="currentColor"
-              focusable="false"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
-              />
-            </svg>
-            info
-          </div>
         </div>
         <div
-          class="c5"
+          class="c4"
         >
           <p
-            class="c6"
+            class="c5"
             role="contentinfo"
           >
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed animi dicta, dolores, facilis eaque dolore maxime corrupti alias inventore minus dolorum ea accusamus nihil! Harum commodi officiis corporis veritatis autem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi odit voluptate earum architecto soluta cupiditate necessitatibus laudantium sapiente expedita doloremque, veniam unde sit eligendi omnis similique natus quasi! Sapiente, ullam.
@@ -5734,6 +5886,8 @@ Object {
     </div>
   </body>,
   "container": .c3 {
+  position: absolute;
+  right: 0;
   height: 2rem;
   width: 2rem;
   cursor: pointer;
@@ -5741,7 +5895,7 @@ Object {
   padding: 4px;
   border-radius: 50%;
   background-color: hsla(215,25%,27%,0.1);
-  color: hsla(214,100%,97%,1);
+  color: hsla(0,0%,32%,1);
 }
 
 .c3:hover {
@@ -5761,15 +5915,16 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  background-color: hsla(224,76%,48%,1);
-  color: hsla(214,100%,97%,1);
+  color: hsla(0,0%,25%,1);
+  border: 1px solid hsla(0,0%,64%,1);
+  background-color: hsla(0,0%,90%,0.4);
 }
 
 .c0:hover .c2 {
   visibility: visible;
 }
 
-.c5 {
+.c4 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -5780,42 +5935,6 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
-  margin-left: 2rem;
-}
-
-.c4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 0.5rem;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  text-transform: capitalize;
-  margin-bottom: 0.5em;
-  font-size: 1.25rem;
-  font-weight: 500;
-  -webkit-letter-spacing: 0.0075em;
-  -moz-letter-spacing: 0.0075em;
-  -ms-letter-spacing: 0.0075em;
-  letter-spacing: 0.0075em;
-  line-height: 1.6;
-  font-weight: 500;
-  color: hsla(214,100%,97%,1);
-}
-
-.c4 svg {
-  height: 1.5rem;
-  width: 1.5rem;
 }
 
 .c1 {
@@ -5823,19 +5942,10 @@ Object {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: row-reverse;
-  -ms-flex-direction: row-reverse;
-  flex-direction: row-reverse;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-flex-direction: row-reverse;
-  -ms-flex-direction: row-reverse;
-  flex-direction: row-reverse;
+  position: relative;
 }
 
-.c6 {
+.c5 {
   display: block;
   font-size: 1rem;
   -webkit-letter-spacing: 0.00938em;
@@ -5844,7 +5954,6 @@ Object {
   letter-spacing: 0.00938em;
   line-height: 1.5;
   font-weight: 400;
-  margin-bottom: 0.5rem;
 }
 
 <div>
@@ -5857,7 +5966,6 @@ Object {
       >
         <span
           class="c2 c3"
-          data-test-id="close-button"
           role="button"
         >
           <svg
@@ -5872,28 +5980,12 @@ Object {
             />
           </svg>
         </span>
-        <div
-          class="c4"
-        >
-          <svg
-            aria-hidden="true"
-            fill="currentColor"
-            focusable="false"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"
-            />
-          </svg>
-          info
-        </div>
       </div>
       <div
-        class="c5"
+        class="c4"
       >
         <p
-          class="c6"
+          class="c5"
           role="contentinfo"
         >
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed animi dicta, dolores, facilis eaque dolore maxime corrupti alias inventore minus dolorum ea accusamus nihil! Harum commodi officiis corporis veritatis autem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi odit voluptate earum architecto soluta cupiditate necessitatibus laudantium sapiente expedita doloremque, veniam unde sit eligendi omnis similique natus quasi! Sapiente, ullam.
@@ -8049,6 +8141,283 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.c5 {
+  display: block;
+  font-size: 1rem;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+<div>
+    <div
+      class="c0"
+      role="alert"
+    >
+      <div
+        class="c1"
+      >
+        <span
+          class="c2 c3"
+          role="button"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+            />
+          </svg>
+        </span>
+      </div>
+      <div
+        class="c4"
+      >
+        <p
+          class="c5"
+          role="contentinfo"
+        >
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed animi dicta, dolores, facilis eaque dolore maxime corrupti alias inventore minus dolorum ea accusamus nihil! Harum commodi officiis corporis veritatis autem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi odit voluptate earum architecto soluta cupiditate necessitatibus laudantium sapiente expedita doloremque, veniam unde sit eligendi omnis similique natus quasi! Sapiente, ullam.
+        </p>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Notification Without label but tone 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c3 {
+  position: absolute;
+  right: 0;
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+  visibility: hidden;
+  padding: 4px;
+  border-radius: 50%;
+  background-color: hsla(215,25%,27%,0.1);
+  color: hsla(142,76%,36%,1);
+}
+
+.c3:hover {
+  background-color: hsla(215,25%,27%,0.2);
+}
+
+.c0 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: hsla(142,72%,29%,1);
+  border: 1px solid hsla(142,69%,58%,1);
+  background-color: hsla(141,79%,85%,0.4);
+}
+
+.c0:hover .c2 {
+  visibility: visible;
+}
+
+.c4 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  margin-left: 0;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.c5 {
+  display: block;
+  font-size: 1rem;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+<body>
+    <div>
+      <div
+        class="c0"
+        role="alert"
+      >
+        <div
+          class="c1"
+        >
+          <span
+            class="c2 c3"
+            role="button"
+          >
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              focusable="false"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+              />
+            </svg>
+          </span>
+        </div>
+        <div
+          class="c4"
+        >
+          <p
+            class="c5"
+            role="contentinfo"
+          >
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed animi dicta, dolores, facilis eaque dolore maxime corrupti alias inventore minus dolorum ea accusamus nihil! Harum commodi officiis corporis veritatis autem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi odit voluptate earum architecto soluta cupiditate necessitatibus laudantium sapiente expedita doloremque, veniam unde sit eligendi omnis similique natus quasi! Sapiente, ullam.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .c3 {
+  position: absolute;
+  right: 0;
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+  visibility: hidden;
+  padding: 4px;
+  border-radius: 50%;
+  background-color: hsla(215,25%,27%,0.1);
+  color: hsla(142,76%,36%,1);
+}
+
+.c3:hover {
+  background-color: hsla(215,25%,27%,0.2);
+}
+
+.c0 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: hsla(142,72%,29%,1);
+  border: 1px solid hsla(142,69%,58%,1);
+  background-color: hsla(141,79%,85%,0.4);
+}
+
+.c0:hover .c2 {
+  visibility: visible;
+}
+
+.c4 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 1rem;
+  font-weight: 400;
+  -webkit-letter-spacing: 0.00938em;
+  -moz-letter-spacing: 0.00938em;
+  -ms-letter-spacing: 0.00938em;
+  letter-spacing: 0.00938em;
+  line-height: 1.5;
+  margin-left: 0;
 }
 
 .c1 {

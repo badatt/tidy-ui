@@ -33,6 +33,15 @@ describe('Radio', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('Without an ony option', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Radio value="opt3" />
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
   it('Statuses', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>

@@ -1,4 +1,5 @@
-import { color, css, hsla } from '@tidy-ui/commons';
+import { keyframes } from 'styled-components';
+import { color, css, hsla, ITheme } from '@tidy-ui/commons';
 import { IAvatarBadgeProps, IAvatarProps } from './types';
 
 /**
@@ -92,4 +93,20 @@ const badgeStyles = css<IAvatarBadgeProps & Pick<IAvatarProps, 'girth'>>`
   `}
 `;
 
-export { accentStyle, avatarIcon, avatarImage, avatarText, badgeStyles };
+/**
+ * Creates a blink effect
+ *
+ * @internal
+ */
+const frameAnimation = (props: ITheme) => {
+  return keyframes`
+    from {
+      background-color: ${props.theme.isDark ? hsla(color.gray[700]) : hsla(color.gray[300])};
+    }
+    to {
+      background-color: ${props.theme.isDark ? hsla(color.gray[700], 0.2) : hsla(color.gray[200], 0.6)};
+    }
+  `;
+};
+
+export { accentStyle, avatarIcon, avatarImage, avatarText, badgeStyles, frameAnimation };

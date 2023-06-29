@@ -1,6 +1,6 @@
 import React from 'react';
 import { applyStandardOverrideStyles, css, styled, TGirth, useColor } from '@tidy-ui/commons';
-import { accentStyle, avatarIcon, avatarImage, avatarText, badgeStyles } from './styles';
+import { accentStyle, avatarIcon, avatarImage, avatarText, badgeStyles, frameAnimation } from './styles';
 import { IAvatarBadgeProps, IAvatarGroupProps, IAvatarProps } from './types';
 
 const AvatarRoot = styled.div<IAvatarProps>`
@@ -31,6 +31,12 @@ const AvatarIcon = styled.span<IAvatarProps>`
   align-items: center;
   border-radius: 50%;
   ${avatarIcon}
+`;
+
+const AvatarFrame = styled.div<IAvatarProps>`
+  border-radius: 50%;
+  animation: 0.8s linear 0s infinite alternate none running ${frameAnimation};
+  ${avatarImage}
 `;
 
 const AvatarImage = styled.img<IAvatarProps>`
@@ -96,6 +102,7 @@ const AvatarGroupRoot = styled.div<IAvatarGroupProps>`
 
 export {
   AvatarBadgeRoot,
+  AvatarFrame,
   AvatarGroupRoot,
   AvatarIcon,
   AvatarImage,

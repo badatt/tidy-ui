@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 import React from 'react';
-import { render } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { color, Girth, hsla, Icon, orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
@@ -31,7 +31,7 @@ describe('Avatar', () => {
         {Object.keys(Girth)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Avatar girth={Girth[v]} key={i} />
+            <Avatar girth={Girth[v]} key={v} />
           ))}
       </TidyUiProvider>,
     );
@@ -78,6 +78,30 @@ describe('Avatar', () => {
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
+  });
+
+  it('Loaded state check', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Avatar src="https://bit.ly/sage-adebayo" />
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+    const img = screen.queryByRole('img', { hidden: true });
+    expect(img).not.toBeNull();
+    fireEvent.load(img!);
+  });
+
+  it('Dark mode loaded state check', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidDark}>
+        <Avatar src="https://bit.ly/sage-adebayo" />
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+    const img = screen.queryByRole('img', { hidden: true });
+    expect(img).not.toBeNull();
+    fireEvent.load(img!);
   });
 
   it('Badge accent', () => {

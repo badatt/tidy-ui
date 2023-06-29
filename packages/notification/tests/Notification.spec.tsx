@@ -51,10 +51,11 @@ describe('Notification', () => {
     );
     expect(tree).toMatchSnapshot();
   });
+
   it('Dark mode basic render', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
-        <Notification>
+        <Notification tone="success">
           <NotificationText />
         </Notification>
       </TidyUiProvider>,
@@ -79,7 +80,7 @@ describe('Notification', () => {
         {Object.keys(Tone)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Notification key={i} tone={Tone[v]}>
+            <Notification key={v} tone={Tone[v]}>
               <NotificationText />
             </Notification>
           ))}
@@ -94,7 +95,7 @@ describe('Notification', () => {
         {Object.keys(Tone)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Notification key={i} tone={Tone[v]} isFilled>
+            <Notification key={v} tone={Tone[v]} isFilled>
               <NotificationText />
             </Notification>
           ))}
@@ -109,7 +110,7 @@ describe('Notification', () => {
         {Object.keys(Tone)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Notification key={i} tone={Tone[v]} isFilled>
+            <Notification key={v} tone={Tone[v]} isFilled>
               <NotificationText />
             </Notification>
           ))}
@@ -131,7 +132,7 @@ describe('Notification', () => {
   it('Custom label', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Notification label={<Text.h4>Hello there !</Text.h4>}>
+        <Notification tone="success" label={<Text.h4>Hello there !</Text.h4>}>
           <NotificationText />
         </Notification>
       </TidyUiProvider>,
@@ -142,7 +143,7 @@ describe('Notification', () => {
   it('Custom Icon', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Notification icon={<Icon.Add />}>
+        <Notification icon={<Icon.Add />} tone="success">
           <NotificationText />
         </Notification>
       </TidyUiProvider>,
@@ -154,6 +155,17 @@ describe('Notification', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Notification hasLabel={false}>
+          <NotificationText />
+        </Notification>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('Without label but tone', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Notification hasLabel={false} tone="success">
           <NotificationText />
         </Notification>
       </TidyUiProvider>,
@@ -186,7 +198,7 @@ describe('Notification', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-  it.skip('Onclose action', () => {
+  it('Onclose action', () => {
     const mockedCallBack = jest.fn();
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
@@ -196,16 +208,13 @@ describe('Notification', () => {
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
-    const { container } = tree;
     act(() => {
-      userEvent.hover(container);
-      const closeButton = screen.getByRole('button');
+      const closeButton = screen.getByRole('button', { hidden: true });
       fireEvent.click(closeButton);
-      expect(closeButton).not.toBeVisible();
     });
     expect(mockedCallBack).toBeCalled();
   });
-  it.skip('Onclose empty action', () => {
+  it('Onclose empty action', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Notification onClose={undefined}>
@@ -214,12 +223,9 @@ describe('Notification', () => {
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
-    const { container } = tree;
     act(() => {
-      userEvent.hover(container);
-      const closeButton = screen.getByRole('button');
+      const closeButton = screen.getByRole('button', { hidden: true });
       fireEvent.click(closeButton);
-      expect(closeButton).not.toBeVisible();
     });
   });
   it('With toaster', () => {

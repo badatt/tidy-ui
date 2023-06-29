@@ -20,6 +20,7 @@ const Code = React.forwardRef<HTMLDivElement, ICodeProps>((props, ref) => {
           navigator.clipboard
             .writeText(codeRef.current?.innerText ?? '')
             .then(() => {
+              console.log('Setting copied to true');
               setCopied(true);
             })
             .catch((e) => {
@@ -38,8 +39,6 @@ const Code = React.forwardRef<HTMLDivElement, ICodeProps>((props, ref) => {
     setTimeout(() => setCopied(false), 2000);
   }, [codeRef]);
 
-  console.log('is Copied ', copied);
-
   return (
     <CodeRoot ref={ref} role="contentinfo" {...rest}>
       <Content ref={codeRef}>{children}</Content>
@@ -51,7 +50,7 @@ const Code = React.forwardRef<HTMLDivElement, ICodeProps>((props, ref) => {
           {copied ? (
             <CopySuccessIcon onClick={handleCopy} role="status" data-testid="copy-success" />
           ) : (
-            <CopyIcon onClick={handleCopy} role="button" data-testid="copy-code-btn" />
+            <CopyIcon onClick={handleCopy} role="button" />
           )}
         </>
       )}
