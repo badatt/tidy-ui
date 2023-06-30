@@ -327,9 +327,9 @@ Object {
           href="#"
           role="link"
         >
-          <a>
+          <div>
             link 1
-          </a>
+          </div>
         </a>
       </ol>
     </div>
@@ -370,9 +370,9 @@ Object {
         href="#"
         role="link"
       >
-        <a>
+        <div>
           link 1
-        </a>
+        </div>
       </a>
     </ol>
   </div>,

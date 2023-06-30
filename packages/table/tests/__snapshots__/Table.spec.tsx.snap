@@ -508,11 +508,11 @@ Object {
             class=""
           />
         </table>
-        <caption
+        <div
           class="c6"
         >
           sample caption
-        </caption>
+        </div>
       </div>
     </div>
   </body>,
@@ -673,11 +673,11 @@ Object {
           class=""
         />
       </table>
-      <caption
+      <div
         class="c6"
       >
         sample caption
-      </caption>
+      </div>
     </div>
   </div>,
   "debug": [Function],

@@ -13,7 +13,7 @@ describe('Select', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Select>
-          <Option value="none" selected disabled hidden>
+          <Option value="none" disabled hidden>
             Select one
           </Option>
           <Option value="option-1">Option 1</Option>
@@ -29,7 +29,7 @@ describe('Select', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
         <Select>
-          <Option value="none" selected disabled hidden>
+          <Option value="none" disabled hidden>
             Select one
           </Option>
           <Option value="option-1">Option 1</Option>
@@ -47,8 +47,8 @@ describe('Select', () => {
         {Object.values(Girth)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Select key={v} girth={Girth[v]} defaultValue={Girth[v]}>
-              <Option value="none" selected disabled hidden>
+            <Select key={v} girth={Girth[v]} defaultValue="none">
+              <Option value="none" disabled hidden>
                 Select one
               </Option>
               <Option value="option-1">Option 1</Option>
@@ -67,8 +67,8 @@ describe('Select', () => {
         {Object.values(Status)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Select key={v} status={Status[v]} defaultValue={Status[v]}>
-              <Option value="none" selected disabled hidden>
+            <Select key={v} status={Status[v]} defaultValue="none">
+              <Option value="none" disabled hidden>
                 Select one
               </Option>
               <Option value="option-1">Option 1</Option>
@@ -87,8 +87,8 @@ describe('Select', () => {
         {Object.values(Status)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Select key={v} status={Status[v]} defaultValue={Status[v]}>
-              <Option value="none" selected disabled hidden>
+            <Select key={v} status={Status[v]} defaultValue="none">
+              <Option value="none" disabled hidden>
                 Select one
               </Option>
               <Option value="option-1">Option 1</Option>

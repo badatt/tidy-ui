@@ -134,7 +134,7 @@ describe('Breadcrumb', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Breadcrumb>
-          <Breadcrumb.Item href="#" ele={<a />}>
+          <Breadcrumb.Item href="#" ele={<div />}>
             link 1
           </Breadcrumb.Item>
         </Breadcrumb>

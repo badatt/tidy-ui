@@ -17,7 +17,7 @@ const base = {
 
   brandTitle: 'Tidy UI',
   brandUrl: 'https://github.com/badatt/tidy-ui',
-  //brandImage: 'https://raw.githubusercontent.com/badatt/tidy-ui/main/internals/assets/images/storybook-logo.png',
+  brandImage: 'https://raw.githubusercontent.com/badatt/tidy-ui/main/internals/assets/images/storybook-logo.png',
 };
 
 export const dark = create({

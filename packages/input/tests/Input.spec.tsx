@@ -139,7 +139,7 @@ describe('Input', () => {
   it('Password visibility check', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Input.Password value="pass" placeholder="password" />
+        <Input.Password placeholder="password" />
       </TidyUiProvider>,
     );
     const { container } = tree;
