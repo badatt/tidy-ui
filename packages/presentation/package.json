@@ -24,6 +24,7 @@
     "@tidy-ui/note": "^0.42.0",
     "@tidy-ui/panel": "^0.42.0",
     "@tidy-ui/paper": "^0.42.0",
+    "@tidy-ui/table": "^0.42.0",
     "@tidy-ui/tag": "^0.42.0",
     "@tidy-ui/text": "^0.42.0",
     "@tidy-ui/tooltip": "^0.42.0"

@@ -15,7 +15,8 @@
   "dependencies": {
     "@tidy-ui/checkbox": "^0.42.0",
     "@tidy-ui/input": "^0.42.0",
-    "@tidy-ui/radio": "^0.42.0"
+    "@tidy-ui/radio": "^0.42.0",
+    "@tidy-ui/select": "^0.42.0"
   },
   "peerDependencies": {
     "react": "^18.0.0",
