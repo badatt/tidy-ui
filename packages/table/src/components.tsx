@@ -100,7 +100,7 @@ const Tfoot = styled.tfoot`
   ${applyStandardOverrideStyles}
 `;
 
-const TableCaption = styled.caption`
+const TableCaption = styled.div`
   ${createFontStyle('caption')}
   flex-shrink:0;
   width: 100%;

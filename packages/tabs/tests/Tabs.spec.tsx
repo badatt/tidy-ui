@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 import React from 'react';
-import { render, renderHook } from '@testing-library/react';
+import { act, render, renderHook } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
@@ -155,9 +155,11 @@ describe('Tabs', () => {
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
-    const tab = tree.getByText('Tab 1');
-    tab.click();
-    expect(onTabChange).toBeCalledTimes(1);
+    act(() => {
+      const tab = tree.getByText('Tab 1');
+      tab.click();
+      expect(onTabChange).toBeCalledTimes(1);
+    });
   });
 
   it('Lazy tabs', () => {
@@ -177,12 +179,14 @@ describe('Tabs', () => {
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
-    const tab1 = tree.getByText('Tab 1');
-    tab1.click();
-    expect(onTabChange).toBeCalledTimes(1);
-    const tab2 = tree.getByText('Tab 2');
-    tab2.click();
-    expect(onTabChange).toBeCalledTimes(1);
+    act(() => {
+      const tab1 = tree.getByText('Tab 1');
+      tab1.click();
+      expect(onTabChange).toBeCalledTimes(1);
+      const tab2 = tree.getByText('Tab 2');
+      tab2.click();
+      expect(onTabChange).toBeCalledTimes(1);
+    });
   });
 
   it('Test context', () => {
