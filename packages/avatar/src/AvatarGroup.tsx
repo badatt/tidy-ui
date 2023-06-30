@@ -41,7 +41,6 @@ const AvatarGroup = React.forwardRef<HTMLDivElement, IAvatarGroupProps>((props, 
       const allowedChildren = childrenArray.slice(0, max);
       return React.Children.map(allowedChildren, (c) => {
         const ele = c as React.ReactElement;
-        console.log(ele);
         return React.cloneElement(ele, {
           ...ele.props,
           girth: props.girth,
