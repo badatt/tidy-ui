@@ -1,9 +1,9 @@
 import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
+import { useTimeout } from '../../commons/src';
 import { FlexBox, FlexItem } from '../../flexbox/src';
 import { Card, CardBody, CardFooter, CardHeader } from '../../card/src';
 import { Frame } from '../src';
-import { useTimeout } from '@tidy-ui/commons';
 
 const meta: Meta<typeof Frame> = {
   title: 'Layout/Frame',

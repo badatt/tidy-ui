@@ -1,9 +1,8 @@
 import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 import { Avatar } from '../src';
-import { FlexBox } from '../../flexbox';
-import { Girth, color, hsla } from '../../commons/src';
-import { Icon } from '@tidy-ui/commons';
+import { FlexBox } from '../../flexbox/src';
+import { Girth, color, hsla, Icon } from '../../commons/src';
 
 const meta: Meta<typeof Avatar> = {
   title: 'Presentation/Avatar',

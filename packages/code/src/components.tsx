@@ -1,4 +1,4 @@
-import { applyStandardOverrideStyles, color, css, hsla, Icon, styled } from '@tidy-ui/commons';
+import { applyStandardOverrideStyles, color, createFontStyle, css, hsla, Icon, styled } from '@tidy-ui/commons';
 import { IconStyle } from './styles';
 import { ICodeProps } from './types';
 
@@ -80,4 +80,16 @@ const ToolTip = styled.div<ICodeProps & IToolTipProps>`
   }
 `;
 
-export { CodeRoot, Content, CopyIcon, CopySuccessIcon, ToolTip };
+const CopyError = styled.div`
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 0.25rem 1rem;
+  ${createFontStyle('caption')}
+  ${({ theme: { isDark } }) => css`
+    background-color: ${isDark ? hsla(color.amber[700], 0.9) : hsla(color.amber[500], 0.9)};
+    color: ${isDark ? hsla(color.amber[400]) : hsla(color.amber[950])};
+  `}
+`;
+
+export { CodeRoot, Content, CopyError, CopyIcon, CopySuccessIcon, ToolTip };

@@ -1,5 +1,5 @@
 import React from 'react';
-import { CodeRoot, Content, CopyIcon, CopySuccessIcon, ToolTip } from './components';
+import { CodeRoot, Content, CopyError, CopyIcon, CopySuccessIcon, ToolTip } from './components';
 import { ICodeProps } from './types';
 
 /**
@@ -11,32 +11,40 @@ const Code = React.forwardRef<HTMLDivElement, ICodeProps>((props, ref) => {
   const { children, canCopy, ...rest } = props;
   const codeRef = React.useRef<HTMLPreElement>(null);
   const [copied, setCopied] = React.useState(false);
+  const [copyError, setCopyError] = React.useState<string>();
+
+  React.useEffect(() => {
+    return () => {
+      setCopied(false);
+      setCopyError(undefined);
+    };
+  }, []);
 
   const handleCopy = React.useCallback(() => {
     navigator.permissions
       .query({ name: 'clipboard-write' as PermissionName })
       .then((result) => {
-        if (result.state === 'granted' || result.state === 'prompt') {
+        if (result.state === 'granted') {
           navigator.clipboard
-            .writeText(codeRef.current?.innerText ?? '')
+            .writeText(`${codeRef.current?.innerText}`)
             .then(() => {
-              console.log('Setting copied to true');
               setCopied(true);
             })
             .catch((e) => {
               setCopied(false);
-              console.error('Error while writing to clipboard', e);
+              setCopyError(e);
             });
         } else {
-          console.error("'clipboard-write' permission was not granted");
+          setCopyError("Please grant 'clipboard-write' permission for this site on your browser");
         }
       })
-      .catch(() => {
+      .catch((e) => {
         setCopied(false);
-        console.error("Error fetching 'clipboard-write' permissions");
+        setCopyError(e);
       });
 
     setTimeout(() => setCopied(false), 2000);
+    setTimeout(() => setCopyError(undefined), 5000);
   }, [codeRef]);
 
   return (
@@ -44,16 +52,17 @@ const Code = React.forwardRef<HTMLDivElement, ICodeProps>((props, ref) => {
       <Content ref={codeRef}>{children}</Content>
       {canCopy && (
         <>
-          <ToolTip visible={copied} role="tooltip" data-testid="copy-success-tooltip">
+          <ToolTip visible={copied} role="tooltip">
             Copied
           </ToolTip>
           {copied ? (
-            <CopySuccessIcon onClick={handleCopy} role="status" data-testid="copy-success" />
+            <CopySuccessIcon onClick={handleCopy} role="status" />
           ) : (
             <CopyIcon onClick={handleCopy} role="button" />
           )}
         </>
       )}
+      {copyError && <CopyError>{`${copyError}`}</CopyError>}
     </CodeRoot>
   );
 });
