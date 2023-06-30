@@ -17,6 +17,7 @@
     "@tidy-ui/container": "^0.42.0",
     "@tidy-ui/divider": "^0.42.0",
     "@tidy-ui/flexbox": "^0.42.0",
+    "@tidy-ui/frame": "^0.42.0",
     "@tidy-ui/grid": "^0.42.0",
     "@tidy-ui/stack": "^0.42.0"
   },

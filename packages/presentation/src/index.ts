@@ -9,6 +9,7 @@ export * from '@tidy-ui/message';
 export * from '@tidy-ui/note';
 export * from '@tidy-ui/panel';
 export * from '@tidy-ui/paper';
+export * from '@tidy-ui/table';
 export * from '@tidy-ui/tag';
 export * from '@tidy-ui/text';
 export * from '@tidy-ui/tooltip';
