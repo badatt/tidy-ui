@@ -1,5 +1,5 @@
 import React from 'react';
-import { CircleLoader, EllipsesLoader, LoaderRoot } from './components';
+import { CircleLoader, EllipsesLoader, LoaderRoot, PulseLoader } from './components';
 import { ILoaderProps } from './types';
 
 const Loader = React.forwardRef<HTMLDivElement, ILoaderProps>((props, ref) => {
@@ -9,6 +9,7 @@ const Loader = React.forwardRef<HTMLDivElement, ILoaderProps>((props, ref) => {
     <LoaderRoot ref={ref} role="loader" {...rest}>
       {variant === 'circle' && <CircleLoader {...{ girth }} />}
       {variant === 'ellipses' && <EllipsesLoader {...{ girth }} />}
+      {variant == 'pulse' && <PulseLoader {...{ girth }} />}
     </LoaderRoot>
   );
 });

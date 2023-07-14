@@ -22,9 +22,10 @@ export const basic: Story = {
 export const variants: Story = {
   render: () => {
     return (
-      <FlexBox gap="1rem">
+      <FlexBox gap="1rem" fld="column">
         <Loader />
         <Loader variant="ellipses" />
+        <Loader variant="pulse" />
       </FlexBox>
     );
   },
@@ -45,6 +46,13 @@ export const girths = () => {
           .filter((i) => !isNaN(Number(i)))
           .map((v) => (
             <Loader key={v} girth={Girth[v]} variant="ellipses" />
+          ))}
+      </FlexBox>
+      <FlexBox gap="1rem" fld="column" ali="flex-start">
+        {Object.keys(Girth)
+          .filter((i) => !isNaN(Number(i)))
+          .map((v) => (
+            <Loader key={v} girth={Girth[v]} variant="pulse" />
           ))}
       </FlexBox>
     </FlexBox>
