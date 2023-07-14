@@ -1,0 +1,2005 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader Basic render 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  background: transparent;
+  border-style: solid;
+  border-radius: 50%;
+  font-size: calc(1rem * 1);
+  -webkit-animation: bWlWHt 600ms linear infinite;
+  animation: bWlWHt 600ms linear infinite;
+  width: 1.5em;
+  height: 1.5em;
+  border-width: 0.125em;
+  border-left-color: transparent !important;
+}
+
+<body>
+    <div>
+      <div
+        class=""
+        role="loader"
+      >
+        <div
+          class="c0"
+          role="loader"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  background: transparent;
+  border-style: solid;
+  border-radius: 50%;
+  font-size: calc(1rem * 1);
+  -webkit-animation: bWlWHt 600ms linear infinite;
+  animation: bWlWHt 600ms linear infinite;
+  width: 1.5em;
+  height: 1.5em;
+  border-width: 0.125em;
+  border-left-color: transparent !important;
+}
+
+<div>
+    <div
+      class=""
+      role="loader"
+    >
+      <div
+        class="c0"
+        role="loader"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Loader Dark mode basic render 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  background: transparent;
+  border-style: solid;
+  border-radius: 50%;
+  font-size: calc(1rem * 1);
+  -webkit-animation: bWlWHt 600ms linear infinite;
+  animation: bWlWHt 600ms linear infinite;
+  width: 1.5em;
+  height: 1.5em;
+  border-width: 0.125em;
+  border-left-color: transparent !important;
+}
+
+<body>
+    <div>
+      <div
+        class=""
+        role="loader"
+      >
+        <div
+          class="c0"
+          role="loader"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  background: transparent;
+  border-style: solid;
+  border-radius: 50%;
+  font-size: calc(1rem * 1);
+  -webkit-animation: bWlWHt 600ms linear infinite;
+  animation: bWlWHt 600ms linear infinite;
+  width: 1.5em;
+  height: 1.5em;
+  border-width: 0.125em;
+  border-left-color: transparent !important;
+}
+
+<div>
+    <div
+      class=""
+      role="loader"
+    >
+      <div
+        class="c0"
+        role="loader"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Loader Girths 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  background: transparent;
+  border-style: solid;
+  border-radius: 50%;
+  font-size: calc(1rem * 0.3);
+  -webkit-animation: bWlWHt 600ms linear infinite;
+  animation: bWlWHt 600ms linear infinite;
+  width: 1.5em;
+  height: 1.5em;
+  border-width: 0.125em;
+  border-left-color: transparent !important;
+}
+
+.c4 {
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  background: transparent;
+  border-style: solid;
+  border-radius: 50%;
+  font-size: calc(1rem * 0.5);
+  -webkit-animation: bWlWHt 600ms linear infinite;
+  animation: bWlWHt 600ms linear infinite;
+  width: 1.5em;
+  height: 1.5em;
+  border-width: 0.125em;
+  border-left-color: transparent !important;
+}
+
+.c7 {
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  background: transparent;
+  border-style: solid;
+  border-radius: 50%;
+  font-size: calc(1rem * 0.7);
+  -webkit-animation: bWlWHt 600ms linear infinite;
+  animation: bWlWHt 600ms linear infinite;
+  width: 1.5em;
+  height: 1.5em;
+  border-width: 0.125em;
+  border-left-color: transparent !important;
+}
+
+.c10 {
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  background: transparent;
+  border-style: solid;
+  border-radius: 50%;
+  font-size: calc(1rem * 1);
+  -webkit-animation: bWlWHt 600ms linear infinite;
+  animation: bWlWHt 600ms linear infinite;
+  width: 1.5em;
+  height: 1.5em;
+  border-width: 0.125em;
+  border-left-color: transparent !important;
+}
+
+.c13 {
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  background: transparent;
+  border-style: solid;
+  border-radius: 50%;
+  font-size: calc(1rem * 1.5);
+  -webkit-animation: bWlWHt 600ms linear infinite;
+  animation: bWlWHt 600ms linear infinite;
+  width: 1.5em;
+  height: 1.5em;
+  border-width: 0.125em;
+  border-left-color: transparent !important;
+}
+
+.c16 {
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  background: transparent;
+  border-style: solid;
+  border-radius: 50%;
+  font-size: calc(1rem * 2);
+  -webkit-animation: bWlWHt 600ms linear infinite;
+  animation: bWlWHt 600ms linear infinite;
+  width: 1.5em;
+  height: 1.5em;
+  border-width: 0.125em;
+  border-left-color: transparent !important;
+}
+
+.c19 {
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  background: transparent;
+  border-style: solid;
+  border-radius: 50%;
+  font-size: calc(1rem * 2.5);
+  -webkit-animation: bWlWHt 600ms linear infinite;
+  animation: bWlWHt 600ms linear infinite;
+  width: 1.5em;
+  height: 1.5em;
+  border-width: 0.125em;
+  border-left-color: transparent !important;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: calc(1rem * 0.3);
+}
+
+.c1 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 1em;
+  height: 1em;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: calc(1rem * 0.5);
+}
+
+.c5 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 1em;
+  height: 1em;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: calc(1rem * 0.7);
+}
+
+.c8 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 1em;
+  height: 1em;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: calc(1rem * 1);
+}
+
+.c11 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 1em;
+  height: 1em;
+}
+
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: calc(1rem * 1.5);
+}
+
+.c14 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 1em;
+  height: 1em;
+}
+
+.c17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: calc(1rem * 2);
+}
+
+.c17 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 1em;
+  height: 1em;
+}
+
+.c20 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: calc(1rem * 2.5);
+}
+
+.c20 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 1em;
+  height: 1em;
+}
+
+.c2 {
+  border-radius: 50%;
+  -webkit-animation: hmrjw 600ms infinite linear alternate-reverse;
+  animation: hmrjw 600ms infinite linear alternate-reverse;
+}
+
+.c3 {
+  font-size: calc(1rem * 0.3);
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  -webkit-animation: dMWKXQ 1.2s ease-in-out infinite;
+  animation: dMWKXQ 1.2s ease-in-out infinite;
+}
+
+.c6 {
+  font-size: calc(1rem * 0.5);
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  -webkit-animation: dMWKXQ 1.2s ease-in-out infinite;
+  animation: dMWKXQ 1.2s ease-in-out infinite;
+}
+
+.c9 {
+  font-size: calc(1rem * 0.7);
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  -webkit-animation: dMWKXQ 1.2s ease-in-out infinite;
+  animation: dMWKXQ 1.2s ease-in-out infinite;
+}
+
+.c12 {
+  font-size: calc(1rem * 1);
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  -webkit-animation: dMWKXQ 1.2s ease-in-out infinite;
+  animation: dMWKXQ 1.2s ease-in-out infinite;
+}
+
+.c15 {
+  font-size: calc(1rem * 1.5);
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  -webkit-animation: dMWKXQ 1.2s ease-in-out infinite;
+  animation: dMWKXQ 1.2s ease-in-out infinite;
+}
+
+.c18 {
+  font-size: calc(1rem * 2);
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  -webkit-animation: dMWKXQ 1.2s ease-in-out infinite;
+  animation: dMWKXQ 1.2s ease-in-out infinite;
+}
+
+.c21 {
+  font-size: calc(1rem * 2.5);
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  -webkit-animation: dMWKXQ 1.2s ease-in-out infinite;
+  animation: dMWKXQ 1.2s ease-in-out infinite;
+}
+
+<body>
+    <div>
+      <div>
+        <div
+          class=""
+          role="loader"
+        >
+          <div
+            class="c0"
+            role="loader"
+          />
+        </div>
+        <div
+          class=""
+          role="loader"
+        >
+          <div
+            class="c1"
+            role="loader"
+          >
+            <div>
+              <div
+                class="c2"
+                style="animation-delay: 0ms;"
+              />
+            </div>
+            <div>
+              <div
+                class="c2"
+                style="animation-delay: 200ms;"
+              />
+            </div>
+            <div>
+              <div
+                class="c2"
+                style="animation-delay: 400ms;"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class=""
+          role="loader"
+        >
+          <div
+            class="c3"
+            role="loader"
+          />
+        </div>
+      </div>
+      <div>
+        <div
+          class=""
+          role="loader"
+        >
+          <div
+            class="c4"
+            role="loader"
+          />
+        </div>
+        <div
+          class=""
+          role="loader"
+        >
+          <div
+            class="c5"
+            role="loader"
+          >
+            <div>
+              <div
+                class="c2"
+                style="animation-delay: 0ms;"
+              />
+            </div>
+            <div>
+              <div
+                class="c2"
+                style="animation-delay: 200ms;"
+              />
+            </div>
+            <div>
+              <div
+                class="c2"
+                style="animation-delay: 400ms;"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class=""
+          role="loader"
+        >
+          <div
+            class="c6"
+            role="loader"
+          />
+        </div>
+      </div>
+      <div>
+        <div
+          class=""
+          role="loader"
+        >
+          <div
+            class="c7"
+            role="loader"
+          />
+        </div>
+        <div
+          class=""
+          role="loader"
+        >
+          <div
+            class="c8"
+            role="loader"
+          >
+            <div>
+              <div
+                class="c2"
+                style="animation-delay: 0ms;"
+              />
+            </div>
+            <div>
+              <div
+                class="c2"
+                style="animation-delay: 200ms;"
+              />
+            </div>
+            <div>
+              <div
+                class="c2"
+                style="animation-delay: 400ms;"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class=""
+          role="loader"
+        >
+          <div
+            class="c9"
+            role="loader"
+          />
+        </div>
+      </div>
+      <div>
+        <div
+          class=""
+          role="loader"
+        >
+          <div
+            class="c10"
+            role="loader"
+          />
+        </div>
+        <div
+          class=""
+          role="loader"
+        >
+          <div
+            class="c11"
+            role="loader"
+          >
+            <div>
+              <div
+                class="c2"
+                style="animation-delay: 0ms;"
+              />
+            </div>
+            <div>
+              <div
+                class="c2"
+                style="animation-delay: 200ms;"
+              />
+            </div>
+            <div>
+              <div
+                class="c2"
+                style="animation-delay: 400ms;"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class=""
+          role="loader"
+        >
+          <div
+            class="c12"
+            role="loader"
+          />
+        </div>
+      </div>
+      <div>
+        <div
+          class=""
+          role="loader"
+        >
+          <div
+            class="c13"
+            role="loader"
+          />
+        </div>
+        <div
+          class=""
+          role="loader"
+        >
+          <div
+            class="c14"
+            role="loader"
+          >
+            <div>
+              <div
+                class="c2"
+                style="animation-delay: 0ms;"
+              />
+            </div>
+            <div>
+              <div
+                class="c2"
+                style="animation-delay: 200ms;"
+              />
+            </div>
+            <div>
+              <div
+                class="c2"
+                style="animation-delay: 400ms;"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class=""
+          role="loader"
+        >
+          <div
+            class="c15"
+            role="loader"
+          />
+        </div>
+      </div>
+      <div>
+        <div
+          class=""
+          role="loader"
+        >
+          <div
+            class="c16"
+            role="loader"
+          />
+        </div>
+        <div
+          class=""
+          role="loader"
+        >
+          <div
+            class="c17"
+            role="loader"
+          >
+            <div>
+              <div
+                class="c2"
+                style="animation-delay: 0ms;"
+              />
+            </div>
+            <div>
+              <div
+                class="c2"
+                style="animation-delay: 200ms;"
+              />
+            </div>
+            <div>
+              <div
+                class="c2"
+                style="animation-delay: 400ms;"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class=""
+          role="loader"
+        >
+          <div
+            class="c18"
+            role="loader"
+          />
+        </div>
+      </div>
+      <div>
+        <div
+          class=""
+          role="loader"
+        >
+          <div
+            class="c19"
+            role="loader"
+          />
+        </div>
+        <div
+          class=""
+          role="loader"
+        >
+          <div
+            class="c20"
+            role="loader"
+          >
+            <div>
+              <div
+                class="c2"
+                style="animation-delay: 0ms;"
+              />
+            </div>
+            <div>
+              <div
+                class="c2"
+                style="animation-delay: 200ms;"
+              />
+            </div>
+            <div>
+              <div
+                class="c2"
+                style="animation-delay: 400ms;"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class=""
+          role="loader"
+        >
+          <div
+            class="c21"
+            role="loader"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  background: transparent;
+  border-style: solid;
+  border-radius: 50%;
+  font-size: calc(1rem * 0.3);
+  -webkit-animation: bWlWHt 600ms linear infinite;
+  animation: bWlWHt 600ms linear infinite;
+  width: 1.5em;
+  height: 1.5em;
+  border-width: 0.125em;
+  border-left-color: transparent !important;
+}
+
+.c4 {
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  background: transparent;
+  border-style: solid;
+  border-radius: 50%;
+  font-size: calc(1rem * 0.5);
+  -webkit-animation: bWlWHt 600ms linear infinite;
+  animation: bWlWHt 600ms linear infinite;
+  width: 1.5em;
+  height: 1.5em;
+  border-width: 0.125em;
+  border-left-color: transparent !important;
+}
+
+.c7 {
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  background: transparent;
+  border-style: solid;
+  border-radius: 50%;
+  font-size: calc(1rem * 0.7);
+  -webkit-animation: bWlWHt 600ms linear infinite;
+  animation: bWlWHt 600ms linear infinite;
+  width: 1.5em;
+  height: 1.5em;
+  border-width: 0.125em;
+  border-left-color: transparent !important;
+}
+
+.c10 {
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  background: transparent;
+  border-style: solid;
+  border-radius: 50%;
+  font-size: calc(1rem * 1);
+  -webkit-animation: bWlWHt 600ms linear infinite;
+  animation: bWlWHt 600ms linear infinite;
+  width: 1.5em;
+  height: 1.5em;
+  border-width: 0.125em;
+  border-left-color: transparent !important;
+}
+
+.c13 {
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  background: transparent;
+  border-style: solid;
+  border-radius: 50%;
+  font-size: calc(1rem * 1.5);
+  -webkit-animation: bWlWHt 600ms linear infinite;
+  animation: bWlWHt 600ms linear infinite;
+  width: 1.5em;
+  height: 1.5em;
+  border-width: 0.125em;
+  border-left-color: transparent !important;
+}
+
+.c16 {
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  background: transparent;
+  border-style: solid;
+  border-radius: 50%;
+  font-size: calc(1rem * 2);
+  -webkit-animation: bWlWHt 600ms linear infinite;
+  animation: bWlWHt 600ms linear infinite;
+  width: 1.5em;
+  height: 1.5em;
+  border-width: 0.125em;
+  border-left-color: transparent !important;
+}
+
+.c19 {
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  background: transparent;
+  border-style: solid;
+  border-radius: 50%;
+  font-size: calc(1rem * 2.5);
+  -webkit-animation: bWlWHt 600ms linear infinite;
+  animation: bWlWHt 600ms linear infinite;
+  width: 1.5em;
+  height: 1.5em;
+  border-width: 0.125em;
+  border-left-color: transparent !important;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: calc(1rem * 0.3);
+}
+
+.c1 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 1em;
+  height: 1em;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: calc(1rem * 0.5);
+}
+
+.c5 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 1em;
+  height: 1em;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: calc(1rem * 0.7);
+}
+
+.c8 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 1em;
+  height: 1em;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: calc(1rem * 1);
+}
+
+.c11 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 1em;
+  height: 1em;
+}
+
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: calc(1rem * 1.5);
+}
+
+.c14 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 1em;
+  height: 1em;
+}
+
+.c17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: calc(1rem * 2);
+}
+
+.c17 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 1em;
+  height: 1em;
+}
+
+.c20 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: calc(1rem * 2.5);
+}
+
+.c20 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 1em;
+  height: 1em;
+}
+
+.c2 {
+  border-radius: 50%;
+  -webkit-animation: hmrjw 600ms infinite linear alternate-reverse;
+  animation: hmrjw 600ms infinite linear alternate-reverse;
+}
+
+.c3 {
+  font-size: calc(1rem * 0.3);
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  -webkit-animation: dMWKXQ 1.2s ease-in-out infinite;
+  animation: dMWKXQ 1.2s ease-in-out infinite;
+}
+
+.c6 {
+  font-size: calc(1rem * 0.5);
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  -webkit-animation: dMWKXQ 1.2s ease-in-out infinite;
+  animation: dMWKXQ 1.2s ease-in-out infinite;
+}
+
+.c9 {
+  font-size: calc(1rem * 0.7);
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  -webkit-animation: dMWKXQ 1.2s ease-in-out infinite;
+  animation: dMWKXQ 1.2s ease-in-out infinite;
+}
+
+.c12 {
+  font-size: calc(1rem * 1);
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  -webkit-animation: dMWKXQ 1.2s ease-in-out infinite;
+  animation: dMWKXQ 1.2s ease-in-out infinite;
+}
+
+.c15 {
+  font-size: calc(1rem * 1.5);
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  -webkit-animation: dMWKXQ 1.2s ease-in-out infinite;
+  animation: dMWKXQ 1.2s ease-in-out infinite;
+}
+
+.c18 {
+  font-size: calc(1rem * 2);
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  -webkit-animation: dMWKXQ 1.2s ease-in-out infinite;
+  animation: dMWKXQ 1.2s ease-in-out infinite;
+}
+
+.c21 {
+  font-size: calc(1rem * 2.5);
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  -webkit-animation: dMWKXQ 1.2s ease-in-out infinite;
+  animation: dMWKXQ 1.2s ease-in-out infinite;
+}
+
+<div>
+    <div>
+      <div
+        class=""
+        role="loader"
+      >
+        <div
+          class="c0"
+          role="loader"
+        />
+      </div>
+      <div
+        class=""
+        role="loader"
+      >
+        <div
+          class="c1"
+          role="loader"
+        >
+          <div>
+            <div
+              class="c2"
+              style="animation-delay: 0ms;"
+            />
+          </div>
+          <div>
+            <div
+              class="c2"
+              style="animation-delay: 200ms;"
+            />
+          </div>
+          <div>
+            <div
+              class="c2"
+              style="animation-delay: 400ms;"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class=""
+        role="loader"
+      >
+        <div
+          class="c3"
+          role="loader"
+        />
+      </div>
+    </div>
+    <div>
+      <div
+        class=""
+        role="loader"
+      >
+        <div
+          class="c4"
+          role="loader"
+        />
+      </div>
+      <div
+        class=""
+        role="loader"
+      >
+        <div
+          class="c5"
+          role="loader"
+        >
+          <div>
+            <div
+              class="c2"
+              style="animation-delay: 0ms;"
+            />
+          </div>
+          <div>
+            <div
+              class="c2"
+              style="animation-delay: 200ms;"
+            />
+          </div>
+          <div>
+            <div
+              class="c2"
+              style="animation-delay: 400ms;"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class=""
+        role="loader"
+      >
+        <div
+          class="c6"
+          role="loader"
+        />
+      </div>
+    </div>
+    <div>
+      <div
+        class=""
+        role="loader"
+      >
+        <div
+          class="c7"
+          role="loader"
+        />
+      </div>
+      <div
+        class=""
+        role="loader"
+      >
+        <div
+          class="c8"
+          role="loader"
+        >
+          <div>
+            <div
+              class="c2"
+              style="animation-delay: 0ms;"
+            />
+          </div>
+          <div>
+            <div
+              class="c2"
+              style="animation-delay: 200ms;"
+            />
+          </div>
+          <div>
+            <div
+              class="c2"
+              style="animation-delay: 400ms;"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class=""
+        role="loader"
+      >
+        <div
+          class="c9"
+          role="loader"
+        />
+      </div>
+    </div>
+    <div>
+      <div
+        class=""
+        role="loader"
+      >
+        <div
+          class="c10"
+          role="loader"
+        />
+      </div>
+      <div
+        class=""
+        role="loader"
+      >
+        <div
+          class="c11"
+          role="loader"
+        >
+          <div>
+            <div
+              class="c2"
+              style="animation-delay: 0ms;"
+            />
+          </div>
+          <div>
+            <div
+              class="c2"
+              style="animation-delay: 200ms;"
+            />
+          </div>
+          <div>
+            <div
+              class="c2"
+              style="animation-delay: 400ms;"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class=""
+        role="loader"
+      >
+        <div
+          class="c12"
+          role="loader"
+        />
+      </div>
+    </div>
+    <div>
+      <div
+        class=""
+        role="loader"
+      >
+        <div
+          class="c13"
+          role="loader"
+        />
+      </div>
+      <div
+        class=""
+        role="loader"
+      >
+        <div
+          class="c14"
+          role="loader"
+        >
+          <div>
+            <div
+              class="c2"
+              style="animation-delay: 0ms;"
+            />
+          </div>
+          <div>
+            <div
+              class="c2"
+              style="animation-delay: 200ms;"
+            />
+          </div>
+          <div>
+            <div
+              class="c2"
+              style="animation-delay: 400ms;"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class=""
+        role="loader"
+      >
+        <div
+          class="c15"
+          role="loader"
+        />
+      </div>
+    </div>
+    <div>
+      <div
+        class=""
+        role="loader"
+      >
+        <div
+          class="c16"
+          role="loader"
+        />
+      </div>
+      <div
+        class=""
+        role="loader"
+      >
+        <div
+          class="c17"
+          role="loader"
+        >
+          <div>
+            <div
+              class="c2"
+              style="animation-delay: 0ms;"
+            />
+          </div>
+          <div>
+            <div
+              class="c2"
+              style="animation-delay: 200ms;"
+            />
+          </div>
+          <div>
+            <div
+              class="c2"
+              style="animation-delay: 400ms;"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class=""
+        role="loader"
+      >
+        <div
+          class="c18"
+          role="loader"
+        />
+      </div>
+    </div>
+    <div>
+      <div
+        class=""
+        role="loader"
+      >
+        <div
+          class="c19"
+          role="loader"
+        />
+      </div>
+      <div
+        class=""
+        role="loader"
+      >
+        <div
+          class="c20"
+          role="loader"
+        >
+          <div>
+            <div
+              class="c2"
+              style="animation-delay: 0ms;"
+            />
+          </div>
+          <div>
+            <div
+              class="c2"
+              style="animation-delay: 200ms;"
+            />
+          </div>
+          <div>
+            <div
+              class="c2"
+              style="animation-delay: 400ms;"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class=""
+        role="loader"
+      >
+        <div
+          class="c21"
+          role="loader"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Loader Variants 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": .c0 {
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  background: transparent;
+  border-style: solid;
+  border-radius: 50%;
+  font-size: calc(1rem * 1);
+  -webkit-animation: bWlWHt 600ms linear infinite;
+  animation: bWlWHt 600ms linear infinite;
+  width: 1.5em;
+  height: 1.5em;
+  border-width: 0.125em;
+  border-left-color: transparent !important;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: calc(1rem * 1);
+}
+
+.c1 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 1em;
+  height: 1em;
+}
+
+.c2 {
+  border-radius: 50%;
+  -webkit-animation: hmrjw 600ms infinite linear alternate-reverse;
+  animation: hmrjw 600ms infinite linear alternate-reverse;
+}
+
+.c3 {
+  font-size: calc(1rem * 1);
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  -webkit-animation: dMWKXQ 1.2s ease-in-out infinite;
+  animation: dMWKXQ 1.2s ease-in-out infinite;
+}
+
+<body>
+    <div>
+      <div
+        class=""
+        role="loader"
+      >
+        <div
+          class="c0"
+          role="loader"
+        />
+      </div>
+      <div
+        class=""
+        role="loader"
+      >
+        <div
+          class="c1"
+          role="loader"
+        >
+          <div>
+            <div
+              class="c2"
+              style="animation-delay: 0ms;"
+            />
+          </div>
+          <div>
+            <div
+              class="c2"
+              style="animation-delay: 200ms;"
+            />
+          </div>
+          <div>
+            <div
+              class="c2"
+              style="animation-delay: 400ms;"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class=""
+        role="loader"
+      >
+        <div
+          class="c3"
+          role="loader"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": .c0 {
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  background: transparent;
+  border-style: solid;
+  border-radius: 50%;
+  font-size: calc(1rem * 1);
+  -webkit-animation: bWlWHt 600ms linear infinite;
+  animation: bWlWHt 600ms linear infinite;
+  width: 1.5em;
+  height: 1.5em;
+  border-width: 0.125em;
+  border-left-color: transparent !important;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: calc(1rem * 1);
+}
+
+.c1 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 1em;
+  height: 1em;
+}
+
+.c2 {
+  border-radius: 50%;
+  -webkit-animation: hmrjw 600ms infinite linear alternate-reverse;
+  animation: hmrjw 600ms infinite linear alternate-reverse;
+}
+
+.c3 {
+  font-size: calc(1rem * 1);
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  -webkit-animation: dMWKXQ 1.2s ease-in-out infinite;
+  animation: dMWKXQ 1.2s ease-in-out infinite;
+}
+
+<div>
+    <div
+      class=""
+      role="loader"
+    >
+      <div
+        class="c0"
+        role="loader"
+      />
+    </div>
+    <div
+      class=""
+      role="loader"
+    >
+      <div
+        class="c1"
+        role="loader"
+      >
+        <div>
+          <div
+            class="c2"
+            style="animation-delay: 0ms;"
+          />
+        </div>
+        <div>
+          <div
+            class="c2"
+            style="animation-delay: 200ms;"
+          />
+        </div>
+        <div>
+          <div
+            class="c2"
+            style="animation-delay: 400ms;"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class=""
+      role="loader"
+    >
+      <div
+        class="c3"
+        role="loader"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
