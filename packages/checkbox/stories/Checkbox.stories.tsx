@@ -85,8 +85,8 @@ export const statuses: Story = {
       <FlexBox gap="1rem" fld="column">
         {Object.values(Status)
           .filter((i) => !isNaN(Number(i)))
-          .map((v, i) => (
-            <Checkbox key={i} status={Status[v]} checked={checked} onChange={handleChange}>
+          .map((v) => (
+            <Checkbox key={v} status={Status[v]} checked={checked} onChange={handleChange}>
               {Status[v]} choice
             </Checkbox>
           ))}
