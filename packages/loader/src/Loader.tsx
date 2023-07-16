@@ -2,7 +2,7 @@ import React from 'react';
 import { CircleLoader, EllipsesLoader, LoaderRoot, PulseLoader } from './components';
 import { ILoaderProps } from './types';
 
-const Loader = React.forwardRef<HTMLDivElement, ILoaderProps>((props, ref) => {
+const Loader = React.forwardRef<HTMLDivElement, Omit<ILoaderProps, 'children'>>((props, ref) => {
   const { ...rest } = props;
   const { variant, girth } = rest;
   return (
