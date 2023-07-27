@@ -17,13 +17,12 @@ interface FlexBoxComponent
 const FlexBox = React.forwardRef<HTMLDivElement, IFlexBoxProps>((props, ref) => {
   const { children, ele, ...rest } = props;
 
-  const centerProps = React.useMemo(() => {
-    if (rest.ctr) {
-      return { ...rest, alc: 'center', fuh: rest.height ? false : true, jsc: 'center' };
-    } else {
-      return { ...rest };
-    }
-  }, [rest.ctr]);
+  let centerProps;
+  if (rest.ctr) {
+    centerProps = { ...rest, alc: 'center', fuh: rest.height ? false : true, jsc: 'center' };
+  } else {
+    centerProps = { ...rest };
+  }
 
   return (
     <FlexBoxRoot ref={ref} role="presentation" {...centerProps}>
