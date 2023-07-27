@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.45.1](https://github.com/badatt/tidy-ui/compare/v0.45.0...v0.45.1) (2023-07-27)
+
+**Note:** Version bump only for package @tidy-ui/tag
+
+
+
+
+
 # [0.45.0](https://github.com/badatt/tidy-ui/compare/v0.44.0...v0.45.0) (2023-07-17)
 
 **Note:** Version bump only for package @tidy-ui/tag

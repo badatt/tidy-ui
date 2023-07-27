@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.45.1](https://github.com/badatt/tidy-ui/compare/v0.45.0...v0.45.1) (2023-07-27)
+
+
+### Bug Fixes
+
+* flexbox props ([87c9676](https://github.com/badatt/tidy-ui/commit/87c96768b9e5a13558d0aab933c660c0210d8a15))
+
+
+
+
+
 # [0.45.0](https://github.com/badatt/tidy-ui/compare/v0.44.0...v0.45.0) (2023-07-17)
 
 **Note:** Version bump only for package @tidy-ui/flexbox
