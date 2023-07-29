@@ -9,8 +9,8 @@ import {
   styled,
   TidyUiProvider,
   GlobalFont,
-  GlobalReset,
-  GlobalDefault,
+  GlobalResetStyle,
+  GlobalDefaultStyle,
 } from '../packages/commons/src';
 import { Toaster } from '../packages/toaster/src';
 import additionalViePorts from './viewports';
@@ -52,16 +52,16 @@ export const withTheme: DecoratorFn = (StoryFn, context) => {
     case 'side-by-side': {
       return (
         <>
-          <GlobalReset />
+          <GlobalResetStyle />
           <GlobalFont />
           <TidyUiProvider theme={orchidLight} toaster={<Toaster limit={5} />}>
-            <GlobalDefault />
+            <GlobalDefaultStyle />
             <ThemeBlock left padding={padding}>
               <StoryFn />
             </ThemeBlock>
           </TidyUiProvider>
           <TidyUiProvider theme={orchidDark} toaster={<Toaster limit={5} />}>
-            <GlobalDefault />
+            <GlobalDefaultStyle />
             <ThemeBlock padding={padding}>
               <StoryFn />
             </ThemeBlock>
@@ -72,10 +72,10 @@ export const withTheme: DecoratorFn = (StoryFn, context) => {
     default: {
       return (
         <>
-          <GlobalReset />
+          <GlobalResetStyle />
           <GlobalFont />
           <TidyUiProvider theme={storyTheme} toaster={<Toaster limit={5} />}>
-            <GlobalDefault />
+            <GlobalDefaultStyle />
             <ThemeBlock filled padding={padding}>
               <StoryFn />
             </ThemeBlock>

@@ -5,13 +5,13 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { GlobalDefault, orchidLight, TidyUiProvider } from '../../../src';
+import { GlobalDefaultStyle, orchidLight, TidyUiProvider } from '../../../src';
 
 describe('GlobalDefault', () => {
   it('Basic', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <GlobalDefault />
+        <GlobalDefaultStyle />
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();

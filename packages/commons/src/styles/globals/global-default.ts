@@ -2,7 +2,7 @@
 import { createGlobalStyle } from 'styled-components';
 import { color, css, hsla, ITheme } from '../../theme';
 
-const GlobalDefault = createGlobalStyle<ITheme>`
+const GlobalDefaultStyle = createGlobalStyle<ITheme>`
   ${({ theme: { font, palette, isDark } }) => css`
     *:disabled,
     *[disabled] {
@@ -46,26 +46,21 @@ const GlobalDefault = createGlobalStyle<ITheme>`
     /** Text styles */
     b,
     strong {
-      margin: 0 1ch;
       font-weight: ${font.bold};
     }
     u,
     ins {
-      margin: 0 1ch;
       text-decoration: underline;
     }
     i,
     em {
-      margin: 0 1ch;
       font-style: italic;
     }
     s,
     del {
-      margin: 0 1ch;
       text-decoration: line-through;
     }
     code {
-      margin: 0 1ch;
       font-family: ${font.mono};
       font-weight: ${font.regular};
       padding: 0 0.2em;
@@ -75,20 +70,16 @@ const GlobalDefault = createGlobalStyle<ITheme>`
       color: ${isDark ? hsla(color.orange[500]) : hsla(color.orange[700])};
     }
     small {
-      margin: 0 1ch;
       font-size: 0.8em;
     }
     mark {
-      margin: 0 1ch;
       background-color: ${isDark ? hsla(color.yellow[500]) : hsla(color.yellow[200])};
     }
     sub {
-      margin-right: 1ch;
       vertical-align: sub;
       font-size: 0.8em;
     }
     sup {
-      margin-right: 1ch;
       vertical-align: super;
       font-size: 0.8em;
     }
@@ -119,7 +110,6 @@ const GlobalDefault = createGlobalStyle<ITheme>`
       }
     }
     abbr {
-      margin: 0 1ch;
       border-bottom: 1px dotted currentColor;
     }
     address {
@@ -147,4 +137,4 @@ const GlobalDefault = createGlobalStyle<ITheme>`
   `}
 `;
 
-export { GlobalDefault };
+export { GlobalDefaultStyle };

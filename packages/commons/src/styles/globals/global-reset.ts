@@ -1,7 +1,7 @@
 /* istanbul ignore file */
 import { createGlobalStyle } from 'styled-components';
 
-const GlobalReset = createGlobalStyle`
+const GlobalResetStyle = createGlobalStyle`
   *{
     margin: 0;
     padding: 0;
@@ -56,4 +56,4 @@ const GlobalReset = createGlobalStyle`
   }
 `;
 
-export { GlobalReset };
+export { GlobalResetStyle };
