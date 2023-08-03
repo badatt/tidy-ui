@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/tabs",
-  "version": "0.45.2",
+  "version": "0.45.3",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:tabs",
@@ -13,7 +13,7 @@
     "yalc:push": "yarn build && yalc push"
   },
   "dependencies": {
-    "@tidy-ui/commons": "^0.45.2"
+    "@tidy-ui/commons": "^0.45.3"
   },
   "peerDependencies": {
     "react": "^18.0.0",
