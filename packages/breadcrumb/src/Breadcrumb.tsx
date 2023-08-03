@@ -17,7 +17,7 @@ interface BreadcrumbComponent
 const Breadcrumb = React.forwardRef<HTMLOListElement, IBreadcrumbProps>((props, ref) => {
   const { children, limit, separator, onExpand, isLastItemNotActive, ...rest } = props;
   const childrenArray = React.Children.toArray(children);
-  const [expanded, setExpanded] = React.useState(childrenArray.length > limit! ? false : true);
+  const [expanded, setExpanded] = React.useState(childrenArray.length < limit!);
 
   const renderSeparator = React.useCallback(() => {
     if (['string', 'number'].includes(typeof separator)) {
@@ -74,6 +74,7 @@ const Breadcrumb = React.forwardRef<HTMLOListElement, IBreadcrumbProps>((props, 
 
 Breadcrumb.defaultProps = {
   isLastItemNotActive: false,
+  limit: Number.MAX_SAFE_INTEGER,
   separator: '/',
 };
 

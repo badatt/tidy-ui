@@ -3,8 +3,6 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Icon } from '../../commons/src';
 import { FlexBox } from '../../flexbox/src';
 import { Input, InputGroup } from '../src';
-import { Variant } from '../src/types';
-import { Girth } from '../../commons/src';
 
 const meta: Meta<typeof InputGroup> = {
   title: 'Form/InputGroup',

@@ -19,7 +19,7 @@ const FlexBox = React.forwardRef<HTMLDivElement, IFlexBoxProps>((props, ref) => 
 
   let centerProps;
   if (rest.ctr) {
-    centerProps = { ...rest, alc: 'center', fuh: rest.height ? false : true, jsc: 'center' };
+    centerProps = { ...rest, alc: 'center', fuh: !rest.height, jsc: 'center' };
   } else {
     centerProps = { ...rest };
   }

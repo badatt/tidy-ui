@@ -114,7 +114,6 @@ const simple = css<ITextInputProps>`
 `;
 
 const inputGroupFrill = css<IInputGroupProps>`
-  width: 100%;
   display: flex;
   position: relative;
   isolation: isolate;
@@ -157,7 +156,6 @@ const inputElementFrill = css<IInputElementProps>`
 `;
 
 const inputGroupBlend = css<IInputGroupProps>`
-  width: 100%;
   display: flex;
   position: relative;
   isolation: isolate;
