@@ -10,7 +10,8 @@
     "reset": "yarn clean && rimraf -rf node_modules",
     "vet": "yarn lint",
     "yalc:publish": "yarn build && yalc publish",
-    "yalc:push": "yarn build && yalc push"
+    "yalc:push": "yarn build && yalc push",
+    "docs": "jsdoc -X -c ../../jsdoc.conf.json > jsdoc.json"
   },
   "dependencies": {
     "@tidy-ui/commons": "^0.45.4"
@@ -54,6 +55,7 @@
   "files": [
     "dist",
     "LICENSE",
+    "jsdoc.json",
     "README.md"
   ]
 }

@@ -29,7 +29,7 @@
     "vet": "yarn format && yarn lint",
     "yalc:publish": "lerna run yalc:publish",
     "yalc:push": "lerna run yalc:push",
-    "docs": "lerna run td"
+    "docs": "lerna run docs"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",

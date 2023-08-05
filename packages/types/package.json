@@ -10,7 +10,8 @@
     "reset": "yarn clean && rimraf -rf node_modules",
     "vet": "yarn lint",
     "yalc:publish": "yarn build && yalc publish",
-    "yalc:push": "yarn build && yalc push"
+    "yalc:push": "yarn build && yalc push",
+    "docs": "jsdoc -X -c ../../jsdoc.conf.json > jsdoc.json"
   },
   "peerDependencies": {
     "react": "^18.0.0",
@@ -50,6 +51,7 @@
   "files": [
     "dist",
     "LICENSE",
+    "jsdoc.json",
     "README.md"
   ]
 }
