@@ -8,7 +8,7 @@ export interface IModalProps extends IBaseProps, IClosable, HTMLAttributes<HTMLD
   /**
    * Callback (if any) when the backdrop clicked
    *
-   * @type {?((e?: any) => void)}
+   * @type {function}
    */
   // eslint-disable-next-line  @typescript-eslint/no-explicit-any
   onBackdropClick?: (e?: any) => void;
