@@ -12,3 +12,4 @@ build
 storybook-static
 .vscode
 .rollup.cache
+**/docs
