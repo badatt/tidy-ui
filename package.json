@@ -28,7 +28,8 @@
     "ver": "lerna version",
     "vet": "yarn format && yarn lint",
     "yalc:publish": "lerna run yalc:publish",
-    "yalc:push": "lerna run yalc:push"
+    "yalc:push": "lerna run yalc:push",
+    "docs": "lerna run td"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
@@ -73,6 +74,7 @@
     "babel-jest": "^27.3.1",
     "babel-loader": "^8.2.3",
     "babel-plugin-styled-components": "^1.13.3",
+    "better-docs": "^2.7.2",
     "eslint": "^8.3.0",
     "eslint-plugin-jsdoc": "^39.3.4",
     "eslint-plugin-jsonc": "^2.3.1",
@@ -88,6 +90,7 @@
     "jest-haste-map": "^27.3.1",
     "jest-resolve": "^27.3.1",
     "jest-styled-components": "^7.0.5",
+    "jsdoc": "^4.0.2",
     "lerna": "4.0.0",
     "markdown-include": "^0.4.3",
     "markdownlint-cli2": "^0.4.0",

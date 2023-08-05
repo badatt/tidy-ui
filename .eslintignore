@@ -7,3 +7,4 @@ dist
 **/*.spec.tsx
 **/*.spec.ts
 **/*.stories.tsx
+**/docs

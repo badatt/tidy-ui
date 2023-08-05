@@ -32,6 +32,7 @@ export interface IAlertProps extends IBaseProps, HTMLAttributes<HTMLDivElement> 
    * information based on its level
    *
    * @type {?TStatus}
+   * @default info
    */
   status?: TStatus;
 }
