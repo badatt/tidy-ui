@@ -70,7 +70,7 @@ export interface ITagGroupProps extends IBaseProps, HTMLAttributes<HTMLDivElemen
   /**
    * On add callback
    *
-   * @type {function}
+   * @type {Function}
    */
   // eslint-disable-next-line  @typescript-eslint/no-explicit-any
   onAddNewTag?: (v: any) => void;

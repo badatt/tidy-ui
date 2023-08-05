@@ -23,7 +23,7 @@ export interface IDrawerProps extends IBaseProps, HTMLAttributes<HTMLDivElement>
   /**
    * Callback when the drawer is closed
    *
-   * @type {function}
+   * @type {Function}
    */
   // eslint-disable-next-line  @typescript-eslint/no-explicit-any
   onClose: (e?: any) => void;

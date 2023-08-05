@@ -8,7 +8,7 @@ interface IClosable {
   /**
    * Callback (if any) after the message widget is closed
    *
-   * @type {function}
+   * @type {Function}
    */
   // eslint-disable-next-line  @typescript-eslint/no-explicit-any
   onClose?: (e?: any) => void;
