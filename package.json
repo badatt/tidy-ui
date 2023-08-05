@@ -4,7 +4,7 @@
   "readme": "README.md",
   "scripts": {
     "bootstrap": "yarn install && husky install",
-    "build": "yarn build:pre && yarn build:other",
+    "build": "yarn build:pre && yarn build:other && yarn docs",
     "build:other": "lerna run build --ignore @tidy-ui/types --ignore @tidy-ui/commons",
     "build:pre": "lerna run build --scope @tidy-ui/types --scope @tidy-ui/commons",
     "build-storybook": "storybook build",
