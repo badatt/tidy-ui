@@ -5,10 +5,8 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
-import { Positioning, Tone, Border as Borders, Shade } from '../../commons/src';
+import { orchidDark, orchidLight, TidyUiProvider, Positioning, Tone, BorderStyle, Shade } from '../../commons/src';
 import { Chip } from '../../chip/src';
-import { FlexBox } from '../../flexbox/src';
 import { Text } from '../../text/src';
 import { Border } from '../src';
 import { IBorderProps } from '../src/types';
@@ -161,11 +159,11 @@ describe('Border', () => {
   it('Variants', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        {Object.keys(Borders)
+        {Object.keys(BorderStyle)
           .filter((b) => !isNaN(Number(b)))
           .map((b, i) => (
-            <BorderWithProps key={i} variant={Borders[b]} isSharp>
-              <Content heading={`Variant  '${Borders[b]}'`} />
+            <BorderWithProps key={i} variant={BorderStyle[b]} isSharp>
+              <Content heading={`Variant  '${BorderStyle[b]}'`} />
             </BorderWithProps>
           ))}
       </TidyUiProvider>,

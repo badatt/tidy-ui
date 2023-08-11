@@ -1,5 +1,5 @@
 import React from 'react';
-import { Positioning, Tone, Border as Borders, Shade } from '../../commons/src';
+import { Positioning, Tone, BorderStyle, Shade } from '../../commons/src';
 import { Chip } from '../../chip/src';
 import { FlexBox } from '../../flexbox/src';
 import { Text } from '../../text/src';
@@ -105,11 +105,11 @@ export const shades = () => (
 
 export const variants = () => (
   <FlexBox fld="column" gap="1rem">
-    {Object.keys(Borders)
+    {Object.keys(BorderStyle)
       .filter((b) => !isNaN(Number(b)))
       .map((b, i) => (
-        <BorderWithProps key={i} variant={Borders[b]} isSharp>
-          <Content heading={`Variant  '${Borders[b]}'`} />
+        <BorderWithProps key={i} variant={BorderStyle[b]} isSharp>
+          <Content heading={`Variant  '${BorderStyle[b]}'`} />
         </BorderWithProps>
       ))}
   </FlexBox>
