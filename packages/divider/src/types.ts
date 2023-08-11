@@ -1,5 +1,5 @@
 import { HTMLAttributes } from 'react';
-import { TBorder, TShade, TTone } from '@tidy-ui/commons';
+import { TBorderStyle, TShade, TTone } from '@tidy-ui/commons';
 import { IBaseProps } from '@tidy-ui/types';
 
 /**
@@ -79,7 +79,7 @@ export interface IDividerProps extends IBaseProps, HTMLAttributes<HTMLHRElement>
    *
    * @default 'solid'
    */
-  variant?: TBorder;
+  variant?: TBorderStyle;
 }
 
 /**
@@ -118,5 +118,5 @@ export interface IEnhancedDividerProps extends IBaseProps, HTMLAttributes<HTMLDi
    *
    * @default 'solid'
    */
-  variant?: TBorder;
+  variant?: TBorderStyle;
 }

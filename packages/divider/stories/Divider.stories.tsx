@@ -3,7 +3,7 @@ import { Text } from '../../text/src';
 import { FlexBox } from '../../flexbox/src';
 import { Divider } from '../src';
 import { Density, Position } from '../src/types';
-import { Shade, Tone, Border } from '../../commons/src';
+import { Shade, Tone, BorderStyle } from '../../commons/src';
 
 export default {
   component: Divider,
@@ -92,13 +92,13 @@ export const tones = () => {
 export const variants = () => {
   return (
     <>
-      {Object.keys(Border)
+      {Object.keys(BorderStyle)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
           <React.Fragment key={i}>
-            <Text.h6>variant={Border[v]}</Text.h6>
+            <Text.h6>variant={BorderStyle[v]}</Text.h6>
             <Text.body1>{text}</Text.body1>
-            <Divider variant={Border[v]} />
+            <Divider variant={BorderStyle[v]} />
           </React.Fragment>
         ))}
     </>

@@ -363,9 +363,9 @@ export const Shade = [50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950] as c
 export type TShade = (typeof Shade)[number];
 
 /**
- * Border type
+ * BorderStyle type
  */
-export enum Border {
+export enum BorderStyle {
   'dashed',
   'dotted',
   'double',
@@ -376,12 +376,12 @@ export enum Border {
 }
 
 /**
- * Border type
+ * BorderStyle type
  *
- * @typedef {TBorder}
+ * @typedef {TBorderStyle}
  * @public
  */
-export type TBorder = keyof typeof Border;
+export type TBorderStyle = keyof typeof BorderStyle;
 
 /**
  * Positioning

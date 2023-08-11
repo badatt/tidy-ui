@@ -13,3 +13,4 @@ storybook-static
 .vscode
 .rollup.cache
 **/docs
+jsdoc.json

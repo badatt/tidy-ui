@@ -5,11 +5,10 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
+import { orchidDark, orchidLight, TidyUiProvider, Shade, Tone, BorderStyle } from '../../commons/src';
 import { Divider } from '../src';
 import { Text } from '../../text/src';
 import { Density, Position } from '../src/types';
-import { Shade, Tone, Border } from '../../commons/src';
 
 const text = `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -114,13 +113,13 @@ describe('Divider', () => {
   it('Variants', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        {Object.keys(Border)
+        {Object.keys(BorderStyle)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
             <React.Fragment key={i}>
-              <Text.h6>variant={Border[v]}</Text.h6>
+              <Text.h6>variant={BorderStyle[v]}</Text.h6>
               <Text.body1>{text}</Text.body1>
-              <Divider variant={Border[v]} />
+              <Divider variant={BorderStyle[v]} />
             </React.Fragment>
           ))}
       </TidyUiProvider>,

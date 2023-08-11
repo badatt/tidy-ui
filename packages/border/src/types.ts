@@ -1,5 +1,5 @@
 import { HTMLAttributes } from 'react';
-import { TBorder, TPositioning, TShade, TTone } from '@tidy-ui/commons';
+import { TBorderStyle, TPositioning, TShade, TTone } from '@tidy-ui/commons';
 import { IBaseProps } from '@tidy-ui/types';
 
 /**
@@ -54,8 +54,8 @@ export interface IBorderProps extends IBaseProps, HTMLAttributes<HTMLDivElement>
   /**
    * Border style
    *
-   * @type {?TBorder}
+   * @type {?TBorderStyle}
    * @default 'solid'
    */
-  variant?: TBorder;
+  variant?: TBorderStyle;
 }
