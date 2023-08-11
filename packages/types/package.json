@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/types",
-  "version": "0.45.4",
+  "version": "0.46.0",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:types",
