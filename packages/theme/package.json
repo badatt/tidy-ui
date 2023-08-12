@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/theme",
-  "version": "0.46.0",
+  "version": "0.47.0",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:theme",
@@ -14,7 +14,7 @@
     "docs": "jsdoc -X -c ../../jsdoc.conf.json > jsdoc.json"
   },
   "dependencies": {
-    "@tidy-ui/types": "^0.46.0"
+    "@tidy-ui/types": "^0.47.0"
   },
   "peerDependencies": {
     "react": "^18.0.0",

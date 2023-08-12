@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/form",
-  "version": "0.46.0",
+  "version": "0.47.0",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:form",
@@ -14,11 +14,11 @@
     "docs": "jsdoc -X -c ../../jsdoc.conf.json > jsdoc.json"
   },
   "dependencies": {
-    "@tidy-ui/checkbox": "^0.46.0",
-    "@tidy-ui/input": "^0.46.0",
-    "@tidy-ui/radio": "^0.46.0",
-    "@tidy-ui/select": "^0.46.0",
-    "@tidy-ui/switch": "^0.46.0"
+    "@tidy-ui/checkbox": "^0.47.0",
+    "@tidy-ui/input": "^0.47.0",
+    "@tidy-ui/radio": "^0.47.0",
+    "@tidy-ui/select": "^0.47.0",
+    "@tidy-ui/switch": "^0.47.0"
   },
   "peerDependencies": {
     "react": "^18.0.0",
