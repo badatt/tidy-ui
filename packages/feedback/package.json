@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@tidy-ui/notification": "^0.46.0",
+    "@tidy-ui/progress": "^0.46.0",
     "@tidy-ui/toaster": "^0.46.0"
   },
   "peerDependencies": {

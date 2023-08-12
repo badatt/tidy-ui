@@ -20,6 +20,7 @@
     "@tidy-ui/flexbox": "^0.46.0",
     "@tidy-ui/frame": "^0.46.0",
     "@tidy-ui/grid": "^0.46.0",
+    "@tidy-ui/loader": "^0.46.0",
     "@tidy-ui/stack": "^0.46.0"
   },
   "peerDependencies": {
