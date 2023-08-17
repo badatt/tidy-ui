@@ -4293,6 +4293,15 @@ Object {
           </span>
         </div>
       </div>
+      <div
+        class="c0"
+      >
+        <input
+          class="c1"
+          placeholder="Text input"
+          role="form"
+        />
+      </div>
     </div>
   </body>,
   "container": .c0 {
@@ -4772,6 +4781,15 @@ Object {
           </svg>
         </span>
       </div>
+    </div>
+    <div
+      class="c0"
+    >
+      <input
+        class="c1"
+        placeholder="Text input"
+        role="form"
+      />
     </div>
   </div>,
   "debug": [Function],
