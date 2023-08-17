@@ -27,7 +27,6 @@ const RadioOption = React.forwardRef<HTMLInputElement, IRadioOptionProps>((props
 });
 
 RadioOption.defaultProps = {
-  disabled: false,
   girth: 'md',
 };
 

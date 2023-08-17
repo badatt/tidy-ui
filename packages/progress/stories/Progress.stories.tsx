@@ -2,7 +2,7 @@ import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 import { FlexBox } from '../../flexbox/src';
 import { Progress } from '../src';
-import { Girth, Tone } from '../../commons/src';
+import { Girth, Tone } from '../../types/src';
 
 const meta: Meta<typeof Progress> = {
   title: 'Feedback/Progress',

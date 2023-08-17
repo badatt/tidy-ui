@@ -7,7 +7,7 @@ import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { Icon, orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
 import { IconButton } from '../src';
-import { Girth, Tone } from '../../commons/src';
+import { Girth, Tone } from '../../types/src';
 
 describe('Render Button', () => {
   it('Basic render', () => {

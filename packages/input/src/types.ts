@@ -1,141 +1,130 @@
-import { HTMLAttributes, InputHTMLAttributes, ReactNode } from 'react';
-import { TGirth, TStatus } from '@tidy-ui/commons';
-import { IBaseProps } from '@tidy-ui/types';
+import { HTMLAttributes, InputHTMLAttributes } from 'react';
+import { IBaseProps, TGirth, TInputVariant, TStatus } from '@tidy-ui/types';
 
 /**
- * Input variants
- */
-export enum Variant {
-  'outlined',
-  'filled',
-  'underline',
-  'simple',
-}
-
-/**
- * Input variants
+ * The ITextInputProps interface is providing you with a wide array of features to create interactive and visually appealing text input components. Whether you're designing simple form fields or complex data entry points, the properties offered by ITextInputProps will help you craft user-friendly and functional inputs.
  *
- * `outlined` -> Input with an outline box
- * <br />
- * `filled` -> Filled input without any outline but shaded fill color
- * <br />
- * `underline` -> Input with just an underline
- * <br />
- * `simple` -> No styled input
- * <br />
- *
- * @typedef {TVariant}
+ * @interface ITextInputProps
+ * @type {ITextInputProps}
  * @public
- */
-export type TVariant = keyof typeof Variant;
-
-/**
- * Input props
+ * @since 0.47.0
  */
 export interface ITextInputProps extends IBaseProps, InputHTMLAttributes<HTMLInputElement> {
   /**
-   * Caption for the component
+   * Add a descriptive caption below the text input component to provide additional context or guidance to users.
    *
-   * @type {?string}
+   * @type {string}
+   * @public
+   * @since 0.47.0
    */
   caption?: string;
 
   /**
-   * The girth of the component
+   * Determine the girth (thickness) of the text input component, influencing its visual appearance and prominence.
    *
-   * @type {?TGirth}
-   * @default 'md'
+   * @type {TGirth}
+   * @default md
+   * @public
+   * @since 0.47.0
    */
   girth?: TGirth;
 
   /**
-   * If `true`, the component is stretched to full width
+   * If set to true, the text input component will stretch to occupy the full width of its container.
    *
-   * @type {?boolean}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   isStretched?: boolean;
 
   /**
-   * Color variant of the component, typically used to classify the
-   * information based on its level
+   * Assign a color variant to the text input component, typically used to convey different levels of information or status.
    *
-   * @type {?TStatus}
+   * @type {TStatus}
+   * @public
+   * @since 0.47.0
    */
   status?: TStatus;
 
   /**
-   * The variant of the component
+   * Specify the visual variant of the text input component, influencing its appearance, such as whether it's outlined or filled etc.
    *
-   * @type {?TVariant}
-   * @default 'outlined'
+   * @type {TInputVariant}
+   * @default outlined
+   * @public
+   * @since 0.47.0
    */
-  variant?: TVariant;
+  variant?: TInputVariant;
 }
 
 /**
- * InputGroup props
+ * The IInputGroupProps interface is offering you a variety of properties to create well-structured and cohesive input group components. Whether you're designing a complex form or a simple input arrangement, the properties provided by IInputGroupProps will help you achieve a seamless and organized user experience.
+ *
+ * @interface IInputGroupProps
+ * @type {IInputGroupProps}
+ * @public
+ * @since 0.47.0
  */
 export interface IInputGroupProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * If `true`, the component is disabled
+   * Determine the girth (thickness) of the input group component, influencing its visual appearance and prominence.
    *
-   * @type {?boolean}
-   * @default false
-   */
-  disabled?: boolean;
-
-  /**
-   * The girth of the component
-   *
-   * @type {?TGirth}
+   * @type {TGirth}
    * @default 'md'
+   * @public
+   * @since 0.47.0
    */
   girth?: TGirth;
 
   /**
-   * If `true`, elements blend inside Input component
+   * Set this property to true if you want the elements within the input group to blend harmoniously, creating a cohesive and integrated look.
    *
-   * @type {?boolean}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   isBlend?: boolean;
 }
 
 /**
- * InputBlend props
+ * The IInputElementProps interface equips you with a range of properties to craft interactive and visually appealing input elements. Whether you're creating buttons, icons, or other interactive components, the properties offered by IInputElementProps will empower you to seamlessly integrate dynamic elements into your projects.
+ *
+ * @interface IInputElementProps
+ * @type {IInputElementProps}
+ * @public
+ * @since 0.47.0
  */
 export interface IInputElementProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * If `true`, the component is disabled
+   * Define the girth (thickness) of the input element, influencing its visual appearance and prominence.
    *
-   * @type {?boolean}
-   * @default false
-   */
-  disabled?: boolean;
-  /**
-   * The girth of the component
-   *
-   * @type {?TGirth}
-   * @default 'md'
+   * @type {TGirth}
+   * @default md
+   * @public
+   * @since 0.47.0
    */
   girth?: TGirth;
+
   /**
-   * If `true`, elements blend inside Input component
+   * When set to true, elements within the input component blend harmoniously, creating a cohesive and integrated look.
    *
-   * @type {?boolean}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   isBlend?: boolean;
+
   /**
-   * If `true`, the element is clickable
+   * Set this property to true to make the element clickable, allowing user interaction.
    *
-   * @type {?boolean}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   isClickable?: boolean;
-  /**
-   * Node enclosed in the element
-   */
-  node: ReactNode;
 }

@@ -3,17 +3,6 @@ import { BreadcrumbItem } from './BreadcrumbItem';
 import { BreadcrumbRoot, BreadcrumbSeparator } from './components';
 import { IBreadcrumbProps } from './types';
 
-/** @internal */
-interface BreadcrumbComponent
-  extends React.ForwardRefExoticComponent<IBreadcrumbProps & React.RefAttributes<HTMLOListElement>> {
-  /** @internal */
-  Item: typeof BreadcrumbItem;
-}
-
-/**
- * Breadcrumb can be used to represent navigation in your application, can be
- * limited to desired number of items, powered by theming
- */
 const Breadcrumb = React.forwardRef<HTMLOListElement, IBreadcrumbProps>((props, ref) => {
   const { children, limit, separator, onExpand, isLastItemNotActive, ...rest } = props;
   const childrenArray = React.Children.toArray(children);
@@ -70,7 +59,7 @@ const Breadcrumb = React.forwardRef<HTMLOListElement, IBreadcrumbProps>((props, 
           ])}
     </BreadcrumbRoot>
   );
-}) as BreadcrumbComponent;
+});
 
 Breadcrumb.defaultProps = {
   isLastItemNotActive: false,
@@ -79,7 +68,5 @@ Breadcrumb.defaultProps = {
 };
 
 Breadcrumb.displayName = 'Breadcrumb';
-
-Breadcrumb.Item = BreadcrumbItem;
 
 export { Breadcrumb };

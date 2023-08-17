@@ -1,7 +1,7 @@
 import React from 'react';
 import { PanelBodyRoot } from './components';
-import { PanelContext } from './PanelContextProvider';
-import { IPanelBodyProps, IPanelContext } from './types';
+import { IPanelContext, PanelContext } from './PanelContextProvider';
+import { IPanelBodyProps } from './types';
 
 const PanelBody = React.forwardRef<HTMLDivElement, IPanelBodyProps>((props, ref) => {
   const { children, ele, ...rest } = props;

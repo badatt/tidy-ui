@@ -45,9 +45,10 @@
     "react-ui",
     "components",
     "ui",
-    "ui-components"
+    "ui-components",
+    "Container"
   ],
-  "description": "Container is a wrapped div element that can responsively contain enclosed elements. This can be usually used as page root component",
+  "description": "The versatile Container is your layout commander, adapting effortlessly to screen shifts and breakpoints. It comes in two modes: fluid, flexing its width with the screen for a dynamic arrangement of enclosed components; and fixed, aligning components solely at breakpoints. You're in control, with the option to set an unchanging maximum width or embrace full-screen width by omitting gutters. With the Container, your layout vision becomes a reality!",
   "publishConfig": {
     "access": "public"
   },

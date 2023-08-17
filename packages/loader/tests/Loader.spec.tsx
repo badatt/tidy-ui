@@ -5,7 +5,8 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { Girth, orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
+import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
+import { Girth } from '../../types/src';
 import { Loader } from '../src';
 
 describe('Loader', () => {

@@ -46,9 +46,9 @@
     "components",
     "ui",
     "ui-components",
-    "breadcrumb"
+    "Breadcrumb"
   ],
-  "description": "Breadcrumb can be used to represent navigation in your application, can be limited to desired number of items, powered by theming",
+  "description": "The Breadcrumb is your trusty guide for tracking website navigation, providing a clear path of your current location. Easily navigate between hierarchies. Collapse lengthy breadcrumbs for a clean view, expand for full journey. Customize separators, set callback for expand all. Choose tones to match styles, highlight active links. Powered by potent theming and styling techniques.",
   "publishConfig": {
     "access": "public"
   },

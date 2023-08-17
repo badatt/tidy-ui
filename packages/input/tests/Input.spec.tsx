@@ -2,12 +2,12 @@
  * @jest-environment jsdom
  */
 import React from 'react';
-import { act, fireEvent, getByDisplayValue, getByRole, render } from '@testing-library/react';
+import { act, fireEvent, getByRole, render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidDark, orchidLight, Girth, Status, TidyUiProvider } from '../../commons/src';
+import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
+import { Girth, Status, InputVariant } from '../../types/src';
 import { Input } from '../src';
-import { Variant } from '../src/types';
 
 describe('Input', () => {
   it('Basic render', () => {
@@ -32,17 +32,17 @@ describe('Input', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Input placeholder="Simple input" />
-        <Input.Password placeholder="Password input" />
-        <Input.Number placeholder="Number input" />
-        <Input.Date />
-        <Input.DateTime />
-        <Input.Month />
-        <Input.Week />
-        <Input.Time />
-        <Input.Email placeholder="Email input" />
-        <Input.Search placeholder="Search input" />
-        <Input.Telephone placeholder="Telephone input" />
-        <Input.Url placeholder="URL input" />
+        <Input type="password" placeholder="Password input" />
+        <Input type="number" placeholder="Number input" />
+        <Input type="date" />
+        <Input type="datetime-local" />
+        <Input type="month" />
+        <Input type="week" />
+        <Input type="time" />
+        <Input type="email" placeholder="Email input" />
+        <Input type="search" placeholder="Search input" />
+        <Input type="tel" placeholder="Telephone input" />
+        <Input type="url" placeholder="URL input" />
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -51,10 +51,10 @@ describe('Input', () => {
   it('Variants', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        {Object.values(Variant)
+        {Object.values(InputVariant)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Input status="info" key={i} variant={Variant[v]} placeholder={Variant[v]} />
+            <Input status="info" key={i} variant={InputVariant[v]} placeholder={InputVariant[v]} />
           ))}
       </TidyUiProvider>,
     );
@@ -64,10 +64,10 @@ describe('Input', () => {
   it('Variants in dark mode', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
-        {Object.values(Variant)
+        {Object.values(InputVariant)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Input key={i} variant={Variant[v]} placeholder={Variant[v]} />
+            <Input key={i} variant={InputVariant[v]} placeholder={InputVariant[v]} />
           ))}
       </TidyUiProvider>,
     );
@@ -139,7 +139,7 @@ describe('Input', () => {
   it('Password visibility check', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Input.Password placeholder="password" />
+        <Input type="password" placeholder="password" />
       </TidyUiProvider>,
     );
     const { container } = tree;

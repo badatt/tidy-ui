@@ -1,8 +1,8 @@
 import React from 'react';
 import { Text } from '../../text/src';
 import { FlexBox } from '../../flexbox/src';
+import { Tone } from '../../types/src';
 import { Panel } from '../src';
-import { Tone } from '@tidy-ui/commons';
 
 export default {
   component: Panel,

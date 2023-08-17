@@ -1,7 +1,6 @@
 import React from 'react';
 import { Text } from '../src/Text';
-import { TVariant, Variant } from '../src/types';
-import { Tone } from '../../commons/src';
+import { TextVariant, Tone } from '../../types/src';
 import { Ctx, TextProvider } from './TextProvider';
 
 export default {
@@ -70,7 +69,7 @@ export const variants = () => (
   <TextProvider>
     <Ctx.Consumer>
       {({ variant }) => (
-        <Text.base v={Variant[variant] as TVariant}>
+        <Text.base v={TextVariant[variant]}>
           <HtmlTagVariants />
         </Text.base>
       )}
@@ -107,8 +106,8 @@ export const tones = () => (
         <>
           {Object.keys(Tone)
             .filter((v) => !isNaN(Number(v)))
-            .map((v, i) => (
-              <Text.base v={Variant[variant] as TVariant} tone={Tone[v]} key={i}>
+            .map((v) => (
+              <Text.base v={TextVariant[variant]} tone={Tone[v]} key={v}>
                 {Tone[v]}: {text}
               </Text.base>
             ))}
@@ -122,7 +121,7 @@ export const bold = () => (
   <TextProvider>
     <Ctx.Consumer>
       {({ variant }) => (
-        <Text.base v={Variant[variant] as TVariant} bld>
+        <Text.base v={TextVariant[variant]} bld>
           {text}
         </Text.base>
       )}
@@ -134,7 +133,7 @@ export const italic = () => (
   <TextProvider>
     <Ctx.Consumer>
       {({ variant }) => (
-        <Text.base v={Variant[variant] as TVariant} itl>
+        <Text.base v={TextVariant[variant]} itl>
           {text}
         </Text.base>
       )}
@@ -146,7 +145,7 @@ export const underline = () => (
   <TextProvider>
     <Ctx.Consumer>
       {({ variant }) => (
-        <Text.base v={Variant[variant] as TVariant} udl>
+        <Text.base v={TextVariant[variant]} udl>
           {text}
         </Text.base>
       )}
@@ -158,7 +157,7 @@ export const strike = () => (
   <TextProvider>
     <Ctx.Consumer>
       {({ variant }) => (
-        <Text.base v={Variant[variant] as TVariant} stk>
+        <Text.base v={TextVariant[variant]} stk>
           {text}
         </Text.base>
       )}
@@ -170,7 +169,7 @@ export const camelCase = () => (
   <TextProvider>
     <Ctx.Consumer>
       {({ variant }) => (
-        <Text.base v={Variant[variant] as TVariant} cc>
+        <Text.base v={TextVariant[variant]} cc>
           {text}
         </Text.base>
       )}
@@ -182,7 +181,7 @@ export const lowerCase = () => (
   <TextProvider>
     <Ctx.Consumer>
       {({ variant }) => (
-        <Text.base v={Variant[variant] as TVariant} lc>
+        <Text.base v={TextVariant[variant]} lc>
           {text}
         </Text.base>
       )}
@@ -194,7 +193,7 @@ export const upperCase = () => (
   <TextProvider>
     <Ctx.Consumer>
       {({ variant }) => (
-        <Text.base v={Variant[variant] as TVariant} uc>
+        <Text.base v={TextVariant[variant]} uc>
           {text}
         </Text.base>
       )}
@@ -206,7 +205,7 @@ export const disabled = () => (
   <TextProvider>
     <Ctx.Consumer>
       {({ variant }) => (
-        <Text.base v={Variant[variant] as TVariant} dsb>
+        <Text.base v={TextVariant[variant]} dsb>
           {text}
         </Text.base>
       )}
@@ -218,7 +217,7 @@ export const centered = () => (
   <TextProvider>
     <Ctx.Consumer>
       {({ variant }) => (
-        <Text.base v={Variant[variant] as TVariant} ctr>
+        <Text.base v={TextVariant[variant]} ctr>
           {text}
         </Text.base>
       )}
@@ -230,7 +229,7 @@ export const extended = () => (
   <TextProvider>
     <Ctx.Consumer>
       {({ variant }) => (
-        <Text.base v={Variant[variant] as TVariant} exd>
+        <Text.base v={TextVariant[variant]} exd>
           {text}
         </Text.base>
       )}
@@ -242,7 +241,7 @@ export const linked = () => (
   <TextProvider>
     <Ctx.Consumer>
       {({ variant }) => (
-        <Text.base href="https://google.com" v={Variant[variant] as TVariant}>
+        <Text.base href="https://google.com" v={TextVariant[variant]}>
           {text}
         </Text.base>
       )}
@@ -254,7 +253,7 @@ export const truncate = () => (
   <TextProvider>
     <Ctx.Consumer>
       {({ variant }) => (
-        <Text.base tnc style={{ width: '6em' }} v={Variant[variant] as TVariant}>
+        <Text.base tnc style={{ width: '6em' }} v={TextVariant[variant]}>
           {text}
         </Text.base>
       )}

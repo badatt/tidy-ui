@@ -1,94 +1,72 @@
-import { HTMLAttributes } from 'react';
-import { IBaseProps } from '@tidy-ui/types';
+import React, { HTMLAttributes } from 'react';
+import { IBaseProps, TStackAlign, TStackJustify, TStackOrder } from '@tidy-ui/types';
 
 /**
- * Align
- */
-export enum Align {
-  'stretch',
-  'baseline',
-  'flex-start',
-  'flex-end',
-  'center',
-}
-
-/**
- * Align items props
- */
-export type TAlign = keyof typeof Align;
-
-/**
- * Justify
- */
-export enum Justify {
-  'flex-start',
-  'center',
-  'flex-end',
-  'space-between',
-  'space-around',
-  'space-evenly',
-  'stretch',
-}
-
-/**
- * Justify content props
- */
-export type TJustify = keyof typeof Justify;
-
-/**
- * Order
- */
-export enum Order {
-  'row',
-  'row-reverse',
-  'column',
-  'column-reverse',
-}
-
-/**
- * Order props
- */
-export type TOrder = keyof typeof Order;
-
-/**
- * Stack props
+ * Interface for configuring props for the Stack component.
+ *
+ * @interface IStackProps
+ * @type {IStackProps}
+ * @augments {HTMLAttributes<HTMLDivElement>}
+ * @public
+ * @since 0.47.0
  */
 export interface IStackProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * Align items, equivalent to css `align-items`
+   * Determines how the items are aligned along the cross-axis of the stack. This property is equivalent to the CSS `align-items` property.
    *
-   * @default 'flex-start'
+   * @type {TStackAlign}
+   * @default flex-start
+   * @public
+   * @since 0.47.0
    */
-  align?: TAlign;
+  align?: TStackAlign;
 
   /**
-   * If `true`, wraps the elements. css `wrap` equivalent
+   * Controls whether the stack can wrap its items to the next line. This property is equivalent to the CSS `flex-wrap` property.
    *
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   canFold?: boolean;
 
   /**
-   * Stack item separator
+   * Specifies a React node that will be used as a separator between stack items. This can be any valid React element.
+   *
+   * @type {React.ReactNode}
+   * @public
+   * @since 0.47.0
    */
   divider?: React.ReactNode;
 
   /**
-   * css `gap` equivalent
+   * Sets the gap (spacing) between stack items. This property is equivalent to the CSS `gap` property and determines the spacing between adjacent items in the stack.
+   *
+   * @type {string}
+   * @public
+   * @since 0.47.0
    */
   gap?: string;
 
   /**
-   * Justifies content, equivalent to css `justify-content`
+   * Determines how the items are justified along the main axis of the stack. This property is equivalent to the CSS `justify-content` property.
    *
-   * @default 'flex-start'
+   * @type {TStackJustify}
+   * @default flex-start
+   * @public
+   * @since 0.47.0
    */
-  justify?: TJustify;
+  justify?: TStackJustify;
 
   /**
-   * Direction to arrange the elements inside the Stack
+   * Specifies the direction in which the elements are arranged inside the stack.
+   * This property controls the order of items and is particularly useful for responsive layouts.
    *
-   * @default 'row'
+   * @type {TStackOrder}
+   * @default row
+   * @public
+   * @since 0.47.0
    */
-  order?: TOrder;
+  order?: TStackOrder;
 }

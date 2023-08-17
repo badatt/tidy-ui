@@ -1,68 +1,67 @@
 import { HTMLAttributes } from 'react';
-import { TStatus } from '@tidy-ui/commons';
-import { IBaseProps } from '@tidy-ui/types';
+import { IBaseProps, TStatus } from '@tidy-ui/types';
 
 /**
- * Alert props
+ * Interface for configuring properties of an Alert component.
  *
- * @typedef {IAlertProps}
  * @interface IAlertProps
+ * @type {IAlertProps}
  * @augments {HTMLAttributes<HTMLDivElement>}
  * @public
+ * @since 0.47.0
  */
 export interface IAlertProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * If `true`, the component filled with status tone
+   * An optional boolean flag indicating whether the alert should be filled. When set to `true`, the component is filled with the specified `status` tone.
+   * Default value is `false`.
    *
-   * @type {?true}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   isFilled?: boolean;
 
   /**
-   * If `true`, the component is created with sharp edges
+   * An optional boolean determining whether the alert component has `sharp` edges. Default value is `false`.
    *
-   * @type {?true}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   isSharp?: boolean;
 
   /**
-   * Color variant of the Alert, typically used to classify the
-   * information based on its level
+   * An optional color variant of the alert, typically used to classify the information based on its level (e.g., success, warning, error, etc.).
+   * Default value is `info`.
    *
-   * @type {?TStatus}
+   * @type {TStatus}
    * @default info
+   * @public
+   * @since 0.47.0
    */
   status?: TStatus;
 }
 
 /**
- * AlertFooter props
+ * Interface for configuring properties of an AlertFooter component.
  *
- * @typedef {IAlertFooterProps}
  * @interface IAlertFooterProps
+ * @type {IAlertFooterProps}
  * @augments {HTMLAttributes<HTMLDivElement>}
  * @public
+ * @since 0.47.0
  */
-export interface IAlertFooterProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
-  /**
-   * Element that encloses the footer
-   */
-  ele?: JSX.Element;
-}
+export interface IAlertFooterProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {}
 
 /**
- * AlertTitle props
+ * Interface for configuring properties of an AlertTitle component.
  *
- * @typedef {IAlertTitleProps}
  * @interface IAlertTitleProps
+ * @type {IAlertTitleProps}
  * @augments {HTMLAttributes<HTMLDivElement>}
  * @public
+ * @since 0.47.0
  */
-export interface IAlertTitleProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
-  /**
-   * Element that encloses the title
-   */
-  ele?: JSX.Element;
-}
+export interface IAlertTitleProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {}

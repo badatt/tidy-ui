@@ -2,11 +2,6 @@ import React from 'react';
 import { ButtonClusterRoot } from './components';
 import { IButtonClusterProps } from './types';
 
-/**
- * ButtonCluster can group several Buttons & ButtonGroups to bring in that
- * toolbar effect, that you usually see in embedded editors
- *
- */
 const ButtonCluster = React.forwardRef<HTMLDivElement, IButtonClusterProps>((props, ref) => {
   const { children, disabled, ...rest } = props;
   return (

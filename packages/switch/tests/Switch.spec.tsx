@@ -5,7 +5,8 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidDark, orchidLight, Status, TidyUiProvider } from '../../commons/src';
+import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
+import { Status } from '../../types/src';
 import { Switch } from '../src';
 
 describe('Switch', () => {

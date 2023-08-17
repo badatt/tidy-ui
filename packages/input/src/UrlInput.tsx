@@ -10,7 +10,9 @@ const UrlInput = React.forwardRef<HTMLInputElement, Omit<ITextInputProps, 'child
   return (
     <InputGroup isBlend {...{ disabled, girth }}>
       <TextInput ref={ref} type="url" {...props} />
-      <InputElement node={<Icon ele={<Icon.Link />} />} isBlend {...{ disabled, girth }} />
+      <InputElement isBlend {...{ disabled, girth }}>
+        <Icon ele={<Icon.Link />} />
+      </InputElement>
     </InputGroup>
   );
 });

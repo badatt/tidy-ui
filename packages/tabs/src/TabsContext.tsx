@@ -1,5 +1,19 @@
 import React from 'react';
-import { ITabsContext, ITabsGroupProps } from './types';
+import { ITabsGroupProps } from './types';
+
+/**
+ * PanelContext props
+ */
+export interface ITabsContext {
+  /**
+   * Active Tab index
+   */
+  activeTabIndex?: number;
+  /**
+   * On Tab change
+   */
+  onTabChange: (tabIndex?: number) => void;
+}
 
 const TabsContext = React.createContext<ITabsContext>({
   activeTabIndex: 0,

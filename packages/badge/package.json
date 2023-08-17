@@ -48,9 +48,9 @@
     "components",
     "ui",
     "ui-components",
-    "badge"
+    "Badge"
   ],
-  "description": "Badge can used to display data value or a dot on top right corner of the child component (usually an Icon). Badge qualifies the underlying component.",
+  "description": "The Badge component enhances components like an adjective, adding info. It adds content/dot to top-right, with tones, fill/outline options. Limit numeric content, add '+'. Blink for dynamic effects. Themed and styled.",
   "publishConfig": {
     "access": "public"
   },

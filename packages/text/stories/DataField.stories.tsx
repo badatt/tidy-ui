@@ -1,7 +1,7 @@
 import React from 'react';
-import { Grid } from '../../grid/src';
+import { Grid, GridItem } from '../../grid/src';
 import { Text, DataField } from '../src';
-import { Tone } from '../../commons/src';
+import { Tone } from '../../types/src';
 
 export default {
   component: DataField,
@@ -14,10 +14,10 @@ export const tones = () => (
   <Grid gap={24}>
     {Object.keys(Tone)
       .filter((v) => !isNaN(Number(v)))
-      .map((v, i) => (
-        <Grid.Item>
+      .map((v) => (
+        <GridItem key={v}>
           <DataField tone={Tone[v]} lbl={`${Tone[v]} color`} val={`${Tone[v]} color value`} />
-        </Grid.Item>
+        </GridItem>
       ))}
   </Grid>
 );
@@ -27,9 +27,9 @@ export const accents = () => (
     {Object.keys(Tone)
       .filter((v) => !isNaN(Number(v)))
       .map((v, i) => (
-        <Grid.Item>
+        <GridItem key={v}>
           <DataField acc={Tone[v]} lbl={`${Tone[v]} color`} val={`${Tone[v]} color value`} />
-        </Grid.Item>
+        </GridItem>
       ))}
   </Grid>
 );

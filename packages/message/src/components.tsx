@@ -1,4 +1,5 @@
-import { applyStandardOverrideStyles, color, createFontStyle, css, hsla, IPalette, styled } from '@tidy-ui/commons';
+import { applyStandardOverrideStyles, color, createFontStyle, css, hsla, styled } from '@tidy-ui/commons';
+import { IPalette } from '@tidy-ui/types';
 import { filledContent, filledLabel, outlinedContent, outlinedLabel } from './styles';
 import { IMessageProps } from './types';
 

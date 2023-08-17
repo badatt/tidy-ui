@@ -7,7 +7,7 @@ import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidDark, orchidLight, styled, TidyUiProvider } from '../../commons/src';
 import { Container } from '../src';
-import { Screen } from '../../commons/src';
+import { Screen } from '../../types/src';
 
 const InnerDiv = styled.div`
   background-color: #cfe8fc;

@@ -1,71 +1,82 @@
 import { HTMLAttributes } from 'react';
-import { TTone } from '@tidy-ui/commons';
-import { IBaseProps } from '@tidy-ui/types';
+import { IBaseProps, TTone } from '@tidy-ui/types';
 
 /**
- * Badge component props
+ * Interface defining properties for configuring a Badge component.
  *
- * @typedef {IBadgeProps}
  * @interface IBadgeProps
+ * @type {IBadgeProps}
  * @augments {HTMLAttributes<HTMLSpanElement>}
  * @public
+ * @since 0.47.0
  */
 export interface IBadgeProps extends IBaseProps, HTMLAttributes<HTMLSpanElement> {
   /**
-   * The content to hold inside the badge
+   * An optional property dictating the content to be showcased within the badge.
    *
-   * @type {?(number | string)}
+   * @type {number | string}
+   * @public
+   * @since 0.47.0
    */
   content?: number | string;
 
   /**
-   * If `true`, the badge blinks (1s linear)
+   * An optional property determining whether the badge should exhibit blinking behavior, following a linear 1-second interval.
    *
-   * @type {?boolean}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   isBlink?: boolean;
 
   /**
-   * If `true`, the badge is a dot, no content included
+   * An optional property specifying whether the badge should manifest as a dot without any associated content.
    *
-   * @type {?boolean}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   isDotted?: boolean;
 
   /**
-   * If `true`, the badge is outlines, not filled
+   * An optional property indicating whether the badge should appear as an outline rather than being filled.
    *
-   * @type {?boolean}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   isOutlined?: boolean;
 
   /**
-   * If `true`, the badge is forced to show 0 even the data value is 0.
-   * Applies to only number type content
+   * An optional property compelling the badge to display the numeral '0', even when the data value is precisely 0. Applicable solely to numeric content.
    *
-   * @type {?boolean}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   isShow0?: boolean;
 
   /**
-   * The maximum integer value allowed inside the badge,
-   * if the data value exceeds this max value, a `+` is added as suffix.
-   * Applies to only number type content
+   * An optional property establishing the maximum allowable integer value within the badge. If the data value exceeds this cap, a `+` suffix is appended. Relevant exclusively to numeric content.
    *
-   * @type {?number}
+   * @type {number}
    * @default 99
+   * @public
+   * @since 0.47.0
    */
   max?: number;
 
   /**
-   * The tone of the badge component
+   * An optional property defining the visual tone of the badge component, influencing its aesthetic representation.
    *
-   * @type {?TTone}
-   * @default 'major'
+   * @type {TTone}
+   * @default neutral
+   * @public
+   * @since 0.47.0
    */
   tone?: TTone;
 }

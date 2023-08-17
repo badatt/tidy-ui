@@ -1,5 +1,6 @@
 import React from 'react';
-import { Icon, Girth, Tone } from '../../commons/src';
+import { Icon } from '../../commons/src';
+import { Girth, Tone } from '../../types/src';
 import { FlexBox } from '../../flexbox/src';
 import { IconButton } from '../src';
 

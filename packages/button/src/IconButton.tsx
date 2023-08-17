@@ -8,10 +8,6 @@ import {
 } from './components';
 import { IIconButtonProps } from './types';
 
-/**
- * IconButton can be used to represent a Button with Icon and its related text embedded inside.
- *
- */
 const IconButton = React.forwardRef<HTMLButtonElement, IIconButtonProps>((props, ref) => {
   const { children, icon, ...rest } = props;
   return (

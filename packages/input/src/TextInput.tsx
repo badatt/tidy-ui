@@ -14,7 +14,6 @@ const TextInput = React.forwardRef<HTMLInputElement, Omit<ITextInputProps, 'chil
 });
 
 TextInput.defaultProps = {
-  disabled: false,
   girth: 'md',
   variant: 'outlined',
 };

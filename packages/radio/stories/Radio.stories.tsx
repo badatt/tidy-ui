@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Radio } from '../src';
 import { FlexBox } from '../../flexbox/src';
 import { Text } from '../../text/src';
-import { Status } from '../../commons/src';
+import { Status } from '../../types/src';
 
 const meta: Meta<typeof Radio> = {
   title: 'Form/Radio',

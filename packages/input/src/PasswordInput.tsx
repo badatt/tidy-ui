@@ -11,13 +11,9 @@ const PasswordInput = React.forwardRef<HTMLInputElement, Omit<ITextInputProps, '
   return (
     <InputGroup isBlend {...{ disabled, girth }}>
       <TextInput ref={ref} type={visible ? undefined : 'password'} {...props} />
-      <InputElement
-        role="button"
-        isClickable
-        node={<Icon ele={visible ? <Icon.Visibility /> : <Icon.VisibilityOff />} />}
-        onClick={() => setVisible(!visible)}
-        {...props}
-      />
+      <InputElement role="button" isClickable onClick={() => setVisible(!visible)} {...props}>
+        <Icon ele={visible ? <Icon.Visibility /> : <Icon.VisibilityOff />} />
+      </InputElement>
     </InputGroup>
   );
 });

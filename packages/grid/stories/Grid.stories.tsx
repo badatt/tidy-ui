@@ -4,7 +4,7 @@ import { Button, ButtonGroup, ButtonCluster, IconButton } from '../../button/src
 import { Divider } from '../../divider/src';
 import { Stack } from '../../stack/src';
 import { Text } from '../../text/src';
-import { Grid } from '../src';
+import { Grid, GridItem } from '../src';
 import { IGridProps, IItemProps } from '../src/types';
 
 export default {
@@ -102,11 +102,11 @@ export const basic = () => {
         {({ count }) => (
           <StyledGrid>
             {[...Array(count)].map((c, i) => (
-              <Grid.Item key={i}>
+              <GridItem key={i}>
                 <TextWrap style={{ padding: '3rem' }}>
                   <StyledText>{i}</StyledText>
                 </TextWrap>
-              </Grid.Item>
+              </GridItem>
             ))}
           </StyledGrid>
         )}
@@ -122,11 +122,11 @@ export const fixed = () => {
         {({ count }) => (
           <StyledGrid isFixed>
             {[...Array(count)].map((c, i) => (
-              <Grid.Item key={i}>
+              <GridItem key={i}>
                 <TextWrap style={{ padding: '3rem' }}>
                   <StyledText>{i}</StyledText>
                 </TextWrap>
-              </Grid.Item>
+              </GridItem>
             ))}
           </StyledGrid>
         )}
@@ -142,11 +142,11 @@ export const gutter = () => {
         {({ count }) => (
           <StyledGrid gutter="5rem">
             {[...Array(count)].map((c, i) => (
-              <Grid.Item key={i}>
+              <GridItem key={i}>
                 <TextWrap style={{ padding: '3rem' }}>
                   <StyledText>{i}</StyledText>
                 </TextWrap>
-              </Grid.Item>
+              </GridItem>
             ))}
           </StyledGrid>
         )}
@@ -179,12 +179,12 @@ export const gap = () => {
         {({ count }) => (
           <StyledGrid gap={space}>
             {[...Array(count)].map((c, i) => (
-              <Grid.Item key={i}>
+              <GridItem key={i}>
                 <TextWrap style={{ padding: '3rem' }}>
                   <StyledText>{i}</StyledText>
                   <StyledTextLabel>gap={space}</StyledTextLabel>
                 </TextWrap>
-              </Grid.Item>
+              </GridItem>
             ))}
           </StyledGrid>
         )}
@@ -233,14 +233,14 @@ export const customLayout = () => {
         {({ count }) => (
           <StyledGrid>
             {[...Array(count)].map((c, i) => (
-              <Grid.Item key={i} xs={span.xs} sm={span.sm} md={span.md} lg={span.lg} xl={span.xl}>
+              <GridItem key={i} xs={span.xs} sm={span.sm} md={span.md} lg={span.lg} xl={span.xl}>
                 <TextWrap style={{ padding: '3rem' }}>
                   <StyledText>{i}</StyledText>
                   <StyledTextLabel>
                     {span.xs},{span.sm},{span.md},{span.lg},{span.xl}
                   </StyledTextLabel>
                 </TextWrap>
-              </Grid.Item>
+              </GridItem>
             ))}
           </StyledGrid>
         )}
@@ -257,20 +257,20 @@ export const customMargin = () => {
           <>
             <StyledGrid margin="0 0 3rem 0">
               {[...Array(count)].map((c, i) => (
-                <Grid.Item key={i}>
+                <GridItem key={i}>
                   <TextWrap style={{ padding: '3rem' }}>
                     <StyledText>{i}</StyledText>
                   </TextWrap>
-                </Grid.Item>
+                </GridItem>
               ))}
             </StyledGrid>
             <StyledGrid>
               {[...Array(count)].map((c, i) => (
-                <Grid.Item key={i}>
+                <GridItem key={i}>
                   <TextWrap style={{ padding: '3rem' }}>
                     <StyledText>{i}</StyledText>
                   </TextWrap>
-                </Grid.Item>
+                </GridItem>
               ))}
             </StyledGrid>
           </>

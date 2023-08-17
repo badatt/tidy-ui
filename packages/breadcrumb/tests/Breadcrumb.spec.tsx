@@ -7,9 +7,8 @@ import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
 import { Divider } from '../../divider/src';
-import { FlexBox } from '../../flexbox/src';
-import { Tone } from '../../commons/src';
-import { Breadcrumb } from '../src';
+import { Tone } from '../../types/src';
+import { Breadcrumb, BreadcrumbItem } from '../src';
 
 afterEach(cleanup);
 
@@ -18,10 +17,10 @@ describe('Breadcrumb', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Breadcrumb>
-          <Breadcrumb.Item href="#">link 1</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 2</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 3</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 4</Breadcrumb.Item>
+          <BreadcrumbItem href="#">link 1</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 2</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 3</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 4</BreadcrumbItem>
         </Breadcrumb>
       </TidyUiProvider>,
     );
@@ -31,10 +30,10 @@ describe('Breadcrumb', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
         <Breadcrumb>
-          <Breadcrumb.Item href="#">link 1</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 2</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 3</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 4</Breadcrumb.Item>
+          <BreadcrumbItem href="#">link 1</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 2</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 3</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 4</BreadcrumbItem>
         </Breadcrumb>
       </TidyUiProvider>,
     );
@@ -45,12 +44,12 @@ describe('Breadcrumb', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Breadcrumb limit={5}>
-          <Breadcrumb.Item href="#">link 1</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 2</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 3</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 4</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 5</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 6</Breadcrumb.Item>
+          <BreadcrumbItem href="#">link 1</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 2</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 3</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 4</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 5</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 6</BreadcrumbItem>
         </Breadcrumb>
       </TidyUiProvider>,
     );
@@ -63,12 +62,12 @@ describe('Breadcrumb', () => {
           .filter((t) => !isNaN(Number(t)))
           .map((t, i) => (
             <Breadcrumb key={i} tone={Tone[t]}>
-              <Breadcrumb.Item href="#">link 1</Breadcrumb.Item>
-              <Breadcrumb.Item href="#">link 2</Breadcrumb.Item>
-              <Breadcrumb.Item href="#">link 3</Breadcrumb.Item>
-              <Breadcrumb.Item href="#">link 4</Breadcrumb.Item>
-              <Breadcrumb.Item href="#">link 5</Breadcrumb.Item>
-              <Breadcrumb.Item href="#">link 6</Breadcrumb.Item>
+              <BreadcrumbItem href="#">link 1</BreadcrumbItem>
+              <BreadcrumbItem href="#">link 2</BreadcrumbItem>
+              <BreadcrumbItem href="#">link 3</BreadcrumbItem>
+              <BreadcrumbItem href="#">link 4</BreadcrumbItem>
+              <BreadcrumbItem href="#">link 5</BreadcrumbItem>
+              <BreadcrumbItem href="#">link 6</BreadcrumbItem>
             </Breadcrumb>
           ))}
       </TidyUiProvider>,
@@ -79,14 +78,14 @@ describe('Breadcrumb', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Breadcrumb isLastItemNotActive>
-          <Breadcrumb.Item href="#">link 1</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 2</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 3</Breadcrumb.Item>
-          <Breadcrumb.Item href="#" isActive>
+          <BreadcrumbItem href="#">link 1</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 2</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 3</BreadcrumbItem>
+          <BreadcrumbItem href="#" isActive>
             link 4
-          </Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 5</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">item 6</Breadcrumb.Item>
+          </BreadcrumbItem>
+          <BreadcrumbItem href="#">link 5</BreadcrumbItem>
+          <BreadcrumbItem href="#">item 6</BreadcrumbItem>
         </Breadcrumb>
       </TidyUiProvider>,
     );
@@ -96,14 +95,14 @@ describe('Breadcrumb', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Breadcrumb separator={<Divider isVertical />}>
-          <Breadcrumb.Item href="#">link 1</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 2</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 3</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 4</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 5</Breadcrumb.Item>
-          <Breadcrumb.Item href="#" isActive>
+          <BreadcrumbItem href="#">link 1</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 2</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 3</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 4</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 5</BreadcrumbItem>
+          <BreadcrumbItem href="#" isActive>
             active item
-          </Breadcrumb.Item>
+          </BreadcrumbItem>
         </Breadcrumb>
       </TidyUiProvider>,
     );
@@ -113,12 +112,12 @@ describe('Breadcrumb', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Breadcrumb limit={5}>
-          <Breadcrumb.Item href="#">link 1</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 2</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 3</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 4</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 5</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 6</Breadcrumb.Item>
+          <BreadcrumbItem href="#">link 1</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 2</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 3</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 4</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 5</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 6</BreadcrumbItem>
         </Breadcrumb>
       </TidyUiProvider>,
     );
@@ -134,9 +133,9 @@ describe('Breadcrumb', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Breadcrumb>
-          <Breadcrumb.Item href="#" ele={<div />}>
+          <BreadcrumbItem href="#" ele={<div />}>
             link 1
-          </Breadcrumb.Item>
+          </BreadcrumbItem>
         </Breadcrumb>
       </TidyUiProvider>,
     );
@@ -148,12 +147,12 @@ describe('Breadcrumb', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Breadcrumb limit={5} onExpand={mockCb}>
-          <Breadcrumb.Item href="#">link 1</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 2</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 3</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 4</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 5</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 6</Breadcrumb.Item>
+          <BreadcrumbItem href="#">link 1</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 2</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 3</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 4</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 5</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 6</BreadcrumbItem>
         </Breadcrumb>
       </TidyUiProvider>,
     );

@@ -2,10 +2,6 @@ import React from 'react';
 import { CheckboxRoot, HiddenCheckboxInput, StyledCheckboxInput, TickIcon } from './components';
 import { ICheckboxProps } from './types';
 
-/**
- * Checkbox can be used as a good alternative to native HTML
- * checkbox input type, powered by various styles and states
- */
 const Checkbox = React.forwardRef<HTMLInputElement, ICheckboxProps>((props, ref) => {
   const { children, ele, checked, isIndeterminate, ...rest } = props;
   const { isFilled, girth, status } = rest;

@@ -3,11 +3,12 @@
  */
 import React from 'react';
 import { act } from 'react-dom/test-utils';
-import { cleanup, fireEvent, getByRole, getByTestId, queryByRole, render } from '@testing-library/react';
+import { cleanup, fireEvent, getByRole, queryByRole, render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidDark, orchidLight, TidyUiProvider, Tone } from '../../commons/src';
+import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
+import { Tone } from '../../types/src';
 import { Panel } from '../src';
 
 afterEach(cleanup);

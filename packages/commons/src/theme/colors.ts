@@ -1,4 +1,4 @@
-import { IHsla, TShade } from './types';
+import { IHsla, TShade } from '@tidy-ui/types';
 
 const slate: Record<TShade, IHsla> = {
   100: { alpha: 1, hue: 210, luminosity: 96, saturation: 40 },

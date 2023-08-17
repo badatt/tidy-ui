@@ -2,7 +2,7 @@ import React from 'react';
 import { Drawer } from '../src';
 import { Button } from '../../button/src';
 import { Icon } from '../../commons/src';
-import { FlexBox } from '../../flexbox/src';
+import { FlexBox, FlexItem } from '../../flexbox/src';
 import { Text } from '../../text/src';
 import { Chip } from '../../chip/src';
 import { Stack } from '../../stack/src';
@@ -35,7 +35,7 @@ const SimplePaper = () => (
   </Paper>
 );
 
-const MenuItem = ({ children }) => <FlexBox.Item style={{ padding: '0.5rem 1rem' }}>{children}</FlexBox.Item>;
+const MenuItem = ({ children }) => <FlexItem style={{ padding: '0.5rem 1rem' }}>{children}</FlexItem>;
 
 const Menu = () => {
   return (

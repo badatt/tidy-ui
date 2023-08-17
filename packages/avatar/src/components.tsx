@@ -1,5 +1,6 @@
 import React from 'react';
-import { applyStandardOverrideStyles, css, styled, TGirth, useColor } from '@tidy-ui/commons';
+import { applyStandardOverrideStyles, css, styled, useColor } from '@tidy-ui/commons';
+import { TGirth } from '@tidy-ui/types';
 import { accentStyle, avatarIcon, avatarImage, avatarText, badgeStyles, frameAnimation } from './styles';
 import { IAvatarBadgeProps, IAvatarGroupProps, IAvatarProps } from './types';
 

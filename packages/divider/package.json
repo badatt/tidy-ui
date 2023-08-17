@@ -45,9 +45,10 @@
     "react-ui",
     "components",
     "ui",
-    "ui-components"
+    "ui-components",
+    "Divider"
   ],
-  "description": "Divider can be used as a separator between components, a good replacement for <hr> in html, with additional content support, powered by various styles (with theming) and settings",
+  "description": "The Divider component elegantly separates components with horizontal or vertical dividers. It offers diverse densities, shades, and tones to match your design, along with various variants like solid and dashed. Customize lengths and alignments, and explore the enhanced DividerEnhanced version, allowing embedded custom content or text for unique compositions.",
   "publishConfig": {
     "access": "public"
   },

@@ -46,10 +46,10 @@
     "components",
     "ui",
     "ui-components",
-    "code",
+    "Code",
     "pre-formatted"
   ],
-  "description": "Code component can be used to represented pre-formatted text. A good replacement for html <pre> tag. A click to copy button is added at the top right corner of the component.",
+  "description": "The Code component elegantly displays preformatted text, such as JavaScript code, on your webpage while maintaining its original format. With a convenient copy-to-clipboard button and seamless theming, sharing and styling code has never been smoother.",
   "publishConfig": {
     "access": "public"
   },

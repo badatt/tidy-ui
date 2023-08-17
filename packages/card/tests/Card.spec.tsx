@@ -6,8 +6,8 @@ import { render, cleanup } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
-import { Tone } from '../../commons/src';
-import { Card } from '../src';
+import { Tone } from '../../types/src';
+import { Card, CardBody, CardFooter, CardHeader } from '../src';
 
 const text = `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et totam eius ducimus unde voluptatibus asperiores fuga
       accusantium voluptates non nam sit beatae, modi quas animi autem aliquid. Exercitationem, veniam sapiente!
@@ -21,9 +21,9 @@ describe('Card', () => {
       <TidyUiProvider theme={orchidLight}>
         <Card>{text}</Card>
         <Card>
-          <Card.Header>Lorem ipsum dolor sit.</Card.Header>
-          <Card.Body>{text}</Card.Body>
-          <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
+          <CardHeader>Lorem ipsum dolor sit.</CardHeader>
+          <CardBody>{text}</CardBody>
+          <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
         </Card>
       </TidyUiProvider>,
     );
@@ -34,9 +34,9 @@ describe('Card', () => {
       <TidyUiProvider theme={orchidDark}>
         <Card>{text}</Card>
         <Card>
-          <Card.Header>Lorem ipsum dolor sit.</Card.Header>
-          <Card.Body>{text}</Card.Body>
-          <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
+          <CardHeader>Lorem ipsum dolor sit.</CardHeader>
+          <CardBody>{text}</CardBody>
+          <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
         </Card>
       </TidyUiProvider>,
     );
@@ -47,9 +47,9 @@ describe('Card', () => {
       <TidyUiProvider theme={orchidLight}>
         <Card isSharp>{text}</Card>
         <Card isSharp>
-          <Card.Header>Lorem ipsum dolor sit.</Card.Header>
-          <Card.Body>{text}</Card.Body>
-          <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
+          <CardHeader>Lorem ipsum dolor sit.</CardHeader>
+          <CardBody>{text}</CardBody>
+          <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
         </Card>
       </TidyUiProvider>,
     );
@@ -60,14 +60,14 @@ describe('Card', () => {
       <TidyUiProvider theme={orchidLight}>
         <Card href="https://google.com">{text}</Card>
         <Card>
-          <Card.Header href="https://google.com">Lorem ipsum dolor sit.</Card.Header>
-          <Card.Body>{text}</Card.Body>
-          <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
+          <CardHeader href="https://google.com">Lorem ipsum dolor sit.</CardHeader>
+          <CardBody>{text}</CardBody>
+          <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
         </Card>
         <Card href="https://google.com">
-          <Card.Header>Lorem ipsum dolor sit.</Card.Header>
-          <Card.Body>{text}</Card.Body>
-          <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
+          <CardHeader>Lorem ipsum dolor sit.</CardHeader>
+          <CardBody>{text}</CardBody>
+          <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
         </Card>
       </TidyUiProvider>,
     );
@@ -79,14 +79,14 @@ describe('Card', () => {
       <TidyUiProvider theme={orchidDark}>
         <Card href="https://google.com">{text}</Card>
         <Card>
-          <Card.Header href="https://google.com">Lorem ipsum dolor sit.</Card.Header>
-          <Card.Body>{text}</Card.Body>
-          <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
+          <CardHeader href="https://google.com">Lorem ipsum dolor sit.</CardHeader>
+          <CardBody>{text}</CardBody>
+          <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
         </Card>
         <Card href="https://google.com">
-          <Card.Header>Lorem ipsum dolor sit.</Card.Header>
-          <Card.Body>{text}</Card.Body>
-          <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
+          <CardHeader>Lorem ipsum dolor sit.</CardHeader>
+          <CardBody>{text}</CardBody>
+          <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
         </Card>
       </TidyUiProvider>,
     );
@@ -106,9 +106,9 @@ describe('Card', () => {
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
             <Card accent={Tone[v]} key={i} accentPosition="left">
-              <Card.Header>Lorem ipsum dolor sit.</Card.Header>
-              <Card.Body>{text}</Card.Body>
-              <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
+              <CardHeader>Lorem ipsum dolor sit.</CardHeader>
+              <CardBody>{text}</CardBody>
+              <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
             </Card>
           ))}
       </TidyUiProvider>,
@@ -120,14 +120,14 @@ describe('Card', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Card>
-          <Card.Header isDivided>Lorem ipsum dolor sit.</Card.Header>
-          <Card.Body>{text}</Card.Body>
-          <Card.Footer isDivided>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
+          <CardHeader isDivided>Lorem ipsum dolor sit.</CardHeader>
+          <CardBody>{text}</CardBody>
+          <CardFooter isDivided>Lorem ipsum dolor sit amet consectetur.</CardFooter>
         </Card>
         <Card isSharp>
-          <Card.Header isDivided>Lorem ipsum dolor sit.</Card.Header>
-          <Card.Body>{text}</Card.Body>
-          <Card.Footer isDivided>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
+          <CardHeader isDivided>Lorem ipsum dolor sit.</CardHeader>
+          <CardBody>{text}</CardBody>
+          <CardFooter isDivided>Lorem ipsum dolor sit amet consectetur.</CardFooter>
         </Card>
       </TidyUiProvider>,
     );
@@ -139,13 +139,13 @@ describe('Card', () => {
       <TidyUiProvider theme={orchidLight}>
         <Card ele={<div />}>{text}</Card>
         <Card>
-          <Card.Header ele={<div />} isDivided>
+          <CardHeader ele={<div />} isDivided>
             Lorem ipsum dolor sit.
-          </Card.Header>
-          <Card.Body ele={<div />}>{text}</Card.Body>
-          <Card.Footer ele={<div />} isDivided>
+          </CardHeader>
+          <CardBody ele={<div />}>{text}</CardBody>
+          <CardFooter ele={<div />} isDivided>
             Lorem ipsum dolor sit amet consectetur.
-          </Card.Footer>
+          </CardFooter>
         </Card>
       </TidyUiProvider>,
     );
@@ -157,9 +157,9 @@ describe('Card', () => {
       <TidyUiProvider theme={orchidLight}>
         <Card height="9rem">{text}</Card>
         <Card height="15rem">
-          <Card.Header>Lorem ipsum dolor sit.</Card.Header>
-          <Card.Body>{text}</Card.Body>
-          <Card.Footer>Lorem ipsum dolor sit amet consectetur.</Card.Footer>
+          <CardHeader>Lorem ipsum dolor sit.</CardHeader>
+          <CardBody>{text}</CardBody>
+          <CardFooter>Lorem ipsum dolor sit amet consectetur.</CardFooter>
         </Card>
       </TidyUiProvider>,
     );

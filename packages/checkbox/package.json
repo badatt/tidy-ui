@@ -45,9 +45,10 @@
     "react-ui",
     "components",
     "ui",
-    "ui-components"
+    "ui-components",
+    "Checkbox"
   ],
-  "description": "tidy-ui react component library; 'checkbox package",
+  "description": "The Checkboxes component is a versatile tool for collecting user responses with a simple 'yes' or 'no.' Users can check for 'yes' and leave it for 'no.' It offers size and style options, including filled or outlined variants with tick marks upon selection. The intermediate state adds a line, and dynamic status reflects emitted information. Enhanced by robust theming and styling, it seamlessly adapts to your design preferences.",
   "publishConfig": {
     "access": "public"
   },

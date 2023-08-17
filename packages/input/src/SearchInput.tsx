@@ -9,7 +9,9 @@ const SearchInput = React.forwardRef<HTMLInputElement, Omit<ITextInputProps, 'ch
   const { disabled, girth } = props;
   return (
     <InputGroup isBlend {...{ disabled, girth }}>
-      <InputElement node={<Icon ele={<Icon.Search />} />} isBlend {...{ disabled, girth }} />
+      <InputElement isBlend {...{ disabled, girth }}>
+        <Icon ele={<Icon.Search />} />
+      </InputElement>
       <TextInput ref={ref} type="search" {...props} />
     </InputGroup>
   );

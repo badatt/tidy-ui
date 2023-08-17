@@ -1,6 +1,6 @@
 import { FlattenInterpolation, ThemeProps } from 'styled-components';
-import { css } from '../theme';
-import { ITidyUITheme, ITypography } from '../theme/types';
+import { ITypography } from '@tidy-ui/types';
+import { css, ITidyUITheme } from '../theme';
 
 /**
  * Font type

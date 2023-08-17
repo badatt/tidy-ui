@@ -6,14 +6,14 @@ import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
-import { Alert } from '../src';
+import { Alert, AlertTitle, AlertFooter } from '../src';
 
 describe('Alert', () => {
   it('Basic render', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Alert>
-          <Alert.Title>Title</Alert.Title>content<Alert.Footer>footer</Alert.Footer>
+          <AlertTitle>Title</AlertTitle>content<AlertFooter>footer</AlertFooter>
         </Alert>
       </TidyUiProvider>,
     );
@@ -23,7 +23,7 @@ describe('Alert', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
         <Alert>
-          <Alert.Title>Title</Alert.Title>content<Alert.Footer>footer</Alert.Footer>
+          <AlertTitle>Title</AlertTitle>content<AlertFooter>footer</AlertFooter>
         </Alert>
       </TidyUiProvider>,
     );
@@ -34,8 +34,8 @@ describe('Alert', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Alert ele={<div />}>
-          <Alert.Title ele={<div />}>custom title element</Alert.Title>body
-          <Alert.Footer ele={<div />}>custom footer</Alert.Footer>
+          <AlertTitle ele={<div />}>custom title element</AlertTitle>body
+          <AlertFooter ele={<div />}>custom footer</AlertFooter>
         </Alert>
       </TidyUiProvider>,
     );
@@ -46,7 +46,7 @@ describe('Alert', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Alert isFilled>
-          <Alert.Title>Title</Alert.Title>content<Alert.Footer>footer</Alert.Footer>
+          <AlertTitle>Title</AlertTitle>content<AlertFooter>footer</AlertFooter>
         </Alert>
       </TidyUiProvider>,
     );
@@ -57,7 +57,7 @@ describe('Alert', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Alert isSharp={false}>
-          <Alert.Title>Title</Alert.Title>content<Alert.Footer>footer</Alert.Footer>
+          <AlertTitle>Title</AlertTitle>content<AlertFooter>footer</AlertFooter>
         </Alert>
       </TidyUiProvider>,
     );
@@ -68,7 +68,7 @@ describe('Alert', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Alert isSharp={false} isFilled>
-          <Alert.Title>Title</Alert.Title>content<Alert.Footer>footer</Alert.Footer>
+          <AlertTitle>Title</AlertTitle>content<AlertFooter>footer</AlertFooter>
         </Alert>
       </TidyUiProvider>,
     );

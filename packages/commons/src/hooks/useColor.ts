@@ -1,5 +1,6 @@
 import React from 'react';
-import { IRgb, rgb } from '../theme';
+import { IRgb } from '@tidy-ui/types';
+import { rgb } from '../theme';
 import { ColorHash } from '../utils';
 
 /**

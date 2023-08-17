@@ -1,6 +1,6 @@
 import { color, css, hsla, styled } from '../../commons/src';
 import { Text } from '../../text/src';
-import { FlexBox } from '../src';
+import { FlexBox, FlexItem } from '../src';
 import { IFlexBoxProps, IFlexItemProps } from '../src/types';
 
 const StyledFlexBox = styled(FlexBox)<IFlexBoxProps>`
@@ -17,7 +17,7 @@ const StyledFlexBox = styled(FlexBox)<IFlexBoxProps>`
         `}
 `;
 
-const StyledFlexItem = styled(FlexBox.Item)<IFlexItemProps>`
+const StyledFlexItem = styled(FlexItem)<IFlexItemProps>`
   ${({ theme: { isDark } }) =>
     isDark
       ? css`

@@ -2,7 +2,7 @@ import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 import { Icon } from '../../commons/src';
 import { FlexBox } from '../../flexbox/src';
-import { Input, InputGroup } from '../src';
+import { Input, InputGroup, InputElement } from '../src';
 
 const meta: Meta<typeof InputGroup> = {
   title: 'Form/InputGroup',
@@ -18,17 +18,17 @@ export const frill: Story = {
     return (
       <FlexBox gap="1rem" fld="column" width="350px">
         <InputGroup>
-          <Input.Element node="https://" />
+          <InputElement>https://</InputElement>
           <Input placeholder="google" />
-          <Input.Element node=".com" />
+          <InputElement>.com</InputElement>
         </InputGroup>
         <InputGroup>
-          <Input.Element node="https://" />
+          <InputElement>https://</InputElement>
           <Input placeholder="google.com" />
         </InputGroup>
         <InputGroup>
           <Input placeholder="google" />
-          <Input.Element node=".com" />
+          <InputElement>.com</InputElement>
         </InputGroup>
       </FlexBox>
     );
@@ -40,17 +40,21 @@ export const blend: Story = {
     return (
       <FlexBox gap="1rem" fld="column" width="450px">
         <InputGroup isBlend>
-          <Input.Element node="$" />
+          <InputElement>$</InputElement>
           <Input placeholder="500" />
-          <Input.Element node={<Icon ele={<Icon.CheckCircle />} />} />
+          <InputElement>
+            <Icon ele={<Icon.CheckCircle />} />
+          </InputElement>
         </InputGroup>
         <InputGroup isBlend>
-          <Input.Element node="$" />
+          <InputElement>$</InputElement>
           <Input placeholder="500" />
         </InputGroup>
         <InputGroup isBlend>
           <Input placeholder="500" />
-          <Input.Element node={<Icon ele={<Icon.CheckCircle />} />} />
+          <InputElement>
+            <Icon ele={<Icon.CheckCircle />} />
+          </InputElement>
         </InputGroup>
       </FlexBox>
     );

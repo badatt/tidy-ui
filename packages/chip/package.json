@@ -45,9 +45,10 @@
     "react-ui",
     "components",
     "ui",
-    "ui-components"
+    "ui-components",
+    "Chip"
   ],
-  "description": "Chip component can be used to display a badge to highlight a state. It comes with various sizes, tones. It can embed an icon, make it clickable & create an outlined variant",
+  "description": "Introducing the versatile Chip, your info companion! It's like a badge, displaying extra details. Choose sizes, tones, filled or outlined styles, and icon placement. Make it clickable for user actions. Chip is enhanced by theming and styling, ready to elevate your UI!",
   "publishConfig": {
     "access": "public"
   },

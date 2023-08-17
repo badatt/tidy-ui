@@ -5,7 +5,8 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { Girth, orchidDark, orchidLight, Status, TidyUiProvider } from '../../commons/src';
+import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
+import { Girth, Status } from '../../types/src';
 import { Option, Select } from '../src';
 
 describe('Select', () => {

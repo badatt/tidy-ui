@@ -1,7 +1,7 @@
 import React from 'react';
 import { TabsRoot } from './components';
-import { TabsContext } from './TabsContext';
-import { ITabsContext, ITabsProps } from './types';
+import { ITabsContext, TabsContext } from './TabsContext';
+import { ITabsProps } from './types';
 
 const Tabs = React.forwardRef<HTMLDivElement, ITabsProps>((props, ref) => {
   const { children, ...rest } = props;

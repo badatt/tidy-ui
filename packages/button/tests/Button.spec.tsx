@@ -7,8 +7,7 @@ import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { Icon, orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
 import { Button } from '../src';
-import { Girth, Tone } from '../../commons/src';
-import { Variant } from '../src/types';
+import { Girth, Tone, ButtonVariant } from '../../types/src';
 
 describe('Render Button', () => {
   it('Basic render', () => {
@@ -124,11 +123,11 @@ describe('Render Button', () => {
   it('Button with all type variants', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        {Object.values(Variant)
+        {Object.values(ButtonVariant)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Button variant={Variant[v]} key={i}>
-              {Variant[v]}
+            <Button variant={ButtonVariant[v]} key={i}>
+              {ButtonVariant[v]}
             </Button>
           ))}
       </TidyUiProvider>,
@@ -150,11 +149,11 @@ describe('Render Button', () => {
   it('Button with all type variants in dark mode', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
-        {Object.values(Variant)
+        {Object.values(ButtonVariant)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Button variant={Variant[v]} key={i}>
-              {Variant[v]}
+            <Button variant={ButtonVariant[v]} key={i}>
+              {ButtonVariant[v]}
             </Button>
           ))}
       </TidyUiProvider>,

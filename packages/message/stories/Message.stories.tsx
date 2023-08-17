@@ -1,6 +1,6 @@
 import React from 'react';
 import { FlexBox } from '../../flexbox/src';
-import { Tone } from '../../commons/src';
+import { Tone } from '../../types/src';
 import { Message } from '../src';
 
 export default {

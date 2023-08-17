@@ -1,7 +1,7 @@
 import React from 'react';
 import { Divider } from '../../divider/src';
 import { Stack } from '../src';
-import { Align, Justify, Order } from '../src/types';
+import { StackAlign, StackJustify, StackOrder } from '../../types/src';
 import { StackProvider, Ctx } from './StackProvider';
 import { StackItem, StyledText } from './components';
 import { Text } from '../../text/src';
@@ -77,15 +77,15 @@ export const fold = () => (
 
 export const order = () => (
   <>
-    {Object.keys(Order)
+    {Object.keys(StackOrder)
       .filter((i) => !isNaN(Number(i)))
       .map((v, i) => (
         <>
           <StackProvider key={i}>
-            <Text.h6>{Order[v]}</Text.h6>
+            <Text.h6>{StackOrder[v]}</Text.h6>
             <Ctx.Consumer>
               {({ count }) => (
-                <Stack order={Order[v]}>
+                <Stack order={StackOrder[v]}>
                   {[...Array(count)].map((v, i) => (
                     <StackItem key={i}>
                       <StyledText>{i}</StyledText>
@@ -103,15 +103,15 @@ export const order = () => (
 
 export const align = () => (
   <>
-    {Object.keys(Align)
+    {Object.keys(StackAlign)
       .filter((i) => !isNaN(Number(i)))
       .map((v, i) => (
         <>
           <StackProvider key={i}>
-            <Text.h6>{Align[v]}</Text.h6>
+            <Text.h6>{StackAlign[v]}</Text.h6>
             <Ctx.Consumer>
               {({ count }) => (
-                <Stack align={Align[v]} height="10rem">
+                <Stack align={StackAlign[v]} height="10rem">
                   {[...Array(count)].map((v, i) => (
                     <StackItem key={i}>
                       <StyledText>{i}</StyledText>
@@ -129,15 +129,15 @@ export const align = () => (
 
 export const justify = () => (
   <>
-    {Object.keys(Justify)
+    {Object.keys(StackJustify)
       .filter((i) => !isNaN(Number(i)))
       .map((v, i) => (
         <>
           <StackProvider key={i}>
-            <Text.h6>{Justify[v]}</Text.h6>
+            <Text.h6>{StackJustify[v]}</Text.h6>
             <Ctx.Consumer>
               {({ count }) => (
-                <Stack justify={Justify[v]}>
+                <Stack justify={StackJustify[v]}>
                   {[...Array(count)].map((v, i) => (
                     <StackItem key={i}>
                       <StyledText>{i}</StyledText>

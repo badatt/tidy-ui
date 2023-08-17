@@ -10,7 +10,9 @@ const EmailInput = React.forwardRef<HTMLInputElement, Omit<ITextInputProps, 'chi
   return (
     <InputGroup isBlend {...{ disabled, girth }}>
       <TextInput ref={ref} type="email" {...props} />
-      <InputElement isBlend node={<Icon ele={<Icon.Email isOutlined />} />} {...{ disabled, girth }} />
+      <InputElement isBlend {...{ disabled, girth }}>
+        <Icon ele={<Icon.Email isOutlined />} />
+      </InputElement>
     </InputGroup>
   );
 });

@@ -47,7 +47,7 @@
     "ui",
     "ui-components"
   ],
-  "description": "tidy-ui react component library; 'drawer package",
+  "description": "The `Drawer` adds extra stuff, like navigation, to your app. You can put it on the left or right. Open/close it with clicks. When open, it covers the screen and focuses on its content. A top button closes it. Easy-peasy!",
   "publishConfig": {
     "access": "public"
   },

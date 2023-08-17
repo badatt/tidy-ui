@@ -5,8 +5,9 @@ import React from 'react';
 import { render, cleanup } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidDark, orchidLight, Status, TidyUiProvider } from '../../commons/src';
+import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
 import { Radio } from '../src';
+import { Status } from '../../types/src';
 
 afterEach(cleanup);
 

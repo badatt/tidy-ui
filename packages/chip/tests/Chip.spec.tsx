@@ -5,10 +5,9 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
+import { orchidDark, orchidLight, TidyUiProvider, Icon } from '../../commons/src';
 import { Chip } from '../src';
-import { Girth, Tone } from '../../commons/src';
-import { Icon } from '../../commons/src';
+import { Girth, Tone } from '../../types/src';
 
 describe('Chip', () => {
   it('Basic render', () => {

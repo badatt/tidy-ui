@@ -1,6 +1,6 @@
 import { applyStandardOverrideStyles, css, hsla, Icon, styled } from '@tidy-ui/commons';
 import { filledContent, outlinedContent, sizeStyles } from './styles';
-import { INewTagInput, ITagGroupProps, ITagProps } from './types';
+import { ITagGroupProps, ITagProps } from './types';
 
 /**
  * Internal Tag root
@@ -76,7 +76,7 @@ const AddNewTagIcon = styled(Icon.AddCircle)<ITagGroupProps>`
  *
  * @internal
  */
-const NewTagInput = styled.input<INewTagInput>`
+const NewTagInput = styled.input<Pick<ITagProps, 'girth' | 'tone'>>`
   outline: none;
   border-radius: 0.25rem;
   transition: border-color 0.3s ease-in-out;
