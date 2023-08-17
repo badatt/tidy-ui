@@ -1,11 +1,11 @@
 import React from 'react';
 import { Icon } from '../../commons/src';
-import { Tone } from '../../commons/src';
+import { Tone } from '../../types/src';
 import { useToaster } from '../../toaster/src';
 import { Button, ButtonCluster, ButtonGroup } from '../../button/src';
 import { Text } from '../../text/src';
 import { FlexBox } from '../../flexbox/src';
-import { Grid } from '../../grid/src';
+import { Grid, GridItem } from '../../grid/src';
 import { Notification } from '../src';
 
 export default {
@@ -40,11 +40,11 @@ export const tones = () => (
     {Object.keys(Tone)
       .filter((i) => !isNaN(Number(i)))
       .map((v, i) => (
-        <Grid.Item xs={12} sm={12} md={8} lg={6} xl={6} key={i}>
+        <GridItem xs={12} sm={12} md={8} lg={6} xl={6} key={i}>
           <Notification key={i} tone={Tone[v]}>
             <NotificationText />
           </Notification>
-        </Grid.Item>
+        </GridItem>
       ))}
   </Grid>
 );
@@ -54,11 +54,11 @@ export const filled = () => (
     {Object.keys(Tone)
       .filter((i) => !isNaN(Number(i)))
       .map((v, i) => (
-        <Grid.Item xs={12} sm={12} md={8} lg={6} xl={6} key={i}>
+        <GridItem xs={12} sm={12} md={8} lg={6} xl={6} key={i}>
           <Notification key={i} tone={Tone[v]} isFilled>
             <NotificationText />
           </Notification>
-        </Grid.Item>
+        </GridItem>
       ))}
   </Grid>
 );

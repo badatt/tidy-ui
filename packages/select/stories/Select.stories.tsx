@@ -2,7 +2,7 @@ import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 import { Select, Option } from '../src';
 import { FlexBox } from '../../flexbox/src';
-import { Girth, Status } from '../../commons/src';
+import { Girth, Status } from '../../types/src';
 
 const meta: Meta<typeof Select> = {
   title: 'Form/Select',

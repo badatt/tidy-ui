@@ -3,8 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { FlexBox } from '../../flexbox/src';
 import { Text } from '../../text/src';
 import { Input } from '../src';
-import { Variant } from '../src/types';
-import { Girth, Status, TStatus } from '../../commons/src';
+import { Girth, Status, TStatus, InputVariant } from '../../types/src';
 
 const meta: Meta<typeof Input> = {
   title: 'Form/Input',
@@ -19,10 +18,10 @@ export const variants: Story = {
   render: () => {
     return (
       <FlexBox gap="1rem" fld="column" width="350px">
-        {Object.values(Variant)
+        {Object.values(InputVariant)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <Input key={v} variant={Variant[v]} placeholder={Variant[v]} />
+            <Input key={v} variant={InputVariant[v]} placeholder={InputVariant[v]} />
           ))}
       </FlexBox>
     );
@@ -135,7 +134,8 @@ export const password: Story = {
 
     return (
       <FlexBox gap="1rem" fld="column" width="350px">
-        <Input.Password
+        <Input
+          type="password"
           caption={caption}
           status={status}
           value={name}
@@ -157,17 +157,17 @@ export const types: Story = {
       <FlexBox gap="2rem">
         <FlexBox gap="2rem" fld="column" width="350px">
           <Input placeholder="Simple input" onChange={handleChange} />
-          <Input.Password placeholder="Password input" onChange={handleChange} />
-          <Input.Number placeholder="Number input" onChange={handleChange} />
-          <Input.Date onChange={handleChange} />
-          <Input.DateTime onChange={handleChange} />
-          <Input.Month onChange={handleChange} />
-          <Input.Week onChange={handleChange} />
-          <Input.Time onChange={handleChange} />
-          <Input.Email placeholder="Email input" onChange={handleChange} />
-          <Input.Search placeholder="Search input" onChange={handleChange} />
-          <Input.Telephone placeholder="Telephone input" onChange={handleChange} />
-          <Input.Url placeholder="URL input" onChange={handleChange} />
+          <Input type="password" placeholder="Password input" onChange={handleChange} />
+          <Input type="number" placeholder="Number input" onChange={handleChange} />
+          <Input type="date" onChange={handleChange} />
+          <Input type="datetime-local" onChange={handleChange} />
+          <Input type="month" onChange={handleChange} />
+          <Input type="week" onChange={handleChange} />
+          <Input type="time" onChange={handleChange} />
+          <Input type="email" placeholder="Email input" onChange={handleChange} />
+          <Input type="search" placeholder="Search input" onChange={handleChange} />
+          <Input type="tel" placeholder="Telephone input" onChange={handleChange} />
+          <Input type="url" placeholder="URL input" onChange={handleChange} />
         </FlexBox>
         <FlexBox>{inputValue && <Text.h6>The value is {inputValue}</Text.h6>}</FlexBox>
       </FlexBox>

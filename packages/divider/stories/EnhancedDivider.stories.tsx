@@ -1,8 +1,13 @@
 import React from 'react';
 import { Text } from '../../text/src';
-import { Divider } from '../src';
-import { Density, Position } from '../src/types';
-import { Shade, Tone, BorderStyle } from '../../commons/src';
+import { Divider, DividerEnhanced } from '../src';
+import { Density, Shade, Tone, BorderStyle } from '../../types/src';
+
+enum Position {
+  'center',
+  'start',
+  'end',
+}
 
 export default {
   component: Divider,
@@ -19,7 +24,7 @@ export const basic = () => {
       {[...Array(3)].map((v, i) => (
         <React.Fragment key={i}>
           <Text.body1>{text}</Text.body1>
-          <Divider.Enhanced />
+          <DividerEnhanced />
         </React.Fragment>
       ))}
     </>
@@ -32,9 +37,9 @@ export const contained = () => {
       {[...Array(3)].map((v, i) => (
         <React.Fragment key={i}>
           <Text.body1>{text}</Text.body1>
-          <Divider.Enhanced>
+          <DividerEnhanced>
             <Text.caption>section {i}</Text.caption>
-          </Divider.Enhanced>
+          </DividerEnhanced>
         </React.Fragment>
       ))}
     </>
@@ -50,9 +55,9 @@ export const density = () => {
           <React.Fragment key={i}>
             <Text.h6>density={Density[v]}</Text.h6>
             <Text.body1>{text}</Text.body1>
-            <Divider.Enhanced density={Density[v]}>
+            <DividerEnhanced density={Density[v]}>
               <Text.span>section {i}</Text.span>
-            </Divider.Enhanced>
+            </DividerEnhanced>
           </React.Fragment>
         ))}
     </>
@@ -69,9 +74,9 @@ export const shades = () => {
           <React.Fragment key={i}>
             <Text.h6>shade={Shade[v]}</Text.h6>
             <Text.body1>{text}</Text.body1>
-            <Divider.Enhanced shade={Shade[v]}>
+            <DividerEnhanced shade={Shade[v]}>
               <Text.caption>section {i}</Text.caption>
-            </Divider.Enhanced>
+            </DividerEnhanced>
           </React.Fragment>
         ))}
     </>
@@ -87,9 +92,9 @@ export const tones = () => {
           <React.Fragment key={i}>
             <Text.h6>tone={Tone[v]}</Text.h6>
             <Text.body1>{text}</Text.body1>
-            <Divider.Enhanced tone={Tone[v]}>
+            <DividerEnhanced tone={Tone[v]}>
               <Text.caption tone={Tone[v]}>section {i}</Text.caption>
-            </Divider.Enhanced>
+            </DividerEnhanced>
           </React.Fragment>
         ))}
     </>
@@ -105,9 +110,9 @@ export const variants = () => {
           <React.Fragment key={i}>
             <Text.h6>variant={BorderStyle[v]}</Text.h6>
             <Text.body1>{text}</Text.body1>
-            <Divider.Enhanced variant={BorderStyle[v]}>
+            <DividerEnhanced variant={BorderStyle[v]}>
               <Text.caption>section {i}</Text.caption>
-            </Divider.Enhanced>
+            </DividerEnhanced>
           </React.Fragment>
         ))}
     </>
@@ -123,9 +128,9 @@ export const justify = () => {
           <React.Fragment key={i}>
             <Text.h6>justify={Position[v]}</Text.h6>
             <Text.body1>{text}</Text.body1>
-            <Divider.Enhanced justify={Position[v]}>
+            <DividerEnhanced justify={Position[v]}>
               <Text.caption>section {i}</Text.caption>
-            </Divider.Enhanced>
+            </DividerEnhanced>
           </React.Fragment>
         ))}
     </>

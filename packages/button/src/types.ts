@@ -1,246 +1,277 @@
 import { AnchorHTMLAttributes, ButtonHTMLAttributes, HTMLAttributes } from 'react';
-import { TGirth, TTone } from '@tidy-ui/commons';
-import { IBaseProps } from '@tidy-ui/types';
+import { IBaseProps, TButtonVariant, TGirth, TTone } from '@tidy-ui/types';
 
 /**
- * Variant
- */
-export enum Variant {
-  'hero',
-  'outlined',
-  'primary',
-  'simple',
-}
-
-/**
- * Button variants
+ * Interface defining properties for configuring a Button component.
  *
- * `primary` -> For most significant actions in a page. If at all, only one recommended in a page
- * <br />
- * `outlined` -> Second most significant actions, can be multiple
- * <br />
- * `hero` -> Like a banner on a page, use this if you want to standout the action you want
- * the user to take
- * <br />
- * `basic` -> default actions
- * <br />
- * `simple` -> For ghost actions, use this if you don't want to let user notice that it exists
- * <br />
- *
- * @typedef {TVariant}
- * @public
- */
-export type TVariant = keyof typeof Variant;
-
-/**
- * Button props
- *
- * @typedef {IButtonProps}
  * @interface IButtonProps
- * @augments {HTMLAttributes<HTMLButtonElement>}
+ * @type {IButtonProps}
+ * @augments {ButtonHTMLAttributes<HTMLButtonElement>}
  * @public
+ * @since 0.47.0
  */
 export interface IButtonProps extends IBaseProps, ButtonHTMLAttributes<HTMLButtonElement> {
   /**
-   * The girth of the component
+   * An optional property that determines the size of the button.
    *
-   * @type {?TGirth}
-   * @default 'md'
+   * @type {TGirth}
+   * @default md
+   * @public
+   * @since 0.47.0
    */
   girth?: TGirth;
 
   /**
-   * Icon (only) to embed inside the button
+   * An optional property allowing embedding an icon within the button.
    *
-   * @type {?JSX.Element}
+   * @type {JSX.Element}
+   * @public
+   * @since 0.47.0
    */
   icon?: JSX.Element;
 
   /**
-   * If `true`, tone of the button will be a gradient of major and minor tones
+   * An optional property specifying whether the button should have a gradient tone.
    *
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   isGradient?: boolean;
 
   /**
-   * If `true`, the button is disabled, blocked for actions and a loader is added
+   * An optional property determining whether the button is disabled, blocked for actions, and shows a loader.
    *
-   * @type {?boolean}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   isLoading?: boolean;
 
   /**
-   * If `true`, the button is stretched to full width
+   * An optional property specifying whether the button stretches to full width.
    *
-   * @type {?boolean}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   isStretched?: boolean;
 
   /**
-   * If `true`, the text content inside the button is changed to uppercase
+   * An optional property specifying whether the text content inside the button is displayed in uppercase.
    *
    * @type {?boolean}
+   * @default false
+   * @public
+   * @since 0.47.0
    */
   isUppercase?: boolean;
 
   /**
-   * The color of the component
+   * An optional property specifying the color tone of the button.
    *
-   * @type {?TTone}
-   * @default 'major'
+   * @type {TTone}
+   * @default neutral
+   * @public
+   * @since 0.47.0
    */
   tone?: TTone;
 
   /**
-   * The variant of the component
+   * An optional property specifying the variant style of the button.
    *
-   * @type {?TVariant}
-   * @default 'basic'
+   * `primary` -> For most significant actions in a page. If at all, only one recommended in a page
+   * <br />
+   * `outlined` -> Second most significant actions, can be multiple
+   * <br />
+   * `hero` -> Like a banner on a page, use this if you want to standout the action you want
+   * the user to take
+   * <br />
+   * `basic` -> All other actions
+   * <br />
+   * `simple` -> For ghost actions, use this if you don't want to let user notice that it exists
+   * <br />
+   *
+   * @type {TButtonVariant}
+   * @default outlined
+   * @public
+   * @since 0.47.0
    */
-  variant?: TVariant;
+  variant?: TButtonVariant;
 }
 
 /**
- * Anchor props
+ * Interface defining properties for configuring an Anchor component.
  *
- * @typedef {IAnchorProps}
  * @interface IAnchorProps
+ * @type {IAnchorProps}
  * @augments {AnchorHTMLAttributes<HTMLAnchorElement>}
  * @public
+ * @since 0.47.0
  */
 export interface IAnchorProps extends IBaseProps, AnchorHTMLAttributes<HTMLAnchorElement> {
   /**
-   * If `true`, the anchor launches the associated link in a new tab
+   * An optional property that determines whether the anchor should open the associated link in a new tab.
    *
-   * @type {?boolean}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   canLaunch?: boolean;
 
   /**
-   * The size of the component
+   * An optional property that determines the size of the anchor component.
    *
-   * @type {?TGirth}
-   * @default 'md'
+   * @type {TGirth}
+   * @default md
+   * @public
+   * @since 0.47.0
    */
   girth?: TGirth;
 
   /**
-   * The color of the component
+   * An optional property that specifies the color tone of the anchor component.
    *
-   * @type {?TTone}
-   * @default 'major'
+   * @type {TTone}
+   * @default neutral
+   * @public
+   * @since 0.47.0
    */
   tone?: TTone;
 }
 
 /**
- * IconButton props
+ * Interface defining properties for configuring an IconButton component.
  *
- * @typedef {IIconButtonProps}
  * @interface IIconButtonProps
- * @augments {HTMLAttributes<HTMLButtonElement>}
+ * @type {IIconButtonProps}
+ * @augments {ButtonHTMLAttributes<HTMLButtonElement>}
  * @public
+ * @since 0.47.0
  */
 export interface IIconButtonProps extends IBaseProps, ButtonHTMLAttributes<HTMLButtonElement> {
   /**
-   * The size of the component
+   * An optional property that determines the size of the icon button component.
    *
-   * @type {?TGirth}
-   * @default 'md'
+   * @type {TGirth}
+   * @default md
+   * @public
+   * @since 0.47.0
    */
   girth?: TGirth;
 
   /**
-   * Mandatory icon to embed inside the button
+   * A required property representing the mandatory icon embedded inside the button.
    *
-   * @type {?JSX.Element}
+   * @type {JSX.Element}
+   * @public
+   * @since 0.47.0
    */
   icon: JSX.Element;
 
   /**
-   * If `true`, creates a circular button with icon inside
+   * An optional property that specifies whether the button is circular and contains only an icon.
    *
-   * @type {?boolean}
+   * @type {boolean}
+   * @default false
+   * @public
+   * @since 0.47.0
    */
   isIconOnly?: boolean;
 
   /**
-   * Placement of the icon inside the button
+   * An optional property that specifies the placement of the icon inside the button.
    *
-   * @type {?('left' | 'right')}
-   * @default 'left'
+   * @type {'left' | 'right'}
+   * @default left
+   * @public
+   * @since 0.47.0
    */
   placement?: 'left' | 'right';
 
   /**
-   * The color of the component
+   * An optional property that specifies the color tone of the icon button component.
    *
-   * @type {?TTone}
-   * @default 'major'
+   * @type {TTone}
+   * @default neutral
+   * @public
+   * @since 0.47.0
    */
   tone?: TTone;
 
   /**
-   * The variant of the component
+   * An optional property that specifies the variant style of the icon button component.
    *
-   * @default 'primary'
+   * @type {'primary' | 'outlined'}
+   * @default outlined
+   * @public
+   * @since 0.47.0
    */
   variant?: 'primary' | 'outlined';
 }
 
 /**
- * ButtonGroup props
+ * Interface defining properties for configuring a ButtonGroup component.
  *
- * @typedef {IButtonGroupProps}
  * @interface IButtonGroupProps
+ * @type {IButtonGroupProps}
  * @augments {HTMLAttributes<HTMLDivElement>}
  * @public
+ * @since 0.47.0
  */
 export interface IButtonGroupProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * If `true`, the component is stretched to full width, equally distributing the buttons width
+   * An optional property that determines whether the button group component stretches to full width, evenly distributing the width of the buttons.
    *
-   * @type {?boolean}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   isStretched?: boolean;
 
   /**
-   * If `true`, buttons inside the group are unified and seen as single component.
-   * Can see significant change in outlined type button group
+   * An optional property that specifies whether buttons inside the group are visually unified, presenting them as a single component. This can have a significant impact, especially in the case of an outlined button group.
    *
-   * @type {?boolean}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   isUnified?: boolean;
 
   /**
-   * If `true`, aligns the button group vertically
+   * An optional property that determines whether the button group is vertically aligned.
    *
-   * @type {?boolean}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   isVertical?: boolean;
 }
 
 /**
- * ButtonCluster props
+ * Interface defining properties for configuring a ButtonCluster component.
  *
- * @typedef {IButtonClusterProps}
  * @interface IButtonClusterProps
+ * @type {IButtonClusterProps}
  * @augments {HTMLAttributes<HTMLDivElement>}
  * @public
+ * @since 0.47.0
  */
 export interface IButtonClusterProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * If `true`, the component is stretched to full width, equally distributing the buttons width
+   * An optional property that determines whether the button cluster component stretches to full width, evenly distributing the width of the buttons.
    *
-   * @type {?boolean}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   isStretched?: boolean;
 }

@@ -1,204 +1,227 @@
 import { HTMLAttributes } from 'react';
-import { TTone } from '@tidy-ui/commons';
-import { IBaseProps } from '@tidy-ui/types';
+import { IBaseProps, TTextVariant, TTone } from '@tidy-ui/types';
 
 /**
- * Variant
- */
-export enum Variant {
-  'hero',
-  'title1',
-  'title2',
-  'subtitle1',
-  'subtitle2',
-  'caption',
-  'body1',
-  'body2',
-  'span',
-  'p',
-  'h1',
-  'h2',
-  'h3',
-  'h4',
-  'h5',
-  'h6',
-}
-
-/**
- * Types of text variants
+ * Interface for configuring props for the Text component, representing stylized text content.
  *
- * @typedef {TVariant}
- * @public
- */
-export type TVariant = keyof typeof Variant;
-
-/**
- * Text props
- *
- * @typedef {ITextProps}
  * @interface ITextProps
+ * @type {ITextProps}
  * @augments {HTMLAttributes<HTMLDivElement>}
  * @public
+ * @since 0.47.0
  */
 export interface ITextProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * If `true`, creates bold text
+   * The bld property controls whether the text should be displayed in bold style.
+   * Apply bold formatting to emphasize specific content within the text.
    *
-   * @type {?boolean}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   bld?: boolean;
 
   /**
-   * If `true`, create camel case text
+   * The cc property determines whether the text should be displayed in camel case (CamelCase).
+   * Utilize camel case text for special formatting or stylistic requirements.
    *
-   * @type {?boolean}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   cc?: boolean;
 
   /**
-   * If `true`, the text is centered
+   * The ctr property centers the text horizontally within its container.
+   * Center align text to improve visual presentation and layout.
    *
-   * @type {?boolean}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   ctr?: boolean;
 
   /**
-   * If `true`, the text is disabled
+   * The dsb property displays the text in a disabled state.
+   * Indicate that the text is not interactive or temporarily unavailable.
    *
-   * @type {?boolean}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   dsb?: boolean;
 
   /**
-   * If `true`, the text is stretched to full width
+   * The exd property stretches the text to the full width of its container.
+   * Expand text to fill available space, especially in layout designs.
    *
-   * @type {?boolean}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   exd?: boolean;
 
   /**
-   * Link for component
+   * The href property specifies a link URL for the text, making it clickable.
+   * Create clickable text that navigates to a related page or resource.
    *
-   * @type {?string}
-   * @default undefined
+   * @type {string}
+   * @public
+   * @since 0.47.0
    */
   href?: string;
 
   /**
-   * If `true`, the text is italicized
+   * The itl property displays the text in italic style.
+   * Apply italics for emphasis or distinct visual styling.
    *
-   * @type {?boolean}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   itl?: boolean;
 
   /**
-   * If `true`, the text is lower cased
+   * The lc property displays the text in lowercase.
+   * Convert text to lowercase for consistent styling or formatting.
    *
-   * @type {?boolean}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   lc?: boolean;
 
   /**
-   * If `true`, the text is strike through
+   * The stk property adds a strikethrough style to the text.
+   * Indicate that the text represents content that has been removed or is no longer valid.
    *
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   stk?: boolean;
 
   /**
-   * If `true`, the text is truncated inside the width of its parent component
+   * The tnc property truncates the text inside the width of its parent component.
+   * Prevent long text from overflowing and maintain a neat appearance.
    *
-   * @type {?boolean}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   tnc?: boolean;
 
   /**
-   * Sets the tone fo the text
+   * The tone property sets the color tone of the text.
+   * Apply different color variations to convey meaning or importance.
    *
-   * @type {?TTone}
-   * @default undefined
+   * @type {TTone}
+   * @public
+   * @since 0.47.0
    */
   tone?: TTone;
 
   /**
-   * If `true`, creates the text upper case
+   * The uc property displays the text in uppercase.
+   * Convert text to uppercase for headings or branding.
    *
-   * @type {?boolean}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   uc?: boolean;
 
   /**
-   * If `true`, creates the text underlined
+   * The udl property adds an underline style to the text.
+   * Highlight text that represents links or interactive elements.
    *
-   * @type {?boolean}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   udl?: boolean;
 
   /**
-   * Text variant, the html component that this text represents
+   * The v property specifies the HTML element variant for the text, affecting its semantic meaning.
+   * Choose the appropriate HTML element to convey the purpose or importance
    *
-   * @type {?TVariant}
-   * @default 'body2'
+   * @type {TTextVariant}
+   * @default body1
+   * @public
+   * @since 0.47.0
    */
-  v?: TVariant;
+  v?: TTextVariant;
 }
 
 /**
- * DataField props
+ * Interface for configuring props for the DataField component, representing a labeled data entry.
  *
- * @typedef {IDataFieldProps}
  * @interface IDataFieldProps
+ * @type {IDataFieldProps}
  * @augments {HTMLAttributes<HTMLDivElement>}
  * @public
+ * @since 0.47.0
  */
 export interface IDataFieldProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * Accent color for the filed label
+   * The acc property determines the accent color for the field label, visually highlighting it.
+   * Apply an accent color to draw attention to the label or differentiate it from other content.
    *
-   * @type {?TTone}
-   * @default 'major'
+   * @type {TTone}
+   * @public
+   * @since 0.47.0
    */
   acc?: TTone;
 
   /**
-   * If `true`, the value of the data field is disabled
+   * The dsb property controls whether the value of the data field is displayed in a disabled state.
+   * Indicate that the data field value is read-only or inactive.
    *
-   * @type {?boolean}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   dsb?: boolean;
 
   /**
-   * Label of the data field
+   * The lbl property specifies the label of the data field, providing context or a title for the associated value.
+   * Assign a label to describe the data being displayed, such as "Name", "Age", or "Total Sales".
    *
-   * @type {?string | number | JSX.Element}
-   * @default undefined
+   * @type {string | number | JSX.Element}
+   * @public
+   * @since 0.47.0
    */
   lbl?: string | number | JSX.Element;
 
   /**
-   * Set the color of the value in data field
+   * The tone property sets the color tone of the value in the data field.
+   * Apply color variations to convey meaning, significance, or status to the data field value.
    *
-   * @type {?TTone}
-   * @default undefined
+   * @type {TTone}
+   * @public
+   * @since 0.47.0
    */
   tone?: TTone;
 
   /**
-   * Value of the data field
+   * The val property defines the value displayed in the data field, representing associated data or information.
+   * Display actual data or content that corresponds to the label, such as a name, number, or custom element.
    *
-   * @type {?(string | number | JSX.Element)}
-   * @default undefined
+   * @type {string | number | JSX.Element}
+   * @public
+   * @since 0.47.0
    */
   val?: string | number | JSX.Element;
 }

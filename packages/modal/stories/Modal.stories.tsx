@@ -4,7 +4,7 @@ import { FlexBox } from '../../flexbox/src';
 import { Chip } from '../../chip/src';
 import { Stack } from '../../stack/src';
 import { Paper } from '../../paper/src';
-import { Alert } from '../../alert/src';
+import { Alert, AlertFooter } from '../../alert/src';
 import { Text } from '../../text/src';
 import { Modal } from '../src';
 
@@ -47,11 +47,11 @@ export const basic = () => {
         <Alert ele={<FlexBox fld="column" />} status="success" width="400px">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto perferendis quaerat ad reprehenderit vel enim
           adipisci nostrum dolorum! Atque id voluptate autem vitae possimus hic totam, blanditiis quisquam neque culpa.
-          <Alert.Footer width="100%">
+          <AlertFooter width="100%">
             <Button isStretched variant="simple" onClick={() => setOpen(false)}>
               Ok
             </Button>
-          </Alert.Footer>
+          </AlertFooter>
         </Alert>
       </Modal>
     </FlexBox>
@@ -71,9 +71,9 @@ export const onBackdropClick = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla delectus quisquam fugit alias numquam eligendi
           minima fuga libero, labore magnam recusandae voluptas autem. Debitis laboriosam aperiam, odio unde repellat
           facere.
-          <Alert.Footer width="100%">
+          <AlertFooter width="100%">
             <Text.caption>Please contact support for any queries.</Text.caption>
-          </Alert.Footer>
+          </AlertFooter>
         </Alert>
       </Modal>
     </FlexBox>

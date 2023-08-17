@@ -6,8 +6,9 @@ import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidLight, TidyUiProvider } from '../../commons/src';
+import { AlignContent, AlignItems, FlexDirection, JustifyContent } from '../../types/src';
 import { FlexBox } from '../src';
-import { AlignContent, AlignItems, FlexDirection, IFlexBoxProps, JustifyContent } from '../src/types';
+import { IFlexBoxProps } from '../src/types';
 
 const height = '350px';
 

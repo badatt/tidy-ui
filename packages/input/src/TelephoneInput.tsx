@@ -10,7 +10,9 @@ const TelephoneInput = React.forwardRef<HTMLInputElement, Omit<ITextInputProps, 
   return (
     <InputGroup isBlend {...{ disabled, girth }}>
       <TextInput ref={ref} type="tel" {...props} />
-      <InputElement node={<Icon ele={<Icon.Phone />} />} isBlend {...{ disabled, girth }} />
+      <InputElement isBlend {...{ disabled, girth }}>
+        <Icon ele={<Icon.Phone />} />
+      </InputElement>
     </InputGroup>
   );
 });

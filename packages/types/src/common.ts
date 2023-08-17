@@ -65,7 +65,12 @@ export interface IStandardProps {
     | 'unset';
 
   /**
-   * Element that encloses Alert
+   * An optional property that allows you to provide a custom JSX element to be rendered within the component.
+   * This can be used to add additional content or elements specific to the component.
+   *
+   * @type {JSX.Element}
+   * @public
+   * @since 0.47.0
    */
   ele?: JSX.Element;
 

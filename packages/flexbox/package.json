@@ -47,7 +47,7 @@
     "ui",
     "ui-components"
   ],
-  "description": "FlexBox can be used to create layout components with css flex properties. It also has some presets like, centering items inside a component both main and cross axis",
+  "description": "The FlexBox component empowers the design of layout elements using CSS flex properties. Incorporating FlexItems as child elements enables responsive layouts spanning 1 to 24 units of width. It streamlines styling by reducing the need for distinct flexbox styles and includes presets for effortless main and cross-axis alignment.",
   "publishConfig": {
     "access": "public"
   },

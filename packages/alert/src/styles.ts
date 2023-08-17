@@ -7,15 +7,11 @@ import { IAlertProps } from './types';
  * @internal
  */
 const alertStyles = css<IAlertProps>`
-  ${({ theme: { palette, layout }, isSharp, status }) => css`
+  ${({ theme: { palette, layout }, status }) => css`
     background-color: ${palette.background.card};
     box-shadow: ${layout.shadow};
     color: ${palette.text.primary};
     border-left: 4px solid ${palette[status!][500]};
-    ${!isSharp &&
-    css`
-      border-radius: ${layout.radius};
-    `}
   `}
 `;
 

@@ -45,9 +45,12 @@
     "react-ui",
     "components",
     "ui",
-    "ui-components"
+    "ui-components",
+    "Alert",
+    "AlertTitle",
+    "AlertFooter"
   ],
-  "description": "tidy-ui react component library; 'alert package",
+  "description": "The Alert component delivers user alerts based on info, success, warning, or danger. It offers actionable alerts with titles, content, and buttons, and solid bars for informational alerts. Customize edges and styles, all enhanced by theming.",
   "publishConfig": {
     "access": "public"
   },

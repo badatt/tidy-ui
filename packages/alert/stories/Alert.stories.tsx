@@ -1,12 +1,12 @@
 import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
-import { Status } from '../../commons/src';
+import { Status } from '../../types/src';
 import { Button, ButtonCluster } from '../../button/src';
 import { FlexBox } from '../../flexbox/src';
-import { Grid } from '../../grid/src';
+import { Grid, GridItem } from '../../grid/src';
 import { Modal } from '../../modal/src';
 import { Text } from '../../text/src';
-import { Alert } from '../src';
+import { Alert, AlertTitle, AlertFooter } from '../src';
 
 const meta: Meta<typeof Alert> = {
   title: 'Presentation/Alert',
@@ -19,12 +19,12 @@ type Story = StoryObj<typeof Alert>;
 
 const SimpleAlert = (props) => (
   <Alert ele={<FlexBox fld="column" />} isFilled={props.filled} status={props.status} width={props.width}>
-    <Alert.Title>
+    <AlertTitle>
       <Text.h6 tone={props.status}>{props.status}</Text.h6>
-    </Alert.Title>
+    </AlertTitle>
     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus nostrum nulla dolorum! Consequatur facere sint
     excepturi amet nulla soluta dolorem ad sequi. Dolorem quod velit quam numquam corporis, tempore maxime!
-    <Alert.Footer>
+    <AlertFooter>
       <ButtonCluster isStretched>
         <Button variant="simple" tone="neutral" onClick={props.onAccept}>
           Cancel
@@ -33,7 +33,7 @@ const SimpleAlert = (props) => (
           Ok
         </Button>
       </ButtonCluster>
-    </Alert.Footer>
+    </AlertFooter>
   </Alert>
 );
 
@@ -47,9 +47,9 @@ export const status: Story = {
       {Object.values(Status)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
-          <Grid.Item key={i} xs={12} sm={12} md={8} lg={6} xl={6}>
+          <GridItem key={v} xs={12} sm={12} md={8} lg={6} xl={6}>
             <SimpleAlert status={Status[v]} />
-          </Grid.Item>
+          </GridItem>
         ))}
     </Grid>
   ),
@@ -61,13 +61,13 @@ export const filled: Story = {
       {Object.values(Status)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
-          <Grid.Item key={i} xl={24} xs={24} sm={24} md={24} lg={24}>
+          <GridItem key={v} xl={24} xs={24} sm={24} md={24} lg={24}>
             <Alert isFilled status={Status[v]}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni consequuntur non quis dolor
               perspiciatis, nisi repellat cupiditate maiores, nulla suscipit, dolorum expedita natus accusantium
               blanditiis earum error fugit accusamus?
             </Alert>
-          </Grid.Item>
+          </GridItem>
         ))}
     </Grid>
   ),

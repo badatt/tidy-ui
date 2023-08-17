@@ -2,8 +2,13 @@ import React from 'react';
 import { Text } from '../../text/src';
 import { FlexBox } from '../../flexbox/src';
 import { Divider } from '../src';
-import { Density, Position } from '../src/types';
-import { Shade, Tone, BorderStyle } from '../../commons/src';
+import { Density, Shade, Tone, BorderStyle } from '../../types/src';
+
+enum Position {
+  'center',
+  'start',
+  'end',
+}
 
 export default {
   component: Divider,

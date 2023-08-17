@@ -1,5 +1,6 @@
 import React from 'react';
-import { Icon, Tone, TonedIcon, useIsMounted } from '@tidy-ui/commons';
+import { Icon, TonedIcon, useIsMounted } from '@tidy-ui/commons';
+import { Tone } from '@tidy-ui/types';
 import {
   CloseButton,
   NotificationContent,

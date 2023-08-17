@@ -1,8 +1,9 @@
 import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
-import { Avatar } from '../src';
+import { Avatar, AvatarBadge, AvatarGroup } from '../src';
 import { FlexBox } from '../../flexbox/src';
-import { Girth, color, hsla, Icon } from '../../commons/src';
+import { color, hsla, Icon } from '../../commons/src';
+import { Girth } from '../../types/src';
 
 const meta: Meta<typeof Avatar> = {
   title: 'Presentation/Avatar',
@@ -90,7 +91,7 @@ export const withBadge = () => {
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
           <Avatar src="https://bit.ly/sage-adebayo" girth={Girth[v]} key={v}>
-            <Avatar.Badge tone={hsla(color.green[600])} />
+            <AvatarBadge tone={hsla(color.green[600])} />
           </Avatar>
         ))}
     </FlexBox>
@@ -101,16 +102,16 @@ export const group: Story = {
   render: () => {
     return (
       <FlexBox fld="row">
-        <Avatar.Group max={3}>
+        <AvatarGroup max={3}>
           <Avatar src="https://bit.ly/sage-adebayo">
-            <Avatar.Badge tone={hsla(color.green[600])} />
+            <AvatarBadge tone={hsla(color.green[600])} />
           </Avatar>
           <Avatar src="https://bit.ly/ryan-florence" />
           <Avatar src="https://bit.ly/dan-abramov" />
           <Avatar name="Kola Tiol" />
           <Avatar src="https://bit.ly/prosper-baba" />
           <Avatar src="https://bit.ly/code-beast" />
-        </Avatar.Group>
+        </AvatarGroup>
       </FlexBox>
     );
   },

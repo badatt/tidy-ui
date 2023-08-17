@@ -33,11 +33,6 @@ import WarningIcon from './WarningIcon';
  */
 interface IIconProps extends IBaseProps, React.HTMLAttributes<HTMLDivElement> {
   /**
-   * Icon element
-   */
-  ele: JSX.Element;
-
-  /**
    * Margin
    */
   margin?: string;
@@ -108,7 +103,7 @@ export interface IconComponent
 const Icon = React.forwardRef<HTMLDivElement, Omit<IIconProps, 'children'>>((props, ref) => {
   const { ele, style, height, margin, width, display, ...rest } = props;
   const styles = { ...style, display, height, margin, width };
-  const styledIconElement = React.cloneElement(ele, { style: styles });
+  const styledIconElement = ele && React.cloneElement(ele, { style: styles });
   return React.createElement('span', { ref, style: styles, ...rest }, styledIconElement);
 }) as IconComponent;
 

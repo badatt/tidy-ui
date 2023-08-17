@@ -45,9 +45,12 @@
     "react-ui",
     "components",
     "ui",
-    "ui-components"
+    "ui-components",
+    "Avatar",
+    "AvatarGroup",
+    "AvatarBadge"
   ],
-  "description": "tidy-ui react component library; 'avatar package",
+  "description": "The Avatar component is a versatile tool to showcase user individuality, offering profile images, initials, and icons. A Person icon is used when no input is available. It supports sizes, accents, live status badges, and stackable AvatarGroups. Customizable through themes, it's ideal for social networks, chat apps, and personalized UI interactions.",
   "publishConfig": {
     "access": "public"
   },

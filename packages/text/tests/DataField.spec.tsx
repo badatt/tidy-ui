@@ -6,7 +6,7 @@ import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
-import { Tone } from '../../commons/src';
+import { Tone } from '../../types/src';
 import { DataField, Text } from '../src';
 
 describe('Text', () => {
@@ -32,8 +32,8 @@ describe('Text', () => {
       <TidyUiProvider theme={orchidLight}>
         {Object.keys(Tone)
           .filter((v) => !isNaN(Number(v)))
-          .map((v, i) => (
-            <DataField key={i} tone={Tone[v]} lbl={`${Tone[v]} color`} val={`${Tone[v]} color value`} />
+          .map((v) => (
+            <DataField key={v} tone={Tone[v]} lbl={`${Tone[v]} color`} val={`${Tone[v]} color value`} />
           ))}
       </TidyUiProvider>,
     );
@@ -45,8 +45,8 @@ describe('Text', () => {
       <TidyUiProvider theme={orchidDark}>
         {Object.keys(Tone)
           .filter((v) => !isNaN(Number(v)))
-          .map((v, i) => (
-            <DataField key={i} tone={Tone[v]} lbl={`${Tone[v]} color`} val={`${Tone[v]} color value`} />
+          .map((v) => (
+            <DataField key={v} tone={Tone[v]} lbl={`${Tone[v]} color`} val={`${Tone[v]} color value`} />
           ))}
       </TidyUiProvider>,
     );
@@ -58,8 +58,8 @@ describe('Text', () => {
       <TidyUiProvider theme={orchidDark}>
         {Object.keys(Tone)
           .filter((v) => !isNaN(Number(v)))
-          .map((v, i) => (
-            <DataField key={i} acc={Tone[v]} lbl={`${Tone[v]} color`} val={`${Tone[v]} color value`} />
+          .map((v) => (
+            <DataField key={v} acc={Tone[v]} lbl={`${Tone[v]} color`} val={`${Tone[v]} color value`} />
           ))}
       </TidyUiProvider>,
     );

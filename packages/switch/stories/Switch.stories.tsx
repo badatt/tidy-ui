@@ -1,8 +1,8 @@
 import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 import { FlexBox } from '../../flexbox/src';
+import { Status } from '../../types/src';
 import { Switch } from '../src';
-import { Status } from '@tidy-ui/commons';
 
 const meta: Meta<typeof Switch> = {
   title: 'Form/Switch',

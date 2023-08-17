@@ -2,8 +2,7 @@ import React from 'react';
 import { Icon } from '../../commons/src';
 import { FlexBox } from '../../flexbox/src';
 import { Button } from '../src';
-import { Variant } from '../src/types';
-import { Girth, Tone } from '../../commons/src';
+import { ButtonVariant, Girth, Tone } from '../../types/src';
 
 export default {
   component: Button,
@@ -43,11 +42,11 @@ export const girths = () => {
 export const variants = () => {
   return (
     <FlexBox gap="1rem" fld="column" ali="flex-start">
-      {Object.values(Variant)
+      {Object.values(ButtonVariant)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
-          <Button variant={Variant[v]} key={i}>
-            {Variant[v]}
+          <Button variant={ButtonVariant[v]} key={i}>
+            {ButtonVariant[v]}
           </Button>
         ))}
     </FlexBox>

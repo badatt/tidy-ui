@@ -1,105 +1,100 @@
-import { HTMLAttributes, HtmlHTMLAttributes } from 'react';
-import { TGirth, TTone } from '@tidy-ui/commons';
-import { IBaseProps, IClosable } from '@tidy-ui/types';
+import { HTMLAttributes } from 'react';
+import { IBaseProps, IClosable, TTone } from '@tidy-ui/types';
 
 /**
- * TagGirth
- */
-type TagGirth = Extract<TGirth, 'sm' | 'md' | 'lg'>;
-
-/**
- * Tag properties
+ * Interface for configuring props for the Tag component, which represents a visually distinct label or marker.
  *
- * @typedef {ITagProps}
  * @interface ITagProps
+ * @type {ITagProps}
  * @augments {HTMLAttributes<HTMLDivElement>}
  * @public
+ * @since 0.47.0
  */
 export interface ITagProps extends IBaseProps, IClosable, HTMLAttributes<HTMLDivElement> {
   /**
-   * The girth of the component
+   * The girth property controls the visual size of the Tag component, allowing you to adjust its prominence within its container or context.
+   * Use a smaller girth for tags in compact spaces or a larger girth for tags that need to stand out.
    *
-   * @type {?TagGirth}
-   * @default 'md'
+   * @type {'sm' | 'md' | 'lg'}
+   * @default md
+   * @public
+   * @since 0.47.0
    */
-  girth?: TagGirth;
+  girth?: 'sm' | 'md' | 'lg';
 
   /**
-   * Icon to be added to the tag
+   * The icon property enables the addition of an icon to the Tag component, contributing an extra layer of visual information.
+   * Enhance the tag's meaning or indicate its category with an associated icon.
    *
-   * @type {?JSX.Element}
-   * @default null
+   * @type {JSX.Element}
+   * @public
+   * @since 0.47.0
    */
   icon?: JSX.Element;
 
   /**
-   * If `true`, creates outlined tag widget, it won't fill
+   * The isFilled property determines whether the Tag component should have a filled or outlined appearance.
+   * Utilize filled tags for emphasis or outlined tags for subtle categorization.
    *
-   * @type {?boolean}
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   isFilled?: boolean;
 
   /**
-   * Color variant of the tag widget, typically used to classify the
-   * information based on its level
+   * The tone property lets you apply color variations to the Tag component to convey different levels of importance or meaning.
+   * Apply distinct tones to tags representing different priority levels or content categories.
    *
-   * @type {?TTone}
-   * @default 'major'
+   * @type {TTone}
+   * @default neutral
+   * @public
+   * @since 0.47.0
    */
   tone?: TTone;
 }
 
 /**
- * TagGroup properties
+ * Interface for configuring props for a group of tags.
  *
- * @typedef {ITagGroupProps}
  * @interface ITagGroupProps
+ * @type {ITagGroupProps}
  * @augments {HTMLAttributes<HTMLDivElement>}
  * @public
+ * @since 0.47.0
  */
 export interface ITagGroupProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {
   /**
-   * The girth of the component
+   * The girth property controls the overall size of the TagGroup component, affecting its visual presence in the layout.
+   * Choose a smaller girth for a compact tag group, or a larger girth for a more prominent tag group.
    *
-   * @type {?TagGirth}
-   * @default 'md'
+   * @type {'sm' | 'md' | 'lg'}
+   * @default md
+   * @public
+   * @since 0.47.0
    */
-  girth?: TagGirth;
+  girth?: 'sm' | 'md' | 'lg';
 
   /**
-   * On add callback
+   * The onAddNewTag callback is triggered when a new tag is added to the group, providing an opportunity to handle the addition.
+   * Implement custom logic to respond to tag additions, such as updating data or triggering actions.
    *
    * @type {Function}
+   * @public
+   * @since 0.47.0
    */
   // eslint-disable-next-line  @typescript-eslint/no-explicit-any
   onAddNewTag?: (v: any) => void;
 
   /**
-   * Color variant of the add new tag button
+   * The tone property allows you to customize the color variant of the "add new tag" button.
+   * Apply different tones to indicate different actions or emphasize the "add new tag" button.
    *
-   * @type {?TTone}
-   * @default 'major'
-   */
-  tone?: TTone;
-}
-
-/**
- * New Tag input box props
- */
-export interface INewTagInput extends IBaseProps, HtmlHTMLAttributes<HTMLInputElement> {
-  /**
-   * The girth of the component
-   *
-   * @type {?TagGirth}
-   * @default 'md'
-   */
-  girth?: TagGirth;
-  /**
-   * Color variant of the add new tag button
-   *
-   * @type {?TTone}
-   * @default 'major'
+   * @type {TTone}
+   * @default neutral
+   * @public
+   * @since 0.47.0
    */
   tone?: TTone;
 }

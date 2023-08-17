@@ -47,7 +47,7 @@
     "ui",
     "ui-components"
   ],
-  "description": "tidy-ui react component library; 'frame package",
+  "description": "The Frame component is a dynamic placeholder that adds a stylish touch while your content loads. It features various styles like circular for profile pics, linear for paragraphs, and defaults to rectangular. Easily adjust sizes and transition from loading to loaded with a flag. Frames have inviting round edges by default but can go edgy. You can even wrap a component, keeping it in loading mode until it's ready. Perfect for enhancing user experience during data fetching!",
   "publishConfig": {
     "access": "public"
   },

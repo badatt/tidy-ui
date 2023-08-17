@@ -50,9 +50,11 @@
     "react-ui",
     "components",
     "ui",
-    "ui-components"
+    "ui-components",
+    "tidy-ui",
+    "all"
   ],
-  "description": "tidy-ui react component library; 'all package",
+  "description": "A comprehensive collection encompassing all components within the Tidy UI framework.",
   "publishConfig": {
     "access": "public"
   },

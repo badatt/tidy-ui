@@ -1,5 +1,6 @@
+import { IRgb } from '@tidy-ui/types';
 import bkdr from '../crypto/bkdr';
-import { hsl2rgb, IRgb } from '../theme';
+import { hsl2rgb } from '../theme';
 
 /**
  * Hue

@@ -5,7 +5,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { Girth, Tone } from '../../commons/src';
+import { Girth, Tone } from '../../types/src';
 import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
 import { Anchor } from '../src';
 

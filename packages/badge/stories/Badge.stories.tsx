@@ -1,7 +1,7 @@
 import React from 'react';
 import { Icon } from '../../commons/src';
+import { Tone } from '../../types/src';
 import { FlexBox } from '../../flexbox/src';
-import { Tone } from '../../commons/src';
 import { Text } from '../../text/src';
 import { Badge } from '../src';
 

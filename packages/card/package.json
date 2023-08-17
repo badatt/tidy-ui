@@ -46,9 +46,12 @@
     "components",
     "ui",
     "ui-components",
-    "card"
+    "Card",
+    "CardHeader",
+    "CardBody",
+    "CardFooter"
   ],
-  "description": "Card component powered by various styles (with theming) and settings. Can be used just as is with a nice elevation effect that looks like a card on screen",
+  "description": "The Card component gives your website a modern card layout, perfect for showcasing important details in a stylish box. Whether you're displaying products, music albums, movies, or hotel info, the possibilities are endless. Multiple cards can create a cool layout, and they even have a raised effect for that extra visual pop. It's like bringing content to life on your web page!",
   "publishConfig": {
     "access": "public"
   },

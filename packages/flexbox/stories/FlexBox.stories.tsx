@@ -2,7 +2,7 @@ import React from 'react';
 import { Text } from '../../text/src';
 import { Divider } from '../../divider/src';
 import { FlexBox } from '../src';
-import { AlignContent, AlignItems, FlexDirection, JustifyContent } from '../src/types';
+import { AlignContent, AlignItems, FlexDirection, JustifyContent } from '../../types/src';
 import { Ctx, FlexBoxProvider } from './FlexBoxProvider';
 import { StyledFlexBox, StyledFlexItem, StyledText } from './components';
 

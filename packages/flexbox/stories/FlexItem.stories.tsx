@@ -2,13 +2,14 @@ import React from 'react';
 import { Button, ButtonGroup, ButtonCluster } from '../../button/src';
 import { Text } from '../../text/src';
 import { Divider } from '../../divider/src';
-import { FlexBox } from '../src';
-import { AlignSelf, IFlexItemProps } from '../src/types';
+import { AlignSelf } from '../../types/src';
+import { FlexBox, FlexItem } from '../src';
+import { IFlexItemProps } from '../src/types';
 import { Ctx, FlexBoxProvider } from './FlexBoxProvider';
 import { StyledFlexBox, StyledFlexItem, StyledText, StyledTextLabel } from './components';
 
 export default {
-  component: FlexBox.Item,
+  component: FlexItem,
   title: 'Layout/Flexbox/FlexItem',
 };
 

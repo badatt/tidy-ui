@@ -1,61 +1,90 @@
 import { AnchorHTMLAttributes, HTMLAttributes, MouseEvent } from 'react';
-import { TTone } from '@tidy-ui/commons';
-import { IBaseProps } from '@tidy-ui/types';
+import { IBaseProps, TTone } from '@tidy-ui/types';
 
 /**
- * BreadCrumb props
+ * Interface defining properties for configuring a Breadcrumb component.
+ *
+ * @interface IBreadcrumbProps
+ * @type {IBreadcrumbProps}
+ * @public
+ * @since 0.47.0
  */
 export interface IBreadcrumbProps extends IBaseProps, HTMLAttributes<HTMLOListElement> {
   /**
-   * If `true`, WON'T set the last time as active
+   * An optional property that determines whether the last item in the breadcrumb is set as inactive.
    *
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   isLastItemNotActive?: boolean;
 
   /**
-   * Limit the number of items in the breadcrumb
+   * An optional property that limits the number of items displayed within the breadcrumb.
    *
+   * @type {number}
+   * @default Number.MAX_SAFE_INTEGER
+   * @public
+   * @since 0.47.0
    */
   limit?: number;
 
   /**
-   * callback when the collapsed breadcrumb got expanded
+   * An optional callback function triggered when the collapsed breadcrumb is expanded.
+   *
+   * @type {Function}
+   * @public
+   * @since 0.47.0
    */
   onExpand?: (event: MouseEvent) => void;
 
   /**
-   * Separator for breadcrumb items
+   * An optional property defining the separator used between breadcrumb items. The default separator is '/'.
    *
+   * @type {string | JSX.Element}
    * @default '/'
+   * @public
+   * @since 0.47.0
    */
-  separator?: string | React.ReactNode;
+  separator?: string | JSX.Element;
 
   /**
-   * Sets the tone fo the BreadcrumbItem
+   * An optional property that sets the visual tone for the appearance of the `BreadcrumbItem`.
    *
-   * @type {?TTone}
-   * @default 'major'
+   * @type {TTone}
+   * @public
+   * @since 0.47.0
    */
   tone?: TTone;
 }
 
 /**
- * BreadCrumbItem props
+ * Interface defining properties for configuring an individual BreadcrumbItem component.
+ *
+ * @interface IBreadcrumbItemProps
+ * @type {IBreadcrumbItemProps}
+ * @public
+ * @since 0.47.0
  */
 export interface IBreadcrumbItemProps extends IBaseProps, AnchorHTMLAttributes<HTMLAnchorElement> {
   /**
-   * Sets the current breadcrumb item active
+   * An optional property that determines whether the current breadcrumb item is set as active.
    *
+   * @type {boolean}
    * @default false
+   * @public
+   * @since 0.47.0
    */
   isActive?: boolean;
 
   /**
-   * Sets the tone fo the BreadcrumbItem
+   * An optional property that sets the visual tone for the appearance of the breadcrumb item. The default tone is `neutral`.
    *
    * @type {?TTone}
-   * @default undefined
+   * @default neutral
+   * @public
+   * @since 0.47.0
    */
   tone?: TTone;
 }

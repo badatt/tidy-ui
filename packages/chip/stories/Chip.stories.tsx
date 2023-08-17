@@ -1,7 +1,8 @@
 import React from 'react';
 import { FlexBox } from '../../flexbox/src';
 import { Chip } from '../src';
-import { Tone, Girth, Icon } from '../../commons/src';
+import { Icon } from '../../commons/src';
+import { Tone, Girth } from '../../types/src';
 
 export default {
   component: Chip,

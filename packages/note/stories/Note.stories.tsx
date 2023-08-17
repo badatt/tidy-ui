@@ -1,7 +1,6 @@
 import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 import { Note } from '../src';
-import { color, hsla, useTheme } from '../../commons/src';
 
 const meta: Meta<typeof Note> = {
   title: 'Presentation/Note',

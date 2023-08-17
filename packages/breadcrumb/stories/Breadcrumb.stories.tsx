@@ -1,8 +1,8 @@
 import React from 'react';
 import { Divider } from '../../divider/src';
 import { FlexBox } from '../../flexbox/src';
-import { Tone } from '../../commons/src';
-import { Breadcrumb } from '../src';
+import { Tone } from '../../types/src';
+import { Breadcrumb, BreadcrumbItem } from '../src';
 
 export default {
   component: Breadcrumb,
@@ -11,21 +11,21 @@ export default {
 
 export const basic = () => (
   <Breadcrumb>
-    <Breadcrumb.Item href="#">link 1</Breadcrumb.Item>
-    <Breadcrumb.Item href="#">link 2</Breadcrumb.Item>
-    <Breadcrumb.Item href="#">link 3</Breadcrumb.Item>
-    <Breadcrumb.Item href="#">link 4</Breadcrumb.Item>
+    <BreadcrumbItem href="#">link 1</BreadcrumbItem>
+    <BreadcrumbItem href="#">link 2</BreadcrumbItem>
+    <BreadcrumbItem href="#">link 3</BreadcrumbItem>
+    <BreadcrumbItem href="#">link 4</BreadcrumbItem>
   </Breadcrumb>
 );
 
 export const limit = () => (
   <Breadcrumb limit={5}>
-    <Breadcrumb.Item href="#">link 1</Breadcrumb.Item>
-    <Breadcrumb.Item href="#">link 2</Breadcrumb.Item>
-    <Breadcrumb.Item href="#">link 3</Breadcrumb.Item>
-    <Breadcrumb.Item href="#">link 4</Breadcrumb.Item>
-    <Breadcrumb.Item href="#">link 5</Breadcrumb.Item>
-    <Breadcrumb.Item href="#">link 6</Breadcrumb.Item>
+    <BreadcrumbItem href="#">link 1</BreadcrumbItem>
+    <BreadcrumbItem href="#">link 2</BreadcrumbItem>
+    <BreadcrumbItem href="#">link 3</BreadcrumbItem>
+    <BreadcrumbItem href="#">link 4</BreadcrumbItem>
+    <BreadcrumbItem href="#">link 5</BreadcrumbItem>
+    <BreadcrumbItem href="#">link 6</BreadcrumbItem>
   </Breadcrumb>
 );
 
@@ -35,12 +35,12 @@ export const tones = () => (
       .filter((t) => !isNaN(Number(t)))
       .map((t, i) => (
         <Breadcrumb key={i} tone={Tone[t]}>
-          <Breadcrumb.Item href="#">link 1</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 2</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 3</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 4</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 5</Breadcrumb.Item>
-          <Breadcrumb.Item href="#">link 6</Breadcrumb.Item>
+          <BreadcrumbItem href="#">link 1</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 2</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 3</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 4</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 5</BreadcrumbItem>
+          <BreadcrumbItem href="#">link 6</BreadcrumbItem>
         </Breadcrumb>
       ))}
   </FlexBox>
@@ -48,26 +48,26 @@ export const tones = () => (
 
 export const manualActive = () => (
   <Breadcrumb isLastItemNotActive>
-    <Breadcrumb.Item href="#">link 1</Breadcrumb.Item>
-    <Breadcrumb.Item href="#">link 2</Breadcrumb.Item>
-    <Breadcrumb.Item href="#">link 3</Breadcrumb.Item>
-    <Breadcrumb.Item href="#" isActive>
+    <BreadcrumbItem href="#">link 1</BreadcrumbItem>
+    <BreadcrumbItem href="#">link 2</BreadcrumbItem>
+    <BreadcrumbItem href="#">link 3</BreadcrumbItem>
+    <BreadcrumbItem href="#" isActive>
       link 4
-    </Breadcrumb.Item>
-    <Breadcrumb.Item href="#">link 5</Breadcrumb.Item>
-    <Breadcrumb.Item href="#">item 6</Breadcrumb.Item>
+    </BreadcrumbItem>
+    <BreadcrumbItem href="#">link 5</BreadcrumbItem>
+    <BreadcrumbItem href="#">item 6</BreadcrumbItem>
   </Breadcrumb>
 );
 
 export const customSeparator = () => (
   <Breadcrumb separator={<Divider isVertical />}>
-    <Breadcrumb.Item href="#">link 1</Breadcrumb.Item>
-    <Breadcrumb.Item href="#">link 2</Breadcrumb.Item>
-    <Breadcrumb.Item href="#">link 3</Breadcrumb.Item>
-    <Breadcrumb.Item href="#">link 4</Breadcrumb.Item>
-    <Breadcrumb.Item href="#">link 5</Breadcrumb.Item>
-    <Breadcrumb.Item href="#" isActive>
+    <BreadcrumbItem href="#">link 1</BreadcrumbItem>
+    <BreadcrumbItem href="#">link 2</BreadcrumbItem>
+    <BreadcrumbItem href="#">link 3</BreadcrumbItem>
+    <BreadcrumbItem href="#">link 4</BreadcrumbItem>
+    <BreadcrumbItem href="#">link 5</BreadcrumbItem>
+    <BreadcrumbItem href="#" isActive>
       active item
-    </Breadcrumb.Item>
+    </BreadcrumbItem>
   </Breadcrumb>
 );

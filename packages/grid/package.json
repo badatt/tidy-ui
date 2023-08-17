@@ -47,7 +47,7 @@
     "ui",
     "ui-components"
   ],
-  "description": "Grid component provides 24 sections horizontally with mobile first responsive layout. Shouldn't be confused with css grid, but a good replacement for it.",
+  "description": "The Grid component offers a mobile-first responsive layout with 24 horizontal sections. Distinct from CSS grid, it serves as a viable replacement. It supports fixed and fluid layouts, accommodating various screen sizes, and allows gap customization for spacing. Gutters prevent overlap with neighboring components. Grid items can be spanned individually per device screen size.",
   "publishConfig": {
     "access": "public"
   },

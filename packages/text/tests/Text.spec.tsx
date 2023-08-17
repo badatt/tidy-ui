@@ -5,9 +5,9 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { orchidDark, orchidLight, TidyUiProvider, Tone } from '../../commons/src';
+import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
 import { Text } from '../src/Text';
-import { Variant } from '../src/types';
+import { TextVariant, Tone } from '../../types/src';
 
 const text = `the quick brown fox jumps over the lazy dog`;
 const address = `
@@ -17,7 +17,7 @@ Example.com
 Box 564, Disneyland
 USA
 `;
-const HtmlTagVariants = () => (
+const HtmlTagTextVariants = () => (
   <>
     basic text: {text}
     <b>bold text: {text}</b>
@@ -63,7 +63,7 @@ describe('Text', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Text.base>
-          <HtmlTagVariants />
+          <HtmlTagTextVariants />
         </Text.base>
       </TidyUiProvider>,
     );
@@ -74,7 +74,7 @@ describe('Text', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
         <Text.base>
-          <HtmlTagVariants />
+          <HtmlTagTextVariants />
         </Text.base>
       </TidyUiProvider>,
     );
@@ -106,14 +106,14 @@ describe('Text', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('Variants', () => {
+  it('TextVariants', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        {Object.keys(Variant)
+        {Object.keys(TextVariant)
           .filter((v) => !isNaN(Number(v)))
-          .map((v, i) => (
-            <Text.base v={Variant[v]} key={i}>
-              {Variant[v]}: {text}
+          .map((v) => (
+            <Text.base v={TextVariant[v]} key={v}>
+              {TextVariant[v]}: {text}
             </Text.base>
           ))}
       </TidyUiProvider>,
@@ -121,17 +121,17 @@ describe('Text', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  Object.keys(Variant)
+  Object.keys(TextVariant)
     .filter((v) => !isNaN(Number(v)))
-    .forEach((v, i) => {
+    .forEach((v) => {
       it('Tones', () => {
         const tree = render(
-          <TidyUiProvider theme={orchidLight} key={i}>
+          <TidyUiProvider theme={orchidLight} key={`ptl${v}`}>
             {Object.keys(Tone)
               .filter((t) => !isNaN(Number(t)))
-              .map((t, i) => (
-                <Text.base v={Variant[v]} tone={Tone[t]} key={i}>
-                  {Variant[v]}: {Tone[t]} {text}
+              .map((t) => (
+                <Text.base v={TextVariant[v]} tone={Tone[t]} key={`${t}${v}`}>
+                  {TextVariant[v]}: {Tone[t]} {text}
                 </Text.base>
               ))}
           </TidyUiProvider>,
@@ -140,12 +140,12 @@ describe('Text', () => {
       });
       it('Tones in dark', () => {
         const tree = render(
-          <TidyUiProvider theme={orchidDark} key={i}>
+          <TidyUiProvider theme={orchidDark} key={`ptd${v}`}>
             {Object.keys(Tone)
               .filter((t) => !isNaN(Number(t)))
-              .map((t, i) => (
-                <Text.base v={Variant[v]} tone={Tone[t]} key={i}>
-                  {Variant[v]}: {Tone[t]} {text}
+              .map((t) => (
+                <Text.base v={TextVariant[v]} tone={Tone[t]} key={`${t}${v}`}>
+                  {TextVariant[v]}: {Tone[t]} {text}
                 </Text.base>
               ))}
           </TidyUiProvider>,
@@ -154,9 +154,9 @@ describe('Text', () => {
       });
       it('Bold', () => {
         const tree = render(
-          <TidyUiProvider theme={orchidLight} key={i}>
-            <Text.base v={Variant[v]} bld>
-              {Variant[v]}: {text}
+          <TidyUiProvider theme={orchidLight} key={v}>
+            <Text.base v={TextVariant[v]} bld>
+              {TextVariant[v]}: {text}
             </Text.base>
           </TidyUiProvider>,
         );
@@ -164,9 +164,9 @@ describe('Text', () => {
       });
       it('Italic', () => {
         const tree = render(
-          <TidyUiProvider theme={orchidLight} key={i}>
-            <Text.base v={Variant[v]} itl>
-              {Variant[v]}: {text}
+          <TidyUiProvider theme={orchidLight} key={v}>
+            <Text.base v={TextVariant[v]} itl>
+              {TextVariant[v]}: {text}
             </Text.base>
           </TidyUiProvider>,
         );
@@ -174,9 +174,9 @@ describe('Text', () => {
       });
       it('Strike', () => {
         const tree = render(
-          <TidyUiProvider theme={orchidLight} key={i}>
-            <Text.base v={Variant[v]} stk>
-              {Variant[v]}: {text}
+          <TidyUiProvider theme={orchidLight} key={v}>
+            <Text.base v={TextVariant[v]} stk>
+              {TextVariant[v]}: {text}
             </Text.base>
           </TidyUiProvider>,
         );
@@ -184,9 +184,9 @@ describe('Text', () => {
       });
       it('Underline', () => {
         const tree = render(
-          <TidyUiProvider theme={orchidLight} key={i}>
-            <Text.base v={Variant[v]} udl>
-              {Variant[v]}: {text}
+          <TidyUiProvider theme={orchidLight} key={v}>
+            <Text.base v={TextVariant[v]} udl>
+              {TextVariant[v]}: {text}
             </Text.base>
           </TidyUiProvider>,
         );
@@ -194,9 +194,9 @@ describe('Text', () => {
       });
       it('CamelCase', () => {
         const tree = render(
-          <TidyUiProvider theme={orchidLight} key={i}>
-            <Text.base v={Variant[v]} cc>
-              {Variant[v]}: {text}
+          <TidyUiProvider theme={orchidLight} key={v}>
+            <Text.base v={TextVariant[v]} cc>
+              {TextVariant[v]}: {text}
             </Text.base>
           </TidyUiProvider>,
         );
@@ -204,9 +204,9 @@ describe('Text', () => {
       });
       it('LowerCase', () => {
         const tree = render(
-          <TidyUiProvider theme={orchidLight} key={i}>
-            <Text.base v={Variant[v]} lc>
-              {Variant[v]}: {text}
+          <TidyUiProvider theme={orchidLight} key={v}>
+            <Text.base v={TextVariant[v]} lc>
+              {TextVariant[v]}: {text}
             </Text.base>
           </TidyUiProvider>,
         );
@@ -214,9 +214,9 @@ describe('Text', () => {
       });
       it('UpperCase', () => {
         const tree = render(
-          <TidyUiProvider theme={orchidLight} key={i}>
-            <Text.base v={Variant[v]} uc>
-              {Variant[v]}: {text}
+          <TidyUiProvider theme={orchidLight} key={v}>
+            <Text.base v={TextVariant[v]} uc>
+              {TextVariant[v]}: {text}
             </Text.base>
           </TidyUiProvider>,
         );
@@ -224,9 +224,9 @@ describe('Text', () => {
       });
       it('Disabled', () => {
         const tree = render(
-          <TidyUiProvider theme={orchidLight} key={i}>
-            <Text.base v={Variant[v]} dsb>
-              {Variant[v]}: {text}
+          <TidyUiProvider theme={orchidLight} key={v}>
+            <Text.base v={TextVariant[v]} dsb>
+              {TextVariant[v]}: {text}
             </Text.base>
           </TidyUiProvider>,
         );
@@ -234,9 +234,9 @@ describe('Text', () => {
       });
       it('Extended', () => {
         const tree = render(
-          <TidyUiProvider theme={orchidLight} key={i}>
-            <Text.base v={Variant[v]} exd>
-              {Variant[v]}: {text}
+          <TidyUiProvider theme={orchidLight} key={v}>
+            <Text.base v={TextVariant[v]} exd>
+              {TextVariant[v]}: {text}
             </Text.base>
           </TidyUiProvider>,
         );
@@ -244,9 +244,9 @@ describe('Text', () => {
       });
       it('Centered', () => {
         const tree = render(
-          <TidyUiProvider theme={orchidLight} key={i}>
-            <Text.base v={Variant[v]} ctr>
-              {Variant[v]}: {text}
+          <TidyUiProvider theme={orchidLight} key={v}>
+            <Text.base v={TextVariant[v]} ctr>
+              {TextVariant[v]}: {text}
             </Text.base>
           </TidyUiProvider>,
         );
@@ -254,9 +254,9 @@ describe('Text', () => {
       });
       it('Linked', () => {
         const tree = render(
-          <TidyUiProvider theme={orchidLight} key={i}>
-            <Text.base v={Variant[v]} href="https://google.com">
-              {Variant[v]}: {text}
+          <TidyUiProvider theme={orchidLight} key={v}>
+            <Text.base v={TextVariant[v]} href="https://google.com">
+              {TextVariant[v]}: {text}
             </Text.base>
           </TidyUiProvider>,
         );
@@ -264,9 +264,9 @@ describe('Text', () => {
       });
       it('Truncate', () => {
         const tree = render(
-          <TidyUiProvider theme={orchidLight} key={i}>
-            <Text.base tnc style={{ width: '6em' }} v={Variant[v]}>
-              {Variant[v]}: {text}
+          <TidyUiProvider theme={orchidLight} key={v}>
+            <Text.base tnc style={{ width: '6em' }} v={TextVariant[v]}>
+              {TextVariant[v]}: {text}
             </Text.base>
           </TidyUiProvider>,
         );

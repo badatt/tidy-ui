@@ -2,10 +2,6 @@ import React from 'react';
 import { ButtonGroupRoot } from './components';
 import { IButtonGroupProps } from './types';
 
-/**
- * ButtonGroup can be use to group several look alike buttons to form a grouped CTAs
- *
- */
 const ButtonGroup = React.forwardRef<HTMLDivElement, IButtonGroupProps>((props, ref) => {
   const { children, disabled, ...rest } = props;
   return (
@@ -19,7 +15,6 @@ const ButtonGroup = React.forwardRef<HTMLDivElement, IButtonGroupProps>((props, 
 });
 
 ButtonGroup.defaultProps = {
-  disabled: false,
   isStretched: false,
   isUnified: false,
   isVertical: false,

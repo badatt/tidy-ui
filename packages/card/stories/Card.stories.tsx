@@ -1,8 +1,8 @@
 import React from 'react';
 import { FlexBox } from '../../flexbox/src';
-import { Grid } from '../../grid/src';
-import { Card } from '../src';
-import { Tone } from '../../commons/src';
+import { Grid, GridItem } from '../../grid/src';
+import { Card, CardHeader, CardBody, CardFooter } from '../src';
+import { Tone } from '../../types/src';
 
 export default {
   component: Card,
@@ -24,15 +24,15 @@ export const basic = () => (
       <ContentBody />
     </Card>
     <Card>
-      <Card.Header>
+      <CardHeader>
         <ContentHeader />
-      </Card.Header>
-      <Card.Body>
+      </CardHeader>
+      <CardBody>
         <ContentBody />
-      </Card.Body>
-      <Card.Footer>
+      </CardBody>
+      <CardFooter>
         <ContentFooter />
-      </Card.Footer>
+      </CardFooter>
     </Card>
   </FlexBox>
 );
@@ -43,15 +43,15 @@ export const sharp = () => (
       <ContentBody />
     </Card>
     <Card isSharp>
-      <Card.Header>
+      <CardHeader>
         <ContentHeader />
-      </Card.Header>
-      <Card.Body>
+      </CardHeader>
+      <CardBody>
         <ContentBody />
-      </Card.Body>
-      <Card.Footer>
+      </CardBody>
+      <CardFooter>
         <ContentFooter />
-      </Card.Footer>
+      </CardFooter>
     </Card>
   </FlexBox>
 );
@@ -62,30 +62,30 @@ export const accents = () => (
       {Object.values(Tone)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
-          <Grid.Item key={i} xs={12} sm={12} md={8} lg={6} xl={6}>
+          <GridItem key={i} xs={12} sm={12} md={8} lg={6} xl={6}>
             <Card accent={Tone[v]}>
               <ContentBody />
             </Card>
-          </Grid.Item>
+          </GridItem>
         ))}
     </Grid>
     <Grid gap={16}>
       {Object.values(Tone)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
-          <Grid.Item key={i} xs={12} sm={12} md={8} lg={6} xl={6}>
+          <GridItem key={i} xs={12} sm={12} md={8} lg={6} xl={6}>
             <Card accent={Tone[v]} accentPosition="left">
-              <Card.Header>
+              <CardHeader>
                 <ContentHeader />
-              </Card.Header>
-              <Card.Body>
+              </CardHeader>
+              <CardBody>
                 <ContentBody />
-              </Card.Body>
-              <Card.Footer>
+              </CardBody>
+              <CardFooter>
                 <ContentFooter />
-              </Card.Footer>
+              </CardFooter>
             </Card>
-          </Grid.Item>
+          </GridItem>
         ))}
     </Grid>
   </FlexBox>
@@ -97,15 +97,15 @@ export const linked = () => (
       <ContentBody />
     </Card>
     <Card>
-      <Card.Header href="https://google.com">
+      <CardHeader href="https://google.com">
         <ContentHeader />
-      </Card.Header>
-      <Card.Body>
+      </CardHeader>
+      <CardBody>
         <ContentBody />
-      </Card.Body>
-      <Card.Footer>
+      </CardBody>
+      <CardFooter>
         <ContentFooter />
-      </Card.Footer>
+      </CardFooter>
     </Card>
   </FlexBox>
 );
@@ -113,26 +113,26 @@ export const linked = () => (
 export const divided = () => (
   <FlexBox gap="1rem" nowrap>
     <Card>
-      <Card.Header isDivided>
+      <CardHeader isDivided>
         <ContentHeader />
-      </Card.Header>
-      <Card.Body>
+      </CardHeader>
+      <CardBody>
         <ContentBody />
-      </Card.Body>
-      <Card.Footer isDivided>
+      </CardBody>
+      <CardFooter isDivided>
         <ContentFooter />
-      </Card.Footer>
+      </CardFooter>
     </Card>
     <Card isSharp>
-      <Card.Header isDivided>
+      <CardHeader isDivided>
         <ContentHeader />
-      </Card.Header>
-      <Card.Body>
+      </CardHeader>
+      <CardBody>
         <ContentBody />
-      </Card.Body>
-      <Card.Footer isDivided>
+      </CardBody>
+      <CardFooter isDivided>
         <ContentFooter />
-      </Card.Footer>
+      </CardFooter>
     </Card>
   </FlexBox>
 );
@@ -148,20 +148,20 @@ export const customElement = () => (
       </div>
     </Card>
     <Card>
-      <Card.Header>
+      <CardHeader>
         <ContentHeader />
-      </Card.Header>
-      <Card.Body ele={<FlexBox nowrap gap="0.5rem" fld="column" />}>
+      </CardHeader>
+      <CardBody ele={<FlexBox nowrap gap="0.5rem" fld="column" />}>
         <div>
           <ContentBody />
         </div>
         <div>
           <ContentBody />
         </div>
-      </Card.Body>
-      <Card.Footer>
+      </CardBody>
+      <CardFooter>
         <ContentFooter />
-      </Card.Footer>
+      </CardFooter>
     </Card>
   </FlexBox>
 );

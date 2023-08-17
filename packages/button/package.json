@@ -46,13 +46,14 @@
     "components",
     "ui",
     "ui-components",
-    "anchor",
-    "anchor",
-    "button-group",
+    "Anchor",
+    "Button",
+    "ButtonGroup",
+    "ButtonCluster",
     "button-toolbar",
-    "icon-button"
+    "IconButton"
   ],
-  "description": "Button component can be used to represent CTAs in your pages, can be a good replacement for default html `button`, powered by various styles (with theming) and settings",
+  "description": "A Button is like a magic wand for websites. When you click it, cool things happen! It can send forms, pop up chats, undo stuff, or even whisk you away to new places on the web. So, it's your go-to for making things tick and getting stuff done with a simple click!",
   "publishConfig": {
     "access": "public"
   },

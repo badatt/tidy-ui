@@ -2,11 +2,6 @@ import React from 'react';
 import { BadgeRoot } from './components';
 import { IBadgeProps } from './types';
 
-/**
- * Badge can used to display data value or a dot on top right corner of
- * the child component (usually an Icon). Badge qualifies the underlying component.
- *
- */
 const Badge = React.forwardRef<HTMLSpanElement, IBadgeProps>((props, ref) => {
   const { children, ele, content, max, hidden, isShow0, isDotted, ...rest } = props;
 

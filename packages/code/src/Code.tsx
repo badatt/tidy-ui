@@ -2,11 +2,6 @@ import React from 'react';
 import { CodeRoot, Content, CopyError, CopyIcon, CopySuccessIcon, ToolTip } from './components';
 import { ICodeProps } from './types';
 
-/**
- * Code component can be used to represented pre-formatted text.
- * A good replacement for html <pre> tag. A click to copy
- * button is added at the top right corner of the component.
- */
 const Code = React.forwardRef<HTMLDivElement, ICodeProps>((props, ref) => {
   const { children, canCopy, ...rest } = props;
   const codeRef = React.useRef<HTMLPreElement>(null);

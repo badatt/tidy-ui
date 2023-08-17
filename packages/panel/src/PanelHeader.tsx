@@ -1,8 +1,8 @@
 import React from 'react';
 import { Icon } from '@tidy-ui/commons';
 import { ActionIcon, PanelHeaderRoot } from './components';
-import { PanelContext } from './PanelContextProvider';
-import { IPanelContext, IPanelHeaderProps } from './types';
+import { IPanelContext, PanelContext } from './PanelContextProvider';
+import { IPanelHeaderProps } from './types';
 
 const PanelHeader = React.forwardRef<HTMLDivElement, IPanelHeaderProps>((props, ref) => {
   const { children, ele, isToggleVisible, ...rest } = props;

@@ -1,6 +1,6 @@
 import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
-import { Girth } from '../../commons/src';
+import { Girth } from '../../types/src';
 import { FlexBox } from '../../flexbox/src';
 import { Loader } from '../src';
 

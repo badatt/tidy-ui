@@ -1,5 +1,5 @@
 import React from 'react';
-import { Girth, Tone } from '../../commons/src';
+import { Girth, Tone } from '../../types/src';
 import { FlexBox } from '../../flexbox/src';
 import { Anchor } from '../src';
 

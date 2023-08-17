@@ -1,18 +1,5 @@
 import React from 'react';
-import { IBaseProps } from '@tidy-ui/types';
-
-/**
- * Closable
- */
-interface IClosable {
-  /**
-   * Callback (if any) after the message widget is closed
-   *
-   * @type {Function}
-   */
-  // eslint-disable-next-line  @typescript-eslint/no-explicit-any
-  onClose?: (e?: any) => void;
-}
+import { IBaseProps, IClosable } from '@tidy-ui/types';
 
 /**
  * ToastItem

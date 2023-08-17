@@ -8,7 +8,8 @@ import 'jest-styled-components';
 import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
 import { Divider } from '../../divider/src';
 import { Stack } from '../src';
-import { Align, IStackProps, Justify, Order } from '../src/types';
+import { IStackProps } from '../src/types';
+import { StackAlign, StackJustify, StackOrder } from '../../types/src';
 
 function StackWrapper(props: IStackProps) {
   return (
@@ -53,10 +54,10 @@ describe('Stack', () => {
   it('Justify', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        {Object.keys(Justify)
+        {Object.keys(StackJustify)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <StackWrapper key={i} justify={Justify[v]} />
+            <StackWrapper key={i} justify={StackJustify[v]} />
           ))}
       </TidyUiProvider>,
     );
@@ -89,10 +90,10 @@ describe('Stack', () => {
   it('Order', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        {Object.keys(Order)
+        {Object.keys(StackOrder)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <StackWrapper key={i} order={Order[v]} />
+            <StackWrapper key={i} order={StackOrder[v]} />
           ))}
       </TidyUiProvider>,
     );
@@ -101,10 +102,10 @@ describe('Stack', () => {
   it('Align', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        {Object.keys(Align)
+        {Object.keys(StackAlign)
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
-            <StackWrapper key={i} align={Align[v]} />
+            <StackWrapper key={i} align={StackAlign[v]} />
           ))}
       </TidyUiProvider>,
     );

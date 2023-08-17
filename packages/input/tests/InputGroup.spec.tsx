@@ -6,24 +6,24 @@ import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
-import { Input, InputGroup } from '../src';
+import { Input, InputGroup, InputElement } from '../src';
 
 describe('Input', () => {
   it('Basic render', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <InputGroup>
-          <Input.Element node="https://" />
+          <InputElement>https://</InputElement>
           <Input placeholder="google" />
-          <Input.Element node=".com" />
+          <InputElement>.com</InputElement>
         </InputGroup>
         <InputGroup>
-          <Input.Element node="https://" />
+          <InputElement>https://</InputElement>
           <Input placeholder="google.com" />
         </InputGroup>
         <InputGroup>
           <Input placeholder="google" />
-          <Input.Element node=".com" />
+          <InputElement>.com</InputElement>
         </InputGroup>
       </TidyUiProvider>,
     );
@@ -34,17 +34,17 @@ describe('Input', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
         <InputGroup>
-          <Input.Element node="https://" />
+          <InputElement>https://</InputElement>
           <Input placeholder="google" />
-          <Input.Element node=".com" />
+          <InputElement>.com</InputElement>
         </InputGroup>
         <InputGroup>
-          <Input.Element node="https://" />
+          <InputElement>https://</InputElement>
           <Input placeholder="google.com" />
         </InputGroup>
         <InputGroup>
           <Input placeholder="google" />
-          <Input.Element node=".com" />
+          <InputElement>.com</InputElement>
         </InputGroup>
       </TidyUiProvider>,
     );
@@ -55,17 +55,17 @@ describe('Input', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <InputGroup isBlend>
-          <Input.Element node="$" />
+          <InputElement>$</InputElement>
           <Input placeholder="500" />
-          <Input.Element node="/-" />
+          <InputElement>/-</InputElement>
         </InputGroup>
         <InputGroup isBlend>
-          <Input.Element node="$" />
+          <InputElement>$</InputElement>
           <Input placeholder="500" />
         </InputGroup>
         <InputGroup isBlend>
           <Input placeholder="500" />
-          <Input.Element node="/-" />
+          <InputElement>/-</InputElement>
         </InputGroup>
       </TidyUiProvider>,
     );
@@ -76,17 +76,17 @@ describe('Input', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
         <InputGroup isBlend>
-          <Input.Element node="$" />
+          <InputElement>$</InputElement>
           <Input placeholder="500" />
-          <Input.Element node="/-" />
+          <InputElement>/-</InputElement>
         </InputGroup>
         <InputGroup isBlend>
-          <Input.Element node="$" />
+          <InputElement>$</InputElement>
           <Input placeholder="500" />
         </InputGroup>
         <InputGroup isBlend>
           <Input placeholder="500" />
-          <Input.Element node="/-" />
+          <InputElement>/-</InputElement>
         </InputGroup>
       </TidyUiProvider>,
     );

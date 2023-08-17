@@ -15,7 +15,7 @@ export default {
 export const basic = () => {
   const { toaster } = useToaster();
   const ele = (
-    <Message withoutLabel ele={<FlexBox gap="0.5rem" />} tone="success">
+    <Message hasLabel={false} ele={<FlexBox gap="0.5rem" />} tone="success">
       <Icon ele={<Icon.CheckCircle />} />
       <Text.body1>Successfully uploaded</Text.body1>
     </Message>
@@ -33,7 +33,7 @@ export const closable = () => {
   const { toaster } = useToaster();
 
   const ele = (
-    <Notification width="18rem" outlined>
+    <Notification width="18rem">
       <Text.body1>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam omnis iusto doloribus voluptatibus natus! At,
         ducimus? Corrupti, alias. Officia maiores esse fuga totam dolore eius vitae iusto labore sequi ad.

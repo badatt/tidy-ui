@@ -5,8 +5,9 @@ import React from 'react';
 import { fireEvent, render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import 'jest-styled-components';
-import { color, Girth, hsla, Icon, orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
-import { Avatar } from '../src';
+import { color, hsla, Icon, orchidDark, orchidLight, TidyUiProvider } from '../../commons/src';
+import { Girth } from '../../types/src';
+import { Avatar, AvatarBadge, AvatarGroup } from '../src';
 
 describe('Avatar', () => {
   it('Basic render', () => {
@@ -73,7 +74,7 @@ describe('Avatar', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Avatar src="https://bit.ly/sage-adebayo">
-          <Avatar.Badge tone={hsla(color.green[600])} />
+          <AvatarBadge tone={hsla(color.green[600])} />
         </Avatar>
       </TidyUiProvider>,
     );
@@ -108,7 +109,7 @@ describe('Avatar', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
         <Avatar src="https://bit.ly/sage-adebayo">
-          <Avatar.Badge tone={hsla(color.green[600])} accent={hsla(color.green[600])} />
+          <AvatarBadge tone={hsla(color.green[600])} accent={hsla(color.green[600])} />
         </Avatar>
       </TidyUiProvider>,
     );
@@ -118,13 +119,13 @@ describe('Avatar', () => {
   it('Group', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Avatar.Group max={2}>
+        <AvatarGroup max={2}>
           <Avatar src="https://bit.ly/sage-adebayo">
-            <Avatar.Badge tone={hsla(color.green[600])} />
+            <AvatarBadge tone={hsla(color.green[600])} />
           </Avatar>
           <Avatar src="https://bit.ly/ryan-florence" />
           <Avatar />
-        </Avatar.Group>
+        </AvatarGroup>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -133,12 +134,12 @@ describe('Avatar', () => {
   it('Group with 0 max', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Avatar.Group max={0}>
+        <AvatarGroup max={0}>
           <Avatar src="https://bit.ly/sage-adebayo">
-            <Avatar.Badge tone={hsla(color.green[600])} />
+            <AvatarBadge tone={hsla(color.green[600])} />
           </Avatar>
           <Avatar src="https://bit.ly/ryan-florence" />
-        </Avatar.Group>
+        </AvatarGroup>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -147,15 +148,15 @@ describe('Avatar', () => {
   it('Group with more than 10 and less than 100 Avatars', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Avatar.Group max={3}>
+        <AvatarGroup max={3}>
           <Avatar src="https://bit.ly/sage-adebayo">
-            <Avatar.Badge tone={hsla(color.green[600])} />
+            <AvatarBadge tone={hsla(color.green[600])} />
           </Avatar>
           <Avatar src="https://bit.ly/ryan-florence" />
-          {[...Array(11)].map((c) => (
-            <Avatar key={c} />
+          {[...Array(11)].map((c, i) => (
+            <Avatar key={i} />
           ))}
-        </Avatar.Group>
+        </AvatarGroup>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -164,15 +165,15 @@ describe('Avatar', () => {
   it('Group with more than 100 and less than 1000 Avatars', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Avatar.Group max={3}>
+        <AvatarGroup max={3}>
           <Avatar src="https://bit.ly/sage-adebayo">
-            <Avatar.Badge tone={hsla(color.green[600])} />
+            <AvatarBadge tone={hsla(color.green[600])} />
           </Avatar>
           <Avatar src="https://bit.ly/ryan-florence" />
-          {[...Array(101)].map((c) => (
-            <Avatar key={c} />
+          {[...Array(101)].map((c, i) => (
+            <Avatar key={i} />
           ))}
-        </Avatar.Group>
+        </AvatarGroup>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -181,15 +182,15 @@ describe('Avatar', () => {
   it('Group with more than 1000 and less than 1000 Avatars', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Avatar.Group max={3}>
+        <AvatarGroup max={3}>
           <Avatar src="https://bit.ly/sage-adebayo">
-            <Avatar.Badge tone={hsla(color.green[600])} />
+            <AvatarBadge tone={hsla(color.green[600])} />
           </Avatar>
           <Avatar src="https://bit.ly/ryan-florence" />
-          {[...Array(1001)].map((c) => (
-            <Avatar key={c} />
+          {[...Array(1001)].map((c, i) => (
+            <Avatar key={i} />
           ))}
-        </Avatar.Group>
+        </AvatarGroup>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -198,14 +199,14 @@ describe('Avatar', () => {
   it('Group with more than 10000 Avatars', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Avatar.Group max={3}>
+        <AvatarGroup max={3}>
           <Avatar src="https://bit.ly/sage-adebayo">
-            <Avatar.Badge tone={hsla(color.green[600])} />
+            <AvatarBadge tone={hsla(color.green[600])} />
           </Avatar>
-          {[...Array(10008)].map((c) => (
-            <Avatar key={c} />
+          {[...Array(10008)].map((c, i) => (
+            <Avatar key={i} />
           ))}
-        </Avatar.Group>
+        </AvatarGroup>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();

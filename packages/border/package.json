@@ -46,9 +46,9 @@
     "components",
     "ui",
     "ui-components",
-    "border"
+    "Border"
   ],
-  "description": "Border component can be used to highlight border of a single component or a collection of them. You can add a descriptor inside the border at various positioning.",
+  "description": "The Border component is a versatile tool to enclose components or groups. It supports content qualification like text or Chips and can be positioned in all directions. Create borders with customizable densities and sharp edges. Infuse borders with colors based on enclosed content's classification and experiment with various shades. Explore border variants like dashed or dotted styles, all customizable through theming and styles settings.",
   "publishConfig": {
     "access": "public"
   },
