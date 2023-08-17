@@ -43,6 +43,7 @@ describe('Input', () => {
         <Input type="search" placeholder="Search input" />
         <Input type="tel" placeholder="Telephone input" />
         <Input type="url" placeholder="URL input" />
+        <Input type="text" placeholder="Text input" />
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
