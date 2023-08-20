@@ -32,6 +32,10 @@ Object {
 
 .c1 {
   padding-right: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   color: hsla(221,83%,53%,1);
 }
 
@@ -110,6 +114,10 @@ Object {
 
 .c1 {
   padding-right: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   color: hsla(221,83%,53%,1);
 }
 
@@ -243,6 +251,10 @@ Object {
 
 .c1 {
   padding-right: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   color: hsla(221,83%,53%,1);
 }
 
@@ -321,6 +333,10 @@ Object {
 
 .c1 {
   padding-right: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   color: hsla(221,83%,53%,1);
 }
 
@@ -453,6 +469,10 @@ Object {
 
 .c1 {
   padding-right: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .c1 svg {
@@ -529,6 +549,10 @@ Object {
 
 .c1 {
   padding-right: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .c1 svg {
@@ -661,6 +685,10 @@ Object {
 
 .c1 {
   padding-right: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   color: hsla(217,91%,60%,1);
 }
 
@@ -739,6 +767,10 @@ Object {
 
 .c1 {
   padding-right: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   color: hsla(217,91%,60%,1);
 }
 
@@ -871,6 +903,10 @@ Object {
 
 .c1 {
   padding-right: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .c1 svg {
@@ -947,6 +983,10 @@ Object {
 
 .c1 {
   padding-right: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .c1 svg {
@@ -1079,6 +1119,10 @@ Object {
 
 .c1 {
   padding-right: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   color: hsla(221,83%,53%,1);
 }
 
@@ -1163,6 +1207,10 @@ Object {
 
 .c1 {
   padding-right: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   color: hsla(221,83%,53%,1);
 }
 
