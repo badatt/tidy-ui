@@ -38,7 +38,13 @@ const SimpleAlert = (props) => (
 );
 
 export const basic: Story = {
-  render: () => <SimpleAlert width="450px" />,
+  render: () => (
+    <>
+      <SimpleAlert width="450px" />
+      <br />
+      <Alert>Simple alert</Alert>
+    </>
+  ),
 };
 
 export const status: Story = {
