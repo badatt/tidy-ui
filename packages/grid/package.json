@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/grid",
-  "version": "0.47.1",
+  "version": "0.47.2",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:grid",
@@ -14,7 +14,7 @@
     "docs": "jsdoc -X -c ../../jsdoc.conf.json > jsdoc.json"
   },
   "dependencies": {
-    "@tidy-ui/commons": "^0.47.1"
+    "@tidy-ui/commons": "^0.47.2"
   },
   "peerDependencies": {
     "react": "^18.0.0",
