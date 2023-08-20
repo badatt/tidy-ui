@@ -50,7 +50,7 @@ export interface IAlertProps extends IBaseProps, HTMLAttributes<HTMLDivElement> 
  * @interface IAlertFooterProps
  * @type {IAlertFooterProps}
  * @augments {HTMLAttributes<HTMLDivElement>}
- * @public
+ * @private
  * @since 0.47.0
  */
 export interface IAlertFooterProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {}
@@ -61,7 +61,7 @@ export interface IAlertFooterProps extends IBaseProps, HTMLAttributes<HTMLDivEle
  * @interface IAlertTitleProps
  * @type {IAlertTitleProps}
  * @augments {HTMLAttributes<HTMLDivElement>}
- * @public
+ * @private
  * @since 0.47.0
  */
 export interface IAlertTitleProps extends IBaseProps, HTMLAttributes<HTMLDivElement> {}
