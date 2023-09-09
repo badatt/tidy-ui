@@ -89,9 +89,8 @@ const AvatarBadgeRoot = styled.div<IAvatarBadgeProps>`
 
 const AvatarGroupRoot = styled.div<IAvatarGroupProps>`
   display: flex;
-  flex-direction: row-reverse;
 
-  & > :not(:last-child) {
+  & > :not(:first-child) {
     margin-left: -0.6em;
   }
 

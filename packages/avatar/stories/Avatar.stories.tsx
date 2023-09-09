@@ -86,12 +86,19 @@ export const accent = () => {
 
 export const withBadge = () => {
   return (
-    <FlexBox gap="1rem" fld="column" ali="flex-start">
+    <FlexBox gap="1rem" ali="flex-start">
       {Object.keys(Girth)
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
           <Avatar src="https://bit.ly/sage-adebayo" girth={Girth[v]} key={v}>
             <AvatarBadge tone={hsla(color.green[600])} />
+          </Avatar>
+        ))}
+      {Object.keys(Girth)
+        .filter((i) => !isNaN(Number(i)))
+        .map((v, i) => (
+          <Avatar src="https://bit.ly/sage-adebayo" girth={Girth[v]} key={v}>
+            <AvatarBadge tone={hsla(color.amber[50])} accent={hsla(color.amber[500])} />
           </Avatar>
         ))}
     </FlexBox>
@@ -101,18 +108,16 @@ export const withBadge = () => {
 export const group: Story = {
   render: () => {
     return (
-      <FlexBox fld="row">
-        <AvatarGroup max={3}>
-          <Avatar src="https://bit.ly/sage-adebayo">
-            <AvatarBadge tone={hsla(color.green[600])} />
-          </Avatar>
-          <Avatar src="https://bit.ly/ryan-florence" />
-          <Avatar src="https://bit.ly/dan-abramov" />
-          <Avatar name="Kola Tiol" />
-          <Avatar src="https://bit.ly/prosper-baba" />
-          <Avatar src="https://bit.ly/code-beast" />
-        </AvatarGroup>
-      </FlexBox>
+      <AvatarGroup max={3}>
+        <Avatar src="https://bit.ly/sage-adebayo" />
+        <Avatar src="https://bit.ly/ryan-florence">
+          <AvatarBadge tone={hsla(color.green[600])} />
+        </Avatar>
+        <Avatar src="https://bit.ly/dan-abramov" />
+        <Avatar name="Kola Tiol" />
+        <Avatar src="https://bit.ly/prosper-baba" />
+        <Avatar src="https://bit.ly/code-beast" />
+      </AvatarGroup>
     );
   },
 };

@@ -9,10 +9,10 @@ import { IAnchorProps, IButtonClusterProps, IButtonGroupProps, IButtonProps, IIc
  */
 const AnchorRoot = styled.a<IAnchorProps>`
   ${({ theme: { palette, isDark }, disabled, girth, tone }) => css`
-    display: flex;
-    align-items: center;
+    margin: 0 0.5ch;
+    display: inline-block;
     text-decoration: none;
-    font-size: calc(${sizeStyles[girth!].fontSize} + 0.1em);
+    font-size: calc(${sizeStyles[girth!].fontSize} + 0.125rem);
     color: ${isDark ? palette[tone!][400] : palette[tone!][600]};
     ${disabled
       ? css`
@@ -37,6 +37,18 @@ const AnchorRoot = styled.a<IAnchorProps>`
         `}
   `}
   ${applyStandardOverrideStyles}
+`;
+
+const AnchorWithIcon = styled.span<IAnchorProps>`
+  display: flex;
+  align-items: baseline;
+  gap: 0.25ch;
+
+  & svg,
+  & span {
+    height: 0.8em !important;
+    width: 0.8em !important;
+  }
 `;
 
 /**
@@ -307,6 +319,7 @@ const LoadingIcon = styled(Icon.RotatingCircle)`
 
 export {
   AnchorRoot,
+  AnchorWithIcon,
   ButtonClusterRoot,
   ButtonGroupRoot,
   ButtonRoot,

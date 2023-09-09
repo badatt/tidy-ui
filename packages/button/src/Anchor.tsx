@@ -1,14 +1,25 @@
 import React from 'react';
 import { Icon } from '@tidy-ui/commons';
-import { AnchorRoot } from './components';
+import { AnchorRoot, AnchorWithIcon } from './components';
 import { IAnchorProps } from './types';
 
 const Anchor = React.forwardRef<HTMLAnchorElement, IAnchorProps>((props, ref) => {
   const { children, canLaunch, ...rest } = props;
+
+  if (canLaunch) {
+    return (
+      <AnchorRoot role="link" ref={ref} {...rest} target="_blank">
+        <AnchorWithIcon>
+          {children}
+          <Icon ele={<Icon.Launch />} />
+        </AnchorWithIcon>
+      </AnchorRoot>
+    );
+  }
+
   return (
-    <AnchorRoot role="link" ref={ref} {...rest} target={canLaunch ? '_blank' : '_top'}>
+    <AnchorRoot role="link" ref={ref} {...rest}>
       {children}
-      {canLaunch && <Icon ele={<Icon.Launch />} />}
     </AnchorRoot>
   );
 });
