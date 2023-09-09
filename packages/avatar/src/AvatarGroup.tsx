@@ -56,8 +56,8 @@ const AvatarGroup = React.forwardRef<HTMLDivElement, IAvatarGroupProps>((props, 
 
   return (
     <AvatarGroupRoot ref={ref} {...rest}>
-      {max && additionalCount !== 0 && <Avatar girth={props.girth} icon={renderCountIcon()} />}
       {renderChildren(children)}
+      {max && additionalCount !== 0 && <Avatar girth={props.girth} icon={renderCountIcon()} />}
     </AvatarGroupRoot>
   );
 });
