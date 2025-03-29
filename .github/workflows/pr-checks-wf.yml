@@ -44,8 +44,7 @@ jobs:
         env:
           FORCE_COLOR: true
 
-      - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-github-action@v1.8
+      - name: SonarQube Scan
+        uses: SonarSource/sonarqube-scan-action@v5
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
