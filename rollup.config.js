@@ -6,7 +6,6 @@ import { nodeResolve } from '@rollup/plugin-node-resolve';
 import replace from '@rollup/plugin-replace';
 import terser from '@rollup/plugin-terser';
 import nodePolyfills from 'rollup-plugin-node-polyfills';
-import sourceMaps from 'rollup-plugin-sourcemaps';
 import typescript from 'rollup-plugin-typescript2';
 
 const pkgName = process.env.PACKAGE_NAME;
@@ -26,20 +25,11 @@ const deps = formattedDeps(packageJson);
 
 const extensions = ['.js', '.jsx', '.ts', '.tsx'];
 
-const cjs = {
-  exports: 'named',
-  format: 'cjs',
-  interop: 'auto',
-  sourcemap: true,
-};
-
 const esm = {
   format: 'esm',
   interop: 'auto',
-  sourcemap: true,
 };
 
-const getCJS = (override) => ({ ...cjs, ...override });
 const getESM = (override) => ({ ...esm, ...override });
 
 const commonPlugins = [
@@ -48,7 +38,6 @@ const commonPlugins = [
     outputToFilesystem: true,
     tsconfig: `tsconfig.build.json`,
   }),
-  sourceMaps(),
   json(),
   nodePolyfills(),
   nodeResolve({ extensions, preferBuiltins: true }),
@@ -103,7 +92,7 @@ const configBase = {
 
 const serverConfig = {
   ...configBase,
-  output: [getESM({ file: 'dist/index.esm.js' }), getCJS({ file: 'dist/index.cjs.js' })],
+  output: [getESM({ file: 'dist/index.esm.js' })],
   plugins: configBase.plugins.concat(
     replace({
       __SERVER__: JSON.stringify(true),
@@ -113,15 +102,4 @@ const serverConfig = {
   ),
 };
 
-const browserConfig = {
-  ...configBase,
-  output: [getESM({ file: 'dist/index.browser.esm.js' }), getCJS({ file: 'dist/index.browser.cjs.js' })],
-  plugins: configBase.plugins.concat(
-    replace({
-      __SERVER__: JSON.stringify(false),
-    }),
-    minifierPlugin,
-  ),
-};
-
-export default [serverConfig, browserConfig];
+export default [serverConfig];
