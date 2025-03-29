@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/badge",
-  "version": "0.47.5",
+  "version": "0.48.0",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:badge",
@@ -16,7 +16,7 @@
     "docs": "jsdoc -X -c ../../jsdoc.conf.json > jsdoc.json"
   },
   "dependencies": {
-    "@tidy-ui/commons": "^0.47.5"
+    "@tidy-ui/commons": "^0.48.0"
   },
   "peerDependencies": {
     "react": "^18.0.0",

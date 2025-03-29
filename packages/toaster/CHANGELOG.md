@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.48.0](https://github.com/badatt/tidy-ui/compare/v0.47.5...v0.48.0) (2025-03-29)
+
+**Note:** Version bump only for package @tidy-ui/toaster
+
+
+
+
+
 ## [0.47.5](https://github.com/badatt/tidy-ui/compare/v0.47.4...v0.47.5) (2025-03-29)
 
 **Note:** Version bump only for package @tidy-ui/toaster
