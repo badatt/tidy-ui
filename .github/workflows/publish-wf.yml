@@ -42,7 +42,7 @@ jobs:
 
       - name: Test
         run: yarn test
-      
+
       - name: SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@v5
         env:
