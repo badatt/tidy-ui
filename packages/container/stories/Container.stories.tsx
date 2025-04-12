@@ -35,13 +35,13 @@ const ToolBar = styled.div`
 `;
 
 export const basic = () => (
-  <Container>
+  <Container height="100%">
     <Content />
   </Container>
 );
 
 export const fixed = () => (
-  <Container isFixed>
+  <Container isFixed height="100%">
     <Content />
   </Container>
 );
@@ -75,7 +75,7 @@ export const maxWidth = () => {
           />
         </ButtonCluster>
       </ToolBar>
-      <Container maxWidth={Screen[maxWidth] as TScreen}>
+      <Container maxWidth={Screen[maxWidth] as TScreen} height="100%">
         <Content />
       </Container>
     </>
@@ -83,7 +83,7 @@ export const maxWidth = () => {
 };
 
 export const noGutters = () => (
-  <Container gutter="0">
+  <Container gutter="0" height="100%">
     <Content />
   </Container>
 );
