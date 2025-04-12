@@ -13,7 +13,6 @@ const Container = React.forwardRef<HTMLDivElement, IContainerProps>((props, ref)
 
 Container.defaultProps = {
   gutter: '1.5rem',
-  height: '100%',
   isFixed: false,
 };
 

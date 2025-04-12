@@ -2,6 +2,7 @@
   <img width="250" src="https://raw.githubusercontent.com/badatt/tidy-ui/main/internals/assets/images/storybook-logo.png" alt="Tidy UI" />
 </p>
 
+
 <p align="center">
   <a href="https://sonarcloud.io/summary/new_code?id=badatt_tidy-ui" target="_blank">
     <img
@@ -70,6 +71,7 @@
   </a>
 </p>
 
+
 ## Project Description
 
 Tidy UI is a family of components necessary for your react application. The components are powered <a href="https://styled-components.com/" target="_blank">styled-components</a>, features include css-in-js, theming etc
@@ -80,6 +82,7 @@ Tidy UI is a family of components necessary for your react application. The comp
 - styled-components
 - rollup
 - lerna
+
 
 ## Getting started
 
@@ -98,11 +101,13 @@ export default App;
 
 Include required components with in the place holder `...`
 
+
 ### Storybook
 
 <a href="https://main--62f5d4e6c0b101cafe0f9e33.chromatic.com" target="_blank"><img src="https://raw.githubusercontent.com/storybookjs/brand/master/badge/badge-storybook.svg"/></a>
 
 Visit the storybook and start using components in your app.
+
 
 ## Packages and groups
 
@@ -136,6 +141,7 @@ Visit the storybook and start using components in your app.
   </a>
 </div>
 
+
 ---
 
 <p align="center">
@@ -146,3 +152,4 @@ Visit the storybook and start using components in your app.
     <img src="https://img.shields.io/badge/dynamic/json?color=blue&label=releases&query=%24.name&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fbadatt%2Ftidy-ui%2Freleases%2Flatest" />
   </a>
 </p>
+

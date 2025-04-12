@@ -2,6 +2,7 @@
   <img width="250" src="https://raw.githubusercontent.com/badatt/tidy-ui/main/internals/assets/images/storybook-logo.png" alt="Tidy UI" />
 </p>
 
+
 <h1 align="center">
   @tidy-ui/icons
   <a href="https://www.npmjs.com/package/@tidy-ui/icons">
@@ -76,6 +77,7 @@
   </a>
 </p>
 
+
 ## Project Description
 
 Tidy UI is a family of components necessary for your react application. The components are powered <a href="https://styled-components.com/" target="_blank">styled-components</a>, features include css-in-js, theming etc
@@ -86,6 +88,7 @@ Tidy UI is a family of components necessary for your react application. The comp
 - styled-components
 - rollup
 - lerna
+
 
 ## Installation
 
@@ -121,6 +124,7 @@ Include required components with in the place holder `...`
 
 Visit the storybook and start using components in your app.
 
+
 ---
 
 <p align="center">
@@ -131,3 +135,4 @@ Visit the storybook and start using components in your app.
     <img src="https://img.shields.io/badge/dynamic/json?color=blue&label=releases&query=%24.name&url=https%3A%2F%2Fapi.github.com%2Frepos%2Fbadatt%2Ftidy-ui%2Freleases%2Flatest" />
   </a>
 </p>
+
