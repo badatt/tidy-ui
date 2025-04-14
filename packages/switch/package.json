@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/switch",
-  "version": "0.48.2",
+  "version": "0.48.3",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:switch",
@@ -14,7 +14,7 @@
     "docs": "jsdoc -X -c ../../jsdoc.conf.json > jsdoc.json"
   },
   "dependencies": {
-    "@tidy-ui/commons": "^0.48.2"
+    "@tidy-ui/commons": "^0.48.3"
   },
   "peerDependencies": {
     "react": "^18.0.0",
