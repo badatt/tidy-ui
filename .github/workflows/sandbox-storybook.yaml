@@ -1,0 +1,82 @@
+name: Release docs
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  vet:
+    name: vet
+    runs-on: ubuntu-latest
+    env:
+      CI: true
+      FORCE_COLOR: true
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18.16.0'
+          registry-url: https://registry.npmjs.org/
+
+      - name: Bootstrap
+        run: yarn bootstrap
+
+      - name: Vet
+        run: yarn vet
+
+  publish-sandbox-story-book:
+    name: publish sandbox storybook to pages
+    needs: vet
+    environment: sandbox
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
+      pages: write
+    env:
+      CI: true
+      FORCE_COLOR: true
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18.16.0'
+          registry-url: https://registry.npmjs.org/
+
+      - name: Bootstrap
+        run: yarn bootstrap
+
+      - name: Build
+        run: yarn build
+
+      - name: Build Storybook
+        run: yarn build-storybook
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./storybook-static
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          personal_token: ${{ secrets.DEPLOYMENT_GITHUB_TOKEN }}
+          publish_dir: ./
+          external_repository: ${{ vars.DEPLOYMENT_GITHUB_REPO }}
+          cname: ${{ vars.STORYBOOK_DOMAIN }}
