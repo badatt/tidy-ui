@@ -1,9 +1,10 @@
-name: sandbox docs
+name: PROD docs
 
 on:
   push:
     branches:
-      - develop
+      - main
+      - 'release/**'
 
 jobs:
   vet:
@@ -32,10 +33,10 @@ jobs:
       - name: Vet
         run: yarn vet
 
-  publish-sandbox-story-book:
-    name: publish sandbox storybook
+  publish-prod-story-book:
+    name: publish prod storybook
     needs: vet
-    environment: sandbox
+    environment: PROD
     runs-on: ubuntu-latest
     permissions:
       contents: write

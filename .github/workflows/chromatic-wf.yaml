@@ -1,4 +1,4 @@
-name: Release docs
+name: Chromatic docs
 
 on:
   push:
@@ -105,43 +105,3 @@ jobs:
         uses: chromaui/action@v1
         with:
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-
-  publishStoryBookGHPages:
-    name: github pages
-    needs: vet
-    environment: PROD
-    runs-on: ubuntu-latest
-    if: "${{ startsWith(github.event.head_commit.message, 'chore: publish m') }}"
-    env:
-      CI: true
-    defaults:
-      run:
-        shell: bash
-
-    steps:
-      - name: Check out the code
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-          token: ${{ secrets.PAT_GITHUB  }}
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18.16.0'
-          registry-url: https://registry.npmjs.org/
-
-      - name: Bootstrap
-        run: yarn bootstrap
-
-      - name: Build
-        run: yarn build
-
-      - name: Build Storybook
-        run: yarn build-storybook
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./storybook-static
