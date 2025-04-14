@@ -19,13 +19,10 @@ jobs:
 
     steps:
       - name: Check out the code
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-          token: ${{ secrets.PAT_GITHUB  }}
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '18.16.0'
           registry-url: https://registry.npmjs.org/
@@ -57,22 +54,22 @@ jobs:
         if: "${{ !startsWith(github.event.head_commit.message, 'chore: release') }}"
         run: yarn release:patch
         env:
-          GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
+          GH_TOKEN: ${{ secrets.PAT_GITHUB }}
 
       - name: Release minor version
         if: "${{ startsWith(github.event.head_commit.message, 'chore: release minor') }}"
         run: yarn release:minor
         env:
-          GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
+          GH_TOKEN: ${{ secrets.PAT_GITHUB }}
 
       - name: Release major version
         if: "${{ startsWith(github.event.head_commit.message, 'chore: release major') }}"
         run: yarn release:major
         env:
-          GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
+          GH_TOKEN: ${{ secrets.PAT_GITHUB }}
 
       - name: Publish to NPM
         run: npm run publish:npm
         env:
-          GH_TOKEN: ${{ secrets.PAT_GITHUB  }}
+          GH_TOKEN: ${{ secrets.PAT_GITHUB }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

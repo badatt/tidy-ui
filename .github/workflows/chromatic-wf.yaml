@@ -1,9 +1,8 @@
-name: Chromatic docs
+name: _deprecated Chromatic docs
+description: Chromatic docs (Deprecated) publish
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   vet:
