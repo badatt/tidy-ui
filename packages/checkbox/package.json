@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/checkbox",
-  "version": "0.48.4",
+  "version": "0.48.5",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:checkbox",
@@ -14,7 +14,7 @@
     "docs": "jsdoc -X -c ../../jsdoc.conf.json > jsdoc.json"
   },
   "dependencies": {
-    "@tidy-ui/commons": "^0.48.4"
+    "@tidy-ui/commons": "^0.48.5"
   },
   "peerDependencies": {
     "react": "^18.0.0",
