@@ -8,7 +8,7 @@ import { IButtonProps } from './types';
  */
 const sizeStyles = {
   lg: {
-    fontSize: '1.125rem',
+    fontSize: '1.25rem',
   },
   md: {
     fontSize: '0.875rem',
@@ -17,7 +17,7 @@ const sizeStyles = {
     fontSize: '0.75rem',
   },
   xl: {
-    fontSize: '1.5rem',
+    fontSize: '1.75rem',
   },
   xs: {
     fontSize: '0.625rem',

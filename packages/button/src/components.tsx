@@ -69,7 +69,7 @@ const ButtonRoot = styled.button<IButtonProps>`
   transition: all 200ms linear;
   ${({ girth, disabled, isStretched, variant, icon, isUppercase }) => css`
     font-size: ${sizeStyles[girth!].fontSize};
-    padding: 0.3em 0.5rem;
+    padding: 0.2em 0.3em;
     border-radius: 0.3em;
     line-height: 1.5em;
     ${disabled &&

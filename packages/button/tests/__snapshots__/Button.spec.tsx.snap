@@ -29,7 +29,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,9%,1);
@@ -77,7 +77,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,9%,1);
@@ -180,7 +180,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,96%,1);
@@ -228,7 +228,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,96%,1);
@@ -331,7 +331,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(273,67%,39%,1);
@@ -363,7 +363,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(336,74%,35%,1);
@@ -395,7 +395,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,15%,1);
@@ -427,7 +427,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(226,71%,40%,1);
@@ -459,7 +459,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(143,64%,24%,1);
@@ -491,7 +491,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(23,83%,31%,1);
@@ -523,7 +523,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,70%,35%,1);
@@ -748,7 +748,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(273,67%,39%,1);
@@ -780,7 +780,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(336,74%,35%,1);
@@ -812,7 +812,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,15%,1);
@@ -844,7 +844,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(226,71%,40%,1);
@@ -876,7 +876,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(143,64%,24%,1);
@@ -908,7 +908,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(23,83%,31%,1);
@@ -940,7 +940,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,70%,35%,1);
@@ -1220,7 +1220,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(270,95%,75%,1);
@@ -1252,7 +1252,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(329,86%,70%,1);
@@ -1284,7 +1284,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,64%,1);
@@ -1316,7 +1316,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(213,94%,68%,1);
@@ -1348,7 +1348,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(142,69%,58%,1);
@@ -1380,7 +1380,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(43,96%,56%,1);
@@ -1412,7 +1412,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,91%,71%,1);
@@ -1637,7 +1637,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(270,95%,75%,1);
@@ -1669,7 +1669,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(329,86%,70%,1);
@@ -1701,7 +1701,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,64%,1);
@@ -1733,7 +1733,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(213,94%,68%,1);
@@ -1765,7 +1765,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(142,69%,58%,1);
@@ -1797,7 +1797,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(43,96%,56%,1);
@@ -1829,7 +1829,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,91%,71%,1);
@@ -2109,7 +2109,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(274,66%,32%,1);
@@ -2147,7 +2147,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(336,69%,30%,1);
@@ -2185,7 +2185,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,9%,1);
@@ -2223,7 +2223,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(224,64%,33%,1);
@@ -2261,7 +2261,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(144,61%,20%,1);
@@ -2299,7 +2299,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(22,78%,26%,1);
@@ -2337,7 +2337,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,63%,31%,1);
@@ -2421,7 +2421,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(274,66%,32%,1);
@@ -2459,7 +2459,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(336,69%,30%,1);
@@ -2497,7 +2497,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,9%,1);
@@ -2535,7 +2535,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(224,64%,33%,1);
@@ -2573,7 +2573,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(144,61%,20%,1);
@@ -2611,7 +2611,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(22,78%,26%,1);
@@ -2649,7 +2649,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,63%,31%,1);
@@ -2788,7 +2788,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.5rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,9%,1);
@@ -2826,7 +2826,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.625rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,9%,1);
@@ -2864,7 +2864,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.75rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,9%,1);
@@ -2902,7 +2902,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,9%,1);
@@ -2939,8 +2939,8 @@ Object {
   vertical-align: middle;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
-  font-size: 1.125rem;
-  padding: 0.3em 0.5rem;
+  font-size: 1.25rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,9%,1);
@@ -2977,8 +2977,8 @@ Object {
   vertical-align: middle;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
-  font-size: 1.5rem;
-  padding: 0.3em 0.5rem;
+  font-size: 1.75rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,9%,1);
@@ -3016,7 +3016,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 2rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,9%,1);
@@ -3107,7 +3107,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.5rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,9%,1);
@@ -3145,7 +3145,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.625rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,9%,1);
@@ -3183,7 +3183,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.75rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,9%,1);
@@ -3221,7 +3221,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,9%,1);
@@ -3258,8 +3258,8 @@ Object {
   vertical-align: middle;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
-  font-size: 1.125rem;
-  padding: 0.3em 0.5rem;
+  font-size: 1.25rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,9%,1);
@@ -3296,8 +3296,8 @@ Object {
   vertical-align: middle;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
-  font-size: 1.5rem;
-  padding: 0.3em 0.5rem;
+  font-size: 1.75rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,9%,1);
@@ -3335,7 +3335,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 2rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,9%,1);
@@ -3481,7 +3481,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   padding: 1rem 1.5rem;
@@ -3524,7 +3524,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,9%,1);
@@ -3562,7 +3562,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   font-weight: 600;
@@ -3602,7 +3602,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,15%,1);
@@ -3668,7 +3668,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   padding: 1rem 1.5rem;
@@ -3711,7 +3711,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,9%,1);
@@ -3749,7 +3749,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   font-weight: 600;
@@ -3789,7 +3789,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,15%,1);
@@ -3910,7 +3910,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   padding: 1rem 1.5rem;
@@ -3953,7 +3953,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,96%,1);
@@ -3991,7 +3991,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   font-weight: 600;
@@ -4030,7 +4030,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,64%,1);
@@ -4096,7 +4096,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   padding: 1rem 1.5rem;
@@ -4139,7 +4139,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,96%,1);
@@ -4177,7 +4177,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   font-weight: 600;
@@ -4216,7 +4216,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,64%,1);
@@ -4337,7 +4337,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,9%,1);
@@ -4389,7 +4389,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,9%,1);
@@ -4496,7 +4496,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   font-weight: 600;
@@ -4557,7 +4557,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   font-weight: 600;
@@ -4673,7 +4673,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,9%,1);
@@ -4731,7 +4731,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,9%,1);
@@ -4844,7 +4844,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   cursor: not-allowed;
@@ -4892,7 +4892,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   cursor: not-allowed;
@@ -4995,7 +4995,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,9%,1);
@@ -5033,7 +5033,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   padding: 1rem 1.5rem;
@@ -5092,7 +5092,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,9%,1);
@@ -5130,7 +5130,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   padding: 1rem 1.5rem;
@@ -5244,7 +5244,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   padding: 1rem 1.5rem;
@@ -5297,7 +5297,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   padding: 1rem 1.5rem;
@@ -5405,7 +5405,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   cursor: not-allowed;
@@ -5485,7 +5485,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   cursor: not-allowed;
@@ -5620,7 +5620,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,96%,1);
@@ -5668,7 +5668,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,96%,1);
@@ -5771,7 +5771,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,64%,1);
@@ -5819,7 +5819,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   color: hsla(0,0%,64%,1);
@@ -5922,7 +5922,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   width: 100%;
@@ -5976,7 +5976,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   width: 100%;
@@ -6085,7 +6085,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   text-transform: uppercase;
@@ -6134,7 +6134,7 @@ Object {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   font-size: 0.875rem;
-  padding: 0.3em 0.5rem;
+  padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
   text-transform: uppercase;

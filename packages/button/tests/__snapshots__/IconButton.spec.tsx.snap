@@ -2053,7 +2053,7 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   padding: 0.2rem;
   border-radius: 0.4em;
   color: hsla(0,0%,9%,1);
@@ -2078,7 +2078,7 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   padding: 0.2rem;
   border-radius: 0.4em;
   color: hsla(0,0%,9%,1);
@@ -2478,7 +2478,7 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   padding: 0.2rem;
   border-radius: 0.4em;
   color: hsla(0,0%,9%,1);
@@ -2503,7 +2503,7 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   padding: 0.2rem;
   border-radius: 0.4em;
   color: hsla(0,0%,9%,1);
@@ -3327,7 +3327,7 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   padding: 0.3em;
   border-radius: 50%;
   color: hsla(0,0%,9%,1);
@@ -3352,7 +3352,7 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   padding: 0.3em;
   border-radius: 50%;
   color: hsla(0,0%,9%,1);
@@ -3695,7 +3695,7 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   padding: 0.3em;
   border-radius: 50%;
   color: hsla(0,0%,9%,1);
@@ -3720,7 +3720,7 @@ Object {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   padding: 0.3em;
   border-radius: 50%;
   color: hsla(0,0%,9%,1);

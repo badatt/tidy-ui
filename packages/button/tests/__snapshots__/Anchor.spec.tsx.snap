@@ -811,7 +811,7 @@ Object {
   display: inline-block;
   -webkit-text-decoration: none;
   text-decoration: none;
-  font-size: calc(1.125rem + 0.125rem);
+  font-size: calc(1.25rem + 0.125rem);
   color: hsla(0,0%,32%,1);
   background-image: linear-gradient( hsla(0,0%,45%,0.7), hsla(0,0%,45%,0.7) );
   background-size: 100% 0em;
@@ -832,7 +832,7 @@ Object {
   display: inline-block;
   -webkit-text-decoration: none;
   text-decoration: none;
-  font-size: calc(1.5rem + 0.125rem);
+  font-size: calc(1.75rem + 0.125rem);
   color: hsla(0,0%,32%,1);
   background-image: linear-gradient( hsla(0,0%,45%,0.7), hsla(0,0%,45%,0.7) );
   background-size: 100% 0em;
@@ -1018,7 +1018,7 @@ Object {
   display: inline-block;
   -webkit-text-decoration: none;
   text-decoration: none;
-  font-size: calc(1.125rem + 0.125rem);
+  font-size: calc(1.25rem + 0.125rem);
   color: hsla(0,0%,32%,1);
   background-image: linear-gradient( hsla(0,0%,45%,0.7), hsla(0,0%,45%,0.7) );
   background-size: 100% 0em;
@@ -1039,7 +1039,7 @@ Object {
   display: inline-block;
   -webkit-text-decoration: none;
   text-decoration: none;
-  font-size: calc(1.5rem + 0.125rem);
+  font-size: calc(1.75rem + 0.125rem);
   color: hsla(0,0%,32%,1);
   background-image: linear-gradient( hsla(0,0%,45%,0.7), hsla(0,0%,45%,0.7) );
   background-size: 100% 0em;
