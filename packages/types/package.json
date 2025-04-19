@@ -17,6 +17,7 @@
     "react": "^18.0.0",
     "styled-components": "^5.3.3"
   },
+  "main": "./dist/index.esm.js",
   "module": "./dist/index.esm.js",
   "types": "dist/src/index.d.ts",
   "license": "MIT",
