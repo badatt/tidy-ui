@@ -30,9 +30,9 @@ const TextProvider = ({ children }) => {
             isIconOnly
             girth="sm"
           />
-          <Text.body1 style={{ width: '4rem' }} ctr>
+          <Text.Body1 style={{ width: '4rem' }} ctr>
             {TextVariant[variant]}
-          </Text.body1>
+          </Text.Body1>
           <IconButton
             variant="outlined"
             onClick={increment}

@@ -59,7 +59,7 @@ export const launchNewTab = () => (
     {Object.keys(Girth)
       .filter((i) => !isNaN(Number(i)))
       .map((v) => (
-        <Text.base key={v}>
+        <Text.Base key={v}>
           Lorem, ipsum dolor sit amet
           <Anchor href="https://www.google.com/" canLaunch girth={Girth[v]} tone="info">
             Google
@@ -72,7 +72,7 @@ export const launchNewTab = () => (
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam hic veritatis quidem, nulla perspiciatis
           fugit dolores eligendi totam amet repellendus vel. Numquam obcaecati placeat aliquam maiores aut laboriosam
           vero at!
-        </Text.base>
+        </Text.Base>
       ))}
   </FlexBox>
 );

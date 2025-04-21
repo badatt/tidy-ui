@@ -41,6 +41,11 @@ Object {
   border: 1px solid hsla(0,0%,9%,1);
 }
 
+.c1:focus-visible {
+  outline: 1px solid hsla(0,0%,15%,1);
+  outline-offset: 1px;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -73,36 +78,51 @@ Object {
         role="button"
       >
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           0
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           1
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           2
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           3
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           4
@@ -148,6 +168,11 @@ Object {
   border: 1px solid hsla(0,0%,9%,1);
 }
 
+.c1:focus-visible {
+  outline: 1px solid hsla(0,0%,15%,1);
+  outline-offset: 1px;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -179,36 +204,51 @@ Object {
       role="button"
     >
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         0
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         1
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         2
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         3
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         4
@@ -310,6 +350,11 @@ Object {
   border: 1px solid hsla(0,0%,64%,1);
 }
 
+.c1:focus-visible {
+  outline: 1px solid hsla(0,0%,64%,1);
+  outline-offset: 1px;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -342,36 +387,51 @@ Object {
         role="button"
       >
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           0
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           1
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           2
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           3
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           4
@@ -417,6 +477,11 @@ Object {
   border: 1px solid hsla(0,0%,64%,1);
 }
 
+.c1:focus-visible {
+  outline: 1px solid hsla(0,0%,64%,1);
+  outline-offset: 1px;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -448,36 +513,51 @@ Object {
       role="button"
     >
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         0
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         1
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         2
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         3
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         4
@@ -579,6 +659,11 @@ Object {
   border: 1px solid hsla(0,0%,9%,1);
 }
 
+.c1:focus-visible {
+  outline: 1px solid hsla(0,0%,15%,1);
+  outline-offset: 1px;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -615,36 +700,51 @@ Object {
         width="30rem"
       >
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           0
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           1
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           2
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           3
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           4
@@ -690,6 +790,11 @@ Object {
   border: 1px solid hsla(0,0%,9%,1);
 }
 
+.c1:focus-visible {
+  outline: 1px solid hsla(0,0%,15%,1);
+  outline-offset: 1px;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -725,36 +830,51 @@ Object {
       width="30rem"
     >
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         0
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         1
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         2
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         3
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         4
@@ -855,6 +975,11 @@ Object {
   border: 1px solid hsla(0,0%,64%,1);
 }
 
+.c1:focus-visible {
+  outline: 1px solid hsla(0,0%,15%,1);
+  outline-offset: 1px;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -887,41 +1012,56 @@ Object {
         role="button"
       >
         <button
+          aria-busy="false"
+          aria-disabled="true"
           class="c1"
+          data-tui-name="Button"
           disabled=""
-          role="button"
+          type="button"
         >
           Button 
           0
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="true"
           class="c1"
+          data-tui-name="Button"
           disabled=""
-          role="button"
+          type="button"
         >
           Button 
           1
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="true"
           class="c1"
+          data-tui-name="Button"
           disabled=""
-          role="button"
+          type="button"
         >
           Button 
           2
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="true"
           class="c1"
+          data-tui-name="Button"
           disabled=""
-          role="button"
+          type="button"
         >
           Button 
           3
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="true"
           class="c1"
+          data-tui-name="Button"
           disabled=""
-          role="button"
+          type="button"
         >
           Button 
           4
@@ -966,6 +1106,11 @@ Object {
   border: 1px solid hsla(0,0%,64%,1);
 }
 
+.c1:focus-visible {
+  outline: 1px solid hsla(0,0%,15%,1);
+  outline-offset: 1px;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -997,41 +1142,56 @@ Object {
       role="button"
     >
       <button
+        aria-busy="false"
+        aria-disabled="true"
         class="c1"
+        data-tui-name="Button"
         disabled=""
-        role="button"
+        type="button"
       >
         Button 
         0
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="true"
         class="c1"
+        data-tui-name="Button"
         disabled=""
-        role="button"
+        type="button"
       >
         Button 
         1
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="true"
         class="c1"
+        data-tui-name="Button"
         disabled=""
-        role="button"
+        type="button"
       >
         Button 
         2
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="true"
         class="c1"
+        data-tui-name="Button"
         disabled=""
-        role="button"
+        type="button"
       >
         Button 
         3
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="true"
         class="c1"
+        data-tui-name="Button"
         disabled=""
-        role="button"
+        type="button"
       >
         Button 
         4
@@ -1133,6 +1293,11 @@ Object {
   border: 1px solid hsla(0,0%,9%,1);
 }
 
+.c1:focus-visible {
+  outline: 1px solid hsla(0,0%,15%,1);
+  outline-offset: 1px;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1179,14 +1344,20 @@ Object {
         role="button"
       >
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           button 1
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           button 2
         </button>
@@ -1229,6 +1400,11 @@ Object {
 .c1:hover {
   background-color: hsla(0,0%,96%,1);
   border: 1px solid hsla(0,0%,9%,1);
+}
+
+.c1:focus-visible {
+  outline: 1px solid hsla(0,0%,15%,1);
+  outline-offset: 1px;
 }
 
 .c0 {
@@ -1276,14 +1452,20 @@ Object {
       role="button"
     >
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         button 1
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         button 2
       </button>
@@ -1384,6 +1566,11 @@ Object {
   border: 1px solid hsla(0,0%,9%,1);
 }
 
+.c1:focus-visible {
+  outline: 1px solid hsla(0,0%,15%,1);
+  outline-offset: 1px;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1423,36 +1610,51 @@ Object {
         role="button"
       >
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           0
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           1
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           2
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           3
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           4
@@ -1498,6 +1700,11 @@ Object {
   border: 1px solid hsla(0,0%,9%,1);
 }
 
+.c1:focus-visible {
+  outline: 1px solid hsla(0,0%,15%,1);
+  outline-offset: 1px;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1536,36 +1743,51 @@ Object {
       role="button"
     >
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         0
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         1
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         2
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         3
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         4
@@ -1667,6 +1889,11 @@ Object {
   border: 1px solid hsla(0,0%,9%,1);
 }
 
+.c1:focus-visible {
+  outline: 1px solid hsla(0,0%,15%,1);
+  outline-offset: 1px;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1702,36 +1929,51 @@ Object {
         role="button"
       >
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           0
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           1
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           2
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           3
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           4
@@ -1777,6 +2019,11 @@ Object {
   border: 1px solid hsla(0,0%,9%,1);
 }
 
+.c1:focus-visible {
+  outline: 1px solid hsla(0,0%,15%,1);
+  outline-offset: 1px;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1811,36 +2058,51 @@ Object {
       role="button"
     >
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         0
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         1
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         2
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         3
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         4
@@ -1942,6 +2204,11 @@ Object {
   border: 1px solid hsla(0,0%,9%,1);
 }
 
+.c1:focus-visible {
+  outline: 1px solid hsla(0,0%,15%,1);
+  outline-offset: 1px;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1984,36 +2251,51 @@ Object {
         role="button"
       >
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           0
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           1
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           2
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           3
         </button>
         <button
+          aria-busy="false"
+          aria-disabled="false"
           class="c1"
-          role="button"
+          data-tui-name="Button"
+          type="button"
         >
           Button 
           4
@@ -2059,6 +2341,11 @@ Object {
   border: 1px solid hsla(0,0%,9%,1);
 }
 
+.c1:focus-visible {
+  outline: 1px solid hsla(0,0%,15%,1);
+  outline-offset: 1px;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2100,36 +2387,51 @@ Object {
       role="button"
     >
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         0
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         1
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         2
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         3
       </button>
       <button
+        aria-busy="false"
+        aria-disabled="false"
         class="c1"
-        role="button"
+        data-tui-name="Button"
+        type="button"
       >
         Button 
         4

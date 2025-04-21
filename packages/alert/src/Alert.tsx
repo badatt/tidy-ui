@@ -7,7 +7,7 @@ const Alert = React.forwardRef<HTMLDivElement, IAlertProps>((props, ref) => {
   const { children, ele, ...rest } = props;
   const { isFilled, status } = rest;
   return (
-    <AlertRoot role="alert" ref={ref} {...rest}>
+    <AlertRoot data-tui-name="Alert" role="alert" aria-live="polite" ref={ref} {...rest}>
       <AlertIcon {...{ isFilled, status }}>
         <TonedIcon status={rest.status} />
       </AlertIcon>

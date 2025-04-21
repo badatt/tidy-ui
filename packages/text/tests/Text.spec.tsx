@@ -62,9 +62,9 @@ describe('Text', () => {
   it('Basic render', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Text.base>
+        <Text.Base>
           <HtmlTagTextVariants />
-        </Text.base>
+        </Text.Base>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -73,9 +73,9 @@ describe('Text', () => {
   it('Dark mode basic', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
-        <Text.base>
+        <Text.Base>
           <HtmlTagTextVariants />
-        </Text.base>
+        </Text.Base>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -84,23 +84,23 @@ describe('Text', () => {
   it('Composites', () => {
     const tree = render(
       <TidyUiProvider theme={orchidLight}>
-        <Text.base>base: {text}</Text.base>
-        <Text.body1>body1: {text}</Text.body1>
-        <Text.body2>body2: {text}</Text.body2>
-        <Text.caption>caption: {text}</Text.caption>
-        <Text.h1>h1: {text}</Text.h1>
-        <Text.h2>h2: {text}</Text.h2>
-        <Text.h3>h3: {text}</Text.h3>
-        <Text.h4>h4: {text}</Text.h4>
-        <Text.h5>h5: {text}</Text.h5>
-        <Text.h6>h6: {text}</Text.h6>
-        <Text.hero>hero: {text}</Text.hero>
-        <Text.p>p: {text}</Text.p>
-        <Text.span>span: {text}</Text.span>
-        <Text.subtitle1>subtitle1: {text}</Text.subtitle1>
-        <Text.subtitle2>subtitle2: {text}</Text.subtitle2>
-        <Text.title1>title1: {text}</Text.title1>
-        <Text.title2>title2: {text}</Text.title2>
+        <Text.Base>base: {text}</Text.Base>
+        <Text.Body1>body1: {text}</Text.Body1>
+        <Text.Body2>body2: {text}</Text.Body2>
+        <Text.Caption>caption: {text}</Text.Caption>
+        <Text.H1>h1: {text}</Text.H1>
+        <Text.H2>h2: {text}</Text.H2>
+        <Text.H3>h3: {text}</Text.H3>
+        <Text.H4>h4: {text}</Text.H4>
+        <Text.H5>h5: {text}</Text.H5>
+        <Text.H6>h6: {text}</Text.H6>
+        <Text.Hero>hero: {text}</Text.Hero>
+        <Text.P>p: {text}</Text.P>
+        <Text.Span>span: {text}</Text.Span>
+        <Text.Subtitle1>subtitle1: {text}</Text.Subtitle1>
+        <Text.Subtitle2>subtitle2: {text}</Text.Subtitle2>
+        <Text.Title1>title1: {text}</Text.Title1>
+        <Text.Title2>title2: {text}</Text.Title2>
       </TidyUiProvider>,
     );
     expect(tree).toMatchSnapshot();
@@ -112,9 +112,9 @@ describe('Text', () => {
         {Object.keys(TextVariant)
           .filter((v) => !isNaN(Number(v)))
           .map((v) => (
-            <Text.base v={TextVariant[v]} key={v}>
+            <Text.Base v={TextVariant[v]} key={v}>
               {TextVariant[v]}: {text}
-            </Text.base>
+            </Text.Base>
           ))}
       </TidyUiProvider>,
     );
@@ -130,9 +130,9 @@ describe('Text', () => {
             {Object.keys(Tone)
               .filter((t) => !isNaN(Number(t)))
               .map((t) => (
-                <Text.base v={TextVariant[v]} tone={Tone[t]} key={`${t}${v}`}>
+                <Text.Base v={TextVariant[v]} tone={Tone[t]} key={`${t}${v}`}>
                   {TextVariant[v]}: {Tone[t]} {text}
-                </Text.base>
+                </Text.Base>
               ))}
           </TidyUiProvider>,
         );
@@ -144,9 +144,9 @@ describe('Text', () => {
             {Object.keys(Tone)
               .filter((t) => !isNaN(Number(t)))
               .map((t) => (
-                <Text.base v={TextVariant[v]} tone={Tone[t]} key={`${t}${v}`}>
+                <Text.Base v={TextVariant[v]} tone={Tone[t]} key={`${t}${v}`}>
                   {TextVariant[v]}: {Tone[t]} {text}
-                </Text.base>
+                </Text.Base>
               ))}
           </TidyUiProvider>,
         );
@@ -155,9 +155,9 @@ describe('Text', () => {
       it('Bold', () => {
         const tree = render(
           <TidyUiProvider theme={orchidLight} key={v}>
-            <Text.base v={TextVariant[v]} bld>
+            <Text.Base v={TextVariant[v]} bld>
               {TextVariant[v]}: {text}
-            </Text.base>
+            </Text.Base>
           </TidyUiProvider>,
         );
         expect(tree).toMatchSnapshot();
@@ -165,9 +165,9 @@ describe('Text', () => {
       it('Italic', () => {
         const tree = render(
           <TidyUiProvider theme={orchidLight} key={v}>
-            <Text.base v={TextVariant[v]} itl>
+            <Text.Base v={TextVariant[v]} itl>
               {TextVariant[v]}: {text}
-            </Text.base>
+            </Text.Base>
           </TidyUiProvider>,
         );
         expect(tree).toMatchSnapshot();
@@ -175,9 +175,9 @@ describe('Text', () => {
       it('Strike', () => {
         const tree = render(
           <TidyUiProvider theme={orchidLight} key={v}>
-            <Text.base v={TextVariant[v]} stk>
+            <Text.Base v={TextVariant[v]} stk>
               {TextVariant[v]}: {text}
-            </Text.base>
+            </Text.Base>
           </TidyUiProvider>,
         );
         expect(tree).toMatchSnapshot();
@@ -185,9 +185,9 @@ describe('Text', () => {
       it('Underline', () => {
         const tree = render(
           <TidyUiProvider theme={orchidLight} key={v}>
-            <Text.base v={TextVariant[v]} udl>
+            <Text.Base v={TextVariant[v]} udl>
               {TextVariant[v]}: {text}
-            </Text.base>
+            </Text.Base>
           </TidyUiProvider>,
         );
         expect(tree).toMatchSnapshot();
@@ -195,9 +195,9 @@ describe('Text', () => {
       it('CamelCase', () => {
         const tree = render(
           <TidyUiProvider theme={orchidLight} key={v}>
-            <Text.base v={TextVariant[v]} cc>
+            <Text.Base v={TextVariant[v]} cc>
               {TextVariant[v]}: {text}
-            </Text.base>
+            </Text.Base>
           </TidyUiProvider>,
         );
         expect(tree).toMatchSnapshot();
@@ -205,9 +205,9 @@ describe('Text', () => {
       it('LowerCase', () => {
         const tree = render(
           <TidyUiProvider theme={orchidLight} key={v}>
-            <Text.base v={TextVariant[v]} lc>
+            <Text.Base v={TextVariant[v]} lc>
               {TextVariant[v]}: {text}
-            </Text.base>
+            </Text.Base>
           </TidyUiProvider>,
         );
         expect(tree).toMatchSnapshot();
@@ -215,9 +215,9 @@ describe('Text', () => {
       it('UpperCase', () => {
         const tree = render(
           <TidyUiProvider theme={orchidLight} key={v}>
-            <Text.base v={TextVariant[v]} uc>
+            <Text.Base v={TextVariant[v]} uc>
               {TextVariant[v]}: {text}
-            </Text.base>
+            </Text.Base>
           </TidyUiProvider>,
         );
         expect(tree).toMatchSnapshot();
@@ -225,9 +225,9 @@ describe('Text', () => {
       it('Disabled', () => {
         const tree = render(
           <TidyUiProvider theme={orchidLight} key={v}>
-            <Text.base v={TextVariant[v]} dsb>
+            <Text.Base v={TextVariant[v]} dsb>
               {TextVariant[v]}: {text}
-            </Text.base>
+            </Text.Base>
           </TidyUiProvider>,
         );
         expect(tree).toMatchSnapshot();
@@ -235,9 +235,9 @@ describe('Text', () => {
       it('Extended', () => {
         const tree = render(
           <TidyUiProvider theme={orchidLight} key={v}>
-            <Text.base v={TextVariant[v]} exd>
+            <Text.Base v={TextVariant[v]} exd>
               {TextVariant[v]}: {text}
-            </Text.base>
+            </Text.Base>
           </TidyUiProvider>,
         );
         expect(tree).toMatchSnapshot();
@@ -245,9 +245,9 @@ describe('Text', () => {
       it('Centered', () => {
         const tree = render(
           <TidyUiProvider theme={orchidLight} key={v}>
-            <Text.base v={TextVariant[v]} ctr>
+            <Text.Base v={TextVariant[v]} ctr>
               {TextVariant[v]}: {text}
-            </Text.base>
+            </Text.Base>
           </TidyUiProvider>,
         );
         expect(tree).toMatchSnapshot();
@@ -255,9 +255,9 @@ describe('Text', () => {
       it('Linked', () => {
         const tree = render(
           <TidyUiProvider theme={orchidLight} key={v}>
-            <Text.base v={TextVariant[v]} href="https://google.com">
+            <Text.Base v={TextVariant[v]} href="https://google.com">
               {TextVariant[v]}: {text}
-            </Text.base>
+            </Text.Base>
           </TidyUiProvider>,
         );
         expect(tree).toMatchSnapshot();
@@ -265,9 +265,9 @@ describe('Text', () => {
       it('Truncate', () => {
         const tree = render(
           <TidyUiProvider theme={orchidLight} key={v}>
-            <Text.base tnc style={{ width: '6em' }} v={TextVariant[v]}>
+            <Text.Base tnc style={{ width: '6em' }} v={TextVariant[v]}>
               {TextVariant[v]}: {text}
-            </Text.base>
+            </Text.Base>
           </TidyUiProvider>,
         );
         expect(tree).toMatchSnapshot();

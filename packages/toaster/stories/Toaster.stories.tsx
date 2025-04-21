@@ -17,7 +17,7 @@ export const basic = () => {
   const ele = (
     <Message hasLabel={false} ele={<FlexBox gap="0.5rem" />} tone="success">
       <Icon ele={<Icon.CheckCircle />} />
-      <Text.body1>Successfully uploaded</Text.body1>
+      <Text.Body1>Successfully uploaded</Text.Body1>
     </Message>
   );
 
@@ -34,10 +34,10 @@ export const closable = () => {
 
   const ele = (
     <Notification width="18rem">
-      <Text.body1>
+      <Text.Body1>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam omnis iusto doloribus voluptatibus natus! At,
         ducimus? Corrupti, alias. Officia maiores esse fuga totam dolore eius vitae iusto labore sequi ad.
-      </Text.body1>
+      </Text.Body1>
     </Notification>
   );
 

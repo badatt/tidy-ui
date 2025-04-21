@@ -138,4 +138,13 @@ const iconOnly = css<IButtonProps>`
   `}
 `;
 
-export { hero, iconOnly, outlined, primary, simple, sizeStyles };
+const focusVisibility = css<IButtonProps>`
+  ${({ theme: { palette, isDark }, tone }) => css`
+    &:focus-visible {
+      outline: 1px solid ${isDark ? palette[tone!][400] : palette[tone!][800]};
+      outline-offset: 1px;
+    }
+  `}
+`;
+
+export { focusVisibility, hero, iconOnly, outlined, primary, simple, sizeStyles };

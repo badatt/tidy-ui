@@ -23,7 +23,7 @@ export const basic = () => {
     <>
       {[...Array(3)].map((v, i) => (
         <React.Fragment key={i}>
-          <Text.body1>{text}</Text.body1>
+          <Text.Body1>{text}</Text.Body1>
           <DividerEnhanced />
         </React.Fragment>
       ))}
@@ -36,9 +36,9 @@ export const contained = () => {
     <>
       {[...Array(3)].map((v, i) => (
         <React.Fragment key={i}>
-          <Text.body1>{text}</Text.body1>
+          <Text.Body1>{text}</Text.Body1>
           <DividerEnhanced>
-            <Text.caption>section {i}</Text.caption>
+            <Text.Caption>section {i}</Text.Caption>
           </DividerEnhanced>
         </React.Fragment>
       ))}
@@ -53,10 +53,10 @@ export const density = () => {
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
           <React.Fragment key={i}>
-            <Text.h6>density={Density[v]}</Text.h6>
-            <Text.body1>{text}</Text.body1>
+            <Text.H6>density={Density[v]}</Text.H6>
+            <Text.Body1>{text}</Text.Body1>
             <DividerEnhanced density={Density[v]}>
-              <Text.span>section {i}</Text.span>
+              <Text.Span>section {i}</Text.Span>
             </DividerEnhanced>
           </React.Fragment>
         ))}
@@ -72,10 +72,10 @@ export const shades = () => {
         .reverse()
         .map((v, i) => (
           <React.Fragment key={i}>
-            <Text.h6>shade={Shade[v]}</Text.h6>
-            <Text.body1>{text}</Text.body1>
+            <Text.H6>shade={Shade[v]}</Text.H6>
+            <Text.Body1>{text}</Text.Body1>
             <DividerEnhanced shade={Shade[v]}>
-              <Text.caption>section {i}</Text.caption>
+              <Text.Caption>section {i}</Text.Caption>
             </DividerEnhanced>
           </React.Fragment>
         ))}
@@ -90,10 +90,10 @@ export const tones = () => {
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
           <React.Fragment key={i}>
-            <Text.h6>tone={Tone[v]}</Text.h6>
-            <Text.body1>{text}</Text.body1>
+            <Text.H6>tone={Tone[v]}</Text.H6>
+            <Text.Body1>{text}</Text.Body1>
             <DividerEnhanced tone={Tone[v]}>
-              <Text.caption tone={Tone[v]}>section {i}</Text.caption>
+              <Text.Caption tone={Tone[v]}>section {i}</Text.Caption>
             </DividerEnhanced>
           </React.Fragment>
         ))}
@@ -108,10 +108,10 @@ export const variants = () => {
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
           <React.Fragment key={i}>
-            <Text.h6>variant={BorderStyle[v]}</Text.h6>
-            <Text.body1>{text}</Text.body1>
+            <Text.H6>variant={BorderStyle[v]}</Text.H6>
+            <Text.Body1>{text}</Text.Body1>
             <DividerEnhanced variant={BorderStyle[v]}>
-              <Text.caption>section {i}</Text.caption>
+              <Text.Caption>section {i}</Text.Caption>
             </DividerEnhanced>
           </React.Fragment>
         ))}
@@ -126,10 +126,10 @@ export const justify = () => {
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
           <React.Fragment key={i}>
-            <Text.h6>justify={Position[v]}</Text.h6>
-            <Text.body1>{text}</Text.body1>
+            <Text.H6>justify={Position[v]}</Text.H6>
+            <Text.Body1>{text}</Text.Body1>
             <DividerEnhanced justify={Position[v]}>
-              <Text.caption>section {i}</Text.caption>
+              <Text.Caption>section {i}</Text.Caption>
             </DividerEnhanced>
           </React.Fragment>
         ))}

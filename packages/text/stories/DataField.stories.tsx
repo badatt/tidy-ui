@@ -39,10 +39,10 @@ export const disabled = () => <DataField dsb lbl="warning accent" val="warning a
 export const customElements = () => (
   <DataField
     lbl={
-      <Text.caption uc udl>
+      <Text.Caption uc udl>
         custom label
-      </Text.caption>
+      </Text.Caption>
     }
-    val={<Text.subtitle2>custom val</Text.subtitle2>}
+    val={<Text.Subtitle2>custom val</Text.Subtitle2>}
   />
 );

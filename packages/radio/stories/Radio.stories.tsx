@@ -28,7 +28,7 @@ export const basic: Story = {
           <Radio.Option value="opt2">Option 2</Radio.Option>
           <Radio.Option value="opt3">Option 3</Radio.Option>
         </Radio>
-        <Text.body1>You have selected value {selected}</Text.body1>
+        <Text.Body1>You have selected value {selected}</Text.Body1>
       </FlexBox>
     );
   },
@@ -53,7 +53,7 @@ export const statuses: Story = {
               </Radio.Option>
             ))}
         </Radio>
-        <Text.body1>You have selected value {selected}</Text.body1>
+        <Text.Body1>You have selected value {selected}</Text.Body1>
       </FlexBox>
     );
   },
@@ -70,19 +70,19 @@ export const sizes: Story = {
       <FlexBox gap="1rem" fld="column">
         <Radio isVertical onChange={handleChange}>
           <Radio.Option value="md">
-            <Text.body1>Option default md</Text.body1>
+            <Text.Body1>Option default md</Text.Body1>
           </Radio.Option>
           <Radio.Option girth="lg" value="lg">
-            <Text.h6>Option lg</Text.h6>
+            <Text.H6>Option lg</Text.H6>
           </Radio.Option>
           <Radio.Option girth="xl" value="xl">
-            <Text.h4>Option xl</Text.h4>
+            <Text.H4>Option xl</Text.H4>
           </Radio.Option>
           <Radio.Option girth="xxl" value="xxl">
-            <Text.h3>Option xxl</Text.h3>
+            <Text.H3>Option xxl</Text.H3>
           </Radio.Option>
         </Radio>
-        <Text.body1>You have selected value {selected}</Text.body1>
+        <Text.Body1>You have selected value {selected}</Text.Body1>
       </FlexBox>
     );
   },
@@ -109,7 +109,7 @@ export const disabled: Story = {
           </Radio.Option>
           <Radio.Option value="2opt2">Option 2</Radio.Option>
         </Radio>
-        <Text.body1>You have selected value {selected}</Text.body1>
+        <Text.Body1>You have selected value {selected}</Text.Body1>
       </FlexBox>
     );
   },

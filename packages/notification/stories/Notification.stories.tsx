@@ -70,7 +70,7 @@ export const nonClosable = () => (
 );
 
 export const customLabel = () => (
-  <Notification width="20rem" tone="info" label={<Text.h4>Hello there !</Text.h4>}>
+  <Notification width="20rem" tone="info" label={<Text.H4>Hello there !</Text.H4>}>
     <NotificationText />
   </Notification>
 );

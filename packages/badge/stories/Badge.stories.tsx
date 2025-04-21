@@ -16,7 +16,7 @@ export const basic = () => (
       <Icon ele={<Icon.Dangerous />} />
     </Badge>
     <Badge content={99}>
-      <Text.body1>Mails</Text.body1>
+      <Text.Body1>Mails</Text.Body1>
     </Badge>
   </FlexBox>
 );
