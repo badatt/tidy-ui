@@ -38,14 +38,14 @@ const TextWrap = styled.div<IItemProps>`
         `}
 `;
 
-const StyledText = styled(Text.h3)`
+const StyledText = styled(Text.H3)`
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
 `;
 
-const StyledTextLabel = styled(Text.caption)`
+const StyledTextLabel = styled(Text.Caption)`
   position: absolute;
   transform: translate(-50%, 100%);
   top: 50%;
@@ -212,9 +212,9 @@ export const customLayout = () => {
                 disabled={span[v] === 1}
                 girth="xs"
               />
-              <Text.body1 style={{ width: '3rem' }} ctr>
+              <Text.Body1 style={{ width: '3rem' }} ctr>
                 {v}={span[v]}
-              </Text.body1>
+              </Text.Body1>
               <IconButton
                 icon={<Icon ele={<Icon.Add />} height="1rem" width="1rem" />}
                 variant="outlined"

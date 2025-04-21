@@ -1,5 +1,5 @@
 import { applyStandardOverrideStyles, css, hsla, Icon, styled } from '@tidy-ui/commons';
-import { hero, iconOnly, outlined, primary, simple, sizeStyles } from './styles';
+import { focusVisibility, hero, iconOnly, outlined, primary, simple, sizeStyles } from './styles';
 import { IAnchorProps, IButtonClusterProps, IButtonGroupProps, IButtonProps, IIconButtonProps } from './types';
 
 /**
@@ -93,6 +93,7 @@ const ButtonRoot = styled.button<IButtonProps>`
     ${variant === 'outlined' && !icon && outlined}
     ${variant === 'hero' && !icon && hero}
     ${icon && iconOnly}
+    ${focusVisibility}
   `}
   ${applyStandardOverrideStyles}
 `;

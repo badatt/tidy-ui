@@ -5,7 +5,7 @@ import { IButtonClusterProps } from './types';
 const ButtonCluster = React.forwardRef<HTMLDivElement, IButtonClusterProps>((props, ref) => {
   const { children, disabled, ...rest } = props;
   return (
-    <ButtonClusterRoot role="button" ref={ref} {...rest}>
+    <ButtonClusterRoot data-tui-name="ButtonCluster" ref={ref} {...rest}>
       {React.Children.map(children, (c) => {
         const child = c as React.ReactElement;
         return React.cloneElement(child, { disabled });

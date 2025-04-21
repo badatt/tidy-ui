@@ -7,15 +7,19 @@ import { IAlertFooterProps, IAlertProps, IAlertTitleProps } from './types';
  *
  * @internal
  */
-const AlertRoot = styled.section<IAlertProps>`
+const AlertRoot = styled.div<IAlertProps>`
   padding: 1rem;
   display: flex;
   align-items: center;
   ${createFontStyle()}
-  ${({ isFilled, height, width }) => css`
+  ${({ theme: { layout }, isFilled, height, width, isSharp }) => css`
     height: ${height};
     width: ${width};
     ${isFilled ? alertFilledStyle : alertStyles}
+    ${!isSharp &&
+    css`
+      border-radius: ${layout.radius};
+    `}
   `}
   ${applyStandardOverrideStyles}
 `;
@@ -55,7 +59,7 @@ const AlertIcon = styled.span<Pick<IAlertProps, 'isFilled' | 'status'>>`
  *
  * @internal
  */
-const AlertTitleRoot = styled.div<IAlertTitleProps>`
+const AlertTitleRoot = styled.header<IAlertTitleProps>`
   padding-bottom: 0.5rem;
   ${applyStandardOverrideStyles}
 `;

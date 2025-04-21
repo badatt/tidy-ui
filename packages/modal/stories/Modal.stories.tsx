@@ -15,23 +15,23 @@ export default {
 
 const SimplePaper = () => (
   <Paper margin="16px">
-    <Text.h6>Lorem ipsum, dolor sit amet </Text.h6>
+    <Text.H6>Lorem ipsum, dolor sit amet </Text.H6>
     <Stack gap="8px">
       <Chip girth="xxs">lorem</Chip>
       <Chip girth="xxs">ipsum</Chip>
     </Stack>
-    <Text.body1>
+    <Text.Body1>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci est similique ipsa accusamus ex expedita dolore
       distinctio molestias aliquam iste impedit vero, sint suscipit illo laboriosam quos facilis, et nemo.
-    </Text.body1>
-    <Text.body1>
+    </Text.Body1>
+    <Text.Body1>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci est similique ipsa accusamus ex expedita dolore
       distinctio molestias aliquam iste impedit vero, sint suscipit illo laboriosam quos facilis, et nemo.
-    </Text.body1>
-    <Text.body1>
+    </Text.Body1>
+    <Text.Body1>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci est similique ipsa accusamus ex expedita dolore
       distinctio molestias aliquam iste impedit vero, sint suscipit illo laboriosam quos facilis, et nemo.
-    </Text.body1>
+    </Text.Body1>
   </Paper>
 );
 
@@ -72,7 +72,7 @@ export const onBackdropClick = () => {
           minima fuga libero, labore magnam recusandae voluptas autem. Debitis laboriosam aperiam, odio unde repellat
           facere.
           <AlertFooter width="100%">
-            <Text.caption>Please contact support for any queries.</Text.caption>
+            <Text.Caption>Please contact support for any queries.</Text.Caption>
           </AlertFooter>
         </Alert>
       </Modal>

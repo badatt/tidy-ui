@@ -169,7 +169,7 @@ export const types: Story = {
           <Input type="tel" placeholder="Telephone input" onChange={handleChange} />
           <Input type="url" placeholder="URL input" onChange={handleChange} />
         </FlexBox>
-        <FlexBox>{inputValue && <Text.h6>The value is {inputValue}</Text.h6>}</FlexBox>
+        <FlexBox>{inputValue && <Text.H6>The value is {inputValue}</Text.H6>}</FlexBox>
       </FlexBox>
     );
   },

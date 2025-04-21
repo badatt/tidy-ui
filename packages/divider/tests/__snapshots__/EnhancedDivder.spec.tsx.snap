@@ -50,7 +50,6 @@ Object {
     <div>
       <p
         class="c0"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -71,7 +70,6 @@ Object {
       </div>
       <p
         class="c0"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -92,7 +90,6 @@ Object {
       </div>
       <p
         class="c0"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -159,7 +156,6 @@ Object {
 <div>
     <p
       class="c0"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -180,7 +176,6 @@ Object {
     </div>
     <p
       class="c0"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -201,7 +196,6 @@ Object {
     </div>
     <p
       class="c0"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -340,7 +334,6 @@ Object {
     <div>
       <p
         class="c0"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -360,7 +353,6 @@ Object {
         >
           <span
             class="c4"
-            role="contentinfo"
           >
             section 
             0
@@ -373,7 +365,6 @@ Object {
       </div>
       <p
         class="c0"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -393,7 +384,6 @@ Object {
         >
           <span
             class="c4"
-            role="contentinfo"
           >
             section 
             1
@@ -406,7 +396,6 @@ Object {
       </div>
       <p
         class="c0"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -426,7 +415,6 @@ Object {
         >
           <span
             class="c4"
-            role="contentinfo"
           >
             section 
             2
@@ -500,7 +488,6 @@ Object {
 <div>
     <p
       class="c0"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -520,7 +507,6 @@ Object {
       >
         <span
           class="c4"
-          role="contentinfo"
         >
           section 
           0
@@ -533,7 +519,6 @@ Object {
     </div>
     <p
       class="c0"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -553,7 +538,6 @@ Object {
       >
         <span
           class="c4"
-          role="contentinfo"
         >
           section 
           1
@@ -566,7 +550,6 @@ Object {
     </div>
     <p
       class="c0"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -586,7 +569,6 @@ Object {
       >
         <span
           class="c4"
-          role="contentinfo"
         >
           section 
           2
@@ -717,7 +699,6 @@ Object {
     <div>
       <p
         class="c0"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -737,7 +718,6 @@ Object {
         >
           <span
             class="c4"
-            role="contentinfo"
           >
             section 
             0
@@ -750,7 +730,6 @@ Object {
       </div>
       <p
         class="c0"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -770,7 +749,6 @@ Object {
         >
           <span
             class="c4"
-            role="contentinfo"
           >
             section 
             1
@@ -783,7 +761,6 @@ Object {
       </div>
       <p
         class="c0"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -803,7 +780,6 @@ Object {
         >
           <span
             class="c4"
-            role="contentinfo"
           >
             section 
             2
@@ -877,7 +853,6 @@ Object {
 <div>
     <p
       class="c0"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -897,7 +872,6 @@ Object {
       >
         <span
           class="c4"
-          role="contentinfo"
         >
           section 
           0
@@ -910,7 +884,6 @@ Object {
     </div>
     <p
       class="c0"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -930,7 +903,6 @@ Object {
       >
         <span
           class="c4"
-          role="contentinfo"
         >
           section 
           1
@@ -943,7 +915,6 @@ Object {
     </div>
     <p
       class="c0"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -963,7 +934,6 @@ Object {
       >
         <span
           class="c4"
-          role="contentinfo"
         >
           section 
           2
@@ -1079,7 +1049,6 @@ Object {
     <div>
       <p
         class="c0"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -1100,7 +1069,6 @@ Object {
       </div>
       <p
         class="c0"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -1121,7 +1089,6 @@ Object {
       </div>
       <p
         class="c0"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -1188,7 +1155,6 @@ Object {
 <div>
     <p
       class="c0"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -1209,7 +1175,6 @@ Object {
     </div>
     <p
       class="c0"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -1230,7 +1195,6 @@ Object {
     </div>
     <p
       class="c0"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -1400,14 +1364,12 @@ Object {
     <div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         density=
         thin
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -1427,7 +1389,6 @@ Object {
         >
           <span
             class="c5"
-            role="contentinfo"
           >
             section 
             0
@@ -1440,14 +1401,12 @@ Object {
       </div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         density=
         medium
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -1467,7 +1426,6 @@ Object {
         >
           <span
             class="c5"
-            role="contentinfo"
           >
             section 
             1
@@ -1480,14 +1438,12 @@ Object {
       </div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         density=
         thick
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -1507,7 +1463,6 @@ Object {
         >
           <span
             class="c5"
-            role="contentinfo"
           >
             section 
             2
@@ -1612,14 +1567,12 @@ Object {
 <div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       density=
       thin
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -1639,7 +1592,6 @@ Object {
       >
         <span
           class="c5"
-          role="contentinfo"
         >
           section 
           0
@@ -1652,14 +1604,12 @@ Object {
     </div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       density=
       medium
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -1679,7 +1629,6 @@ Object {
       >
         <span
           class="c5"
-          role="contentinfo"
         >
           section 
           1
@@ -1692,14 +1641,12 @@ Object {
     </div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       density=
       thick
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -1719,7 +1666,6 @@ Object {
       >
         <span
           class="c5"
-          role="contentinfo"
         >
           section 
           2
@@ -1869,14 +1815,12 @@ Object {
     <div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         justify=
         center
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -1896,7 +1840,6 @@ Object {
         >
           <span
             class="c5"
-            role="contentinfo"
           >
             section 
             0
@@ -1909,14 +1852,12 @@ Object {
       </div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         justify=
         start
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -1932,7 +1873,6 @@ Object {
         >
           <span
             class="c5"
-            role="contentinfo"
           >
             section 
             1
@@ -1945,14 +1885,12 @@ Object {
       </div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         justify=
         end
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -1972,7 +1910,6 @@ Object {
         >
           <span
             class="c5"
-            role="contentinfo"
           >
             section 
             2
@@ -2061,14 +1998,12 @@ Object {
 <div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       justify=
       center
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -2088,7 +2023,6 @@ Object {
       >
         <span
           class="c5"
-          role="contentinfo"
         >
           section 
           0
@@ -2101,14 +2035,12 @@ Object {
     </div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       justify=
       start
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -2124,7 +2056,6 @@ Object {
       >
         <span
           class="c5"
-          role="contentinfo"
         >
           section 
           1
@@ -2137,14 +2068,12 @@ Object {
     </div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       justify=
       end
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -2164,7 +2093,6 @@ Object {
       >
         <span
           class="c5"
-          role="contentinfo"
         >
           section 
           2
@@ -2402,14 +2330,12 @@ Object {
     <div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         shade=
         950
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -2429,7 +2355,6 @@ Object {
         >
           <span
             class="c5"
-            role="contentinfo"
           >
             section 
             0
@@ -2442,14 +2367,12 @@ Object {
       </div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         shade=
         900
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -2469,7 +2392,6 @@ Object {
         >
           <span
             class="c5"
-            role="contentinfo"
           >
             section 
             1
@@ -2482,14 +2404,12 @@ Object {
       </div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         shade=
         800
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -2509,7 +2429,6 @@ Object {
         >
           <span
             class="c5"
-            role="contentinfo"
           >
             section 
             2
@@ -2522,14 +2441,12 @@ Object {
       </div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         shade=
         700
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -2549,7 +2466,6 @@ Object {
         >
           <span
             class="c5"
-            role="contentinfo"
           >
             section 
             3
@@ -2562,14 +2478,12 @@ Object {
       </div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         shade=
         600
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -2589,7 +2503,6 @@ Object {
         >
           <span
             class="c5"
-            role="contentinfo"
           >
             section 
             4
@@ -2602,14 +2515,12 @@ Object {
       </div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         shade=
         500
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -2629,7 +2540,6 @@ Object {
         >
           <span
             class="c5"
-            role="contentinfo"
           >
             section 
             5
@@ -2642,14 +2552,12 @@ Object {
       </div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         shade=
         400
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -2669,7 +2577,6 @@ Object {
         >
           <span
             class="c5"
-            role="contentinfo"
           >
             section 
             6
@@ -2682,14 +2589,12 @@ Object {
       </div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         shade=
         300
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -2709,7 +2614,6 @@ Object {
         >
           <span
             class="c5"
-            role="contentinfo"
           >
             section 
             7
@@ -2722,14 +2626,12 @@ Object {
       </div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         shade=
         200
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -2749,7 +2651,6 @@ Object {
         >
           <span
             class="c5"
-            role="contentinfo"
           >
             section 
             8
@@ -2762,14 +2663,12 @@ Object {
       </div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         shade=
         100
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -2789,7 +2688,6 @@ Object {
         >
           <span
             class="c5"
-            role="contentinfo"
           >
             section 
             9
@@ -2802,14 +2700,12 @@ Object {
       </div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         shade=
         50
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -2829,7 +2725,6 @@ Object {
         >
           <span
             class="c5"
-            role="contentinfo"
           >
             section 
             10
@@ -3014,14 +2909,12 @@ Object {
 <div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       shade=
       950
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -3041,7 +2934,6 @@ Object {
       >
         <span
           class="c5"
-          role="contentinfo"
         >
           section 
           0
@@ -3054,14 +2946,12 @@ Object {
     </div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       shade=
       900
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -3081,7 +2971,6 @@ Object {
       >
         <span
           class="c5"
-          role="contentinfo"
         >
           section 
           1
@@ -3094,14 +2983,12 @@ Object {
     </div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       shade=
       800
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -3121,7 +3008,6 @@ Object {
       >
         <span
           class="c5"
-          role="contentinfo"
         >
           section 
           2
@@ -3134,14 +3020,12 @@ Object {
     </div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       shade=
       700
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -3161,7 +3045,6 @@ Object {
       >
         <span
           class="c5"
-          role="contentinfo"
         >
           section 
           3
@@ -3174,14 +3057,12 @@ Object {
     </div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       shade=
       600
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -3201,7 +3082,6 @@ Object {
       >
         <span
           class="c5"
-          role="contentinfo"
         >
           section 
           4
@@ -3214,14 +3094,12 @@ Object {
     </div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       shade=
       500
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -3241,7 +3119,6 @@ Object {
       >
         <span
           class="c5"
-          role="contentinfo"
         >
           section 
           5
@@ -3254,14 +3131,12 @@ Object {
     </div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       shade=
       400
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -3281,7 +3156,6 @@ Object {
       >
         <span
           class="c5"
-          role="contentinfo"
         >
           section 
           6
@@ -3294,14 +3168,12 @@ Object {
     </div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       shade=
       300
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -3321,7 +3193,6 @@ Object {
       >
         <span
           class="c5"
-          role="contentinfo"
         >
           section 
           7
@@ -3334,14 +3205,12 @@ Object {
     </div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       shade=
       200
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -3361,7 +3230,6 @@ Object {
       >
         <span
           class="c5"
-          role="contentinfo"
         >
           section 
           8
@@ -3374,14 +3242,12 @@ Object {
     </div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       shade=
       100
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -3401,7 +3267,6 @@ Object {
       >
         <span
           class="c5"
-          role="contentinfo"
         >
           section 
           9
@@ -3414,14 +3279,12 @@ Object {
     </div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       shade=
       50
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -3441,7 +3304,6 @@ Object {
       >
         <span
           class="c5"
-          role="contentinfo"
         >
           section 
           10
@@ -3716,14 +3578,12 @@ Object {
     <div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         tone=
         major
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -3743,7 +3603,6 @@ Object {
         >
           <span
             class="c5"
-            role="contentinfo"
           >
             section 
             0
@@ -3756,14 +3615,12 @@ Object {
       </div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         tone=
         minor
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -3783,7 +3640,6 @@ Object {
         >
           <span
             class="c7"
-            role="contentinfo"
           >
             section 
             1
@@ -3796,14 +3652,12 @@ Object {
       </div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         tone=
         neutral
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -3823,7 +3677,6 @@ Object {
         >
           <span
             class="c9"
-            role="contentinfo"
           >
             section 
             2
@@ -3836,14 +3689,12 @@ Object {
       </div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         tone=
         info
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -3863,7 +3714,6 @@ Object {
         >
           <span
             class="c11"
-            role="contentinfo"
           >
             section 
             3
@@ -3876,14 +3726,12 @@ Object {
       </div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         tone=
         success
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -3903,7 +3751,6 @@ Object {
         >
           <span
             class="c13"
-            role="contentinfo"
           >
             section 
             4
@@ -3916,14 +3763,12 @@ Object {
       </div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         tone=
         warning
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -3943,7 +3788,6 @@ Object {
         >
           <span
             class="c15"
-            role="contentinfo"
           >
             section 
             5
@@ -3956,14 +3800,12 @@ Object {
       </div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         tone=
         danger
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -3983,7 +3825,6 @@ Object {
         >
           <span
             class="c17"
-            role="contentinfo"
           >
             section 
             6
@@ -4201,14 +4042,12 @@ Object {
 <div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       tone=
       major
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -4228,7 +4067,6 @@ Object {
       >
         <span
           class="c5"
-          role="contentinfo"
         >
           section 
           0
@@ -4241,14 +4079,12 @@ Object {
     </div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       tone=
       minor
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -4268,7 +4104,6 @@ Object {
       >
         <span
           class="c7"
-          role="contentinfo"
         >
           section 
           1
@@ -4281,14 +4116,12 @@ Object {
     </div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       tone=
       neutral
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -4308,7 +4141,6 @@ Object {
       >
         <span
           class="c9"
-          role="contentinfo"
         >
           section 
           2
@@ -4321,14 +4153,12 @@ Object {
     </div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       tone=
       info
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -4348,7 +4178,6 @@ Object {
       >
         <span
           class="c11"
-          role="contentinfo"
         >
           section 
           3
@@ -4361,14 +4190,12 @@ Object {
     </div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       tone=
       success
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -4388,7 +4215,6 @@ Object {
       >
         <span
           class="c13"
-          role="contentinfo"
         >
           section 
           4
@@ -4401,14 +4227,12 @@ Object {
     </div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       tone=
       warning
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -4428,7 +4252,6 @@ Object {
       >
         <span
           class="c15"
-          role="contentinfo"
         >
           section 
           5
@@ -4441,14 +4264,12 @@ Object {
     </div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       tone=
       danger
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -4468,7 +4289,6 @@ Object {
       >
         <span
           class="c17"
-          role="contentinfo"
         >
           section 
           6
@@ -4670,14 +4490,12 @@ Object {
     <div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         variant=
         dashed
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -4697,7 +4515,6 @@ Object {
         >
           <span
             class="c5"
-            role="contentinfo"
           >
             section 
             0
@@ -4710,14 +4527,12 @@ Object {
       </div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         variant=
         dotted
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -4737,7 +4552,6 @@ Object {
         >
           <span
             class="c5"
-            role="contentinfo"
           >
             section 
             1
@@ -4750,14 +4564,12 @@ Object {
       </div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         variant=
         double
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -4777,7 +4589,6 @@ Object {
         >
           <span
             class="c5"
-            role="contentinfo"
           >
             section 
             2
@@ -4790,14 +4601,12 @@ Object {
       </div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         variant=
         groove
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -4817,7 +4626,6 @@ Object {
         >
           <span
             class="c5"
-            role="contentinfo"
           >
             section 
             3
@@ -4830,14 +4638,12 @@ Object {
       </div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         variant=
         hidden
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -4857,7 +4663,6 @@ Object {
         >
           <span
             class="c5"
-            role="contentinfo"
           >
             section 
             4
@@ -4870,14 +4675,12 @@ Object {
       </div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         variant=
         ridge
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -4897,7 +4700,6 @@ Object {
         >
           <span
             class="c5"
-            role="contentinfo"
           >
             section 
             5
@@ -4910,14 +4712,12 @@ Object {
       </div>
       <h6
         class="c0"
-        role="contentinfo"
       >
         variant=
         solid
       </h6>
       <p
         class="c1"
-        role="contentinfo"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -4937,7 +4737,6 @@ Object {
         >
           <span
             class="c5"
-            role="contentinfo"
           >
             section 
             6
@@ -5082,14 +4881,12 @@ Object {
 <div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       variant=
       dashed
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -5109,7 +4906,6 @@ Object {
       >
         <span
           class="c5"
-          role="contentinfo"
         >
           section 
           0
@@ -5122,14 +4918,12 @@ Object {
     </div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       variant=
       dotted
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -5149,7 +4943,6 @@ Object {
       >
         <span
           class="c5"
-          role="contentinfo"
         >
           section 
           1
@@ -5162,14 +4955,12 @@ Object {
     </div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       variant=
       double
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -5189,7 +4980,6 @@ Object {
       >
         <span
           class="c5"
-          role="contentinfo"
         >
           section 
           2
@@ -5202,14 +4992,12 @@ Object {
     </div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       variant=
       groove
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -5229,7 +5017,6 @@ Object {
       >
         <span
           class="c5"
-          role="contentinfo"
         >
           section 
           3
@@ -5242,14 +5029,12 @@ Object {
     </div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       variant=
       hidden
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -5269,7 +5054,6 @@ Object {
       >
         <span
           class="c5"
-          role="contentinfo"
         >
           section 
           4
@@ -5282,14 +5066,12 @@ Object {
     </div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       variant=
       ridge
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -5309,7 +5091,6 @@ Object {
       >
         <span
           class="c5"
-          role="contentinfo"
         >
           section 
           5
@@ -5322,14 +5103,12 @@ Object {
     </div>
     <h6
       class="c0"
-      role="contentinfo"
     >
       variant=
       solid
     </h6>
     <p
       class="c1"
-      role="contentinfo"
     >
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum perferendis voluptates alias nesciunt
             cupiditate distinctio. Illo commodi eius nesciunt consequuntur, explicabo officiis, distinctio deleniti quas
@@ -5349,7 +5128,6 @@ Object {
       >
         <span
           class="c5"
-          role="contentinfo"
         >
           section 
           6

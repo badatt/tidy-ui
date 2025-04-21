@@ -12,39 +12,39 @@ type ITextBase = React.ForwardRefExoticComponent<ITextProps & React.RefAttribute
 /** @internal */
 interface IText {
   /** @internal */
-  base: ITextBase;
+  Base: ITextBase;
   /** @internal */
-  body1: ITextVariant;
+  Body1: ITextVariant;
   /** @internal */
-  body2: ITextVariant;
+  Body2: ITextVariant;
   /** @internal */
-  caption: ITextVariant;
+  Caption: ITextVariant;
   /** @internal */
-  h1: ITextVariant;
+  H1: ITextVariant;
   /** @internal */
-  h2: ITextVariant;
+  H2: ITextVariant;
   /** @internal */
-  h3: ITextVariant;
+  H3: ITextVariant;
   /** @internal */
-  h4: ITextVariant;
+  H4: ITextVariant;
   /** @internal */
-  h5: ITextVariant;
+  H5: ITextVariant;
   /** @internal */
-  h6: ITextVariant;
+  H6: ITextVariant;
   /** @internal */
-  hero: ITextVariant;
+  Hero: ITextVariant;
   /** @internal */
-  p: ITextVariant;
+  P: ITextVariant;
   /** @internal */
-  span: ITextVariant;
+  Span: ITextVariant;
   /** @internal */
-  subtitle1: ITextVariant;
+  Subtitle1: ITextVariant;
   /** @internal */
-  subtitle2: ITextVariant;
+  Subtitle2: ITextVariant;
   /** @internal */
-  title1: ITextVariant;
+  Title1: ITextVariant;
   /** @internal */
-  title2: ITextVariant;
+  Title2: ITextVariant;
 }
 
 /**
@@ -56,7 +56,7 @@ const TextBase = React.forwardRef<HTMLElement, ITextProps>((props, ref) => {
   const { children, v, href, ...rest } = props;
 
   return (
-    <TextRoot role="contentinfo" ref={ref} v={v} {...rest}>
+    <TextRoot ref={ref} v={v} {...rest}>
       {children}
       {href && (
         <TextLink role="link" href={href}>
@@ -85,23 +85,23 @@ const baseWrapper = () => () =>
  *
  */
 const Text: IText = {
-  base: baseWrapper()(),
-  body1: wrapper({ as: 'p', v: 'body1' })(),
-  body2: wrapper({ as: 'p', v: 'body2' })(),
-  caption: wrapper({ as: 'span', v: 'caption' })(),
-  h1: wrapper({ as: 'h1', v: 'h1' })(),
-  h2: wrapper({ as: 'h2', v: 'h2' })(),
-  h3: wrapper({ as: 'h3', v: 'h3' })(),
-  h4: wrapper({ as: 'h4', v: 'h4' })(),
-  h5: wrapper({ as: 'h5', v: 'h5' })(),
-  h6: wrapper({ as: 'h6', v: 'h6' })(),
-  hero: wrapper({ as: 'h1', v: 'hero' })(),
-  p: wrapper({ as: 'p', v: 'p' })(),
-  span: wrapper({ as: 'span', v: 'span' })(),
-  subtitle1: wrapper({ as: 'h4', v: 'subtitle1' })(),
-  subtitle2: wrapper({ as: 'h5', v: 'subtitle2' })(),
-  title1: wrapper({ as: 'h2', v: 'title1' })(),
-  title2: wrapper({ as: 'h3', v: 'title2' })(),
+  Base: baseWrapper()(),
+  Body1: wrapper({ as: 'p', v: 'body1' })(),
+  Body2: wrapper({ as: 'p', v: 'body2' })(),
+  Caption: wrapper({ as: 'span', v: 'caption' })(),
+  H1: wrapper({ as: 'h1', v: 'h1' })(),
+  H2: wrapper({ as: 'h2', v: 'h2' })(),
+  H3: wrapper({ as: 'h3', v: 'h3' })(),
+  H4: wrapper({ as: 'h4', v: 'h4' })(),
+  H5: wrapper({ as: 'h5', v: 'h5' })(),
+  H6: wrapper({ as: 'h6', v: 'h6' })(),
+  Hero: wrapper({ as: 'h1', v: 'hero' })(),
+  P: wrapper({ as: 'p', v: 'p' })(),
+  Span: wrapper({ as: 'span', v: 'span' })(),
+  Subtitle1: wrapper({ as: 'h4', v: 'subtitle1' })(),
+  Subtitle2: wrapper({ as: 'h5', v: 'subtitle2' })(),
+  Title1: wrapper({ as: 'h2', v: 'title1' })(),
+  Title2: wrapper({ as: 'h3', v: 'title2' })(),
 };
 
 TextBase.defaultProps = {

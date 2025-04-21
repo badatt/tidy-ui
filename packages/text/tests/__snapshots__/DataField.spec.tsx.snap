@@ -828,7 +828,6 @@ Object {
         >
           <span
             class="c1"
-            role="contentinfo"
           >
             custom label
           </span>
@@ -838,7 +837,6 @@ Object {
         >
           <h5
             class="c3"
-            role="contentinfo"
           >
             custom val
           </h5>
@@ -902,7 +900,6 @@ Object {
       >
         <span
           class="c1"
-          role="contentinfo"
         >
           custom label
         </span>
@@ -912,7 +909,6 @@ Object {
       >
         <h5
           class="c3"
-          role="contentinfo"
         >
           custom val
         </h5>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ButtonRoot, IconButtonIcon, IconButtonIconOnlyWrapper, LoadingIcon } from './components';
+import { ButtonRoot, IconButtonIcon, LoadingIcon } from './components';
 import { IButtonProps } from './types';
 
 const Button = React.forwardRef<HTMLButtonElement, IButtonProps>((props, ref) => {
@@ -10,14 +10,21 @@ const Button = React.forwardRef<HTMLButtonElement, IButtonProps>((props, ref) =>
   }, [isLoading, disabled]);
 
   return (
-    <ButtonRoot role="button" ref={ref} disabled={isDisabled} icon={icon} {...rest}>
+    <ButtonRoot
+      type="button"
+      data-tui-name="Button"
+      ref={ref}
+      disabled={isDisabled}
+      aria-disabled={isDisabled}
+      aria-busy={isLoading}
+      icon={icon}
+      {...rest}
+    >
       {icon ? (
-        <IconButtonIconOnlyWrapper>
-          <IconButtonIcon isIconOnly>{icon}</IconButtonIcon>
-        </IconButtonIconOnlyWrapper>
+        <IconButtonIcon isIconOnly>{icon}</IconButtonIcon>
       ) : (
         <>
-          {isLoading && <LoadingIcon />}
+          {isLoading && <LoadingIcon aria-label="Loading" />}
           {children}
         </>
       )}

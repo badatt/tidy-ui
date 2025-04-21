@@ -30,16 +30,16 @@ const BorderWithProps = (props: IBorderProps) => (
 
 const Content = (props: { heading?: string }) => (
   <>
-    <Text.h6>{props.heading || 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}</Text.h6>
-    <Text.body1>
+    <Text.H6>{props.heading || 'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}</Text.H6>
+    <Text.Body1>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ea dolore ut omnis dignissimos, quaerat cumque.
       Temporibus provident natus culpa inventore, eligendi, accusamus neque est commodi suscipit, reprehenderit
       recusandae a.
-    </Text.body1>
-    <Text.body1>
+    </Text.Body1>
+    <Text.Body1>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ea dolore ut omnis dignissimos, quaerat cumque.
       Temporibus provident natus culpa inventore,
-    </Text.body1>
+    </Text.Body1>
   </>
 );
 
