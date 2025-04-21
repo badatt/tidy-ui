@@ -30,14 +30,14 @@ const StyledFlexItem = styled(FlexItem)<IFlexItemProps>`
         `}
 `;
 
-const StyledText = styled(Text.h3)`
+const StyledText = styled(Text.H3)`
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
 `;
 
-const StyledTextLabel = styled(Text.caption)`
+const StyledTextLabel = styled(Text.Caption)`
   position: absolute;
   transform: translate(-50%, 100%);
   top: 50%;

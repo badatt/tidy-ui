@@ -20,7 +20,7 @@ type Story = StoryObj<typeof Alert>;
 const SimpleAlert = (props) => (
   <Alert ele={<FlexBox fld="column" />} isFilled={props.filled} status={props.status} width={props.width}>
     <AlertTitle>
-      <Text.h6 tone={props.status}>{props.status}</Text.h6>
+      <Text.H6 tone={props.status}>{props.status} Alert title</Text.H6>
     </AlertTitle>
     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus nostrum nulla dolorum! Consequatur facere sint
     excepturi amet nulla soluta dolorem ad sequi. Dolorem quod velit quam numquam corporis, tempore maxime!
@@ -42,7 +42,12 @@ export const basic: Story = {
     <>
       <SimpleAlert width="450px" />
       <br />
-      <Alert>Simple alert</Alert>
+      <Alert>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat molestias optio doloribus ratione neque
+        aliquam quo sit consequuntur quos amet? Tenetur pariatur nihil aliquam ad illum commodi optio voluptate aliquid!
+        Quos fugiat hic iste pariatur perspiciatis odit magni sit enim quibusdam sunt maxime magnam debitis cumque
+        minima quas molestias fugit eos, minus praesentium dolore esse sed, repellat soluta suscipit. Explicabo!
+      </Alert>
     </>
   ),
 };

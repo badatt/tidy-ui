@@ -4,11 +4,11 @@ import { AnchorRoot, AnchorWithIcon } from './components';
 import { IAnchorProps } from './types';
 
 const Anchor = React.forwardRef<HTMLAnchorElement, IAnchorProps>((props, ref) => {
-  const { children, canLaunch, ...rest } = props;
+  const { children, canLaunch, disabled, ...rest } = props;
 
   if (canLaunch) {
     return (
-      <AnchorRoot role="link" ref={ref} {...rest} target="_blank">
+      <AnchorRoot data-tui-name="Anchor" ref={ref} {...rest} target="_blank" disabled={disabled}>
         <AnchorWithIcon>
           {children}
           <Icon ele={<Icon.Launch />} />
@@ -18,7 +18,7 @@ const Anchor = React.forwardRef<HTMLAnchorElement, IAnchorProps>((props, ref) =>
   }
 
   return (
-    <AnchorRoot role="link" ref={ref} {...rest}>
+    <AnchorRoot ref={ref} disabled={disabled} {...rest}>
       {children}
     </AnchorRoot>
   );

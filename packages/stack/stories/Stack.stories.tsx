@@ -82,7 +82,7 @@ export const order = () => (
       .map((v, i) => (
         <>
           <StackProvider key={i}>
-            <Text.h6>{StackOrder[v]}</Text.h6>
+            <Text.H6>{StackOrder[v]}</Text.H6>
             <Ctx.Consumer>
               {({ count }) => (
                 <Stack order={StackOrder[v]}>
@@ -108,7 +108,7 @@ export const align = () => (
       .map((v, i) => (
         <>
           <StackProvider key={i}>
-            <Text.h6>{StackAlign[v]}</Text.h6>
+            <Text.H6>{StackAlign[v]}</Text.H6>
             <Ctx.Consumer>
               {({ count }) => (
                 <Stack align={StackAlign[v]} height="10rem">
@@ -134,7 +134,7 @@ export const justify = () => (
       .map((v, i) => (
         <>
           <StackProvider key={i}>
-            <Text.h6>{StackJustify[v]}</Text.h6>
+            <Text.H6>{StackJustify[v]}</Text.H6>
             <Ctx.Consumer>
               {({ count }) => (
                 <Stack justify={StackJustify[v]}>

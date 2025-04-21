@@ -11,7 +11,7 @@ import { IIconButtonProps } from './types';
 const IconButton = React.forwardRef<HTMLButtonElement, IIconButtonProps>((props, ref) => {
   const { children, icon, ...rest } = props;
   return (
-    <IconButtonRoot role="button" ref={ref} {...rest}>
+    <IconButtonRoot data-tui-name="IconButton" ref={ref} {...rest}>
       {children ? (
         <IconButtonIconWrapper>
           <IconButtonIcon isIconOnly={rest.isIconOnly}>{icon}</IconButtonIcon>

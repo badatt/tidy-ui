@@ -27,6 +27,7 @@
     "test:update": "jest --bail --coverage --passWithNoTests -u",
     "ver": "lerna version",
     "vet": "yarn format && yarn lint",
+    "vet:fix": "yarn format:fix && yarn lint:fix",
     "yalc:publish": "lerna run yalc:publish",
     "yalc:push": "lerna run yalc:push",
     "docs": "lerna run docs"

@@ -47,7 +47,7 @@ const PanelContent = () => {
         <Grid gap={16}>
           {data?.map((d: string, i: number) => (
             <GridItem key={d} xs={12} sm={8} md={6} lg={4} xl={4} ele={<Card height="300px" />}>
-              <Text.base overflow="auto">{d}</Text.base>
+              <Text.Base overflow="auto">{d}</Text.Base>
             </GridItem>
           ))}
         </Grid>

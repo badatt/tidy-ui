@@ -125,7 +125,7 @@ export const alignSelf = () => {
         .filter((i) => !isNaN(Number(i)))
         .map((v) => (
           <FlexBoxProvider key={v} size={10}>
-            <Text.h5>{AlignSelf[v]}</Text.h5>
+            <Text.H5>{AlignSelf[v]}</Text.H5>
             <Ctx.Consumer>
               {({ count }) => (
                 <StyledFlexBox height={height} alc="normal" jsc="normal">

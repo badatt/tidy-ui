@@ -38,7 +38,7 @@ const TableData = (props: { count }) => (
           <Td>{d.gender}</Td>
           <Td>{d.prizes[0].year}</Td>
           <Td>{d.prizes[0].category}</Td>
-          <Td ele={<Text.body1 width="250px" tnc />}>{d.prizes[0].motivation}</Td>
+          <Td ele={<Text.Body1 width="250px" tnc />}>{d.prizes[0].motivation}</Td>
           <Td>{d.born}</Td>
           <Td>
             {d.bornCity}, {d.bornCountry}

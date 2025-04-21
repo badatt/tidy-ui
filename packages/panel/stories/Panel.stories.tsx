@@ -30,9 +30,9 @@ const ContentHeader = () => <>Lorem ipsum dolor sit amet consectetur adipisicing
 export const basic = () => (
   <Panel>
     <Panel.Header>
-      <Text.body1 udl>
+      <Text.Body1 udl>
         <ContentHeader />
-      </Text.body1>
+      </Text.Body1>
     </Panel.Header>
     <Panel.Body>
       <ContentBody />
@@ -47,9 +47,9 @@ export const accents = () => (
       .map((v, i) => (
         <Panel key={i}>
           <Panel.Header accent={Tone[v]}>
-            <Text.body1 udl>
+            <Text.Body1 udl>
               <ContentHeader />
-            </Text.body1>
+            </Text.Body1>
           </Panel.Header>
           <Panel.Body accent={Tone[v]}>
             <ContentBody />
@@ -62,9 +62,9 @@ export const accents = () => (
 export const withToggleVisible = () => (
   <Panel>
     <Panel.Header isToggleVisible>
-      <Text.body1 udl>
+      <Text.Body1 udl>
         <ContentHeader />
-      </Text.body1>
+      </Text.Body1>
     </Panel.Header>
     <Panel.Body>
       <ContentBody />
@@ -75,9 +75,9 @@ export const withToggleVisible = () => (
 export const expanded = () => (
   <Panel isExpanded>
     <Panel.Header>
-      <Text.body1 udl>
+      <Text.Body1 udl>
         <ContentHeader />
-      </Text.body1>
+      </Text.Body1>
     </Panel.Header>
     <Panel.Body>
       <ContentBody />
@@ -87,7 +87,7 @@ export const expanded = () => (
 
 export const customHeader = () => (
   <Panel>
-    <Panel.Header ele={<Text.h6 />}>
+    <Panel.Header ele={<Text.H6 />}>
       <ContentHeader />
     </Panel.Header>
     <Panel.Body>
@@ -99,9 +99,9 @@ export const customHeader = () => (
 export const customBody = () => (
   <Panel isExpanded>
     <Panel.Header>
-      <Text.body1 udl>
+      <Text.Body1 udl>
         <ContentHeader />
-      </Text.body1>
+      </Text.Body1>
     </Panel.Header>
     <Panel.Body ele={<FlexBox gap="0.5rem" nowrap />}>
       <div>

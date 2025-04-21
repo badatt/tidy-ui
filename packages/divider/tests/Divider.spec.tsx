@@ -26,7 +26,7 @@ describe('Divider', () => {
       <TidyUiProvider theme={orchidLight}>
         {[...Array(3)].map((v, i) => (
           <React.Fragment key={i}>
-            <Text.body1>{text}</Text.body1>
+            <Text.Body1>{text}</Text.Body1>
             <Divider />
           </React.Fragment>
         ))}
@@ -39,7 +39,7 @@ describe('Divider', () => {
       <TidyUiProvider theme={orchidDark}>
         {[...Array(3)].map((v, i) => (
           <React.Fragment key={i}>
-            <Text.body1>{text}</Text.body1>
+            <Text.Body1>{text}</Text.Body1>
             <Divider />
           </React.Fragment>
         ))}
@@ -54,7 +54,7 @@ describe('Divider', () => {
         <div style={{ display: 'flex' }}>
           {[...Array(3)].map((v, i) => (
             <React.Fragment key={i}>
-              <Text.body1>{text}</Text.body1>
+              <Text.Body1>{text}</Text.Body1>
               <Divider isVertical />
             </React.Fragment>
           ))}
@@ -71,8 +71,8 @@ describe('Divider', () => {
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
             <React.Fragment key={i}>
-              <Text.h6>density={Density[v]}</Text.h6>
-              <Text.body1>{text}</Text.body1>
+              <Text.H6>density={Density[v]}</Text.H6>
+              <Text.Body1>{text}</Text.Body1>
               <Divider density={Density[v]} />
             </React.Fragment>
           ))}
@@ -89,8 +89,8 @@ describe('Divider', () => {
           .reverse()
           .map((v, i) => (
             <React.Fragment key={i}>
-              <Text.h6>shade={Shade[v]}</Text.h6>
-              <Text.body1>{text}</Text.body1>
+              <Text.H6>shade={Shade[v]}</Text.H6>
+              <Text.Body1>{text}</Text.Body1>
               <Divider shade={Shade[v]} />
             </React.Fragment>
           ))}
@@ -106,8 +106,8 @@ describe('Divider', () => {
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
             <React.Fragment key={i}>
-              <Text.h6>tone={Tone[v]}</Text.h6>
-              <Text.body1>{text}</Text.body1>
+              <Text.H6>tone={Tone[v]}</Text.H6>
+              <Text.Body1>{text}</Text.Body1>
               <Divider tone={Tone[v]} />
             </React.Fragment>
           ))}
@@ -123,8 +123,8 @@ describe('Divider', () => {
           .filter((i) => !isNaN(Number(i)))
           .map((v, i) => (
             <React.Fragment key={i}>
-              <Text.h6>variant={BorderStyle[v]}</Text.h6>
-              <Text.body1>{text}</Text.body1>
+              <Text.H6>variant={BorderStyle[v]}</Text.H6>
+              <Text.Body1>{text}</Text.Body1>
               <Divider variant={BorderStyle[v]} />
             </React.Fragment>
           ))}
@@ -138,7 +138,7 @@ describe('Divider', () => {
       <TidyUiProvider theme={orchidLight}>
         {[...Array(3)].map((v, i) => (
           <React.Fragment key={i}>
-            <Text.body1>{text}</Text.body1>
+            <Text.Body1>{text}</Text.Body1>
             <Divider opacity={0.5} margin="2rem" />
           </React.Fragment>
         ))}
@@ -155,8 +155,8 @@ describe('Divider', () => {
           .map((v, i) => (
             <React.Fragment key={i}>
               <div>
-                <Text.h6>align={Position[v]}</Text.h6>
-                <Text.body1>{text}</Text.body1>
+                <Text.H6>align={Position[v]}</Text.H6>
+                <Text.Body1>{text}</Text.Body1>
               </div>
               <Divider isVertical align={Position[v]} length="2rem" />
             </React.Fragment>
@@ -174,8 +174,8 @@ describe('Divider', () => {
           .map((v, i) => (
             <React.Fragment key={i}>
               <div>
-                <Text.h6>align={Position[v]}</Text.h6>
-                <Text.body1>{text}</Text.body1>
+                <Text.H6>align={Position[v]}</Text.H6>
+                <Text.Body1>{text}</Text.Body1>
               </div>
               <Divider align={Position[v]} length="2rem" />
             </React.Fragment>

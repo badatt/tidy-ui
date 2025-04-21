@@ -38,7 +38,7 @@ export const direction = () => {
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
           <FlexBoxProvider key={i}>
-            <Text.h6>{FlexDirection[v]}</Text.h6>
+            <Text.H6>{FlexDirection[v]}</Text.H6>
             <Ctx.Consumer>
               {({ count }) => (
                 <StyledFlexBox height={height} fld={FlexDirection[v]}>
@@ -62,7 +62,7 @@ export const wrap = () => {
     <>
       {[true, false].map((v, i) => (
         <FlexBoxProvider key={i}>
-          <Text.h6>nowrap={String(v)}</Text.h6>
+          <Text.H6>nowrap={String(v)}</Text.H6>
           <Ctx.Consumer>
             {({ count }) => (
               <StyledFlexBox height={height} nowrap={v}>
@@ -178,7 +178,7 @@ export const alignContent = () => {
         .filter((i) => !isNaN(Number(i)))
         .map((v, i) => (
           <FlexBoxProvider key={v}>
-            <Text.h6>{AlignContent[v]}</Text.h6>
+            <Text.H6>{AlignContent[v]}</Text.H6>
             <Ctx.Consumer>
               {({ count }) => (
                 <StyledFlexBox height={height} alc={AlignContent[v]}>
@@ -204,7 +204,7 @@ export const alignItems = () => {
         .filter((i) => !isNaN(Number(i)))
         .map((v) => (
           <FlexBoxProvider key={v}>
-            <Text.h6>{AlignItems[v]}</Text.h6>
+            <Text.H6>{AlignItems[v]}</Text.H6>
             <Ctx.Consumer>
               {({ count }) => (
                 <StyledFlexBox height={height} ali={AlignItems[v]}>
@@ -230,7 +230,7 @@ export const justifyContent = () => {
         .filter((i) => !isNaN(Number(i)))
         .map((v) => (
           <FlexBoxProvider key={v}>
-            <Text.h6>{JustifyContent[v]}</Text.h6>
+            <Text.H6>{JustifyContent[v]}</Text.H6>
             <Ctx.Consumer>
               {({ count }) => (
                 <StyledFlexBox height={height} jsc={JustifyContent[v]}>

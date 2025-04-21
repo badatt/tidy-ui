@@ -79,9 +79,9 @@ const FlexBoxProvider = ({ children, size }: IFlexBoxProvider) => {
         </ButtonCluster>
         <FlexBox gap="0.5rem">
           <LabelFlexBox />
-          <Text.span>FlexBox</Text.span>
+          <Text.Span>FlexBox</Text.Span>
           <LabelFlexItem />
-          <Text.span>FlexItem</Text.span>
+          <Text.Span>FlexItem</Text.Span>
         </FlexBox>
       </FlexBox>
       <br />

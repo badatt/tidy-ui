@@ -16,7 +16,7 @@ const StackItem = styled.div`
         `}
 `;
 
-const StyledText = styled(Text.h3)`
+const StyledText = styled(Text.H3)`
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
