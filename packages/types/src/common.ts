@@ -12,7 +12,7 @@ export interface IStandardProps {
   /**
    * css `border` equivalent
    */
-  border?: string;
+  border?: number | string;
 
   /**
    * css `clear` equivalent
