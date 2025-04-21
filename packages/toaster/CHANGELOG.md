@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.48.7 (2025-04-21)
+
+**Note:** Version bump only for package @tidy-ui/toaster
+
+
+
+
+
 ## 0.48.6 (2025-04-21)
 
 **Note:** Version bump only for package @tidy-ui/toaster

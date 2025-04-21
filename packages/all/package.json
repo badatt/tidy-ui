@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/all",
-  "version": "0.48.6",
+  "version": "0.48.7",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:all",
@@ -14,12 +14,12 @@
     "docs": "jsdoc -X -c ../../jsdoc.conf.json > jsdoc.json"
   },
   "dependencies": {
-    "@tidy-ui/commons": "^0.48.6",
-    "@tidy-ui/feedback": "^0.48.6",
-    "@tidy-ui/form": "^0.48.6",
-    "@tidy-ui/layout": "^0.48.6",
-    "@tidy-ui/navigation": "^0.48.6",
-    "@tidy-ui/presentation": "^0.48.6"
+    "@tidy-ui/commons": "^0.48.7",
+    "@tidy-ui/feedback": "^0.48.7",
+    "@tidy-ui/form": "^0.48.7",
+    "@tidy-ui/layout": "^0.48.7",
+    "@tidy-ui/navigation": "^0.48.7",
+    "@tidy-ui/presentation": "^0.48.7"
   },
   "peerDependencies": {
     "react": "^18.0.0",

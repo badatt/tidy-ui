@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/breadcrumb",
-  "version": "0.48.6",
+  "version": "0.48.7",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:breadcrumb",
@@ -14,7 +14,7 @@
     "docs": "jsdoc -X -c ../../jsdoc.conf.json > jsdoc.json"
   },
   "dependencies": {
-    "@tidy-ui/commons": "^0.48.6"
+    "@tidy-ui/commons": "^0.48.7"
   },
   "peerDependencies": {
     "react": "^18.0.0",
