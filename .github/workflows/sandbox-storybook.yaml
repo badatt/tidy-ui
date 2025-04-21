@@ -1,9 +1,10 @@
 name: sandbox docs
 
 on:
-  push:
+  pull_request:
+    types: [opened, synchronize, reopened]
     branches:
-      - develop
+      - main
 
 jobs:
   vet:
