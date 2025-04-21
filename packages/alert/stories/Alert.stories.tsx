@@ -25,16 +25,13 @@ const SimpleAlert = (props) => (
   <>
     {props.isFilled ? (
       <Alert {...props}>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat molestias optio doloribus ratione neque aliquam
-      quo sit consequuntur quos amet? Tenetur pariatur nihil aliquam ad illum commodi optio voluptate aliquid! Quos
-      fugiat hic iste pariatur perspiciatis odit magni sit enim quibusdam sunt maxime magnam debitis cumque minima quas
-      molestias fugit eos, minus praesentium dolore esse sed, repellat soluta suscipit. Explicabo!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat molestias optio doloribus ratione neque
+        aliquam quo sit consequuntur quos amet? Tenetur pariatur nihil aliquam ad illum commodi optio voluptate aliquid!
+        Quos fugiat hic iste pariatur perspiciatis odit magni sit enim quibusdam sunt maxime magnam debitis cumque
+        minima quas molestias fugit eos, minus praesentium dolore esse sed, repellat soluta suscipit. Explicabo!
       </Alert>
     ) : (
-      <Alert
-        ele={<FlexBox fld="column" />}
-        {...props}
-      >
+      <Alert ele={<FlexBox fld="column" />} {...props}>
         <AlertTitle>
           <Text.H6 tone={props.status}>{props.status} alert</Text.H6>
         </AlertTitle>
