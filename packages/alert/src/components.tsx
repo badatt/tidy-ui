@@ -12,10 +12,14 @@ const AlertRoot = styled.div<IAlertProps>`
   display: flex;
   align-items: center;
   ${createFontStyle()}
-  ${({ isFilled, height, width }) => css`
+  ${({ theme: { layout }, isFilled, height, width, isSharp }) => css`
     height: ${height};
     width: ${width};
     ${isFilled ? alertFilledStyle : alertStyles}
+    ${!isSharp &&
+    css`
+      border-radius: ${layout.radius};
+    `}
   `}
   ${applyStandardOverrideStyles}
 `;
