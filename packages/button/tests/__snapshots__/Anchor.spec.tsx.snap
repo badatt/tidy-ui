@@ -29,7 +29,6 @@ Object {
       <a
         class="c0"
         href="https://www.google.com/"
-        role="link"
       >
         simple link
       </a>
@@ -60,7 +59,6 @@ Object {
     <a
       class="c0"
       href="https://www.google.com/"
-      role="link"
     >
       simple link
     </a>
@@ -140,7 +138,6 @@ Object {
         class="c0"
         disabled=""
         href="https://www.google.com/"
-        role="link"
       >
         external link
       </a>
@@ -163,7 +160,6 @@ Object {
       class="c0"
       disabled=""
       href="https://www.google.com/"
-      role="link"
     >
       external link
     </a>
@@ -243,7 +239,6 @@ Object {
         class="c0"
         disabled=""
         href="https://www.google.com/"
-        role="link"
       >
         external link
       </a>
@@ -266,7 +261,6 @@ Object {
       class="c0"
       disabled=""
       href="https://www.google.com/"
-      role="link"
     >
       external link
     </a>
@@ -371,8 +365,8 @@ Object {
     <div>
       <a
         class="c0"
+        data-tui-name="Anchor"
         href="https://www.google.com/"
-        role="link"
         target="_blank"
       >
         <span
@@ -441,8 +435,8 @@ Object {
 <div>
     <a
       class="c0"
+      data-tui-name="Anchor"
       href="https://www.google.com/"
-      role="link"
       target="_blank"
     >
       <span
@@ -568,8 +562,8 @@ Object {
     <div>
       <a
         class="c0"
+        data-tui-name="Anchor"
         href="https://www.google.com/"
-        role="link"
         target="_blank"
       >
         <span
@@ -638,8 +632,8 @@ Object {
 <div>
     <a
       class="c0"
+      data-tui-name="Anchor"
       href="https://www.google.com/"
-      role="link"
       target="_blank"
     >
       <span
@@ -874,7 +868,6 @@ Object {
       <a
         class="c0"
         href="/?path=/story/anchor--basic"
-        role="link"
       >
         girth-
         xxs
@@ -882,7 +875,6 @@ Object {
       <a
         class="c1"
         href="/?path=/story/anchor--basic"
-        role="link"
       >
         girth-
         xs
@@ -890,7 +882,6 @@ Object {
       <a
         class="c2"
         href="/?path=/story/anchor--basic"
-        role="link"
       >
         girth-
         sm
@@ -898,7 +889,6 @@ Object {
       <a
         class="c3"
         href="/?path=/story/anchor--basic"
-        role="link"
       >
         girth-
         md
@@ -906,7 +896,6 @@ Object {
       <a
         class="c4"
         href="/?path=/story/anchor--basic"
-        role="link"
       >
         girth-
         lg
@@ -914,7 +903,6 @@ Object {
       <a
         class="c5"
         href="/?path=/story/anchor--basic"
-        role="link"
       >
         girth-
         xl
@@ -922,7 +910,6 @@ Object {
       <a
         class="c6"
         href="/?path=/story/anchor--basic"
-        role="link"
       >
         girth-
         xxl
@@ -1080,7 +1067,6 @@ Object {
     <a
       class="c0"
       href="/?path=/story/anchor--basic"
-      role="link"
     >
       girth-
       xxs
@@ -1088,7 +1074,6 @@ Object {
     <a
       class="c1"
       href="/?path=/story/anchor--basic"
-      role="link"
     >
       girth-
       xs
@@ -1096,7 +1081,6 @@ Object {
     <a
       class="c2"
       href="/?path=/story/anchor--basic"
-      role="link"
     >
       girth-
       sm
@@ -1104,7 +1088,6 @@ Object {
     <a
       class="c3"
       href="/?path=/story/anchor--basic"
-      role="link"
     >
       girth-
       md
@@ -1112,7 +1095,6 @@ Object {
     <a
       class="c4"
       href="/?path=/story/anchor--basic"
-      role="link"
     >
       girth-
       lg
@@ -1120,7 +1102,6 @@ Object {
     <a
       class="c5"
       href="/?path=/story/anchor--basic"
-      role="link"
     >
       girth-
       xl
@@ -1128,7 +1109,6 @@ Object {
     <a
       class="c6"
       href="/?path=/story/anchor--basic"
-      role="link"
     >
       girth-
       xxl
@@ -1217,7 +1197,6 @@ Object {
       <a
         class="c0"
         href="https://www.google.com/"
-        role="link"
       >
         simple link
       </a>
@@ -1248,7 +1227,6 @@ Object {
     <a
       class="c0"
       href="https://www.google.com/"
-      role="link"
     >
       simple link
     </a>
@@ -1462,49 +1440,42 @@ Object {
       <a
         class="c0"
         href="/?path=/story/anchor--basic"
-        role="link"
       >
         major
       </a>
       <a
         class="c1"
         href="/?path=/story/anchor--basic"
-        role="link"
       >
         minor
       </a>
       <a
         class="c2"
         href="/?path=/story/anchor--basic"
-        role="link"
       >
         neutral
       </a>
       <a
         class="c3"
         href="/?path=/story/anchor--basic"
-        role="link"
       >
         info
       </a>
       <a
         class="c4"
         href="/?path=/story/anchor--basic"
-        role="link"
       >
         success
       </a>
       <a
         class="c5"
         href="/?path=/story/anchor--basic"
-        role="link"
       >
         warning
       </a>
       <a
         class="c6"
         href="/?path=/story/anchor--basic"
-        role="link"
       >
         danger
       </a>
@@ -1661,49 +1632,42 @@ Object {
     <a
       class="c0"
       href="/?path=/story/anchor--basic"
-      role="link"
     >
       major
     </a>
     <a
       class="c1"
       href="/?path=/story/anchor--basic"
-      role="link"
     >
       minor
     </a>
     <a
       class="c2"
       href="/?path=/story/anchor--basic"
-      role="link"
     >
       neutral
     </a>
     <a
       class="c3"
       href="/?path=/story/anchor--basic"
-      role="link"
     >
       info
     </a>
     <a
       class="c4"
       href="/?path=/story/anchor--basic"
-      role="link"
     >
       success
     </a>
     <a
       class="c5"
       href="/?path=/story/anchor--basic"
-      role="link"
     >
       warning
     </a>
     <a
       class="c6"
       href="/?path=/story/anchor--basic"
-      role="link"
     >
       danger
     </a>

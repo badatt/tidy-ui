@@ -173,11 +173,11 @@ Object {
     <div>
       <div
         class="c0"
-        role="button"
+        data-tui-name="ButtonCluster"
       >
         <button
           class="c1"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c2"
@@ -206,11 +206,11 @@ Object {
         </button>
         <div
           class="c5"
-          role="button"
+          data-tui-name="ButtonGroup"
         >
           <button
             class="c1"
-            role="button"
+            data-tui-name="IconButton"
           >
             <span
               class="c6"
@@ -234,7 +234,7 @@ Object {
           </button>
           <button
             class="c1"
-            role="button"
+            data-tui-name="IconButton"
           >
             <span
               class="c6"
@@ -258,7 +258,7 @@ Object {
           </button>
           <button
             class="c1"
-            role="button"
+            data-tui-name="IconButton"
           >
             <span
               class="c6"
@@ -282,7 +282,7 @@ Object {
           </button>
           <button
             class="c1"
-            role="button"
+            data-tui-name="IconButton"
           >
             <span
               class="c6"
@@ -306,7 +306,7 @@ Object {
           </button>
           <button
             class="c1"
-            role="button"
+            data-tui-name="IconButton"
           >
             <span
               class="c6"
@@ -330,7 +330,7 @@ Object {
           </button>
           <button
             class="c1"
-            role="button"
+            data-tui-name="IconButton"
           >
             <span
               class="c6"
@@ -355,7 +355,7 @@ Object {
         </div>
         <button
           class="c7"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c2"
@@ -554,11 +554,11 @@ Object {
 <div>
     <div
       class="c0"
-      role="button"
+      data-tui-name="ButtonCluster"
     >
       <button
         class="c1"
-        role="button"
+        data-tui-name="IconButton"
       >
         <span
           class="c2"
@@ -587,11 +587,11 @@ Object {
       </button>
       <div
         class="c5"
-        role="button"
+        data-tui-name="ButtonGroup"
       >
         <button
           class="c1"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c6"
@@ -615,7 +615,7 @@ Object {
         </button>
         <button
           class="c1"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c6"
@@ -639,7 +639,7 @@ Object {
         </button>
         <button
           class="c1"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c6"
@@ -663,7 +663,7 @@ Object {
         </button>
         <button
           class="c1"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c6"
@@ -687,7 +687,7 @@ Object {
         </button>
         <button
           class="c1"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c6"
@@ -711,7 +711,7 @@ Object {
         </button>
         <button
           class="c1"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c6"
@@ -736,7 +736,7 @@ Object {
       </div>
       <button
         class="c7"
-        role="button"
+        data-tui-name="IconButton"
       >
         <span
           class="c2"
@@ -994,13 +994,13 @@ Object {
     <div>
       <div
         class="c0"
+        data-tui-name="ButtonCluster"
         height="5rem"
-        role="button"
         width="25rem"
       >
         <button
           class="c1"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c2"
@@ -1029,11 +1029,11 @@ Object {
         </button>
         <div
           class="c5"
-          role="button"
+          data-tui-name="ButtonGroup"
         >
           <button
             class="c1"
-            role="button"
+            data-tui-name="IconButton"
           >
             <span
               class="c6"
@@ -1057,7 +1057,7 @@ Object {
           </button>
           <button
             class="c1"
-            role="button"
+            data-tui-name="IconButton"
           >
             <span
               class="c6"
@@ -1081,7 +1081,7 @@ Object {
           </button>
           <button
             class="c1"
-            role="button"
+            data-tui-name="IconButton"
           >
             <span
               class="c6"
@@ -1105,7 +1105,7 @@ Object {
           </button>
           <button
             class="c1"
-            role="button"
+            data-tui-name="IconButton"
           >
             <span
               class="c6"
@@ -1129,7 +1129,7 @@ Object {
           </button>
           <button
             class="c1"
-            role="button"
+            data-tui-name="IconButton"
           >
             <span
               class="c6"
@@ -1153,7 +1153,7 @@ Object {
           </button>
           <button
             class="c1"
-            role="button"
+            data-tui-name="IconButton"
           >
             <span
               class="c6"
@@ -1178,7 +1178,7 @@ Object {
         </div>
         <button
           class="c7"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c2"
@@ -1379,13 +1379,13 @@ Object {
 <div>
     <div
       class="c0"
+      data-tui-name="ButtonCluster"
       height="5rem"
-      role="button"
       width="25rem"
     >
       <button
         class="c1"
-        role="button"
+        data-tui-name="IconButton"
       >
         <span
           class="c2"
@@ -1414,11 +1414,11 @@ Object {
       </button>
       <div
         class="c5"
-        role="button"
+        data-tui-name="ButtonGroup"
       >
         <button
           class="c1"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c6"
@@ -1442,7 +1442,7 @@ Object {
         </button>
         <button
           class="c1"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c6"
@@ -1466,7 +1466,7 @@ Object {
         </button>
         <button
           class="c1"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c6"
@@ -1490,7 +1490,7 @@ Object {
         </button>
         <button
           class="c1"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c6"
@@ -1514,7 +1514,7 @@ Object {
         </button>
         <button
           class="c1"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c6"
@@ -1538,7 +1538,7 @@ Object {
         </button>
         <button
           class="c1"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c6"
@@ -1563,7 +1563,7 @@ Object {
       </div>
       <button
         class="c7"
-        role="button"
+        data-tui-name="IconButton"
       >
         <span
           class="c2"
@@ -1819,11 +1819,11 @@ Object {
     <div>
       <div
         class="c0"
-        role="button"
+        data-tui-name="ButtonCluster"
       >
         <button
           class="c1"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c2"
@@ -1852,11 +1852,11 @@ Object {
         </button>
         <div
           class="c5"
-          role="button"
+          data-tui-name="ButtonGroup"
         >
           <button
             class="c1"
-            role="button"
+            data-tui-name="IconButton"
           >
             <span
               class="c6"
@@ -1880,7 +1880,7 @@ Object {
           </button>
           <button
             class="c1"
-            role="button"
+            data-tui-name="IconButton"
           >
             <span
               class="c6"
@@ -1904,7 +1904,7 @@ Object {
           </button>
           <button
             class="c1"
-            role="button"
+            data-tui-name="IconButton"
           >
             <span
               class="c6"
@@ -1928,7 +1928,7 @@ Object {
           </button>
           <button
             class="c1"
-            role="button"
+            data-tui-name="IconButton"
           >
             <span
               class="c6"
@@ -1952,7 +1952,7 @@ Object {
           </button>
           <button
             class="c1"
-            role="button"
+            data-tui-name="IconButton"
           >
             <span
               class="c6"
@@ -1976,7 +1976,7 @@ Object {
           </button>
           <button
             class="c1"
-            role="button"
+            data-tui-name="IconButton"
           >
             <span
               class="c6"
@@ -2001,7 +2001,7 @@ Object {
         </div>
         <button
           class="c7"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c2"
@@ -2200,11 +2200,11 @@ Object {
 <div>
     <div
       class="c0"
-      role="button"
+      data-tui-name="ButtonCluster"
     >
       <button
         class="c1"
-        role="button"
+        data-tui-name="IconButton"
       >
         <span
           class="c2"
@@ -2233,11 +2233,11 @@ Object {
       </button>
       <div
         class="c5"
-        role="button"
+        data-tui-name="ButtonGroup"
       >
         <button
           class="c1"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c6"
@@ -2261,7 +2261,7 @@ Object {
         </button>
         <button
           class="c1"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c6"
@@ -2285,7 +2285,7 @@ Object {
         </button>
         <button
           class="c1"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c6"
@@ -2309,7 +2309,7 @@ Object {
         </button>
         <button
           class="c1"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c6"
@@ -2333,7 +2333,7 @@ Object {
         </button>
         <button
           class="c1"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c6"
@@ -2357,7 +2357,7 @@ Object {
         </button>
         <button
           class="c1"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c6"
@@ -2382,7 +2382,7 @@ Object {
       </div>
       <button
         class="c7"
-        role="button"
+        data-tui-name="IconButton"
       >
         <span
           class="c2"
@@ -2652,11 +2652,11 @@ Object {
     <div>
       <div
         class="c0"
-        role="button"
+        data-tui-name="ButtonCluster"
       >
         <button
           class="c1"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c2"
@@ -2685,11 +2685,11 @@ Object {
         </button>
         <div
           class="c5"
-          role="button"
+          data-tui-name="ButtonGroup"
         >
           <button
             class="c1"
-            role="button"
+            data-tui-name="IconButton"
           >
             <span
               class="c6"
@@ -2713,7 +2713,7 @@ Object {
           </button>
           <button
             class="c1"
-            role="button"
+            data-tui-name="IconButton"
           >
             <span
               class="c6"
@@ -2737,7 +2737,7 @@ Object {
           </button>
           <button
             class="c1"
-            role="button"
+            data-tui-name="IconButton"
           >
             <span
               class="c6"
@@ -2761,7 +2761,7 @@ Object {
           </button>
           <button
             class="c1"
-            role="button"
+            data-tui-name="IconButton"
           >
             <span
               class="c6"
@@ -2785,7 +2785,7 @@ Object {
           </button>
           <button
             class="c1"
-            role="button"
+            data-tui-name="IconButton"
           >
             <span
               class="c6"
@@ -2809,7 +2809,7 @@ Object {
           </button>
           <button
             class="c1"
-            role="button"
+            data-tui-name="IconButton"
           >
             <span
               class="c6"
@@ -2834,7 +2834,7 @@ Object {
         </div>
         <button
           class="c7"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c2"
@@ -3047,11 +3047,11 @@ Object {
 <div>
     <div
       class="c0"
-      role="button"
+      data-tui-name="ButtonCluster"
     >
       <button
         class="c1"
-        role="button"
+        data-tui-name="IconButton"
       >
         <span
           class="c2"
@@ -3080,11 +3080,11 @@ Object {
       </button>
       <div
         class="c5"
-        role="button"
+        data-tui-name="ButtonGroup"
       >
         <button
           class="c1"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c6"
@@ -3108,7 +3108,7 @@ Object {
         </button>
         <button
           class="c1"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c6"
@@ -3132,7 +3132,7 @@ Object {
         </button>
         <button
           class="c1"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c6"
@@ -3156,7 +3156,7 @@ Object {
         </button>
         <button
           class="c1"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c6"
@@ -3180,7 +3180,7 @@ Object {
         </button>
         <button
           class="c1"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c6"
@@ -3204,7 +3204,7 @@ Object {
         </button>
         <button
           class="c1"
-          role="button"
+          data-tui-name="IconButton"
         >
           <span
             class="c6"
@@ -3229,7 +3229,7 @@ Object {
       </div>
       <button
         class="c7"
-        role="button"
+        data-tui-name="IconButton"
       >
         <span
           class="c2"

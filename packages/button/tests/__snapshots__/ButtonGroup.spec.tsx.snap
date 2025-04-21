@@ -75,7 +75,7 @@ Object {
     <div>
       <div
         class="c0"
-        role="button"
+        data-tui-name="ButtonGroup"
       >
         <button
           aria-busy="false"
@@ -201,7 +201,7 @@ Object {
 <div>
     <div
       class="c0"
-      role="button"
+      data-tui-name="ButtonGroup"
     >
       <button
         aria-busy="false"
@@ -384,7 +384,7 @@ Object {
     <div>
       <div
         class="c0"
-        role="button"
+        data-tui-name="ButtonGroup"
       >
         <button
           aria-busy="false"
@@ -510,7 +510,7 @@ Object {
 <div>
     <div
       class="c0"
-      role="button"
+      data-tui-name="ButtonGroup"
     >
       <button
         aria-busy="false"
@@ -695,8 +695,8 @@ Object {
     <div>
       <div
         class="c0"
+        data-tui-name="ButtonGroup"
         height="5rem"
-        role="button"
         width="30rem"
       >
         <button
@@ -825,8 +825,8 @@ Object {
 <div>
     <div
       class="c0"
+      data-tui-name="ButtonGroup"
       height="5rem"
-      role="button"
       width="30rem"
     >
       <button
@@ -1009,7 +1009,7 @@ Object {
     <div>
       <div
         class="c0"
-        role="button"
+        data-tui-name="ButtonGroup"
       >
         <button
           aria-busy="false"
@@ -1139,7 +1139,7 @@ Object {
 <div>
     <div
       class="c0"
-      role="button"
+      data-tui-name="ButtonGroup"
     >
       <button
         aria-busy="false"
@@ -1341,7 +1341,7 @@ Object {
     <div>
       <div
         class="c0"
-        role="button"
+        data-tui-name="ButtonGroup"
       >
         <button
           aria-busy="false"
@@ -1449,7 +1449,7 @@ Object {
 <div>
     <div
       class="c0"
-      role="button"
+      data-tui-name="ButtonGroup"
     >
       <button
         aria-busy="false"
@@ -1607,7 +1607,7 @@ Object {
     <div>
       <div
         class="c0"
-        role="button"
+        data-tui-name="ButtonGroup"
       >
         <button
           aria-busy="false"
@@ -1740,7 +1740,7 @@ Object {
 <div>
     <div
       class="c0"
-      role="button"
+      data-tui-name="ButtonGroup"
     >
       <button
         aria-busy="false"
@@ -1926,7 +1926,7 @@ Object {
     <div>
       <div
         class="c0"
-        role="button"
+        data-tui-name="ButtonGroup"
       >
         <button
           aria-busy="false"
@@ -2055,7 +2055,7 @@ Object {
 <div>
     <div
       class="c0"
-      role="button"
+      data-tui-name="ButtonGroup"
     >
       <button
         aria-busy="false"
@@ -2248,7 +2248,7 @@ Object {
     <div>
       <div
         class="c0"
-        role="button"
+        data-tui-name="ButtonGroup"
       >
         <button
           aria-busy="false"
@@ -2384,7 +2384,7 @@ Object {
 <div>
     <div
       class="c0"
-      role="button"
+      data-tui-name="ButtonGroup"
     >
       <button
         aria-busy="false"
