@@ -21,13 +21,9 @@ const alertStyles = css<IAlertProps>`
  * @internal
  */
 const alertFilledStyle = css<IAlertProps>`
-  ${({ theme: { palette, layout }, isSharp, status }) => css`
+  ${({ theme: { palette }, status }) => css`
     color: ${palette[status!][50]};
     background-color: ${palette[status!][700]};
-    ${!isSharp &&
-    css`
-      border-radius: ${layout.radius};
-    `}
   `}
 `;
 
