@@ -1,7 +1,7 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
-import { Actions } from '../actions';
-import { initializer, initialState, mainReducer } from '../reducers';
+import { createInitialState, initializer, mainReducer } from '../reducers';
+import { orchidLight } from '../theme';
 import { TidyUiContext } from './context';
 import { ITidyUiProviderProps } from './types';
 
@@ -15,21 +15,12 @@ const { Consumer, Provider } = TidyUiContext;
  */
 const TidyUiProvider = (props: ITidyUiProviderProps): JSX.Element => {
   const { children, theme, toaster, ...rest } = props;
-  const [state, dispatch] = React.useReducer(mainReducer, initialState, initializer);
+  const [state, dispatch] = React.useReducer(mainReducer, createInitialState(theme || orchidLight), initializer);
   const value = React.useMemo(() => ({ theme, ...rest }), [theme, rest]);
-
-  React.useEffect(() => {
-    dispatch({
-      payload: {
-        theme,
-      },
-      type: Actions.Page.SetTheme,
-    });
-  }, [theme]);
 
   return (
     <Provider value={{ ...value, dispatch, state }}>
-      <ThemeProvider theme={{ ...theme }} {...rest}>
+      <ThemeProvider theme={{ ...state.pageState.theme }} {...rest}>
         {toaster ? React.cloneElement(toaster, {}, children) : children}
       </ThemeProvider>
     </Provider>

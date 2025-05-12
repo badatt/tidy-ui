@@ -1,6 +1,7 @@
 import { AppActionTypes } from '../actions';
 import pageReducer from '../reducers/page.reducer';
 import rootReducer from '../reducers/root.reducer';
+import { ITidyUITheme } from '../theme';
 import { IState } from './types';
 
 /**
@@ -19,6 +20,21 @@ const initialState: IState = {
 };
 
 /**
+ * Create initial state
+ *
+ * @param {ITidyUITheme} theme creates initial state
+ * @returns {IState} initial state
+ */
+const createInitialState = (theme: ITidyUITheme): IState => {
+  return {
+    ...initialState,
+    pageState: {
+      theme,
+    },
+  };
+};
+
+/**
  * Main reducer
  *
  * @param {IState} state application state
@@ -33,4 +49,4 @@ const mainReducer = (state: IState, actions: AppActionTypes): IState => {
   };
 };
 
-export { initializer, initialState, mainReducer };
+export { createInitialState, initializer, initialState, mainReducer };
