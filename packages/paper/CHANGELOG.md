@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.48.8 (2025-05-12)
+
+**Note:** Version bump only for package @tidy-ui/paper
+
+
+
+
+
 ## 0.48.7 (2025-04-21)
 
 **Note:** Version bump only for package @tidy-ui/paper
