@@ -7,7 +7,7 @@ import '@testing-library/jest-dom';
 import 'jest-styled-components';
 import { orchidLight, TidyUiProvider, useWindow } from '../../src';
 
-describe('useTheme', () => {
+describe('useWindow', () => {
   it('Should return window', () => {
     const TestComponent = () => {
       const win = useWindow();

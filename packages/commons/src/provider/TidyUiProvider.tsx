@@ -15,7 +15,7 @@ const { Consumer, Provider } = TidyUiContext;
  */
 const TidyUiProvider = (props: ITidyUiProviderProps): JSX.Element => {
   const { children, theme, toaster, ...rest } = props;
-  const [state, dispatch] = React.useReducer(mainReducer, createInitialState(theme || orchidLight), initializer);
+  const [state, dispatch] = React.useReducer(mainReducer, createInitialState(theme ?? orchidLight), initializer);
   const value = React.useMemo(() => ({ theme, ...rest }), [theme, rest]);
 
   return (

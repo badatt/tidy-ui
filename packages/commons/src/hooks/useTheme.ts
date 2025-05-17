@@ -38,7 +38,7 @@ const useTheme = (): useThemeReturn => {
     });
   }, []);
 
-  return { changeTheme, theme: state.pageState.theme || defaultTheme };
+  return { changeTheme, theme: state.pageState.theme ?? defaultTheme };
 };
 
 export default useTheme;
