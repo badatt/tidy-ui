@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.48.9 (2025-05-19)
+
+
+### Bug Fixes
+
+* use nullish coalescing for theme fallback in useTheme and TidyUiProvider ([dc591ee](https://github.com/badatt/tidy-ui/commit/dc591ee7c675c01faa78045ecfba9d64b41dd72f))
+
+
+
+
+
 ## 0.48.8 (2025-05-12)
 
 **Note:** Version bump only for package @tidy-ui/stack
