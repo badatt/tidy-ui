@@ -8,7 +8,7 @@ import { IStyledThemeWrapper } from './types';
  * This component wraps its children with a styled-components ThemeProvider.
  * It also allows for an optional toaster component to be passed in, which will wrap the children.
  * It uses the theme from the useTheme hook to provide the current theme context.
- * 
+ *
  * @param {IStyledThemeWrapper} props - The props for the StyledThemeWrapper component.
  * @returns {React.ReactElement} A React element that provides the theme context to its children.
  */
@@ -22,4 +22,4 @@ const StyledThemeWrapper = (props: IStyledThemeWrapper): React.ReactElement => {
   );
 };
 
-export {StyledThemeWrapper};
+export { StyledThemeWrapper };

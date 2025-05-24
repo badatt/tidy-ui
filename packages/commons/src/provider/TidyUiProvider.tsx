@@ -24,9 +24,7 @@ const TidyUiProvider = (props: ITidyUiProviderProps): JSX.Element => {
 
   return (
     <Provider value={{ ...value, dispatch, state }}>
-      <StyledThemeWrapper toaster={toaster}>
-        {children}
-      </StyledThemeWrapper>
+      <StyledThemeWrapper toaster={toaster}>{children}</StyledThemeWrapper>
     </Provider>
   );
 };
