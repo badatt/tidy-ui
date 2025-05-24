@@ -1,7 +1,6 @@
 import * as React from 'react';
-import { useTheme as useStyledTheme } from 'styled-components';
 import { Actions } from '../actions';
-import { createInitialState, mainReducer } from '../reducers';
+import { TidyUiContext } from '../provider';
 import { ITidyUITheme } from '../theme/types';
 
 /**
@@ -24,8 +23,7 @@ type useThemeReturn = {
  * @returns {useThemeReturn} theme attributes
  */
 const useTheme = (): useThemeReturn => {
-  const defaultTheme = useStyledTheme() as ITidyUITheme;
-  const [state, dispatch] = React.useReducer(mainReducer, createInitialState(defaultTheme));
+  const { state, dispatch } = React.useContext(TidyUiContext);
   /**
    * Function to change the theme
    *
@@ -38,7 +36,7 @@ const useTheme = (): useThemeReturn => {
     });
   }, []);
 
-  return { changeTheme, theme: state.pageState.theme ?? defaultTheme };
+  return { changeTheme, theme: state.pageState.theme! };
 };
 
 export default useTheme;

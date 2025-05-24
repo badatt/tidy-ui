@@ -45,7 +45,6 @@ const ThemeBlock = styled.div<{ left?: boolean; filled?: boolean; padding?: stri
 export const withTheme: DecoratorFn = (StoryFn, context) => {
   // Get values from story parameter first, else fallback to globals
   const theme = context.parameters.theme || context.globals.theme;
-  const storyTheme = theme === 'light' ? orchidLight : orchidDark;
   const padding = ['Layout/Container'].includes(context.title) ? '0' : '1rem';
 
   switch (theme) {
@@ -69,12 +68,40 @@ export const withTheme: DecoratorFn = (StoryFn, context) => {
         </>
       );
     }
+    case 'dark': {
+      return (
+        <>
+          <GlobalResetStyle />
+          <GlobalFont />
+          <TidyUiProvider theme={orchidDark} toaster={<Toaster limit={5} />}>
+            <GlobalDefaultStyle />
+            <ThemeBlock filled padding={padding}>
+              <StoryFn />
+            </ThemeBlock>
+          </TidyUiProvider>
+        </>
+      );
+    }
+    case 'light': {
+      return (
+        <>
+          <GlobalResetStyle />
+          <GlobalFont />
+          <TidyUiProvider theme={orchidLight} toaster={<Toaster limit={5} />}>
+            <GlobalDefaultStyle />
+            <ThemeBlock filled padding={padding}>
+              <StoryFn />
+            </ThemeBlock>
+          </TidyUiProvider>
+        </>
+      );
+    }
     default: {
       return (
         <>
           <GlobalResetStyle />
           <GlobalFont />
-          <TidyUiProvider theme={storyTheme} toaster={<Toaster limit={5} />}>
+          <TidyUiProvider theme={orchidLight} toaster={<Toaster limit={5} />}>
             <GlobalDefaultStyle />
             <ThemeBlock filled padding={padding}>
               <StoryFn />

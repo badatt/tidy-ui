@@ -46,3 +46,18 @@ export interface ITidyUiContextProps {
    */
   state: IState;
 }
+
+/**
+ * StyledThemeWrapper props
+ * This interface defines the props for the StyledThemeWrapper component.
+ */
+export interface IStyledThemeWrapper {
+  /**
+   * Children to be wrapped by the theme provider
+   */
+  children?: ReactNode;
+  /**
+   * Toaster component to be used for notifications
+   */
+  toaster?: JSX.Element;
+}
