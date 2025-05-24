@@ -1,7 +1,7 @@
 import { AppActionTypes } from '../actions';
 import pageReducer from '../reducers/page.reducer';
 import rootReducer from '../reducers/root.reducer';
-import { ITidyUITheme } from '../theme';
+import { ITidyUITheme, orchidDark, orchidLight } from '../theme';
 import { IState } from './types';
 
 /**
@@ -25,11 +25,23 @@ const initialState: IState = {
  * @param {ITidyUITheme} theme creates initial state
  * @returns {IState} initial state
  */
-const createInitialState = (theme: ITidyUITheme): IState => {
+const createInitialState = (theme?: ITidyUITheme): IState => {
+  const themeName = localStorage.getItem('tidyui-theme');
+  let baseTheme: ITidyUITheme;
+  if(themeName) {
+    switch(themeName) {
+      case orchidLight.name: baseTheme = orchidLight; break;
+      case orchidDark.name: baseTheme = orchidDark; break;
+      default: baseTheme = theme ?? orchidLight; // Default to orchidLight if no theme matches
+    }
+  } else {
+    baseTheme = theme ?? orchidLight; // Default to orchidLight if no theme is provided
+    localStorage.setItem('tidyui-theme', baseTheme.name);
+  }
   return {
     ...initialState,
     pageState: {
-      theme,
+      theme: baseTheme
     },
   };
 };

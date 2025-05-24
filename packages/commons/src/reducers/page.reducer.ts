@@ -29,6 +29,7 @@ const reducer = (prevState: IPageState, action: AppActionTypes): IPageState => {
     case PageActions.SetTitle:
       return { ...prevState, title: action.payload?.title };
     case PageActions.SetTheme:
+      localStorage.setItem('tidyui-theme', action.payload?.theme?.name ?? '');
       return { ...prevState, theme: action.payload?.theme };
     default:
       return prevState;
