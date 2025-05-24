@@ -28,11 +28,16 @@ const initialState: IState = {
 const createInitialState = (theme?: ITidyUITheme): IState => {
   const themeName = localStorage.getItem('tidyui-theme');
   let baseTheme: ITidyUITheme;
-  if(themeName) {
-    switch(themeName) {
-      case orchidLight.name: baseTheme = orchidLight; break;
-      case orchidDark.name: baseTheme = orchidDark; break;
-      default: baseTheme = theme ?? orchidLight; // Default to orchidLight if no theme matches
+  if (themeName) {
+    switch (themeName) {
+      case orchidLight.name:
+        baseTheme = orchidLight;
+        break;
+      case orchidDark.name:
+        baseTheme = orchidDark;
+        break;
+      default:
+        baseTheme = theme ?? orchidLight; // Default to orchidLight if no theme matches
     }
   } else {
     baseTheme = theme ?? orchidLight; // Default to orchidLight if no theme is provided
@@ -41,7 +46,7 @@ const createInitialState = (theme?: ITidyUITheme): IState => {
   return {
     ...initialState,
     pageState: {
-      theme: baseTheme
+      theme: baseTheme,
     },
   };
 };
