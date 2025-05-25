@@ -266,7 +266,7 @@ Object {
   border-radius: 0.375em;
   padding-inline-start: 0.5em;
   padding-inline-end: 0.5em;
-  border-color: hsla(215,19%,35%,1);
+  border-color: hsla(213,27%,84%,1);
   padding-top: 0.2em;
   padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
@@ -307,7 +307,7 @@ Object {
 .c1 {
   cursor: pointer;
   text-shadow: none;
-  background-color: hsla(217,33%,17%,1);
+  background-color: hsla(214,32%,91%,1);
 }
 
 <body>
@@ -363,7 +363,7 @@ Object {
   border-radius: 0.375em;
   padding-inline-start: 0.5em;
   padding-inline-end: 0.5em;
-  border-color: hsla(215,19%,35%,1);
+  border-color: hsla(213,27%,84%,1);
   padding-top: 0.2em;
   padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
@@ -404,7 +404,7 @@ Object {
 .c1 {
   cursor: pointer;
   text-shadow: none;
-  background-color: hsla(217,33%,17%,1);
+  background-color: hsla(214,32%,91%,1);
 }
 
 <div>
@@ -2601,7 +2601,7 @@ Object {
   border-radius: 0.375em;
   padding-inline-start: 0.5em;
   padding-inline-end: 0.5em;
-  border-color: hsla(221,83%,53%,1);
+  border-color: hsla(212,96%,78%,1);
   padding-top: 0.2em;
   padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
@@ -2653,7 +2653,7 @@ Object {
   border-radius: 0.375em;
   padding-inline-start: 0.5em;
   padding-inline-end: 0.5em;
-  border-color: hsla(142,76%,36%,1);
+  border-color: hsla(142,77%,73%,1);
   padding-top: 0.2em;
   padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
@@ -2705,7 +2705,7 @@ Object {
   border-radius: 0.375em;
   padding-inline-start: 0.5em;
   padding-inline-end: 0.5em;
-  border-color: hsla(32,95%,44%,1);
+  border-color: hsla(46,97%,65%,1);
   padding-top: 0.2em;
   padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
@@ -2757,7 +2757,7 @@ Object {
   border-radius: 0.375em;
   padding-inline-start: 0.5em;
   padding-inline-end: 0.5em;
-  border-color: hsla(0,72%,51%,1);
+  border-color: hsla(0,94%,82%,1);
   padding-top: 0.2em;
   padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
@@ -2798,7 +2798,7 @@ Object {
 .c1 {
   cursor: pointer;
   text-shadow: none;
-  background-color: hsla(217,33%,17%,1);
+  background-color: hsla(214,32%,91%,1);
 }
 
 <body>
@@ -2963,7 +2963,7 @@ Object {
   border-radius: 0.375em;
   padding-inline-start: 0.5em;
   padding-inline-end: 0.5em;
-  border-color: hsla(221,83%,53%,1);
+  border-color: hsla(212,96%,78%,1);
   padding-top: 0.2em;
   padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
@@ -3015,7 +3015,7 @@ Object {
   border-radius: 0.375em;
   padding-inline-start: 0.5em;
   padding-inline-end: 0.5em;
-  border-color: hsla(142,76%,36%,1);
+  border-color: hsla(142,77%,73%,1);
   padding-top: 0.2em;
   padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
@@ -3067,7 +3067,7 @@ Object {
   border-radius: 0.375em;
   padding-inline-start: 0.5em;
   padding-inline-end: 0.5em;
-  border-color: hsla(32,95%,44%,1);
+  border-color: hsla(46,97%,65%,1);
   padding-top: 0.2em;
   padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
@@ -3119,7 +3119,7 @@ Object {
   border-radius: 0.375em;
   padding-inline-start: 0.5em;
   padding-inline-end: 0.5em;
-  border-color: hsla(0,72%,51%,1);
+  border-color: hsla(0,94%,82%,1);
   padding-top: 0.2em;
   padding-bottom: 0.2em;
   font-size: calc(1rem * 1);
@@ -3160,7 +3160,7 @@ Object {
 .c1 {
   cursor: pointer;
   text-shadow: none;
-  background-color: hsla(217,33%,17%,1);
+  background-color: hsla(214,32%,91%,1);
 }
 
 <div>

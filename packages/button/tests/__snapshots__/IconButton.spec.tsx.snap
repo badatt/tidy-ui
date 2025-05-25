@@ -276,13 +276,13 @@ Object {
   font-size: 0.875rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(0,0%,96%,1);
-  border: 1px solid hsla(0,0%,25%,1);
+  color: hsla(0,0%,9%,1);
+  border: 1px solid hsla(0,0%,64%,1);
 }
 
 .c0:hover {
-  background-color: hsla(0,0%,15%,0.2);
-  border: 1px solid hsla(0,0%,64%,1);
+  background-color: hsla(0,0%,96%,1);
+  border: 1px solid hsla(0,0%,9%,1);
 }
 
 .c1 {
@@ -377,13 +377,13 @@ Object {
   font-size: 0.875rem;
   padding: 0.2rem;
   border-radius: 0.4em;
-  color: hsla(0,0%,96%,1);
-  border: 1px solid hsla(0,0%,25%,1);
+  color: hsla(0,0%,9%,1);
+  border: 1px solid hsla(0,0%,64%,1);
 }
 
 .c0:hover {
-  background-color: hsla(0,0%,15%,0.2);
-  border: 1px solid hsla(0,0%,64%,1);
+  background-color: hsla(0,0%,96%,1);
+  border: 1px solid hsla(0,0%,9%,1);
 }
 
 .c1 {

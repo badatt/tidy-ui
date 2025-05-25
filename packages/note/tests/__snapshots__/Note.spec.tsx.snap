@@ -223,8 +223,8 @@ Object {
   letter-spacing: 0.00938em;
   line-height: 1.5;
   padding: 0.75rem 1rem;
-  border-left: 4px solid hsla(32,81%,29%,1);
-  background-color: hsla(35,92%,33%,0.2);
+  border-left: 4px solid hsla(45,93%,47%,1);
+  background-color: hsla(48,96%,53%,0.2);
 }
 
 <body>
@@ -247,8 +247,8 @@ Object {
   letter-spacing: 0.00938em;
   line-height: 1.5;
   padding: 0.75rem 1rem;
-  border-left: 4px solid hsla(32,81%,29%,1);
-  background-color: hsla(35,92%,33%,0.2);
+  border-left: 4px solid hsla(45,93%,47%,1);
+  background-color: hsla(48,96%,53%,0.2);
 }
 
 <div>
@@ -326,7 +326,7 @@ Object {
   letter-spacing: 0.00938em;
   line-height: 1.5;
   padding: 0.75rem 1rem;
-  box-shadow: rgb(164 164 200 / 25%) 0px 13px 27px -5px,rgb(147 147 147 / 15%) 0px 8px 16px -8px;
+  box-shadow: rgba(50,50,93,0.25) 0px 13px 27px -5px,rgba(0,0,0,0.3) 0px 8px 16px -8px;
 }
 
 <body>
@@ -349,7 +349,7 @@ Object {
   letter-spacing: 0.00938em;
   line-height: 1.5;
   padding: 0.75rem 1rem;
-  box-shadow: rgb(164 164 200 / 25%) 0px 13px 27px -5px,rgb(147 147 147 / 15%) 0px 8px 16px -8px;
+  box-shadow: rgba(50,50,93,0.25) 0px 13px 27px -5px,rgba(0,0,0,0.3) 0px 8px 16px -8px;
 }
 
 <div>

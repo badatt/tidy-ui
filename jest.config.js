@@ -18,5 +18,5 @@ module.exports = {
   },
   modulePathIgnorePatterns: [...packages.reduce((acc, name) => [...acc, `<rootDir>/packages/${name}/dist`], [])],
   preset: 'ts-jest',
-  testEnvironment: 'node',
+  testEnvironment: 'jsdom',
 };

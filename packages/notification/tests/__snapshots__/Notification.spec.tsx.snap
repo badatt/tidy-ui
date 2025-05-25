@@ -1782,7 +1782,7 @@ Object {
   padding: 4px;
   border-radius: 50%;
   background-color: hsla(215,25%,27%,0.1);
-  color: hsla(142,69%,58%,1);
+  color: hsla(142,76%,36%,1);
 }
 
 .c4:hover {
@@ -1802,9 +1802,9 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  color: hsla(142,77%,73%,1);
-  border: 1px solid hsla(144,61%,20%,0.7);
-  background-color: hsla(142,72%,29%,0.1);
+  color: hsla(142,72%,29%,1);
+  border: 1px solid hsla(142,69%,58%,1);
+  background-color: hsla(141,79%,85%,0.4);
 }
 
 .c0:hover .c3 {
@@ -1850,7 +1850,7 @@ Object {
   -ms-letter-spacing: 0.0075em;
   letter-spacing: 0.0075em;
   line-height: 1.6;
-  color: hsla(142,69%,58%,1);
+  color: hsla(142,76%,36%,1);
 }
 
 .c2 svg {
@@ -1941,7 +1941,7 @@ Object {
   padding: 4px;
   border-radius: 50%;
   background-color: hsla(215,25%,27%,0.1);
-  color: hsla(142,69%,58%,1);
+  color: hsla(142,76%,36%,1);
 }
 
 .c4:hover {
@@ -1961,9 +1961,9 @@ Object {
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.5rem;
-  color: hsla(142,77%,73%,1);
-  border: 1px solid hsla(144,61%,20%,0.7);
-  background-color: hsla(142,72%,29%,0.1);
+  color: hsla(142,72%,29%,1);
+  border: 1px solid hsla(142,69%,58%,1);
+  background-color: hsla(141,79%,85%,0.4);
 }
 
 .c0:hover .c3 {
@@ -2009,7 +2009,7 @@ Object {
   -ms-letter-spacing: 0.0075em;
   letter-spacing: 0.0075em;
   line-height: 1.6;
-  color: hsla(142,69%,58%,1);
+  color: hsla(142,76%,36%,1);
 }
 
 .c2 svg {
@@ -3833,7 +3833,7 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,0.5);
+  background-color: hsla(272,72%,47%,0.9);
 }
 
 .c0:hover .c2 {
@@ -3854,7 +3854,7 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(327,73%,97%,1);
-  background-color: hsla(335,78%,42%,0.5);
+  background-color: hsla(335,78%,42%,0.9);
 }
 
 .c6:hover .c2 {
@@ -3875,7 +3875,7 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(0,0%,98%,1);
-  background-color: hsla(0,0%,25%,0.5);
+  background-color: hsla(0,0%,25%,0.9);
 }
 
 .c8:hover .c2 {
@@ -3896,7 +3896,7 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(214,100%,97%,1);
-  background-color: hsla(224,76%,48%,0.5);
+  background-color: hsla(224,76%,48%,0.9);
 }
 
 .c10:hover .c2 {
@@ -3917,7 +3917,7 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(138,76%,97%,1);
-  background-color: hsla(142,72%,29%,0.5);
+  background-color: hsla(142,72%,29%,0.9);
 }
 
 .c14:hover .c2 {
@@ -3938,7 +3938,7 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(48,100%,96%,1);
-  background-color: hsla(26,90%,37%,0.5);
+  background-color: hsla(26,90%,37%,0.9);
 }
 
 .c17:hover .c2 {
@@ -3959,7 +3959,7 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(0,86%,97%,1);
-  background-color: hsla(0,74%,42%,0.5);
+  background-color: hsla(0,74%,42%,0.9);
 }
 
 .c20:hover .c2 {
@@ -4583,7 +4583,7 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(270,100%,98%,1);
-  background-color: hsla(272,72%,47%,0.5);
+  background-color: hsla(272,72%,47%,0.9);
 }
 
 .c0:hover .c2 {
@@ -4604,7 +4604,7 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(327,73%,97%,1);
-  background-color: hsla(335,78%,42%,0.5);
+  background-color: hsla(335,78%,42%,0.9);
 }
 
 .c6:hover .c2 {
@@ -4625,7 +4625,7 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(0,0%,98%,1);
-  background-color: hsla(0,0%,25%,0.5);
+  background-color: hsla(0,0%,25%,0.9);
 }
 
 .c8:hover .c2 {
@@ -4646,7 +4646,7 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(214,100%,97%,1);
-  background-color: hsla(224,76%,48%,0.5);
+  background-color: hsla(224,76%,48%,0.9);
 }
 
 .c10:hover .c2 {
@@ -4667,7 +4667,7 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(138,76%,97%,1);
-  background-color: hsla(142,72%,29%,0.5);
+  background-color: hsla(142,72%,29%,0.9);
 }
 
 .c14:hover .c2 {
@@ -4688,7 +4688,7 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(48,100%,96%,1);
-  background-color: hsla(26,90%,37%,0.5);
+  background-color: hsla(26,90%,37%,0.9);
 }
 
 .c17:hover .c2 {
@@ -4709,7 +4709,7 @@ Object {
   padding: 1rem;
   border-radius: 0.5rem;
   color: hsla(0,86%,97%,1);
-  background-color: hsla(0,74%,42%,0.5);
+  background-color: hsla(0,74%,42%,0.9);
 }
 
 .c20:hover .c2 {

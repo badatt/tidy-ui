@@ -460,7 +460,7 @@ Object {
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
-  border-bottom: 2px solid hsla(215,25%,27%,1);
+  border-bottom: 2px solid hsla(214,32%,91%,1);
   border-bottom: 4px solid hsla(330,81%,60%,1);
 }
 
@@ -537,7 +537,7 @@ Object {
   -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   padding: 1rem 2rem;
-  border-bottom: 2px solid hsla(215,25%,27%,1);
+  border-bottom: 2px solid hsla(214,32%,91%,1);
   border-bottom: 4px solid hsla(330,81%,60%,1);
 }
 
@@ -944,7 +944,7 @@ Object {
   -ms-flex-direction: row;
   flex-direction: row;
   overflow-x: auto;
-  border-bottom: 2px solid hsla(215,25%,27%,1);
+  border-bottom: 2px solid hsla(214,32%,91%,1);
 }
 
 .c2 {
@@ -1058,7 +1058,7 @@ Object {
   -ms-flex-direction: row;
   flex-direction: row;
   overflow-x: auto;
-  border-bottom: 2px solid hsla(215,25%,27%,1);
+  border-bottom: 2px solid hsla(214,32%,91%,1);
 }
 
 .c2 {

@@ -128,8 +128,8 @@ Object {
   "asFragment": [Function],
   "baseElement": .c0 {
   font-size: calc(1rem * 1);
-  -webkit-animation: 0.8s linear 0s infinite alternate none running eBbwcx;
-  animation: 0.8s linear 0s infinite alternate none running eBbwcx;
+  -webkit-animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  animation: 0.8s linear 0s infinite alternate none running dhGBQd;
   height: 0.4em;
   width: 100%;
   overflow: hidden;
@@ -162,8 +162,8 @@ Object {
   </body>,
   "container": .c0 {
   font-size: calc(1rem * 1);
-  -webkit-animation: 0.8s linear 0s infinite alternate none running eBbwcx;
-  animation: 0.8s linear 0s infinite alternate none running eBbwcx;
+  -webkit-animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  animation: 0.8s linear 0s infinite alternate none running dhGBQd;
   height: 0.4em;
   width: 100%;
   overflow: hidden;

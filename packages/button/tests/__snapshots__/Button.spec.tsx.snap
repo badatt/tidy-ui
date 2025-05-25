@@ -199,17 +199,17 @@ Object {
   padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(0,0%,96%,1);
-  border: 1px solid hsla(0,0%,25%,1);
-}
-
-.c0:hover {
-  background-color: hsla(0,0%,15%,0.2);
+  color: hsla(0,0%,9%,1);
   border: 1px solid hsla(0,0%,64%,1);
 }
 
+.c0:hover {
+  background-color: hsla(0,0%,96%,1);
+  border: 1px solid hsla(0,0%,9%,1);
+}
+
 .c0:focus-visible {
-  outline: 1px solid hsla(0,0%,64%,1);
+  outline: 1px solid hsla(0,0%,15%,1);
   outline-offset: 1px;
 }
 
@@ -255,17 +255,17 @@ Object {
   padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(0,0%,96%,1);
-  border: 1px solid hsla(0,0%,25%,1);
-}
-
-.c0:hover {
-  background-color: hsla(0,0%,15%,0.2);
+  color: hsla(0,0%,9%,1);
   border: 1px solid hsla(0,0%,64%,1);
 }
 
+.c0:hover {
+  background-color: hsla(0,0%,96%,1);
+  border: 1px solid hsla(0,0%,9%,1);
+}
+
 .c0:focus-visible {
-  outline: 1px solid hsla(0,0%,64%,1);
+  outline: 1px solid hsla(0,0%,15%,1);
   outline-offset: 1px;
 }
 
@@ -1303,11 +1303,11 @@ Object {
   padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(270,95%,75%,1);
+  color: hsla(273,67%,39%,1);
 }
 
 .c0:focus-visible {
-  outline: 1px solid hsla(270,95%,75%,1);
+  outline: 1px solid hsla(273,67%,39%,1);
   outline-offset: 1px;
 }
 
@@ -1340,11 +1340,11 @@ Object {
   padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(329,86%,70%,1);
+  color: hsla(336,74%,35%,1);
 }
 
 .c2:focus-visible {
-  outline: 1px solid hsla(329,86%,70%,1);
+  outline: 1px solid hsla(336,74%,35%,1);
   outline-offset: 1px;
 }
 
@@ -1377,11 +1377,11 @@ Object {
   padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(0,0%,64%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c3:focus-visible {
-  outline: 1px solid hsla(0,0%,64%,1);
+  outline: 1px solid hsla(0,0%,15%,1);
   outline-offset: 1px;
 }
 
@@ -1414,11 +1414,11 @@ Object {
   padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(213,94%,68%,1);
+  color: hsla(226,71%,40%,1);
 }
 
 .c4:focus-visible {
-  outline: 1px solid hsla(213,94%,68%,1);
+  outline: 1px solid hsla(226,71%,40%,1);
   outline-offset: 1px;
 }
 
@@ -1451,11 +1451,11 @@ Object {
   padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(142,69%,58%,1);
+  color: hsla(143,64%,24%,1);
 }
 
 .c5:focus-visible {
-  outline: 1px solid hsla(142,69%,58%,1);
+  outline: 1px solid hsla(143,64%,24%,1);
   outline-offset: 1px;
 }
 
@@ -1488,11 +1488,11 @@ Object {
   padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(43,96%,56%,1);
+  color: hsla(23,83%,31%,1);
 }
 
 .c6:focus-visible {
-  outline: 1px solid hsla(43,96%,56%,1);
+  outline: 1px solid hsla(23,83%,31%,1);
   outline-offset: 1px;
 }
 
@@ -1525,11 +1525,11 @@ Object {
   padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(0,91%,71%,1);
+  color: hsla(0,70%,35%,1);
 }
 
 .c7:focus-visible {
-  outline: 1px solid hsla(0,91%,71%,1);
+  outline: 1px solid hsla(0,70%,35%,1);
   outline-offset: 1px;
 }
 
@@ -1744,11 +1744,11 @@ Object {
   padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(270,95%,75%,1);
+  color: hsla(273,67%,39%,1);
 }
 
 .c0:focus-visible {
-  outline: 1px solid hsla(270,95%,75%,1);
+  outline: 1px solid hsla(273,67%,39%,1);
   outline-offset: 1px;
 }
 
@@ -1781,11 +1781,11 @@ Object {
   padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(329,86%,70%,1);
+  color: hsla(336,74%,35%,1);
 }
 
 .c2:focus-visible {
-  outline: 1px solid hsla(329,86%,70%,1);
+  outline: 1px solid hsla(336,74%,35%,1);
   outline-offset: 1px;
 }
 
@@ -1818,11 +1818,11 @@ Object {
   padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(0,0%,64%,1);
+  color: hsla(0,0%,15%,1);
 }
 
 .c3:focus-visible {
-  outline: 1px solid hsla(0,0%,64%,1);
+  outline: 1px solid hsla(0,0%,15%,1);
   outline-offset: 1px;
 }
 
@@ -1855,11 +1855,11 @@ Object {
   padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(213,94%,68%,1);
+  color: hsla(226,71%,40%,1);
 }
 
 .c4:focus-visible {
-  outline: 1px solid hsla(213,94%,68%,1);
+  outline: 1px solid hsla(226,71%,40%,1);
   outline-offset: 1px;
 }
 
@@ -1892,11 +1892,11 @@ Object {
   padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(142,69%,58%,1);
+  color: hsla(143,64%,24%,1);
 }
 
 .c5:focus-visible {
-  outline: 1px solid hsla(142,69%,58%,1);
+  outline: 1px solid hsla(143,64%,24%,1);
   outline-offset: 1px;
 }
 
@@ -1929,11 +1929,11 @@ Object {
   padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(43,96%,56%,1);
+  color: hsla(23,83%,31%,1);
 }
 
 .c6:focus-visible {
-  outline: 1px solid hsla(43,96%,56%,1);
+  outline: 1px solid hsla(23,83%,31%,1);
   outline-offset: 1px;
 }
 
@@ -1966,11 +1966,11 @@ Object {
   padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(0,91%,71%,1);
+  color: hsla(0,70%,35%,1);
 }
 
 .c7:focus-visible {
-  outline: 1px solid hsla(0,91%,71%,1);
+  outline: 1px solid hsla(0,70%,35%,1);
   outline-offset: 1px;
 }
 
@@ -4335,7 +4335,7 @@ Object {
   color: hsla(0,0%,98%,1);
   border: none;
   width: 100%;
-  box-shadow: 0 0 24px hsla(0,0%,15%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(0,0%,83%,1) 0px 10px 15px -3px,hsla(0,0%,83%,1) 0px 4px 6px -4px;
   background-color: hsla(0,0%,25%,1);
 }
 
@@ -4344,7 +4344,7 @@ Object {
 }
 
 .c0:focus-visible {
-  outline: 1px solid hsla(0,0%,64%,1);
+  outline: 1px solid hsla(0,0%,15%,1);
   outline-offset: 1px;
 }
 
@@ -4377,17 +4377,17 @@ Object {
   padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(0,0%,96%,1);
-  border: 1px solid hsla(0,0%,25%,1);
-}
-
-.c1:hover {
-  background-color: hsla(0,0%,15%,0.2);
+  color: hsla(0,0%,9%,1);
   border: 1px solid hsla(0,0%,64%,1);
 }
 
+.c1:hover {
+  background-color: hsla(0,0%,96%,1);
+  border: 1px solid hsla(0,0%,9%,1);
+}
+
 .c1:focus-visible {
-  outline: 1px solid hsla(0,0%,64%,1);
+  outline: 1px solid hsla(0,0%,15%,1);
   outline-offset: 1px;
 }
 
@@ -4424,6 +4424,7 @@ Object {
   color: hsla(0,0%,98%,1);
   background-color: hsla(0,0%,25%,1);
   border: 1px solid hsla(0,0%,9%,0.4);
+  box-shadow: 0px 1px 0px hsla(0,0%,96%,1);
 }
 
 .c2:hover {
@@ -4431,7 +4432,7 @@ Object {
 }
 
 .c2:focus-visible {
-  outline: 1px solid hsla(0,0%,64%,1);
+  outline: 1px solid hsla(0,0%,15%,1);
   outline-offset: 1px;
 }
 
@@ -4464,17 +4465,17 @@ Object {
   padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(0,0%,64%,1);
+  color: hsla(0,0%,15%,1);
   background-color: transparent;
   border: none;
 }
 
 .c3:hover {
-  background-color: hsla(0,0%,9%,1);
+  background-color: hsla(0,0%,90%,1);
 }
 
 .c3:focus-visible {
-  outline: 1px solid hsla(0,0%,64%,1);
+  outline: 1px solid hsla(0,0%,15%,1);
   outline-offset: 1px;
 }
 
@@ -4553,7 +4554,7 @@ Object {
   color: hsla(0,0%,98%,1);
   border: none;
   width: 100%;
-  box-shadow: 0 0 24px hsla(0,0%,15%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(0,0%,83%,1) 0px 10px 15px -3px,hsla(0,0%,83%,1) 0px 4px 6px -4px;
   background-color: hsla(0,0%,25%,1);
 }
 
@@ -4562,7 +4563,7 @@ Object {
 }
 
 .c0:focus-visible {
-  outline: 1px solid hsla(0,0%,64%,1);
+  outline: 1px solid hsla(0,0%,15%,1);
   outline-offset: 1px;
 }
 
@@ -4595,17 +4596,17 @@ Object {
   padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(0,0%,96%,1);
-  border: 1px solid hsla(0,0%,25%,1);
-}
-
-.c1:hover {
-  background-color: hsla(0,0%,15%,0.2);
+  color: hsla(0,0%,9%,1);
   border: 1px solid hsla(0,0%,64%,1);
 }
 
+.c1:hover {
+  background-color: hsla(0,0%,96%,1);
+  border: 1px solid hsla(0,0%,9%,1);
+}
+
 .c1:focus-visible {
-  outline: 1px solid hsla(0,0%,64%,1);
+  outline: 1px solid hsla(0,0%,15%,1);
   outline-offset: 1px;
 }
 
@@ -4642,6 +4643,7 @@ Object {
   color: hsla(0,0%,98%,1);
   background-color: hsla(0,0%,25%,1);
   border: 1px solid hsla(0,0%,9%,0.4);
+  box-shadow: 0px 1px 0px hsla(0,0%,96%,1);
 }
 
 .c2:hover {
@@ -4649,7 +4651,7 @@ Object {
 }
 
 .c2:focus-visible {
-  outline: 1px solid hsla(0,0%,64%,1);
+  outline: 1px solid hsla(0,0%,15%,1);
   outline-offset: 1px;
 }
 
@@ -4682,17 +4684,17 @@ Object {
   padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(0,0%,64%,1);
+  color: hsla(0,0%,15%,1);
   background-color: transparent;
   border: none;
 }
 
 .c3:hover {
-  background-color: hsla(0,0%,9%,1);
+  background-color: hsla(0,0%,90%,1);
 }
 
 .c3:focus-visible {
-  outline: 1px solid hsla(0,0%,64%,1);
+  outline: 1px solid hsla(0,0%,15%,1);
   outline-offset: 1px;
 }
 
@@ -5829,7 +5831,7 @@ Object {
   color: hsla(0,0%,98%,1);
   border: none;
   width: 100%;
-  box-shadow: 0 0 24px hsla(0,0%,15%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(0,0%,83%,1) 0px 10px 15px -3px,hsla(0,0%,83%,1) 0px 4px 6px -4px;
   background-color: hsla(0,0%,25%,1);
 }
 
@@ -5838,7 +5840,7 @@ Object {
 }
 
 .c0:focus-visible {
-  outline: 1px solid hsla(0,0%,64%,1);
+  outline: 1px solid hsla(0,0%,15%,1);
   outline-offset: 1px;
 }
 
@@ -5890,7 +5892,7 @@ Object {
   color: hsla(0,0%,98%,1);
   border: none;
   width: 100%;
-  box-shadow: 0 0 24px hsla(0,0%,15%,1);
+  box-shadow: rgba(0,0,0,0) 0px 0px 0px 0px,rgba(0,0,0,0) 0px 0px 0px 0px, hsla(0,0%,83%,1) 0px 10px 15px -3px,hsla(0,0%,83%,1) 0px 4px 6px -4px;
   background-color: hsla(0,0%,25%,1);
 }
 
@@ -5899,7 +5901,7 @@ Object {
 }
 
 .c0:focus-visible {
-  outline: 1px solid hsla(0,0%,64%,1);
+  outline: 1px solid hsla(0,0%,15%,1);
   outline-offset: 1px;
 }
 
@@ -6233,17 +6235,17 @@ Object {
   padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(0,0%,96%,1);
-  border: 1px solid hsla(0,0%,25%,1);
-}
-
-.c0:hover {
-  background-color: hsla(0,0%,15%,0.2);
+  color: hsla(0,0%,9%,1);
   border: 1px solid hsla(0,0%,64%,1);
 }
 
+.c0:hover {
+  background-color: hsla(0,0%,96%,1);
+  border: 1px solid hsla(0,0%,9%,1);
+}
+
 .c0:focus-visible {
-  outline: 1px solid hsla(0,0%,64%,1);
+  outline: 1px solid hsla(0,0%,15%,1);
   outline-offset: 1px;
 }
 
@@ -6289,17 +6291,17 @@ Object {
   padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(0,0%,96%,1);
-  border: 1px solid hsla(0,0%,25%,1);
-}
-
-.c0:hover {
-  background-color: hsla(0,0%,15%,0.2);
+  color: hsla(0,0%,9%,1);
   border: 1px solid hsla(0,0%,64%,1);
 }
 
+.c0:hover {
+  background-color: hsla(0,0%,96%,1);
+  border: 1px solid hsla(0,0%,9%,1);
+}
+
 .c0:focus-visible {
-  outline: 1px solid hsla(0,0%,64%,1);
+  outline: 1px solid hsla(0,0%,15%,1);
   outline-offset: 1px;
 }
 
@@ -6400,17 +6402,17 @@ Object {
   padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(0,0%,64%,1);
+  color: hsla(0,0%,15%,1);
   background-color: transparent;
   border: none;
 }
 
 .c0:hover {
-  background-color: hsla(0,0%,9%,1);
+  background-color: hsla(0,0%,90%,1);
 }
 
 .c0:focus-visible {
-  outline: 1px solid hsla(0,0%,64%,1);
+  outline: 1px solid hsla(0,0%,15%,1);
   outline-offset: 1px;
 }
 
@@ -6456,17 +6458,17 @@ Object {
   padding: 0.2em 0.3em;
   border-radius: 0.3em;
   line-height: 1.5em;
-  color: hsla(0,0%,64%,1);
+  color: hsla(0,0%,15%,1);
   background-color: transparent;
   border: none;
 }
 
 .c0:hover {
-  background-color: hsla(0,0%,9%,1);
+  background-color: hsla(0,0%,90%,1);
 }
 
 .c0:focus-visible {
-  outline: 1px solid hsla(0,0%,64%,1);
+  outline: 1px solid hsla(0,0%,15%,1);
   outline-offset: 1px;
 }
 

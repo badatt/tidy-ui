@@ -105,8 +105,8 @@ Object {
   display: flex;
   height: 100%;
   width: 100%;
-  -webkit-animation: 0.8s linear 0s infinite alternate none running eBbwcx;
-  animation: 0.8s linear 0s infinite alternate none running eBbwcx;
+  -webkit-animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  animation: 0.8s linear 0s infinite alternate none running dhGBQd;
   border-radius: 0.5rem;
 }
 
@@ -125,8 +125,8 @@ Object {
   display: flex;
   height: 100%;
   width: 100%;
-  -webkit-animation: 0.8s linear 0s infinite alternate none running eBbwcx;
-  animation: 0.8s linear 0s infinite alternate none running eBbwcx;
+  -webkit-animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  animation: 0.8s linear 0s infinite alternate none running dhGBQd;
   border-radius: 0.5rem;
 }
 

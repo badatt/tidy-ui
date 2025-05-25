@@ -780,7 +780,7 @@ Object {
   border-radius: 0.375em;
   padding-inline-start: 0.5em;
   padding-inline-end: 0.5em;
-  border-color: hsla(215,19%,35%,1);
+  border-color: hsla(213,27%,84%,1);
 }
 
 .c1::-webkit-input-placeholder {
@@ -870,7 +870,7 @@ Object {
   border-radius: 0.375em;
   padding-inline-start: 0.5em;
   padding-inline-end: 0.5em;
-  border-color: hsla(215,19%,35%,1);
+  border-color: hsla(213,27%,84%,1);
 }
 
 .c1::-webkit-input-placeholder {
@@ -5540,7 +5540,7 @@ Object {
   border-radius: 0.375em;
   padding-inline-start: 0.5em;
   padding-inline-end: 0.5em;
-  border-color: hsla(215,19%,35%,1);
+  border-color: hsla(213,27%,84%,1);
 }
 
 .c1::-webkit-input-placeholder {
@@ -5607,7 +5607,7 @@ Object {
   border-radius: 0.375em;
   padding-inline-start: 0.5em;
   padding-inline-end: 0.5em;
-  background-color: hsla(215,25%,27%,1);
+  background-color: hsla(213,27%,84%,1);
 }
 
 .c2::-webkit-input-placeholder {
@@ -5639,7 +5639,7 @@ Object {
 }
 
 .c2:hover {
-  background-color: hsla(215,19%,35%,1);
+  background-color: hsla(214,32%,91%,1);
 }
 
 .c2:focus-visible {
@@ -5672,7 +5672,7 @@ Object {
   font-size: calc(1rem * 1);
   border-bottom: 1px;
   border-bottom-style: solid;
-  border-color: hsla(215,19%,35%,1);
+  border-color: hsla(213,27%,84%,1);
 }
 
 .c3::-webkit-input-placeholder {
@@ -5840,7 +5840,7 @@ Object {
   border-radius: 0.375em;
   padding-inline-start: 0.5em;
   padding-inline-end: 0.5em;
-  border-color: hsla(215,19%,35%,1);
+  border-color: hsla(213,27%,84%,1);
 }
 
 .c1::-webkit-input-placeholder {
@@ -5907,7 +5907,7 @@ Object {
   border-radius: 0.375em;
   padding-inline-start: 0.5em;
   padding-inline-end: 0.5em;
-  background-color: hsla(215,25%,27%,1);
+  background-color: hsla(213,27%,84%,1);
 }
 
 .c2::-webkit-input-placeholder {
@@ -5939,7 +5939,7 @@ Object {
 }
 
 .c2:hover {
-  background-color: hsla(215,19%,35%,1);
+  background-color: hsla(214,32%,91%,1);
 }
 
 .c2:focus-visible {
@@ -5972,7 +5972,7 @@ Object {
   font-size: calc(1rem * 1);
   border-bottom: 1px;
   border-bottom-style: solid;
-  border-color: hsla(215,19%,35%,1);
+  border-color: hsla(213,27%,84%,1);
 }
 
 .c3::-webkit-input-placeholder {
