@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.48.12 (2025-05-25)
+
+**Note:** Version bump only for package @tidy-ui/navigation
+
+
+
+
+
 ## 0.48.11 (2025-05-25)
 
 
