@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.48.11 (2025-05-25)
+
+
+### Bug Fixes
+
+* test fixes ([1663a68](https://github.com/badatt/tidy-ui/commit/1663a68bc133d90ba49a6464156dc0e96f273399))
+
+
+
+
+
 ## 0.48.10 (2025-05-24)
 
 
