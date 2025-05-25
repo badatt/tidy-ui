@@ -43,74 +43,21 @@ const ThemeBlock = styled.div<{ left?: boolean; filled?: boolean; padding?: stri
 );
 
 export const withTheme: DecoratorFn = (StoryFn, context) => {
-  // Get values from story parameter first, else fallback to globals
-  const theme = context.parameters.theme || context.globals.theme;
+  const selectedTheme = context.globals.theme === 'dark' ? orchidDark : orchidLight;
   const padding = ['Layout/Container'].includes(context.title) ? '0' : '1rem';
 
-  switch (theme) {
-    case 'side-by-side': {
-      return (
-        <>
-          <GlobalResetStyle />
-          <GlobalFont />
-          <TidyUiProvider theme={orchidLight} toaster={<Toaster limit={5} />}>
-            <GlobalDefaultStyle />
-            <ThemeBlock left padding={padding}>
-              <StoryFn />
-            </ThemeBlock>
-          </TidyUiProvider>
-          <TidyUiProvider theme={orchidDark} toaster={<Toaster limit={5} />}>
-            <GlobalDefaultStyle />
-            <ThemeBlock padding={padding}>
-              <StoryFn />
-            </ThemeBlock>
-          </TidyUiProvider>
-        </>
-      );
-    }
-    case 'dark': {
-      return (
-        <>
-          <GlobalResetStyle />
-          <GlobalFont />
-          <TidyUiProvider theme={orchidDark} toaster={<Toaster limit={5} />}>
-            <GlobalDefaultStyle />
-            <ThemeBlock filled padding={padding}>
-              <StoryFn />
-            </ThemeBlock>
-          </TidyUiProvider>
-        </>
-      );
-    }
-    case 'light': {
-      return (
-        <>
-          <GlobalResetStyle />
-          <GlobalFont />
-          <TidyUiProvider theme={orchidLight} toaster={<Toaster limit={5} />}>
-            <GlobalDefaultStyle />
-            <ThemeBlock filled padding={padding}>
-              <StoryFn />
-            </ThemeBlock>
-          </TidyUiProvider>
-        </>
-      );
-    }
-    default: {
-      return (
-        <>
-          <GlobalResetStyle />
-          <GlobalFont />
-          <TidyUiProvider theme={orchidLight} toaster={<Toaster limit={5} />}>
-            <GlobalDefaultStyle />
-            <ThemeBlock filled padding={padding}>
-              <StoryFn />
-            </ThemeBlock>
-          </TidyUiProvider>
-        </>
-      );
-    }
-  }
+  return (
+    <>
+      <GlobalResetStyle />
+      <GlobalFont />
+      <TidyUiProvider theme={selectedTheme} toaster={<Toaster limit={5} />}>
+        <GlobalDefaultStyle />
+        <ThemeBlock filled padding={padding}>
+          <StoryFn />
+        </ThemeBlock>
+      </TidyUiProvider>
+    </>
+  );
 };
 
 export const globalTypes = {
@@ -119,13 +66,10 @@ export const globalTypes = {
     description: 'Theme for the components',
     defaultValue: 'light',
     toolbar: {
-      // The icon for the toolbar item
       icon: 'circlehollow',
-      // Array of options
       items: [
         { value: 'light', icon: 'circlehollow', title: 'light' },
         { value: 'dark', icon: 'circle', title: 'dark' },
-        { value: 'side-by-side', icon: 'sidebar', title: 'side by side' },
       ],
     },
   },
