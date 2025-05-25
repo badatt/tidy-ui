@@ -445,6 +445,10 @@ Object {
   stroke-width: 3px;
 }
 
+.c5 .c3 {
+  visibility: hidden;
+}
+
 .c2 {
   display: inline-block;
   -webkit-transition: all 150ms;
@@ -519,6 +523,10 @@ Object {
 .c4 {
   fill: none;
   stroke-width: 3px;
+}
+
+.c5 .c3 {
+  visibility: hidden;
 }
 
 .c2 {
@@ -652,11 +660,15 @@ Object {
   stroke-width: 3px;
 }
 
+.c5 .c3 {
+  visibility: hidden;
+}
+
 .c2 {
   display: inline-block;
   -webkit-transition: all 150ms;
   transition: all 150ms;
-  border: 1px solid hsla(215,20%,65%,1);
+  border: 1px solid hsla(215,19%,35%,1);
   border-radius: calc(0.2em * 1);
   width: calc(1em * 1);
   height: calc(1em * 1);
@@ -726,11 +738,15 @@ Object {
   stroke-width: 3px;
 }
 
+.c5 .c3 {
+  visibility: hidden;
+}
+
 .c2 {
   display: inline-block;
   -webkit-transition: all 150ms;
   transition: all 150ms;
-  border: 1px solid hsla(215,20%,65%,1);
+  border: 1px solid hsla(215,19%,35%,1);
   border-radius: calc(0.2em * 1);
   width: calc(1em * 1);
   height: calc(1em * 1);
@@ -1275,11 +1291,15 @@ Object {
   stroke-width: 3px;
 }
 
+.c5 .c3 {
+  visibility: hidden;
+}
+
 .c2 {
   display: inline-block;
   -webkit-transition: all 150ms;
   transition: all 150ms;
-  background-color: hsla(213,27%,84%,1);
+  background-color: hsla(215,25%,27%,1);
   border-radius: calc(0.2em * 1);
   width: calc(1em * 1);
   height: calc(1em * 1);
@@ -1349,11 +1369,15 @@ Object {
   stroke-width: 3px;
 }
 
+.c5 .c3 {
+  visibility: hidden;
+}
+
 .c2 {
   display: inline-block;
   -webkit-transition: all 150ms;
   transition: all 150ms;
-  background-color: hsla(213,27%,84%,1);
+  background-color: hsla(215,25%,27%,1);
   border-radius: calc(0.2em * 1);
   width: calc(1em * 1);
   height: calc(1em * 1);

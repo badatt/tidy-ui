@@ -791,7 +791,7 @@ Object {
   border: none;
   padding: 0;
   text-align: left;
-  border-bottom: 1px solid hsla(214,32%,91%,1);
+  border-bottom: 1px solid hsla(215,25%,27%,0.5);
   text-align: left;
 }
 
@@ -937,7 +937,7 @@ Object {
   border: none;
   padding: 0;
   text-align: left;
-  border-bottom: 1px solid hsla(214,32%,91%,1);
+  border-bottom: 1px solid hsla(215,25%,27%,0.5);
   text-align: left;
 }
 
@@ -1108,11 +1108,11 @@ Object {
 }
 
 .c1 tr:nth-child(even) td {
-  background-color: hsla(220,14%,96%,0.8);
+  background-color: hsla(221,39%,11%,0.4);
 }
 
 .c1 tr:nth-child(odd) td {
-  background-color: hsla(220,13%,91%,0.8);
+  background-color: hsla(221,39%,11%,0.7);
 }
 
 .c1 td,
@@ -1146,7 +1146,7 @@ Object {
   border: none;
   padding: 0;
   text-align: left;
-  border-bottom: 1px solid hsla(214,32%,91%,1);
+  border-bottom: 1px solid hsla(215,25%,27%,0.5);
   text-align: left;
 }
 
@@ -1262,11 +1262,11 @@ Object {
 }
 
 .c1 tr:nth-child(even) td {
-  background-color: hsla(220,14%,96%,0.8);
+  background-color: hsla(221,39%,11%,0.4);
 }
 
 .c1 tr:nth-child(odd) td {
-  background-color: hsla(220,13%,91%,0.8);
+  background-color: hsla(221,39%,11%,0.7);
 }
 
 .c1 td,
@@ -1300,7 +1300,7 @@ Object {
   border: none;
   padding: 0;
   text-align: left;
-  border-bottom: 1px solid hsla(214,32%,91%,1);
+  border-bottom: 1px solid hsla(215,25%,27%,0.5);
   text-align: left;
 }
 

@@ -614,7 +614,7 @@ Object {
   border-radius: 0.375em;
   padding-inline-start: 0.5em;
   padding-inline-end: 0.5em;
-  border-color: hsla(213,27%,84%,1);
+  border-color: hsla(215,19%,35%,1);
 }
 
 .c3::-webkit-input-placeholder {
@@ -705,7 +705,7 @@ Object {
   width: calc(2.5em * 1);
   font-size: calc(1rem * 1);
   line-height: calc(1.5 * 1);
-  color: hsla(215,20%,65%,1);
+  color: hsla(215,19%,35%,1);
   font-weight: 500;
   pointer-events: none;
 }
@@ -812,7 +812,7 @@ Object {
   border-radius: 0.375em;
   padding-inline-start: 0.5em;
   padding-inline-end: 0.5em;
-  border-color: hsla(213,27%,84%,1);
+  border-color: hsla(215,19%,35%,1);
 }
 
 .c3::-webkit-input-placeholder {
@@ -903,7 +903,7 @@ Object {
   width: calc(2.5em * 1);
   font-size: calc(1rem * 1);
   line-height: calc(1.5 * 1);
-  color: hsla(215,20%,65%,1);
+  color: hsla(215,19%,35%,1);
   font-weight: 500;
   pointer-events: none;
 }
@@ -1516,7 +1516,7 @@ Object {
   border-radius: 0.375em;
   padding-inline-start: 0.5em;
   padding-inline-end: 0.5em;
-  border-color: hsla(213,27%,84%,1);
+  border-color: hsla(215,19%,35%,1);
 }
 
 .c3::-webkit-input-placeholder {
@@ -1616,7 +1616,7 @@ Object {
   border-radius: 0.375em;
   padding-inline-start: 0.5em;
   padding-inline-end: 0.5em;
-  border-color: hsla(213,27%,84%,1);
+  border-color: hsla(215,19%,35%,1);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1631,8 +1631,8 @@ Object {
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  background-color: hsla(214,32%,91%,1);
-  color: hsla(215,19%,35%,1);
+  background-color: hsla(215,25%,27%,1);
+  color: hsla(215,20%,65%,1);
   font-weight: 500;
 }
 
@@ -1776,7 +1776,7 @@ Object {
   border-radius: 0.375em;
   padding-inline-start: 0.5em;
   padding-inline-end: 0.5em;
-  border-color: hsla(213,27%,84%,1);
+  border-color: hsla(215,19%,35%,1);
 }
 
 .c3::-webkit-input-placeholder {
@@ -1876,7 +1876,7 @@ Object {
   border-radius: 0.375em;
   padding-inline-start: 0.5em;
   padding-inline-end: 0.5em;
-  border-color: hsla(213,27%,84%,1);
+  border-color: hsla(215,19%,35%,1);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1891,8 +1891,8 @@ Object {
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  background-color: hsla(214,32%,91%,1);
-  color: hsla(215,19%,35%,1);
+  background-color: hsla(215,25%,27%,1);
+  color: hsla(215,20%,65%,1);
   font-weight: 500;
 }
 

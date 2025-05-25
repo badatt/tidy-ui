@@ -227,7 +227,7 @@ Object {
   -webkit-text-decoration: none;
   text-decoration: none;
   font-size: calc(0.875rem + 0.125rem);
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,64%,1);
   cursor: not-allowed;
   pointer-events: none;
   opacity: 0.6;
@@ -250,7 +250,7 @@ Object {
   -webkit-text-decoration: none;
   text-decoration: none;
   font-size: calc(0.875rem + 0.125rem);
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,64%,1);
   cursor: not-allowed;
   pointer-events: none;
   opacity: 0.6;
@@ -525,7 +525,7 @@ Object {
   -webkit-text-decoration: none;
   text-decoration: none;
   font-size: calc(0.875rem + 0.125rem);
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,64%,1);
   background-image: linear-gradient( hsla(0,0%,45%,0.7), hsla(0,0%,45%,0.7) );
   background-size: 100% 0em;
   background-position-y: 100%;
@@ -596,7 +596,7 @@ Object {
   -webkit-text-decoration: none;
   text-decoration: none;
   font-size: calc(0.875rem + 0.125rem);
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,64%,1);
   background-image: linear-gradient( hsla(0,0%,45%,0.7), hsla(0,0%,45%,0.7) );
   background-size: 100% 0em;
   background-position-y: 100%;
@@ -1177,7 +1177,7 @@ Object {
   -webkit-text-decoration: none;
   text-decoration: none;
   font-size: calc(0.875rem + 0.125rem);
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,64%,1);
   background-image: linear-gradient( hsla(0,0%,45%,0.7), hsla(0,0%,45%,0.7) );
   background-size: 100% 0em;
   background-position-y: 100%;
@@ -1208,7 +1208,7 @@ Object {
   -webkit-text-decoration: none;
   text-decoration: none;
   font-size: calc(0.875rem + 0.125rem);
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,64%,1);
   background-image: linear-gradient( hsla(0,0%,45%,0.7), hsla(0,0%,45%,0.7) );
   background-size: 100% 0em;
   background-position-y: 100%;

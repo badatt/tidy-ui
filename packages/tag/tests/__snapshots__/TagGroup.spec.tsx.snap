@@ -1071,8 +1071,8 @@ Object {
   padding: 0.125rem 0.25rem;
   font-size: .625rem;
   line-height: .875rem;
-  color: hsla(0,0%,15%,1);
-  background-color: hsla(0,0%,96%,1);
+  color: hsla(0,0%,83%,1);
+  background-color: hsla(0,0%,9%,0.3);
   border: 1px solid hsla(0,0%,32%,1);
   gap: 0.25rem;
 }
@@ -1105,7 +1105,7 @@ Object {
 
 .c3 {
   cursor: pointer;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,64%,1);
   opacity: 0.2;
 }
 
@@ -1257,8 +1257,8 @@ Object {
   padding: 0.125rem 0.25rem;
   font-size: .625rem;
   line-height: .875rem;
-  color: hsla(0,0%,15%,1);
-  background-color: hsla(0,0%,96%,1);
+  color: hsla(0,0%,83%,1);
+  background-color: hsla(0,0%,9%,0.3);
   border: 1px solid hsla(0,0%,32%,1);
   gap: 0.25rem;
 }
@@ -1291,7 +1291,7 @@ Object {
 
 .c3 {
   cursor: pointer;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,64%,1);
   opacity: 0.2;
 }
 
@@ -1925,8 +1925,8 @@ Object {
   padding: 0.125rem 0.25rem;
   font-size: .625rem;
   line-height: .875rem;
-  color: hsla(0,0%,15%,1);
-  background-color: hsla(0,0%,96%,1);
+  color: hsla(0,0%,83%,1);
+  background-color: hsla(0,0%,9%,0.3);
   border: 1px solid hsla(0,0%,32%,1);
   gap: 0.25rem;
 }
@@ -1959,7 +1959,7 @@ Object {
 
 .c3 {
   cursor: pointer;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,64%,1);
   opacity: 0.2;
 }
 
@@ -2111,8 +2111,8 @@ Object {
   padding: 0.125rem 0.25rem;
   font-size: .625rem;
   line-height: .875rem;
-  color: hsla(0,0%,15%,1);
-  background-color: hsla(0,0%,96%,1);
+  color: hsla(0,0%,83%,1);
+  background-color: hsla(0,0%,9%,0.3);
   border: 1px solid hsla(0,0%,32%,1);
   gap: 0.25rem;
 }
@@ -2145,7 +2145,7 @@ Object {
 
 .c3 {
   cursor: pointer;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,64%,1);
   opacity: 0.2;
 }
 

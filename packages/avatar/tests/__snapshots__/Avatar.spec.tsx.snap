@@ -1016,8 +1016,8 @@ Object {
   font-size: 3rem;
   height: 3rem;
   width: 3rem;
-  background-color: hsla(215,20%,65%,1);
-  color: hsla(214,32%,91%,1);
+  background-color: hsla(215,19%,35%,1);
+  color: hsla(215,20%,65%,1);
 }
 
 .c2 svg {
@@ -1106,8 +1106,8 @@ Object {
   font-size: 3rem;
   height: 3rem;
   width: 3rem;
-  background-color: hsla(215,20%,65%,1);
-  color: hsla(214,32%,91%,1);
+  background-color: hsla(215,19%,35%,1);
+  color: hsla(215,20%,65%,1);
 }
 
 .c2 svg {
@@ -1236,8 +1236,8 @@ Object {
 
 .c2 {
   border-radius: 50%;
-  -webkit-animation: 0.8s linear 0s infinite alternate none running dhGBQd;
-  animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  -webkit-animation: 0.8s linear 0s infinite alternate none running eBbwcx;
+  animation: 0.8s linear 0s infinite alternate none running eBbwcx;
   font-size: 3rem;
   height: 3rem;
   width: 3rem;
@@ -1312,8 +1312,8 @@ Object {
 
 .c2 {
   border-radius: 50%;
-  -webkit-animation: 0.8s linear 0s infinite alternate none running dhGBQd;
-  animation: 0.8s linear 0s infinite alternate none running dhGBQd;
+  -webkit-animation: 0.8s linear 0s infinite alternate none running eBbwcx;
+  animation: 0.8s linear 0s infinite alternate none running eBbwcx;
   font-size: 3rem;
   height: 3rem;
   width: 3rem;

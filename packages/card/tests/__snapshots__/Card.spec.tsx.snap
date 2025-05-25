@@ -256,9 +256,9 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
-  background-color: hsla(0,100%,100%,1);
+  background-color: hsla(214,13%,20%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(217,33%,17%,1);
+  color: hsla(210,19%,73%,1);
   border-radius: 0.5rem;
 }
 
@@ -341,9 +341,9 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
-  background-color: hsla(0,100%,100%,1);
+  background-color: hsla(214,13%,20%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(217,33%,17%,1);
+  color: hsla(210,19%,73%,1);
   border-radius: 0.5rem;
 }
 
@@ -3225,7 +3225,21 @@ Object {
   width: 1.25rem;
   top: 0.5rem;
   right: 0.5rem;
-  color: hsla(0,0%,64%,1);
+  color: hsla(0,0%,45%,1);
+}
+
+.c8:hover .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c9:hover .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .c0 {
@@ -3244,9 +3258,9 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
-  background-color: hsla(0,100%,100%,1);
+  background-color: hsla(214,13%,20%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(217,33%,17%,1);
+  color: hsla(210,19%,73%,1);
   border-radius: 0.5rem;
   cursor: pointer;
 }
@@ -3274,9 +3288,9 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
-  background-color: hsla(0,100%,100%,1);
+  background-color: hsla(214,13%,20%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(217,33%,17%,1);
+  color: hsla(210,19%,73%,1);
   border-radius: 0.5rem;
 }
 
@@ -3425,7 +3439,21 @@ Object {
   width: 1.25rem;
   top: 0.5rem;
   right: 0.5rem;
-  color: hsla(0,0%,64%,1);
+  color: hsla(0,0%,45%,1);
+}
+
+.c8:hover .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c9:hover .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .c0 {
@@ -3444,9 +3472,9 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
-  background-color: hsla(0,100%,100%,1);
+  background-color: hsla(214,13%,20%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(217,33%,17%,1);
+  color: hsla(210,19%,73%,1);
   border-radius: 0.5rem;
   cursor: pointer;
 }
@@ -3474,9 +3502,9 @@ Object {
   -ms-letter-spacing: 0.00938em;
   letter-spacing: 0.00938em;
   line-height: 1.5;
-  background-color: hsla(0,100%,100%,1);
+  background-color: hsla(214,13%,20%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  color: hsla(217,33%,17%,1);
+  color: hsla(210,19%,73%,1);
   border-radius: 0.5rem;
 }
 

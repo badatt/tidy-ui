@@ -980,7 +980,7 @@ exports[`Divider Dark mode basic render 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c1 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -1039,7 +1039,7 @@ Object {
     </div>
   </body>,
   "container": .c1 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;

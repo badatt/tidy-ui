@@ -295,7 +295,7 @@ Object {
 }
 
 .c2 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px thin;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -450,7 +450,7 @@ Object {
 }
 
 .c2 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px thin;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -660,7 +660,7 @@ Object {
 }
 
 .c2 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px thin;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -815,7 +815,7 @@ Object {
 }
 
 .c2 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px thin;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -1025,7 +1025,7 @@ Object {
 }
 
 .c2 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px thin;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -1132,7 +1132,7 @@ Object {
 }
 
 .c2 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px thin;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -1294,7 +1294,7 @@ Object {
 }
 
 .c3 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px thin;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -1304,7 +1304,7 @@ Object {
 }
 
 .c6 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px medium;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -1314,7 +1314,7 @@ Object {
 }
 
 .c7 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px thick;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -1498,7 +1498,7 @@ Object {
 }
 
 .c3 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px thin;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -1508,7 +1508,7 @@ Object {
 }
 
 .c6 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px medium;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -1518,7 +1518,7 @@ Object {
 }
 
 .c7 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px thick;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -1757,7 +1757,7 @@ Object {
 }
 
 .c3 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px thin;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -1941,7 +1941,7 @@ Object {
 }
 
 .c3 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px thin;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -3395,7 +3395,7 @@ Object {
 }
 
 .c3 {
-  border-color: hsla(269,97%,85%,1);
+  border-color: hsla(272,72%,47%,1);
   border-width: 0px 0px thin;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -3405,7 +3405,7 @@ Object {
 }
 
 .c6 {
-  border-color: hsla(327,87%,82%,1);
+  border-color: hsla(335,78%,42%,1);
   border-width: 0px 0px thin;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -3415,7 +3415,7 @@ Object {
 }
 
 .c8 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px thin;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -3425,7 +3425,7 @@ Object {
 }
 
 .c10 {
-  border-color: hsla(212,96%,78%,1);
+  border-color: hsla(224,76%,48%,1);
   border-width: 0px 0px thin;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -3435,7 +3435,7 @@ Object {
 }
 
 .c12 {
-  border-color: hsla(142,77%,73%,1);
+  border-color: hsla(142,72%,29%,1);
   border-width: 0px 0px thin;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -3445,7 +3445,7 @@ Object {
 }
 
 .c14 {
-  border-color: hsla(46,97%,65%,1);
+  border-color: hsla(26,90%,37%,1);
   border-width: 0px 0px thin;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -3455,7 +3455,7 @@ Object {
 }
 
 .c16 {
-  border-color: hsla(0,94%,82%,1);
+  border-color: hsla(0,74%,42%,1);
   border-width: 0px 0px thin;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -3499,7 +3499,7 @@ Object {
   letter-spacing: 0.03333em;
   line-height: 1.66;
   font-weight: 400;
-  color: hsla(271,81%,56%,1);
+  color: hsla(271,91%,65%,1);
 }
 
 .c7 {
@@ -3511,7 +3511,7 @@ Object {
   letter-spacing: 0.03333em;
   line-height: 1.66;
   font-weight: 400;
-  color: hsla(333,71%,51%,1);
+  color: hsla(330,81%,60%,1);
 }
 
 .c9 {
@@ -3523,7 +3523,7 @@ Object {
   letter-spacing: 0.03333em;
   line-height: 1.66;
   font-weight: 400;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,45%,1);
 }
 
 .c11 {
@@ -3535,7 +3535,7 @@ Object {
   letter-spacing: 0.03333em;
   line-height: 1.66;
   font-weight: 400;
-  color: hsla(221,83%,53%,1);
+  color: hsla(217,91%,60%,1);
 }
 
 .c13 {
@@ -3547,7 +3547,7 @@ Object {
   letter-spacing: 0.03333em;
   line-height: 1.66;
   font-weight: 400;
-  color: hsla(142,76%,36%,1);
+  color: hsla(142,71%,45%,1);
 }
 
 .c15 {
@@ -3559,7 +3559,7 @@ Object {
   letter-spacing: 0.03333em;
   line-height: 1.66;
   font-weight: 400;
-  color: hsla(32,95%,44%,1);
+  color: hsla(38,92%,50%,1);
 }
 
 .c17 {
@@ -3571,7 +3571,7 @@ Object {
   letter-spacing: 0.03333em;
   line-height: 1.66;
   font-weight: 400;
-  color: hsla(0,72%,51%,1);
+  color: hsla(0,84%,60%,1);
 }
 
 <body>
@@ -3860,7 +3860,7 @@ Object {
 }
 
 .c3 {
-  border-color: hsla(269,97%,85%,1);
+  border-color: hsla(272,72%,47%,1);
   border-width: 0px 0px thin;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -3870,7 +3870,7 @@ Object {
 }
 
 .c6 {
-  border-color: hsla(327,87%,82%,1);
+  border-color: hsla(335,78%,42%,1);
   border-width: 0px 0px thin;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -3880,7 +3880,7 @@ Object {
 }
 
 .c8 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px thin;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -3890,7 +3890,7 @@ Object {
 }
 
 .c10 {
-  border-color: hsla(212,96%,78%,1);
+  border-color: hsla(224,76%,48%,1);
   border-width: 0px 0px thin;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -3900,7 +3900,7 @@ Object {
 }
 
 .c12 {
-  border-color: hsla(142,77%,73%,1);
+  border-color: hsla(142,72%,29%,1);
   border-width: 0px 0px thin;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -3910,7 +3910,7 @@ Object {
 }
 
 .c14 {
-  border-color: hsla(46,97%,65%,1);
+  border-color: hsla(26,90%,37%,1);
   border-width: 0px 0px thin;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -3920,7 +3920,7 @@ Object {
 }
 
 .c16 {
-  border-color: hsla(0,94%,82%,1);
+  border-color: hsla(0,74%,42%,1);
   border-width: 0px 0px thin;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -3964,7 +3964,7 @@ Object {
   letter-spacing: 0.03333em;
   line-height: 1.66;
   font-weight: 400;
-  color: hsla(271,81%,56%,1);
+  color: hsla(271,91%,65%,1);
 }
 
 .c7 {
@@ -3976,7 +3976,7 @@ Object {
   letter-spacing: 0.03333em;
   line-height: 1.66;
   font-weight: 400;
-  color: hsla(333,71%,51%,1);
+  color: hsla(330,81%,60%,1);
 }
 
 .c9 {
@@ -3988,7 +3988,7 @@ Object {
   letter-spacing: 0.03333em;
   line-height: 1.66;
   font-weight: 400;
-  color: hsla(0,0%,32%,1);
+  color: hsla(0,0%,45%,1);
 }
 
 .c11 {
@@ -4000,7 +4000,7 @@ Object {
   letter-spacing: 0.03333em;
   line-height: 1.66;
   font-weight: 400;
-  color: hsla(221,83%,53%,1);
+  color: hsla(217,91%,60%,1);
 }
 
 .c13 {
@@ -4012,7 +4012,7 @@ Object {
   letter-spacing: 0.03333em;
   line-height: 1.66;
   font-weight: 400;
-  color: hsla(142,76%,36%,1);
+  color: hsla(142,71%,45%,1);
 }
 
 .c15 {
@@ -4024,7 +4024,7 @@ Object {
   letter-spacing: 0.03333em;
   line-height: 1.66;
   font-weight: 400;
-  color: hsla(32,95%,44%,1);
+  color: hsla(38,92%,50%,1);
 }
 
 .c17 {
@@ -4036,7 +4036,7 @@ Object {
   letter-spacing: 0.03333em;
   line-height: 1.66;
   font-weight: 400;
-  color: hsla(0,72%,51%,1);
+  color: hsla(0,84%,60%,1);
 }
 
 <div>
@@ -4380,7 +4380,7 @@ Object {
 }
 
 .c3 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px thin;
   border-style: dashed;
   -webkit-box-flex: 1;
@@ -4390,7 +4390,7 @@ Object {
 }
 
 .c6 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px thin;
   border-style: dotted;
   -webkit-box-flex: 1;
@@ -4400,7 +4400,7 @@ Object {
 }
 
 .c7 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px thin;
   border-style: double;
   -webkit-box-flex: 1;
@@ -4410,7 +4410,7 @@ Object {
 }
 
 .c8 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px thin;
   border-style: groove;
   -webkit-box-flex: 1;
@@ -4420,7 +4420,7 @@ Object {
 }
 
 .c9 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px thin;
   border-style: hidden;
   -webkit-box-flex: 1;
@@ -4430,7 +4430,7 @@ Object {
 }
 
 .c10 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px thin;
   border-style: ridge;
   -webkit-box-flex: 1;
@@ -4440,7 +4440,7 @@ Object {
 }
 
 .c11 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px thin;
   border-style: solid;
   -webkit-box-flex: 1;
@@ -4772,7 +4772,7 @@ Object {
 }
 
 .c3 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px thin;
   border-style: dashed;
   -webkit-box-flex: 1;
@@ -4782,7 +4782,7 @@ Object {
 }
 
 .c6 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px thin;
   border-style: dotted;
   -webkit-box-flex: 1;
@@ -4792,7 +4792,7 @@ Object {
 }
 
 .c7 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px thin;
   border-style: double;
   -webkit-box-flex: 1;
@@ -4802,7 +4802,7 @@ Object {
 }
 
 .c8 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px thin;
   border-style: groove;
   -webkit-box-flex: 1;
@@ -4812,7 +4812,7 @@ Object {
 }
 
 .c9 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px thin;
   border-style: hidden;
   -webkit-box-flex: 1;
@@ -4822,7 +4822,7 @@ Object {
 }
 
 .c10 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px thin;
   border-style: ridge;
   -webkit-box-flex: 1;
@@ -4832,7 +4832,7 @@ Object {
 }
 
 .c11 {
-  border-color: hsla(0,0%,83%,1);
+  border-color: hsla(0,0%,25%,1);
   border-width: 0px 0px thin;
   border-style: solid;
   -webkit-box-flex: 1;
