@@ -58,7 +58,6 @@ describe('useTheme', () => {
     fireEvent.click(themeChangeBtn);
     expect(tree.getByTestId('is-dark-val')?.textContent).toEqual('true');
     expect(tree.getByTestId('name-val')?.textContent).toEqual('Orchid Dark');
-    
   });
 });
 
