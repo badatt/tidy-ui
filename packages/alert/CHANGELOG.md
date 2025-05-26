@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.48.13 (2025-05-26)
+
+
+### Bug Fixes
+
+* anchor button styling fix ([a908390](https://github.com/badatt/tidy-ui/commit/a9083902a6ec50a7f703aadd3f21409ddd436549))
+
+
+
+
+
 ## 0.48.12 (2025-05-25)
 
 **Note:** Version bump only for package @tidy-ui/alert

@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/modal",
-  "version": "0.48.12",
+  "version": "0.48.13",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:modal",
@@ -14,7 +14,7 @@
     "docs": "jsdoc -X -c ../../jsdoc.conf.json > jsdoc.json"
   },
   "dependencies": {
-    "@tidy-ui/commons": "^0.48.12"
+    "@tidy-ui/commons": "^0.48.13"
   },
   "peerDependencies": {
     "react": "^18.0.0",
