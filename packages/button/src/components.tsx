@@ -12,6 +12,8 @@ const AnchorRoot = styled.a<IAnchorProps>`
     margin: 0 0.5ch;
     display: inline-block;
     text-decoration: none;
+    padding: 0.2em 0.3em;
+    line-height: 1.5em;
     font-size: calc(${sizeStyles[girth!].fontSize} + 0.125rem);
     color: ${isDark ? palette[tone!][400] : palette[tone!][600]};
     ${disabled
