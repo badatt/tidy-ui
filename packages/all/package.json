@@ -29,9 +29,10 @@
   "module": "./dist/index.esm.js",
   "exports": {
     "import": "./dist/index.esm.js",
-    "default": "./dist/index.esm.js"
+    "default": "./dist/index.esm.js",
+    "types": "./dist/src/index.d.ts"
   },
-  "types": "dist/src/index.d.ts",
+  "types": "./dist/src/index.d.ts",
   "license": "MIT",
   "repository": {
     "type": "git",
