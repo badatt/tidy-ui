@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/all",
-  "version": "0.48.13",
+  "version": "0.48.14",
   "readme": "README.md",
   "type": "module",
   "scripts": {
@@ -15,12 +15,12 @@
     "docs": "jsdoc -X -c ../../jsdoc.conf.json > jsdoc.json"
   },
   "dependencies": {
-    "@tidy-ui/commons": "^0.48.13",
-    "@tidy-ui/feedback": "^0.48.13",
-    "@tidy-ui/form": "^0.48.13",
-    "@tidy-ui/layout": "^0.48.13",
-    "@tidy-ui/navigation": "^0.48.13",
-    "@tidy-ui/presentation": "^0.48.13"
+    "@tidy-ui/commons": "^0.48.14",
+    "@tidy-ui/feedback": "^0.48.14",
+    "@tidy-ui/form": "^0.48.14",
+    "@tidy-ui/layout": "^0.48.14",
+    "@tidy-ui/navigation": "^0.48.14",
+    "@tidy-ui/presentation": "^0.48.14"
   },
   "peerDependencies": {
     "react": "^18.0.0",

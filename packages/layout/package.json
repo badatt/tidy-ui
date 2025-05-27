@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/layout",
-  "version": "0.48.13",
+  "version": "0.48.14",
   "readme": "README.md",
   "type": "module",
   "scripts": {
@@ -15,14 +15,14 @@
     "docs": "jsdoc -X -c ../../jsdoc.conf.json > jsdoc.json"
   },
   "dependencies": {
-    "@tidy-ui/border": "^0.48.13",
-    "@tidy-ui/container": "^0.48.13",
-    "@tidy-ui/divider": "^0.48.13",
-    "@tidy-ui/flexbox": "^0.48.13",
-    "@tidy-ui/frame": "^0.48.13",
-    "@tidy-ui/grid": "^0.48.13",
-    "@tidy-ui/loader": "^0.48.13",
-    "@tidy-ui/stack": "^0.48.13"
+    "@tidy-ui/border": "^0.48.14",
+    "@tidy-ui/container": "^0.48.14",
+    "@tidy-ui/divider": "^0.48.14",
+    "@tidy-ui/flexbox": "^0.48.14",
+    "@tidy-ui/frame": "^0.48.14",
+    "@tidy-ui/grid": "^0.48.14",
+    "@tidy-ui/loader": "^0.48.14",
+    "@tidy-ui/stack": "^0.48.14"
   },
   "peerDependencies": {
     "react": "^18.0.0",
