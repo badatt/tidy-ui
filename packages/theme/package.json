@@ -2,6 +2,7 @@
   "name": "@tidy-ui/theme",
   "version": "0.48.13",
   "readme": "README.md",
+  "type": "module",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:theme",
     "build:md": "markdown-include ../../.markdown.json",
@@ -20,8 +21,11 @@
     "react": "^18.0.0",
     "styled-components": "^5.3.3"
   },
-  "main": "./dist/index.esm.js",
   "module": "./dist/index.esm.js",
+  "exports": {
+    "import": "./dist/index.esm.js",
+    "default": "./dist/index.esm.js"
+  },
   "types": "dist/src/index.d.ts",
   "license": "MIT",
   "repository": {
