@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/frame",
-  "version": "0.48.14",
+  "version": "0.48.15",
   "readme": "README.md",
   "type": "module",
   "scripts": {
@@ -15,7 +15,7 @@
     "docs": "jsdoc -X -c ../../jsdoc.conf.json > jsdoc.json"
   },
   "dependencies": {
-    "@tidy-ui/commons": "^0.48.14"
+    "@tidy-ui/commons": "^0.48.15"
   },
   "peerDependencies": {
     "react": "^18.0.0",
