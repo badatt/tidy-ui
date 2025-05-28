@@ -1,5 +1,6 @@
 /* eslint-disable jsdoc/require-description */
 /* eslint-disable jsdoc/require-jsdoc */
+import babel from '@rollup/plugin-babel';
 import commonjs from '@rollup/plugin-commonjs';
 import json from '@rollup/plugin-json';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
@@ -25,11 +26,18 @@ const deps = formattedDeps(packageJson);
 
 const extensions = ['.js', '.jsx', '.ts', '.tsx'];
 
+const cjs = {
+  exports: 'named',
+  format: 'cjs',
+  interop: 'auto',
+};
+
 const esm = {
   format: 'esm',
   interop: 'auto',
 };
 
+const getCJS = (override) => ({ ...cjs, ...override });
 const getESM = (override) => ({ ...esm, ...override });
 
 const commonPlugins = [
@@ -37,6 +45,11 @@ const commonPlugins = [
     exclude: ['**/*.spec.ts', '**/*.spec.tsx', '**/*.stories.tsx', 'dist'],
     outputToFilesystem: true,
     tsconfig: `tsconfig.build.json`,
+  }),
+  babel({
+    babelHelpers: 'bundled',
+    exclude: 'node_modules/**',
+    extensions: ['.js', '.jsx', '.ts', '.tsx'],
   }),
   json(),
   nodePolyfills(),
@@ -92,7 +105,7 @@ const configBase = {
 
 const serverConfig = {
   ...configBase,
-  output: [getESM({ file: 'dist/index.esm.js' })],
+  output: [getESM({ file: 'dist/index.esm.js' }), getCJS({ file: 'dist/index.cjs.js' })],
   plugins: configBase.plugins.concat(
     replace({
       __SERVER__: JSON.stringify(true),

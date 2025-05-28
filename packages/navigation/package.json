@@ -2,7 +2,6 @@
   "name": "@tidy-ui/navigation",
   "version": "0.48.15",
   "readme": "README.md",
-  "type": "module",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:navigation",
     "build:md": "markdown-include ../../.markdown.json",
@@ -25,8 +24,10 @@
     "styled-components": "^5.3.3"
   },
   "module": "./dist/index.esm.js",
+  "main": "./dist/index.cjs.js",
   "exports": {
     "import": "./dist/index.esm.js",
+    "require": "./dist/index.cjs.js",
     "default": "./dist/index.esm.js",
     "types": "./dist/src/index.d.ts"
   },
