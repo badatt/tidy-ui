@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.48.16 (2025-05-28)
+
+**Note:** Version bump only for package @tidy-ui/breadcrumb
+
+
+
+
+
 ## 0.48.15 (2025-05-27)
 
 
