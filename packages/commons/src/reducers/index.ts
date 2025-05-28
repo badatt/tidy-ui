@@ -2,6 +2,7 @@ import { AppActionTypes } from '../actions';
 import pageReducer from '../reducers/page.reducer';
 import rootReducer from '../reducers/root.reducer';
 import { ITidyUITheme, orchidDark, orchidLight } from '../theme';
+import { storage } from '../utils';
 import { IState } from './types';
 
 /**
@@ -26,7 +27,7 @@ const initialState: IState = {
  * @returns {IState} initial state
  */
 const createInitialState = (theme?: ITidyUITheme): IState => {
-  const themeName = localStorage.getItem('tidyui-theme');
+  const themeName = storage.get('tidyui-theme');
   let baseTheme: ITidyUITheme;
   if (themeName) {
     switch (themeName) {
@@ -41,7 +42,7 @@ const createInitialState = (theme?: ITidyUITheme): IState => {
     }
   } else {
     baseTheme = theme ?? orchidLight; // Default to orchidLight if no theme is provided
-    localStorage.setItem('tidyui-theme', baseTheme.name);
+    storage.set('tidyui-theme', baseTheme.name);
   }
   return {
     ...initialState,
