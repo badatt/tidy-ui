@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/notification",
-  "version": "0.48.18",
+  "version": "0.48.19",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:notification",
@@ -14,7 +14,7 @@
     "docs": "jsdoc -X -c ../../jsdoc.conf.json > jsdoc.json"
   },
   "dependencies": {
-    "@tidy-ui/commons": "^0.48.18"
+    "@tidy-ui/commons": "^0.48.19"
   },
   "peerDependencies": {
     "react": "^18.0.0",

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.48.19 (2025-05-29)
+
+**Note:** Version bump only for package @tidy-ui/code
+
+
+
+
+
 ## 0.48.18 (2025-05-29)
 
 **Note:** Version bump only for package @tidy-ui/code
