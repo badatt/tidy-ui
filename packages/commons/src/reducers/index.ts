@@ -42,7 +42,6 @@ const createInitialState = (theme?: ITidyUITheme): IState => {
     }
   } else {
     baseTheme = theme ?? orchidLight; // Default to orchidLight if no theme is provided
-    storage.set('tidyui-theme', baseTheme.name);
   }
   return {
     ...initialState,
