@@ -2,8 +2,6 @@ import * as React from 'react';
 import { Actions } from '../actions';
 import { TidyUiContext } from '../provider';
 import { ITidyUITheme } from '../theme/types';
-import { storage } from '../utils';
-
 /**
  * Interface for the theme attributes
  */
@@ -35,7 +33,6 @@ const useTheme = (): useThemeReturn => {
       payload: { theme: newTheme },
       type: Actions.Page.SetTheme,
     });
-    storage.set('tidyui-theme', newTheme.name);
   }, []);
 
   return { changeTheme, theme: state.pageState.theme! };
