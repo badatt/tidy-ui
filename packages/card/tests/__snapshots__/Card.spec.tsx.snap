@@ -3228,20 +3228,6 @@ Object {
   color: hsla(0,0%,45%,1);
 }
 
-.c8:hover .c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.c9:hover .c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .c0 {
   padding: 1rem;
   display: -webkit-box;
@@ -3440,20 +3426,6 @@ Object {
   top: 0.5rem;
   right: 0.5rem;
   color: hsla(0,0%,45%,1);
-}
-
-.c8:hover .c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.c9:hover .c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .c0 {

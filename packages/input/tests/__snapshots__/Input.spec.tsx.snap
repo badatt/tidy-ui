@@ -5515,57 +5515,6 @@ Object {
   width: 100%;
 }
 
-.c4 {
-  min-width: 0px;
-  outline: transparent solid 2px;
-  outline-offset: 2px;
-  position: relative;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
-  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
-  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
-  -webkit-transition-duration: 200ms;
-  transition-duration: 200ms;
-  border-width: 1px;
-  border-image: initial;
-  background: inherit;
-  color: inherit;
-  width: inherit;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  font-size: calc(1rem * 1);
-}
-
-.c4::-webkit-input-placeholder {
-  color: hsla(215,16%,47%,1);
-  opacity: 1;
-}
-
-.c4::-moz-placeholder {
-  color: hsla(215,16%,47%,1);
-  opacity: 1;
-}
-
-.c4:-ms-input-placeholder {
-  color: hsla(215,16%,47%,1);
-  opacity: 1;
-}
-
-.c4::placeholder {
-  color: hsla(215,16%,47%,1);
-  opacity: 1;
-}
-
-.c4:-ms-input-placeholder {
-  color: hsla(215,16%,47%,1);
-}
-
-.c4::-ms-input-placeholder {
-  color: hsla(215,16%,47%,1);
-}
-
 .c1 {
   min-width: 0px;
   outline: transparent solid 2px;
@@ -5762,6 +5711,57 @@ Object {
   z-index: 1;
   border-color: hsla(217,91%,60%,1);
   box-shadow: hsla(217,91%,60%,1) 0px 1px 0px 0px;
+}
+
+.c4 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: calc(1rem * 1);
+}
+
+.c4::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c4::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
 }
 
 <body>
@@ -5815,57 +5815,6 @@ Object {
   width: 100%;
 }
 
-.c4 {
-  min-width: 0px;
-  outline: transparent solid 2px;
-  outline-offset: 2px;
-  position: relative;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
-  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
-  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
-  -webkit-transition-duration: 200ms;
-  transition-duration: 200ms;
-  border-width: 1px;
-  border-image: initial;
-  background: inherit;
-  color: inherit;
-  width: inherit;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  font-size: calc(1rem * 1);
-}
-
-.c4::-webkit-input-placeholder {
-  color: hsla(215,16%,47%,1);
-  opacity: 1;
-}
-
-.c4::-moz-placeholder {
-  color: hsla(215,16%,47%,1);
-  opacity: 1;
-}
-
-.c4:-ms-input-placeholder {
-  color: hsla(215,16%,47%,1);
-  opacity: 1;
-}
-
-.c4::placeholder {
-  color: hsla(215,16%,47%,1);
-  opacity: 1;
-}
-
-.c4:-ms-input-placeholder {
-  color: hsla(215,16%,47%,1);
-}
-
-.c4::-ms-input-placeholder {
-  color: hsla(215,16%,47%,1);
-}
-
 .c1 {
   min-width: 0px;
   outline: transparent solid 2px;
@@ -6062,6 +6011,57 @@ Object {
   z-index: 1;
   border-color: hsla(217,91%,60%,1);
   box-shadow: hsla(217,91%,60%,1) 0px 1px 0px 0px;
+}
+
+.c4 {
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform;
+  -webkit-transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  border-width: 1px;
+  border-image: initial;
+  background: inherit;
+  color: inherit;
+  width: inherit;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: calc(1rem * 1);
+}
+
+.c4::-webkit-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4::-moz-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4::placeholder {
+  color: hsla(215,16%,47%,1);
+  opacity: 1;
+}
+
+.c4:-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
+}
+
+.c4::-ms-input-placeholder {
+  color: hsla(215,16%,47%,1);
 }
 
 <div>

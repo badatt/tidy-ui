@@ -1789,10 +1789,6 @@ Object {
   background-color: hsla(215,25%,27%,0.2);
 }
 
-.c7:hover .c3 {
-  visibility: visible;
-}
-
 .c0 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -1950,10 +1946,6 @@ Object {
 
 .c4:hover {
   background-color: hsla(215,25%,27%,0.2);
-}
-
-.c7:hover .c3 {
-  visibility: visible;
 }
 
 .c0 {
@@ -3827,34 +3819,6 @@ Object {
   background-color: hsla(215,25%,27%,0.2);
 }
 
-.c23:hover .c2 {
-  visibility: visible;
-}
-
-.c24:hover .c2 {
-  visibility: visible;
-}
-
-.c25:hover .c2 {
-  visibility: visible;
-}
-
-.c26:hover .c2 {
-  visibility: visible;
-}
-
-.c27:hover .c2 {
-  visibility: visible;
-}
-
-.c28:hover .c2 {
-  visibility: visible;
-}
-
-.c29:hover .c2 {
-  visibility: visible;
-}
-
 .c0 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -4603,34 +4567,6 @@ Object {
 
 .c22:hover {
   background-color: hsla(215,25%,27%,0.2);
-}
-
-.c23:hover .c2 {
-  visibility: visible;
-}
-
-.c24:hover .c2 {
-  visibility: visible;
-}
-
-.c25:hover .c2 {
-  visibility: visible;
-}
-
-.c26:hover .c2 {
-  visibility: visible;
-}
-
-.c27:hover .c2 {
-  visibility: visible;
-}
-
-.c28:hover .c2 {
-  visibility: visible;
-}
-
-.c29:hover .c2 {
-  visibility: visible;
 }
 
 .c0 {
@@ -6079,10 +6015,6 @@ Object {
   background-color: hsla(215,25%,27%,0.2);
 }
 
-.c6:hover .c2 {
-  visibility: visible;
-}
-
 .c0 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -6189,10 +6121,6 @@ Object {
 
 .c3:hover {
   background-color: hsla(215,25%,27%,0.2);
-}
-
-.c6:hover .c2 {
-  visibility: visible;
 }
 
 .c0 {

@@ -464,10 +464,6 @@ Object {
   width: 0.75rem;
 }
 
-.c4:hover .c2 {
-  visibility: visible;
-}
-
 .c1 {
   position: relative;
   font-size: 1rem;
@@ -582,10 +578,6 @@ Object {
 .c0 * {
   height: 0.75rem;
   width: 0.75rem;
-}
-
-.c4:hover .c2 {
-  visibility: visible;
 }
 
 .c1 {
@@ -759,10 +751,6 @@ Object {
   width: 0.75rem;
 }
 
-.c4:hover .c2 {
-  visibility: visible;
-}
-
 .c1 {
   position: relative;
   font-size: 1rem;
@@ -877,10 +865,6 @@ Object {
 .c0 * {
   height: 0.75rem;
   width: 0.75rem;
-}
-
-.c4:hover .c2 {
-  visibility: visible;
 }
 
 .c1 {

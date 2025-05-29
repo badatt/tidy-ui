@@ -2081,10 +2081,6 @@ Object {
   color: hsla(0,0%,25%,1);
 }
 
-.c3:hover .c1 {
-  opacity: 1;
-}
-
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2152,10 +2148,6 @@ Object {
   width: 1.5em;
   opacity: 0.8;
   color: hsla(0,0%,25%,1);
-}
-
-.c3:hover .c1 {
-  opacity: 1;
 }
 
 .c0 {

@@ -445,10 +445,6 @@ Object {
   stroke-width: 3px;
 }
 
-.c5 .c3 {
-  visibility: hidden;
-}
-
 .c2 {
   display: inline-block;
   -webkit-transition: all 150ms;
@@ -523,10 +519,6 @@ Object {
 .c4 {
   fill: none;
   stroke-width: 3px;
-}
-
-.c5 .c3 {
-  visibility: hidden;
 }
 
 .c2 {
@@ -660,10 +652,6 @@ Object {
   stroke-width: 3px;
 }
 
-.c5 .c3 {
-  visibility: hidden;
-}
-
 .c2 {
   display: inline-block;
   -webkit-transition: all 150ms;
@@ -736,10 +724,6 @@ Object {
 .c4 {
   fill: none;
   stroke-width: 3px;
-}
-
-.c5 .c3 {
-  visibility: hidden;
 }
 
 .c2 {
@@ -1291,10 +1275,6 @@ Object {
   stroke-width: 3px;
 }
 
-.c5 .c3 {
-  visibility: hidden;
-}
-
 .c2 {
   display: inline-block;
   -webkit-transition: all 150ms;
@@ -1367,10 +1347,6 @@ Object {
 .c4 {
   fill: none;
   stroke-width: 3px;
-}
-
-.c5 .c3 {
-  visibility: hidden;
 }
 
 .c2 {
