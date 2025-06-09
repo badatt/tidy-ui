@@ -6,7 +6,7 @@ const {{ properCase name }} = React.forwardRef<HTMLDivElement, I{{ properCase na
   (props, ref) => {
     const { children, ele, ...rest } = props;
     return (
-      <{{ properCase name }}Root ref={ref} role="{{ name }}" {...rest}>
+      <{{ properCase name }}Root ref={ref} data-tui-name="{{ name }}" role="{{ name }}" {...rest}>
         {ele ? React.cloneElement(ele, {}, children) : children}
       </{{ properCase name }}Root>
     );

@@ -1,0 +1,61 @@
+{
+  "name": "@tidy-ui/menu",
+  "version": "0.0.0",
+  "readme": "README.md",
+  "scripts": {
+    "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:menu",
+    "build:md": "markdown-include ../../.markdown.json",
+    "clean": "rimraf -rf dist && rimraf -rf build",
+    "postinstall": "rm -rf node_modules/@types/react-native",
+    "reset": "yarn clean && rimraf -rf node_modules",
+    "vet": "yarn lint",
+    "yalc:publish": "yarn build && yalc publish",
+    "yalc:push": "yarn build && yalc push",
+    "docs": "jsdoc -X -c ../../jsdoc.conf.json > jsdoc.json"
+  },
+  "dependencies": {
+    "@tidy-ui/commons": "^0.48.19"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "styled-components": "^5.3.3"
+  },
+  "module": "./dist/index.esm.js",
+  "main": "./dist/index.cjs.js",
+  "exports": {
+    "import": "./dist/index.esm.js",
+    "require": "./dist/index.cjs.js",
+    "default": "./dist/index.esm.js",
+    "types": "./dist/src/index.d.ts"
+  },
+  "types": "./dist/src/index.d.ts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/badatt/tidy-ui"
+  },
+  "author": {
+    "name": "Balu Praveen Datty",
+    "email": "dev.badatt@gmail.om",
+    "url": "https://github.com/badatt"
+  },
+  "keywords": [
+    "react",
+    "styled-components",
+    "css-in-js",
+    "react-ui",
+    "components",
+    "ui",
+    "ui-components"
+  ],
+  "description": "tidy-ui react component library; 'menu package",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "jsdoc.json",
+    "README.md"
+  ]
+}
