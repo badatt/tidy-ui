@@ -5,6 +5,7 @@ import { {{ properCase name }} } from '../src';
 const meta: Meta<typeof {{ properCase name }}> = {
   title: '{{ properCase name }}/{{ properCase name }}',
   component: {{ properCase name }},
+  argTypes: {},
 };
 
 export default meta;
@@ -12,7 +13,10 @@ export default meta;
 type Story = StoryObj<typeof {{ properCase name }}>;
 
 export const basic: Story = {
-  render: () => {
+  args: {
+    ...{{ properCase name }}.defaultProps,
+  },
+  render: (args) => {
     return <{{properCase name}}>basic</{{properCase name}}>;
   },
 };
