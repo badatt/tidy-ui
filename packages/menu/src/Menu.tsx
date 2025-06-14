@@ -1,16 +1,18 @@
 import React from 'react';
-import { MenuPopup, MenuTrigger, MenuWrapper } from './components';
+import { useKeyPress } from '@tidy-ui/commons';
+import { MenuPopup, MenuWrapper } from './components';
 import { IMenuProps } from './types';
 
 const Menu = React.forwardRef<HTMLMenuElement, IMenuProps>((props, ref) => {
-  const { children, ele, trigger, ...rest } = props;
+  const { children, ele, trigger, disabledTrigger, isOpen, ...rest } = props;
   const menuRef = React.useRef<HTMLDivElement>(null);
   const triggerRef = React.useRef<HTMLDivElement>(null);
 
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = React.useState(isOpen);
   const [isVisible, setIsVisible] = React.useState(false);
   const [position, setPosition] = React.useState<'bottom' | 'top'>('bottom');
   const [align, setAlign] = React.useState<'left' | 'right'>('left');
+  const escapeKeyPress = useKeyPress('Escape');
 
   /** @internal */
   const toggleMenu = () => setOpen((prev) => !prev);
@@ -32,6 +34,10 @@ const Menu = React.forwardRef<HTMLMenuElement, IMenuProps>((props, ref) => {
   };
 
   React.useEffect(() => {
+    setOpen(isOpen);
+  }, [isOpen]);
+
+  React.useEffect(() => {
     if (open) {
       setIsVisible(true);
     } else {
@@ -47,6 +53,7 @@ const Menu = React.forwardRef<HTMLMenuElement, IMenuProps>((props, ref) => {
         setOpen(false);
       }
     };
+
     if (open) {
       document.addEventListener('mousedown', handleClickOutside);
     }
@@ -54,6 +61,10 @@ const Menu = React.forwardRef<HTMLMenuElement, IMenuProps>((props, ref) => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
   }, [open]);
+
+  React.useEffect(() => {
+    escapeKeyPress && setOpen(false);
+  }, [escapeKeyPress]);
 
   React.useEffect(() => {
     if (open) {
@@ -69,23 +80,43 @@ const Menu = React.forwardRef<HTMLMenuElement, IMenuProps>((props, ref) => {
 
   /** @internal */
   const handleClick = (e) => {
-    trigger.props.onClick?.(e);
+    trigger?.props.onClick?.(e);
     toggleMenu();
   };
 
   /** @internal */
-  const renderChildren = (children): React.ReactNode => {
-    return React.Children.map(children, (c) => {
-      const child = c as React.ReactElement;
-      return React.cloneElement(child, { isSharp: rest.isSharp });
+  const renderChildren = React.useCallback(
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    (c: React.ReactNode) => {
+      const childrenArray = React.Children.toArray(c);
+      return React.Children.map(childrenArray, (c) => {
+        const ele = c as React.ReactElement;
+        return React.cloneElement(ele, {
+          ...ele.props,
+          disabled: rest.disabled ?? ele.props.disabled,
+          isSharp: rest.isSharp ?? ele.props.isSharp,
+        });
+      });
+    },
+    [children],
+  );
+
+  /** @internal */
+  const renderMenuTrigger = () => {
+    return React.cloneElement(trigger ?? <div>Menu</div>, {
+      'data-tui-name': 'MenuTrigger',
+      disabled: disabledTrigger,
+      onClick: handleClick,
+      ref: triggerRef,
+      style: {
+        cursor: 'pointer',
+      },
     });
   };
 
   return (
-    <MenuWrapper data-tui-name="MenuTrigger" ref={menuRef}>
-      <MenuTrigger ref={triggerRef} onClick={handleClick}>
-        {trigger}
-      </MenuTrigger>
+    <MenuWrapper ref={menuRef} data-tui-name="MenuWrapper">
+      {renderMenuTrigger()}
       {isVisible && (
         <MenuPopup role="menu" data-tui-name="Menu" isVisible={open} ref={ref} pos={position} ali={align} {...rest}>
           {ele ? React.cloneElement(ele, {}, renderChildren(children)) : renderChildren(children)}

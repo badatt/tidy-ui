@@ -14,6 +14,8 @@ const MenuItem = React.forwardRef<HTMLLIElement, IMenuItemProps>((props, ref) =>
 
 MenuItem.defaultProps = {
   isSharp: false,
+  tone: 'neutral',
+  variant: 'simple',
 };
 
 MenuItem.displayName = 'MenuItem';

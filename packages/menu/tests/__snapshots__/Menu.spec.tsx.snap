@@ -1,14 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Menu Basic render 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": .c0 {
+exports[`Menu Snapshots matches snapshot for dark theme 1`] = `
+.c0 {
   position: relative;
   display: inline-block;
 }
 
-.c2 {
+.c1 {
   position: absolute;
   z-index: 1000;
   display: -webkit-box;
@@ -18,9 +16,9 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  gap: 2px;
   padding: 0.5rem;
-  background-color: hsla(0,100%,100%,1);
-  border-radius: 0.5rem;
+  background-color: hsla(214,13%,20%,1);
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   -webkit-animation: ikRgWa 0.15s ease-out forwards;
   animation: ikRgWa 0.15s ease-out forwards;
@@ -32,125 +30,7 @@ Object {
   left: 0;
 }
 
-.c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0.5rem;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  cursor: pointer;
-  border-radius: 0.5rem;
-}
-
-.c3:hover {
-  background-color: hsla(213,27%,84%,0.5);
-}
-
-.c4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-right: 0.5em;
-}
-
-.c5 {
-  height: 1px;
-  margin: 0.5rem 0;
-  background-color: hsla(213,27%,84%,1);
-}
-
-.c1 {
-  cursor: pointer;
-}
-
-<body>
-    <div>
-      <div
-        class="c0"
-        data-tui-name="MenuTrigger"
-      >
-        <div
-          class="c1"
-        >
-          <div
-            data-testid="menu-btn"
-          >
-            Menu
-          </div>
-        </div>
-        <menu
-          class="c2"
-          data-tui-name="Menu"
-          role="menu"
-        >
-          <li
-            class="c3"
-            data-tui-name="MenuItem"
-            role="menuitem"
-          >
-            <i
-              class="c4"
-            >
-              <i>
-                icon
-              </i>
-            </i>
-            Home
-          </li>
-          <hr
-            class="c5"
-            data-tui-name="MenuItemSeparator"
-          />
-          <li
-            class="c3"
-            data-tui-name="MenuItem"
-            role="menuitem"
-          >
-            Logout
-          </li>
-        </menu>
-      </div>
-    </div>
-  </body>,
-  "container": .c0 {
-  position: relative;
-  display: inline-block;
-}
-
 .c2 {
-  position: absolute;
-  z-index: 1000;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  padding: 0.5rem;
-  background-color: hsla(0,100%,100%,1);
-  border-radius: 0.5rem;
-  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  -webkit-animation: ikRgWa 0.15s ease-out forwards;
-  animation: ikRgWa 0.15s ease-out forwards;
-  -webkit-transform-origin: top left;
-  -ms-transform-origin: top left;
-  transform-origin: top left;
-  top: 100%;
-  margin-top: 0.5rem;
-  left: 0;
-}
-
-.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -161,14 +41,53 @@ Object {
   -ms-flex-align: center;
   align-items: center;
   cursor: pointer;
-  border-radius: 0.5rem;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(272,72%,47%,1);
+  border: 1px solid hsla(274,66%,32%,0.4);
 }
 
-.c3:hover {
-  background-color: hsla(213,27%,84%,0.5);
+.c2:hover {
+  background-color: hsla(273,67%,39%,1);
 }
 
-.c4 {
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.5rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  color: hsla(0,0%,96%,1);
+  border: 1px solid hsla(0,0%,25%,1);
+}
+
+.c5:hover {
+  background-color: hsla(0,0%,15%,0.2);
+  border: 1px solid hsla(0,0%,64%,1);
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.5rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  color: hsla(0,0%,64%,1);
+  background-color: transparent;
+  border: none;
+}
+
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -180,126 +99,78 @@ Object {
   padding-right: 0.5em;
 }
 
-.c5 {
+.c4 {
   height: 1px;
   margin: 0.5rem 0;
-  background-color: hsla(213,27%,84%,1);
-}
-
-.c1 {
-  cursor: pointer;
+  background-color: hsla(215,25%,27%,1);
+  cursor: block;
 }
 
 <div>
+  <div
+    class="c0"
+    data-tui-name="MenuWrapper"
+  >
     <div
-      class="c0"
+      data-testid="menu-btn"
       data-tui-name="MenuTrigger"
+      style="cursor: pointer;"
     >
-      <div
-        class="c1"
-      >
-        <div
-          data-testid="menu-btn"
-        >
-          Menu
-        </div>
-      </div>
-      <menu
-        class="c2"
-        data-tui-name="Menu"
-        role="menu"
-      >
-        <li
-          class="c3"
-          data-tui-name="MenuItem"
-          role="menuitem"
-        >
-          <i
-            class="c4"
-          >
-            <i>
-              icon
-            </i>
-          </i>
-          Home
-        </li>
-        <hr
-          class="c5"
-          data-tui-name="MenuItemSeparator"
-        />
-        <li
-          class="c3"
-          data-tui-name="MenuItem"
-          role="menuitem"
-        >
-          Logout
-        </li>
-      </menu>
+      Menu
     </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
+    <menu
+      class="c1"
+      data-tui-name="Menu"
+      role="menu"
+    >
+      <li
+        class="c2"
+        data-testid="home-item"
+        data-tui-name="MenuItem"
+        role="menuitem"
+      >
+        <i
+          class="c3"
+        >
+          <i>
+            icon
+          </i>
+        </i>
+        Home
+      </li>
+      <hr
+        class="c4"
+        data-tui-name="MenuItemSeparator"
+      />
+      <li
+        class="c5"
+        data-testid="logout-item"
+        data-tui-name="MenuItem"
+        role="menuitem"
+      >
+        Logout
+      </li>
+      <li
+        class="c6"
+        data-testid="disabled-item"
+        data-tui-name="MenuItem"
+        disabled=""
+        role="menuitem"
+      >
+        Disabled Item
+      </li>
+    </menu>
+  </div>
+</div>
 `;
 
-exports[`Menu Dark mode basic render 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": .c0 {
+exports[`Menu Snapshots matches snapshot for light theme 1`] = `
+.c0 {
   position: relative;
   display: inline-block;
 }
 
-.c2 {
+.c1 {
   position: absolute;
   z-index: 1000;
   display: -webkit-box;
@@ -309,8 +180,9 @@ Object {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  gap: 2px;
   padding: 0.5rem;
-  background-color: hsla(214,13%,20%,1);
+  background-color: hsla(0,100%,100%,1);
   border-radius: 0.5rem;
   box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
   -webkit-animation: ikRgWa 0.15s ease-out forwards;
@@ -323,125 +195,7 @@ Object {
   left: 0;
 }
 
-.c3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0.5rem;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  cursor: pointer;
-  border-radius: 0.5rem;
-}
-
-.c3:hover {
-  background-color: hsla(215,25%,27%,0.5);
-}
-
-.c4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-right: 0.5em;
-}
-
-.c5 {
-  height: 1px;
-  margin: 0.5rem 0;
-  background-color: hsla(215,25%,27%,1);
-}
-
-.c1 {
-  cursor: pointer;
-}
-
-<body>
-    <div>
-      <div
-        class="c0"
-        data-tui-name="MenuTrigger"
-      >
-        <div
-          class="c1"
-        >
-          <div
-            data-testid="menu-btn"
-          >
-            Menu
-          </div>
-        </div>
-        <menu
-          class="c2"
-          data-tui-name="Menu"
-          role="menu"
-        >
-          <li
-            class="c3"
-            data-tui-name="MenuItem"
-            role="menuitem"
-          >
-            <i
-              class="c4"
-            >
-              <i>
-                icon
-              </i>
-            </i>
-            Home
-          </li>
-          <hr
-            class="c5"
-            data-tui-name="MenuItemSeparator"
-          />
-          <li
-            class="c3"
-            data-tui-name="MenuItem"
-            role="menuitem"
-          >
-            Logout
-          </li>
-        </menu>
-      </div>
-    </div>
-  </body>,
-  "container": .c0 {
-  position: relative;
-  display: inline-block;
-}
-
 .c2 {
-  position: absolute;
-  z-index: 1000;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  padding: 0.5rem;
-  background-color: hsla(214,13%,20%,1);
-  border-radius: 0.5rem;
-  box-shadow: rgb(255,255,255) 0px 0px 0px 0px,rgba(15,23,42,0.05) 0px 0px 0px 1px,rgba(0,0,0,0.1) 0px 20px 25px -5px,rgba(0,0,0,0.1) 0px 8px 10px -6px;
-  -webkit-animation: ikRgWa 0.15s ease-out forwards;
-  animation: ikRgWa 0.15s ease-out forwards;
-  -webkit-transform-origin: top left;
-  -ms-transform-origin: top left;
-  transform-origin: top left;
-  top: 100%;
-  margin-top: 0.5rem;
-  left: 0;
-}
-
-.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -453,13 +207,56 @@ Object {
   align-items: center;
   cursor: pointer;
   border-radius: 0.5rem;
+  font-weight: 600;
+  color: hsla(270,100%,98%,1);
+  background-color: hsla(272,72%,47%,1);
+  border: 1px solid hsla(274,66%,32%,0.4);
+  box-shadow: 0px 1px 0px hsla(269,100%,95%,1);
 }
 
-.c3:hover {
-  background-color: hsla(215,25%,27%,0.5);
+.c2:hover {
+  background-color: hsla(273,67%,39%,1);
 }
 
-.c4 {
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.5rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  color: hsla(0,0%,9%,1);
+  border: 1px solid hsla(0,0%,64%,1);
+}
+
+.c5:hover {
+  background-color: hsla(0,0%,96%,1);
+  border: 1px solid hsla(0,0%,9%,1);
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.5rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  color: hsla(0,0%,15%,1);
+  background-color: transparent;
+  border: none;
+}
+
+.c3 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -471,113 +268,67 @@ Object {
   padding-right: 0.5em;
 }
 
-.c5 {
+.c4 {
   height: 1px;
   margin: 0.5rem 0;
-  background-color: hsla(215,25%,27%,1);
-}
-
-.c1 {
-  cursor: pointer;
+  background-color: hsla(213,27%,84%,1);
+  cursor: block;
 }
 
 <div>
+  <div
+    class="c0"
+    data-tui-name="MenuWrapper"
+  >
     <div
-      class="c0"
+      data-testid="menu-btn"
       data-tui-name="MenuTrigger"
+      style="cursor: pointer;"
     >
-      <div
-        class="c1"
-      >
-        <div
-          data-testid="menu-btn"
-        >
-          Menu
-        </div>
-      </div>
-      <menu
-        class="c2"
-        data-tui-name="Menu"
-        role="menu"
-      >
-        <li
-          class="c3"
-          data-tui-name="MenuItem"
-          role="menuitem"
-        >
-          <i
-            class="c4"
-          >
-            <i>
-              icon
-            </i>
-          </i>
-          Home
-        </li>
-        <hr
-          class="c5"
-          data-tui-name="MenuItemSeparator"
-        />
-        <li
-          class="c3"
-          data-tui-name="MenuItem"
-          role="menuitem"
-        >
-          Logout
-        </li>
-      </menu>
+      Menu
     </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
+    <menu
+      class="c1"
+      data-tui-name="Menu"
+      role="menu"
+    >
+      <li
+        class="c2"
+        data-testid="home-item"
+        data-tui-name="MenuItem"
+        role="menuitem"
+      >
+        <i
+          class="c3"
+        >
+          <i>
+            icon
+          </i>
+        </i>
+        Home
+      </li>
+      <hr
+        class="c4"
+        data-tui-name="MenuItemSeparator"
+      />
+      <li
+        class="c5"
+        data-testid="logout-item"
+        data-tui-name="MenuItem"
+        role="menuitem"
+      >
+        Logout
+      </li>
+      <li
+        class="c6"
+        data-testid="disabled-item"
+        data-tui-name="MenuItem"
+        disabled=""
+        role="menuitem"
+      >
+        Disabled Item
+      </li>
+    </menu>
+  </div>
+</div>
 `;

@@ -1,15 +1,31 @@
 import React, { HTMLAttributes } from 'react';
-import { IBaseProps } from '@tidy-ui/types';
+import { IBaseProps, TTone } from '@tidy-ui/types';
 
 /**
  * Props for the Menu component.
  *
  * The Menu component provides a container for menu items with customizable styling
- * and trigger elements. It extends base props and HTML menu element attributes.
+ * and trigger elements.
  *
  * @interface IMenuProps
  */
 export interface IMenuProps extends IBaseProps, HTMLAttributes<HTMLMenuElement> {
+  /**
+   * Controls whether the trigger element is disabled, preventing it from opening the menu.
+   *
+   * @type {boolean}
+   * @default false
+   */
+  disabledTrigger?: boolean;
+
+  /**
+   * Controls whether the menu is open or closed.
+   *
+   * @type {boolean}
+   * @default false
+   */
+  isOpen?: boolean;
+
   /**
    * Controls whether the menu has sharp (squared) corners or rounded corners.
    * When true, the menu will display with sharp corners instead of the default rounded appearance.
@@ -32,7 +48,7 @@ export interface IMenuProps extends IBaseProps, HTMLAttributes<HTMLMenuElement> 
    * </Menu>
    * ```
    */
-  trigger: React.ReactElement<React.HTMLAttributes<HTMLElement>>;
+  trigger?: JSX.Element;
 }
 
 /**
@@ -77,8 +93,7 @@ export interface IMenuPopupProps extends IMenuProps {
  * Props for individual MenuItem components.
  *
  * The MenuItem component represents a single selectable item within a menu.
- * It extends base props and HTML list item attributes since menu items
- * are typically rendered as list items for semantic correctness.
+ * It typically rendered as list items for semantic correctness.
  *
  * @interface IMenuItemProps
  */
@@ -106,4 +121,18 @@ export interface IMenuItemProps extends IBaseProps, HTMLAttributes<HTMLLIElement
    * @default false
    */
   isSharp?: boolean;
+
+  /**
+   * The tone of the menu item, which determines the color and appearance.
+   *
+   * @type {TTone}
+   */
+  tone?: TTone;
+
+  /**
+   * The variant of the menu item, which determines the visual style.
+   *
+   * @type {'primary' | 'outlined' | 'simple'}
+   */
+  variant?: 'primary' | 'outlined' | 'simple';
 }

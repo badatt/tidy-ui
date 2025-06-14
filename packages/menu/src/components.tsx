@@ -1,5 +1,6 @@
 import { keyframes } from 'styled-components';
 import { applyStandardOverrideStyles, color, css, hsla, styled } from '@tidy-ui/commons';
+import { outlined, primary, simple } from './styles';
 import { IMenuItemProps, IMenuPopupProps } from './types';
 
 const fadeInScale = keyframes`
@@ -35,6 +36,7 @@ const MenuPopup = styled.menu<IMenuPopupProps>`
   z-index: 1000;
   display: flex;
   flex-direction: column;
+  gap: 2px;
   padding: 0.5rem;
   ${({ theme: { palette, layout }, isSharp }) => css`
     background-color: ${palette.background.paper};
@@ -70,11 +72,11 @@ const MenuItemRoot = styled.li<IMenuItemProps>`
   padding: 0.5rem;
   align-items: center;
   cursor: pointer;
-  ${({ theme: { layout, isDark }, isSharp }) => css`
+  ${({ theme: { layout }, isSharp, variant }) => css`
     border-radius: ${!isSharp && layout.radius};
-    &:hover {
-      background-color: ${hsla(color.slate[getShade(isDark)], 0.5)};
-    }
+    ${variant === 'simple' && simple}
+    ${variant === 'primary' && primary}
+    ${variant === 'outlined' && outlined}
   `}
 
   ${applyStandardOverrideStyles}
@@ -89,17 +91,14 @@ const MenuItemIcon = styled.i<IMenuItemProps>`
 /** @internal */
 const getShade = (isDark: boolean) => (isDark ? 700 : 300);
 
-const MenuItemSeparatorRoot = styled.hr`
+const MenuItemSeparatorRoot = styled.hr<IMenuItemProps>`
   height: 1px;
   margin: 0.5rem 0;
   ${({ theme: { isDark } }) => css`
     background-color: ${hsla(color.slate[getShade(isDark)])};
   `}
   ${applyStandardOverrideStyles}
+  cursor: block;
 `;
 
-const MenuTrigger = styled.div`
-  cursor: pointer;
-`;
-
-export { MenuItemIcon, MenuItemRoot, MenuItemSeparatorRoot, MenuPopup, MenuTrigger, MenuWrapper };
+export { MenuItemIcon, MenuItemRoot, MenuItemSeparatorRoot, MenuPopup, MenuWrapper };

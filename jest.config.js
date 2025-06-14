@@ -6,6 +6,8 @@ const basePath = path.resolve(__dirname, 'packages');
 const packages = readdirSync(basePath).filter((name) => lstatSync(path.join(basePath, name)).isDirectory());
 
 module.exports = {
+  coverageProvider: 'v8',
+  coverageReporters: ['lcov', 'text', 'html'],
   moduleNameMapper: {
     '^.+\\.(css|less|scss)$': 'babel-jest',
     ...packages.reduce(

@@ -1,4 +1,4 @@
-import { applyStandardOverrideStyles, color, createFontStyle, css, hsla, styled } from '@tidy-ui/commons';
+import { applyStandardOverrideStyles, color, css, hsla, styled } from '@tidy-ui/commons';
 import { IPanelBodyProps, IPanelGroupProps, IPanelHeaderProps, IPanelProps } from './types';
 
 const PanelRoot = styled.div<IPanelProps>`
@@ -51,7 +51,6 @@ const PanelBodyRoot = styled.div<IPanelBodyProps>`
   transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
   visibility: visible;
   border-left: 2px solid transparent;
-  ${createFontStyle()}
   ${({ theme: { palette }, accent, isVisible, height }) => css`
     visibility: ${isVisible ? 'visible' : 'hidden'};
     opacity: ${isVisible ? '1' : '0'};
