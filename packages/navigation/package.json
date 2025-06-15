@@ -16,6 +16,7 @@
   "dependencies": {
     "@tidy-ui/breadcrumb": "^0.48.21",
     "@tidy-ui/drawer": "^0.48.21",
+    "@tidy-ui/menu": "^0.48.21",
     "@tidy-ui/modal": "^0.48.21",
     "@tidy-ui/tabs": "^0.48.21"
   },
