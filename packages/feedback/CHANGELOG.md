@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.48.23 (2025-06-15)
+
+
+### Features
+
+* release minor for table stretched ([4c1ea6e](https://github.com/badatt/tidy-ui/commit/4c1ea6e93c35791dd034b5d3fc160655def29959))
+
+
+
+
+
 ## 0.48.22 (2025-06-15)
 
 

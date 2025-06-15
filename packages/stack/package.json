@@ -1,6 +1,6 @@
 {
   "name": "@tidy-ui/stack",
-  "version": "0.48.22",
+  "version": "0.48.23",
   "readme": "README.md",
   "scripts": {
     "build": "yarn clean && rollup -c ../../rollup.config.js --environment PACKAGE_NAME:stack",
@@ -14,7 +14,7 @@
     "docs": "jsdoc -X -c ../../jsdoc.conf.json > jsdoc.json"
   },
   "dependencies": {
-    "@tidy-ui/commons": "^0.48.22"
+    "@tidy-ui/commons": "^0.48.23"
   },
   "peerDependencies": {
     "react": "^18.0.0",
