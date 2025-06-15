@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.48.22 (2025-06-15)
+
+
+### Features
+
+* release minor for navigation ([c98fa54](https://github.com/badatt/tidy-ui/commit/c98fa54bc6e0cd6e44307f6bfd490824986abe9a))
+
+
+
+
+
 ## 0.48.21 (2025-06-14)
 
 
