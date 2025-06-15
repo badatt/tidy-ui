@@ -98,13 +98,13 @@ const Tfoot = styled.tfoot`
 
 /** @internal */
 const TableCaption = styled.div<{
-  /** @internal */ 
-  isStretched?: boolean } 
->`
+  /** @internal */
+  isStretched?: boolean;
+}>`
   ${createFontStyle('caption')}
   flex-shrink:0;
   width: 100%;
-  ${({isStretched}) => css`
+  ${({ isStretched }) => css`
     width: ${isStretched ? '100%' : 'auto'};
   `}
   text-align: center;

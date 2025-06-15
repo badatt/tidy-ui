@@ -45,7 +45,7 @@ export interface IMenuProps extends IBaseProps, HTMLAttributes<HTMLMenuElement> 
    * The trigger element that will open/close the menu when interacted with.
    * This should be a React element that can receive HTML attributes (like buttons, divs, etc.).
    * The trigger element will typically handle click events to show/hide the menu.
-   * 
+   *
    * @type {React.ReactElement}
    * @default `<div>Menu</div>`
    * @public

@@ -31,7 +31,7 @@ export interface ITableProps extends Omit<IBaseProps, 'border'>, TableHTMLAttrib
   /**
    * Determines whether the table rows should have a stretched appearance.
    * Stretched rows take up the full width of the table, making it easier for users to read and navigate the table content.
-   * 
+   *
    * @type {boolean}
    * @default false
    * @public

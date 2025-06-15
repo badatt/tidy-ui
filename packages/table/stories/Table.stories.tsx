@@ -3,7 +3,6 @@ import data from './nobel-laureate.data.json';
 import { Table, Td, Th, Tr, Thead, Tbody, Tfoot } from '../src';
 import { ITableProps } from '../src/types';
 
-
 const meta: Meta<ITableProps & { rowCount: number }> = {
   title: 'Presentation/Table',
   component: Table,
@@ -61,7 +60,7 @@ const TableData = (props: { count }) => (
 export const DefaultTable: Story = {
   args: {
     ...Table.defaultProps,
-    rowCount: 10
+    rowCount: 10,
   },
   render: (args) => {
     return (
@@ -70,4 +69,4 @@ export const DefaultTable: Story = {
       </Table>
     );
   },
-}
+};
