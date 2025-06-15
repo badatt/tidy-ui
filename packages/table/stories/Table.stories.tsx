@@ -1,18 +1,24 @@
-import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
 import data from './nobel-laureate.data.json';
-import { Text } from '../../text/src';
-import { TabsGroup, Tabs, Tab, TabPanel, TabPanels } from '../../tabs/src';
 import { Table, Td, Th, Tr, Thead, Tbody, Tfoot } from '../src';
+import { ITableProps } from '../src/types';
 
-const meta: Meta<typeof Table> = {
+
+const meta: Meta<ITableProps & { rowCount: number }> = {
   title: 'Presentation/Table',
   component: Table,
+  argTypes: {
+    caption: { control: 'text' },
+    rowCount: { control: 'number', max: 100, min: 1 },
+    girth: { control: 'select', options: ['sm', 'md', 'lg'] },
+    isStriped: { control: 'boolean' },
+    isStretched: { control: 'boolean' },
+  },
 };
 
 export default meta;
 
-type Story = StoryObj<typeof Table>;
+type Story = StoryObj<ITableProps & { rowCount: number }>;
 
 const TableData = (props: { count }) => (
   <>
@@ -22,7 +28,6 @@ const TableData = (props: { count }) => (
         <Th>Gender</Th>
         <Th>Prize year</Th>
         <Th>Prize category</Th>
-        <Th>Motivation</Th>
         <Th>Born</Th>
         <Th>Birth place</Th>
         <Th>Died</Th>
@@ -38,7 +43,6 @@ const TableData = (props: { count }) => (
           <Td>{d.gender}</Td>
           <Td>{d.prizes[0].year}</Td>
           <Td>{d.prizes[0].category}</Td>
-          <Td ele={<Text.Body1 width="250px" tnc />}>{d.prizes[0].motivation}</Td>
           <Td>{d.born}</Td>
           <Td>
             {d.bornCity}, {d.bornCountry}
@@ -54,63 +58,16 @@ const TableData = (props: { count }) => (
   </>
 );
 
-export const basic: Story = {
-  render: () => {
+export const DefaultTable: Story = {
+  args: {
+    ...Table.defaultProps,
+    rowCount: 10
+  },
+  render: (args) => {
     return (
-      <Table>
-        <TableData count={100} />
+      <Table {...args}>
+        <TableData count={args.rowCount} />
       </Table>
     );
   },
-};
-
-export const striped: Story = {
-  render: () => {
-    return (
-      <Table isStriped>
-        <TableData count={100} />
-      </Table>
-    );
-  },
-};
-
-export const girths: Story = {
-  render: () => {
-    return (
-      <TabsGroup>
-        <Tabs hasFullWidth>
-          <Tab>Medium (md)</Tab>
-          <Tab>Small (sm)</Tab>
-          <Tab>Large (lg)</Tab>
-        </Tabs>
-        <TabPanels>
-          <TabPanel>
-            <Table>
-              <TableData count={100} />
-            </Table>
-          </TabPanel>
-          <TabPanel>
-            <Table girth="sm">
-              <TableData count={100} />
-            </Table>
-          </TabPanel>
-          <TabPanel>
-            <Table girth="lg">
-              <TableData count={100} />
-            </Table>
-          </TabPanel>
-        </TabPanels>
-      </TabsGroup>
-    );
-  },
-};
-
-export const caption: Story = {
-  render: () => {
-    return (
-      <Table caption="Nobel laureates and their personal details">
-        <TableData count={10} />
-      </Table>
-    );
-  },
-};
+}

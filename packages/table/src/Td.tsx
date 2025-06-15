@@ -5,7 +5,7 @@ import { ITdProps } from './types';
 const Td = React.forwardRef<HTMLTableCellElement, ITdProps>((props, ref) => {
   const { children, ele, ...rest } = props;
   return (
-    <TdRoot ref={ref} role="cell" {...rest}>
+    <TdRoot ref={ref} data-tui-name="Td" {...rest}>
       {ele ? React.cloneElement(ele, {}, children) : children}
     </TdRoot>
   );

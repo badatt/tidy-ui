@@ -15,6 +15,8 @@ export interface IMenuProps extends IBaseProps, HTMLAttributes<HTMLMenuElement> 
    *
    * @type {boolean}
    * @default false
+   * @public
+   * @since 0.48.22
    */
   disabledTrigger?: boolean;
 
@@ -23,6 +25,8 @@ export interface IMenuProps extends IBaseProps, HTMLAttributes<HTMLMenuElement> 
    *
    * @type {boolean}
    * @default false
+   * @public
+   * @since 0.48.22
    */
   isOpen?: boolean;
 
@@ -32,6 +36,8 @@ export interface IMenuProps extends IBaseProps, HTMLAttributes<HTMLMenuElement> 
    *
    * @type {boolean}
    * @default false
+   * @public
+   * @since 0.48.22
    */
   isSharp?: boolean;
 
@@ -39,14 +45,17 @@ export interface IMenuProps extends IBaseProps, HTMLAttributes<HTMLMenuElement> 
    * The trigger element that will open/close the menu when interacted with.
    * This should be a React element that can receive HTML attributes (like buttons, divs, etc.).
    * The trigger element will typically handle click events to show/hide the menu.
-   *
+   * 
    * @type {React.ReactElement}
+   * @default `<div>Menu</div>`
+   * @public
    * @example
    * ```tsx
    * <Menu trigger={<button>Open Menu</button>}>
    *   // menu items
    * </Menu>
    * ```
+   * @since 0.48.22
    */
   trigger?: JSX.Element;
 }
@@ -67,6 +76,7 @@ export interface IMenuPopupProps extends IMenuProps {
    * - 'right': Aligns the menu to the right edge of the trigger
    *
    * @type {'left' | 'right'}
+   * @private
    */
   ali: 'left' | 'right';
 
@@ -76,6 +86,7 @@ export interface IMenuPopupProps extends IMenuProps {
    * This is typically controlled by the parent component's state.
    *
    * @type {boolean}
+   * @private
    */
   isVisible: boolean;
 
@@ -85,6 +96,7 @@ export interface IMenuPopupProps extends IMenuProps {
    * - 'bottom': Positions the menu below the trigger element
    *
    * @type {'top' | 'bottom'}
+   * @private
    */
   pos: 'top' | 'bottom';
 }
@@ -104,11 +116,13 @@ export interface IMenuItemProps extends IBaseProps, HTMLAttributes<HTMLLIElement
    * Can be any JSX element, commonly an icon component or SVG.
    *
    * @type {JSX.Element}
+   * @public
    * @example
    * ```tsx
    * <MenuItem icon={<HomeIcon />}>Home</MenuItem>
    * <MenuItem icon={<SettingsIcon />}>Settings</MenuItem>
    * ```
+   * @since 0.48.22
    */
   icon?: JSX.Element;
 
@@ -119,6 +133,8 @@ export interface IMenuItemProps extends IBaseProps, HTMLAttributes<HTMLLIElement
    *
    * @type {boolean}
    * @default false
+   * @public
+   * @since 0.48.22
    */
   isSharp?: boolean;
 
@@ -126,6 +142,9 @@ export interface IMenuItemProps extends IBaseProps, HTMLAttributes<HTMLLIElement
    * The tone of the menu item, which determines the color and appearance.
    *
    * @type {TTone}
+   * @default 'neutral'
+   * @public
+   * @since 0.48.22
    */
   tone?: TTone;
 
@@ -133,6 +152,9 @@ export interface IMenuItemProps extends IBaseProps, HTMLAttributes<HTMLLIElement
    * The variant of the menu item, which determines the visual style.
    *
    * @type {'primary' | 'outlined' | 'simple'}
+   * @default 'simple'
+   * @public
+   * @since 0.48.22
    */
   variant?: 'primary' | 'outlined' | 'simple';
 }

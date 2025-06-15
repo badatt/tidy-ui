@@ -1,16 +1,16 @@
 import React from 'react';
-import { TableCaption, TableContainer, TableRoot } from './components';
+import { TableCaption, TableRoot } from './components';
 import { ITableProps } from './types';
 
 const Table = React.forwardRef<HTMLDivElement, ITableProps>((props, ref) => {
   const { children, caption, ...rest } = props;
   return (
-    <TableContainer>
-      <TableRoot ref={ref} role="table" {...rest}>
+    <>
+      <TableRoot data-tui-name="Table" ref={ref} {...rest}>
         {children}
       </TableRoot>
-      {caption && <TableCaption>{caption}</TableCaption>}
-    </TableContainer>
+      {caption && <TableCaption data-tui-name="TableCaption">{caption}</TableCaption>}
+    </>
   );
 });
 

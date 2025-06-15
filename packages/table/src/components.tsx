@@ -7,20 +7,12 @@ const sizeScale = {
   sm: 0.5,
 };
 
-const TableContainer = styled.div`
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  max-width: 100%;
+const TableRoot = styled.table<ITableProps>`
+  border: none;
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
-`;
-
-const TableRoot = styled.table<ITableProps>`
-  border: none;
-  ${({ theme: { isDark }, girth, isStriped }) => css`
+  ${({ theme: { isDark }, girth, isStriped, isStretched }) => css`
     ${isStriped &&
     css`
       tr:nth-child(even) td {
@@ -29,6 +21,10 @@ const TableRoot = styled.table<ITableProps>`
       tr:nth-child(odd) td {
         background-color: ${isDark ? hsla(color.gray[900], 0.7) : hsla(color.gray[200], 0.8)};
       }
+    `}
+    ${isStretched &&
+    css`
+      width: 100%;
     `}
     td, th {
       padding: calc(0.8em * ${sizeScale[girth!]}) 1em;
@@ -100,11 +96,19 @@ const Tfoot = styled.tfoot`
   ${applyStandardOverrideStyles}
 `;
 
-const TableCaption = styled.div`
+/** @internal */
+const TableCaption = styled.div<{
+  /** @internal */ 
+  isStretched?: boolean } 
+>`
   ${createFontStyle('caption')}
   flex-shrink:0;
   width: 100%;
+  ${({isStretched}) => css`
+    width: ${isStretched ? '100%' : 'auto'};
+  `}
+  text-align: center;
   padding: 1rem 2rem;
 `;
 
-export { Resizer, TableCaption, TableContainer, TableRoot, Tbody, TdRoot, Tfoot, Thead, ThRoot, TrRoot };
+export { Resizer, TableCaption, TableRoot, Tbody, TdRoot, Tfoot, Thead, ThRoot, TrRoot };

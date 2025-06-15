@@ -29,6 +29,17 @@ export interface ITableProps extends Omit<IBaseProps, 'border'>, TableHTMLAttrib
   girth?: 'sm' | 'md' | 'lg';
 
   /**
+   * Determines whether the table rows should have a stretched appearance.
+   * Stretched rows take up the full width of the table, making it easier for users to read and navigate the table content.
+   * 
+   * @type {boolean}
+   * @default false
+   * @public
+   * @since 0.48.23
+   */
+  isStretched?: boolean;
+
+  /**
    * Determines whether the table rows should have a striped appearance.
    * Striped rows alternate background colors between consecutive rows, making it easier for users to distinguish between different rows of data.
    *

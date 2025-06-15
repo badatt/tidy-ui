@@ -57,6 +57,16 @@ describe('Table', () => {
     );
     expect(tree).toMatchSnapshot();
   });
+  it('Stretched render', () => {
+    const tree = render(
+      <TidyUiProvider theme={orchidLight}>
+        <Table isStretched>
+          <TableData />
+        </Table>
+      </TidyUiProvider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
   it('Dark mode striped render', () => {
     const tree = render(
       <TidyUiProvider theme={orchidDark}>
@@ -78,14 +88,14 @@ describe('Table', () => {
     expect(tree).toMatchSnapshot();
   });
   it('Column adjustment', () => {
-    const tree = render(
+    const { container } = render(
       <TidyUiProvider theme={orchidLight}>
         <Table caption="sample caption">
           <TableData />
         </Table>
       </TidyUiProvider>,
     );
-    const resizer = tree.getAllByRole('slider')[0];
+    const resizer = container.querySelector('div[data-tui-name="Resizer"]')!;
     act(() => {
       fireEvent.mouseDown(resizer);
       fireEvent.mouseMove(resizer);

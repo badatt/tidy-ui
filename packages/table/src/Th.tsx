@@ -59,9 +59,9 @@ const Th = (props: IThProps): JSX.Element => {
   }, []);
 
   return (
-    <ThRoot ref={thRef} role="cell" {...rest}>
+    <ThRoot ref={thRef} data-tui-name="Th" {...rest}>
       {ele ? React.cloneElement(ele, {}, children) : children}
-      <Resizer ref={resizerRef} role="slider" />
+      <Resizer data-tui-name="Resizer" ref={resizerRef} />
     </ThRoot>
   );
 };
